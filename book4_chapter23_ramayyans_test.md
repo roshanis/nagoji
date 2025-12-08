@@ -1,0 +1,215 @@
+# Book IV, Chapter 23: Ramayyan's Test
+
+The summons came on a day that smelled of ink and rain.
+
+I had spent the morning on the marches, watching a new patrol route settle into the feet of my horsemen. By afternoon, clouds had rolled in from the west, blurring the line of the hills. When I reached the fort, my clothes were damp and my temper short.
+
+Ramayyan waited for me in his small room off the war hall, the one that looked onto a narrow courtyard where a single neem tree grew.
+
+“You ride in all weathers now,” he said, as I shook rain from my turban.
+
+“The marches do not stay still when the sun hides,” I replied.
+
+He nodded toward a low stool.
+
+“Sit,” he said. “We have a matter to discuss that is not for the hall.”
+
+A palm leaf lay on the table between us, weighted with a small stone.
+
+He did not touch it.
+
+“You have been busy,” he said. “Putting out small fires along the northern border. Reminding rajas and petty chiefs that Dutch coins are not the only shining things in this world.”
+
+“You told me that was my work,” I said.
+
+“It is,” he said. “So is this.”
+
+He lifted the stone and turned the leaf so that I could see the script.
+
+It was not his hand.
+
+The curves and strokes were Deccan, the ink a little thicker, the pressure on the fiber different.
+
+My own name sat near the top.
+
+Nagoji Sawant,  
+Who rode once under our banners and now rides for a southern king.
+
+“From Pune,” I said softly.
+
+“From a camp near it,” Ramayyan said. “Carried by a trader who thought he was being clever and by a spy who was cleverer.”
+
+I read.
+
+Brother in arms,
+
+Word has reached us that you did not die in the sea as some said, but live in the south, drilling horse for a small king who has found a way to trouble Europeans.
+
+You have seen their methods now. You know their weaknesses and their strengths. You also know the weaknesses of this southern kingdom, for all its new walls.
+
+Our masters plan.
+
+The northern storms will soon settle; attention will turn to lands that have grown fat while we fought elsewhere. The Peshwa and his sardars speak of pepper and ports and of not letting any small ruler think he can stand alone when the confederacy stretches its hand.
+
+If you return now, with what you have learned, you will not come back as a simple cavalary officer. You will have estates confirmed, your family freed from certain levies, your advice heard. You could help guide our charge south so that we do not waste men as company fools did at Colachel.
+
+If you stay, you risk being trapped when the map changes under your feet.
+
+Think on this.
+
+For now, tell us what you know.
+
+He did not sign his name, but the tone told me who had written it.
+
+A sardar I had ridden under in the Konkan, a man who had once clapped me on the shoulder after a well judged raid and said, “You see further than I do, Nagoji. One day that will get you killed or much land.”
+
+Here he was, offering the latter and implying the former.
+
+“How long have you had this?” I asked.
+
+“Long enough to read it more than once,” Ramayyan said. “Not long enough for the ink to fade.”
+
+“And you did not burn it,” I said. “Interesting.”
+
+He regarded me levelly.
+
+“It is not my place to burn your past,” he said. “Only to weigh what it asks of your present.”
+
+“You think this is a trick,” I said.
+
+“Everything is a trick,” he said. “That does not mean it is not also sincere.”
+
+He leaned back, hands resting lightly on his knees.
+
+“They offer you land, status, a place beside men whose blood you share,” he said. “They ask for information. Not yet for betrayal. That will come later, if the first request goes unchallenged.”
+
+“You brought me here knowing this,” I said.
+
+“Yes,” he said. “I could have had the messenger arrested, the letter intercepted, and never told you. Instead, I show you. Ask yourself why.”
+
+“You want to see what I do,” I said. “You want to move me from the 'risk' line in your ledger to the 'asset' one or the other way around.”
+
+He did not pretend otherwise.
+
+“The Maharaja trusts you more than most of his own nobles,” he said. “That trust has kept some of this kingdom's bones from breaking. It also makes you a potential crack. I prefer to test a wall before the storm does.”
+
+Rain tapped softly on the tiles above.
+
+I looked at the leaf again.
+
+Estates confirmed.  
+Family freed from certain levies.  
+Advice heard.
+
+I could picture my father straightening his back a little if such promises came true. I could see my brother's wife cooking with a little more ghee, my nephews wearing slightly better cloth. I could imagine riding up to one of the old Deccan forts as a man whose name scribes took down without asking for a patron's seal.
+
+I could also see the other images the leaf did not paint.
+
+Travancore forts with their star teeth turned inward. Dutch and other European faces watching as Maratha horse poured down from the north, trying to do in one sweep what companies had failed to do in years of nibbling. Padmini's estate burned not by Kollamkara's men but by my own countrymen. Revathi watching from Velinadu as yet another power tried to fold her land into a larger map.
+
+“They ask for what I know,” I said. “If I tell them nothing, I insult men I once rode beside. If I tell them everything, I open this kingdom's ribs.”
+
+“If you tell them nothing useful,” Ramayyan said, “you close one door but leave others uncertain. If you tell them only what helps them avoid company mistakes without helping them cut us, you may keep two houses from collapsing on each other.”
+
+“Half truths,” I said.
+
+“Selected truths,” he replied.
+
+His eyes sharpened.
+
+“This is the test, Nagoji,” he said. “Not whether you will ride north tomorrow. I do not believe you will. The test is whether, when confronted with a choice between making Travancore easier prey and making your old masters slightly less blind, you know where to place your weight.”
+
+He slid a blank leaf toward me, along with a stylus.
+
+“Write,” he said. “I will not guide your hand. I will read what you write. Then I will decide what to send.”
+
+The stylus felt heavier than any sword.
+
+For a moment, the room spun with images from both lives.
+
+My mother tying a charm on my wrist before my first real battle. Padmini handing me a cup of water under the jackfruit tree. Keshavrao's face as the rope slipped from his grasp. Lannoy's profile as he watched a new bastion take shape. The boy on the palm tower tracking Dutch sails. My brother's letter, the line about men in Pune mispronouncing Marthanda Varma's name.
+
+I began to write.
+
+Not quickly, not slowly.
+
+I wrote of Colachel, but not of every detail.
+
+I described the Dutch error in landing on a narrow strip of sand without securing the flanks. I wrote of how their square became a trap when muskets and horse hit from unexpected angles. I mentioned the way wet ground betrayed heavy boots. I did not write that Travancore drills had improved since then. I did not mention the new bastions' angles, the specific range of certain batteries, the weaknesses we had patched and those we had only marked for later.
+
+I wrote of European arrogance, how it made them underestimate Indian infantry, how it made them believe a few cannon and flags could break houses that had buried their dead before under other empires.
+
+I did not write of internal rifts in Travancore, of which chiefs grumbled, of which houses might be tempted to switch sides if a large Maratha force appeared.
+
+I wrote that if the confederacy wished to ride south with some hope of not ending as Dutchmen had, it would need to treat coastal houses as partners, not possessions, and to understand that matrilineal estates did not respond to threats the way some fief holders did.
+
+I did not write that such understanding came with a cost that my old masters had never seemed willing to pay.
+
+When I finished, my hand ached.
+
+Ramayyan took the leaf and read it in silence.
+
+His expression did not change much, but I saw his eyes pause on certain lines.
+
+When he looked up, his gaze was thoughtful.
+
+“You have given them enough to avoid dying stupidly if they ever fight Europeans on beaches,” he said. “You have not given them a clear path through our forts.”
+
+“If they do come, I would rather they hit Dutch and other company men effectively than stumble into our guns like idiots,” I said. “But I will not pave their road over Padmini's fields or Velinadu's shrines.”
+
+He nodded once.
+
+“I will send this,” he said. “With a few lines of my own, reminding your sardar that Travancore is not a prize to be assumed, but a possible ally to be courted. If he is as clever as you once thought, he will hear the tone.”
+
+“And if he is not?” I asked.
+
+“Then his horse will sink in sand one day and I will not weep,” he said.
+
+He set the leaf aside.
+
+“You understand what you have done,” he added. “You have closed a door on one future. You could have written a different letter, one that made this court easier to cut. I would have seen it. The Maharaja would have seen it. We would have acted.”
+
+“You would have cut me before they could cut you,” I said.
+
+“Yes,” he said, without flinching. “Today, I do not have to.”
+
+He reached for another leaf, smaller, and wrote two short lines.
+
+Sawant, Nagoji – tested with northern letter.  
+Chooses Travancore when choice is sharp.
+
+He did not hide it from me.
+
+“You keep this in your ledger,” I said.
+
+“I keep it in mine,” he said. “You keep it in your bones.”
+
+When I stepped out into the courtyard, the rain had stopped.
+
+The neem tree dripped slowly, its leaves gleaming.
+
+Padmini found me there, as if she had been waiting.
+
+“Ram summoned you,” she said. “He had the look he gets when balancing pots on a shelf.”
+
+“He tested a shelf,” I said. “It did not crack.”
+
+“Good,” she said. “I am too old to build new ones for this house.”
+
+Revathi's reaction came later, through a line in one of her sharp letters.
+
+You have done what I expected and feared, she wrote. You have chosen to make the Deccan less blind without making Travancore naked. That is a narrow path. Do not pretend it is not also a chain.
+
+She was right.
+
+Every choice binds.
+
+Ramayyan's test had not been whether I loved my hills more than this coast. It had been whether, when pressed, I would betray one home to save another.
+
+I had chosen.
+
+The ledger had been updated.
+
+The storm that would test those lines had not yet arrived.
+
+But when it did, at least I would not have to wonder whose side of the wall I was standing on.

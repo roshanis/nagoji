@@ -1,0 +1,167 @@
+# Book I, Chapter 6: The Coastal Hall
+
+They did not take me to a palace.
+
+In the Deccan, kings and sardars received men in high halls thick with incense, with carpets to muffle footsteps and paintings on the walls to remind visitors who held power. Here, on this coast, the hall where my fate shifted stood within sight of the sea.
+
+We travelled south along a road that clung to the edge of the land. On one side, palm groves and pepper gardens climbed gentle slopes. On the other, low cliffs dropped toward a strip of sand and the grey plane of the ocean beyond. The air carried a constant tang of salt and something metallic, as if the very wind had tasted blood.
+
+The bulls were gone. This time I rode, though not as I had once ridden.
+
+The horse beneath me was a coastal animal, smaller than the Deccan mares I knew, with a rougher coat and a suspicious eye. He did not know my hand, and I did not yet know his language. Still, the feel of a moving back under me, the sway of a neck, the rhythm of hooves on packed earth, did something to straighten my spine.
+
+Ibrahim rode on a sturdy pony at my side, his clothes different from the day I had first seen him in the fisher village. Now he wore a short coat over his vest, its pockets bulging with something that clinked softly when he moved.
+
+“Gifts,” he said when he saw me glance. “Information costs, bhai. So do favours. When we reach the hall, remember that.”
+
+Ahead, the road dipped. A narrow inlet cut into the land, its water dark and still. Boats lay drawn up along its banks, some broad bellied cargo craft, others slender canoes for river work. The smell of fish was strong here, mixed with the smoke of cooking fires.
+
+On a rise beyond the inlet, a structure of wood and stone looked down on everything.
+
+It was not large, not compared to the great forts of the north, but there was purpose in every line. The outer wall was of laterite blocks, red and rough, topped with a parapet from which musketeers could fire. Within that wall rose a long hall with an open front, its wooden pillars carved with curling motifs of vines and tigers. Behind the hall, on higher ground, I glimpsed the start of a rampart that ran inland, following the shape of the land.
+
+“This is only one claw,” Ibrahim said softly. “The fort beyond is the paw. The kingdom itself is the beast.”
+
+Guards in white cotton and dark sashes watched us approach. They carried matchlocks and spears, their posture alert but not nervous. One recognised Ibrahim and raised a hand in greeting.
+
+“The king is in council,” he said. “You are expected.”
+
+The words sent a little shock through me. In most kingdoms I had known, days would pass between a stranger's arrival and an audience with the ruler. Messages would be sent. Names would be checked. Here I had crossed a few hills from a minor compound and already the king himself waited at the end of the road.
+
+They took our horses. As I dismounted, the coastal animal tossed its head and snorted, as if glad to be free of my unfamiliar weight. I patted its neck without thinking, feeling the warm hide, smelling sweat and salt. My bandaged fingers ached with the remembered absence of Kanka.
+
+We climbed a short flight of stone steps to the hall.
+
+Inside, the air was cooler. The roof was high enough to let smoke and heat rise, yet low enough that one could still hear the sea beyond when the hall fell quiet. Mats covered the floor. Men sat cross legged in loose rows, leaving a clear space in the centre.
+
+At the far end, on a slightly raised wooden platform, a man sat with a spear resting against his shoulder and a rolled map on the mat before him.
+
+He wore no crown. His hair was tied back, his forehead marked with the simple lines of a Vaishnavite devotee. His upper body was bare save for a single cloth thrown over one shoulder. A sword lay within easy reach, its hilt polished by use, not ornament.
+
+At his side sat another man with sharp, fine features and a thin frame wrapped in a plain white cloth. In front of him lay a low table with palm leaf bundles, ink and a stylus. His eyes moved constantly, taking in everything, even when the king's attention seemed fixed on the map.
+
+“Marthanda Varma,” Ibrahim murmured. “And his diwan. Remember what I said about gifts.”
+
+We stepped forward. Conversations in the hall dimmed. Eyes turned. I felt the familiar prickling on the back of my neck that comes when one walks alone into a space where everyone else already knows their place.
+
+I bowed. Not as deeply as a subject would, but enough to acknowledge the man on the platform as something other than a fellow soldier.
+
+“Your Majesty,” Ibrahim said, his voice smooth. “This is the Maratha rider I wrote of. He comes from Portuguese chains and storm water, and he carries knowledge of both.”
+
+Marthanda Varma's eyes left the map and settled on me.
+
+They were dark, steady eyes, the kind that measure before they strike. I had seen such eyes in generals' tents and in the glare of men who held small forts against impossible odds. There was nothing soft in them, but there was nothing careless either.
+
+“You were on the ship that broke near our fishermen's village,” he said. His Hindustani was accented but clear.
+
+“Yes, Your Majesty.”
+
+“You rode for the Peshwa.”
+
+“I did.”
+
+“You raided Portuguese outposts on the western roads that feed their ports.”
+
+“I did.”
+
+He gestured toward the bandages on my hands.
+
+“They questioned you.”
+
+“They tried.”
+
+Something like amusement flickered in his gaze, gone as quickly as it came.
+
+“Sit,” he said, pointing to a mat laid out a few paces away. “Speak. Tell me how they fight now on your coast. Tell me how their forts stand, how their captains think, how quickly they can bring ships when a local chief resists.”
+
+I sat. The diwan's eyes stayed on me, unblinking. His hand hovered over his stylus, ready to scratch on palm leaves anything he deemed worth remembering.
+
+For the next while, time lost its edges.
+
+I spoke of the Portuguese guns at Chaul and Daman, of the way they built their bastions thick and low to withstand cannon fire. I described their habit of keeping their best men near the flag, their worst at the edges of their empire. I spoke of trade agreements used as chains, of priests who walked ahead of soldiers to soften resistance in God's name, of small kings who had thought European alliances would protect them from their neighbours and had found instead that they had invited a wolf into their courtyards.
+
+The king listened without interruption. Only occasionally did his fingers move on the spear shaft, a small adjustment, a tiny tap. The diwan wrote nothing at first. Then, as I began to speak of cavalry and how Portuguese infantry responded to sudden movement on their flanks, his hand moved, scratching quick notes.
+
+At one point Marthanda Varma leaned forward, touched the map before him and asked, “Here. This river mouth. How many days from their nearest stronghold at full sail?”
+
+I closed my eyes for a moment, picturing the coastline as I had last seen it from the back of my horse. I thought of wind, of the usual routes, of how many days it had taken for replacement ships to arrive after we had burned a warehouse.
+
+“If the wind favours them,” I said, “three days. Four if they are unlucky. Longer if someone whispers wrong directions into the ear of a pilot.”
+
+He looked up at that.
+
+“You mistrust pilots?”
+
+“I mistrust everyone who touches a coin,” I said. “But men who steer ships can be made to see profit in many directions.”
+
+The corner of his mouth twitched again.
+
+“Ram,” he said without looking at the diwan, “remember that.”
+
+“Already marked, Maharaja,” the diwan replied. His voice was soft, almost gentle. It did not match the sharpness of his gaze.
+
+When I had finished, the hall felt oddly still, as if it were waiting for something.
+
+“You speak as if you have counted men and ships for years,” Marthanda Varma said. “Yet your own masters failed to keep you from their dungeons.”
+
+The words were not meant as an insult. They were simple fact. Still, they stung.
+
+“Any war has its losses, Your Majesty,” I said. “I misjudged a patrol near the coast. I paid the price. That does not make my other calculations less true.”
+
+“Perhaps,” he said. His gaze shifted to Ibrahim. “You trust him?”
+
+“As far as one can trust a man who owes you his life and hates the same enemies,” Ibrahim said. “Beyond that, trust is for priests.”
+
+The king chuckled once, a dry sound.
+
+“Well said,” he murmured.
+
+For a few breaths he studied me in silence.
+
+“We already have horse from the Nawab of Arcot,” he said. “Men who ride well enough. We have our own Nair warriors who can fight on foot or on small horses in this soil. We have Dutch fortifications in our minds, thanks to other Europeans who have chosen to be practical rather than loyal. What do you add that I do not already have?”
+
+It was the same question that had been asked in the coastal compound, only sharpened by the fact that this time it came from the mouth of a man who could, with a word, have me thrown back to the Portuguese or consigned to some pepper estate as expendable labour.
+
+I looked past him for a moment, out through the open side of the hall. From here, I could see the inlet below, the boats moored there, the stretch of sand beyond. Men moved like ants along the shore, unloading sacks, checking nets, shouting to one another in Malayalam.
+
+Above them all the sea lay, flat and deceptive. Somewhere beyond that horizon sat Goa, with its dungeons. Somewhere farther still, Dutch hulls cut through foaming water, carrying men who believed pepper and souls could belong to them by right.
+
+“You have horse from Arcot,” I said slowly. “You have Nair warriors who know this land as they know their own pulse. You have guns and forts and men from across the sea who teach you how Europeans think. What you do not yet have is someone who has ridden into a European line and felt it break. Someone who has watched their neat formations falter not from fear of God, but because a hoof struck at the right moment in the right place.”
+
+I thought of Kanka then, of the wet sand beneath his hooves near Chaul, of the way Portuguese musketeers had flinched when our horses came at an angle they had not practised for in their drills. I thought of Keshavrao's wide eyes in the storm, and of the moment when I had chosen to live with that weight on my chest.
+
+“You have men who can build ships and forts,” I said. “I can help you turn speed into a weapon against men who think their guns make them untouchable. I can help you teach your riders not to fear the sound of European volleys. I can show them where to strike, when to pull away, how to make men who drilled on flat European fields die confused on this coast.”
+
+The hall remained quiet. Somewhere outside a bird called. The waves hissed on the sand.
+
+Marthanda Varma tapped the butt of his spear against the mat once, twice.
+
+“Ram,” he said.
+
+The diwan inclined his head.
+
+“The Nawab's horse know the straight charge,” he said. “They do not know the feint and the vanish the way Deccan riders do. Our Nairs on horse fight bravely, but not yet with discipline against guns. This man could help shape that. If he is lying, the Dutch will kill his work for us the first time we try it.”
+
+The king smiled thinly.
+
+“You always see the two faces of the coin,” he said. He looked back at me. “Very well, Nagoji Sawant. For now, you are not a guest. You are not yet a servant either. You are an experiment.”
+
+He glanced past me toward the open hall.
+
+“Outside this fort, a strip of land runs along the shore, too wet for most cavalry work, too narrow for big batteries. It is also where the Dutch will expect us to be weakest. Take the Arcot horse. Take a hundred Nair riders. Show me something there I have not already imagined.”
+
+The way he said it made it clear that he had imagined a great deal.
+
+I rose, ignoring the pull of healing wounds.
+
+“As you command, Your Majesty.”
+
+“Ram will see that you have what you need,” he said. “Do not waste men. I spent too many to sit on this mat. I do not enjoy throwing them away. Even when the gods demand it.”
+
+The diwan stood, gathering his palm leaves.
+
+“Come,” he said. “Let us see what a storm dragged into our nets can do when given horse instead of chains.”
+
+As I followed him out of the hall, the roar of the sea grew louder. For the first time since Goa, I felt my blood beat in my veins with something other than pain and stubbornness.
+
+Storms had tried to kill me. Now I would learn whether I could become one.
