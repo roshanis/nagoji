@@ -50,6 +50,12 @@ The absorption of Kottarakkara and the fate of the Elayadathu Swaroopam's ruling
 
 Local Kottarakkara history remembers her only as "the princess of Elayadathu Swaroopam" or "the last queen of this dynasty." This novel gives her the name Savitri and imagines her relationship to Revathi Bayi and her garden exile in Cochin. The core facts, that a legitimate claimant was refused and exiled, are historical.
 
+**Assassination attempts and the Ettuveettil Pillamar**
+
+Marthanda Varma faced repeated assassination attempts throughout his reign, particularly from the Ettuveettil Pillamar (Lords of the Eight Houses), powerful nobles who had controlled much of Travancore's land and revenue before his centralising reforms stripped their authority. Historical sources record attempts including bowmen on palace walls, poisoned lamp oil in temple sanctums, and knives in festival crowds. The novel's chevar scene and Ramayyan's references to "three serious attempts" draw on this documented pattern of violence.
+
+The *chevar* tradition, sworn warriors who took oaths to kill or die trying, was real in parts of South India. Though the specific attack in the novel is invented, such men were employed by aggrieved houses against rulers they considered usurpers. That Marthanda Varma survived these attempts and went on to break the Eight Houses entirely shaped his reputation as both ruthless and divinely protected.
+
 **Trippadidaanam and the Padmanabhaswamy Temple**
 
 Marthanda Varma's act of dedicating his kingdom to Lord Padmanabha, declaring himself merely "Padmanabha Dasa" (Servant of Padmanabha), is historical. This *trippadidaanam* transformed the king from sovereign to divine steward and made Travancore theoretically the property of a god.
@@ -57,6 +63,8 @@ Marthanda Varma's act of dedicating his kingdom to Lord Padmanabha, declaring hi
 The novel treats this as both sincere devotion and shrewd statecraft. Contemporaries and later historians have debated how much was faith and how much was political genius, making the kingdom untouchable by earthly claimants. This ambiguity is preserved in the narrative.
 
 The Padmanabhaswamy Temple in Thiruvananthapuram was rebuilt as the monumental structure we see today under Marthanda Varma. The main Vishnu idol, largely destroyed in a fire during his predecessor Rama Varma's reign, was reconstructed. He created the Ottakkal Mandapam and the Sheevelippura, and completed five of the temple gopura's seven floors. New state ceremonies, including Murajapam and Bhadra Deepam, were introduced during his reign.
+
+The connection between survival and sacred architecture runs through the novel: a king who had poison planted in temple oil went on to rebuild that same temple as a statement that neither assassins nor fire could stop what he was building. The trippadidaanam was the final move, giving to god what men had tried to take by steel.
 
 **Thiruvananthapuram and cultural patronage**
 
