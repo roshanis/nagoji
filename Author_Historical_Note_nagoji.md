@@ -50,10 +50,16 @@ The absorption of Kottarakkara and the fate of the Elayadathu Swaroopam's ruling
 
 Local Kottarakkara history remembers her only as "the princess of Elayadathu Swaroopam" or "the last queen of this dynasty." This novel gives her the name Savitri and imagines her relationship to Revathi Bayi and her garden exile in Cochin. The core facts, that a legitimate claimant was refused and exiled, are historical.
 
-**Trippadidaanam: Surrendering the Kingdom to God**
+**Trippadidaanam and the Padmanabhaswamy Temple**
 
 Marthanda Varma's act of dedicating his kingdom to Lord Padmanabha, declaring himself merely "Padmanabha Dasa" (Servant of Padmanabha), is historical. This *trippadidaanam* transformed the king from sovereign to divine steward and made Travancore theoretically the property of a god.
 
 The novel treats this as both sincere devotion and shrewd statecraft. Contemporaries and later historians have debated how much was faith and how much was political genius, making the kingdom untouchable by earthly claimants. This ambiguity is preserved in the narrative.
+
+The Padmanabhaswamy Temple in Thiruvananthapuram was rebuilt as the monumental structure we see today under Marthanda Varma. The main Vishnu idol, largely destroyed in a fire during his predecessor Rama Varma's reign, was reconstructed. He created the Ottakkal Mandapam and the Sheevelippura, and completed five of the temple gopura's seven floors. New state ceremonies, including Murajapam and Bhadra Deepam, were introduced during his reign.
+
+**Thiruvananthapuram and cultural patronage**
+
+Thiruvananthapuram became a prominent city in Kerala under Marthanda Varma. As neighbouring chiefdoms were absorbed, artists and scholars from these places migrated to the capital, transforming it into a cultural centre. Marthanda Varma gave patronage to temple art forms including Koothu, Padhakam, Kathakali, Thullal and Koodiyattam. This cultural flowering, built partly on the displacement of older houses, adds another layer to the novel's central tension between state building and human cost.
 
 Readers interested in the real Travancore, Marthanda Varma, De Lannoy and the Dutch on the Malabar coast are encouraged to consult modern scholarly work and to visit surviving forts and temples. This book is not a textbook. It is a story about how a small kingdom learned to ride out storms, told by a man who might have stood in their spray.

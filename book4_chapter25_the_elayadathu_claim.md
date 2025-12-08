@@ -268,7 +268,11 @@ He walked the length of the mandapa alone.
 
 Every eye followed him. Every breath held.
 
-At the threshold of the sanctum, the air grew heavy, pressed down by the weight of stone and centuries. Inside, the massive form of the deity—Lord Padmanabha reclining on the great serpent Anantha—was visible only in fragments of gold and shadow. The serpent's hoods seemed to shift in the flickering light, a thousand eyes watching the one man who dared to stand before them.
+At the threshold of the sanctum, the air grew heavy, pressed down by the weight of stone and centuries. Inside, the massive form of the deity—Lord Padmanabha reclining on the great serpent Anantha—was visible only in fragments of gold and shadow.
+
+But the true weight of this place was not in the stone. It was under it. We all knew what lay in the vaults beneath the flagged floor. Centuries of the coast's harvest—the black gold of pepper—converted into the yellow gold of offerings. Roman aurae, Venetian ducats, Dutch guilders, ancient coins from empires that had risen and fallen while this temple stood. Every sack of spice that had left these shores had returned as tribute, buried here in the dark, a hoard vast enough to buy the Dutch East India Company three times over.
+
+The serpent's hoods seemed to shift in the flickering light, a thousand eyes watching the one man who dared to stand before them.
 
 Marthanda Varma stopped.
 
