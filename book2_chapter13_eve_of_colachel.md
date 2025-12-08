@@ -211,13 +211,15 @@ Padmini stood near the inner gate, handing small packets of kumkum and ash to an
 
 Ibrahim brought a small brass lamp from the mosque by the shore and set it discreetly near the temple steps, the light from it mingling with the others.
 
-“The sea does not care whose name you call when it takes you,” he murmured to me. “Best to have several listening.”
+"The sea does not care whose name you call when it takes you," he murmured to me. "Best to have several listening."
 
-Even Lannoy, still a prisoner then, watched from a shadowed corner under guard, eyes moving over the lit faces.
+Raza Khan stood apart with his Arcot men, their hands pressed together in their own way, their lips moving in prayers that belonged to other lands. We had all come from somewhere else. Tomorrow we would bleed into the same sand.
 
-“In my land,” he said quietly, “we bless cannon with Latin. Here you bless men with oil. I do not know which is wiser.”
+"You think they pray on those ships?" Ibrahim asked, nodding toward the dark line of the sea.
 
-“We will find out tomorrow,” I said.
+"They pray to their god and their profit," I said. "I do not know which they trust more."
+
+"We will find out tomorrow," he said.
 
 When the last chant faded and the priests banked the central flame, the air in the courtyard felt thicker, not with smoke, but with the weight of what had been asked and promised in whispers.
 

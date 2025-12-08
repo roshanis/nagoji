@@ -86,7 +86,7 @@ Nagoji chooses to stay in Travancore, rises to command cavalry under De Lannoy, 
   Ramayyan engineers a situation where Nagoji could shift his loyalty back toward the Maratha world or protect Travancore, and Nagoji chooses Travancore at real personal cost, which confirms for Revathi Bayi that he stands with the king’s project.
 
 - **Chapter 24: Fire in the Pepper Fields**  
-  Dutch backed raiders and internal revolt strike at once, Nagoji rides hard between forts and estates, and he orders a scorched strip of Padmini Amma’s land to deny cover to enemies, saving the kingdom but shattering that trust and prompting Revathi’s final refusal to marry him.
+  Dutch backed raiders and internal revolt strike at once, Nagoji rides hard between forts and estates, and he orders a scorched strip of Padmini Amma's land to deny cover to enemies, saving the kingdom but straining that alliance.
 
-- **Chapter 25: Horse of the Monsoon**  
-  Years later an older Nagoji inspects young recruits drilling in a reformed army under monsoon clouds, thinks of Goa, Keshavrao and the northern road he never took, and watches new hooves pound wet ground in the kingdom he chose to help build.
+- **Chapter 25: The Elayadathu Claim**  
+  The strategic necessity of Marthanda Varma's consolidation becomes clear as Mysore, the Nizam, and Arcot circle. When Kottarakkara's chief dies in confinement, Princess Savitri of Elayadathu Swaroopam, Revathi's kinswoman, claims succession. The king refuses, she flees to the Dutch, and the resulting battle ends with her exile to Cochin. In a ceremonial night at Padmanabhaswamy temple, Marthanda Varma lays his sword at the deity's feet, surrendering the kingdom to god so that he can keep it forever. Revathi chooses to be the one who remembers what the kingdom cost, and Nagoji, fully committed now, watches the monsoon fall on the state they built from broken houses.

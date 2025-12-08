@@ -268,21 +268,29 @@ He walked the length of the mandapa alone.
 
 Every eye followed him. Every breath held.
 
-At the threshold of the sanctum, where the deity's presence filled the air like heat before a storm, he stopped. He knelt on the cold stone. He laid the sword at the feet of Lord Padmanabha.
+At the threshold of the sanctum, the air grew heavy, pressed down by the weight of stone and centuries. Inside, the massive form of the deity—Lord Padmanabha reclining on the great serpent Anantha—was visible only in fragments of gold and shadow. The serpent's hoods seemed to shift in the flickering light, a thousand eyes watching the one man who dared to stand before them.
+
+Marthanda Varma stopped.
+
+He knelt on the cold stone. The silence in the mandapa was absolute; I could hear the hiss of oil in the nearest lamp.
+
+He lowered the sword.
+
+It did not clatter. He placed it with the care of a father laying down a sleeping child, steel touching stone with a soft, final *click*.
 
 And then he spoke.
 
 "From this day," he said, his voice carrying through the sudden silence, "I am no longer king of this land. I am only the servant of He who lies here. All that I have taken, all that I have built, all that I have paid for in blood and exile and broken houses, I give to Him. The kingdom is His. I merely hold it in trust."
 
-The priests' chanting swelled, accepting the gift.
+The priests' chanting swelled, a deep, resonant vibration that seemed to come from the floor itself, accepting the gift.
 
 I watched the nobles' faces in the lamplight.
 
-Some looked moved, tears glinting at the edges of their eyes. The pious among them saw a king humbling himself before his god, surrendering earthly glory for divine service.
+Some looked moved, tears glinting at the edges of their eyes. The pious among them saw a king humbling himself before his god, surrendering earthly glory for divine service. They saw devotion.
 
-Others saw something else.
+Others saw the trap.
 
-Near the back, where I stood, a minor chief from the northern marches leaned toward his neighbour.
+Near the back, where I stood, a minor chief from the northern marches leaned toward his neighbour, his eyes wide.
 
 "He has given the land to god," he murmured, his voice barely audible above the chanting, "so that he can keep it forever."
 
@@ -290,13 +298,15 @@ His neighbour's lips twitched but did not smile.
 
 "Who can take from a god what a god owns?" the first man continued. "Not Mysore. Not the Nizam. Not the Dutch. Not even a woman with a legitimate claim."
 
+I looked at Ramayyan. The Dalawa was not watching the King. He was not looking at the deity. His gaze was sweeping the rows of bent heads, cataloguing every hesitation, every stiff conflict in a noble's shoulder. He was checking the mortar on this new wall they had built.
+
 I understood then.
 
-This was not surrender. This was the final fortification. By giving the kingdom to the deity, Marthanda Varma had made it untouchable. No future conqueror could claim Travancore without claiming to steal from Padmanabha himself. No rival house could demand succession without demanding it from a god.
+This was not surrender. This was the final fortification. By giving the kingdom to the deity, Marthanda Varma had made it untouchable. No future conqueror could claim Travancore without claiming to steal from Padmanabha himself. No rival house could demand succession without demanding it from a god. To rebel now was not treason; it was blasphemy.
 
-He had built walls of stone and armies of men. Now he built a wall of faith.
+He had built walls of stone and armies of men. Now he built a wall of faith, and it was the strongest of them all.
 
-The king, the servant now, rose from his knees. The sword remained at the deity's feet.
+The king, the servant now, rose from his knees. The sword remained at the deity's feet, drinking the lamplight.
 
 When he turned to face the assembly, his eyes found mine for a moment.
 

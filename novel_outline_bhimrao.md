@@ -221,9 +221,11 @@
 - In one decisive action he orders a scorched strip near Padmini Amma's lands to deny cover to raiders, protecting the kingdom but wounding their personal relationship and confirming Revathi Bayi's fear that he will always choose the king's project over the old order.  
 - The chapter ends with smoke over pepper vines, Nagoji standing between Padmini Amma's anger and Ramayyan's cold approval.
 
-### Chapter 25: Horse of the Monsoon
+### Chapter 25: The Elayadathu Claim
 
-- Final chapter returns to Nagoji years later, an established cavalry general inspecting ramparts and training grounds that he helped design with De Lannoy.  
-- Young recruits from different communities drill together, evidence that Travancore has changed under the pressure of war and reform.  
-- Nagoji thinks of Goa, of Keshavrao, of the road north he never took, and of the storms that made him the man he is, feeling the weight of his choice without regret or easy comfort.  
-- The novel closes on a concrete image that ties back to the opening: hooves on wet ground as a new generation of horsemen charge in practice beneath monsoon clouds, while Nagoji watches, knowing that storms will keep coming and that he has helped build a kingdom that can ride through them.
+- The strategic necessity of Marthanda Varma's consolidation is laid bare: a map showing Mysore, the Nizam, Arcot, and the Dutch, each a coloured threat. The king explains that a hundred small kingdoms are a hundred throats to cut; one larger kingdom is a fist.  
+- Kottarakkara, the last independent house, is absorbed. Its chief dies in confinement. Princess Savitri of Elayadathu Swaroopam, the senior woman of the line and Revathi's kinswoman, claims succession under matrilineal law.  
+- Marthanda Varma refuses. Savitri flees to the Dutch, who arm her cause. The resulting battle at Kottarakkara ends with her capture and exile to Cochin.  
+- In a ceremonial night at Padmanabhaswamy temple, Marthanda Varma lays a sword at the deity's feet and surrenders the kingdom to Lord Padmanabha. Nobles mutter: "He has given the land to god so that he can keep it forever." The king becomes Padmanabha Dasa.  
+- Revathi confronts Nagoji one final time. She chooses to be "the one who remembers" what the kingdom cost, while he remains the king's sword.  
+- The novel closes with Nagoji on the walls, monsoon falling, watching the kingdom they built from broken houses, carrying the weight of what it cost and knowing that some things do not wash away.
