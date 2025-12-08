@@ -1,4 +1,4 @@
-# Author's Historical Note: Horse of the Monsoon
+# Author's Historical Note: Blood and Thrones
 
 This novel is fiction built on a real landscape.
 
@@ -42,6 +42,18 @@ Weapons, armour and tactics are based on period appropriate sources: matchlocks,
 
 Chronology has been tightened. Real campaigns, fort projects and diplomatic exchanges that in reality unfolded over many years are compressed into fewer scenes so that the narrative has shape and momentum. Some real places are renamed or combined, and some invented estates and forts are placed in plausible but fictional locations to give characters room to move.
 
-The novel is written from inside Nagoji’s head. He does not know everything a historian might know. He misreads motives, misses distant developments and interprets events through his own loyalties and fears. Where his account clashes with documentary history, the history wins; where the sources are silent, imagination has filled the gaps within what seems period plausible.
+The novel is written from inside Nagoji's head. He does not know everything a historian might know. He misreads motives, misses distant developments and interprets events through his own loyalties and fears. Where his account clashes with documentary history, the history wins; where the sources are silent, imagination has filled the gaps within what seems period plausible.
+
+**Elayadathu Swaroopam and Kottarakkara**
+
+The absorption of Kottarakkara and the fate of the Elayadathu Swaroopam's ruling line are based on historical events. Around 1739–1740, Travancore moved against this house. The chief of Kottarakkara did die in confinement at Trivandrum. A senior woman of the Elayadathu line did claim succession under matrilineal law, was refused recognition by Marthanda Varma, fled to Thekkumkur, was briefly reinstalled by the Dutch, and eventually surrendered and took asylum in Cochin.
+
+Local Kottarakkara history remembers her only as "the princess of Elayadathu Swaroopam" or "the last queen of this dynasty." This novel gives her the name Savitri and imagines her relationship to Revathi Bayi and her garden exile in Cochin. The core facts, that a legitimate claimant was refused and exiled, are historical.
+
+**Trippadidaanam: Surrendering the Kingdom to God**
+
+Marthanda Varma's act of dedicating his kingdom to Lord Padmanabha, declaring himself merely "Padmanabha Dasa" (Servant of Padmanabha), is historical. This *trippadidaanam* transformed the king from sovereign to divine steward and made Travancore theoretically the property of a god.
+
+The novel treats this as both sincere devotion and shrewd statecraft. Contemporaries and later historians have debated how much was faith and how much was political genius, making the kingdom untouchable by earthly claimants. This ambiguity is preserved in the narrative.
 
 Readers interested in the real Travancore, Marthanda Varma, De Lannoy and the Dutch on the Malabar coast are encouraged to consult modern scholarly work and to visit surviving forts and temples. This book is not a textbook. It is a story about how a small kingdom learned to ride out storms, told by a man who might have stood in their spray.

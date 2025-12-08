@@ -71,7 +71,7 @@ The battle of Colachel shatters Dutch power, introduces De Lannoy as a prisoner 
 
 ## Book IV: Teeth of the Tiger
 
-Nagoji chooses to stay in Travancore, rises to command cavalry under De Lannoy, faces internal and external crises that force him to hurt people he loves, and ends as an older general who has helped forge a kingdom built to ride out storms.
+Nagoji chooses to stay in Travancore, rises to command cavalry under De Lannoy, faces internal and external crises that force him to hurt people he loves, breaks an old border house tied to Revathi, and ends as an older general who knows exactly what his kingdom has cost.
 
 - **Chapter 20: Command of the Marches**  
   When Marthanda Varma offers land and a permanent cavalry command on the northern frontier, Nagoji accepts, binding himself openly to Travancore and complicating his ties to Padmini Amma and to Revathi Bayi.
@@ -86,7 +86,7 @@ Nagoji chooses to stay in Travancore, rises to command cavalry under De Lannoy, 
   Ramayyan engineers a situation where Nagoji could shift his loyalty back toward the Maratha world or protect Travancore, and Nagoji chooses Travancore at real personal cost, which confirms for Revathi Bayi that he stands with the king’s project.
 
 - **Chapter 24: Fire in the Pepper Fields**  
-  Dutch backed raiders and internal revolt strike at once, Nagoji rides hard between forts and estates, and he orders a scorched strip of Padmini Amma's land to deny cover to enemies, saving the kingdom but straining that alliance.
+  Dutch backed raiders and internal revolt strike at once, Nagoji rides hard between forts and estates, and he orders a scorched strip of Padmini Amma's pepper land to deny cover to enemies, saving the kingdom but carving a black wound through her fields and prompting Revathi’s final refusal to tie Velinadu’s line to his crowded ledger of oaths.
 
 - **Chapter 25: The Elayadathu Claim**  
-  The strategic necessity of Marthanda Varma's consolidation becomes clear as Mysore, the Nizam, and Arcot circle. When Kottarakkara's chief dies in confinement, Princess Savitri of Elayadathu Swaroopam, Revathi's kinswoman, claims succession. The king refuses, she flees to the Dutch, and the resulting battle ends with her exile to Cochin. In a ceremonial night at Padmanabhaswamy temple, Marthanda Varma lays his sword at the deity's feet, surrendering the kingdom to god so that he can keep it forever. Revathi chooses to be the one who remembers what the kingdom cost, and Nagoji, fully committed now, watches the monsoon fall on the state they built from broken houses.
+  As Mysore, the Nizam and European companies circle, the strategic logic of Marthanda Varma's consolidation becomes brutal: when Kottarakkara's chief dies in confinement, Princess Savitri of Elayadathu Swaroopam, Revathi's kinswoman, claims succession, the king refuses, she flees to Dutch support, and a short, bitter war ends with her exile to Cochin. Years later Nagoji, now grey and still on the walls he helped defend, thinks of Savitri’s distant garden and of Revathi choosing to remember what the kingdom cost, as the monsoon falls on a state built from broken houses.
