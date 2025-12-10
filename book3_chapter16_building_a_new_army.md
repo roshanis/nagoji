@@ -6,6 +6,36 @@ You look up one morning and realise that the men who had never seen a European v
 
 That was how I measured the years after Colachel.
 
+In the first weeks after the battle, before drills ground the days into one long line, I lay under the jackfruit tree at Padmini Amma's estate with my ribs bound tight and my head full of surf and smoke.
+
+Revathi came once, on the pretext of speaking with Padmini about grain and widows' stipends.
+
+When Padmini left us with a pot of buttermilk and a warning not to bleed on her courtyard, Revathi sat on the low wall near my feet, her eyes on the sky.
+
+“You look worse than the Dutch,” she said. “At least they had the sense to collapse on sand, not good stone.”
+
+“Sand is softer,” I said. “Stone holds the bruise longer.”
+
+She clicked her tongue and reached for the bandage at my side.
+
+“Who wrapped this?” she asked.
+
+“A Maratha who has tied more saddle girths than ribs,” I said.
+
+She undid the cloth with quick, efficient fingers, ignoring my hiss when the air touched the raw skin, then wound it again, tighter and neater.
+
+“This kingdom keeps trying to turn you into ash,” she murmured. “Do not give it all of you at once.”
+
+I wanted to tell her that part of me had already burned on that beach and in the letters I had not yet written north. Instead, I said, “I promised your Nagas I would bleed on their earth. I did not promise how much.”
+
+She tied off the bandage and sat back.
+
+“Learn to keep a little for yourself,” she said. “And for those who will have to live with whatever is left.”
+
+Then she rose and called for Padmini, business returning to her face like a veil.
+
+After that, the drills began in earnest.
+
 In drills. In walls. In the sound of muskets fired in rhythm on fields where once only temple drums echoed.
 
 Lannoy chose to stay.
@@ -68,17 +98,17 @@ We argued often.
 
 “Your cavalry should form in deeper blocks,” he said one day, tracing rectangles with his boot in the dust. “Two or three ranks. Their weight will punch through any line.”
 
-“And present a thicker target for Dutch cannon,” I replied. “Our horses are not war machines that regenerate overnight. We cannot afford to lose them in piles for the satisfaction of seeing one dramatic impact.”
+“And present a thicker target for cannon,” I replied. “Our horses are not war machines that regenerate overnight. We cannot afford to lose them in piles for the satisfaction of seeing one dramatic impact.”
 
 “Shock matters,” he insisted.
 
-“So does survival,” I said. “These men have fields to return to when the wet season comes. If you burn them all in one summer, who will plant your pepper”
+"So does survival," I said. "These men have fields to return to when the wet season comes. If you burn them all in one summer, who will plant your pepper?"
 
 He glared, then sighed.
 
 “You are stubborn,” he said.
 
-“You are surprised” I asked.
+"You are surprised?" I asked.
 
 He laughed, short and sharp.
 
@@ -104,15 +134,9 @@ When he did appear, he watched quietly, saying little. A slight tightening of hi
 
 He also rode out to inspect the new forts that rose along the northern marches.
 
-“We will not wait for the Dutch to bring their friends here,” he said, standing on a newly built bastion overlooking a narrow pass. “We have other enemies in this land. The Mysore men. The old chiefs who resent my line. The Marathas, if they decide to ride south. This army is not only for white men.”
+“We will not wait for the Dutch to bring their friends here,” he said, standing on a newly built bastion overlooking a narrow pass. “We have other enemies in this land. The Mysore men. The old chiefs who resent my line. The Tamil, Arcot, if they decide to ride south. This army is not only for white men.”
 
-His gaze slid to me when he said “Marathas”.
-
-“If your Peshwa comes,” he said, “I want him to find more than pepper and prayers waiting.”
-
-“He will find a man he once chained working your walls,” I said.
-
-“Then he will know I am not wasteful,” the king replied.
+His gaze slid to me when he said Tamil.
 
 Travancore's shape changed under this work.
 
@@ -144,11 +168,9 @@ A state that could kill Europeans.
 
 A state that could, in time, kill men who looked like me, if the map shifted.
 
-In quieter moments, alone under the jackfruit tree or on the fort wall at dusk, I thought of my village near Nashik.
+In quieter moments, alone under the jackfruit tree or on the fort wall at dusk, I thought of my village near Nashik. Of my brother walking the fields. Of my parents' hair turning white. Of Deccan forts that may or may not have heard of a small southern battle called Colachel.
 
-Of my brother walking the fields. Of my parents' hair turning white. Of Deccan forts that may or may not have heard of a small southern battle called Colachel.
-
-“You could go back,” Kulkarni said one evening as we watched Lannoy's men practice loading drills by lamplight. “You have earned the right. The king would not stop you. He might even send a letter to your Peshwa saying you fought well.”
+“You could go back,” Dhanaji said one evening as we watched Lannoy's men practice loading drills by lamplight. “You have earned the right. The king would not stop you. He might even send a letter to Peshwa saying you fought well.”
 
 “And then what?” I asked. “I arrive as a man who has seen how a small kingdom built for war thinks. They will either treat me as a curiosity or try to use me against this land. Either way, I will find myself in another man's web. At least here I know the strands.”
 

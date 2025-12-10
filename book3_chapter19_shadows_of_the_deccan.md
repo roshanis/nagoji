@@ -1,4 +1,4 @@
-# Book III, Chapter 18: Shadows of the Deccan
+# Book III, Chapter 19: Shadows of the Deccan
 
 News from the Deccan arrived the way monsoon storms do.
 
@@ -12,7 +12,7 @@ Then a letter arrived with my village's dust still clinging to it.
 
 Padmini found me in the shade of the jackfruit tree, as she often did, and tossed the small bundle into my lap.
 
-“From your hills,” she said. “The boy who brought it walked like a man used to stones, not sand. He eats too fast. That is how I know he comes from a place where grain is a worry.”
+“From your hills, my son,” she said, her voice softer than usual. “The boy who brought it walked like a man used to stones, not sand. He eats too fast. That is how I know he comes from a place where grain is a worry.”
 
 My fingers trembled slightly as I unwrapped the cloth.
 
@@ -150,7 +150,7 @@ He studied me.
 
 He set the letter down.
 
-“Understand this, Nagoji Sawant,” he said. “You are useful to me because you are Maratha and because you are not mine. You can speak to men in Pune in a way my own nobles cannot. You can tell them what you have seen here. You can make them fear and respect this kingdom, or you can make them see it as prey.”
+“Understand this, Nagoji,” he said. “You are useful to me because you are Maratha *and* because you are Padmini's son. You can speak to men in Pune in a way my other nobles cannot. You can tell them what you have seen here. You can make them fear and respect this kingdom, or you can make them see it as prey.”
 
 His gaze sharpened.
 
@@ -190,20 +190,78 @@ Revathi was blunter.
 
 “No,” she said. “I have an impatient one.”
 
-At night, when sleep did not come easily, I lay on my mat and listened to the layered sounds of the coast.
+She leaned back against the carved pillar, a playful glint entering her eyes that softened the hard truth of her words.
 
-Crickets. Distant waves. The murmur of a house settling. The faint ring of steel from late drills.
+“Besides,” she added, “do not let that silver chain weigh you down with too much hope. Even if you have a *tharavad* now, I am a Princess of Velinadu. We do not marry commoners, Nagoji. Even ones who think they have found a root.”
 
-Under those, if I let my mind travel, I could almost hear different sounds.
+It was said in jest, but the wall was there, invisible and ancient.
 
-Wind over dry Deccan hills. The clank of chains in a Goan dungeon. The crack of company muskets on another beach. The whispers of men in Pune debating whether to ride south.
+That impatient tongue was right. I could not stand in two rivers.
 
-Shadows, all of them.
+The next morning, I went to the market near the harbour, to a stall run by a Gujarati *sowcar*, a money changer whose networks of trust ran deeper than any royal decree.
 
-But shadows lengthen when the sun moves.
+I placed a heavy pouch on his table. It was gold, borrowed from Padmini Amma’s private vault. A debt I would repay with service, or blood.
 
-I had chosen to stay in Travancore for now. I had chosen to help build this army, this state. I would ride under its banner until the path under my horse told me otherwise.
+“This goes to Nashik,” I said. “To the house of Ramji Sawant.”
 
-The Deccan would have to accept that its son had become a man of two coasts.
+The trader weighed the pouch, his eyes widening slightly at the heft. “It is a long road, *Karyakkar*. Roads have bandits. Bandits have hunger.”
+
+“It travels by your *hundi*,” I said. “Your paper is worth more than gold on the road. Do not tell me otherwise.”
+
+He nodded, a flicker of respect in his gaze. He wrote out the note of credit, his hand steady.
+
+“And this?” he asked, pointing to the sealed letter I had placed beside the gold.
+
+“This travels with it,” I said.
+
+I had written it the night before, by a dying lamp. It was short.
+
+*To Bhalerao Sawant,*
+
+*The man known as Nagoji died at Colachel. The sea that took Keshavrao took him too, in a different way. Do not look for him. He fights battles that are no longer yours.*
+
+*Use this gold to buy new seed, to fix the roof, to keep the creditors from the door. It is the last debt he owed you.*
+
+*Forget his name. Remember his love.*
+
+It was a lie. And it was the truest thing I had ever written.
+
+“It will reach them,” the trader said, sealing the transaction with a stamp of red wax. “My word is iron.”
+
+“See that it is,” I said.
+
+I walked back to the fort feeling lighter, as if I had cut a heavy pack from my saddle.
+
+When I reached Padmini’s estate, she was waiting by the gate, leaning on her stick. She looked at my empty hands, then at my face.
+
+“The letter is sent?” she asked.
+
+“Yes,” I said.
+
+“And the man who wrote it?”
+
+“He stayed at the market,” I said. “He is not coming back.”
+
+She nodded slowly, her eyes searching mine.
+
+“Then who stands before me?” she asked.
+
+I touched the cold silver of the chain around my neck. I looked at the red tiled roof of the *tharavad* that had sheltered a king and now sheltered me. I tasted the air, heavy with pepper and sea salt. It no longer tasted foreign. “Ananthan Pillai,” I said.
+
+The name felt strange on my tongue, new and stiff like unconquered leather. But it fit.
+
+Padmini Amma smiled, an expression that cracked the iron mask she usually wore.
+
+“Welcome home, Ananthan Pillai,” she said. “Dinner is ready. Do not make us wait.”
+
+As I stepped through the gate, I caught sight of Revathi’s latest letter tucked into Padmini’s waistband, its edge stained with lamp smoke. I knew its outward words would be correct and cool, all talk of levies and Velinadu rights, but somewhere between them there would be a line that cut deeper. She never named worry, but she folded it into the way she asked whether the king's new walls were worth the men they ate.
+
+The thought that my new name might one day be spoken in her halls as easily as in this courtyard lodged itself like a small, dangerous hope.
+
+I followed Padmini inside.
+
+The Deccan son was gone. Another man, with two coasts in his chest, had taken his place.
+
+The Travancore soldier had finally arrived.
 
 For the moment, that was enough.

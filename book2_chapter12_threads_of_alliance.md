@@ -132,7 +132,7 @@ Revathi lifted her chin.
 
 The rest of the afternoon passed in the rhythms of negotiation.
 
-Words like “mutual defence” and “exclusive rights” and “tariffs” floated in the air, in Portuguese, in Malayalam, in the Hindustani the interpreter shifted to when he needed to make sense to more ears. Ramayyan guided the flow like a patient river pilot, steering around rocks, nudging here, redirecting there.
+Words like “mutual defence” and “exclusive rights” and “tariffs” floated in the air, in Portuguese, in Malayalam, in Tamil the interpreter shifted to when he needed to make sense to more ears. Ramayyan guided the flow like a patient river pilot, steering around rocks, nudging here, redirecting there.
 
 I listened, and I watched.
 
@@ -140,7 +140,7 @@ Watched which chiefs spoke and which stayed silent. Watched when Padmini's finge
 
 At one point, during a break in the talk, Revathi moved along the edge of the crowd until she stood near me.
 
-“You have been very quiet, Sawant,” she said. “Does all this talk bore a man who prefers the noise of hooves?”
+“You have been very quiet, Sawant,” she said in Konkani. “Does all this talk bore a man who prefers the noise of hooves?”
 
 “On the contrary,” I said. “I am learning how many ways there are to start wars without lifting a sword.”
 
@@ -162,9 +162,35 @@ Padmini joined us, her eyes still on the front.
 
 “You see the threads,” she murmured. “Now imagine them pulled tighter, with smoke and cannon added. That is what we head toward.”
 
+Before I could answer, a boy in the king's livery appeared at Ramayyan's elbow. The Dalawa listened to a whispered word, then crooked a finger at me.
+
+“Come,” he said. “There is someone you should meet who knows the Dutch from inside their own walls.”
+
+He led me out of the main hall, down a side passage that smelled of limewash and oil, into a smaller room open on one side to a narrow courtyard. A single man sat there on a low stool, a clay cup of water untouched at his feet.
+
+He was pale, even under the southern sun, with a yellowish cast that spoke of old sickness. His hair, cropped short, showed threads of grey though he could not have been much older than me. A rough cotton shirt and dhoti hung awkwardly on a frame accustomed to other cloth.
+
+“This is Karl August,” Ramayyan said in Hindustani for my benefit. “He once wore the company's blue coat. Now he wears ours, when he wears anything at all.”
+
+The man rose, a little stiffly, and inclined his head.
+
+“I fought for the Dutch,” he said in halting Hindustani, his accent thick, the consonants hard. “They did not pay. They did not feed. They left us to rot in mud and fever. I decided I preferred to rot on my own terms.”
+
+Ramayyan spread a fresh palm leaf on the floor between us. Karl August knelt and began to draw with a stick of charcoal.
+
+“Here,” he said, sketching a curve that I recognised as the line of the coast. “Colachel. Sand. Here, mud fort, half fallen already under the weight of your enemy's guns.” He marked a small square and shaded one corner. “Powder. Rice. Too close. They keep them together to watch both, and because they fear the damp.”
+
+He drew a second mark offshore.
+
+“Here, Kanyakumari camp,” he said. “Men sick. Smallpox. No pay. They hate their officers more than you do.”
+
+Ramayyan watched the shapes with the calm of a man fitting new pieces into a puzzle he already almost understood.
+
+“We will not win this war with bravery alone,” he said quietly. “We will win it with men who know where the enemy keeps his fire and his food.”
+
 By the time the Dutch withdrew, the light slanted low. They bowed, promised to return with draft papers, and left behind a faint trail of foreign scent, a mixture of spice and sweat and some sharp alcohol.
 
-As they walked out, their interpreter glanced at me, quick and curious. In that moment I saw what I must have looked like to him.
+As they walked out, their interpreter a Portuguese factor, glanced at me, quick and curious. In that moment I saw what I must have looked like to him.
 
 A foreigner in this hall, yet not European. A man in simple cotton, with scars on his hands, listening more than he spoke. A piece on the board whose shape he had not yet accounted for.
 
@@ -181,6 +207,36 @@ Ramayyan sat with his palm leaves, adding a last few lines.
 “A parade,” I said.
 
 “A reminder,” he corrected.
+
+He looked up from his palm leaves, his expression thoughtful. “The Dutch left angry today. They know the King is shifting the peppercorn trade away from them.”
+
+“Shifting it where?” I asked.
+
+“To the Syrian Christians,” he said, gesturing vaguely toward the north where Mathoo Tharakan's people held sway. “Tharakan and his kin. The King trusts them. They are of this soil, even if their god came from across the water. They build the warehouses, they move the grain, they keep the coin within the kingdom.”
+
+“And the other chiefs?”
+
+“They grumble,” Ramayyan said. “Houses like Elayadathu prefer the Portuguese or the Dutch. They think white skin means heavier gold. They do not see that the foreign hand takes two coins for every one it gives.”
+
+I frowned. “Why does the King not give the trade to his own kind? Why must it be Christians or foreigners? Are there no Hindu merchants?”
+
+Ramayyan smiled, a dry, thin curing of his lips. “You are from the Deccan, Sawant. You forget our laws here. For a Hindu of good caste to cross the black water is to lose his caste. The ocean is *kalapani* forbidden water. We can farm the pepper, we can tax the pepper, but we cannot sail with it to the markets of Arabia or Rome. That sin, we leave to others.”
+
+He tapped his stylus against the leaf. “So we use the hands that are free to move. The Syrians. The Muslims. The King binds them to him so that when the ships sail, the profit returns to Padmanabhapuram, not Lisbon or Amsterdam.”
+
+“And the English?” I asked. “They sit at Anchuthengu and watch the same sea.”
+
+Ramayyan's mouth twitched.
+
+“They are not saints,” he said. “They lent us guns and silver when Chanda Sahib pushed from the south, not out of love for Travancore, but because they did not wish to see their factory swallowed by Madurai men.”
+
+He picked up another leaf, its edge already dark with handling.
+
+“A doctor there, Alexander Orme, put his own coin on the line,” he went on. “He advanced money so that the Maharaja could meet part of what Chanda Sahib demanded and keep his army moving. The English call it a loan. We call it buying time.”
+
+“You trust him?” I asked.
+
+“I trust his fear,” Ramayyan said. “He knows that if this kingdom falls, the next army that marches along this coast will not stop at Anchuthengu to ask about interest.”
 
 Marthanda Varma had left already, melting away as quietly as he had sat, but his presence still hung over the mats.
 

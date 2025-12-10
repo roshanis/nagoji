@@ -2,7 +2,7 @@
 
 In the Deccan, a kingdom revealed itself in its forts.
 
-You could stand on a bastion and read a ruler's mind in stone and mortar. How high he built his walls, how thick he poured his lime, where he dug his wells, where he placed his cannon. Temples and markets came later, clustering under the shadow of those choices.
+You could stand on a bastion and read a ruler's mind in stone and mortar; how high he built his walls, how thick he poured his lime, where he dug his wells, where he placed his cannon. Temples and markets came later, clustering under the shadow of those choices.
 
 In Travancore, I learned, you had to listen in different places.
 
@@ -162,7 +162,27 @@ He regarded me for a moment, as if tasting the shape of my answer.
 
 “Borrowed eyes,” he said. “We will see how long he keeps the loan.”
 
-That night, back at Padmini Amma's estate, as I sat under the jackfruit tree listening to distant temple bells and nearer kalari shouts, I thought of the day as a map drawn in threads instead of ink.
+That conversation was the first lesson. The application came soon after.
+
+In the years that followed, before the Dutch clouds fully gathered, the King turned his "borrowed eyes" inward as Ramayyan had promised.
+
+We rode not against foreign armies, but against the stubborn knots of the internal map. I learned that a "campaign" in Travancore did not always meant a pitched battle. Sometimes it meant riding with Padmini Amma to a chieftain's estate—a man who had formerly pledged loyalty to one of the Eight Houses—and standing silently by the gate while she negotiated the grain levy. My presence, and the fifty Maratha lancers behind me, turned a "request" into a "requirement."
+
+Other times, it was sharper.
+
+I remember a raid on a recalcitrant *madampi* near Attingal who refused to send his men for the new army drills. He thought his high walls and thick bamboo groves would protect him from a young King's decrees. He did not know that Ramayyan had mapped his supply lines, or that I had trained a unit of Maravar horsemen to cut through bamboo dampness as if it were dry grass.
+
+We took his walls at dawn. There was no glory in it, only the brutal efficiency of state-building. I watched as the King, standing in the smoking courtyard of a house that had been noble for three centuries, offered the defeated chief a choice: total submission or total erasure. The chief chose submission. His sons marched with us the next week.
+
+"You see?" Marthanda Varma told me as we rode back, the smell of wet ash still on our clothes. "I do not destroy them because I hate them. I break them so they can be reset into a stronger bone."
+
+It was during these "years of consolidation" that I stopped being a guest and became a limb of this growing beast. I learned to distinguish the sullen silence of a conquered village from the quiet respect of a protected one. I learned to eat rice from a plantain leaf without spilling it, and to speak enough Malayalam to order a charge or a retreat.
+
+And I learned that peace here was just a word for the time it took to reload.
+
+***
+
+That night, years later and on the eve of the Dutch war, back at Padmini Amma's estate, as I sat under the jackfruit tree listening to distant temple bells and nearer kalari shouts, I thought of those early lessons.
 
 Temple to market. Market to training ground. Training ground to backwaters. Backwaters to fort. Fort to palace. Palace to houses like Padmini's. Houses to Velinadu's halls.
 

@@ -1,261 +1,165 @@
 # Book III, Chapter 15: Prisoners of a New King
 
-By midday, the beach at Colachel looked less like a battlefield and more like a market that had been caught in a storm and left to sort itself.
+The end came with a lie, or perhaps just a misunderstanding of what honour meant on this coast.
 
-Men moved in clusters, carrying stretchers, dragging cannon, piling muskets. Carts creaked under loads of powder and shot taken from Dutch stores. Marakkar men picked over bales, deciding which could be sold and which would feed fires. Nair captains shouted, trying to gather their people around the right banners.
+On the 7th of August, the smoke from the great explosion still drifted across the sands of Colachel. The Dutch had signaled their readiness to treat. Terms had been agreed upon, or so they believed.
 
-In the midst of this, the Dutch prisoners sat.
+They marched out of their ruined camp at mid-morning.
 
-They had been separated into groups and ringed by spear points. Some sat in sullen silence, staring at the sand. Others whispered together, eyes darting toward the sea as if hoping some miracle might lift them back to their ships. A few slumped, heads bowed, exhaustion and shock having taken them beyond fear for the moment.
+It was a strange sight. Beaten men, coats stained with soot and blood, yet forming ranks with their drums beating. They carried their muskets. Their officers wore their swords. The agreement was that they would be compelled to surrender the fort but allowed to march with their arms to the Dutch factory at Kanyakumari.
 
-The wounded had already been seen to, as far as our means allowed. Those who could be saved without bleeding our own healers dry lay under makeshift shelters of cloth and palm leaves. Those who could not had been sent to their gods with as much mercy as war allows.
+I sat on my horse near the dunes, watching them come.
 
-Lannoy sat apart, still bound at the wrists, under the shade of a leaning palm.
+“They look relieved,” Dhanaji said. “They think they are going for a long walk and then a boat home.”
 
-A guard stood nearby, spear grounded, but not too close. There was something about the Dutch captain that made men keep a small distance, as if he carried a different weather around him.
+“The King does not let tigers walk away because they promise not to bite,” I said.
 
-“Ram wants him alive and thinking,” Kumaran said when I approached. “He told us not to bruise him more than necessary. That is not a usual order.”
+Marthanda Varma waited on the rise where our main battery had stood. His Nair infantry lined the path the Dutch were taking, silent, impassive.
 
-“Ram sees books where others see bodies,” I said. “He will want to read this one.”
+When the last Dutch soldier had stepped away from the charred remains of the stockade, the trap snapped shut.
 
-We moved from the beach back toward the coastal hall, following a file of prisoners escorted by Nair and Arcot men.
+A conch blew.
 
-The Dutch walked with varying degrees of dignity.
+Suddenly, the Nair lines thickened. Spears lowered. Matchlocks were raised from behind the dunes where my riders had waited. The path to Kanyakumari was blocked by a wall of shields.
 
-Some kept their backs straight, maintaining a stiff, brittle pride. Others hunched, eyes on the ground, every flinch at a shout betraying the strain of trying to appear unafraid. Their boots sank into the sandy path. Their coats clung damply to their backs.
+The Dutch column halted. Confusion rippled through their ranks. An officer—Lannoy, I presumed—shouted something, pointing his sword towards the road.
 
-The villagers we passed watched in silence.
+Ramayyan rode forward.
 
-Some made small, satisfied sounds when they saw the blue and grey coats. Others spat in the dust as the column went by. One old woman lifted her chin and said something sharp in Malayalam that made the younger women around her nod grimly.
+“The road is closed,” he said, his voice carrying over the wind. “You are prisoners of the State of Travancore.”
 
-“She lost a son in a Portuguese raid,” Ibrahim murmured. “To her, all white coats look the same.”
+“We have terms!” Lannoy shouted back, his face darkening with rage. “We are to march out with arms!”
 
-Inside the hall, the air was cooler, but tension crackled like heat.
+“You have marched out,” Ramayyan said calmly. “Now you will drop the arms.”
 
-Marthanda Varma sat on his platform, spear within reach, bare feet crossed on the mat. Ramayyan sat at his side, palm leaves spread, stylus ready. Padmini Amma sat a little off to one side, stick across her lap, her face composed but her eyes bright. Revathi Bayi was not present; Velinadu had sent a lesser kinswoman instead, older and less inclined to speak.
+For a moment, I thought they would fight. I saw hands tighten on musket stocks. I saw Lannoy’s knuckles turn white on his hilt. They were surrounded, outnumbered twenty to one, starving and shocked, but they were soldiers.
 
-The Dutch prisoners were brought in and made to sit in a line before the platform.
+But Lannoy looked at his men, hollow-eyed, burnt, swaying with fatigue. He looked at the thousands of fresh Nair troops ringing them.
 
-Lannoy was placed at the centre, still bound, but no longer ringed by spear points. Two guards stood behind him, far enough that they did not overshadow him, close enough that he could not forget them.
+He swore, a short, sharp sound. Then he unbuckled his sword belt and threw it into the sand.
 
-For a moment, no one spoke.
+“Down,” he ordered.
 
-The only sounds were the faint creak of the hall's wooden beams and the distant murmur of the sea.
+The clatter of hundreds of muskets falling onto the beach sounded like a heavy rain.
 
-“You are the man they call Lannoy,” Marthanda Varma said finally, in Portuguese.
+“Take them,” Varma said.
 
-The name sat oddly in his mouth, the foreign sounds bending to his tongue. Lannoy looked up, surprised, then inclined his head.
+We took twenty-four European officers that day, including Eustachius De Lannoy and his second, Donadi. We took hundreds of soldiers, their muskets, their drums, and the few cannon that hadn't burst in the fire.
 
-“Eustachius De Lannoy,” he said. “Captain, in the service of the Honourable Dutch East India Company.”
+They were not marched to Kanyakumari. They were marched inland, away from the sea that had failed to save them, to the granite walls of Udayagiri Fort.
 
-The interpreter, who had come with the earlier envoys and now found himself translating his own countrymen's misfortunes, began to speak. Ramayyan lifted a hand.
+***
 
-“He understands you,” he said. “Save your breath for when we need you.”
+Two days later, I stood in a stone courtyard within Udayagiri.
 
-Lannoy's gaze flicked to the diwan, then back to the king.
+The air here was different, still heavy with moisture, but held close by the hills and the high walls. The Dutch officers had been separated from their men. They were kept in the upper quarters, treated better than common prisoners but watched by guards who never blinked.
 
-“You speak my language,” he said. “Better than I speak yours.”
+Marthanda Varma had summoned Lannoy.
 
-“I have had many teachers,” Marthanda Varma said. “Some in halls, some in forts, some at the mouths of guns. Your company has been very generous with lessons.”
+The meeting took place in a small hall used for private audiences. No throne, just a low platform and simple mats. Ramayyan was there, of course, his stylus ready.
 
-A ripple of wry amusement moved through the Travancore side of the hall.
+And beside him sat Mathoo Tharakan. He was no longer just the merchant I had seen at the war council. Today, he wore the heavy gold chains and silk tunic of a *Valia Sarvadhi Karyakkar*, a high noble of the court. Marthanda Varma had elevated him, breaking centuries of caste tradition to place a Syrian Christian at the heart of his durbar. It was a statement as loud as any cannon: in this new Travancore, power flowed to those who built the state, regardless of the god they prayed to.
 
-“Yesterday,” the king went on, “your men stood on my sand and fired at my people. Today, you sit in my hall and drink my air. Tell me, Captain Lannoy, what did you think when you landed?”
+I stood by the door, a silent witness.
 
-Lannoy's face tightened slightly.
+Lannoy was brought in. He looked better than he had on the beach, washed, his wound bandaged, though his coat was still the same stained blue. He did not bow.
 
-“I thought,” he said carefully, “that we would establish a position to protect company interests along this coast. We believed certain chiefs would support us, that your forces were untested against European drill. We underestimated you.”
+“You have a strange way of keeping treaties,” he said, his voice flat.
 
-“Underestimated,” Marthanda Varma repeated, tasting the word. “A polite way of saying you thought we would break as others did.”
+Marthanda Varma studied him.
 
-Lannoy did not deny it.
+“I keep the treaties that benefit my people,” the king said. “Allowing an enemy army to march to another fort so they can attack me again next year does not benefit anyone but you.”
 
-“Our reports from other parts of this land,” he said, “spoke of kings who quarrel among themselves while we take their ports. Of armies that scatter when they hear our guns. We prepared for that.”
+“Honour,” Lannoy began.
 
-“And when you stepped into our sand?” Ramayyan asked.
+“Honour is eating well and sleeping without fear,” Varma cut him off. “Dead men have no honour. You are alive. That is the only term that matters.”
 
-“Your muskets were better placed,” Lannoy said. “Your cavalry moved differently. You used the ground. You did not run when our cannon fired.”
+Lannoy fell silent. He knew enough of war to know that the loser does not dictate the vocabulary of the aftermath.
 
-He glanced toward me.
+“You are Eustachius De Lannoy,” the king said. “You know guns. You know drill. You know how to build forts that do not burn when a lucky shot hits them.”
 
-“Your riders,” he said. “They came from where we did not expect. They did not stay to be pinned. It was... inconvenient.”
+“I am a Captain of the Dutch East India Company.”
 
-There was a flicker of dry humour under the last word, though his jaw remained tight.
+“The Company is a ledger,” Varma said.
+			
+“And a ledger with too much red ink is burned,” Tharakan interjected softly, his voice carrying the weight of a man who owned half the warehouses on the coast.
 
-“You fought well,” I said in his own language. “For a man whose boots kept sinking.”
+“It has already written you off,” the King continued, nodding at his noble. “Do you think they will send a fleet to rescue a man who lost a beachhead? They will count the cost, shake their heads, and hire a new captain.”
 
-He huffed that same almost laugh.
+Lannoy flinched. It was a small movement, but it betrayed him.
 
-“Your sand cheats,” he said. “On our fields at home, the ground is honest.”
+“What do you want?” he asked.
 
-“Ground is ground,” I said. “It owes nothing to anyone.”
+“I want you to build me an army that fights like yours,” Varma said. “But better. Because it will fight for its own land, not for pepper prices.”
 
-Marthanda Varma watched this exchange with interest.
+“You want me to turn my coat.”
 
-“You see, Ram,” he said. “Even men who came to teach us find themselves learning instead.”
+“I want you to change your master,” Varma said. “Serve me. Train my men. Cast cannon for us. Build walls that stand.”
 
-Ramayyan's stylus scratched.
+“And if I refuse?”
 
-“Captain,” the king said, turning back to Lannoy. “Your company will want you back. They will send letters. They will offer money, threaten war, whisper in the ears of faraway governors. They will call you a hero if you return and a traitor if you do not.”
+“Then you remain in Udayagiri,” Ramayyan said. “Not as a guest, but as a prisoner. You will rot here while the world forgets your name. And eventually, you will die here, of fever or old age, wondering what you might have built.”
 
-Lannoy's eyes narrowed.
-
-“You speak as if I have a choice,” he said. “I am your prisoner.”
-
-“For now,” Marthanda Varma said. “Prisoner is one word. Guest is another. Servant is a third. Ally a fourth. Men change between them more often than they admit.”
-
-The hall murmured at that.
-
-I thought of Goa again, of chains that allowed no such words. The difference in tone here tasted like fresh water after dungeon drip.
-
-“You would have me fight for you,” Lannoy said. “Against my own company.”
-
-“I would have you fight for this land,” the king said. “You have already fought against it. You know both sides. That makes you useful.”
-
-“And what of my men?” Lannoy asked, nodding toward the prisoners at his sides. “You cannot make them all your guests.”
-
-“Some will be ransomed,” Ramayyan said. “Some exchanged. Some may choose to stay and work under our officers, if they value their lives more than a distant company's anger. We will not force anyone to betray their own conscience. But we will not pretend that the company sees their consciences as anything more than numbers.”
-
-The interpreter shifted, uncomfortable.
-
-“If I agree,” Lannoy said slowly, “what assurance do I have that you will not treat me as a slave The Portuguese have done such things.”
-
-“We are not Portuguese,” Padmini Amma said sharply. “We do not need to break men to use them.”
-
-“We do not need to chain our own tools,” Marthanda Varma said. “A sword works better when the hand that holds it trusts the arm that moves it. If you stay, you will serve under our laws. You will not command without question. You will not build forts where you wish. You will teach us what you know of your drills and your guns. In return, you will live, eat, train, and perhaps, in time, have a place that is more than a prisoner and less than a king.”
-
-Lannoy was silent for a long moment.
-
-The hall waited.
-
-“You ask much,” he said at last.
-
-“I offer more than the sea does,” the king said. “Or the rope.”
-
-He did not have to elaborate. Everyone in that hall knew what fate often awaited captured officers in other wars.
-
-Lannoy's gaze dropped to his bound hands.
-
-When he raised it again, something had shifted.
-
-“If I refuse?” he asked, though he already knew.
-
-“Then we treat you as any dangerous prisoner,” Ramayyan said. “We keep you under guard. We use what information we can draw without breaking our own codes. We send word to your company and see what they offer in return. Your life will be small and watched.”
+Lannoy looked at the stone floor. He looked at the window, where the green hills of Travancore rose against the sky.
 
 “And if I accept?”
 
-“You will still be watched,” Ramayyan said. “But your life will not be small.”
+“You keep your sword,” Varma said. “You keep your rank. You rise as high as your skill takes you. You become the Valia Kappithan the Great Captain of my forces.”
 
-The Dutch captain exhaled slowly.
+It was a staggering offer. To go from a prisoner in a dungeon to the commander of the army that had defeated him.
 
-“You expect me to turn my coat because I lost a battle,” he said.
+Lannoy looked at me.
 
-“We expect you to recognise that the company you serve is not God,” Marthanda Varma said. “It is a machine. Machines eat men. You can choose to be one more piece ground in its gears, or you can choose to make use of what you know in a place that will, at least, remember your name with some respect.”
+“You were a mercenary once,” he said. “Before you were a courtier.”
 
-It was a clever appeal.
+“I am still a mercenary,” I said. “I just found a payer who offers more than coin.”
 
-Not to honour, which might have made Lannoy bristle, but to pride and practicality.
+“And does he keep his word?”
 
-Pride that his knowledge mattered. Practicality that his life might mean more than a line in a distant ledger.
+“He kept me alive when others would have hanged me,” I said. “And he let you live when he could have let the Nair boys spear you on the beach.”
 
-He looked at me again, as if measuring a precedent.
+Lannoy took a long breath. He looked at his hands, then at the King.
 
-“You were their prisoner,” he said. “You now wear this king's cloth.”
+“I have men,” he said. “Donadi. The others.”
 
-“The Portuguese were my jailers,” I said. “This king was my rescuer. The Dutch, until this morning, were simply another set of guns. What you choose now will decide which they become for you.”
+“They can serve too,” Varma said. “Or they can wait. The choice is theirs. But the offer starts with you.”
 
-Lannoy's mouth tightened, then relaxed.
+The silence stretched. I could see the calculation in the Dutchman’s eyes. The loyalty to a distant flag warring with the reality of the stone walls and the indifference of the corporate master he had served.
 
-“I will need time,” he said. “To consider.”
+“I will not fight against the Dutch,” he said finally.
 
-“You have till sunrise,” Ramayyan said. “The sea does not leave ships waiting longer than that, and neither can we.”
+“I do not need you to fight them,” Varma said, a smile touching his lips. “I need you to make sure I do not have to fight them again. Or if I do, that they lose even faster.”
 
-The king lifted his hand.
+Lannoy nodded slowly.
 
-“Take him to the upper room,” he said. “Do not bind his feet. Bind his hands lightly. Give him food fit for a man who may become an officer. Let him sleep if he can. Ram, have someone who speaks his tongue keep him company. Not to persuade, only to answer questions.”
+“Then,” he said, “I accept.”
 
-Guards moved to obey.
+Marthanda Varma did not rise. He simply nodded to Ramayyan.
 
-As they led Lannoy away, he turned once more toward the platform.
+“Good,” the King said. “Ram will draw up the papers. You start tomorrow.”
 
-“If I stay,” he said, “my company will call me traitor.”
+“Tomorrow?” Lannoy looked surprised.
 
-“Your company already wrote you off when they sent you to die on a beach for their pepper,” Marthanda Varma said. “Think about that.”
+“The war isn't over just because you surrendered,” Varma said. “There are other factories. Other chiefs. There is always work. Go. Sleep. You will need your strength.”
 
-After the Dutch had been removed, the hall settled into its own breathing again.
+As guards escorted the new Great Captain out, Ramayyan looked up from his leaf.
 
-Ramayyan turned to me.
+“He will be useful,” the Dalawa said.
 
-“You see how different this is from Goa,” he said quietly. “There they broke you to make you nothing. Here we bend men to make them part of something.”
+“He will be a weapon,” Varma said. “And like any weapon, we must make sure he points away from us.”
 
-“You make it sound noble,” I said.
+He looked at me.
 
-“It is not noble,” he said. “It is necessary. Nobility is for poets. We are not poets.”
+“That will be part of your task, Nagoji. You speak his language. You know his kind. Watch him. Be his friend holding the shield.”
 
-Padmini tapped her stick.
+“Friendship with a man you helped capture is a complicated thing,” I said.
 
-“You risk much,” she said. “If this Lannoy plays both sides, he could cut us badly.”
+“Life is complicated,” Marthanda Varma said, standing up and reaching for his spear. “That involves surviving it. The simple things usually end in funerals.”
 
-“Everything worth doing risks much,” Ramayyan said. “Keeping him caged and useless would be safer. It would also be stupid.”
+We walked out into the courtyard of Udayagiri. The sun was high now. The Dutch prisoners, no, the Dutch recruits, were being fed in the lower yard. They looked up as we passed, fear mixing with curiosity.
 
-“We will watch him,” Marthanda Varma said. “We have men who are very good at watching.”
+They did not know it yet, but they had just become the seed of the Travancore Nair Brigade.
 
-I thought of Ramayyan's ledgers, of the careful lines recording who owed what to whom, who spoke to which envoy, which guard looked where when.
+History is strange. It turns on a lucky shot, a broken promise, and a conversation in a stone room.
 
-Lannoy might think himself free if he accepted the offer. In truth, he would be stepping into a web as intricate as any dungeon.
-
-Later, as the hall emptied and the heat of midday pressed down, I climbed to the upper level where the Dutch captain had been taken.
-
-He sat near an open window, looking out toward the sea. His hands were loosely bound in front of him with a strip of cloth that would not stop a determined man from eating or scratching his nose, but would remind him at every moment of his status.
-
-“You came to persuade me?” he asked without turning.
-
-“No,” I said. “I came to see which way your face points when you look at the horizon.”
-
-He glanced back, amused despite himself.
-
-“It points toward my home,” he said. “Always will.”
-
-“Home is not only a place,” I said. “Sometimes it is a decision. Ask any man who left his village for a fort and never went back.”
-
-He looked out again.
-
-“In my land,” he said, “we tell stories of men who go east and never return. They are spoken of with awe or pity. If I stay, I become one of those. A ghost in company records. A cautionary tale for young officers.”
-
-“Here,” I said, “you become something else.”
-
-He considered that.
-
-“And you, Nagoji Sawant,” he said, using my name with more ease now. “What are you here?”
-
-“A man trying not to drown in other people's plans,” I said. “So far, I have managed. Tomorrow, who knows”
-
-He laughed, genuinely this time.
-
-“Honest,” he said. “I like that. My own commanders would have fed me a speech about destiny by now.”
-
-“Our Brahmins handle destiny,” I said. “The rest of us handle mud.”
-
-We sat in companionable silence for a few breaths, both looking at the line where sea met sky.
-
-“Your king is dangerous,” Lannoy said finally.
-
-“So is yours,” I replied.
-
-“Mine has distance,” he said. “He does not look into my eyes when he asks me to spend men. Your king does. That is... uncomfortable.”
-
-“That discomfort might be what keeps you honest,” I said.
-
-He nodded once, slowly.
-
-“Perhaps,” he said.
-
-When I left him, he was still staring at the horizon.
-
-At sunrise, we would learn whether he had chosen to keep looking west or to turn his gaze fully to the land he had tried to break.
-
-The prisoners of this new king were not just men in bonds.
-
-We were all, in one way or another, bound to decisions made in that hall.
-
-The difference was that some of us had chosen our chains.
+I looked at the walls of the fort. They were strong. But with Lannoy’s help, I knew they would become stronger. And Travancore, this slip of land between the mountains and the sea, would become something no one, not even the great Companies of Europe, could swallow.

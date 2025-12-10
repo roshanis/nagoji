@@ -14,141 +14,95 @@ The sun had only just cleared the line of palms when the Arcot troop arrived, la
 
 Behind him the men sat straight in their saddles, horses tossing their heads, bits clinking. They looked confident. Too confident.
 
-On the bluff above, a line of Nair horsemen watched, their lighter mounts shifting impatiently. They wore no uniforms, only white mundus hitched for riding and short jackets, but each man carried himself with the easy assurance of one whose family had held swords for generations. Their captain, a broad shouldered fellow named Kumaran, had already ridden with me along the inland tracks. He said little, but his eyes missed nothing.
+On the bluff above, a line of Maravar horsemen watched, their lighter mounts shifting impatiently. They wore no uniforms, only white mundus hitched for riding and short jackets, but each man carried himself with the easy assurance of one whose family had held swords for generations. Their commander, a broad shouldered fellow named Ponnam Pandya Deven, had already ridden with me along the inland tracks. He said little, but his eyes missed nothing.
 
 Closer to the bluff, under the shade of a cloth awning, two figures sat on low stools. Distance and the haze rising off the warming sand made them look small, but I knew them. Marthanda Varma, bare headed, a simple cloth over his shoulder. Ramayyan beside him, palm leaves in his lap, stylus ready, as if he meant to take notes on horses as much as on men.
 
 The king had told me, in that coastal hall, to show him something he had not already imagined.
 
-At the time, with the memory of chains still raw on my skin, the challenge had felt almost like grace. Now, faced with wet sand and two sets of riders who trusted their own ways more than mine, it felt like a weight around my neck.
+At the time, with the memory of chains still raw on my skin, the challenge had felt almost like grace. Now, faced with wet sand and two sets of riders who trusted their own ways more than mine, it sat on me like a weight.
 
-“We begin with movement,” I said to Raza Khan and Kumaran, pitching my voice so it carried without shouting. “Not charges. Not bravery. Movement. Your horses must learn how this sand speaks under their hooves.”
+“We begin with the simple release,” I said to Raza Khan and Ponnam Pandya Deven. “Ride to the water’s edge. Turn. Ride back. Do not let the hoof slide.”
 
-Raza Khan frowned.
+Raza Khan frowned, his hand resting on his pommel.
 
-“We did not ride from Arcot to walk our mounts like village donkeys,” he said. “My men know their trade.”
+“We did not ride from Arcot to school our mounts like children on their first pony,” he said. “My men ride to break lines, not to dance with crabs.”
 
-“Your men know their trade on dry ground,” I said. “Here the ground lies. It looks firm. It sucks at the hoof. It tricks the eye. I will not break horses because you think trotting is beneath you.”
+“Your men ride on hard earth,” I said. “Here the ground lies to you. It looks firm, but it drinks the hoof. If you charge a Dutch square and your horse stumbles on the turn, you are not a soldier, you are a target.”
 
-The Arcot rider's jaw tightened. His eyes flicked toward the awning on the bluff. He did not want to be seen arguing with the man the king had put in charge of this exercise. He also did not like being spoken to as if he were a recruit.
+The Arcot rider’s jaw tightened. He glanced up at the bluff, where the King watched. He did not want to be seen arguing with the stranger Marthanda Varma had set over him.
 
-“We will humour you,” he said at last. “For a while.”
+“One pass,” he said. “To show you there is no magic in sand.”
 
-Kumaran said nothing, but one corner of his mouth twitched.
+Ponnam Pandya Deven said nothing, but a faint smile touched his lips as he signaled his Maravar.
 
-We started with simple lines.
+The first pass was not a disaster, but it was ugly.
 
-I had the Arcot horsemen walk their animals along the damp strip close to the water, then turn sharply inland and back again, tightening the circle each time. The first turns went badly. Horses slipped, hooves skidding on the slick surface where wave and sand met. Riders grabbed manes and saddles to stay upright, curses mixing with the crash of the surf.
+I watched the Arcot horses hit the wetter sand. They were heavy beasts, bred for the dry plains of the Carnatic. When they tried to turn, their weight carried them deep. Hooves sucked into the slurry. Legs flailed. Riders jerked reins to keep their seats, breaking the proud rhythm of the charge.
 
-“Shorten your reins,” I called. “Give them their heads on the straight, gather them before the turn. Feel when the sand shifts.”
+The Maravar fared better. Their ponies were smaller, stepping lightly where the larger horses sank. They spun and darted, grinning at the southerners’ clumsiness.
 
-Some listened. Some did not. Those who did found that their mounts wobbled less, though sweat already darkened the arcs behind their girths.
+“See?” I called out, riding my own mount between them. “The earth here judges weight. It punishes force.”
 
-The Nair horsemen watched for a time, amused. Their own animals were smaller and lighter, bred for this coast. When I signalled, Kumaran brought them down from the bluff.
+Ponnam Pandya Deven brought his horse alongside mine as the line wheeled back toward firmer ground.
 
-“Your turn,” I said.
+“This earth has judged hooves longer than you have ridden, Deccan man,” he said quietly. “We learned that under other kings.”
 
-They moved with less drama. Their horses picked their way along the line of foam, ears twitching, tails flicking. When they turned inland they sank a little, but not as deeply. They had walked these sands while Arcot mounts were still learning the taste of Malabar wind.
+“Then teach your Arcot friends,” I said. “Today they followed me into the bog. Tomorrow they follow you around it.”
 
-“Good,” I said. “Now together.”
+His eye flicked to Raza Khan, still cursing at his mount, then back to me.
 
-Raza Khan's brows rose.
+“We will see whose tricks the Dutch remember,” he said.
 
-“Together?”
+Raza Khan had wrestled his horse back to firm ground. He looked furious, shaking sand from his stirrup.
 
-“Your horses will have to move beside each other when the Dutch fire,” I said. “Better they learn now what it feels like to share bad footing.”
+“It is a bog,” he spat. “No cavalry can fight here.”
 
-The first attempt at combined movement was chaos.
+“The Dutch will be here,” I said. “If you cannot fight where they stand, why did you take the King’s coin?”
 
-Arcot horses shied at the unfamiliar Nair mounts. Nair horses, offended by snorting outsiders at their flanks, snapped and sidestepped. Two animals tangled. A rider went down in the sand with a curse and rolled clear just before a hoof came down where his head had been.
+He glared at me, but the anger was cooled by the shame of the stumble.
 
-From the bluff, someone laughed. The sound carried poorly, but my pride heard it clear enough.
+“Again,” I said. “But this time, do not fight the ground. Let the horse find the bottom before you ask for the turn. You must ride with the sand, not against it.”
 
-I rode my own horse, a stocky Travancore gelding still suspicious of me, between the lines and brought them to a halt.
+We spent the morning in that slurry.
 
-“Again,” I said.
+I essentially stripped the pageantry from them. No formations. No lances. Just men sweating in the heat, learning that the Malabar coast did not care about their lineage. I made them mix their lines, one heavy Arcot horse, one light Maravar pony.
 
-“The sand is the problem,” one of the Arcot men muttered. “On firm ground...”
+“Watch him,” I told an Arcot rider whose beast was lathered and trembling. I pointed to a Maravar youth whose pony stood calm. “He does not force the step. He waits for the sand to hold him.”
 
-“On firm ground the Dutch will cut you down as they did others before you,” I said. “They drill for flat fields. They train for enemies who charge like they do, in straight lines. We will not give them that. We will give them this.”
+The sun climbed. The heat turned the air liquid.
 
-I slapped my palm against the damp sand with a wet smack.
+“This is not war,” Raza Khan grumbled as we paused for water. “This is labor.”
 
-“Learn to move here, and their neat squares will become traps for themselves.”
+“It is the only war that matters today,” I said. “The Dutch carry muskets that fire in volleys. Precise. Mechanical. If you charge them straight, they will break you. You must come at them like the tide, fast, from the angle they do not expect, and gone before they can reload.”
 
-It was partly bravado. In truth, I was still feeling my way toward what this place could offer. But soldiers respond to confidence as much as to logic. You give them a shape to believe in, and their bodies will follow.
+Raza Khan wiped his face. “To ride like the tide, one must first not drown in the sand.”
 
-We tried again.
+“Exactly.”
 
-This time I broke them into smaller groups, pairs and fours, interleaving Arcot and Nair riders. I had them move not in long lines but in staggered patterns, one pair by the water, another inland, crossing paths at angles I knew would confuse men used to straight charges and fixed drills.
+I drew a line in the wet earth with a piece of driftwood.
 
-The sand continued to steal speed. Hooves dug in and slid. Horses blew hard, sides heaving. Yet slowly, grudgingly, a kind of rhythm emerged. Men began to feel when they could ask for a burst of pace and when they had to sit deeper and gather their animals.
+“The Dutch line,” I said.
 
-The sun climbed. Heat rose off the sand in waves. The sea kept up its endless mutter, indifferent.
+I drew two curves coming from the flanks.
 
-When a natural pause came, I raised my hand.
+“Us. We do not hit them. We bait them. We ride close, close enough to make them level their muskets. Then we turn. If we slip then, we die. If we turn true, they fire at ghosts, and while they reload, we take them with the saber.”
 
-“Water,” I called. “For horses and men. Then we see what we have learned.”
+Raza Khan looked at the crude map.
 
-As the riders led their mounts to buckets and troughs, Kumaran guided his horse over to mine.
+“It is a gamble,” he said. “To ride into the teeth of the gun and turn away.”
 
-“You ask hill men to learn the sea,” he said quietly. “You ask coastal men to trust hill men with their lives.”
+“It is better than riding into the teeth and staying there,” I said.
 
-“And you think this is foolish,” I said.
+“If the horses hold,” he murmured.
 
-He considered that, head tilted toward the bluff where the king and Ramayyan sat.
+“Make them hold.”
 
-“I think foolishness depends on who stands behind you,” he said. “When the Maharaja watches, strange plans become courage.”
-
-I smiled despite the sweat on my face.
-
-“Then let us be very courageous today.”
-
-After the break I laid out a simple pattern in the sand with a stick. A rectangle, not too wide, marked at the corners with driftwood stakes.
-
-“Imagine the Dutch,” I said, pointing to the longer sides. “Their musketeers stand here, shoulder to shoulder, bayonets at the ready. Their officers shout in a language most of you do not speak. Their drums beat time. They wait for you to come at them in a clean line.”
-
-I drew two crooked arrows along the shorter sides.
-
-“We do not oblige them,” I said. “We come from here. And here. We feint on one side, then vanish before the volley. They turn. They adjust. In that moment, when their bodies are moving but their minds have not caught up, we strike from somewhere else.”
-
-Raza Khan studied the drawing.
-
-“Too many moving parts,” he said. “Men will forget who feints and who strikes.”
-
-“Then we keep it small,” I said. “Pairs. Quads. Each group with one job. Your men like to ride straight and show their skill. Let them show it here, where the sand punishes mistakes before the Dutch do.”
-
-He snorted, but there was less heat in it now.
-
-“We try it once,” he said. “If my horses break legs in your wet trap, I will send the bill to your Peshwa.”
-
-“He will tell you I cannot pay,” I said. “I am already in debt to too many ghosts.”
-
-We formed them up.
-
-On the bluff, the awning’s edge stirred in a light breeze. I could not see Marthanda Varma's face clearly, but I could feel his attention like a hand on the back of my neck. Ramayyan sat still, stylus poised. He watched not just the horses but the men, measuring who chafed, who adapted, who resented my voice and who already began to listen for it in the chaos.
-
-The first run through the pattern was clumsy.
-
-One pair of Nair riders came in too fast on the feint, forcing the Arcot group meant to strike to check their pace. Hooves churned up sprays of sand. The line that was supposed to be a neat rectangle became a drunken shape more suited to a scribbling child than a war plan.
-
-I pulled them back, breath coming in short bursts that were as much frustration as effort.
-
-“Again,” I said.
-
-“They will not stand like this in real battle,” one Arcot rider muttered. “The Dutch will fire, men will fall, there will be smoke...”
-
-“Then it is better you learn to adjust to a pattern now, before smoke and blood blind you,” I said. “If you cannot remember which way to turn when the sand is clean, you will not remember when it is wet with men.”
-
-We ran it again. And again.
-
-By the fourth attempt something clicked.
-
-The feinting pair came in at a more measured pace, just close enough to be plausible, just far enough that their horses did not bury themselves in the softest patches. The striking group held back, then drove in at an angle the feint had opened, hooves pounding the firmer strip near the water. For a brief, satisfying moment the shape in the sand matched the shape in my head.
+We went back to the work. And slowly, agonizingly, the rhythm changed. The Arcot horses stopped fighting the ground. The riders stopped jerking the reins. They began to feel the heavy, sucking pause of the sand and ride through it.
 
 I felt it in my body before I saw it. The way the horses moved under their riders, the subtle shift from resistance to acceptance. Men began to trust that their mounts would not vanish under them at every turn. Horses began to trust that their riders would not ask for impossible strides.
 
-On the bluff, the awning's edge moved again. The king rose, stretching his legs. He said something to Ramayyan that I could not hear. The diwan inclined his head and wrote a few final marks on his palm leaves.
+On the bluff, the awning's edge moved again. The king rose, stretching his legs. He spoke to Ramayyan in words I could not catch. The diwan inclined his head and wrote a few final marks on his palm leaves.
 
 When the run ended I rode up the slope to them, sweat drying on my skin, sand clinging to my legs.
 
@@ -178,7 +132,7 @@ I bowed my head once.
 
 “I will try,” I said.
 
-As I rode back down toward the strip of wet sand where Arcot and Nair horsemen waited, catching their breath, I felt a strange mixture in my chest.
+As I rode back down toward the strip of wet sand where Arcot and Maravar horsemen waited, catching their breath, I felt a strange mixture in my chest.
 
 Fear, yes. Responsibility, sharp as any spear point. But also something I had not felt since before Goa, before the dungeon, before the storm.
 

@@ -1,4 +1,4 @@
-# Book III, Chapter 17: Dutch Come Bowing
+# Book III, Chapter 18: Dutch Come Bowing
 
 The second time Dutchmen entered the coastal hall, they smelled less of salt and more of caution.
 
@@ -19,6 +19,8 @@ He was right.
 When the envoys arrived, their coats were more subdued than those of the men who had strutted here before the battle. Their lace was less ostentatious, their hats held more humbly. Behind them walked scribes with thicker bundles, as if they hoped paper could balance scales that guns had tipped.
 
 Lannoy stood at the edge of the hall as they entered.
+
+I stood further in, to the right of the King’s platform. I was no longer the mercenary observing from the pillars. I was the *Valia Sarvadhi Karyakkar* of the Horse, wearing the heavy silver chain of office Padmini Amma had fastened around my neck that morning. The guards knew it, the ministers knew it, and from the way the Dutch envoys’ eyes lingered on me, they suspected that the "Maratha" had found a permanent stall in this stable. I was a man with a *tharavadu* now, and that gave me a weight that mere steel could not.
 
 He wore a simple cotton coat over his European shirt, his hair tied back as always. A sword hung at his side, not the one he had surrendered at Colachel, but a similar blade, its hilt now wrapped in local cloth.
 
@@ -62,7 +64,7 @@ Ramayyan did not move to take it. Instead, he signalled to one of his own scribe
 
 The scribe read aloud in Portuguese, the interpreter trailing in Malayalam. Terms unrolled in the air.
 
-Recognition of Travancore's sovereignty over its present territories. Agreement not to build new forts or expand existing ones without consultation. Guarantees of pepper and other spices to the company at agreed prices. Company ships allowed to use certain anchorages under Travancore oversight. Mutual commitment to act against “pirates and raiders” who threatened trade.
+Recognition of Travancore's sovereignty over its present territories. Agreement not to build new forts or expand existing ones without consultation. Guarantees of pepper and other spices to the company at agreed prices. This was the Treaty of Mannar, a first step, though Ramayyan called it "only a pause for breath."
 
 “Who decides who is a pirate?” Revathi asked from where she sat beside Padmini. “In Velinadu, when we killed company men who broke their word, you called us pirates.”
 
@@ -152,7 +154,7 @@ The younger Dutchman at the envoy's side looked as if he might choke. The older 
 
 “How long will this take?” the envoy asked.
 
-“As long as needed,” Ramayyan replied. “We have learned to be patient. Battles take hours. Good treaties take months.”
+“As long as needed,” Ramayyan replied. “We have learned to be patient. We will sign this truce at Mannar now. But the real treaty, the one where you promise never to stand in our way again, the Treaty of Mavelikkara, that will come when we are finished with the north.”
 
 After the formal session ended, the hall thinned.
 
@@ -178,6 +180,8 @@ The envoy's jaw tightened.
 
 After the Dutch had gone, I found Revathi on the verandah outside, looking toward the sea.
 
+The light caught the coins at her throat and turned them into small, steady suns. For a moment I imagined what it would be to see that glint across a courtyard that smelled of rice and lamp smoke, not ink and powder.
+
 “Satisfied?” I asked.
 
 She made a noncommittal sound.
@@ -190,15 +194,17 @@ She made a noncommittal sound.
 
 Padmini joined us, her stick ticking against the floor.
 
-“Today, we have made them pay to do what they once did for free,” she said. “That is a small victory.”
+“Today, my son, we have made them pay to do what they once did for free,” she said. “That is a small victory.”
 
 “Small victories add up,” I said.
 
 “So do small betrayals,” Revathi replied.
 
+Her hand brushed mine briefly as she turned back toward the sea, the contact so light it might have been an accident. My pulse did not think so.
+
 She looked at me.
 
-“Remember this, Nagoji Sawant,” she said. “When people speak of Colachel in years to come, they will talk of the day Dutchmen fell before Travancore guns and horse. Few will talk of the quiet days afterward, when men in coats tried to rebuild their power with ink. Those days matter too.”
+“Remember this, Nagoji,” she said, dropping the formal titles she used in public. “You are of this house now. So when people speak of Colachel in years to come, they will talk of the day Dutchmen fell before Travancore guns and horse. Few will talk of the quiet days afterward, when men in coats tried to rebuild their power with ink. Those days matter too.”
 
 “I will remember,” I said.
 

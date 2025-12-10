@@ -1,5 +1,7 @@
 # Book II, Chapter 11: Dutch on the Horizon
 
+It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation.
+
 The first time I heard De Lannoy's name, it came not in a court, but from a boy on a watch tower.
 
 He was perhaps fifteen, lanky in the way youths are when their bones grow faster than their muscles. He stood on a wooden platform lashed to the top of a coconut palm on a headland, a long glass tube held to his eye. The sea wind tugged at his hair and his threadbare cloth.
@@ -140,7 +142,7 @@ I lowered the glass, then raised it again, as if the second look might show me s
 
 “Then imagine him drowning,” Ibrahim said dryly. “That will help.”
 
-We walked our horses along the ridge, taking care to keep our silhouettes visible. Below, on the beach, a handful of Nair riders trotted their mounts through the shallows, water splashing around their horses' legs. Farther inland, carts moved along the track with deliberate slowness, making it clear that life on this coast did not halt because European hulls hovered.
+We walked our horses along the ridge, taking care to keep our silhouettes visible. Below, on the beach, a handful of Maravar riders trotted their mounts through the shallows, water splashing around their horses' legs. Farther inland, carts moved along the track with deliberate slowness, making it clear that life on this coast did not halt because European hulls hovered.
 
 On the ship, tiny glass circles glinted in the last light as Dutch eyes watched us.
 

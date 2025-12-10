@@ -30,9 +30,9 @@ They watched Padmini Amma approach with a mixture of respect and calculation.
 
 The guard's mouth twitched. His gaze slid to me.
 
-“And this”
+"And this?"
 
-“A rider from the north whom the sea sent back to us,” she said. “The Maharaja plays with him. I thought Velinadu should have its share.”
+"A rider from the north whom the sea sent back to us," she said. “The Maharaja plays with him. I thought Velinadu should have its share.”
 
 The guard's eyebrows rose at that, but he stepped aside.
 
@@ -70,7 +70,7 @@ Her hair was braided and looped, threaded with jasmine. A thin line of sandalwoo
 
 Revathi turned her gaze fully on me.
 
-“You are the Maratha rider,” she said in Hindustani that was precise and cool. “The one the Portuguese could not quite break and the sea could not quite keep.”
+“You are the Maratha rider,” she said in Malayalam, her words precise and cool, each syllable placed slowly enough that even a northerner could not pretend to misunderstand. “The one the Portuguese could not quite break and the sea could not quite keep.”
 
 “So they tell me,” I said.
 
@@ -82,11 +82,11 @@ Her mouth twitched, not quite a smile.
 
 “Good. Men who refuse to learn languages normally insist theirs is the only one that matters. Those men bore me.”
 
-Padmini gestured to the mat opposite us.
+Revathi gestured to the mat opposite.
 
-“Sit, Bayi,” she said. “If you stand there the whole time, he will sprain his neck trying to look respectful.”
+“Sit,” she said. “If you crane your neck the whole time, you will despise me before we have even argued.”
 
-Revathi sat with liquid ease, folding her legs under her. A servant appeared as if summoned by thought and placed a brass plate of food before her. She ignored it for the moment, eyes still on me.
+She sat with liquid ease, folding her legs under her. A servant appeared as if summoned by thought and placed a brass plate of food before her. She ignored it for the moment, eyes still on me.
 
 “You ride for Marthanda Varma now,” she said. It was not a question.
 
@@ -100,10 +100,6 @@ Revathi sat with liquid ease, folding her legs under her. A servant appeared as 
 
 There was no shrillness in her tone. Only a steady, simmering annoyance that reminded me of the way seasoned captains spoke of young sardars who thought themselves clever.
 
-“He broke Dutch power at Colachel,” I said. “I have seen few Indian rulers do that.”
-
-“He has not broken it yet,” she said. “A single battle is not a war. It is a letter. The reply may take years to arrive.”
-
 She leaned back slightly, studying me.
 
 “And you,” she said. “What letters do you carry on your skin, Sawant?”
@@ -112,17 +108,15 @@ She leaned back slightly, studying me.
 
 “You underestimate scribes,” she said. “They love scars. They make for good stories later.”
 
-Padmini cleared her throat softly.
+She picked up a piece of plantain from her plate at last, but held it between finger and thumb rather than eating.
 
-“He trained the Arcot horse on wet sand this week,” she said. “Made them move like the fish you like to watch, Bayi. The Maharaja sat under a cloth and pretended to be only half interested. Ramayyan took notes until his palm leaves looked like a grove.”
-
-Revathi's gaze flicked toward Padmini, then back to me.
+“They also love patterns,” she went on. “They say you trained the Arcot horse on wet sand this week. Made them move like the fish I watch at low tide. The Maharaja sat under a cloth and pretended to be only half interested. Ramayyan filled a grove of palm leaves about it.”
 
 “You think you can teach our men to kill Dutch as easily as you killed Portuguese on your hills?” she asked.
 
 “There was nothing easy about it,” I said. “We lost men every time. Horses also. The ground does not care whose blood it drinks.”
 
-“Yet you keep pouring,” she said. “Why”
+"Yet you keep pouring," she said. "Why?"
 
 “Because if we do not, someone's flag will stand over every fort from Nashik to this place,” I said. “Because men in Goa believed they could take my name and make me a number in a ledger. Because I have seen what happens when you give Europeans an inch of riverbank and they think it entitles them to the whole valley.”
 
@@ -150,21 +144,15 @@ She paused, and something shifted in her face. A shadow, there and gone.
 
 "My mother's cousin sits in Kottarakkara," she said, her tone carefully flat. "Savitri. Of the Elayadathu line. She writes to me sometimes. About the old ways. About what is owed."
 
-She did not elaborate. Behind me, I heard Padmini's stick stop its soft tapping against the stone. The silence stretched a heartbeat longer than it should have.
+She did not elaborate. The silence stretched a heartbeat longer than it should have.
 
 "Kottarakkara has not yet bent," Revathi added. "The chief there still remembers what his grandmothers held. Your king circles that house the way a dog circles a wounded bird. Sooner or later, one of them will move."
 
 I did not know the name. I did not know the house. But I felt the weight of what she was not saying settle into the air between us like monsoon humidity.
 
-Padmini cleared her throat, very softly.
-
-"The Elayadathu women have long memories," she said. "And longer grudges. It is not your concern yet, Sawant. But it may become so."
-
-Revathi's eyes met Padmini's for a moment. Something passed between them, some understanding I could not read. Then Revathi turned back to me, and her expression smoothed.
-
 "You fear he will use men like me to cut your houses down," I said.
 
-“I do not fear,” she said. “Fear is for people who have no knives. I observe. I calculate. I see him giving land and commands to men like you, whose ties to this coast are thin. Easier to shift such men when the time comes. Harder for them to say no.”
+“I do not fear,” she said. “Fear is for people who have no knives. I see him giving land and commands to men like you, whose ties to this coast are thin. Easier to shift such men when the time comes. Harder for them to say no.”
 
 She smiled then, but it was a smile with an edge.
 
@@ -178,7 +166,7 @@ The question was hypothetical, but it landed like a thrown dagger. I thought of 
 
 Her bluntness stung because it was true.
 
-“I stayed because he fights Europeans,” I said. “Because he broke Portuguese arrogance and now aims at Dutch. Because in my hills men argue about who owns which fort while the companies buy whole coasts with a handful of coins and a barrel of powder.”
+“I stayed because he fights Europeans. Because in my hills men argue about who owns which fort while the companies buy whole coasts with a handful of coins and a barrel of powder.”
 
 “So you chose him,” she said. “Understand that you also chose to stand on the other side of some doors when they close.”
 
@@ -196,11 +184,7 @@ She shrugged slightly.
 
 The words were light. The tone was not.
 
-Padmini Amma made a soft sound, half amusement, half warning.
-
-“He has not asked, Bayi,” she said.
-
-“Men like him rarely have to,” Revathi said. “The world falls over itself to give them offers. I state my position early.”
+“Men like you rarely have to ask,” she added. “The world falls over itself to give them offers. I state my position early.”
 
 She rose then, smoothing her sari.
 
@@ -212,7 +196,7 @@ She turned to go, then paused and looked over her shoulder.
 
 Then she was gone, swallowed by the shade of the inner hall, jasmine leaving a faint trail in the air.
 
-Padmini let out a slow breath.
+Soft footsteps sounded behind me. Padmini Amma stepped back onto the verandah from the direction of the inner rooms and let out a slow breath.
 
 “You did not disgrace yourself,” she said.
 
@@ -231,6 +215,38 @@ Yet there was a strange comfort in that.
 If storms had taught me anything, it was that balance is not found on flat, solid ground. It is found on the shifting deck, in the moment between one wave and the next, when you decide whether to fall or to ride.
 
 Revathi Bayi had made her position clear.
+
+Later, when the hall had emptied and Padmini was talking quietly with house elders, a servant found me near the outer steps.
+
+“The Velinadu lady asks if your feet remember her verandah,” he said.
+
+She was waiting where I had first seen her, coins at her throat dimmer in the lamplight, the night air cooler on the stone.
+
+“You heard many words today,” she said without preamble. “Tell me one thing you learned.”
+
+“That treaties are nets,” I said. “And that Velinadu does not let anyone else hold the rope.”
+
+The corner of her mouth twitched.
+
+“Not bad,” she said. “And what did you learn about yourself?”
+
+I hesitated.
+
+“That I am still a man the sea has not decided to keep,” I said. “And that I stand on land that can throw me off if I forget whose it is.”
+
+Her gaze flicked to the long white scar on my forearm, a souvenir of Goa.
+
+“That one?” she asked. “Sea or fort?”
+
+“Dungeon,” I said. “A Portuguese man with time and tools.”
+
+Her hand lifted, almost of its own accord, stopping a finger's breadth from the mark.
+
+“Travancore has its own tools,” she said softly. “Do not give us reason to use them.”
+
+She let her hand drop.
+
+“Go,” she added. “Padmini will think I am trying to steal her new toy.”
 
 The question of where I would stand when the king's wishes scraped against the houses of this coast remained unanswered.
 

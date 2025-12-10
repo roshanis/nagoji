@@ -1,4 +1,4 @@
-# Book IV, Chapter 22: Under De Lannoy's Standard
+# Book IV, Chapter 24: Under De Lannoy's Standard
 
 By the time the first dry season after Kollamkara's valley campaign came and went, people in the fort had started calling one of the new bastions “the foreigner's tooth.”
 
@@ -6,7 +6,7 @@ They said it half in jest, half in grudging respect.
 
 From that bastion, De Lannoy and I watched a unit of cavalry and infantry move through a combined drill that would have made both my younger self and his former company captains splutter.
 
-Nair horse trotted along the base of the wall, then wheeled, moving in pairs between marked posts. Behind them, musketeers lowered their weapons in controlled waves, firing over the horses' backs at imaginary targets in the scrub beyond. At intervals, a small cannon boomed, its recoil checked by well braced wheels.
+Maravar horse trotted along the base of the wall, then wheeled, moving in pairs between marked posts. Behind them, musketeers lowered their weapons in controlled waves, firing over the horses' backs at imaginary targets in the scrub beyond. At intervals, a small cannon boomed, its recoil checked by well braced wheels.
 
 The air smelled of burned powder, sweat and laterite dust.
 
@@ -156,7 +156,7 @@ I took the blade.
 
 He leaned against a rack of spears, staring at some point between us.
 
-“Back where” he asked. “To ships that would call me traitor To a land that has already written my name in a different ledger”
+"Back where?" he asked. "To ships that would call me traitor? To a land that has already written my name in a different ledger?"
 
 He shook his head.
 
@@ -166,7 +166,7 @@ His words echoed my own thoughts more than he knew.
 
 We stood there in silence for a few breaths, two men far from the places that had birthed us, bound to a banner that was neither of our first choosing, yet had become ours by repeated, bloody decisions.
 
-“Under whose standard do we truly stand, Nagoji Sawant?” he asked softly. “The king's The idea of this place The memory of the men who died at Colachel”
+"Under whose standard do we truly stand, Nagoji Sawant?" he asked softly. "The king's? The idea of this place? The memory of the men who died at Colachel?"
 
 “All of them,” I said. “On different days.”
 

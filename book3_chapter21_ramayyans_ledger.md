@@ -1,4 +1,4 @@
-# Book III, Chapter 19: Ramayyan's Ledger
+# Book III, Chapter 21: Ramayyan's Ledger
 
 I had always known that Ramayyan wrote things down.
 
@@ -46,7 +46,7 @@ First appearance: Goan dungeon, retrieved by Travancore allies.
 Skills: cavalry command, European engagement, adaptability.  
 Family: father (farmer), mother, younger brother.  
 Loyalties: to Maratha ideal, to personal honour, increasingly to Travancore king.  
-Risks: potential Maratha recall, emotional ties northward, relationship with Revathi Bayi (complicated).
+Risks: potential Maratha recall (mitigated by Velinadu bond), emotional ties northward, relationship with Revathi Bayi (Alliance tied/Marriage).
 
 The last word made me cough.
 
@@ -175,7 +175,11 @@ The rain outside had eased to a drizzle. The light in the room was soft, filtere
 
 “Why show me this?” I asked. “You could have sent me away.”
 
-“Because you walk with half your weight in the north and half here,” he said. “You need to understand what you carry in this land. Not just your sword. Your shadow. You are not just a man who trains horses. You are a potential message. A symbol. A warning. It is better you see how I measure that than imagine monsters where there are only old men with styluses.”
+“Because you walk with half your weight in the north and half here,” he said.
+ 
+ "I married into Velinadu," I countered. "I sent my brother the final gold. I am here."
+ 
+ "Marriages end," Ramayyan said, unmoved. "Gold runs out. Roots are harder to kill than branches. I watch to ensure they do not regrow. You need to understand what you carry in this land. Not just your sword. Your shadow. You are not just a man who trains horses. You are a potential message. A symbol. A warning. It is better you see how I measure that than imagine monsters where there are only old men with styluses.”
 
 “Old” I said, raising an eyebrow.
 

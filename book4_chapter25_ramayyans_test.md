@@ -1,8 +1,8 @@
-# Book IV, Chapter 23: Ramayyan's Test
+# Book IV, Chapter 25: Ramayyan's Test
 
 The summons came on a day that smelled of ink and rain.
 
-I had spent the morning on the marches, watching a new patrol route settle into the feet of my horsemen. By afternoon, clouds had rolled in from the west, blurring the line of the hills. When I reached the fort, my clothes were damp and my temper short.
+I had spent the morning on the marches, watching a new patrol route settle into the feet of my horsemen. By afternoon, clouds rolled in from the west, blurring the line of the hills. By the time I reached the fort, my clothes were damp and my temper short.
 
 Ramayyan waited for me in his small room off the war hall, the one that looked onto a narrow courtyard where a single neem tree grew.
 
@@ -28,7 +28,7 @@ He lifted the stone and turned the leaf so that I could see the script.
 
 It was not his hand.
 
-The curves and strokes were Deccan, the ink a little thicker, the pressure on the fiber different.
+The curves and strokes were Deccan, the ink a little thicker, the pressure on the fibre different.
 
 My own name sat near the top.
 
@@ -81,7 +81,7 @@ He regarded me levelly.
 
 He leaned back, hands resting lightly on his knees.
 
-“They offer you land, status, a place beside men whose blood you share,” he said. “They ask for information. Not yet for betrayal. That will come later, if the first request goes unchallenged.”
+“They offer you land, status, a place beside men whose blood you share,” he said. “They ask for information. Not yet for betrayal. That comes later, if the first request goes unchallenged.”
 
 “You brought me here knowing this,” I said.
 
@@ -159,13 +159,43 @@ When he looked up, his gaze was thoughtful.
 
 He nodded once.
 
-“I will send this,” he said. “With a few lines of my own, reminding your sardar that Travancore is not a prize to be assumed, but a possible ally to be courted. If he is as clever as you once thought, he will hear the tone.”
+“The messenger waits at the border,” he said. “He is patient.”
 
 “And if he is not?” I asked.
-
-“Then his horse will sink in sand one day and I will not weep,” he said.
-
-He set the leaf aside.
+ 
+ "Then his horse will sink in sand one day and I will not weep," he said.
+ 
+ Ramayyan reached for the leaf.
+ 
+ "No," I said.
+ 
+ My hand covered his.
+ 
+ He looked up, eyebrows raised.
+ 
+ "It is a good letter," I said. "It allows me to keep a foot in the north. To answer a friend. To be a Maratha who helps Travancore."
+ 
+ "Yes," Ramayyan said.
+ 
+ "I am not a Maratha who helps Travancore," I said. "Not anymore."
+ 
+ I took the leaf. I took the original message from the Deccan.
+ 
+ I walked to the small oil lamp burning in the niche.
+ 
+ "Nagoji," Ramayyan said softly. "Once you do this, there is no echo. You become silent to them."
+ 
+ "I know," I said.
+ 
+ I held the leaves to the flame.
+ 
+ They caught quickly. The dry palm cracked, the ink bubbling as it turned to black smoke.
+ 
+ We watched them burn until the ash fell onto the stone floor.
+ 
+ "I have no advice for Pune," I said. "My sword is here. My words stay here."
+ 
+ Ramayyan watched the last spark die. Then, for the first time in all the years I had known him, he smiled. A true smile, not a baring of teeth.
 
 “You understand what you have done,” he added. “You have closed a door on one future. You could have written a different letter, one that made this court easier to cut. I would have seen it. The Maharaja would have seen it. We would have acted.”
 
@@ -176,7 +206,8 @@ He set the leaf aside.
 He reached for another leaf, smaller, and wrote two short lines.
 
 Sawant, Nagoji – tested with northern letter.  
-Chooses Travancore when choice is sharp.
+ Burned the bridge himself.  
+ Is ours.
 
 He did not hide it from me.
 

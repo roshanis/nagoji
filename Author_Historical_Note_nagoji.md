@@ -18,7 +18,7 @@ Eustachius De Lannoy was a historical Dutch officer captured at Colachel who ent
 
 Ramayyan Dalawa was a real diwan of Travancore and a key adviser to Marthanda Varma. Contemporary and later accounts present him as an able, often ruthless administrator. His “ledger room,” his habit of recording personal dossiers and the specific tests he sets for Nagoji are inventions, meant to embody the kind of hard political memory that a small besieged state needed to survive.
 
-The tensions between the crown and older local houses are grounded in the historical struggle between Marthanda Varma and the Ettuveettil Pillamar and other chiefs, but characters like Kollamkara are composites rather than portraits of a single person.
+The tensions between the crown and older local houses are grounded in the historical "Years of Consolidation" (1735–1740) where Marthanda Varma systematically broke the *Ettuveetil Pillamar* and other chiefs. The novel dramatizes these police actions and internal wars as the crucible where Nagoji earns his trust before the Dutch threat arrives. Characters like Kollamkara are composites rather than portraits of a single person.
 
 **Women, Velinadu and matriliny**
 
@@ -44,11 +44,13 @@ Chronology has been tightened. Real campaigns, fort projects and diplomatic exch
 
 The novel is written from inside Nagoji's head. He does not know everything a historian might know. He misreads motives, misses distant developments and interprets events through his own loyalties and fears. Where his account clashes with documentary history, the history wins; where the sources are silent, imagination has filled the gaps within what seems period plausible.
 
-**Elayadathu Swaroopam and Kottarakkara**
-
-The absorption of Kottarakkara and the fate of the Elayadathu Swaroopam's ruling line are based on historical events. Around 1739–1740, Travancore moved against this house. The chief of Kottarakkara did die in confinement at Trivandrum. A senior woman of the Elayadathu line did claim succession under matrilineal law, was refused recognition by Marthanda Varma, fled to Thekkumkur, was briefly reinstalled by the Dutch, and eventually surrendered and took asylum in Cochin.
-
-Local Kottarakkara history remembers her only as "the princess of Elayadathu Swaroopam" or "the last queen of this dynasty." This novel gives her the name Savitri and imagines her relationship to Revathi Bayi and her garden exile in Cochin. The core facts, that a legitimate claimant was refused and exiled, are historical.
+**The Northern Princes and Thekkumkur**
+ 
+ The novel shifts the focus of the "matrilineal claim" conflict from the earlier Elayadathu Swaroopam war (1741) to the later annexations of Thekkumkur and Vadakkumkur (c. 1750). While a similar conflict involving a female claimant (the Rani of Elayadathu) did happen earlier, the novel dramatizes this struggle in the persona of Savitri and sets it in Thekkumkur to align with the final phase of Marthanda Varma's expansion just before the Thrippadidanam.
+ 
+ **Treaty of Mavelikkara (1753)**
+ 
+ The decisive treaty where the Dutch agreed to "reciprocate friendship" and withdraw support from local princes is known as the Treaty of Mavelikkara (1753). In the novel, the initial "bowing" of the Dutch (Chapter 18) represents earlier truces (like the Treaty of Mannar, 1743), while the final capitulation is referenced in Book IV as the ultimate consequence of the northern victories.
 
 **Assassination attempts and the Ettuveettil Pillamar**
 

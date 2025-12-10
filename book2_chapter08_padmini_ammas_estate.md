@@ -1,12 +1,48 @@
 # Book II, Chapter 8: Padmini Amma's Estate
 
+For a month I lived near the fishermen’s village, sleeping on a mat in a small hut that smelled of dried prawns and damp thatch.
+
+It was a month of sun and salt. My days were spent on the wet sands, shouting until my throat was raw, trying to make Arcot horses and Maravar ponies understand each other. The fishermen watched us from their boats, laughing when a charger stumbled, nodding when a formation held. I ate their fish curry, spicy enough to make a Deccan man weep for milk, and drank their toddy. I became, in a small way, part of the landscape: the foreign captain who yelled at horses.
+
+Then the King’s summons came. Not to the war hall, but to a smaller pavilion near the temple.
+
+Ramayyan was waiting. He did not look up from his palm leaves as I entered.
+
+“The King is pleased with the sand,” he said. “He thinks you might be useful indoors as well.”
+
+“I prefer the sky,” I said.
+
+“Preferences are luxuries,” Ramayyan said. “We need you closer to the capital. There is an estate that can house you and your officers. Padmini Amma’s lands.”
+
+I had heard the name. The woman who owned pepper hills.
+
+Ramayyan finally looked up. His gaze was like a clerk’s scale, weighing gold against brass.
+
+“She is Nair,” he said. “Her house follows the old ways. They are… particular about who sleeps under their roof. You are Maratha?”
+
+“Yes.”
+
+“Which line?”
+
+“Sawant,” I said. “Kshatriya. My father’s house has held the sword for five generations. We do not plow.”
+
+He studied me. It was not enough to be a soldier. In this land, as in mine, questions of blood and birth could close a door faster than any bolt.
+
+“Sawant,” he repeated, testing the sound on his tongue. “Good. That will satisfy the temple priests who cook at her house. If you were low caste, we would have to billet you in the stables. Padmini Amma might tolerate a foreign captain, but she will not tolerate pollution.”
+
+He scratched a note on his leaf.
+
+“Go then. Pack your kit. The cart is waiting. Try not to offend her. She supplies half the pepper that pays for your salary.”
+
+***
+
 The first time I saw Padmini Amma's house, I thought they had brought me to a temple by mistake.
 
 Not one of the great stone temples I knew from the Deccan, with shikharas that clawed at the sky and carved gods staring down from high walls. This place had no towering spires, no massive gateways. It sprawled low and wide beneath the palms, its tiled roofs sloping gently, its carved wooden beams dark with oil and age. Yet everything about it said power.
 
 Power in the neatness of the courtyards, swept clean before dawn. Power in the thickness of the granary walls, mounds of paddy stacked inside like quiet promises. Power in the way men with spears stood not at the outer gate, but under the shade of the inner verandahs, where cool air and authority met.
 
-We rode in under an arch woven with coconut fronds and mango leaves. Someone had hung oil lamps there though the sun was high, wicks smoking gently, scenting the air with a faint tang of burnt ghee.
+We rode in under an arch woven with coconut fronds and mango leaves. Someone had hung oil lamps there though the sun was high, wicks smoking gently, scenting the air with burnt ghee.
 
 “Do not look for the sardar,” Ibrahim murmured beside me as his horse's hooves clicked on the stone threshold. “Here, the house does not belong to the man who sleeps in the front room. It belongs to the name on the matrilineal line. You will see.”
 
@@ -14,11 +50,11 @@ The courtyard we entered was long and rectangular, edged with pillared verandahs
 
 All of them, women and boys both, looked up as we dismounted. Their eyes slid over Ibrahim, whom they knew, then settled on me.
 
-A stranger. A Maratha. A man who had washed up from Portuguese wreckage and now arrived here on a horse instead of a stretcher.
+A stranger. A Maratha. A man who had washed up from Portuguese wreckage, spent a month smelling of dead fish, and now arrived here on a horse instead of a stretcher.
 
 At the far end of the courtyard a woman stood.
 
-She was not young, but no one would have called her old. Her hair, thick and black, was braided and coiled at the nape of her neck. Gold gleamed at her ears and around her neck, not in great heavy chains, but in simple pieces that looked as if they had been worn for work as much as for ceremony. Her sari was cotton, not silk, hitched up around her ankles in the style of someone who might walk through fields.
+She was not young, but no one would have called her old. Her hair, thick and black, was left unbraided and coiled at the nape of her neck. Gold gleamed at her ears and around her neck, not in great heavy chains, but in simple pieces that looked as if they had been worn for work as much as for ceremony. Her sari was cotton, not silk, hitched up around her ankles in the style of someone who might walk through fields.
 
 She leaned lightly on a long stick that could have been a staff or a cane, depending on who held it.
 
@@ -30,11 +66,9 @@ I bowed my head slightly as we approached, the way I might greet a landholding P
 
 Her gaze travelled from my feet to my face. It lingered on my hands, still wrapped in thin linen, on the faint outline of the brand under my sleeve, on the worn leather of my belt.
 
-“The one who survived,” she said. Her Malayalam was slow enough that I could follow. “The sea spits out strange things.”
+“The one who survived,” she said in Malayalam, slow enough now that I could follow. “The sea spits out strange things. You understand me, Sawant?”
 
-Switching to Hindustani, she added, “You understand me, Sawant?”
-
-“Enough to know when I am being insulted, Amma,” I said. “And enough to know when I am being measured.”
+“Enough to know when I am being insulted, Amma,” I answered in the same halting tongue. “And enough to know when I am being measured.”
 
 One corner of her mouth curved.
 
@@ -102,7 +136,7 @@ I could not help a short laugh.
 
 “You speak freely, Amma.”
 
-“I own this land,” she said. “Why should I not”
+"I own this land," she said. "Why should I not?"
 
 She leaned back, studying me.
 
@@ -141,10 +175,6 @@ She glanced at me.
 She was quiet long enough that I wondered if I had stepped too far.
 
 “There are days,” she said at last, “when I would like to wake up and have someone else decide which field to flood and which debt to forgive. But if I hand this house to a man whose first instinct is to please another king, my daughters and their daughters become guests in their own courtyard. I am selfish enough to prefer my own burdens to their chains.”
-
-Her mouth twisted.
-
-“Besides,” she added, “if I did not enjoy it at least a little, would I tease you as often as I do?”
 
 The kalari shouts rose again, punctuating her point.
 

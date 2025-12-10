@@ -8,15 +8,15 @@ We waited with them.
 
 Reports had come in all day.
 
-From the boy on the palm tower: Dutch ships shifting their positions offshore, boats running between them and the coast, sails furled and unfurled like nervous fingers.
+From the boy on the palm tower came word of Dutch ships shifting their positions offshore, boats running between them and the coast, sails furled and unfurled like nervous fingers.
 
-From Ibrahim and his Marakkar cousins: supply craft cut loose in the night, anchors sabotaged, small fires flickering briefly on distant decks.
+Ibrahim and his Marakkar cousins sent tidings of supply craft cut loose in the night, anchors sabotaged, small fires flickering briefly on distant decks.
 
-From inland chiefs: men mustering, some eager, some sullen; grain moved toward the fort; rumours of certain houses grumbling that this was not their quarrel.
+Messengers from inland chiefs spoke of men mustering, some eager, some sullen; grain moved toward the fort; rumours of certain houses grumbling that this was not their quarrel.
 
-From Kottarakkara: nothing. A silence that Ramayyan noted without comment, his stylus pausing over the name before moving on. When I asked about it, he only said, "Some absences speak louder than presence." Padmini, overhearing, made a sound that was not quite a laugh. "The Elayadathu chief counts Dutch masts and waits to see which way the wind blows. His kinswoman Savitri writes letters to Velinadu asking whether this is the moment." She did not say what moment. She did not need to.
+Kottarakkara sent nothing. A silence that Ramayyan noted without comment, his stylus pausing over the name before moving on. When I asked about it, he only said, "Some absences speak louder than presence." Padmini, overhearing, made a sound that was not quite a laugh. "The Thekkumkur Raja counts Dutch masts and waits to see which way the wind blows. His sister Savitri writes letters to Velinadu asking whether this is the moment." She did not say what moment. She did not need to.
 
-From Velinadu: Revathi Bayi sending word that she would remain within her halls, Velinadu men ready to move if the Dutch threatened their share of the coast. The message was formal, correct, empty of warmth. Padmini read it twice. "She is watching too," she murmured. "Watching to see whether her king is worth her kinswoman's silence."
+Velinadu replied with a formal message from Revathi Bayi, saying she would remain within her halls, Velinadu men ready to move if the Dutch threatened their share of the coast. The words were correct, empty of warmth. Padmini read them twice. "She is watching too," she murmured. "Watching to see whether her king is worth her kinswoman's silence."
 
 Padmini Amma moved through all of this like a pivot.
 
@@ -48,9 +48,19 @@ By sunset, she was back at her estate, watching as boys carried oil to the templ
 
 While she moved through her layers of responsibility, I moved through mine.
 
-In the coastal training ground, I rode with the Arcot and Nair horsemen one last time before the real test. We did not run full drills. It was too late to teach new tricks. Instead, we rode slowly along the wet sand, letting the horses feel the ground under different tides.
+In the coastal training ground, I rode with the Arcot and Maravar horsemen one last time before the real test. We have been drilling for months so we did not run full drills. It was too late to teach new tricks. Instead, we rode slowly along the wet sand, letting the horses feel the ground under different tides.
 
-“Remember,” I told them, “you do not have to kill every Dutchman to win. You have to break their line, their nerve, their belief that you will always fall before their guns. If you survive one volley and reach them still moving, half their courage will die before any man does.”
+Ponnam Pandya Deven kept his horse a half length from mine, as he often did now, close enough to hear, far enough to pretend distance.
+
+“Tomorrow we do not have the luxury of turning when we please,” he said. “They will fire when it suits them, not us.”
+
+“Then make the sand your ally before their powder speaks,” I said. “You and your men read this beach better than any Deccan rider.”
+
+He snorted softly.
+
+“If we live through this, Sawant, I will decide whether to be flattered,” he said.
+
+“Remember,” I told them all, “you do not have to kill every Dutchman to win. You have to break their line, their nerve, their belief that you will always fall before their guns. If you survive one volley and reach them still moving, half their courage will die before any man does.”
 
 Raza Khan adjusted his turban.
 
@@ -78,33 +88,79 @@ One laughed, nervously.
 
 In the war hall, maps lay open again.
 
-Marthanda Varma studied them with that same stillness I had come to recognise, the kind that meant all his thinking had narrowed to a fine point.
+Marthanda Varma studied them with that same stillness I had come to recognise, the kind that meant all his thinking had narrowed to a fine point. Beside him stood a man I had seen only fleetingly, Mathoo Tharakan, a Syrian Christian merchant from the north with eyes as sharp as Ramayyan’s stylus. He wore the simple white cloth of his people, but the gold cross at his neck and the deference the Dalawa showed him spoke of his standing.
 
-“They will land here,” he said, tapping a stretch of beach near the small fishing town of Colachel. “It is close enough to their ships to feel safe, close enough to inland tracks to threaten us.”
+“They are here because their ledgers are bleeding,” Marthanda Varma said, his finger tracing the coastline on the map. He glanced at the merchant. “They are angry that we swallow the pepper states. They are angry that we refuse their contracts and sell instead through men like Tharakan here. They are angry that the profit stays in Syrian and Nair purses instead of flowing to Batavia.”
 
-Ramayyan moved tokens, placing small shells where we had scouts, pebbles where we believed allied chiefs still held firm, a single thin bone where rumours said one local house might waver.
+Tharakan inclined his head. “Their anger is cheaper than their pepper, Your Highness. Let them keep it.”
 
-“We have cut their supply craft,” he said. “If we hold them on the beach and at the first line of coconut groves, they will bleed faster than we do.”
+He looked up, his eyes hard.
 
-“And if we fail?” I asked.
+“They expect to march inland, burn a few villages, perhaps even threaten the capital, and force us to sign whatever paper they shove in front of us.”
 
-The king did not look up.
+Ramayyan moved a token, a small Dutch coin, onto the sand of Colachel.
 
-“Then they march inland,” he said. “They burn this hall. They tear down Padmini's house. They drag Velinadu men in chains to their ships. They tell Batavia that Travancore is a lesson in what happens to those who forget their place.”
+“They are overconfident,” the Dalawa said. “And they are alone. Our spies in Ceylon say the Governor there has stripped his garrisons to send this force. They expect reinforcements from Batavia, but they will not come.”
 
-He raised his eyes then, and the weight in them made the air feel heavier.
+“Why not?” I asked.
 
-“We will not fail,” he said. “But we should not pretend the price will be light. Tell your horsemen this. I do not ask them to die for me. I ask them to make sure the Dutch do not think they can kill a kingdom with one landing.”
+“The Java War,” Ramayyan said, a rare hint of satisfaction in his voice. “ The Dutch are busy fighting their own fires in the east. They cannot spare men for a pepper feud in Travancore. What sits on that beach is all they have.”
+
+“Four hundred men,” Varma said. “Professional soldiers. Good muskets. Cannon.”
+
+“Against our thousands,” I said. “If we charge them,”
+
+“No charge,” Varma cut in. “Not yet. We do not spend men to prove we are brave. We spend them to win.”
+
+He pointed to the map again.
+
+“We pin them,” he said. “I have raised two thousand extra levies from the southern districts. We move them here, and here. Block the outcome to the inland road. Force them back onto the sand.”
+
+“A siege?” I asked. “On an open beach?”
+
+“A prison without walls,” Ramayyan corrected. “We dig in. We build batteries. We squeeze them against the sea.”
+
+“And the sea?” I asked. “They have ships. They can resupply. They can leave.”
+
+“Not if the water is as hostile as the land,” Varma said. “I have spoken to the Mukkuvar headmen. The fishermen. They know every rock and current. At night, the sea will belong to them, not the Dutch ships.”
+
+He looked at me.
+
+“Your horsemen will not charge a line, Nagoji. You will be the bars of the cage. You will patrol the perimeter. Capture their scouts. Cut off their foraging parties. Make sure that once they step onto that beach, they never step off it unless in chains.”
+
+It was a colder plan than a dawn charge. It lacked the glory of a thunderous collision, but it carried the ruthless weight of certainty.
+
+“We will starve them,” I said. “And bleed them.”
+
+“We will break them,” Varma said. “Slowly. Until they realize that their monopoly is worth less than their lives.”
 
 Night came down slowly.
 
-The clouds that had hung low all day finally let go a thin drizzle, just enough to sharpen the smell of earth and sea. Lamps flickered on one by one in houses and halls. In the temple courtyards, priests chanted louder than usual, as if hoping their gods could be persuaded to pay special attention in the morning.
+The clouds that had hung low all day finally let go a thin drizzle, just enough to sharpen the smell of earth and sea. Before the last orders went out, the temple near the fort held a special puja.
+
+Not the noisy, sprawling festival of harvest or marriage, but a focused, tight ceremony meant to steady hands that would hold weapons at dawn. Oil lamps were set in long rows along the outer wall. Men and women moved past them with cupped palms, touching each flame lightly, then pressing that faint heat to their eyelids and chests.
+
+Padmini stood near the inner gate, handing small packets of kumkum and ash to any soldier who wished to take them. Some men tied the cloth around their wrists, others tucked it into their belts. A few, mostly Arcot horsemen, hung back, respectful but wary of unfamiliar gods.
+
+Ibrahim brought a small brass lamp from the mosque by the shore and set it discreetly near the temple steps, the light from it mingling with the others.
+
+"The sea does not care whose name you call when it takes you," he murmured to me. "Best to have several listening."
+
+Raza Khan stood apart with his Arcot men, their hands pressed together in their own way towards Mecca, their lips moving in prayers that belonged to other lands. We had all come from somewhere else. Tomorrow we would bleed into the same sand.
+
+"You think they pray on those ships?" Ibrahim asked, nodding toward the dark line of the sea.
+
+"They pray to their god and their profit," I said. "I do not know which they trust more."
+
+"We will find out tomorrow," he said.
+
+When the last chant faded and the priests banked the central flame, the air in the courtyard felt thicker, not with smoke, but with the weight of what had been asked and promised in whispers. Lamps flickered on one by one in houses and halls. In the temple courtyards, priests chanted louder than usual, as if hoping their gods could be persuaded to pay special attention in the morning.
 
 Back at Padmini Amma's estate, a quiet settled that felt almost like the pause between inhaling and exhaling.
 
 Men who would normally have gathered to talk after supper sat with their families instead, fingers tracing outlines on children's faces, hands resting a little longer on wives' shoulders. Women moved with restless energy, checking and rechecking that rice jars were full, that lamps had enough oil, that clothes for mourning lay where they could be found if needed.
 
-Under the jackfruit tree, Kulkarni, one of my senior riders from the Deccan who had survived Goa's dungeons alongside me, sat sharpening his talwar.
+Under the jackfruit tree, Dhanaji, one of my senior riders from the Deccan who had survived Goa's dungeons alongside me, sat sharpening his talwar.
 
 “You ever think you would be here, sahib?” he asked, using the old title out of habit. “At the edge of a southern sea, about to ride at Dutch guns for a king who is not yours”
 
@@ -122,7 +178,7 @@ He looked up, surprised.
 
 “Guns I understand,” I said. “Men who follow because they believe you see further than they do, that is a weight I am still learning how to carry.”
 
-Kulkarni's gaze softened.
+Dhanaji's gaze softened.
 
 “You carried it on the Godavari,” he said. “You carried it when we hit Portuguese caravans. You carried it when you chose to jump from that ship and leave a boy behind rather than let both of you drown for nothing. Do not pretend this is new.”
 
@@ -130,71 +186,73 @@ The mention of Keshavrao landed like a stone in my chest.
 
 “It feels different here,” I said. “There, we rode for hills we knew. For forts that had our banners. Here, I ride for a king I have known barely a year, on land whose gods I do not fully understand.”
 
-“The bullets will not stop to ask whose gods you prayed to,” Kulkarni said. “You ride for the man you chose when you did not run north. That is enough for now.”
+“The bullets will not stop to ask whose gods you prayed to,” Dhanaji said. “You ride for the man you chose when you did not run north. That is enough for now.”
 
-Padmini appeared then, her stick tapping softly.
+Padmini appeared then, her stick making no sound on the damp earth, as if she knew better than to disturb the night's heavy silence.
 
-“You men brood too much,” she said. “Brooding does not stop bullets either. Sleep. Or try. The dawn will not wait for your thoughts.”
+"You men speak of guns and gods," she said, stepping into the circle of lantern light. "But there are older powers to reckon with before the sun rises."
 
-“Will you sleep, Amma?” I asked.
+She looked at me. "Come, Nagoji. There is one place you must visit. A place few eyes outside our bloodline have seen."
 
-“A little,” she said. “I have lived through enough wars to know that the night before is rarely the one to fear. It is the nights after that keep you awake.”
+I glanced at Dhanaji, who nodded slightly, sensing a dismissal. I rose and followed her.
 
-Later, as most of the house settled into uneasy rest, I walked out toward the edge of her lands.
+She led me away from the house, past the granaries and the sleeping quarters of the servants, toward a dense thicket of trees that loomed like a dark island at the edge of the estate. As we approached, the air grew cooler, smelling of wet stone, camphor, and rotting leaves. The canopy overhead was so thick it blotted out the few stars that had managed to pierce the clouds.
 
-From a low ridge, I could see the faint glow where the fort lamps burned, the darker line of the sea beyond. Somewhere near Colachel, men on both sides lay in whatever shelter they had, listening to different prayers and the same waves.
+"This is the *Sarpa Kavu*," Padmini whispered. "The Abode of Snakes."
 
-Footsteps crunched on the dry leaves behind me.
+We stepped into the grove, and a cold prickle of dread ran down my spine. The hairs on my arms rose as the air thickened. Roots coiled over the ground like solidified serpents. In the center, beneath a massive tree that seemed to hold up the sky itself, a small stone clearing opened up. Large termite mounds rose from the earth like natural stupas, the ancient homes of the serpents, flanked by hundreds of granite idols. Snakes with hoods spread, coiled bodies, singular and intertwined, stood in silent vigil.
 
-“I thought you might be here,” Revathi's voice said.
+Revathi Bayi was there, lighting a small oil lamp at the foot of the largest idol. She stood wrapped in a shawl against the damp air, her face illuminated by the flickering flame.
 
-I turned. She stood a little way off, wrapped in a shawl against the damp air. Padmini must have sent word to Velinadu. Or perhaps Revathi had simply decided on her own to come closer to the place where the land would be tested.
+"It is a secret place," Revathi said softly, her voice blending with the rustle of leaves. "Only the immediate family of Padmini Amma's *tharavad* may walk here freely. To bring a stranger is to ask the Naga Rajas to witness him."
 
-“You travel at odd times, Bayi,” I said.
+"He rides for us," Padmini said, bowing her head before the stone serpents. "He needs their permission to bleed on their earth."
 
-“So do storms,” she replied. “I wanted to see the coast before it changes.”
+Revathi gestured to the idols. "Do you understand the significance of this, Nagoji? This house is one of the oldest in the state. Before there were kings in Padmanabhapuram, before the Dutch sailed their wooden islands, this grove was here. We do not cut a single branch. We do not sweep the leaves. We let the Nagas rule this darkness so that they might let us rule the light."
 
-She moved to stand beside me, looking out.
+"We ask for their blessing," Padmini added. "Not for glory, but for venom. The stillness that strikes."
 
-“There is a moment,” she said quietly, “before every great event, when the land holds its breath. Birds become quiet. Dogs whine. Old women feel their joints ache. This is that moment.”
+I bowed, feeling the weight of the centuries in that small, shadowed clearing. The silence here was not empty; it was watchful.
 
-“You sound like a priest,” I said.
+"There is a moment," Revathi said, looking past the idols into the dark, "before every great event, when the land holds its breath. Birds become quiet. Even the wind hesitates. This is that moment. The Naga lords are listening."
 
-“Do not insult me,” she replied, but there was a hint of humour under the sharpness.
+"You will ride tomorrow," she continued, her eyes finding mine. "Songs will be written about men like you. But remember, we do not shout our war cries here. We endure. We bend until men think we will break, then we stand up again. That is the lesson of the snake."
 
-We stood in silence for a while.
+Padmini touched the ground, then her forehead. "Pray, Nagoji. Ask that your strike be true."
 
-“You will ride with his horse,” she said at last. “You will strike at the Dutch lines. Songs will be written about men like you. About Arcot lancers and Nair riders who broke the company square. People will forget the women who counted grain and signed treaties and warned chiefs not to sell their souls for cheap cloth.”
+I closed my eyes, the smell of the damp earth filling my lungs. I did not pray for victory. I prayed for the focus of the cobra, the patience of the stone.
 
-“You have made sure I will not forget,” I said.
+When I opened my eyes, I was alone with Revathi. Padmini had slipped away, perhaps to the supply wagons, or perhaps simply to give us this moment.
 
-She glanced at me sideways.
+"Good," Revathi said, her voice trembling slightly. "Now go. Sleep if you can."
 
-“See that you do not,” she said. “Tomorrow, when you feel the rush of hooves and the roar of guns, remember that the land you churn belongs to many names. When you shout your war cry, remember that some of us are shouting ours in quieter ways.”
+The vulnerability in her tone broke my resolve. I stepped forward and pulled her into a tight embrace. She did not resist; she melted against me, her body soft and shaking, tears dampening my shoulder. For a heartbeat, the war vanished. I did not care about the King or the Dutch or the damp gunpowder waiting in the fort. I only wanted to remain here, anchoring myself to this woman, for a lifetime.
 
-“What is your war cry, Bayi?” I asked.
+"If I survive," I whispered into her hair, the words fighting their way past the lump in my throat, "we will have a conversation about queens and guests. But not tonight."
 
-She considered.
+She pressed her forehead briefly against my neck, breath warm on my skin, then pulled back just far enough to look at me.
 
-“No,” she said. “We do not shout. We endure. We bend until men think we will break, then we stand up again when they move on. It is less dramatic. It lasts longer.”
+"You do not get to die cheaply now," she said, voice rough. "Not with unfinished words between us."
 
-A light rain began to fall, fine as dust.
+"Then I will try to live expensively," I said, attempting a smile that did not quite reach my own eyes.
 
-“You should go back inside,” I said. “You will catch cold.”
+"Nagoji?". Dhanaji’s voice echoed from near the house, sharp and questioning.
 
-She snorted.
+Revathi pulled back, wiping her cheeks swiftly. She looked at me, a sad, knowing smile touching her lips. Then she stepped closer again, her voice dropping to a whisper that carried the sharp edge of a blade.
 
-“Spoken like a man who has never seen a woman give birth in the middle of a monsoon,” she said. “Keep your worries for your horses.”
+"And Nagoji... if you die tomorrow, die facing the right direction. Do not give the Dutch the satisfaction of seeing your back."
 
-She turned to go, then stopped.
+She hesitated, her fingers brushing one of the stone serpents.
 
-“Nagoji,” she said without looking back. “If you die tomorrow, die facing the right direction. Do not give the Dutch the satisfaction of seeing your back.”
+"And if you live," she murmured, barely louder than the rustle of leaves, "do not make me a widow for a king I did not choose."
 
-Then she walked away into the dark.
+She turned back to the idols, leaving only the memory of her fragrance hanging in the humid air to torture me.
+
+Padmini guided me back to the edge of the grove when I emerged. "The dawn will not wait," she said, appearing from the shadows. "Rest now."
 
 When I finally lay down on the mat Padmini's people had given me, sleep came in fragments.
 
-In one fragment, I was again in the Goan dungeon, chains cold against my skin. In another, I was on the storm struck ship, rope burning my hands as Keshavrao vanished into the black water. In a third, I was on that wet strip of sand, horses pounding beside me, Dutch muskets spitting fire.
+In one fragment, I was again in the Goan dungeon, chains cold against my skin. In another, I was on the storm struck ship, rope burning my hands as Keshavrao vanished into the black water. In a third, I was on that wet strip of sand, horses pounding beside me, Dutch muskets spitting fire, and through the smoke, Revathi’s sorrowful smile watching me.
 
 In the last fragment before dawn, I stood alone on a beach that was both Colachel and not, the sea on one side, the fort on the other, the sound of drums carrying on the wind.
 
@@ -203,24 +261,3 @@ When the real drums began, calling men to arms in the grey before sunrise, they 
 The eve was over.
 
 The storm was here.
-That night, before the last orders went out, the temple near the fort held a special puja.
-
-Not the noisy, sprawling festival of harvest or marriage, but a focused, tight ceremony meant to steady hands that would hold weapons at dawn. Oil lamps were set in long rows along the outer wall. Men and women moved past them with cupped palms, touching each flame lightly, then pressing that faint heat to their eyelids and chests.
-
-Padmini stood near the inner gate, handing small packets of kumkum and ash to any soldier who wished to take them. Some men tied the cloth around their wrists, others tucked it into their belts. A few, mostly Arcot horsemen, hung back, respectful but wary of unfamiliar gods.
-
-Ibrahim brought a small brass lamp from the mosque by the shore and set it discreetly near the temple steps, the light from it mingling with the others.
-
-"The sea does not care whose name you call when it takes you," he murmured to me. "Best to have several listening."
-
-Raza Khan stood apart with his Arcot men, their hands pressed together in their own way, their lips moving in prayers that belonged to other lands. We had all come from somewhere else. Tomorrow we would bleed into the same sand.
-
-"You think they pray on those ships?" Ibrahim asked, nodding toward the dark line of the sea.
-
-"They pray to their god and their profit," I said. "I do not know which they trust more."
-
-"We will find out tomorrow," he said.
-
-When the last chant faded and the priests banked the central flame, the air in the courtyard felt thicker, not with smoke, but with the weight of what had been asked and promised in whispers.
-
-Then the drums began again, this time in the fort, and the quiet closed with them.

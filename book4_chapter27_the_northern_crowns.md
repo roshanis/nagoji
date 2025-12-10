@@ -1,4 +1,4 @@
-# Book IV, Chapter 25: The Elayadathu Claim
+# Book IV, Chapter 27: The Northern Crowns
 
 The map in the war hall had grown crowded.
 
@@ -41,14 +41,16 @@ The name fell into the room like a stone into water.
 I had known this day was coming.
 
 The foreshadowing had been there for years, in Revathi's silences, in Padmini's careful warnings, in the entries in Ramayyan's ledger that I had glimpsed and pretended not to understand.
+ 
+Kayamkulam had fallen. Thekkumkur and Vadakkumkur were ours. But now a new name rose.
 
-Kottarakkara. Elayadathu Swaroopam. Savitri.
+Kottarakkara. Savitri.
 
 Names that meant nothing to me when I first washed up on this coast, and everything now.
 
-The chief of Kottarakkara had finally pushed too far. Dutch factors in his court. Mysore envoys entertained at his table. Letters intercepted that spoke of "alternatives" to Travancore rule.
+The Raja of Kottarakkara had finally pushed too far. Dutch factors in his court. Letters intercepted that spoke of "alternatives" to Travancore rule. When we marched, he fled to Cochin, leaving the throne empty. But his kinswoman remained.
 
-"He thinks he can play them against us," Ramayyan said. "He thinks if he makes himself useful to Mysore or the Dutch, they will protect him from our reach."
+"He thinks he can play them against us," Ramayyan said. "He thinks if he makes himself useful to the Dutch, they will protect him from our reach."
 
 "They will eat him," I said. "After they use him to weaken us."
 
@@ -76,13 +78,9 @@ We blocked the roads his merchants used. We diverted the canals that fed his fie
 
 "Walls can be rebuilt," I said. "What we are breaking cannot."
 
-Within months, the chief of Kottarakkara was brought to Trivandrum. Not in chains, not as a prisoner, but as a "guest" whose doors happened to be guarded and whose letters happened to be read before they were sent.
+Within months, the siege lines around Kottarakkara were complete. The Raja fled to Cochin. But Savitri did not run. She stayed to claim the chair he left behind.
 
-He died there, a year later.
 
-His heart, the physicians said. The strain of confinement.
-
-"The strain of watching everything he believed in crumble," Padmini said when she heard. "Hearts break in many ways."
 
 And then Savitri's letter came.
 
@@ -90,15 +88,15 @@ And then Savitri's letter came.
 
 She claimed what was hers by right.
 
-Under the matrilineal laws of her house, she was the senior woman of the Elayadathu line. With the chief dead and no male heir, the succession passed to her. She demanded recognition. She demanded Kottarakkara.
+Under the matrilineal laws of her house, she was the senior woman of Kottarakkara. With the raja fled and no male heir of age, the succession passed to her. She demanded recognition. She demanded Kottarakkara.
 
 She demanded what Marthanda Varma had already decided to keep.
 
-"If I give her the throne," he said in the war hall, "every house I have absorbed will see it as permission to demand the same. The Kollamkara remnants. The Kayamkulam kin. The dozen petty rajas whose lands now feed our army. They will point to Savitri and say, see, the old ways still hold."
-
+"If I give her the throne of Kottarakkara," he said in the war hall, "every house I have absorbed will see it as permission to demand the same. The Kollamkara remnants. The Kayamkulam kin. The Thekkumkur nephews. The dozen petty rajas whose lands now feed our army. They will point to Savitri and say, see, the old ways still hold."
+ 
 "And if you refuse?" I asked.
-
-"Then I make an enemy of a woman with legitimate grievances and powerful friends," he said. "The Dutch will use her. Mysore will watch with interest. And Velinadu..."
+ 
+"Then I make an enemy of a woman with legitimate grievances and powerful friends," he said. "The Dutch will use her. And Velinadu..."
 
 He did not finish. He did not need to.
 
@@ -112,7 +110,7 @@ Velinadu was Revathi. And Revathi was blood kin to Savitri.
 
 ---
 
-I met Savitri at Thekkumkur, where she had fled when Travancore's pressure grew too strong.
+I met Savitri at Kottarakkara, in the old palace where she had barricaded herself when Travancore's pressure grew too strong.
 
 She was older than I had expected, lines of care etched around her eyes and mouth. But she held herself like someone who had spent a lifetime being told she could not, and had decided otherwise.
 
@@ -152,7 +150,7 @@ She turned away.
 
 The battle came at Kottarakkara, as we knew it would.
 
-Savitri had fled to the Dutch when Thekkumkur's protection ran out. They had armed her cause, gathered men from the chiefs who still resented Marthanda Varma's rising hand. It was their last play, their attempt to reclaim through proxy what they had lost on Colachel's beach.
+Savitri had fled to the Dutch when the palace walls could no longer hold. They had armed her cause, gathered men from the chiefs who still resented Marthanda Varma's rising hand. It was their last play, their attempt to reclaim through proxy what they had lost on Colachel's beach.
 
 The fighting was ugly.
 
@@ -215,38 +213,10 @@ She leaned forward.
 "That," she said, "is why you will never understand us."
 
 They led her away toward the coast, toward a ship that would carry her to a place she could see but never again touch.
+ 
+ ---
 
----
-
-That night, I found the king on the rampart, staring at nothing.
-
-"The Nizam sent an envoy last month," he said without looking at me. "Asking about trade routes. Mysore's man was here before that, talking about shared interests. The British have begun building at Madras as if they mean to stay forever. And the Dutch, even now, count their losses and plan their next move."
-
-He turned to face me.
-
-"This is what I was always building toward," he said. "Not conquering for glory. Consolidating for survival. Every house I absorbed, every chief I bent, every woman I exiled, it was all for this: a kingdom strong enough that when they come, any of them, all of them, they will find more than pepper and prayers."
-
-"And the cost?" I asked.
-
-"The cost," he said, "is that men like Savitri's kinsman die in rooms they cannot leave. That women like her tend gardens in foreign cities and curse my name. That Revathi looks at me like I am the disease I claimed to cure."
-
-He gripped the parapet.
-
-"Do you think I do not feel it?" he asked. "Do you think I do not wake in the night and hear them? Every name. Every claim I denied. Every law I bent or broke."
-
-His voice cracked.
-
-"I remember her laugh," he said. "From when we were young. And I remember the moment, in that tent, when I looked in her eyes and saw that she would never laugh again. I did that. For this."
-
-He gestured at the kingdom around us. The forts. The walls. The roads. The army.
-
-"For this," he repeated.
-
-I had no comfort to offer.
-
-Some wounds are the price of building. Some prices are too high to name but too necessary not to pay.
-
----
+The fall of Thekkumkur broke the resistance of the old houses, but Marthanda Varma knew that broken things could be mended if the glue was strong enough. He needed an act that would seal the kingdom forever, beyond the reach of Dutch intrigue or noble ambition.
 
 Three days later, he called every noble in the kingdom to Padmanabhaswamy.
 
@@ -268,9 +238,9 @@ He walked the length of the mandapa alone.
 
 Every eye followed him. Every breath held.
 
-At the threshold of the sanctum, the air grew heavy, pressed down by the weight of stone and centuries. Inside, the massive form of the deity—Lord Padmanabha reclining on the great serpent Anantha—was visible only in fragments of gold and shadow.
+At the threshold of the sanctum, the air grew heavy, pressed down by the weight of stone and centuries. Inside, the massive form of the deity, Lord Padmanabha reclining on the great serpent Anantha, was visible only in fragments of gold and shadow.
 
-But the true weight of this place was not in the stone. It was under it. We all knew what lay in the vaults beneath the flagged floor. Centuries of the coast's harvest—the black gold of pepper—converted into the yellow gold of offerings. Roman aurae, Venetian ducats, Dutch guilders, ancient coins from empires that had risen and fallen while this temple stood. Every sack of spice that had left these shores had returned as tribute, buried here in the dark, a hoard vast enough to buy the Dutch East India Company three times over.
+But the true weight of this place was not in the stone. It was under it. We all knew what lay in the vaults beneath the flagged floor. Centuries of the coast's harvest, the black gold of pepper, converted into the yellow gold of offerings. Roman aurae, Venetian ducats, Dutch guilders, ancient coins from empires that had risen and fallen while this temple stood. Every sack of spice that had left these shores had returned as tribute, buried here in the dark, a hoard vast enough to buy the Dutch East India Company three times over.
 
 The serpent's hoods seemed to shift in the flickering light, a thousand eyes watching the one man who dared to stand before them.
 
@@ -350,7 +320,7 @@ She looked at me then, truly looked, as if seeing me for the first time.
 
 "Yes," I said.
 
-"And I am still hers," she said. "Her kinswoman. Her blood. The one who stood aside while you burned her claim."
+"And I am still hers," she said. "Her kinswoman. Her blood. The one who stood beside you in the same hall while you burned her claim."
 
 "Velinadu sent no men against us," I said. "You kept your doors closed."
 
@@ -362,7 +332,7 @@ She turned away, then back.
 
 She paused.
 
-"But we will not be what we might have been," she said. "You chose. So did I."
+"But we will never be simple," she said. "You chose. So did I."
 
 "What did you choose?" I asked.
 
@@ -374,6 +344,40 @@ I watched her go, this woman I might have loved in another life, another choice,
 
 ---
 
+The Thrippadidānam—the Great Offering—did what ledgers and cannons could not. It silenced the internal threats. And with the house secure, the external threats withered.
+
+Three years later, in 1753, the Dutch returned to Mavelikkara. This time, they did not just bow. They signed. Ramayyan's "real treaty" had come to pass. They agreed to "reciprocate friendship," to sell us arms, and most importantly, to never again stand in the way of Travancore's expansion. They had sold their allies to save their trade.
+
+But the final cost of that peace was not written in ink.
+
+That night, I found the king on the rampart, staring at nothing.
+
+"The Nizam sent an envoy last month," he said without looking at me. "Asking about trade routes. Mysore's man was here before that, talking about shared interests. The British have begun building at Madras as if they mean to stay forever. And the Dutch, even now, count their losses and plan their next move."
+
+He turned to face me.
+
+"This is what I was always building toward," he said. "Not conquering for glory. Consolidating for survival. Every house I absorbed, every chief I bent, every woman I exiled, it was all for this: a kingdom strong enough that when they come, any of them, all of them, they will find more than pepper and prayers."
+
+"And the cost?" I asked.
+
+"The cost," he said, "is that men like Savitri's kinsman die in rooms they cannot leave. That women like her tend gardens in foreign cities and curse my name. That Revathi looks at me like I am the disease I claimed to cure."
+
+He gripped the parapet.
+
+"Do you think I do not feel it?" he asked. "Do you think I do not wake in the night and hear them? Every name. Every claim I denied. Every law I bent or broke."
+
+His voice cracked.
+
+"I remember her laugh," he said. "From when we were young. And I remember the moment, in that tent, when I looked in her eyes and saw that she would never laugh again. I did that. For this."
+
+He gestured at the kingdom around us. The forts. The walls. The roads. The army.
+
+"For this," he repeated.
+
+I had no comfort to offer.
+
+Some wounds are the price of building. Some prices are too high to name but too necessary not to pay.
+
 Years later, when my hair had greyed and my joints ached with old battles, a young officer asked me what Travancore had been like before it was Travancore.
 
 I thought of the map in the war hall, with its many colours. Red for Mysore. Black for the Nizam. Brown for Arcot. Blue for the Europeans.
@@ -382,7 +386,9 @@ I thought of a hundred small kingdoms that were now one.
 
 I thought of Savitri in her garden, tending plants she had not chosen, in a city she had not wanted.
 
-I thought of Revathi, somewhere in Velinadu, remembering what the rest of us had learned to forget.
+I thought of Revathi, somewhere in Velinadu, remembering what the rest of us had learned to forget, our children and grandchildren running those same stones, arguing over whether their grandfather was a fool or a necessary storm.
+
+I thought of one night on her western verandah, long before Savitri's banners rose, when I almost told her I would lay down my marches if she asked. The words sat on my tongue like a loaded musket. She turned away to scold a niece for running on wet stone, and I swallowed them. Perhaps that mercy was hers, not mine.
 
 I thought of Marthanda Varma on that rampart, gripping the stone, saying "I remember her laugh."
 
@@ -398,7 +404,7 @@ He did not understand. How could he? He had been born into the kingdom we built.
 
 But somewhere in Cochin, an old woman tended her garden.
 
-And somewhere in Velinadu, another old woman remembered.
+And somewhere in Velinadu, another old woman remembered, while young voices that carried my blood and hers shouted in the courtyards of a house that had taken me in as a guest and kept my children as its own.
 
 And here, on these walls, I stood guard over the thing we had built from the ashes of what they had lost.
 
@@ -406,7 +412,7 @@ That was the price.
 
 That was always the price.
 
-The monsoon came that year, as it always did. The rains fell on the forts and the fields and the roads. They fell on Cochin, where Savitri's garden drank them gratefully. They fell on Velinadu, where Revathi sat and remembered.
+The monsoon came that year, as it always did. The rains fell on the forts and the fields and the roads. They fell on Cochin, where Savitri's garden drank them gratefully. They fell on Velinadu, where Revathi sat and remembered and my grandchildren ran laughing through wet corridors.
 
 They fell on me, on these walls, on this kingdom that had eaten so many smaller ones to become something that might survive.
 

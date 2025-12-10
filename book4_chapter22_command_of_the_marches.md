@@ -1,4 +1,4 @@
-# Book IV, Chapter 20: Command of the Marches
+# Book IV, Chapter 22: Command of the Marches
 
 The king liked to meet his gods without witnesses.
 

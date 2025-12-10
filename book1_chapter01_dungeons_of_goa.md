@@ -2,25 +2,25 @@
 
 The first thing they took was my name.
 
-Not with a ceremony, not with a proclamation, only with a shrug and an entry in a ledger. To the men who ruled this cellar I was no longer Nagoji Sawant, cavalry officer in the service of the Peshwa, rider of the black horse Kanka, son of a landlocked village near Nashik where the farthest water anyone feared was a swollen river in the rains. I was a number the clerk scratched beside the words *prisioneiro marata* in his book.
+Not with ceremony or proclamation, only with a shrug and an entry in a ledger. To the men who ruled this cellar I was no longer Nagoji Sawant, cavalry officer in the service of the Peshwa, rider of the black horse Kanka, son of a landlocked village near Nashik where the farthest water anyone feared was a swollen river in the rains. I was a number the clerk scratched beside the words *prisioneiro marata* in his book.
 
-They chained us in rows along the curved wall, backs pressed to damp stone, ankles linked by rusty iron. Above, somewhere beyond the sweating ceiling, the bells of Goa's churches rang for evening prayers. Down here, the rhythm that governed us was the scrape of the gaoler's boots and the splash of the bucket that carried away blood and filth.
+They chained us in rows along the curved wall, backs pressed to damp stone, ankles linked by rusty iron. Above, somewhere beyond the sweating ceiling, the bells of Goa's churches rang for evening prayers. Down here, the rhythm that governed us was the scrape of the gaoler's boots and the splash of the bucket that carried away blood and filth. Water dripped somewhere in the darkness, steady as monsoon rain on a Deccan roof.
+
+I was thirty that year, in the seasons after we broke a string of Portuguese forts along the Konkan, old enough to have seen men I admired die foolishly, young enough to believe I could still choose the shape of my own death.
 
 They had already taken my fingernails by the time Father Duarte came.
 
-I was thirty that year, old enough to have seen men I admired die foolishly, young enough to believe I could still choose the shape of my own death.
+The padre walked carefully between the lines of prisoners, his black cassock held slightly above the slime on the floor. He was a thin man with a scholar's stoop and ink-stained fingers, the sort of holy man who looked built for argument, not battle. Yet the calluses on his right hand told me he had once held something heavier than a quill. Here he was, deep under the Portuguese fortress at Goa, eyes moving from one ruined body to the next.
 
-The padre walked carefully between the lines of prisoners, his black cassock held slightly above the slime on the floor. He was a thin man with a scholar's stoop, the sort of holy man who would rather argue over doctrine than stride through a battlefield. Yet here he was, deep under the Portuguese fortress at Goa, eyes moving from one ruined body to the next.
+I watched from the corner of my eye. That habit predated the Portuguese by decades. As a boy in the Deccan I had learned to sit in the corner of a fort courtyard and see everything, from the loosened strap on a trooper's saddle to the way a sardar's hand tightened on his sword hilt at the mention of a rival. Here in this cellar I turned the same skill on other men.
 
-I watched him without seeming to watch. That habit had been beaten into me long before the Portuguese laid their hands on me. As a boy in the Deccan I had learned to sit in the corner of a fort courtyard and see everything, from the loosened strap on a trooper's saddle to the way a sardar's hand tightened on his sword hilt at the mention of a rival. Here in this cellar I used the same skill on other men.
-
-The gaoler, João, moved beside the priest. He was a broad man whose belly strained his leather belt, a man who had learned to wrap cruelty in jokes. When he passed my place he tapped my shoulder with his boot, almost companionable.
+The gaoler, João, moved beside the priest. He was a broad man whose belly strained his leather belt, a man who had learned to wrap cruelty in jokes. He smelled of garlic sausage and chapel incense, an unholy combination. When he passed my place he tapped my shoulder with his boot, almost companionable.
 
 “Este,” he said in Portuguese, “this one is stubborn.”
 
 I kept my face blank. Stubborn is better than broken in any language.
 
-Father Duarte's gaze followed the gaoler's gesture. His eyes were grey and tired, with the faint redness of a man who slept badly. When he saw my hands, wrapped in dirty cloth, he winced.
+Father Duarte's gaze followed the gaoler's gesture. His eyes were grey and tired, with the faint redness of a man who slept badly. When he saw my hands, wrapped in dirty cloth, he winced and his fingers twitched inside his sleeves.
 
 “How long since the last questioning?” he asked in that same tongue.
 
@@ -34,15 +34,15 @@ João laughed. “You see, he understands.”
 
 “Bring him,” Father Duarte said.
 
-They unshackled my legs and hauled me upright. My joints protested, stiff from being curled under me for so long. I bit back the groan. A Maratha horseman does not whimper in front of an enemy. We bleed, we fall, we curse the gods and get back up. On the black soil of the Deccan that had been simple enough. Here in the Portuguese darkness it took more effort.
+They unshackled my legs and hauled me upright. My joints protested after so long curled under me. I bit back the groan. A Maratha horseman does not whimper in front of an enemy. We bleed, we fall, we curse the gods and get back up. On the black soil of the Deccan that had been simple enough. Here in the Portuguese darkness it took more effort.
 
-The interrogation chamber was only a short passage away, but it might as well have been another world. The smell changed as we went, from rotting straw and human waste to oil, sweat and something sharp that stung the nose, a sour mixture of wine and old fear. They had built the room under a vaulted arch, stone thick enough to swallow most screams before they reached the street.
+The interrogation chamber lay twenty paces away and felt like another world entirely. The smell changed as we went, from rotting straw and human waste to oil, sweat and something sharp that stung the nose, a sour mixture of wine and old fear. They had built the room under a vaulted arch, stone thick enough to swallow most screams before they reached the street.
 
 Ropes hung from an iron ring bolted into the ceiling. A table sat to one side, laid out neatly with tools that had never worked metal. Pliers. Hammers. Wooden wedges. A brazier glowed on the far side of the room, its coals sending up a thin trail of heat that shimmered in the dim light.
 
 This was where the Portuguese forged information.
 
-They sat me on a stool with my wrists bound to its legs. João checked the knot, then moved to the table. The priest remained standing, hands tucked into his sleeves.
+They sat me on a stool with my wrists bound to its legs. João checked the knot, then moved to the table. The priest remained standing, hands tucked into his sleeves, fingers worrying at the cloth.
 
 “Nagoji Sawant,” Father Duarte said, using my name as if it still belonged to me. “You have already told us that you rode with a Maratha force against our allies. You have admitted that you attacked Portuguese caravans and outposts. What we do not yet know is who ordered those attacks, how many men you had, and which forts or roads you meant to strike next.”
 
@@ -50,15 +50,15 @@ They sat me on a stool with my wrists bound to its legs. João checked the knot,
 
 João picked up a pair of iron tongs. “Your horse is dead,” he said conversationally. “We shot it when we brought you in. A pity. Fine animal.”
 
-For a quick moment my throat closed. Kanka's black mane, his easy stride, the way he had carried me through musket fire near Chaul, all of it flashed before my eyes. I forced the memory down. They wanted to see grief; they wanted to use it as a lever.
+My throat closed. Kanka's black mane against my cheek on winter mornings, his easy stride, the way he had carried me through musket fire near Chaul. I forced the memory down. They wanted to see grief; they wanted to use it as a lever.
 
-“Animals die,” I said, hearing the flatness in my own voice. “So do men.”
+"Then he died better than I will," I said, hearing the flatness in my own voice.
 
-Father Duarte studied me. “You are not a fool,” he said. “You know your position. The Viceroy needs names. He needs proof that your Peshwa sanctioned these raids, that your masters in Pune are not merely bandits but enemies of the Crown. If you cooperate, your suffering can end. I can speak for you, perhaps secure you work on a plantation, a life in chains that is still a life. If you do not...”
+Father Duarte studied me. “You are not a fool,” he said. “You know your position. The Viceroy needs names. He needs to know if the army that devoured his northern strongholds is turning its hunger south. He needs to know if Chimaji Appa intends to bring his siege guns to Goa next. If you cooperate, your suffering can end. I can speak for you, perhaps secure you work on a plantation, a life in chains that is still a life. If you do not...”
 
 His gaze flickered briefly toward the brazier.
 
-I thought of Pune then, of the great audience hall with its painted pillars and the smell of incense and sweat. I thought of sardars who had never seen the sea deciding how many horsemen to send against coastal forts. I remembered the day our orders came, rolled in red cloth and sealed with wax, bearing a name that everyone swore never to repeat outside camp.
+Those northern forts rose in my mind, one victory after another in those hard years, each fall ringing like a bell across the Konkan. Chimaji Appa followed, and with him the fear I smelled on these priests. They knew what we knew: the war was not over. Chimaji was coming for Goa. Any day now, the ground above this dungeon would shake with the impact of Maratha cannon.
 
 “If I do not,” I said, “you will do what you have already done to others. You will pull at my body until it comes apart. You will hold hot iron to my skin. You will try to make me scream something that fits the shapes you already have in your mind.”
 
@@ -74,7 +74,15 @@ The priest's mouth twitched, a shadow of something that might almost have been a
 
 “You see,” João said, “he gives you nothing. Let me loosen his tongue.”
 
-The next hours stretched and blurred. They were not the worst I had known, because there is a point beyond which pain ceases to have degrees. Once you have felt your fingers crushed in iron, your joints forced against the direction they were meant to bend, your mind learns to float above the body, watching from a distance as priests and gaolers ply their trade.
+For a heartbeat Father Duarte did not answer. His jaw worked, as if he chewed on words he could not swallow. Then he inclined his head, a small, weary nod, and João reached for the tools.
+
+The next hours stretched and blurred. The first wedge went under what remained of my left thumbnail, and after that, pain ceased to have degrees. Once you have felt your fingers crushed in iron, your joints forced against the direction they were meant to bend, the mind floats above the body, watching from a distance as priests and gaolers ply their trade.
+
+Once, when João reached for the brazier, Father Duarte's hand shot out and closed over his wrist.
+
+“Not yet,” he said, voice rough. “The Viceroy needs a hand that can still hold a quill.”
+
+The gaoler grumbled, but he chose another tool.
 
 Somewhere in that haze I heard Father Duarte say, “Enough.” I heard João protest that the marata still held back names. I heard the tired priest insist that a dead prisoner could not testify and that the Viceroy preferred confessions on paper, not corpses.
 
@@ -94,7 +102,7 @@ Rumour moved through the dungeon the next day, low and cautious, like water seep
 
 They were gathering prisoners, men said in whispers. Not for the stake, not for the scaffold, but for transport. Somewhere far to the south the Portuguese needed labour. Somewhere beyond the horizon they were building something that required bodies that did not ask questions.
 
-I listened, back pressed to cold stone, and for the first time since they dragged me into this fortress I felt a thin thread of something that might one day grow into hope.
+I listened, back pressed to cold stone, and for the first time since they dragged me into this fortress I felt a thin, thread of hope.
 
 Ships meant movement. Movement meant chances.
 

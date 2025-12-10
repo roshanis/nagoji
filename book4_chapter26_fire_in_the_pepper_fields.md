@@ -1,4 +1,4 @@
-# Book IV, Chapter 24: Fire in the Pepper Fields
+# Book IV, Chapter 26: Fire in the Pepper Fields
 
 The fire started as a thin, uncertain line on the horizon.
 
@@ -102,7 +102,7 @@ Shots cracked from the shadows.
 
 Along the canal, we could see the shapes of boats, low and loaded, ready to slip into any gap.
 
-“If we hit them from here,” Kulkarni said, “we expose ourselves. They have too many places to hide.”
+“If we hit them from here,” Dhanaji said, “we expose ourselves. They have too many places to hide.”
 
 “We do not hit them here,” I said. “We hit their shield.”
 
@@ -184,7 +184,13 @@ Her voice was flat.
 
 “We stopped them,” I said. “They will not use your vines as cover again.”
 
-“My vines,” she said. “The king's vines. The Dutch's desired vines. Your fuel. Many names for the same plants.”
+“When the raiders burned your lower fields years ago, you called it an act of cowardice,” I said, the memory of that first campaign rising unbidden. “Today, I did it with a torch in my own hand. I do not know which ash is heavier.”
+
+She looked at me, her eyes hard and unblinking.
+
+“They burned to destroy,” she said. “You burned to save. But ash tastes the same in my mouth, Nagoji. Do not expect me to distinguish the flavour.”
+
+“My vines,” she continued, her voice dropping. “The king's vines. The Dutch's desired vines. Your fuel. Many names for the same plants.”
 
 She took a breath.
 
@@ -230,19 +236,21 @@ She was silent for a long time.
 
 She straightened.
 
-“This does not make you evil,” she said. “It makes you dangerous. To love you, even a little, is to love a man whose first instinct is to save the larger pattern, not the smaller square.”
+“This does not make you evil,” she said. “It makes you dangerous. To love you, as I do, is to love a man whose first instinct is to save the larger pattern, not the smaller square.”
+
+Her gaze flicked toward the blackened strip.
+
+“You once asked only for a corner of my house and a sliver of my heart,” she said. “Today you carved a wound across my land instead.”
 
 The words landed heavier than any accusation.
 
-“You will not marry me,” I said quietly.
+“You knew that before we stood before the goddess,” I said quietly.
 
-She laughed once, a short, brittle sound.
+“Of course,” she said. “I married you with my eyes open. I knew there would be days when you stood on the wall beside the king instead of on my verandah. I did not expect to like it when those days came.”
 
-“You finally catch up,” she said. “No. I will not. Not because I do not feel the pull. Because I do. And because I refuse to tie Velinadu's line to a man whose ledger is already too full of other oaths.”
+She moved away from the wall, then turned back.
 
-She moved away from the wall.
-
-“We will work together when it suits the land,” she said. “We will stand in the same halls. We will speak the same anger at the same foreigners. We will perhaps even share a cup in old age and remember that we once wanted different things. But we will not share a house.”
+“We will work together when it suits the land,” she said. “We will stand in the same halls. We will speak the same anger at the same foreigners. We will share this house in name and in law. But do not ask me to pretend this scar is not also your work.”
 
 She walked away, her back straight.
 
@@ -254,7 +262,8 @@ As the sun set, its last light turned the scorched posts into jagged silhouettes
 
 The fire in the pepper fields had done more than deny cover to raiders.
 
-It had burned one potential future down to ash.
+It had burned away the illusion that love could soften the choices ahead.
 
-In its place, another rose, harder edged.
-Later, when Ramayyan sifted rumours, Yusuf Marakkar's name floated more than once to the surface, tied to bales of cloth and quiet conversations on canal banks. Whether he had helped Kollamkara reach Dutch guns or had nudged those same whispers toward the fort first was never entirely clear. Men like him rarely walked in straight lines.
+In its place, another truth rose, harder edged.
+
+Later, when Ramayyan sifted rumours, Ibrahim Marakkar's name floated more than once to the surface, tied to bales of cloth and quiet conversations on canal banks. Whether he had helped Kollamkara reach Dutch guns or had nudged those same whispers toward the fort first was never entirely clear. Men like him rarely walked in straight lines.

@@ -8,7 +8,7 @@ The roll sharpened. The floor under us tilted harder to one side, then the other
 
 “Storm,” Keshavrao whispered.
 
-I did not answer immediately. I was listening. Ships speak when they are in trouble. The strain of timbers changes. The voices of the men who serve them shift from boredom and casual insult to clipped orders.
+I let the word hang and listened. Ships speak when they are in trouble. The strain of timbers changes. The voices of the men who serve them shift from boredom and casual insult to clipped orders.
 
 Now those voices were raised. Portuguese words rattled overhead, sharp and fast.
 
@@ -42,11 +42,11 @@ The musket lay between us and the ladder like something washed up by a strange t
 
 Water began to seep along the floor, first as a thin trickle, then in thicker threads that followed the slope of the boards. The air grew colder as wind forced itself into the seams. The smell of the sea, sharp and raw, fought with the stink of the hold.
 
-The storm did not descend on us all at once. It built in layers. First the tilt of the deck, then the drum of rain, then the cracks of closer thunder. Only when the first real wave hit us broadside did the men in the hold understand what it meant.
+The storm did not descend at once; it built in layers. First the tilt of the deck, then the drum of rain, then the cracks of closer thunder. Only when the first real wave hit us broadside did the men in the hold understand what it meant.
 
-The ship rolled so violently that for a few heartbeats we were almost weightless. Stomachs lurched. Chains snapped taut, then slackened. Bodies slammed into wood and other bodies. Somewhere to my left a man screamed as his arm bent under another's weight at the wrong angle.
+The ship rolled so violently that for a few heartbeats we were almost weightless. Stomachs lurched. Chains snapped taut, then slackened. Bodies slammed into wood and into each other. Somewhere to my left a man screamed as his arm bent under another's weight at the wrong angle.
 
-Water surged across the floor in a cold rush. It soaked my legs to the knee, then receded as the hull swung back the other way.
+Cold water surged across the floor, soaking my legs to the knee.
 
 “Hold to the beams,” I shouted in Marathi. “Hook your arms over the wood above. Do not let the chain drag you.”
 
@@ -60,7 +60,7 @@ His eyes were wide in the gloom. “Move where?”
 
 “Towards air,” I said. “Towards anything that floats.”
 
-Another roll. Another crash of water. The hull groaned like an animal in pain.
+Another crash of water. The hull groaned like an animal in pain.
 
 “And if there is no such thing?” he asked.
 
@@ -72,7 +72,7 @@ He swallowed. His Adam's apple bobbed against his collar.
 
 The storm grew teeth.
 
-After a time there was no rhythm left in the ship, only violent, unpredictable lurches. The world narrowed to wood, iron, cold and noise. Lightning flashed through gaps around the hatch cover, turning the hold into brief, harsh portraits of fear. Men clung to each other, to beams, to whatever they could find.
+Soon there was no rhythm left in the ship, only violent, unpredictable lurches. The world narrowed to wood, iron, cold and noise. Lightning flashed through gaps around the hatch cover, turning the hold into brief, harsh portraits of fear. Men clung to each other, to beams, to whatever they could find.
 
 Above, voices rose in panic.
 
@@ -146,21 +146,21 @@ Halfway up a figure appeared in the square of light, backlit by a flash of light
 
 He tried to bring the barrel down toward me. The ship chose that moment to lurch. He flailed for balance, one hand leaving the ladder.
 
-I did not think. There was no time for thought. Years of riding into gaps in enemy lines had trained my body to move in such instants without asking my mind for permission.
+Years of riding into gaps in enemy lines had trained my body to move in such instants without asking my mind for permission.
 
 I drove the butt of my own musket upward with all the force I could muster. It connected with his wrist. Bone cracked. His weapon spun away. He cried out, reaching blindly for support, and missed.
 
 He fell past me, hitting the rungs once, twice, then the floor of the hold with a wet, final sound. The water took him, rolling him against the planks like a piece of discarded cargo.
 
-For a heartbeat the ladder was clear.
+The ladder was clear.
 
-“Now,” I shouted. “Move. All of you who can climb, move.”
+"Now," I shouted. “Move. All of you who can climb, move.”
 
-I scrambled the last few steps and burst onto the deck.
+I scrambled the last few steps and burst onto the deck. The hatch opened just aft of the mainmast, near the middle of the ship.
 
 The storm greeted me like an enemy who had been waiting.
 
-Rain hammered down in sheets that stung the skin. Wind ripped at what little cloth I had left. The ship's deck tilted so sharply that I had to grab a rope to keep from sliding straight into the frothing black water below. Above, what remained of the mast loomed at an angle, torn canvas snapping like flags of surrender.
+Rain hammered down in sheets. Wind ripped at what little cloth I had left. The deck tilted. I grabbed a rope to keep from sliding into the frothing black water below. Above, what remained of the mast loomed at an angle, torn canvas snapping like flags of surrender.
 
 Men fought everywhere. Not each other, but the elements. Sailors wrestled with lines, knives in their teeth, trying to cut away rigging that threatened to drag the ship over. Others pumped at hand levers that fed water from the bilges back to the sea, their faces white in the lightning flashes.
 
@@ -168,25 +168,23 @@ No one looked at me.
 
 To them I was just another piece of loose cargo tossed up from below. Their world had shrunk to ropes, timbers and the next wave.
 
-Behind me Keshavrao's head appeared at the hatch. His eyes were huge in the storm light.
+Behind me, at the hatch by the mast, Keshavrao's head appeared. His eyes were huge in the storm light.
 
 “Sahib,” he cried. The word was whipped away by the wind.
 
-Another wave loomed, higher than the others. It reared up on our starboard side, a wall of water lit silver for a moment by lightning. For that instant I saw everything.
+Another wave loomed, higher than the others. It reared up on our starboard side, to my right, a wall of water lit silver for a moment by lightning. For that instant I saw everything.
 
 The broken mast. The men at the pumps. The open sea beyond, white capped and hungry. Keshavrao's thin hands on the ladder. The chain still linking his ankles. The iron still binding his wrists.
 
-I saw, too, the coil of rope near my feet, half loose. I saw a shattered spar floating just off the ship's side, momentarily caught in the eddying water.
+I saw, too, a coil of rope by the starboard rail at my right, half loose at my feet. I saw a shattered spar floating just off the ship's side, momentarily caught in the eddying water.
 
-Calculations raced through me faster than words.
-
-If I leaped now, I might reach the spar. If Keshavrao tried to follow with his chains, the weight would drag him under before he cleared the hull. If I waited to free him, we might both be swept across the deck and smashed against the rail before we cut anything.
+Calculations raced through me faster than words. Leap now, reach the spar. Keshavrao follows, chains drag him under. Wait to free him, we both get smashed against the rail.
 
 The wave fell.
 
 It hit the ship with a force that tore screams from every throat. Water crashed over the deck, hammering us flat. For a moment I was nowhere, only a body in a cold, roaring universe. Then the ship lurched up again, and I found myself on my knees, fingers clawed into that coil of rope.
 
-Keshavrao still clung to the hatch, half out of the hold, half in. The water had drenched him, slicking his hair to his skull. Blood ran from somewhere on his forehead, thin in the rain.
+Keshavrao still clung to the hatch, half out of the hold, half in. The water had drenched him, slicking his hair to his skull. Blood ran from somewhere on his forehead, thin in the rain. His right hand still twitched at his side, reaching for a sword that would never come.
 
 “Sahib,” he shouted again. “Do not leave me.”
 
@@ -204,13 +202,13 @@ The rope went taut in my hands.
 
 For an instant I thought he had managed it, that I could haul him up and over the hatch, that we would stand together on the deck and leap in our own time.
 
-Then I felt the wrong kind of weight on the line. Not a man's body tied with intent, but the dead drag of something pulled by a force greater than any arm.
+Then I felt the wrong kind of weight on the line. Not a man's body tied with intent, but the dead drag of something pulled by a force greater than any arm. The rope burned across my palm.
 
-The ship dropped. The wave receded. The rope snapped loose from my grip and vanished over the side, whipped away by retreating water.
+The ship dropped. The wave receded. The rope peeled my skin and vanished over the side, whipped away by retreating water.
 
 Keshavrao was gone.
 
-For a heartbeat I stared at the empty hatch, the broken ladder, the absence where his face had been. The storm did not pause to mark his passing. The next gust tore at the stump of the mast. The next wave reared.
+For a heartbeat I stared at the empty hatch, the broken ladder, the absence where his face had been. The rope burns on my palms throbbed, the only proof he had been there at all. The storm did not pause to mark his passing. The next gust tore at the stump of the mast. The next wave reared.
 
 The spar I had seen floated closer, riding the foam just off the rail.
 
@@ -226,7 +224,7 @@ The sea clawed at the hull. The spar rose on the swell, close enough now that I 
 
 I took one breath, tasting salt and fear. I thought of Keshavrao's narrow shoulders in the hold, of his quiet “with you, sahib” in the dark.
 
-“Forgive me,” I said, to him, to my horse, to whatever gods listen to men who jump into storms.
+"Forgive me," I said, to the boy I promised not to leave, to the horse who died better than I would, to whatever gods listen to men who jump into storms.
 
 Then I hurled myself over the side.
 
