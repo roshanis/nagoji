@@ -18,7 +18,7 @@ Ahead, the road dipped. A narrow inlet cut into the land, its water dark and sti
 
 On a rise beyond the inlet, a structure of wood and stone looked down on everything.
 
-It was not large, not compared to the great forts of the north, but there was purpose in every line. The outer wall was of laterite blocks, red and rough, topped with a parapet from which musketeers could fire. Within that wall rose a long hall with an open front, its wooden pillars carved with curling motifs of vines and tigers. Behind the hall, on higher ground, I glimpsed the start of a rampart that ran inland, following the shape of the land.
+It was not large, not compared to the great forts of the north, but there was purpose in every line. The outer wall was of red stone blocks, rough, topped with a parapet from which musketeers could fire. Within that wall rose a long hall with an open front, its wooden pillars carved with curling motifs of vines and tigers. Behind the hall, on higher ground, I glimpsed the start of a rampart that ran inland, following the shape of the land.
 
 "This is only one claw," Ibrahim said softly. "The kingdom itself is the beast."
 

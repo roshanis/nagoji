@@ -8,7 +8,7 @@ From that bastion, De Lannoy and I watched a unit of cavalry and infantry move t
 
 Maravar horse trotted along the base of the wall, then wheeled, moving in pairs between marked posts. Behind them, musketeers lowered their weapons in controlled waves, firing over the horses' backs at imaginary targets in the scrub beyond. At intervals, a small cannon boomed, its recoil checked by well braced wheels.
 
-The air smelled of burned powder, sweat and laterite dust.
+The air smelled of burned powder, sweat and red dust.
 
 “They are improving,” Lannoy said, shading his eyes with one hand as he watched.
 

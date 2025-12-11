@@ -57,6 +57,7 @@ The last word made me cough.
 He turned a few more leaves.
 
 Padmini Amma. Landholdings. Kin ties. Temper.  
+He had already noted her heir in that tight script of his, a niece named Nandini who was still a child when I first saw the line. Years later he would add, in the same neat hand, the date of Padmini's death beside it.  
 Revathi Bayi. Velinadu rights. Alliances. Known grudges.  
 Eight Houses of the Marches. Old noble coalition. Broken formally, roots remain.  
 Lannoy. Family in Europe. Letters sent and burned. Skills. Possible breaking points.

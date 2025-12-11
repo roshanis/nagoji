@@ -11,6 +11,7 @@
 *   **Marakkar:** Powerful Muslim merchant clan dominating coastal trade and naval warfare.
 *   **Sowcar:** A merchant or moneylender, often part of an extended Gujarati banking network.
 *   **Bhau:** Brother (Konkani/Marathi). A term of familiarity.
+*   **Chanda Sahib:** Nawab claimant from the Carnatic/Madurai sphere whose pressure from the south forces Travancore to fight on another front just before Colachel.
 
 ## Social Structure and Customs
 *   **Marumakkathayam:** "Inheritance through the sister's children." The matrilineal system of inheritance practiced by Nairs and the Royal Family, where lineage and property pass through the female line.

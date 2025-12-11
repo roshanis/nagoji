@@ -198,6 +198,26 @@ It was said in jest, but the wall was there, invisible and ancient.
 
 That impatient tongue was right. I could not stand in two rivers.
 
+That night, I did not sleep.
+
+I sat on the verandah of my quarters, watching the moon trace its slow arc over the coconut palms. The estate was quiet save for the rhythmic croak of frogs in the irrigation channels and the distant bark of a village dog.
+
+I looked at my hands in the moonlight. The fingernails had grown back, but wrong—ridged and discoloured where the Portuguese interrogators had torn them out. I had stopped noticing them months ago. Now I studied them as if seeing them for the first time.
+
+These hands had held Maratha reins on Deccan dust. They had gripped Portuguese chains in Goa's darkness. They had pulled Keshavrao toward a rope that broke. They had trained Travancore cavalry in wet sand and held a dying chevar's wrist while a king drove steel through his throat.
+
+Whose hands were they now?
+
+I thought of my father's hands, thick-knuckled from decades of plough and sword. Of my mother's hands, always moving, grinding spices at dawn, the stone *sil-batta* keeping time with her morning prayers. Of my brother's hands, ink-stained, scratching words onto paper by lamplight.
+
+They did not know the man those hands had made me. They remembered a son, a brother, a Maratha horseman who rode north to raid Portuguese forts and never came home. That man had been simpler. He had known which rivers were his.
+
+Somewhere in the black water off this coast, Keshavrao's bones lay tangled in Portuguese wreckage. He had followed me. He had trusted me. And I had let go.
+
+I could not bring him back. But I could stop pretending that the man who failed him still existed.
+
+The decision, when it came, arrived not as a thunderclap but as a settling, like silt finding the riverbed after a flood. I had been fighting the current for years. Now I would let it carry me.
+
 The next morning, I went to the market near the harbour, to a stall run by a Gujarati *sowcar*, a money changer whose networks of trust ran deeper than any royal decree.
 
 I placed a heavy pouch on his table. It was gold, borrowed from Padmini Amma’s private vault. A debt I would repay with service, or blood.
@@ -244,11 +264,25 @@ When I reached Padmini’s estate, she was waiting by the gate, leaning on her s
 
 She nodded slowly, her eyes searching mine.
 
-“Then who stands before me?” she asked.
+"Then who stands before me?" she asked.
 
-I touched the cold silver of the chain around my neck. I looked at the red tiled roof of the *tharavad* that had sheltered a king and now sheltered me. I tasted the air, heavy with pepper and sea salt. It no longer tasted foreign. “Ananthan Pillai,” I said.
+I touched the cold silver of the chain around my neck. I looked at the red tiled roof of the *tharavad* that had sheltered a king and now sheltered me. I tasted the air, heavy with pepper and sea salt. It no longer tasted foreign.
 
-The name felt strange on my tongue, new and stiff like unconquered leather. But it fit.
+For a moment, I felt the pull of two currents—the dry wind of the Deccan, smelling of dust and millet and my mother's turmeric-stained hands; and the wet breath of this coast, carrying salt and pepper and the jasmine Padmini wore in her hair. They had been at war in my chest for years.
+
+Now, standing at this gate, I let one of them go.
+
+Not forgotten. Never forgotten. But released, the way you release a horse too old to ride—with gratitude, with grief, with the knowledge that holding on would only make both of you suffer.
+
+I looked at my scarred hands one last time. Nagoji Sawant's hands. Hands that had failed Keshavrao, that had been broken by Portuguese iron, that had somehow found their way to this red-tiled house on a pepper coast.
+
+They would not change. The scars would remain. But the name attached to them could.
+
+"Ananthan Pillai," I said.
+
+The name felt strange on my tongue, new and stiff like unconquered leather. But it fit. Ananthan—the endless one, the serpent who holds up worlds. Pillai—the suffix that marked me as Padmini's son, as a man with roots in this soil even if his bones remembered another.
+
+Nagoji Sawant had died in the black water with Keshavrao. The sea had just taken longer to tell him.
 
 Padmini Amma smiled, an expression that cracked the iron mask she usually wore.
 

@@ -80,7 +80,7 @@ The Dutch envoy's face remained carefully neutral, but his interpreter swallowed
 
 I watched the chiefs' eyes. Some darted toward the Dutch, some toward the king, some toward the floor. One man's gaze flicked, just once, toward Ibrahim in the back of the hall. Ramayyan's stylus noted that too.
 
-"The company brings guns and coins," one of the chiefs said. "They pay fair weight for pepper."
+"The company brings guns and coins," one of the chiefs said. "They pay fair weight for pepper—twelve *varahans* the *candi*, in good gold pagodas."
 
 The chief in plain clothes, the one who trusted his land more than ornaments, shifted slightly. "What of Kottarakkara?" he asked. "The Elayadathu chief still receives Dutch factors. His sister's daughter writes to Velinadu. There are whispers."
 
@@ -150,7 +150,7 @@ She gave a short, pleased hum.
 
 Her gaze swept the hall.
 
-“See that man,” she said, tilting her head toward one of the plainer dressed chiefs. “Two years ago he took Dutch coin to rebuild his flooded fields. Today he speaks loudly about loyalty to the Maharaja. He is not lying. He has simply forgotten that the company expects their coin back with interest. When they come to collect, I wonder whose banner he will stand under.”
+“See that man,” she said, tilting her head toward one of the plainer dressed chiefs. “Two years ago he took Dutch coin to rebuild his flooded fields—a *hundi* drawn on the Cochin factory, payable in pepper at harvest. Today he speaks loudly about loyalty to the Maharaja. He is not lying. He has simply forgotten that the company expects their coin back with interest. When they come to collect, I wonder whose banner he will stand under.”
 
 “And you?” I asked. “Under whose banner will you stand when the king and the company pull in different directions?”
 

@@ -2,7 +2,7 @@
 
 The first thing they took was my name.
 
-Not with ceremony or proclamation, only with a shrug and an entry in a ledger. To the men who ruled this cellar I was no longer Nagoji Sawant, cavalry officer in the service of the Peshwa, rider of the black horse Kanka, son of a landlocked village near Nashik where the farthest water anyone feared was a swollen river in the rains. I was a number the clerk scratched beside the words *prisioneiro marata* in his book.
+Not with ceremony or proclamation, only with a shrug and an entry in a ledger. To the men who ruled this cellar I was no longer Nagoji Sawant, huzurat cavalry officer in the service of Chimaji Appa and the Peshwa, rider of the black horse Kanka, son of a landlocked village near Nashik where the farthest water anyone feared was a swollen river in the rains. In the quiet of Maratha tents that word *huzurat* carried weight, the household horse that rode closest to command, picked out by sardars when bravery and impatience for hesitation had been proved in more than one fight. Here I was a number the clerk scratched beside the words *prisioneiro marata* in his book.
 
 They chained us in rows along the curved wall, backs pressed to damp stone, ankles linked by rusty iron. Above, somewhere beyond the sweating ceiling, the bells of Goa's churches rang for evening prayers. Down here, the rhythm that governed us was the scrape of the gaoler's boots and the splash of the bucket that carried away blood and filth. Water dripped somewhere in the darkness, steady as monsoon rain on a Deccan roof.
 
@@ -44,7 +44,7 @@ This was where the Portuguese forged information.
 
 They sat me on a stool with my wrists bound to its legs. João checked the knot, then moved to the table. The priest remained standing, hands tucked into his sleeves, fingers worrying at the cloth.
 
-“Nagoji Sawant,” Father Duarte said, using my name as if it still belonged to me. “You have already told us that you rode with a Maratha force against our allies. You have admitted that you attacked Portuguese caravans and outposts. What we do not yet know is who ordered those attacks, how many men you had, and which forts or roads you meant to strike next.”
+“Nagoji Sawant,” Father Duarte said, using my name as if it still belonged to me. “You have already told us that you rode with a Maratha force against our allies. You have admitted that you attacked Portuguese caravans and outposts. The Viceroy's spies insist you were huzurat cavalry under Chimaji Appa himself, chosen by your sardars for your initiative. Such men see more than dust and hooves. What we do not yet know is who ordered those attacks, how many men you had, and which forts or roads you meant to strike next.”
 
 “You know more than I do then,” I said. “We raided where we could, when we could, against whoever traded with our enemies. That is the way of the ghats and passes. You have maps and books. You draw lines on paper and call them borders. My horse does not read.”
 

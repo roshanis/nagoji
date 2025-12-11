@@ -1,6 +1,8 @@
 # Book II, Chapter 11: Dutch on the Horizon
 
-It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation.
+It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation. This was not yet the war fleet that would come two years later—only a probing squadron, sent to measure distances and count our guns. But we did not know that then.
+
+We had not been idle. The army Ramayyan built had stretched its legs, marching north to swallow Quilon and break the lines of Deshinganad. It was a short, sharp campaign, a test of the new muskets and the discipline of the Nairs we had drilled in the wet sand. We won, and the Raja of Deshinganad fled, leaving his rich pepper fields in Marthanda Varma's grip. But in swallowing the small fish, we had drawn the eye of the shark.
 
 The first time I heard De Lannoy's name, it came not in a court, but from a boy on a watch tower.
 

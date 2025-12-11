@@ -17,7 +17,7 @@
 
 - **Nagoji Sawant**: Thirty year old Maratha cavalry officer from near present day Nashik, landlocked by birth, once proud, now scarred by Portuguese torture and haunted by comrades left behind. He has family and fields in the black soil of the Deccan, has never truly known the sea except when dragged to Goa, and carries a tactical mind, dry wit, and deep loyalty to the idea of Maratha freedom more than to any single sardar. His driving motivation is to return to Chimaji Appa to help him liberate Goa and take revenge on the Portuguese; this goal sustains him until Chapter 24, where he ultimately gives it up but never forgets it.  
 - **Marthanda Varma**: The Tiger of Travancore, brilliant and ruthless king who has built a new kind of state designed to survive European power. Alternates between paternal charm and cold, ledger like calculation.  
-- **Ramayyan**: Diwan and spymaster, soft spoken, precise, terrifying when crossed. Sees Nagoji as both tool and potential threat.  
+- **Ramayyan**: Diwan, spymaster, and General. A Brahmin who wields both the ledger and the sword with equal precision. Soft spoken, precise, terrifying when crossed. Sees Nagoji as both tool and potential threat.  
 - **Eustachius De Lannoy**: Dutch officer captured at Colachel, remade as Travancore's chief European military adviser. Mirror and rival to Nagoji, the foreigner who becomes more inner circle than the Indian outsider.  
 - **Padmini Amma**: Fictional Nair noblewoman and estate holder who commands her own troops through male relatives. Knows the court and countryside both, becomes Nagoji's practical guide to Travancore's structure and to the power of Malabar women.  
 - **Revathi Bayi**: Fictional Travancore princess from a powerful matrilineal line, politically conscious, sharp tongued, fiercely independent. She and Nagoji fall in love, but she ultimately refuses to marry him because he binds himself to Marthanda Varma, whose centralising project threatens the older aristocratic order she is sworn to protect.  
@@ -138,7 +138,7 @@
 
 ## Book III: After the Dutch
 
-### Chapter 14: The Charge at Colachel
+### Chapter 14: The Siege of Colachel
 
 - Full battle of Colachel from Nagoji's saddle, expanding the existing scene into a longer, tactically clear but sensory rich sequence.  
 - Show Travancore musketeers in prepared positions, Dutch squares forming, the first volleys, and Nagoji's cavalry exploiting weaknesses with precision.  
@@ -163,8 +163,8 @@
 
 - The King, his sister (Senior Rani), and the young heir visit Padmini Amma's estate in secret.
 - It is revealed that Padmini sheltered the King when he was a hunted child thirty years ago, creating a lifelong debt.
-- To anchor Nagoji (who has no clan or local roots) to the land, the King requests Padmini to adopt him.
-- Padmini formally adopts Nagoji into her House, giving him a "root" in Travancore, though he remains a "stranger" by blood. He is named "Nagoji of Padmini's House."
+- To anchor Nagoji (who has no clan or local roots) to the land, the King bribes the priesthood to "discover" a lost Nair lineage for him, converting him via a paid ritual.
+- Padmini formally adopts Nagoji into her House as a Nair, giving him a "root" in Travancore, though he remains a "stranger" by blood. He is named "Nagoji of Padmini's House."
 - The chapter establishes Nagoji's conflicting identities: mercenary vs. son of the soil.
 
 ### Chapter 18: Dutch Come Bowing
@@ -233,10 +233,18 @@
 - This act confirms Revathi Bayi's fear that he will always choose the king's project over the old order.
 - Nagoji and Padmini have a confrontation in the burnt fields that mirrors his earlier campaigns.
 
-### Chapter 27: The Northern Crowns
+### Chapter 27: The Last of the Old Houses
 
 - The strategic necessity of Marthanda Varma's consolidation is laid bare.
 - Kottarakkara, the last independent house, is absorbed. Princess Savitri claims succession; Marthanda Varma refuses.
+- Nagoji meets Savitri and measures her as a worthy adversary with legitimate grievances.
+- The battle at Kottarakkara is ugly—fought on temple land and house land, against an enemy who is not wrong.
+- Savitri is captured and exiled to Cochin. The chapter ends with Nagoji watching her led away.
+
+### Chapter 28: Servant of Padmanabha
+
 - The **Thrippadidānam (1750)**: In a ceremonial night, Marthanda Varma surrenders the kingdom to Lord Padmanabha, becoming *Padmanabha Dasa* and making the state untouchable by rebellious nobles.
+- Revathi confronts Nagoji about his role in Savitri's fall; she chooses to be "the one who remembers."
 - Three years later (1753), the **Treaty of Mavelikkara** is signed, marking the Dutch capitulation.
-- The novel closes with Nagoji on the walls, realizing that while the kingdom is secure, the personal cost—for Savitri, for Revathi, for himself—remains. "Some things do not wash away."
+- Marthanda Varma confesses to Nagoji the personal cost of his victories—he remembers Savitri's laugh.
+- The novel closes with an aged Nagoji on the walls, asked by a young officer what Travancore was like before. "I miss what it cost." The monsoon falls. "Some things do not wash. Some things we carry."

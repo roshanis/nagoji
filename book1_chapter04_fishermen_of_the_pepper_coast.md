@@ -54,7 +54,7 @@ The man who had given me water snorted.
 
 “What?” the cautious voice demanded. “He is half dead.”
 
-“Half is still half,” the first man replied. He turned back to me and switched to a broken Hindustani that bore the marks of trade. “You fought them, yes?”
+“Half is still half,” the first man replied. He turned back to me and switched to a broken Konkani that bore the marks of trade. “You fought them, yes?”
 
 “Yes,” I said. My voice rasped. “On the Deccan roads. Near their forts.”
 
@@ -84,7 +84,7 @@ We left the wreckage behind. No one stopped to strip it. That would come later, 
 
 A crow cawed somewhere ahead, indignant at our approach. The first solid ground I had felt in weeks pressed against my back with each step the fishermen took.
 
-Beyond the line of palms the land rose gently. Narrow paths wound between plots of wet paddy and neat little houses made of mud and laterite, their roofs thatched with palm leaves. The air smelled different here. Less of fish, more of earth and green things.
+Beyond the line of palms the land rose gently. Narrow paths wound between plots of wet paddy and neat little houses made of mud and red stone, their roofs thatched with palm leaves. The air smelled different here. Less of fish, more of earth and green things.
 
 Children watched us from doorways, wide eyed. Women carrying pots on their hips paused, eyebrows knitting as they took in the dripping figure the men carried.
 

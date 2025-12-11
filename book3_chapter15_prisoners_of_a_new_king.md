@@ -32,15 +32,25 @@ Ramayyan rode forward.
 
 “You have marched out,” Ramayyan said calmly. “Now you will drop the arms.”
 
-For a moment, I thought they would fight. I saw hands tighten on musket stocks. I saw Lannoy’s knuckles turn white on his hilt. They were surrounded, outnumbered twenty to one, starving and shocked, but they were soldiers.
+For a moment, I thought they would fight. I saw hands tighten on musket stocks. I saw Lannoy's knuckles turn white on his hilt. They were surrounded, outnumbered twenty to one, starving and shocked, but they were soldiers.
 
-But Lannoy looked at his men, hollow-eyed, burnt, swaying with fatigue. He looked at the thousands of fresh Nair troops ringing them.
+I watched Lannoy's face through my glass. I had seen that expression before—on Keshavrao's face in the storm, on my own in the Goan dungeon. The moment when a man realizes that every road leads to the same wall.
 
-He swore, a short, sharp sound. Then he unbuckled his sword belt and threw it into the sand.
+His lips moved. I could not hear the words, but I saw him look at the sky, then down at his boots, then at the young drummer boy standing rigid beside him. The boy could not have been more than fourteen. His hands were shaking on his drumsticks.
 
-“Down,” he ordered.
+Lannoy reached out and put a hand on the boy's shoulder. Something passed between them—permission, perhaps, or apology. The boy's face crumpled, then steadied.
 
-The clatter of hundreds of muskets falling onto the beach sounded like a heavy rain.
+Then Lannoy looked at his men, hollow-eyed, burnt, swaying with fatigue. He looked at the thousands of fresh Nair troops ringing them. He looked at the sea behind him, where the ships had drawn back like spectators who did not want to be splashed by blood.
+
+He swore, a short, sharp sound. Then he unbuckled his sword belt.
+
+He did not throw it. He held it for a moment, the leather warm from his body, the brass of the hilt catching the sun. I saw his thumb trace the Company insignia, the VOC monogram that had been his identity since he was a boy in Flanders dreaming of foreign shores.
+
+Then he let it fall. It landed in the sand with a soft thud, not a clatter. A quiet death for a quiet surrender.
+
+"Down," he ordered, his voice cracking on the word.
+
+The clatter of hundreds of muskets falling onto the beach sounded like a heavy rain. Some of the men wept. Others stood rigid, staring at nothing. One sergeant knelt and pressed his forehead to his fallen weapon, as if saying goodbye to an old friend.
 
 “Take them,” Varma said.
 
@@ -159,6 +169,56 @@ He looked at me.
 We walked out into the courtyard of Udayagiri. The sun was high now. The Dutch prisoners, no, the Dutch recruits, were being fed in the lower yard. They looked up as we passed, fear mixing with curiosity.
 
 They did not know it yet, but they had just become the seed of the Travancore Nair Brigade.
+
+---
+
+Lannoy's first morning as a Travancore officer began before dawn.
+
+I found him in the courtyard, still wearing his stained Dutch coat, staring at the pile of local cloth that had been left outside his door. A white *mundu*, a simple cotton tunic, sandals of a kind he had probably never worn.
+
+"They expect me to dress as one of them," he said.
+
+"They expect you to stop dressing as their enemy," I said. "The coat is a problem. Men who lost brothers at Colachel will not take orders from a man who wears the uniform that killed them."
+
+He touched the brass buttons, running his thumb along the Company insignia.
+
+"I have worn this since I was seventeen," he said. "It was the first thing I bought with my own wages. My mother sewed the lining herself before I sailed from Flanders."
+
+"Your mother is in Flanders," I said. "You are in Travancore. The coat cannot follow you where you are going."
+
+He stood very still for a long moment.
+
+Then, slowly, he unbuttoned it. The brass clicked softly in the morning quiet. He folded the coat with the care of a man folding a shroud and set it on the stone bench beside him.
+
+Beneath it, his shirt was sweat-stained, his chest pale where the sun had never reached.
+
+He picked up the white *mundu* and looked at it as if it were a map of an unknown country.
+
+"Show me," he said.
+
+I showed him how to wrap it, how to tuck the end so it would not unravel during drill, how to move without tripping over the unfamiliar length. He fumbled twice, cursed in Flemish, then got it right on the third attempt.
+
+When he straightened, he looked like a ghost of himself—a European skeleton wearing Indian skin.
+
+"Do I look ridiculous?" he asked.
+
+"You look like a man who has not yet learned to stand in his new clothes," I said. "That will change. The cloth is not the difficult part. The difficult part is what happens when you give your first order and a Nair captain looks at your pale face and wonders why he should obey."
+
+"What do I do then?"
+
+"You show him something he respects," I said. "Not your old rank. Not your old flag. Something new. Competence. Fairness. The willingness to stand in the same sun and eat the same rice."
+
+He nodded slowly.
+
+"The rice," he said, "is going to take some getting used to."
+
+"So is everything else," I said. "Welcome to Travancore, Kappithan."
+
+He did not smile. But something in his face shifted—the first crack in the wall between what he had been and what he might become.
+
+That evening, I saw him walking the ramparts alone, the Dutch coat still folded on his bench, untouched. He had not thrown it away. Perhaps he never would.
+
+But he was not wearing it.
 
 History is strange. It turns on a lucky shot, a broken promise, and a conversation in a stone room.
 

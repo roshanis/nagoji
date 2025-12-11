@@ -34,7 +34,7 @@ The Arcot rider’s jaw tightened. He glanced up at the bluff, where the King wa
 
 “One pass,” he said. “To show you there is no magic in sand.”
 
-Ponnam Pandya Deven said nothing, but a faint smile touched his lips as he signaled his Maravar.
+Ponnan said nothing, but a faint smile touched his lips as he signaled his Maravar.
 
 The first pass was not a disaster, but it was ugly.
 
@@ -44,9 +44,9 @@ The Maravar fared better. Their ponies were smaller, stepping lightly where the 
 
 “See?” I called out, riding my own mount between them. “The earth here judges weight. It punishes force.”
 
-Ponnam Pandya Deven brought his horse alongside mine as the line wheeled back toward firmer ground.
+Ponnan brought his horse alongside mine as the line wheeled back toward firmer ground.
 
-“This earth has judged hooves longer than you have ridden, Deccan man,” he said quietly. “We learned that under other kings.”
+“This earth has judged hooves longer than you have ridden, Deccan man,” Ponnan said quietly. “We learned that under other kings.”
 
 “Then teach your Arcot friends,” I said. “Today they followed me into the bog. Tomorrow they follow you around it.”
 
@@ -138,6 +138,78 @@ Fear, yes. Responsibility, sharp as any spear point. But also something I had no
 
 Anticipation.
 
-On Deccan soil I had thought I knew the limits of what a horse could do against a gun. Here, with the sea muttering at my back and wet sand underfoot, those limits shifted.
+---
+
+That evening, after the horses had been rubbed down and the men had scattered to their cook fires, I walked among the picketed mounts.
+
+In the Deccan, I had ridden Kanka—a black mare with a temper like monsoon lightning and a stride that ate distance. She had died at Bassein, a Portuguese ball through her chest, and I had walked the last miles to Goa on foot, too stunned to mourn properly.
+
+The horses here were different. Smaller, most of them. The Maravar ponies stood barely fourteen hands, their coats rough, their eyes watchful. The Arcot horses were taller, bred for show as much as war, their lines elegant but their temperaments uncertain in this strange wet land.
+
+One horse caught my attention.
+
+She was a bay mare, neither Arcot nor Maravar, something in between—probably bought from a trader who dealt with both coasts. Her coat was the colour of ochre red earth after rain, that deep red-brown that seemed to hold the earth's heat. She stood at the edge of the picket line, watching me approach with an expression I recognized.
+
+Wariness. Interest. The calculation of a creature deciding whether to trust.
+
+I held out my hand, letting her smell the salt and sweat on my palm.
+
+"You do not belong to any of them either," I said softly. "Do you?"
+
+She snorted, breath warm against my fingers, then—unexpectedly—pushed her nose into my chest.
+
+The smell of her filled my head: hay and sweat and something else, something green and unfamiliar, the herbs they fed the horses here to keep them cool in the coastal heat. It was not Kanka's smell. It never would be.
+
+But it was honest.
+
+"Kayal," I said, the word coming unbidden. It was the Malayalam name for the backwaters, those brackish channels that threaded through this coast like veins. "You will learn the sand with me. And when the Dutch come, we will show them what a backwater horse can do."
+
+She tossed her head, as if agreeing to terms she had not yet heard.
+
+It was the first time since Bassein that I had named a horse. The first time I had let myself care whether one particular animal lived or died.
+
+Some bonds are forged in battle. Others in the quiet after, when the sun sets and a man stands alone with a creature who asks nothing but grain and a steady hand.
+
+Kayal would carry me through Colachel and beyond. But that night, all I knew was the warmth of her breath and the red-brown of her coat, and the strange comfort of belonging, even a little, to this unfamiliar land.
+
+---
+
+Ibrahim found me there, still standing with my hand on Kayal's neck.
+
+"You talk to horses," he said. "I have seen men talk to worse."
+
+"Horses do not argue," I said. "They simply refuse, or they follow. It is simpler than men."
+
+He leaned against a palm trunk, his face half-shadowed by the evening light.
+
+"You are Hindu," he said. It was not a question.
+
+"After a fashion," I said. "The Portuguese tried to convince me otherwise. It did not take."
+
+"And yet you pray to their god when it suits you," he said. "I have seen you bow your head in their churches. I have seen you touch the wall of a mosque without spitting."
+
+"I pray to whatever is listening," I said. "If the gods are as numerous as men say, surely one of them has time for a cavalryman with sand in his boots."
+
+Ibrahim was quiet for a moment.
+
+"I am Muslim," he said finally. "My fathers came from the coast of Arabia, traders who married local women and stayed. We built mosques. We kept the faith. But we also lit lamps at Hindu shrines when our ships sailed, and we asked Syrian Christian priests to bless our cargo when the winds were wrong."
+
+He shrugged.
+
+"On this coast, the gods mix like the waters of the backwaters—salt and fresh, never quite one thing. A man who insists on purity drowns faster than one who learns to float in both."
+
+"And the king?" I asked. "Does he care which god you bow to?"
+
+"The king cares that I bring him information and that I do not sell it to the Dutch first," Ibrahim said. "My prayers are my own business. As long as I am useful, he does not ask whether I face Mecca or the temple when the sun rises."
+
+He pushed off from the tree.
+
+"You are useful too, Sawant. That is why you are still alive. The king does not keep men for their faith. He keeps them for what they can do. Remember that, when you wonder why a Muslim sailor and a Hindu horseman and a Christian merchant all sit in the same war hall."
+
+He walked away into the gathering dark.
+
+I stayed with Kayal a while longer, thinking about gods and usefulness and the strange tolerance of a king who measured men by their hands, not their prayers.
+
+On Deccan soil, I had thought I knew the limits of what a horse could do against a gun. Here, with the sea muttering at my back and wet sand underfoot, those limits shifted.
 
 Storms did not ask permission. Perhaps horses, taught well, did not either.

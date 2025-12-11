@@ -146,7 +146,7 @@ Halfway up a figure appeared in the square of light, backlit by a flash of light
 
 He tried to bring the barrel down toward me. The ship chose that moment to lurch. He flailed for balance, one hand leaving the ladder.
 
-Years of riding into gaps in enemy lines had trained my body to move in such instants without asking my mind for permission.
+Years of riding into gaps in enemy lines had trained my body to move in such instants before my mind could think.
 
 I drove the butt of my own musket upward with all the force I could muster. It connected with his wrist. Bone cracked. His weapon spun away. He cried out, reaching blindly for support, and missed.
 

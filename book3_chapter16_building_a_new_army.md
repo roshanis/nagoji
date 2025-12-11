@@ -1,5 +1,27 @@
 # Book III, Chapter 16: Building a New Army
 
+The horse died on the third day of the fever.
+
+I had bought him from a Tamil trader two years after Colachel—a grey with a black mane, not as fine as the mount I had lost in the storm, but steady, patient, willing to learn the sand. I had named him Megha, for the monsoon clouds he reminded me of.
+
+When he would not rise that morning, I knew. I sat with him in the stable while the grooms kept their distance, watching his flanks heave, feeling his neck grow cold under my hand. He did not struggle at the end. He simply stopped, the way a lamp runs out of oil.
+
+I buried him myself, on the hill behind Padmini Amma's estate, in the shade of a tamarind tree. The ground was hard. It took hours. By the time I finished, my hands were blistered and the sun was setting.
+
+Dhanaji found me there, staring at the mound of red earth.
+
+"He was a good horse," he said.
+
+"He was mine," I said. "The first thing I owned in this land that I chose myself."
+
+We stood in silence. Below us, the lights of the training ground flickered where the evening drill was beginning without me.
+
+"How long have we been here?" I asked.
+
+Dhanaji counted on his fingers. "Three monsoons since Colachel. Four since we washed up on this coast."
+
+Four years. The number felt impossible and obvious at once.
+
 Time after a battle does not move in days. It moves in drills.
 
 You look up one morning and realise that the men who had never seen a European volley a season ago now curse when a recruit fumbles his priming. You notice that the boys in the kalari have grown into broad shouldered youths who no longer look over their shoulders for approval before they strike. You find grey at your temples that you do not remember earning.
@@ -8,31 +30,129 @@ That was how I measured the years after Colachel.
 
 In the first weeks after the battle, before drills ground the days into one long line, I lay under the jackfruit tree at Padmini Amma's estate with my ribs bound tight and my head full of surf and smoke.
 
-Revathi came once, on the pretext of speaking with Padmini about grain and widows' stipends.
+Revathi came twice.
 
-When Padmini left us with a pot of buttermilk and a warning not to bleed on her courtyard, Revathi sat on the low wall near my feet, her eyes on the sky.
+The first time was on the pretext of speaking with Padmini about grain and widows' stipends. When Padmini left us with a pot of buttermilk and a warning not to bleed on her courtyard, Revathi sat on the low wall near my feet, her eyes on the sky.
 
-“You look worse than the Dutch,” she said. “At least they had the sense to collapse on sand, not good stone.”
+"You look worse than the Dutch," she said. "At least they had the sense to collapse on sand, not good stone."
 
-“Sand is softer,” I said. “Stone holds the bruise longer.”
+"Sand is softer," I said. "Stone holds the bruise longer."
 
 She clicked her tongue and reached for the bandage at my side.
 
-“Who wrapped this?” she asked.
+"Who wrapped this?" she asked.
 
-“A Maratha who has tied more saddle girths than ribs,” I said.
+"A Maratha who has tied more saddle girths than ribs," I said.
 
 She undid the cloth with quick, efficient fingers, ignoring my hiss when the air touched the raw skin, then wound it again, tighter and neater.
 
-“This kingdom keeps trying to turn you into ash,” she murmured. “Do not give it all of you at once.”
+"This kingdom keeps trying to turn you into ash," she murmured. "Do not give it all of you at once."
 
-I wanted to tell her that part of me had already burned on that beach and in the letters I had not yet written north. Instead, I said, “I promised your Nagas I would bleed on their earth. I did not promise how much.”
+I wanted to tell her that part of me had already burned on that beach and in the letters I had not yet written north. Instead, I said, "I promised your Nagas I would bleed on their earth. I did not promise how much."
 
 She tied off the bandage and sat back.
 
-“Learn to keep a little for yourself,” she said. “And for those who will have to live with whatever is left.”
+"Learn to keep a little for yourself," she said. "And for those who will have to live with whatever is left."
 
 Then she rose and called for Padmini, business returning to her face like a veil.
+
+The second time, she came alone.
+
+It was past midnight. The household had gone to sleep, and I was lying awake in my room, watching the shadows of palm fronds move across the ceiling. My ribs ached. My mind would not stop replaying the moment Nagoji's cavalry had hit the Dutch square—the sound, the give, the faces.
+
+I heard the door open. No knock. No lamp.
+
+"You are not sleeping," she said from the darkness.
+
+"Neither are you."
+
+She crossed the room and sat on the edge of my mat. I could smell jasmine and something else—sandalwood, the kind burned at funerals and temples.
+
+"Padmini told me you wake screaming," she said. "That you call out names she does not recognize."
+
+"Padmini talks too much."
+
+"Padmini loves you," she said. "That is why she told me."
+
+We sat in silence. Outside, a night bird called, plaintive and unanswered.
+
+"I lost a husband," she said quietly. "At the battle of the lagoon, five years before you washed up on this coast. He was a fool who charged when he should have waited. I watched from the walls. I saw his horse go down. I saw what they did to him after."
+
+Her voice did not waver. She had told this story to herself too many times for it to wound her now.
+
+"For a year, I did not sleep," she continued. "I would close my eyes and see his face. Not the living face—the other one. The one they left in the mud."
+
+"How did it stop?" I asked.
+
+"It did not stop," she said. "I learned to carry it. The way you learn to walk with a stone in your shoe. Eventually, you forget you are limping."
+
+She reached out and found my hand in the darkness.
+
+"I did not come here to talk about the dead," she said.
+
+"Why did you come?"
+
+"Because you are alive," she said. "And so am I. And I am tired of pretending that is not worth something."
+
+Her fingers traced up my arm, finding the edge of the bandage, then moving past it to the bare skin of my shoulder. I caught her wrist.
+
+"Revathi—"
+
+"There is a room," she said. "Below the granary. Padmini showed me, years ago. The Kings hid there when the Pillamar hunted them. No one goes there now. No one will hear."
+
+"If anyone sees you leave—"
+
+"I am a widow," she said. "I am not a wife. What I do with my nights is my own concern."
+
+There was a defiance in her voice, but beneath it, something else. A question. She was giving me the choice to refuse.
+
+I did not refuse.
+
+We moved through the sleeping house like thieves. She knew the way—through the storeroom, past the great clay vessels of rice, to the low wooden door in the corner that looked like nothing more than a repair panel. The cellar beyond was small and dark, smelling of old grain and earth. A single mat had been laid on the floor, and a brass lamp that she lit with a flint she carried.
+
+In that flickering light, she looked at me.
+
+"I have thought about this," she said. "Since the night you stood in my hall and told me you were not a man who made promises. I have thought about what it would mean to want someone who might die in any season's campaign."
+
+"And?"
+
+"And I decided that I would rather have one night I chose than a lifetime of nights I did not."
+
+She reached up and unpinned her hair. It fell past her shoulders, darker than the shadows around us.
+
+What happened next was not the coupling of poems, all moonlight and whispered endearments. It was something rawer—two people who had both learned that the world takes without asking, choosing for once to take something for themselves.
+
+She was careful of my ribs. I was careful of the scars she carried that I could not see. We did not speak of love. We did not need to. The word would have been too small for what moved between us—grief and want and the desperate hunger to feel something other than the weight of the dead.
+
+Afterward, we lay on the mat in the lamplight, her head on my shoulder, her breath warm against my neck.
+
+"Padmini will know," I said.
+
+"Padmini knew before I did," she replied. "Why do you think she showed me this room?"
+
+I laughed, then winced as my ribs protested.
+
+"That woman sees too much."
+
+"She sees what she needs to see," Revathi said. "And she decides what to remember."
+
+She propped herself up on one elbow and looked at me.
+
+"This changes nothing," she said. "You are still a mercenary with no name and no house. I am still a princess with a dead husband and a living reputation to protect. In the morning, I will leave before the servants wake. We will not speak of this in daylight."
+
+"And the next time?"
+
+She smiled—a small, private thing that I had never seen her wear in public.
+
+"The next time," she said, "you will have to earn."
+
+She rose, dressed in the darkness with the efficiency of a woman who had learned not to linger, and was gone before the first birds began to call.
+
+I lay in that hidden room until dawn crept through the cracks in the door. The lamp had burned out. The smell of her lingered on the mat, on my skin.
+
+Something had shifted. Not the world—the world remained indifferent to the small hungers of two people in a cellar. But something in me. A door I had kept barred since Keshavrao drowned, since my family faded into letters that grew shorter each year.
+
+I was still a man with no home. But for the first time since I had washed up on this coast, I was a man who wanted one.
 
 After that, the drills began in earnest.
 
@@ -137,6 +257,22 @@ He also rode out to inspect the new forts that rose along the northern marches.
 “We will not wait for the Dutch to bring their friends here,” he said, standing on a newly built bastion overlooking a narrow pass. “We have other enemies in this land. The Mysore men. The old chiefs who resent my line. The Tamil, Arcot, if they decide to ride south. This army is not only for white men.”
 
 His gaze slid to me when he said Tamil.
+
+A few days after one such inspection he appeared at the drill ground with a bundle of cloth over his arm.
+
+“If we are to face them,” he said, glancing toward the distant line of the sea where Dutch hulls rode, “let them see that we can stand in their order as well as our own.”
+
+Lannoy unfolded short coats of rough blue cloth and stiff felt hats in the company style. The men muttered as the pile grew. So did I.
+
+“We are not Dutch,” I said later, low enough that only Lannoy heard. “I will not dress like one of your ledgers on legs.”
+
+“Cloth does not decide who you serve,” he replied. “These coats make your men look like one body. They make European eyes see an army, not a crowd. Wear them when the Maharaja asks. Throw them aside when you ride home.” He looked at our infantry, bare chested, dhotis hitched, muskets on shoulders. “If a captain in Amsterdam sees a sketch of blue jackets and straight lines, he will think twice before sending a few more men as if they marched into a market.”
+
+I hated that he was right.
+
+The next time the drums beat and the king came to watch, a line of Nair and Arcot infantry stood in those blue coats, hats stiff on their heads, muskets at the same angle. I sat my horse behind them, the collar tight at my throat, the felt hot and unfamiliar above my scars. Some of the men grinned when they saw me in that foreign cloth, but they straightened all the same.
+
+For a few breaths, from a distance, the line might almost have been one of the neat formations I had once ridden against. Then the order broke, coats were shrugged open, dhotis loosened, and the smell of sweat and river mud reclaimed the field. The cloth was only another tool. The men inside it were still ours.
 
 Travancore's shape changed under this work.
 

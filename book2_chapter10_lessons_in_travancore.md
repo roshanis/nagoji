@@ -20,9 +20,9 @@ As we climbed, women and men stepped aside to let Ramayyan pass, murmuring greet
 
 Inside the outer courtyard, Brahmins moved through their rituals like men repeating a song they had sung since childhood. Oil lamps flickered. Bells chimed. The smell of ghee and incense wound itself around the stone pillars.
 
-At the innermost threshold, where I as a non Hindu might have been kept back in some other places, Ramayyan stopped and turned.
+At the innermost threshold, where in some other temples a Deccan non Brahmin like me might have been kept back, Ramayyan stopped and turned.
 
-“You do not have to go closer,” he said. “The god knows you have your own.”
+“You do not have to go closer,” he said. “The god knows you have your own ways.”
 
 “Gods and I have an understanding,” I said. “I try not to waste their time.”
 
@@ -54,7 +54,7 @@ He nodded toward a wall where dozens of small lamps burned in niches.
 
 We left the temple and walked down toward the market.
 
-There, under awnings of cloth and palm leaves, the kingdom took another shape. Traders from the interior haggled over sacks of rice and oil. Marakkar men bartered for pepper and cardamom, their eyes constantly flicking toward the path that led to the backwaters. A Syrian Christian scribe sat with a low desk, writing contracts in a hand that flowed like water.
+There, under awnings of cloth and palm leaves, the kingdom took another shape. Traders from the interior haggled over sacks of rice and oil. Marakkar men bartered for pepper and cardamom, their eyes constantly flicking toward the path that led to the backwaters. An Arab merchant in a flowing white robe sat cross-legged on a raised platform, weighing silver *chuckrams* on a small brass scale while his servant counted sacks of pepper—each sack a *candi*, I had learned, roughly five hundred pounds, the measure by which fortunes were made or lost on this coast. Nearby, a Syrian Christian scribe sat with a low desk, writing contracts in a hand that flowed like water; beside him, a stack of *hundis*—bills of exchange that could turn pepper in Travancore into gold in Muscat without a single coin crossing the sea.
 
 “Do you see the pattern?” Ramayyan asked.
 
@@ -166,7 +166,7 @@ That conversation was the first lesson. The application came soon after.
 
 In the years that followed, before the Dutch clouds fully gathered, the King turned his "borrowed eyes" inward as Ramayyan had promised.
 
-We rode not against foreign armies, but against the stubborn knots of the internal map. I learned that a "campaign" in Travancore did not always meant a pitched battle. Sometimes it meant riding with Padmini Amma to a chieftain's estate—a man who had formerly pledged loyalty to one of the Eight Houses—and standing silently by the gate while she negotiated the grain levy. My presence, and the fifty Maratha lancers behind me, turned a "request" into a "requirement."
+We rode not against foreign armies, but against the stubborn knots of the internal map. I learned that a "campaign" in Travancore did not always meant a pitched battle. Sometimes it meant riding with Padmini Amma to a chieftain's estate—a man who had formerly pledged loyalty to one of the Eight Houses—and standing silently by the gate while she negotiated the grain levy. My presence, and the fifty Maravar lancers behind me, turned a "request" into a "requirement."
 
 Other times, it was sharper.
 

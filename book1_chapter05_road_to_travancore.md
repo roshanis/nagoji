@@ -92,7 +92,7 @@ We passed through small settlements where people spoke Malayalam I could not fol
 
 “Who is he?” one of them called out.
 
-“A man who thought he could drown and change his mind,” Ibrahim replied. The boys laughed, then peeled off, already drawn by some new distraction.
+“A man who thought he could drown, then changed his mind,” Ibrahim replied. The boys laughed, then peeled off, already drawn by some new distraction.
 
 As the road climbed slightly, the line of coconut palms thinned. In their place rose other trees, taller and denser, their leaves a darker green. The air grew heavier, as if the forest held the day's heat in its branches.
 
@@ -110,7 +110,7 @@ We stopped near a wayside shrine where a stone image sat under a tree draped wit
 
 As evening deepened, we reached a larger settlement. It was not quite a town, not yet, but bigger than the fishing village. Houses stood closer together. A small bazaar clustered around a crossroads, stalls offering spices, cloth, oil, and trinkets. The road here was better packed, the wheel ruts deeper.
 
-Near the centre stood a compound wall of laterite blocks. A wooden gate broke its length. Two men with spears lounged there, straightening when they saw Ibrahim.
+Near the centre stood a compound wall of red stone blocks. A wooden gate broke its length. Two men with spears lounged there, straightening when they saw Ibrahim.
 
 “You come late, *kapitan*,” one of them said.
 
@@ -144,7 +144,7 @@ The man's eyes moved to me.
 
 “Service?”
 
-“Maratha cavalry. Until the Portuguese netted me.”
+“Huzurat cavalry,” I said. “Household horse under Chimaji Appa. Until the Portuguese netted me.”
 
 His eyes flicked to my bandaged hands, the brand under my sleeve. "You raided them?"
 

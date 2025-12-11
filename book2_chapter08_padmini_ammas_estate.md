@@ -1,6 +1,6 @@
 # Book II, Chapter 8: Padmini Amma's Estate
 
-For a month I lived near the fishermen’s village, sleeping on a mat in a small hut that smelled of dried prawns and damp thatch.
+For months I lived near the fishermen’s village, sleeping on a mat in a small hut that smelled of dried prawns and damp thatch.
 
 It was a month of sun and salt. My days were spent on the wet sands, shouting until my throat was raw, trying to make Arcot horses and Maravar ponies understand each other. The fishermen watched us from their boats, laughing when a charger stumbled, nodding when a formation held. I ate their fish curry, spicy enough to make a Deccan man weep for milk, and drank their toddy. I became, in a small way, part of the landscape: the foreign captain who yelled at horses.
 
@@ -32,7 +32,7 @@ He studied me. It was not enough to be a soldier. In this land, as in mine, ques
 
 He scratched a note on his leaf.
 
-“Go then. Pack your kit. The cart is waiting. Try not to offend her. She supplies half the pepper that pays for your salary.”
+“Go then. Pack your kit. The cart is waiting. Try not to offend her. She supplies half the pepper that pays for your salary—pepper that Arab traders from Muscat and Aden bid against the Dutch to buy, paying in silver *chuckrams* and gold *varahans* that fill the King's treasury.”
 
 ***
 
@@ -50,7 +50,7 @@ The courtyard we entered was long and rectangular, edged with pillared verandahs
 
 All of them, women and boys both, looked up as we dismounted. Their eyes slid over Ibrahim, whom they knew, then settled on me.
 
-A stranger. A Maratha. A man who had washed up from Portuguese wreckage, spent a month smelling of dead fish, and now arrived here on a horse instead of a stretcher.
+A stranger. A Maratha. A man who had washed up from Portuguese wreckage, spent what felt like an age smelling of dead fish, and now arrived here on a horse instead of a stretcher.
 
 At the far end of the courtyard a woman stood.
 
@@ -80,7 +80,7 @@ She gestured with the stick.
 
 A boy of perhaps twelve ran forward and took my gelding's reins. He handled the animal with an easy calm that spoke of long familiarity. The horse snorted once, then allowed itself to be led away.
 
-Padmini Amma walked with us along the verandah, the stick tapping lightly against the stone.
+Ibrahim stayed near the outer corner, already talking quietly with one of her stewards. Padmini Amma walked with me along the verandah, the stick tapping lightly against the stone.
 
 “The king sends you here to be near horse,” she said. “And near a house that owes him more than it likes to admit. Clever man. He knows that understanding an estate is as important as understanding a charge.”
 
@@ -108,7 +108,7 @@ She gestured for us to sit on the platform. A girl brought water in brass tumble
 
 In my village, women worked hard. They walked far for water, bent over fields, carried wood. But in the courtyard where men in armour sat, they moved like shadows at the edge, leaving food and vanishing. Here they flowed through the centre, talking, laughing, listening in.
 
-“The king thinks highly of you,” Padmini Amma said, once the boy with the water had gone. “He put you on his sand, under his eye. He did not send you straight to the northern marches or to some pepper godown. That means he has not yet decided whether you are a spear for his hand or a knife that might cut it.”
+“The king thinks highly of you,” Padmini Amma said, once the girl with the water had gone. “He put you on his sand, under his eye. He did not send you straight to the northern marches or to some pepper godown. That means he has not yet decided whether you are a spear for his hand or a knife that might cut it.”
 
 “I am still an experiment,” I said. “He told me so himself.”
 

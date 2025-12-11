@@ -1,5 +1,17 @@
 # Book III, Chapter 14: The Siege of Colachel
 
+<!-- Note: Chapter title in outline was "Charge at Colachel" but the battle was a siege, not a cavalry charge. Title updated to reflect content. -->
+
+By the time we closed our ring around Colachel, we were already tired from another war.
+
+The Dutch had not come when Travancore was fresh and waiting. They chose their moment while the Maharaja was to the south, near the tip of the land, wrestling with Chanda Sahib's men and the Madurai claim on Anchuthengu. The army had marched and bled along that front, coin had already been turned into borrowed muskets and English favours, and Ramayyan's palm leaves were full of debts instead of spare plans. When company flags finally showed themselves off Colachel, they were not striking a king who had been building his sand batteries in peace. They were striking a man who had only just pushed one invader back and had not yet reset his feet.
+
+The first days were confusion.
+
+Messages galloped up and down the coast. Men who had thought they were going home from the southern campaign found themselves turned north instead. Guns that had faced Chanda Sahib's lines were dragged through wet fields and narrow village paths toward this new beachhead. For a short, sharp time the Dutch had what they had hoped for, a Travancore that was stretched, its king fighting on two fronts, its lines thin.
+
+Only when those scattered strands had been pulled together did the battle settle into its true shape.
+
 The war became a weight, not a collision.
 
 There was no grand morning charge, no thunder of hooves on wet sand as I had once imagined in my restless sleep. Instead, there was the slow, grinding work of earth and patience.
@@ -14,7 +26,7 @@ Our lines curved around their beachhead like a tightening noose. We dug trenches
 
 Strategy had shifted, just as Varma had promised.
 
-My riders did not charge squares. We became the gaolers of the perimeter. Ponnam Pandya Deven’s Maravar horse wove through scrub and low palms, closing gaps my Deccan eyes might have missed, while Arcot and Maratha riders watched the wider tracks.
+My riders did not charge squares. We became the gaolers of the perimeter. Ponnan’s Maravar horse wove through scrub and low palms, closing gaps my Deccan eyes might have missed, while Arcot and Maratha riders watched the wider tracks.
 
 We patrolled the scrub inland, catching the desperate few who tried to slip out to forage for food. We rode down their scouts. We cut off the trickle of fresh water from the inland streams.
 
@@ -44,7 +56,7 @@ He gestured to the dark water.
 
 “They do not understand,” he said. “They think big ships make them masters. But big ships must anchor. And anchors act like tethers for goats. We swim out, we cut, we drill. They are fighting the ocean, and the ocean is on our side.”
 
-It was a terrifying efficient alliance. On land, Ramayyan’s batteries hammered their walls. At sea, Antony’s divers and boatmen bled their supplies and nerves. The Dutch were trapped in a box where the walls were fire and the floor was water.
+It was a terrifying efficient alliance. On land, Ramayyan’s batteries hammered their walls. At sea, Ibrahim’s divers and boatmen bled their supplies and nerves. The Dutch were trapped in a box where the walls were fire and the floor was water.
 
 Before we pinned them here, their mud ramparts had already sagged under the weight of their own guns, and an early storm had torn some of their anchors away. Hackert, the commander they had trusted to lead them, had gone north with fresh troops, leaving Lieutenant Rijtel to hold this shrinking patch of sand with sick men and empty barrels.
 
@@ -60,7 +72,7 @@ Lannoy kept them disciplined. Even from a distance, I could see him, or a figure
 
 The end, when it came, arrived on a wind from the sea.
 
-It was the 5th of August. The sun had broken through the clouds, baking the wet sand until the air shimmered. The smell of the siege, unburied waste, rotting fish, burnt powder, hung heavy over everything.
+It was the 10th of August. The sun had broken through the clouds, baking the wet sand until the air shimmered. The smell of the siege, unburied waste, rotting fish, burnt powder, hung heavy over everything.
 
 Our batteries had been firing sluggishly all morning. The heat made the gunners slow.
 
@@ -90,25 +102,51 @@ A pillar of flame stood over the Dutch camp. It climbed higher and higher, boili
 
 Secondary explosions rippled out, barrels of powder, grenades, anything that could burn. The structures they had built, the food they had hoarded, the shelter they had clung to, all of it was being consumed.
 
-“Hold fire!” Varma’s voice cut through the confusion. He had mounted his horse and was riding down the line. “Stop the guns! Let the fire do the work!”
+I thought the explosion would break them. I was wrong.
 
-We stood and watched the destruction. It was awe-inspiring and horrific.
+Through the smoke and flame, I saw movement. Blue coats, grey coats, emerging from the wreckage. Not fleeing. Forming.
 
-The Dutch were running to the water’s edge now, abandoning their walls. But there were no boats to take them all. The ships, seeing the explosion, had pulled back, fearful of the batteries or perhaps simply realizing the futility.
+"They're coming out," Dhanaji shouted.
 
-The garrison was trapped between the inferno and the surf.
+And they were. The Dutch infantry poured through the gaps in their burning walls, muskets levelled, bayonets fixed. Even with their fort destroyed, their supplies gone, their powder scattered, they came out fighting.
 
-Through my glass, I saw officers trying to form lines, to maintain some order, but the chaos was too absolute. Men were beating out flames on their coats. Others were dragging wounded comrades into the wet sand.
+Their first volley caught our forward trenches. Men fell. The ragged line of blue-coats advanced through the smoke, firing and reloading with the mechanical precision of men who had drilled until the motions lived in their bones.
 
-The siege was effectively over.
+"Hold!" Ramayyan's voice carried over the chaos. "Hold the centre!"
 
-They had no food. Their powder was gone. Their shelter was ash.
+The Nair infantry braced, their swords and spears forming a wall against the bayonets. But the Dutch kept coming, their square tight, their discipline unbroken even in catastrophe. They were not running to the sea. They were cutting their way out.
 
-As the sun began to set, painting the smoke-stained sky in lurid purples and reds, the fire finally burned itself down to glowing embers. The Dutch huddled on the beach, a broken remnant of the force that had landed with such arrogance.
+I was already riding when I saw it.
+
+I had positioned my Maravar and Arcot horse on the left flank, hidden by a grove of palms. From there, I saw what Ramayyan might have missed in the smoke—the Dutch square had a seam.
+
+They were focused on the infantry ahead. Their rear ranks watched the burning fort behind them. But their flank, the side facing the scrubland, had thinned as officers pulled men forward to reinforce the advance.
+
+I did not wait for an order. I did not signal. I simply kicked my horse into motion, and my riders followed like water through a broken dam.
+
+We hit the Dutch square from the side.
+
+The impact was terrible. Horses screaming, steel ringing, the wet crunch of bodies falling. The Dutch tried to turn, to reform, but a square that turns is no longer a square. It is a crowd.
+
+I drove my horse toward the gap we had torn. Dhanaji was beside me, then ahead of me, his sword already bloody. The Deccan riders poured through, and suddenly we were among them, too close for their muskets, too fast for their bayonets.
+
+The square collapsed.
+
+It did not break cleanly. The Dutch fought in knots, in clusters, back to back. But the shape that had protected them was gone. Ramayyan's infantry pressed from the front. We circled and struck again from the rear. We were in the middle of it, cutting down the resistance one desperate pocket at a time.
+
+And then, as suddenly as it had begun, it was over.
+
+The survivors threw down their arms. Some knelt. Others simply stood, hollow-eyed, their hands raised, their blue coats stained with blood and ash.
+
+As the sun began to set, painting the smoke-stained sky in lurid purples and reds, the fire finally burned itself down to glowing embers. The Dutch huddled on the beach, a broken remnant of the force that had landed with such arrogance. But they had not surrendered meekly. They had come out fighting, and it had taken our charge to end them.
 
 I rode up to where Ramayyan stood.
 
-“They are done,” I said. “Yes,” he said softly. “They are done.” He looked at the king.
+He was not holding a ledger today. The Diwan had led the infantry centre himself, and his white dhoti was splattered with mud and soot. He was wiping a curved Nair sword with a piece of silk, the motion as precise as his calligraphy.
+
+“They are done,” I said.
+
+“Yes,” he said softly, sliding the blade back into its sheath with a click. “They are done.” He looked at the king.
 
 “Shall we finish them?” a captain asked.
 
@@ -120,6 +158,6 @@ He turned his horse away.
 
 “Let them simmer tonight,” he said. “Let them taste the ash. Tomorrow, we will see what remains.”
 
-The siege of Colachel had not ended with a charge. It had ended with a single, terrible thunderclap.
+The siege of Colachel had ended not with the thunderclap alone, but with our charge through the smoke. The explosion had wounded them. The cavalry had finished it.
 
-But as I looked at the smoking ruin, I knew the silence that would follow would be more dangerous than the noise. For now came the words. And words, in my experience, could be sharper than any sword.
+But as I looked at the smoking ruin and the prisoners being led away, I knew the silence that would follow would be more dangerous than the noise. For now came the words. And words, in my experience, could be sharper than any sword.

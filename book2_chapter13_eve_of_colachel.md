@@ -50,7 +50,7 @@ While she moved through her layers of responsibility, I moved through mine.
 
 In the coastal training ground, I rode with the Arcot and Maravar horsemen one last time before the real test. We have been drilling for months so we did not run full drills. It was too late to teach new tricks. Instead, we rode slowly along the wet sand, letting the horses feel the ground under different tides.
 
-Ponnam Pandya Deven kept his horse a half length from mine, as he often did now, close enough to hear, far enough to pretend distance.
+Ponnan kept his horse a half length from mine, as he often did now, close enough to hear, far enough to pretend distance.
 
 “Tomorrow we do not have the luxury of turning when we please,” he said. “They will fire when it suits them, not us.”
 
@@ -184,7 +184,7 @@ Dhanaji's gaze softened.
 
 The mention of Keshavrao landed like a stone in my chest.
 
-“It feels different here,” I said. “There, we rode for hills we knew. For forts that had our banners. Here, I ride for a king I have known barely a year, on land whose gods I do not fully understand.”
+“It feels different here,” I said. “There, we rode for hills we knew. For forts that had our banners. Here, I ride for a king I have known only a short while, on land whose gods I do not fully understand.”
 
 “The bullets will not stop to ask whose gods you prayed to,” Dhanaji said. “You ride for the man you chose when you did not run north. That is enough for now.”
 

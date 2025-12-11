@@ -20,7 +20,7 @@ She pointed ahead with her chin.
 
 “Remember that when you meet Revathi. She carries those bones in her tongue.”
 
-Velinadu Kovilakam was not the city my Deccan mind had expected. There were no towering walls, no massive bastions. Instead, a ring of laterite and earth circled a cluster of buildings and trees. The gates were wide enough for carts and elephants, but the guards who stood there seemed more focused on who entered than what.
+Velinadu Kovilakam was not the city my Deccan mind had expected. There were no towering walls, no massive bastions. Instead, a ring of red stone and earth circled a cluster of buildings and trees. The gates were wide enough for carts and elephants, but the guards who stood there seemed more focused on who entered than what.
 
 They watched Padmini Amma approach with a mixture of respect and calculation.
 

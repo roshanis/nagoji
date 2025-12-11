@@ -2,7 +2,7 @@
 
 The northern marches smelled different from the coast.
 
-Less salt, more dust. Less pepper, more smoke from small village fires. The wind carried the sharp scent of laterite and dry grass instead of wet sand. It felt closer to the Deccan than anything I had known in years, and yet the rhythm of the land was still Travancore's.
+Less salt, more dust. Less pepper, more smoke from small village fires. The wind carried the sharp scent of red earth and dry grass instead of wet sand. It felt closer to the Deccan than anything I had known in years, and yet the rhythm of the land was still Travancore's.
 
 The houses here owed the king less by habit than by calculation.
 
@@ -210,7 +210,7 @@ The chase that followed was not like Colachel.
 
 No neat lines. No open beach. No clear horizon.
 
-We galloped along narrow tracks between laterite outcrops, branches whipping at our faces. We splashed through shallow streams, hooves slipping on mossy stones. We crashed through patches of scrub, ducking low to avoid branches.
+We galloped along narrow tracks between red rock outcrops, branches whipping at our faces. We splashed through shallow streams, hooves slipping on mossy stones. We crashed through patches of scrub, ducking low to avoid branches.
 
 Kollamkara's riders knew the breaks in the land where they could vanish. We had to force them to show us.
 
@@ -230,9 +230,9 @@ Too slow.
 
 My blade caught his arm, biting through cloth and flesh. He yelled, stumbling back. My horse's shoulder slammed into his chest, knocking him aside.
 
-Ponnam Pandya Deven and his Maravar riders swept into the flank of the ambush, their lighter mounts darting between trees. Spears flashed. The raiders, seeing their first strike fail, disappeared back into the scrub.
+Ponnan and his Maravar riders swept into the flank of the ambush, their lighter mounts darting between trees. Spears flashed. The raiders, seeing their first strike fail, disappeared back into the scrub.
 
-As we regrouped on the far side of the bend, Ponnam Pandya Deven rode up, sweat streaking his horse's neck.
+As we regrouped on the far side of the bend, Ponnan rode up, sweat streaking his horse's neck.
 
 “Your Deccan tricks work in these hills too,” he said, breathing hard. “I begin to believe you did not lie about sand and surprise.”
 
@@ -426,7 +426,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  A man near the front of the crowd, dressed in the simple white mundu of a devotee, suddenly moved. He did not run; he flowed, like water finding a crack in a dam.
  
- A *chaver*. A suicide warrior who has accepted death before he even draws his blade.
+ A *chevar*. A suicide warrior who has accepted death before he even draws his blade.
  
  Ideally, my guards should have stopped him. But he was fast, and the crowd was thick.
  
@@ -468,7 +468,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  "Well?" the King asked, his voice tight with pain.
  
- "A *chaver*," Ramayyan said. "From the north."
+ "A *chevar*," Ramayyan said. "From the north."
  
  "Who sent him?"
  
@@ -494,7 +494,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  We leaned in.
  
- "I want a squad," he said. "Not soldiers. *Chavers* of our own. Or men who have forgotten how to sleep."
+ "I want a squad," he said. "Not soldiers. *Chevars* of our own. Or men who have forgotten how to sleep."
  
  "To guard the Prince?" I asked.
  
