@@ -46,7 +46,7 @@ We broke forts instead.
 
 At Bassein, the Portuguese fortress that watched the sea like an old predator, I saw a wall tremble under our guns. I saw men climb into smoke with ladders shaking in their hands. I saw my black mare Kanka take a ball through the chest and fold as if the ground had suddenly gone soft beneath her. In the roar and confusion, in the stink of powder and blood, I understood that campaigns turn into legends because the men who live through them need something to hold onto when the dead begin to outnumber the living.
 
-In those months, we spoke as if Konkan was the whole world. We spoke as if Chimaji Appa's war was the only war that mattered.
+In those months, we spoke as if Konkan was the whole world. We spoke as if Chimaji Appa’s war was the only war that mattered.
 
 It was not.
 
@@ -66,11 +66,11 @@ So the Dutch played the coast like a stringed instrument.
 
 Cochin, long a pivot between European powers, watched with alarm. The Samudri, the Zamorin of Calicut, understood that a king who grew too strong in the south would eventually pull at the north as well. Principalities nursed grievances and old succession disputes like infected wounds. Dutch agents offered arms and ammunition, offered promises, offered the thin comfort of European umbrellas. Alliances formed, not out of love, but out of fear.
 
-Inside Venad, Marthanda Varma prepared anyway. He had something most of his rivals lacked, a minister who could see past today's feud to tomorrow's war. Ramayyan Dalawa was not a man who shouted on battlefields. He was a man who counted, who read letters in multiple tongues, who understood that pepper is not just spice but power. Under his guidance, the king gathered guns, trained men, and made a state that could endure beyond one season's victory.
+Inside Venad, Marthanda Varma prepared anyway. He had something most of his rivals lacked, a minister who could see past today’s feud to tomorrow’s war. Ramayyan Dalawa was not a man who shouted on battlefields. He was a man who counted, who read letters in multiple tongues, who understood that pepper is not just spice but power. Under his guidance, the king gathered guns, trained men, and made a state that could endure beyond one season’s victory.
 
-By 1738, two storms were rising on two coasts. In the west, Chimaji Appa's vow sharpened the Maratha appetite against the Portuguese and their allies. In the deep south, Marthanda Varma's ambition sharpened Travancore against every neighbour, every rival house, and every European company that believed this coast could be owned.
+By 1738, two storms were rising on two coasts. In the west, Chimaji Appa’s vow sharpened the Maratha appetite against the Portuguese and their allies. In the deep south, Marthanda Varma’s ambition sharpened Travancore against every neighbour, every rival house, and every European company that believed this coast could be owned.
 
-I was only a cavalryman then, one more rider in Chimaji's shadow, thinking I knew what war was.
+I was only a cavalryman then, one more rider in Chimaji’s shadow, thinking I knew what war was.
 
 The Portuguese taught me otherwise.
 
@@ -83,20 +83,20 @@ This guide is here so you can keep houses, titles, and foreign powers straight o
 ## Maratha Confederacy (West Coast)
 
 *   **Chimaji Appa (historical):** Younger brother of Baji Rao I, the Peshwa. Commander of the Maratha Konkan campaign against Portuguese forts and coastal rivals.
-*   **Baji Rao I, the Peshwa (historical):** The Maratha empire's chief minister and strategist, whose expansionist wars reshape the subcontinent's balance.
+*   **Baji Rao I, the Peshwa (historical):** The Maratha empire’s chief minister and strategist, whose expansionist wars reshape the subcontinent’s balance.
 *   **The Siddis of Janjira (historical):** A sea power on the Konkan, feared for naval warfare and shifting alliances.
 
 ## Travancore and Venad (Deep South)
 
-*   **Marthanda Varma (historical):** King of Venad and architect of Travancore's rise, ruthless in consolidation and hungry for a sovereign southern state.
-*   **Ramayyan Dalawa (historical):** The king's diwan and principal strategist, a man of letters, ledgers, and cold clarity.
+*   **Marthanda Varma (historical):** King of Venad and architect of Travancore’s rise, ruthless in consolidation and hungry for a sovereign southern state.
+*   **Ramayyan Dalawa (historical):** The king’s diwan and principal strategist, a man of letters, ledgers, and cold clarity.
 *   **The Senior Rani (historical):** Matrilineal authority within the royal household, whose legitimacy and politics shape succession.
-*   **The *Ettuveetil Pillamar* (historical, collective):** "Lords of the Eight Houses," powerful nobles broken during the years of consolidation.
-*   **The Thampi brothers (historical, collective):** Rival claimants and violent challengers to the young king's authority.
+*   **The *Ettuveetil Pillamar* (historical, collective):** “Lords of the Eight Houses,” powerful nobles broken during the years of consolidation.
+*   **The Thampi brothers (historical, collective):** Rival claimants and violent challengers to the young king’s authority.
 
 ## Dutch and European Soldiers
 
-*   **Eustachius De Lannoy (historical):** A Dutch officer whose defeat becomes the beginning of a new role in Travancore's army.
+*   **Eustachius De Lannoy (historical):** A Dutch officer whose defeat becomes the beginning of a new role in Travancore’s army.
 *   **Karl August (composite):** A European deserter and drill expert, used in the novel as a bridge between company discipline and local war.
 
 ## Other Colonial Powers
@@ -107,9 +107,9 @@ This guide is here so you can keep houses, titles, and foreign powers straight o
 
 ## Rivals, Allies, and Neighbours
 
-*   **Cochin (historical polity):** A coastal kingdom and Dutch ally, threatened by Travancore's expansion.
-*   **Samudri, the Zamorin of Calicut (historical title):** "Lord of the Sea," a northern power whose interests clash with any southern empire.
-*   **The Nawab of Arcot (historical office):** A Carnatic ruler whose cavalry and politics tug at Travancore's southern frontier.
+*   **Cochin (historical polity):** A coastal kingdom and Dutch ally, threatened by Travancore’s expansion.
+*   **Samudri, the Zamorin of Calicut (historical title):** “Lord of the Sea,” a northern power whose interests clash with any southern empire.
+*   **The Nawab of Arcot (historical office):** A Carnatic ruler whose cavalry and politics tug at Travancore’s southern frontier.
 *   **Chanda Sahib (historical):** A Carnatic contender whose pressure helps trigger the Dutch crisis.
 *   **Kottarakkara and the Elayadathu line (historical polity):** A northern succession house used by rivals and foreign companies as leverage against Travancore.
 *   **Kayamkulam, Desinganad, Purakkad, Thekkumkur, Vadakkumkur (historical polities):** Smaller kingdoms and principalities drawn into alliances against a rising Travancore.
@@ -121,14 +121,15 @@ This guide is here so you can keep houses, titles, and foreign powers straight o
 *   **Ibrahim Marakkar (composite):** A coastal power broker who understands that trade and war are the same river.
 *   **Padmini Amma (fictional):** A formidable estate holder whose house becomes a hinge between old order and new state.
 *   **Revathi Bayi (fictional):** A princess of Velinadu, sharp minded and dangerous to love.
-*   **Dhanaji (fictional):** A Deccan man in exile, carrying his own loyalties and grief into Travancore's wars.
-*   **Savitri of Kottarakkara (fictional):** A single face for a broader succession struggle at the kingdom's northern edge.
+*   **Dhanaji (fictional):** A Deccan man in exile, carrying his own loyalties and grief into Travancore’s wars.
+*   **Savitri of Kottarakkara (fictional):** A single face for a broader succession struggle at the kingdom’s northern edge.
+
 
 ---
 
 # Book I, Chapter 1: Dungeons of Goa
 
-![Map of the Malabar Coast](images/map_malabar.png)
+![Map of the Malabar Coast](images/map_malabar.jpg)
 
 
 
@@ -241,6 +242,7 @@ Ships meant movement. Movement meant chances.
 The Portuguese had taken my name and tried to break my body. They had forgotten the simplest lesson of the Deccan monsoon.
 
 Storms do not ask permission.
+
 # Book I, Chapter 2: The Slave Ship South
 
 They woke us under cover of bells. The great church above rang for early Mass, a flood of sound rolling down through stone into the cells. I counted the strokes. When the last echo faded, bolts scraped at the dungeon door.
@@ -371,6 +373,7 @@ His fingers closed briefly over my bandaged hand. Neither of us mentioned that p
 Above, the timbers creaked in a new rhythm. The ship rolled more sharply, the water slapping her sides with a sound that had teeth. Somewhere, a sailor cursed. Somewhere else, a prayer rose.
 
 The Arabian Sea was beginning to remind us who owned this ship.
+
 # Book I, Chapter 3: The Choice in the Storm
 
 The first warning was not the shout of a sailor or the crack of thunder. It was the change in the way the ship moved.
@@ -602,6 +605,7 @@ I took one breath, tasting salt and fear. I thought of Keshavrao's narrow should
 Then I hurled myself over the side.
 
 The sea closed over my head like the hand of an angry god.
+
 # Book I, Chapter 4: The Fishermen of the Pepper Coast
 
 
@@ -733,6 +737,7 @@ Footsteps sounded outside, firm and quick. A new voice spoke in Malayalam, low b
 When the man they called *kapitan* stepped into the house, the smell of salt and foreign places came with him. He was shorter than the fishermen but broader, with a scar that ran from his left ear to the corner of his jaw, the kind of scar a blade leaves when it just misses the throat.
 
 His eyes moved over me the way a horse trader's eyes move over new stock. He noted the brand, the bandaged hands, the way I held myself despite the wounds. I had seen that look before, in market squares where men were sold. For a long moment he said nothing. In that silence, I was being weighed.
+
 # Book I, Chapter 5: Road to Travancore
 
 The man they called *kapitan* introduced himself as Ibrahim.
@@ -912,6 +917,7 @@ The road that had begun in a Goan dungeon now pointed toward him.
 Horses. Guns. Storms.
 
 Sleep came slowly that night, but when it did, it carried no dreams of drowning. Only the steady beat of hooves on sand, and a distant roar like the sea.
+
 # Book I, Chapter 6: The Coastal Hall
 
 They did not take me to a palace.
@@ -1103,6 +1109,7 @@ Storms had tried to kill me. Now I would learn whether I could become one.
 As I walked, my hand went to my hip, to the empty place where a sword should hang. Not in threat, but in promise. *I will serve this king,* I told myself. *I will harden his riders and break his enemies. When that debt is paid, I will turn north again, find Chimaji, and burn the Portuguese out of Goa, stone by bloody stone.*
 
 For now, Travancore was the forge. But the blade was meant for another war.
+
 # Book II, Chapter 7: Horses in Wet Sand
 
 The first time I tried to make Arcot horses run in Malabar sand, they laughed at me.
@@ -1318,6 +1325,7 @@ I stayed with Kayal a while longer, thinking about gods and usefulness and the s
 On Deccan soil, I had thought I knew the limits of what a horse could do against a gun. Here, with the sea muttering at my back and wet sand underfoot, those limits shifted.
 
 Storms did not ask permission. Perhaps horses, taught well, did not either.
+
 # Book II, Chapter 8: Padmini Amma's Estate
 
 For months I lived near the fishermen’s village, sleeping on a mat in a small hut that smelled of dried prawns and damp thatch.
@@ -1577,6 +1585,7 @@ If I was to survive this southern kingdom, I would have to learn its female tong
 Two days to learn how not to offend a princess.
 
 I had faced Portuguese interrogations and Arabian Sea storms. Somehow, this felt like the more delicate task.
+
 # Book II, Chapter 9: Princess of Velinadu
 
 
@@ -1831,6 +1840,7 @@ She let her hand drop.
 The question of where I would stand when the king's wishes scraped against the houses of this coast remained unanswered.
 
 For now, I followed Padmini into the hall, where incense curled, drums spoke, and old Velinadu women weighed the future in words sharper than blades.
+
 # Book II, Chapter 10: Lessons in Travancore
 
 In the Deccan, a kingdom revealed itself in its forts.
@@ -2032,6 +2042,7 @@ In Goa, chains had held me still in one place. Here, invisible cords tied me to 
 Travancore was already at war, even in its quiet moments. It had just learned to fight with more than swords.
 
 If I wished to survive, I would have to learn the same.
+
 # Book II, Chapter 11: Dutch on the Horizon
 
 It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation. This was not yet the war fleet that would come two years later, only a probing squadron, sent to measure distances and count our guns. But we did not know that then.
@@ -2237,6 +2248,7 @@ Ship smoke.
 Dutch smoke.
 
 The horizon had begun to move nearer, whether it wished to or not.
+
 # Book II, Chapter 12: Threads of Alliance
 
 Court in Travancore did not look like court in Pune.
@@ -2490,6 +2502,7 @@ As I stepped out into the evening, the sky above the fort glowed with the last o
 Threads had been woven in that hall. Some would hold. Some would snap. Either way, the fabric of this coast had been pulled a little tighter.
 
 Soon, it would be tested.
+
 # Book II, Chapter 13: The Eve of Colachel
 
 The day before Colachel smelled of coconut smoke and rain that had not yet fallen.
@@ -2753,6 +2766,7 @@ When the real drums began, calling men to arms in the grey before sunrise, they 
 The eve was over.
 
 The storm was here.
+
 # Book III, Chapter 14: The Siege of Colachel
 
 By the time we closed our ring around Colachel, we were already tired from another war.
@@ -2918,6 +2932,7 @@ He turned his horse away.
 The siege of Colachel had ended not with the thunderclap alone, but with our charge through the smoke. The explosion had wounded them. The cavalry had finished it.
 
 But as I looked at the smoking ruin and the prisoners being led away, I knew the silence to come would be more dangerous than the noise. Now came the words. And words, in my experience, could be sharper than any sword.
+
 # Book III, Chapter 15: Prisoners of a New King
 
 The end came with a lie, or perhaps just a misunderstanding of what honour meant on this coast.
@@ -3191,6 +3206,7 @@ But he was not wearing it.
 History is strange. It turns on a lucky shot, a broken promise, and a conversation in a stone room.
 
 I looked at the walls of the fort. They were strong. But with Lannoy’s help, I knew they would become stronger. And Travancore, this slip of land between the mountains and the sea, would become something no one, not even the great Companies of Europe, could swallow.
+
 # Book III, Chapter 16: Building a New Army
 
 The horse died on the third day of the fever.
@@ -3598,6 +3614,7 @@ Yet when I watched a new unit march past in neat order, muskets on their shoulde
 Not in the idea of a perfect army. There is no such thing. But in the knowledge that somewhere, in some future battle, a Dutchman or a Portuguese or a Mysorean would stand, baffled, as men from this small kingdom refused to die in the patterns their manuals predicted.
 
 That was enough for now.
+
 # Book III, Chapter 17: Adoption of the Stranger
 
 The King came to Padmini Amma’s estate not with the thunder of drums or the announcement of heralds, but with the quiet dust of a traveller who knows the road too well.
@@ -3879,6 +3896,7 @@ She left. The lamp guttered and died. I lay in the darkness of my own cellar, in
 Some burdens are not chosen. Some names are not earned. Some debts are paid by becoming what is needed, and learning to call it home.
 
 And some doors, once opened, are never fully closed again.
+
 # Book III, Chapter 18: Dutch Come Bowing
 
 The second time Dutchmen entered the coastal hall, they smelled less of salt and more of caution.
@@ -4148,6 +4166,7 @@ The Dutch had come bowing.
 It did not mean they had forgotten how to bite.
 
 But as I went back to my lamp and my notes, I could taste dust on the wind, dry and far away, carrying the Deccan toward this coast.
+
 # Book III, Chapter 19: Shadows of the Deccan
 
 News from the Deccan arrived the way monsoon storms do.
@@ -4427,6 +4446,7 @@ The Deccan son was gone. Another man, with two coasts in his chest, had taken hi
 The Travancore soldier had finally arrived.
 
 For the moment, that was enough.
+
 # Book III, Chapter 20: Guest in Velinadu
 
 Some months after Colachel and before fire ever touched Padmini's upper fields, things shifted between Revathi and me.
@@ -4863,6 +4883,7 @@ But here, in this house where pepper and politics and old love all shared the sa
 I was also a husband.
 
 And, in time, a father whose children ran these stones and called this place home, even as they learned to ride under a king whose kingdom we had both helped, and hindered, and loved into being.
+
 # Book III, Chapter 21: Ramayyan's Ledger
 
 I had always known that Ramayyan wrote things down.
@@ -5078,6 +5099,7 @@ Mine were carved in memories of hooves on sand and the weight of men's trust.
 His were written in palm leaves and tags.
 
 Both, I suspected, would matter when the next storm came.
+
 # Book IV, Chapter 22: Command of the Marches
 
 The king liked to meet his gods without witnesses.
@@ -5463,6 +5485,7 @@ The marches waited.
 So did whatever knives the old houses there had honed in the dark.
 
 But for the first time since Goa, I felt not like wreckage caught between currents, but like part of a river that had chosen its course.
+
 # Book IV, Chapter 23: First Campaign for the Tiger
 
 The northern marches smelled different from the coast.
@@ -5992,6 +6015,7 @@ The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing
  “The Tiger has teeth,” Ramayyan murmured, echoing the King's earlier words.
  
  “And claws,” I said, feeling a chill that had nothing to do with the wind. “God help anyone who thinks they can clip them.”
+
 # Book IV, Chapter 24: Under De Lannoy's Standard
 
 By the time the first dry season after Kollamkara's valley campaign came and went, people in the fort had started calling one of the new bastions “the foreigner's tooth.”
@@ -6823,6 +6847,7 @@ Whatever names future scribes gave this army, for this moment, it was ours.
 We stood under its standard.
 
 Together.
+
 # Book IV, Chapter 25: Ramayyan's Test
 
 The summons came on a day that smelled of ink and rain.
@@ -7171,6 +7196,7 @@ The ledger had been updated.
 The storm that would test those lines had not yet arrived.
 
 But when it did, at least I would not have to wonder whose side of the wall I was standing on.
+
 # Book IV, Chapter 26: Fire in the Pepper Fields
 
 The fire started as a thin, uncertain line on the horizon.
@@ -7454,6 +7480,7 @@ He did not look up from his ledger.
 He turned a page, stylus already moving to the next line.
 
 Men like Ibrahim rarely walked in straight lines. Perhaps that was the only way to survive on a coast where every power wanted the same pepper.
+
 # Book IV, Chapter 27: The Last of the Old Houses
 
 The map in the war hall had grown crowded.
@@ -7685,6 +7712,7 @@ I watched until she was gone from sight, this woman who had been willing to burn
 The last of the old houses had fallen.
 
 Now came the work of making sure they could never rise again.
+
 # Book IV, Chapter 28: Servant of Padmanabha
 
 The fall of Kottarakkara broke the resistance of the old houses, but Marthanda Varma knew that broken things could be mended if the glue was strong enough. He needed an act that would seal the kingdom forever, beyond the reach of Dutch intrigue or noble ambition.
@@ -7962,6 +7990,7 @@ Some things do not wash.
 Some things we carry.
 
 For as long as we live, and in the stories that outlast us.
+
 # Author's Historical Note: Blood and Thrones
 
 This novel is fiction built on a real landscape.
@@ -8046,6 +8075,7 @@ Readers interested in the real Travancore, Marthanda Varma, De Lannoy and the Du
 - 1743: Treaty of Mannar, an early settlement with the Dutch (historical).
 - 1750: Thrippadidanam, Marthanda Varma’s dedication of the kingdom to Padmanabha (historical).
 - 1753: Treaty of Mavelikkara, Dutch recognition and withdrawal from local prince politics (historical).
+
 # Glossary of Terms
 
 ## Titles and People
@@ -8132,6 +8162,7 @@ Readers interested in the real Travancore, Marthanda Varma, De Lannoy and the Du
 *   **Arabic:** Trade and religious language tied to West Asian merchants and Muslim communities on the Malabar coast.
 *   **Ladino:** Old Judeo-Spanish used by the Paradesi Jews of Cochin in trade and private speech.
 *   **Syrian Christian:** Here used for Malayalam-speaking St. Thomas Christian communities who follow West Syriac liturgy and act as key merchants and intermediaries.
+
 
 ---
 
