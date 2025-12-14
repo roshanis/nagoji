@@ -18,7 +18,7 @@ This is a work of historical fiction. While many events, places, and figures are
 
 # Dedication
 
-*Dedicated to history lovers all over the world, and to Suraj, who recommended this theme.*
+*Dedicated to my parents, my spouse, to history lovers all over the world, and to Suraj, who recommended this theme.*
 
 ---
 
