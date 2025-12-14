@@ -16,6 +16,12 @@ This is a work of historical fiction. While many events, places, and figures are
 
 ---
 
+# Dedication
+
+*Dedicated to history lovers all over the world, and to Suraj, who recommended this theme.*
+
+---
+
 # Prequel: The Vow and the Tiger
 
 In the late 1730s, the western coast of India smelled of wet gunpowder and pepper. Salt wind carried the tang of the Arabian Sea into every camp and every fort. Between the surf and the hills, empires pressed against each other like wrestlers, each convinced the other would tire first.
