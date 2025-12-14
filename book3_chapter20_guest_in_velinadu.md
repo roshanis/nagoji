@@ -1,6 +1,44 @@
 # Book III, Chapter 20: Guest in Velinadu
 
-Some months after Colachel and before fire ever touched Padmini's upper fields, the summons from Velinadu came on a piece of cloth, not a palm leaf.
+Some months after Colachel and before fire ever touched Padmini's upper fields, things shifted between Revathi and me.
+
+It began with small things. A message about canal rights that arrived addressed to me personally, not through Ramayyan's office. A question about horse breeds slipped into correspondence about levy schedules. An invitation to a temple festival in a village near her border, phrased as if my presence were required for security but attended by no one who needed securing.
+
+I rode to that festival. She was there, standing near the offering stones, her presence explained by some thin fiction about inspecting local granaries. We did not speak of anything important. We watched the procession, the drums, the brass lamps carried by women in white. When our hands brushed reaching for the same plate of *prasadam*, neither of us pulled away.
+
+“You are far from your marches,” she said.
+
+“The marches can spare me for a day,” I said.
+
+“Only a day?”
+
+“Perhaps two.”
+
+It was two days, and then three. I slept in a guesthouse near the temple, and each morning she found some reason to be walking the same paths I walked. We spoke of the kingdom, of the Dutch who had bowed, of the chiefs who still grumbled. We did not speak of what we were doing, circling each other like two hawks who had spotted the same thermal.
+
+On the third evening, as the festival ended and the crowds dispersed, she stopped at the edge of the village where her escort waited.
+
+“This cannot continue,” she said.
+
+“No,” I agreed.
+
+“It is noticed. People talk. Ramayyan has already written three lines about it in his ledger.”
+
+“Only three?”
+
+She did not smile.
+
+“Come to Velinadu,” she said. “When you are ready to speak plainly. Not before.”
+
+She rode away without looking back.
+
+It took me two months to find the courage. In that time, I told myself a dozen reasons why it was impossible, why the gap between us was too wide, why a landless Maratha and a Princess of Velinadu belonged in different stories. Each reason crumbled when I remembered her hand brushing mine over the *prasadam*.
+
+Then the summons came.
+
+---
+
+The summons from Velinadu came on a piece of cloth, not a palm leaf.
 
 Padmini handed it to me under the jackfruit tree, her fingers lingering on the edge as if reluctant to let it go.
 
@@ -37,8 +75,6 @@ Her mouth twitched.
 We walked the length of the verandah in silence for a while, listening to the household move around us. Women’s bangles. The thud of grain being pounded. The distant shout of a boy in the kalari.
 
 She stopped near a pillar and rested her hand against it.
-
-“Because I am tired,” she said. “And I am besieged.”
 
 She turned to face me fully.
 
@@ -130,45 +166,70 @@ Her hand brushed mine, the same light touch as on that verandah after the Dutch 
 
 The marriage itself was smaller than any court scribe would have wanted and larger than either of us would admit mattered.
 
-There were no trumpets, only drums—the deep, rolling *chenda* that set the blood moving, and the sharper *thimila* that answered like a heartbeat. No foreign captains, only house elders. No long lines of guests, only those who had carried these years with us.
+There were no trumpets, only drums, the deep, rolling *chenda* that set the blood moving, and the sharper *thimila* that answered like a heartbeat. No foreign captains, only house elders. No long lines of guests, only those who had carried these years with us.
 
-Dhanaji arrived the morning of the ceremony, dusty from the road, with a cloth bundle under his arm and a grin I had not seen since we were young men racing horses on the Deccan plateau.
+Dhanaji arrived the morning of the ceremony, dusty from the road, with a grin I had not seen since we were young men racing horses on the Deccan plateau.
 
-"You could have sent word earlier," he said, clasping my arm. "I had to bribe three boatmen and outride a tax collector to get here in time."
+“You could have sent word earlier,” he said, clasping my arm. “I had to bribe three boatmen and outride a tax collector to get here in time.”
 
-"I did not know myself until a week ago," I said. "Revathi does not believe in long engagements."
+“I did not know myself until a week ago,” I said. “Revathi does not believe in long engagements.”
 
-"She does not believe in anything that wastes time," he said. "I have learned that much." He looked around the courtyard, at the preparations underway, the flowers being strung, the brass vessels being polished. "So. The last of us to fall."
+“She does not believe in anything that wastes time,” he said. “I have learned that much.” He looked around the courtyard, at the preparations underway, the flowers being strung, the brass vessels being polished. “So. The last of us to fall.”
 
-"You never fell," I said.
+“You never fell,” I said.
 
-"I fell many times," he said. "I simply never let anyone catch me." He held up the cloth bundle. "I brought you something. For after."
+“I fell many times,” he said. “I simply never let anyone catch me.” His eyes dropped to my waist, to the pale curve of ivory at my belt. The gold caught the light even under the courtyard shade.
 
-"After what?"
+“Since when do you wear a king’s jewellery?” he asked.
 
-"After you remember that a married man still needs a blade that does not belong to his wife's household."
+“It is not jewellery,” I said. I loosened the cloth that covered the hilt. Fine things in a crowded house invite hungry fingers. “The Maharaja gave it to me after the adoption. Dutch steel, reforged. His conch stamped into the blade so no one forgets who owns the work.”
 
-He unwrapped the cloth. Inside lay a knife—not a fighting blade, but a personal one, the kind a man carries for small tasks and smaller emergencies. The handle was ivory, yellowed with age, carved with a pattern of horses running in a line that seemed to move when the light shifted.
+Dhanaji’s grin died.
 
-"This was my father's," Dhanaji said. "He gave it to me when I left for the wars. I have no sons to pass it to, and no plans to make any. You are the closest thing I have to a brother in this world. Take it."
+“No,” he said at once. “Keep it.”
 
-I could not speak for a moment. The ivory was warm in my hand, worn smooth by decades of use.
+The knife had ridden at my waist since the day Padmini named me. Giving it away felt like loosening a knot I had only just learned to tie.
 
-"Dhanaji—"
+I drew it anyway and placed it in his palm, hilt first.
 
-"Do not make it sentimental," he said gruffly. "It is just a knife. But it is a knife that has seen the Deccan and the coast and everything between. Let it see your children learn to ride. That is enough."
+He tried to give it back as if it burned him.
 
-I tucked the blade into my waistcloth, where it sat against my hip like an old friend settling into a familiar chair.
+“Do you want me to ride with your king’s mark on my hip?” he said, low. “Back in the Deccan, they will call it betrayal. Here, they will call it a leash.”
 
-"Stay for the feast," I said. "There will be enough food to make even you stop talking."
+“It cuts rope,” I said. “It cuts flesh. It is only a leash if you let it pull you.”
 
-"I would not miss it," he said. "Someone has to tell embarrassing stories about your youth. The bride deserves to know what she is getting."
+He stared at me, jaw tight. “And you do not feel it pulling?”
+
+The Portuguese brand on my wrist ached with an old memory. Padmini’s kiss on the scar. Varma’s conch pressing a new ownership against my skin.
+
+“I know exactly what it is,” I said. “That is why you should have it.”
+
+“Why?” he demanded.
+
+“Because I am tying myself to this coast,” I said. “You are the one man who remembers the Deccan boy under my skin. Take it, Dhanaji. If the gods cut you down here, let your son come south with it. Let him find me by the conch and the gold. I will not turn him away.”
+
+For a moment, the courtyard noise thinned. Dhanaji swallowed.
+
+“You swear that?” he asked.
+
+“I swear it,” I said.
+
+He slid the knife into his belt under his cloth, hiding the gold like contraband.
+His hand stayed there a moment, as if he needed to feel the weight and know it was real.
+
+“If anyone asks,” he said hoarsely, “I stole it.”
+
+“If anyone asks,” I said, “tell them you earned it.”
+
+“Stay for the feast,” I said. “There will be enough food to make even you stop talking.”
+
+“I would not miss it,” he said. “Someone has to tell embarrassing stories about your youth. The bride deserves to know what she is getting.”
 
 ---
 
 The ceremony began as the sun touched the tops of the coconut palms.
 
-Padmini stood beside Revathi, her stick planted firm, her eyes bright with something fiercer than tears. She had dressed in her finest white, and the jasmine in her hair filled the air with sweetness. When she looked at me, I saw not just approval but something like completion—as if a circle she had been drawing for years had finally closed.
+Padmini stood beside Revathi, her stick planted firm, her eyes bright with something fiercer than tears. She had dressed in her finest white, and the jasmine in her hair filled the air with sweetness. When she looked at me, I saw not just approval but something like completion, as if a circle she had been drawing for years had finally closed.
 
 Lannoy stood near the back, awkward in local cloth, watching with the expression of a man who could not decide whether this counted as a military alliance or something more dangerous. Ramayyan hovered near a pillar, lips moving as if already turning the scene into neat lines on palm leaves. Dhanaji leaned against the far wall, arms crossed, smiling.
 
@@ -176,9 +237,9 @@ The priest chanted in Sanskrit I only half understood, his voice rising and fall
 
 And then the moment came.
 
-The priest held up the *tali*—a small gold ornament on a yellow thread, simple compared to the heavy necklaces I had seen on northern brides, but carrying the weight of a thousand years of tradition. He blessed it with water and ash and words older than any kingdom on this coast.
+The priest held up the *tali*, a small gold ornament on a yellow thread, simple compared to the heavy necklaces I had seen on northern brides, but carrying the weight of a thousand years of tradition. He blessed it with water and ash and words older than any kingdom on this coast.
 
-"Take it," the priest said to me. "Tie it, and she is yours. She ties her thread to you, and you are hers. Three knots for three lives—past, present, and what is yet to come."
+“Take it,” the priest said to me. “Tie it, and she is yours. She ties her thread to you, and you are hers. Three knots for three lives, past, present, and what is yet to come.”
 
 I looked at Revathi.
 
@@ -186,7 +247,7 @@ She was not looking at the priest or the fire or the watching elders. She was lo
 
 I took the *tali* in my hands. The gold was warm from the priest's palm, the thread soft against my fingers. I had held swords and reins and dying men. I had never held anything that felt as heavy as this small piece of metal.
 
-Revathi bowed her head, exposing the nape of her neck. I saw a small scar there, near her hairline—something I had never noticed in all our nights in the cellar. A childhood wound, perhaps. A story I did not yet know.
+Revathi bowed her head, exposing the nape of her neck. I saw a small scar there, near her hairline, something I had never noticed in all our nights in the cellar. A childhood wound, perhaps. A story I did not yet know.
 
 I would have time to learn it now.
 
@@ -202,7 +263,7 @@ The second knot.
 
 *For the present. For what you are to each other now.*
 
-Revathi's breath was warm against my wrist. She reached up, not to adjust the thread, but to touch my hand—a brief pressure, steadying me, telling me without words that she was here, that this was real, that I was not dreaming in some fever after Colachel.
+Revathi's breath was warm against my wrist. She reached up, not to adjust the thread, but to touch my hand, a brief pressure, steadying me, telling me without words that she was here, that this was real, that I was not dreaming in some fever after Colachel.
 
 The third knot.
 
@@ -210,25 +271,25 @@ The third knot.
 
 I pulled the knot tight.
 
-When I looked up, Revathi's eyes were wet. Not with sorrow. With something I had never seen her permit herself to show in public—hope.
+When I looked up, Revathi's eyes were wet. Not with sorrow. With something I had never seen her permit herself to show in public, hope.
 
-"It is done," the priest said.
+“It is done,” the priest said.
 
 The drums began again, louder now, triumphant. Women ululated, the sound piercing the evening air. Somewhere, Dhanaji whooped like a boy at a horse fair.
 
-But I heard none of it. I was looking at my wife—my *wife*—and she was looking back at me, and for a moment the world was only the two of us and the thin gold thread that now bound us.
+But I heard none of it. I was looking at my wife, my *wife*, and she was looking back at me, and for a moment the world was only the two of us and the thin gold thread that now bound us.
 
-"You did not drop it," she murmured, too soft for anyone else to hear.
+“You did not drop it,” she murmured, too soft for anyone else to hear.
 
-"I almost did," I admitted.
+“I almost did,” I admitted.
 
-"I know," she said. "I felt your hands shaking. The great cavalry commander, terrified of a piece of string."
+“I know,” she said. “I felt your hands shaking. The great cavalry commander, terrified of a piece of string.”
 
-"The string is easy," I said. "It is what it means that terrifies me."
+“The string is easy,” I said. “It is what it means that terrifies me.”
 
-She smiled—the private smile, the one she had first shown me in the cellar.
+She smiled, the private smile, the one she had first shown me in the cellar.
 
-"Good," she said. "Stay terrified. It will keep you honest."
+“Good,” she said. “Stay terrified. It will keep you honest.”
 
 ---
 
@@ -238,23 +299,23 @@ Banana leaves lined the courtyard floor, each one a green platter waiting to be 
 
 But the dish that drew murmurs of appreciation was the *avial*.
 
-It arrived in brass vessels, steam rising, vegetables cut into precise batons—drumstick, yam, raw banana, beans, snake gourd—all bound together in a sauce of coconut and yoghurt, tempered with curry leaves and a whisper of coconut oil. The aroma alone was enough to make a hungry man weep.
+It arrived in brass vessels, steam rising, vegetables cut into precise batons, drumstick, yam, raw banana, beans, snake gourd, all bound together in a sauce of coconut and yoghurt, tempered with curry leaves and a whisper of coconut oil. The aroma alone was enough to make a hungry man weep.
 
-"Ramayyan invented this," Padmini said, noticing my expression. "Years ago, during a siege, when we had many vegetables and little else. He told the cooks to combine everything and pray. It worked better than prayer usually does."
+“Ramayyan invented this,” Padmini said, noticing my expression. “Years ago, during a siege, when we had many vegetables and little else. He told the cooks to combine everything and pray. It worked better than prayer usually does.”
 
 I looked at the Dalawa, who was methodically mixing his rice with *sambar*, pretending not to hear.
 
-"You invented a dish?" I asked.
+“You invented a dish?” I asked.
 
-"I solved a logistics problem," he said without looking up. "The cooks merely executed."
+“I solved a logistics problem,” he said without looking up. “The cooks merely executed.”
 
-Revathi laughed—a real laugh, unguarded, the first I had heard from her all day.
+Revathi laughed, a real laugh, unguarded, the first I had heard from her all day.
 
-"He also insisted on the precise sequence of cutting," she said. "Something about the vegetables cooking at the same rate. He wrote it down in one of his ledgers."
+“He also insisted on the precise sequence of cutting,” she said. “Something about the vegetables cooking at the same rate. He wrote it down in one of his ledgers.”
 
-"Some things," Ramayyan said primly, "are worth recording."
+“Some things,” Ramayyan said primly, “are worth recording.”
 
-I bent to my leaf and ate as the Malabar coast ate—with my fingers, mixing rice and curry into small balls, the coconut oil slick on my palm, the flavours layering on my tongue in ways that Deccan food never had. The *avial* was unlike anything I had tasted: creamy and earthy, the vegetables still holding their shape, the yoghurt adding a tang that cut through the richness.
+I bent to my leaf and ate as the Malabar coast ate, with my fingers, mixing rice and curry into small balls, the coconut oil slick on my palm, the flavours layering on my tongue in ways that Deccan food never had. The *avial* was unlike anything I had tasted: creamy and earthy, the vegetables still holding their shape, the yoghurt adding a tang that cut through the richness.
 
 For a moment, surrounded by the sounds of eating and laughter and the occasional clatter of a serving ladle, I forgot that I was a Maratha in a Nair house, a sword in a land of pepper. I was simply a hungry man at a wedding feast, grateful for the food and the company.
 
@@ -286,35 +347,35 @@ We sat in companionable silence, listening to the house settle. Somewhere a chil
 
 After a time, she rose.
 
-"Come," she said, and held out her hand.
+“Come,” she said, and held out her hand.
 
 She did not lead me to the cellar.
 
-She led me to her room—the room that had been hers alone since her first husband died, the room where the matriarch of Velinadu slept and woke and made the decisions that shaped a thousand lives. The door was carved teak, old and heavy. She pushed it open without ceremony.
+She led me to her room, the room that had been hers alone since her first husband died, the room where the matriarch of Velinadu slept and woke and made the decisions that shaped a thousand lives. The door was carved teak, old and heavy. She pushed it open without ceremony.
 
-Inside, a single lamp burned. The bed was low, spread with white cloth, strewn with jasmine that the women of the house had scattered there as was customary. The smell was almost overwhelming—sweetness and tradition and expectation.
+Inside, a single lamp burned. The bed was low, spread with white cloth, strewn with jasmine that the women of the house had scattered there as was customary. The smell was almost overwhelming, sweetness and tradition and expectation.
 
-"No cellar tonight," she said, reading my expression. "No hiding. You are my husband now. This is your room as much as mine."
+“No cellar tonight,” she said, reading my expression. “No hiding. You are my husband now. This is your room as much as mine.”
 
-"It does not feel like mine," I said.
+“It does not feel like mine,” I said.
 
-"It will," she said. "Give it time."
+“It will,” she said. “Give it time.”
 
-She began to remove her jewelry—the heavy gold at her ears, the bangles at her wrists, the *tali* she left. Each piece she set on a wooden stand with the precision of ritual.
+She began to remove her jewelry, the heavy gold at her ears, the bangles at her wrists, the *tali* she left. Each piece she set on a wooden stand with the precision of ritual.
 
-"In the cellar," she said, her back to me, "we were thieves. Stealing hours. Pretending the world did not exist beyond those walls."
+“In the cellar,” she said, her back to me, “we were thieves. Stealing hours. Pretending the world did not exist beyond those walls.”
 
 She turned.
 
-"Tonight, we are not thieves. Tonight, we are husband and wife, in our own home, with the blessings of priests and the knowledge of everyone who matters. There is nothing to hide from."
+“Tonight, we are not thieves. Tonight, we are husband and wife, in our own home, with the blessings of priests and the knowledge of everyone who matters. There is nothing to hide from.”
 
-She reached up and unpinned her hair. It fell the way it had that first night—darker than shadows, longer than memory.
+She reached up and unpinned her hair. It fell the way it had that first night, darker than shadows, longer than memory.
 
-"I find," she said, "that I do not know how to do this without hiding. I have been a widow so long that secrecy became a skin. Help me shed it."
+“I find,” she said, “that I do not know how to do this without hiding. I have been a widow so long that secrecy became a skin. Help me shed it.”
 
-I crossed the room to her. I took her face in my hands—the same hands that had trembled tying the *tali*, now steady.
+I crossed the room to her. I took her face in my hands, the same hands that had trembled tying the *tali*, now steady.
 
-"We learn together," I said.
+“We learn together,” I said.
 
 This time was different from the cellar.
 
@@ -322,17 +383,17 @@ There was no urgency, no desperation, no fear of footsteps overhead. There was o
 
 She was different too. The guarded woman who had always held something back, some final reserve, let it fall away piece by piece. When she pulled me down to the bed, it was not with the fierce hunger of stolen time but with the quiet certainty of claimed ground.
 
-I learned the scar at her hairline—a fall from a mango tree when she was seven. I learned the ticklish spot behind her knee that made her gasp and then laugh. I learned the way she said my name, my real name, *Nagoji*, when she forgot to be careful, and the way she corrected herself to *Ananthan* and then gave up and used neither, just sounds, just breath.
+I learned the scar at her hairline, a fall from a mango tree when she was seven. I learned the ticklish spot behind her knee that made her gasp and then laugh. I learned the way she said my name, my real name, *Nagoji*, when she forgot to be careful, and the way she corrected herself to *Ananthan* and then gave up and used neither, just sounds, just breath.
 
-And she learned me. The brand she had traced before, she now kissed—not with Padmini's fierce claiming, but with a tenderness that undid me more completely. The scars from Colachel, still pink and puckered along my ribs. The grey that had crept into my hair since we first met.
+And she learned me. The brand she had traced before, she now kissed, not with Padmini's fierce claiming, but with a tenderness that undid me more completely. The scars from Colachel, still pink and puckered along my ribs. The grey that had crept into my hair since we first met.
 
-"You are older," she said, tracing a line at my temple.
+“You are older,” she said, tracing a line at my temple.
 
-"So are you," I said.
+“So are you,” I said.
 
-"I have earned it," she said. "You have merely survived."
+“I have earned it,” she said. “You have merely survived.”
 
-"Survival is its own earning," I said.
+“Survival is its own earning,” I said.
 
 She smiled and pulled me closer, and for a long time there were no more words.
 
@@ -340,21 +401,9 @@ She smiled and pulled me closer, and for a long time there were no more words.
 
 Afterward, she lay with her head on my chest, her fingers drawing idle patterns on my skin.
 
-"The women will check the sheets tomorrow," she said. "It is tradition. They will be looking for proof."
+“I should go,” I said, old habit speaking. “Before the servants...”
 
-"Proof of what?"
-
-"That the marriage was consummated. That the union is real." She laughed softly. "As if a piece of cloth could prove anything about what passes between two people."
-
-"What will they find?"
-
-"Evidence," she said. "And gossip for a week. Let them have it. They have little enough entertainment."
-
-The lamp had burned low. Through the window, I could see the first grey hint of dawn touching the sky.
-
-"I should go," I said, old habit speaking. "Before the servants—"
-
-"You should stay," she said, her arm tightening around me. "You are not a guest anymore, Ananthan. You do not have to leave before the house wakes. You can be here when the sun rises. You can eat breakfast in this room if you wish. You can walk these corridors without looking over your shoulder."
+“You should stay,” she said, her arm tightening around me. “You are not a guest anymore, Ananthan. You do not have to leave before the house wakes. You can be here when the sun rises. You can eat breakfast in this room if you wish. You can walk these corridors without looking over your shoulder.”
 
 The words settled into me slowly, like water into dry earth.
 
@@ -362,13 +411,13 @@ I did not have to leave.
 
 I could stay.
 
-"It will take time," I said, "to stop feeling like a thief."
+“It will take time,” I said, “to stop feeling like a thief.”
 
-"I know," she said. "It took me years to stop feeling like a widow. Some mornings I still wake and reach for a man who has been dead longer than you have been on this coast." She propped herself up to look at me. "We are both haunted. But perhaps haunted people can keep each other company."
+“I know,” she said. “It took me years to stop feeling like a widow. Some mornings I still wake and reach for a man who has been dead longer than you have been on this coast.” She propped herself up to look at me. “We are both haunted. But perhaps haunted people can keep each other company.”
 
 I pulled her back down, her head settling into the hollow of my shoulder as if it had been made for that purpose.
 
-"Company," I said. "Yes. I think I can do that."
+“Company,” I said. “Yes. I think I can do that.”
 
 We slept then, tangled together, while the house woke around us and the servants whispered and the children of Velinadu began their morning noise. For the first time, I did not wake at the sound of footsteps. For the first time, I did not reach for a weapon.
 

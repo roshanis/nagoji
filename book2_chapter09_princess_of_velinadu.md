@@ -1,5 +1,6 @@
 # Book II, Chapter 9: Princess of Velinadu
 
+
 We left Padmini Amma's estate before sunrise, when the sky was the colour of old iron and the air still clung to the night's cool.
 
 The road to Velinadu wound inland at first, away from the sea. We rode through low hills quilted with rubbery green, past ponds where lotus leaves floated like idle coins, past small shrines where bundled cloth and oil lamps clung to the trunks of ancient trees. As the light strengthened, mist lifted off the fields and revealed more of the land's body.
@@ -30,9 +31,9 @@ They watched Padmini Amma approach with a mixture of respect and calculation.
 
 The guard's mouth twitched. His gaze slid to me.
 
-"And this?"
+“And this?”
 
-"A rider from the north whom the sea sent back to us," she said. “The Maharaja plays with him. I thought Velinadu should have its share.”
+“A rider from the north whom the sea sent back to us,” she said. “The Maharaja plays with him. I thought Velinadu should have its share.”
 
 The guard's eyebrows rose at that, but he stepped aside.
 
@@ -54,7 +55,7 @@ We were led to a side verandah and offered seats on woven mats. Servants brought
 
 I sipped the cool water, letting it wash away the dust of the road. My stomach, which had once protested at every new coastal spice, had begun to learn the patterns of this land. Rice instead of bhakri. Coconut instead of groundnut. Fish where once there had been mutton.
 
-Waiting is familiar to any soldier. You learn to let your mind drift without losing its edge. Yet as the minutes stretched, I felt a different kind of tautness. This was not the tense quiet before a battle, when men cleaned swords and muttered prayers. It was the waiting men endure when summoned before someone who can change their fate with a word.
+Waiting is familiar to any soldier. You learn to let your mind drift without losing its edge. Yet as the minutes stretched, my spine tightened in a different way. This was not the tense quiet before a battle, when men cleaned swords and muttered prayers. It was the waiting men endure when summoned before someone who can change their fate with a word.
 
 Footsteps approached. Not the heavy tread of armoured guards, but the light, quick rhythm of someone accustomed to moving through these spaces without being questioned.
 
@@ -116,7 +117,7 @@ She picked up a piece of plantain from her plate at last, but held it between fi
 
 “There was nothing easy about it,” I said. “We lost men every time. Horses also. The ground does not care whose blood it drinks.”
 
-"Yet you keep pouring," she said. "Why?"
+“Yet you keep pouring,” she said. “Why?”
 
 “Because if we do not, someone's flag will stand over every fort from Nashik to this place,” I said. “Because men in Goa believed they could take my name and make me a number in a ledger. Because I have seen what happens when you give Europeans an inch of riverbank and they think it entitles them to the whole valley.”
 
@@ -138,19 +139,19 @@ She pointed at the earth between us.
 
 Her eyes turned toward the south, where I knew, beyond the curve of the land, Dutch ships rode at anchor somewhere beyond sight.
 
-"Your king," she went on, "understands some of this. He is not a fool. He knows that if he wants a strong kingdom, he must make peace with the houses that owned land before his uncles did. Yet he also wants to pull all power into his own hands. He builds a state that answers to the crown, not to the old lines. That is good for facing Europeans. It is less good for those of us whose names are older than his."
+“Your king,” she went on, “understands some of this. He is not a fool. He knows that if he wants a strong kingdom, he must make peace with the houses that owned land before his uncles did. Yet he also wants to pull all power into his own hands. He builds a state that answers to the crown, not to the old lines. That is good for facing Europeans. It is less good for those of us whose names are older than his.”
 
 She paused, and something shifted in her face. A shadow, there and gone.
 
-"My mother's cousin sits in Kottarakkara," she said, her tone carefully flat. "Savitri. Of the Elayadathu line. She writes to me sometimes. About the old ways. About what is owed."
+“My mother's cousin sits in Kottarakkara,” she said, her tone carefully flat. “Savitri. Of the Elayadathu line. She writes to me sometimes. About the old ways. About what is owed.”
 
 She did not elaborate. The silence stretched a heartbeat longer than it should have.
 
-"Kottarakkara has not yet bent," Revathi added. "The chief there still remembers what his grandmothers held. Your king circles that house the way a dog circles a wounded bird. Sooner or later, one of them will move."
+“Kottarakkara has not yet bent,” Revathi added. “The chief there still remembers what his grandmothers held. Your king circles that house the way a dog circles a wounded bird. Sooner or later, one of them will move.”
 
-I did not know the name. I did not know the house. But I felt the weight of what she was not saying settle into the air between us like monsoon humidity.
+I did not know the name. I did not know the house. The weight of what she was not saying settled into the air between us like monsoon humidity.
 
-"You fear he will use men like me to cut your houses down," I said.
+“You fear he will use men like me to cut your houses down,” I said.
 
 “I do not fear,” she said. “Fear is for people who have no knives. I see him giving land and commands to men like you, whose ties to this coast are thin. Easier to shift such men when the time comes. Harder for them to say no.”
 
@@ -162,7 +163,7 @@ The question was hypothetical, but it landed like a thrown dagger. I thought of 
 
 “I ride for the orders I am given,” I said slowly. “But I choose which king I allow to give them. That choice is not made lightly.”
 
-“You have already made it,” she said. “You could have run north when the sea spat you out. Instead you stayed. You drilled horses on sand. You accepted the Maharaja's gaze on your neck. Do not pretend you stand at a crossroad when your feet are already on the path.”
+“You have already made it,” she said. “You could have run north when the sea spat you out. Instead you stayed. You drilled horses on sand. You accepted the Maharaja's gaze on your neck. Do not pretend you stand at a crossroads when your feet are already on the path.”
 
 Her bluntness stung because it was true.
 
@@ -204,7 +205,7 @@ Soft footsteps sounded behind me. Padmini Amma stepped back onto the verandah fr
 
 “She does not have to,” Padmini said. “Her place in this story is not to approve. It is to remind men like you and the Maharaja that the land remembers longer than crowns do.”
 
-In the distance, drums began again, a steady, heartbeat rhythm. As we rose to follow, I felt the ground under my bare feet with new awareness.
+In the distance, drums began again, a steady heartbeat rhythm. As we rose to follow, the ground under my bare feet took on new weight.
 
 In Goa, I had fought men who believed God and gunpowder gave them the right to rule. In Velinadu, I had met a woman who believed lineage and land gave her the right to refuse.
 

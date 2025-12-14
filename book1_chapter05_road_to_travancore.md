@@ -4,7 +4,7 @@ The man they called *kapitan* introduced himself as Ibrahim.
 
 Not with a bow or a flourish, only with a nod and a measuring look that told me he had decided what kind of man I was before he opened his mouth.
 
-"You were on the Portuguese ship," he said in Konkani, the trade tongue one of the fishermen had used to speak with me. "The storm did not like her."
+“You were on the Portuguese ship,” he said in Konkani, the trade tongue one of the fishermen had used to speak with me. “The storm did not like her.”
 
 “The storm did not like any of us,” I said. My voice had grown stronger after a day of rest, rice gruel and herbs that burned my throat but soothed my chest. “I took the chance it gave.”
 
@@ -20,7 +20,7 @@ He glanced at my branded arm, at the bandaged hands, at the rope burns.
 
 He nodded, his thumb tracing the scar on his jaw, a habit, I would learn, that meant he was filing information away.
 
-"Our king fights them too," he said. "And their cousins, the Dutch. He will want to hear what you have seen."
+“Our king fights them too,” he said. “And their cousins, the Dutch. He will want to hear what you have seen.”
 
 He paused, his thumb tracing the scar again. Something flickered behind his eyes, a calculation, a road not taken. Then it was gone.
 
@@ -54,21 +54,21 @@ Outside, the village had returned to its habits. Women drew water from a well. C
 
 Ibrahim led me not to the shore, but inland, along a narrow track that wound between paddy fields. The water in the flooded plots reflected the darkening sky in strips. Frogs chirped. A faint breeze carried the smell of wet earth and something else, sharp and almost floral.
 
-"Pepper," Ibrahim said when he saw my nose twitch. "You will come to know that smell well if you stay on this coast. It sits in the lungs. It pays for guns."
+“Pepper,” Ibrahim said when he saw my nose twitch. “You will come to know that smell well if you stay on this coast. It sits in the lungs. It pays for guns.”
 
 I breathed it in. On the Deccan we had fought for the routes that carried this smell north. Now I was at the source.
 
-"And for kings," Ibrahim added. "That too."
+“And for kings,” Ibrahim added. “That too.”
 
 We reached a small clearing where a pair of bullocks stood hitched to a cart. The cart's bed was lined with sacks. Some held rice, others the dried, wrinkled berries that gave the air its sting.
 
-"We send word ahead," Ibrahim said. "Our people are the vines that run along this coast. We carry news as well as goods. When we bring you to the king's men, they will already know more about you than you think."
+“We send word ahead,” Ibrahim said. “Our people are the vines that run along this coast. We carry news as well as goods. When we bring you to the king's men, they will already know more about you than you think.”
 
-"What do you tell them?"
+“What do you tell them?”
 
 He shrugged, but the gesture was a little too careful.
 
-"That I found a branded Maratha officer on our beach after a Portuguese ship broke. That he still has both eyes and more teeth than one would expect from the Viceroy's dungeons. That he speaks like a man who has led horse into gunfire and lived." He glanced at me sideways. "A man like that has value. The question is always to whom."
+“That I found a branded Maratha officer on our beach after a Portuguese ship broke. That he still has both eyes and more teeth than one would expect from the Viceroy's dungeons. That he speaks like a man who has led horse into gunfire and lived.” He glanced at me sideways. “A man like that has value. The question is always to whom.”
 
 The cart jolted as he climbed up. He offered me a hand. I took it and hauled myself onto the sacks, biting back a groan as my bruised ribs protested.
 
@@ -104,9 +104,9 @@ As the road climbed slightly, the line of coconut palms thinned. In their place 
 
 We stopped near a wayside shrine where a stone image sat under a tree draped with cloth and bangles. An old woman tended a little lamp before it. Ibrahim stepped down, offered a coin and a nod. The woman blessed him with a smear of ash on his forehead, then looked past him at me.
 
-"That one carries storms in his bones," she said in Malayalam. Ibrahim translated, then replied in the same tongue. When I raised an eyebrow, he shrugged.
+“That one carries storms in his bones,” she said in Malayalam. Ibrahim translated, then replied in the same tongue. When I raised an eyebrow, he shrugged.
 
-"I told her you carry horses there too. Storms and horses can both be useful, if you know how to ride them."
+“I told her you carry horses there too. Storms and horses can both be useful, if you know how to ride them.”
 
 As evening deepened, we reached a larger settlement. It was not quite a town, not yet, but bigger than the fishing village. Houses stood closer together. A small bazaar clustered around a crossroads, stalls offering spices, cloth, oil, and trinkets. The road here was better packed, the wheel ruts deeper.
 
@@ -124,15 +124,15 @@ The guard peered at me, his gaze lingering on my hands and the line of my should
 
 They let us through.
 
-Inside the compound a low hall stood, its wooden pillars carved with curling designs. Lamps hung from chains, casting soft light on the packed earth floor. Men sat cross legged around a central space where a mat had been laid. At the far end, on a slightly raised platform, another man sat with a ledger and a pile of palm leaf bundles.
+Inside the compound a low hall stood, its wooden pillars carved with curling designs. Lamps hung from chains, casting soft light on the packed earth floor. Men sat cross-legged around a central space where a mat had been laid. At the far end, on a slightly raised platform, another man sat with a ledger and a pile of palm leaf bundles.
 
 He wore no crown, only a simple dhoti and a shawl over one shoulder. Yet the way others watched him made it clear he was the one who mattered here.
 
-"This is not the king," Ibrahim murmured as we approached. "He is busy elsewhere. This is one of his hands on this coast."
+“This is not the king,” Ibrahim murmured as we approached. “He is busy elsewhere. This is one of his hands on this coast.”
 
 The man looked up.
 
-"You bring me shipwreck," he said in Malayalam. Ibrahim translated, but the dry amusement in the official's tone needed no translation.
+“You bring me shipwreck,” he said in Malayalam. Ibrahim translated, but the dry amusement in the official's tone needed no translation.
 
 “The sea brought him,” Ibrahim said. “I only stopped the crabs from finishing.”
 
@@ -144,9 +144,9 @@ The man's eyes moved to me.
 
 “Service?”
 
-“Huzurat cavalry,” I said. “Household horse under Chimaji Appa. Until the Portuguese netted me.”
+“*huzurat* cavalry,” I said. “Household horse under Chimaji Appa. Until the Portuguese netted me.”
 
-His eyes flicked to my bandaged hands, the brand under my sleeve. "You raided them?"
+His eyes flicked to my bandaged hands, the brand under my sleeve. “You raided them?”
 
 “Yes.”
 

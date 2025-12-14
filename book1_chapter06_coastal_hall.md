@@ -14,13 +14,13 @@ Ibrahim rode on a sturdy pony at my side, his clothes different from the day I h
 
 “Gifts,” he said when he saw me glance. “Information costs, *bhau*. So do favours. When we reach the hall, remember that.”
 
-Ahead, the road dipped. A narrow inlet cut into the land, its water dark and still. Boats lay drawn up along its banks, some broad bellied cargo craft, others slender canoes for river work. The smell of fish was strong here, mixed with the smoke of cooking fires.
+Ahead, the road dipped. A narrow inlet cut into the land, its water dark and still. Boats lay drawn up along its banks, some broad-bellied cargo craft, others slender canoes for river work. The smell of fish was strong here, mixed with the smoke of cooking fires.
 
 On a rise beyond the inlet, a structure of wood and stone looked down on everything.
 
 It was not large, not compared to the great forts of the north, but there was purpose in every line. The outer wall was of red stone blocks, rough, topped with a parapet from which musketeers could fire. Within that wall rose a long hall with an open front, its wooden pillars carved with curling motifs of vines and tigers. Behind the hall, on higher ground, I glimpsed the start of a rampart that ran inland, following the shape of the land.
 
-"This is only one claw," Ibrahim said softly. "The kingdom itself is the beast."
+“This is only one claw,” Ibrahim said softly. “The kingdom itself is the beast.”
 
 Guards in white cotton and dark sashes watched us approach. They carried matchlocks and spears, their posture alert but not nervous. One recognised Ibrahim and raised a hand in greeting.
 
@@ -32,7 +32,7 @@ They took our horses. As I dismounted, the coastal animal tossed its head and sn
 
 We climbed a short flight of stone steps to the hall.
 
-Inside, the air was cooler. The roof was high enough to let smoke and heat rise, yet low enough that one could still hear the sea beyond when the hall fell quiet. Mats covered the floor. Men sat cross legged in loose rows, leaving a clear space in the centre.
+Inside, the air was cooler. The roof was high enough to let smoke and heat rise, yet low enough that one could still hear the sea beyond when the hall fell quiet. Mats covered the floor. Men sat cross-legged in loose rows, leaving a clear space in the centre.
 
 At the far end, on a slightly raised wooden platform, a man sat with a spear resting against his shoulder and a rolled map on the mat before him.
 
@@ -42,7 +42,7 @@ At his side sat another man with sharp, fine features and a thin frame wrapped i
 
 “Marthanda Varma,” Ibrahim murmured. “And his diwan. Remember what I said about gifts.”
 
-We stepped forward. Conversations dimmed. I felt the familiar prickling on the back of my neck that comes when one walks alone into a space where everyone else already knows their place.
+We stepped forward. Conversations dimmed. The back of my neck prickled, as it always did when I walked alone into a space where everyone else already knew their place.
 
 I bowed. Not as deeply as a subject would, but enough to acknowledge the man on the platform as something other than a fellow soldier.
 
@@ -182,7 +182,7 @@ The diwan stood, gathering his palm leaves.
 
 “Come,” he said. “Let us see what a storm can do when given horse instead of chains.”
 
-As I followed him out of the hall, the roar of the sea grew louder. For the first time since Goa, I felt my blood beat in my veins with something other than pain and stubbornness.
+As I followed him out of the hall, the roar of the sea grew louder. For the first time since Goa, my blood beat in my veins with something other than pain and stubbornness.
 
 Storms had tried to kill me. Now I would learn whether I could become one.
 

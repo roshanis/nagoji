@@ -24,17 +24,17 @@ Ramayyan finally looked up. His gaze was like a clerk’s scale, weighing gold a
 
 “Which line?”
 
-“Sawant,” I said. “Kshatriya. My father’s house has held the sword for five generations. We do not plow.”
+“Sawant,” I said. “Kshatriya. My father’s house has held the sword for five generations. We do not plough.”
 
 He studied me. It was not enough to be a soldier. In this land, as in mine, questions of blood and birth could close a door faster than any bolt.
 
-“Sawant,” he repeated, testing the sound on his tongue. “Good. That will satisfy the temple priests who cook at her house. If you were low caste, we would have to billet you in the stables. Padmini Amma might tolerate a foreign captain, but she will not tolerate pollution.”
+“Sawant,” he repeated, testing the sound on his tongue. “Good. That will satisfy the temple priests who cook at her house. If you were low-caste, we would have to billet you in the stables. Padmini Amma might tolerate a foreign captain, but she will not tolerate pollution.”
 
 He scratched a note on his leaf.
 
-“Go then. Pack your kit. The cart is waiting. Try not to offend her. She supplies half the pepper that pays for your salary—pepper that Arab traders from Muscat and Aden bid against the Dutch to buy, paying in silver *chuckrams* and gold *varahans* that fill the King's treasury.”
+“Go then. Pack your kit. The cart is waiting. Try not to offend her. She supplies half the pepper that pays for your salary, pepper that Arab traders from Muscat and Aden bid against the Dutch to buy, paying in silver *chuckrams* and gold *varahans* that fill the King's treasury.”
 
-***
+---
 
 The first time I saw Padmini Amma's house, I thought they had brought me to a temple by mistake.
 
@@ -42,9 +42,13 @@ Not one of the great stone temples I knew from the Deccan, with shikharas that c
 
 Power in the neatness of the courtyards, swept clean before dawn. Power in the thickness of the granary walls, mounds of paddy stacked inside like quiet promises. Power in the way men with spears stood not at the outer gate, but under the shade of the inner verandahs, where cool air and authority met.
 
+In the shadow near the granary, I noticed a low wooden panel, its edges rubbed smooth as if fingers had found it in the dark. It looked like nothing. That was what made it feel important.
+
 We rode in under an arch woven with coconut fronds and mango leaves. Someone had hung oil lamps there though the sun was high, wicks smoking gently, scenting the air with burnt ghee.
 
-“Do not look for the sardar,” Ibrahim murmured beside me as his horse's hooves clicked on the stone threshold. “Here, the house does not belong to the man who sleeps in the front room. It belongs to the name on the matrilineal line. You will see.”
+"Do not look for the sardar," Ibrahim murmured beside me as his horse's hooves clicked on the stone threshold. "Here, the house does not belong to the man who sleeps in the front room. It belongs to the name on the matrilineal line. You will see."
+
+His eyes moved briefly toward the harbour road, where a Marakkar boat was being loaded with sacks that could have been pepper or could have been something else entirely. The sea folk, I would learn, always kept one hand on a rope that led somewhere else.
 
 The courtyard we entered was long and rectangular, edged with pillared verandahs. On one side women sat sorting pepper berries on woven mats, their fingers moving with practised speed, their bangles clinking softly. On the other side, near a well, boys practised with short spears under the eye of an older man who barked corrections in Malayalam.
 
@@ -136,7 +140,59 @@ I could not help a short laugh.
 
 “You speak freely, Amma.”
 
-"I own this land," she said. "Why should I not?"
+“I own this land,” she said. “Why should I not?”
+
+She studied me for a moment, then seemed to make a decision.
+
+“You will hear a word here,” she said. “*Sambandham*. From the Sanskrit, *sama*, meaning equal, and *bandham*, meaning bond or alliance. An equal bond. That is what we call the tie between a man and a woman here. Not ownership. Not conquest. An alliance between equals.”
+
+I waited.
+
+“In your Deccan,” she continued, “a woman leaves her father's house and enters her husband's. She becomes his. Her children are his. If he dies, she is a widow who depends on his family's mercy. Yes?”
+
+“That is the way,” I said.
+
+“Here, the way is different.” She tapped her stick against the stone. “A woman stays in her own house. Her *tharavadu*. When she takes a husband, or a lover, or a companion, call it what you will, he comes to her. He visits. He may sleep in her room. He may father her children. But he does not own the house. He does not own the land. He does not own her.”
+
+“And the children?”
+
+“Belong to her line,” Padmini said. “They carry her family name. They inherit from her brothers, not from their father. The father is honoured, yes. Loved, often. But he is a guest in the house where his children grow. He has his own *tharavadu*, his own sisters and their children to think of.”
+
+She pointed toward the kalari, where the sounds of practice still echoed.
+
+“Those boys training there, some of their fathers live in other houses, other villages. They come to visit their mothers when duty allows. But the boys belong here. This is their home. This is where they will fight and die if the king calls. Their fathers may ride for other lords entirely.”
+
+“It sounds...” I searched for the right word. “Complicated.”
+
+“It sounds practical,” she corrected. “A man who goes to war may not return. A man who travels for trade may find another woman in another port. A man who angers a king may lose his head. In your system, his wife and children are ruined. In ours, they are exactly where they were before, in their mother's house, with their mother's kin, on their mother's land.”
+
+She smiled, showing teeth.
+
+“We do not pretend men are reliable, Sawant. We plan for their failures.”
+
+“And if a woman wishes to leave? To follow her husband to his house?”
+
+“Then she is a fool,” Padmini said flatly. “But it happens. Some women fall so deeply in love that they forget their own names. They follow men to strange houses where they have no claim, no protection, no land. When those men tire of them, or die, or simply wander off, where do they go? Back here, if they are lucky. Into the streets, if they are not.”
+
+She shook her head.
+
+“*Sambandham* protects women by refusing to let them be owned. The law here says a woman's children are hers. The temples say it. The kings say it, even Marthanda Varma, who changes many things, does not change that. A Nair woman is never truly alone, because her house is always her house. Her children are always her children. No man can take that.”
+
+“And men accept this?” I asked.
+
+“Men accept what the land demands,” she said. “Those who do not accept it are welcome to find wives elsewhere. The Brahmins have their own customs. The Namboothiris keep their women locked in their compounds. The Syrians marry in their churches. We do as we have always done.”
+
+She leaned forward.
+
+“If you stay in this land, Sawant, you will have to understand this. A woman who takes you in *sambandham* is not your property. She is your partner. Your children will call you father, but they will belong to her house. You will be welcome under her roof, but you will never own it. Can your Maratha pride swallow that?”
+
+It was a challenge, not a question.
+
+“I have no land here,” I said slowly. “No house. No kin. If I am honest, I have no pride left worth protecting. The Portuguese burned most of it out of me in Goa.”
+
+Something shifted in her eyes. Respect, perhaps. Or recognition.
+
+“Good,” she said. “Pride is a poor foundation for happiness. Better to build on something more solid.”
 
 She leaned back, studying me.
 

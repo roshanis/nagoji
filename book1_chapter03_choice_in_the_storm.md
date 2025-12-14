@@ -90,7 +90,7 @@ He was right. If the ship sank with us still chained to the beams, the sea would
 
 “Look,” Keshavrao shouted in my ear. “The ring.”
 
-He jerked his chin toward the iron ring that held the chain which ran above our heads. It was bolted into a beam with thick nails, but with each violent roll the wood around it creaked and splintered a little more. Dark lines appeared where the bolt had been driven in, lines that widened as the hull flexed.
+He jerked his chin toward the iron ring that held the chain above our heads. It was bolted into a beam with thick nails, but with each violent roll the wood around it creaked and splintered a little more. Dark cracks spread around the bolt, widening as the hull flexed.
 
 “When it goes,” I said, “we move.”
 
@@ -154,7 +154,7 @@ He fell past me, hitting the rungs once, twice, then the floor of the hold with 
 
 The ladder was clear.
 
-"Now," I shouted. “Move. All of you who can climb, move.”
+“Now,” I shouted. “Move. All of you who can climb, move.”
 
 I scrambled the last few steps and burst onto the deck. The hatch opened just aft of the mainmast, near the middle of the ship.
 
@@ -172,11 +172,11 @@ Behind me, at the hatch by the mast, Keshavrao's head appeared. His eyes were hu
 
 “Sahib,” he cried. The word was whipped away by the wind.
 
-Another wave loomed, higher than the others. It reared up on our starboard side, to my right, a wall of water lit silver for a moment by lightning. For that instant I saw everything.
+Another wave loomed, higher than the others. It reared up on our starboard side, to my right, a wall of water lit silver for a moment by lightning. For that instant everything was clear.
 
 The broken mast. The men at the pumps. The open sea beyond, white capped and hungry. Keshavrao's thin hands on the ladder. The chain still linking his ankles. The iron still binding his wrists.
 
-I saw, too, a coil of rope by the starboard rail at my right, half loose at my feet. I saw a shattered spar floating just off the ship's side, momentarily caught in the eddying water.
+A coil of rope lay by the starboard rail at my right, half loose at my feet. A shattered spar floated just off the ship's side, momentarily caught in the eddying water.
 
 Calculations raced through me faster than words. Leap now, reach the spar. Keshavrao follows, chains drag him under. Wait to free him, we both get smashed against the rail.
 
@@ -224,7 +224,7 @@ The sea clawed at the hull. The spar rose on the swell, close enough now that I 
 
 I took one breath, tasting salt and fear. I thought of Keshavrao's narrow shoulders in the hold, of his quiet “with you, sahib” in the dark.
 
-"Forgive me," I said, to the boy I promised not to leave, to the horse who died better than I would, to whatever gods listen to men who jump into storms.
+“Forgive me,” I said, to the boy I promised not to leave, to the horse who died better than I would, to whatever gods listen to men who jump into storms.
 
 Then I hurled myself over the side.
 

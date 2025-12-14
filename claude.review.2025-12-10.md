@@ -265,7 +265,7 @@ Generally consistent across 18 years (1735-1753). Add more specific date referen
 ### Exemplary Passages (Preserve These)
 
 **Chapter 1:**
-> "I was thirty that year, in the seasons after we broke a string of Portuguese forts along the Konkan, old enough to have seen men I admired die foolishly, young enough to believe I could still choose the shape of my own death."
+> "I was twenty-five that year, 1738, in the seasons after we broke a string of Portuguese forts along the Konkan, old enough to have seen men I admired die foolishly, young enough to believe I could still choose the shape of my own death."
 
 **Chapter 7:**
 > "Horses do not waste breath on that. They laughed with every sideways step, every planted hoof that refused to drive, every rolling eye that said what the riders did not dare speak aloud."

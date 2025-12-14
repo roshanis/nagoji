@@ -20,7 +20,7 @@ As we climbed, women and men stepped aside to let Ramayyan pass, murmuring greet
 
 Inside the outer courtyard, Brahmins moved through their rituals like men repeating a song they had sung since childhood. Oil lamps flickered. Bells chimed. The smell of ghee and incense wound itself around the stone pillars.
 
-At the innermost threshold, where in some other temples a Deccan non Brahmin like me might have been kept back, Ramayyan stopped and turned.
+At the innermost threshold, where in some other temples a Deccan non-Brahmin like me might have been kept back, Ramayyan stopped and turned.
 
 “You do not have to go closer,” he said. “The god knows you have your own ways.”
 
@@ -32,11 +32,11 @@ He smiled faintly.
 
 We stood just inside the shade of the mandapa, where we could see both the sanctum and the outer courtyard.
 
-“Who pays for the oil in those lamps” he asked.
+“Who pays for the oil in those lamps?” he asked.
 
 “The temple,” I said. “From offerings.”
 
-“Where do the offerings come from”
+“Where do the offerings come from?”
 
 I thought of the boys in the kalari, of women sorting pepper, of carts groaning under loads of paddy.
 
@@ -54,7 +54,7 @@ He nodded toward a wall where dozens of small lamps burned in niches.
 
 We left the temple and walked down toward the market.
 
-There, under awnings of cloth and palm leaves, the kingdom took another shape. Traders from the interior haggled over sacks of rice and oil. Marakkar men bartered for pepper and cardamom, their eyes constantly flicking toward the path that led to the backwaters. An Arab merchant in a flowing white robe sat cross-legged on a raised platform, weighing silver *chuckrams* on a small brass scale while his servant counted sacks of pepper—each sack a *candi*, I had learned, roughly five hundred pounds, the measure by which fortunes were made or lost on this coast. Nearby, a Syrian Christian scribe sat with a low desk, writing contracts in a hand that flowed like water; beside him, a stack of *hundis*—bills of exchange that could turn pepper in Travancore into gold in Muscat without a single coin crossing the sea.
+There, under awnings of cloth and palm leaves, the kingdom took another shape. Traders from the interior haggled over sacks of rice and oil. Marakkar men bartered for pepper and cardamom, their eyes constantly flicking toward the path that led to the backwaters. An Arab merchant in a flowing white robe sat cross-legged on a raised platform, weighing silver *chuckrams* on a small brass scale while his servant counted sacks of pepper, each sack a *candi*, I had learned, roughly five hundred pounds, the measure by which fortunes were made or lost on this coast. Nearby, a Syrian Christian scribe sat with a low desk, writing contracts in a hand that flowed like water; beside him, a stack of *hundis*, bills of exchange that could turn pepper in Travancore into gold in Muscat without a single coin crossing the sea.
 
 “Do you see the pattern?” Ramayyan asked.
 
@@ -84,7 +84,7 @@ It lay on a flat strip of land just inland from the coastal fort, where the grou
 
 Not De Lannoy. Not yet. This man was older, his belly soft, his eyes wary. One of the earlier European mercenaries who had sold his skill where he could.
 
-“Ram, my friend,” he called when he saw us. “You come to see how well they march”
+“Ram, my friend,” he called when he saw us. “You come to see how well they march?”
 
 “I come to see whether they can do more than march,” Ramayyan said mildly.
 
@@ -114,7 +114,7 @@ We found Ibrahim on a narrow quay, shouting at a man who was trying to load too 
 
 He broke off when he saw us.
 
-“Diwanji,” he said, touching his forehead. “Sawant. Come to see how your horses eat”
+“Diwanji,” he said, touching his forehead. “Sawant. Come to see how your horses eat?”
 
 “Horses do not like water,” I said. “I admire anyone who rides it as if it were a road.”
 
@@ -164,9 +164,15 @@ He regarded me for a moment, as if tasting the shape of my answer.
 
 That conversation was the first lesson. The application came soon after.
 
-In the years that followed, before the Dutch clouds fully gathered, the King turned his "borrowed eyes" inward as Ramayyan had promised.
+---
 
-We rode not against foreign armies, but against the stubborn knots of the internal map. I learned that a "campaign" in Travancore did not always meant a pitched battle. Sometimes it meant riding with Padmini Amma to a chieftain's estate—a man who had formerly pledged loyalty to one of the Eight Houses—and standing silently by the gate while she negotiated the grain levy. My presence, and the fifty Maravar lancers behind me, turned a "request" into a "requirement."
+The months blurred into seasons, the seasons into years.
+
+I marked time not by calendars but by campaigns: the wet season when we rode against the Kayamkulam chiefs, the dry season when we fortified the northern passes, the monsoon when even horses learned to pray for solid ground. Each year the kingdom grew a little larger, a little tighter, a little more certain of its shape.
+
+In those years before the Dutch clouds fully gathered, the King turned his “borrowed eyes” inward as Ramayyan had promised.
+
+We rode not against foreign armies, but against the stubborn knots of the internal map. I learned that a “campaign” in Travancore did not always mean a pitched battle. Sometimes it meant riding with Padmini Amma to a chieftain's estate, a man who had formerly pledged loyalty to one of the Eight Houses, and standing silently by the gate while she negotiated the grain levy. My presence, and the fifty Maravar lancers behind me, turned a “request” into a “requirement.”
 
 Other times, it was sharper.
 
@@ -174,15 +180,17 @@ I remember a raid on a recalcitrant *madampi* near Attingal who refused to send 
 
 We took his walls at dawn. There was no glory in it, only the brutal efficiency of state-building. I watched as the King, standing in the smoking courtyard of a house that had been noble for three centuries, offered the defeated chief a choice: total submission or total erasure. The chief chose submission. His sons marched with us the next week.
 
-"You see?" Marthanda Varma told me as we rode back, the smell of wet ash still on our clothes. "I do not destroy them because I hate them. I break them so they can be reset into a stronger bone."
+“You see?” Marthanda Varma told me as we rode back, the smell of wet ash still on our clothes. “I do not destroy them because I hate them. I break them so they can be reset into a stronger bone.”
 
-It was during these "years of consolidation" that I stopped being a guest and became a limb of this growing beast. I learned to distinguish the sullen silence of a conquered village from the quiet respect of a protected one. I learned to eat rice from a plantain leaf without spilling it, and to speak enough Malayalam to order a charge or a retreat.
+It was during these “years of consolidation” that I stopped being a guest and became a limb of this growing beast. I learned to distinguish the sullen silence of a conquered village from the quiet respect of a protected one. I learned to eat rice from a plantain leaf without spilling it, and to speak enough Malayalam to order a charge or a retreat.
 
 And I learned that peace here was just a word for the time it took to reload.
 
-***
+---
 
-That night, years later and on the eve of the Dutch war, back at Padmini Amma's estate, as I sat under the jackfruit tree listening to distant temple bells and nearer kalari shouts, I thought of those early lessons.
+Seasons passed in this way. Dust and rain and the slow grinding of old orders into new shapes. By the time the Dutch began to show their teeth more openly, I had ridden every road in the kingdom at least twice and forgotten what the Deccan hills looked like except in dreams.
+
+One night, back at Padmini Amma's estate, as I sat under the jackfruit tree listening to distant temple bells and nearer kalari shouts, I thought of those early lessons.
 
 Temple to market. Market to training ground. Training ground to backwaters. Backwaters to fort. Fort to palace. Palace to houses like Padmini's. Houses to Velinadu's halls.
 

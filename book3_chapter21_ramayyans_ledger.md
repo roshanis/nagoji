@@ -22,13 +22,13 @@ He did not look surprised to see me.
 
 “You found my garden,” he said.
 
-“Garden” I asked, dripping rainwater onto the floor.
+“Garden?” I asked, dripping rainwater onto the floor.
 
 “These are the plants I tend,” he said, gesturing at the shelves. “Some bear fruit. Some only thorns.”
 
 I stepped closer, careful not to brush against the bundles.
 
-“What are they” I asked, though I had already guessed.
+“What are they?” I asked, though I had already guessed.
 
 “Records,” he said. “Of land. Of grain. Of taxes. Of temple offerings. Of letters. Of men.”
 
@@ -46,7 +46,7 @@ First appearance: Goan dungeon, retrieved by Travancore allies.
 Skills: cavalry command, European engagement, adaptability.  
 Family: father (farmer), mother, younger brother.  
 Loyalties: to Maratha ideal, to personal honour, increasingly to Travancore king.  
-Risks: potential Maratha recall (mitigated by Velinadu bond), emotional ties northward, relationship with Revathi Bayi (Alliance tied/Marriage).
+Risks: potential Maratha recall (mitigated by Velinadu bond), emotional ties northward, relationship with Revathi Bayi (alliance tied, marriage).
 
 The last word made me cough.
 
@@ -71,15 +71,15 @@ Dutch contact: confirmed. Letters intercepted: three.
 Velinadu connection: blood tie to Revathi Bayi. Leverage: significant.  
 Risk assessment: HIGH. Timeline: before next monsoon.
 
-The words "before next monsoon" had been underlined twice.
+The words “before next monsoon” had been underlined twice.
 
-Ramayyan turned the leaf over before I could read more, but not before I saw his finger pause on one line. The line that said "Velinadu connection."
+Ramayyan turned the leaf over before I could read more, but not before I saw his finger pause on one line. The line that said “Velinadu connection.”
 
 He did not explain. I did not ask. Some ledgers are not meant to be read aloud.
 
 He tapped Lannoy's name instead.
 
-"He worries about his soul," he said. "That is useful to know."
+“He worries about his soul,” he said. “That is useful to know.”
 
 I felt an odd mixture of amusement and discomfort.
 
@@ -177,12 +177,12 @@ The rain outside had eased to a drizzle. The light in the room was soft, filtere
 “Why show me this?” I asked. “You could have sent me away.”
 
 “Because you walk with half your weight in the north and half here,” he said.
- 
- "I married into Velinadu," I countered. "I sent my brother the final gold. I am here."
- 
- "Marriages end," Ramayyan said, unmoved. "Gold runs out. Roots are harder to kill than branches. I watch to ensure they do not regrow. You need to understand what you carry in this land. Not just your sword. Your shadow. You are not just a man who trains horses. You are a potential message. A symbol. A warning. It is better you see how I measure that than imagine monsters where there are only old men with styluses.”
 
-“Old” I said, raising an eyebrow.
+“I married into Velinadu,” I countered. “I sent my brother the final gold. I am here.”
+
+“Marriages end,” Ramayyan said, unmoved. “Gold runs out. Roots are harder to kill than branches. I watch to ensure they do not regrow. You need to understand what you carry in this land. Not just your sword. Your shadow. You are not just a man who trains horses. You are a potential message. A symbol. A warning. It is better you see how I measure that than imagine monsters where there are only old men with styluses.”
+
+“Old?” I said, raising an eyebrow.
 
 He chuckled.
 

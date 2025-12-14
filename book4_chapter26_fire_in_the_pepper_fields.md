@@ -38,7 +38,7 @@ I saw the problem as soon as I pictured the map.
 
 “Our horse cannot move at speed through those vines,” I said. “The path is too narrow. The supports too close. The canal banks too soft.”
 
-“Foot” Ramayyan said.
+“Foot,” Ramayyan said.
 
 “Foot will bleed in every bush,” I said. “Every stand of pepper is cover. Every tree hides a musket. We will lose men in inches.”
 
@@ -222,7 +222,7 @@ Instead, she came to the fort wall where I stood a few evenings later, watching 
 
 She leaned on the parapet, staring north.
 
-“Do you remember when you first came to Velinadu,” she asked, “how you spoke of fighting Europeans, of keeping this land free from their flags”
+“Do you remember when you first came to Velinadu,” she asked, “how you spoke of fighting Europeans, of keeping this land free from their flags?”
 
 “I do,” I said.
 
@@ -266,4 +266,18 @@ It had burned away the illusion that love could soften the choices ahead.
 
 In its place, another truth rose, harder edged.
 
-Later, when Ramayyan sifted rumours, Ibrahim Marakkar's name floated more than once to the surface, tied to bales of cloth and quiet conversations on canal banks. Whether he had helped Kollamkara reach Dutch guns or had nudged those same whispers toward the fort first was never entirely clear. Men like him rarely walked in straight lines.
+Later, when Ramayyan sifted rumours, Ibrahim Marakkar's name floated more than once to the surface, tied to bales of cloth and quiet conversations on canal banks. Whether he had helped Kollamkara reach Dutch guns or had nudged those same whispers toward the fort first was never entirely clear.
+
+I asked Ramayyan about it once, months after the ash had cooled.
+
+He did not look up from his ledger.
+
+“Some men are most useful when both sides believe they are theirs,” he said. “Ibrahim has traded on this coast longer than you have been alive. He will trade here after we are both dust. Do not trouble yourself with his accounts. I keep them for him.”
+
+“And if he betrayed us?”
+
+“Then I would know,” Ramayyan said. “And he would know that I know. That is usually enough.”
+
+He turned a page, stylus already moving to the next line.
+
+Men like Ibrahim rarely walked in straight lines. Perhaps that was the only way to survive on a coast where every power wanted the same pepper.

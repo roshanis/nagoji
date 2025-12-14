@@ -88,7 +88,7 @@ In the same motion, his left hand came up from beneath the edge of his cloth.
 
 Steel flashed.
 
-A long dagger, curved slightly, double edged, held in a reversed grip, the point angled toward his own body, ready to plunge forward into another's.
+A long dagger, curved slightly, double-edged, held in a reversed grip, the point angled toward his own body, ready to plunge forward into another's.
 
 He lunged toward the king's spine.
 
@@ -138,7 +138,7 @@ I caught the chevar's wrist with both hands now, fighting not just his arm, but 
 
 We looked like dancers locked in an awkward embrace, our arms tangled, our faces inches apart.
 
-His breath stank of betel and something metallic, as if he had been chewing on his own resolve. His eyes were wide, pupils blown, not with fear, but with some fierce joy.
+His breath stank of betel and something metallic, with a resinous sweetness I had smelled in northern camps. Kanjav, chewed to make a man deaf to the thought of his own death. His eyes were wide, pupils blown, not with terror, but with some fierce joy.
 
 “For the old houses,” he rasped again, in a voice torn by the strike to his throat. “For those he broke.”
 
@@ -364,7 +364,7 @@ He raised his cup of watered buttermilk.
 
 I raised mine.
 
-“To ledgers that keep us alive long enough to regret our choices,” I replied.
+“To careful reckonings that keep us alive long enough to regret our choices,” I replied.
 
 He laughed, wincing, and drank.
 

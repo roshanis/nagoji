@@ -20,9 +20,9 @@ When the envoys arrived, their coats were more subdued than those of the men who
 
 Lannoy stood at the edge of the hall as they entered.
 
-I stood further in, to the right of the King’s platform. I was no longer the mercenary observing from the pillars. I was the *Valia Sarvadhi Karyakkar* of the Horse, wearing the heavy silver chain of office Padmini Amma had fastened around my neck that morning. The guards knew it, the ministers knew it, and from the way the Dutch envoys’ eyes lingered on me, they suspected that the "Maratha" had found a permanent stall in this stable. I was a man with a *tharavadu* now, and that gave me a weight that mere steel could not.
+I stood further in to the right of the King’s platform. I was no longer the mercenary observing from the pillars. I was the *Valia Sarvadhi Karyakkar* of the Horse, wearing the heavy silver chain of office Padmini Amma had fastened around my neck that morning. The guards knew it, the ministers knew it, and from the way the Dutch envoys’ eyes lingered on me, they suspected that the “Maratha” had found a permanent stall in this stable. I was a man with a *tharavadu* now, and that gave me a weight that mere steel could not.
 
-He wore a simple cotton coat over his European shirt, his hair tied back as always. A sword hung at his side, not the one he had surrendered at Colachel, but a similar blade, its hilt now wrapped in local cloth.
+Lannoy wore a simple cotton coat over his European shirt, his hair tied back as always. A sword hung at his side, not the one he had surrendered at Colachel, but a similar blade, its hilt now wrapped in local cloth.
 
 The Dutch envoys saw him and faltered.
 
@@ -30,7 +30,7 @@ For a heartbeat, their careful expressions cracked. Then they recovered, faces s
 
 “Captain De Lannoy,” the senior envoy said in Dutch, bowing slightly. “We were told...”
 
-He trailed off. What had they been told That he was dead That he was rotting in some dungeon That he had been shipped off to another colony
+He trailed off. What had they been told? That he was dead. That he was rotting in some dungeon. That he had been shipped off to another colony.
 
 Their eyes took in the sword at his side, the way Travancore guards stood near him without hostility, the way Ramayyan's gaze flicked to him with approval rather than suspicion.
 
@@ -42,9 +42,9 @@ Marthanda Varma sat on his platform as before, bare feet on the mat, spear withi
 
 “Maharaja,” the envoy said in careful Portuguese, then through a Malayalam interpreter, “the Honourable Dutch East India Company conveys its formal regrets for the unfortunate conflict at Colachel and wishes to restore relations based on mutual advantage.”
 
-“Regrets,” Marthanda Varma repeated. “You regret that your men died when they tried to land on my shore. Do you regret sending them”
+“Regrets,” Marthanda Varma repeated. “You regret that your men died when they tried to land on my shore. Do you regret sending them here at all?”
 
-The envoy spread his hands in that same well practised manner that men of his trade seemed to learn along with their letters.
+The envoy spread his hands in that same well-practised manner that men of his trade seemed to learn along with their letters.
 
 “Circumstances,” he said, “were misjudged. We underestimated the strength and resolve of Travancore. We have been instructed to correct this error.”
 
@@ -64,7 +64,7 @@ Ramayyan did not move to take it. Instead, he signalled to one of his own scribe
 
 The scribe read aloud in Portuguese, the interpreter trailing in Malayalam. Terms unrolled in the air.
 
-Recognition of Travancore's sovereignty over its present territories. Agreement not to build new forts or expand existing ones without consultation. Guarantees of pepper and other spices to the company at agreed prices. This was the Treaty of Mannar, a first step, though Ramayyan called it "only a pause for breath."
+Recognition of Travancore's sovereignty over its present territories. Agreement not to build new forts or expand existing ones without consultation. Guarantees of pepper and other spices to the company at agreed prices. This was the Treaty of Mannar, a first step, though Ramayyan called it “only a pause for breath.”
 
 “Who decides who is a pirate?” Revathi asked from where she sat beside Padmini. “In Velinadu, when we killed company men who broke their word, you called us pirates.”
 
@@ -94,33 +94,33 @@ There was a murmur in the hall.
 
 “Yes,” the envoy said.
 
-“And what do you offer,” Revathi asked, “for the men who died at Colachel and in Velinadu and in the smaller towns your patrols burned”
+“And what do you offer,” Revathi asked, “for the men who died at Colachel and in Velinadu and in the smaller towns your patrols burned?”
 
 The envoy hesitated.
 
-"We cannot bring back the dead," he said. "We can only ensure that more do not die in similar misunderstandings."
+“We cannot bring back the dead,” he said. “We can only ensure that more do not die in similar misunderstandings.”
 
 The envoy paused, and something flickered behind his careful expression.
 
-"We are also aware," he added, his tone shifting to something almost casual, "that not all houses on this coast share the Maharaja's... enthusiasm for consolidation. There are those who remember older arrangements. Older claims."
+“We are also aware,” he added, his tone shifting to something almost casual, “that not all houses on this coast share the Maharaja's... enthusiasm for consolidation. There are those who remember older arrangements. Older claims.”
 
 He did not look at anyone in particular. He did not need to.
 
 Ramayyan's stylus stopped moving. Marthanda Varma's eyes narrowed by a fraction. Revathi's hand, resting on her knee, curled into a loose fist.
 
-"If the company wished," the envoy continued, "we could simply wait. Support those who feel aggrieved. Let internal divisions do what external force could not."
+“If the company wished,” the envoy continued, “we could simply wait. Support those who feel aggrieved. Let internal divisions do what external force could not.”
 
 The words hung in the air like smoke after a musket shot.
 
-"You could," the king said softly. "You will find the cost higher than you expect."
+“You could,” the king said softly. “You will find the cost higher than you expect.”
 
-"Perhaps," the envoy said. "Or perhaps not. We have learned patience."
+“Perhaps,” the envoy said. “Or perhaps not. We have learned patience.”
 
 The threat was clear. Somewhere, someone the Dutch could use was waiting. A claim. A grievance. A kinswoman with long memories.
 
 I thought of the name I had seen in Ramayyan's ledger. Elayadathu. The entry marked HIGH.
 
-"Misunderstandings," Padmini said under her breath, her voice harder than before. "A pretty word for greed."
+“Misunderstandings,” Padmini said under her breath, her voice harder than before. “A pretty word for greed.”
 
 Marthanda Varma sat very still for a long moment.
 
@@ -214,10 +214,56 @@ Her words settled into me like stones in a pouch.
 
 Later, writing by lamplight, I noted the date, the names, the key terms. Not because I trusted my memory, but because I had learned from watching Ramayyan that paper, in the right hands, could be a weapon.
 
+Before the oil in the lamp had burned halfway down, a guard tapped at my door.
+
+“Ramayyan requests you,” he said. “Now.”
+
+---
+
+I found Ramayyan bent over his palm leaves, stylus moving as if the day had never ended.
+
+He was not alone. Ibrahim Marakkar sat on a low stool nearby, a cup of buttermilk in his hands, speaking in a low voice that stopped when I entered.
+
+“Sawant,” Ibrahim said, rising. “I was just leaving.”
+
+“Stay,” Ramayyan said, without looking up. “He should hear this too.”
+
+Ibrahim hesitated, then settled back onto his stool.
+
+“Dutch?” I asked.
+
+“Not Dutch,” Ramayyan said. “North.”
+
+Ibrahim's eyes held mine.
+
+“My cousins trade in Maratha ports,” he said. “They carry pepper and cloth and silver. They carry talk too. Pune has heard of Colachel. Some men call it luck. Some call it warning. Some say a kingdom that can break a company square might one day threaten Maratha borders. Others say such a kingdom might make a useful ally against the English, who are beginning to look south with hungry eyes.”
+
+I felt the room tighten around those names. Pune. English. Ally. Threat.
+
+“And which way does the wind blow?” I asked.
+
+Ibrahim stood.
+
+“The wind blows in circles,” he said. “It carries your name north and the Peshwa's name south. Somewhere in the middle, men are deciding whether those names should be written in treaties or in obituaries.”
+
+He touched his forehead in a gesture of respect and walked out, leaving the smell of sea salt behind him.
+
+I watched him go.
+
+“You trust him?” I asked.
+
+Ramayyan's stylus paused.
+
+“I trust his web,” he said. “Every strand vibrates when something moves. If he lies to me, another strand will tell me.”
+
+He returned to his leaf as if nothing had been said.
+
+“When the first letter comes,” he added, voice calm, “bring it to me.”
+
+---
+
 The Dutch had come bowing.
 
 It did not mean they had forgotten how to bite.
 
-But the shape of their teeth had changed.
-
-And we had been there to see it.
+But as I went back to my lamp and my notes, I could taste dust on the wind, dry and far away, carrying the Deccan toward this coast.

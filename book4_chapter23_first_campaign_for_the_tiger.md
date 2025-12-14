@@ -56,7 +56,7 @@ In one village that lay between Padmini's lands and Kollamkara's hill, we rode i
 
 It was not a grand thing like those I had heard of at Padmanabhapuram, but the scale did not blunt its power. Bright cloths had been tied between trees. Oil lamps flickered in niches along the outer wall. Drums and nadaswarams wound a tight melody through the air. Men and women circled the shrine with small clay lamps cupped in their hands, their faces lit from below like the carved figures on the gopuram.
 
-We reined in at the edge of the crowd. A magnificent tusker, its forehead adorned with a gold *nettipattam*, stood near the entrance, swaying gently as children offered it bananas. No one scattered. They shifted to make space, eyes flicking to our swords and horses, then back to the small procession that wound out from the sanctum.
+We reined in at the edge of the crowd. A magnificent tusker, its forehead adorned with a gold *nettipattam*, the ceremonial forehead plate, stood near the entrance, swaying gently as children offered it bananas. No one scattered. They shifted to make space, eyes flicking to our swords and horses, then back to the small procession that wound out from the sanctum.
 
 A group of girls carried a palanquin bearing a simple wooden image of the goddess, decked in fresh flowers. Behind them walked older women with brass plates of rice and turmeric, their steps measured. Padmini dismounted and joined them without a word, slipping into the line as if she had always been there. Men bowed their heads as she passed.
 
@@ -112,7 +112,7 @@ His men chuckled.
 
 His eyes narrowed fractionally.
 
-"Dutch coin spends in our markets," he said. "As does Marakkar coin. As does Brahmin coin. The grain you send north does not ask whose hand dropped the money it buys. Why should I?"
+“Dutch coin spends in our markets,” he said. “As does Marakkar coin. As does Brahmin coin. The grain you send north does not ask whose hand dropped the money it buys. Why should I?”
 
 Dhanaji shifted his weight beside me, ready for the argument to turn sharper.
 
@@ -156,11 +156,11 @@ When he saw Padmini herself, sitting her horse under a nearby tree, face unreada
 
 He glanced now at the stretch of land where our two domains brushed.
 
-"What do you want, Sawant?" he asked.
+“What do you want, Sawant?” he asked.
 
 “Your men off the road,” I said. “Your promise that you will not use Dutch muskets on Travancore caravans. And your agreement that if company men come again, they do so as merchants, not as your private army.”
 
-"And what does the king give?" he asked tightly.
+“And what does the king give?” he asked tightly.
 
 “The same thing he gave at Colachel,” I said. “Proof that when Dutch turn from coins to guns, they find more sand in their mouths than pepper.”
 
@@ -196,9 +196,7 @@ By the time we reached the ridge above, the raiders were already withdrawing.
 
 They had hit a narrow strip of pepper gardens along a canal, torching vines, cutting support poles, trampling the soil. A few of Padmini's men lay dead near the path, their bodies hacked, not shot. The raiders moved with the easy familiarity of men who knew every bend of the land.
 
-Kollamkara's men. Wearing no company colours, carrying no Dutch muskets, but the message was clear enough.
-
-You do not frighten me with your cannon.
+Kollamkara's men. Wearing no company colours, carrying no Dutch muskets, but the message was clear enough: you do not frighten me with your cannon.
 
 “He could not strike at the king,” Padmini said, her voice shaking with restrained fury. “So he struck at me instead. He thinks you will hesitate to chase him into his own scrub.”
 
@@ -216,9 +214,9 @@ Kollamkara's riders knew the breaks in the land where they could vanish. We had 
 
 At one bend, they tried an ambush.
 
-Half a dozen men burst from cover ahead, firing muskets at close range. Another group loosed arrows from a side thicket.
+Half a dozen men burst from cover ahead, firing matchlocks at close range. Another group loosed arrows from a side thicket.
 
-The first volley caught two of our horsemen. One fell backwards, hands clutching at a spreading dark on his chest. The other pitched sideways, his foot tangled in his stirrup, his horse dragging him for several yards before Dhanaji cut the strap and hauled him clear.
+The first volley caught two of our horsemen. One fell backwards, hands clutching at a spreading dark on his chest. The other pitched sideways, his foot tangled in his stirrup, his horse dragging him for several yards before Dhanaji drew the ivory-and-gold knife from his belt, cut the strap, and hauled him clear.
 
 We did not stop.
 
@@ -286,41 +284,41 @@ We sent in small groups on foot.
  
  Thorns caught at cloth and skin. Stones shifted underfoot. The air felt closer, humid with the exhalations of hidden bodies.
  
- It began with a musket shot that went wide, shredding leaves near my ear. Then they were on us.
+It began with a musket shot that went wide, shredding leaves near my ear. Then they were on us.
  
- A man lunged at me from behind a bush, spear low. I twisted, letting the point slide past my hip, and drove my elbow into his jaw. Bone crunched. He staggered, and I didn't just strike him down; I followed the motion with a fluid, unnecessary grace, slashing his hamstring before finishing him.
+A man lunged at me from behind a bush, spear low. I twisted, letting the point slide past my hip, and drove my elbow into his jaw. Bone crunched. He staggered, and I did not just strike him down; I followed the motion with a fluid, unnecessary cut, slashing his hamstring before finishing him.
  
  Another came. Then two more.
  
- The world narrowed to a red tunnel. The heat of the valley, the screams, the smell of powder and fresh blood—it sang to something dark in me. I wasn't just fighting; I was hunting.
+The world narrowed to a red tunnel. The heat of the valley, the screams, the smell of powder and fresh blood, it all sang to something dark in me. I wasn't just fighting; I was hunting.
  
  I cornered a young raider against a rock face. He had lost his sword. His hands were up, eyes wide with terror.
  
- "Mercy!" he cried.
+ “Mercy!” he cried.
  
  I laughed. It was a wet, ugly sound.
  
- "Mercy is for men who stay on their own land," I snarled. I raised my sword, intent not just on killing him, but on splitting him to the navel.
+ “Mercy is for men who stay on their own land,” I snarled. I raised my sword, intent not just on killing him, but on splitting him to the navel.
  
  A hand clamped onto my wrist. Iron-hard.
  
- "Nagoji!"
+ “Nagoji!”
  
  I spun, ready to strike the interrupter.
  
  Dhanaji stood there, his face streaked with soot, but his eyes clear and hard. He held my arm, forcing the blade down.
  
- "Look at him," Dhanaji hissed. "He is a boy. He is beaten."
+ “Look at him,” Dhanaji hissed. “He is a boy. He is beaten.”
  
- "He is an enemy," I panted, the blood pounding in my ears like a war drum.
+ “He is an enemy,” I panted, the blood pounding in my ears like a war drum.
  
- "He is not the Portuguese," Dhanaji said, his voice cutting through the haze. "We are not at Colachel, fighting white devils. These are men of the soil. Kill him if you must, but do not butcher him like a dog."
+ “He is not the Portuguese,” Dhanaji said, his voice cutting through the haze. “We are not at Colachel, fighting white devils. These are men of the soil. Kill him if you must, but do not butcher him like a dog.”
  
  The red receded, leaving me cold and shaking. I looked at the boy, who was sobbing now. I looked at my sword, dripping.
  
  I lowered the blade.
  
- "Go," I told the boy. "Run before I remember who I am."
+ “Go,” I told the boy. “Run before I remember who I am.”
  
  He scrambled away.
  
@@ -328,55 +326,55 @@ We sent in small groups on foot.
  
  We walked back to the ridge. Padmini was waiting.
  
- She looked at the blood on me—too much of it to be mine—and then at the bodies being dragged into lines.
+She looked at the blood on me, too much of it to be mine, and then at the bodies being dragged into lines.
  
- "You were thorough," she said. Her voice was steady, but there was a flicker of something in her eyes. Not fear, exactly. Recognition.
+ “You were thorough,” she said. Her voice was steady, but there was a flicker of something in her eyes. Not fear, exactly. Recognition.
  
- "They will not come back," I said. My voice sounded raspy, strange even to my own ears.
+ “They will not come back,” I said. My voice sounded raspy, strange even to my own ears.
  
- "No," Dhanaji observed quietly, wiping his spear. "Ghosts rarely raid."
+ “No,” Dhanaji observed quietly, wiping his spear. “Ghosts rarely raid.”
  
- "Good," Padmini said. She turned her horse. "War is not a place for half-measures."
+ “Good,” Padmini said. She turned her horse. “War is not a place for half-measures.”
 
 When we returned to the fort weeks later, report written, the reception was not what I expected.
  
  Ramayyan Dalawa sat in the audience hall, the palm leaf scroll unspooled before him. Marthanda Varma paced behind him. The air in the room was brittle.
  
- "This report," Ramayyan said, tapping the leaf with a stylus. "It makes for... vivid reading."
+ “This report,” Ramayyan said, tapping the leaf with a stylus. “It makes for... vivid reading.”
  
- "We secured the border," I said, standing stiffly. Padmini stood beside me, her chin high.
+ “We secured the border,” I said, standing stiffly. Padmini stood beside me, her chin high.
  
- "You secured a massacre," Marthanda Varma said, stopping his pace. He turned to look at me, his eyes cold. "We sent you to deter a chieftain, Sawant. Not to paint the rocks with the entrails of his farmers."
+ “You secured a massacre,” Marthanda Varma said, stopping his pace. He turned to look at me, his eyes cold. “We sent you to deter a chieftain, Sawant. Not to paint the rocks with the entrails of his farmers.”
  
- "They were armed," Padmini cut in. "They were raiders."
+ “They were armed,” Padmini cut in. “They were raiders.”
  
- "They were potential subjects," Ramayyan snapped. "Or at least, men whose cousins pay us tax. Do you know what the gossip in the market is? That the King's new Maratha captain is a butcher. That he enjoys the kill too much."
+ “They were potential subjects,” Ramayyan snapped. “Or at least, men whose cousins pay us tax. Do you know what the gossip in the market is? That the King's new Maratha captain is a butcher. That he enjoys the kill too much.”
  
- I felt the flush rise in my neck. The memory of the red haze, of the boy I had almost split, burned.
+The flush rose in my neck. The memory of the red haze, of the boy I had almost split, burned.
  
- "It... got out of hand," I said, my voice low. "The fighting was close. Confused. I lost myself."
+ “It... got out of hand,” I said, my voice low. “The fighting was close. Confused. I lost myself.”
  
- "You are a commander," the King said sharply. "You do not get the luxury of losing yourself. That is for foot soldiers and berserkers."
+ “You are a commander,” the King said sharply. “You do not get the luxury of losing yourself. That is for foot soldiers and berserkers.”
  
- "I apologise, Your Highness," I said, bowing my head. "It will not happen again."
+ “I apologise, Your Highness,” I said, bowing my head. “It will not happen again.”
  
- "It better not," Ramayyan said.
+ “It better not,” Ramayyan said.
  
- "He has nothing to apologise for," Padmini said, her voice ringing in the hall.
+ “He has nothing to apologise for,” Padmini said, her voice ringing in the hall.
  
  We all looked at her.
  
- "They burned my fields," she said, her eyes flashing fire. "They took foreign money to threaten our flank. Nagoji did what was necessary. If the price of safety is a few bloody rocks, I will pay it."
+ “They burned my fields,” she said, her eyes flashing fire. “They took foreign money to threaten our flank. Nagoji did what was necessary. If the price of safety is a few bloody rocks, I will pay it.”
  
- "We do not ask you to pay it, Amma," Marthanda Varma said quietly. "We ask you to remember that we are building a kingdom, not a graveyard."
+ “We do not ask you to pay it, Amma,” Marthanda Varma said quietly. “We ask you to remember that we are building a kingdom, not a graveyard.”
  
- "Sometimes they are the same thing," she said. She looked from the King to me, disgust on her face—perhaps at them for their softness, perhaps at me for my apology. "I will not stand here and be scolded for surviving."
+“Sometimes they are the same thing,” she said. She looked from the King to me, disgust on her face, perhaps at them for their softness, perhaps at me for my apology. “I will not stand here and be scolded for surviving.”
  
  She turned and walked out, her cane striking the stone floor hard with every step.
  
  The silence she left was heavy.
  
- "Go, Sawant," Ramayyan said, waving a hand. "Clean yourself up. And pray that the next rumour speaks of your discipline, not your thirst."
+ “Go, Sawant,” Ramayyan said, waving a hand. “Clean yourself up. And pray that the next rumour speaks of your discipline, not your thirst.”
  
  I saluted and left, feeling smaller than I had in years.
  
@@ -388,37 +386,37 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  The report lay on the table between them.
  
- "He was suitably chastised," Ramayyan noted, pouring a small cup of water.
+ “He was suitably chastised,” Ramayyan noted, pouring a small cup of water.
  
- "He was," Marthanda Varma agreed. He moved to the window, looking out over the dark walls of the fort to the northern hills.
+ “He was,” Marthanda Varma agreed. He moved to the window, looking out over the dark walls of the fort to the northern hills.
  
- "And your Valiamma?"
+ “And your Valiyamma?”
  
- "She is angry," the King said. "But she is loyal. She will hold that border with iron now."
+ “She is angry,” the King said. “But she is loyal. She will hold that border with iron now.”
  
  Ramayyan picked up the report again, re-reading the description of the skirmish.
  
- "It is brutal," he said.
+ “It is brutal,” he said.
  
- "It is," Marthanda Varma said. He turned back, and in the dim light, a faint, cold smile touched his lips. "But tell me, Dalawa... do you think Kollamkara will send men into that valley again?"
+ “It is,” Marthanda Varma said. He turned back, and in the dim light, a faint, cold smile touched his lips. “But tell me, Dalawa... do you think Kollamkara will send men into that valley again?”
  
- "No," Ramayyan said. "Not after hearing what the Maratha did to the last ones."
+ “No,” Ramayyan said. “Not after hearing what the Maratha did to the last ones.”
  
- "Exactly," the King said softer. "We cannot be butchers, Ramayyan. But it is very useful to have a man who the enemy believes is one. Let them fear the Tiger's claws."
+ “Exactly,” the King said softer. “We cannot be butchers, Ramayyan. But it is very useful to have a man who the enemy believes is one. Let them fear the Tiger's claws.”
  
- "So, we are pleased?" Ramayyan asked.
+ “So, we are pleased?” Ramayyan asked.
  
  Marthanda Varma blew out a lamp.
  
- "We are very pleased."
+ “We are very pleased.”
  
  ***
  
- Peace, is a fragile skin over a rotting fruit.
+Peace is a fragile skin on a rotting fruit.
  
  Three days later, the King went to the great temple. It was a private worship, or as private as a King's prayers can ever be. The Heir, the young nephew from Padmini's courtyard, went with him.
  
- I commanded the escort. We stood at the outer perimeter of the *belikal* stones, watching the crowd that had gathered to see the royal party.
+I commanded the escort. We stood at the outer perimeter of the *belikal* stones, the offering stones that ring the temple, watching the crowd that had gathered to see the royal party.
  
  The air smelled of camphor and crushed flowers. A line of temple elephants, darker than the night sky and draped in silks, swayed in the shade of the gopuram, their chains clinking with a lazy rhythm that underpinned the chanting.
  
@@ -426,7 +424,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  A man near the front of the crowd, dressed in the simple white mundu of a devotee, suddenly moved. He did not run; he flowed, like water finding a crack in a dam.
  
- A *chevar*. A suicide warrior who has accepted death before he even draws his blade.
+ A *chevar*. A suicide warrior who has accepted death before he even draws his blade. They come to their mission with kanjav or bhang in their blood, to dull fear and sharpen resolve into a single point. The coast has sung of chevars for generations, in ballads and kalari tales, so a man who chooses that path is already half legend before his blade clears his cloth.
  
  Ideally, my guards should have stopped him. But he was fast, and the crowd was thick.
  
@@ -434,7 +432,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  It was the boy.
  
- The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing meant for gutting—flashed down.
+The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing meant for gutting, flashed down.
  
  Marthanda Varma did not shout. He did not call for guards.
  
@@ -454,11 +452,11 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  The King stood swaying slightly, blood darkening the white silk of his angavastram. The boy clung to his leg, sobbing.
  
- "Highness!" Ramayyan was there in an instant, his face ashen.
+ “Highness!” Ramayyan was there in an instant, his face ashen.
  
- "I am fine," Marthanda Varma rasped. He looked down at the dead assassin. "Check the boy."
+ “I am fine,” Marthanda Varma rasped. He looked down at the dead assassin. “Check the boy.”
  
- "The Prince is unharmed," Padmini's voice came from the crowd, sharp with relief. She pulled the nephew into her arms.
+ “The Prince is unharmed,” Padmini's voice came from the crowd, sharp with relief. She pulled the nephew into her arms.
  
  We carried the King back to the palace. At the main gates, the royal elephants sensed the blood or the tension; they shifted restlessly in their stables, their low rumbles vibrating through the ground as we passed. We took him to the same room with the black floor and the ship-prow roof. Physicians came with pastes and bandages. The wound was deep but not mortal. The muscle had taken the fury of the blow.
  
@@ -466,66 +464,66 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  Ramayyan came in an hour later. He looked sick.
  
- "Well?" the King asked, his voice tight with pain.
+ “Well?” the King asked, his voice tight with pain.
  
- "A *chevar*," Ramayyan said. "From the north."
+ “A *chevar*,” Ramayyan said. “From the north.”
  
- "Who sent him?"
+ “Who sent him?”
  
- "We found a mark on his dagger hilt," Ramayyan said. "And gold in his waist pouch that speaks of Cochin mints. But the style... the hatred..."
+ “We found a mark on his dagger hilt,” Ramayyan said. “And gold in his waist pouch that speaks of Cochin mints. But the style... the hatred...”
  
  He hesitated.
  
- "Say it," the King hissed.
+ “Say it,” the King hissed.
  
- "Thampi," Ramayyan whispered. "One of the sons who fled. The brothers are dead, but their hate breeds in exile."
+ “Thampi,” Ramayyan whispered. “One of the sons who fled. The brothers are dead, but their hate breeds in exile.”
  
  Marthanda Varma closed his eyes.
  
  For a long moment, there was only the sound of the oil lamps sputtering.
  
- When he opened them, the cold amusement I had seen earlier was gone. In its place was something ancient and terrifying. "They struck at the child," he said softly. "They did not come for me, a man who can fight. They came for the future."
+ When he opened them, the cold amusement I had seen earlier was gone. In its place was something ancient and terrifying. “They struck at the child,” he said softly. “They did not come for me, a man who can fight. They came for the future.”
  
- "They are desperate, Highness," Ramayyan said. "Exiles dreaming of old glories."
+ “They are desperate, Highness,” Ramayyan said. “Exiles dreaming of old glories.”
  
- "Dreams are dangerous," the King said. He sat up, pushing away the physician's restraining hand.
+ “Dreams are dangerous,” the King said. He sat up, pushing away the physician's restraining hand.
  
- "Listen to me, Dalawa. And you, Sawant."
+ “Listen to me, Dalawa. And you, Sawant.”
  
  We leaned in.
  
- "I want a squad," he said. "Not soldiers. *Chevars* of our own. Or men who have forgotten how to sleep."
+ “I want a squad,” he said. “Not soldiers. *Chevars* of our own. Or men who have forgotten how to sleep.”
  
- "To guard the Prince?" I asked.
+ “To guard the Prince?” I asked.
  
- "No," Marthanda Varma said. "To hunt."
+ “No,” Marthanda Varma said. “To hunt.”
  
  He looked at the ceiling, where shadows danced on the carved timber.
  
- "Go north," he said. "Find where these sons hide. Find their wives. Find their children. Find anyone who carries a drop of Thampi blood."
+ “Go north,” he said. “Find where these sons hide. Find their wives. Find their children. Find anyone who carries a drop of Thampi blood.”
  
- "Highness," Ramayyan started, "the political fallout..."
+ “Highness,” Ramayyan started, “the political fallout...”
  
- "There will be no politics," the King said, his voice dropping to a whisper that chilled the room more than the night air. "Because there will be no one left to complain. I want them gone, Ramayyan. Root and branch. If a babe in arms carries that name, I want it silenced."
+ “There will be no politics,” the King said, his voice dropping to a whisper that chilled the room more than the night air. “Because there will be no one left to complain. I want them gone, Ramayyan. Root and branch. If a babe in arms carries that name, I want it silenced.”
  
- "But... just days ago, you spoke against butchery," I ventured, the memory of his scolding fresh.
+ “But... just days ago, you spoke against butchery,” I ventured, the memory of his scolding fresh.
  
  He looked at me. His eyes were hard, flat surfaces, reflecting nothing but the intent to destroy.
  
- "That was war, Sawant," he said. "War has rules. Men fight for land, for coin, for duty. We respect that."
+ “That was war, Sawant,” he said. “War has rules. Men fight for land, for coin, for duty. We respect that.”
  
  He touched the bandage on his shoulder.
  
- "This?" he said. "This is not war. This is a weed trying to strangle my sapling. And for weeds, there is no treaty. There is only fire."
+ “This?” he said. “This is not war. This is a weed trying to strangle my sapling. And for weeds, there is no treaty. There is only fire.”
  
  He lay back, his face pale but his jaw set like the stone of his fort.
  
- "Kill them all," he said. "And when you are done, bring me the rings from their fingers so I know my nephew is safe."
+ “Kill them all,” he said. “And when you are done, bring me the rings from their fingers so I know my nephew is safe.”
  
  I looked at Ramayyan. The Dalawa nodded, slowly, his face grim.
  
  We walked out into the corridor, where the black floor gleamed under our feet.
  
- "The Tiger has teeth," Ramayyan murmured, echoing the King's earlier words.
+ “The Tiger has teeth,” Ramayyan murmured, echoing the King's earlier words.
  
- "And claws," I said, feeling a chill that had nothing to do with the wind. "God help anyone who thinks they can clip them."
+ “And claws,” I said, feeling a chill that had nothing to do with the wind. “God help anyone who thinks they can clip them.”

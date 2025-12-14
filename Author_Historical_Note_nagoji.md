@@ -18,7 +18,7 @@ Eustachius De Lannoy was a historical Dutch officer captured at Colachel who ent
 
 Ramayyan Dalawa was a real diwan of Travancore and a key adviser to Marthanda Varma. Contemporary and later accounts present him as an able, often ruthless administrator. His “ledger room,” his habit of recording personal dossiers and the specific tests he sets for Nagoji are inventions, meant to embody the kind of hard political memory that a small besieged state needed to survive.
 
-The tensions between the crown and older local houses are grounded in the historical "Years of Consolidation" (1735–1740) where Marthanda Varma systematically broke the *Ettuveetil Pillamar* and other chiefs. The novel dramatizes these police actions and internal wars as the crucible where Nagoji earns his trust before the Dutch threat arrives. Characters like Kollamkara are composites rather than portraits of a single person.
+The tensions between the crown and older local houses are grounded in the historical “Years of Consolidation” (1735–1740) where Marthanda Varma systematically broke the *Ettuveetil Pillamar* and other chiefs. Nagoji arrives in 1738, in the later phase of that consolidation, and the novel dramatizes these police actions and internal wars as the crucible where he earns trust before the Dutch threat arrives. Characters like Kollamkara are composites rather than portraits of a single person.
 
 **Women, Velinadu and matriliny**
 
@@ -44,32 +44,41 @@ Chronology has been tightened. Real campaigns, fort projects and diplomatic exch
 
 The novel is written from inside Nagoji's head. He does not know everything a historian might know. He misreads motives, misses distant developments and interprets events through his own loyalties and fears. Where his account clashes with documentary history, the history wins; where the sources are silent, imagination has filled the gaps within what seems period plausible.
 
-**The Northern Princes and Thekkumkur**
- 
- The novel shifts the focus of the "matrilineal claim" conflict from the earlier Elayadathu Swaroopam war (1741) to the later annexations of Thekkumkur and Vadakkumkur (c. 1750). While a similar conflict involving a female claimant (the Rani of Elayadathu) did happen earlier, the novel dramatizes this struggle in the persona of Savitri and sets it in Thekkumkur to align with the final phase of Marthanda Varma's expansion just before the Thrippadidanam.
- 
- **Treaty of Mavelikkara (1753)**
- 
- The decisive treaty where the Dutch agreed to "reciprocate friendship" and withdraw support from local princes is known as the Treaty of Mavelikkara (1753). In the novel, the initial "bowing" of the Dutch (Chapter 18) represents earlier truces (like the Treaty of Mannar, 1743), while the final capitulation is referenced in Book IV as the ultimate consequence of the northern victories.
+**Kottarakkara, Elayadathu, and the northern houses**
 
-**Assassination attempts and the Ettuveettil Pillamar**
+Elayadathu Swaroopam (Kottarakkara) and the northern principalities of Thekkumkur and Vadakkumkur were real flashpoints in Travancore's expansion. In documentary history, Dutch policy in 1739–1741 intersects with the Elayadathu grievance, while the annexations of Thekkumkur and Vadakkumkur occur later. The novel compresses and braids these threads, using Savitri of Kottarakkara as a single character through whom the broader matrilineal succession dispute can be felt at the human scale.
 
-Marthanda Varma faced repeated assassination attempts throughout his reign, particularly from the Ettuveettil Pillamar (Lords of the Eight Houses), powerful nobles who had controlled much of Travancore's land and revenue before his centralising reforms stripped their authority. Historical sources record attempts including bowmen on palace walls, poisoned lamp oil in temple sanctums, and knives in festival crowds. The novel's chevar scene and Ramayyan's references to "three serious attempts" draw on this documented pattern of violence.
+**Treaty of Mavelikkara (1753)**
+
+The decisive treaty where the Dutch agreed to “reciprocate friendship” and withdraw support from local princes is known as the Treaty of Mavelikkara (1753). In the novel, the initial “bowing” of the Dutch (Chapter 18) represents earlier truces (like the Treaty of Mannar, 1743), while the final capitulation is referenced in Book IV as the ultimate consequence of the northern victories.
+
+**Assassination attempts and the Ettuveetil Pillamar**
+
+Marthanda Varma faced repeated assassination attempts throughout his reign, particularly from the Ettuveetil Pillamar (Lords of the Eight Houses), powerful nobles who had controlled much of Travancore's land and revenue before his centralising reforms stripped their authority. Historical sources record attempts including bowmen on palace walls, poisoned lamp oil in temple sanctums, and knives in festival crowds. The novel's chevar scene and Ramayyan's references to “three serious attempts” draw on this documented pattern of violence.
 
 The *chevar* tradition, sworn warriors who took oaths to kill or die trying, was real in parts of South India. Though the specific attack in the novel is invented, such men were employed by aggrieved houses against rulers they considered usurpers. That Marthanda Varma survived these attempts and went on to break the Eight Houses entirely shaped his reputation as both ruthless and divinely protected.
 
-**Trippadidaanam and the Padmanabhaswamy Temple**
+**Thrippadidanam and the Padmanabhaswamy Temple**
 
-Marthanda Varma's act of dedicating his kingdom to Lord Padmanabha, declaring himself merely "Padmanabha Dasa" (Servant of Padmanabha), is historical. This *trippadidaanam* transformed the king from sovereign to divine steward and made Travancore theoretically the property of a god.
+Marthanda Varma's act of dedicating his kingdom to Lord Padmanabha, declaring himself merely “Padmanabha Dasa” (Servant of Padmanabha), is historical. This *Thrippadidanam* transformed the king from sovereign to divine steward and made Travancore theoretically the property of a god.
 
 The novel treats this as both sincere devotion and shrewd statecraft. Contemporaries and later historians have debated how much was faith and how much was political genius, making the kingdom untouchable by earthly claimants. This ambiguity is preserved in the narrative.
 
 The Padmanabhaswamy Temple in Thiruvananthapuram was rebuilt as the monumental structure we see today under Marthanda Varma. The main Vishnu idol, largely destroyed in a fire during his predecessor Rama Varma's reign, was reconstructed. He created the Ottakkal Mandapam and the Sheevelippura, and completed five of the temple gopura's seven floors. New state ceremonies, including Murajapam and Bhadra Deepam, were introduced during his reign.
 
-The connection between survival and sacred architecture runs through the novel: a king who had poison planted in temple oil went on to rebuild that same temple as a statement that neither assassins nor fire could stop what he was building. The trippadidaanam was the final move, giving to god what men had tried to take by steel.
+The connection between survival and sacred architecture runs through the novel: a king who had poison planted in temple oil went on to rebuild that same temple as a statement that neither assassins nor fire could stop what he was building. The *Thrippadidanam* was the final move, giving to god what men had tried to take by steel.
 
 **Thiruvananthapuram and cultural patronage**
 
 Thiruvananthapuram became a prominent city in Kerala under Marthanda Varma. As neighbouring chiefdoms were absorbed, artists and scholars from these places migrated to the capital, transforming it into a cultural centre. Marthanda Varma gave patronage to temple art forms including Koothu, Padhakam, Kathakali, Thullal and Koodiyattam. This cultural flowering, built partly on the displacement of older houses, adds another layer to the novel's central tension between state building and human cost.
 
 Readers interested in the real Travancore, Marthanda Varma, De Lannoy and the Dutch on the Malabar coast are encouraged to consult modern scholarly work and to visit surviving forts and temples. This book is not a textbook. It is a story about how a small kingdom learned to ride out storms, told by a man who might have stood in their spray.
+
+## Selected Timeline (Part 1)
+
+- 1738: Nagoji’s Goa captivity, shipwreck, and arrival on the Travancore coast (fictional).
+- Late 1739: Dutch probing ships appear offshore (fictionalised from the tightening VOC posture in Malabar).
+- 10 August 1741: Battle and siege end at Colachel (historical anchor).
+- 1743: Treaty of Mannar, an early settlement with the Dutch (historical).
+- 1750: Thrippadidanam, Marthanda Varma’s dedication of the kingdom to Padmanabha (historical).
+- 1753: Treaty of Mavelikkara, Dutch recognition and withdrawal from local prince politics (historical).

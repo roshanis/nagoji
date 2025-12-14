@@ -12,7 +12,13 @@ I stood at the back, among the lesser officers and the Marakkar captains. Near t
 
 The nobles filled the mandapa in ranks according to their importance, their jewels catching the lamplight, their faces carefully composed. Some had lost kinsmen to the king's campaigns. Some had lost lands. All had learned to bow.
 
-Marthanda Varma entered without ceremony.
+A conch blew, long and low. A temple herald stepped into the lamplight, voice trained to cut through drums and crowd.
+
+“Listen and witness. His Highness Sree Anizham Thirunal Marthanda Varma, Maharaja of Travancore, victor of Colachel, breaker of the Eight Houses.”
+
+The titles landed like drumbeats. The full name raised gooseflesh on my arms. I had heard him called Varma, called Maharaja, called tiger. Hearing the whole weight of him spoken aloud inside a temple made the air feel thinner.
+
+Marthanda Varma entered with none of his usual display.
 
 He wore no crown, no heavy gold. Only a simple white dhoti and the sacred thread across his chest. In his hands he carried a sword, its blade catching the flame light, its hilt wrapped in silk.
 
@@ -38,7 +44,7 @@ It did not clatter. He placed it with the care of a father laying down a sleepin
 
 And then he spoke.
 
-"From this day," he said, his voice carrying through the sudden silence, "I am no longer king of this land. I am only the servant of He who lies here. All that I have taken, all that I have built, all that I have paid for in blood and exile and broken houses, I give to Him. The kingdom is His. I merely hold it in trust."
+“From this day,” he said, his voice carrying through the sudden silence, “I am no longer king of this land. I am only the servant of He who lies here. All that I have taken, all that I have built, all that I have paid for in blood and exile and broken houses, I give to Him. The kingdom is His. I merely hold it in trust.”
 
 The priests' chanting swelled, a deep, resonant vibration that seemed to come from the floor itself, accepting the gift.
 
@@ -50,17 +56,15 @@ Others saw the trap.
 
 Near the back, where I stood, a minor chief from the northern marches leaned toward his neighbour, his eyes wide.
 
-"He has given the land to god," he murmured, his voice barely audible above the chanting, "so that he can keep it forever."
+“He has given the land to god,” he murmured, his voice barely audible above the chanting, “so that he can keep it forever.”
 
 His neighbour's lips twitched but did not smile.
 
-"Who can take from a god what a god owns?" the first man continued. "Not Mysore. Not the Nizam. Not the Dutch. Not even a woman with a legitimate claim."
+“Who can take from a god what a god owns?” the first man continued. “Not Mysore. Not the Nizam. Not the Dutch. Not even a woman with a legitimate claim.”
 
 I looked at Ramayyan. The Dalawa was not watching the King. He was not looking at the deity. His gaze was sweeping the rows of bent heads, cataloguing every hesitation, every stiff conflict in a noble's shoulder. He was checking the mortar on this new wall they had built.
 
 I understood then.
-
-This was not surrender. This was the final fortification. By giving the kingdom to the deity, Marthanda Varma had made it untouchable. No future conqueror could claim Travancore without claiming to steal from Padmanabha himself. No rival house could demand succession without demanding it from a god. To rebel now was not treason; it was blasphemy.
 
 He had built walls of stone and armies of men. Now he built a wall of faith, and it was the strongest of them all.
 
@@ -70,7 +74,7 @@ When he turned to face the assembly, his eyes found mine for a moment.
 
 There was no triumph in his gaze. Only the weariness of a man who had finally placed his last piece on the board and could only wait to see if the game was won.
 
-"Padmanabha Dasa," the priests intoned. Servant of Padmanabha.
+“Padmanabha Dasa,” the priests intoned. Servant of Padmanabha.
 
 The nobles bowed.
 
@@ -82,45 +86,45 @@ Revathi came to the fort one week later.
 
 She did not speak to me at first. She simply stood in the courtyard, looking at the banner that flew above the gate, the banner that now flew over all the lands that had once been a dozen kingdoms.
 
-"She reached Cochin," she finally said. "They gave her a small house. She tends a garden now."
+“She reached Cochin,” she finally said. “They gave her a small house. She tends a garden now.”
 
-"I am glad she lives," I said.
+“I am glad she lives,” I said.
 
-"Are you?" she asked.
+“Are you?” she asked.
 
 I did not answer.
 
-"You could have let her go," she said. "During the battle. You were close enough. She was trying to reach the boats."
+“You could have let her go,” she said. “During the battle. You were close enough. She was trying to reach the boats.”
 
-"I did not see her," I said.
+“I did not see her,” I said.
 
-"Liar," she said, but there was no heat in it. Only weariness.
+“Liar,” she said, but there was no heat in it. Only weariness.
 
-"Perhaps," I admitted.
+“Perhaps,” I admitted.
 
 She looked at me then, truly looked, as if seeing me for the first time.
 
-"You have made your choice," she said. "Completely now. There is no more standing with one foot in each river. You are his man. His sword. His builder."
+“You have made your choice,” she said. “Completely now. There is no more standing with one foot in each river. You are his man. His sword. His builder.”
 
-"Yes," I said.
+“Yes,” I said.
 
-"And I am still hers," she said. "Her kinswoman. Her blood. The one who stood beside you in the same hall while you burned her claim."
+“And I am still hers,” she said. “Her kinswoman. Her blood. The one who stood beside you in the same hall while you burned her claim.”
 
-"Velinadu sent no men against us," I said. "You kept your doors closed."
+“Velinadu sent no men against us,” I said. “You kept your doors closed.”
 
-"Closed is not the same as open," she said. "Silence is not the same as support."
+“Closed is not the same as open,” she said. “Silence is not the same as support.”
 
 She turned away, then back.
 
-"We will not be enemies," she said. "Velinadu and Travancore need each other too much for that. We will stand in the same halls. We will sign the same treaties. We will face the same threats from Mysore and wherever else they come."
+“We will not be enemies,” she said. “Velinadu and Travancore need each other too much for that. We will stand in the same halls. We will sign the same treaties. We will face the same threats from Mysore and wherever else they come.”
 
 She paused.
 
-"But we will never be simple," she said. "You chose. So did I."
+“But we will never be simple,” she said. “You chose. So did I.”
 
-"What did you choose?" I asked.
+“What did you choose?” I asked.
 
-"To remember," she said. "When everyone else forgets what this cost, I will remember. Savitri's face. Her garden in Cochin. The laugh she will never laugh again. Someone has to carry that weight. It will not be you. It will not be him. So it will be me."
+“To remember,” she said. “When everyone else forgets what this cost, I will remember. Savitri's face. Her garden in Cochin. The laugh she will never laugh again. Someone has to carry that weight. It will not be you. It will not be him. So it will be me.”
 
 She walked away into the evening light.
 
@@ -128,39 +132,99 @@ I watched her go, this woman I might have loved in another life, another choice,
 
 ---
 
-The Thrippadidānam—the Great Offering—did what ledgers and cannons could not. It silenced the internal threats. And with the house secure, the external threats withered.
+The Thrippadidanam, the Great Offering, did what accounts and cannons could not. It silenced the internal threats. And with the house secure, the external threats withered.
 
-Three years later, in 1753, the Dutch returned to Mavelikkara. This time, they did not just bow. They signed. Ramayyan's "real treaty" had come to pass. They agreed to "reciprocate friendship," to sell us arms, and most importantly, to never again stand in the way of Travancore's expansion. They had sold their allies to save their trade.
+Three years later, in 1753, the Dutch returned to Mavelikkara. This time, they did not just bow. They signed. Ramayyan's “real treaty” had come to pass. They agreed to “reciprocate friendship,” to sell us arms, and most importantly, to never again stand in the way of Travancore's expansion. They had sold their allies to save their trade.
 
 But the final cost of that peace was not written in ink.
 
 That night, I found the king on the rampart, staring at nothing.
 
-"The Nizam sent an envoy last month," he said without looking at me. "Asking about trade routes. Mysore's man was here before that, talking about shared interests. The British have begun building at Madras as if they mean to stay forever. And the Dutch, even now, count their losses and plan their next move."
+“The Nizam sent an envoy last month,” he said without looking at me. “Asking about trade routes. Mysore's man was here before that, talking about shared interests. The British have begun building at Madras as if they mean to stay forever. And the Dutch, even now, count their losses and plan their next move.”
 
 He turned to face me.
 
-"This is what I was always building toward," he said. "Not conquering for glory. Consolidating for survival. Every house I absorbed, every chief I bent, every woman I exiled, it was all for this: a kingdom strong enough that when they come, any of them, all of them, they will find more than pepper and prayers."
+“This is what I was always building toward,” he said. “Not conquering for glory. Consolidating for survival. Every house I absorbed, every chief I bent, every woman I exiled, it was all for this: a kingdom strong enough that when they come, any of them, all of them, they will find more than pepper and prayers.”
 
-"And the cost?" I asked.
+“And the cost?” I asked.
 
-"The cost," he said, "is that men like Savitri's kinsman die in rooms they cannot leave. That women like her tend gardens in foreign cities and curse my name. That Revathi looks at me like I am the disease I claimed to cure."
+“The cost,” he said, “is that men like Savitri's kinsman die in rooms they cannot leave. That women like her tend gardens in foreign cities and curse my name. That Revathi looks at me like I am the disease I claimed to cure.”
 
 He gripped the parapet.
 
-"Do you think I do not feel it?" he asked. "Do you think I do not wake in the night and hear them? Every name. Every claim I denied. Every law I bent or broke."
+“Do you think I do not feel it?” he asked. “Do you think I do not wake in the night and hear them? Every name. Every claim I denied. Every law I bent or broke.”
 
 His voice cracked.
 
-"I remember her laugh," he said. "From when we were young. And I remember the moment, in that tent, when I looked in her eyes and saw that she would never laugh again. I did that. For this."
+“I remember her laugh,” he said. “From when we were young. And I remember the moment, in that tent, when I looked in her eyes and saw that she would never laugh again. I did that. For this.”
 
 He gestured at the kingdom around us. The forts. The walls. The roads. The army.
 
-"For this," he repeated.
+“For this,” he repeated.
 
 I had no comfort to offer.
 
 Some wounds are the price of building. Some prices are too high to name but too necessary not to pay.
+
+---
+
+The chapel stood in a quiet corner of Udayagiri Fort, built of local stone with a simple wooden cross above its door.
+
+I found them there one evening, after the treaty was signed and the Dutch had sailed away with their diminished pride. De Lannoy knelt in the front pew, his grey head bowed, his lips moving silently. Father Duarte stood at the small altar, hands raised, speaking Latin words that meant nothing to me but clearly meant everything to the man who listened.
+
+I waited outside until the prayers ended.
+
+When De Lannoy emerged, his face held a peace I rarely saw in the war halls.
+
+“Sawant,” he said. “You do not usually visit this part of the fort.”
+
+“I do not usually find two Europeans praying to their god in a kingdom that just surrendered itself to ours,” I said.
+
+Father Duarte appeared in the doorway behind him. He was older now, his hair fully white, but his eyes still carried that grey tiredness I remembered from the dungeon. Only now it looked less like guilt and more like acceptance.
+
+“The Maharaja has been generous,” Duarte said. “He permits us this small space. In return, we ask nothing of him but the right to serve.”
+
+“And to pray,” De Lannoy added. “A man needs something beyond walls and ledgers. Otherwise the walls become a prison and the ledgers become chains.”
+
+I looked at them: the Dutch soldier who had been captured at Colachel and chosen to stay, the Portuguese priest who had watched my torture and chosen to atone. Both had found their way to this same small chapel in a Hindu kingdom that had broken the power of both their empires.
+
+“It is strange,” I said. “The three of us. A Maratha cavalryman, a Dutch artillerist, a Portuguese priest. Twenty years ago, our peoples were killing each other across three continents. Now we stand under the same banner.”
+
+“The banner does not ask where we came from,” De Lannoy said. “Only where we stand now.”
+
+Father Duarte stepped forward. His hand rose, hesitated, then completed the motion, a sign of the cross in my direction, quick but deliberate.
+
+“I do not do this to convert you,” he said. “I know you have your own gods, or none, as you choose. I do it because it is the only blessing I know how to give. And you have earned a blessing, Nagoji Sawant. Whatever you believe.”
+
+I did not know how to respond.
+
+“The chapel is open,” De Lannoy said. “Not only to Catholics. Some of the Syrian Christians come. A few of the European soldiers who have families now. Even Ramayyan visited once, though he spent the whole time examining the stonework rather than the altar.”
+
+“That sounds like Ramayyan,” I said.
+
+“He said the mortar was acceptable,” Duarte added, with a ghost of a smile. “High praise, from him.”
+
+We stood in the evening light, three men who had come to this coast by different storms and found ourselves building the same house.
+
+“When I die,” De Lannoy said quietly, “I have asked to be buried here. In this fort I helped design. Under a stone that says I served Travancore.”
+
+“And I will say the words over you,” Duarte said. “If God grants me the years.”
+
+“What words?” I asked.
+
+“The ones that tell God a good man is coming,” Duarte said. “A man who served faithfully, even when faith was hard. A man who built walls to protect people he had once been sent to conquer.” He looked at De Lannoy. “The words are the same in any language. The meaning is what matters.”
+
+De Lannoy clasped my arm.
+
+“We are all servants now,” he said. “You serve Padmanabha through the king. I serve Padmanabha through the walls. Duarte serves Padmanabha through the men he turns from destruction to construction.” He smiled. “It is a strange household. But it holds.”
+
+I thought of Ramayyan's words, years ago: *This kingdom uses what it finds.*
+
+Here was the proof. A chapel in a Hindu fort. A Dutch soldier and a Portuguese priest praying side by side. A Maratha cavalryman watching them, wearing a European coat, carrying a sword blessed by a Brahmin.
+
+The kingdom had absorbed us all.
+
+And somehow, in the absorbing, it had made us more than we had been alone.
 
 ---
 
@@ -176,17 +240,19 @@ I thought of Revathi, somewhere in Velinadu, remembering what the rest of us had
 
 I thought of one night on her western verandah, long before Savitri's banners rose, when I almost told her I would lay down my marches if she asked. The words sat on my tongue like a loaded musket. She turned away to scold a niece for running on wet stone, and I swallowed them. Perhaps that mercy was hers, not mine.
 
-I thought of Marthanda Varma on that rampart, gripping the stone, saying "I remember her laugh."
+I thought of Marthanda Varma on that rampart, gripping the stone, saying “I remember her laugh.”
 
-"It was smaller," I said finally. "And more divided. And more free, in some ways. And more vulnerable."
+“It was smaller,” I said finally. “And more divided. And more free, in some ways. And more vulnerable.”
 
-"Do you miss it?" the officer asked.
+“Do you miss it?” the officer asked.
 
 I looked out at the forts that now guarded every approach, at the roads that connected every village, at the army that could stand against Mysore and the Dutch and whoever else came.
 
 "I miss what it cost," I said.
 
 He did not understand. How could he? He had been born into the kingdom we built. He did not know what had been burned to make it.
+
+I thought of a young man in a Portuguese dungeon, telling a priest that belief did not matter, that only numbers and chains and ships were real. That man had been wrong. Belief had turned out to matter more than anything, just not the kind the priest was selling.
 
 But somewhere in Cochin, an old woman tended her garden.
 

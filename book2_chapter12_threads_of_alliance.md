@@ -22,7 +22,7 @@ They carried hats under their arms, respectfully bareheaded within the hall.
 
 Marthanda Varma inclined his head. He wore no crown, only a simple cloth over his shoulder and a string of rudraksha beads at his neck.
 
-“You bring ships that sit like crows on our water,” he said. “Is that how your company shows friendship”
+“You bring ships that sit like crows on our water,” he said. “Is that how your company shows friendship?”
 
 The interpreter blinked, taken aback by the directness. He recovered and translated. The Dutch envoy's mouth tightened very slightly.
 
@@ -32,6 +32,8 @@ The interpreter blinked, taken aback by the directness. He recovered and transla
 
 There was a ripple in the hall. A few local chiefs smiled behind their hands. Padmini Amma, seated not far from the front, her stick across her knees, allowed the barest hint of amusement to show in her eyes.
 
+The king's gaze flicked to her, and for a heartbeat something unguarded passed between them, then vanished back into politics.
+
 Revathi Bayi sat farther back, surrounded by older women from Velinadu and a few younger relatives. She wore a deep green sari this time, her jewellery more subdued than at our first meeting. Her gaze, however, remained as sharp as a drawn blade.
 
 The Dutch envoy spread his hands.
@@ -39,6 +41,10 @@ The Dutch envoy spread his hands.
 “We regret if our presence has caused concern,” he said. “Our intention is only to ensure that the pepper and other goods we pay for reach our ships unmolested. We also wish to reaffirm our treaties with the important houses of this coast.”
 
 His eyes flicked toward the cluster of Velinadu women, then to Padmini Amma. He knew enough to know where land lay.
+
+In Goa, I had watched foreign masters do this same dance. They learned early that it is cheaper to keep a royal house quarrelling than to garrison every village. If no single branch grows strong enough to close the pepper groves to them, the company can make a treaty with whichever cousin is hungry this season, buy the spice for less than it is worth, and sail away without leaving too many bones on our soil.
+
+Since they had taken Cochin from the Portuguese, the Dutch had lived with two hungers that never quite sat peacefully together. They wanted pepper at a price that suited their ledgers, and they wanted to push their power past the sea walls of their forts, into the hills where the vines grew. But every step inland meant stepping into our politics, and politics here is a swamp that pulls a man under as surely as any monsoon sea.
 
 Ramayyan's stylus moved, marking that glance.
 
@@ -80,9 +86,9 @@ The Dutch envoy's face remained carefully neutral, but his interpreter swallowed
 
 I watched the chiefs' eyes. Some darted toward the Dutch, some toward the king, some toward the floor. One man's gaze flicked, just once, toward Ibrahim in the back of the hall. Ramayyan's stylus noted that too.
 
-"The company brings guns and coins," one of the chiefs said. "They pay fair weight for pepper—twelve *varahans* the *candi*, in good gold pagodas."
+“The company brings guns and coins,” one of the chiefs said. “They pay fair weight for pepper, twelve *varahans* the *candi*, in good gold pagodas.”
 
-The chief in plain clothes, the one who trusted his land more than ornaments, shifted slightly. "What of Kottarakkara?" he asked. "The Elayadathu chief still receives Dutch factors. His sister's daughter writes to Velinadu. There are whispers."
+The chief in plain clothes, the one who trusted his land more than ornaments, shifted slightly. “What of Kottarakkara?” he asked. “The Elayadathu chief still receives Dutch factors. His sister's daughter writes to Velinadu. There are whispers.”
 
 The name dropped into the hall like a stone into still water.
 
@@ -92,13 +98,15 @@ Marthanda Varma's jaw tightened, a small movement, quickly controlled. Ramayyan'
 
 No one spoke for three heartbeats.
 
-"Kottarakkara," the king said finally, his voice carefully even, "will be addressed in its time. We are not here to discuss houses that have not yet learned to count."
+“Kottarakkara,” the king said finally, his voice carefully even, “will be addressed in its time. We are not here to discuss houses that have not yet learned to count.”
 
 The plain-clothed chief lowered his eyes. He had asked a question he already knew the answer to. He had wanted to see who flinched.
 
 I filed the name away. Kottarakkara. Elayadathu. Revathi's stillness. The king's jaw. Something lived in those syllables that I did not yet understand.
 
-"Fair weight," Padmini murmured, as if the interruption had not happened, though her voice was tighter now. "And then they sell that pepper at three times the price elsewhere. Ask them what is fair."
+Only later, when company cannon fired beside Cochin and Deshinganad men and Dutch coin flowed into the hands of exiled princes, did I understand what that question had really been. Kottarakkara was not just a stubborn house. It was a lever. The Dutch had no love for any collateral branch of Travancore. They loved only the advantage of a divided court, where promises could be bought cheap and pepper could be signed away under one cousin's seal while another cousin sharpened his knives.
+
+“Fair weight,” Padmini murmured, as if the interruption had not happened, though her voice was tighter now. “And then they sell that pepper at three times the price elsewhere. Ask them what is fair.”
 
 Revathi's lips did not twitch this time. Her eyes remained fixed on some point beyond the Dutch envoy's shoulder.
 
@@ -150,7 +158,7 @@ She gave a short, pleased hum.
 
 Her gaze swept the hall.
 
-“See that man,” she said, tilting her head toward one of the plainer dressed chiefs. “Two years ago he took Dutch coin to rebuild his flooded fields—a *hundi* drawn on the Cochin factory, payable in pepper at harvest. Today he speaks loudly about loyalty to the Maharaja. He is not lying. He has simply forgotten that the company expects their coin back with interest. When they come to collect, I wonder whose banner he will stand under.”
+“See that man,” she said, tilting her head toward one of the plainer dressed chiefs. “Two years ago he took Dutch coin to rebuild his flooded fields, a *hundi* drawn on the Cochin factory, payable in pepper at harvest. Today he speaks loudly about loyalty to the Maharaja. He is not lying. He has simply forgotten that the company expects their coin back with interest. When they come to collect, I wonder whose banner he will stand under.”
 
 “And you?” I asked. “Under whose banner will you stand when the king and the company pull in different directions?”
 
@@ -190,9 +198,7 @@ Ramayyan watched the shapes with the calm of a man fitting new pieces into a puz
 
 By the time the Dutch withdrew, the light slanted low. They bowed, promised to return with draft papers, and left behind a faint trail of foreign scent, a mixture of spice and sweat and some sharp alcohol.
 
-As they walked out, their interpreter a Portuguese factor, glanced at me, quick and curious. In that moment I saw what I must have looked like to him.
-
-A foreigner in this hall, yet not European. A man in simple cotton, with scars on his hands, listening more than he spoke. A piece on the board whose shape he had not yet accounted for.
+As they walked out, their interpreter, a Portuguese factor, glanced at me, quick and curious. To him I was a foreigner in this hall, yet not European. A man in simple cotton, with scars on his hands, listening more than he spoke. A piece on the board whose shape he had not yet accounted for.
 
 Good.
 
@@ -220,7 +226,7 @@ He looked up from his palm leaves, his expression thoughtful. “The Dutch left 
 
 I frowned. “Why does the King not give the trade to his own kind? Why must it be Christians or foreigners? Are there no Hindu merchants?”
 
-Ramayyan smiled, a dry, thin curing of his lips. “You are from the Deccan, Sawant. You forget our laws here. For a Hindu of good caste to cross the black water is to lose his caste. The ocean is *kalapani* forbidden water. We can farm the pepper, we can tax the pepper, but we cannot sail with it to the markets of Arabia or Rome. That sin, we leave to others.”
+Ramayyan smiled, a dry, thin curving of his lips. “You are from the Deccan, Sawant. You forget our laws here. For a Hindu of good caste to cross the black water is to lose his caste. The ocean is *kalapani* forbidden water. We can farm the pepper, we can tax the pepper, but we cannot sail with it to the markets of Arabia or Rome. That sin, we leave to others.”
 
 He tapped his stylus against the leaf. “So we use the hands that are free to move. The Syrians. The Muslims. The King binds them to him so that when the ships sail, the profit returns to Padmanabhapuram, not Lisbon or Amsterdam.”
 

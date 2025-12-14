@@ -1,27 +1,36 @@
-# Working Title: Horse of the Monsoon
-## A Nagoji Sawant Novel in the Spirit of Shogun
+# Working Title: Horse of the Servant
+## A Nagoji Sawant Novel
+
+Blood and Thrones series, Part 1: Marthanda Varma
 
 ### Core Premise
 
-- A Maratha cavalry officer, Nagoji Sawant, survives Portuguese dungeons and shipwreck to wash up in Travancore in **1735**, nearly six years before the decisive war that will break Dutch power on the Malabar coast.  
+- A Maratha cavalry officer, Nagoji Sawant, survives Portuguese dungeons and shipwreck to wash up in Travancore in **1738**, nearly three years before the decisive war that will break Dutch power on the Malabar coast.  
 - As an outsider to both European empires and southern courts, Nagoji becomes the perfect lens through which we enter a world of matrilineal royals, temple politics, Arab and Marakkar seafarers, and rival Indian powers learning how to kill Europeans at their own game.  
 - The novel follows Nagoji from prisoner to prized military asset, from almost insider at Marthanda Varma's court to cavalry general under De Lannoy, as he chooses to bind his fate to a southern kingdom built to resist European power.
 
+### Series Plan
+
+- **Part 1, Marthanda Varma (1738-1753):** This manuscript, ending with the *Thrippadidanam* and the Treaty of Mavelikkara.
+- **Part 2, Dharma Raja (1758-1798):** A sequel told in first person by Dhanaji's son, eighteen when he reaches Travancore after his father's death and is taken in by Nagoji. The new reign brings new pressures: Mysore's rise, English Company bargaining, and a state that must learn to survive success.
+
 ### Tone and Style
 
-- First person, present‑feeling past tense, in Nagoji's voice.  
-- Immersive, sensory, character driven, with the political and military stakes always visible beneath personal conflicts.  
+- First person, present-feeling past tense, in Nagoji's voice.  
+- Immersive, sensory, character-driven, with the political and military stakes always visible beneath personal conflicts.  
 - Structurally similar in ambition to Shogun, but focused on the Malabar coast and Deccan world, not on Japan.
 
 ### Major Characters
 
-- **Nagoji Sawant**: Thirty year old Maratha cavalry officer from near present day Nashik, landlocked by birth, once proud, now scarred by Portuguese torture and haunted by comrades left behind. He has family and fields in the black soil of the Deccan, has never truly known the sea except when dragged to Goa, and carries a tactical mind, dry wit, and deep loyalty to the idea of Maratha freedom more than to any single sardar. His driving motivation is to return to Chimaji Appa to help him liberate Goa and take revenge on the Portuguese; this goal sustains him until Chapter 24, where he ultimately gives it up but never forgets it.  
-- **Marthanda Varma**: The Tiger of Travancore, brilliant and ruthless king who has built a new kind of state designed to survive European power. Alternates between paternal charm and cold, ledger like calculation.  
-- **Ramayyan**: Diwan, spymaster, and General. A Brahmin who wields both the ledger and the sword with equal precision. Soft spoken, precise, terrifying when crossed. Sees Nagoji as both tool and potential threat.  
+- **Nagoji Sawant**: Twenty-five-year-old Maratha cavalry officer from near present-day Nashik, landlocked by birth, once proud, now scarred by Portuguese torture and haunted by comrades left behind. He has family and fields in the black soil of the Deccan, has never truly known the sea except when dragged to Goa, and carries a tactical mind, dry wit, and deep loyalty to the idea of Maratha freedom more than to any single sardar. His driving motivation is to return to Chimaji Appa, help liberate Goa, and take revenge on the Portuguese. This sustains him early, then becomes a quieter ember as Travancore claims him.  
+- **Marthanda Varma**: The Tiger of Travancore, brilliant and ruthless king who has built a new kind of state designed to survive European power. Alternates between paternal charm and cold, ledger-like calculation.  
+- **Ramayyan**: Diwan, spymaster, and General. A Brahmin who wields both the ledger and the sword with equal precision. Soft-spoken, precise, terrifying when crossed. Sees Nagoji as both tool and potential threat.  
 - **Eustachius De Lannoy**: Dutch officer captured at Colachel, remade as Travancore's chief European military adviser. Mirror and rival to Nagoji, the foreigner who becomes more inner circle than the Indian outsider.  
 - **Padmini Amma**: Fictional Nair noblewoman and estate holder who commands her own troops through male relatives. Knows the court and countryside both, becomes Nagoji's practical guide to Travancore's structure and to the power of Malabar women.  
-- **Revathi Bayi**: Fictional Travancore princess from a powerful matrilineal line, politically conscious, sharp tongued, fiercely independent. She and Nagoji fall in love, but she ultimately refuses to marry him because he binds himself to Marthanda Varma, whose centralising project threatens the older aristocratic order she is sworn to protect.  
+- **Revathi Bayi**: Fictional Travancore princess from a powerful matrilineal line, politically conscious, sharp-tongued, fiercely independent. She and Nagoji fall in love, and marriage becomes a bargain shaped by matriliny and statecraft. She insists that love does not erase politics, and that memory is its own kind of duty.  
 - **Ibrahim Marakkar**: Muslim sea captain, smuggler, sometimes privateer, sitting at the intersection of Arab, local, and European trade networks. Owes Nagoji a debt and collects favours in return.  
+- **Dhanaji**: Nagoji's Deccan comrade and senior rider, a rough moral compass and a voice of the world Nagoji left behind.
+- **Dhanaji's son**: An eighteen-year-old Deccan youth who arrives after Dhanaji's death and becomes Nagoji's ward, the future narrator of Part 2 under Dharma Raja.
 - **Father Duarte**: Portuguese Jesuit with sincere faith and compromised loyalties, connected to Nagoji's time in Goa. Embodies the moral ambiguity of empire.  
 - **Keshavrao**: Young Maratha horseman who shared Nagoji's cell in Goa. His fate, known or unknown, drives Nagoji's choices long after Travancore.
 
@@ -29,8 +38,8 @@
 
 - **Book I: Chains and Surf**  
   Focus: Portuguese dungeons, shipboard horror, and Nagoji's arrival in Travancore as wreckage that becomes an opportunity.  
-- **Book II: Court of the Tiger (1735-1740)**  
-  Focus: The "Years of Consolidation." Nagoji's education in Travancore politics and his participation in Marthanda Varma's ruthless internal wars against the *Ettuveetil Pillamar* (Eight Houses) and rebellious barons. This period establishes him as a trusted commander before the Dutch threat fully materializes.
+- **Book II: Court of the Tiger (1738-1741)**  
+  Focus: The “Years of Consolidation.” Nagoji's education in Travancore politics and his participation in Marthanda Varma's ruthless internal wars against the *Ettuveetil Pillamar* (Eight Houses) and rebellious barons. This period establishes him as a trusted commander before the Dutch threat fully materialises.
 - **Book III: After the Dutch (1741)**  
   Focus: The political reshaping of Malabar after Colachel, Travancore's expansion, the Dutch humbled, and Nagoji caught between Ramayyan's plans and his own sense of Maratha duty.  
 - **Book IV: Teeth of the Tiger**  
@@ -111,7 +120,7 @@
 - Nagoji moves through layers of Travancore society: temple courtyards, training grounds, market streets near the coast.  
 - He discovers how deeply religion, military organisation, and landholding are intertwined, and how Ramayyan's hand is present everywhere, often unseen.  
 - A quiet conversation with Ibrahim Marakkar by the docks reveals how sea power and spice trade underpin Travancore's ambitions.  
-- The chapter covers the passage of years (1736-1738) as the King systematically breaks the power of the *Ettuveetil Pillamar*. Nagoji rides in these internal police actions, learning that "civilized war" in Kerala is just as bloody as Deccan raids.
+- The chapter covers the passage of years (1738-1740) as the King systematically breaks the power of the *Ettuveetil Pillamar*. Nagoji rides in these internal police actions, learning that “civilized war” in Kerala is just as bloody as Deccan raids.
 
 ### Chapter 11: Dutch on the Horizon
 
@@ -163,8 +172,8 @@
 
 - The King, his sister (Senior Rani), and the young heir visit Padmini Amma's estate in secret.
 - It is revealed that Padmini sheltered the King when he was a hunted child thirty years ago, creating a lifelong debt.
-- To anchor Nagoji (who has no clan or local roots) to the land, the King bribes the priesthood to "discover" a lost Nair lineage for him, converting him via a paid ritual.
-- Padmini formally adopts Nagoji into her House as a Nair, giving him a "root" in Travancore, though he remains a "stranger" by blood. He is named "Nagoji of Padmini's House."
+- To anchor Nagoji (who has no clan or local roots) to the land, the King bribes the priesthood to “discover” a lost Nair lineage for him, converting him via a paid ritual.
+- Padmini formally adopts Nagoji into her House as a Nair, giving him a “root” in Travancore, though he remains a “stranger” by blood. He is named “Nagoji of Padmini's House.”
 - The chapter establishes Nagoji's conflicting identities: mercenary vs. son of the soil.
 
 ### Chapter 18: Dutch Come Bowing
@@ -179,14 +188,14 @@
 - News reaches Nagoji of events in the Deccan: Maratha internal conflicts, Peshwa politics, shifting alliances with and against other Indian powers.  
 - Letters or rumours about Keshavrao's fate, or the fate of their old sardar, unsettle Nagoji's sense of where he belongs.  
 - A private conversation with Marthanda Varma reveals the king's view of the Marathas, admiration mixed with caution, hinting that Nagoji can never be fully trusted.  
-- Nagoji sends his final bag of gold north to his brother, severing his financial tie to his old home, and takes the name "Ananthan Pillai" to mark his transition.
+- Nagoji sends his final bag of gold north to his brother, severing his financial tie to his old home, and takes the name “Ananthan Pillai” to mark his transition.
 
 ### Chapter 20: Guest in Velinadu
 
 - Nagoji is summoned to Velinadu by Revathi Bayi.
 - She confronts him about his loyalties: to the King versus to the land and its old houses.
-- They discuss marriage. Revathi accepts him, but with the condition that in Velinadu (a matrilineal house), he will always be a "guest" and a visitor to his own children's lineage.
-- Nagoji accepts this status ("My pride died at Colachel"), and they marry without pomp. This cements his personal stake in the land's future.
+- They discuss marriage. Revathi accepts him, but with the condition that in Velinadu (a matrilineal house), he will always be a “guest” and a visitor to his own children's lineage.
+- Nagoji accepts this status (“My pride died at Colachel”), and they marry without pomp. This cements his personal stake in the land's future.
 
 ### Chapter 21: Ramayyan's Ledger
 
@@ -211,7 +220,7 @@
 - Nagoji leads cavalry in a campaign against a local chief or confederation allied with Dutch interests (Kollamkara).
 - He forces his cavalry to act as a hammer to De Lannoy's infantry anvil, proving the new army's worth but alienating traditional Nair captains.
 - Padmini Amma's estates lie near the contested zone, forcing Nagoji to scorch fields to deny cover to enemies.
-- The chapter closes with a hard won victory and a reprimand from Ramayyan regarding brutality, showing the King's pragmatic approval of "necessary cruelty."
+- The chapter closes with a hard won victory and a reprimand from Ramayyan regarding brutality, showing the King's pragmatic approval of “necessary cruelty.”
 
 ### Chapter 24: Under De Lannoy's Standard
 
@@ -238,13 +247,13 @@
 - The strategic necessity of Marthanda Varma's consolidation is laid bare.
 - Kottarakkara, the last independent house, is absorbed. Princess Savitri claims succession; Marthanda Varma refuses.
 - Nagoji meets Savitri and measures her as a worthy adversary with legitimate grievances.
-- The battle at Kottarakkara is ugly—fought on temple land and house land, against an enemy who is not wrong.
+- The battle at Kottarakkara is ugly, fought on temple land and house land, against an enemy who is not wrong.
 - Savitri is captured and exiled to Cochin. The chapter ends with Nagoji watching her led away.
 
 ### Chapter 28: Servant of Padmanabha
 
-- The **Thrippadidānam (1750)**: In a ceremonial night, Marthanda Varma surrenders the kingdom to Lord Padmanabha, becoming *Padmanabha Dasa* and making the state untouchable by rebellious nobles.
-- Revathi confronts Nagoji about his role in Savitri's fall; she chooses to be "the one who remembers."
+- The **Thrippadidanam (1750)**: In a ceremonial night, Marthanda Varma surrenders the kingdom to Lord Padmanabha, becoming *Padmanabha Dasa* and making the state untouchable by rebellious nobles.
+- Revathi confronts Nagoji about his role in Savitri's fall; she chooses to be “the one who remembers.”
 - Three years later (1753), the **Treaty of Mavelikkara** is signed, marking the Dutch capitulation.
-- Marthanda Varma confesses to Nagoji the personal cost of his victories—he remembers Savitri's laugh.
-- The novel closes with an aged Nagoji on the walls, asked by a young officer what Travancore was like before. "I miss what it cost." The monsoon falls. "Some things do not wash. Some things we carry."
+- Marthanda Varma confesses to Nagoji the personal cost of his victories. He remembers Savitri's laugh.
+- The novel closes with an aged Nagoji on the walls, asked by a young officer what Travancore was like before. “I miss what it cost.” The monsoon falls. “Some things do not wash. Some things we carry.”

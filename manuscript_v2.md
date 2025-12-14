@@ -1,18 +1,144 @@
+# Horse of the Servant
+
+**Blood and Thrones, Part 1**
+
+*RV Menon*
+
+---
+
+# Copyright {.unlisted}
+
+Copyright © 2025 RV Menon
+
+All rights reserved.
+
+This is a work of historical fiction. While many events, places, and figures are historical, some characters, timelines, and scenes are invented or compressed for narrative.
+
+---
+
+# Prequel: The Vow and the Tiger
+
+In the late 1730s, the western coast of India smelled of wet gunpowder and pepper. Salt wind carried the tang of the Arabian Sea into every camp and every fort. Between the surf and the hills, empires pressed against each other like wrestlers, each convinced the other would tire first.
+
+On one coast, the Portuguese still rang their church bells over Goa and flew their flags above stone walls that had learned to swallow screams. They had held this strip of land for generations, long enough to believe it belonged to them by habit. Their forts along the Konkan were a chain of white teeth, and their caravels and galleys prowled the sea lanes, guarded, when it suited them, by the dark hulled ships of the Siddis. The Siddis of Janjira were not priests and merchants like the Portuguese. They were sea fighters, a kingdom of sailors with African blood and Indian shores, hired and hated and feared in the same breath. Between them, they made the coast feel fenced.
+
+Then the Maratha hand closed.
+
+In Pune, Baji Rao, the Peshwa, sent orders like arrows. His younger brother Chimaji Appa carried those orders to the coast and made them personal. Chimaji was not a man who loved speeches. He loved ledgers of powder and lists of captured guns, the slow certainty of siege lines tightening. But he understood something about the Portuguese that many inland men missed. They were not unbeatable because they were white or Christian. They were dangerous because they had fort walls, cannon, and the patience of men who believed time itself worked for them.
+
+So Chimaji vowed that time would not save them.
+
+I heard the vow in a camp that stank of horse sweat and damp rope. The monsoon had passed, leaving the earth soft and the mosquitoes hungry. Chimaji stood in a circle of officers, a lamp smoking beside him, his face hard in the flicker. Behind him, Brahmins chanted in a small, stubborn voice, and the men answered in murmurs, hands touching sword hilts and prayer beads with equal familiarity. He did not promise easy victory. He promised that no foreign flag would be allowed to sit on Konkan soil unchallenged, not the Portuguese cross, not the Siddi banner painted on a prow. He promised to take their forts one by one, to make the coast remember who it had always belonged to.
+
+Wars are made of such vows. They are also made of trenches, and blood, and the stubborn labour of men who drag cannon through mud.
+
+The Konkan campaign was not a single battle. It was a grinding season of sieges and raids, forts that fell after weeks of hunger and sudden night attacks that left a road littered with broken carts and spilled grain. We learned to cut supply lines, to watch for the glint of a musket barrel in coconut groves, to move like a flood and vanish like smoke. We learned that Portuguese guns could kill a horse as easily as a man, and that a cavalry charge means nothing if the ground is chopped into ditches and sharpened stakes.
+
+The Portuguese fought like men defending a house they had stolen and made their home. They countermined our tunnels. They bribed scouts. They sent priests to promise salvation to men who could not read their prayers. When that failed, they sent iron and rope. They broke bodies in cells under Goa and called it justice.
+
+We broke forts instead.
+
+At Bassein, the Portuguese fortress that watched the sea like an old predator, I saw a wall tremble under our guns. I saw men climb into smoke with ladders shaking in their hands. I saw my black mare Kanka take a ball through the chest and fold as if the ground had suddenly gone soft beneath her. In the roar and confusion, in the stink of powder and blood, I understood that campaigns turn into legends because the men who live through them need something to hold onto when the dead begin to outnumber the living.
+
+In those months, we spoke as if Konkan was the whole world. We spoke as if Chimaji Appa's war was the only war that mattered.
+
+It was not.
+
+Far south, beyond the passes and the Deccan plateau, beyond the long curve of the Malabar coast where pepper vines climbed trees like hungry fingers, another king was shaping a kingdom with the same ruthless patience. I did not meet him then. I did not even know his name beyond a rumour carried by merchants. But later, in Travancore, I learned that while Chimaji tightened his siege lines against Portuguese stone, Marthanda Varma of Venad was tightening his grip on men and land.
+
+Venad was not supposed to frighten anyone. It was a wet strip of country pressed between the mountains and the sea, broken into quarrelling houses and temple lands, rich in pepper and coconut and river mouths, and rich, too, in the kind of small pride that makes neighbours sharpen knives. Its neighbours were older, some wealthier, some with better access to the ports, but many had lived too long under the shadow of Dutch treaties and European guns to imagine a future that was fully their own.
+
+Marthanda Varma did imagine it.
+
+He had the ego of a man who refuses to stay small. He dreamed of a southern empire, a single authority that could tell the pepper coast what price it would accept and which foreign ship could anchor where. To build it, he first crushed the threats inside his own house. The Thampi brothers who claimed power by blood and violence were hunted down. The *Ettuveetil Pillamar*, the Eight Houses who had treated the crown like a decoration while they ruled the land, were broken and scattered. Venad learned, in a short brutal span, that this king would not be managed.
+
+Then he turned outward.
+
+Small kingdoms and chiefdoms that had spent generations balancing each other suddenly found a new weight pressing on them. Some bent. Some resisted. Some ran to older powers for protection. It was in the interest of the Dutch that no single prince on the Malabar coast became too strong. A divided land made treaties easy. A divided land signed away pepper cheaply, prince by prince, without the Dutch needing to maintain an expensive army beyond the walls of their coastal forts.
+
+So the Dutch played the coast like a stringed instrument.
+
+Cochin, long a pivot between European powers, watched with alarm. The Samudri, the Zamorin of Calicut, understood that a king who grew too strong in the south would eventually pull at the north as well. Principalities nursed grievances and old succession disputes like infected wounds. Dutch agents offered arms and ammunition, offered promises, offered the thin comfort of European umbrellas. Alliances formed, not out of love, but out of fear.
+
+Inside Venad, Marthanda Varma prepared anyway. He had something most of his rivals lacked, a minister who could see past today's feud to tomorrow's war. Ramayyan Dalawa was not a man who shouted on battlefields. He was a man who counted, who read letters in multiple tongues, who understood that pepper is not just spice but power. Under his guidance, the king gathered guns, trained men, and made a state that could endure beyond one season's victory.
+
+By 1738, two storms were rising on two coasts. In the west, Chimaji Appa's vow sharpened the Maratha appetite against the Portuguese and their allies. In the deep south, Marthanda Varma's ambition sharpened Travancore against every neighbour, every rival house, and every European company that believed this coast could be owned.
+
+I was only a cavalryman then, one more rider in Chimaji's shadow, thinking I knew what war was.
+
+The Portuguese taught me otherwise.
+
+---
+
+# Character Guide
+
+This guide is here so you can keep houses, titles, and foreign powers straight on a first read. Historical figures are noted as such. Fictional or composite characters are noted as such.
+
+## Maratha Confederacy (West Coast)
+
+*   **Chimaji Appa (historical):** Younger brother of Baji Rao I, the Peshwa. Commander of the Maratha Konkan campaign against Portuguese forts and coastal rivals.
+*   **Baji Rao I, the Peshwa (historical):** The Maratha empire's chief minister and strategist, whose expansionist wars reshape the subcontinent's balance.
+*   **The Siddis of Janjira (historical):** A sea power on the Konkan, feared for naval warfare and shifting alliances.
+
+## Travancore and Venad (Deep South)
+
+*   **Marthanda Varma (historical):** King of Venad and architect of Travancore's rise, ruthless in consolidation and hungry for a sovereign southern state.
+*   **Ramayyan Dalawa (historical):** The king's diwan and principal strategist, a man of letters, ledgers, and cold clarity.
+*   **The Senior Rani (historical):** Matrilineal authority within the royal household, whose legitimacy and politics shape succession.
+*   **The *Ettuveetil Pillamar* (historical, collective):** "Lords of the Eight Houses," powerful nobles broken during the years of consolidation.
+*   **The Thampi brothers (historical, collective):** Rival claimants and violent challengers to the young king's authority.
+
+## Dutch and European Soldiers
+
+*   **Eustachius De Lannoy (historical):** A Dutch officer whose defeat becomes the beginning of a new role in Travancore's army.
+*   **Karl August (composite):** A European deserter and drill expert, used in the novel as a bridge between company discipline and local war.
+
+## Other Colonial Powers
+
+*   **Portuguese authorities in Goa (historical):** The Estado da Índia administration, controlling prisons, forts, and old trade routes by fear and habit.
+*   **English at Anjengo (historical):** A cautious Company presence on the Travancore coast, trading and watching, sometimes lending aid when interests align.
+*   **French at Mahe (historical):** A smaller European power on the coast, present as a rumour and a possible counterweight in the wider chessboard.
+
+## Rivals, Allies, and Neighbours
+
+*   **Cochin (historical polity):** A coastal kingdom and Dutch ally, threatened by Travancore's expansion.
+*   **Samudri, the Zamorin of Calicut (historical title):** "Lord of the Sea," a northern power whose interests clash with any southern empire.
+*   **The Nawab of Arcot (historical office):** A Carnatic ruler whose cavalry and politics tug at Travancore's southern frontier.
+*   **Chanda Sahib (historical):** A Carnatic contender whose pressure helps trigger the Dutch crisis.
+*   **Kottarakkara and the Elayadathu line (historical polity):** A northern succession house used by rivals and foreign companies as leverage against Travancore.
+*   **Kayamkulam, Desinganad, Purakkad, Thekkumkur, Vadakkumkur (historical polities):** Smaller kingdoms and principalities drawn into alliances against a rising Travancore.
+
+## Key Fictional and Composite Characters (This Novel)
+
+*   **Nagoji Sawant (fictional):** A Maratha cavalryman captured by the Portuguese and thrown into the south, where he becomes both weapon and witness.
+*   **Keshavrao (fictional):** A younger comrade from the Konkan campaign, whose fate marks Nagoji.
+*   **Ibrahim Marakkar (composite):** A coastal power broker who understands that trade and war are the same river.
+*   **Padmini Amma (fictional):** A formidable estate holder whose house becomes a hinge between old order and new state.
+*   **Revathi Bayi (fictional):** A princess of Velinadu, sharp minded and dangerous to love.
+*   **Dhanaji (fictional):** A Deccan man in exile, carrying his own loyalties and grief into Travancore's wars.
+*   **Savitri of Kottarakkara (fictional):** A single face for a broader succession struggle at the kingdom's northern edge.
+
+---
+
 # Book I, Chapter 1: Dungeons of Goa
+
+![Map of the Malabar Coast](images/map_malabar.png)
+
+
 
 The first thing they took was my name.
 
-Not with ceremony or proclamation, only with a shrug and an entry in a ledger. To the men who ruled this cellar I was no longer Nagoji Sawant, huzurat cavalry officer in the service of Chimaji Appa and the Peshwa, rider of the black horse Kanka, son of a landlocked village near Nashik where the farthest water anyone feared was a swollen river in the rains. In the quiet of Maratha tents that word *huzurat* carried weight, the household horse that rode closest to command, picked out by sardars when bravery and impatience for hesitation had been proved in more than one fight. Here I was a number the clerk scratched beside the words *prisioneiro marata* in his book.
+Not with ceremony or proclamation, just a shrug and an entry in a ledger. To the men who ruled this cellar I was no longer Nagoji Sawant, *huzurat* cavalry officer in the service of Chimaji Appa and the Peshwa, rider of the black horse Kanka, son of a landlocked village near Nashik where the farthest water anyone feared was a swollen river in the rains. In the quiet of Maratha tents that word *huzurat* carried weight, the household horse that rode closest to command, picked out by sardars when bravery and impatience for hesitation had been proved in more than one fight. Here I was a number the clerk scratched beside the words *prisioneiro marata* in his book.
 
 They chained us in rows along the curved wall, backs pressed to damp stone, ankles linked by rusty iron. Above, somewhere beyond the sweating ceiling, the bells of Goa's churches rang for evening prayers. Down here, the rhythm that governed us was the scrape of the gaoler's boots and the splash of the bucket that carried away blood and filth. Water dripped somewhere in the darkness, steady as monsoon rain on a Deccan roof.
 
-I was thirty that year, in the seasons after we broke a string of Portuguese forts along the Konkan, old enough to have seen men I admired die foolishly, young enough to believe I could still choose the shape of my own death.
+I was twenty-five that year, 1738, in the seasons after we broke a string of Portuguese forts along the Konkan, old enough to have seen men I admired die foolishly, young enough to believe I could still choose the shape of my own death.
 
 They had already taken my fingernails by the time Father Duarte came.
 
 The padre walked carefully between the lines of prisoners, his black cassock held slightly above the slime on the floor. He was a thin man with a scholar's stoop and ink-stained fingers, the sort of holy man who looked built for argument, not battle. Yet the calluses on his right hand told me he had once held something heavier than a quill. Here he was, deep under the Portuguese fortress at Goa, eyes moving from one ruined body to the next.
 
-I watched from the corner of my eye. That habit predated the Portuguese by decades. As a boy in the Deccan I had learned to sit in the corner of a fort courtyard and see everything, from the loosened strap on a trooper's saddle to the way a sardar's hand tightened on his sword hilt at the mention of a rival. Here in this cellar I turned the same skill on other men.
+I watched from the corner of my eye. That habit predated the Portuguese by years. As a boy in the Deccan I had learned to sit in the corner of a fort courtyard and see everything, from the loosened strap on a trooper's saddle to the way a sardar's hand tightened on his sword hilt at the mention of a rival. Here in this cellar I turned the same skill on other men.
 
 The gaoler, João, moved beside the priest. He was a broad man whose belly strained his leather belt, a man who had learned to wrap cruelty in jokes. He smelled of garlic sausage and chapel incense, an unholy combination. When he passed my place he tapped my shoulder with his boot, almost companionable.
 
@@ -44,7 +170,7 @@ This was where the Portuguese forged information.
 
 They sat me on a stool with my wrists bound to its legs. João checked the knot, then moved to the table. The priest remained standing, hands tucked into his sleeves, fingers worrying at the cloth.
 
-“Nagoji Sawant,” Father Duarte said, using my name as if it still belonged to me. “You have already told us that you rode with a Maratha force against our allies. You have admitted that you attacked Portuguese caravans and outposts. The Viceroy's spies insist you were huzurat cavalry under Chimaji Appa himself, chosen by your sardars for your initiative. Such men see more than dust and hooves. What we do not yet know is who ordered those attacks, how many men you had, and which forts or roads you meant to strike next.”
+“Nagoji Sawant,” Father Duarte said, using my name as if it still belonged to me. “You have already told us that you rode with a Maratha force against our allies. You have admitted that you attacked Portuguese caravans and outposts. The Viceroy's spies insist you were *huzurat* cavalry under Chimaji Appa himself, chosen by your sardars for your initiative. Such men see more than dust and hooves. What we do not yet know is who ordered those attacks, how many men you had, and which forts or roads you meant to strike next.”
 
 “You know more than I do then,” I said. “We raided where we could, when we could, against whoever traded with our enemies. That is the way of the ghats and passes. You have maps and books. You draw lines on paper and call them borders. My horse does not read.”
 
@@ -52,7 +178,7 @@ João picked up a pair of iron tongs. “Your horse is dead,” he said conversa
 
 My throat closed. Kanka's black mane against my cheek on winter mornings, his easy stride, the way he had carried me through musket fire near Chaul. I forced the memory down. They wanted to see grief; they wanted to use it as a lever.
 
-"Then he died better than I will," I said, hearing the flatness in my own voice.
+“Then he died better than I will,” I said, hearing the flatness in my own voice.
 
 Father Duarte studied me. “You are not a fool,” he said. “You know your position. The Viceroy needs names. He needs to know if the army that devoured his northern strongholds is turning its hunger south. He needs to know if Chimaji Appa intends to bring his siege guns to Goa next. If you cooperate, your suffering can end. I can speak for you, perhaps secure you work on a plantation, a life in chains that is still a life. If you do not...”
 
@@ -76,7 +202,7 @@ The priest's mouth twitched, a shadow of something that might almost have been a
 
 For a heartbeat Father Duarte did not answer. His jaw worked, as if he chewed on words he could not swallow. Then he inclined his head, a small, weary nod, and João reached for the tools.
 
-The next hours stretched and blurred. The first wedge went under what remained of my left thumbnail, and after that, pain ceased to have degrees. Once you have felt your fingers crushed in iron, your joints forced against the direction they were meant to bend, the mind floats above the body, watching from a distance as priests and gaolers ply their trade.
+The next hours stretched and blurred. The first wedge went under what remained of my left thumbnail. After that, pain lost its degrees. Once you have felt your fingers crushed in iron and your joints forced against the way they were meant to bend, the mind floats above the body and watches priests and gaolers ply their trade.
 
 Once, when João reached for the brazier, Father Duarte's hand shot out and closed over his wrist.
 
@@ -84,7 +210,7 @@ Once, when João reached for the brazier, Father Duarte's hand shot out and clos
 
 The gaoler grumbled, but he chose another tool.
 
-Somewhere in that haze I heard Father Duarte say, “Enough.” I heard João protest that the marata still held back names. I heard the tired priest insist that a dead prisoner could not testify and that the Viceroy preferred confessions on paper, not corpses.
+Somewhere in that haze Father Duarte said, “Enough.” João protested that the marata still held back names. The tired priest insisted that a dead prisoner could not testify and that the Viceroy preferred confessions on paper, not corpses.
 
 When they dragged me back to the cellar and chained me in my place against the wall, my hands were raw meat and my shoulders throbbed with each breath. I closed my eyes, not in prayer, but in calculation.
 
@@ -102,7 +228,7 @@ Rumour moved through the dungeon the next day, low and cautious, like water seep
 
 They were gathering prisoners, men said in whispers. Not for the stake, not for the scaffold, but for transport. Somewhere far to the south the Portuguese needed labour. Somewhere beyond the horizon they were building something that required bodies that did not ask questions.
 
-I listened, back pressed to cold stone, and for the first time since they dragged me into this fortress I felt a thin, thread of hope.
+I listened, back pressed to cold stone, and for the first time since they dragged me into this fortress I felt a thin thread of hope.
 
 Ships meant movement. Movement meant chances.
 
@@ -111,7 +237,7 @@ The Portuguese had taken my name and tried to break my body. They had forgotten 
 Storms do not ask permission.
 # Book I, Chapter 2: The Slave Ship South
 
-They woke us under cover of bells. The great church above rang for early Mass, a flood of sound rolling down through stone into the cells. I counted the strokes. When the last echo faded, the scrape of bolts at the dungeon door.
+They woke us under cover of bells. The great church above rang for early Mass, a flood of sound rolling down through stone into the cells. I counted the strokes. When the last echo faded, bolts scraped at the dungeon door.
 
 João entered with three guards at his back.
 
@@ -124,6 +250,7 @@ When he reached me he did not bother to look at the marks on my cell wall. He kn
 “On your feet, marata,” he said. “The Viceroy has found a use for you.”
 
 The guards unlocked the shackles at my ankles. For a brief moment the weight of the iron vanished and my legs swung free, terrifyingly light. I stood slowly, every joint complaining. The beatings and the wrenched limbs from the previous days had left my body bent and aching, but I forced myself not to limp.
+
 Ahead, two places along the chain, Keshavrao shuffled in step, his familiar narrow shoulders stiff, his black hair hacked short in the Portuguese style. Even now his right hand twitched at his side, still reaching for a sword hilt that was no longer there.
 They chained us in a line, six men to a length of iron, wrists manacled, collars clamped around our necks. The metal was slick from the sweat and grime of countless prisoners before us.
 
@@ -133,7 +260,21 @@ His head twitched, but he did not look back. A guard walked between us, club in 
 
 The climb from the dungeon to the world of light was like being born through a tunnel of stone. At each turn the air grew a little fresher and the smell of filth retreated before new smells. Oil. Bread. Sea.
 
-We emerged into a courtyard of whitewashed walls and glaring sky. The sudden brightness stabbed my eyes. Shapes resolved themselves slowly. Musketeers stood along the walls, hats tilted, matchcords coiled at their belts. A priest made a hurried sign of the cross as we passed, as if afraid that even the sight of us might stain his soul.
+We emerged into a courtyard of whitewashed walls and glaring sky. The sudden brightness stabbed my eyes. Shapes resolved themselves slowly. Musketeers stood along the walls, hats tilted, matchcords coiled at their belts.
+
+Father Duarte stood near the gate.
+
+He was dressed for travel, a broad hat shading his grey eyes, a leather satchel over one shoulder. When our line of prisoners shuffled past, his gaze moved along the chain until it found me. For a moment our eyes met.
+
+I expected triumph, or at least satisfaction. The stubborn Maratha, broken at last, being led to whatever slow death awaited in the southern plantations.
+
+Instead I saw something else. His jaw tightened. His hand rose, almost involuntarily, and made a small sign of the cross, not the hurried gesture of a man warding off contamination, but something slower, more deliberate. A blessing, perhaps. Or an apology.
+
+He did not speak. He did not step forward. He simply watched as the guards pushed us toward the gate, and then he turned away, disappearing through a side door into the fortress.
+
+I filed his face away in the part of my mind that kept accounts. Men who hesitate are men who can be used. Men who feel guilt carry weight that slows them down.
+
+Someday, I thought, that hesitation might matter.
 
 Beyond the far gate the sound of the sea thudded against the edge of hearing.
 
@@ -145,13 +286,13 @@ When we reached the harbour the full weight of the Portuguese world pressed in. 
 
 One ship loomed closer than the rest, her hull black and high, her stern built up like a little fortress of carved wood and painted saints. Men moved along her rails, hauling on lines, shouting in a mixture of tongues. On the wharf below her a platform had been erected, and on it a man in a broad brimmed hat checked lists against the lines of chained prisoners.
 
-"To Angola," someone whispered behind me. "Africa."
+“To Angola,” someone whispered behind me. “Africa.”
 
-"Not this one," said another voice, older and bitter. "The Jesuits need bodies for their lands to the south. Some place beyond Ceylon. They will work us until we forget our own names."
+“Not this one,” said another voice, older and bitter. “The Jesuits need bodies for their lands to the south. Some place beyond Ceylon. They will work us until we forget our own names.”
 
 João tugged at our chain. “Faster,” he grunted. “The tide waits for no man. Not even maratas.”
 
-We were herded up a gangplank slick with sea and tar. The ship towered over us, the smell of old voyages clinging to her planks. As my bare feet touched the wood the planks flexed under my weight, the subtle shift as the water lifted and dropped the hull. For a moment an old, absurd thought surfaced.
+We were herded up a gangplank slick with sea and tar. The ship towered over us, the smell of old voyages clinging to her planks. As my bare feet touched the wood, the planks flexed under my weight, shifting subtly as the water lifted and dropped the hull. For a moment an old, absurd thought surfaced.
 
 Horses would hate this.
 
@@ -217,7 +358,7 @@ I had never meant to collect followers. On the dusty roads and river crossings n
 
 I reached across the narrow gap between us and rested my bandaged hand on his forearm.
 
-"If there is a chance," I said, "I will not leave you."
+“If there is a chance,” I said, “I will not leave you.”
 
 His fingers closed briefly over my bandaged hand. Neither of us mentioned that promises made in chains are the easiest to break.
 
@@ -316,7 +457,7 @@ He was right. If the ship sank with us still chained to the beams, the sea would
 
 “Look,” Keshavrao shouted in my ear. “The ring.”
 
-He jerked his chin toward the iron ring that held the chain which ran above our heads. It was bolted into a beam with thick nails, but with each violent roll the wood around it creaked and splintered a little more. Dark lines appeared where the bolt had been driven in, lines that widened as the hull flexed.
+He jerked his chin toward the iron ring that held the chain above our heads. It was bolted into a beam with thick nails, but with each violent roll the wood around it creaked and splintered a little more. Dark cracks spread around the bolt, widening as the hull flexed.
 
 “When it goes,” I said, “we move.”
 
@@ -380,7 +521,7 @@ He fell past me, hitting the rungs once, twice, then the floor of the hold with 
 
 The ladder was clear.
 
-"Now," I shouted. “Move. All of you who can climb, move.”
+“Now,” I shouted. “Move. All of you who can climb, move.”
 
 I scrambled the last few steps and burst onto the deck. The hatch opened just aft of the mainmast, near the middle of the ship.
 
@@ -398,11 +539,11 @@ Behind me, at the hatch by the mast, Keshavrao's head appeared. His eyes were hu
 
 “Sahib,” he cried. The word was whipped away by the wind.
 
-Another wave loomed, higher than the others. It reared up on our starboard side, to my right, a wall of water lit silver for a moment by lightning. For that instant I saw everything.
+Another wave loomed, higher than the others. It reared up on our starboard side, to my right, a wall of water lit silver for a moment by lightning. For that instant everything was clear.
 
 The broken mast. The men at the pumps. The open sea beyond, white capped and hungry. Keshavrao's thin hands on the ladder. The chain still linking his ankles. The iron still binding his wrists.
 
-I saw, too, a coil of rope by the starboard rail at my right, half loose at my feet. I saw a shattered spar floating just off the ship's side, momentarily caught in the eddying water.
+A coil of rope lay by the starboard rail at my right, half loose at my feet. A shattered spar floated just off the ship's side, momentarily caught in the eddying water.
 
 Calculations raced through me faster than words. Leap now, reach the spar. Keshavrao follows, chains drag him under. Wait to free him, we both get smashed against the rail.
 
@@ -450,12 +591,14 @@ The sea clawed at the hull. The spar rose on the swell, close enough now that I 
 
 I took one breath, tasting salt and fear. I thought of Keshavrao's narrow shoulders in the hold, of his quiet “with you, sahib” in the dark.
 
-"Forgive me," I said, to the boy I promised not to leave, to the horse who died better than I would, to whatever gods listen to men who jump into storms.
+“Forgive me,” I said, to the boy I promised not to leave, to the horse who died better than I would, to whatever gods listen to men who jump into storms.
 
 Then I hurled myself over the side.
 
 The sea closed over my head like the hand of an angry god.
 # Book I, Chapter 4: The Fishermen of the Pepper Coast
+
+
 
 When the sea finally spat me out, it did so without ceremony.
 
@@ -483,7 +626,7 @@ These men wore lungis hitched up around their thighs and short, sleeveless vests
 
 One of them pushed my hair back from my forehead with rough fingers. I flinched out of habit more than fear.
 
-"Easy, *bhau*," he said in Konkani, using the word for brother in that tongue, close enough to my Marathi that my bruised mind could follow. "You are on land now."
+“Easy, *bhau*,” he said in Konkani, using the word for brother in that tongue, close enough to my Marathi that my bruised mind could follow. “You are on land now.”
 
 Land. The word tasted strange.
 
@@ -499,15 +642,15 @@ Perhaps the sea had decided it had eaten enough men for one day.
 
 “He has soldier's calluses,” one of the fishermen said, lifting my hand. The bandages the Portuguese had wrapped around my ruined fingers were soaked and filthy. “Look at this. Not a clerk. Not a merchant.”
 
-"Look at this," another said, tugging at the ragged cloth on my shoulder. The Portuguese brand stood out beneath it, puckered and angry.
+“Look at this,” another said, tugging at the ragged cloth on my shoulder. The Portuguese brand stood out beneath it, puckered and angry.
 
 They spoke in quick, rolling Malayalam among themselves, a language I could not follow. Their gestures and the way their eyes moved over my wounds told their conclusion clearly enough: a fighter. A man who had been in Portuguese hands long enough to be burned.
 
-"Kill him," a third voice said. It came from a little farther away, cautious. "Why bring trouble to the village? The Portuguese will send men when they hear of their ship. The Dutch will want to know what washed up in waters they claim. Better the sea finishes its work."
+“Kill him,” a third voice said. It came from a little farther away, cautious. “Why bring trouble to the village? The Portuguese will send men when they hear of their ship. The Dutch will want to know what washed up in waters they claim. Better the sea finishes its work.”
 
 The man who had given me water snorted.
 
-"The Portuguese and the Dutch ask questions anyway," he said. "You think leaving one marata on the sand will satisfy either of them? We might as well gain something."
+“The Portuguese and the Dutch ask questions anyway,” he said. “You think leaving one marata on the sand will satisfy either of them? We might as well gain something.”
 
 “What?” the cautious voice demanded. “He is half dead.”
 
@@ -521,7 +664,7 @@ He nodded, as if that confirmed a calculation.
 
 King. Teeth. Dutch. The words caught like hooks in my exhausted mind.
 
-"Travancore," I said slowly.
+“Travancore,” I said slowly.
 
 The fisherman raised his brows. “You know the name.”
 
@@ -545,35 +688,35 @@ Beyond the line of palms the land rose gently. Narrow paths wound between plots 
 
 Children watched us from doorways, wide eyed. Women carrying pots on their hips paused, eyebrows knitting as they took in the dripping figure the men carried.
 
-"Portuguese," one girl whispered.
+“Portuguese,” one girl whispered.
 
 “No,” the man at my feet said sharply. “Look at his eyes. Look at his mark. This one is enemy of the Portuguese.”
 
 We stopped at a low house near the edge of the village. A woman with streaks of grey in her hair stepped out, wiping her hands on her sari. A betel-stained smile flickered at the corner of her mouth as she took in the dripping figure, then vanished. The fishermen spoke to her rapidly in Malayalam. She listened without interrupting, eyes flicking over me, taking in the branded arm, the bandaged hands, the raw rope marks on my chest.
 
-"Bring him in," she said at last. Her voice had the calm authority of someone used to making decisions that stuck. "If he dies, burn him quietly. Else send word to the *kapitan*."
+“Bring him in,” she said at last. Her voice had the calm authority of someone used to making decisions that stuck. “If he dies, burn him quietly. Else send word to the *kapitan*.”
 
 The *kapitan*. A local headman, or something more? The word carried more weight here than it ever had in the inland markets where I had first heard it.
 
 Inside the house it was cool and dim. The floor was packed earth, swept smooth. Smoke from a small hearth curled up toward a hole in the roof. They laid me on a woven mat and set about stripping off the salt stiffened rags that clung to me.
 
-The first touch of clean water on my skin made me hiss. The woman's hands were brisk, not gentle, but she avoided the worst of the wounds. When she saw the state of my fingers her mouth tightened. She said something in Malayalam, her tone sharp with disgust.
+The first touch of clean water on my skin made me hiss. The woman's hands were brisk, not gentle, but she avoided the worst of the wounds. When she saw the state of my fingers, her mouth tightened. She said something in Malayalam, her tone sharp with disgust.
 
-The fisherman who spoke Konkani translated. "She asks what they did to you."
+The fisherman who spoke Konkani translated. “She asks what they did to you.”
 
-"Asked questions," I said.
+“Asked questions,” I said.
 
 He translated. She clicked her tongue and replied in a quick burst of Malayalam.
 
-"She says keep your stories for the kapitan," the fisherman said. "She does not need to hear them to know what kind of men they are."
+“She says keep your stories for the kapitan,” the fisherman said. “She does not need to hear them to know what kind of men they are.”
 
-A boy appeared at the doorway, panting, and spoke rapidly in Malayalam. The fishermen exchanged glances. From the word "kapitan" and the urgency in the boy's voice, I understood enough.
+A boy appeared at the doorway, panting, and spoke rapidly in Malayalam. The fishermen exchanged glances. From the word “kapitan” and the urgency in the boy's voice, I understood enough.
 
 So. I was not the first piece of foreign wreckage to wash up in their nets.
 
 The Konkani-speaking fisherman adjusted the cloth on his shoulder and turned to me.
 
-"Rest," he said. "When the *kapitan* comes, speak carefully. He works for men who have long arms."
+“Rest,” he said. “When the *kapitan* comes, speak carefully. He works for men who have long arms.”
 
 I closed my eyes for a moment, not to sleep but to gather what little strength I had left. Storms on land were different from storms at sea. They did not roar and crash; they crept in on quiet feet, through conversations and calculations.
 
@@ -583,14 +726,14 @@ Footsteps sounded outside, firm and quick. A new voice spoke in Malayalam, low b
 
 When the man they called *kapitan* stepped into the house, the smell of salt and foreign places came with him. He was shorter than the fishermen but broader, with a scar that ran from his left ear to the corner of his jaw, the kind of scar a blade leaves when it just misses the throat.
 
-His eyes moved over me the way a horse trader's eyes move over new stock. He noted the brand, the bandaged hands, the way I held myself despite the wounds. I had seen that look before, in market squares where men were sold. For a long moment he said nothing, and in that silence I felt myself being weighed.
+His eyes moved over me the way a horse trader's eyes move over new stock. He noted the brand, the bandaged hands, the way I held myself despite the wounds. I had seen that look before, in market squares where men were sold. For a long moment he said nothing. In that silence, I was being weighed.
 # Book I, Chapter 5: Road to Travancore
 
 The man they called *kapitan* introduced himself as Ibrahim.
 
 Not with a bow or a flourish, only with a nod and a measuring look that told me he had decided what kind of man I was before he opened his mouth.
 
-"You were on the Portuguese ship," he said in Konkani, the trade tongue one of the fishermen had used to speak with me. "The storm did not like her."
+“You were on the Portuguese ship,” he said in Konkani, the trade tongue one of the fishermen had used to speak with me. “The storm did not like her.”
 
 “The storm did not like any of us,” I said. My voice had grown stronger after a day of rest, rice gruel and herbs that burned my throat but soothed my chest. “I took the chance it gave.”
 
@@ -606,7 +749,7 @@ He glanced at my branded arm, at the bandaged hands, at the rope burns.
 
 He nodded, his thumb tracing the scar on his jaw, a habit, I would learn, that meant he was filing information away.
 
-"Our king fights them too," he said. "And their cousins, the Dutch. He will want to hear what you have seen."
+“Our king fights them too,” he said. “And their cousins, the Dutch. He will want to hear what you have seen.”
 
 He paused, his thumb tracing the scar again. Something flickered behind his eyes, a calculation, a road not taken. Then it was gone.
 
@@ -640,21 +783,21 @@ Outside, the village had returned to its habits. Women drew water from a well. C
 
 Ibrahim led me not to the shore, but inland, along a narrow track that wound between paddy fields. The water in the flooded plots reflected the darkening sky in strips. Frogs chirped. A faint breeze carried the smell of wet earth and something else, sharp and almost floral.
 
-"Pepper," Ibrahim said when he saw my nose twitch. "You will come to know that smell well if you stay on this coast. It sits in the lungs. It pays for guns."
+“Pepper,” Ibrahim said when he saw my nose twitch. “You will come to know that smell well if you stay on this coast. It sits in the lungs. It pays for guns.”
 
 I breathed it in. On the Deccan we had fought for the routes that carried this smell north. Now I was at the source.
 
-"And for kings," Ibrahim added. "That too."
+“And for kings,” Ibrahim added. “That too.”
 
 We reached a small clearing where a pair of bullocks stood hitched to a cart. The cart's bed was lined with sacks. Some held rice, others the dried, wrinkled berries that gave the air its sting.
 
-"We send word ahead," Ibrahim said. "Our people are the vines that run along this coast. We carry news as well as goods. When we bring you to the king's men, they will already know more about you than you think."
+“We send word ahead,” Ibrahim said. “Our people are the vines that run along this coast. We carry news as well as goods. When we bring you to the king's men, they will already know more about you than you think.”
 
-"What do you tell them?"
+“What do you tell them?”
 
 He shrugged, but the gesture was a little too careful.
 
-"That I found a branded Maratha officer on our beach after a Portuguese ship broke. That he still has both eyes and more teeth than one would expect from the Viceroy's dungeons. That he speaks like a man who has led horse into gunfire and lived." He glanced at me sideways. "A man like that has value. The question is always to whom."
+“That I found a branded Maratha officer on our beach after a Portuguese ship broke. That he still has both eyes and more teeth than one would expect from the Viceroy's dungeons. That he speaks like a man who has led horse into gunfire and lived.” He glanced at me sideways. “A man like that has value. The question is always to whom.”
 
 The cart jolted as he climbed up. He offered me a hand. I took it and hauled myself onto the sacks, biting back a groan as my bruised ribs protested.
 
@@ -690,9 +833,9 @@ As the road climbed slightly, the line of coconut palms thinned. In their place 
 
 We stopped near a wayside shrine where a stone image sat under a tree draped with cloth and bangles. An old woman tended a little lamp before it. Ibrahim stepped down, offered a coin and a nod. The woman blessed him with a smear of ash on his forehead, then looked past him at me.
 
-"That one carries storms in his bones," she said in Malayalam. Ibrahim translated, then replied in the same tongue. When I raised an eyebrow, he shrugged.
+“That one carries storms in his bones,” she said in Malayalam. Ibrahim translated, then replied in the same tongue. When I raised an eyebrow, he shrugged.
 
-"I told her you carry horses there too. Storms and horses can both be useful, if you know how to ride them."
+“I told her you carry horses there too. Storms and horses can both be useful, if you know how to ride them.”
 
 As evening deepened, we reached a larger settlement. It was not quite a town, not yet, but bigger than the fishing village. Houses stood closer together. A small bazaar clustered around a crossroads, stalls offering spices, cloth, oil, and trinkets. The road here was better packed, the wheel ruts deeper.
 
@@ -710,15 +853,15 @@ The guard peered at me, his gaze lingering on my hands and the line of my should
 
 They let us through.
 
-Inside the compound a low hall stood, its wooden pillars carved with curling designs. Lamps hung from chains, casting soft light on the packed earth floor. Men sat cross legged around a central space where a mat had been laid. At the far end, on a slightly raised platform, another man sat with a ledger and a pile of palm leaf bundles.
+Inside the compound a low hall stood, its wooden pillars carved with curling designs. Lamps hung from chains, casting soft light on the packed earth floor. Men sat cross-legged around a central space where a mat had been laid. At the far end, on a slightly raised platform, another man sat with a ledger and a pile of palm leaf bundles.
 
 He wore no crown, only a simple dhoti and a shawl over one shoulder. Yet the way others watched him made it clear he was the one who mattered here.
 
-"This is not the king," Ibrahim murmured as we approached. "He is busy elsewhere. This is one of his hands on this coast."
+“This is not the king,” Ibrahim murmured as we approached. “He is busy elsewhere. This is one of his hands on this coast.”
 
 The man looked up.
 
-"You bring me shipwreck," he said in Malayalam. Ibrahim translated, but the dry amusement in the official's tone needed no translation.
+“You bring me shipwreck,” he said in Malayalam. Ibrahim translated, but the dry amusement in the official's tone needed no translation.
 
 “The sea brought him,” Ibrahim said. “I only stopped the crabs from finishing.”
 
@@ -730,9 +873,9 @@ The man's eyes moved to me.
 
 “Service?”
 
-“Huzurat cavalry,” I said. “Household horse under Chimaji Appa. Until the Portuguese netted me.”
+“*huzurat* cavalry,” I said. “Household horse under Chimaji Appa. Until the Portuguese netted me.”
 
-His eyes flicked to my bandaged hands, the brand under my sleeve. "You raided them?"
+His eyes flicked to my bandaged hands, the brand under my sleeve. “You raided them?”
 
 “Yes.”
 
@@ -779,13 +922,13 @@ Ibrahim rode on a sturdy pony at my side, his clothes different from the day I h
 
 “Gifts,” he said when he saw me glance. “Information costs, *bhau*. So do favours. When we reach the hall, remember that.”
 
-Ahead, the road dipped. A narrow inlet cut into the land, its water dark and still. Boats lay drawn up along its banks, some broad bellied cargo craft, others slender canoes for river work. The smell of fish was strong here, mixed with the smoke of cooking fires.
+Ahead, the road dipped. A narrow inlet cut into the land, its water dark and still. Boats lay drawn up along its banks, some broad-bellied cargo craft, others slender canoes for river work. The smell of fish was strong here, mixed with the smoke of cooking fires.
 
 On a rise beyond the inlet, a structure of wood and stone looked down on everything.
 
 It was not large, not compared to the great forts of the north, but there was purpose in every line. The outer wall was of red stone blocks, rough, topped with a parapet from which musketeers could fire. Within that wall rose a long hall with an open front, its wooden pillars carved with curling motifs of vines and tigers. Behind the hall, on higher ground, I glimpsed the start of a rampart that ran inland, following the shape of the land.
 
-"This is only one claw," Ibrahim said softly. "The kingdom itself is the beast."
+“This is only one claw,” Ibrahim said softly. “The kingdom itself is the beast.”
 
 Guards in white cotton and dark sashes watched us approach. They carried matchlocks and spears, their posture alert but not nervous. One recognised Ibrahim and raised a hand in greeting.
 
@@ -797,7 +940,7 @@ They took our horses. As I dismounted, the coastal animal tossed its head and sn
 
 We climbed a short flight of stone steps to the hall.
 
-Inside, the air was cooler. The roof was high enough to let smoke and heat rise, yet low enough that one could still hear the sea beyond when the hall fell quiet. Mats covered the floor. Men sat cross legged in loose rows, leaving a clear space in the centre.
+Inside, the air was cooler. The roof was high enough to let smoke and heat rise, yet low enough that one could still hear the sea beyond when the hall fell quiet. Mats covered the floor. Men sat cross-legged in loose rows, leaving a clear space in the centre.
 
 At the far end, on a slightly raised wooden platform, a man sat with a spear resting against his shoulder and a rolled map on the mat before him.
 
@@ -807,7 +950,7 @@ At his side sat another man with sharp, fine features and a thin frame wrapped i
 
 “Marthanda Varma,” Ibrahim murmured. “And his diwan. Remember what I said about gifts.”
 
-We stepped forward. Conversations dimmed. I felt the familiar prickling on the back of my neck that comes when one walks alone into a space where everyone else already knows their place.
+We stepped forward. Conversations dimmed. The back of my neck prickled, as it always did when I walked alone into a space where everyone else already knew their place.
 
 I bowed. Not as deeply as a subject would, but enough to acknowledge the man on the platform as something other than a fellow soldier.
 
@@ -947,7 +1090,7 @@ The diwan stood, gathering his palm leaves.
 
 “Come,” he said. “Let us see what a storm can do when given horse instead of chains.”
 
-As I followed him out of the hall, the roar of the sea grew louder. For the first time since Goa, I felt my blood beat in my veins with something other than pain and stubbornness.
+As I followed him out of the hall, the roar of the sea grew louder. For the first time since Goa, my blood beat in my veins with something other than pain and stubbornness.
 
 Storms had tried to kill me. Now I would learn whether I could become one.
 
@@ -970,7 +1113,7 @@ The sun had only just cleared the line of palms when the Arcot troop arrived, la
 
 Behind him the men sat straight in their saddles, horses tossing their heads, bits clinking. They looked confident. Too confident.
 
-On the bluff above, a line of Maravar horsemen watched, their lighter mounts shifting impatiently. They wore no uniforms, only white mundus hitched for riding and short jackets, but each man carried himself with the easy assurance of one whose family had held swords for generations. Their commander, a broad shouldered fellow named Ponnam Pandya Deven, had already ridden with me along the inland tracks. He said little, but his eyes missed nothing.
+On the bluff above, a line of Maravar horsemen watched, their lighter mounts shifting impatiently. They wore no uniforms, only white mundus hitched for riding and short jackets, but each man carried himself with the easy assurance of one whose family had held swords for generations. Their commander, a broad-shouldered fellow named Ponnam Pandya Deven, had already ridden with me along the inland tracks. He said little, but his eyes missed nothing.
 
 Closer to the bluff, under the shade of a cloth awning, two figures sat on low stools. Distance and the haze rising off the warming sand made them look small, but I knew them. Marthanda Varma, bare headed, a simple cloth over his shoulder. Ramayyan beside him, palm leaves in his lap, stylus ready, as if he meant to take notes on horses as much as on men.
 
@@ -990,7 +1133,7 @@ The Arcot rider’s jaw tightened. He glanced up at the bluff, where the King wa
 
 “One pass,” he said. “To show you there is no magic in sand.”
 
-Ponnan said nothing, but a faint smile touched his lips as he signaled his Maravar.
+Ponnan said nothing, but a faint smile touched his lips as he signalled his Maravar.
 
 The first pass was not a disaster, but it was ugly.
 
@@ -1022,13 +1165,13 @@ He glared at me, but the anger was cooled by the shame of the stumble.
 
 We spent the morning in that slurry.
 
-I essentially stripped the pageantry from them. No formations. No lances. Just men sweating in the heat, learning that the Malabar coast did not care about their lineage. I made them mix their lines, one heavy Arcot horse, one light Maravar pony.
+I stripped the pageantry from them. No formations. No lances. Just men sweating in the heat, learning that the Malabar coast did not care about their lineage. I made them mix their lines, one heavy Arcot horse, one light Maravar pony.
 
 “Watch him,” I told an Arcot rider whose beast was lathered and trembling. I pointed to a Maravar youth whose pony stood calm. “He does not force the step. He waits for the sand to hold him.”
 
 The sun climbed. The heat turned the air liquid.
 
-“This is not war,” Raza Khan grumbled as we paused for water. “This is labor.”
+“This is not war,” Raza Khan grumbled as we paused for water. “This is labour.”
 
 “It is the only war that matters today,” I said. “The Dutch carry muskets that fire in volleys. Precise. Mechanical. If you charge them straight, they will break you. You must come at them like the tide, fast, from the angle they do not expect, and gone before they can reload.”
 
@@ -1042,7 +1185,7 @@ I drew a line in the wet earth with a piece of driftwood.
 
 I drew two curves coming from the flanks.
 
-“Us. We do not hit them. We bait them. We ride close, close enough to make them level their muskets. Then we turn. If we slip then, we die. If we turn true, they fire at ghosts, and while they reload, we take them with the saber.”
+“Us. We do not hit them. We bait them. We ride close, close enough to make them level their muskets. Then we turn. If we slip then, we die. If we turn true, they fire at ghosts, and while they reload, we take them with the sabre.”
 
 Raza Khan looked at the crude map.
 
@@ -1054,9 +1197,9 @@ Raza Khan looked at the crude map.
 
 “Make them hold.”
 
-We went back to the work. And slowly, agonizingly, the rhythm changed. The Arcot horses stopped fighting the ground. The riders stopped jerking the reins. They began to feel the heavy, sucking pause of the sand and ride through it.
+We went back to the work. Slowly, muscle by muscle, the rhythm changed. The Arcot horses stopped fighting the ground. The riders stopped jerking the reins. They began to feel the heavy, sucking pause of the sand and ride through it.
 
-I felt it in my body before I saw it. The way the horses moved under their riders, the subtle shift from resistance to acceptance. Men began to trust that their mounts would not vanish under them at every turn. Horses began to trust that their riders would not ask for impossible strides.
+The change came first in the saddle. Horses moved under their riders with a new give, the subtle shift from resistance to acceptance. Men began to trust that their mounts would not vanish under them at every turn. Horses began to trust that their riders would not ask for impossible strides.
 
 On the bluff, the awning's edge moved again. The king rose, stretching his legs. He spoke to Ramayyan in words I could not catch. The diwan inclined his head and wrote a few final marks on his palm leaves.
 
@@ -1088,7 +1231,7 @@ I bowed my head once.
 
 “I will try,” I said.
 
-As I rode back down toward the strip of wet sand where Arcot and Maravar horsemen waited, catching their breath, I felt a strange mixture in my chest.
+As I rode back down toward the strip of wet sand where Arcot and Maravar horsemen waited, catching their breath, a strange mixture tightened in my chest.
 
 Fear, yes. Responsibility, sharp as any spear point. But also something I had not felt since before Goa, before the dungeon, before the storm.
 
@@ -1098,27 +1241,27 @@ Anticipation.
 
 That evening, after the horses had been rubbed down and the men had scattered to their cook fires, I walked among the picketed mounts.
 
-In the Deccan, I had ridden Kanka—a black mare with a temper like monsoon lightning and a stride that ate distance. She had died at Bassein, a Portuguese ball through her chest, and I had walked the last miles to Goa on foot, too stunned to mourn properly.
+In the Deccan, I had ridden Kanka, a black mare with a temper like monsoon lightning and a stride that ate distance. She had died at Bassein, a Portuguese ball through her chest, and I had walked the last miles to Goa on foot, too stunned to mourn properly.
 
 The horses here were different. Smaller, most of them. The Maravar ponies stood barely fourteen hands, their coats rough, their eyes watchful. The Arcot horses were taller, bred for show as much as war, their lines elegant but their temperaments uncertain in this strange wet land.
 
 One horse caught my attention.
 
-She was a bay mare, neither Arcot nor Maravar, something in between—probably bought from a trader who dealt with both coasts. Her coat was the colour of ochre red earth after rain, that deep red-brown that seemed to hold the earth's heat. She stood at the edge of the picket line, watching me approach with an expression I recognized.
+She was a bay mare, neither Arcot nor Maravar, something in between, probably bought from a trader who dealt with both coasts. Her coat was the colour of ochre red earth after rain, that deep red-brown that seemed to hold the earth's heat. She stood at the edge of the picket line, watching me approach with an expression I recognized.
 
 Wariness. Interest. The calculation of a creature deciding whether to trust.
 
 I held out my hand, letting her smell the salt and sweat on my palm.
 
-"You do not belong to any of them either," I said softly. "Do you?"
+“You do not belong to any of them either,” I said softly. “Do you?”
 
-She snorted, breath warm against my fingers, then—unexpectedly—pushed her nose into my chest.
+She snorted, breath warm against my fingers, then, unexpectedly, pushed her nose into my chest.
 
 The smell of her filled my head: hay and sweat and something else, something green and unfamiliar, the herbs they fed the horses here to keep them cool in the coastal heat. It was not Kanka's smell. It never would be.
 
 But it was honest.
 
-"Kayal," I said, the word coming unbidden. It was the Malayalam name for the backwaters, those brackish channels that threaded through this coast like veins. "You will learn the sand with me. And when the Dutch come, we will show them what a backwater horse can do."
+“Kayal,” I said, the word coming unbidden. It was the Malayalam name for the backwaters, those brackish channels that threaded through this coast like veins. “You will learn the sand with me. And when the Dutch come, we will show them what a backwater horse can do.”
 
 She tossed her head, as if agreeing to terms she had not yet heard.
 
@@ -1132,35 +1275,35 @@ Kayal would carry me through Colachel and beyond. But that night, all I knew was
 
 Ibrahim found me there, still standing with my hand on Kayal's neck.
 
-"You talk to horses," he said. "I have seen men talk to worse."
+“You talk to horses,” he said. “I have seen men talk to worse.”
 
-"Horses do not argue," I said. "They simply refuse, or they follow. It is simpler than men."
+“Horses do not argue,” I said. “They simply refuse, or they follow. It is simpler than men.”
 
 He leaned against a palm trunk, his face half-shadowed by the evening light.
 
-"You are Hindu," he said. It was not a question.
+“You are Hindu,” he said. It was not a question.
 
-"After a fashion," I said. "The Portuguese tried to convince me otherwise. It did not take."
+“After a fashion,” I said. “The Portuguese tried to convince me otherwise. It did not take.”
 
-"And yet you pray to their god when it suits you," he said. "I have seen you bow your head in their churches. I have seen you touch the wall of a mosque without spitting."
+“And yet you pray to their god when it suits you,” he said. “I have seen you bow your head in their churches. I have seen you touch the wall of a mosque without spitting.”
 
-"I pray to whatever is listening," I said. "If the gods are as numerous as men say, surely one of them has time for a cavalryman with sand in his boots."
+“I pray to whatever is listening,” I said. “If the gods are as numerous as men say, surely one of them has time for a cavalryman with sand in his boots.”
 
 Ibrahim was quiet for a moment.
 
-"I am Muslim," he said finally. "My fathers came from the coast of Arabia, traders who married local women and stayed. We built mosques. We kept the faith. But we also lit lamps at Hindu shrines when our ships sailed, and we asked Syrian Christian priests to bless our cargo when the winds were wrong."
+“I am Muslim,” he said finally. “My fathers came from the coast of Arabia, traders who married local women and stayed. We built mosques. We kept the faith. But we also lit lamps at Hindu shrines when our ships sailed, and we asked Syrian Christian priests to bless our cargo when the winds were wrong.”
 
 He shrugged.
 
-"On this coast, the gods mix like the waters of the backwaters—salt and fresh, never quite one thing. A man who insists on purity drowns faster than one who learns to float in both."
+“On this coast, the gods mix like the waters of the backwaters, salt and fresh, never quite one thing. A man who insists on purity drowns faster than one who learns to float in both.”
 
-"And the king?" I asked. "Does he care which god you bow to?"
+“And the king?” I asked. “Does he care which god you bow to?”
 
-"The king cares that I bring him information and that I do not sell it to the Dutch first," Ibrahim said. "My prayers are my own business. As long as I am useful, he does not ask whether I face Mecca or the temple when the sun rises."
+“The king cares that I bring him information and that I do not sell it to the Dutch first,” Ibrahim said. “My prayers are my own business. As long as I am useful, he does not ask whether I face Mecca or the temple when the sun rises.”
 
 He pushed off from the tree.
 
-"You are useful too, Sawant. That is why you are still alive. The king does not keep men for their faith. He keeps them for what they can do. Remember that, when you wonder why a Muslim sailor and a Hindu horseman and a Christian merchant all sit in the same war hall."
+“You are useful too, Sawant. That is why you are still alive. The king does not keep men for their faith. He keeps them for what they can do. Remember that, when you wonder why a Muslim sailor and a Hindu horseman and a Christian merchant all sit in the same war hall.”
 
 He walked away into the gathering dark.
 
@@ -1195,17 +1338,17 @@ Ramayyan finally looked up. His gaze was like a clerk’s scale, weighing gold a
 
 “Which line?”
 
-“Sawant,” I said. “Kshatriya. My father’s house has held the sword for five generations. We do not plow.”
+“Sawant,” I said. “Kshatriya. My father’s house has held the sword for five generations. We do not plough.”
 
 He studied me. It was not enough to be a soldier. In this land, as in mine, questions of blood and birth could close a door faster than any bolt.
 
-“Sawant,” he repeated, testing the sound on his tongue. “Good. That will satisfy the temple priests who cook at her house. If you were low caste, we would have to billet you in the stables. Padmini Amma might tolerate a foreign captain, but she will not tolerate pollution.”
+“Sawant,” he repeated, testing the sound on his tongue. “Good. That will satisfy the temple priests who cook at her house. If you were low-caste, we would have to billet you in the stables. Padmini Amma might tolerate a foreign captain, but she will not tolerate pollution.”
 
 He scratched a note on his leaf.
 
-“Go then. Pack your kit. The cart is waiting. Try not to offend her. She supplies half the pepper that pays for your salary—pepper that Arab traders from Muscat and Aden bid against the Dutch to buy, paying in silver *chuckrams* and gold *varahans* that fill the King's treasury.”
+“Go then. Pack your kit. The cart is waiting. Try not to offend her. She supplies half the pepper that pays for your salary, pepper that Arab traders from Muscat and Aden bid against the Dutch to buy, paying in silver *chuckrams* and gold *varahans* that fill the King's treasury.”
 
-***
+---
 
 The first time I saw Padmini Amma's house, I thought they had brought me to a temple by mistake.
 
@@ -1213,9 +1356,13 @@ Not one of the great stone temples I knew from the Deccan, with shikharas that c
 
 Power in the neatness of the courtyards, swept clean before dawn. Power in the thickness of the granary walls, mounds of paddy stacked inside like quiet promises. Power in the way men with spears stood not at the outer gate, but under the shade of the inner verandahs, where cool air and authority met.
 
+In the shadow near the granary, I noticed a low wooden panel, its edges rubbed smooth as if fingers had found it in the dark. It looked like nothing. That was what made it feel important.
+
 We rode in under an arch woven with coconut fronds and mango leaves. Someone had hung oil lamps there though the sun was high, wicks smoking gently, scenting the air with burnt ghee.
 
-“Do not look for the sardar,” Ibrahim murmured beside me as his horse's hooves clicked on the stone threshold. “Here, the house does not belong to the man who sleeps in the front room. It belongs to the name on the matrilineal line. You will see.”
+"Do not look for the sardar," Ibrahim murmured beside me as his horse's hooves clicked on the stone threshold. "Here, the house does not belong to the man who sleeps in the front room. It belongs to the name on the matrilineal line. You will see."
+
+His eyes moved briefly toward the harbour road, where a Marakkar boat was being loaded with sacks that could have been pepper or could have been something else entirely. The sea folk, I would learn, always kept one hand on a rope that led somewhere else.
 
 The courtyard we entered was long and rectangular, edged with pillared verandahs. On one side women sat sorting pepper berries on woven mats, their fingers moving with practised speed, their bangles clinking softly. On the other side, near a well, boys practised with short spears under the eye of an older man who barked corrections in Malayalam.
 
@@ -1307,7 +1454,59 @@ I could not help a short laugh.
 
 “You speak freely, Amma.”
 
-"I own this land," she said. "Why should I not?"
+“I own this land,” she said. “Why should I not?”
+
+She studied me for a moment, then seemed to make a decision.
+
+“You will hear a word here,” she said. “*Sambandham*. From the Sanskrit, *sama*, meaning equal, and *bandham*, meaning bond or alliance. An equal bond. That is what we call the tie between a man and a woman here. Not ownership. Not conquest. An alliance between equals.”
+
+I waited.
+
+“In your Deccan,” she continued, “a woman leaves her father's house and enters her husband's. She becomes his. Her children are his. If he dies, she is a widow who depends on his family's mercy. Yes?”
+
+“That is the way,” I said.
+
+“Here, the way is different.” She tapped her stick against the stone. “A woman stays in her own house. Her *tharavadu*. When she takes a husband, or a lover, or a companion, call it what you will, he comes to her. He visits. He may sleep in her room. He may father her children. But he does not own the house. He does not own the land. He does not own her.”
+
+“And the children?”
+
+“Belong to her line,” Padmini said. “They carry her family name. They inherit from her brothers, not from their father. The father is honoured, yes. Loved, often. But he is a guest in the house where his children grow. He has his own *tharavadu*, his own sisters and their children to think of.”
+
+She pointed toward the kalari, where the sounds of practice still echoed.
+
+“Those boys training there, some of their fathers live in other houses, other villages. They come to visit their mothers when duty allows. But the boys belong here. This is their home. This is where they will fight and die if the king calls. Their fathers may ride for other lords entirely.”
+
+“It sounds...” I searched for the right word. “Complicated.”
+
+“It sounds practical,” she corrected. “A man who goes to war may not return. A man who travels for trade may find another woman in another port. A man who angers a king may lose his head. In your system, his wife and children are ruined. In ours, they are exactly where they were before, in their mother's house, with their mother's kin, on their mother's land.”
+
+She smiled, showing teeth.
+
+“We do not pretend men are reliable, Sawant. We plan for their failures.”
+
+“And if a woman wishes to leave? To follow her husband to his house?”
+
+“Then she is a fool,” Padmini said flatly. “But it happens. Some women fall so deeply in love that they forget their own names. They follow men to strange houses where they have no claim, no protection, no land. When those men tire of them, or die, or simply wander off, where do they go? Back here, if they are lucky. Into the streets, if they are not.”
+
+She shook her head.
+
+“*Sambandham* protects women by refusing to let them be owned. The law here says a woman's children are hers. The temples say it. The kings say it, even Marthanda Varma, who changes many things, does not change that. A Nair woman is never truly alone, because her house is always her house. Her children are always her children. No man can take that.”
+
+“And men accept this?” I asked.
+
+“Men accept what the land demands,” she said. “Those who do not accept it are welcome to find wives elsewhere. The Brahmins have their own customs. The Namboothiris keep their women locked in their compounds. The Syrians marry in their churches. We do as we have always done.”
+
+She leaned forward.
+
+“If you stay in this land, Sawant, you will have to understand this. A woman who takes you in *sambandham* is not your property. She is your partner. Your children will call you father, but they will belong to her house. You will be welcome under her roof, but you will never own it. Can your Maratha pride swallow that?”
+
+It was a challenge, not a question.
+
+“I have no land here,” I said slowly. “No house. No kin. If I am honest, I have no pride left worth protecting. The Portuguese burned most of it out of me in Goa.”
+
+Something shifted in her eyes. Respect, perhaps. Or recognition.
+
+“Good,” she said. “Pride is a poor foundation for happiness. Better to build on something more solid.”
 
 She leaned back, studying me.
 
@@ -1374,6 +1573,7 @@ Two days to learn how not to offend a princess.
 I had faced Portuguese interrogations and Arabian Sea storms. Somehow, this felt like the more delicate task.
 # Book II, Chapter 9: Princess of Velinadu
 
+
 We left Padmini Amma's estate before sunrise, when the sky was the colour of old iron and the air still clung to the night's cool.
 
 The road to Velinadu wound inland at first, away from the sea. We rode through low hills quilted with rubbery green, past ponds where lotus leaves floated like idle coins, past small shrines where bundled cloth and oil lamps clung to the trunks of ancient trees. As the light strengthened, mist lifted off the fields and revealed more of the land's body.
@@ -1404,9 +1604,9 @@ They watched Padmini Amma approach with a mixture of respect and calculation.
 
 The guard's mouth twitched. His gaze slid to me.
 
-"And this?"
+“And this?”
 
-"A rider from the north whom the sea sent back to us," she said. “The Maharaja plays with him. I thought Velinadu should have its share.”
+“A rider from the north whom the sea sent back to us,” she said. “The Maharaja plays with him. I thought Velinadu should have its share.”
 
 The guard's eyebrows rose at that, but he stepped aside.
 
@@ -1428,7 +1628,7 @@ We were led to a side verandah and offered seats on woven mats. Servants brought
 
 I sipped the cool water, letting it wash away the dust of the road. My stomach, which had once protested at every new coastal spice, had begun to learn the patterns of this land. Rice instead of bhakri. Coconut instead of groundnut. Fish where once there had been mutton.
 
-Waiting is familiar to any soldier. You learn to let your mind drift without losing its edge. Yet as the minutes stretched, I felt a different kind of tautness. This was not the tense quiet before a battle, when men cleaned swords and muttered prayers. It was the waiting men endure when summoned before someone who can change their fate with a word.
+Waiting is familiar to any soldier. You learn to let your mind drift without losing its edge. Yet as the minutes stretched, my spine tightened in a different way. This was not the tense quiet before a battle, when men cleaned swords and muttered prayers. It was the waiting men endure when summoned before someone who can change their fate with a word.
 
 Footsteps approached. Not the heavy tread of armoured guards, but the light, quick rhythm of someone accustomed to moving through these spaces without being questioned.
 
@@ -1490,7 +1690,7 @@ She picked up a piece of plantain from her plate at last, but held it between fi
 
 “There was nothing easy about it,” I said. “We lost men every time. Horses also. The ground does not care whose blood it drinks.”
 
-"Yet you keep pouring," she said. "Why?"
+“Yet you keep pouring,” she said. “Why?”
 
 “Because if we do not, someone's flag will stand over every fort from Nashik to this place,” I said. “Because men in Goa believed they could take my name and make me a number in a ledger. Because I have seen what happens when you give Europeans an inch of riverbank and they think it entitles them to the whole valley.”
 
@@ -1512,19 +1712,19 @@ She pointed at the earth between us.
 
 Her eyes turned toward the south, where I knew, beyond the curve of the land, Dutch ships rode at anchor somewhere beyond sight.
 
-"Your king," she went on, "understands some of this. He is not a fool. He knows that if he wants a strong kingdom, he must make peace with the houses that owned land before his uncles did. Yet he also wants to pull all power into his own hands. He builds a state that answers to the crown, not to the old lines. That is good for facing Europeans. It is less good for those of us whose names are older than his."
+“Your king,” she went on, “understands some of this. He is not a fool. He knows that if he wants a strong kingdom, he must make peace with the houses that owned land before his uncles did. Yet he also wants to pull all power into his own hands. He builds a state that answers to the crown, not to the old lines. That is good for facing Europeans. It is less good for those of us whose names are older than his.”
 
 She paused, and something shifted in her face. A shadow, there and gone.
 
-"My mother's cousin sits in Kottarakkara," she said, her tone carefully flat. "Savitri. Of the Elayadathu line. She writes to me sometimes. About the old ways. About what is owed."
+“My mother's cousin sits in Kottarakkara,” she said, her tone carefully flat. “Savitri. Of the Elayadathu line. She writes to me sometimes. About the old ways. About what is owed.”
 
 She did not elaborate. The silence stretched a heartbeat longer than it should have.
 
-"Kottarakkara has not yet bent," Revathi added. "The chief there still remembers what his grandmothers held. Your king circles that house the way a dog circles a wounded bird. Sooner or later, one of them will move."
+“Kottarakkara has not yet bent,” Revathi added. “The chief there still remembers what his grandmothers held. Your king circles that house the way a dog circles a wounded bird. Sooner or later, one of them will move.”
 
-I did not know the name. I did not know the house. But I felt the weight of what she was not saying settle into the air between us like monsoon humidity.
+I did not know the name. I did not know the house. The weight of what she was not saying settled into the air between us like monsoon humidity.
 
-"You fear he will use men like me to cut your houses down," I said.
+“You fear he will use men like me to cut your houses down,” I said.
 
 “I do not fear,” she said. “Fear is for people who have no knives. I see him giving land and commands to men like you, whose ties to this coast are thin. Easier to shift such men when the time comes. Harder for them to say no.”
 
@@ -1536,7 +1736,7 @@ The question was hypothetical, but it landed like a thrown dagger. I thought of 
 
 “I ride for the orders I am given,” I said slowly. “But I choose which king I allow to give them. That choice is not made lightly.”
 
-“You have already made it,” she said. “You could have run north when the sea spat you out. Instead you stayed. You drilled horses on sand. You accepted the Maharaja's gaze on your neck. Do not pretend you stand at a crossroad when your feet are already on the path.”
+“You have already made it,” she said. “You could have run north when the sea spat you out. Instead you stayed. You drilled horses on sand. You accepted the Maharaja's gaze on your neck. Do not pretend you stand at a crossroads when your feet are already on the path.”
 
 Her bluntness stung because it was true.
 
@@ -1578,7 +1778,7 @@ Soft footsteps sounded behind me. Padmini Amma stepped back onto the verandah fr
 
 “She does not have to,” Padmini said. “Her place in this story is not to approve. It is to remind men like you and the Maharaja that the land remembers longer than crowns do.”
 
-In the distance, drums began again, a steady, heartbeat rhythm. As we rose to follow, I felt the ground under my bare feet with new awareness.
+In the distance, drums began again, a steady heartbeat rhythm. As we rose to follow, the ground under my bare feet took on new weight.
 
 In Goa, I had fought men who believed God and gunpowder gave them the right to rule. In Velinadu, I had met a woman who believed lineage and land gave her the right to refuse.
 
@@ -1647,7 +1847,7 @@ As we climbed, women and men stepped aside to let Ramayyan pass, murmuring greet
 
 Inside the outer courtyard, Brahmins moved through their rituals like men repeating a song they had sung since childhood. Oil lamps flickered. Bells chimed. The smell of ghee and incense wound itself around the stone pillars.
 
-At the innermost threshold, where in some other temples a Deccan non Brahmin like me might have been kept back, Ramayyan stopped and turned.
+At the innermost threshold, where in some other temples a Deccan non-Brahmin like me might have been kept back, Ramayyan stopped and turned.
 
 “You do not have to go closer,” he said. “The god knows you have your own ways.”
 
@@ -1659,11 +1859,11 @@ He smiled faintly.
 
 We stood just inside the shade of the mandapa, where we could see both the sanctum and the outer courtyard.
 
-“Who pays for the oil in those lamps” he asked.
+“Who pays for the oil in those lamps?” he asked.
 
 “The temple,” I said. “From offerings.”
 
-“Where do the offerings come from”
+“Where do the offerings come from?”
 
 I thought of the boys in the kalari, of women sorting pepper, of carts groaning under loads of paddy.
 
@@ -1681,7 +1881,7 @@ He nodded toward a wall where dozens of small lamps burned in niches.
 
 We left the temple and walked down toward the market.
 
-There, under awnings of cloth and palm leaves, the kingdom took another shape. Traders from the interior haggled over sacks of rice and oil. Marakkar men bartered for pepper and cardamom, their eyes constantly flicking toward the path that led to the backwaters. An Arab merchant in a flowing white robe sat cross-legged on a raised platform, weighing silver *chuckrams* on a small brass scale while his servant counted sacks of pepper—each sack a *candi*, I had learned, roughly five hundred pounds, the measure by which fortunes were made or lost on this coast. Nearby, a Syrian Christian scribe sat with a low desk, writing contracts in a hand that flowed like water; beside him, a stack of *hundis*—bills of exchange that could turn pepper in Travancore into gold in Muscat without a single coin crossing the sea.
+There, under awnings of cloth and palm leaves, the kingdom took another shape. Traders from the interior haggled over sacks of rice and oil. Marakkar men bartered for pepper and cardamom, their eyes constantly flicking toward the path that led to the backwaters. An Arab merchant in a flowing white robe sat cross-legged on a raised platform, weighing silver *chuckrams* on a small brass scale while his servant counted sacks of pepper, each sack a *candi*, I had learned, roughly five hundred pounds, the measure by which fortunes were made or lost on this coast. Nearby, a Syrian Christian scribe sat with a low desk, writing contracts in a hand that flowed like water; beside him, a stack of *hundis*, bills of exchange that could turn pepper in Travancore into gold in Muscat without a single coin crossing the sea.
 
 “Do you see the pattern?” Ramayyan asked.
 
@@ -1711,7 +1911,7 @@ It lay on a flat strip of land just inland from the coastal fort, where the grou
 
 Not De Lannoy. Not yet. This man was older, his belly soft, his eyes wary. One of the earlier European mercenaries who had sold his skill where he could.
 
-“Ram, my friend,” he called when he saw us. “You come to see how well they march”
+“Ram, my friend,” he called when he saw us. “You come to see how well they march?”
 
 “I come to see whether they can do more than march,” Ramayyan said mildly.
 
@@ -1741,7 +1941,7 @@ We found Ibrahim on a narrow quay, shouting at a man who was trying to load too 
 
 He broke off when he saw us.
 
-“Diwanji,” he said, touching his forehead. “Sawant. Come to see how your horses eat”
+“Diwanji,” he said, touching his forehead. “Sawant. Come to see how your horses eat?”
 
 “Horses do not like water,” I said. “I admire anyone who rides it as if it were a road.”
 
@@ -1791,9 +1991,15 @@ He regarded me for a moment, as if tasting the shape of my answer.
 
 That conversation was the first lesson. The application came soon after.
 
-In the years that followed, before the Dutch clouds fully gathered, the King turned his "borrowed eyes" inward as Ramayyan had promised.
+---
 
-We rode not against foreign armies, but against the stubborn knots of the internal map. I learned that a "campaign" in Travancore did not always meant a pitched battle. Sometimes it meant riding with Padmini Amma to a chieftain's estate—a man who had formerly pledged loyalty to one of the Eight Houses—and standing silently by the gate while she negotiated the grain levy. My presence, and the fifty Maravar lancers behind me, turned a "request" into a "requirement."
+The months blurred into seasons, the seasons into years.
+
+I marked time not by calendars but by campaigns: the wet season when we rode against the Kayamkulam chiefs, the dry season when we fortified the northern passes, the monsoon when even horses learned to pray for solid ground. Each year the kingdom grew a little larger, a little tighter, a little more certain of its shape.
+
+In those years before the Dutch clouds fully gathered, the King turned his “borrowed eyes” inward as Ramayyan had promised.
+
+We rode not against foreign armies, but against the stubborn knots of the internal map. I learned that a “campaign” in Travancore did not always mean a pitched battle. Sometimes it meant riding with Padmini Amma to a chieftain's estate, a man who had formerly pledged loyalty to one of the Eight Houses, and standing silently by the gate while she negotiated the grain levy. My presence, and the fifty Maravar lancers behind me, turned a “request” into a “requirement.”
 
 Other times, it was sharper.
 
@@ -1801,15 +2007,17 @@ I remember a raid on a recalcitrant *madampi* near Attingal who refused to send 
 
 We took his walls at dawn. There was no glory in it, only the brutal efficiency of state-building. I watched as the King, standing in the smoking courtyard of a house that had been noble for three centuries, offered the defeated chief a choice: total submission or total erasure. The chief chose submission. His sons marched with us the next week.
 
-"You see?" Marthanda Varma told me as we rode back, the smell of wet ash still on our clothes. "I do not destroy them because I hate them. I break them so they can be reset into a stronger bone."
+“You see?” Marthanda Varma told me as we rode back, the smell of wet ash still on our clothes. “I do not destroy them because I hate them. I break them so they can be reset into a stronger bone.”
 
-It was during these "years of consolidation" that I stopped being a guest and became a limb of this growing beast. I learned to distinguish the sullen silence of a conquered village from the quiet respect of a protected one. I learned to eat rice from a plantain leaf without spilling it, and to speak enough Malayalam to order a charge or a retreat.
+It was during these “years of consolidation” that I stopped being a guest and became a limb of this growing beast. I learned to distinguish the sullen silence of a conquered village from the quiet respect of a protected one. I learned to eat rice from a plantain leaf without spilling it, and to speak enough Malayalam to order a charge or a retreat.
 
 And I learned that peace here was just a word for the time it took to reload.
 
-***
+---
 
-That night, years later and on the eve of the Dutch war, back at Padmini Amma's estate, as I sat under the jackfruit tree listening to distant temple bells and nearer kalari shouts, I thought of those early lessons.
+Seasons passed in this way. Dust and rain and the slow grinding of old orders into new shapes. By the time the Dutch began to show their teeth more openly, I had ridden every road in the kingdom at least twice and forgotten what the Deccan hills looked like except in dreams.
+
+One night, back at Padmini Amma's estate, as I sat under the jackfruit tree listening to distant temple bells and nearer kalari shouts, I thought of those early lessons.
 
 Temple to market. Market to training ground. Training ground to backwaters. Backwaters to fort. Fort to palace. Palace to houses like Padmini's. Houses to Velinadu's halls.
 
@@ -1820,7 +2028,9 @@ Travancore was already at war, even in its quiet moments. It had just learned to
 If I wished to survive, I would have to learn the same.
 # Book II, Chapter 11: Dutch on the Horizon
 
-It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation. This was not yet the war fleet that would come two years later—only a probing squadron, sent to measure distances and count our guns. But we did not know that then.
+It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation. This was not yet the war fleet that would come two years later, only a probing squadron, sent to measure distances and count our guns. But we did not know that then.
+
+The Dutch had been on this coast long enough to learn our tides and our quarrels. Since they had taken Cochin from the Portuguese, their presence in Malabar had been driven by two hungers that never sat comfortably together. They wanted pepper at a price that pleased their faraway masters, and they wanted a way to reach the pepper hills beyond their coastal forts without bleeding coin on an expensive inland war. That restlessness made them smile in our halls and sharpen knives in our shadows.
 
 We had not been idle. The army Ramayyan built had stretched its legs, marching north to swallow Quilon and break the lines of Deshinganad. It was a short, sharp campaign, a test of the new muskets and the discipline of the Nairs we had drilled in the wet sand. We won, and the Raja of Deshinganad fled, leaving his rich pepper fields in Marthanda Varma's grip. But in swallowing the small fish, we had drawn the eye of the shark.
 
@@ -1832,7 +2042,7 @@ He was perhaps fifteen, lanky in the way youths are when their bones grow faster
 
 The guard at the base of the tree looked up.
 
-“The banded flag” he shouted.
+“The banded flag?” he shouted.
 
 “Yes,” the boy said. “Red, white, blue.”
 
@@ -1892,7 +2102,7 @@ In the war hall, the air was thick with the smell of ink and sweat.
 
 Maps lay unrolled across the floor, held down by stones and spear shafts. Pebbles and shells marked ships, forts, hills, villages. Ramayyan crouched over one of these maps, his thin fingers moving tokens with the care of a priest placing offerings.
 
-Marthanda Varma sat nearby, not on his platform but on the floor itself, cross legged, spear laid aside. His hair was bound back with a simple cloth. His upper body glistened with a sheen of heat; he had clearly been there for some time.
+Marthanda Varma sat nearby, not on his platform but on the floor itself, cross-legged, spear laid aside. His hair was bound back with a simple cloth. His upper body glistened with a sheen of heat; he had clearly been there for some time.
 
 “Sawant,” he said without looking up as I entered. “Tell me.”
 
@@ -1910,9 +2120,9 @@ Ramayyan's hand hovered above a small shell.
 
 He looked up at me.
 
-“What would your Peshwa do?” he asked. “If four foreign ships hovered off his coast like vultures”
+“What would your Peshwa do?” he asked. “If four foreign ships hovered off his coast like vultures?”
 
-In that moment, in my mind's eye, I saw Pune's court, its painted pillars and high seat, the scribes and sardars, the priests and petitioners. I imagined the news carried north, the murmurs, the measured outrage.
+In that moment Pune's court rose before me, painted pillars and high seat, the scribes and sardars, the priests and petitioners. I imagined the news carried north, the murmurs, the measured outrage.
 
 “He would send letters,” I said. “To his sardars, to the companies, to Delhi. He would demand explanations. He would threaten, but he would not move his own men until he had counted the cost twice. His coast is not as tightly bound to his capital as yours is. He can afford to pretend distance.”
 
@@ -1924,7 +2134,7 @@ Ramayyan's stylus scratched on a palm leaf.
 
 “He will land if he thinks he can do so without losing too many shoes,” Ibrahim said. “Boats to small ports. Gifts for those who fear you more than the company. Promises written in thick ink and broken in thin whispers.”
 
-“What do they make of our sand drills” I asked. “Of our horse and muskets”
+“What do they make of our sand drills?” I asked. “Of our horse and muskets?”
 
 “They know some of it,” Ramayyan said. “Their merchants watch. Their petty captains talk. But they have not yet seen what you did on that shore when no one counted but the boy on the palm and the king under the awning.”
 
@@ -1972,6 +2182,24 @@ On the ship, tiny glass circles glinted in the last light as Dutch eyes watched 
 
 “Good,” I said. “Let his wig itch.”
 
+Ibrahim handed back his glass with a small, unreadable smile.
+
+“I should ride ahead,” he said. “There are men in Quilon who will want to know the Dutch squadron has moved closer. Merchants who have contracts with both sides.”
+
+“Both sides?” I asked.
+
+He shrugged, the gesture carrying generations of coastal pragmatism.
+
+“A Marakkar who sells only to one master starves when that master sails away,” he said. “My cousins trade with the company factories. My uncles trade with the Zamorin's ports. My father, God rest him, once sold the same pepper to Dutch and Portuguese buyers in the same week, each thinking they had an exclusive arrangement.”
+
+“And you?” I asked. “Who do you sell to?”
+
+His eyes met mine, and for a moment I saw something beneath the easy merchant's charm: a calculation as cold as any I had seen in Ramayyan's gaze.
+
+“I sell to whoever keeps this coast free enough for men like me to keep selling,” he said. “Today, that is your king. Tomorrow?” He spread his hands. “The sea does not care about flags. Neither do I.”
+
+He kicked his horse into motion before I could respond, leaving me to wonder whether I had just heard an oath of loyalty or a warning.
+
 When the sun dipped, we turned back toward the inland path. The sea darkened. Lanterns bloomed on the ships, small, steady stars that moved with the swell.
 
 Later, long after the horses were stabled and the riders dismissed, I climbed the bluff alone.
@@ -1982,7 +2210,7 @@ In the darkness, the sea erased distances. The ships were now only clusters of l
 
 I listened to the hiss of waves on the sand below, the occasional creak of branch, the distant boom of surf against some unseen rock.
 
-Somewhere out there, on that largest hull, the pale haired officer, Lannoy, Lannu, whatever his men called him, stood or slept or paced. He had his own maps, his own Ramayyan whispering advice, his own king in a far city expecting profit and control.
+Somewhere out there, on that largest hull, the pale-haired officer, Lannoy, Lannu, whatever his men called him, stood or slept or paced. He had his own maps, his own Ramayyan whispering advice, his own king in a far city expecting profit and control.
 
 We had not yet met. Our swords had not yet crossed. Our names were sounds on other men's tongues.
 
@@ -2027,7 +2255,7 @@ They carried hats under their arms, respectfully bareheaded within the hall.
 
 Marthanda Varma inclined his head. He wore no crown, only a simple cloth over his shoulder and a string of rudraksha beads at his neck.
 
-“You bring ships that sit like crows on our water,” he said. “Is that how your company shows friendship”
+“You bring ships that sit like crows on our water,” he said. “Is that how your company shows friendship?”
 
 The interpreter blinked, taken aback by the directness. He recovered and translated. The Dutch envoy's mouth tightened very slightly.
 
@@ -2037,6 +2265,8 @@ The interpreter blinked, taken aback by the directness. He recovered and transla
 
 There was a ripple in the hall. A few local chiefs smiled behind their hands. Padmini Amma, seated not far from the front, her stick across her knees, allowed the barest hint of amusement to show in her eyes.
 
+The king's gaze flicked to her, and for a heartbeat something unguarded passed between them, then vanished back into politics.
+
 Revathi Bayi sat farther back, surrounded by older women from Velinadu and a few younger relatives. She wore a deep green sari this time, her jewellery more subdued than at our first meeting. Her gaze, however, remained as sharp as a drawn blade.
 
 The Dutch envoy spread his hands.
@@ -2044,6 +2274,10 @@ The Dutch envoy spread his hands.
 “We regret if our presence has caused concern,” he said. “Our intention is only to ensure that the pepper and other goods we pay for reach our ships unmolested. We also wish to reaffirm our treaties with the important houses of this coast.”
 
 His eyes flicked toward the cluster of Velinadu women, then to Padmini Amma. He knew enough to know where land lay.
+
+In Goa, I had watched foreign masters do this same dance. They learned early that it is cheaper to keep a royal house quarrelling than to garrison every village. If no single branch grows strong enough to close the pepper groves to them, the company can make a treaty with whichever cousin is hungry this season, buy the spice for less than it is worth, and sail away without leaving too many bones on our soil.
+
+Since they had taken Cochin from the Portuguese, the Dutch had lived with two hungers that never quite sat peacefully together. They wanted pepper at a price that suited their ledgers, and they wanted to push their power past the sea walls of their forts, into the hills where the vines grew. But every step inland meant stepping into our politics, and politics here is a swamp that pulls a man under as surely as any monsoon sea.
 
 Ramayyan's stylus moved, marking that glance.
 
@@ -2085,9 +2319,9 @@ The Dutch envoy's face remained carefully neutral, but his interpreter swallowed
 
 I watched the chiefs' eyes. Some darted toward the Dutch, some toward the king, some toward the floor. One man's gaze flicked, just once, toward Ibrahim in the back of the hall. Ramayyan's stylus noted that too.
 
-"The company brings guns and coins," one of the chiefs said. "They pay fair weight for pepper—twelve *varahans* the *candi*, in good gold pagodas."
+“The company brings guns and coins,” one of the chiefs said. “They pay fair weight for pepper, twelve *varahans* the *candi*, in good gold pagodas.”
 
-The chief in plain clothes, the one who trusted his land more than ornaments, shifted slightly. "What of Kottarakkara?" he asked. "The Elayadathu chief still receives Dutch factors. His sister's daughter writes to Velinadu. There are whispers."
+The chief in plain clothes, the one who trusted his land more than ornaments, shifted slightly. “What of Kottarakkara?” he asked. “The Elayadathu chief still receives Dutch factors. His sister's daughter writes to Velinadu. There are whispers.”
 
 The name dropped into the hall like a stone into still water.
 
@@ -2097,13 +2331,15 @@ Marthanda Varma's jaw tightened, a small movement, quickly controlled. Ramayyan'
 
 No one spoke for three heartbeats.
 
-"Kottarakkara," the king said finally, his voice carefully even, "will be addressed in its time. We are not here to discuss houses that have not yet learned to count."
+“Kottarakkara,” the king said finally, his voice carefully even, “will be addressed in its time. We are not here to discuss houses that have not yet learned to count.”
 
 The plain-clothed chief lowered his eyes. He had asked a question he already knew the answer to. He had wanted to see who flinched.
 
 I filed the name away. Kottarakkara. Elayadathu. Revathi's stillness. The king's jaw. Something lived in those syllables that I did not yet understand.
 
-"Fair weight," Padmini murmured, as if the interruption had not happened, though her voice was tighter now. "And then they sell that pepper at three times the price elsewhere. Ask them what is fair."
+Only later, when company cannon fired beside Cochin and Deshinganad men and Dutch coin flowed into the hands of exiled princes, did I understand what that question had really been. Kottarakkara was not just a stubborn house. It was a lever. The Dutch had no love for any collateral branch of Travancore. They loved only the advantage of a divided court, where promises could be bought cheap and pepper could be signed away under one cousin's seal while another cousin sharpened his knives.
+
+“Fair weight,” Padmini murmured, as if the interruption had not happened, though her voice was tighter now. “And then they sell that pepper at three times the price elsewhere. Ask them what is fair.”
 
 Revathi's lips did not twitch this time. Her eyes remained fixed on some point beyond the Dutch envoy's shoulder.
 
@@ -2155,7 +2391,7 @@ She gave a short, pleased hum.
 
 Her gaze swept the hall.
 
-“See that man,” she said, tilting her head toward one of the plainer dressed chiefs. “Two years ago he took Dutch coin to rebuild his flooded fields—a *hundi* drawn on the Cochin factory, payable in pepper at harvest. Today he speaks loudly about loyalty to the Maharaja. He is not lying. He has simply forgotten that the company expects their coin back with interest. When they come to collect, I wonder whose banner he will stand under.”
+“See that man,” she said, tilting her head toward one of the plainer dressed chiefs. “Two years ago he took Dutch coin to rebuild his flooded fields, a *hundi* drawn on the Cochin factory, payable in pepper at harvest. Today he speaks loudly about loyalty to the Maharaja. He is not lying. He has simply forgotten that the company expects their coin back with interest. When they come to collect, I wonder whose banner he will stand under.”
 
 “And you?” I asked. “Under whose banner will you stand when the king and the company pull in different directions?”
 
@@ -2195,9 +2431,7 @@ Ramayyan watched the shapes with the calm of a man fitting new pieces into a puz
 
 By the time the Dutch withdrew, the light slanted low. They bowed, promised to return with draft papers, and left behind a faint trail of foreign scent, a mixture of spice and sweat and some sharp alcohol.
 
-As they walked out, their interpreter a Portuguese factor, glanced at me, quick and curious. In that moment I saw what I must have looked like to him.
-
-A foreigner in this hall, yet not European. A man in simple cotton, with scars on his hands, listening more than he spoke. A piece on the board whose shape he had not yet accounted for.
+As they walked out, their interpreter, a Portuguese factor, glanced at me, quick and curious. To him I was a foreigner in this hall, yet not European. A man in simple cotton, with scars on his hands, listening more than he spoke. A piece on the board whose shape he had not yet accounted for.
 
 Good.
 
@@ -2225,7 +2459,7 @@ He looked up from his palm leaves, his expression thoughtful. “The Dutch left 
 
 I frowned. “Why does the King not give the trade to his own kind? Why must it be Christians or foreigners? Are there no Hindu merchants?”
 
-Ramayyan smiled, a dry, thin curing of his lips. “You are from the Deccan, Sawant. You forget our laws here. For a Hindu of good caste to cross the black water is to lose his caste. The ocean is *kalapani* forbidden water. We can farm the pepper, we can tax the pepper, but we cannot sail with it to the markets of Arabia or Rome. That sin, we leave to others.”
+Ramayyan smiled, a dry, thin curving of his lips. “You are from the Deccan, Sawant. You forget our laws here. For a Hindu of good caste to cross the black water is to lose his caste. The ocean is *kalapani* forbidden water. We can farm the pepper, we can tax the pepper, but we cannot sail with it to the markets of Arabia or Rome. That sin, we leave to others.”
 
 He tapped his stylus against the leaf. “So we use the hands that are free to move. The Syrians. The Muslims. The King binds them to him so that when the ships sail, the profit returns to Padmanabhapuram, not Lisbon or Amsterdam.”
 
@@ -2266,13 +2500,13 @@ Ibrahim and his Marakkar cousins sent tidings of supply craft cut loose in the n
 
 Messengers from inland chiefs spoke of men mustering, some eager, some sullen; grain moved toward the fort; rumours of certain houses grumbling that this was not their quarrel.
 
-Kottarakkara sent nothing. A silence that Ramayyan noted without comment, his stylus pausing over the name before moving on. When I asked about it, he only said, "Some absences speak louder than presence." Padmini, overhearing, made a sound that was not quite a laugh. "The Thekkumkur Raja counts Dutch masts and waits to see which way the wind blows. His sister Savitri writes letters to Velinadu asking whether this is the moment." She did not say what moment. She did not need to.
+Kottarakkara sent nothing. A silence that Ramayyan noted without comment, his stylus pausing over the name before moving on. When I asked about it, he only said, “Some absences speak louder than presence.” Padmini, overhearing, made a sound that was not quite a laugh. “The Thekkumkur Raja counts Dutch masts and waits to see which way the wind blows. Savitri in Kottarakkara writes letters to Velinadu asking whether this is the moment.” She did not say what moment. She did not need to.
 
-Velinadu replied with a formal message from Revathi Bayi, saying she would remain within her halls, Velinadu men ready to move if the Dutch threatened their share of the coast. The words were correct, empty of warmth. Padmini read them twice. "She is watching too," she murmured. "Watching to see whether her king is worth her kinswoman's silence."
+Velinadu replied with a formal message from Revathi Bayi, saying she would remain within her halls, Velinadu men ready to move if the Dutch threatened their share of the coast. The words were correct, empty of warmth. Padmini read them twice. “She is watching too,” she murmured. “Watching to see whether her king is worth her kinswoman's silence.”
 
 Padmini Amma moved through all of this like a pivot.
 
-In the morning, I saw her in her fields, walking the bunds with bare feet despite the heat, speaking to men and women who bent over pepper vines. She told them which plants would be stripped early to feed troops and which would be left to ripen for trade, a calculation that balanced war and future harvest.
+In the morning, she was in her fields, walking the bunds with bare feet despite the heat, speaking to men and women who bent over pepper vines. She told them which plants would be stripped early to feed troops and which would be left to ripen for trade, a calculation that balanced war and future harvest.
 
 “You will not take the vines on that ridge,” she told one village headman. “If the Dutch burn the lower fields, we will still have pepper to sell them at higher prices when they crawl back.”
 
@@ -2300,7 +2534,7 @@ By sunset, she was back at her estate, watching as boys carried oil to the templ
 
 While she moved through her layers of responsibility, I moved through mine.
 
-In the coastal training ground, I rode with the Arcot and Maravar horsemen one last time before the real test. We have been drilling for months so we did not run full drills. It was too late to teach new tricks. Instead, we rode slowly along the wet sand, letting the horses feel the ground under different tides.
+In the coastal training ground, I rode with the Arcot and Maravar horsemen one last time before the real test. We had been drilling for months, so we did not run full drills. It was too late to teach new tricks. Instead, we rode slowly along the wet sand, letting the horses feel the ground under different tides.
 
 Ponnan kept his horse a half length from mine, as he often did now, close enough to hear, far enough to pretend distance.
 
@@ -2356,7 +2590,7 @@ Ramayyan moved a token, a small Dutch coin, onto the sand of Colachel.
 
 “Why not?” I asked.
 
-“The Java War,” Ramayyan said, a rare hint of satisfaction in his voice. “ The Dutch are busy fighting their own fires in the east. They cannot spare men for a pepper feud in Travancore. What sits on that beach is all they have.”
+“The Java War,” Ramayyan said, a rare hint of satisfaction in his voice. “The Dutch are busy fighting their own fires in the east. They cannot spare men for a pepper feud in Travancore. What sits on that beach is all they have.”
 
 “Four hundred men,” Varma said. “Professional soldiers. Good muskets. Cannon.”
 
@@ -2384,7 +2618,7 @@ It was a colder plan than a dawn charge. It lacked the glory of a thunderous col
 
 “We will starve them,” I said. “And bleed them.”
 
-“We will break them,” Varma said. “Slowly. Until they realize that their monopoly is worth less than their lives.”
+“We will break them,” Varma said. “Slowly. Until they realise that their monopoly is worth less than their lives.”
 
 Night came down slowly.
 
@@ -2396,15 +2630,15 @@ Padmini stood near the inner gate, handing small packets of kumkum and ash to an
 
 Ibrahim brought a small brass lamp from the mosque by the shore and set it discreetly near the temple steps, the light from it mingling with the others.
 
-"The sea does not care whose name you call when it takes you," he murmured to me. "Best to have several listening."
+“The sea does not care whose name you call when it takes you,” he murmured to me. “Best to have several listening.”
 
 Raza Khan stood apart with his Arcot men, their hands pressed together in their own way towards Mecca, their lips moving in prayers that belonged to other lands. We had all come from somewhere else. Tomorrow we would bleed into the same sand.
 
-"You think they pray on those ships?" Ibrahim asked, nodding toward the dark line of the sea.
+“You think they pray on those ships?” Ibrahim asked, nodding toward the dark line of the sea.
 
-"They pray to their god and their profit," I said. "I do not know which they trust more."
+“They pray to their god and their profit,” I said. “I do not know which they trust more.”
 
-"We will find out tomorrow," he said.
+“We will find out tomorrow,” he said.
 
 When the last chant faded and the priests banked the central flame, the air in the courtyard felt thicker, not with smoke, but with the weight of what had been asked and promised in whispers. Lamps flickered on one by one in houses and halls. In the temple courtyards, priests chanted louder than usual, as if hoping their gods could be persuaded to pay special attention in the morning.
 
@@ -2414,7 +2648,7 @@ Men who would normally have gathered to talk after supper sat with their familie
 
 Under the jackfruit tree, Dhanaji, one of my senior riders from the Deccan who had survived Goa's dungeons alongside me, sat sharpening his talwar.
 
-“You ever think you would be here, sahib?” he asked, using the old title out of habit. “At the edge of a southern sea, about to ride at Dutch guns for a king who is not yours”
+“You ever think you would be here, sahib?” he asked, using the old title out of habit. “At the edge of a southern sea, about to ride at Dutch guns for a king who is not yours?”
 
 “The gods have poor handwriting,” I said. “If they wrote this in my horoscope, the astrologer must have fallen asleep.”
 
@@ -2442,65 +2676,65 @@ The mention of Keshavrao landed like a stone in my chest.
 
 Padmini appeared then, her stick making no sound on the damp earth, as if she knew better than to disturb the night's heavy silence.
 
-"You men speak of guns and gods," she said, stepping into the circle of lantern light. "But there are older powers to reckon with before the sun rises."
+“You men speak of guns and gods,” she said, stepping into the circle of lantern light. “But there are older powers to reckon with before the sun rises.”
 
-She looked at me. "Come, Nagoji. There is one place you must visit. A place few eyes outside our bloodline have seen."
+She looked at me. “Come, Nagoji. There is one place you must visit. A place few eyes outside our bloodline have seen.”
 
 I glanced at Dhanaji, who nodded slightly, sensing a dismissal. I rose and followed her.
 
 She led me away from the house, past the granaries and the sleeping quarters of the servants, toward a dense thicket of trees that loomed like a dark island at the edge of the estate. As we approached, the air grew cooler, smelling of wet stone, camphor, and rotting leaves. The canopy overhead was so thick it blotted out the few stars that had managed to pierce the clouds.
 
-"This is the *Sarpa Kavu*," Padmini whispered. "The Abode of Snakes."
+“This is the *Sarpa Kavu*,” Padmini whispered. “The Abode of Snakes.”
 
-We stepped into the grove, and a cold prickle of dread ran down my spine. The hairs on my arms rose as the air thickened. Roots coiled over the ground like solidified serpents. In the center, beneath a massive tree that seemed to hold up the sky itself, a small stone clearing opened up. Large termite mounds rose from the earth like natural stupas, the ancient homes of the serpents, flanked by hundreds of granite idols. Snakes with hoods spread, coiled bodies, singular and intertwined, stood in silent vigil.
+We stepped into the grove, and a cold prickle of dread ran down my spine. The hairs on my arms rose as the air thickened. Roots coiled over the ground like solidified serpents. In the centre, beneath a massive tree that seemed to hold up the sky itself, a small stone clearing opened up. Large termite mounds rose from the earth like natural stupas, the ancient homes of the serpents, flanked by hundreds of granite idols. Snakes with hoods spread, coiled bodies, singular and intertwined, stood in silent vigil.
 
 Revathi Bayi was there, lighting a small oil lamp at the foot of the largest idol. She stood wrapped in a shawl against the damp air, her face illuminated by the flickering flame.
 
-"It is a secret place," Revathi said softly, her voice blending with the rustle of leaves. "Only the immediate family of Padmini Amma's *tharavad* may walk here freely. To bring a stranger is to ask the Naga Rajas to witness him."
+“It is a secret place,” Revathi said softly, her voice blending with the rustle of leaves. “Only the immediate family of Padmini Amma's *tharavadu* may walk here freely. To bring a stranger is to ask the Naga Rajas to witness him.”
 
-"He rides for us," Padmini said, bowing her head before the stone serpents. "He needs their permission to bleed on their earth."
+“He rides for us,” Padmini said, bowing her head before the stone serpents. “He needs their permission to bleed on their earth.”
 
-Revathi gestured to the idols. "Do you understand the significance of this, Nagoji? This house is one of the oldest in the state. Before there were kings in Padmanabhapuram, before the Dutch sailed their wooden islands, this grove was here. We do not cut a single branch. We do not sweep the leaves. We let the Nagas rule this darkness so that they might let us rule the light."
+Revathi gestured to the idols. “Do you understand the significance of this, Nagoji? This house is one of the oldest in the state. Before there were kings in Padmanabhapuram, before the Dutch sailed their wooden islands, this grove was here. We do not cut a single branch. We do not sweep the leaves. We let the Nagas rule this darkness so that they might let us rule the light.”
 
-"We ask for their blessing," Padmini added. "Not for glory, but for venom. The stillness that strikes."
+“We ask for their blessing,” Padmini added. “Not for glory, but for venom. The stillness that strikes.”
 
 I bowed, feeling the weight of the centuries in that small, shadowed clearing. The silence here was not empty; it was watchful.
 
-"There is a moment," Revathi said, looking past the idols into the dark, "before every great event, when the land holds its breath. Birds become quiet. Even the wind hesitates. This is that moment. The Naga lords are listening."
+“There is a moment,” Revathi said, looking past the idols into the dark, “before every great event, when the land holds its breath. Birds become quiet. Even the wind hesitates. This is that moment. The Naga lords are listening.”
 
-"You will ride tomorrow," she continued, her eyes finding mine. "Songs will be written about men like you. But remember, we do not shout our war cries here. We endure. We bend until men think we will break, then we stand up again. That is the lesson of the snake."
+“You will ride tomorrow,” she continued, her eyes finding mine. “Songs will be written about men like you. But remember, we do not shout our war cries here. We endure. We bend until men think we will break, then we stand up again. That is the lesson of the snake.”
 
-Padmini touched the ground, then her forehead. "Pray, Nagoji. Ask that your strike be true."
+Padmini touched the ground, then her forehead. “Pray, Nagoji. Ask that your strike be true.”
 
 I closed my eyes, the smell of the damp earth filling my lungs. I did not pray for victory. I prayed for the focus of the cobra, the patience of the stone.
 
 When I opened my eyes, I was alone with Revathi. Padmini had slipped away, perhaps to the supply wagons, or perhaps simply to give us this moment.
 
-"Good," Revathi said, her voice trembling slightly. "Now go. Sleep if you can."
+“Good,” Revathi said, her voice trembling slightly. “Now go. Sleep if you can.”
 
 The vulnerability in her tone broke my resolve. I stepped forward and pulled her into a tight embrace. She did not resist; she melted against me, her body soft and shaking, tears dampening my shoulder. For a heartbeat, the war vanished. I did not care about the King or the Dutch or the damp gunpowder waiting in the fort. I only wanted to remain here, anchoring myself to this woman, for a lifetime.
 
-"If I survive," I whispered into her hair, the words fighting their way past the lump in my throat, "we will have a conversation about queens and guests. But not tonight."
+“If I survive,” I whispered into her hair, the words fighting their way past the lump in my throat, “we will have a conversation about queens and guests. But not tonight.”
 
 She pressed her forehead briefly against my neck, breath warm on my skin, then pulled back just far enough to look at me.
 
-"You do not get to die cheaply now," she said, voice rough. "Not with unfinished words between us."
+“You do not get to die cheaply now,” she said, voice rough. “Not with unfinished words between us.”
 
-"Then I will try to live expensively," I said, attempting a smile that did not quite reach my own eyes.
+“Then I will try to live expensively,” I said, attempting a smile that did not quite reach my own eyes.
 
-"Nagoji?". Dhanaji’s voice echoed from near the house, sharp and questioning.
+“Nagoji?” Dhanaji’s voice echoed from near the house, sharp and questioning.
 
 Revathi pulled back, wiping her cheeks swiftly. She looked at me, a sad, knowing smile touching her lips. Then she stepped closer again, her voice dropping to a whisper that carried the sharp edge of a blade.
 
-"And Nagoji... if you die tomorrow, die facing the right direction. Do not give the Dutch the satisfaction of seeing your back."
+“And Nagoji... if you die tomorrow, die facing the right direction. Do not give the Dutch the satisfaction of seeing your back.”
 
 She hesitated, her fingers brushing one of the stone serpents.
 
-"And if you live," she murmured, barely louder than the rustle of leaves, "do not make me a widow for a king I did not choose."
+“And if you live,” she murmured, barely louder than the rustle of leaves, “do not make me a widow for a king I did not choose.”
 
 She turned back to the idols, leaving only the memory of her fragrance hanging in the humid air to torture me.
 
-Padmini guided me back to the edge of the grove when I emerged. "The dawn will not wait," she said, appearing from the shadows. "Rest now."
+Padmini guided me back to the edge of the grove when I emerged. “The dawn will not wait,” she said, appearing from the shadows. “Rest now.”
 
 When I finally lay down on the mat Padmini's people had given me, sleep came in fragments.
 
@@ -2515,23 +2749,33 @@ The eve was over.
 The storm was here.
 # Book III, Chapter 14: The Siege of Colachel
 
-<!-- Note: Chapter title in outline was "Charge at Colachel" but the battle was a siege, not a cavalry charge. Title updated to reflect content. -->
+By the time we closed our ring around Colachel, we were already tired from another war.
+
+The Dutch had not come when Travancore was fresh and waiting. They chose their moment while the Maharaja was far to the south, near the tip of the land, wrestling with Chanda Sahib's men and the Madurai claim on Anchuthengu. The army had marched and bled along that front, coin had already been turned into borrowed muskets and English favours, and Ramayyan's palm leaves were full of debts instead of spare plans. When company flags finally showed themselves off Colachel, they were not striking a king who had been building his sand batteries in peace. They were striking a man who had only just pushed one invader back and had not yet found his footing again.
+
+The first days were confusion.
+
+Messages galloped up and down the coast. Men who had thought they were going home from the southern campaign found themselves turned north instead. Guns that had faced Chanda Sahib's lines were dragged through wet fields and narrow village paths toward this new beachhead. For a short, sharp time, the Dutch had what they wanted: Travancore stretched, its king fighting on two fronts, its lines thin.
+
+Their confidence had not come from the sea alone. Two years before Colachel, the company had decided to stop being a guest at our table. They reached for the oldest weapon on this coast, a royal house divided. They took up the grievance of the Elayadathu line at Kottarakkara, a princess pushed aside when Varma interfered in her house's succession, and they promised her Dutch support in return for pepper signed cheap under her seal. Deshinganad, Cochin, Purakkad, Thekkumkur, each nursing its own wounds, were quick to stand under that foreign umbrella. Their men struck from the north while Dutch ships bit at the south, and for a few months blue coats sat in villages from Kottar to the edges of Colachel as if Padmanabhapuram were already within reach.
+
+Only when those scattered strands were pulled together did the battle settle into its true shape.
 
 The war became a weight, not a collision.
 
-There was no grand morning charge, no thunder of hooves on wet sand as I had once imagined in my restless sleep. Instead, there was the slow, grinding work of earth and patience.
+There was no grand charge, no thunder of hooves on wet sand as I had imagined in restless sleep. Instead, there was the slow, grinding work of earth and patience.
 
 For weeks, we pinned them against the sea.
 
-Our lines curved around their beachhead like a tightening noose. We dug trenches in the sandy soil, reinforcing them with palm trunks and woven mats. We raised batteries of cannon that pounded their impromptu stockade day and night. We watched them through the haze of heat and salt spray, a blue and grey mass of men shrinking into an ever smaller patch of ground.
+Our lines curved around their beachhead like a tightening noose. We dug trenches in the sandy soil, reinforcing them with palm trunks and woven mats. We raised batteries of cannon that pounded their impromptu stockade day and night. We watched them through the haze of heat and salt spray, a blue and grey mass of men shrinking into an ever-smaller patch of ground.
 
 “They are stubborn,” Dhanaji muttered one morning, wiping sweat from his eyes as we watched a fresh plume of smoke rise from their camp. “Most men would have swum for the ships by now.”
 
-“They are waiting for help that isn't coming,” I said. “And they are afraid to admit that the great Dutch East India Company has been trapped by a king they thought was a petty chieftain.”
+“They are waiting for help that is not coming,” I said. “And they are afraid to admit that the great Dutch East India Company has been trapped by a king they thought was a petty chieftain.”
 
 Strategy had shifted, just as Varma had promised.
 
-My riders did not charge squares. We became the gaolers of the perimeter. Ponnan’s Maravar horse wove through scrub and low palms, closing gaps my Deccan eyes might have missed, while Arcot and Maratha riders watched the wider tracks.
+My riders did not charge squares. We became the gaolers of the perimeter. Ponnan’s Maravar horse wove through scrub and low palms, closing gaps my Deccan eyes would have missed, while Arcot and Maratha riders watched the wider tracks.
 
 We patrolled the scrub inland, catching the desperate few who tried to slip out to forage for food. We rode down their scouts. We cut off the trickle of fresh water from the inland streams.
 
@@ -2543,15 +2787,15 @@ The moon was hidden behind monsoon clouds. The sea was a black, heaving mass. It
 
 But it was alive.
 
-Shadows moved on the surf. Low, narrow boats, blackened with soot, slipped through the waves with barely a splash. The Mukkuvar men, their bodies oiled to slip through water and grip alike, were going to work.
+Shadows moved on the surf. Low, narrow boats, blackened with soot, slipped through the waves with barely a splash. The Mukkuvar men, their bodies oiled to slip through water and grip rope and hull alike, were going to work.
 
-I watched as a group of them returned, dragging their craft up the sand. They were grinning, their teeth white in the gloom.
+A group of them returned, dragging their craft up the sand. They were grinning, their teeth white in the gloom.
 
 “Good fishing?” I asked one of the headmen, a scarred man named Antony.
 
 He spat a stream of betel juice into the sand.
 
-“Very good, Ayya,” he said. “We found a supply boat trying to come in from a ship further out. It has a hole in its bottom now. The rice is for the fish.”
+“Very good, Ayya,” he said. “We found a supply boat trying to come in from a ship further out. It has a hole in its hull now. The rice is for the fish.”
 
 “And the crew?”
 
@@ -2561,13 +2805,13 @@ He gestured to the dark water.
 
 “They do not understand,” he said. “They think big ships make them masters. But big ships must anchor. And anchors act like tethers for goats. We swim out, we cut, we drill. They are fighting the ocean, and the ocean is on our side.”
 
-It was a terrifying efficient alliance. On land, Ramayyan’s batteries hammered their walls. At sea, Ibrahim’s divers and boatmen bled their supplies and nerves. The Dutch were trapped in a box where the walls were fire and the floor was water.
+It was a terrifyingly efficient alliance. On land, Ramayyan’s batteries hammered their walls. At sea, Ibrahim’s divers and boatmen bled their supplies and nerves. The Dutch were trapped in a box where the walls were fire and the floor was water.
 
 Before we pinned them here, their mud ramparts had already sagged under the weight of their own guns, and an early storm had torn some of their anchors away. Hackert, the commander they had trusted to lead them, had gone north with fresh troops, leaving Lieutenant Rijtel to hold this shrinking patch of sand with sick men and empty barrels.
 
-Yet, they held.
+Yet they held.
 
-Lannoy kept them disciplined. Even from a distance, I could see him, or a figure I assumed was him, walking the perimeter of their shrinking fort. He moved men to plug gaps. He rationed their dwindling food. He kept their muskets firing, though the volleys grew more ragged as powder ran low.
+Lannoy kept them disciplined. From a distance, a tall figure I took for him paced the perimeter of their shrinking fort. He shifted men to plug gaps, rationed their dwindling food, and kept their muskets firing, though the volleys grew more ragged as powder ran low.
 
 “He is a good officer,” Ramayyan admitted one evening, looking over the casualty reports. “A waste of a man, serving a ledger.”
 
@@ -2577,7 +2821,7 @@ Lannoy kept them disciplined. Even from a distance, I could see him, or a figure
 
 The end, when it came, arrived on a wind from the sea.
 
-It was the 10th of August. The sun had broken through the clouds, baking the wet sand until the air shimmered. The smell of the siege, unburied waste, rotting fish, burnt powder, hung heavy over everything.
+It was the 10th of August. The sun had broken through the clouds, baking the wet sand until the air shimmered. The smell of the siege, unburied waste and rotting fish mixed with burnt powder, hung heavy over everything.
 
 Our batteries had been firing sluggishly all morning. The heat made the gunners slow.
 
@@ -2589,11 +2833,11 @@ He shouted an order. A crew on the main battery, nearest the beach, sponged thei
 
 I do not believe in luck. I believe in preparation meeting opportunity. But sometimes, war throws dice.
 
-The gun fired. A puff of white smoke, a dull thud.
+The gun fired. A puff of white smoke. A dull thud.
 
 We watched the ball arc through the air, a dark speck against the bright sky. It cleared the outer wall of the Dutch stockade. It cleared the line of tents where their sick lay.
 
-It dropped, with the precision of a hawk, into the centre of their camp.
+It dropped with the precision of a hawk into the centre of their camp.
 
 For a heartbeat, nothing happened.
 
@@ -2609,25 +2853,27 @@ Secondary explosions rippled out, barrels of powder, grenades, anything that cou
 
 I thought the explosion would break them. I was wrong.
 
-Through the smoke and flame, I saw movement. Blue coats, grey coats, emerging from the wreckage. Not fleeing. Forming.
+Through the smoke and flame, I saw movement. Blue coats, grey coats, emerged from the wreckage. Not fleeing. Forming.
 
-"They're coming out," Dhanaji shouted.
+“They're coming out,” Dhanaji shouted.
 
 And they were. The Dutch infantry poured through the gaps in their burning walls, muskets levelled, bayonets fixed. Even with their fort destroyed, their supplies gone, their powder scattered, they came out fighting.
 
 Their first volley caught our forward trenches. Men fell. The ragged line of blue-coats advanced through the smoke, firing and reloading with the mechanical precision of men who had drilled until the motions lived in their bones.
 
-"Hold!" Ramayyan's voice carried over the chaos. "Hold the centre!"
+“Hold!” Ramayyan's voice carried over the chaos. “Hold the centre!”
 
 The Nair infantry braced, their swords and spears forming a wall against the bayonets. But the Dutch kept coming, their square tight, their discipline unbroken even in catastrophe. They were not running to the sea. They were cutting their way out.
 
 I was already riding when I saw it.
 
-I had positioned my Maravar and Arcot horse on the left flank, hidden by a grove of palms. From there, I saw what Ramayyan might have missed in the smoke—the Dutch square had a seam.
+I had positioned my Maravar and Arcot horse on the left flank, hidden by a grove of palms. From there, I saw what Ramayyan might have missed in the smoke, the Dutch square had a seam.
 
 They were focused on the infantry ahead. Their rear ranks watched the burning fort behind them. But their flank, the side facing the scrubland, had thinned as officers pulled men forward to reinforce the advance.
 
 I did not wait for an order. I did not signal. I simply kicked my horse into motion, and my riders followed like water through a broken dam.
+
+The last hundred yards stretched like hours. Through the haze I saw Dutch faces turning, eyes widening as they registered what was coming. A sergeant shouted something, tried to wheel his men. Too slow. Their muskets were still swinging toward us when we reached them, bayonets catching sunlight at angles that would never meet horse or rider.
 
 We hit the Dutch square from the side.
 
@@ -2665,12 +2911,12 @@ He turned his horse away.
 
 The siege of Colachel had ended not with the thunderclap alone, but with our charge through the smoke. The explosion had wounded them. The cavalry had finished it.
 
-But as I looked at the smoking ruin and the prisoners being led away, I knew the silence that would follow would be more dangerous than the noise. For now came the words. And words, in my experience, could be sharper than any sword.
+But as I looked at the smoking ruin and the prisoners being led away, I knew the silence to come would be more dangerous than the noise. Now came the words. And words, in my experience, could be sharper than any sword.
 # Book III, Chapter 15: Prisoners of a New King
 
 The end came with a lie, or perhaps just a misunderstanding of what honour meant on this coast.
 
-On the 7th of August, the smoke from the great explosion still drifted across the sands of Colachel. The Dutch had signaled their readiness to treat. Terms had been agreed upon, or so they believed.
+The next morning, the smoke from the great explosion still drifted across the sands of Colachel. The Dutch had signalled their readiness to treat. Terms had been agreed upon, or so they believed.
 
 They marched out of their ruined camp at mid-morning.
 
@@ -2690,7 +2936,7 @@ A conch blew.
 
 Suddenly, the Nair lines thickened. Spears lowered. Matchlocks were raised from behind the dunes where my riders had waited. The path to Kanyakumari was blocked by a wall of shields.
 
-The Dutch column halted. Confusion rippled through their ranks. An officer—Lannoy, I presumed—shouted something, pointing his sword towards the road.
+The Dutch column halted. Confusion rippled through their ranks. An officer, Lannoy, I presumed, shouted something, pointing his sword towards the road.
 
 Ramayyan rode forward.
 
@@ -2702,11 +2948,11 @@ Ramayyan rode forward.
 
 For a moment, I thought they would fight. I saw hands tighten on musket stocks. I saw Lannoy's knuckles turn white on his hilt. They were surrounded, outnumbered twenty to one, starving and shocked, but they were soldiers.
 
-I watched Lannoy's face through my glass. I had seen that expression before—on Keshavrao's face in the storm, on my own in the Goan dungeon. The moment when a man realizes that every road leads to the same wall.
+I watched Lannoy's face through my glass. I had seen that expression before, on Keshavrao's face in the storm, on my own in the Goan dungeon. The moment when a man realizes that every road leads to the same wall.
 
 His lips moved. I could not hear the words, but I saw him look at the sky, then down at his boots, then at the young drummer boy standing rigid beside him. The boy could not have been more than fourteen. His hands were shaking on his drumsticks.
 
-Lannoy reached out and put a hand on the boy's shoulder. Something passed between them—permission, perhaps, or apology. The boy's face crumpled, then steadied.
+Lannoy reached out and put a hand on the boy's shoulder. Something passed between them, permission, perhaps, or apology. The boy's face crumpled, then steadied.
 
 Then Lannoy looked at his men, hollow-eyed, burnt, swaying with fatigue. He looked at the thousands of fresh Nair troops ringing them. He looked at the sea behind him, where the ships had drawn back like spectators who did not want to be splashed by blood.
 
@@ -2716,7 +2962,7 @@ He did not throw it. He held it for a moment, the leather warm from his body, th
 
 Then he let it fall. It landed in the sand with a soft thud, not a clatter. A quiet death for a quiet surrender.
 
-"Down," he ordered, his voice cracking on the word.
+“Down,” he ordered, his voice cracking on the word.
 
 The clatter of hundreds of muskets falling onto the beach sounded like a heavy rain. Some of the men wept. Others stood rigid, staring at nothing. One sergeant knelt and pressed his forehead to his fallen weapon, as if saying goodbye to an old friend.
 
@@ -2724,9 +2970,53 @@ The clatter of hundreds of muskets falling onto the beach sounded like a heavy r
 
 We took twenty-four European officers that day, including Eustachius De Lannoy and his second, Donadi. We took hundreds of soldiers, their muskets, their drums, and the few cannon that hadn't burst in the fire.
 
-They were not marched to Kanyakumari. They were marched inland, away from the sea that had failed to save them, to the granite walls of Udayagiri Fort.
+We did not march them to Kanyakumari. We marched them inland, away from the sea that had failed to save them, to the granite walls of Udayagiri Fort.
 
-***
+---
+
+The next morning, before the prisoners had even been sorted and counted, Ibrahim Marakkar appeared at the beach.
+
+He came not from the inland roads but from the sea itself, his small boat sliding through the surf with the ease of a man who had spent his life reading these waters. Behind him, a second boat carried crates and bundles wrapped in oiled cloth.
+
+I watched from the dunes as he stepped onto the sand, his bare feet finding purchase where Dutch boots had stumbled. He surveyed the wreckage of the company camp with the eye of a merchant appraising goods at auction.
+
+“You move quickly,” I said, walking down to meet him.
+
+“The sea moves quickly,” he replied. “I merely follow its currents.”
+
+He gestured to the burned stockade, the scattered equipment, the abandoned positions.
+
+“There will be salvage,” he said. “Rope, metal, cloth. Things the company left behind in their haste to surrender. Things that have no flag now.”
+
+“Those belong to the king,” I said.
+
+“Some do,” Ibrahim agreed. “The cannon, certainly. The muskets. But the small things? The cook pots and the sail canvas and the personal effects of men who will never need them again?” He smiled. “Those find their way into other hands. They always have. Since the first ship wrecked on this coast, men like my grandfather have known where to look.”
+
+“And you happened to be nearby,” I said. “Ready to look.”
+
+“I happened to be watching from a safe distance,” he said. “As I always do when large men with guns disagree. It is healthier.”
+
+His crew had begun unloading the second boat. It was not salvage, I realised, but supplies. Rice. Dried fish. Coconut oil. The small necessities that an army needs after a battle.
+
+“For the prisoners,” Ibrahim said, following my gaze. “They will need to eat. The king will want them alive and useful, not starved into uselessness. This is my contribution.”
+
+“Generous,” I said.
+
+“Practical,” he corrected. “Marthanda Varma will remember who fed his new recruits. And if the Dutch ever return, they will remember who was kind to their countrymen in captivity.” He shrugged. “A man who is remembered kindly by both sides is a man who survives.”
+
+“Is that all you care about? Surviving?”
+
+Ibrahim looked at me, and for a moment the merchant's mask slipped.
+
+“I care about this coast,” he said quietly. “My family has traded here for three hundred years. We have seen the Portuguese come and fade. Now the Dutch fade. Tomorrow it will be someone else. But the Marakkars remain.” He tapped his chest. “We remain because we never forget that the sea belongs to no one. It only lends itself to those clever enough to use it.”
+
+He turned back to his boats, already calling orders to his men.
+
+“Tell your king his prisoners will not starve on my account,” he said over his shoulder. “And tell Ramayyan I will have the full inventory of Dutch salvage on his table by nightfall. For the usual consideration, of course.”
+
+I watched him work, this man who fed both sides and swore loyalty to neither, and wondered which was more dangerous: an enemy you could see, or a friend you could never quite trust.
+
+---
 
 Two days later, I stood in a stone courtyard within Udayagiri.
 
@@ -2738,9 +3028,11 @@ The meeting took place in a small hall used for private audiences. No throne, ju
 
 And beside him sat Mathoo Tharakan. He was no longer just the merchant I had seen at the war council. Today, he wore the heavy gold chains and silk tunic of a *Valia Sarvadhi Karyakkar*, a high noble of the court. Marthanda Varma had elevated him, breaking centuries of caste tradition to place a Syrian Christian at the heart of his durbar. It was a statement as loud as any cannon: in this new Travancore, power flowed to those who built the state, regardless of the god they prayed to.
 
-I stood by the door, a silent witness.
+To my Deccan eyes it still felt like a boundary crossed. But the Syrian houses of this coast were not meek converts huddled outside the warrior order. They trained in the same kalari pits as Nairs, carried steel when the kingdom called, and stood in the old hierarchy closer to horse and musket than to plough. The king was shocking some priests, yes, but he was not inventing a new world from nothing.
 
-Lannoy was brought in. He looked better than he had on the beach, washed, his wound bandaged, though his coat was still the same stained blue. He did not bow.
+I stood by the door, silent witness.
+
+Lannoy was brought in. He looked better than he had on the beach: washed, his wound bandaged, though his coat was still the same stained blue. He did not bow.
 
 “You have a strange way of keeping treaties,” he said, his voice flat.
 
@@ -2759,10 +3051,12 @@ Lannoy fell silent. He knew enough of war to know that the loser does not dictat
 “I am a Captain of the Dutch East India Company.”
 
 “The Company is a ledger,” Varma said.
-			
-“And a ledger with too much red ink is burned,” Tharakan interjected softly, his voice carrying the weight of a man who owned half the warehouses on the coast.
 
-“It has already written you off,” the King continued, nodding at his noble. “Do you think they will send a fleet to rescue a man who lost a beachhead? They will count the cost, shake their heads, and hire a new captain.”
+“And a ledger with too much red ink is burnt,” Tharakan interjected softly, his voice carrying the weight of a man who owned half the warehouses on the coast.
+
+“It has already written you off,” the king continued, nodding at his noble. “Do you think they will send a fleet to rescue a man who lost a beachhead? They will count the cost, shake their heads, and hire a new captain.”
+
+Ramayyan had already shown him damp letters taken from the wrecked Dutch camp. One, in the Governor's careful hand from Cochin, admitted that the company had been “successful at first, but for want of men and other necessaries had to leave him master of the field.” Varma did not need enemy ink to know the truth, but he enjoyed hearing it from their own mouths.
 
 Lannoy flinched. It was a small movement, but it betrayed him.
 
@@ -2790,7 +3084,7 @@ Lannoy looked at me.
 
 “You were a mercenary once,” he said. “Before you were a courtier.”
 
-“I am still a mercenary,” I said. “I just found a payer who offers more than coin.”
+“I am still a mercenary,” I said. “I just found a paymaster who offers more than coin.”
 
 “And does he keep his word?”
 
@@ -2832,7 +3126,7 @@ He looked at me.
 
 “Friendship with a man you helped capture is a complicated thing,” I said.
 
-“Life is complicated,” Marthanda Varma said, standing up and reaching for his spear. “That involves surviving it. The simple things usually end in funerals.”
+“Life is complicated,” Marthanda Varma said, standing up and reaching for his spear. “That includes surviving it. The simple things usually end in funerals.”
 
 We walked out into the courtyard of Udayagiri. The sun was high now. The Dutch prisoners, no, the Dutch recruits, were being fed in the lower yard. They looked up as we passed, fear mixing with curiosity.
 
@@ -2844,15 +3138,15 @@ Lannoy's first morning as a Travancore officer began before dawn.
 
 I found him in the courtyard, still wearing his stained Dutch coat, staring at the pile of local cloth that had been left outside his door. A white *mundu*, a simple cotton tunic, sandals of a kind he had probably never worn.
 
-"They expect me to dress as one of them," he said.
+“They expect me to dress as one of them,” he said.
 
-"They expect you to stop dressing as their enemy," I said. "The coat is a problem. Men who lost brothers at Colachel will not take orders from a man who wears the uniform that killed them."
+“They expect you to stop dressing as their enemy,” I said. “The coat is a problem. Men who lost brothers at Colachel will not take orders from a man who wears the uniform that killed them.”
 
 He touched the brass buttons, running his thumb along the Company insignia.
 
-"I have worn this since I was seventeen," he said. "It was the first thing I bought with my own wages. My mother sewed the lining herself before I sailed from Flanders."
+“I have worn this since I was seventeen,” he said. “It was the first thing I bought with my own wages. My mother sewed the lining herself before I sailed from Flanders.”
 
-"Your mother is in Flanders," I said. "You are in Travancore. The coat cannot follow you where you are going."
+“Your mother is in Flanders,” I said. “You are in Travancore. The coat cannot follow you where you are going.”
 
 He stood very still for a long moment.
 
@@ -2862,27 +3156,27 @@ Beneath it, his shirt was sweat-stained, his chest pale where the sun had never 
 
 He picked up the white *mundu* and looked at it as if it were a map of an unknown country.
 
-"Show me," he said.
+“Show me,” he said.
 
 I showed him how to wrap it, how to tuck the end so it would not unravel during drill, how to move without tripping over the unfamiliar length. He fumbled twice, cursed in Flemish, then got it right on the third attempt.
 
-When he straightened, he looked like a ghost of himself—a European skeleton wearing Indian skin.
+When he straightened, he looked like a ghost of himself, a European skeleton wearing Indian skin.
 
-"Do I look ridiculous?" he asked.
+“Do I look ridiculous?” he asked.
 
-"You look like a man who has not yet learned to stand in his new clothes," I said. "That will change. The cloth is not the difficult part. The difficult part is what happens when you give your first order and a Nair captain looks at your pale face and wonders why he should obey."
+“You look like a man who has not yet learned to stand in his new clothes,” I said. “That will change. The cloth is easy. The hard part is what happens when you give your first order and a Nair captain looks at your pale face and wonders why he should obey.”
 
-"What do I do then?"
+“What do I do then?”
 
-"You show him something he respects," I said. "Not your old rank. Not your old flag. Something new. Competence. Fairness. The willingness to stand in the same sun and eat the same rice."
+“You show him something he respects,” I said. “Not your old rank. Not your old flag. Something new. Competence. Fairness. The willingness to stand in the same sun and eat the same rice.”
 
 He nodded slowly.
 
-"The rice," he said, "is going to take some getting used to."
+“The rice,” he said, “is going to take some getting used to.”
 
-"So is everything else," I said. "Welcome to Travancore, Kappithan."
+“So is everything else,” I said. “Welcome to Travancore, Kappithan.”
 
-He did not smile. But something in his face shifted—the first crack in the wall between what he had been and what he might become.
+He did not smile. But something in his face shifted, the first crack in the wall between what he had been and what he might become.
 
 That evening, I saw him walking the ramparts alone, the Dutch coat still folded on his bench, untouched. He had not thrown it away. Perhaps he never would.
 
@@ -2895,7 +3189,7 @@ I looked at the walls of the fort. They were strong. But with Lannoy’s help, I
 
 The horse died on the third day of the fever.
 
-I had bought him from a Tamil trader two years after Colachel—a grey with a black mane, not as fine as the mount I had lost in the storm, but steady, patient, willing to learn the sand. I had named him Megha, for the monsoon clouds he reminded me of.
+I had bought him from a Tamil trader, a grey with a black mane, not as fine as the mount I had lost in the storm, but steady, patient, willing to learn the sand. I had named him Megha, for the monsoon clouds he reminded me of.
 
 When he would not rise that morning, I knew. I sat with him in the stable while the grooms kept their distance, watching his flanks heave, feeling his neck grow cold under my hand. He did not struggle at the end. He simply stopped, the way a lamp runs out of oil.
 
@@ -2903,23 +3197,21 @@ I buried him myself, on the hill behind Padmini Amma's estate, in the shade of a
 
 Dhanaji found me there, staring at the mound of red earth.
 
-"He was a good horse," he said.
+“He was a good horse,” he said.
 
-"He was mine," I said. "The first thing I owned in this land that I chose myself."
+“He was mine,” I said. “The first thing I owned in this land that I chose myself.”
 
 We stood in silence. Below us, the lights of the training ground flickered where the evening drill was beginning without me.
 
-"How long have we been here?" I asked.
+“How long have we been here?” I asked.
 
-Dhanaji counted on his fingers. "Three monsoons since Colachel. Four since we washed up on this coast."
-
-Four years. The number felt impossible and obvious at once.
+Dhanaji counted on his fingers. “Four monsoons since we washed up on this coast.”
 
 Time after a battle does not move in days. It moves in drills.
 
-You look up one morning and realise that the men who had never seen a European volley a season ago now curse when a recruit fumbles his priming. You notice that the boys in the kalari have grown into broad shouldered youths who no longer look over their shoulders for approval before they strike. You find grey at your temples that you do not remember earning.
+You look up one morning and realise that the men who had never seen a European volley a season ago now curse when a recruit fumbles his priming. You notice that the boys in the kalari have grown into broad-shouldered youths who no longer look over their shoulders for approval before they strike. You find grey at your temples that you do not remember earning.
 
-That was how I measured the years after Colachel.
+That was how I measured time after Colachel.
 
 In the first weeks after the battle, before drills ground the days into one long line, I lay under the jackfruit tree at Padmini Amma's estate with my ribs bound tight and my head full of surf and smoke.
 
@@ -2927,125 +3219,131 @@ Revathi came twice.
 
 The first time was on the pretext of speaking with Padmini about grain and widows' stipends. When Padmini left us with a pot of buttermilk and a warning not to bleed on her courtyard, Revathi sat on the low wall near my feet, her eyes on the sky.
 
-"You look worse than the Dutch," she said. "At least they had the sense to collapse on sand, not good stone."
+“You look worse than the Dutch,” she said. “At least they had the sense to collapse on sand, not good stone.”
 
-"Sand is softer," I said. "Stone holds the bruise longer."
+“Sand is softer,” I said. “Stone holds the bruise longer.”
 
 She clicked her tongue and reached for the bandage at my side.
 
-"Who wrapped this?" she asked.
+“Who wrapped this?” she asked.
 
-"A Maratha who has tied more saddle girths than ribs," I said.
+“A Maratha who has tied more saddle girths than ribs,” I said.
 
 She undid the cloth with quick, efficient fingers, ignoring my hiss when the air touched the raw skin, then wound it again, tighter and neater.
 
-"This kingdom keeps trying to turn you into ash," she murmured. "Do not give it all of you at once."
+“This kingdom keeps trying to turn you into ash,” she murmured. “Do not give it all of you at once.”
 
-I wanted to tell her that part of me had already burned on that beach and in the letters I had not yet written north. Instead, I said, "I promised your Nagas I would bleed on their earth. I did not promise how much."
+I wanted to tell her that part of me had already burnt on that beach and in the letters I had not yet written north. Instead, I said, “I promised your Nagas I would bleed on their earth. I did not promise how much.”
 
 She tied off the bandage and sat back.
 
-"Learn to keep a little for yourself," she said. "And for those who will have to live with whatever is left."
+“Learn to keep a little for yourself,” she said. “And for those who will have to live with whatever is left.”
 
 Then she rose and called for Padmini, business returning to her face like a veil.
 
 The second time, she came alone.
 
-It was past midnight. The household had gone to sleep, and I was lying awake in my room, watching the shadows of palm fronds move across the ceiling. My ribs ached. My mind would not stop replaying the moment Nagoji's cavalry had hit the Dutch square—the sound, the give, the faces.
+It was past midnight. The household had gone to sleep, and I was lying awake in my room, watching the shadows of palm fronds move across the ceiling. My ribs ached. My mind would not stop replaying the moment my cavalry had hit the Dutch square, the sound, the give, the faces.
 
 I heard the door open. No knock. No lamp.
 
-"You are not sleeping," she said from the darkness.
+“You are not sleeping,” she said from the darkness.
 
-"Neither are you."
+“Neither are you.”
 
-She crossed the room and sat on the edge of my mat. I could smell jasmine and something else—sandalwood, the kind burned at funerals and temples.
+She crossed the room and sat on the edge of my mat. I could smell jasmine and something else, sandalwood, the kind burned at funerals and temples.
 
-"Padmini told me you wake screaming," she said. "That you call out names she does not recognize."
+“Padmini told me you wake screaming,” she said. “That you call out names she does not recognize.”
 
-"Padmini talks too much."
+“Padmini talks too much.”
 
-"Padmini loves you," she said. "That is why she told me."
+“Padmini loves you,” she said. “That is why she told me.”
 
 We sat in silence. Outside, a night bird called, plaintive and unanswered.
 
-"I lost a husband," she said quietly. "At the battle of the lagoon, five years before you washed up on this coast. He was a fool who charged when he should have waited. I watched from the walls. I saw his horse go down. I saw what they did to him after."
+“I lost a husband,” she said quietly. “At the battle of the lagoon, five years before you washed up on this coast. He was a fool who charged when he should have waited. I watched from the walls. I saw his horse go down. I saw what they did to him after.”
 
 Her voice did not waver. She had told this story to herself too many times for it to wound her now.
 
-"For a year, I did not sleep," she continued. "I would close my eyes and see his face. Not the living face—the other one. The one they left in the mud."
+“For a year, I did not sleep,” she continued. “I would close my eyes and see his face. Not the living face, the other one. The one they left in the mud.”
 
-"How did it stop?" I asked.
+“How did it stop?” I asked.
 
-"It did not stop," she said. "I learned to carry it. The way you learn to walk with a stone in your shoe. Eventually, you forget you are limping."
+“It did not stop,” she said. “I learned to carry it. The way you learn to walk with a stone in your shoe. Eventually, you forget you are limping.”
 
 She reached out and found my hand in the darkness.
 
-"I did not come here to talk about the dead," she said.
+“I did not come here to talk about the dead,” she said.
 
-"Why did you come?"
+“Why did you come?”
 
-"Because you are alive," she said. "And so am I. And I am tired of pretending that is not worth something."
+“Because you are alive,” she said. “And so am I. And I am tired of pretending that is not worth something.”
 
 Her fingers traced up my arm, finding the edge of the bandage, then moving past it to the bare skin of my shoulder. I caught her wrist.
 
-"Revathi—"
+“Revathi...”
 
-"There is a room," she said. "Below the granary. Padmini showed me, years ago. The Kings hid there when the Pillamar hunted them. No one goes there now. No one will hear."
+“There is a room,” she said. “Below the granary. Padmini showed me, years ago. It kept someone alive once, when knives were hunting. No one goes there now. No one will hear.”
 
-"If anyone sees you leave—"
+“If anyone sees you leave...”
 
-"I am a widow," she said. "I am not a wife. What I do with my nights is my own concern."
+“I am a widow,” she said. “I am not a wife. What I do with my nights is my own concern.”
 
 There was a defiance in her voice, but beneath it, something else. A question. She was giving me the choice to refuse.
 
 I did not refuse.
 
-We moved through the sleeping house like thieves. She knew the way—through the storeroom, past the great clay vessels of rice, to the low wooden door in the corner that looked like nothing more than a repair panel. The cellar beyond was small and dark, smelling of old grain and earth. A single mat had been laid on the floor, and a brass lamp that she lit with a flint she carried.
+We moved through the sleeping house like thieves. She knew the way, through the storeroom, past the great clay vessels of rice, to the low wooden door in the corner that looked like nothing more than a repair panel. The cellar beyond was small and dark, smelling of old grain and earth. A single mat had been laid on the floor, and a brass lamp that she lit with a flint she carried.
 
 In that flickering light, she looked at me.
 
-"I have thought about this," she said. "Since the night you stood in my hall and told me you were not a man who made promises. I have thought about what it would mean to want someone who might die in any season's campaign."
+“I have thought about this,” she said. “Since the night you stood in my hall and told me you were not a man who made promises. I have thought about what it would mean to want someone who might die in any season's campaign.”
 
-"And?"
+“And?”
 
-"And I decided that I would rather have one night I chose than a lifetime of nights I did not."
+“And I decided that I would rather have one night I chose than a lifetime of nights I did not.”
 
 She reached up and unpinned her hair. It fell past her shoulders, darker than the shadows around us.
 
-What happened next was not the coupling of poems, all moonlight and whispered endearments. It was something rawer—two people who had both learned that the world takes without asking, choosing for once to take something for themselves.
+What happened next was not the coupling of poems, all moonlight and whispered endearments. It was something rawer, two people who had both learned that the world takes without asking, choosing for once to take something for themselves.
 
-She was careful of my ribs. I was careful of the scars she carried that I could not see. We did not speak of love. We did not need to. The word would have been too small for what moved between us—grief and want and the desperate hunger to feel something other than the weight of the dead.
+She was careful of my ribs. I was careful of the scars she carried that I could not see. We did not speak of love. We did not need to. The word would have been too small for what moved between us, grief and want and the desperate hunger to feel something other than the weight of the dead.
 
 Afterward, we lay on the mat in the lamplight, her head on my shoulder, her breath warm against my neck.
 
-"Padmini will know," I said.
+“Padmini will know,” I said.
 
-"Padmini knew before I did," she replied. "Why do you think she showed me this room?"
+“Padmini knew before I did,” she replied. “Why do you think she showed me this room?”
 
 I laughed, then winced as my ribs protested.
 
-"That woman sees too much."
+“That woman sees too much.”
 
-"She sees what she needs to see," Revathi said. "And she decides what to remember."
+“She sees what she needs to see,” Revathi said. “And she decides what to remember.”
 
 She propped herself up on one elbow and looked at me.
 
-"This changes nothing," she said. "You are still a mercenary with no name and no house. I am still a princess with a dead husband and a living reputation to protect. In the morning, I will leave before the servants wake. We will not speak of this in daylight."
+“This changes nothing,” she said. “You are still a mercenary with no name and no house. I am still a princess with a dead husband and a living reputation to protect. In the morning, I will leave before the servants wake. We will not speak of this in daylight.”
 
-"And the next time?"
+“And the next time?”
 
-She smiled—a small, private thing that I had never seen her wear in public.
+She smiled, a small, private thing that I had never seen her wear in public.
 
-"The next time," she said, "you will have to earn."
+“The next time,” she said, “you will have to earn.”
 
 She rose, dressed in the darkness with the efficiency of a woman who had learned not to linger, and was gone before the first birds began to call.
 
 I lay in that hidden room until dawn crept through the cracks in the door. The lamp had burned out. The smell of her lingered on the mat, on my skin.
 
-Something had shifted. Not the world—the world remained indifferent to the small hungers of two people in a cellar. But something in me. A door I had kept barred since Keshavrao drowned, since my family faded into letters that grew shorter each year.
+Something had shifted. Not the world, the world remained indifferent to the small hungers of two people in a cellar. But something in me. A door I had kept barred since Keshavrao drowned, since my family faded into letters that grew shorter each year.
 
 I was still a man with no home. But for the first time since I had washed up on this coast, I was a man who wanted one.
+
+Before any of us returned to drill, the king went to settle a debt with his god.
+
+We rode north to Tiruvattar, to the Adi Kesava Perumal temple where the river runs clear over black stone and the air smells of wet moss and ghee lamps. Varma went in barefoot, no crown, only a white cloth and the bandage on his shoulder still stiff from Colachel. He laid gold and pepper at the inner shrine, a *kanikka* offering for a victory he believed had been granted as much by Padmanabha as by powder. When he rose, the Chief Priest brought out a long sword from the sanctum and placed it in his hands, the royal blade the deity is said to lend to kings who defend this land.
+
+On the ride back, he carried that sword across his knees as if it were a living thing. I had seen him ruthless in war, cunning in council, tender once or twice with a child. I had never seen him so certain. The work that followed felt like it marched behind that steel.
 
 After that, the drills began in earnest.
 
@@ -3063,7 +3361,7 @@ Marthanda Varma inclined his head slowly.
 
 From that day, the work changed.
 
-Walls that had been patched with whatever stone was at hand were stripped and rebuilt according to new designs. Bastions took on an angular, European look, jutting out like clenched fists. Firing steps were cut with careful calculations of height and angle. Old cannons were remounted, new ones cast or bought.
+Walls that had been patched with whatever stone was at hand were stripped and rebuilt according to new designs. Bastions took on an angular, European look, jutting out like clenched fists. Firing steps were cut with careful calculations of height and angle. Old cannons were remounted, new ones cast or bought. Udayagiri’s granite belly was thickened and braced, and the older fort at Kalkulam was rebuilt on the same star lines, then renamed Padmanabhapuram Fort so the capital would never be without teeth again.
 
 The first time I climbed one of those finished walls and looked down, my stomach did a small, unfamiliar twist. Deccan forts I had grown up with were proud, vertical things. They rose from crags like stacked fists, their lines clean, their corners square, their strength drawn as much from the hill beneath as from the stone above. You could ride up to such a fort, look at it, and know where its teeth sat and where its blind spots lay. Lannoy's designs were different. From above, the fort no longer looked like a box or a ring. It looked like a jagged flower or a star, each bastion thrust out at an angle so that every length of wall could be watched and raked by fire from another. There were no safe shadows at the base now, no stretch of stone that did not lie under some slit or parapet. Even the height felt strange. The walls were lower and thicker than the tall, showy ramparts of my childhood, built not to impress riders like me, but to swallow cannon shot and spit it aside.
 
@@ -3115,13 +3413,13 @@ We argued often.
 
 “Shock matters,” he insisted.
 
-"So does survival," I said. "These men have fields to return to when the wet season comes. If you burn them all in one summer, who will plant your pepper?"
+“So does survival,” I said. “These men have fields to return to when the wet season comes. If you burn them all in one summer, who will plant your pepper?”
 
 He glared, then sighed.
 
 “You are stubborn,” he said.
 
-"You are surprised?" I asked.
+“You are surprised?” I asked.
 
 He laughed, short and sharp.
 
@@ -3131,7 +3429,7 @@ The men watched these exchanges with a mixture of amusement and wariness.
 
 For them, we represented two very different kinds of foreignness.
 
-I was the Deccan outsider, with my Maratha tongue and my stories of forts in dry hills. Lannoy was the pale haired European, with his long nose and his talk of places with names like Zeeland and Flanders. We both spoke with the king's backing. We both shouted at them when drills went badly. We both bled with them when things went wrong.
+I was the Deccan outsider, with my Maratha tongue and my stories of forts in dry hills. Lannoy was the pale-haired European, with his long nose and his talk of places with names like Zeeland and Flanders. We both spoke with the king's backing. We both shouted at them when drills went badly. We both bled with them when things went wrong.
 
 Ramayyan hovered at the edge of our shared work, occasionally stepping in to smooth a quarrel, more often simply watching.
 
@@ -3151,7 +3449,7 @@ He also rode out to inspect the new forts that rose along the northern marches.
 
 His gaze slid to me when he said Tamil.
 
-A few days after one such inspection he appeared at the drill ground with a bundle of cloth over his arm.
+A few days after one such inspection, he appeared at the drill ground with a bundle of cloth over his arm.
 
 “If we are to face them,” he said, glancing toward the distant line of the sea where Dutch hulls rode, “let them see that we can stand in their order as well as our own.”
 
@@ -3159,7 +3457,7 @@ Lannoy unfolded short coats of rough blue cloth and stiff felt hats in the compa
 
 “We are not Dutch,” I said later, low enough that only Lannoy heard. “I will not dress like one of your ledgers on legs.”
 
-“Cloth does not decide who you serve,” he replied. “These coats make your men look like one body. They make European eyes see an army, not a crowd. Wear them when the Maharaja asks. Throw them aside when you ride home.” He looked at our infantry, bare chested, dhotis hitched, muskets on shoulders. “If a captain in Amsterdam sees a sketch of blue jackets and straight lines, he will think twice before sending a few more men as if they marched into a market.”
+“Cloth does not decide who you serve,” he replied. “These coats make your men look like one body. They make European eyes see an army, not a crowd. Wear them when the Maharaja asks. Throw them aside when you ride home.” He looked at our infantry, bare-chested, dhotis hitched, muskets on shoulders. “If a captain in Amsterdam sees a sketch of blue jackets and straight lines, he will think twice before sending a few more men as if they marched into a market.”
 
 I hated that he was right.
 
@@ -3169,7 +3467,7 @@ For a few breaths, from a distance, the line might almost have been one of the n
 
 Travancore's shape changed under this work.
 
-Villages that had once sent men only when summoned now saw their sons marching in regular drills on designated days. Chiefs who had kept small private bands of fighters began to send those men to be integrated into company sized units under the king's officers. The old, loose patchwork of levies and personal retainers slowly rewove itself into something tighter.
+Villages that had once sent men only when summoned now saw their sons marching in regular drills on designated days. Chiefs who had kept small private bands of fighters began to send those men to be integrated into company-sized units under the king's officers. The old, loose patchwork of levies and personal retainers slowly rewove itself into something tighter.
 
 Not everyone liked it.
 
@@ -3261,6 +3559,10 @@ Lannoy had gone very still when the first ball passed his ear. Afterward, in the
 
 For me, the musket marks at Udayagiri became one more line in the ledger of storms we now lived under. Not all of them came from the sea.
 
+The next morning the king sent for us. He listened to Ramayyan’s report, eyes flat, then turned to two Nair soldiers from his own household, men with scarred forearms and the quiet gait of temple guards.
+
+“You will walk with Kappithan Lannoy,” he told them. “You will walk with Sawant. Wherever they go, you are their shadow.” It was protection, yes. It was also a reminder. No weapon in this kingdom is left without a hand on its hilt.
+
 For a little while, another thought gnawed at me.
 
 Revathi had spoken more than once of how dangerous it was to let a foreign officer build teeth into this coast, how easy it would be, if a wall ever fell, to let it land on the man who had drawn its lines. Velinadu had eyes and ears in more places than I could count. It would not have been hard for someone who shared her hatred of European arrogance to whisper a path to a hired musket.
@@ -3300,141 +3602,183 @@ But it was the passengers in the palanquins who made the household hold its brea
 
 First, Marthanda Varma himself, stepping out with that familiar, coiled energy. Then, from a second, more ornate palanquin, a woman whose bearing mirrored his, the Senior Rani of Attingal, his sister. And with her, a boy of perhaps ten years, with wide, watchful eyes. The nephew. The heir.
 
-I stood by the jackfruit tree, ready to melt away since there was something secretive about this visit. "Stay," Padmini Amma said from the verandah. She was dressed in her finest white, fresh jasmine in her hair, but her face was set in lines of old iron. "This is not a state visit. It is a family matter."
+I stood by the jackfruit tree, ready to melt away since there was something secretive about this visit. “Stay,” Padmini Amma said from the verandah. She was dressed in her finest white, fresh jasmine in her hair, but her face was set in lines of old iron. “This is not a state visit. It is a family matter.”
 
-"I am not family, Amma," I said. "I should leave."
+“I am not family, Amma,” I said. “I should leave.”
 
-"You will stay," she repeated.
+“You will stay,” she repeated.
 
 The King did not stop for formalities. He walked up the steps, touched Padmini’s feet with a reverence I had rarely seen him show anyone, even priests.
 
-"Valiyamma," he said.
+“Valiyamma,” he said.
 
-"Highness," she replied, her voice soft. She looked at the woman and the boy. "And the future."
+“Highness,” she replied, her voice soft. She looked at the woman and the boy. “And the future.”
 
-The Rani inclined her head. "The past remembers the debt, Padmini amma. We have brought the boy to see the walls that saved his uncle."
+The Rani inclined her head. “The past remembers the debt, Padmini amma. We have brought the boy to see the walls that saved his uncle.”
 
-They moved into the inner courtyard, the *nalukettu*, where the open sky looked down on a sunken stone floor. The house was a masterpiece of the old style, its steep, gabled roofs swooping low. Dark teak pillars adhered to the corners, carved with Yalis and processions of elephants that seemed to march around the wood, carrying the weight of the roof on their backs. The floor beneath our feet was a seamless expanse of black oxide, polished with egg whites and coconut oil until it gleamed like a dark mirror.
+The boy stood very still, taking in the estate with eyes that missed nothing. He had his uncle's sharp cheekbones but his mother's watchful stillness. When his gaze passed over me, it paused, catalogued, moved on.
 
-The servants were dismissed. The guards remained outside. It was just Padmini, the Royal family, Ramayyan (who had arrived silently, as always), and me.
+“You are the Maratha,” he said. His voice had not yet broken, but it carried clearly. “The one who trains horses to dance with muskets.”
 
-I felt like an intruder in a shrine.
+“I am,” I said.
 
-"Sit," Marthanda Varma said, settling himself on a low wooden stool. The boy sat beside him, mimicking his posture.
+“My uncle says you once killed three men in Goa with a chain still on your wrist.”
 
-"Nagoji Sawant," the King said, looking at me. "You look ready to jump over the wall."
+“Your uncle exaggerates,” I said. “It was two men. The third I only broke.”
 
-"Royal visits usually involve more warning, Highness," I said. "And fewer secrets."
+The boy considered this.
 
-"This house has held bigger secrets than this," Varma said. His eyes roamed the wooden pillars, the dark timber ceiling. "Do you know why I trust Valiyamma more than my own ministers? Why her grain wagons pass my checkpoints without search?"
+“I would like to learn how to break men,” he said. “When I am older.”
+
+The Senior Rani placed a hand on his shoulder. “You will learn many things when you are older,” she said. Her voice was cool, measured, the voice of a woman who had spent her life ensuring her son would live long enough to learn anything at all. “For now, you will learn to watch and remember. That is what kings do before they act.”
+
+She looked at me, and I saw the calculation in her eyes, the same ledger-keeping that lived in her brother.
+
+“My brother trusts you,” she said. “I am slower to trust. But I am told you have kept him alive when others would have let him fall. That buys you my attention, if not yet my confidence.”
+
+“I ask for nothing more, Highness,” I said.
+
+“Good,” she said. “Men who ask for too much too quickly tend to lose what they already have.”
+
+They moved into the inner courtyard, the *nalukettu*, where the open sky looked down on a sunken stone floor. The house was a masterpiece of the old style, its steep, gabled roofs swooping low. Dark teak pillars stood at the corners, carved with Yalis and processions of elephants that seemed to march around the wood, carrying the weight of the roof on their backs. The floor beneath our feet was a seamless expanse of black oxide, polished with egg whites and coconut oil until it gleamed like a dark mirror.
+
+The servants were dismissed. The guards remained outside. It was just Padmini, the royal family, Ramayyan (who had arrived silently, as always), and me.
+
+I was an intruder in a shrine.
+
+“Sit,” Marthanda Varma said, settling himself on a low wooden stool. The boy sat beside him, mimicking his posture.
+
+“Nagoji Sawant,” the King said, looking at me. “You look ready to jump over the wall.”
+
+“Royal visits usually involve more warning, Highness,” I said. “And fewer secrets.”
+
+“This house has held bigger secrets than this,” Varma said. His eyes roamed the wooden pillars, the dark timber ceiling. “Do you know why I trust Valiyamma more than my own ministers? Why her grain wagons pass my checkpoints without being searched?”
 
 I glanced at Padmini. She was watching him with a mixture of affection and fierce protectiveness.
 
-"No, Highness."
+“No, Highness.”
 
-"Thirty years ago," the King said, his voice dropping to a murmur that barely carried across the stone, "I was not yet eight years old, but I was a hunted animal. The Lords of the Eight Houses, the *Ettuveetil Pillamar*, wanted my blood. They had poisoned my food, bribed my guards, and set assassins on the roads. I could trust no one. Not the palace, not the temples."
+“Thirty years ago,” the King said, his voice dropping to a murmur that barely carried across the stone, “I was not yet eight years old, but I was a hunted animal. The Lords of the Eight Houses, the *Ettuveetil Pillamar*, wanted my blood. They had poisoned my food, bribed my guards, and set assassins on the roads. I could trust no one. Not the palace, not the temples.”
 
 He pointed to a small wooden door in the corner, barely visible in the shadows.
 
-"That leads to the cellar," he said. "Beneath the granary. It is dark, full of spiders and the smell of old rice."
+“That leads to the cellar,” he said. “Beneath the granary. It is dark, full of spiders and the smell of old rice.”
 
-He looked at the boy. "I lived there for three weeks, while the Pillamar's men tore apart the village looking for me. I heard their boots on the floorboards above my head. I heard them threaten Valiyamma. I heard them hold a knife to her husband’s throat."
+He looked at the boy. “I lived there for three weeks, while the Pillamar's men tore apart the village looking for me. I heard their boots on the floorboards above my head. I heard them threaten Valiyamma. I heard them hold a knife to her husband’s throat.”
 
 The boy’s eyes widened.
 
-"And what did she do?" the King asked, his gaze shifting back to Padmini.
+“And what did she do?” the King asked, his gaze shifting back to Padmini.
 
-"I offered them buttermilk," Padmini said drily. "And told them that if they woke my baby, I would curse their lineage for seven generations. They were superstitious men. They left."
+“I offered them buttermilk,” Padmini said drily. “And told them that if they woke my baby, I would curse their lineage for seven generations. They were superstitious men. They left.”
 
-The King smiled, but it didn't reach his eyes. "She fed me when I was starving. She hid me when I was hunted. She risked her house, her life, and her child for a Prince who had nothing to give her but promises."
+The King smiled, but it didn't reach his eyes. “She fed me when I was starving. She hid me when I was hunted. She risked her house, her life, and her child for a prince who was fourth in line and had nothing to give her but promises.”
 
-"You have kept those promises," Padmini said.
+“You have kept those promises,” Padmini said.
 
-"Not all of them," Varma said. I am here to offer you a son, not as a replacement for your son and husband who were felled by the Pillamar's men but as a new stick for my Valliamma to support her in her old age.
+“Not all of them,” Varma said. “I am here to offer you a son, not as a replacement for your son and husband, felled by the Pillamar's men, but as a new staff for my Valiyamma to lean on in her old age.”
 
 He turned to me. The playfulness was gone.
 
-"Nagoji Sawant. You have commanded my horse. You have built my walls. You have bled at Colachel. You serve me better than men who share my blood."
+“Nagoji Sawant. You have commanded my horse. You have built my walls. You have bled at Colachel. You serve me better than men who share my blood.”
 
-"I serve the hand that feeds me," I said.
+“I serve the hand that feeds me,” I said.
 
-"That is a mercenary's answer," Ramayyan interjected from the shadows. "The King needs more than a mercenary. He needs a pillar."
+“That is a mercenary's answer,” Ramayyan interjected from the shadows. “The King needs more than a mercenary.”
 
-"You are a stranger here," the King continued. "A Maratha. A man with no clan, no *tharavad* to claim him. In Travancore, a man without a house is like smoke, he drifts with the wind. I cannot have my best cavalry commander drift."
+“You are a stranger here,” the King continued. “A Maratha. A man with no clan, no *tharavadu* to claim him. In Travancore, a man without a house is like smoke, he drifts with the wind. I cannot have my best cavalry commander drift.”
 
-He motioned to the Rani. She stepped forward, holding a silver plate with a folded cloth, a lamp, and a small ivory elephant, its tusk tipped with gold—a symbol of the strength the King wished to grant this new bond.
+He motioned to the Rani. She stepped forward, holding a silver plate with a folded cloth, a lamp, and a small ivory elephant, its tusk tipped with gold, a symbol of the strength the King wished to grant this new bond.
 
-"The priests say a man's caste is written in bone," the King said, his voice dry. "But I have found that even the gods' writing can be edited, if the ink is gold."
+“The priests say a man's caste is written in bone,” the King said, his voice dry. “But I have found that even the gods' writing can be edited, if the ink is gold.”
 
 He gestured to Ramayyan, who produced a small scroll tied with saffron thread.
 
-"The Chief Priest has discovered, after a surprisingly generous donation to the temple roof fund, that your lineage was not Maratha after all, but a lost branch of a Nair house that wandered north. A miracle." Varma’s eyes glittered. "You have been purified. The rituals were done in your absence, by proxy. You are a Nair now, Sawant. Or you will be, once the water touches you."
+“The Chief Priest has discovered, after a surprisingly generous donation to the temple roof fund, that your lineage was not Maratha after all, but a lost branch of a Nair house that wandered north. A miracle.” Varma’s eyes glittered. “You have been purified. The rituals were done in your absence, by proxy. You are a Nair now, Sawant. Or you will be, once the water touches you.”
 
 He looked at Padmini.
 
-"I formally request," the King said, using the high, formal Malayalam of the court, "that the House of Padmini Amma accept a new son. Not of blood, but of water and oath. That he be given the rights of the hearth, the protection of the name, and the duty of the lineage."
+“I formally request,” the King said, using the high, formal Malayalam of the court, “that the House of Padmini Amma accept a new son. Not of blood, but of water and oath. That he be given the rights of the hearth, the protection of the name, and the duty of the lineage.”
 
 The silence in the courtyard was absolute.
 
-I looked at Padmini. This was no small thing. What the King proposed was not the formal royal adoption of princes, but a *tharavad* inclusion—a ceremony by which a house could weave a stranger into its lineage through water, oath, and the consent of its senior woman. It was rare, but not unknown; the matrilineal houses of this coast had always found ways to graft useful branches onto their family trees. Still, it meant inheriting the debts, the feuds, the ancestors.
+I looked at Padmini. This was no small thing. What the King proposed was not the formal royal adoption of princes, but a *tharavadu* inclusion, a ceremony by which a house could weave a stranger into its lineage through water, oath, and the consent of its senior woman. It was rare, but not unknown; the matrilineal houses of this coast had always found ways to graft useful branches onto their family trees. Still, it meant inheriting the debts, the feuds, the ancestors.
 
 Padmini stood up. She walked over to me, her eyes searching my face.
 
-"He eats too much," she said to the King, her voice trembling slightly. "And he cleans his sword in the house, which annoys the servants. And he broods like an old woman when it rains."
+“He eats too much,” she said to the King, her voice trembling slightly. “And he cleans his sword in the house, which annoys the servants. And he broods like an old woman when it rains.”
 
 She reached out and cupped my face. Her hands were rough with work, warm and steady.
 
-Then she did something I did not expect. She took my wrist—my left wrist, where the Portuguese brand still sat like a pale scar against my skin—and turned it upward. She traced the ridged letters with her thumb, the way a mother might trace a wound she wished she could have prevented.
+Then she did something I did not expect. She took my wrist, my left wrist, where the Portuguese brand still sat like a pale scar against my skin, and turned it upward. She traced the ridged letters with her thumb, the way a mother might trace a wound she wished she could have prevented.
 
-"This mark," she said quietly, "says you belong to men who wanted to break you. It says you are property. It says you are less than the goats they slaughtered for their feasts."
+“This mark,” she said quietly, “says you belong to men who wanted to break you. It says you are property. It says you are less than the goats they slaughtered for their feasts.”
 
 Her grip tightened.
 
-"But this house," she said, "says otherwise. This house says you are mine. And no brand, no empire, no company of merchants will ever own what I have claimed."
+“But this house,” she said, “says otherwise. This house says you are mine. And no brand, no empire, no company of merchants will ever own what I have claimed.”
 
-She pressed her lips to the scar—a gesture so swift and fierce that I nearly pulled away. When she raised her head, her eyes were wet but her voice was iron.
+She pressed her lips to the scar, a gesture so swift and fierce that I nearly pulled away. When she raised her head, her eyes were wet but her voice was iron.
 
-"You are already my son in every way that matters to the gods. The only thing left is to tell the gods formally."
+“You are already my son in every way that matters to the gods. The only thing left is to tell the gods formally.”
 
-She turned to the King. "I accept."
+She turned to the King. “I accept.”
 
 The Rani stepped forward. She dipped her finger in the oil of the lamp and touched it to my forehead, then to the boy's.
 
-"Witness," she said to the young Prince. "This is how loyalty is woven. Not just with gold, but with kinship."
+“Witness,” she said to the young Prince. “This is how loyalty is woven. Not just with gold, but with kinship.”
 
 The King stood. He looked at me, and for the first time, I saw him not as the strategist or the warlord, but as a man paying a debt he had carried for thirty years.
 
-"You are Nagoji of Padmini's House now," he said. "The stranger is gone. Do not let us find him again."
+“You are Nagoji of Padmini's House now,” he said. “The stranger is gone. Do not let us find him again.”
 
-"I will not, Highness," I said, my voice thick.
+“I will not, Highness,” I said, my voice thick.
 
-"Good," he said. He gestured to the door. "Now, show the boy the cellar, Valiyamma. He needs to know that Kings do not always sit on thrones. Sometimes, they sit in the dark and wait for a woman with a sharp tongue to save them."
+“Good,” he said. He gestured to the door. “Now, show the boy the cellar, Valiyamma. He needs to know that Kings do not always sit on thrones. Sometimes, they sit in the dark and wait for a woman with a sharp tongue to save them.”
 
-The boy looked at the heavy wooden door, then up at the intricate lattice work of the ventilation screens above, where light filtered in geometric patterns. The palace he would one day inherit at Padmanabhapuram was grander, with its four-storied complex and the Mint Palace, but the grammar of the wood and stone was the same here. The same reverence for shadow, the same breathing walls.
+The boy looked at the heavy wooden door, then up at the intricate latticework of the ventilation screens above, where light filtered in geometric patterns. The palace he would one day inherit at Padmanabhapuram was grander, with its four-storied complex and the Mint Palace, but the grammar of the wood and stone was the same here. The same reverence for shadow, the same breathing walls.
 
 As they disappeared through the low doorway, Padmini turned to me.
 
-"A name," she said. "You need one that fits this house."
+“A name,” she said. “You need one that fits this house.”
 
-The Rani, pausing at the threshold, looked back. "In this land, a man belongs to his mother's line. You have no mother here. But you have Valiyamma."
+The Rani, pausing at the threshold, looked back. “In this land, a man belongs to his mother's line. You have no mother here. But you have Valiyamma.”
 
 Padmini was silent for a moment, her fingers still warm against my jaw.
 
-"Ananthan," she said finally. "For the serpent on which Lord Padmanabha rests. The one who holds up the world without asking for thanks."
+“Ananthan,” she said finally. “For the serpent on which Lord Padmanabha rests. The one who holds up the world without asking for thanks.”
 
-"Ananthan Pillai," Ramayyan said from the shadows, testing the sound. "It will do. The records will reflect it."
+“Ananthan Pillai,” Ramayyan said from the shadows, testing the sound. “It will do. The records will reflect it.”
+
+Footsteps returned from the cellar, soft on the black oxide floor. The boy came out first, eyes wide, dust on his knees as if the earth itself had claimed him for a moment and let him go. Marthanda Varma followed, one hand still on the boy’s shoulder.
+
+He stopped in front of me. In his hand was a small bundle wrapped in red cloth.
+
+“Ananthan Pillai,” he said, tasting the name. “Now you look like you belong.”
+
+The bundle landed in my palm, heavier than it should have been for its size. I unfolded the cloth and a blade caught the lamplight, straight, narrow, cold even in warm air. Near the hilt, stamped clean into the steel, was a conch, the royal mark.
+
+“Dutch steel,” the King said. “Fine Holland steel, taken off my beach and hammered into something worth carrying. If you must wear a foreigner’s iron at your belt, let it carry my sign.”
+
+The handle was ivory, fitted with gold at guard and pommel, fine work made for a courtier’s hand. I closed my fingers around it and felt the weight settle, certain, deliberate.
+
+“This is too much,” I said.
+
+“It is exactly enough,” he replied. “A name ties you to a house. A blade ties you to a duty. Keep it close. Let every man who sees it understand whose work you do.”
 
 The name settled on me like a second skin, strange and familiar at once.
 
-Nagoji Sawant had ridden into this land on a borrowed horse, branded by enemies, carrying nothing but the memory of a drowned friend and a war he could not finish.
+I had ridden into this land as Nagoji Sawant, on a borrowed horse, branded by enemies, carrying nothing but the memory of a drowned friend and a war I could not finish.
 
-Ananthan Pillai would stay.
+I would stay as Ananthan Pillai.
 
 Later, alone in the courtyard after they had gone, I traced the carved elephants on the nearest pillar. They marched in an endless procession, trunk to tail, carrying nothing, going nowhere, holding up the roof simply because that was what they had been made to do.
 
+The knife’s weight pressed at my waist, its conch a second mark against my skin. I understood then what the King had given and what he expected in return.
+
 I understood them now.
 
-***
+---
 
 Revathi came three days later.
 
@@ -3442,61 +3786,61 @@ She had heard, of course. News of a royal visit travels faster than horses, and 
 
 She found me on the verandah, watching the rain.
 
-"Ananthan Pillai," she said, testing the name the way one tests a blade's edge. "It suits you less than I expected."
+“Ananthan Pillai,” she said, testing the name the way one tests a blade's edge. “It suits you less than I expected.”
 
-"It will grow into me," I said. "Or I into it."
+“It will grow into me,” I said. “Or I into it.”
 
 She sat beside me, close enough that our shoulders almost touched. The rain made a curtain between us and the world.
 
-"You have a house now," she said. "A name. A mother who will fight tigers for you." There was something in her voice I could not read. "The stranger is gone."
+“You have a house now,” she said. “A name. A mother who will fight tigers for you.” There was something in her voice I could not read. “The stranger is gone.”
 
-"The stranger was always a story I told myself," I said. "A way to keep one foot outside the door. In case I needed to run."
+“The stranger was always a story I told myself,” I said. “A way to keep one foot outside the door. In case I needed to run.”
 
-"And now?"
+“And now?”
 
 I turned to look at her. The rain had dampened her hair, and droplets clung to her skin like scattered pearls.
 
-"Now I have a door of my own," I said. "And I would like you to come through it."
+“Now I have a door of my own,” I said. “And I would like you to come through it.”
 
-She raised an eyebrow. "That is bold, for a man who once told me he made no promises."
+She raised an eyebrow. “That is bold, for a man who once told me he made no promises.”
 
-"I am not making a promise," I said. "I am making an invitation."
+“I am not making a promise,” I said. “I am making an invitation.”
 
 I stood and held out my hand.
 
-She looked at it for a long moment. Then at me. Then at the house behind us—Padmini's house, my house now, with its carved elephants and its hidden rooms and its weight of history.
+She looked at it for a long moment. Then at me. Then at the house behind us, Padmini's house, my house now, with its carved elephants and its hidden rooms and its weight of history.
 
-"Padmini—" she began.
+“Padmini...” she began.
 
-"Has gone to the temple," I said. "She will not return until evening. The servants know better than to disturb the son of the house when he is entertaining."
+“Has gone to the temple,” I said. “She will not return until evening. The servants know better than to disturb the son of the house when he is entertaining.”
 
-A smile tugged at the corner of her mouth. "You have grown arrogant very quickly, Ananthan Pillai."
+A smile tugged at the corner of her mouth. “You have grown arrogant very quickly, Ananthan Pillai.”
 
-"I have grown certain," I said. "There is a difference."
+“I have grown certain,” I said. “There is a difference.”
 
 She took my hand.
 
 This time, I led. Through the corridors I now had the right to walk as master, past the storeroom and the granary, to the cellar door that no longer felt like a secret I was borrowing.
 
-"The last time," she said as I lit the lamp, "I brought you here."
+“The last time,” she said as I lit the lamp, “I brought you here.”
 
-"The last time, I had nothing to offer but myself," I said. "Now I have walls. A roof. A name that will not wash away with the next tide."
+“The last time, I had nothing to offer but myself,” I said. “Now I have walls. A roof. A name that will not wash away with the next tide.”
 
-"You think that matters to me?"
+“You think that matters to me?”
 
-"I think," I said, setting down the lamp and turning to face her, "that you have spent years being the one who decides. The one who comes and goes. The one who holds the door."
+“I think,” I said, setting down the lamp and turning to face her, “that you have spent years being the one who decides. The one who comes and goes. The one who holds the door.”
 
 I stepped closer.
 
-"Tonight," I said, "let me hold it."
+“Tonight,” I said, “let me hold it.”
 
-She studied my face in the flickering light. Looking for something—doubt, perhaps, or the old hesitation that had lived in me like a second heartbeat.
+She studied my face in the flickering light. Looking for something, doubt, perhaps, or the old hesitation that had lived in me like a second heartbeat.
 
 She did not find it.
 
-"One night," she said. "Then we see."
+“One night,” she said. “Then we see.”
 
-"One night," I agreed.
+“One night,” I agreed.
 
 But we both knew it was a lie. One night had already become two, and two would become more, and somewhere in the counting we would lose track and find that we had built something without meaning to.
 
@@ -3504,25 +3848,25 @@ This time was different. In the cellar where kings had hidden and strangers had 
 
 She let me unlace her blouse. She let me lay her down on the mat that still smelled faintly of old grain and older secrets. She let me set the pace, slow where before we had been urgent, deliberate where before we had been desperate.
 
-Afterward, she lay with her head on my chest, tracing the scar on my wrist—the brand that Padmini had kissed, the mark that no longer felt like a chain.
+Afterward, she lay with her head on my chest, tracing the scar on my wrist, the brand that Padmini had kissed, the mark that no longer felt like a chain.
 
-"You are different," she said.
+“You are different,” she said.
 
-"I am the same man."
+“I am the same man.”
 
-"No," she said. "You are the same soul. But the man has changed." She propped herself up to look at me. "The man who washed up on this coast would not have taken my hand. He would have waited for me to take his."
+“No,” she said. “You are the same soul. But the man has changed.” She propped herself up to look at me. “The man who washed up on this coast would not have taken my hand. He would have waited for me to take his.”
 
-"The man who washed up on this coast had nothing to offer."
+“The man who washed up on this coast had nothing to offer.”
 
-"He had himself," she said. "That was always enough. He just did not know it."
+“He had himself,” she said. “That was always enough. He just did not know it.”
 
 She kissed me once, soft and unhurried, then rose to dress.
 
-"I will come again," she said.
+“I will come again,” she said.
 
-"I know."
+“I know.”
 
-"Not because you have a house now," she added, pausing at the door. "But because you finally believe you deserve one."
+“Not because you have a house now,” she added, pausing at the door. “But because you finally believe you deserve one.”
 
 She left. The lamp guttered and died. I lay in the darkness of my own cellar, in my own house, and felt for the first time that the walls around me were not a cage but a foundation.
 
@@ -3551,9 +3895,9 @@ When the envoys arrived, their coats were more subdued than those of the men who
 
 Lannoy stood at the edge of the hall as they entered.
 
-I stood further in, to the right of the King’s platform. I was no longer the mercenary observing from the pillars. I was the *Valia Sarvadhi Karyakkar* of the Horse, wearing the heavy silver chain of office Padmini Amma had fastened around my neck that morning. The guards knew it, the ministers knew it, and from the way the Dutch envoys’ eyes lingered on me, they suspected that the "Maratha" had found a permanent stall in this stable. I was a man with a *tharavadu* now, and that gave me a weight that mere steel could not.
+I stood further in to the right of the King’s platform. I was no longer the mercenary observing from the pillars. I was the *Valia Sarvadhi Karyakkar* of the Horse, wearing the heavy silver chain of office Padmini Amma had fastened around my neck that morning. The guards knew it, the ministers knew it, and from the way the Dutch envoys’ eyes lingered on me, they suspected that the “Maratha” had found a permanent stall in this stable. I was a man with a *tharavadu* now, and that gave me a weight that mere steel could not.
 
-He wore a simple cotton coat over his European shirt, his hair tied back as always. A sword hung at his side, not the one he had surrendered at Colachel, but a similar blade, its hilt now wrapped in local cloth.
+Lannoy wore a simple cotton coat over his European shirt, his hair tied back as always. A sword hung at his side, not the one he had surrendered at Colachel, but a similar blade, its hilt now wrapped in local cloth.
 
 The Dutch envoys saw him and faltered.
 
@@ -3561,7 +3905,7 @@ For a heartbeat, their careful expressions cracked. Then they recovered, faces s
 
 “Captain De Lannoy,” the senior envoy said in Dutch, bowing slightly. “We were told...”
 
-He trailed off. What had they been told That he was dead That he was rotting in some dungeon That he had been shipped off to another colony
+He trailed off. What had they been told? That he was dead. That he was rotting in some dungeon. That he had been shipped off to another colony.
 
 Their eyes took in the sword at his side, the way Travancore guards stood near him without hostility, the way Ramayyan's gaze flicked to him with approval rather than suspicion.
 
@@ -3573,9 +3917,9 @@ Marthanda Varma sat on his platform as before, bare feet on the mat, spear withi
 
 “Maharaja,” the envoy said in careful Portuguese, then through a Malayalam interpreter, “the Honourable Dutch East India Company conveys its formal regrets for the unfortunate conflict at Colachel and wishes to restore relations based on mutual advantage.”
 
-“Regrets,” Marthanda Varma repeated. “You regret that your men died when they tried to land on my shore. Do you regret sending them”
+“Regrets,” Marthanda Varma repeated. “You regret that your men died when they tried to land on my shore. Do you regret sending them here at all?”
 
-The envoy spread his hands in that same well practised manner that men of his trade seemed to learn along with their letters.
+The envoy spread his hands in that same well-practised manner that men of his trade seemed to learn along with their letters.
 
 “Circumstances,” he said, “were misjudged. We underestimated the strength and resolve of Travancore. We have been instructed to correct this error.”
 
@@ -3595,7 +3939,7 @@ Ramayyan did not move to take it. Instead, he signalled to one of his own scribe
 
 The scribe read aloud in Portuguese, the interpreter trailing in Malayalam. Terms unrolled in the air.
 
-Recognition of Travancore's sovereignty over its present territories. Agreement not to build new forts or expand existing ones without consultation. Guarantees of pepper and other spices to the company at agreed prices. This was the Treaty of Mannar, a first step, though Ramayyan called it "only a pause for breath."
+Recognition of Travancore's sovereignty over its present territories. Agreement not to build new forts or expand existing ones without consultation. Guarantees of pepper and other spices to the company at agreed prices. This was the Treaty of Mannar, a first step, though Ramayyan called it “only a pause for breath.”
 
 “Who decides who is a pirate?” Revathi asked from where she sat beside Padmini. “In Velinadu, when we killed company men who broke their word, you called us pirates.”
 
@@ -3625,33 +3969,33 @@ There was a murmur in the hall.
 
 “Yes,” the envoy said.
 
-“And what do you offer,” Revathi asked, “for the men who died at Colachel and in Velinadu and in the smaller towns your patrols burned”
+“And what do you offer,” Revathi asked, “for the men who died at Colachel and in Velinadu and in the smaller towns your patrols burned?”
 
 The envoy hesitated.
 
-"We cannot bring back the dead," he said. "We can only ensure that more do not die in similar misunderstandings."
+“We cannot bring back the dead,” he said. “We can only ensure that more do not die in similar misunderstandings.”
 
 The envoy paused, and something flickered behind his careful expression.
 
-"We are also aware," he added, his tone shifting to something almost casual, "that not all houses on this coast share the Maharaja's... enthusiasm for consolidation. There are those who remember older arrangements. Older claims."
+“We are also aware,” he added, his tone shifting to something almost casual, “that not all houses on this coast share the Maharaja's... enthusiasm for consolidation. There are those who remember older arrangements. Older claims.”
 
 He did not look at anyone in particular. He did not need to.
 
 Ramayyan's stylus stopped moving. Marthanda Varma's eyes narrowed by a fraction. Revathi's hand, resting on her knee, curled into a loose fist.
 
-"If the company wished," the envoy continued, "we could simply wait. Support those who feel aggrieved. Let internal divisions do what external force could not."
+“If the company wished,” the envoy continued, “we could simply wait. Support those who feel aggrieved. Let internal divisions do what external force could not.”
 
 The words hung in the air like smoke after a musket shot.
 
-"You could," the king said softly. "You will find the cost higher than you expect."
+“You could,” the king said softly. “You will find the cost higher than you expect.”
 
-"Perhaps," the envoy said. "Or perhaps not. We have learned patience."
+“Perhaps,” the envoy said. “Or perhaps not. We have learned patience.”
 
 The threat was clear. Somewhere, someone the Dutch could use was waiting. A claim. A grievance. A kinswoman with long memories.
 
 I thought of the name I had seen in Ramayyan's ledger. Elayadathu. The entry marked HIGH.
 
-"Misunderstandings," Padmini said under her breath, her voice harder than before. "A pretty word for greed."
+“Misunderstandings,” Padmini said under her breath, her voice harder than before. “A pretty word for greed.”
 
 Marthanda Varma sat very still for a long moment.
 
@@ -3745,13 +4089,59 @@ Her words settled into me like stones in a pouch.
 
 Later, writing by lamplight, I noted the date, the names, the key terms. Not because I trusted my memory, but because I had learned from watching Ramayyan that paper, in the right hands, could be a weapon.
 
+Before the oil in the lamp had burned halfway down, a guard tapped at my door.
+
+“Ramayyan requests you,” he said. “Now.”
+
+---
+
+I found Ramayyan bent over his palm leaves, stylus moving as if the day had never ended.
+
+He was not alone. Ibrahim Marakkar sat on a low stool nearby, a cup of buttermilk in his hands, speaking in a low voice that stopped when I entered.
+
+“Sawant,” Ibrahim said, rising. “I was just leaving.”
+
+“Stay,” Ramayyan said, without looking up. “He should hear this too.”
+
+Ibrahim hesitated, then settled back onto his stool.
+
+“Dutch?” I asked.
+
+“Not Dutch,” Ramayyan said. “North.”
+
+Ibrahim's eyes held mine.
+
+“My cousins trade in Maratha ports,” he said. “They carry pepper and cloth and silver. They carry talk too. Pune has heard of Colachel. Some men call it luck. Some call it warning. Some say a kingdom that can break a company square might one day threaten Maratha borders. Others say such a kingdom might make a useful ally against the English, who are beginning to look south with hungry eyes.”
+
+I felt the room tighten around those names. Pune. English. Ally. Threat.
+
+“And which way does the wind blow?” I asked.
+
+Ibrahim stood.
+
+“The wind blows in circles,” he said. “It carries your name north and the Peshwa's name south. Somewhere in the middle, men are deciding whether those names should be written in treaties or in obituaries.”
+
+He touched his forehead in a gesture of respect and walked out, leaving the smell of sea salt behind him.
+
+I watched him go.
+
+“You trust him?” I asked.
+
+Ramayyan's stylus paused.
+
+“I trust his web,” he said. “Every strand vibrates when something moves. If he lies to me, another strand will tell me.”
+
+He returned to his leaf as if nothing had been said.
+
+“When the first letter comes,” he added, voice calm, “bring it to me.”
+
+---
+
 The Dutch had come bowing.
 
 It did not mean they had forgotten how to bite.
 
-But the shape of their teeth had changed.
-
-And we had been there to see it.
+But as I went back to my lamp and my notes, I could taste dust on the wind, dry and far away, carrying the Deccan toward this coast.
 # Book III, Chapter 19: Shadows of the Deccan
 
 News from the Deccan arrived the way monsoon storms do.
@@ -3790,7 +4180,7 @@ A neighbour's death. A cousin's marriage. A new well that had finally struck wat
 
 Then, near the end, a single line that made my chest tighten.
 
-Do you remember Keshavrao, who sat in the cell with you near the coast before they took you away We heard a tale from a coastal trader that a boy with his name died trying to escape a Portuguese ship. There are many boys and many names. Stories change as they travel. I do not know if this is true. I only know that when I heard it, I thought of you and the sea.
+Do you remember Keshavrao, who sat in the cell with you near the coast before they took you away? We heard a tale from a coastal trader that a boy with his name died trying to escape a Portuguese ship. There are many boys and many names. Stories change as they travel. I do not know if this is true. I only know that when I heard it, I thought of you and the sea.
 
 The words blurred for a moment.
 
@@ -3830,35 +4220,13 @@ She nodded.
 
 “Sharp and divided,” she said. “Dangerous combination.”
 
-Later, in the hall, I found Ramayyan bent over his palm leaves, as usual.
+Her words should have steadied me.
 
-“You have letters from the north,” he said without looking up. “The boy who brought them nearly ate his fingers when given rice. That is a Deccan hunger.”
+Instead, I heard Ibrahim's voice from the day the Dutch came bowing: the wind blows in circles, and names travel.
 
-“You knew before I did,” I said.
+By dusk, Ramayyan's runner found me.
 
-“It is my work to know where wind blows from,” he replied.
-
-“The wind says my Peshwa has heard your king's name,” I said. “Some in his court talk of learning from Travancore. Others talk of conquering it.”
-
-Ramayyan's stylus paused.
-
-“News travels fast when it flatters and when it threatens,” he said. “We expected this.”
-
-“You expected the Marathas to come south?” I asked.
-
-“I expected them to notice that there is one less European company on this stretch of coast,” he said. “Men who dream of empire do not ignore gaps on the map.”
-
-He finally looked up at me.
-
-“Do you wish to go back?” he asked.
-
-The question was blunt, but his tone was not unkind.
-
-“Part of me always does,” I said. “Part of me has already written my own funeral on those hills. Hard to say which part is louder on any given day.”
-
-“The king knows this,” Ramayyan said. “He would be a fool not to.”
-
-That evening, Marthanda Varma summoned me.
+“The Maharaja wants you,” he said. “Bring the letter.”
 
 We sat not in the crowded war hall, but in a smaller room off to the side, its walls lined with shelves of palm leaves and a few cloth wrapped volumes that had once been Portuguese property.
 
@@ -3884,11 +4252,11 @@ I thought of the men in Pune, of their hunger for land and revenue, of their pri
 
 “If they think you are weak, yes,” I said. “If they think you are useful, they will keep you as you are, so long as you do not interfere with their plans. They have many enemies closer to home.”
 
-“And you” he asked. “If they called you back, if they sent a letter with your brother, ordering you to return to serve under their banner again, what would you do”
+“And you?” he asked. “If they called you back, if they sent a letter with your brother, ordering you to return to serve under their banner again, what would you do?”
 
 The words landed like weights on the mat between us.
 
-I thought of my father, his back bent over a plough. Of my mother, her hands stained with turmeric and oil. Of my brother, sitting by lamp light, tongue between his teeth as he wrote this letter. Of Deccan forts where I had first learned to count men and cannons.
+I thought of my father, his back bent over a plough. Of my mother, her hands stained with turmeric and oil. Of my brother, sitting by lamplight, tongue between his teeth as he wrote this letter. Of Deccan forts where I had first learned to count men and cannons.
 
 I also thought of this king, sitting on a low platform surrounded by palm leaves and rolled maps, building a new kind of state because the old kinds were crumbling under European pressure.
 
@@ -3946,7 +4314,7 @@ Revathi was blunter.
 
 She leaned back against the carved pillar, a playful glint entering her eyes that softened the hard truth of her words.
 
-“Besides,” she added, “do not let that silver chain weigh you down with too much hope. Even if you have a *tharavad* now, I am a Princess of Velinadu. We do not marry commoners, Nagoji. Even ones who think they have found a root.”
+“Besides,” she added, “do not let that silver chain weigh you down with too much hope. Even if you have a *tharavadu* now, I am a Princess of Velinadu. We do not marry commoners, Nagoji. Even ones who think they have found a root.”
 
 It was said in jest, but the wall was there, invisible and ancient.
 
@@ -3956,7 +4324,7 @@ That night, I did not sleep.
 
 I sat on the verandah of my quarters, watching the moon trace its slow arc over the coconut palms. The estate was quiet save for the rhythmic croak of frogs in the irrigation channels and the distant bark of a village dog.
 
-I looked at my hands in the moonlight. The fingernails had grown back, but wrong—ridged and discoloured where the Portuguese interrogators had torn them out. I had stopped noticing them months ago. Now I studied them as if seeing them for the first time.
+I looked at my hands in the moonlight. The fingernails had grown back, but wrong, ridged and discoloured where the Portuguese interrogators had torn them out. I had stopped noticing them months ago. Now I studied them as if seeing them for the first time.
 
 These hands had held Maratha reins on Deccan dust. They had gripped Portuguese chains in Goa's darkness. They had pulled Keshavrao toward a rope that broke. They had trained Travancore cavalry in wet sand and held a dying chevar's wrist while a king drove steel through his throat.
 
@@ -4018,25 +4386,25 @@ When I reached Padmini’s estate, she was waiting by the gate, leaning on her s
 
 She nodded slowly, her eyes searching mine.
 
-"Then who stands before me?" she asked.
+“Then who stands before me?” she asked.
 
-I touched the cold silver of the chain around my neck. I looked at the red tiled roof of the *tharavad* that had sheltered a king and now sheltered me. I tasted the air, heavy with pepper and sea salt. It no longer tasted foreign.
+I touched the cold silver of the chain around my neck. I looked at the red tiled roof of the *tharavadu* that had sheltered a king and now sheltered me. I tasted the air, heavy with pepper and sea salt. It no longer tasted foreign.
 
-For a moment, I felt the pull of two currents—the dry wind of the Deccan, smelling of dust and millet and my mother's turmeric-stained hands; and the wet breath of this coast, carrying salt and pepper and the jasmine Padmini wore in her hair. They had been at war in my chest for years.
+For a moment, I felt the pull of two currents, the dry wind of the Deccan, smelling of dust and millet and my mother's turmeric-stained hands, and the wet breath of this coast, carrying salt and pepper and the jasmine Padmini wore in her hair. They had been at war in my chest for years.
 
 Now, standing at this gate, I let one of them go.
 
-Not forgotten. Never forgotten. But released, the way you release a horse too old to ride—with gratitude, with grief, with the knowledge that holding on would only make both of you suffer.
+Not forgotten. Never forgotten. But released, the way you release a horse too old to ride, with gratitude and grief, with the knowledge that holding on would only make both of you suffer.
 
 I looked at my scarred hands one last time. Nagoji Sawant's hands. Hands that had failed Keshavrao, that had been broken by Portuguese iron, that had somehow found their way to this red-tiled house on a pepper coast.
 
 They would not change. The scars would remain. But the name attached to them could.
 
-"Ananthan Pillai," I said.
+“Ananthan Pillai,” I said.
 
-The name felt strange on my tongue, new and stiff like unconquered leather. But it fit. Ananthan—the endless one, the serpent who holds up worlds. Pillai—the suffix that marked me as Padmini's son, as a man with roots in this soil even if his bones remembered another.
+The name felt strange on my tongue, new and stiff like unconquered leather. But it fit. Ananthan, the endless one, the serpent who holds up worlds. Pillai, the suffix that marked me as Padmini's son, as a man with roots in this soil even if his bones remembered another.
 
-Nagoji Sawant had died in the black water with Keshavrao. The sea had just taken longer to tell him.
+The man I had been, Nagoji Sawant, died in the black water with Keshavrao. The sea had just taken longer to tell me.
 
 Padmini Amma smiled, an expression that cracked the iron mask she usually wore.
 
@@ -4055,7 +4423,45 @@ The Travancore soldier had finally arrived.
 For the moment, that was enough.
 # Book III, Chapter 20: Guest in Velinadu
 
-Some months after Colachel and before fire ever touched Padmini's upper fields, the summons from Velinadu came on a piece of cloth, not a palm leaf.
+Some months after Colachel and before fire ever touched Padmini's upper fields, things shifted between Revathi and me.
+
+It began with small things. A message about canal rights that arrived addressed to me personally, not through Ramayyan's office. A question about horse breeds slipped into correspondence about levy schedules. An invitation to a temple festival in a village near her border, phrased as if my presence were required for security but attended by no one who needed securing.
+
+I rode to that festival. She was there, standing near the offering stones, her presence explained by some thin fiction about inspecting local granaries. We did not speak of anything important. We watched the procession, the drums, the brass lamps carried by women in white. When our hands brushed reaching for the same plate of *prasadam*, neither of us pulled away.
+
+“You are far from your marches,” she said.
+
+“The marches can spare me for a day,” I said.
+
+“Only a day?”
+
+“Perhaps two.”
+
+It was two days, and then three. I slept in a guesthouse near the temple, and each morning she found some reason to be walking the same paths I walked. We spoke of the kingdom, of the Dutch who had bowed, of the chiefs who still grumbled. We did not speak of what we were doing, circling each other like two hawks who had spotted the same thermal.
+
+On the third evening, as the festival ended and the crowds dispersed, she stopped at the edge of the village where her escort waited.
+
+“This cannot continue,” she said.
+
+“No,” I agreed.
+
+“It is noticed. People talk. Ramayyan has already written three lines about it in his ledger.”
+
+“Only three?”
+
+She did not smile.
+
+“Come to Velinadu,” she said. “When you are ready to speak plainly. Not before.”
+
+She rode away without looking back.
+
+It took me two months to find the courage. In that time, I told myself a dozen reasons why it was impossible, why the gap between us was too wide, why a landless Maratha and a Princess of Velinadu belonged in different stories. Each reason crumbled when I remembered her hand brushing mine over the *prasadam*.
+
+Then the summons came.
+
+---
+
+The summons from Velinadu came on a piece of cloth, not a palm leaf.
 
 Padmini handed it to me under the jackfruit tree, her fingers lingering on the edge as if reluctant to let it go.
 
@@ -4092,8 +4498,6 @@ Her mouth twitched.
 We walked the length of the verandah in silence for a while, listening to the household move around us. Women’s bangles. The thud of grain being pounded. The distant shout of a boy in the kalari.
 
 She stopped near a pillar and rested her hand against it.
-
-“Because I am tired,” she said. “And I am besieged.”
 
 She turned to face me fully.
 
@@ -4185,45 +4589,70 @@ Her hand brushed mine, the same light touch as on that verandah after the Dutch 
 
 The marriage itself was smaller than any court scribe would have wanted and larger than either of us would admit mattered.
 
-There were no trumpets, only drums—the deep, rolling *chenda* that set the blood moving, and the sharper *thimila* that answered like a heartbeat. No foreign captains, only house elders. No long lines of guests, only those who had carried these years with us.
+There were no trumpets, only drums, the deep, rolling *chenda* that set the blood moving, and the sharper *thimila* that answered like a heartbeat. No foreign captains, only house elders. No long lines of guests, only those who had carried these years with us.
 
-Dhanaji arrived the morning of the ceremony, dusty from the road, with a cloth bundle under his arm and a grin I had not seen since we were young men racing horses on the Deccan plateau.
+Dhanaji arrived the morning of the ceremony, dusty from the road, with a grin I had not seen since we were young men racing horses on the Deccan plateau.
 
-"You could have sent word earlier," he said, clasping my arm. "I had to bribe three boatmen and outride a tax collector to get here in time."
+“You could have sent word earlier,” he said, clasping my arm. “I had to bribe three boatmen and outride a tax collector to get here in time.”
 
-"I did not know myself until a week ago," I said. "Revathi does not believe in long engagements."
+“I did not know myself until a week ago,” I said. “Revathi does not believe in long engagements.”
 
-"She does not believe in anything that wastes time," he said. "I have learned that much." He looked around the courtyard, at the preparations underway, the flowers being strung, the brass vessels being polished. "So. The last of us to fall."
+“She does not believe in anything that wastes time,” he said. “I have learned that much.” He looked around the courtyard, at the preparations underway, the flowers being strung, the brass vessels being polished. “So. The last of us to fall.”
 
-"You never fell," I said.
+“You never fell,” I said.
 
-"I fell many times," he said. "I simply never let anyone catch me." He held up the cloth bundle. "I brought you something. For after."
+“I fell many times,” he said. “I simply never let anyone catch me.” His eyes dropped to my waist, to the pale curve of ivory at my belt. The gold caught the light even under the courtyard shade.
 
-"After what?"
+“Since when do you wear a king’s jewellery?” he asked.
 
-"After you remember that a married man still needs a blade that does not belong to his wife's household."
+“It is not jewellery,” I said. I loosened the cloth that covered the hilt. Fine things in a crowded house invite hungry fingers. “The Maharaja gave it to me after the adoption. Dutch steel, reforged. His conch stamped into the blade so no one forgets who owns the work.”
 
-He unwrapped the cloth. Inside lay a knife—not a fighting blade, but a personal one, the kind a man carries for small tasks and smaller emergencies. The handle was ivory, yellowed with age, carved with a pattern of horses running in a line that seemed to move when the light shifted.
+Dhanaji’s grin died.
 
-"This was my father's," Dhanaji said. "He gave it to me when I left for the wars. I have no sons to pass it to, and no plans to make any. You are the closest thing I have to a brother in this world. Take it."
+“No,” he said at once. “Keep it.”
 
-I could not speak for a moment. The ivory was warm in my hand, worn smooth by decades of use.
+The knife had ridden at my waist since the day Padmini named me. Giving it away felt like loosening a knot I had only just learned to tie.
 
-"Dhanaji—"
+I drew it anyway and placed it in his palm, hilt first.
 
-"Do not make it sentimental," he said gruffly. "It is just a knife. But it is a knife that has seen the Deccan and the coast and everything between. Let it see your children learn to ride. That is enough."
+He tried to give it back as if it burned him.
 
-I tucked the blade into my waistcloth, where it sat against my hip like an old friend settling into a familiar chair.
+“Do you want me to ride with your king’s mark on my hip?” he said, low. “Back in the Deccan, they will call it betrayal. Here, they will call it a leash.”
 
-"Stay for the feast," I said. "There will be enough food to make even you stop talking."
+“It cuts rope,” I said. “It cuts flesh. It is only a leash if you let it pull you.”
 
-"I would not miss it," he said. "Someone has to tell embarrassing stories about your youth. The bride deserves to know what she is getting."
+He stared at me, jaw tight. “And you do not feel it pulling?”
+
+The Portuguese brand on my wrist ached with an old memory. Padmini’s kiss on the scar. Varma’s conch pressing a new ownership against my skin.
+
+“I know exactly what it is,” I said. “That is why you should have it.”
+
+“Why?” he demanded.
+
+“Because I am tying myself to this coast,” I said. “You are the one man who remembers the Deccan boy under my skin. Take it, Dhanaji. If the gods cut you down here, let your son come south with it. Let him find me by the conch and the gold. I will not turn him away.”
+
+For a moment, the courtyard noise thinned. Dhanaji swallowed.
+
+“You swear that?” he asked.
+
+“I swear it,” I said.
+
+He slid the knife into his belt under his cloth, hiding the gold like contraband.
+His hand stayed there a moment, as if he needed to feel the weight and know it was real.
+
+“If anyone asks,” he said hoarsely, “I stole it.”
+
+“If anyone asks,” I said, “tell them you earned it.”
+
+“Stay for the feast,” I said. “There will be enough food to make even you stop talking.”
+
+“I would not miss it,” he said. “Someone has to tell embarrassing stories about your youth. The bride deserves to know what she is getting.”
 
 ---
 
 The ceremony began as the sun touched the tops of the coconut palms.
 
-Padmini stood beside Revathi, her stick planted firm, her eyes bright with something fiercer than tears. She had dressed in her finest white, and the jasmine in her hair filled the air with sweetness. When she looked at me, I saw not just approval but something like completion—as if a circle she had been drawing for years had finally closed.
+Padmini stood beside Revathi, her stick planted firm, her eyes bright with something fiercer than tears. She had dressed in her finest white, and the jasmine in her hair filled the air with sweetness. When she looked at me, I saw not just approval but something like completion, as if a circle she had been drawing for years had finally closed.
 
 Lannoy stood near the back, awkward in local cloth, watching with the expression of a man who could not decide whether this counted as a military alliance or something more dangerous. Ramayyan hovered near a pillar, lips moving as if already turning the scene into neat lines on palm leaves. Dhanaji leaned against the far wall, arms crossed, smiling.
 
@@ -4231,9 +4660,9 @@ The priest chanted in Sanskrit I only half understood, his voice rising and fall
 
 And then the moment came.
 
-The priest held up the *tali*—a small gold ornament on a yellow thread, simple compared to the heavy necklaces I had seen on northern brides, but carrying the weight of a thousand years of tradition. He blessed it with water and ash and words older than any kingdom on this coast.
+The priest held up the *tali*, a small gold ornament on a yellow thread, simple compared to the heavy necklaces I had seen on northern brides, but carrying the weight of a thousand years of tradition. He blessed it with water and ash and words older than any kingdom on this coast.
 
-"Take it," the priest said to me. "Tie it, and she is yours. She ties her thread to you, and you are hers. Three knots for three lives—past, present, and what is yet to come."
+“Take it,” the priest said to me. “Tie it, and she is yours. She ties her thread to you, and you are hers. Three knots for three lives, past, present, and what is yet to come.”
 
 I looked at Revathi.
 
@@ -4241,7 +4670,7 @@ She was not looking at the priest or the fire or the watching elders. She was lo
 
 I took the *tali* in my hands. The gold was warm from the priest's palm, the thread soft against my fingers. I had held swords and reins and dying men. I had never held anything that felt as heavy as this small piece of metal.
 
-Revathi bowed her head, exposing the nape of her neck. I saw a small scar there, near her hairline—something I had never noticed in all our nights in the cellar. A childhood wound, perhaps. A story I did not yet know.
+Revathi bowed her head, exposing the nape of her neck. I saw a small scar there, near her hairline, something I had never noticed in all our nights in the cellar. A childhood wound, perhaps. A story I did not yet know.
 
 I would have time to learn it now.
 
@@ -4257,7 +4686,7 @@ The second knot.
 
 *For the present. For what you are to each other now.*
 
-Revathi's breath was warm against my wrist. She reached up, not to adjust the thread, but to touch my hand—a brief pressure, steadying me, telling me without words that she was here, that this was real, that I was not dreaming in some fever after Colachel.
+Revathi's breath was warm against my wrist. She reached up, not to adjust the thread, but to touch my hand, a brief pressure, steadying me, telling me without words that she was here, that this was real, that I was not dreaming in some fever after Colachel.
 
 The third knot.
 
@@ -4265,25 +4694,25 @@ The third knot.
 
 I pulled the knot tight.
 
-When I looked up, Revathi's eyes were wet. Not with sorrow. With something I had never seen her permit herself to show in public—hope.
+When I looked up, Revathi's eyes were wet. Not with sorrow. With something I had never seen her permit herself to show in public, hope.
 
-"It is done," the priest said.
+“It is done,” the priest said.
 
 The drums began again, louder now, triumphant. Women ululated, the sound piercing the evening air. Somewhere, Dhanaji whooped like a boy at a horse fair.
 
-But I heard none of it. I was looking at my wife—my *wife*—and she was looking back at me, and for a moment the world was only the two of us and the thin gold thread that now bound us.
+But I heard none of it. I was looking at my wife, my *wife*, and she was looking back at me, and for a moment the world was only the two of us and the thin gold thread that now bound us.
 
-"You did not drop it," she murmured, too soft for anyone else to hear.
+“You did not drop it,” she murmured, too soft for anyone else to hear.
 
-"I almost did," I admitted.
+“I almost did,” I admitted.
 
-"I know," she said. "I felt your hands shaking. The great cavalry commander, terrified of a piece of string."
+“I know,” she said. “I felt your hands shaking. The great cavalry commander, terrified of a piece of string.”
 
-"The string is easy," I said. "It is what it means that terrifies me."
+“The string is easy,” I said. “It is what it means that terrifies me.”
 
-She smiled—the private smile, the one she had first shown me in the cellar.
+She smiled, the private smile, the one she had first shown me in the cellar.
 
-"Good," she said. "Stay terrified. It will keep you honest."
+“Good,” she said. “Stay terrified. It will keep you honest.”
 
 ---
 
@@ -4293,23 +4722,23 @@ Banana leaves lined the courtyard floor, each one a green platter waiting to be 
 
 But the dish that drew murmurs of appreciation was the *avial*.
 
-It arrived in brass vessels, steam rising, vegetables cut into precise batons—drumstick, yam, raw banana, beans, snake gourd—all bound together in a sauce of coconut and yoghurt, tempered with curry leaves and a whisper of coconut oil. The aroma alone was enough to make a hungry man weep.
+It arrived in brass vessels, steam rising, vegetables cut into precise batons, drumstick, yam, raw banana, beans, snake gourd, all bound together in a sauce of coconut and yoghurt, tempered with curry leaves and a whisper of coconut oil. The aroma alone was enough to make a hungry man weep.
 
-"Ramayyan invented this," Padmini said, noticing my expression. "Years ago, during a siege, when we had many vegetables and little else. He told the cooks to combine everything and pray. It worked better than prayer usually does."
+“Ramayyan invented this,” Padmini said, noticing my expression. “Years ago, during a siege, when we had many vegetables and little else. He told the cooks to combine everything and pray. It worked better than prayer usually does.”
 
 I looked at the Dalawa, who was methodically mixing his rice with *sambar*, pretending not to hear.
 
-"You invented a dish?" I asked.
+“You invented a dish?” I asked.
 
-"I solved a logistics problem," he said without looking up. "The cooks merely executed."
+“I solved a logistics problem,” he said without looking up. “The cooks merely executed.”
 
-Revathi laughed—a real laugh, unguarded, the first I had heard from her all day.
+Revathi laughed, a real laugh, unguarded, the first I had heard from her all day.
 
-"He also insisted on the precise sequence of cutting," she said. "Something about the vegetables cooking at the same rate. He wrote it down in one of his ledgers."
+“He also insisted on the precise sequence of cutting,” she said. “Something about the vegetables cooking at the same rate. He wrote it down in one of his ledgers.”
 
-"Some things," Ramayyan said primly, "are worth recording."
+“Some things,” Ramayyan said primly, “are worth recording.”
 
-I bent to my leaf and ate as the Malabar coast ate—with my fingers, mixing rice and curry into small balls, the coconut oil slick on my palm, the flavours layering on my tongue in ways that Deccan food never had. The *avial* was unlike anything I had tasted: creamy and earthy, the vegetables still holding their shape, the yoghurt adding a tang that cut through the richness.
+I bent to my leaf and ate as the Malabar coast ate, with my fingers, mixing rice and curry into small balls, the coconut oil slick on my palm, the flavours layering on my tongue in ways that Deccan food never had. The *avial* was unlike anything I had tasted: creamy and earthy, the vegetables still holding their shape, the yoghurt adding a tang that cut through the richness.
 
 For a moment, surrounded by the sounds of eating and laughter and the occasional clatter of a serving ladle, I forgot that I was a Maratha in a Nair house, a sword in a land of pepper. I was simply a hungry man at a wedding feast, grateful for the food and the company.
 
@@ -4341,35 +4770,35 @@ We sat in companionable silence, listening to the house settle. Somewhere a chil
 
 After a time, she rose.
 
-"Come," she said, and held out her hand.
+“Come,” she said, and held out her hand.
 
 She did not lead me to the cellar.
 
-She led me to her room—the room that had been hers alone since her first husband died, the room where the matriarch of Velinadu slept and woke and made the decisions that shaped a thousand lives. The door was carved teak, old and heavy. She pushed it open without ceremony.
+She led me to her room, the room that had been hers alone since her first husband died, the room where the matriarch of Velinadu slept and woke and made the decisions that shaped a thousand lives. The door was carved teak, old and heavy. She pushed it open without ceremony.
 
-Inside, a single lamp burned. The bed was low, spread with white cloth, strewn with jasmine that the women of the house had scattered there as was customary. The smell was almost overwhelming—sweetness and tradition and expectation.
+Inside, a single lamp burned. The bed was low, spread with white cloth, strewn with jasmine that the women of the house had scattered there as was customary. The smell was almost overwhelming, sweetness and tradition and expectation.
 
-"No cellar tonight," she said, reading my expression. "No hiding. You are my husband now. This is your room as much as mine."
+“No cellar tonight,” she said, reading my expression. “No hiding. You are my husband now. This is your room as much as mine.”
 
-"It does not feel like mine," I said.
+“It does not feel like mine,” I said.
 
-"It will," she said. "Give it time."
+“It will,” she said. “Give it time.”
 
-She began to remove her jewelry—the heavy gold at her ears, the bangles at her wrists, the *tali* she left. Each piece she set on a wooden stand with the precision of ritual.
+She began to remove her jewelry, the heavy gold at her ears, the bangles at her wrists, the *tali* she left. Each piece she set on a wooden stand with the precision of ritual.
 
-"In the cellar," she said, her back to me, "we were thieves. Stealing hours. Pretending the world did not exist beyond those walls."
+“In the cellar,” she said, her back to me, “we were thieves. Stealing hours. Pretending the world did not exist beyond those walls.”
 
 She turned.
 
-"Tonight, we are not thieves. Tonight, we are husband and wife, in our own home, with the blessings of priests and the knowledge of everyone who matters. There is nothing to hide from."
+“Tonight, we are not thieves. Tonight, we are husband and wife, in our own home, with the blessings of priests and the knowledge of everyone who matters. There is nothing to hide from.”
 
-She reached up and unpinned her hair. It fell the way it had that first night—darker than shadows, longer than memory.
+She reached up and unpinned her hair. It fell the way it had that first night, darker than shadows, longer than memory.
 
-"I find," she said, "that I do not know how to do this without hiding. I have been a widow so long that secrecy became a skin. Help me shed it."
+“I find,” she said, “that I do not know how to do this without hiding. I have been a widow so long that secrecy became a skin. Help me shed it.”
 
-I crossed the room to her. I took her face in my hands—the same hands that had trembled tying the *tali*, now steady.
+I crossed the room to her. I took her face in my hands, the same hands that had trembled tying the *tali*, now steady.
 
-"We learn together," I said.
+“We learn together,” I said.
 
 This time was different from the cellar.
 
@@ -4377,17 +4806,17 @@ There was no urgency, no desperation, no fear of footsteps overhead. There was o
 
 She was different too. The guarded woman who had always held something back, some final reserve, let it fall away piece by piece. When she pulled me down to the bed, it was not with the fierce hunger of stolen time but with the quiet certainty of claimed ground.
 
-I learned the scar at her hairline—a fall from a mango tree when she was seven. I learned the ticklish spot behind her knee that made her gasp and then laugh. I learned the way she said my name, my real name, *Nagoji*, when she forgot to be careful, and the way she corrected herself to *Ananthan* and then gave up and used neither, just sounds, just breath.
+I learned the scar at her hairline, a fall from a mango tree when she was seven. I learned the ticklish spot behind her knee that made her gasp and then laugh. I learned the way she said my name, my real name, *Nagoji*, when she forgot to be careful, and the way she corrected herself to *Ananthan* and then gave up and used neither, just sounds, just breath.
 
-And she learned me. The brand she had traced before, she now kissed—not with Padmini's fierce claiming, but with a tenderness that undid me more completely. The scars from Colachel, still pink and puckered along my ribs. The grey that had crept into my hair since we first met.
+And she learned me. The brand she had traced before, she now kissed, not with Padmini's fierce claiming, but with a tenderness that undid me more completely. The scars from Colachel, still pink and puckered along my ribs. The grey that had crept into my hair since we first met.
 
-"You are older," she said, tracing a line at my temple.
+“You are older,” she said, tracing a line at my temple.
 
-"So are you," I said.
+“So are you,” I said.
 
-"I have earned it," she said. "You have merely survived."
+“I have earned it,” she said. “You have merely survived.”
 
-"Survival is its own earning," I said.
+“Survival is its own earning,” I said.
 
 She smiled and pulled me closer, and for a long time there were no more words.
 
@@ -4395,21 +4824,9 @@ She smiled and pulled me closer, and for a long time there were no more words.
 
 Afterward, she lay with her head on my chest, her fingers drawing idle patterns on my skin.
 
-"The women will check the sheets tomorrow," she said. "It is tradition. They will be looking for proof."
+“I should go,” I said, old habit speaking. “Before the servants...”
 
-"Proof of what?"
-
-"That the marriage was consummated. That the union is real." She laughed softly. "As if a piece of cloth could prove anything about what passes between two people."
-
-"What will they find?"
-
-"Evidence," she said. "And gossip for a week. Let them have it. They have little enough entertainment."
-
-The lamp had burned low. Through the window, I could see the first grey hint of dawn touching the sky.
-
-"I should go," I said, old habit speaking. "Before the servants—"
-
-"You should stay," she said, her arm tightening around me. "You are not a guest anymore, Ananthan. You do not have to leave before the house wakes. You can be here when the sun rises. You can eat breakfast in this room if you wish. You can walk these corridors without looking over your shoulder."
+“You should stay,” she said, her arm tightening around me. “You are not a guest anymore, Ananthan. You do not have to leave before the house wakes. You can be here when the sun rises. You can eat breakfast in this room if you wish. You can walk these corridors without looking over your shoulder.”
 
 The words settled into me slowly, like water into dry earth.
 
@@ -4417,13 +4834,13 @@ I did not have to leave.
 
 I could stay.
 
-"It will take time," I said, "to stop feeling like a thief."
+“It will take time,” I said, “to stop feeling like a thief.”
 
-"I know," she said. "It took me years to stop feeling like a widow. Some mornings I still wake and reach for a man who has been dead longer than you have been on this coast." She propped herself up to look at me. "We are both haunted. But perhaps haunted people can keep each other company."
+“I know,” she said. “It took me years to stop feeling like a widow. Some mornings I still wake and reach for a man who has been dead longer than you have been on this coast.” She propped herself up to look at me. “We are both haunted. But perhaps haunted people can keep each other company.”
 
 I pulled her back down, her head settling into the hollow of my shoulder as if it had been made for that purpose.
 
-"Company," I said. "Yes. I think I can do that."
+“Company,” I said. “Yes. I think I can do that.”
 
 We slept then, tangled together, while the house woke around us and the servants whispered and the children of Velinadu began their morning noise. For the first time, I did not wake at the sound of footsteps. For the first time, I did not reach for a weapon.
 
@@ -4464,13 +4881,13 @@ He did not look surprised to see me.
 
 “You found my garden,” he said.
 
-“Garden” I asked, dripping rainwater onto the floor.
+“Garden?” I asked, dripping rainwater onto the floor.
 
 “These are the plants I tend,” he said, gesturing at the shelves. “Some bear fruit. Some only thorns.”
 
 I stepped closer, careful not to brush against the bundles.
 
-“What are they” I asked, though I had already guessed.
+“What are they?” I asked, though I had already guessed.
 
 “Records,” he said. “Of land. Of grain. Of taxes. Of temple offerings. Of letters. Of men.”
 
@@ -4488,7 +4905,7 @@ First appearance: Goan dungeon, retrieved by Travancore allies.
 Skills: cavalry command, European engagement, adaptability.  
 Family: father (farmer), mother, younger brother.  
 Loyalties: to Maratha ideal, to personal honour, increasingly to Travancore king.  
-Risks: potential Maratha recall (mitigated by Velinadu bond), emotional ties northward, relationship with Revathi Bayi (Alliance tied/Marriage).
+Risks: potential Maratha recall (mitigated by Velinadu bond), emotional ties northward, relationship with Revathi Bayi (alliance tied, marriage).
 
 The last word made me cough.
 
@@ -4513,15 +4930,15 @@ Dutch contact: confirmed. Letters intercepted: three.
 Velinadu connection: blood tie to Revathi Bayi. Leverage: significant.  
 Risk assessment: HIGH. Timeline: before next monsoon.
 
-The words "before next monsoon" had been underlined twice.
+The words “before next monsoon” had been underlined twice.
 
-Ramayyan turned the leaf over before I could read more, but not before I saw his finger pause on one line. The line that said "Velinadu connection."
+Ramayyan turned the leaf over before I could read more, but not before I saw his finger pause on one line. The line that said “Velinadu connection.”
 
 He did not explain. I did not ask. Some ledgers are not meant to be read aloud.
 
 He tapped Lannoy's name instead.
 
-"He worries about his soul," he said. "That is useful to know."
+“He worries about his soul,” he said. “That is useful to know.”
 
 I felt an odd mixture of amusement and discomfort.
 
@@ -4619,12 +5036,12 @@ The rain outside had eased to a drizzle. The light in the room was soft, filtere
 “Why show me this?” I asked. “You could have sent me away.”
 
 “Because you walk with half your weight in the north and half here,” he said.
- 
- "I married into Velinadu," I countered. "I sent my brother the final gold. I am here."
- 
- "Marriages end," Ramayyan said, unmoved. "Gold runs out. Roots are harder to kill than branches. I watch to ensure they do not regrow. You need to understand what you carry in this land. Not just your sword. Your shadow. You are not just a man who trains horses. You are a potential message. A symbol. A warning. It is better you see how I measure that than imagine monsters where there are only old men with styluses.”
 
-“Old” I said, raising an eyebrow.
+“I married into Velinadu,” I countered. “I sent my brother the final gold. I am here.”
+
+“Marriages end,” Ramayyan said, unmoved. “Gold runs out. Roots are harder to kill than branches. I watch to ensure they do not regrow. You need to understand what you carry in this land. Not just your sword. Your shadow. You are not just a man who trains horses. You are a potential message. A symbol. A warning. It is better you see how I measure that than imagine monsters where there are only old men with styluses.”
+
+“Old?” I said, raising an eyebrow.
 
 He chuckled.
 
@@ -4745,7 +5162,7 @@ In the same motion, his left hand came up from beneath the edge of his cloth.
 
 Steel flashed.
 
-A long dagger, curved slightly, double edged, held in a reversed grip, the point angled toward his own body, ready to plunge forward into another's.
+A long dagger, curved slightly, double-edged, held in a reversed grip, the point angled toward his own body, ready to plunge forward into another's.
 
 He lunged toward the king's spine.
 
@@ -4795,7 +5212,7 @@ I caught the chevar's wrist with both hands now, fighting not just his arm, but 
 
 We looked like dancers locked in an awkward embrace, our arms tangled, our faces inches apart.
 
-His breath stank of betel and something metallic, as if he had been chewing on his own resolve. His eyes were wide, pupils blown, not with fear, but with some fierce joy.
+His breath stank of betel and something metallic, with a resinous sweetness I had smelled in northern camps. Kanjav, chewed to make a man deaf to the thought of his own death. His eyes were wide, pupils blown, not with terror, but with some fierce joy.
 
 “For the old houses,” he rasped again, in a voice torn by the strike to his throat. “For those he broke.”
 
@@ -5021,7 +5438,7 @@ He raised his cup of watered buttermilk.
 
 I raised mine.
 
-“To ledgers that keep us alive long enough to regret our choices,” I replied.
+“To careful reckonings that keep us alive long enough to regret our choices,” I replied.
 
 He laughed, wincing, and drank.
 
@@ -5098,7 +5515,7 @@ In one village that lay between Padmini's lands and Kollamkara's hill, we rode i
 
 It was not a grand thing like those I had heard of at Padmanabhapuram, but the scale did not blunt its power. Bright cloths had been tied between trees. Oil lamps flickered in niches along the outer wall. Drums and nadaswarams wound a tight melody through the air. Men and women circled the shrine with small clay lamps cupped in their hands, their faces lit from below like the carved figures on the gopuram.
 
-We reined in at the edge of the crowd. A magnificent tusker, its forehead adorned with a gold *nettipattam*, stood near the entrance, swaying gently as children offered it bananas. No one scattered. They shifted to make space, eyes flicking to our swords and horses, then back to the small procession that wound out from the sanctum.
+We reined in at the edge of the crowd. A magnificent tusker, its forehead adorned with a gold *nettipattam*, the ceremonial forehead plate, stood near the entrance, swaying gently as children offered it bananas. No one scattered. They shifted to make space, eyes flicking to our swords and horses, then back to the small procession that wound out from the sanctum.
 
 A group of girls carried a palanquin bearing a simple wooden image of the goddess, decked in fresh flowers. Behind them walked older women with brass plates of rice and turmeric, their steps measured. Padmini dismounted and joined them without a word, slipping into the line as if she had always been there. Men bowed their heads as she passed.
 
@@ -5154,7 +5571,7 @@ His men chuckled.
 
 His eyes narrowed fractionally.
 
-"Dutch coin spends in our markets," he said. "As does Marakkar coin. As does Brahmin coin. The grain you send north does not ask whose hand dropped the money it buys. Why should I?"
+“Dutch coin spends in our markets,” he said. “As does Marakkar coin. As does Brahmin coin. The grain you send north does not ask whose hand dropped the money it buys. Why should I?”
 
 Dhanaji shifted his weight beside me, ready for the argument to turn sharper.
 
@@ -5198,11 +5615,11 @@ When he saw Padmini herself, sitting her horse under a nearby tree, face unreada
 
 He glanced now at the stretch of land where our two domains brushed.
 
-"What do you want, Sawant?" he asked.
+“What do you want, Sawant?” he asked.
 
 “Your men off the road,” I said. “Your promise that you will not use Dutch muskets on Travancore caravans. And your agreement that if company men come again, they do so as merchants, not as your private army.”
 
-"And what does the king give?" he asked tightly.
+“And what does the king give?” he asked tightly.
 
 “The same thing he gave at Colachel,” I said. “Proof that when Dutch turn from coins to guns, they find more sand in their mouths than pepper.”
 
@@ -5238,9 +5655,7 @@ By the time we reached the ridge above, the raiders were already withdrawing.
 
 They had hit a narrow strip of pepper gardens along a canal, torching vines, cutting support poles, trampling the soil. A few of Padmini's men lay dead near the path, their bodies hacked, not shot. The raiders moved with the easy familiarity of men who knew every bend of the land.
 
-Kollamkara's men. Wearing no company colours, carrying no Dutch muskets, but the message was clear enough.
-
-You do not frighten me with your cannon.
+Kollamkara's men. Wearing no company colours, carrying no Dutch muskets, but the message was clear enough: you do not frighten me with your cannon.
 
 “He could not strike at the king,” Padmini said, her voice shaking with restrained fury. “So he struck at me instead. He thinks you will hesitate to chase him into his own scrub.”
 
@@ -5258,9 +5673,9 @@ Kollamkara's riders knew the breaks in the land where they could vanish. We had 
 
 At one bend, they tried an ambush.
 
-Half a dozen men burst from cover ahead, firing muskets at close range. Another group loosed arrows from a side thicket.
+Half a dozen men burst from cover ahead, firing matchlocks at close range. Another group loosed arrows from a side thicket.
 
-The first volley caught two of our horsemen. One fell backwards, hands clutching at a spreading dark on his chest. The other pitched sideways, his foot tangled in his stirrup, his horse dragging him for several yards before Dhanaji cut the strap and hauled him clear.
+The first volley caught two of our horsemen. One fell backwards, hands clutching at a spreading dark on his chest. The other pitched sideways, his foot tangled in his stirrup, his horse dragging him for several yards before Dhanaji drew the ivory-and-gold knife from his belt, cut the strap, and hauled him clear.
 
 We did not stop.
 
@@ -5328,41 +5743,41 @@ We sent in small groups on foot.
  
  Thorns caught at cloth and skin. Stones shifted underfoot. The air felt closer, humid with the exhalations of hidden bodies.
  
- It began with a musket shot that went wide, shredding leaves near my ear. Then they were on us.
+It began with a musket shot that went wide, shredding leaves near my ear. Then they were on us.
  
- A man lunged at me from behind a bush, spear low. I twisted, letting the point slide past my hip, and drove my elbow into his jaw. Bone crunched. He staggered, and I didn't just strike him down; I followed the motion with a fluid, unnecessary grace, slashing his hamstring before finishing him.
+A man lunged at me from behind a bush, spear low. I twisted, letting the point slide past my hip, and drove my elbow into his jaw. Bone crunched. He staggered, and I did not just strike him down; I followed the motion with a fluid, unnecessary cut, slashing his hamstring before finishing him.
  
  Another came. Then two more.
  
- The world narrowed to a red tunnel. The heat of the valley, the screams, the smell of powder and fresh blood—it sang to something dark in me. I wasn't just fighting; I was hunting.
+The world narrowed to a red tunnel. The heat of the valley, the screams, the smell of powder and fresh blood, it all sang to something dark in me. I wasn't just fighting; I was hunting.
  
  I cornered a young raider against a rock face. He had lost his sword. His hands were up, eyes wide with terror.
  
- "Mercy!" he cried.
+ “Mercy!” he cried.
  
  I laughed. It was a wet, ugly sound.
  
- "Mercy is for men who stay on their own land," I snarled. I raised my sword, intent not just on killing him, but on splitting him to the navel.
+ “Mercy is for men who stay on their own land,” I snarled. I raised my sword, intent not just on killing him, but on splitting him to the navel.
  
  A hand clamped onto my wrist. Iron-hard.
  
- "Nagoji!"
+ “Nagoji!”
  
  I spun, ready to strike the interrupter.
  
  Dhanaji stood there, his face streaked with soot, but his eyes clear and hard. He held my arm, forcing the blade down.
  
- "Look at him," Dhanaji hissed. "He is a boy. He is beaten."
+ “Look at him,” Dhanaji hissed. “He is a boy. He is beaten.”
  
- "He is an enemy," I panted, the blood pounding in my ears like a war drum.
+ “He is an enemy,” I panted, the blood pounding in my ears like a war drum.
  
- "He is not the Portuguese," Dhanaji said, his voice cutting through the haze. "We are not at Colachel, fighting white devils. These are men of the soil. Kill him if you must, but do not butcher him like a dog."
+ “He is not the Portuguese,” Dhanaji said, his voice cutting through the haze. “We are not at Colachel, fighting white devils. These are men of the soil. Kill him if you must, but do not butcher him like a dog.”
  
  The red receded, leaving me cold and shaking. I looked at the boy, who was sobbing now. I looked at my sword, dripping.
  
  I lowered the blade.
  
- "Go," I told the boy. "Run before I remember who I am."
+ “Go,” I told the boy. “Run before I remember who I am.”
  
  He scrambled away.
  
@@ -5370,55 +5785,55 @@ We sent in small groups on foot.
  
  We walked back to the ridge. Padmini was waiting.
  
- She looked at the blood on me—too much of it to be mine—and then at the bodies being dragged into lines.
+She looked at the blood on me, too much of it to be mine, and then at the bodies being dragged into lines.
  
- "You were thorough," she said. Her voice was steady, but there was a flicker of something in her eyes. Not fear, exactly. Recognition.
+ “You were thorough,” she said. Her voice was steady, but there was a flicker of something in her eyes. Not fear, exactly. Recognition.
  
- "They will not come back," I said. My voice sounded raspy, strange even to my own ears.
+ “They will not come back,” I said. My voice sounded raspy, strange even to my own ears.
  
- "No," Dhanaji observed quietly, wiping his spear. "Ghosts rarely raid."
+ “No,” Dhanaji observed quietly, wiping his spear. “Ghosts rarely raid.”
  
- "Good," Padmini said. She turned her horse. "War is not a place for half-measures."
+ “Good,” Padmini said. She turned her horse. “War is not a place for half-measures.”
 
 When we returned to the fort weeks later, report written, the reception was not what I expected.
  
  Ramayyan Dalawa sat in the audience hall, the palm leaf scroll unspooled before him. Marthanda Varma paced behind him. The air in the room was brittle.
  
- "This report," Ramayyan said, tapping the leaf with a stylus. "It makes for... vivid reading."
+ “This report,” Ramayyan said, tapping the leaf with a stylus. “It makes for... vivid reading.”
  
- "We secured the border," I said, standing stiffly. Padmini stood beside me, her chin high.
+ “We secured the border,” I said, standing stiffly. Padmini stood beside me, her chin high.
  
- "You secured a massacre," Marthanda Varma said, stopping his pace. He turned to look at me, his eyes cold. "We sent you to deter a chieftain, Sawant. Not to paint the rocks with the entrails of his farmers."
+ “You secured a massacre,” Marthanda Varma said, stopping his pace. He turned to look at me, his eyes cold. “We sent you to deter a chieftain, Sawant. Not to paint the rocks with the entrails of his farmers.”
  
- "They were armed," Padmini cut in. "They were raiders."
+ “They were armed,” Padmini cut in. “They were raiders.”
  
- "They were potential subjects," Ramayyan snapped. "Or at least, men whose cousins pay us tax. Do you know what the gossip in the market is? That the King's new Maratha captain is a butcher. That he enjoys the kill too much."
+ “They were potential subjects,” Ramayyan snapped. “Or at least, men whose cousins pay us tax. Do you know what the gossip in the market is? That the King's new Maratha captain is a butcher. That he enjoys the kill too much.”
  
- I felt the flush rise in my neck. The memory of the red haze, of the boy I had almost split, burned.
+The flush rose in my neck. The memory of the red haze, of the boy I had almost split, burned.
  
- "It... got out of hand," I said, my voice low. "The fighting was close. Confused. I lost myself."
+ “It... got out of hand,” I said, my voice low. “The fighting was close. Confused. I lost myself.”
  
- "You are a commander," the King said sharply. "You do not get the luxury of losing yourself. That is for foot soldiers and berserkers."
+ “You are a commander,” the King said sharply. “You do not get the luxury of losing yourself. That is for foot soldiers and berserkers.”
  
- "I apologise, Your Highness," I said, bowing my head. "It will not happen again."
+ “I apologise, Your Highness,” I said, bowing my head. “It will not happen again.”
  
- "It better not," Ramayyan said.
+ “It better not,” Ramayyan said.
  
- "He has nothing to apologise for," Padmini said, her voice ringing in the hall.
+ “He has nothing to apologise for,” Padmini said, her voice ringing in the hall.
  
  We all looked at her.
  
- "They burned my fields," she said, her eyes flashing fire. "They took foreign money to threaten our flank. Nagoji did what was necessary. If the price of safety is a few bloody rocks, I will pay it."
+ “They burned my fields,” she said, her eyes flashing fire. “They took foreign money to threaten our flank. Nagoji did what was necessary. If the price of safety is a few bloody rocks, I will pay it.”
  
- "We do not ask you to pay it, Amma," Marthanda Varma said quietly. "We ask you to remember that we are building a kingdom, not a graveyard."
+ “We do not ask you to pay it, Amma,” Marthanda Varma said quietly. “We ask you to remember that we are building a kingdom, not a graveyard.”
  
- "Sometimes they are the same thing," she said. She looked from the King to me, disgust on her face—perhaps at them for their softness, perhaps at me for my apology. "I will not stand here and be scolded for surviving."
+“Sometimes they are the same thing,” she said. She looked from the King to me, disgust on her face, perhaps at them for their softness, perhaps at me for my apology. “I will not stand here and be scolded for surviving.”
  
  She turned and walked out, her cane striking the stone floor hard with every step.
  
  The silence she left was heavy.
  
- "Go, Sawant," Ramayyan said, waving a hand. "Clean yourself up. And pray that the next rumour speaks of your discipline, not your thirst."
+ “Go, Sawant,” Ramayyan said, waving a hand. “Clean yourself up. And pray that the next rumour speaks of your discipline, not your thirst.”
  
  I saluted and left, feeling smaller than I had in years.
  
@@ -5430,37 +5845,37 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  The report lay on the table between them.
  
- "He was suitably chastised," Ramayyan noted, pouring a small cup of water.
+ “He was suitably chastised,” Ramayyan noted, pouring a small cup of water.
  
- "He was," Marthanda Varma agreed. He moved to the window, looking out over the dark walls of the fort to the northern hills.
+ “He was,” Marthanda Varma agreed. He moved to the window, looking out over the dark walls of the fort to the northern hills.
  
- "And your Valiamma?"
+ “And your Valiyamma?”
  
- "She is angry," the King said. "But she is loyal. She will hold that border with iron now."
+ “She is angry,” the King said. “But she is loyal. She will hold that border with iron now.”
  
  Ramayyan picked up the report again, re-reading the description of the skirmish.
  
- "It is brutal," he said.
+ “It is brutal,” he said.
  
- "It is," Marthanda Varma said. He turned back, and in the dim light, a faint, cold smile touched his lips. "But tell me, Dalawa... do you think Kollamkara will send men into that valley again?"
+ “It is,” Marthanda Varma said. He turned back, and in the dim light, a faint, cold smile touched his lips. “But tell me, Dalawa... do you think Kollamkara will send men into that valley again?”
  
- "No," Ramayyan said. "Not after hearing what the Maratha did to the last ones."
+ “No,” Ramayyan said. “Not after hearing what the Maratha did to the last ones.”
  
- "Exactly," the King said softer. "We cannot be butchers, Ramayyan. But it is very useful to have a man who the enemy believes is one. Let them fear the Tiger's claws."
+ “Exactly,” the King said softer. “We cannot be butchers, Ramayyan. But it is very useful to have a man who the enemy believes is one. Let them fear the Tiger's claws.”
  
- "So, we are pleased?" Ramayyan asked.
+ “So, we are pleased?” Ramayyan asked.
  
  Marthanda Varma blew out a lamp.
  
- "We are very pleased."
+ “We are very pleased.”
  
  ***
  
- Peace, is a fragile skin over a rotting fruit.
+Peace is a fragile skin on a rotting fruit.
  
  Three days later, the King went to the great temple. It was a private worship, or as private as a King's prayers can ever be. The Heir, the young nephew from Padmini's courtyard, went with him.
  
- I commanded the escort. We stood at the outer perimeter of the *belikal* stones, watching the crowd that had gathered to see the royal party.
+I commanded the escort. We stood at the outer perimeter of the *belikal* stones, the offering stones that ring the temple, watching the crowd that had gathered to see the royal party.
  
  The air smelled of camphor and crushed flowers. A line of temple elephants, darker than the night sky and draped in silks, swayed in the shade of the gopuram, their chains clinking with a lazy rhythm that underpinned the chanting.
  
@@ -5468,7 +5883,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  A man near the front of the crowd, dressed in the simple white mundu of a devotee, suddenly moved. He did not run; he flowed, like water finding a crack in a dam.
  
- A *chevar*. A suicide warrior who has accepted death before he even draws his blade.
+ A *chevar*. A suicide warrior who has accepted death before he even draws his blade. They come to their mission with kanjav or bhang in their blood, to dull fear and sharpen resolve into a single point. The coast has sung of chevars for generations, in ballads and kalari tales, so a man who chooses that path is already half legend before his blade clears his cloth.
  
  Ideally, my guards should have stopped him. But he was fast, and the crowd was thick.
  
@@ -5476,7 +5891,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  It was the boy.
  
- The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing meant for gutting—flashed down.
+The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing meant for gutting, flashed down.
  
  Marthanda Varma did not shout. He did not call for guards.
  
@@ -5496,11 +5911,11 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  The King stood swaying slightly, blood darkening the white silk of his angavastram. The boy clung to his leg, sobbing.
  
- "Highness!" Ramayyan was there in an instant, his face ashen.
+ “Highness!” Ramayyan was there in an instant, his face ashen.
  
- "I am fine," Marthanda Varma rasped. He looked down at the dead assassin. "Check the boy."
+ “I am fine,” Marthanda Varma rasped. He looked down at the dead assassin. “Check the boy.”
  
- "The Prince is unharmed," Padmini's voice came from the crowd, sharp with relief. She pulled the nephew into her arms.
+ “The Prince is unharmed,” Padmini's voice came from the crowd, sharp with relief. She pulled the nephew into her arms.
  
  We carried the King back to the palace. At the main gates, the royal elephants sensed the blood or the tension; they shifted restlessly in their stables, their low rumbles vibrating through the ground as we passed. We took him to the same room with the black floor and the ship-prow roof. Physicians came with pastes and bandages. The wound was deep but not mortal. The muscle had taken the fury of the blow.
  
@@ -5508,69 +5923,69 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  Ramayyan came in an hour later. He looked sick.
  
- "Well?" the King asked, his voice tight with pain.
+ “Well?” the King asked, his voice tight with pain.
  
- "A *chevar*," Ramayyan said. "From the north."
+ “A *chevar*,” Ramayyan said. “From the north.”
  
- "Who sent him?"
+ “Who sent him?”
  
- "We found a mark on his dagger hilt," Ramayyan said. "And gold in his waist pouch that speaks of Cochin mints. But the style... the hatred..."
+ “We found a mark on his dagger hilt,” Ramayyan said. “And gold in his waist pouch that speaks of Cochin mints. But the style... the hatred...”
  
  He hesitated.
  
- "Say it," the King hissed.
+ “Say it,” the King hissed.
  
- "Thampi," Ramayyan whispered. "One of the sons who fled. The brothers are dead, but their hate breeds in exile."
+ “Thampi,” Ramayyan whispered. “One of the sons who fled. The brothers are dead, but their hate breeds in exile.”
  
  Marthanda Varma closed his eyes.
  
  For a long moment, there was only the sound of the oil lamps sputtering.
  
- When he opened them, the cold amusement I had seen earlier was gone. In its place was something ancient and terrifying. "They struck at the child," he said softly. "They did not come for me, a man who can fight. They came for the future."
+ When he opened them, the cold amusement I had seen earlier was gone. In its place was something ancient and terrifying. “They struck at the child,” he said softly. “They did not come for me, a man who can fight. They came for the future.”
  
- "They are desperate, Highness," Ramayyan said. "Exiles dreaming of old glories."
+ “They are desperate, Highness,” Ramayyan said. “Exiles dreaming of old glories.”
  
- "Dreams are dangerous," the King said. He sat up, pushing away the physician's restraining hand.
+ “Dreams are dangerous,” the King said. He sat up, pushing away the physician's restraining hand.
  
- "Listen to me, Dalawa. And you, Sawant."
+ “Listen to me, Dalawa. And you, Sawant.”
  
  We leaned in.
  
- "I want a squad," he said. "Not soldiers. *Chevars* of our own. Or men who have forgotten how to sleep."
+ “I want a squad,” he said. “Not soldiers. *Chevars* of our own. Or men who have forgotten how to sleep.”
  
- "To guard the Prince?" I asked.
+ “To guard the Prince?” I asked.
  
- "No," Marthanda Varma said. "To hunt."
+ “No,” Marthanda Varma said. “To hunt.”
  
  He looked at the ceiling, where shadows danced on the carved timber.
  
- "Go north," he said. "Find where these sons hide. Find their wives. Find their children. Find anyone who carries a drop of Thampi blood."
+ “Go north,” he said. “Find where these sons hide. Find their wives. Find their children. Find anyone who carries a drop of Thampi blood.”
  
- "Highness," Ramayyan started, "the political fallout..."
+ “Highness,” Ramayyan started, “the political fallout...”
  
- "There will be no politics," the King said, his voice dropping to a whisper that chilled the room more than the night air. "Because there will be no one left to complain. I want them gone, Ramayyan. Root and branch. If a babe in arms carries that name, I want it silenced."
+ “There will be no politics,” the King said, his voice dropping to a whisper that chilled the room more than the night air. “Because there will be no one left to complain. I want them gone, Ramayyan. Root and branch. If a babe in arms carries that name, I want it silenced.”
  
- "But... just days ago, you spoke against butchery," I ventured, the memory of his scolding fresh.
+ “But... just days ago, you spoke against butchery,” I ventured, the memory of his scolding fresh.
  
  He looked at me. His eyes were hard, flat surfaces, reflecting nothing but the intent to destroy.
  
- "That was war, Sawant," he said. "War has rules. Men fight for land, for coin, for duty. We respect that."
+ “That was war, Sawant,” he said. “War has rules. Men fight for land, for coin, for duty. We respect that.”
  
  He touched the bandage on his shoulder.
  
- "This?" he said. "This is not war. This is a weed trying to strangle my sapling. And for weeds, there is no treaty. There is only fire."
+ “This?” he said. “This is not war. This is a weed trying to strangle my sapling. And for weeds, there is no treaty. There is only fire.”
  
  He lay back, his face pale but his jaw set like the stone of his fort.
  
- "Kill them all," he said. "And when you are done, bring me the rings from their fingers so I know my nephew is safe."
+ “Kill them all,” he said. “And when you are done, bring me the rings from their fingers so I know my nephew is safe.”
  
  I looked at Ramayyan. The Dalawa nodded, slowly, his face grim.
  
  We walked out into the corridor, where the black floor gleamed under our feet.
  
- "The Tiger has teeth," Ramayyan murmured, echoing the King's earlier words.
+ “The Tiger has teeth,” Ramayyan murmured, echoing the King's earlier words.
  
- "And claws," I said, feeling a chill that had nothing to do with the wind. "God help anyone who thinks they can clip them."
+ “And claws,” I said, feeling a chill that had nothing to do with the wind. “God help anyone who thinks they can clip them.”
 # Book IV, Chapter 24: Under De Lannoy's Standard
 
 By the time the first dry season after Kollamkara's valley campaign came and went, people in the fort had started calling one of the new bastions “the foreigner's tooth.”
@@ -5579,7 +5994,7 @@ They said it half in jest, half in grudging respect.
 
 From that bastion, De Lannoy and I watched a unit of cavalry and infantry move through a combined drill that would have made both my younger self and his former company captains splutter.
 
-Maravar horse trotted along the base of the wall, then wheeled, moving in pairs between marked posts. Behind them, musketeers lowered their weapons in controlled waves, firing over the horses' backs at imaginary targets in the scrub beyond. At intervals, a small cannon boomed, its recoil checked by well braced wheels.
+Maravar horse trotted along the base of the wall, then wheeled, moving in pairs between marked posts. Behind them, musketeers lowered their weapons in controlled waves, firing over the horses' backs at imaginary targets in the scrub beyond. At intervals, a small cannon boomed, its recoil checked by well-braced wheels.
 
 The air smelled of burned powder, sweat and red dust.
 
@@ -5631,27 +6046,9 @@ He laughed.
 
 Our partnership had settled into a rough rhythm.
 
-We still argued.
+We still argued, about walls and patrols, about how much to build and how much to risk in motion.
 
-One week, about whether a particular outpost needed a full stone redoubt or a simpler earthwork.
-
-“If you want it to last through a siege, stone,” he said.
-
-“If you want it built before next monsoon, earth,” I replied.
-
-Another week, about how many horses could be spared from patrols to participate in a large scale joint manoeuvre he wanted to stage for the king.
-
-“If you pull too many from the marches to dance here, I will be blind there,” I said.
-
-“If we never show the full pattern, the king will not understand what his army can do,” he countered.
-
-Ramayyan often had to step in, not as judge, but as balancer.
-
-“Half the stone now, earth for the rest, with the plan to add more later,” he would say. Or, “Two days' drill with a rotated horse list, so patrol gaps are brief.”
-
-“You spend as much time keeping the two of us from killing each other as you do keeping the king alive,” I told him once.
-
-“It is all the same work,” he replied. “Preventable deaths exhaust me.”
+Ramayyan stepped in, not as judge, but as balancer. “Stone where you must, earth where you can. Drill, but do not go blind on the marches.” When I told him he spent as much time keeping the two of us from killing each other as keeping the king alive, he replied, “It is all the same work. Preventable deaths exhaust me.”
 
 Our men, meanwhile, learned to see us not as two rival courts, but as two facets of the same demand.
 
@@ -5677,27 +6074,11 @@ He did not seem to care which of us got which title. We were both, to him, men w
 
 It was in such small, shared approvals that our partnership took root.
 
-Not in grand strategies, but in moments when a man who had once commanded Dutch lines on a beach and a man who had once raided Portuguese caravans in the Deccan both agreed that a recruit's stance was finally acceptable.
+Outside the fort, the world did not stop. New powers stirred inland, and new flags began to appear at northern ports.
 
-Outside the fort, the world did not stop.
-
-Mysore's ambitions grew. Rumours of Hyder Ali floated south on traders' tongues. The Maratha confederacy continued to roil. British factors began to appear in ports further north, their languages different, their ledgers just as hungry.
-
-“The Dutch are no longer the only storm,” Ibrahim said one evening over a cup of toddy. “Now there are others. They smell each other's gun smoke and circle.”
+“The Dutch are no longer the only storm,” Ibrahim said one evening over a cup of toddy. “Now there are others.”
 
 “We will need more than one tooth,” Padmini said. “And more than one kind of jaw.”
-
-Court factions noticed that too.
-
-Some saw advantage in aligning with the foreign trained arm of the army.
-
-“If we stand with the king's modern forces,” one younger chief said to me, “we will have leverage when the next treaty is written. Our names will be among those he needs.”
-
-Others took the opposite view.
-
-“This new army eats coin,” an older noble grumbled to Padmini. “Our lands bleed grain to feed it. The Deccan rider and the Dutchman build a throne that may one day crush us all.”
-
-Padmini had replied, “Better a throne whose legs you helped carve than one dropped whole from a ship's hull.”
 
 Revathi watched from Velinadu with her usual layered gaze.
 
@@ -5710,6 +6091,678 @@ Revathi watched from Velinadu with her usual layered gaze.
 “You make the future sound bleak,” I said.
 
 “I make it sound like what it often is,” she replied. “Complicated.”
+
+---
+
+The king's next demand made Revathi's complications feel almost simple.
+
+He held up the coat as if it were a trophy.
+
+White cotton, cut long in the European fashion, with buttons of brass running down the front like a column of small suns. Beneath it, a waistcoat of red. Beside these, breeches that stopped at the knee, stockings, and shoes with buckles that caught the lamplight.
+
+“This,” Marthanda Varma said, “is what my army will wear.”
+
+The war hall had gone very quiet.
+
+I stood among a dozen officers, Nair captains, Maravar commanders, a few men from the hired Arcot regiment. De Lannoy stood apart, near the maps, his face carefully blank.
+
+“The drill is European,” the king continued. “The muskets are European. The cannon are cast to European patterns. The forts are built to European designs.” He set the coat down on the table. “It is time the men who use these things look as if they belong to the same army.”
+
+One of the older Nair captains shifted his weight.
+
+“Maharaja,” he said carefully, “our men have always worn...”
+
+“What they pleased,” the king finished. “And they have fought as individuals who happened to stand near each other. That ends. When a Dutch officer looks through his glass at my lines, I want him to see something that makes his stomach turn. Not a rabble. A machine.”
+
+He turned to De Lannoy.
+
+“You have seen European armies. Tell them.”
+
+Lannoy stepped forward. His Malayalam had grown fluent over the years, though his accent still marked him.
+
+“In Europe,” he said, “when regiments dress alike, they move alike. The eye learns to follow the pattern. A man who breaks formation is visible at once. His officers can correct him. His comrades can support him.” He paused. “More than this, when an enemy sees a line of men dressed the same, he sees not individuals but a wall. Walls are harder to break than crowds.”
+
+“And,” the king added, “when those walls wear coats that look like the ones his own army wears, the enemy hesitates. He wonders if reinforcements have arrived. He wonders if his maps are wrong. Hesitation kills.”
+
+The logic was sound. I knew it. Every officer in that room knew it.
+
+But when I looked at the coat on the table, I did not see logic.
+
+I saw Goa.
+
+I saw Portuguese soldiers in their white and red, walking the corridors of the fortress where I had hung in chains. I saw the officer who had supervised my interrogation, adjusting his cuffs before giving the order for the next round. I saw the guards who had dragged Keshavrao and me to the ship, their buckled shoes clicking on stone floors slick with monsoon damp.
+
+The coat was not Portuguese. The cut was different, the buttons plain rather than ornate. But the colour, the shape, the entire idea of wrapping myself in European cloth...
+
+My throat tightened.
+
+“You have concerns, Sawant,” the king said.
+
+It was not a question.
+
+“I have served you in the clothes I brought from the Deccan,” I said. “They have not prevented me from drilling your horse or riding in your campaigns.”
+
+“No,” he agreed. “But your horse are a small part of this army. When the full force marches, I want one face. Not many.”
+
+“The men will resist,” I said. “They will see this as...”
+
+“Foreign,” he said. “Yes. As they saw muskets once. As they saw star forts. As they saw firing by volley instead of by whim.” His eyes held mine. “They learned. So will you.”
+
+He turned to the room.
+
+“Coats will be issued within the month. Officers will set the example. Dismissed.”
+
+The others filed out. I stayed.
+
+The king did not seem surprised.
+
+“You are thinking of Goa,” he said.
+
+“I am thinking of many things.”
+
+“You are thinking that this coat looks like the coat of the men who broke your fingers and chained you in a ship's hold.” He picked up the garment, examining it. “It is not the same coat. The men who wear it will not be the same men.”
+
+“Knowing and feeling are different animals,” I said.
+
+“Yes,” he said. “They are. But I do not have time to wait for your feelings to catch up with your knowledge. The Dutch will return in some form. Other Europeans will come. When they do, I want them to see an army that they recognise and fear.”
+
+He set the coat down and walked to the window.
+
+“Talk to De Lannoy,” he said. “He wears the coat already. Ask him how it sits on a man who once wore a different one.”
+
+---
+
+I found Lannoy on the bastion they still called the foreigner's tooth.
+
+He was watching the evening drill, a cup of toddy in his hand. The setting sun painted the training ground in shades of copper and dust.
+
+“You stayed behind,” he said without turning. “I assume you did not simply want to admire the buttons.”
+
+“The king told me to speak with you.”
+
+“Ah.” He took a sip. “About the coat.”
+
+“About wearing the coat.”
+
+He nodded slowly, still watching the men below.
+
+“When I was captured at Colachel,” he said, “I expected to die. I had seen what happens to European officers taken by Indian armies. Ransom if lucky. Execution if not. What I did not expect was to be offered a choice.”
+
+“The king's offer.”
+
+“Yes. Serve Travancore or rot in a cell until the company remembered to pay for me.” He laughed softly. “They would not have paid. I knew too much about their failures. Dead men cannot testify.”
+
+He turned to face me.
+
+“The first time I put on Travancore colours, I felt as if I had swallowed broken glass. Every thread reminded me that I was no longer Dutch. That the company's ledgers had written me off. That my mother would light candles for a son who had become, in their eyes, a traitor.”
+
+“And now?”
+
+He looked down at his coat, the same white cotton the king had displayed, though worn and patched at the elbows.
+
+“Now it is cloth,” he said. “It keeps the sun off my shoulders and the rain off my back. The man inside has not changed. He has simply learned to wear a different skin.”
+
+“You chose this,” I said. “You accepted the king's offer. I did not choose to look like a Portuguese guard.”
+
+“No,” he agreed. “But you chose to stay. You chose to drill these men, to build these walls with me, to ride in campaigns that served this crown. Each of those choices was a thread. The coat is simply the weaving.”
+
+I leaned against the parapet, staring at the distant line of the sea.
+
+“In Goa,” I said, “there was an officer. He would come to the cell each morning in a coat like the one the king showed us. White, with red beneath. Brass buttons. He would check his cuffs before he gave orders. He was very particular about his cuffs.”
+
+Lannoy said nothing.
+
+“The coat was always clean,” I continued. “Even when there was blood on the floor. He would step around it carefully so as not to stain his shoes. Then he would leave, and the guards would do what he had ordered, and the coat would walk out as spotless as it had walked in.”
+
+“And when you see this coat...”
+
+“I see his cuffs,” I said. “I see his shoes. I see the door closing behind him while I hung from the chains and wondered how many more mornings I could survive.”
+
+The evening drum sounded below. Men began to form up for the last drill of the day.
+
+“I cannot make that memory disappear,” Lannoy said. “No one can. But I can tell you what I have learned about clothes and men.”
+
+He moved to stand beside me, both of us looking down at the training ground.
+
+“In Zeeland, where I was born, there is a saying: the shirt does not make the sailor, but it tells you which ship he serves. When I wore the company's coat, I served the company. I believed in their mission, their maps, their vision of what these coasts should become. When I put on this coat, I did not stop being the man who once believed those things. I simply chose a different ship.”
+
+“And if the ship is wrong?”
+
+“Then you are wrong with it,” he said. “But you are wrong *together*. That is what the coat means. Not that you have become European. Not that you have forgotten Goa or the Deccan or whatever home you carry in your chest. It means that when you stand in a line with these men, you are telling the world: we fight as one.”
+
+He finished his toddy and set the cup on the parapet.
+
+“The Portuguese who tortured you, they were not evil because of their coats. They were evil because of what they chose to do while wearing them. You have the same choice. You can wear this cloth and be the man who trains cavalry to protect Padmini's fields. Or you can refuse, and be the man who could not see past his scars to what his king was building.”
+
+The words struck harder than I wanted to admit.
+
+“You make it sound simple,” I said.
+
+“It is not simple,” he said. “I still dream of Dutch ships sometimes. I wake up speaking Flemish. There are mornings when I look at the coat hanging on its peg and I feel that glass in my throat again.” He shrugged. “Then I put it on. And I go to the wall. And I do the work. Eventually, the glass becomes smaller.”
+
+Below, a young recruit fumbled his musket drill. An officer shouted. The boy corrected himself.
+
+I thought of Keshavrao. Of my brother's fields in the Deccan. Of Revathi's sharp eyes and Padmini's steady hands. Of every choice I had made since the storm threw me onto this coast.
+
+The coat was cloth. The man inside would still be me.
+
+“I will wear it,” I said.
+
+Lannoy nodded. He did not smile or clap my shoulder or offer congratulations. He simply nodded, as one soldier acknowledges another's decision.
+
+“The first few days will be difficult,” he said. “The cloth will feel wrong. You will want to tear it off and burn it.” A faint smile crossed his face. “I recommend against burning it. The quartermaster is very particular about inventory.”
+
+“I will try to restrain myself.”
+
+“Good.” He picked up his cup. “Now come. There is more toddy in the guardroom, and I want to argue with you about whether the northern patrol should be expanded.”
+
+---
+
+When the coats arrived a week later, I put mine on in private.
+
+The cloth was stiff, the buttons unfamiliar under my fingers. For a long moment I stood before the small bronze mirror in my quarters, seeing a stranger.
+
+Then I adjusted the cuffs, carefully, the way that officer in Goa had done, and walked out to the drill ground.
+
+The men stared. A few muttered. One young horseman started to laugh, then stopped when he saw my face.
+
+“The same drills,” I said. “Different cloth. Mount up.”
+
+They mounted.
+
+And we began.
+
+---
+
+The Portuguese came two weeks after the coats.
+
+Not with ships or guns, but with letters and gifts, a small embassy sent from Goa to assess the kingdom that had broken their old rivals. Three men in dark cloth, one secretary with a ledger, and a priest.
+
+I was on the parade ground when they rode in, my new coat stiff across my shoulders, watching a squad of musketeers run through their paces. Ramayyan appeared at my elbow.
+
+“The Viceroy sends his compliments,” he said, his voice dry. “And his curiosity. They wish to discuss trade. Pepper, as always.”
+
+“The Dutch came for pepper too,” I said. “We know how that ended.”
+
+“The Portuguese are more careful now. They have watched what happened at Colachel. They come to talk, not to threaten.” He paused. “You should be present at the audience. The king wants them to see our officers.”
+
+I turned to follow him, and stopped.
+
+The priest had dismounted near the stables. He was older than I remembered, his hair gone grey, his scholar's stoop more pronounced. But the ink-stained fingers were the same. The grey eyes, tired and watchful, were the same. The way his hand twitched inside his sleeve when he was uncertain, that too was the same.
+
+Father Duarte.
+
+He had not seen me yet. He was speaking to his secretary, gesturing toward the fortifications with something that might have been professional interest or professional concern.
+
+More than a decade.
+
+More than a decade since he had walked between the rows of prisoners in that dungeon, his cassock held above the filth, since he had asked me whether I believed in God or only in powder, since he had watched João reach for the tools, hesitated, and nodded anyway, since he had stood at the gate and made the sign of the cross as they led me to the ship.
+
+I walked toward him.
+
+My boots, European boots, buckled, the kind that had clicked on the stone floors of Goa, announced my approach. He turned, and his face went through a sequence of expressions: polite greeting, confusion, recognition, and then something I had not expected.
+
+Fear.
+
+“Senhor,” he said, his voice catching. His Portuguese came out rough, as if he had forgotten how to use it. “I... that is...”
+
+“Father Duarte,” I said. I kept my voice level. “You have come a long way from Goa.”
+
+His eyes moved over my coat, my stance, the sword at my hip, the men drilling behind me who would come if I raised my hand. He was calculating, as I had calculated once, the distance between himself and safety.
+
+“You survived,” he said finally. “The ship... we heard it was lost in a storm.”
+
+“Most of it was,” I said. “I did not.”
+
+He swallowed. His hand moved toward the cross at his throat, then stopped, as if he realised the gesture would be inadequate.
+
+“I have thought of you,” he said. “Over the years. I have wondered...”
+
+“Whether I would come for you?”
+
+“Whether you found what you were fighting for.” His voice steadied slightly. “That night, in the chamber, you said you fought because men who do not fight are trampled. You said God favours whoever has the better powder.” He looked at the parade ground, at the uniformed soldiers, at the fort walls built to European design. “It seems you found the better powder.”
+
+“I found something,” I said. “Whether it is what I was fighting for, I am still deciding.”
+
+We stood in silence. Around us, the business of the fort continued. Horses were led to water. Officers shouted commands. The secretary hovered at a distance, uncertain whether to intervene.
+
+“I could have you arrested,” I said quietly. “There are enough men here who remember what the Portuguese did to their kin. Some of them lost brothers in your dungeons. Some of them lost more.”
+
+His jaw tightened, but he did not look away.
+
+“You could,” he said. “It would not be unjust.”
+
+“No,” I said. “It would not.”
+
+I let the silence stretch.
+
+“But I am not going to,” I said. “Do you know why?”
+
+He shook his head.
+
+“Because you hesitated,” I said. “In the chamber, when João reached for the brazier, you stopped him. At the gate, when they led us to the ship, you made the sign of the cross. Not the quick one, the one that wards off evil. The slow one. The one that asks for something.”
+
+His eyes glistened. He blinked it away.
+
+“I asked for your forgiveness,” he said. “I have asked for it every day since.”
+
+“I cannot give you that,” I said. “What was done to me is not mine alone to forgive. Keshavrao drowned in that storm. Others died in your cells. Their forgiveness is not mine to grant.”
+
+I stepped closer.
+
+“But I can tell you this, Father. You were right about one thing. The men who do not fight are trampled. And sometimes the men who fight become something they did not expect. I wear this coat now. I drill these men. I serve a king who broke your old rivals and will break anyone else who threatens his coast.”
+
+“The man you tortured is gone,” I said. “The man who stands here now has made his choices. Some of them haunt me. Some of them I am proud of. Most are somewhere in between.”
+
+Father Duarte nodded slowly.
+
+“Then we are alike in that,” he said. “More than I would have thought.”
+
+“Perhaps,” I said. “Go to your audience. Discuss your pepper. Sign whatever treaties Ramayyan puts in front of you. And when you return to Goa, tell them what you saw here. Tell them that the man they branded as property now commands the cavalry that guards this coast.”
+
+I turned and walked back to the parade ground.
+
+Behind me, I heard the secretary hurrying to Father Duarte's side, heard the murmur of questions. I did not look back.
+
+That night, alone in my quarters, I took off the European coat and hung it on its peg. My hands were steady. The glass in my throat, the one Lannoy had spoken of, was still there.
+
+But it was smaller.
+
+---
+
+The Prince came to the training ground three months after the coats arrived.
+
+He was no longer the wide-eyed boy who had clung to his uncle's leg while assassins' blood pooled on temple stone. Four years had stretched him into a young man of fourteen, with his uncle's sharp cheekbones and his mother's watchful eyes. He had grown tall enough to look me in the chest, though his shoulders still carried the narrowness of youth.
+
+“My uncle says I am to learn from you,” he said.
+
+He stood at the edge of the drill ground, dressed not in royal silks but in a simple training tunic. Two guards hovered at a respectful distance, their hands never far from their hilts.
+
+“Learn what?” I asked.
+
+“How to stay alive when men want me dead.”
+
+There was no self-pity in his voice. Only a flat acknowledgment of fact.
+
+I remembered the temple. The curved blade flashing toward his throat. His frozen terror. The King's blood on white silk.
+
+“Your uncle could have sent you to De Lannoy,” I said. “He knows more about European warfare than I ever will.”
+
+“De Lannoy teaches formations,” the Prince said. “My uncle says you teach survival.”
+
+I looked at the guards.
+
+“They stay at the gate,” I said. “On the training ground, you are not a prince. You are a student. If I strike you, they do not interfere. If you fall, they do not help you rise. Understood?”
+
+The Prince turned to the guards. “You heard him. Wait at the gate.”
+
+They hesitated. One of them, an older Nair with grey at his temples, stepped forward.
+
+“Highness, the Maharaja's orders were...”
+
+“The Maharaja's orders were to learn from this man,” the Prince said. His voice had an edge I had not heard before. “I cannot learn if I am wrapped in silk. Go.”
+
+They went.
+
+The Prince turned back to me, and for a moment I saw his uncle in the set of his jaw.
+
+“What first?” he asked.
+
+I threw a wooden practice sword at his chest. He caught it, barely.
+
+“First,” I said, drawing my own, “you learn how much you do not know.”
+
+I did not go easy on him.
+
+For the first week, I beat him thoroughly. I struck his ribs when his guard dropped, swept his legs when he overcommitted, disarmed him until he learned to recover without thinking.
+
+He did not complain or ask to rest. When I finally called a halt each evening, he would bow, drink deeply, and return the next morning with fresh bruises layered over fading ones.
+
+“You are trying to kill the heir,” Ramayyan observed one afternoon, appearing at my shoulder with his usual silence.
+
+“I am trying to make him harder to kill,” I said. “There is a difference.”
+
+“The Senior Rani has concerns.”
+
+“The Senior Rani can train him herself if she prefers.”
+
+Ramayyan's lips twitched. “I will tell her you said that.”
+
+“Tell her also that he has not once asked to stop. Not once asked for special treatment. In a month, he has learned more than most recruits learn in three.”
+
+“She knows,” Ramayyan said. “That is why she has not intervened.”
+
+He watched the Prince take another fall, roll, and come up with his sword ready, a move I had drilled into him until his body performed it without thought.
+
+“He will need more than sword work,” Ramayyan added.
+
+“I know,” I said. “But sword work comes first. A king who cannot fight inspires no one.”
+
+“A king who can only fight inspires no one either.”
+
+“Then teach him your ledgers,” I said. “I will teach him how to survive long enough to use them.”
+
+---
+
+The Senior Rani came to watch on the last day of the first month.
+
+She did not announce herself. I noticed her only when the Prince's eyes flicked toward the edge of the training ground and stayed there a heartbeat too long. I followed his gaze and saw her standing in the shade of the armoury wall, dressed in white without ornament, her hair pulled back severely, her face unreadable.
+
+“Continue,” I said to the Prince. “A king who is distracted by his mother will be distracted by everything.”
+
+He flushed but returned to his stance. We drilled for another hour, the sun climbing, the dust rising. When I finally called a halt, I walked to where she stood.
+
+“Highness,” I said. “You could have summoned me to the palace if you wished to speak.”
+
+“I wished to see,” she said. “There is a difference between reports and observation.”
+
+Her eyes moved to her son, who was drinking deeply from a water skin, his training tunic dark with sweat.
+
+“He has changed,” she said. “The way he stands. The way he enters a room. Even the servants have noticed.”
+
+“He has learned that his body can do more than he believed,” I said. “That is the first lesson. The rest follow.”
+
+“And the cost?”
+
+“Bruises. Sore muscles. A few cuts that will scar.” I paused. “Nothing that will not heal.”
+
+She was silent for a moment.
+
+“When he was born,” she said, her voice dropping, “my brother held him and wept. He knew what it meant to bring a son into a house where men with knives dream of your blood.”
+
+She turned to face me fully.
+
+“I have spent fourteen years keeping him alive,” she said. “Tasters, guards, astrologers. I have counted every shadow, every servant, every visitor who lingered too long near his rooms.”
+
+“And now you send him to me to be beaten with wooden swords,” I said.
+
+“Now I send him to you because I have realised that all my counting has made him soft.” Her jaw tightened. “At the temple, when the chevar came, he froze. My son, heir to all this, stood like a deer in torchlight while men died around him. I cannot protect him from his own paralysis.”
+
+“He will not freeze again,” I said. “I am burning that out of him.”
+
+“I know,” she said. “That is why I have not stopped you, despite what Ramayyan tells you about my concerns.” A ghost of a smile crossed her face. “My concerns are real. But so is my understanding that a mother's fear can become a son's chains.”
+
+She reached into the folds of her sari and withdrew a small object, pressing it into my hand. It was a gold coin, old, worn smooth by generations of fingers.
+
+“This was my grandmother's,” she said. “It passes from woman to woman in this house. It has no value except memory.”
+
+“Then why give it to me?”
+
+“I am not giving it to you,” she said. “I am showing it to you. So that you understand what you are training. Not a soldier. Not a prince. A line. Four hundred years of women who have kept this house standing while men with swords tried to cut it down.”
+
+She took the coin back.
+
+“If you break him,” she said, “I will have you killed. Slowly. With full knowledge of what is happening to you. Do you understand?”
+
+“I understand, Highness.”
+
+“Good.” She turned to leave, then paused. “He speaks of you at dinner. He says you tell him unpleasant truths. Continue. He hears too many pleasant lies from everyone else.”
+
+She walked away, back straight, steps measured, a woman who had learned to carry weight without showing it.
+
+The Prince appeared at my elbow, watching her go.
+
+“She likes you,” he said.
+
+“She threatened to have me killed slowly.”
+
+“Yes,” he said. “That is how you know she likes you. The ones she does not like, she simply has killed. Without warning.”
+
+I looked at him, this boy who was learning to be hard.
+
+“Your mother is a dangerous woman,” I said.
+
+“She is a Rani of Attingal,” he replied. “Dangerous is the least of what she is.”
+
+---
+
+The second month, I began to teach him to ride.
+
+Not the ceremonial riding of processions, sitting tall on an elephant's back while servants held umbrellas. Real riding. The kind where the horse is an extension of your body, where you think in hoofbeats instead of words.
+
+We started before dawn, when the training ground was empty and the air still cool enough to breathe without tasting dust.
+
+“In the Deccan,” I told him as we walked the horses in slow circles, “a man's horse is his second self. When I was your age, I learned to eat and sleep only after my mount had been fed and watered.”
+
+“We do not have the same tradition here,” the Prince said. “Our kings ride elephants.”
+
+“Elephants are for show,” I said. “For crushing and terrifying. But a horse, a horse can take you where elephants cannot. Through gaps in lines. Around flanks. Away from danger when danger is the only certainty.”
+
+I nudged my horse into a trot. He followed, his seat improving day by day.
+
+“Your uncle rides well for a man raised on palanquins,” I said. “He learned because he had to. When the Pillamar hunted him, elephants would have announced his presence to every spy in the kingdom. Horses let him move like smoke.”
+
+“He told me,” the Prince said. “He said you reminded him of the men who taught him.”
+
+“I am not from this coast,” I said. “I do not know its roads and its rivers the way a local man would. But I know what it means to run. And I know what it means to stop running and turn to fight.”
+
+We rode in silence for a while. The sun crept above the tree line, painting the world in shades of gold and green.
+
+“Sawant,” the Prince said. “At the temple. When the chevar came.”
+
+I waited.
+
+“I froze,” he said. “I saw the blade and I could not move. If my uncle had not...”
+
+“He did,” I said. “That is what matters.”
+
+“But I should have...”
+
+“You were ten years old,” I said. “Trained in nothing. Prepared for nothing. A grown warrior might have frozen in that moment. A boy can be forgiven.”
+
+“I am not ten now,” he said.
+
+“No,” I agreed. “You are not.”
+
+I reined my horse to a stop. He did the same.
+
+“If it happens again,” I said, “you will not freeze. Not because you are braver than you were, but because your body will know what to do before your mind has time to be afraid. That is what we are building here. Instinct that runs deeper than thought.”
+
+“And if instinct is not enough?”
+
+“Then you die,” I said. “As all men do, eventually. But you die moving, not standing still. You die with your sword in your hand, not in its sheath. And the men who see it will say: he was a prince who fought like a king.”
+
+He looked at me for a long moment.
+
+“You do not speak to me like the others do,” he said.
+
+“Should I?”
+
+“No,” he said. “The others speak around the truth. You speak through it.”
+
+“Your uncle does the same.”
+
+“My uncle is the king. He can afford honesty.” The Prince smiled, a small, wry thing that reminded me suddenly of Revathi. “The rest of the court cannot.”
+
+“I am not of the court,” I said. “I am a Maratha who washed up on your shore and learned to wear your coats. I have nothing to gain from flattering you and nothing to lose from telling you when your guard drops.”
+
+“That,” he said, “is why my uncle sent me to you.”
+
+---
+
+By the third month, I began to include him in the regular drills.
+
+Not as a prince, but as a junior officer. He wore the same white coat as the others, stood in the same lines, took the same corrections.
+
+At first the men were uneasy. One Nair captain muttered that the heir could not be treated like a common soldier. I told him that was the point.
+
+The Prince did not complain. He took corrections without argument, repeated drills until his arms shook, and one afternoon hauled a collapsed recruit into the shade with his own water.
+
+That evening, after the men had dispersed, the Prince found me on the bastion.
+
+“Sawant,” he said. “The men. They look at me differently now.”
+
+“They look at you as one of them,” I said. “Is that not what you wanted?”
+
+“I do not know what I wanted,” he admitted. “I only knew I did not want to be the boy at the temple again. The one who stood there while others bled for him.”
+
+“You will never be that boy again,” I said. “You have made certain of it.”
+
+He leaned against the parapet, looking out at the training ground below.
+
+“De Lannoy says you are too hard on the men,” he said. “He says a good commander knows when to push and when to rest.”
+
+“De Lannoy is right,” I said. “About most things. But he was not hunted as a child. He did not grow up knowing that assassins dream of his blood. You and your uncle have a different war than the one Lannoy fights.”
+
+“And you?”
+
+I thought of Goa. Of the chains. Of Keshavrao's hand slipping from the rope.
+
+“I have my own wars,” I said. “They taught me that rest is a luxury. Survival is not.”
+
+The Prince nodded slowly.
+
+“My uncle says you are the only man in this court who has nothing to gain from his favour,” he said. “He says that makes you dangerous. And valuable.”
+
+“Your uncle sees too much,” I said.
+
+“He sees enough,” the Prince replied. “He saw that I needed this. And he saw that you could give it.”
+
+He straightened, rolling his shoulders the way I had taught him to shake off tension.
+
+“Thank you, Sawant,” he said. “For not treating me like glass.”
+
+“Glass breaks,” I said. “You are not glass. You are iron that has not yet been forged. The fire is uncomfortable. But it is necessary.”
+
+He smiled, that wry, Revathi-like smile again.
+
+“Then I will try to enjoy the burning,” he said.
+
+He walked down from the bastion, past the guards who no longer hovered quite so close, past the men who nodded to him as a fellow soldier rather than bowing to him as a prince.
+
+I watched him go, and thought of the boy in Padmini's courtyard, wide-eyed and uncertain, witnessing an adoption he did not yet understand.
+
+That boy was gone.
+
+In his place walked someone who might, one day, be worthy of the throne his uncle was building for him.
+
+---
+
+The artillery came under new command that season.
+
+His name was Thoma Ittyerah, and he was the first man I met in Travancore who made the sign of the cross before touching a cannon.
+
+He was Syrian Christian, from a family that claimed descent from converts made by the Apostle Thomas himself, long before any Portuguese ship had troubled these waters. His people had been here for centuries, trading pepper and metal while kingdoms rose and fell around them.
+
+“My grandfather cast cannon for the Zamorin,” Thoma told me the first day we worked together. “My father cast them for Cochin. I cast them for Travancore.” He shrugged, his broad shoulders lifting beneath the simple white cloth of his tunic. “The metal does not care which king pays for the mould.”
+
+De Lannoy had found him in the north, at a village where Syrian Christian metalworkers had been making church bells and agricultural tools for generations. What Lannoy saw was potential, men who understood fire and bronze, who could learn to shape weapons as easily as ploughshares.
+
+“They are not soldiers,” Lannoy had reported to the king. “But they are craftsmen. Give me a year, and they will be both.”
+
+It had taken less than a year.
+
+Thoma now commanded the lighter artillery pieces, the field guns that could be dragged through hill country and jungle paths, the weapons that had broken Kollamkara's confidence in that bloody valley. His crews were a mix of Syrian Christians and converted Nairs, bound together by the shared language of powder and trajectory.
+
+“You do not pray to the same gods as your men,” I observed one afternoon, watching his crew drill.
+
+“No,” Thoma agreed. He was adjusting the elevation of a small cannon, squinting along its barrel. “But we bleed the same colour. That is enough for a gun crew.”
+
+He stepped back and signalled. The cannon roared. Downrange, a wooden target exploded into splinters.
+
+“The Dutch taught us that cannons are tools of discipline,” he said, as the smoke cleared. “Fire together, reload together, fire again. No room for heroes. Only for men who can count and follow orders.”
+
+“You learned from the Dutch?”
+
+“My uncle worked in their foundry at Cochin, before they decided that teaching Indians to cast good bronze was against company policy.” He smiled, showing teeth stained by betel. “They stopped the lessons. They could not take back what we had already learned.”
+
+His crews worked with a precision that reminded me of temple rituals, each movement prescribed, each role understood. The loader, the rammer, the man who held the slow match. They moved around the cannon like priests around an altar, their faith not in any god but in the mathematics of fire.
+
+---
+
+It was Thoma who first told me about the Jews.
+
+We were inspecting a shipment of saltpetre when a small boat pulled up to the dock. The man who stepped off wore a dark coat despite the heat, a cap over his head, and a beard that fell to his chest.
+
+“Avraham,” Thoma called, raising a hand. “You are early.”
+
+The man approached, his eyes taking in everything, the stacked barrels, the guards, me.
+
+“The roads from Cochin are clear this season,” he said. His Malayalam was accented, the vowels shaped by some other tongue. “The king's peace has been good for travel.”
+
+Thoma turned to me. “Sawant, this is Avraham ben Ephraim. His family has traded with mine for four generations. Avraham, this is the Maratha, the one the soldiers call the Deccan rider.”
+
+Avraham inclined his head. “I have heard of you. The man who teaches horses to dance with muskets.”
+
+“The man who tries,” I said. “What brings you from Cochin?”
+
+“Saltpetre,” he said. “And other things the king requires. My people have traded on this coast longer than any European memory.”
+
+I had heard of the Jews of Cochin, traders who kept their own quarter near the Raja's palace, but I had never spoken to one.
+
+“You supply the king's army?” I asked.
+
+“We supply whoever pays fairly and keeps their word,” Avraham said. “Marthanda Varma pays fairly. His Dalawa keeps accounts that even our elders respect. That is rare among kings.”
+
+He gestured toward the barrels.
+
+“Good saltpetre,” he said to Thoma. “From the caves near Madurai. The Tamil merchants tried to raise the price, but we reminded them that we have been trading longer than their grandfathers have been alive. They reconsidered.”
+
+Thoma laughed. “The Jews of Cochin,” he said to me, “have a saying: 'The Portuguese came and went, the Dutch came and are going, the English are coming. We remain.'”
+
+“We have been expelled from many lands,” Avraham said. “Spain, Portugal, half of Europe. But never from this coast. The rajas here understood something that Christian kings did not, a merchant who can trade with Arabs and Persians and Europeans alike is more valuable than any army.”
+
+He looked at the fort rising behind us, at the star-shaped bastions and the European-style walls.
+
+“Now you build armies too,” he added. “Perhaps that is wise. Perhaps not. We shall see what survives longer, the walls or the ledgers.”
+
+---
+
+Over the following months, I learned more about the Jews of Cochin.
+
+Thoma said there were Malabari Jews, old families woven into the coast, and Paradesi Jews, newer arrivals from Europe who still carried Spanish and Portuguese scars. Both lived under the Raja's protection near the palace, trading where others were forbidden to own land.
+
+“They cannot own land outside their quarter,” Thoma said. “But they can own ships. They can trade. And they remember everything, every debt, every favour, every slight. Do not cheat a Jew of Cochin, Sawant. His grandson will remember.”
+
+“You speak as if you admire them,” I said.
+
+“I speak as a Christian whose ancestors were here before Portugal existed,” Thoma replied. “We know what it means to be ancient in a land that others call new. The Jews understand. The Nairs understand, though they would not admit it. Even you Marathas, with your old forts and older gods, you understand.”
+
+He adjusted the cannon we were inspecting, tightening a wheel bolt.
+
+“The Dutch and the Portuguese, they think history began when their ships arrived. They write their books and draw their maps and believe they are the first to see these shores.” He spat into the dust. “This coast has buried empires before them. It will bury more.”
+
+I thought of Goa, and of men certain their faith and their flags made them superior to the men they tortured.
+
+“And yet we wear their coats now,” I said. “And fire their cannons.”
+
+“We wear what is useful,” Thoma said. “We fire what works. That is not surrender. That is wisdom.” He smiled. “The Jews taught us that, too. Survive first. Remember always. And never forget who tried to destroy you.”
+
+---
+
+Avraham came to the fort several more times that season, always with goods the army needed, saltpetre, sulphur, copper for casting, cloth for uniforms. Each time, he and Thoma would sit together over cups of arrack, speaking in a mixture of Malayalam and Portuguese and something else that I later learned was Ladino, the old Spanish tongue the Paradesi Jews had carried with them across the seas.
+
+One evening, I joined them.
+
+“You ask many questions,” Avraham observed, after I had spent an hour learning about trade routes and currency exchanges and the complex web of debts and favours that connected Cochin to Basra to Amsterdam.
+
+“I was a soldier,” I said. “Soldiers learn to read terrain. This,” I gestured vaguely at the ledgers and manifests spread between us, “is terrain I never learned to read.”
+
+“It is simpler than you think,” Avraham said. “Every transaction is a story. Who needs what. Who has what. What they will trade to get what they need. Follow the story, and you understand the trade.”
+
+“And what story does Travancore tell?” I asked.
+
+He was quiet for a moment, turning his cup in his hands.
+
+“Travancore tells a story of a king who learned that pepper is power,” he said. “Who saw that the Europeans would bleed each other dry for control of the spice trade, and decided to make them bleed on his terms instead of theirs. It is a clever story. We shall see if it has a happy ending.”
+
+“You doubt it?”
+
+“I doubt all kings,” Avraham said. “My people have learned that lesson in many lands. But this king...” He paused. “This king pays his debts. That is worth something.”
+
+He stood, gathering his papers.
+
+“My grandfather traded with the Zamorin,” he said. “My father traded with Cochin. I trade with Travancore. My son will trade with whoever holds this coast when I am gone.” He smiled, and there was something ancient in his eyes. “The Jews endure, Sawant. We have outlasted Pharaohs and Caesars and Inquisitors. We will outlast kings of pepper, too.”
+
+He left, his small boat disappearing into the gathering dusk.
+
+Thoma and I sat in silence for a while, watching the lamps being lit along the walls.
+
+“Strange allies, these,” I said.
+
+“All allies are strange,” Thoma replied. “Until you need them.”
+
+---
 
 One evening, after a particularly long day of drills and disputes, Lannoy and I ended up in the fort's small armoury, checking a new shipment of blades.
 
@@ -5729,7 +6782,7 @@ I took the blade.
 
 He leaned against a rack of spears, staring at some point between us.
 
-"Back where?" he asked. "To ships that would call me traitor? To a land that has already written my name in a different ledger?"
+“Back where?” he asked. “To ships that would call me traitor? To a land that has already written my name in a different ledger?”
 
 He shook his head.
 
@@ -5739,7 +6792,7 @@ His words echoed my own thoughts more than he knew.
 
 We stood there in silence for a few breaths, two men far from the places that had birthed us, bound to a banner that was neither of our first choosing, yet had become ours by repeated, bloody decisions.
 
-"Under whose standard do we truly stand, Nagoji Sawant?" he asked softly. "The king's? The idea of this place? The memory of the men who died at Colachel?"
+“Under whose standard do we truly stand, Nagoji Sawant?” he asked softly. “The king's? The idea of this place? The memory of the men who died at Colachel?”
 
 “All of them,” I said. “On different days.”
 
@@ -5817,7 +6870,7 @@ Our masters plan.
 
 The northern storms will soon settle; attention will turn to lands that have grown fat while we fought elsewhere. The Peshwa and his sardars speak of pepper and ports and of not letting any small ruler think he can stand alone when the confederacy stretches its hand.
 
-If you return now, with what you have learned, you will not come back as a simple cavalary officer. You will have estates confirmed, your family freed from certain levies, your advice heard. You could help guide our charge south so that we do not waste men as company fools did at Colachel.
+If you return now, with what you have learned, you will not come back as a simple cavalry officer. You will have estates confirmed, your family freed from certain levies, your advice heard. You could help guide our charge south so that we do not waste men as company fools did at Colachel.
 
 If you stay, you risk being trapped when the map changes under your feet.
 
@@ -5929,29 +6982,29 @@ He nodded once.
 
 “And if he is not?” I asked.
  
- "Then his horse will sink in sand one day and I will not weep," he said.
+“Then his horse will sink in sand one day and I will not weep,” he said.
  
  Ramayyan reached for the leaf.
  
- "No," I said.
+“No,” I said.
  
  My hand covered his.
  
  He looked up, eyebrows raised.
  
- "It is a good letter," I said. "It allows me to keep a foot in the north. To answer a friend. To be a Maratha who helps Travancore."
+“It is a good letter,” I said. “It allows me to keep a foot in the north. To answer a friend. To be a Maratha who helps Travancore.”
  
- "Yes," Ramayyan said.
+“Yes,” Ramayyan said.
  
- "I am not a Maratha who helps Travancore," I said. "Not anymore."
+“I am not a Maratha who helps Travancore,” I said. “Not anymore.”
  
  I took the leaf. I took the original message from the Deccan.
  
  I walked to the small oil lamp burning in the niche.
  
- "Nagoji," Ramayyan said softly. "Once you do this, there is no echo. You become silent to them."
+“Nagoji,” Ramayyan said softly. “Once you do this, there is no echo. You become silent to them.”
  
- "I know," I said.
+“I know,” I said.
  
  I held the leaves to the flame.
  
@@ -5959,7 +7012,7 @@ He nodded once.
  
  We watched them burn until the ash fell onto the stone floor.
  
- "I have no advice for Pune," I said. "My sword is here. My words stay here."
+“I have no advice for Pune,” I said. “My sword is here. My words stay here.”
  
  Ramayyan watched the last spark die. Then, for the first time in all the years I had known him, he smiled. A true smile, not a baring of teeth.
 
@@ -5971,15 +7024,117 @@ He nodded once.
 
 He reached for another leaf, smaller, and wrote two short lines.
 
-Sawant, Nagoji – tested with northern letter.  
- Burned the bridge himself.  
- Is ours.
+Sawant, Nagoji: tested with northern letter.  
+Burned the bridge himself.  
+Is ours.
 
 He did not hide it from me.
 
 “You keep this in your ledger,” I said.
 
 “I keep it in mine,” he said. “You keep it in your bones.”
+
+He set down the stylus and regarded me with something that might have been satisfaction.
+
+“There is one more thing,” he said. “Since you have proven yourself today, you may as well know the shape of other pieces on the board.”
+
+He reached for another bundle of leaves, older, the edges worn from handling.
+
+“The Portuguese priest,” he said. “Father Duarte. You confronted him when the embassy arrived.”
+
+My jaw tightened. “I remember.”
+
+“He has been in my pay for eleven years.”
+
+The words landed like stones in still water.
+
+“What?”
+
+“Since before you washed up on this coast,” Ramayyan said. “He reached out to us through a Marakkar trader not long after the Dutch began pressing harder. A man of conscience, he said. A man who had seen what his empire did to those it conquered and found the taste bitter.”
+
+I thought of the dungeon. The hesitation. The sign of the cross at the gate.
+
+“He tortured me,” I said. “He watched while João...”
+
+“Yes,” Ramayyan said. “He did. And then he spent years sending us reports on Portuguese troop movements, on which officers could be turned, on which soldiers were desperate enough to consider service under a different flag.”
+
+“The European defectors,” I said slowly. “The ones who came to train our gunners.”
+
+“Some of them came because Father Duarte whispered in their ears,” Ramayyan said. “He told them of a kingdom that paid well, that did not ask men to burn villages for the glory of a distant crown, that valued skill over birth. He absolved them of their doubts and pointed them south.”
+
+I sat back, my mind reeling.
+
+The dungeon rose before me unbidden. The stone walls. The chains. João's tools laid out with surgical precision. And Duarte, always Duarte, standing just far enough back to claim he was merely observing, his grey eyes watching my fingers bend at angles they were never meant to bend.
+
+Eleven years.
+
+While I had been learning to ride on wet sand, to eat rice instead of millet, to say Padmanabha's name without stumbling, I had been burning my bridge to the Deccan and building a new self from the ashes. In those same years, that priest had been whispering in the ears of my new masters. Every report he sent had helped the kingdom that saved me. Every soldier he turned had strengthened the army I now commanded.
+
+The man who watched my torture had spent eleven years secretly serving the crown I had chosen to die for.
+
+I did not know whether to laugh or weep or simply walk out into the rain and let it wash away the neat lines I had drawn between enemy and ally, torturer and saviour.
+
+“When he came with the embassy,” I said. “When I confronted him. Did he know...”
+
+“That you were here? That you had become one of our generals?” Ramayyan's smile was thin. “Of course he knew. I told him myself, years ago, when I first understood who you were. I told him that the man he had watched being broken in Goa now commanded cavalry that could reach the walls of his precious fort.”
+
+“And he still came.”
+
+“He asked to come,” Ramayyan said. “He wanted to see what you had become. Perhaps he wanted to know if you would kill him. Perhaps he wanted to give you the chance.”
+
+I remembered the fear in Duarte's eyes. The way his hand had moved toward the cross at his throat. The words: *I have asked for your forgiveness every day since.*
+
+“Was any of it real?” I asked. “The guilt? The hesitation?”
+
+“All of it was real,” Ramayyan said. “That is why he is useful. A man who pretends guilt can be caught in his pretense. A man who truly carries it will do anything to lighten the weight.” He paused. “He serves us because serving us is the only penance he can find. Every soldier he turns, every report he sends, is a small stone removed from the pile on his chest.”
+
+“And you let me threaten him,” I said. “You let me stand there and speak of having him arrested.”
+
+“I let you have your moment,” Ramayyan said. “You needed it. He needed it. Now you both know where you stand.”
+
+“Where do we stand?”
+
+“On the same side of the wall,” Ramayyan said. “Though you came to it by different doors.”
+
+I thought of the confrontation again. Of Duarte saying *Then we are alike in that. More than I would have thought.*
+
+He had not been speaking only of choices and regrets. He had been speaking of service to the same crown.
+
+“Does he know I know now?” I asked.
+
+“He will,” Ramayyan said. “I will send him word. It may make your next meeting less... theatrical.”
+
+“There will be a next meeting?”
+
+“There will be many,” Ramayyan said. “He is too useful to waste on a single embassy. And now that you know, you can work with him directly. There are Portuguese soldiers who might listen to a man who survived their dungeons more readily than they would listen to a spy in priest's robes.”
+
+I shook my head slowly.
+
+“Your reach is longer than I imagined,” I said.
+
+“My reach is exactly as long as it needs to be,” Ramayyan said. “The Maharaja builds walls. I build the network that tells us where enemies will strike before they lift their hammers.”
+
+He gathered the old leaves and tucked them away.
+
+“Father Duarte will continue his work,” he said. “You will continue yours. Occasionally, your paths will cross. When they do, remember that the man who watched your torture has spent eleven years trying to undo what his empire builds. That does not erase what he did. But it may change what it means.”
+
+He paused at the door.
+
+“One more thing,” he said. “The priest has asked to remain. Not as an envoy. Permanently.”
+
+“Here? In Travancore?”
+
+“In Thiruvananthapuram,” Ramayyan said. “He says Goa has become unbearable to him. Too many ghosts in the corridors. He wishes to spend his remaining years where his work has meaning.”
+
+“And the Maharaja permits this?”
+
+“The Maharaja permits many things that serve his purpose,” Ramayyan said. “A Catholic priest who can minister to our European soldiers, who can ease the conscience of men thinking of defecting, who can write letters to Goa that say what we wish them to say: such a man has value. Besides,” he added, “De Lannoy has been asking for a chaplain for years. His faith sits uneasily without the sacraments. Now he will have them.”
+
+I imagined it: the Dutch soldier and the Portuguese priest, kneeling together in some small chapel, speaking to a god neither Marthanda Varma nor Ramayyan worshipped, yet serving the same crown.
+
+“This kingdom collects strange pieces,” I said.
+
+“This kingdom uses what it finds,” Ramayyan replied. “As it used you. As it used me. As it will use anyone who proves their worth.”
 
 When I stepped out into the courtyard, the rain had stopped.
 
@@ -6050,7 +7205,7 @@ I saw the problem as soon as I pictured the map.
 
 “Our horse cannot move at speed through those vines,” I said. “The path is too narrow. The supports too close. The canal banks too soft.”
 
-“Foot” Ramayyan said.
+“Foot,” Ramayyan said.
 
 “Foot will bleed in every bush,” I said. “Every stand of pepper is cover. Every tree hides a musket. We will lose men in inches.”
 
@@ -6234,7 +7389,7 @@ Instead, she came to the fort wall where I stood a few evenings later, watching 
 
 She leaned on the parapet, staring north.
 
-“Do you remember when you first came to Velinadu,” she asked, “how you spoke of fighting Europeans, of keeping this land free from their flags”
+“Do you remember when you first came to Velinadu,” she asked, “how you spoke of fighting Europeans, of keeping this land free from their flags?”
 
 “I do,” I said.
 
@@ -6278,14 +7433,28 @@ It had burned away the illusion that love could soften the choices ahead.
 
 In its place, another truth rose, harder edged.
 
-Later, when Ramayyan sifted rumours, Ibrahim Marakkar's name floated more than once to the surface, tied to bales of cloth and quiet conversations on canal banks. Whether he had helped Kollamkara reach Dutch guns or had nudged those same whispers toward the fort first was never entirely clear. Men like him rarely walked in straight lines.
+Later, when Ramayyan sifted rumours, Ibrahim Marakkar's name floated more than once to the surface, tied to bales of cloth and quiet conversations on canal banks. Whether he had helped Kollamkara reach Dutch guns or had nudged those same whispers toward the fort first was never entirely clear.
+
+I asked Ramayyan about it once, months after the ash had cooled.
+
+He did not look up from his ledger.
+
+“Some men are most useful when both sides believe they are theirs,” he said. “Ibrahim has traded on this coast longer than you have been alive. He will trade here after we are both dust. Do not trouble yourself with his accounts. I keep them for him.”
+
+“And if he betrayed us?”
+
+“Then I would know,” Ramayyan said. “And he would know that I know. That is usually enough.”
+
+He turned a page, stylus already moving to the next line.
+
+Men like Ibrahim rarely walked in straight lines. Perhaps that was the only way to survive on a coast where every power wanted the same pepper.
 # Book IV, Chapter 27: The Last of the Old Houses
 
 The map in the war hall had grown crowded.
 
 Not with our own marks, with others'. Ramayyan had drawn them in different inks, each colour a different threat, each line a different direction from which death might come.
 
-To the north, in red: Mysore. Hyder Ali's name was whispered more often now, a soldier risen from nothing who was reshaping that kingdom with iron and ambition. His eyes, they said, turned toward every coast that grew pepper.
+To the north, in red: Mysore. Its growing power was still half rumour, half fact, a hill kingdom learning to move men and guns like a single body. Its eyes, they said, turned toward every coast that grew pepper.
 
 To the northeast, in black: the Nizam's lands. Hyderabad was far, but its armies were not. They had swallowed kingdoms larger than Travancore for breakfast and forgotten their names by dinner.
 
@@ -6293,21 +7462,21 @@ To the east, in brown: Arcot. The Nawab there played games with the British and 
 
 And all around the coast, in blue: the Europeans. Dutch. Portuguese. British. French. Each with ships, each with guns, each with the patient hunger of men who thought in generations.
 
-"We are small," Marthanda Varma said, his finger tracing the borders of his kingdom. "Smaller than any of them. If they came together, if even two of them agreed to split us, we would last a season. Perhaps two."
+“We are small,” Marthanda Varma said, his finger tracing the borders of his kingdom. “Smaller than any of them. If they came together, if even two of them agreed to split us, we would last a season. Perhaps two.”
 
 He looked up at me.
 
-"Do you know why I have spent twenty years taking every small kingdom on this coast?"
+“Do you know why I have spent twenty years taking every small kingdom on this coast?”
 
 It was not a question that expected an answer. But I gave one anyway.
 
-"To deny them footholds," I said. "Every petty raja who might sell his port to Mysore or his pepper to the Dutch without your leave. Every chief who might open a back door while you face the front."
+“To deny them footholds,” I said. “Every petty raja who might sell his port to Mysore or his pepper to the Dutch without your leave. Every chief who might open a back door while you face the front.”
 
-"Partly," he said. "But there is more."
+“Partly,” he said. “But there is more.”
 
 He gestured at the map.
 
-"A hundred small kingdoms are a hundred small throats to cut," he said. "One larger kingdom is a single throat, yes, but it is also a single fist. I do not take these lands because I am greedy. I take them because divided, we are meat. United, we are at least a problem."
+“A hundred small kingdoms are a hundred small throats to cut,” he said. “One larger kingdom is a single throat, yes, but it is also a single fist. I do not take these lands because I am greedy. I take them because divided, we are meat. United, we are at least a problem.”
 
 By then Padmini Amma was gone.
 
@@ -6323,11 +7492,11 @@ Only once that duty was settled did the king begin to speak aloud of Kottarakkar
 
 Ramayyan set down his stylus.
 
-"Kottarakkara," he said quietly.
+“Kottarakkara,” he said quietly.
 
 The name fell into the room like a stone into water.
 
-"Yes," the king said. "Kottarakkara. The last of the old houses that still believes it can stand alone."
+“Yes,” the king said. “Kottarakkara. The last of the old houses that still believes it can stand alone.”
 
 ---
 
@@ -6341,23 +7510,23 @@ Kottarakkara. Savitri.
 
 Names that meant nothing to me when I first washed up on this coast, and everything now.
 
-The Raja of Kottarakkara had finally pushed too far. Dutch factors in his court. Letters intercepted that spoke of "alternatives" to Travancore rule. When we marched, he fled to Cochin, leaving the throne empty. But his kinswoman remained.
+The Raja of Kottarakkara had finally pushed too far. Dutch factors in his court. Letters intercepted that spoke of “alternatives” to Travancore rule. When we marched, he fled to Cochin, leaving the throne empty. But his kinswoman remained.
 
-"He thinks he can play them against us," Ramayyan said. "He thinks if he makes himself useful to the Dutch, they will protect him from our reach."
+“He thinks he can play them against us,” Ramayyan said. “He thinks if he makes himself useful to the Dutch, they will protect him from our reach.”
 
-"They will eat him," I said. "After they use him to weaken us."
+“They will eat him,” I said. “After they use him to weaken us.”
 
-"He knows that too, somewhere in his mind," Ramayyan said. "But pride is a powerful drug. His grandmothers held this land before our king's line took the throne. He cannot accept that the world has changed."
+“He knows that too, somewhere in his mind,” Ramayyan said. “But pride is a powerful drug. His grandmothers held this land before our king's line took the throne. He cannot accept that the world has changed.”
 
-"And Savitri?" I asked.
+“And Savitri?” I asked.
 
 The name tasted strange on my tongue. Revathi's kinswoman. The woman whose claim to Kottarakkara was as legitimate as any could be under the old laws.
 
-"She waits," Ramayyan said. "She writes letters to Velinadu asking what Revathi will do when the hammer falls. She writes letters to the Dutch asking what they will offer if she raises a banner. She is not foolish. She prepares for every outcome."
+“She waits,” Ramayyan said. “She writes letters to Velinadu asking what Revathi will do when the hammer falls. She writes letters to the Dutch asking what they will offer if she raises a banner. She is not foolish. She prepares for every outcome.”
 
-"Including the one where we win," I said.
+“Including the one where we win,” I said.
 
-"Including that one," he agreed.
+“Including that one,” he agreed.
 
 ---
 
@@ -6367,9 +7536,9 @@ There was no single beach, no dramatic charge. It was a slow strangulation, a se
 
 We blocked the roads his merchants used. We diverted the canals that fed his fields. We made it known to every house that traded with him that Travancore's memory was long and its patience short.
 
-"This is not war," Lannoy said one evening as we watched supply carts move toward our forward positions. "This is siege without walls."
+“This is not war,” Lannoy said one evening as we watched supply carts move toward our forward positions. “This is siege without walls.”
 
-"Walls can be rebuilt," I said. "What we are breaking cannot."
+“Walls can be rebuilt,” I said. “What we are breaking cannot.”
 
 Within months, the siege lines around Kottarakkara were complete. The Raja fled to Cochin. But Savitri did not run. She stayed to claim the chair he left behind.
 
@@ -6383,21 +7552,21 @@ Under the matrilineal laws of her house, she was the senior woman of Kottarakkar
 
 She demanded what Marthanda Varma had already decided to keep.
 
-"If I give her the throne of Kottarakkara," he said in the war hall, "every house I have absorbed will see it as permission to demand the same. The Kollamkara remnants. The Kayamkulam kin. The Thekkumkur nephews. The dozen petty rajas whose lands now feed our army. They will point to Savitri and say, see, the old ways still hold."
+“If I give her the throne of Kottarakkara,” he said in the war hall, “every house I have absorbed will see it as permission to demand the same. The Kollamkara remnants. The Kayamkulam kin. The Thekkumkur nephews. The dozen petty rajas whose lands now feed our army. They will point to Savitri and say, see, the old ways still hold.”
 
-"And if you refuse?" I asked.
+“And if you refuse?” I asked.
 
-"Then I make an enemy of a woman with legitimate grievances and powerful friends," he said. "The Dutch will use her. And Velinadu..."
+“Then I make an enemy of a woman with legitimate grievances and powerful friends,” he said. “The Dutch will use her. And Velinadu...”
 
 He did not finish. He did not need to.
 
 Velinadu was Revathi. And Revathi was blood kin to Savitri.
 
-"This was always going to happen," Ramayyan said. "We knew it when we first moved against Kottarakkara. We knew that one day a woman would stand in this hall and demand what her grandmothers held."
+“This was always going to happen,” Ramayyan said. “We knew it when we first moved against Kottarakkara. We knew that one day a woman would stand in this hall and demand what her grandmothers held.”
 
-"Did you know it would be her?" the king asked.
+“Did you know it would be her?” the king asked.
 
-"I knew it would be someone like her," Ramayyan said. "Sharp. Legitimate. Connected. The worst kind of enemy: one who is not wrong."
+“I knew it would be someone like her,” Ramayyan said. “Sharp. Legitimate. Connected. The worst kind of enemy: one who is not wrong.”
 
 ---
 
@@ -6405,37 +7574,37 @@ I met Savitri at Kottarakkara, in the old palace where she had barricaded hersel
 
 She was older than I had expected, lines of care etched around her eyes and mouth. But she held herself like someone who had spent a lifetime being told she could not, and had decided otherwise.
 
-"The Maratha rider," she said when she saw me. "Marthanda Varma's foreign sword."
+“The Maratha rider,” she said when she saw me. “Marthanda Varma's foreign sword.”
 
-"I am not here to fight you," I said.
+“I am not here to fight you,” I said.
 
-"No," she agreed. "You are here to measure me. To see if I am the kind of threat that can be bought, or frightened, or simply waited out."
+“No,” she agreed. “You are here to measure me. To see if I am the kind of threat that can be bought, or frightened, or simply waited out.”
 
-"And which are you?"
+“And which are you?”
 
 She smiled, but there was no warmth in it.
 
-"I am the kind that remembers," she said. "My kinsman died in a room he could not leave, asking for air, asking for home. Your king calls that statecraft. I call it murder dressed in manners."
+“I am the kind that remembers,” she said. “My kinsman died in a room he could not leave, asking for air, asking for home. Your king calls that statecraft. I call it murder dressed in manners.”
 
-"He threatened Travancore's unity," I said. "He invited our enemies into his court."
+“He threatened Travancore's unity,” I said. “He invited our enemies into his court.”
 
-"He defended his house," she said. "As his mothers did before him. As I will."
+“He defended his house,” she said. “As his mothers did before him. As I will.”
 
 She stepped closer.
 
-"Do you know why your king fears the matrilineal law?" she asked. "It is not because it is old. It is because it gives women like me standing. A claim that does not depend on which man thinks he owns me. Your king builds a state where power flows downward from one throne. We come from a world where it flows sideways, through sisters, through daughters, through the women who remember."
+“Do you know why your king fears the matrilineal law?” she asked. “It is not because it is old. It is because it gives women like me standing. A claim that does not depend on which man thinks he owns me. Your king builds a state where power flows downward from one throne. We come from a world where it flows sideways, through sisters, through daughters, through the women who remember.”
 
-"That world is ending," I said.
+“That world is ending,” I said.
 
-"Perhaps," she said. "Or perhaps it will outlast his walls. Empires fall. Women remain."
+“Perhaps,” she said. “Or perhaps it will outlast his walls. Empires fall. Women remain.”
 
 She turned away.
 
-"Tell him I will not disappear quietly," she said. "Tell him that if he denies my claim, I will find allies who respect it. Tell him that the Dutch have already made offers. Tell him that when Mysore finally moves south, they will remember which houses resisted Travancore and reward them."
+“Tell him I will not disappear quietly,” she said. “Tell him that if he denies my claim, I will find allies who respect it. Tell him that the Dutch have already made offers. Tell him that when Mysore finally moves south, they will remember which houses resisted Travancore and reward them.”
 
-"You would sell your coast to the very powers you claim to oppose?" I asked.
+“You would sell your coast to the very powers you claim to oppose?” I asked.
 
-"I would survive," she said. "That is what women like me have always done. We outlast the men who think they own us. We tend our gardens long after their forts have fallen."
+“I would survive,” she said. “That is what women like me have always done. We outlast the men who think they own us. We tend our gardens long after their forts have fallen.”
 
 ---
 
@@ -6467,41 +7636,41 @@ They brought her to the king's tent as the sun set over the field where her hope
 
 Her hands were bound. Her face was bruised. But she stood straight, and when she looked at Marthanda Varma, there was no surrender in her eyes.
 
-"You could have run," he said.
+“You could have run,” he said.
 
-"This is my land," she replied. "I will not watch it from a ship."
+“This is my land,” she replied. “I will not watch it from a ship.”
 
 He rose and walked to where she stood.
 
 For a long moment, neither spoke.
 
-"I met you once," he said finally. "When we were young. Before any of this. You had a laugh that carried across courtyards."
+“I met you once,” he said finally. “When we were young. Before any of this. You had a laugh that carried across courtyards.”
 
 Something flickered in her face. Memory. Pain.
 
-"I have not laughed in a long time," she said.
+“I have not laughed in a long time,” she said.
 
-"No," he agreed. "Neither have I."
+“No,” he agreed. “Neither have I.”
 
 He turned away, then back.
 
-"I will not kill you," he said. "I will not imprison you. You will go to Cochin, to the Dutch who promised you so much and delivered so little. You will live there. But you will not return. If you set foot in Travancore again, I will treat you as I would any invader."
+“I will not kill you,” he said. “I will not imprison you. You will go to Cochin, to the Dutch who promised you so much and delivered so little. You will live there. But you will not return. If you set foot in Travancore again, I will treat you as I would any invader.”
 
-"Exile," she said.
+“Exile,” she said.
 
-"Survival," he replied. "More than your kinsman received."
+“Survival,” he replied. “More than your kinsman received.”
 
 Her jaw tightened.
 
-"You are building something," she said. "I see it. These forts. These armies. One kingdom where a hundred stood. Perhaps it will hold against Mysore. Perhaps it will outlast the Dutch. Perhaps your name will be spoken with respect a hundred years from now."
+“You are building something,” she said. “I see it. These forts. These armies. One kingdom where a hundred stood. Perhaps it will hold against Mysore. Perhaps it will outlast the Dutch. Perhaps your name will be spoken with respect a hundred years from now.”
 
 She leaned forward.
 
-"But remember this," she said. "Every house you broke, every succession you denied, every woman you sent into exile, we become stories. And stories outlast walls. When your forts are ruins and your laws are dust, someone will remember what you took. They will remember me."
+“But remember this,” she said. “Every house you broke, every succession you denied, every woman you sent into exile, we become stories. And stories outlast walls. When your forts are ruins and your laws are dust, someone will remember what you took. They will remember me.”
 
-"Let them," he said. "I build for the living, not the remembered."
+“Let them,” he said. “I build for the living, not the remembered.”
 
-"That," she said, "is why you will never understand us."
+“That,” she said, “is why you will never understand us.”
 
 They led her away toward the coast, toward a ship that would carry her to a place she could see but never again touch.
 
@@ -6520,11 +7689,17 @@ Not for war council. Not for treaty. For something else entirely.
 
 The temple at night was a different creature than by day. Oil lamps burned in brass holders along every wall, their flames reflected and doubled in the polished stone floors until the whole space seemed to float on fire. The smell of ghee and camphor mixed with the older smell of stone that had stood for centuries. Shadows moved between the pillars, too deep to hold anything human, yet watchful.
 
-I stood at the back, among the lesser officers and the Marakkar captains. Padmini was closer to the front, her stick silent for once. Revathi had not come. Her absence was noted, weighed, filed away.
+I stood at the back, among the lesser officers and the Marakkar captains. Near the front there was a place where Padmini would once have stood, stick planted, eyes sharp. Fever had taken her months before, yet in that packed hall the gap she left felt as visible as any banner. Revathi had not come. Her absence was noted, weighed, filed away.
 
 The nobles filled the mandapa in ranks according to their importance, their jewels catching the lamplight, their faces carefully composed. Some had lost kinsmen to the king's campaigns. Some had lost lands. All had learned to bow.
 
-Marthanda Varma entered without ceremony.
+A conch blew, long and low. A temple herald stepped into the lamplight, voice trained to cut through drums and crowd.
+
+“Listen and witness. His Highness Sree Anizham Thirunal Marthanda Varma, Maharaja of Travancore, victor of Colachel, breaker of the Eight Houses.”
+
+The titles landed like drumbeats. The full name raised gooseflesh on my arms. I had heard him called Varma, called Maharaja, called tiger. Hearing the whole weight of him spoken aloud inside a temple made the air feel thinner.
+
+Marthanda Varma entered with none of his usual display.
 
 He wore no crown, no heavy gold. Only a simple white dhoti and the sacred thread across his chest. In his hands he carried a sword, its blade catching the flame light, its hilt wrapped in silk.
 
@@ -6550,7 +7725,7 @@ It did not clatter. He placed it with the care of a father laying down a sleepin
 
 And then he spoke.
 
-"From this day," he said, his voice carrying through the sudden silence, "I am no longer king of this land. I am only the servant of He who lies here. All that I have taken, all that I have built, all that I have paid for in blood and exile and broken houses, I give to Him. The kingdom is His. I merely hold it in trust."
+“From this day,” he said, his voice carrying through the sudden silence, “I am no longer king of this land. I am only the servant of He who lies here. All that I have taken, all that I have built, all that I have paid for in blood and exile and broken houses, I give to Him. The kingdom is His. I merely hold it in trust.”
 
 The priests' chanting swelled, a deep, resonant vibration that seemed to come from the floor itself, accepting the gift.
 
@@ -6562,17 +7737,15 @@ Others saw the trap.
 
 Near the back, where I stood, a minor chief from the northern marches leaned toward his neighbour, his eyes wide.
 
-"He has given the land to god," he murmured, his voice barely audible above the chanting, "so that he can keep it forever."
+“He has given the land to god,” he murmured, his voice barely audible above the chanting, “so that he can keep it forever.”
 
 His neighbour's lips twitched but did not smile.
 
-"Who can take from a god what a god owns?" the first man continued. "Not Mysore. Not the Nizam. Not the Dutch. Not even a woman with a legitimate claim."
+“Who can take from a god what a god owns?” the first man continued. “Not Mysore. Not the Nizam. Not the Dutch. Not even a woman with a legitimate claim.”
 
 I looked at Ramayyan. The Dalawa was not watching the King. He was not looking at the deity. His gaze was sweeping the rows of bent heads, cataloguing every hesitation, every stiff conflict in a noble's shoulder. He was checking the mortar on this new wall they had built.
 
 I understood then.
-
-This was not surrender. This was the final fortification. By giving the kingdom to the deity, Marthanda Varma had made it untouchable. No future conqueror could claim Travancore without claiming to steal from Padmanabha himself. No rival house could demand succession without demanding it from a god. To rebel now was not treason; it was blasphemy.
 
 He had built walls of stone and armies of men. Now he built a wall of faith, and it was the strongest of them all.
 
@@ -6582,7 +7755,7 @@ When he turned to face the assembly, his eyes found mine for a moment.
 
 There was no triumph in his gaze. Only the weariness of a man who had finally placed his last piece on the board and could only wait to see if the game was won.
 
-"Padmanabha Dasa," the priests intoned. Servant of Padmanabha.
+“Padmanabha Dasa,” the priests intoned. Servant of Padmanabha.
 
 The nobles bowed.
 
@@ -6594,45 +7767,45 @@ Revathi came to the fort one week later.
 
 She did not speak to me at first. She simply stood in the courtyard, looking at the banner that flew above the gate, the banner that now flew over all the lands that had once been a dozen kingdoms.
 
-"She reached Cochin," she finally said. "They gave her a small house. She tends a garden now."
+“She reached Cochin,” she finally said. “They gave her a small house. She tends a garden now.”
 
-"I am glad she lives," I said.
+“I am glad she lives,” I said.
 
-"Are you?" she asked.
+“Are you?” she asked.
 
 I did not answer.
 
-"You could have let her go," she said. "During the battle. You were close enough. She was trying to reach the boats."
+“You could have let her go,” she said. “During the battle. You were close enough. She was trying to reach the boats.”
 
-"I did not see her," I said.
+“I did not see her,” I said.
 
-"Liar," she said, but there was no heat in it. Only weariness.
+“Liar,” she said, but there was no heat in it. Only weariness.
 
-"Perhaps," I admitted.
+“Perhaps,” I admitted.
 
 She looked at me then, truly looked, as if seeing me for the first time.
 
-"You have made your choice," she said. "Completely now. There is no more standing with one foot in each river. You are his man. His sword. His builder."
+“You have made your choice,” she said. “Completely now. There is no more standing with one foot in each river. You are his man. His sword. His builder.”
 
-"Yes," I said.
+“Yes,” I said.
 
-"And I am still hers," she said. "Her kinswoman. Her blood. The one who stood beside you in the same hall while you burned her claim."
+“And I am still hers,” she said. “Her kinswoman. Her blood. The one who stood beside you in the same hall while you burned her claim.”
 
-"Velinadu sent no men against us," I said. "You kept your doors closed."
+“Velinadu sent no men against us,” I said. “You kept your doors closed.”
 
-"Closed is not the same as open," she said. "Silence is not the same as support."
+“Closed is not the same as open,” she said. “Silence is not the same as support.”
 
 She turned away, then back.
 
-"We will not be enemies," she said. "Velinadu and Travancore need each other too much for that. We will stand in the same halls. We will sign the same treaties. We will face the same threats from Mysore and wherever else they come."
+“We will not be enemies,” she said. “Velinadu and Travancore need each other too much for that. We will stand in the same halls. We will sign the same treaties. We will face the same threats from Mysore and wherever else they come.”
 
 She paused.
 
-"But we will never be simple," she said. "You chose. So did I."
+“But we will never be simple,” she said. “You chose. So did I.”
 
-"What did you choose?" I asked.
+“What did you choose?” I asked.
 
-"To remember," she said. "When everyone else forgets what this cost, I will remember. Savitri's face. Her garden in Cochin. The laugh she will never laugh again. Someone has to carry that weight. It will not be you. It will not be him. So it will be me."
+“To remember,” she said. “When everyone else forgets what this cost, I will remember. Savitri's face. Her garden in Cochin. The laugh she will never laugh again. Someone has to carry that weight. It will not be you. It will not be him. So it will be me.”
 
 She walked away into the evening light.
 
@@ -6640,39 +7813,99 @@ I watched her go, this woman I might have loved in another life, another choice,
 
 ---
 
-The Thrippadidānam—the Great Offering—did what ledgers and cannons could not. It silenced the internal threats. And with the house secure, the external threats withered.
+The Thrippadidanam, the Great Offering, did what accounts and cannons could not. It silenced the internal threats. And with the house secure, the external threats withered.
 
-Three years later, in 1753, the Dutch returned to Mavelikkara. This time, they did not just bow. They signed. Ramayyan's "real treaty" had come to pass. They agreed to "reciprocate friendship," to sell us arms, and most importantly, to never again stand in the way of Travancore's expansion. They had sold their allies to save their trade.
+Three years later, in 1753, the Dutch returned to Mavelikkara. This time, they did not just bow. They signed. Ramayyan's “real treaty” had come to pass. They agreed to “reciprocate friendship,” to sell us arms, and most importantly, to never again stand in the way of Travancore's expansion. They had sold their allies to save their trade.
 
 But the final cost of that peace was not written in ink.
 
 That night, I found the king on the rampart, staring at nothing.
 
-"The Nizam sent an envoy last month," he said without looking at me. "Asking about trade routes. Mysore's man was here before that, talking about shared interests. The British have begun building at Madras as if they mean to stay forever. And the Dutch, even now, count their losses and plan their next move."
+“The Nizam sent an envoy last month,” he said without looking at me. “Asking about trade routes. Mysore's man was here before that, talking about shared interests. The British have begun building at Madras as if they mean to stay forever. And the Dutch, even now, count their losses and plan their next move.”
 
 He turned to face me.
 
-"This is what I was always building toward," he said. "Not conquering for glory. Consolidating for survival. Every house I absorbed, every chief I bent, every woman I exiled, it was all for this: a kingdom strong enough that when they come, any of them, all of them, they will find more than pepper and prayers."
+“This is what I was always building toward,” he said. “Not conquering for glory. Consolidating for survival. Every house I absorbed, every chief I bent, every woman I exiled, it was all for this: a kingdom strong enough that when they come, any of them, all of them, they will find more than pepper and prayers.”
 
-"And the cost?" I asked.
+“And the cost?” I asked.
 
-"The cost," he said, "is that men like Savitri's kinsman die in rooms they cannot leave. That women like her tend gardens in foreign cities and curse my name. That Revathi looks at me like I am the disease I claimed to cure."
+“The cost,” he said, “is that men like Savitri's kinsman die in rooms they cannot leave. That women like her tend gardens in foreign cities and curse my name. That Revathi looks at me like I am the disease I claimed to cure.”
 
 He gripped the parapet.
 
-"Do you think I do not feel it?" he asked. "Do you think I do not wake in the night and hear them? Every name. Every claim I denied. Every law I bent or broke."
+“Do you think I do not feel it?” he asked. “Do you think I do not wake in the night and hear them? Every name. Every claim I denied. Every law I bent or broke.”
 
 His voice cracked.
 
-"I remember her laugh," he said. "From when we were young. And I remember the moment, in that tent, when I looked in her eyes and saw that she would never laugh again. I did that. For this."
+“I remember her laugh,” he said. “From when we were young. And I remember the moment, in that tent, when I looked in her eyes and saw that she would never laugh again. I did that. For this.”
 
 He gestured at the kingdom around us. The forts. The walls. The roads. The army.
 
-"For this," he repeated.
+“For this,” he repeated.
 
 I had no comfort to offer.
 
 Some wounds are the price of building. Some prices are too high to name but too necessary not to pay.
+
+---
+
+The chapel stood in a quiet corner of Udayagiri Fort, built of local stone with a simple wooden cross above its door.
+
+I found them there one evening, after the treaty was signed and the Dutch had sailed away with their diminished pride. De Lannoy knelt in the front pew, his grey head bowed, his lips moving silently. Father Duarte stood at the small altar, hands raised, speaking Latin words that meant nothing to me but clearly meant everything to the man who listened.
+
+I waited outside until the prayers ended.
+
+When De Lannoy emerged, his face held a peace I rarely saw in the war halls.
+
+“Sawant,” he said. “You do not usually visit this part of the fort.”
+
+“I do not usually find two Europeans praying to their god in a kingdom that just surrendered itself to ours,” I said.
+
+Father Duarte appeared in the doorway behind him. He was older now, his hair fully white, but his eyes still carried that grey tiredness I remembered from the dungeon. Only now it looked less like guilt and more like acceptance.
+
+“The Maharaja has been generous,” Duarte said. “He permits us this small space. In return, we ask nothing of him but the right to serve.”
+
+“And to pray,” De Lannoy added. “A man needs something beyond walls and ledgers. Otherwise the walls become a prison and the ledgers become chains.”
+
+I looked at them: the Dutch soldier who had been captured at Colachel and chosen to stay, the Portuguese priest who had watched my torture and chosen to atone. Both had found their way to this same small chapel in a Hindu kingdom that had broken the power of both their empires.
+
+“It is strange,” I said. “The three of us. A Maratha cavalryman, a Dutch artillerist, a Portuguese priest. Twenty years ago, our peoples were killing each other across three continents. Now we stand under the same banner.”
+
+“The banner does not ask where we came from,” De Lannoy said. “Only where we stand now.”
+
+Father Duarte stepped forward. His hand rose, hesitated, then completed the motion, a sign of the cross in my direction, quick but deliberate.
+
+“I do not do this to convert you,” he said. “I know you have your own gods, or none, as you choose. I do it because it is the only blessing I know how to give. And you have earned a blessing, Nagoji Sawant. Whatever you believe.”
+
+I did not know how to respond.
+
+“The chapel is open,” De Lannoy said. “Not only to Catholics. Some of the Syrian Christians come. A few of the European soldiers who have families now. Even Ramayyan visited once, though he spent the whole time examining the stonework rather than the altar.”
+
+“That sounds like Ramayyan,” I said.
+
+“He said the mortar was acceptable,” Duarte added, with a ghost of a smile. “High praise, from him.”
+
+We stood in the evening light, three men who had come to this coast by different storms and found ourselves building the same house.
+
+“When I die,” De Lannoy said quietly, “I have asked to be buried here. In this fort I helped design. Under a stone that says I served Travancore.”
+
+“And I will say the words over you,” Duarte said. “If God grants me the years.”
+
+“What words?” I asked.
+
+“The ones that tell God a good man is coming,” Duarte said. “A man who served faithfully, even when faith was hard. A man who built walls to protect people he had once been sent to conquer.” He looked at De Lannoy. “The words are the same in any language. The meaning is what matters.”
+
+De Lannoy clasped my arm.
+
+“We are all servants now,” he said. “You serve Padmanabha through the king. I serve Padmanabha through the walls. Duarte serves Padmanabha through the men he turns from destruction to construction.” He smiled. “It is a strange household. But it holds.”
+
+I thought of Ramayyan's words, years ago: *This kingdom uses what it finds.*
+
+Here was the proof. A chapel in a Hindu fort. A Dutch soldier and a Portuguese priest praying side by side. A Maratha cavalryman watching them, wearing a European coat, carrying a sword blessed by a Brahmin.
+
+The kingdom had absorbed us all.
+
+And somehow, in the absorbing, it had made us more than we had been alone.
 
 ---
 
@@ -6688,17 +7921,19 @@ I thought of Revathi, somewhere in Velinadu, remembering what the rest of us had
 
 I thought of one night on her western verandah, long before Savitri's banners rose, when I almost told her I would lay down my marches if she asked. The words sat on my tongue like a loaded musket. She turned away to scold a niece for running on wet stone, and I swallowed them. Perhaps that mercy was hers, not mine.
 
-I thought of Marthanda Varma on that rampart, gripping the stone, saying "I remember her laugh."
+I thought of Marthanda Varma on that rampart, gripping the stone, saying “I remember her laugh.”
 
-"It was smaller," I said finally. "And more divided. And more free, in some ways. And more vulnerable."
+“It was smaller,” I said finally. “And more divided. And more free, in some ways. And more vulnerable.”
 
-"Do you miss it?" the officer asked.
+“Do you miss it?” the officer asked.
 
 I looked out at the forts that now guarded every approach, at the roads that connected every village, at the army that could stand against Mysore and the Dutch and whoever else came.
 
 "I miss what it cost," I said.
 
 He did not understand. How could he? He had been born into the kingdom we built. He did not know what had been burned to make it.
+
+I thought of a young man in a Portuguese dungeon, telling a priest that belief did not matter, that only numbers and chains and ships were real. That man had been wrong. Belief had turned out to matter more than anything, just not the kind the priest was selling.
 
 But somewhere in Cochin, an old woman tended her garden.
 
@@ -6721,41 +7956,6 @@ Some things do not wash.
 Some things we carry.
 
 For as long as we live, and in the stories that outlast us.
-# Glossary of Terms
-
-## Titles and People
-*   **Maharaja:** Great King. The ruler of Travancore.
-*   **Dalawa:** Prime Minister and chief administrator.
-*   **Rani:** Queen or Princess. In the matrilineal system, the Senior Rani is the queen-mother or eldest female of the royal house, not the King's wife.
-*   **Valiyamma:** "Big Mother" or respected aunt/elder woman. Used as a term of high respect.
-*   **Ettuveetil Pillamar:** "Lords of the Eight Houses." Powerful Nair nobles who controlled land and temple revenues and opposed the King's authority.
-*   **Chevar:** A sworn warrior, often dedicated to death or revenge. A suicide squad member.
-*   **Kapitan:** Captain. Used by locals to refer to European officers or powerful maritime leaders.
-*   **Marakkar:** Powerful Muslim merchant clan dominating coastal trade and naval warfare.
-*   **Sowcar:** A merchant or moneylender, often part of an extended Gujarati banking network.
-*   **Bhau:** Brother (Konkani/Marathi). A term of familiarity.
-
-## Social Structure and Customs
-*   **Marumakkathayam:** "Inheritance through the sister's children." The matrilineal system of inheritance practiced by Nairs and the Royal Family, where lineage and property pass through the female line.
-*   **Tharavad:** The ancestral home and joint family of a Nair lineage.
-*   **Kalari:** Training ground for martial arts (*Kalaripayattu*).
-*   **Kalapani:** "Black Water." The ocean, which caste Hindus were traditionally forbidden from crossing.
-*   **Tali:** A gold ornament tied around a bride's neck during marriage.
-*   **Padmanabha Dasa:** "Servant of Padmanabha." The title taken by Marthanda Varma after dedicating the kingdom to the deity.
-
-## Objects and Places
-*   **Nalukettu:** Traditional Kerala homestead with a central open courtyard.
-*   **Candi:** A unit of weight used for spices (approx. 500 lbs typically, but variable).
-*   **Chuckram:** Small silver coin of Travancore.
-*   **Varahan/Pagoda:** Gold coin widely used in South India.
-*   **Palki:** Palanquin.
-*   **Hundi:** A bill of exchange or credit note used for transferring money across long distances.
-*   **Nettipattam:** Gold caparison or ornament worn on an elephant's forehead.
-*   **Belikal:** Sacrificial stones or altars in a temple courtyard.
-
-## Historical Concepts
-*   **Thrippadidānam:** The "Grand Offering" or "Surrender to the Feet." The historical event in 1750 where Marthanda Varma surrendered his kingdom to the deity Sri Padmanabhaswamy.
-*   **Dutch East India Company (VOC):** *Vereenigde Oostindische Compagnie*. The powerful Dutch trading corporation that dominated the spice trade until broken by Travancore.
 # Author's Historical Note: Blood and Thrones
 
 This novel is fiction built on a real landscape.
@@ -6776,7 +7976,7 @@ Eustachius De Lannoy was a historical Dutch officer captured at Colachel who ent
 
 Ramayyan Dalawa was a real diwan of Travancore and a key adviser to Marthanda Varma. Contemporary and later accounts present him as an able, often ruthless administrator. His “ledger room,” his habit of recording personal dossiers and the specific tests he sets for Nagoji are inventions, meant to embody the kind of hard political memory that a small besieged state needed to survive.
 
-The tensions between the crown and older local houses are grounded in the historical "Years of Consolidation" (1735–1740) where Marthanda Varma systematically broke the *Ettuveetil Pillamar* and other chiefs. The novel dramatizes these police actions and internal wars as the crucible where Nagoji earns his trust before the Dutch threat arrives. Characters like Kollamkara are composites rather than portraits of a single person.
+The tensions between the crown and older local houses are grounded in the historical “Years of Consolidation” (1735–1740) where Marthanda Varma systematically broke the *Ettuveetil Pillamar* and other chiefs. Nagoji arrives in 1738, in the later phase of that consolidation, and the novel dramatizes these police actions and internal wars as the crucible where he earns trust before the Dutch threat arrives. Characters like Kollamkara are composites rather than portraits of a single person.
 
 **Women, Velinadu and matriliny**
 
@@ -6802,32 +8002,135 @@ Chronology has been tightened. Real campaigns, fort projects and diplomatic exch
 
 The novel is written from inside Nagoji's head. He does not know everything a historian might know. He misreads motives, misses distant developments and interprets events through his own loyalties and fears. Where his account clashes with documentary history, the history wins; where the sources are silent, imagination has filled the gaps within what seems period plausible.
 
-**The Northern Princes and Thekkumkur**
- 
- The novel shifts the focus of the "matrilineal claim" conflict from the earlier Elayadathu Swaroopam war (1741) to the later annexations of Thekkumkur and Vadakkumkur (c. 1750). While a similar conflict involving a female claimant (the Rani of Elayadathu) did happen earlier, the novel dramatizes this struggle in the persona of Savitri and sets it in Thekkumkur to align with the final phase of Marthanda Varma's expansion just before the Thrippadidanam.
- 
- **Treaty of Mavelikkara (1753)**
- 
- The decisive treaty where the Dutch agreed to "reciprocate friendship" and withdraw support from local princes is known as the Treaty of Mavelikkara (1753). In the novel, the initial "bowing" of the Dutch (Chapter 18) represents earlier truces (like the Treaty of Mannar, 1743), while the final capitulation is referenced in Book IV as the ultimate consequence of the northern victories.
+**Kottarakkara, Elayadathu, and the northern houses**
 
-**Assassination attempts and the Ettuveettil Pillamar**
+Elayadathu Swaroopam (Kottarakkara) and the northern principalities of Thekkumkur and Vadakkumkur were real flashpoints in Travancore's expansion. In documentary history, Dutch policy in 1739–1741 intersects with the Elayadathu grievance, while the annexations of Thekkumkur and Vadakkumkur occur later. The novel compresses and braids these threads, using Savitri of Kottarakkara as a single character through whom the broader matrilineal succession dispute can be felt at the human scale.
 
-Marthanda Varma faced repeated assassination attempts throughout his reign, particularly from the Ettuveettil Pillamar (Lords of the Eight Houses), powerful nobles who had controlled much of Travancore's land and revenue before his centralising reforms stripped their authority. Historical sources record attempts including bowmen on palace walls, poisoned lamp oil in temple sanctums, and knives in festival crowds. The novel's chevar scene and Ramayyan's references to "three serious attempts" draw on this documented pattern of violence.
+**Treaty of Mavelikkara (1753)**
+
+The decisive treaty where the Dutch agreed to “reciprocate friendship” and withdraw support from local princes is known as the Treaty of Mavelikkara (1753). In the novel, the initial “bowing” of the Dutch (Chapter 18) represents earlier truces (like the Treaty of Mannar, 1743), while the final capitulation is referenced in Book IV as the ultimate consequence of the northern victories.
+
+**Assassination attempts and the Ettuveetil Pillamar**
+
+Marthanda Varma faced repeated assassination attempts throughout his reign, particularly from the Ettuveetil Pillamar (Lords of the Eight Houses), powerful nobles who had controlled much of Travancore's land and revenue before his centralising reforms stripped their authority. Historical sources record attempts including bowmen on palace walls, poisoned lamp oil in temple sanctums, and knives in festival crowds. The novel's chevar scene and Ramayyan's references to “three serious attempts” draw on this documented pattern of violence.
 
 The *chevar* tradition, sworn warriors who took oaths to kill or die trying, was real in parts of South India. Though the specific attack in the novel is invented, such men were employed by aggrieved houses against rulers they considered usurpers. That Marthanda Varma survived these attempts and went on to break the Eight Houses entirely shaped his reputation as both ruthless and divinely protected.
 
-**Trippadidaanam and the Padmanabhaswamy Temple**
+**Thrippadidanam and the Padmanabhaswamy Temple**
 
-Marthanda Varma's act of dedicating his kingdom to Lord Padmanabha, declaring himself merely "Padmanabha Dasa" (Servant of Padmanabha), is historical. This *trippadidaanam* transformed the king from sovereign to divine steward and made Travancore theoretically the property of a god.
+Marthanda Varma's act of dedicating his kingdom to Lord Padmanabha, declaring himself merely “Padmanabha Dasa” (Servant of Padmanabha), is historical. This *Thrippadidanam* transformed the king from sovereign to divine steward and made Travancore theoretically the property of a god.
 
 The novel treats this as both sincere devotion and shrewd statecraft. Contemporaries and later historians have debated how much was faith and how much was political genius, making the kingdom untouchable by earthly claimants. This ambiguity is preserved in the narrative.
 
 The Padmanabhaswamy Temple in Thiruvananthapuram was rebuilt as the monumental structure we see today under Marthanda Varma. The main Vishnu idol, largely destroyed in a fire during his predecessor Rama Varma's reign, was reconstructed. He created the Ottakkal Mandapam and the Sheevelippura, and completed five of the temple gopura's seven floors. New state ceremonies, including Murajapam and Bhadra Deepam, were introduced during his reign.
 
-The connection between survival and sacred architecture runs through the novel: a king who had poison planted in temple oil went on to rebuild that same temple as a statement that neither assassins nor fire could stop what he was building. The trippadidaanam was the final move, giving to god what men had tried to take by steel.
+The connection between survival and sacred architecture runs through the novel: a king who had poison planted in temple oil went on to rebuild that same temple as a statement that neither assassins nor fire could stop what he was building. The *Thrippadidanam* was the final move, giving to god what men had tried to take by steel.
 
 **Thiruvananthapuram and cultural patronage**
 
 Thiruvananthapuram became a prominent city in Kerala under Marthanda Varma. As neighbouring chiefdoms were absorbed, artists and scholars from these places migrated to the capital, transforming it into a cultural centre. Marthanda Varma gave patronage to temple art forms including Koothu, Padhakam, Kathakali, Thullal and Koodiyattam. This cultural flowering, built partly on the displacement of older houses, adds another layer to the novel's central tension between state building and human cost.
 
 Readers interested in the real Travancore, Marthanda Varma, De Lannoy and the Dutch on the Malabar coast are encouraged to consult modern scholarly work and to visit surviving forts and temples. This book is not a textbook. It is a story about how a small kingdom learned to ride out storms, told by a man who might have stood in their spray.
+
+## Selected Timeline (Part 1)
+
+- 1738: Nagoji’s Goa captivity, shipwreck, and arrival on the Travancore coast (fictional).
+- Late 1739: Dutch probing ships appear offshore (fictionalised from the tightening VOC posture in Malabar).
+- 10 August 1741: Battle and siege end at Colachel (historical anchor).
+- 1743: Treaty of Mannar, an early settlement with the Dutch (historical).
+- 1750: Thrippadidanam, Marthanda Varma’s dedication of the kingdom to Padmanabha (historical).
+- 1753: Treaty of Mavelikkara, Dutch recognition and withdrawal from local prince politics (historical).
+# Glossary of Terms
+
+## Titles and People
+*   **Maharaja:** Great King. The ruler of Travancore.
+*   **Dalawa:** Prime Minister and chief administrator.
+*   **Rani:** Queen or Princess. In the matrilineal system, the Senior Rani is the queen-mother or eldest female of the royal house, not the King's wife.
+*   **Valiyamma:** “Big Mother” or respected aunt/elder woman. Used as a term of high respect.
+*   **Ettuveetil Pillamar:** “Lords of the Eight Houses.” Powerful Nair nobles who controlled land and temple revenues and opposed the King's authority.
+*   **Chevar:** A sworn warrior, often dedicated to death or revenge. A suicide squad member.
+*   **Kapitan:** Captain. Used by locals to refer to European officers or powerful maritime leaders.
+*   **Marakkar:** Powerful Muslim merchant clan dominating coastal trade and naval warfare.
+*   **Samudri (Zamorin):** “Lord of the Sea.” The hereditary ruler of Calicut (Kozhikode), one of the most powerful kingdoms on the Malabar coast and a traditional rival of Travancore.
+*   **Sowcar:** A merchant or moneylender, often part of an extended Gujarati banking network.
+*   **Bhau:** Brother (Konkani/Marathi). A term of familiarity.
+*   **Chanda Sahib:** Nawab claimant from the Carnatic/Madurai sphere whose pressure from the south forces Travancore to fight on another front just before Colachel.
+*   **Factor (Feitor):** A purchasing agent in trading posts (feitorias) who gathered goods (spices, sugar, etc.) for shipment back to Portugal, managing logistics and storage.
+
+## Social Structure and Customs
+*   **Marumakkathayam:** “Inheritance through the sister's children.” The matrilineal system of inheritance practiced by Nairs and the Royal Family, where lineage and property pass through the female line.
+*   **Kalari:** Training ground for martial arts (*Kalaripayattu*).
+*   **Kalapani:** “Black Water.” The ocean, which caste Hindus were traditionally forbidden from crossing.
+*   **Kanikka:** A ritual offering presented at a temple in return for blessing.
+*   **Tali:** A gold ornament tied around a bride's neck during marriage.
+*   **Padmanabha Dasa:** “Servant of Padmanabha.” The title taken by Marthanda Varma after dedicating the kingdom to the deity.
+
+## Objects and Places
+*   **Angavastram:** Upper-body cloth worn over the shoulder, typically as part of formal or ceremonial dress.
+*   **Gopuram:** Ornate, towering gateway at the entrance of a South Indian temple.
+*   **Mandapa:** Pillared hall or pavilion, often found in temple complexes.
+*   **Nadaswaram:** Traditional South Indian wind instrument, often played at temple ceremonies and festivals.
+*   **Nalukettu:** Traditional Kerala homestead with a central open courtyard.
+*   **Sarpa Kavu:** A sacred serpent grove.
+*   **Tharavadu:** The ancestral home and joint family of a Nair lineage.
+*   **Konkan:** The western coastal belt between the Deccan and the sea, north of Goa, where Marathas and Portuguese fought over forts and ports.
+*   **Bassein (Vasai):** A major Portuguese fortress north of Bombay, captured by the Marathas in Chimaji Appa’s campaign.
+*   **Janjira:** The island fortress and seat of the Siddis, a feared naval power on the Konkan coast.
+*   **Colachel:** A coastal town and beachhead where Travancore defeated the Dutch in 1741.
+*   **Kottar:** A southern frontier town near the tip of the peninsula, contested during the Dutch and local wars.
+*   **Anchuthengu (Anjengo):** The English Company’s coastal fort and trading post, used as a listening post and arms source.
+*   **Mahe:** A French settlement on the Malabar coast, occasionally invoked as a counterweight in European rivalry.
+*   **Padmanabhapuram:** The Travancore royal palace complex and capital in this period, near the southern tip of the kingdom.
+*   **Udayagiri Fort:** A major Travancore fort where key prisoners were held and later fortifications were modernised.
+*   **Kalkulam:** An older fort rebuilt on new lines and later associated with Padmanabhapuram’s defensive system.
+*   **Candi:** A unit of weight used for spices (approx. 500 lbs typically, but variable).
+*   **Chuckram:** Small silver coin of Travancore.
+*   **Varahan/Pagoda:** Gold coin widely used in South India.
+*   **Palki:** Palanquin.
+*   **Hundi:** A bill of exchange or credit note used for transferring money across long distances.
+*   **Nettipattam:** Gold caparison or ornament worn on an elephant's forehead.
+*   **Belikal:** Sacrificial stones or altars in a temple courtyard.
+*   **Talwar:** Curved Indian sword with a single cutting edge, particularly associated with cavalry warfare.
+
+## Kingdoms and Polities
+*   **Travancore:** The kingdom in southern Kerala ruled by Marthanda Varma, later dedicated to Lord Padmanabha.
+*   **Venad:** The older southern polity that Marthanda Varma reshaped and expanded into the Travancore state.
+*   **Attingal:** A matrilineal royal domain closely tied to Travancore; the Senior Rani holds power and lineage authority through this line.
+*   **Velinadu:** A powerful matrilineal house and its lands (fictional in the novel), positioned as one of Travancore’s most independent allies.
+*   **Kottarakkara:** A northern principality and court on Travancore’s fringe, central to the Elayadathu succession dispute in the novel.
+*   **Elayadathu Swaroopam:** The matrilineal royal house associated with Kottarakkara, used by outside powers as a lever against Travancore.
+*   **Kayamkulam:** A neighbouring principality absorbed during Travancore’s consolidation.
+*   **Deshinganad (Desinganad):** A principality centred around Quilon (Kollam), caught between Dutch influence and Travancore expansion.
+*   **Purakkad:** A small coastal principality involved in the shifting alliances of the Malabar pepper coast.
+*   **Thekkumkur:** A northern Kerala principality later annexed by Travancore.
+*   **Vadakkumkur:** A northern Kerala principality, often paired with Thekkumkur, later annexed by Travancore.
+*   **Cochin:** A Malabar coast kingdom and port city, long contested by European powers and a key Dutch base after the Portuguese.
+*   **Arcot (Carnatic):** A south-eastern nawabate whose cavalry and politics press on Travancore, shaped by British and French rivalry.
+*   **Mysore:** An inland kingdom to the north and east, rising as a long-term threat on Travancore’s map.
+*   **Hyderabad (Nizam):** A major Deccan power to the north-east, feared for its armies and shifting alliances.
+*   **Madurai:** A Tamil political centre and regional power sphere referenced in the novel’s southern frontier pressures.
+
+## Historical Concepts
+*   **Thrippadidanam:** The “Grand Offering” or “Surrender to the Feet.” The historical event in 1750 where Marthanda Varma surrendered his kingdom to the deity Sri Padmanabhaswamy.
+*   **Dutch East India Company (VOC):** *Vereenigde Oostindische Compagnie*. The powerful Dutch trading corporation that dominated the spice trade until broken by Travancore.
+
+## Languages and Communities
+*   **Malayalam:** Dravidian language of the Kerala coast and Travancore; the everyday tongue of most characters in the kingdom.
+*   **Marathi:** Indo-Aryan language of the Deccan; Nagoji's mother tongue and the language of Maratha power.
+*   **Konkani:** Coastal trade language spoken along the Konkan and in Goa; often used between Marathi speakers and Goan Catholics.
+*   **Hindustani:** North Indian lingua franca (mix of Hindi/Urdu) used for communication between different groups of soldiers and traders.
+*   **Tamil:** Dravidian language spoken to the east and south of Travancore; used for trade and by some soldiers and raiders in the marches.
+*   **Persian:** Court and diplomatic language across much of early modern India; Ramayyan reads and uses it for high-level correspondence.
+*   **Portuguese:** Language of older European power on this coast; used in Goa, among some Goan Catholics, and in older company records.
+*   **Dutch:** Language of the VOC officers and records; Lannoy and company envoys speak it among themselves.
+*   **Arabic:** Trade and religious language tied to West Asian merchants and Muslim communities on the Malabar coast.
+*   **Ladino:** Old Judeo-Spanish used by the Paradesi Jews of Cochin in trade and private speech.
+*   **Syrian Christian:** Here used for Malayalam-speaking St. Thomas Christian communities who follow West Syriac liturgy and act as key merchants and intermediaries.
+
+---
+
+# About the Author
+
+RV Menon is a software engineer who grew up between Kerala and Maharashtra, two lands whose histories intertwine in this novel. The stories in these pages draw from memories shared by his father, grandparents, uncles, aunts, mother-in-law, and wife, woven together with historical research into a narrative that honours both family lore and the documented past. He has poured his love into this book to bring these stories to everyone.
+
+*Horse of the Servant* is his first novel.

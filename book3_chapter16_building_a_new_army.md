@@ -2,7 +2,7 @@
 
 The horse died on the third day of the fever.
 
-I had bought him from a Tamil trader two years after Colachel—a grey with a black mane, not as fine as the mount I had lost in the storm, but steady, patient, willing to learn the sand. I had named him Megha, for the monsoon clouds he reminded me of.
+I had bought him from a Tamil trader, a grey with a black mane, not as fine as the mount I had lost in the storm, but steady, patient, willing to learn the sand. I had named him Megha, for the monsoon clouds he reminded me of.
 
 When he would not rise that morning, I knew. I sat with him in the stable while the grooms kept their distance, watching his flanks heave, feeling his neck grow cold under my hand. He did not struggle at the end. He simply stopped, the way a lamp runs out of oil.
 
@@ -10,23 +10,21 @@ I buried him myself, on the hill behind Padmini Amma's estate, in the shade of a
 
 Dhanaji found me there, staring at the mound of red earth.
 
-"He was a good horse," he said.
+“He was a good horse,” he said.
 
-"He was mine," I said. "The first thing I owned in this land that I chose myself."
+“He was mine,” I said. “The first thing I owned in this land that I chose myself.”
 
 We stood in silence. Below us, the lights of the training ground flickered where the evening drill was beginning without me.
 
-"How long have we been here?" I asked.
+“How long have we been here?” I asked.
 
-Dhanaji counted on his fingers. "Three monsoons since Colachel. Four since we washed up on this coast."
-
-Four years. The number felt impossible and obvious at once.
+Dhanaji counted on his fingers. “Four monsoons since we washed up on this coast.”
 
 Time after a battle does not move in days. It moves in drills.
 
-You look up one morning and realise that the men who had never seen a European volley a season ago now curse when a recruit fumbles his priming. You notice that the boys in the kalari have grown into broad shouldered youths who no longer look over their shoulders for approval before they strike. You find grey at your temples that you do not remember earning.
+You look up one morning and realise that the men who had never seen a European volley a season ago now curse when a recruit fumbles his priming. You notice that the boys in the kalari have grown into broad-shouldered youths who no longer look over their shoulders for approval before they strike. You find grey at your temples that you do not remember earning.
 
-That was how I measured the years after Colachel.
+That was how I measured time after Colachel.
 
 In the first weeks after the battle, before drills ground the days into one long line, I lay under the jackfruit tree at Padmini Amma's estate with my ribs bound tight and my head full of surf and smoke.
 
@@ -34,125 +32,131 @@ Revathi came twice.
 
 The first time was on the pretext of speaking with Padmini about grain and widows' stipends. When Padmini left us with a pot of buttermilk and a warning not to bleed on her courtyard, Revathi sat on the low wall near my feet, her eyes on the sky.
 
-"You look worse than the Dutch," she said. "At least they had the sense to collapse on sand, not good stone."
+“You look worse than the Dutch,” she said. “At least they had the sense to collapse on sand, not good stone.”
 
-"Sand is softer," I said. "Stone holds the bruise longer."
+“Sand is softer,” I said. “Stone holds the bruise longer.”
 
 She clicked her tongue and reached for the bandage at my side.
 
-"Who wrapped this?" she asked.
+“Who wrapped this?” she asked.
 
-"A Maratha who has tied more saddle girths than ribs," I said.
+“A Maratha who has tied more saddle girths than ribs,” I said.
 
 She undid the cloth with quick, efficient fingers, ignoring my hiss when the air touched the raw skin, then wound it again, tighter and neater.
 
-"This kingdom keeps trying to turn you into ash," she murmured. "Do not give it all of you at once."
+“This kingdom keeps trying to turn you into ash,” she murmured. “Do not give it all of you at once.”
 
-I wanted to tell her that part of me had already burned on that beach and in the letters I had not yet written north. Instead, I said, "I promised your Nagas I would bleed on their earth. I did not promise how much."
+I wanted to tell her that part of me had already burnt on that beach and in the letters I had not yet written north. Instead, I said, “I promised your Nagas I would bleed on their earth. I did not promise how much.”
 
 She tied off the bandage and sat back.
 
-"Learn to keep a little for yourself," she said. "And for those who will have to live with whatever is left."
+“Learn to keep a little for yourself,” she said. “And for those who will have to live with whatever is left.”
 
 Then she rose and called for Padmini, business returning to her face like a veil.
 
 The second time, she came alone.
 
-It was past midnight. The household had gone to sleep, and I was lying awake in my room, watching the shadows of palm fronds move across the ceiling. My ribs ached. My mind would not stop replaying the moment Nagoji's cavalry had hit the Dutch square—the sound, the give, the faces.
+It was past midnight. The household had gone to sleep, and I was lying awake in my room, watching the shadows of palm fronds move across the ceiling. My ribs ached. My mind would not stop replaying the moment my cavalry had hit the Dutch square, the sound, the give, the faces.
 
 I heard the door open. No knock. No lamp.
 
-"You are not sleeping," she said from the darkness.
+“You are not sleeping,” she said from the darkness.
 
-"Neither are you."
+“Neither are you.”
 
-She crossed the room and sat on the edge of my mat. I could smell jasmine and something else—sandalwood, the kind burned at funerals and temples.
+She crossed the room and sat on the edge of my mat. I could smell jasmine and something else, sandalwood, the kind burned at funerals and temples.
 
-"Padmini told me you wake screaming," she said. "That you call out names she does not recognize."
+“Padmini told me you wake screaming,” she said. “That you call out names she does not recognize.”
 
-"Padmini talks too much."
+“Padmini talks too much.”
 
-"Padmini loves you," she said. "That is why she told me."
+“Padmini loves you,” she said. “That is why she told me.”
 
 We sat in silence. Outside, a night bird called, plaintive and unanswered.
 
-"I lost a husband," she said quietly. "At the battle of the lagoon, five years before you washed up on this coast. He was a fool who charged when he should have waited. I watched from the walls. I saw his horse go down. I saw what they did to him after."
+“I lost a husband,” she said quietly. “At the battle of the lagoon, five years before you washed up on this coast. He was a fool who charged when he should have waited. I watched from the walls. I saw his horse go down. I saw what they did to him after.”
 
 Her voice did not waver. She had told this story to herself too many times for it to wound her now.
 
-"For a year, I did not sleep," she continued. "I would close my eyes and see his face. Not the living face—the other one. The one they left in the mud."
+“For a year, I did not sleep,” she continued. “I would close my eyes and see his face. Not the living face, the other one. The one they left in the mud.”
 
-"How did it stop?" I asked.
+“How did it stop?” I asked.
 
-"It did not stop," she said. "I learned to carry it. The way you learn to walk with a stone in your shoe. Eventually, you forget you are limping."
+“It did not stop,” she said. “I learned to carry it. The way you learn to walk with a stone in your shoe. Eventually, you forget you are limping.”
 
 She reached out and found my hand in the darkness.
 
-"I did not come here to talk about the dead," she said.
+“I did not come here to talk about the dead,” she said.
 
-"Why did you come?"
+“Why did you come?”
 
-"Because you are alive," she said. "And so am I. And I am tired of pretending that is not worth something."
+“Because you are alive,” she said. “And so am I. And I am tired of pretending that is not worth something.”
 
 Her fingers traced up my arm, finding the edge of the bandage, then moving past it to the bare skin of my shoulder. I caught her wrist.
 
-"Revathi—"
+“Revathi...”
 
-"There is a room," she said. "Below the granary. Padmini showed me, years ago. The Kings hid there when the Pillamar hunted them. No one goes there now. No one will hear."
+“There is a room,” she said. “Below the granary. Padmini showed me, years ago. It kept someone alive once, when knives were hunting. No one goes there now. No one will hear.”
 
-"If anyone sees you leave—"
+“If anyone sees you leave...”
 
-"I am a widow," she said. "I am not a wife. What I do with my nights is my own concern."
+“I am a widow,” she said. “I am not a wife. What I do with my nights is my own concern.”
 
 There was a defiance in her voice, but beneath it, something else. A question. She was giving me the choice to refuse.
 
 I did not refuse.
 
-We moved through the sleeping house like thieves. She knew the way—through the storeroom, past the great clay vessels of rice, to the low wooden door in the corner that looked like nothing more than a repair panel. The cellar beyond was small and dark, smelling of old grain and earth. A single mat had been laid on the floor, and a brass lamp that she lit with a flint she carried.
+We moved through the sleeping house like thieves. She knew the way, through the storeroom, past the great clay vessels of rice, to the low wooden door in the corner that looked like nothing more than a repair panel. The cellar beyond was small and dark, smelling of old grain and earth. A single mat had been laid on the floor, and a brass lamp that she lit with a flint she carried.
 
 In that flickering light, she looked at me.
 
-"I have thought about this," she said. "Since the night you stood in my hall and told me you were not a man who made promises. I have thought about what it would mean to want someone who might die in any season's campaign."
+“I have thought about this,” she said. “Since the night you stood in my hall and told me you were not a man who made promises. I have thought about what it would mean to want someone who might die in any season's campaign.”
 
-"And?"
+“And?”
 
-"And I decided that I would rather have one night I chose than a lifetime of nights I did not."
+“And I decided that I would rather have one night I chose than a lifetime of nights I did not.”
 
 She reached up and unpinned her hair. It fell past her shoulders, darker than the shadows around us.
 
-What happened next was not the coupling of poems, all moonlight and whispered endearments. It was something rawer—two people who had both learned that the world takes without asking, choosing for once to take something for themselves.
+What happened next was not the coupling of poems, all moonlight and whispered endearments. It was something rawer, two people who had both learned that the world takes without asking, choosing for once to take something for themselves.
 
-She was careful of my ribs. I was careful of the scars she carried that I could not see. We did not speak of love. We did not need to. The word would have been too small for what moved between us—grief and want and the desperate hunger to feel something other than the weight of the dead.
+She was careful of my ribs. I was careful of the scars she carried that I could not see. We did not speak of love. We did not need to. The word would have been too small for what moved between us, grief and want and the desperate hunger to feel something other than the weight of the dead.
 
 Afterward, we lay on the mat in the lamplight, her head on my shoulder, her breath warm against my neck.
 
-"Padmini will know," I said.
+“Padmini will know,” I said.
 
-"Padmini knew before I did," she replied. "Why do you think she showed me this room?"
+“Padmini knew before I did,” she replied. “Why do you think she showed me this room?”
 
 I laughed, then winced as my ribs protested.
 
-"That woman sees too much."
+“That woman sees too much.”
 
-"She sees what she needs to see," Revathi said. "And she decides what to remember."
+“She sees what she needs to see,” Revathi said. “And she decides what to remember.”
 
 She propped herself up on one elbow and looked at me.
 
-"This changes nothing," she said. "You are still a mercenary with no name and no house. I am still a princess with a dead husband and a living reputation to protect. In the morning, I will leave before the servants wake. We will not speak of this in daylight."
+“This changes nothing,” she said. “You are still a mercenary with no name and no house. I am still a princess with a dead husband and a living reputation to protect. In the morning, I will leave before the servants wake. We will not speak of this in daylight.”
 
-"And the next time?"
+“And the next time?”
 
-She smiled—a small, private thing that I had never seen her wear in public.
+She smiled, a small, private thing that I had never seen her wear in public.
 
-"The next time," she said, "you will have to earn."
+“The next time,” she said, “you will have to earn.”
 
 She rose, dressed in the darkness with the efficiency of a woman who had learned not to linger, and was gone before the first birds began to call.
 
 I lay in that hidden room until dawn crept through the cracks in the door. The lamp had burned out. The smell of her lingered on the mat, on my skin.
 
-Something had shifted. Not the world—the world remained indifferent to the small hungers of two people in a cellar. But something in me. A door I had kept barred since Keshavrao drowned, since my family faded into letters that grew shorter each year.
+Something had shifted. Not the world, the world remained indifferent to the small hungers of two people in a cellar. But something in me. A door I had kept barred since Keshavrao drowned, since my family faded into letters that grew shorter each year.
 
 I was still a man with no home. But for the first time since I had washed up on this coast, I was a man who wanted one.
+
+Before any of us returned to drill, the king went to settle a debt with his god.
+
+We rode north to Tiruvattar, to the Adi Kesava Perumal temple where the river runs clear over black stone and the air smells of wet moss and ghee lamps. Varma went in barefoot, no crown, only a white cloth and the bandage on his shoulder still stiff from Colachel. He laid gold and pepper at the inner shrine, a *kanikka* offering for a victory he believed had been granted as much by Padmanabha as by powder. When he rose, the Chief Priest brought out a long sword from the sanctum and placed it in his hands, the royal blade the deity is said to lend to kings who defend this land.
+
+On the ride back, he carried that sword across his knees as if it were a living thing. I had seen him ruthless in war, cunning in council, tender once or twice with a child. I had never seen him so certain. The work that followed felt like it marched behind that steel.
 
 After that, the drills began in earnest.
 
@@ -170,7 +174,7 @@ Marthanda Varma inclined his head slowly.
 
 From that day, the work changed.
 
-Walls that had been patched with whatever stone was at hand were stripped and rebuilt according to new designs. Bastions took on an angular, European look, jutting out like clenched fists. Firing steps were cut with careful calculations of height and angle. Old cannons were remounted, new ones cast or bought.
+Walls that had been patched with whatever stone was at hand were stripped and rebuilt according to new designs. Bastions took on an angular, European look, jutting out like clenched fists. Firing steps were cut with careful calculations of height and angle. Old cannons were remounted, new ones cast or bought. Udayagiri’s granite belly was thickened and braced, and the older fort at Kalkulam was rebuilt on the same star lines, then renamed Padmanabhapuram Fort so the capital would never be without teeth again.
 
 The first time I climbed one of those finished walls and looked down, my stomach did a small, unfamiliar twist. Deccan forts I had grown up with were proud, vertical things. They rose from crags like stacked fists, their lines clean, their corners square, their strength drawn as much from the hill beneath as from the stone above. You could ride up to such a fort, look at it, and know where its teeth sat and where its blind spots lay. Lannoy's designs were different. From above, the fort no longer looked like a box or a ring. It looked like a jagged flower or a star, each bastion thrust out at an angle so that every length of wall could be watched and raked by fire from another. There were no safe shadows at the base now, no stretch of stone that did not lie under some slit or parapet. Even the height felt strange. The walls were lower and thicker than the tall, showy ramparts of my childhood, built not to impress riders like me, but to swallow cannon shot and spit it aside.
 
@@ -222,13 +226,13 @@ We argued often.
 
 “Shock matters,” he insisted.
 
-"So does survival," I said. "These men have fields to return to when the wet season comes. If you burn them all in one summer, who will plant your pepper?"
+“So does survival,” I said. “These men have fields to return to when the wet season comes. If you burn them all in one summer, who will plant your pepper?”
 
 He glared, then sighed.
 
 “You are stubborn,” he said.
 
-"You are surprised?" I asked.
+“You are surprised?” I asked.
 
 He laughed, short and sharp.
 
@@ -238,7 +242,7 @@ The men watched these exchanges with a mixture of amusement and wariness.
 
 For them, we represented two very different kinds of foreignness.
 
-I was the Deccan outsider, with my Maratha tongue and my stories of forts in dry hills. Lannoy was the pale haired European, with his long nose and his talk of places with names like Zeeland and Flanders. We both spoke with the king's backing. We both shouted at them when drills went badly. We both bled with them when things went wrong.
+I was the Deccan outsider, with my Maratha tongue and my stories of forts in dry hills. Lannoy was the pale-haired European, with his long nose and his talk of places with names like Zeeland and Flanders. We both spoke with the king's backing. We both shouted at them when drills went badly. We both bled with them when things went wrong.
 
 Ramayyan hovered at the edge of our shared work, occasionally stepping in to smooth a quarrel, more often simply watching.
 
@@ -258,7 +262,7 @@ He also rode out to inspect the new forts that rose along the northern marches.
 
 His gaze slid to me when he said Tamil.
 
-A few days after one such inspection he appeared at the drill ground with a bundle of cloth over his arm.
+A few days after one such inspection, he appeared at the drill ground with a bundle of cloth over his arm.
 
 “If we are to face them,” he said, glancing toward the distant line of the sea where Dutch hulls rode, “let them see that we can stand in their order as well as our own.”
 
@@ -266,7 +270,7 @@ Lannoy unfolded short coats of rough blue cloth and stiff felt hats in the compa
 
 “We are not Dutch,” I said later, low enough that only Lannoy heard. “I will not dress like one of your ledgers on legs.”
 
-“Cloth does not decide who you serve,” he replied. “These coats make your men look like one body. They make European eyes see an army, not a crowd. Wear them when the Maharaja asks. Throw them aside when you ride home.” He looked at our infantry, bare chested, dhotis hitched, muskets on shoulders. “If a captain in Amsterdam sees a sketch of blue jackets and straight lines, he will think twice before sending a few more men as if they marched into a market.”
+“Cloth does not decide who you serve,” he replied. “These coats make your men look like one body. They make European eyes see an army, not a crowd. Wear them when the Maharaja asks. Throw them aside when you ride home.” He looked at our infantry, bare-chested, dhotis hitched, muskets on shoulders. “If a captain in Amsterdam sees a sketch of blue jackets and straight lines, he will think twice before sending a few more men as if they marched into a market.”
 
 I hated that he was right.
 
@@ -276,7 +280,7 @@ For a few breaths, from a distance, the line might almost have been one of the n
 
 Travancore's shape changed under this work.
 
-Villages that had once sent men only when summoned now saw their sons marching in regular drills on designated days. Chiefs who had kept small private bands of fighters began to send those men to be integrated into company sized units under the king's officers. The old, loose patchwork of levies and personal retainers slowly rewove itself into something tighter.
+Villages that had once sent men only when summoned now saw their sons marching in regular drills on designated days. Chiefs who had kept small private bands of fighters began to send those men to be integrated into company-sized units under the king's officers. The old, loose patchwork of levies and personal retainers slowly rewove itself into something tighter.
 
 Not everyone liked it.
 
@@ -367,6 +371,10 @@ By the time a search party reached the far bank, whoever had fired was gone. The
 Lannoy had gone very still when the first ball passed his ear. Afterward, in the lamplight of the guardroom, he looked at the chipped stone on the parapet and said only, “They will try again, in other ways.”
 
 For me, the musket marks at Udayagiri became one more line in the ledger of storms we now lived under. Not all of them came from the sea.
+
+The next morning the king sent for us. He listened to Ramayyan’s report, eyes flat, then turned to two Nair soldiers from his own household, men with scarred forearms and the quiet gait of temple guards.
+
+“You will walk with Kappithan Lannoy,” he told them. “You will walk with Sawant. Wherever they go, you are their shadow.” It was protection, yes. It was also a reminder. No weapon in this kingdom is left without a hand on its hilt.
 
 For a little while, another thought gnawed at me.
 

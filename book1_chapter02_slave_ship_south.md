@@ -1,6 +1,6 @@
 # Book I, Chapter 2: The Slave Ship South
 
-They woke us under cover of bells. The great church above rang for early Mass, a flood of sound rolling down through stone into the cells. I counted the strokes. When the last echo faded, the scrape of bolts at the dungeon door.
+They woke us under cover of bells. The great church above rang for early Mass, a flood of sound rolling down through stone into the cells. I counted the strokes. When the last echo faded, bolts scraped at the dungeon door.
 
 João entered with three guards at his back.
 
@@ -13,6 +13,7 @@ When he reached me he did not bother to look at the marks on my cell wall. He kn
 “On your feet, marata,” he said. “The Viceroy has found a use for you.”
 
 The guards unlocked the shackles at my ankles. For a brief moment the weight of the iron vanished and my legs swung free, terrifyingly light. I stood slowly, every joint complaining. The beatings and the wrenched limbs from the previous days had left my body bent and aching, but I forced myself not to limp.
+
 Ahead, two places along the chain, Keshavrao shuffled in step, his familiar narrow shoulders stiff, his black hair hacked short in the Portuguese style. Even now his right hand twitched at his side, still reaching for a sword hilt that was no longer there.
 They chained us in a line, six men to a length of iron, wrists manacled, collars clamped around our necks. The metal was slick from the sweat and grime of countless prisoners before us.
 
@@ -22,7 +23,21 @@ His head twitched, but he did not look back. A guard walked between us, club in 
 
 The climb from the dungeon to the world of light was like being born through a tunnel of stone. At each turn the air grew a little fresher and the smell of filth retreated before new smells. Oil. Bread. Sea.
 
-We emerged into a courtyard of whitewashed walls and glaring sky. The sudden brightness stabbed my eyes. Shapes resolved themselves slowly. Musketeers stood along the walls, hats tilted, matchcords coiled at their belts. A priest made a hurried sign of the cross as we passed, as if afraid that even the sight of us might stain his soul.
+We emerged into a courtyard of whitewashed walls and glaring sky. The sudden brightness stabbed my eyes. Shapes resolved themselves slowly. Musketeers stood along the walls, hats tilted, matchcords coiled at their belts.
+
+Father Duarte stood near the gate.
+
+He was dressed for travel, a broad hat shading his grey eyes, a leather satchel over one shoulder. When our line of prisoners shuffled past, his gaze moved along the chain until it found me. For a moment our eyes met.
+
+I expected triumph, or at least satisfaction. The stubborn Maratha, broken at last, being led to whatever slow death awaited in the southern plantations.
+
+Instead I saw something else. His jaw tightened. His hand rose, almost involuntarily, and made a small sign of the cross, not the hurried gesture of a man warding off contamination, but something slower, more deliberate. A blessing, perhaps. Or an apology.
+
+He did not speak. He did not step forward. He simply watched as the guards pushed us toward the gate, and then he turned away, disappearing through a side door into the fortress.
+
+I filed his face away in the part of my mind that kept accounts. Men who hesitate are men who can be used. Men who feel guilt carry weight that slows them down.
+
+Someday, I thought, that hesitation might matter.
 
 Beyond the far gate the sound of the sea thudded against the edge of hearing.
 
@@ -34,13 +49,13 @@ When we reached the harbour the full weight of the Portuguese world pressed in. 
 
 One ship loomed closer than the rest, her hull black and high, her stern built up like a little fortress of carved wood and painted saints. Men moved along her rails, hauling on lines, shouting in a mixture of tongues. On the wharf below her a platform had been erected, and on it a man in a broad brimmed hat checked lists against the lines of chained prisoners.
 
-"To Angola," someone whispered behind me. "Africa."
+“To Angola,” someone whispered behind me. “Africa.”
 
-"Not this one," said another voice, older and bitter. "The Jesuits need bodies for their lands to the south. Some place beyond Ceylon. They will work us until we forget our own names."
+“Not this one,” said another voice, older and bitter. “The Jesuits need bodies for their lands to the south. Some place beyond Ceylon. They will work us until we forget our own names.”
 
 João tugged at our chain. “Faster,” he grunted. “The tide waits for no man. Not even maratas.”
 
-We were herded up a gangplank slick with sea and tar. The ship towered over us, the smell of old voyages clinging to her planks. As my bare feet touched the wood the planks flexed under my weight, the subtle shift as the water lifted and dropped the hull. For a moment an old, absurd thought surfaced.
+We were herded up a gangplank slick with sea and tar. The ship towered over us, the smell of old voyages clinging to her planks. As my bare feet touched the wood, the planks flexed under my weight, shifting subtly as the water lifted and dropped the hull. For a moment an old, absurd thought surfaced.
 
 Horses would hate this.
 
@@ -106,7 +121,7 @@ I had never meant to collect followers. On the dusty roads and river crossings n
 
 I reached across the narrow gap between us and rested my bandaged hand on his forearm.
 
-"If there is a chance," I said, "I will not leave you."
+“If there is a chance,” I said, “I will not leave you.”
 
 His fingers closed briefly over my bandaged hand. Neither of us mentioned that promises made in chains are the easiest to break.
 

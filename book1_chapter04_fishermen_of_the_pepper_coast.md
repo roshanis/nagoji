@@ -1,5 +1,7 @@
 # Book I, Chapter 4: The Fishermen of the Pepper Coast
 
+
+
 When the sea finally spat me out, it did so without ceremony.
 
 Sand. My chest slammed into it so hard I thought my ribs had cracked. Salt water poured from my mouth, my nose, places I did not know could hold water. The retreating surf clawed at my legs, trying to pull me back. I dug my fingers into the coarse grit and held on.
@@ -26,7 +28,7 @@ These men wore lungis hitched up around their thighs and short, sleeveless vests
 
 One of them pushed my hair back from my forehead with rough fingers. I flinched out of habit more than fear.
 
-"Easy, *bhau*," he said in Konkani, using the word for brother in that tongue, close enough to my Marathi that my bruised mind could follow. "You are on land now."
+“Easy, *bhau*,” he said in Konkani, using the word for brother in that tongue, close enough to my Marathi that my bruised mind could follow. “You are on land now.”
 
 Land. The word tasted strange.
 
@@ -42,15 +44,15 @@ Perhaps the sea had decided it had eaten enough men for one day.
 
 “He has soldier's calluses,” one of the fishermen said, lifting my hand. The bandages the Portuguese had wrapped around my ruined fingers were soaked and filthy. “Look at this. Not a clerk. Not a merchant.”
 
-"Look at this," another said, tugging at the ragged cloth on my shoulder. The Portuguese brand stood out beneath it, puckered and angry.
+“Look at this,” another said, tugging at the ragged cloth on my shoulder. The Portuguese brand stood out beneath it, puckered and angry.
 
 They spoke in quick, rolling Malayalam among themselves, a language I could not follow. Their gestures and the way their eyes moved over my wounds told their conclusion clearly enough: a fighter. A man who had been in Portuguese hands long enough to be burned.
 
-"Kill him," a third voice said. It came from a little farther away, cautious. "Why bring trouble to the village? The Portuguese will send men when they hear of their ship. The Dutch will want to know what washed up in waters they claim. Better the sea finishes its work."
+“Kill him,” a third voice said. It came from a little farther away, cautious. “Why bring trouble to the village? The Portuguese will send men when they hear of their ship. The Dutch will want to know what washed up in waters they claim. Better the sea finishes its work.”
 
 The man who had given me water snorted.
 
-"The Portuguese and the Dutch ask questions anyway," he said. "You think leaving one marata on the sand will satisfy either of them? We might as well gain something."
+“The Portuguese and the Dutch ask questions anyway,” he said. “You think leaving one marata on the sand will satisfy either of them? We might as well gain something.”
 
 “What?” the cautious voice demanded. “He is half dead.”
 
@@ -64,7 +66,7 @@ He nodded, as if that confirmed a calculation.
 
 King. Teeth. Dutch. The words caught like hooks in my exhausted mind.
 
-"Travancore," I said slowly.
+“Travancore,” I said slowly.
 
 The fisherman raised his brows. “You know the name.”
 
@@ -88,35 +90,35 @@ Beyond the line of palms the land rose gently. Narrow paths wound between plots 
 
 Children watched us from doorways, wide eyed. Women carrying pots on their hips paused, eyebrows knitting as they took in the dripping figure the men carried.
 
-"Portuguese," one girl whispered.
+“Portuguese,” one girl whispered.
 
 “No,” the man at my feet said sharply. “Look at his eyes. Look at his mark. This one is enemy of the Portuguese.”
 
 We stopped at a low house near the edge of the village. A woman with streaks of grey in her hair stepped out, wiping her hands on her sari. A betel-stained smile flickered at the corner of her mouth as she took in the dripping figure, then vanished. The fishermen spoke to her rapidly in Malayalam. She listened without interrupting, eyes flicking over me, taking in the branded arm, the bandaged hands, the raw rope marks on my chest.
 
-"Bring him in," she said at last. Her voice had the calm authority of someone used to making decisions that stuck. "If he dies, burn him quietly. Else send word to the *kapitan*."
+“Bring him in,” she said at last. Her voice had the calm authority of someone used to making decisions that stuck. “If he dies, burn him quietly. Else send word to the *kapitan*.”
 
 The *kapitan*. A local headman, or something more? The word carried more weight here than it ever had in the inland markets where I had first heard it.
 
 Inside the house it was cool and dim. The floor was packed earth, swept smooth. Smoke from a small hearth curled up toward a hole in the roof. They laid me on a woven mat and set about stripping off the salt stiffened rags that clung to me.
 
-The first touch of clean water on my skin made me hiss. The woman's hands were brisk, not gentle, but she avoided the worst of the wounds. When she saw the state of my fingers her mouth tightened. She said something in Malayalam, her tone sharp with disgust.
+The first touch of clean water on my skin made me hiss. The woman's hands were brisk, not gentle, but she avoided the worst of the wounds. When she saw the state of my fingers, her mouth tightened. She said something in Malayalam, her tone sharp with disgust.
 
-The fisherman who spoke Konkani translated. "She asks what they did to you."
+The fisherman who spoke Konkani translated. “She asks what they did to you.”
 
-"Asked questions," I said.
+“Asked questions,” I said.
 
 He translated. She clicked her tongue and replied in a quick burst of Malayalam.
 
-"She says keep your stories for the kapitan," the fisherman said. "She does not need to hear them to know what kind of men they are."
+“She says keep your stories for the kapitan,” the fisherman said. “She does not need to hear them to know what kind of men they are.”
 
-A boy appeared at the doorway, panting, and spoke rapidly in Malayalam. The fishermen exchanged glances. From the word "kapitan" and the urgency in the boy's voice, I understood enough.
+A boy appeared at the doorway, panting, and spoke rapidly in Malayalam. The fishermen exchanged glances. From the word “kapitan” and the urgency in the boy's voice, I understood enough.
 
 So. I was not the first piece of foreign wreckage to wash up in their nets.
 
 The Konkani-speaking fisherman adjusted the cloth on his shoulder and turned to me.
 
-"Rest," he said. "When the *kapitan* comes, speak carefully. He works for men who have long arms."
+“Rest,” he said. “When the *kapitan* comes, speak carefully. He works for men who have long arms.”
 
 I closed my eyes for a moment, not to sleep but to gather what little strength I had left. Storms on land were different from storms at sea. They did not roar and crash; they crept in on quiet feet, through conversations and calculations.
 
@@ -126,4 +128,4 @@ Footsteps sounded outside, firm and quick. A new voice spoke in Malayalam, low b
 
 When the man they called *kapitan* stepped into the house, the smell of salt and foreign places came with him. He was shorter than the fishermen but broader, with a scar that ran from his left ear to the corner of his jaw, the kind of scar a blade leaves when it just misses the throat.
 
-His eyes moved over me the way a horse trader's eyes move over new stock. He noted the brand, the bandaged hands, the way I held myself despite the wounds. I had seen that look before, in market squares where men were sold. For a long moment he said nothing, and in that silence I felt myself being weighed.
+His eyes moved over me the way a horse trader's eyes move over new stock. He noted the brand, the bandaged hands, the way I held myself despite the wounds. I had seen that look before, in market squares where men were sold. For a long moment he said nothing. In that silence, I was being weighed.

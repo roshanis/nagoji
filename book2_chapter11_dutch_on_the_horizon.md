@@ -1,6 +1,8 @@
 # Book II, Chapter 11: Dutch on the Horizon
 
-It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation. This was not yet the war fleet that would come two years later—only a probing squadron, sent to measure distances and count our guns. But we did not know that then.
+It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation. This was not yet the war fleet that would come two years later, only a probing squadron, sent to measure distances and count our guns. But we did not know that then.
+
+The Dutch had been on this coast long enough to learn our tides and our quarrels. Since they had taken Cochin from the Portuguese, their presence in Malabar had been driven by two hungers that never sat comfortably together. They wanted pepper at a price that pleased their faraway masters, and they wanted a way to reach the pepper hills beyond their coastal forts without bleeding coin on an expensive inland war. That restlessness made them smile in our halls and sharpen knives in our shadows.
 
 We had not been idle. The army Ramayyan built had stretched its legs, marching north to swallow Quilon and break the lines of Deshinganad. It was a short, sharp campaign, a test of the new muskets and the discipline of the Nairs we had drilled in the wet sand. We won, and the Raja of Deshinganad fled, leaving his rich pepper fields in Marthanda Varma's grip. But in swallowing the small fish, we had drawn the eye of the shark.
 
@@ -12,7 +14,7 @@ He was perhaps fifteen, lanky in the way youths are when their bones grow faster
 
 The guard at the base of the tree looked up.
 
-“The banded flag” he shouted.
+“The banded flag?” he shouted.
 
 “Yes,” the boy said. “Red, white, blue.”
 
@@ -72,7 +74,7 @@ In the war hall, the air was thick with the smell of ink and sweat.
 
 Maps lay unrolled across the floor, held down by stones and spear shafts. Pebbles and shells marked ships, forts, hills, villages. Ramayyan crouched over one of these maps, his thin fingers moving tokens with the care of a priest placing offerings.
 
-Marthanda Varma sat nearby, not on his platform but on the floor itself, cross legged, spear laid aside. His hair was bound back with a simple cloth. His upper body glistened with a sheen of heat; he had clearly been there for some time.
+Marthanda Varma sat nearby, not on his platform but on the floor itself, cross-legged, spear laid aside. His hair was bound back with a simple cloth. His upper body glistened with a sheen of heat; he had clearly been there for some time.
 
 “Sawant,” he said without looking up as I entered. “Tell me.”
 
@@ -90,9 +92,9 @@ Ramayyan's hand hovered above a small shell.
 
 He looked up at me.
 
-“What would your Peshwa do?” he asked. “If four foreign ships hovered off his coast like vultures”
+“What would your Peshwa do?” he asked. “If four foreign ships hovered off his coast like vultures?”
 
-In that moment, in my mind's eye, I saw Pune's court, its painted pillars and high seat, the scribes and sardars, the priests and petitioners. I imagined the news carried north, the murmurs, the measured outrage.
+In that moment Pune's court rose before me, painted pillars and high seat, the scribes and sardars, the priests and petitioners. I imagined the news carried north, the murmurs, the measured outrage.
 
 “He would send letters,” I said. “To his sardars, to the companies, to Delhi. He would demand explanations. He would threaten, but he would not move his own men until he had counted the cost twice. His coast is not as tightly bound to his capital as yours is. He can afford to pretend distance.”
 
@@ -104,7 +106,7 @@ Ramayyan's stylus scratched on a palm leaf.
 
 “He will land if he thinks he can do so without losing too many shoes,” Ibrahim said. “Boats to small ports. Gifts for those who fear you more than the company. Promises written in thick ink and broken in thin whispers.”
 
-“What do they make of our sand drills” I asked. “Of our horse and muskets”
+“What do they make of our sand drills?” I asked. “Of our horse and muskets?”
 
 “They know some of it,” Ramayyan said. “Their merchants watch. Their petty captains talk. But they have not yet seen what you did on that shore when no one counted but the boy on the palm and the king under the awning.”
 
@@ -152,6 +154,24 @@ On the ship, tiny glass circles glinted in the last light as Dutch eyes watched 
 
 “Good,” I said. “Let his wig itch.”
 
+Ibrahim handed back his glass with a small, unreadable smile.
+
+“I should ride ahead,” he said. “There are men in Quilon who will want to know the Dutch squadron has moved closer. Merchants who have contracts with both sides.”
+
+“Both sides?” I asked.
+
+He shrugged, the gesture carrying generations of coastal pragmatism.
+
+“A Marakkar who sells only to one master starves when that master sails away,” he said. “My cousins trade with the company factories. My uncles trade with the Zamorin's ports. My father, God rest him, once sold the same pepper to Dutch and Portuguese buyers in the same week, each thinking they had an exclusive arrangement.”
+
+“And you?” I asked. “Who do you sell to?”
+
+His eyes met mine, and for a moment I saw something beneath the easy merchant's charm: a calculation as cold as any I had seen in Ramayyan's gaze.
+
+“I sell to whoever keeps this coast free enough for men like me to keep selling,” he said. “Today, that is your king. Tomorrow?” He spread his hands. “The sea does not care about flags. Neither do I.”
+
+He kicked his horse into motion before I could respond, leaving me to wonder whether I had just heard an oath of loyalty or a warning.
+
 When the sun dipped, we turned back toward the inland path. The sea darkened. Lanterns bloomed on the ships, small, steady stars that moved with the swell.
 
 Later, long after the horses were stabled and the riders dismissed, I climbed the bluff alone.
@@ -162,7 +182,7 @@ In the darkness, the sea erased distances. The ships were now only clusters of l
 
 I listened to the hiss of waves on the sand below, the occasional creak of branch, the distant boom of surf against some unseen rock.
 
-Somewhere out there, on that largest hull, the pale haired officer, Lannoy, Lannu, whatever his men called him, stood or slept or paced. He had his own maps, his own Ramayyan whispering advice, his own king in a far city expecting profit and control.
+Somewhere out there, on that largest hull, the pale-haired officer, Lannoy, Lannu, whatever his men called him, stood or slept or paced. He had his own maps, his own Ramayyan whispering advice, his own king in a far city expecting profit and control.
 
 We had not yet met. Our swords had not yet crossed. Our names were sounds on other men's tongues.
 

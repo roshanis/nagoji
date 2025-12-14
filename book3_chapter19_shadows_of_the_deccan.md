@@ -36,7 +36,7 @@ A neighbour's death. A cousin's marriage. A new well that had finally struck wat
 
 Then, near the end, a single line that made my chest tighten.
 
-Do you remember Keshavrao, who sat in the cell with you near the coast before they took you away We heard a tale from a coastal trader that a boy with his name died trying to escape a Portuguese ship. There are many boys and many names. Stories change as they travel. I do not know if this is true. I only know that when I heard it, I thought of you and the sea.
+Do you remember Keshavrao, who sat in the cell with you near the coast before they took you away? We heard a tale from a coastal trader that a boy with his name died trying to escape a Portuguese ship. There are many boys and many names. Stories change as they travel. I do not know if this is true. I only know that when I heard it, I thought of you and the sea.
 
 The words blurred for a moment.
 
@@ -76,35 +76,13 @@ She nodded.
 
 “Sharp and divided,” she said. “Dangerous combination.”
 
-Later, in the hall, I found Ramayyan bent over his palm leaves, as usual.
+Her words should have steadied me.
 
-“You have letters from the north,” he said without looking up. “The boy who brought them nearly ate his fingers when given rice. That is a Deccan hunger.”
+Instead, I heard Ibrahim's voice from the day the Dutch came bowing: the wind blows in circles, and names travel.
 
-“You knew before I did,” I said.
+By dusk, Ramayyan's runner found me.
 
-“It is my work to know where wind blows from,” he replied.
-
-“The wind says my Peshwa has heard your king's name,” I said. “Some in his court talk of learning from Travancore. Others talk of conquering it.”
-
-Ramayyan's stylus paused.
-
-“News travels fast when it flatters and when it threatens,” he said. “We expected this.”
-
-“You expected the Marathas to come south?” I asked.
-
-“I expected them to notice that there is one less European company on this stretch of coast,” he said. “Men who dream of empire do not ignore gaps on the map.”
-
-He finally looked up at me.
-
-“Do you wish to go back?” he asked.
-
-The question was blunt, but his tone was not unkind.
-
-“Part of me always does,” I said. “Part of me has already written my own funeral on those hills. Hard to say which part is louder on any given day.”
-
-“The king knows this,” Ramayyan said. “He would be a fool not to.”
-
-That evening, Marthanda Varma summoned me.
+“The Maharaja wants you,” he said. “Bring the letter.”
 
 We sat not in the crowded war hall, but in a smaller room off to the side, its walls lined with shelves of palm leaves and a few cloth wrapped volumes that had once been Portuguese property.
 
@@ -130,11 +108,11 @@ I thought of the men in Pune, of their hunger for land and revenue, of their pri
 
 “If they think you are weak, yes,” I said. “If they think you are useful, they will keep you as you are, so long as you do not interfere with their plans. They have many enemies closer to home.”
 
-“And you” he asked. “If they called you back, if they sent a letter with your brother, ordering you to return to serve under their banner again, what would you do”
+“And you?” he asked. “If they called you back, if they sent a letter with your brother, ordering you to return to serve under their banner again, what would you do?”
 
 The words landed like weights on the mat between us.
 
-I thought of my father, his back bent over a plough. Of my mother, her hands stained with turmeric and oil. Of my brother, sitting by lamp light, tongue between his teeth as he wrote this letter. Of Deccan forts where I had first learned to count men and cannons.
+I thought of my father, his back bent over a plough. Of my mother, her hands stained with turmeric and oil. Of my brother, sitting by lamplight, tongue between his teeth as he wrote this letter. Of Deccan forts where I had first learned to count men and cannons.
 
 I also thought of this king, sitting on a low platform surrounded by palm leaves and rolled maps, building a new kind of state because the old kinds were crumbling under European pressure.
 
@@ -192,7 +170,7 @@ Revathi was blunter.
 
 She leaned back against the carved pillar, a playful glint entering her eyes that softened the hard truth of her words.
 
-“Besides,” she added, “do not let that silver chain weigh you down with too much hope. Even if you have a *tharavad* now, I am a Princess of Velinadu. We do not marry commoners, Nagoji. Even ones who think they have found a root.”
+“Besides,” she added, “do not let that silver chain weigh you down with too much hope. Even if you have a *tharavadu* now, I am a Princess of Velinadu. We do not marry commoners, Nagoji. Even ones who think they have found a root.”
 
 It was said in jest, but the wall was there, invisible and ancient.
 
@@ -202,7 +180,7 @@ That night, I did not sleep.
 
 I sat on the verandah of my quarters, watching the moon trace its slow arc over the coconut palms. The estate was quiet save for the rhythmic croak of frogs in the irrigation channels and the distant bark of a village dog.
 
-I looked at my hands in the moonlight. The fingernails had grown back, but wrong—ridged and discoloured where the Portuguese interrogators had torn them out. I had stopped noticing them months ago. Now I studied them as if seeing them for the first time.
+I looked at my hands in the moonlight. The fingernails had grown back, but wrong, ridged and discoloured where the Portuguese interrogators had torn them out. I had stopped noticing them months ago. Now I studied them as if seeing them for the first time.
 
 These hands had held Maratha reins on Deccan dust. They had gripped Portuguese chains in Goa's darkness. They had pulled Keshavrao toward a rope that broke. They had trained Travancore cavalry in wet sand and held a dying chevar's wrist while a king drove steel through his throat.
 
@@ -264,25 +242,25 @@ When I reached Padmini’s estate, she was waiting by the gate, leaning on her s
 
 She nodded slowly, her eyes searching mine.
 
-"Then who stands before me?" she asked.
+“Then who stands before me?” she asked.
 
-I touched the cold silver of the chain around my neck. I looked at the red tiled roof of the *tharavad* that had sheltered a king and now sheltered me. I tasted the air, heavy with pepper and sea salt. It no longer tasted foreign.
+I touched the cold silver of the chain around my neck. I looked at the red tiled roof of the *tharavadu* that had sheltered a king and now sheltered me. I tasted the air, heavy with pepper and sea salt. It no longer tasted foreign.
 
-For a moment, I felt the pull of two currents—the dry wind of the Deccan, smelling of dust and millet and my mother's turmeric-stained hands; and the wet breath of this coast, carrying salt and pepper and the jasmine Padmini wore in her hair. They had been at war in my chest for years.
+For a moment, I felt the pull of two currents, the dry wind of the Deccan, smelling of dust and millet and my mother's turmeric-stained hands, and the wet breath of this coast, carrying salt and pepper and the jasmine Padmini wore in her hair. They had been at war in my chest for years.
 
 Now, standing at this gate, I let one of them go.
 
-Not forgotten. Never forgotten. But released, the way you release a horse too old to ride—with gratitude, with grief, with the knowledge that holding on would only make both of you suffer.
+Not forgotten. Never forgotten. But released, the way you release a horse too old to ride, with gratitude and grief, with the knowledge that holding on would only make both of you suffer.
 
 I looked at my scarred hands one last time. Nagoji Sawant's hands. Hands that had failed Keshavrao, that had been broken by Portuguese iron, that had somehow found their way to this red-tiled house on a pepper coast.
 
 They would not change. The scars would remain. But the name attached to them could.
 
-"Ananthan Pillai," I said.
+“Ananthan Pillai,” I said.
 
-The name felt strange on my tongue, new and stiff like unconquered leather. But it fit. Ananthan—the endless one, the serpent who holds up worlds. Pillai—the suffix that marked me as Padmini's son, as a man with roots in this soil even if his bones remembered another.
+The name felt strange on my tongue, new and stiff like unconquered leather. But it fit. Ananthan, the endless one, the serpent who holds up worlds. Pillai, the suffix that marked me as Padmini's son, as a man with roots in this soil even if his bones remembered another.
 
-Nagoji Sawant had died in the black water with Keshavrao. The sea had just taken longer to tell him.
+The man I had been, Nagoji Sawant, died in the black water with Keshavrao. The sea had just taken longer to tell me.
 
 Padmini Amma smiled, an expression that cracked the iron mask she usually wore.
 
