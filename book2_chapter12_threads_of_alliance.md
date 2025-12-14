@@ -14,7 +14,7 @@ That was where the Dutch would sit.
 
 They entered with the heavy formality of men who had been told to be polite to people they considered their inferiors.
 
-Two of them wore coats of dark cloth, cut tight at the waist, with rows of brass buttons that gleamed in the lamplight. Lace showed at their cuffs. Their hair was tied back, some grey streaks showing at the temples. Behind them walked younger men with ledgers and a single interpreter, a man of mixed features whose eyes slid everywhere and settled nowhere.
+Two of them wore coats of dark cloth, cut tight at the waist, with rows of brass buttons that gleamed in the lamplight. Lace showed at their cuffs. Their hair was tied back, some grey streaks showing at the temples. Behind them walked younger men with account books and a single interpreter, a man of mixed features whose eyes slid everywhere and settled nowhere.
 
 They carried hats under their arms, respectfully bareheaded within the hall.
 

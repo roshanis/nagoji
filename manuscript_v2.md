@@ -135,7 +135,7 @@ This guide is here so you can keep houses, titles, and foreign powers straight o
 
 The first thing they took was my name.
 
-Not with ceremony or proclamation, just a shrug and an entry in a ledger. To the men who ruled this cellar I was no longer Nagoji Sawant, *huzurat* cavalry officer in the service of Chimaji Appa and the Peshwa, rider of the black horse Kanka, son of a landlocked village near Nashik where the farthest water anyone feared was a swollen river in the rains. In the quiet of Maratha tents that word *huzurat* carried weight, the household horse that rode closest to command, picked out by sardars when bravery and impatience for hesitation had been proved in more than one fight. Here I was a number the clerk scratched beside the words *prisioneiro marata* in his book.
+Not with ceremony or proclamation, just a shrug and an entry in a book. To the men who ruled this cellar I was no longer Nagoji Sawant. I was no longer *huzurat* cavalry in the service of Chimaji Appa and the Peshwa. No longer the rider of the black horse Kanka, nor the son of a landlocked village near Nashik where the farthest water anyone feared was a swollen river in the rains. In the quiet of Maratha tents that word *huzurat* carried weight, the household horse that rode closest to command, picked out by sardars when bravery and impatience had been proved in more than one fight. Here I was a number the clerk scratched beside the words *prisioneiro marata*.
 
 They chained us in rows along the curved wall, backs pressed to damp stone, ankles linked by rusty iron. Above, somewhere beyond the sweating ceiling, the bells of Goa's churches rang for evening prayers. Down here, the rhythm that governed us was the scrape of the gaoler's boots and the splash of the bucket that carried away blood and filth. Water dripped somewhere in the darkness, steady as monsoon rain on a Deccan roof.
 
@@ -864,7 +864,7 @@ The guard peered at me, his gaze lingering on my hands and the line of my should
 
 They let us through.
 
-Inside the compound a low hall stood, its wooden pillars carved with curling designs. Lamps hung from chains, casting soft light on the packed earth floor. Men sat cross-legged around a central space where a mat had been laid. At the far end, on a slightly raised platform, another man sat with a ledger and a pile of palm leaf bundles.
+Inside the compound a low hall stood, its wooden pillars carved with curling designs. Lamps hung from chains, casting soft light on the packed earth floor. Men sat cross-legged around a central space where a mat had been laid. At the far end, on a slightly raised platform, another man sat with a stack of palm leaf records and a writing stylus.
 
 He wore no crown, only a simple dhoti and a shawl over one shoulder. Yet the way others watched him made it clear he was the one who mattered here.
 
@@ -894,7 +894,7 @@ His eyes flicked to my bandaged hands, the brand under my sleeve. “You raided 
 
 “Some.”
 
-He tapped the edge of his ledger with the end of his writing stylus.
+He tapped the edge of his palm leaf with the stylus.
 
 “Our king sharpens his sword for the Dutch now,” he said, waiting for Ibrahim to echo the words in Konkani. “And for those local chiefs who think they can hide behind European flags. He has horse from Arcot, musketeers of his own, ships that slip between the foreign hulls at night. What does a Maratha rider know that he does not already have?”
 
@@ -1554,7 +1554,7 @@ She glanced at me.
 
 “Of what?”
 
-“Of holding all this in your hands,” I said. “Land, men, accounts, temple obligations. Of being the one whose name sits at the top of every ledger.”
+"Of holding all this in your hands," I said. "Land, men, accounts, temple obligations. Of being the one whose name sits at the top of every record."
 
 She was quiet long enough that I wondered if I had stepped too far.
 
@@ -1570,7 +1570,7 @@ She rose, using the stick more as a symbol than as a support.
 
 “Rest now,” she said. “Wash the salt from your skin. Look at how our men and women move through this house. Tomorrow we walk the fields. I will show you where your horses will chew and where they will trample. After that, we will see whether you can speak to a princess without putting your Deccan boot in your mouth.”
 
-As she walked away, the women in the courtyard parted without being told, then closed again behind her. Men with ledgers stepped aside, then resumed their counts. A young girl carrying firewood paused to watch me for a heartbeat, eyes bright, then hurried on.
+As she walked away, the women in the courtyard parted without being told, then closed again behind her. Men with account books stepped aside, then resumed their counts. A young girl carrying firewood paused to watch me for a heartbeat, eyes bright, then hurried on.
 
 I sat alone on the stone platform under the jackfruit tree, listening to the layered sounds of the estate.
 
@@ -1627,7 +1627,7 @@ The guard's eyebrows rose at that, but he stepped aside.
 
 Inside the ring, the ground rose gently toward a cluster of buildings shaded by broad trees. A straight path led to a central hall, its tiled roof flanked by smaller structures. Banners hung from poles, heavy with the morning's stillness. Women moved along the verandahs, some in plain cotton, some in brighter silk, all with their heads uncovered, their hair oiled and coiled or braided as they pleased.
 
-Men were present too, fewer in number, their positions given away by their weapons, their ledgers, their anxious glances toward doorways where no one had yet appeared.
+Men were present too, fewer in number, their positions given away by their weapons, their writing tablets, their anxious glances toward doorways where no one had yet appeared.
 
 “Remember,” Padmini Amma said quietly as we dismounted, “you stand in a place where land, not men, is the first thing named. The woman who carries that name can speak with the weight of many fields behind her. Do not address her as if she were a sardar's daughter waiting for a husband to give her meaning.”
 
@@ -2265,7 +2265,7 @@ That was where the Dutch would sit.
 
 They entered with the heavy formality of men who had been told to be polite to people they considered their inferiors.
 
-Two of them wore coats of dark cloth, cut tight at the waist, with rows of brass buttons that gleamed in the lamplight. Lace showed at their cuffs. Their hair was tied back, some grey streaks showing at the temples. Behind them walked younger men with ledgers and a single interpreter, a man of mixed features whose eyes slid everywhere and settled nowhere.
+Two of them wore coats of dark cloth, cut tight at the waist, with rows of brass buttons that gleamed in the lamplight. Lace showed at their cuffs. Their hair was tied back, some grey streaks showing at the temples. Behind them walked younger men with account books and a single interpreter, a man of mixed features whose eyes slid everywhere and settled nowhere.
 
 They carried hats under their arms, respectfully bareheaded within the hall.
 
@@ -3607,7 +3607,7 @@ Travancore was changing.
 
 So was I.
 
-The Deccan rider who had washed up on this coast had never imagined he would spend years teaching men how to drill, arguing over stone angles with a Dutchman, and worrying about grain ledgers.
+The Deccan rider who had washed up on this coast had never imagined he would spend years teaching men how to drill, arguing over stone angles with a Dutchman, and worrying about supply tallies.
 
 Yet when I watched a new unit march past in neat order, muskets on their shoulders, eyes forward, I felt something like pride.
 
@@ -4760,7 +4760,7 @@ I looked at the Dalawa, who was methodically mixing his rice with *sambar*, pret
 
 Revathi laughed, a real laugh, unguarded, the first I had heard from her all day.
 
-“He also insisted on the precise sequence of cutting,” she said. “Something about the vegetables cooking at the same rate. He wrote it down in one of his ledgers.”
+"He also insisted on the precise sequence of cutting," she said. "Something about the vegetables cooking at the same rate. He wrote it down in one of his notebooks."
 
 “Some things,” Ramayyan said primly, “are worth recording.”
 
@@ -6306,7 +6306,7 @@ And we began.
 
 The Portuguese came two weeks after the coats.
 
-Not with ships or guns, but with letters and gifts, a small embassy sent from Goa to assess the kingdom that had broken their old rivals. Three men in dark cloth, one secretary with a ledger, and a priest.
+Not with ships or guns, but with letters and gifts, a small embassy sent from Goa to assess the kingdom that had broken their old rivals. Three men in dark cloth, one secretary with a record book, and a priest.
 
 I was on the parade ground when they rode in, my new coat stiff across my shoulders, watching a squad of musketeers run through their paces. Ramayyan appeared at my elbow.
 
@@ -6470,7 +6470,7 @@ He watched the Prince take another fall, roll, and come up with his sword ready,
 
 “A king who can only fight inspires no one either.”
 
-“Then teach him your ledgers,” I said. “I will teach him how to survive long enough to use them.”
+"Then teach him your accounts," I said. "I will teach him how to survive long enough to use them."
 
 ---
 
@@ -6766,7 +6766,7 @@ One evening, I joined them.
 
 “You ask many questions,” Avraham observed, after I had spent an hour learning about trade routes and currency exchanges and the complex web of debts and favours that connected Cochin to Basra to Amsterdam.
 
-“I was a soldier,” I said. “Soldiers learn to read terrain. This,” I gestured vaguely at the ledgers and manifests spread between us, “is terrain I never learned to read.”
+"I was a soldier," I said. "Soldiers learn to read terrain. This," I gestured vaguely at the account books and manifests spread between us, "is terrain I never learned to read."
 
 “It is simpler than you think,” Avraham said. “Every transaction is a story. Who needs what. Who has what. What they will trade to get what they need. Follow the story, and you understand the trade.”
 
@@ -8162,7 +8162,6 @@ Readers interested in the real Travancore, Marthanda Varma, De Lannoy and the Du
 *   **Arabic:** Trade and religious language tied to West Asian merchants and Muslim communities on the Malabar coast.
 *   **Ladino:** Old Judeo-Spanish used by the Paradesi Jews of Cochin in trade and private speech.
 *   **Syrian Christian:** Here used for Malayalam-speaking St. Thomas Christian communities who follow West Syriac liturgy and act as key merchants and intermediaries.
-
 
 ---
 

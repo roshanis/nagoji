@@ -226,7 +226,7 @@ She glanced at me.
 
 “Of what?”
 
-“Of holding all this in your hands,” I said. “Land, men, accounts, temple obligations. Of being the one whose name sits at the top of every ledger.”
+"Of holding all this in your hands," I said. "Land, men, accounts, temple obligations. Of being the one whose name sits at the top of every record."
 
 She was quiet long enough that I wondered if I had stepped too far.
 
@@ -242,7 +242,7 @@ She rose, using the stick more as a symbol than as a support.
 
 “Rest now,” she said. “Wash the salt from your skin. Look at how our men and women move through this house. Tomorrow we walk the fields. I will show you where your horses will chew and where they will trample. After that, we will see whether you can speak to a princess without putting your Deccan boot in your mouth.”
 
-As she walked away, the women in the courtyard parted without being told, then closed again behind her. Men with ledgers stepped aside, then resumed their counts. A young girl carrying firewood paused to watch me for a heartbeat, eyes bright, then hurried on.
+As she walked away, the women in the courtyard parted without being told, then closed again behind her. Men with account books stepped aside, then resumed their counts. A young girl carrying firewood paused to watch me for a heartbeat, eyes bright, then hurried on.
 
 I sat alone on the stone platform under the jackfruit tree, listening to the layered sounds of the estate.
 

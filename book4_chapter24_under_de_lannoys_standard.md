@@ -288,7 +288,7 @@ And we began.
 
 The Portuguese came two weeks after the coats.
 
-Not with ships or guns, but with letters and gifts, a small embassy sent from Goa to assess the kingdom that had broken their old rivals. Three men in dark cloth, one secretary with a ledger, and a priest.
+Not with ships or guns, but with letters and gifts, a small embassy sent from Goa to assess the kingdom that had broken their old rivals. Three men in dark cloth, one secretary with a record book, and a priest.
 
 I was on the parade ground when they rode in, my new coat stiff across my shoulders, watching a squad of musketeers run through their paces. Ramayyan appeared at my elbow.
 
@@ -452,7 +452,7 @@ He watched the Prince take another fall, roll, and come up with his sword ready,
 
 “A king who can only fight inspires no one either.”
 
-“Then teach him your ledgers,” I said. “I will teach him how to survive long enough to use them.”
+"Then teach him your accounts," I said. "I will teach him how to survive long enough to use them."
 
 ---
 
@@ -748,7 +748,7 @@ One evening, I joined them.
 
 “You ask many questions,” Avraham observed, after I had spent an hour learning about trade routes and currency exchanges and the complex web of debts and favours that connected Cochin to Basra to Amsterdam.
 
-“I was a soldier,” I said. “Soldiers learn to read terrain. This,” I gestured vaguely at the ledgers and manifests spread between us, “is terrain I never learned to read.”
+"I was a soldier," I said. "Soldiers learn to read terrain. This," I gestured vaguely at the account books and manifests spread between us, "is terrain I never learned to read."
 
 “It is simpler than you think,” Avraham said. “Every transaction is a story. Who needs what. Who has what. What they will trade to get what they need. Follow the story, and you understand the trade.”
 

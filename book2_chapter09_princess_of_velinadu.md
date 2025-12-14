@@ -39,7 +39,7 @@ The guard's eyebrows rose at that, but he stepped aside.
 
 Inside the ring, the ground rose gently toward a cluster of buildings shaded by broad trees. A straight path led to a central hall, its tiled roof flanked by smaller structures. Banners hung from poles, heavy with the morning's stillness. Women moved along the verandahs, some in plain cotton, some in brighter silk, all with their heads uncovered, their hair oiled and coiled or braided as they pleased.
 
-Men were present too, fewer in number, their positions given away by their weapons, their ledgers, their anxious glances toward doorways where no one had yet appeared.
+Men were present too, fewer in number, their positions given away by their weapons, their writing tablets, their anxious glances toward doorways where no one had yet appeared.
 
 “Remember,” Padmini Amma said quietly as we dismounted, “you stand in a place where land, not men, is the first thing named. The woman who carries that name can speak with the weight of many fields behind her. Do not address her as if she were a sardar's daughter waiting for a husband to give her meaning.”
 

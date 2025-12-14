@@ -124,7 +124,7 @@ The guard peered at me, his gaze lingering on my hands and the line of my should
 
 They let us through.
 
-Inside the compound a low hall stood, its wooden pillars carved with curling designs. Lamps hung from chains, casting soft light on the packed earth floor. Men sat cross-legged around a central space where a mat had been laid. At the far end, on a slightly raised platform, another man sat with a ledger and a pile of palm leaf bundles.
+Inside the compound a low hall stood, its wooden pillars carved with curling designs. Lamps hung from chains, casting soft light on the packed earth floor. Men sat cross-legged around a central space where a mat had been laid. At the far end, on a slightly raised platform, another man sat with a stack of palm leaf records and a writing stylus.
 
 He wore no crown, only a simple dhoti and a shawl over one shoulder. Yet the way others watched him made it clear he was the one who mattered here.
 
@@ -154,7 +154,7 @@ His eyes flicked to my bandaged hands, the brand under my sleeve. “You raided 
 
 “Some.”
 
-He tapped the edge of his ledger with the end of his writing stylus.
+He tapped the edge of his palm leaf with the stylus.
 
 “Our king sharpens his sword for the Dutch now,” he said, waiting for Ibrahim to echo the words in Konkani. “And for those local chiefs who think they can hide behind European flags. He has horse from Arcot, musketeers of his own, ships that slip between the foreign hulls at night. What does a Maratha rider know that he does not already have?”
 

@@ -398,7 +398,7 @@ Travancore was changing.
 
 So was I.
 
-The Deccan rider who had washed up on this coast had never imagined he would spend years teaching men how to drill, arguing over stone angles with a Dutchman, and worrying about grain ledgers.
+The Deccan rider who had washed up on this coast had never imagined he would spend years teaching men how to drill, arguing over stone angles with a Dutchman, and worrying about supply tallies.
 
 Yet when I watched a new unit march past in neat order, muskets on their shoulders, eyes forward, I felt something like pride.
 

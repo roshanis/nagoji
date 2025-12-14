@@ -311,7 +311,7 @@ I looked at the Dalawa, who was methodically mixing his rice with *sambar*, pret
 
 Revathi laughed, a real laugh, unguarded, the first I had heard from her all day.
 
-“He also insisted on the precise sequence of cutting,” she said. “Something about the vegetables cooking at the same rate. He wrote it down in one of his ledgers.”
+"He also insisted on the precise sequence of cutting," she said. "Something about the vegetables cooking at the same rate. He wrote it down in one of his notebooks."
 
 “Some things,” Ramayyan said primly, “are worth recording.”
 
