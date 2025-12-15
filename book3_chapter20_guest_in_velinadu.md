@@ -180,7 +180,7 @@ Dhanaji arrived the morning of the ceremony, dusty from the road, with a grin I 
 
 Dhanaji’s grin died. He looked at the floor, scuffing his toe against the stone.
 
-“I am going back,” he said quietly. “To the Deccan. I miss my parents. I miss the dry air. I am not of this place, Nagoji. The food is too wet, the customs too strange. I am homesick.”
+"I am going back," he said quietly. "To the Deccan. I miss my parents. I miss the dry air. I am not of this place, Ananthan. The food is too wet, the customs too strange. I am homesick."
 
 I felt a pang of sympathy. He was a rider of the plateau, not a man of the coast. I did not want him going empty-handed.
 

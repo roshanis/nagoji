@@ -224,7 +224,7 @@ I found Ramayyan bent over his palm leaves, stylus moving as if the day had neve
 
 He was not alone. Ibrahim Marakkar sat on a low stool nearby, a cup of buttermilk in his hands, speaking in a low voice that stopped when I entered.
 
-“Sawant,” Ibrahim said, rising. “I was just leaving.”
+"Pillai," Ibrahim said, rising. "I was just leaving."
 
 “Stay,” Ramayyan said, without looking up. “He should hear this too.”
 

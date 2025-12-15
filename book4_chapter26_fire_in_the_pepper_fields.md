@@ -188,7 +188,7 @@ Her voice was flat.
 
 She looked at me, her eyes hard and unblinking.
 
-“They burned to destroy,” she said. “You burned to save. But ash tastes the same in my mouth, Nagoji. Do not expect me to distinguish the flavour.”
+"They burned to destroy," she said. "You burned to save. But ash tastes the same in my mouth, Ananthan. Do not expect me to distinguish the flavour."
 
 “My vines,” she continued, her voice dropping. “The king's vines. The Dutch's desired vines. Your fuel. Many names for the same plants.”
 
@@ -204,7 +204,7 @@ Marthanda Varma watched from his platform, face unreadable.
 
 She turned to leave, then paused.
 
-“You have chosen your side firmly now, Sawant,” she said without looking back at me. “When Dutch, Mysore or your own hills come in force, you will be in front of the king's fort. You will not be standing on my verandah. I will remember that.”
+"You have chosen your side firmly now, Pillai," she said without looking back at me. "When Dutch, Mysore or your own hills come in force, you will be in front of the king's fort. You will not be standing on my verandah. I will remember that."
 
 Her footsteps echoed as she walked out.
 

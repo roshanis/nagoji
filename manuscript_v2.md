@@ -4099,7 +4099,7 @@ I found Ramayyan bent over his palm leaves, stylus moving as if the day had neve
 
 He was not alone. Ibrahim Marakkar sat on a low stool nearby, a cup of buttermilk in his hands, speaking in a low voice that stopped when I entered.
 
-“Sawant,” Ibrahim said, rising. “I was just leaving.”
+"Pillai," Ibrahim said, rising. "I was just leaving."
 
 “Stay,” Ramayyan said, without looking up. “He should hear this too.”
 
@@ -4273,7 +4273,7 @@ He studied me.
 
 He set the letter down.
 
-“Understand this, Nagoji,” he said. “You are useful to me because you are Maratha *and* because you are Padmini's son. You can speak to men in Pune in a way my other nobles cannot. You can tell them what you have seen here. You can make them fear and respect this kingdom, or you can make them see it as prey.”
+"Understand this, Ananthan," he said. "You are useful to me because you are Maratha *and* because you are Padmini's son. You can speak to men in Pune in a way my other nobles cannot. You can tell them what you have seen here. You can make them fear and respect this kingdom, or you can make them see it as prey."
 
 His gaze sharpened.
 
@@ -4601,7 +4601,7 @@ Dhanaji arrived the morning of the ceremony, dusty from the road, with a grin I 
 
 Dhanaji’s grin died. He looked at the floor, scuffing his toe against the stone.
 
-“I am going back,” he said quietly. “To the Deccan. I miss my parents. I miss the dry air. I am not of this place, Nagoji. The food is too wet, the customs too strange. I am homesick.”
+"I am going back," he said quietly. "To the Deccan. I miss my parents. I miss the dry air. I am not of this place, Ananthan. The food is too wet, the customs too strange. I am homesick."
 
 I felt a pang of sympathy. He was a rider of the plateau, not a man of the coast. I did not want him going empty-handed.
 
@@ -4988,7 +4988,7 @@ He gestured at the bundles again.
 
 “And when you see a line you do not like?” I asked. “What then?”
 
-“Then I talk,” he said. “Or I watch more closely. Or I advise the king to move a piece before it moves itself. I am not omniscient, Nagoji. I can only reduce surprises.”
+"Then I talk," he said. "Or I watch more closely. Or I advise the king to move a piece before it moves itself. I am not omniscient, Ananthan. I can only reduce surprises."
 
 He looked at me, his gaze sharpening.
 
@@ -5566,7 +5566,7 @@ I rode forward with Ponnan and a Nair captain at my side.
 
 “Raja,” I said, inclining my head.
 
-“Sawant,” he said. “We heard the Maharaja had given a Maratha his Kayamkulam frontier. Nice of him to send you to announce yourself.”
+"Pillai," he said, with a mocking emphasis on the new name. "We heard the Maharaja had given a Maratha his Kayamkulam frontier. Nice of him to send you to announce yourself."
 
 His tone walked the line between mockery and welcome.
 
@@ -5624,7 +5624,7 @@ When he saw Padmini herself, sitting her horse under a nearby tree, face unreada
 
 He glanced now at the stretch of land where our two domains brushed.
 
-“What do you want, Sawant?” he asked.
+"What do you want, Pillai?" he asked.
 
 “Your men off the road,” I said. “Your promise that you will not use Dutch muskets on Travancore caravans. And your agreement that if company men come again, they do so as merchants, not as your private army.”
 
@@ -5772,7 +5772,7 @@ I laughed. It was a wet, ugly sound.
 
 A hand clamped onto my wrist. Iron-hard.
 
-“Nagoji!”
+"Ananthan!"
 
 I spun, ready to strike the interrupter.
 
@@ -5816,7 +5816,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  “We secured the border,” I said, standing stiffly. Padmini stood beside me, her chin high.
  
- “You secured a massacre,” Marthanda Varma said, stopping his pace. He turned to look at me, his eyes cold. “We sent you to deter a chieftain, Sawant. Not to paint the rocks with the entrails of his farmers.”
+ "You secured a massacre," Marthanda Varma said, stopping his pace. He turned to look at me, his eyes cold. "We sent you to deter a chieftain, Pillai. Not to paint the rocks with the entrails of his farmers."
  
  “They were armed,” Padmini cut in. “They were raiders.”
  
@@ -5836,7 +5836,7 @@ The flush rose in my neck. The memory of the red haze, of the boy I had almost s
  
  We all looked at her.
  
- “They burned my fields,” she said, her eyes flashing fire. “They took foreign money to threaten our flank. Nagoji did what was necessary. If the price of safety is a few bloody rocks, I will pay it.”
+ "They burned my fields," she said, her eyes flashing fire. "They took foreign money to threaten our flank. Ananthan did what was necessary. If the price of safety is a few bloody rocks, I will pay it."
  
  “We do not ask you to pay it, Amma,” Marthanda Varma said quietly. “We ask you to remember that we are building a kingdom, not a graveyard.”
  
@@ -5956,7 +5956,7 @@ The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing
  
  “Dreams are dangerous,” the King said. He sat up, pushing away the physician's restraining hand.
  
- “Listen to me, Dalawa. And you, Sawant.”
+ “Listen to me, Dalawa. And you, Pillai.”
  
  We leaned in.
  
@@ -5978,7 +5978,7 @@ The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing
  
  He looked at me. His eyes were hard, flat surfaces, reflecting nothing but the intent to destroy.
  
- “That was war, Sawant,” he said. “War has rules. Men fight for land, for coin, for duty. We respect that.”
+ "That was war, Pillai," he said. "War has rules. Men fight for land, for coin, for duty. We respect that."
  
  He touched the bandage on his shoulder.
  
@@ -6078,7 +6078,7 @@ Later, when the same recruit managed to fire in perfect time over the heads of p
 
 The boy grinned, sweat dripping into his eyes.
 
-“Yes, Kapitan, yes, Sawant,” he said.
+"Yes, Kapitan, yes, Pillai," he said.
 
 He did not seem to care which of us got which title. We were both, to him, men who made his arms ache and his shoulders remember new positions.
 
@@ -6146,7 +6146,7 @@ The coat was not Portuguese. The cut was different, the buttons plain rather tha
 
 My throat tightened.
 
-“You have concerns, Sawant,” the king said.
+"You have concerns, Pillai," the king said.
 
 It was not a question.
 
@@ -6548,7 +6548,7 @@ I nudged my horse into a trot. He followed, his seat improving day by day.
 
 We rode in silence for a while. The sun crept above the tree line, painting the world in shades of gold and green.
 
-“Sawant,” the Prince said. “At the temple. When the chevar came.”
+"Pillai," the Prince said. "At the temple. When the chevar came."
 
 I waited.
 
@@ -6600,7 +6600,7 @@ The Prince did not complain. He took corrections without argument, repeated dril
 
 That evening, after the men had dispersed, the Prince found me on the bastion.
 
-“Sawant,” he said. “The men. They look at me differently now.”
+"Pillai," he said. "The men. They look at me differently now."
 
 “They look at you as one of them,” I said. “Is that not what you wanted?”
 
@@ -6630,7 +6630,7 @@ The Prince nodded slowly.
 
 He straightened, rolling his shoulders the way I had taught him to shake off tension.
 
-“Thank you, Sawant,” he said. “For not treating me like glass.”
+"Thank you, Pillai," he said. "For not treating me like glass."
 
 “Glass breaks,” I said. “You are not glass. You are iron that has not yet been forged. The fire is uncomfortable. But it is necessary.”
 
@@ -6690,7 +6690,7 @@ The man approached, his eyes taking in everything, the stacked barrels, the guar
 
 “The roads from Cochin are clear this season,” he said. His Malayalam was accented, the vowels shaped by some other tongue. “The king's peace has been good for travel.”
 
-Thoma turned to me. “Sawant, this is Avraham ben Ephraim. His family has traded with mine for four generations. Avraham, this is the Maratha, the one the soldiers call the Deccan rider.”
+Thoma turned to me. "Ananthan, this is Avraham ben Ephraim. His family has traded with mine for four generations. Avraham, this is the Maratha, the one the soldiers call the Deccan rider."
 
 Avraham inclined his head. “I have heard of you. The man who teaches horses to dance with muskets.”
 
@@ -6722,7 +6722,7 @@ Over the following months, I learned more about the Jews of Cochin.
 
 Thoma said there were Malabari Jews, old families woven into the coast, and Paradesi Jews, newer arrivals from Europe who still carried Spanish and Portuguese scars. Both lived under the Raja's protection near the palace, trading where others were forbidden to own land.
 
-“They cannot own land outside their quarter,” Thoma said. “But they can own ships. They can trade. And they remember everything, every debt, every favour, every slight. Do not cheat a Jew of Cochin, Sawant. His grandson will remember.”
+"They cannot own land outside their quarter," Thoma said. "But they can own ships. They can trade. And they remember everything, every debt, every favour, every slight. Do not cheat a Jew of Cochin, Ananthan. His grandson will remember."
 
 “You speak as if you admire them,” I said.
 
@@ -6762,7 +6762,7 @@ He was quiet for a moment, turning his cup in his hands.
 
 He stood, gathering his papers.
 
-“My grandfather traded with the Zamorin,” he said. “My father traded with Cochin. I trade with Travancore. My son will trade with whoever holds this coast when I am gone.” He smiled, and there was something ancient in his eyes. “The Jews endure, Sawant. We have outlasted Pharaohs and Caesars and Inquisitors. We will outlast kings of pepper, too.”
+"My grandfather traded with the Zamorin," he said. "My father traded with Cochin. I trade with Travancore. My son will trade with whoever holds this coast when I am gone." He smiled, and there was something ancient in his eyes. "The Jews endure, Pillai. We have outlasted Pharaohs and Caesars and Inquisitors. We will outlast kings of pepper, too."
 
 He left, his small boat disappearing into the gathering dusk.
 
@@ -6802,7 +6802,7 @@ His words echoed my own thoughts more than he knew.
 
 We stood there in silence for a few breaths, two men far from the places that had birthed us, bound to a banner that was neither of our first choosing, yet had become ours by repeated, bloody decisions.
 
-“Under whose standard do we truly stand, Nagoji Sawant?” he asked softly. “The king's? The idea of this place? The memory of the men who died at Colachel?”
+"Under whose standard do we truly stand, Ananthan Pillai?" he asked softly. "The king's? The idea of this place? The memory of the men who died at Colachel?"
 
 “All of them,” I said. “On different days.”
 
@@ -6947,7 +6947,7 @@ Travancore forts with their star teeth turned inward. Dutch and other European f
 
 His eyes sharpened.
 
-“This is the test, Nagoji,” he said. “Not whether you will ride north tomorrow. I do not believe you will. The test is whether, when confronted with a choice between making Travancore easier prey and making your old masters slightly less blind, you know where to place your weight.”
+"This is the test, Ananthan," he said. "Not whether you will ride north tomorrow. I do not believe you will. The test is whether, when confronted with a choice between making Travancore easier prey and making your old masters slightly less blind, you know where to place your weight."
 
 He slid a blank leaf toward me, along with a stylus.
 
@@ -7013,7 +7013,7 @@ He nodded once.
  
  I walked to the small oil lamp burning in the niche.
  
-“Nagoji,” Ramayyan said softly. “Once you do this, there is no echo. You become silent to them.”
+"Ananthan," Ramayyan said softly. "Once you do this, there is no echo. You become silent to them."
  
 “I know,” I said.
  
@@ -7367,7 +7367,7 @@ Her voice was flat.
 
 She looked at me, her eyes hard and unblinking.
 
-“They burned to destroy,” she said. “You burned to save. But ash tastes the same in my mouth, Nagoji. Do not expect me to distinguish the flavour.”
+"They burned to destroy," she said. "You burned to save. But ash tastes the same in my mouth, Ananthan. Do not expect me to distinguish the flavour."
 
 “My vines,” she continued, her voice dropping. “The king's vines. The Dutch's desired vines. Your fuel. Many names for the same plants.”
 
@@ -7383,7 +7383,7 @@ Marthanda Varma watched from his platform, face unreadable.
 
 She turned to leave, then paused.
 
-“You have chosen your side firmly now, Sawant,” she said without looking back at me. “When Dutch, Mysore or your own hills come in force, you will be in front of the king's fort. You will not be standing on my verandah. I will remember that.”
+"You have chosen your side firmly now, Pillai," she said without looking back at me. "When Dutch, Mysore or your own hills come in force, you will be in front of the king's fort. You will not be standing on my verandah. I will remember that."
 
 Her footsteps echoed as she walked out.
 
@@ -7871,7 +7871,7 @@ I waited outside until the prayers ended.
 
 When De Lannoy emerged, his face held a peace I rarely saw in the war halls.
 
-“Sawant,” he said. “You do not usually visit this part of the fort.”
+"Pillai," he said. "You do not usually visit this part of the fort."
 
 “I do not usually find two Europeans praying to their god in a kingdom that just surrendered itself to ours,” I said.
 
@@ -7889,7 +7889,7 @@ I looked at them: the Dutch soldier who had been captured at Colachel and chosen
 
 Father Duarte stepped forward. His hand rose, hesitated, then completed the motion, a sign of the cross in my direction, quick but deliberate.
 
-“I do not do this to convert you,” he said. “I know you have your own gods, or none, as you choose. I do it because it is the only blessing I know how to give. And you have earned a blessing, Nagoji Sawant. Whatever you believe.”
+"I do not do this to convert you," he said. "I know you have your own gods, or none, as you choose. I do it because it is the only blessing I know how to give. And you have earned a blessing, Ananthan Pillai. Whatever you believe."
 
 I did not know how to respond.
 

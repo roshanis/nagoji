@@ -176,7 +176,7 @@ I waited outside until the prayers ended.
 
 When De Lannoy emerged, his face held a peace I rarely saw in the war halls.
 
-“Sawant,” he said. “You do not usually visit this part of the fort.”
+"Pillai," he said. "You do not usually visit this part of the fort."
 
 “I do not usually find two Europeans praying to their god in a kingdom that just surrendered itself to ours,” I said.
 
@@ -194,7 +194,7 @@ I looked at them: the Dutch soldier who had been captured at Colachel and chosen
 
 Father Duarte stepped forward. His hand rose, hesitated, then completed the motion, a sign of the cross in my direction, quick but deliberate.
 
-“I do not do this to convert you,” he said. “I know you have your own gods, or none, as you choose. I do it because it is the only blessing I know how to give. And you have earned a blessing, Nagoji Sawant. Whatever you believe.”
+"I do not do this to convert you," he said. "I know you have your own gods, or none, as you choose. I do it because it is the only blessing I know how to give. And you have earned a blessing, Ananthan Pillai. Whatever you believe."
 
 I did not know how to respond.
 

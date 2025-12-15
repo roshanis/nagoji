@@ -128,7 +128,7 @@ He studied me.
 
 He set the letter down.
 
-“Understand this, Nagoji,” he said. “You are useful to me because you are Maratha *and* because you are Padmini's son. You can speak to men in Pune in a way my other nobles cannot. You can tell them what you have seen here. You can make them fear and respect this kingdom, or you can make them see it as prey.”
+"Understand this, Ananthan," he said. "You are useful to me because you are Maratha *and* because you are Padmini's son. You can speak to men in Pune in a way my other nobles cannot. You can tell them what you have seen here. You can make them fear and respect this kingdom, or you can make them see it as prey."
 
 His gaze sharpened.
 

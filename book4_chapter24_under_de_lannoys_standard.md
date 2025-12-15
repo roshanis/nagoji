@@ -80,7 +80,7 @@ Later, when the same recruit managed to fire in perfect time over the heads of p
 
 The boy grinned, sweat dripping into his eyes.
 
-“Yes, Kapitan, yes, Sawant,” he said.
+"Yes, Kapitan, yes, Pillai," he said.
 
 He did not seem to care which of us got which title. We were both, to him, men who made his arms ache and his shoulders remember new positions.
 
@@ -148,7 +148,7 @@ The coat was not Portuguese. The cut was different, the buttons plain rather tha
 
 My throat tightened.
 
-“You have concerns, Sawant,” the king said.
+"You have concerns, Pillai," the king said.
 
 It was not a question.
 
@@ -550,7 +550,7 @@ I nudged my horse into a trot. He followed, his seat improving day by day.
 
 We rode in silence for a while. The sun crept above the tree line, painting the world in shades of gold and green.
 
-“Sawant,” the Prince said. “At the temple. When the chevar came.”
+"Pillai," the Prince said. "At the temple. When the chevar came."
 
 I waited.
 
@@ -602,7 +602,7 @@ The Prince did not complain. He took corrections without argument, repeated dril
 
 That evening, after the men had dispersed, the Prince found me on the bastion.
 
-“Sawant,” he said. “The men. They look at me differently now.”
+"Pillai," he said. "The men. They look at me differently now."
 
 “They look at you as one of them,” I said. “Is that not what you wanted?”
 
@@ -632,7 +632,7 @@ The Prince nodded slowly.
 
 He straightened, rolling his shoulders the way I had taught him to shake off tension.
 
-“Thank you, Sawant,” he said. “For not treating me like glass.”
+"Thank you, Pillai," he said. "For not treating me like glass."
 
 “Glass breaks,” I said. “You are not glass. You are iron that has not yet been forged. The fire is uncomfortable. But it is necessary.”
 
@@ -692,7 +692,7 @@ The man approached, his eyes taking in everything, the stacked barrels, the guar
 
 “The roads from Cochin are clear this season,” he said. His Malayalam was accented, the vowels shaped by some other tongue. “The king's peace has been good for travel.”
 
-Thoma turned to me. “Sawant, this is Avraham ben Ephraim. His family has traded with mine for four generations. Avraham, this is the Maratha, the one the soldiers call the Deccan rider.”
+Thoma turned to me. "Ananthan, this is Avraham ben Ephraim. His family has traded with mine for four generations. Avraham, this is the Maratha, the one the soldiers call the Deccan rider."
 
 Avraham inclined his head. “I have heard of you. The man who teaches horses to dance with muskets.”
 
@@ -724,7 +724,7 @@ Over the following months, I learned more about the Jews of Cochin.
 
 Thoma said there were Malabari Jews, old families woven into the coast, and Paradesi Jews, newer arrivals from Europe who still carried Spanish and Portuguese scars. Both lived under the Raja's protection near the palace, trading where others were forbidden to own land.
 
-“They cannot own land outside their quarter,” Thoma said. “But they can own ships. They can trade. And they remember everything, every debt, every favour, every slight. Do not cheat a Jew of Cochin, Sawant. His grandson will remember.”
+"They cannot own land outside their quarter," Thoma said. "But they can own ships. They can trade. And they remember everything, every debt, every favour, every slight. Do not cheat a Jew of Cochin, Ananthan. His grandson will remember."
 
 “You speak as if you admire them,” I said.
 
@@ -764,7 +764,7 @@ He was quiet for a moment, turning his cup in his hands.
 
 He stood, gathering his papers.
 
-“My grandfather traded with the Zamorin,” he said. “My father traded with Cochin. I trade with Travancore. My son will trade with whoever holds this coast when I am gone.” He smiled, and there was something ancient in his eyes. “The Jews endure, Sawant. We have outlasted Pharaohs and Caesars and Inquisitors. We will outlast kings of pepper, too.”
+"My grandfather traded with the Zamorin," he said. "My father traded with Cochin. I trade with Travancore. My son will trade with whoever holds this coast when I am gone." He smiled, and there was something ancient in his eyes. "The Jews endure, Pillai. We have outlasted Pharaohs and Caesars and Inquisitors. We will outlast kings of pepper, too."
 
 He left, his small boat disappearing into the gathering dusk.
 
@@ -804,7 +804,7 @@ His words echoed my own thoughts more than he knew.
 
 We stood there in silence for a few breaths, two men far from the places that had birthed us, bound to a banner that was neither of our first choosing, yet had become ours by repeated, bloody decisions.
 
-“Under whose standard do we truly stand, Nagoji Sawant?” he asked softly. “The king's? The idea of this place? The memory of the men who died at Colachel?”
+"Under whose standard do we truly stand, Ananthan Pillai?" he asked softly. "The king's? The idea of this place? The memory of the men who died at Colachel?"
 
 “All of them,” I said. “On different days.”
 

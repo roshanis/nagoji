@@ -146,7 +146,7 @@ He gestured at the bundles again.
 
 “And when you see a line you do not like?” I asked. “What then?”
 
-“Then I talk,” he said. “Or I watch more closely. Or I advise the king to move a piece before it moves itself. I am not omniscient, Nagoji. I can only reduce surprises.”
+"Then I talk," he said. "Or I watch more closely. Or I advise the king to move a piece before it moves itself. I am not omniscient, Ananthan. I can only reduce surprises."
 
 He looked at me, his gaze sharpening.
 

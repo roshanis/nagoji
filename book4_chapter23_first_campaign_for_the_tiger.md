@@ -98,7 +98,7 @@ I rode forward with Ponnan and a Nair captain at my side.
 
 “Raja,” I said, inclining my head.
 
-“Sawant,” he said. “We heard the Maharaja had given a Maratha his Kayamkulam frontier. Nice of him to send you to announce yourself.”
+"Pillai," he said, with a mocking emphasis on the new name. "We heard the Maharaja had given a Maratha his Kayamkulam frontier. Nice of him to send you to announce yourself."
 
 His tone walked the line between mockery and welcome.
 
@@ -156,7 +156,7 @@ When he saw Padmini herself, sitting her horse under a nearby tree, face unreada
 
 He glanced now at the stretch of land where our two domains brushed.
 
-“What do you want, Sawant?” he asked.
+"What do you want, Pillai?" he asked.
 
 “Your men off the road,” I said. “Your promise that you will not use Dutch muskets on Travancore caravans. And your agreement that if company men come again, they do so as merchants, not as your private army.”
 
@@ -304,7 +304,7 @@ I laughed. It was a wet, ugly sound.
 
 A hand clamped onto my wrist. Iron-hard.
 
-“Nagoji!”
+"Ananthan!"
 
 I spun, ready to strike the interrupter.
 
@@ -348,7 +348,7 @@ When we returned to the fort weeks later, report written, the reception was not 
  
  “We secured the border,” I said, standing stiffly. Padmini stood beside me, her chin high.
  
- “You secured a massacre,” Marthanda Varma said, stopping his pace. He turned to look at me, his eyes cold. “We sent you to deter a chieftain, Sawant. Not to paint the rocks with the entrails of his farmers.”
+ "You secured a massacre," Marthanda Varma said, stopping his pace. He turned to look at me, his eyes cold. "We sent you to deter a chieftain, Pillai. Not to paint the rocks with the entrails of his farmers."
  
  “They were armed,” Padmini cut in. “They were raiders.”
  
@@ -368,7 +368,7 @@ The flush rose in my neck. The memory of the red haze, of the boy I had almost s
  
  We all looked at her.
  
- “They burned my fields,” she said, her eyes flashing fire. “They took foreign money to threaten our flank. Nagoji did what was necessary. If the price of safety is a few bloody rocks, I will pay it.”
+ "They burned my fields," she said, her eyes flashing fire. "They took foreign money to threaten our flank. Ananthan did what was necessary. If the price of safety is a few bloody rocks, I will pay it."
  
  “We do not ask you to pay it, Amma,” Marthanda Varma said quietly. “We ask you to remember that we are building a kingdom, not a graveyard.”
  
@@ -488,7 +488,7 @@ The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing
  
  “Dreams are dangerous,” the King said. He sat up, pushing away the physician's restraining hand.
  
- “Listen to me, Dalawa. And you, Sawant.”
+ “Listen to me, Dalawa. And you, Pillai.”
  
  We leaned in.
  
@@ -510,7 +510,7 @@ The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing
  
  He looked at me. His eyes were hard, flat surfaces, reflecting nothing but the intent to destroy.
  
- “That was war, Sawant,” he said. “War has rules. Men fight for land, for coin, for duty. We respect that.”
+ "That was war, Pillai," he said. "War has rules. Men fight for land, for coin, for duty. We respect that."
  
  He touched the bandage on his shoulder.
  

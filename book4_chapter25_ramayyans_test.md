@@ -117,7 +117,7 @@ Travancore forts with their star teeth turned inward. Dutch and other European f
 
 His eyes sharpened.
 
-“This is the test, Nagoji,” he said. “Not whether you will ride north tomorrow. I do not believe you will. The test is whether, when confronted with a choice between making Travancore easier prey and making your old masters slightly less blind, you know where to place your weight.”
+"This is the test, Ananthan," he said. "Not whether you will ride north tomorrow. I do not believe you will. The test is whether, when confronted with a choice between making Travancore easier prey and making your old masters slightly less blind, you know where to place your weight."
 
 He slid a blank leaf toward me, along with a stylus.
 
@@ -183,7 +183,7 @@ He nodded once.
  
  I walked to the small oil lamp burning in the niche.
  
-“Nagoji,” Ramayyan said softly. “Once you do this, there is no echo. You become silent to them.”
+"Ananthan," Ramayyan said softly. "Once you do this, there is no echo. You become silent to them."
  
 “I know,” I said.
  
