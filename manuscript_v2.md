@@ -7423,7 +7423,7 @@ Her gaze flicked toward the blackened strip.
 
 The words landed heavier than any accusation.
 
-“You knew that before we stood before the goddess,” I said quietly.
+“You knew that before we stood before the gods,” I said quietly.
 
 “Of course,” she said. “I married you with my eyes open. I knew there would be days when you stood on the wall beside the king instead of on my verandah. I did not expect to like it when those days came.”
 
@@ -7523,7 +7523,7 @@ Kottarakkara. Savitri.
 
 Names that meant nothing to me when I first washed up on this coast, and everything now.
 
-The Raja of Kottarakkara had finally pushed too far. Dutch factors in his court. Letters intercepted that spoke of “alternatives” to Travancore rule. When we marched, he fled to Cochin, leaving the throne empty. But his kinswoman remained.
+The Raja of Kottarakkara had finally pushed too far. Dutch *factors* in his court. Letters intercepted that spoke of “alternatives” to Travancore rule. When we marched, he fled to Cochin, leaving the throne empty. But his kinswoman remained.
 
 “He thinks he can play them against us,” Ramayyan said. “He thinks if he makes himself useful to the Dutch, they will protect him from our reach.”
 
@@ -7639,7 +7639,7 @@ We won.
 
 Not because we were right, but because we had more. More guns. More discipline. More of the terrible arithmetic that decides such things.
 
-By evening, her force had scattered. The Dutch factors fled toward their ships. The local men melted back into the land, hoping to be forgotten.
+By evening, her force had scattered. The Dutch *factors* fled toward their ships. The local men melted back into the land, hoping to be forgotten.
 
 Savitri herself was captured trying to reach the coast.
 
@@ -7765,11 +7765,33 @@ He had built walls of stone and armies of men. Now he built a wall of faith, and
 
 The king, the servant now, rose from his knees. The sword remained at the deity's feet, drinking the lamplight.
 
+But he was not finished.
+
+A temple attendant stepped forward, carrying something that made the nobles shift and murmur. Not a crown. Not a sceptre. A broom. A common broom, the kind any sweeper might use, its bristles worn from honest work.
+
+Marthanda Varma took it.
+
+The murmuring died. In the silence, I could hear the oil lamps hissing.
+
+He began to sweep.
+
+Not a token gesture, not a symbolic brush across the threshold. He swept the stone floor before the sanctum with slow, deliberate strokes, gathering the dust and the scattered flower petals, the ash and the remnants of a thousand offerings. The bristles scraped against the ancient stone.
+
+Then he walked.
+
+He swept the entire circumference of the temple, step by step, the broom moving in steady arcs. Past the mandapa where the nobles stood frozen. Past the pillars where oil lamps flickered. Past the outer walls where the serpent groves whispered. The king who had broken the Dutch, who had shattered the Eight Houses, who had built an army that made Mysore think twice, swept the floor like any temple servant.
+
+No one spoke. No one moved.
+
+The chiefs who had muttered about traps and politics watched a king on his knees with a broom, and something shifted in their faces. This was not theatre. This was a man who meant what he said.
+
+When he completed the circle and returned to the sanctum, his dhoti was dusty, his hands grey with ash. He handed the broom back to the attendant and stood before the deity once more.
+
 When he turned to face the assembly, his eyes found mine for a moment.
 
 There was no triumph in his gaze. Only the weariness of a man who had finally placed his last piece on the board and could only wait to see if the game was won.
 
-“Padmanabha Dasa,” the priests intoned. Servant of Padmanabha.
+"Padmanabha Dasa," the priests intoned. Servant of Padmanabha.
 
 The nobles bowed.
 
