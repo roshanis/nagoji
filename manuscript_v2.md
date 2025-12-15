@@ -8071,7 +8071,7 @@ Readers interested in the real Travancore, Marthanda Varma, De Lannoy and the Du
 *   **Sowcar:** A merchant or moneylender, often part of an extended Gujarati banking network.
 *   **Bhau:** Brother (Konkani/Marathi). A term of familiarity.
 *   **Chanda Sahib:** Nawab claimant from the Carnatic/Madurai sphere whose pressure from the south forces Travancore to fight on another front just before Colachel.
-*   **Factor (Feitor):** A purchasing agent in trading posts (feitorias) who gathered goods (spices, sugar, etc.) for shipment back to Portugal, managing logistics and storage.
+*   **Factor:** A European trading company's agent stationed at a coastal post or factory. Dutch and Portuguese factors negotiated prices, gathered pepper and other goods, managed warehouses, and reported local politics to their superiors. They often acted as informal diplomats, cultivating relationships with local chiefs.
 
 ## Social Structure and Customs
 *   **Marumakkathayam:** “Inheritance through the sister's children.” The matrilineal system of inheritance practiced by Nairs and the Royal Family, where lineage and property pass through the female line.
