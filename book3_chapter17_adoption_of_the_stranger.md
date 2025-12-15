@@ -1,4 +1,4 @@
-# Book III, Chapter 17: Adoption of the Stranger
+# Chapter 17: Adoption of the Stranger
 
 The King came to Padmini Amma’s estate not with the thunder of drums or the announcement of heralds, but with the quiet dust of a traveller who knows the road too well.
 
@@ -176,7 +176,7 @@ The name settled on me like a second skin, strange and familiar at once.
 
 I had ridden into this land as Nagoji Sawant, on a borrowed horse, branded by enemies, carrying nothing but the memory of a drowned friend and a war I could not finish.
 
-I would stay as Ananthan Pillai.
+I would stay as Ananthan Pillai, a *Thampuran* and trusted general of the king.
 
 Later, alone in the courtyard after they had gone, I traced the carved elephants on the nearest pillar. They marched in an endless procession, trunk to tail, carrying nothing, going nowhere, holding up the roof simply because that was what they had been made to do.
 

@@ -1,6 +1,6 @@
-# Book IV, Chapter 23: First Campaign for the Tiger
+# Chapter 23: First Campaign for the Tiger
 
-The northern marches smelled different from the coast.
+The Kayamkulam frontier smelled different from the coast.
 
 Less salt, more dust. Less pepper, more smoke from small village fires. The wind carried the sharp scent of red earth and dry grass instead of wet sand. It felt closer to the Deccan than anything I had known in years, and yet the rhythm of the land was still Travancore's.
 
@@ -26,7 +26,7 @@ Ramayyan's fingers tapped on his palm leaf when he heard.
 
 Marthanda Varma looked at me.
 
-“You wanted marches,” he said. “Here they are. Go and see whether this raja needs reminding who sharpens his sword.”
+“You wanted a frontier,” he said. “Here it is. Go and see whether this raja needs reminding who sharpens his sword.”
 
 So we rode.
 
@@ -60,7 +60,7 @@ We reined in at the edge of the crowd. A magnificent tusker, its forehead adorne
 
 A group of girls carried a palanquin bearing a simple wooden image of the goddess, decked in fresh flowers. Behind them walked older women with brass plates of rice and turmeric, their steps measured. Padmini dismounted and joined them without a word, slipping into the line as if she had always been there. Men bowed their heads as she passed.
 
-“War does not stop for this,” Dhanaji murmured.
+"War does not stop for this," Ponnan murmured.
 
 “This does not stop for war either,” I said.
 
@@ -76,7 +76,7 @@ By the next morning, the air had thickened with a different kind of tension.
 
 Scouts reported armed men moving near the forest edge. Smoke rose in thin columns from hidden camps. A runner brought word that a small convoy of Travancore grain, destined for the new fort, had been ambushed a few nights earlier. The attackers had left company cloth and coins on one of the bodies, either as payment or as a message.
 
-“He wants us to know,” Dhanaji said as we examined the scene. “He is not hiding this. He wants the Maharaja to see Dutch colour in his quarrel.”
+"He wants us to know," Ponnan said as we examined the scene. "He is not hiding this. He wants the Maharaja to see Dutch colour in his quarrel."
 
 “That way, if we strike him, he can tell other chiefs that we did it at the Dutch's bidding,” I said. “And if we do not, he can tell the Dutch we fear their anger.”
 
@@ -94,11 +94,11 @@ At their centre sat the raja.
 
 He was a heavy man, flesh hanging a little over his belt, but his eyes were sharp. He wore gold in his ears and around his neck, and a sword at his hip that had seen use. He sat on a low stool placed deliberately in the centre of the road, as if daring us to ask him to move.
 
-I rode forward with Dhanaji and a Nair captain at my side.
+I rode forward with Ponnan and a Nair captain at my side.
 
 “Raja,” I said, inclining my head.
 
-“Sawant,” he said. “We heard the Maharaja had given a Maratha his marches. Nice of him to send you to announce yourself.”
+“Sawant,” he said. “We heard the Maharaja had given a Maratha his Kayamkulam frontier. Nice of him to send you to announce yourself.”
 
 His tone walked the line between mockery and welcome.
 
@@ -114,7 +114,7 @@ His eyes narrowed fractionally.
 
 “Dutch coin spends in our markets,” he said. “As does Marakkar coin. As does Brahmin coin. The grain you send north does not ask whose hand dropped the money it buys. Why should I?”
 
-Dhanaji shifted his weight beside me, ready for the argument to turn sharper.
+Ponnan shifted his weight beside me, ready for the argument to turn sharper.
 
 I lifted a hand slightly.
 
@@ -180,7 +180,7 @@ The line parted, slowly.
 
 It felt less like victory than like being allowed to step over a tripwire that could be reset behind us.
 
-As we rode past, Dhanaji leaned toward me.
+As we rode past, Ponnan leaned toward me.
 
 “That was not the last of him,” he murmured.
 
@@ -216,7 +216,7 @@ At one bend, they tried an ambush.
 
 Half a dozen men burst from cover ahead, firing matchlocks at close range. Another group loosed arrows from a side thicket.
 
-The first volley caught two of our horsemen. One fell backwards, hands clutching at a spreading dark on his chest. The other pitched sideways, his foot tangled in his stirrup, his horse dragging him for several yards before Dhanaji drew the ivory-and-gold knife from his belt, cut the strap, and hauled him clear.
+The first volley caught two of our horsemen. One fell backwards, hands clutching at a spreading dark on his chest. The other pitched sideways, his foot tangled in his stirrup, his horse dragging him for several yards before Ponnan cut the strap with his blade and hauled him clear.
 
 We did not stop.
 
@@ -226,7 +226,7 @@ His eyes widened as he realised his musket had not had time to reload. He droppe
 
 Too slow.
 
-My blade caught his arm, biting through cloth and flesh. He yelled, stumbling back. My horse's shoulder slammed into his chest, knocking him aside.
+My blade caught his arm, biting through cloth and flesh. He yelled, stumbling back. I did not let him find his feet. I cut again, higher, the edge sliding under his jaw. He went down with a startled cough and did not rise.
 
 Ponnan and his Maravar riders swept into the flank of the ambush, their lighter mounts darting between trees. Spears flashed. The raiders, seeing their first strike fail, disappeared back into the scrub.
 
@@ -248,7 +248,7 @@ The kind of place where a careless commander could lose half his men in a few br
 
 We reined in on a ridge, horses blowing hard.
 
-“If we go in there blind, we will bleed for every shrub,” Dhanaji said.
+“If we go in there blind, we will bleed for every shrub,” Ponnan said.
 
 “He chose this ground for that,” Padmini said. She had insisted on coming, riding near the rear of our column, eyes flinty. “He thinks you will either rush in and lose men or pull back and let him claim he held you.”
 
@@ -277,64 +277,68 @@ The cannon could not kill a whole band hidden in such cover. It could tear holes
 “Now,” I said.
 
 We sent in small groups on foot.
- 
- I went with them, dismounting and drawing my talwar. Sometimes, unsuspecting men die faster when you can look them in the eye.
- 
- The valley swallowed us.
- 
- Thorns caught at cloth and skin. Stones shifted underfoot. The air felt closer, humid with the exhalations of hidden bodies.
- 
-It began with a musket shot that went wide, shredding leaves near my ear. Then they were on us.
- 
-A man lunged at me from behind a bush, spear low. I twisted, letting the point slide past my hip, and drove my elbow into his jaw. Bone crunched. He staggered, and I did not just strike him down; I followed the motion with a fluid, unnecessary cut, slashing his hamstring before finishing him.
- 
- Another came. Then two more.
- 
-The world narrowed to a red tunnel. The heat of the valley, the screams, the smell of powder and fresh blood, it all sang to something dark in me. I wasn't just fighting; I was hunting.
- 
- I cornered a young raider against a rock face. He had lost his sword. His hands were up, eyes wide with terror.
- 
- “Mercy!” he cried.
- 
- I laughed. It was a wet, ugly sound.
- 
- “Mercy is for men who stay on their own land,” I snarled. I raised my sword, intent not just on killing him, but on splitting him to the navel.
- 
- A hand clamped onto my wrist. Iron-hard.
- 
- “Nagoji!”
- 
- I spun, ready to strike the interrupter.
- 
- Dhanaji stood there, his face streaked with soot, but his eyes clear and hard. He held my arm, forcing the blade down.
- 
- “Look at him,” Dhanaji hissed. “He is a boy. He is beaten.”
- 
- “He is an enemy,” I panted, the blood pounding in my ears like a war drum.
- 
- “He is not the Portuguese,” Dhanaji said, his voice cutting through the haze. “We are not at Colachel, fighting white devils. These are men of the soil. Kill him if you must, but do not butcher him like a dog.”
- 
- The red receded, leaving me cold and shaking. I looked at the boy, who was sobbing now. I looked at my sword, dripping.
- 
- I lowered the blade.
- 
- “Go,” I told the boy. “Run before I remember who I am.”
- 
- He scrambled away.
- 
- By the time the sun slid toward the horizon, the valley was silent. The raiders who hadn't fled lay broken among the rocks.
- 
- We walked back to the ridge. Padmini was waiting.
- 
+
+I went with the first, dismounting and drawing my talwar. In scrub like this, men die faster when you can smell each other’s breath.
+
+The valley swallowed us.
+
+Thorns caught at cloth and skin. Stones shifted underfoot. The air felt close, wet with the exhalations of hidden bodies.
+
+It began with a matchlock shot that went wide, shredding leaves near my ear. Then they were on us.
+
+A man lunged at me from behind a bush, spear low. I twisted, letting the point scrape past my hip, and drove my elbow into his jaw. Bone crunched. He staggered. I cut his hamstring, watched his leg fold, and finished him before he hit the ground.
+
+Another came, sword raised high, face smeared with ash. I stepped inside his swing and took his throat. He made a thin sound, hands clawing at his neck, and sagged into the thorn.
+
+A third tried to circle, dagger in his fist, eyes bright with the fever of the chase. He slipped on a loose stone. I did not let him recover. I cut across his cheek, then across his neck, and kept moving.
+
+The world narrowed. Heat, screams, powder smoke, fresh blood, all of it sang to something dark in me. I was not just fighting. I was hunting.
+
+I cornered a young raider against a rock face. He had lost his sword. His hands were up, eyes wide with terror.
+
+“Mercy!” he cried.
+
+I laughed. It was a wet, ugly sound.
+
+“Mercy is for men who stay on their own land,” I snarled. I raised my sword, intent not just on killing him, but on splitting him to the navel.
+
+A hand clamped onto my wrist. Iron-hard.
+
+“Nagoji!”
+
+I spun, ready to strike the interrupter.
+
+Ponnan stood there, his face streaked with soot, but his eyes clear and hard. He held my arm, forcing the blade down.
+
+“Look at him,” he hissed. “He is a boy. He is beaten.”
+
+“He is an enemy,” I panted, the blood pounding in my ears like a war drum.
+
+“He is not the Portuguese,” Ponnan said, his voice cutting through the haze. “We are not at Colachel, fighting white devils. These are men of the soil. Kill him if you must, but do not butcher him like a dog.”
+
+The red receded, leaving me cold and shaking. I looked at the boy, who was sobbing now. I looked at my sword, dripping.
+
+I lowered the blade.
+
+“Go,” I told the boy. “Run before I remember who I am.”
+
+He scrambled away.
+
+Another raider burst from the scrub behind him, trying to use the boy’s body as a shield as he backed off. I stepped in and cut him down. The boy ran harder, feet slipping on rock, disappearing into the thorn.
+
+By the time the sun slid toward the horizon, the valley was silent. The raiders who hadn't fled lay broken among the rocks.
+
+We walked back to the ridge. Padmini was waiting.
+
 She looked at the blood on me, too much of it to be mine, and then at the bodies being dragged into lines.
- 
- “You were thorough,” she said. Her voice was steady, but there was a flicker of something in her eyes. Not fear, exactly. Recognition.
- 
- “They will not come back,” I said. My voice sounded raspy, strange even to my own ears.
- 
- “No,” Dhanaji observed quietly, wiping his spear. “Ghosts rarely raid.”
- 
- “Good,” Padmini said. She turned her horse. “War is not a place for half-measures.”
+
+“You were thorough,” she said. Her voice was steady, but there was a flicker of something in her eyes. Not fear, exactly. Recognition.
+
+“They will not come back,” I said. My voice sounded raspy, strange even to my own ears.
+
+"No," Ponnan observed quietly, wiping his spear. "Ghosts rarely raid."
+
+“Good,” Padmini said. She turned her horse. “War is not a place for half-measures.”
 
 When we returned to the fort weeks later, report written, the reception was not what I expected.
  
@@ -374,47 +378,43 @@ The flush rose in my neck. The memory of the red haze, of the boy I had almost s
  
  The silence she left was heavy.
  
- “Go, Sawant,” Ramayyan said, waving a hand. “Clean yourself up. And pray that the next rumour speaks of your discipline, not your thirst.”
+ “Go, Ananthan,” Ramayyan said, waving a hand. “Clean yourself up. And pray that the next rumour speaks of your discipline, not your thirst.”
  
- I saluted and left, feeling smaller than I had in years.
- 
- ***
- 
- Late that night, long after the lamps had dimmed in the barracks, Ramayyan sat alone with the King in the private chambers.
- 
- The room was located in the upper storey of the palace, under the steep, tiled roof that curved upward at the eaves like the prow of a ship. The heavy timber beams were carved with rows of charging elephants, their trunks raised in silent trumpets, marching eternally across the ceiling. The floor was a smooth expanse of black, so polished it held the reflection of the oil lamp like a second moon.
- 
- The report lay on the table between them.
- 
- “He was suitably chastised,” Ramayyan noted, pouring a small cup of water.
- 
- “He was,” Marthanda Varma agreed. He moved to the window, looking out over the dark walls of the fort to the northern hills.
- 
- “And your Valiyamma?”
- 
- “She is angry,” the King said. “But she is loyal. She will hold that border with iron now.”
- 
- Ramayyan picked up the report again, re-reading the description of the skirmish.
- 
- “It is brutal,” he said.
- 
- “It is,” Marthanda Varma said. He turned back, and in the dim light, a faint, cold smile touched his lips. “But tell me, Dalawa... do you think Kollamkara will send men into that valley again?”
- 
- “No,” Ramayyan said. “Not after hearing what the Maratha did to the last ones.”
- 
- “Exactly,” the King said softer. “We cannot be butchers, Ramayyan. But it is very useful to have a man who the enemy believes is one. Let them fear the Tiger's claws.”
- 
- “So, we are pleased?” Ramayyan asked.
- 
- Marthanda Varma blew out a lamp.
- 
- “We are very pleased.”
- 
- ***
+I saluted and left, feeling smaller than I had in years.
+
+That night I scrubbed the valley off my skin until my knuckles stung. The water in the basin turned pink, then clear, and still I could taste smoke at the back of my throat.
+
+Padmini found me before dawn.
+
+She did not strike her cane on the floor this time. She stood in the doorway of my quarters with her shawl pulled tight and her eyes bright in the lamp glow.
+
+“Do not let their scolding fool you,” she said.
+
+I swallowed. “It was not scolding. It was judgment.”
+
+“In public,” she said. “Yes.”
+
+I said nothing.
+
+“After I walked out,” she went on, voice low, “I went back. I needed to speak of my burned fields, and I wanted to know how far they meant to leash you. I waited outside the king’s rooms while Ramayyan went in. Their doors do not hold words as well as stone holds arrows.”
+
+She leaned close, as if the walls themselves were listeners.
+
+“He asked Ramayyan if Kollamkara would send men into that valley again,” she said. “And Ramayyan said no, not after what the Maratha did to the last ones. Do you know what the king said then?”
+
+My stomach tightened.
+
+“He said a kingdom cannot be run by butchers,” Padmini whispered. “Then he said it is very useful to have a man the enemy believes is one. Let them fear the Tiger’s claws.”
+
+She straightened, the shawl slipping a little from one shoulder.
+
+“So be careful,” she said. “They will shame you when eyes are watching, and they will praise you when they want you sharp. Do not let their need become your hunger.”
+
+I stared at my hands, clean now, and still not clean.
  
 Peace is a fragile skin on a rotting fruit.
  
- Three days later, the King went to the great temple. It was a private worship, or as private as a King's prayers can ever be. The Heir, the young nephew from Padmini's courtyard, went with him.
+ Three days later, the King went to the great Padmanabhaswamy temple. It was a private worship, or as private as a King's prayers can ever be. 
  
 I commanded the escort. We stood at the outer perimeter of the *belikal* stones, the offering stones that ring the temple, watching the crowd that had gathered to see the royal party.
  
@@ -424,7 +424,7 @@ I commanded the escort. We stood at the outer perimeter of the *belikal* stones,
  
  A man near the front of the crowd, dressed in the simple white mundu of a devotee, suddenly moved. He did not run; he flowed, like water finding a crack in a dam.
  
- A *chevar*. A suicide warrior who has accepted death before he even draws his blade. They come to their mission with kanjav or bhang in their blood, to dull fear and sharpen resolve into a single point. The coast has sung of chevars for generations, in ballads and kalari tales, so a man who chooses that path is already half legend before his blade clears his cloth.
+ A *chevar*. A suicide warrior who has accepted death before he even draws his blade. They come to their mission with *kanjav* or *bhang* in their blood, to dull fear and sharpen resolve into a single point. The coast has sung of chevars for generations, in ballads and kalari tales, so a man who chooses that path is already half legend before his blade clears his cloth.
  
  Ideally, my guards should have stopped him. But he was fast, and the crowd was thick.
  

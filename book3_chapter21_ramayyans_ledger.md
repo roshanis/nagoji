@@ -1,4 +1,4 @@
-# Book III, Chapter 21: Ramayyan's Ledger
+# Chapter 21: Ramayyan's Ledger
 
 I had always known that Ramayyan wrote things down.
 

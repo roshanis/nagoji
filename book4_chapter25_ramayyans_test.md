@@ -1,4 +1,4 @@
-# Book IV, Chapter 25: Ramayyan's Test
+# Chapter 25: Ramayyan's Test
 
 The summons came on a day that smelled of ink and rain.
 

@@ -1,4 +1,4 @@
-# Book III, Chapter 20: Guest in Velinadu
+# Chapter 20: Guest in Velinadu
 
 Some months after Colachel and before fire ever touched Padmini's upper fields, things shifted between Revathi and me.
 
@@ -166,7 +166,7 @@ Her hand brushed mine, the same light touch as on that verandah after the Dutch 
 
 The marriage itself was smaller than any court scribe would have wanted and larger than either of us would admit mattered.
 
-There were no trumpets, only drums, the deep, rolling *chenda* that set the blood moving, and the sharper *thimila* that answered like a heartbeat. No foreign captains, only house elders. No long lines of guests, only those who had carried these years with us.
+There were no trumpets, only drums, the deep, rolling *chenda* that set the blood moving, and the sharper *thimila* that answered like a heartbeat. No courtiers, only house elders. No long lines of guests, only those who had carried these years with us. Ponnan and his men were the last to arrive along with Lannoy and one of his captains.
 
 Dhanaji arrived the morning of the ceremony, dusty from the road, with a grin I had not seen since we were young men racing horses on the Deccan plateau.
 
@@ -178,33 +178,15 @@ Dhanaji arrived the morning of the ceremony, dusty from the road, with a grin I 
 
 “You never fell,” I said.
 
-“I fell many times,” he said. “I simply never let anyone catch me.” His eyes dropped to my waist, to the pale curve of ivory at my belt. The gold caught the light even under the courtyard shade.
+Dhanaji’s grin died. He looked at the floor, scuffing his toe against the stone.
 
-“Since when do you wear a king’s jewellery?” he asked.
+“I am going back,” he said quietly. “To the Deccan. I miss my parents. I miss the dry air. I am not of this place, Nagoji. The food is too wet, the customs too strange. I am homesick.”
 
-“It is not jewellery,” I said. I loosened the cloth that covered the hilt. Fine things in a crowded house invite hungry fingers. “The Maharaja gave it to me after the adoption. Dutch steel, reforged. His conch stamped into the blade so no one forgets who owns the work.”
+I felt a pang of sympathy. He was a rider of the plateau, not a man of the coast. I did not want him going empty-handed.
 
-Dhanaji’s grin died.
+I drew the ivory-hilted knife from my waist and pressed it into his hand.
 
-“No,” he said at once. “Keep it.”
-
-The knife had ridden at my waist since the day Padmini named me. Giving it away felt like loosening a knot I had only just learned to tie.
-
-I drew it anyway and placed it in his palm, hilt first.
-
-He tried to give it back as if it burned him.
-
-“Do you want me to ride with your king’s mark on my hip?” he said, low. “Back in the Deccan, they will call it betrayal. Here, they will call it a leash.”
-
-“It cuts rope,” I said. “It cuts flesh. It is only a leash if you let it pull you.”
-
-He stared at me, jaw tight. “And you do not feel it pulling?”
-
-The Portuguese brand on my wrist ached with an old memory. Padmini’s kiss on the scar. Varma’s conch pressing a new ownership against my skin.
-
-“I know exactly what it is,” I said. “That is why you should have it.”
-
-“Why?” he demanded.
+“Why?” he demanded, trying to push it back. “No. I will not carry a foreign king's treasure. It suits you here. It does not suit me.”
 
 “Because I am tying myself to this coast,” I said. “You are the one man who remembers the Deccan boy under my skin. Take it, Dhanaji. If the gods cut you down here, let your son come south with it. Let him find me by the conch and the gold. I will not turn him away.”
 
@@ -314,6 +296,8 @@ Revathi laughed, a real laugh, unguarded, the first I had heard from her all day
 "He also insisted on the precise sequence of cutting," she said. "Something about the vegetables cooking at the same rate. He wrote it down in one of his notebooks."
 
 “Some things,” Ramayyan said primly, “are worth recording.”
+
+He paused, then added, “For that matter, *sambar* itself is a Deccan dish, in origin. It was invented by your King Sambhaji when he took refuge in the south and his cooks combined available vegetables to make something both nutritious and flavourful. We merely perfected it.”
 
 I bent to my leaf and ate as the Malabar coast ate, with my fingers, mixing rice and curry into small balls, the coconut oil slick on my palm, the flavours layering on my tongue in ways that Deccan food never had. The *avial* was unlike anything I had tasted: creamy and earthy, the vegetables still holding their shape, the yoghurt adding a tang that cut through the richness.
 

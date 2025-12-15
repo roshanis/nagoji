@@ -1,4 +1,4 @@
-# Book III, Chapter 18: Dutch Come Bowing
+# Chapter 18: Dutch Come Bowing
 
 The second time Dutchmen entered the coastal hall, they smelled less of salt and more of caution.
 
@@ -20,7 +20,7 @@ When the envoys arrived, their coats were more subdued than those of the men who
 
 Lannoy stood at the edge of the hall as they entered.
 
-I stood further in to the right of the King’s platform. I was no longer the mercenary observing from the pillars. I was the *Valia Sarvadhi Karyakkar* of the Horse, wearing the heavy silver chain of office Padmini Amma had fastened around my neck that morning. The guards knew it, the ministers knew it, and from the way the Dutch envoys’ eyes lingered on me, they suspected that the “Maratha” had found a permanent stall in this stable. I was a man with a *tharavadu* now, and that gave me a weight that mere steel could not.
+I stood further in to the right of the King’s platform. I was no longer the mercenary observing from the pillars. I was the *Valia Karyakkar* of the Horse, wearing the heavy silver chain of office Padmini Amma had fastened around my neck that morning. The guards knew it, the ministers knew it, and from the way the Dutch envoys’ eyes lingered on me, they suspected that the “Maratha” had found a permanent stall in this stable. I was a man with a *tharavadu* now, and that gave me a weight that mere steel could not.
 
 Lannoy wore a simple cotton coat over his European shirt, his hair tied back as always. A sword hung at his side, not the one he had surrendered at Colachel, but a similar blade, its hilt now wrapped in local cloth.
 

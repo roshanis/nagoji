@@ -1,4 +1,4 @@
-# Book IV, Chapter 28: Servant of Padmanabha
+# Chapter 28: Servant of Padmanabha
 
 The fall of Kottarakkara broke the resistance of the old houses, but Marthanda Varma knew that broken things could be mended if the glue was strong enough. He needed an act that would seal the kingdom forever, beyond the reach of Dutch intrigue or noble ambition.
 

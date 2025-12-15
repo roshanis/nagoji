@@ -1,4 +1,4 @@
-# Book II, Chapter 7: Horses in Wet Sand
+# Chapter 7: Horses in Wet Sand
 
 The first time I tried to make Arcot horses run in Malabar sand, they laughed at me.
 
@@ -10,7 +10,7 @@ The strip of beach the king had given me was narrow, caught between the rise of 
 
 The sun had only just cleared the line of palms when the Arcot troop arrived, lances gleaming, turbans wrapped high. Their commander, a lean man with a hawk nose and a scar that puckered his left cheek, saluted with his spear butt to his chest.
 
-“Raza Khan, at your service,” he said in a Hindustani that carried the singsong of the Carnatic. “The Nawab sends his horse as promised. We have fought for Arcot and for your king before. We know how to ride.”
+“Raza Khan, at your service,” he said in a Hindustani that carried the singsong of the Carnatic. “The Nawab sends his horse as promised. We have fought for Arcot and for your king before.”
 
 Behind him the men sat straight in their saddles, horses tossing their heads, bits clinking. They looked confident. Too confident.
 
@@ -36,11 +36,11 @@ The Arcot rider’s jaw tightened. He glanced up at the bluff, where the King wa
 
 Ponnan said nothing, but a faint smile touched his lips as he signalled his Maravar.
 
-The first pass was not a disaster, but it was ugly.
+The first pass was a disaster.
 
 I watched the Arcot horses hit the wetter sand. They were heavy beasts, bred for the dry plains of the Carnatic. When they tried to turn, their weight carried them deep. Hooves sucked into the slurry. Legs flailed. Riders jerked reins to keep their seats, breaking the proud rhythm of the charge.
 
-The Maravar fared better. Their ponies were smaller, stepping lightly where the larger horses sank. They spun and darted, grinning at the southerners’ clumsiness.
+The Maravar fared slightly better. Their ponies were smaller, stepping lightly where the larger horses sank. They spun and darted, grinning at the southerners’ clumsiness.
 
 “See?” I called out, riding my own mount between them. “The earth here judges weight. It punishes force.”
 
@@ -192,7 +192,7 @@ He leaned against a palm trunk, his face half-shadowed by the evening light.
 
 Ibrahim was quiet for a moment.
 
-“I am Muslim,” he said finally. “My fathers came from the coast of Arabia, traders who married local women and stayed. We built mosques. We kept the faith. But we also lit lamps at Hindu shrines when our ships sailed, and we asked Syrian Christian priests to bless our cargo when the winds were wrong.”
+“I am Muslim,” he said finally. “My fathers came from the coast of Arabia, traders who married local women and stayed. We built mosques. We kept the faith. But we also lit lamps at Hindu shrines when our ships sailed, and we asked Christian priests to bless our cargo when the winds were wrong.”
 
 He shrugged.
 

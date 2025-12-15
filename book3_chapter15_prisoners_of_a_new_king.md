@@ -1,4 +1,4 @@
-# Book III, Chapter 15: Prisoners of a New King
+# Chapter 15: Prisoners of a New King
 
 The end came with a lie, or perhaps just a misunderstanding of what honour meant on this coast.
 
@@ -112,7 +112,7 @@ Marthanda Varma had summoned Lannoy.
 
 The meeting took place in a small hall used for private audiences. No throne, just a low platform and simple mats. Ramayyan was there, of course, his stylus ready.
 
-And beside him sat Mathoo Tharakan. He was no longer just the merchant I had seen at the war council. Today, he wore the heavy gold chains and silk tunic of a *Valia Sarvadhi Karyakkar*, a high noble of the court. Marthanda Varma had elevated him, breaking centuries of caste tradition to place a Syrian Christian at the heart of his durbar. It was a statement as loud as any cannon: in this new Travancore, power flowed to those who built the state, regardless of the god they prayed to.
+And beside him sat Mathoo Tharakan. He was no longer just the merchant I had seen at the war council. Today, he wore the heavy gold chains and silk tunic of a *Sarvadhi Karyakkar*, a high noble of the court. Marthanda Varma had elevated him, breaking centuries of caste tradition to place a Syrian Christian at the heart of his durbar. It was a statement as loud as any cannon: in this new Travancore, power flowed to those who built the state, regardless of the god they prayed to.
 
 To my Deccan eyes it still felt like a boundary crossed. But the Syrian houses of this coast were not meek converts huddled outside the warrior order. They trained in the same kalari pits as Nairs, carried steel when the kingdom called, and stood in the old hierarchy closer to horse and musket than to plough. The king was shocking some priests, yes, but he was not inventing a new world from nothing.
 

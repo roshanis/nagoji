@@ -1,4 +1,4 @@
-# Book II, Chapter 9: Princess of Velinadu
+# Chapter 9: Princess of Velinadu
 
 
 We left Padmini Amma's estate before sunrise, when the sky was the colour of old iron and the air still clung to the night's cool.
@@ -75,7 +75,7 @@ Revathi turned her gaze fully on me.
 
 “So they tell me,” I said.
 
-“You speak our king's tongue?” she asked.
+“You speak our tongue?” she asked.
 
 “I learn it,” I said carefully. “Slowly. Like a horse finding its footing on new ground.”
 
@@ -111,7 +111,7 @@ She leaned back slightly, studying me.
 
 She picked up a piece of plantain from her plate at last, but held it between finger and thumb rather than eating.
 
-“They also love patterns,” she went on. “They say you trained the Arcot horse on wet sand this week. Made them move like the fish I watch at low tide. The Maharaja sat under a cloth and pretended to be only half interested. Ramayyan filled a grove of palm leaves about it.”
+“They also love patterns,” she went on. “They say you trained the Arcot horse on wet sand. Made them move like the fish I watch at low tide. Ramayyan filled a grove of palm leaves about it.”
 
 “You think you can teach our men to kill Dutch as easily as you killed Portuguese on your hills?” she asked.
 
@@ -119,7 +119,7 @@ She picked up a piece of plantain from her plate at last, but held it between fi
 
 “Yet you keep pouring,” she said. “Why?”
 
-“Because if we do not, someone's flag will stand over every fort from Nashik to this place,” I said. “Because men in Goa believed they could take my name and make me a number in a ledger. Because I have seen what happens when you give Europeans an inch of riverbank and they think it entitles them to the whole valley.”
+“Because if we do not, their flag will cast a shadow over every fort from Nashik to this coast,” I said. “Because in Goa, they tried to erase my name and replace it with a number in a ledger. I have seen their hunger. Give them an inch of riverbank, and they will swallow the whole valley before you have finished signing their treaty.”
 
 Her eyes narrowed slightly.
 
@@ -147,7 +147,7 @@ She paused, and something shifted in her face. A shadow, there and gone.
 
 She did not elaborate. The silence stretched a heartbeat longer than it should have.
 
-“Kottarakkara has not yet bent,” Revathi added. “The chief there still remembers what his grandmothers held. Your king circles that house the way a dog circles a wounded bird. Sooner or later, one of them will move.”
+“Kottarakkara has not yet bent,” Revathi added. “The chief there still remembers what his grandmothers held. Your king circles that house the way a dog circles a wounded bird.”
 
 I did not know the name. I did not know the house. The weight of what she was not saying settled into the air between us like monsoon humidity.
 

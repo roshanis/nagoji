@@ -1,4 +1,4 @@
-# Book I, Chapter 1: Dungeons of Goa
+# Chapter 1: Dungeons of Goa
 
 ![Map of the Malabar Coast](images/map_malabar.jpg)
 

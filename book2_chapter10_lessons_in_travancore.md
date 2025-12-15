@@ -1,4 +1,4 @@
-# Book II, Chapter 10: Lessons in Travancore
+# Chapter 10: Lessons in Travancore
 
 In the Deccan, a kingdom revealed itself in its forts.
 
@@ -14,13 +14,13 @@ When the diwan of a kingdom tells you to walk, you do not ask where.
 
 We started at the temple.
 
-Not the great shrine at Padmanabhaswamy, which I had heard of but not yet seen, but a smaller temple on a hill above a cluster of houses and pepper gardens. Its gopuram was modest by southern standards, its stone steps worn hollow in the centre by generations of feet.
+Not the great shrine at Padmanabhaswamy, which I had heard of but not yet seen, but a smaller temple on a hill above a cluster of houses and pepper gardens. Its gopuram was modest by southern standards, its stone steps worn hollow in the centre by generations of feet. It was dedicated to Lord Ayyappa, the forest warrior, brother of Ganapati and patron of all who carried arms in these hills. 
 
 As we climbed, women and men stepped aside to let Ramayyan pass, murmuring greetings. He returned each with the same small nod, storing something behind his eyes.
 
 Inside the outer courtyard, Brahmins moved through their rituals like men repeating a song they had sung since childhood. Oil lamps flickered. Bells chimed. The smell of ghee and incense wound itself around the stone pillars.
 
-At the innermost threshold, where in some other temples a Deccan non-Brahmin like me might have been kept back, Ramayyan stopped and turned.
+At the innermost threshold, where in some other temples a Deccan non-Brahmins like me might have been kept back, Ramayyan stopped and turned.
 
 “You do not have to go closer,” he said. “The god knows you have your own ways.”
 

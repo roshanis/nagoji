@@ -1,4 +1,4 @@
-# Book I, Chapter 3: The Choice in the Storm
+# Chapter 3: The Choice in the Storm
 
 The first warning was not the shout of a sailor or the crack of thunder. It was the change in the way the ship moved.
 

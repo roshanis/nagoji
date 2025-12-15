@@ -1,4 +1,4 @@
-# Book III, Chapter 19: Shadows of the Deccan
+# Chapter 19: Shadows of the Deccan
 
 News from the Deccan arrived the way monsoon storms do.
 
@@ -133,10 +133,6 @@ He set the letter down.
 His gaze sharpened.
 
 “If you ever choose the second, we will stand on opposite sides of a very narrow river,” he said. “If you choose the first, you will have my gratitude. For whatever that is worth.”
-
-“Gratitude does not stop bullets,” I said.
-
-“No,” he said. “But it weighs on scales you cannot see yet.”
 
 He waved a hand, dismissing the solemnity with a flick.
 

@@ -1,4 +1,4 @@
-# Book I, Chapter 2: The Slave Ship South
+# Chapter 2: The Slave Ship South
 
 They woke us under cover of bells. The great church above rang for early Mass, a flood of sound rolling down through stone into the cells. I counted the strokes. When the last echo faded, bolts scraped at the dungeon door.
 

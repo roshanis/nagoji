@@ -1,4 +1,4 @@
-# Book I, Chapter 6: The Coastal Hall
+# Chapter 6: The Coastal Hall
 
 They did not take me to a palace.
 

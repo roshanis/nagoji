@@ -1,8 +1,8 @@
-# Book II, Chapter 8: Padmini Amma's Estate
+# Chapter 8: Padmini Amma's Estate
 
 For months I lived near the fishermen’s village, sleeping on a mat in a small hut that smelled of dried prawns and damp thatch.
 
-It was a month of sun and salt. My days were spent on the wet sands, shouting until my throat was raw, trying to make Arcot horses and Maravar ponies understand each other. The fishermen watched us from their boats, laughing when a charger stumbled, nodding when a formation held. I ate their fish curry, spicy enough to make a Deccan man weep for milk, and drank their toddy. I became, in a small way, part of the landscape: the foreign captain who yelled at horses.
+It was months of sun and salt. My days were spent on the wet sands, shouting until my throat was raw, trying to make Arcot horses and Maravar ponies understand each other. The fishermen watched us from their boats, laughing when a charger stumbled, nodding when a formation held. I ate their fish curry, spicy enough to make a Deccan man weep for milk, and drank their toddy. I became, in a small way, part of the landscape: the foreign captain who yelled at horses.
 
 Then the King’s summons came. Not to the war hall, but to a smaller pavilion near the temple.
 
@@ -38,7 +38,7 @@ He scratched a note on his leaf.
 
 The first time I saw Padmini Amma's house, I thought they had brought me to a temple by mistake.
 
-Not one of the great stone temples I knew from the Deccan, with shikharas that clawed at the sky and carved gods staring down from high walls. This place had no towering spires, no massive gateways. It sprawled low and wide beneath the palms, its tiled roofs sloping gently, its carved wooden beams dark with oil and age. Yet everything about it said power.
+Not one of the great stone temples I knew from the Deccan, with shikharas that clawed at the sky and carved gods staring down from high walls. This place had no towering spires, no massive gateways. It sprawled low and wide beneath the palms, its tiled roofs sloping gently, its carved wooden beams dark with oil and age. Yet everything about it said power. Two massive tuskers swayed in the shade of the compound wall, shifting their weight like grey boulders, and the sharp scent of horses from a long stable told me this house was built to defend its wealth, not just display it.
 
 Power in the neatness of the courtyards, swept clean before dawn. Power in the thickness of the granary walls, mounds of paddy stacked inside like quiet promises. Power in the way men with spears stood not at the outer gate, but under the shade of the inner verandahs, where cool air and authority met.
 
@@ -47,8 +47,6 @@ In the shadow near the granary, I noticed a low wooden panel, its edges rubbed s
 We rode in under an arch woven with coconut fronds and mango leaves. Someone had hung oil lamps there though the sun was high, wicks smoking gently, scenting the air with burnt ghee.
 
 "Do not look for the sardar," Ibrahim murmured beside me as his horse's hooves clicked on the stone threshold. "Here, the house does not belong to the man who sleeps in the front room. It belongs to the name on the matrilineal line. You will see."
-
-His eyes moved briefly toward the harbour road, where a Marakkar boat was being loaded with sacks that could have been pepper or could have been something else entirely. The sea folk, I would learn, always kept one hand on a rope that led somewhere else.
 
 The courtyard we entered was long and rectangular, edged with pillared verandahs. On one side women sat sorting pepper berries on woven mats, their fingers moving with practised speed, their bangles clinking softly. On the other side, near a well, boys practised with short spears under the eye of an older man who barked corrections in Malayalam.
 
@@ -62,7 +60,7 @@ She was not young, but no one would have called her old. Her hair, thick and bla
 
 She leaned lightly on a long stick that could have been a staff or a cane, depending on who held it.
 
-“Sawant,” Ibrahim said under his breath. “Padmini Amma.”
+“Padmini Amma,” Ibrahim said under his breath.
 
 I bowed my head slightly as we approached, the way I might greet a landholding Patil in my own country. Not a deep court bow, but more than a nod to an equal.
 
@@ -70,7 +68,7 @@ I bowed my head slightly as we approached, the way I might greet a landholding P
 
 Her gaze travelled from my feet to my face. It lingered on my hands, still wrapped in thin linen, on the faint outline of the brand under my sleeve, on the worn leather of my belt.
 
-“The one who survived,” she said in Malayalam, slow enough now that I could follow. “The sea spits out strange things. You understand me, Sawant?”
+“The one who survived,” she said in Malayalam, slow enough now that I could follow. “The sea spits out strange things. You understand me, Nagoji?”
 
 “Enough to know when I am being insulted, Amma,” I answered in the same halting tongue. “And enough to know when I am being measured.”
 
@@ -80,21 +78,21 @@ One corner of her mouth curved.
 
 She gestured with the stick.
 
-“Come. Leave the horses to the boys. If they can handle pepper bales, they can handle saddles.”
+“Come. Leave the horses to the boys. 
 
 A boy of perhaps twelve ran forward and took my gelding's reins. He handled the animal with an easy calm that spoke of long familiarity. The horse snorted once, then allowed itself to be led away.
 
 Ibrahim stayed near the outer corner, already talking quietly with one of her stewards. Padmini Amma walked with me along the verandah, the stick tapping lightly against the stone.
 
-“The king sends you here to be near horse,” she said. “And near a house that owes him more than it likes to admit. Clever man. He knows that understanding an estate is as important as understanding a charge.”
+“The king sends you here to be near his capital and his horse,” she said. “And near a friendly house. Clever man. He knows that understanding an estate is as important as understanding a charge.”
 
 “I am a soldier,” I said. “I count men, hooves, distances.”
 
 “And who owns the land those hooves cross?” she asked mildly. “Who feeds the men you count? Whose pepper pays for their powder?”
 
-We passed open doorways that looked into cool rooms. In one, two women bent over palm leaf bundles, counting and tying. In another, an elderly man with a thin white beard traced lines on a cloth map with his finger, lips moving as if reciting something.
+We passed open doorways that looked into cool rooms. In one, two women bent over palm leaf bundles, counting and tying. In another, an elderly man with a thin white beard traced lines on a cloth map with his finger, lips moving as if reciting something. I smiled at the women a bit longer than I should have.
 
-“My grandmother slept in that room,” Padmini Amma said, nodding toward the map. “Her brother ran away with a dancer. Her sons went to fight for different chiefs. This house stayed with her sisters and their daughters. The men come and go. The name stays here.”
+“My grandmother slept in that room,” Padmini Amma said, nodding toward the room in th house. “Her brother ran away with a dancer. Her sons went to fight for different chiefs. This house stayed with her sisters and their daughters. The men come and go. The name stays here.”
 
 “In the Deccan,” I said, “we inherit through the father's line. A man's field is his son's.”
 
@@ -108,7 +106,7 @@ We reached a smaller inner courtyard, shaded by a large jackfruit tree. A stone 
 
 There was no threat in her tone. Only a statement of fact, laid on the ground like a tool.
 
-She gestured for us to sit on the platform. A girl brought water in brass tumblers. Another followed with a plate of sliced fruit and fried snacks. The ease with which they moved, the way they did not avert their eyes from me, the way Padmini Amma accepted their presence without comment, all of it was different from what I had grown up with.
+She gestured for us to sit on the platform. A pretty girl brought water in brass tumblers. Another followed with a plate of sliced fruit and fried snacks. The ease with which they moved, the way they did not avert their eyes from me, the way Padmini Amma accepted their presence without comment, all of it was different from what I had grown up with.
 
 In my village, women worked hard. They walked far for water, bent over fields, carried wood. But in the courtyard where men in armour sat, they moved like shadows at the edge, leaving food and vanishing. Here they flowed through the centre, talking, laughing, listening in.
 
@@ -182,21 +180,15 @@ She shook her head.
 
 “Men accept what the land demands,” she said. “Those who do not accept it are welcome to find wives elsewhere. The Brahmins have their own customs. The Namboothiris keep their women locked in their compounds. The Syrians marry in their churches. We do as we have always done.”
 
-She leaned forward.
-
-“If you stay in this land, Sawant, you will have to understand this. A woman who takes you in *sambandham* is not your property. She is your partner. Your children will call you father, but they will belong to her house. You will be welcome under her roof, but you will never own it. Can your Maratha pride swallow that?”
-
 It was a challenge, not a question.
-
-“I have no land here,” I said slowly. “No house. No kin. If I am honest, I have no pride left worth protecting. The Portuguese burned most of it out of me in Goa.”
-
-Something shifted in her eyes. Respect, perhaps. Or recognition.
-
-“Good,” she said. “Pride is a poor foundation for happiness. Better to build on something more solid.”
 
 She leaned back, studying me.
 
 “You will be billeted here for a time,” she said. “Your horses will graze in our fields. Your men will eat from grain we grew. You will ride from this gate when the king calls. That makes you part of this house's story, whether you like it or not.”
+
+She leaned forward, her voice dropping to a flat, hard tone.
+
+“And tell your men to stay away from the girls in the house. If they try anything, we will carve them from navel to feet. Do not test us on this.”
 
 “Houses have long memories,” I said.
 
@@ -219,20 +211,6 @@ I thought of Marthanda Varma on his low platform in the coastal hall, spear at h
 “He allows what he cannot easily stop,” Padmini Amma said. “The Velinadu line is old. Older than his throne. Older than his reforms. Older than Dutch and Portuguese ships on this coast. And they are not the only ones. The old Eight Houses on the marches once thought themselves kings too, until he broke them. You outsiders see one crown. We see many layered on the same land. Sometimes they sit well together. Sometimes they cut.”
 
 The kalari sounds beyond the wall rose and fell. The thuds of feet, the hiss of breath, the smack of sticks training muscles to remember.
-
-“Do you ever tire of it?” I asked suddenly.
-
-She glanced at me.
-
-“Of what?”
-
-"Of holding all this in your hands," I said. "Land, men, accounts, temple obligations. Of being the one whose name sits at the top of every record."
-
-She was quiet long enough that I wondered if I had stepped too far.
-
-“There are days,” she said at last, “when I would like to wake up and have someone else decide which field to flood and which debt to forgive. But if I hand this house to a man whose first instinct is to please another king, my daughters and their daughters become guests in their own courtyard. I am selfish enough to prefer my own burdens to their chains.”
-
-The kalari shouts rose again, punctuating her point.
 
 “When do we go to Velinadu?” I asked.
 

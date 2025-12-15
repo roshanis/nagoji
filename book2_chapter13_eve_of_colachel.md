@@ -1,4 +1,4 @@
-# Book II, Chapter 13: The Eve of Colachel
+# Chapter 13: The Eve of Colachel
 
 The day before Colachel smelled of coconut smoke and rain that had not yet fallen.
 
@@ -106,7 +106,7 @@ Ramayyan moved a token, a small Dutch coin, onto the sand of Colachel.
 
 “The Java War,” Ramayyan said, a rare hint of satisfaction in his voice. “The Dutch are busy fighting their own fires in the east. They cannot spare men for a pepper feud in Travancore. What sits on that beach is all they have.”
 
-“Four hundred men,” Varma said. “Professional soldiers. Good muskets. Cannon.”
+“Two thousand men,” Varma said. “Professional soldiers. Good muskets. Cannon.”
 
 “Against our thousands,” I said. “If we charge them,”
 

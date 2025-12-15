@@ -1,4 +1,4 @@
-# Book IV, Chapter 27: The Last of the Old Houses
+# Chapter 27: The Last of the Old Houses
 
 The map in the war hall had grown crowded.
 

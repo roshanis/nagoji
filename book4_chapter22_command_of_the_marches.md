@@ -1,48 +1,58 @@
-# Book IV, Chapter 22: Command of the Marches
+# Chapter 22: Command of the Kayamkulam Frontier
 
-The king liked to meet his gods without witnesses.
+The king liked to meet his gods without the court watching.
 
-Not at the great temples where priests and courtiers watched every gesture, but at the older shrine in the Padmanabhapuram temple complex, on its rocky hill a little inland from the coast, half swallowed by jackfruit trees and old stone.
+Not at the great temples where priests and courtiers watched every gesture, but at an old Shiva shrine on a rocky hill a little inland from the coast, half swallowed by mangotrees and old stone. Men in the fishing villages said it was older than the oldest temples, older than the first palm-leaf records, older than any king brave enough to pretend the coast belonged to him.
 
 “If I breathe too often under carved ceilings,” he had said once, “I forget what rain smells like on bare rock.”
 
-It was there, at Padmanabhapuram, that he summoned me on the morning the chevar came.
+That night he and the heir wanted to climb the hill.
 
-We rode without escort.
+Not for ceremony, not for show, but to stand before a black *lingam* and remember that some things do not belong to a crown. The king did not want me with them. He wanted only the boy and the god. Ramayyan argued until the king's patience thinned.
+
+We rode without a procession.
 
 Ramayyan had protested, in his careful way, arguing for at least a few guards, a few trusted Nair blades, a Marakkar with a keen eye. “You remember the festival night when you fell on the temple stones,” he said. “Not every knife announces itself.” Marthanda Varma listened, then shook his head.
 
 “If a king cannot sit with his god without a wall of men between them,” he said, “he is already dead.”
 
-“If you die,” Ramayyan replied, “so do many of us who had no say in that decision.”
+“If you die,” Ramayyan replied, “so do many of us who had no say in that decision. And if the heir dies with you, this kingdom becomes a feast.”
 
 In the end they compromised.
 
 The guards came with us as far as the foot of the hill. There, at a narrow stone stair that cut up through the trees, the king dismounted and handed his reins to a waiting boy.
 
-“You will have your men,” he told Ramayyan, who had followed us that far. “They will wait here. If I do not come down by the time the sun reaches that palm’s top frond, you may storm the gods' courtyard and scold me.”
+“You will have your men,” he told Ramayyan, who had followed us that far. “They will wait here. If I do not come down by the time the first light reaches that palm’s top frond, you may storm the gods' courtyard and scold me.”
 
 Ramayyan did not laugh. He only bowed and stepped back.
 
-“Take Sawant,” he said. “If you insist on trusting no one else with your back today, at least trust the man who has seen how Europeans strike.”
+“Take Ananthan,” he said. “If you insist on trusting no one else with your back tonight, at least trust the man who has seen how Europeans strike.”
 
-So it was that I climbed the temple steps beside a king, alone, with no sound but our breath and the distant murmur of the forest.
+Marthanda Varma's eyes settled on me, sharp as a blade laid flat.
+
+“You will walk behind,” he said. “You will watch the boy. You will speak only if spoken to. Do not bring your Deccan noise into my god's courtyard.”
+
+That was his permission, given with all the reluctance of a man swallowing medicine.
+
+So it was that I climbed the temple steps beside a king and his heir, torchlight trembling on wet stone, with no sound but our breath and the distant murmur of the forest.
 
 The shrine was small.
 
-Its gopuram barely rose above the trees. The outer wall, once painted, now showed patches of bare stone where lime had peeled. A single priest swept the courtyard, his old arms moving with steady rhythm. A few women in faded saris lit lamps at a side altar and murmured prayers.
+Its gopuram barely rose above the trees. The outer wall, once painted, now showed patches of bare stone where lime had peeled. Oil lamps burned in niches, their flames bending in the night breeze. A single priest swept the courtyard, his old arms moving with steady rhythm, while a younger assistant carried fresh wicks and ghee from shadow to shadow. A few women in faded saris finished their prayers and drifted away down the steps, their bangles soft as insects.
 
 The inner courtyard was barely the size of a Deccan village house.
 
-Stone flags underfoot. A low mandapa leading to the sanctum, its entrance hung with strings of wilting jasmine. In the centre of the space stood a single jackfruit tree, its trunk thick, its roots pushing up between the stones, its shade cool.
+Stone flags underfoot. A low mandapa leading to the sanctum, its entrance hung with strings of wilting jasmine and ash-white threads. In the centre of the space stood a single jackfruit tree, its trunk thick, its roots pushing up between the stones like knuckles.
 
 Marthanda Varma stepped under the tree, hands coming together in a brief namaskaram.
 
+The heir copied him, a fraction too quickly, as if afraid the god would turn away if he blinked.
+
 Without his spear, without his platform, he looked less like a king and more like any other man who had brought his worries to a god. The muscles at the back of his neck were tight. The lines around his eyes had deepened in the years since I had first seen him in the coastal hall.
 
-“Wait here,” he said quietly. “If anyone comes, tell them the king is scolding his god and does not wish to be scolded in return.”
+“Wait here,” he said quietly, to me. “If anyone comes, tell them the king is scolding his god and does not wish to be scolded in return.”
 
-He moved toward the sanctum, where the priest now prepared lamps.
+He put a hand on the heir's shoulder and guided him toward the sanctum, where the priest had begun the evening lamps. The doorway was low and dark, the air inside thick with incense and old stone. Shiva waited within, a black *lingam* marked with ash.
 
 I stayed near the jackfruit tree, eyes scanning the courtyard.
 
@@ -50,7 +60,7 @@ Old habit.
 
 Count the exits. The shadows. The people.
 
-The two women had already left, their bangles jingling faintly as they descended the outer steps. The priest moved between sanctum and side room, fussing with ghee and wicks. A dog slept in a patch of sun near the wall, twitching occasionally in some chase dream.
+The women had already left, their bangles jingling faintly as they descended the outer steps. The priest moved between sanctum and side room, fussing with ghee and wicks. The younger assistant hovered near the mandapa, ready with a torch. A dog slept near the wall, nose tucked into its tail, twitching occasionally in some chase dream.
 
 Everything seemed ordinary.
 
@@ -62,7 +72,7 @@ Only his eyes were wrong.
 
 They were too still.
 
-Devout men have a certain softness around the gaze, a readiness to be distracted by a bird or a child or a stray dog. This man's eyes moved once, to take in the courtyard, and then fixed on the king's back with the unblinking focus of a man who has burned away every other thought.
+Devout men have a certain softness around the gaze, a readiness to be distracted by a bird or a child or a stray dog. This man's eyes moved once, to take in the courtyard, and then fixed on the heir with the unblinking focus of a man who has burned away every other thought.
 
 I felt the hairs on my arms rise.
 
@@ -72,13 +82,13 @@ He passed within arm's length of me.
 
 “Ayya,” I said softly, in Malayalam. “The priest is busy. You may have to wait.”
 
-He ignored me and stopped a few paces from the king.
+He ignored me and stopped a few paces from the heir.
 
-He lifted the brass plate until the lamp's light touched Marthanda Varma's face and spoke in a low, formal Malayalam that rolled too fast for my Deccan ears. I caught only fragments. Eight houses. Vow. Chevar.
+He lifted the brass plate until the lamp's light touched the heir's face and spoke in a low, formal Malayalam that rolled too fast for my Deccan ears. I caught only fragments. Eight houses. Vow. Chevar. Heir.
 
 Whatever the full words, the king understood them.
 
-I saw his shoulders tighten, his hands uncurl from prayer. He turned, not away, but toward the sound, shifting his weight like a man who has chosen to meet a charging bull with his chest rather than his back.
+I saw the king's shoulders tighten, his hands uncurl from prayer. He stepped between the heir and the young priest, shifting his weight like a man who has chosen to meet a charging bull with his chest rather than let it take his child from behind.
 
 Then the young priest's right hand dropped.
 
@@ -90,13 +100,17 @@ Steel flashed.
 
 A long dagger, curved slightly, double-edged, held in a reversed grip, the point angled toward his own body, ready to plunge forward into another's.
 
-He lunged toward the king's spine.
+He lunged for the heir.
+
+The temple assistant made a sound that was half shout, half prayer, and threw himself in front of the blade. Steel flashed once. The assistant crumpled, torchlight spilling across the stone.
 
 My body moved before thought caught up.
 
-I stepped in, left hand snapping out to grab his wrist, fingers closing around bone and tendon. The impact jolted up my arm, but I held. His momentum carried us both forward. My shoulder thudded into his ribs. The dog woke with a bark and fled.
+The heir stood like a deer in torchlight.
 
-Marthanda Varma half turned, the movement spoiling the chevar's line.
+I stepped in, left hand snapping out to grab the chevar's wrist, fingers closing around bone and tendon. The impact jolted up my arm, but I held. His momentum carried us both forward. My shoulder thudded into his ribs. The dog woke with a bark and fled.
+
+Marthanda Varma half turned, one hand hooking the heir by the shoulder and shoving him back toward the sanctum. The boy stumbled, still staring, and the old priest caught him and hauled him behind a pillar.
 
 Yes, chevar.
 
@@ -224,11 +238,13 @@ Then he was still.
 
 For a long moment, all I could hear was breath.
 
-My own, ragged. The king's, rough. The priest's, somewhere near the sanctum, high and panicked. The dog's, whining from behind a pillar.
+My own, ragged. The king's, rough. The heir's, small and fast, from behind the pillar where the priest had dragged him. The priest's, high and panicked. The dog's, whining from behind a pillar.
 
 The smell in the courtyard had changed.
 
 Jackfruit leaves and ghee lamps and old stone, now cut through with the sharp iron tang of fresh blood.
+
+The temple assistant lay where he had fallen, eyes open, torch guttering beside his hand.
 
 Marthanda Varma eased himself off the corpse.
 
@@ -250,11 +266,19 @@ The priest stared, then bobbed his head and fled, sandals slapping on the stone.
 
 We sat under the jackfruit tree, backs against the trunk, the chevar's body lying a little distance away, already losing the tension that had made him so dangerous.
 
-“Chevar,” Marthanda Varma said after a while, testing the word on his split lip. “From the marches, most likely. One of the old Eight Houses that still dream of undoing me.”
+“Chevar,” Marthanda Varma said after a while, testing the word on his split lip. “From the Kayamkulam frontier, most likely. One of the old Eight Houses that still dream of undoing me.”
+
+He glanced toward the pillar.
+
+“He came for the heir,” he said. “Not for me.”
 
 “He said it was for the old houses,” I said.
 
 “Of course,” he said. “Men like him are always for something old. They rarely live long enough to see whether the old was worth killing for.”
+
+He spat a thin line of blood to the side.
+
+“If there are any remnants of the Eight Houses still hiding in these hills,” he said, voice low, “I want chevars sent into their courtyards. I want no traces left. No last cousin with a purse. No temple man willing to whisper for them. Nothing.”
 
 He wiped blood from his brow with the back of his hand, smearing it.
 
@@ -266,7 +290,7 @@ He wiped blood from his brow with the back of his hand, smearing it.
 
 We sat in silence a little longer.
 
-“This is why Ramayyan hates when I come alone,” he said finally. “He counts these risks. He writes them in his leaves. Today he will add a line in red.”
+“This is why Ramayyan hates when I come without an escort,” he said finally. “He counts these risks. He writes them in his leaves. Today he will add a line in red.”
 
 “He will add one for me too,” I said.
 
@@ -284,7 +308,7 @@ Footsteps sounded on the stair below, fast and many.
 
 Ramayyan burst into the courtyard, two guards behind him. His usually composed face was tight, eyes scanning the scene in a single sweep.
 
-He took in the corpse, the blood, the king's split brow, my bruised shoulder.
+He took in the corpse, the blood, the king's split brow, my bruised shoulder, and the heir half hidden behind the pillar with the priest's arm locked around him.
 
 His jaw clenched.
 
@@ -308,7 +332,7 @@ Later, when the blood had been washed from the stone and a fresh smear of sandal
 
 Ramayyan paced like a caged tiger.
 
-“I keep ledgers,” he said. “I count chiefs who murmur. I watch Dutch papers. I listen to Marakkar gossip. I have already seen arrows loosed from our own walls, poison in lamp oil, knives in festival crowds. I knew there were men who wished you dead. I did not know one had hired a chevar.”
+“I keep ledgers,” he said. “I count chiefs who murmur. I watch Dutch papers. I listen to Marakkar gossip. I have already seen arrows loosed from our own walls, poison in lamp oil, knives in festival crowds. I knew there were men who wished you dead. I did not know one had sent a chevar after the heir.”
 
 “If you had,” Marthanda Varma said, “you would have forbidden me to climb that hill. I would have gone anyway.”
 
@@ -318,19 +342,19 @@ Ramayyan stopped pacing.
 
 He turned to me.
 
-“You took the blade meant for him,” he said. “Or at least, the first one. That buys you more than thanks.”
+“You took the blade meant for the heir,” he said. “Or at least, the first one. That buys you more than thanks.”
 
 Marthanda Varma shifted in his seat.
 
-“It confirms something I had been weighing,” he said. “Ram worries about the north. About what you will do if your hills call you loudly enough. I worry about the marches. About men there who watch my growing strength and wonder whether they might trim it while Dutch eyes are elsewhere.”
+“It confirms something I had been weighing,” he said. “Ram worries about the north. About what you will do if your hills call you loudly enough. I worry about the Kayamkulam frontier. About men there who watch my growing strength and wonder whether they might trim it while Dutch eyes are elsewhere.”
 
 He looked at me.
 
-“I cannot stand on every fort wall myself,” he said. “I cannot sit in every temple courtyard. I cannot ride every patrol. I need men whose first instinct, when a dagger appears, is to move toward my chest, not away from it.”
+“I cannot stand on every fort wall myself,” he said. “I cannot sit in every temple courtyard. I cannot ride every patrol. I need men whose first instinct, when a dagger appears, is to move toward my chest, and his, not away from it.”
 
 My bruised ribs ached at the memory.
 
-“So,” he said, “I will give you what I once offered and you once refused. Land. A house. A permanent command on the northern marches. Horse that answer to your word. Men who will look to you when they see smoke on the horizon.”
+“So,” he said, “I will give you what I once offered and you once refused. A permanent command on the Kayamkulam frontier. Horse that answer to your word. Men who will look to you when they see smoke on the horizon.”
 
 Ramayyan's eyes flicked between us, measuring.
 
@@ -350,7 +374,7 @@ I shook my head.
 
 I looked at the king.
 
-“I will take your marches,” I said. “I will build horse there that answer to this land. I will send word north of what I have chosen. If the Peshwa or his men think me traitor, they can write my name in their own ledgers. I have no space left in mine for their judgments.”
+“I will take your frontier,” I said. “I will build horse there that answer to this land. I will send word north of what I have chosen. If the Peshwa or his men think me traitor, they can write my name in their own ledgers. I have no space left in mine for their judgments.”
 
 Ramayyan closed his eyes briefly, then opened them.
 
@@ -374,11 +398,11 @@ When word of my new command reached Padmini, she came to the fort with her stick
 
 “They can,” I said. “I am less sure about their rider.”
 
-“You managed a chevar,” she said. “The marches will be easier. At least there, the men who want to kill you will have to ride a little before they try.”
+“You managed a chevar,” she said. “The frontier will be easier. At least there, the men who want to kill you will have to ride a little before they try.”
 
 As I rode north some weeks later, standard snapping above my cavalry column, shoulder still aching faintly in the evenings, I thought of the temple stone, of the thin line between life and death measured by inches of steel and a man's decision to step in instead of aside.
 
-The marches waited.
+The Kayamkulam frontier waited.
 
 So did whatever knives the old houses there had honed in the dark.
 

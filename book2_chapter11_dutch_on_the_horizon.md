@@ -1,4 +1,4 @@
-# Book II, Chapter 11: Dutch on the Horizon
+# Chapter 11: Dutch on the Horizon
 
 It was late in 1739 when the horizon finally changed, ending the years of quiet consolidation. This was not yet the war fleet that would come two years later, only a probing squadron, sent to measure distances and count our guns. But we did not know that then.
 

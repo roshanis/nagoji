@@ -1,4 +1,4 @@
-# Book I, Chapter 5: Road to Travancore
+# Chapter 5: Road to Travancore
 
 The man they called *kapitan* introduced himself as Ibrahim.
 
@@ -36,9 +36,7 @@ He gestured to the woman who had tended my wounds.
 
 “Can he travel?”
 
-She snorted.
-
-“He should rest another week, but you will not wait. Men like you never do.”
+She snorted. “He should rest another week, but you will not wait. Men like you never do.”
 
 “Men like me are paid to be impatient,” he said mildly. To me he added, “Can you sit a cart, or a horse?”
 

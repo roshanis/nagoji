@@ -1,4 +1,4 @@
-# Book IV, Chapter 24: Under De Lannoy's Standard
+# Chapter 24: Under De Lannoy's Standard
 
 By the time the first dry season after Kollamkara's valley campaign came and went, people in the fort had started calling one of the new bastions “the foreigner's tooth.”
 

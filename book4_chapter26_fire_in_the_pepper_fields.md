@@ -1,4 +1,4 @@
-# Book IV, Chapter 26: Fire in the Pepper Fields
+# Chapter 26: Fire in the Pepper Fields
 
 The fire started as a thin, uncertain line on the horizon.
 
@@ -102,7 +102,7 @@ Shots cracked from the shadows.
 
 Along the canal, we could see the shapes of boats, low and loaded, ready to slip into any gap.
 
-“If we hit them from here,” Dhanaji said, “we expose ourselves. They have too many places to hide.”
+"If we hit them from here," Ponnan said, "we expose ourselves. They have too many places to hide."
 
 “We do not hit them here,” I said. “We hit their shield.”
 

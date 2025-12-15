@@ -1,4 +1,4 @@
-# Book II, Chapter 12: Threads of Alliance
+# Chapter 12: Threads of Alliance
 
 Court in Travancore did not look like court in Pune.
 
@@ -42,7 +42,7 @@ The Dutch envoy spread his hands.
 
 His eyes flicked toward the cluster of Velinadu women, then to Padmini Amma. He knew enough to know where land lay.
 
-In Goa, I had watched foreign masters do this same dance. They learned early that it is cheaper to keep a royal house quarrelling than to garrison every village. If no single branch grows strong enough to close the pepper groves to them, the company can make a treaty with whichever cousin is hungry this season, buy the spice for less than it is worth, and sail away without leaving too many bones on our soil.
+The Dutch and the Portuguese before them had learned early that it is cheaper to keep a royal house quarrelling than to garrison every village. If no single branch grows strong enough to close the pepper groves to them, the company can make a treaty with whichever cousin is hungry this season, buy the spice for less than it is worth, and sail away without leaving too many bones on our soil.
 
 Since they had taken Cochin from the Portuguese, the Dutch had lived with two hungers that never quite sat peacefully together. They wanted pepper at a price that suited their ledgers, and they wanted to push their power past the sea walls of their forts, into the hills where the vines grew. But every step inland meant stepping into our politics, and politics here is a swamp that pulls a man under as surely as any monsoon sea.
 
@@ -88,7 +88,7 @@ I watched the chiefs' eyes. Some darted toward the Dutch, some toward the king, 
 
 “The company brings guns and coins,” one of the chiefs said. “They pay fair weight for pepper, twelve *varahans* the *candi*, in good gold pagodas.”
 
-The chief in plain clothes, the one who trusted his land more than ornaments, shifted slightly. “What of Kottarakkara?” he asked. “The Elayadathu chief still receives Dutch factors. His sister's daughter writes to Velinadu. There are whispers.”
+The chief in plain clothes, the one who trusted his land more than ornaments, shifted slightly. “What of Kottarakkara?” he asked. “The Elayadathu chief still receives Dutch *Factors*. His sister's daughter writes to Velinadu. There are whispers.”
 
 The name dropped into the hall like a stone into still water.
 
@@ -170,19 +170,19 @@ Padmini joined us, her eyes still on the front.
 
 “You see the threads,” she murmured. “Now imagine them pulled tighter, with smoke and cannon added. That is what we head toward.”
 
-Before I could answer, a boy in the king's livery appeared at Ramayyan's elbow. The Dalawa listened to a whispered word, then crooked a finger at me.
+Before I could answer, a boy in the king's livery appeared at Ramayyan's elbow. The Dalawa listened to a whispered word, then beckoned me.
 
 “Come,” he said. “There is someone you should meet who knows the Dutch from inside their own walls.”
 
 He led me out of the main hall, down a side passage that smelled of limewash and oil, into a smaller room open on one side to a narrow courtyard. A single man sat there on a low stool, a clay cup of water untouched at his feet.
 
-He was pale, even under the southern sun, with a yellowish cast that spoke of old sickness. His hair, cropped short, showed threads of grey though he could not have been much older than me. A rough cotton shirt and dhoti hung awkwardly on a frame accustomed to other cloth.
+He was pale, even under the southern sun, with a yellowish cast that spoke of long illness. His hair, cropped short, was threaded with grey, though he could not have been much older than me. A rough cotton shirt and dhoti hung awkwardly on a frame that still seemed to remember the cut of a uniform.
 
-“This is Karl August,” Ramayyan said in Hindustani for my benefit. “He once wore the company's blue coat. Now he wears ours, when he wears anything at all.”
+“This is Karl August,” Ramayyan said in Malayalam, speaking slowly so I would understand. “He once wore the company's blue coat. Now he wears ours, when he wears anything at all.”
 
-The man rose, a little stiffly, and inclined his head.
+The man rose, stiff with old pains, and inclined his head.
 
-“I fought for the Dutch,” he said in halting Hindustani, his accent thick, the consonants hard. “They did not pay. They did not feed. They left us to rot in mud and fever. I decided I preferred to rot on my own terms.”
+“I fought for the Dutch,” he said in halting Portuguese, the words thick with a guttural accent. “They did not pay. They did not feed. They left us to rot in mud and fever. I decided I preferred to rot on my own terms.”
 
 Ramayyan spread a fresh palm leaf on the floor between us. Karl August knelt and began to draw with a stick of charcoal.
 
@@ -198,7 +198,7 @@ Ramayyan watched the shapes with the calm of a man fitting new pieces into a puz
 
 By the time the Dutch withdrew, the light slanted low. They bowed, promised to return with draft papers, and left behind a faint trail of foreign scent, a mixture of spice and sweat and some sharp alcohol.
 
-As they walked out, their interpreter, a Portuguese factor, glanced at me, quick and curious. To him I was a foreigner in this hall, yet not European. A man in simple cotton, with scars on his hands, listening more than he spoke. A piece on the board whose shape he had not yet accounted for.
+As they walked out, their interpreter, a Portuguese *factor*, glanced at me, quick and curious. To him I was a foreigner in this hall, yet not European. A man in simple cotton, with scars on his hands, listening more than he spoke. A piece on the board whose shape he had not yet accounted for.
 
 Good.
 
@@ -226,7 +226,7 @@ He looked up from his palm leaves, his expression thoughtful. “The Dutch left 
 
 I frowned. “Why does the King not give the trade to his own kind? Why must it be Christians or foreigners? Are there no Hindu merchants?”
 
-Ramayyan smiled, a dry, thin curving of his lips. “You are from the Deccan, Sawant. You forget our laws here. For a Hindu of good caste to cross the black water is to lose his caste. The ocean is *kalapani* forbidden water. We can farm the pepper, we can tax the pepper, but we cannot sail with it to the markets of Arabia or Rome. That sin, we leave to others.”
+Ramayyan smiled, a dry, thin curving of his lips. “You are from the Deccan, Sawant. You forget our laws here. For a Hindu of good caste to cross the black water is to lose his caste. The ocean is *kalapani* forbidden water. We can farm the pepper, we can tax the pepper, but we cannot sail with it to the markets of Arabia or Rome. That sin, we leave to others. Thankfully, their men are equally brave. We find them useful behind muskets or cannons.”
 
 He tapped his stylus against the leaf. “So we use the hands that are free to move. The Syrians. The Muslims. The King binds them to him so that when the ships sail, the profit returns to Padmanabhapuram, not Lisbon or Amsterdam.”
 

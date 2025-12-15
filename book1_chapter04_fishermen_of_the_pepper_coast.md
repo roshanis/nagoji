@@ -1,4 +1,4 @@
-# Book I, Chapter 4: The Fishermen of the Pepper Coast
+# Chapter 4: The Fishermen of the Pepper Coast
 
 
 
@@ -18,7 +18,7 @@ They came first as a blur, rising and falling like the surf itself. Then words b
 
 “Look at his hands...”
 
-“Marata, see the brand on his arm.”
+“See the brand on his arm.”
 
 Hands rolled me onto my back. The sky spun. It was a flat, lowering grey, the colour of stale rice water. Rain had stopped, but clouds still hung heavy. Between my face and that sky were three other faces, framed by beards and damp hair.
 

@@ -1,4 +1,4 @@
-# Book III, Chapter 16: Building a New Army
+# Chapter 16: Building a New Army
 
 The horse died on the third day of the fever.
 

@@ -1,4 +1,4 @@
-# Book III, Chapter 14: The Siege of Colachel
+# Chapter 14: The Siege of Colachel
 
 By the time we closed our ring around Colachel, we were already tired from another war.
 
