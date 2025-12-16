@@ -7961,9 +7961,15 @@ I thought of Marthanda Varma on that rampart, gripping the stone, saying “I re
 
 “It was smaller,” I said finally. “And more divided. And more free, in some ways. And more vulnerable.”
 
-“Do you miss it?” the officer asked.
+"Do you miss it?" the officer asked.
 
 I looked out at the forts that now guarded every approach, at the roads that connected every village, at the army that could stand against Mysore and the Dutch and whoever else came.
+
+When I had first washed ashore on this coast, the king had borrowed lancers from Arcot and begged muskets from English factors. His cavalry was a handful of men on horses that feared the sand. His forts were old walls that a good siege train could breach in a week.
+
+Now there were fifty thousand men under arms. Musketeers drilled in the European fashion, firing by volley, reloading in step. Artillery crews who could hit a ship's deck from shore batteries. A string of star forts from Kottar to the northern marches, each one designed by men who had learned from Dutch mistakes. Horse that no longer feared the surf. Officers who read maps and spoke three languages. A navy that made the Marakkars proud to fly the king's flag beside their own.
+
+All of it built in twenty years. All of it paid for in pepper and blood and the bones of men who had dreamed of different futures.
 
 "I miss what it cost," I said.
 
