@@ -2,12 +2,16 @@
 
 ## Titles and People
 *   **Maharaja:** Great King. The ruler of Travancore.
+*   **Kulasekhara Perumal:** A title carrying a claim of sovereignty over all Malabar and Kerala, not merely Venad or Travancore.
 *   **Dalawa:** Prime Minister and chief administrator.
 *   **Rani:** Queen or Princess. In the matrilineal system, the Senior Rani is the queen-mother or eldest female of the royal house, not the King's wife.
 *   **Valiyamma:** “Big Mother” or respected aunt/elder woman. Used as a term of high respect.
 *   **Ettuveetil Pillamar:** “Lords of the Eight Houses.” Powerful Nair nobles who controlled land and temple revenues and opposed the King's authority.
-*   **Chevar:** A sworn warrior, often dedicated to death or revenge. A suicide squad member.
-*   **Kapitan:** Captain. Used by locals to refer to European officers or powerful maritime leaders.
+*   **Chaver:** A sworn warrior, often dedicated to death or revenge. A suicide warrior.
+*   **Kappittan (Kapitan):** Captain. Used by locals to refer to European officers and senior commanders.
+*   **Valiya Kappittan:** “Great Captain.” Honorific used for the kingdom’s senior European commander.
+*   **Venattu Kappittan:** “Captain of Venad.” A title granted to De Lannoy in Travancore service.
+*   **Cheriya Kappittan:** “Small Captain.” Nickname used for a young officer serving under the Great Captain.
 *   **Marakkar:** Powerful Muslim merchant clan dominating coastal trade and naval warfare.
 *   **Samudri (Zamorin):** “Lord of the Sea.” The hereditary ruler of Calicut (Kozhikode), one of the most powerful kingdoms on the Malabar coast and a traditional rival of Travancore.
 *   **Sowcar:** A merchant or moneylender, often part of an extended Gujarati banking network.
@@ -17,11 +21,13 @@
 
 ## Social Structure and Customs
 *   **Marumakkathayam:** “Inheritance through the sister's children.” The matrilineal system of inheritance practiced by Nairs and the Royal Family, where lineage and property pass through the female line.
+*   **Dvija:** “Twice-born.” A Brahminical status claimed through certain major rituals, conferring enhanced religious legitimacy.
 *   **Kalari:** Training ground for martial arts (*Kalaripayattu*).
 *   **Kalapani:** “Black Water.” The ocean, which caste Hindus were traditionally forbidden from crossing.
 *   **Kanikka:** A ritual offering presented at a temple in return for blessing.
 *   **Tali:** A gold ornament tied around a bride's neck during marriage.
 *   **Padmanabha Dasa:** “Servant of Padmanabha.” The title taken by Marthanda Varma after dedicating the kingdom to the deity.
+*   **Sri Pandaravaka:** “Steward of Sri Padmanabha.” The king’s political and ceremonial role after Thrippadidanam, ruling as the deity’s servant.
 
 ## Objects and Places
 *   **Angavastram:** Upper-body cloth worn over the shoulder, typically as part of formal or ceremonial dress.
@@ -41,7 +47,9 @@
 *   **Padmanabhapuram:** The Travancore royal palace complex and capital in this period, near the southern tip of the kingdom.
 *   **Udayagiri Fort:** A major Travancore fort where key prisoners were held and later fortifications were modernised.
 *   **Kalkulam:** An older fort rebuilt on new lines and later associated with Padmanabhapuram’s defensive system.
+*   **Aramboli Lines:** Southern defensive earthworks and forts built to guard the Aramboli pass and the southeastern approaches to Travancore.
 *   **Candi:** A unit of weight used for spices (approx. 500 lbs typically, but variable).
+*   **Kalanju:** A gold weight used in Travancore and Malabar. 1 kalanju is about 3 grams of gold.
 *   **Chuckram:** Small silver coin of Travancore.
 *   **Varahan/Pagoda:** Gold coin widely used in South India.
 *   **Palki:** Palanquin.
@@ -49,6 +57,7 @@
 *   **Nettipattam:** Gold caparison or ornament worn on an elephant's forehead.
 *   **Belikal:** Sacrificial stones or altars in a temple courtyard.
 *   **Talwar:** Curved Indian sword with a single cutting edge, particularly associated with cavalry warfare.
+*   **Nedumkotta / Travancore Lines:** A major northern defensive wall system built from 1761 onward, running about 56 km with ditch, bastions, and camps to defend the kingdom against Mysore.
 
 ## Kingdoms and Polities
 *   **Travancore:** The kingdom in southern Kerala ruled by Marthanda Varma, later dedicated to Lord Padmanabha.
@@ -58,7 +67,7 @@
 *   **Kottarakkara:** A northern principality and court on Travancore’s fringe, central to the Elayadathu succession dispute in the novel.
 *   **Elayadathu Swaroopam:** The matrilineal royal house associated with Kottarakkara, used by outside powers as a lever against Travancore.
 *   **Kayamkulam:** A neighbouring principality absorbed during Travancore’s consolidation.
-*   **Deshinganad (Desinganad):** A principality centred around Quilon (Kollam), caught between Dutch influence and Travancore expansion.
+*   **Desinganadu:** A principality centred around Quilon (Kollam), caught between Dutch influence and Travancore expansion.
 *   **Purakkad:** A small coastal principality involved in the shifting alliances of the Malabar pepper coast.
 *   **Thekkumkur:** A northern Kerala principality later annexed by Travancore.
 *   **Vadakkumkur:** A northern Kerala principality, often paired with Thekkumkur, later annexed by Travancore.
@@ -70,6 +79,7 @@
 
 ## Historical Concepts
 *   **Thrippadidanam:** The “Grand Offering” or “Surrender to the Feet.” The historical event in 1750 where Marthanda Varma surrendered his kingdom to the deity Sri Padmanabhaswamy.
+*   **Hiranyagarbha:** “Golden womb” ceremony. A major ritual of rebirth and religious legitimacy for a ruler, associated with *dvija* status and the right to claim older sovereign titles.
 *   **Dutch East India Company (VOC):** *Vereenigde Oostindische Compagnie*. The powerful Dutch trading corporation that dominated the spice trade until broken by Travancore.
 
 ## Languages and Communities

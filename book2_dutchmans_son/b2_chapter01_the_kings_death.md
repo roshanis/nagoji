@@ -2,7 +2,9 @@
 
 The cannons spoke at dawn.
 
-I counted them from the ramparts of Udayagiri - twenty-one guns, fired at measured intervals, their thunder rolling across the green hills toward the sea. The king was dead. Marthanda Varma, who had built this kingdom from blood and genius, who had broken the Dutch and humbled the old nobility, who had made Travancore into something that mattered - he was gone.
+I counted them from the ramparts of Udayagiri - twenty-one guns, fired at measured intervals, five seconds between each report. A gunner's mind cannot help but measure. The powder charges were consistent, the crews well-drilled. Even in grief, Travancore maintained its standards.
+
+The king was dead. Marthanda Varma had built this kingdom from blood and genius. He had broken the Dutch and humbled the old nobility, then at Mavelikara in 1753 forced the Company to swallow its meddling. In 1750 he had surrendered the kingdom to Sri Padmanabha and ruled as the deity's servant. Now he was gone.
 
 I had served him for seventeen years. I had never spoken to him directly, not once. He was the king, and I was a captured Dutch gunner who had been permitted to live. The distance between us was measured in more than rank. And yet, standing on those walls as the smoke drifted across the morning sky, I felt something like grief.
 
@@ -10,23 +12,25 @@ Perhaps it was not grief for him. Perhaps it was grief for the world he had made
 
 ---
 
-My name is Pieter van der Berg. I was born in Batavia in the year of our Lord 1725, the son of a Dutch trader and a woman whose blood was mixed in ways my father never discussed. I joined the Company's army at fourteen, was shipped to Ceylon at fifteen, and was marching with the Dutch expedition against Travancore at sixteen.
+My name is Pieter van der Berg. I was born in Batavia in the year of our Lord 1725, the son of a Dutch trader and a woman whose blood was mixed in ways my father never discussed. I joined the Dutch Company's army at fourteen, was shipped to Ceylon at fifteen, and was marching with the Dutch expedition against Travancore at sixteen.
 
 That was in 1741. The Battle of Colachel, they called it later, though at the time it felt less like a battle than a slaughter. I remember the Travancorean lines emerging from the morning mist, more of them than we had expected, better armed than we had believed. I remember the sound of our formation breaking, the screams of men I had trained with dying in the mud. I remember running, and then not running, and then waking in chains with a wound in my side that should have killed me.
 
 I was sixteen years old. I expected to die.
 
-Instead, I met Eustachius De Lannoy.
+Instead, I met Eustachius De Lannoy, a Catholic captain born in Arras.
 
 ---
 
 But that is an old story, and today is a day for new ones. The king is dead. Long live the king.
 
-I found De Lannoy in the chapel, as I knew I would. He knelt before the small altar he had built decades ago, his white hair falling past his shoulders, his lips moving in prayers I could not hear. Catholic prayers, spoken in Latin, in a Hindu kingdom where he had lived longer than he had ever lived in Europe. The contradictions of his life were written in that small room - the cross above the altar, the oil lamp burning in the corner, the Malayalam inscriptions on the walls.
+I found De Lannoy in the chapel, as I knew I would. He knelt before the small altar he had built years ago, his fair hair now threaded with grey, his lips moving in prayers I could not hear. Catholic prayers, spoken in Latin, in a Hindu kingdom where he had lived longer than he had ever lived in Europe. The contradictions of his life were written in that small room - the cross above the altar, the oil lamp burning in the corner, the Malayalam inscriptions on the walls.
 
-I waited until he crossed himself and rose. His joints creaked with the effort; he was seventy-two years old, and the years had not been gentle.
+I waited until he crossed himself and rose. He moved slower than he once had, as if each motion had to be agreed with by old injuries. He was forty-three years old, and the years had not been gentle.
 
-"You heard the guns," he said. It was not a question.
+I had learned to wait in this chapel, though the prayers were never mine. The Lutheran boy who had hated Catholics - hated this Catholic in particular, this Frenchman who had sold his sword to heathens - that boy was gone. In his place stood a man who no longer knew what to believe. De Lannoy had kept his faith. I had lost mine somewhere between Colachel and here.
+
+"You heard the guns," he said, flat.
 
 "All of Travancore heard the guns."
 
@@ -38,7 +42,15 @@ I waited until he crossed himself and rose. His joints creaked with the effort; 
 
 "And yet?"
 
-"And yet he built something. Something that will outlast all of us." De Lannoy turned to face me. His eyes, pale blue faded almost to grey, held mine. "That is what matters in the end, Pieter. Not whether we were good or kind or merciful. Whether we built something that endures."
+"And yet he built something. Something that will outlast all of us." De Lannoy turned to face me. His eyes, pale blue faded almost to grey, held mine. "Do you know what he said when I married Margaret? When the English Company's factor at Anchuthengu called her a native's whore and refused to trade with a man who had 'gone local'?"
+
+I shook my head. I had heard rumours, but never the story from De Lannoy himself.
+
+"He wanted to burn the factory. March north with two thousand men and teach the English Company's factor at Anchuthengu what it meant to insult his officer's wife." De Lannoy's voice was soft, almost wondering. "His ministers talked him down. Barely. But he would have done it, Pieter. He would have started a war with the English for my honour." He paused. "What king does that for a foreign mercenary?"
+
+"One who understood loyalty."
+
+"One who understood that his officers were his. Not Dutch, not Portuguese, not Flemish. His." De Lannoy looked back at the window. "That is what matters in the end. Not whether we were good or kind or merciful. Whether we built something that endures. Whether we made men believe they belonged to something worth dying for."
 
 I thought about that. I was thirty-three years old, no longer young, not yet old. I had a wife and three children. I had a rank and a purpose. I had a life in this strange green land that was nothing like the life I had imagined when I was a boy in Batavia.
 
@@ -50,7 +62,9 @@ I thought about that. I was thirty-three years old, no longer young, not yet old
 
 The coronation came a week later.
 
-I watched from the edges of the crowd, one more soldier in a sea of soldiers, as Karthika Thirunal Rama Varma was crowned Dharma Raja of Travancore. The ceremonies were elaborate, ancient, conducted by priests who chanted in Sanskrit while elephants swayed and drums thundered and the nobility of the kingdom prostrated themselves before their new master.
+I spent the morning inspecting the ceremonial battery - twelve guns that would fire the royal salute. A young gunner had packed the charges too tight, and I made him redo them twice until the powder sat right. He looked at me with resentment, but he would thank me later. A misfire during a coronation salute was the kind of mistake that ended careers.
+
+When the ceremony began, I watched from the edges of the crowd, one more soldier in a sea of soldiers, as Karthika Thirunal Rama Varma was crowned Dharma Raja of Travancore. The ceremonies were elaborate, ancient, conducted by priests who chanted in Sanskrit while elephants swayed and drums thundered and the nobility of the kingdom prostrated themselves before their new master.
 
 He was younger than I expected - perhaps thirty, with a scholar's soft hands and a contemplative expression that seemed out of place amid all the martial splendor. When he spoke, his voice was quiet, almost gentle. He spoke of dharma, of righteousness, of the duty a king owes to his people. He did not speak of war or conquest or the enemies who ringed Travancore on every side.
 
@@ -70,7 +84,7 @@ That night, I returned to my quarters in the fort and found my wife waiting for 
 
 Lakshmi was Nair, from a family that had served Travancore for generations. We had been married for twelve years, against the wishes of her family and the raised eyebrows of the Dutch community that no longer existed. She had given me three children - two boys and a girl - and she had given me something more valuable than children: a reason to stay.
 
-"You have been with De Lannoy," she said. It was not a question. She always knew.
+"You have been with De Lannoy," she said. She always knew.
 
 "The king is dead. We were... remembering."
 
@@ -80,7 +94,7 @@ Lakshmi was Nair, from a family that had served Travancore for generations. We h
 
 "You are not Travancorean either." Her voice was gentle, not accusing. We had had this conversation many times, in many forms. "You are something in between. Like our children."
 
-I looked toward the room where the children slept. Willem, the eldest, was eleven now - old enough to begin training, old enough to ask questions about his father's past that I did not know how to answer. Anna was eight, with her mother's dark eyes and her father's restless curiosity. Little Thomaswas five, too young to understand anything except that his father sometimes looked sad for reasons he could not explain.
+I looked toward the room where the children slept. Willem, the eldest, was eleven now - old enough to begin training, old enough to ask questions about his father's past that made my mouth go dry. Anna was eight, with her mother's dark eyes and her father's restless curiosity. Little Thomas was five, too young to understand anything except that his father sometimes looked sad for reasons he could not explain.
 
 "What will happen to them?" I asked. "When we are gone, when De Lannoy is gone, when there is no one left who remembers what we were?"
 

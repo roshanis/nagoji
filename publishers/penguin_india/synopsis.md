@@ -80,7 +80,7 @@ The battle of Colachel shatters Dutch power, introduces De Lannoy as a prisoner 
 
 Nagoji chooses to stay in Travancore, rises to command cavalry under De Lannoy, faces internal and external crises that force him to hurt people he loves, breaks an old border house tied to Revathi, and ends as an older general who knows exactly what his kingdom has cost.
 
-- **Chapter 22: Command of the Marches** - After a *chevar* assassination attempt at a temple, the king offers Nagoji a permanent cavalry command on the northern marches. He accepts, formally placing his sword in Travancore service.
+- **Chapter 22: Command of the Marches** - After a *chaver* assassination attempt at a temple, the king offers Nagoji a permanent cavalry command on the northern marches. He accepts, formally placing his sword in Travancore service.
 
 - **Chapter 23: First Campaign for the Tiger** - Nagoji leads cavalry against Kollamkara, a Dutch-backed chief. He forces his cavalry to act as hammer to De Lannoy's infantry anvil, fighting near Padmini Amma's estates and proving the new army's worth.
 

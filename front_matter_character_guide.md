@@ -18,7 +18,7 @@ This guide is here so you can keep houses, titles, and foreign powers straight o
 
 ## Dutch and European Soldiers
 
-*   **Eustachius De Lannoy (historical):** A Dutch officer whose defeat becomes the beginning of a new role in Travancore’s army.
+*   **Eustachius De Lannoy (historical):** A Dutch officer who crossed over during the Colachel campaign and rose to become the kingdom’s senior European commander.
 *   **Karl August (composite):** A European deserter and drill expert, used in the novel as a bridge between company discipline and local war.
 
 ## Other Colonial Powers
@@ -34,7 +34,7 @@ This guide is here so you can keep houses, titles, and foreign powers straight o
 *   **The Nawab of Arcot (historical office):** A Carnatic ruler whose cavalry and politics tug at Travancore’s southern frontier.
 *   **Chanda Sahib (historical):** A Carnatic contender whose pressure helps trigger the Dutch crisis.
 *   **Kottarakkara and the Elayadathu line (historical polity):** A northern succession house used by rivals and foreign companies as leverage against Travancore.
-*   **Kayamkulam, Desinganad, Purakkad, Thekkumkur, Vadakkumkur (historical polities):** Smaller kingdoms and principalities drawn into alliances against a rising Travancore.
+*   **Kayamkulam, Desinganadu, Purakkad, Thekkumkur, Vadakkumkur (historical polities):** Smaller kingdoms and principalities drawn into alliances against a rising Travancore.
 
 ## Key Fictional and Composite Characters (This Novel)
 
@@ -45,4 +45,3 @@ This guide is here so you can keep houses, titles, and foreign powers straight o
 *   **Revathi Bayi (fictional):** A princess of Velinadu, sharp minded and dangerous to love.
 *   **Dhanaji (fictional):** A Deccan man in exile, carrying his own loyalties and grief into Travancore’s wars.
 *   **Savitri of Kottarakkara (fictional):** A single face for a broader succession struggle at the kingdom’s northern edge.
-
