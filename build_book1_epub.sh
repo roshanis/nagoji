@@ -12,17 +12,17 @@ COVER_IMAGE="images/cover.jpg"
 echo "Building $OUTPUT_FILE..."
 
 # Concatenate files in specific order with a blank line between files.
-# Note: finished_book1/*.md relies on shell expansion to sort alphabetically, which is standard.
+# Note: book1_horse_servant/book*_chapter*.md relies on shell expansion to sort alphabetically, which is standard.
 awk 'FNR==1 && NR!=1 {print ""} {print}' \
     title_page.md \
     dedication.md \
     front_matter_publication_notes.md \
-    front_matter_foreword.md \
-    front_matter_prequel.md \
-    front_matter_character_guide.md \
-    finished_book1/*.md \
+    book1_horse_servant/front_matter_foreword.md \
+    book1_horse_servant/front_matter_prequel.md \
+    book1_horse_servant/front_matter_character_guide.md \
+    book1_horse_servant/book*_chapter*.md \
     Author_Historical_Note_nagoji.md \
-    glossary.md \
+    book1_horse_servant/glossary.md \
     front_matter_about_author.md \
     > "$MANUSCRIPT_FILE"
 

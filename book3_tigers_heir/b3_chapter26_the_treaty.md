@@ -151,7 +151,7 @@ Sepoys watched, faces unreadable.
 
 Indian allies took what pay they could and tried to keep their anger quiet.
 
-Captain Blackwood walked through the camp with a ledger in his hand and a grin on his face.
+Captain Blackwood walked through the camp with an account book in his hand and a grin on his face.
 
 He spoke to a supplier, then to a quartermaster, then to a clerk.
 

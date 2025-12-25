@@ -48,6 +48,24 @@ He chose otherwise. History does not record that he lost sleep over it.
 
 ---
 
+## The Walls {.unlisted}
+
+Marthanda Varma was a builder of walls.
+
+Before he could face the Dutch at Colachel, he had to secure his landward flanks. To the southeast, through the passes at Aramboli and Shenkottai, came annual raids from Madurai and the Carnatic. Chanda Sahib's cavalry descended each dry season, demanding tribute, burning villages, testing Travancore's defenses. The king responded with earthworks and ditches at Aramboli, scarring the land with fortifications that turned mountain passes into killing grounds.
+
+These were not vanity projects. They were survival.
+
+A king who builds walls sends a message: I am not here to negotiate from weakness. The Dutch understood this. When Van Imhoff sailed down the coast in 1739 and saw Travancore's new fortifications, he knew he was not dealing with a petty chieftain who could be bullied into signing unfavorable contracts. He was dealing with a state.
+
+The philosophy of fortification that Marthanda Varma established would outlast him. After his death, when Mysore's armies began pressing from the north, his successor Dharma Raja would extend the same logic into the great Nedumkotta, the Travancore Lines: fifty-six kilometers of wall, ditch, and bastion stretching from the coast to the mountains. De Lannoy designed them. Travancore's mixed army of Nairs, Marakkars, and European-trained gunners manned them.
+
+The walls held. Hyder Ali broke against them. Tipu Sultan raged against them. The kingdom survived.
+
+That survival began with Marthanda Varma's understanding that pepper and prayers were not enough. You needed stone, earth, and the will to use them.
+
+---
+
 ## The European Context {.unlisted}
 
 To understand eighteenth-century Malabar, you must understand eighteenth-century Europe.
@@ -70,7 +88,7 @@ Its officer corps included Germans, men from the Low Countries, French Huguenots
 
 This diversity was the Company's strength and its weakness. It could recruit soldiers from anywhere. But those soldiers had no particular loyalty to the Company beyond their pay. When the pay stopped or the cause seemed lost, they deserted, defected, or simply walked away.
 
-De Lannoy was one such man. Born in Arras, trained in the Low Countries, shipped to Ceylon, and then, during the Colachel campaign, crossing the lines at Kanyakumari to enter Travancore service, he made a choice that the Company's ledgers could not have predicted. He stayed. He built. He died as the Valiya Kappittan of Travancore, buried in a chapel he constructed with his own money.
+De Lannoy was one such man. Born in Arras, trained in the Low Countries, shipped to Sri Lanka (Ceylon), he fought at Colachel until the fort burned around him. When the garrison surrendered, he was offered a choice: rot in a cell waiting for a ransom that might never come, or serve the king who had defeated him. He chose to serve. He stayed. He built. He died as the Valiya Kappittan of Travancore, buried in a chapel he constructed with his own money.
 
 The companies brought their conflicts to India. But India absorbed them, transformed them, and made them serve purposes the directors in Amsterdam and London never imagined.
 

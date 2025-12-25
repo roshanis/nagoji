@@ -97,7 +97,7 @@ Blood and Thrones series, Part 1: Marthanda Varma
 
 ### Chapter 7: Horses in Wet Sand
 
-- Nagoji is ordered to assess Travancore's cavalry, including Nair horsemen and a hired regiment from the Nawab of Arcot.  
+- Nagoji is ordered to assess Travancore's cavalry, including Nair horsemen and a hired regiment from the Nayak of Madurai.  
 - Early training scenes go badly; wet sand and unfamiliar horses make Deccan drills fail, and local captains resent an outsider giving orders.  
 - Nagoji adapts, watching how local riders move, mixing Maratha tactics with regional realities. Over months of drilling, he earns a grudging nod from local Nair officers, beginning his integration into the state's growing machine.
 
@@ -124,17 +124,18 @@ Blood and Thrones series, Part 1: Marthanda Varma
 
 ### Chapter 11: Dutch on the Horizon
 
-- From coastal watch posts and small craft, Ibrahim and other seafarers bring word of Dutch ships manoeuvring offshore under the command of a hard drilling European officer Nagoji does not yet see.  
-- In the war hall Nagoji and Ramayyan study maps and reports, Nagoji offering cavalry ideas while the king and his diwan weigh how far they can push the Dutch before open war.  
-- We hear De Lannoy's name for the first time only as a rumour attached to Dutch discipline, a shadow on the sea rather than a presence in the court.  
-- The chapter ends with Nagoji watching lanterns move on distant masts at night, knowing that somewhere out there is a commander he will one day have to face, though he would not yet recognise the man.
+- A watch boy spots Dutch ships probing the coast and mentions the pale, hard-drilling officer on deck, the first time Nagoji hears De Lannoy’s name as a sound on the wind.  
+- In the war hall Nagoji, Varma, and Ramayyan study maps and reports, weighing how far they can push the company without giving it a clean excuse for open war.  
+- Van Imhoff’s earlier night meeting is recalled: the eight-kalanju insult, the *hiranyagarbha* stakes, and the Perumal claim that makes small kings nervous.  
+- Court scene follows: Dutch envoys test alliances, Revathi speaks Portuguese like a blade, Kottarakkara is named as a lever, and Karl August’s intelligence exposes Dutch weakness at the camps.  
+- The chapter ends with Nagoji riding the coast at dusk, first glimpsing De Lannoy through a spyglass as a distant stance on a Dutch deck.
 
-### Chapter 12: Threads of Alliance
+### Chapter 12: The Shadow from Arcot
 
-- Court scene in which Dutch envoys, local chieftains, temple authorities, and Marakkar captains all jostle for influence.  
-- Nagoji watches who speaks, who is silent, who whispers to whom. Padmini Amma maneuvers with understated skill, Ramayyan steers outcomes with small, quiet interventions, and Revathi Bayi watches with a princess's cool detachment.  
-- Nagoji begins to understand that he is not simply training horsemen; he is a piece on a board that stretches from Goa to Batavia.  
-- The chapter closes with Ramayyan warning Nagoji, politely, that every favour has a price in Travancore.
+- Chanda Sahib’s raids through Shenkottai and his tribute demands are framed as the shadow that has kept Travancore bleeding coin for years.  
+- Nagoji rides in skirmishes against that pressure, learning how different the ghats and passes fight from beach and paddy. Dhanaji stays at his flank, blunt and loyal.  
+- News arrives that the Marathas have taken Tiruchirappalli and captured Chanda Sahib, giving Travancore a sudden breathing space.  
+- Varma and Ramayyan seize the window, turning their full attention to the Dutch and the coming landing.
 
 ### Chapter 13: The Eve of Colachel
 
@@ -158,6 +159,7 @@ Blood and Thrones series, Part 1: Marthanda Varma
 
 - Dutch prisoners are processed and evaluated. Some are to be ransomed, some exchanged, some potentially recruited.  
 - De Lannoy is questioned by Marthanda Varma and Ramayyan in a scene that mirrors Nagoji's own first interrogation in Goa, but with crucial differences in tone and purpose.  
+- After the surrender, Nagoji rides hard to block fresh Dutch men slipping out of Kanyakumari and drives them back without letting the chase run into Dutch guns and prepared ground.  
 - Nagoji watches, recognising in De Lannoy another man who may be turned into a weapon for a different crown.  
 - The chapter ends with De Lannoy accepting Travancore service under strict conditions, while Nagoji feels his own position shift from unique outsider to one foreigner among several.
 
@@ -248,7 +250,7 @@ Blood and Thrones series, Part 1: Marthanda Varma
 - Kottarakkara, the last independent house, is absorbed. Princess Savitri claims succession; Marthanda Varma refuses.
 - Nagoji meets Savitri and measures her as a worthy adversary with legitimate grievances.
 - The battle at Kottarakkara is ugly, fought on temple land and house land, against an enemy who is not wrong.
-- Savitri is captured and exiled to Cochin. The chapter ends with Nagoji watching her led away.
+- Savitri is captured and exiled to Kochi. The chapter ends with Nagoji watching her led away.
 
 ### Chapter 28: Servant of Padmanabha
 

@@ -52,7 +52,7 @@ One ship loomed closer than the rest, her hull black and high, her stern built u
 
 “To Angola,” someone whispered behind me. “Africa.”
 
-“Not this one,” said another voice, older and bitter. “The Jesuits need bodies for their lands to the south. Some place beyond Ceylon. They will work us until we forget our own names.”
+“Not this one,” said another voice, older and bitter. “The Jesuits need bodies for their lands to the south. Some place beyond Sri Lanka. They will work us until we forget our own names.”
 
 João tugged at our chain. “Faster,” he grunted. “The tide waits for no man. Not even maratas.”
 

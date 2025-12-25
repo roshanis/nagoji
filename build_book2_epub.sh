@@ -46,7 +46,7 @@ awk 'FNR==1 && NR!=1 {print ""} {print}' \
   book2_dutchmans_son/b2_chapter31_the_companys_price.md \
   book2_dutchmans_son/b2_chapter32_the_tiger_dies.md \
   book2_dutchmans_son/b2_epilogue_the_torch_passes.md \
-  glossary.md \
+  book1_horse_servant/glossary.md \
   front_matter_about_author.md \
   > "$MANUSCRIPT_FILE"
 

@@ -6,7 +6,7 @@ On one coast, the Portuguese still rang their church bells over Goa and flew the
 
 Then the Maratha hand closed.
 
-In Pune, Baji Rao, the Peshwa, sent orders like arrows. His younger brother Chimaji Appa carried those orders to the coast and made them personal. Chimaji was not a man who loved speeches. He loved ledgers of powder and lists of captured guns, the slow certainty of siege lines tightening. But he understood something about the Portuguese that many inland men missed. They were not unbeatable because they were white or Christian. They were dangerous because they had fort walls, cannon, and the patience of men who believed time itself worked for them.
+In Pune, Baji Rao, the Peshwa, sent orders like arrows. His younger brother Chimaji Appa carried those orders to the coast and made them personal. Chimaji was not a man who loved speeches. He loved tallies of powder and lists of captured guns, the slow certainty of siege lines tightening. But he understood something about the Portuguese that many inland men missed. They were not unbeatable because they were white or Christian. They were dangerous because they had fort walls, cannon, and the patience of men who believed time itself worked for them.
 
 So Chimaji vowed that time would not save them.
 
@@ -20,7 +20,7 @@ The Portuguese fought like men defending a house they had stolen and made their 
 
 We broke forts instead.
 
-At Bassein, the Portuguese fortress that watched the sea like an old predator, I saw a wall tremble under our guns. I saw men climb into smoke with ladders shaking in their hands. I saw my black mare Kanka take a ball through the chest and fold as if the ground had suddenly gone soft beneath her. In the roar and confusion, in the stink of powder and blood, I understood that campaigns turn into legends because the men who live through them need something to hold onto when the dead begin to outnumber the living.
+At Vasai (Bassein), the Portuguese fortress that watched the sea like an old predator, I saw a wall tremble under our guns. I saw men climb into smoke with ladders shaking in their hands. I saw my black mare Kanka take a ball through the chest and fold as if the ground had suddenly gone soft beneath her. In the roar and confusion, in the stink of powder and blood, I understood that campaigns turn into legends because the men who live through them need something to hold onto when the dead begin to outnumber the living.
 
 In those months, we spoke as if Konkan was the whole world. We spoke as if Chimaji Appa’s war was the only war that mattered.
 
@@ -40,7 +40,7 @@ Small kingdoms and chiefdoms that had spent generations balancing each other sud
 
 So the Dutch played the coast like a stringed instrument.
 
-Cochin, long a pivot between European powers, watched with alarm. The Samudri, the Zamorin of Calicut, understood that a king who grew too strong in the south would eventually pull at the north as well. Principalities nursed grievances and old succession disputes like infected wounds. Dutch agents offered arms and ammunition, offered promises, offered the thin comfort of European umbrellas. Alliances formed, not out of love, but out of fear.
+Kochi (Cochin), long a pivot between European powers, watched with alarm. The Samudri, the Zamorin of Kozhikode (Calicut), understood that a king who grew too strong in the south would eventually pull at the north as well. Principalities nursed grievances and old succession disputes like infected wounds. Dutch agents offered arms and ammunition, offered promises, offered the thin comfort of European umbrellas. Alliances formed, not out of love, but out of fear.
 
 Inside Venad, Marthanda Varma prepared anyway. He had something most of his rivals lacked, a minister who could see past today’s feud to tomorrow’s war. Ramayyan Dalawa was not a man who shouted on battlefields. He was a man who counted, who read letters in multiple tongues, who understood that pepper is not just spice but power. Under his guidance, the king gathered guns, trained men, and made a state that could endure beyond one season’s victory.
 

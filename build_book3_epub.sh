@@ -46,7 +46,7 @@ awk 'FNR==1 && NR!=1 {print ""} {print}' \
   book3_tigers_heir/b3_chapter31_the_reckoning.md \
   book3_tigers_heir/b3_chapter32_what_we_carry.md \
   book3_tigers_heir/b3_epilogue_monsoon.md \
-  glossary.md \
+  book1_horse_servant/glossary.md \
   front_matter_about_author.md \
   > "$MANUSCRIPT_FILE"
 

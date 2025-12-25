@@ -40,7 +40,7 @@ I was led through corridors where carved pillars loomed like dark trees. Painted
 
 At the end of the corridor a curtain lifted, and I was shown into a room that was not large but felt heavy with power.
 
-Raja Kesavadas sat on a low seat with a writing board beside him. He was not dressed like a warrior. His cloth was plain, his jewellery minimal. He looked like a man who had stepped out of a ledger and learned to breathe.
+Raja Kesavadas sat on a low seat with a writing board beside him. He was not dressed like a warrior. His cloth was plain, his jewellery minimal. He looked like a man who had stepped out of an account book and learned to breathe.
 
 His eyes were the dangerous part. They did not rest. They assessed.
 
@@ -302,4 +302,3 @@ I realised, with a chill that had nothing to do with the palace's cool stone, th
 I had been captured once with ropes.
 
 Now I was being held with work.
-

@@ -133,6 +133,7 @@ The pepper fields smelled nothing like home.
 - **Modern, vivid English**: avoid archaic constructions ("'twas," "methinks")
 - **Punctuation**: avoid em-dashes; prefer commas, semicolons, colons, or periods
 - **Foreign terms**: Malayalam, Persian, Marathi words when appropriate (italicized, translated)
+- **Place names**: prefer contemporary Indian names over colonial forms (Kollam not Quilon, Kochi not Cochin, Kanniyakumari not Cape Comorin, Thiruvananthapuram not Trivandrum). If a colonial name is required for clarity, introduce it once in parentheses, then use the modern name thereafter.
 - **Spelling**: consistent British or neutral international English within each file
 
 ### Rhythm & Pacing
@@ -588,4 +589,3 @@ Write as if William Dalrymple is reading over your shoulder, but remember: you'r
 Make every page unforgettable. Make every battle visceral. Make every character matter. Make readers unable to put this book down.
 
 That's the standard. Meet it.
-

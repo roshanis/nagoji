@@ -1,6 +1,6 @@
 # Chapter 25: Ramayyan's Test
 
-The summons came on a day that smelled of ink and rain.
+The ola came on a day that smelled of ink and rain.
 
 I had spent the morning on the marches, watching a new patrol route settle into the feet of my horsemen. By afternoon, clouds rolled in from the west, blurring the line of the hills. By the time I reached the fort, my clothes were damp and my temper short.
 
@@ -35,9 +35,9 @@ My own name sat near the top.
 Nagoji Sawant,  
 Who rode once under our banners and now rides for a southern king.
 
-“From Pune,” I said softly.
+"From Raghuji Bhonsle's camp," I said softly. The Bhonsle of Nagpur, whose men had dragged Chanda Sahib in chains from Tiruchirappalli.
 
-“From a camp near it,” Ramayyan said. “Carried by a trader who thought he was being clever and by a spy who was cleverer.”
+"From one of his sardars," Ramayyan said. "Carried by a trader who thought he was being clever and by a spy who was cleverer."
 
 I read.
 
@@ -49,7 +49,7 @@ You have seen their methods now. You know their weaknesses and their strengths. 
 
 Our masters plan.
 
-The northern storms will soon settle; attention will turn to lands that have grown fat while we fought elsewhere. The Peshwa and his sardars speak of pepper and ports and of not letting any small ruler think he can stand alone when the confederacy stretches its hand.
+Chanda Sahib rots in our chains, but his capture has only sharpened our appetite for the Carnatic. The Bhonsle speaks of pepper and ports and of not letting any coastal ruler think he can stand apart when our banners move south again.
 
 If you return now, with what you have learned, you will not come back as a simple cavalry officer. You will have estates confirmed, your family freed from certain levies, your advice heard. You could help guide our charge south so that we do not waste men as company fools did at Colachel.
 
@@ -61,7 +61,7 @@ For now, tell us what you know.
 
 He did not sign his name, but the tone told me who had written it.
 
-A sardar I had ridden under in the Konkan, a man who had once clapped me on the shoulder after a well judged raid and said, “You see further than I do, Nagoji. One day that will get you killed or much land.”
+A sardar I had ridden under briefly in the Carnatic campaigns before my troubles began, a man who had once clapped me on the shoulder after a skirmish and said, "You see further than I do, Nagoji. One day that will get you killed or much land."
 
 Here he was, offering the latter and implying the former.
 
@@ -87,7 +87,7 @@ He leaned back, hands resting lightly on his knees.
 
 “Yes,” he said. “I could have had the messenger arrested, the letter intercepted, and never told you. Instead, I show you. Ask yourself why.”
 
-“You want to see what I do,” I said. “You want to move me from the 'risk' line in your ledger to the 'asset' one or the other way around.”
+“You want to see what I do,” I said. “You want to move me from the 'risk' column in your books to the 'asset' one, one way or the other.”
 
 He did not pretend otherwise.
 
@@ -193,7 +193,7 @@ He nodded.
  
  We watched them burn until the ash fell onto the stone floor.
  
-“I have no advice for Pune,” I said. “My sword is here. My words stay here.”
+"I have no advice for the Bhonsle's men," I said. "My sword is here. My words stay here."
  
  Ramayyan watched the last spark die. Then, for the first time in all the years I had known him, he smiled. A true smile, not a baring of teeth.
 
@@ -211,7 +211,7 @@ Is ours.
 
 He did not hide it from me.
 
-“You keep this in your ledger,” I said.
+“You keep this in your records,” I said.
 
 “I keep it in mine,” he said. “You keep it in your bones.”
 
@@ -341,7 +341,7 @@ Ramayyan's test had not been whether I loved my hills more than this coast. It h
 
 I had chosen.
 
-The ledger had been updated.
+The entry had been made.
 
 The storm that would test those lines had not yet arrived.
 

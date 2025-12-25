@@ -820,11 +820,11 @@ He looked at me, expression flat. "Then you do not know how many shots you can f
 
 He set the scoop down.
 
-"A fortress is not walls," he said. "A fortress is logistics. It is rice, it is water, it is saltpetre and sulphur. A man who commands guns must command ledgers too. Do you understand?"
+"A fortress is not walls," he said. "A fortress is logistics. It is rice, it is water, it is saltpetre and sulphur. A man who commands guns must command accounts too. Do you understand?"
 
 I did, in a way that made my stomach tighten.
 
-My father had been a Company trader. He had spoken of ledgers with boredom. I had thought war was separate from that world.
+My father had been a Company trader. He had spoken of accounts with boredom. I had thought war was separate from that world.
 
 De Lannoy was telling me the opposite. That war was accounting written in blood.
 
@@ -933,7 +933,6 @@ As I left his room, the smell of powder still in my nose, I realised I had not t
 I had thought about angles.
 
 That was the most frightening transformation of all.
-
 
 # Chapter 5: Lakshmi
 
@@ -2915,7 +2914,7 @@ I was led through corridors where carved pillars loomed like dark trees. Painted
 
 At the end of the corridor a curtain lifted, and I was shown into a room that was not large but felt heavy with power.
 
-Raja Kesavadas sat on a low seat with a writing board beside him. He was not dressed like a warrior. His cloth was plain, his jewellery minimal. He looked like a man who had stepped out of a ledger and learned to breathe.
+Raja Kesavadas sat on a low seat with a writing board beside him. He was not dressed like a warrior. His cloth was plain, his jewellery minimal. He looked like a man who had stepped out of an account book and learned to breathe.
 
 His eyes were the dangerous part. They did not rest. They assessed.
 
@@ -3177,7 +3176,6 @@ I realised, with a chill that had nothing to do with the palace's cool stone, th
 I had been captured once with ropes.
 
 Now I was being held with work.
-
 
 # Chapter 13: Caspar's Fire
 
@@ -3652,7 +3650,7 @@ In Travancore I learned that war could be measured the same way.
 
 Not in battles.
 
-In ledgers.
+In account books.
 
 Ramayyan had turned Mavelikara into a counting house for a kingdom, and the lesson had spread. Pepper was no longer only spice. It was lead, wages, and walls.
 
@@ -3766,7 +3764,7 @@ Protection.
 
 The word tasted rotten to me.
 
-I had grown up under a Company too. I knew what protection meant when a ledger was involved.
+I had grown up under a Company too. I knew what protection meant when the books were involved.
 
 Kesavadas nodded slowly.
 
@@ -3938,7 +3936,7 @@ I told him yes.
 
 He asked what it would cost.
 
-I told him, honestly, that the cost would not fit in a ledger.
+I told him, honestly, that the cost would not fit in any column.
 
 Hendrik stared at me as if I had spoken nonsense.
 
@@ -4303,7 +4301,7 @@ Infantry drill. Volley rhythm. Bayonet work.
 Rocket teams. Ten men. Aim for neatness.
 Cavalry wheel and strike.
 
-I wrote it in Dutch, because Dutch was the language of my old Company's ledgers, and I could not stop myself from treating enemy doctrine like an inventory.
+I wrote it in Dutch, because Dutch was the language of my old Company's account books, and I could not stop myself from treating enemy doctrine like an inventory.
 
 When I finished, I sat in the dark shed and listened to the fort settle into night.
 
@@ -5490,7 +5488,7 @@ That relentlessness was the true wall.
 
 Raja Kesavadas met me at a temporary camp, a cluster of palm-leaf shelters and canvas tents raised on slightly higher ground to avoid the worst of the water.
 
-He looked out over the cleared line with a face that belonged on a ledger. Calm. Assessing. Unimpressed by romance.
+He looked out over the cleared line with a face made for columns. Calm. Assessing. Unimpressed by romance.
 
 "De Lannoy cannot ride this far now," he said by way of greeting.
 
@@ -6660,7 +6658,7 @@ De Lannoy's gaze flicked toward his son.
 
 "Pay the men," he said.
 
-He looked at Kesavadas' clerk standing near the door, as if he knew the clerk would carry these words into ledgers.
+He looked at Kesavadas' clerk standing near the door, as if he knew the clerk would carry these words into the books.
 
 "Pay them on time," he repeated. "A hungry gunner is a traitor waiting."
 
@@ -9112,7 +9110,7 @@ Pepper weighed.
 Powder bought.
 Obligations written.
 
-The ledger was growing heavier than the gun.
+The paper was growing heavier than the gun.
 
 And it did not even pretend to be honest.
 
@@ -9532,6 +9530,7 @@ The rest is detail.
 *   **Maharaja:** Great King. The ruler of Travancore.
 *   **Kulasekhara Perumal:** A title carrying a claim of sovereignty over all Malabar and Kerala, not merely Venad or Travancore.
 *   **Dalawa:** Prime Minister and chief administrator.
+*   **Nayak:** A military and royal title used in parts of South India. In this novel, the Nayak of Madurai is a southern power whose horsemen are sometimes hired into Travancore service.
 *   **Rani:** Queen or Princess. In the matrilineal system, the Senior Rani is the queen-mother or eldest female of the royal house, not the King's wife.
 *   **Valiyamma:** “Big Mother” or respected aunt/elder woman. Used as a term of high respect.
 *   **Ettuveetil Pillamar:** “Lords of the Eight Houses.” Powerful Nair nobles who controlled land and temple revenues and opposed the King's authority.
@@ -9541,9 +9540,10 @@ The rest is detail.
 *   **Venattu Kappittan:** “Captain of Venad.” A title granted to De Lannoy in Travancore service.
 *   **Cheriya Kappittan:** “Small Captain.” Nickname used for a young officer serving under the Great Captain.
 *   **Marakkar:** Powerful Muslim merchant clan dominating coastal trade and naval warfare.
-*   **Samudri (Zamorin):** “Lord of the Sea.” The hereditary ruler of Calicut (Kozhikode), one of the most powerful kingdoms on the Malabar coast and a traditional rival of Travancore.
+*   **Samudri (Zamorin):** “Lord of the Sea.” The hereditary ruler of Kozhikode (Calicut), one of the most powerful kingdoms on the Malabar coast and a traditional rival of Travancore.
 *   **Sowcar:** A merchant or moneylender, often part of an extended Gujarati banking network.
 *   **Bhau:** Brother (Konkani/Marathi). A term of familiarity.
+*   **Huzurat:** “Presence” or “court.” In Maratha usage, *huzurat* cavalry were the commander’s household horse, trusted riders kept close to command.
 *   **Chanda Sahib:** Nawab claimant from the Carnatic/Madurai sphere whose pressure from the south forces Travancore to fight on another front just before Colachel.
 *   **Factor:** A European trading company's agent stationed at a coastal post or factory. Dutch and Portuguese factors negotiated prices, gathered pepper and other goods, managed warehouses, and reported local politics to their superiors. They often acted as informal diplomats, cultivating relationships with local chiefs.
 
@@ -9558,6 +9558,7 @@ The rest is detail.
 *   **Sri Pandaravaka:** “Steward of Sri Padmanabha.” The king’s political and ceremonial role after Thrippadidanam, ruling as the deity’s servant.
 
 ## Objects and Places
+*   **Ola:** A palm leaf used for writing messages, records, and official correspondence. In Kerala and South India, dried and treated palm leaves served as paper, inscribed with a stylus and often sealed with wax for important communications.
 *   **Angavastram:** Upper-body cloth worn over the shoulder, typically as part of formal or ceremonial dress.
 *   **Gopuram:** Ornate, towering gateway at the entrance of a South Indian temple.
 *   **Mandapa:** Pillared hall or pavilion, often found in temple complexes.
@@ -9566,7 +9567,7 @@ The rest is detail.
 *   **Sarpa Kavu:** A sacred serpent grove.
 *   **Tharavadu:** The ancestral home and joint family of a Nair lineage.
 *   **Konkan:** The western coastal belt between the Deccan and the sea, north of Goa, where Marathas and Portuguese fought over forts and ports.
-*   **Bassein (Vasai):** A major Portuguese fortress north of Bombay, captured by the Marathas in Chimaji Appa’s campaign.
+*   **Vasai (Bassein):** A major Portuguese fortress north of Mumbai (Bombay), captured by the Marathas in Chimaji Appa’s campaign.
 *   **Janjira:** The island fortress and seat of the Siddis, a feared naval power on the Konkan coast.
 *   **Colachel:** A coastal town and beachhead where Travancore defeated the Dutch in 1741.
 *   **Kottar:** A southern frontier town near the tip of the peninsula, contested during the Dutch and local wars.
@@ -9595,15 +9596,15 @@ The rest is detail.
 *   **Kottarakkara:** A northern principality and court on Travancore’s fringe, central to the Elayadathu succession dispute in the novel.
 *   **Elayadathu Swaroopam:** The matrilineal royal house associated with Kottarakkara, used by outside powers as a lever against Travancore.
 *   **Kayamkulam:** A neighbouring principality absorbed during Travancore’s consolidation.
-*   **Desinganadu:** A principality centred around Quilon (Kollam), caught between Dutch influence and Travancore expansion.
+*   **Desinganadu:** A principality centred around Kollam (Quilon), caught between Dutch influence and Travancore expansion.
 *   **Purakkad:** A small coastal principality involved in the shifting alliances of the Malabar pepper coast.
 *   **Thekkumkur:** A northern Kerala principality later annexed by Travancore.
 *   **Vadakkumkur:** A northern Kerala principality, often paired with Thekkumkur, later annexed by Travancore.
-*   **Cochin:** A Malabar coast kingdom and port city, long contested by European powers and a key Dutch base after the Portuguese.
-*   **Arcot (Carnatic):** A south-eastern nawabate whose cavalry and politics press on Travancore, shaped by British and French rivalry.
+*   **Kochi (Cochin):** A Malabar coast kingdom and port city, long contested by European powers and a key Dutch base after the Portuguese.
+*   **Arcot (Carnatic):** A Carnatic nawabate and city shaped by British and French rivalry, a name that becomes prominent in the later wars.
 *   **Mysore:** An inland kingdom to the north and east, rising as a long-term threat on Travancore’s map.
 *   **Hyderabad (Nizam):** A major Deccan power to the north-east, feared for its armies and shifting alliances.
-*   **Madurai:** A Tamil political centre and regional power sphere referenced in the novel’s southern frontier pressures.
+*   **Madurai:** A Tamil political centre and regional power sphere, tied to Nayak-era claims and frontier pressures in the novel.
 
 ## Historical Concepts
 *   **Thrippadidanam:** The “Grand Offering” or “Surrender to the Feet.” The historical event in 1750 where Marthanda Varma surrendered his kingdom to the deity Sri Padmanabhaswamy.
@@ -9620,7 +9621,7 @@ The rest is detail.
 *   **Portuguese:** Language of older European power on this coast; used in Goa, among some Goan Catholics, and in older company records.
 *   **Dutch:** Language of the VOC officers and records; Lannoy and company envoys speak it among themselves.
 *   **Arabic:** Trade and religious language tied to West Asian merchants and Muslim communities on the Malabar coast.
-*   **Ladino:** Old Judeo-Spanish used by the Paradesi Jews of Cochin in trade and private speech.
+*   **Ladino:** Old Judeo-Spanish used by the Paradesi Jews of Kochi in trade and private speech.
 *   **Syrian Christian:** Here used for Malayalam-speaking St. Thomas Christian communities who follow West Syriac liturgy and act as key merchants and intermediaries.
 
 # About the Author

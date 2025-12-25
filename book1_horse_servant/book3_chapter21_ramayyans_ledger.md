@@ -190,13 +190,13 @@ He chuckled.
 
 I remembered that festival night.
 
-The Maharaja had insisted on sweeping the inner stones at Padmanabhapuram himself before the lamps were lit, broom in his hands, forehead bare of crown, priests chanting while women set rows of flame along the walls. The crowd pressed in closer than Ramayyan liked, helpers and onlookers and curious men blending into one restless ring of bodies. When the first assassin moved, I saw him not by his face, but by the way his shoulders did not bend in reverence with everyone else's. His knife flashed toward the king's side. I caught his wrist and dragged him down, and in the tangle that followed the Maharaja slipped on spilled oil and struck his head on the flagstones. We killed two of the men there among the broken pots and scattered flowers. A third vanished into the press. We never learned whether he carried Dutch coin, Cochin promises, or only the old houses' grudges in his sleeve.
+The Maharaja had insisted on sweeping the inner stones at Padmanabhapuram himself before the lamps were lit, broom in his hands, forehead bare of crown, priests chanting while women set rows of flame along the walls. The crowd pressed in closer than Ramayyan liked, helpers and onlookers and curious men blending into one restless ring of bodies. When the first assassin moved, I saw him not by his face, but by the way his shoulders did not bend in reverence with everyone else's. His knife flashed toward the king's side. I caught his wrist and dragged him down, and in the tangle that followed the Maharaja slipped on spilled oil and struck his head on the flagstones. We killed two of the men there among the broken pots and scattered flowers. A third vanished into the press. We never learned whether he carried Dutch coin, Kochi promises, or only the old houses' grudges in his sleeve.
 
 As I left the room, the shelves watched me with their mute rows.
 
 Outside, the air smelled of wet stone and ink.
 
-That night, lying under the jackfruit tree after the ground had dried, I thought of Ramayyan's ledger.
+That night, lying under the jackfruit tree after the ground had dried, I thought of Ramayyan's books.
 
 Of my line in it. Of Revathi's. Of Padmini's. Of Lannoy's. Of the king's own.
 
@@ -206,7 +206,7 @@ It was a small difference. It was also vast.
 
 I did not know whether, in years to come, historians would praise Ramayyan as wise or condemn him as a spider. I only knew that without men like him, scribbling in rooms that smelled of coconut smoke and ink, kings like Marthanda Varma would stand even less chance against machines like the Dutch company and storm bent confederacies like my own.
 
-We all kept ledgers, in our own ways.
+We all kept our own accounts, in our own ways.
 
 Mine were carved in memories of hooves on sand and the weight of men's trust.
 

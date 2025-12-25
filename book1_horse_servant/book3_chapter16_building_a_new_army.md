@@ -12,7 +12,7 @@ Dhanaji found me there, staring at the mound of red earth.
 
 “He was a good horse,” he said.
 
-“He was mine,” I said. “The first horse I bought here with my own coin.”
+“He was mine,” I said. “This was my third horse here but the best of the three. The first horse I bought here with my own coin. This land is not kind on horses. Not kind on men either.”
 
 We stood in silence. Below us, the lights of the training ground flickered where the evening drill was beginning without me.
 
@@ -164,9 +164,17 @@ In drills. In walls. In the sound of muskets fired in rhythm on fields where onc
 
 Lannoy chose to stay.
 
-At sunrise, the morning after his interrogation, he came before the king again. His hands were unbound this time, though guards still stood near.
+He was not the only one. Of the Dutch prisoners we had taken at Colachel, nearly a third asked to enter Travancore service rather than rot in a cell waiting for a ransom that might never come. When Ramayyan asked why, the answers were the same, spoken in German, in French, in the broken Portuguese that served as the company's common tongue.
 
-“I will serve,” he said in Portuguese, voice flat but clear. “Under your conditions.”
+"They did not pay us," a sergeant from Zeeland said, his face hard with old bitterness. "Two years I served in Ceylon. Two years without a single guilder reaching my hand. They said the ships were delayed. They said the accounts were confused. They said we should be patient. Patient! While we ate weevil-ridden biscuit and watched officers drink wine."
+
+The company's soldiers were not Dutchmen in the way their flags suggested. They were the flotsam of Europe's wars: Germans fleeing creditors, Frenchmen fleeing conscription, Danes and Swedes and men from the Low Countries who had nothing left to lose. The company paid them in promises and punished them in earnest. When they died, their names vanished from the muster rolls, and their back wages vanished with them.
+
+Travancore paid in coin. Not much, but regularly, and in the soldier's own hand. Ramayyan had learned that lesson early. A man who is paid feels owned. A man who is owed feels wronged. The difference, on a battlefield, is the difference between a wall that holds and one that cracks.
+
+At sunrise, the morning after his interrogation, Lannoy came before the king again. His hands were unbound this time, though guards still stood near.
+
+"I will serve," he said in Portuguese, voice flat but clear. "Under your conditions."
 
 Marthanda Varma inclined his head slowly.
 
@@ -258,7 +266,7 @@ When he did appear, he watched quietly, saying little. A slight tightening of hi
 
 He also rode out to inspect the new forts that rose along the northern marches.
 
-“We will not wait for the Dutch to bring their friends here,” he said, standing on a newly built bastion overlooking a narrow pass. “We have other enemies in this land. The Mysore men. The old chiefs who resent my line. The Tamil, Arcot, if they decide to ride south. This army is not only for white men.”
+“We will not wait for the Dutch to bring their friends here,” he said, standing on a newly built bastion overlooking a narrow pass. “We have other enemies in this land. The Mysore men. The old chiefs who resent my line. Riders from Madurai, if they decide to come south. This army is not only for white men.”
 
 His gaze slid to me when he said Tamil.
 
@@ -268,13 +276,13 @@ A few days after one such inspection, he appeared at the drill ground with a bun
 
 Lannoy unfolded short coats of rough blue cloth and stiff felt hats in the company style. The men muttered as the pile grew. So did I.
 
-“We are not Dutch,” I said later, low enough that only Lannoy heard. “I will not dress like one of your ledgers on legs.”
+“We are not Dutch,” I said later, low enough that only Lannoy heard. “I will not dress like a Company clerk in boots.”
 
 “Cloth does not decide who you serve,” he replied. “These coats make your men look like one body. They make European eyes see an army, not a crowd. Wear them when the Maharaja asks. Throw them aside when you ride home.” He looked at our infantry, bare-chested, dhotis hitched, muskets on shoulders. “If a captain in Amsterdam sees a sketch of blue jackets and straight lines, he will think twice before sending a few more men as if they marched into a market.”
 
 I hated that he was right.
 
-The next time the drums beat and the king came to watch, a line of Nair and Arcot infantry stood in those blue coats, hats stiff on their heads, muskets at the same angle. I sat my horse behind them, the collar tight at my throat, the felt hot and unfamiliar above my scars. Some of the men grinned when they saw me in that foreign cloth, but they straightened all the same.
+The next time the drums beat and the king came to watch, a line of Nair and Madurai infantry stood in those blue coats, hats stiff on their heads, muskets at the same angle. I sat my horse behind them, the collar tight at my throat, the felt hot and unfamiliar above my scars. Some of the men grinned when they saw me in that foreign cloth, but they straightened all the same.
 
 For a few breaths, from a distance, the line might almost have been one of the neat formations I had once ridden against. Then the order broke, coats were shrugged open, dhotis loosened, and the smell of sweat and river mud reclaimed the field. The cloth was only another tool. The men inside it were still ours.
 
@@ -294,7 +302,7 @@ Revathi watched with a more complicated gaze.
 
 At Velinadu, she attended some of the new musters, her eyes following the lines of men, the shapes of formations, the flags that flew above them.
 
-“Your king buys loyalty with guns,” she said to me once as we watched a mixed unit of Nair and Arcot infantry fire in turn. “It is an expensive currency. When the guns rust, what will hold them?”
+“Your king buys loyalty with guns,” she said to me once as we watched a mixed unit of Nair and Madurai infantry fire in turn. “It is an expensive currency. When the guns rust, what will hold them?”
 
 “Habit,” I said. “Fear. Pride.”
 
@@ -330,23 +338,47 @@ One evening, after a long day of drills, Lannoy and I found ourselves standing a
 
 For a time we said nothing. The sky was the colour of old pewter, the water below catching and breaking what little light remained.
 
-“When I was a boy,” he said suddenly, without preamble, “I dreamed of building fortresses on foreign shores. In school we drew maps and imagined walls that would project our power into strange lands. It was all lines and angles. None of us drew the people who would live behind those walls.”
+"Why did you cross?" I asked. The question had sat between us for months, unspoken. "Before the battle ended. Before you knew we would win. You walked away from your own men."
+
+He was silent for so long I thought he would not answer.
+
+"Arras," he said finally. "Do you know it?"
+
+I shook my head.
+
+"A city in Flanders. Catholic. My family has been Catholic since before the wars tore Europe apart." He smiled thinly. "And yet I served a Protestant company, took orders from Calvinist officers who thought my faith was one step above devil worship. They tolerated me because I could build walls and aim cannon. They never trusted me."
+
+"That alone would not make a man desert."
+
+"No." He looked out at the water. "But seventeen years of watching the Company grind men into numbers does. I was posted to Ceylon first. Good men. Germans, Danes, boys from the Low Countries who had joined for adventure and found only fever and debt. The Company paid them late or not at all. When they died, their names vanished from the ledgers, and their back wages vanished with them. The officers drank wine while the soldiers ate weevils. I wrote reports. No one read them."
+
+He picked up a chip of stone from the parapet and turned it in his fingers.
+
+"Then they sent me here. To take a beach, hold it, wait for reinforcements that were never coming. I knew it the second week. The Governor in Kochi had stripped his garrisons to mount this expedition. There was nothing left to send. We were a gesture, not an army. A message written in men's lives to remind a pepper king that the Company could reach him."
+
+"And you decided the message was not worth dying for."
+
+"I decided I was tired of being a number in someone else's ledger." He threw the stone over the wall. It vanished into the dark water below. "I am forty-three years old. I have no wife, no children, no land waiting for me in Europe. My mother is old and will die soon. My brothers have forgotten my face. What was I going back to? A pension the Company would find reasons not to pay? A room in some garrison town, drinking with other old soldiers about campaigns no one remembers?"
+
+He turned to face me.
+
+"When I was a boy," he said, "I dreamed of building fortresses on foreign shores. In school we drew maps and imagined walls that would project our power into strange lands. It was all lines and angles. None of us drew the people who would live behind those walls."
 
 He gestured toward the fort under our feet.
 
-“Now I build them for a king who once tried to kill me,” he said. “Life has a sense of humour.”
+"Now I build them for a king who once tried to kill me," he said. "But at least I build. The Company wanted me to destroy. To hold beaches until they rotted under me. Your king wants me to create something that will last. That is why I chose to stay when he offered me service. Not because I thought you would win - you had already won. Because I was tired of serving men who saw me as an entry in a book."
 
-“You are paid,” I said.
+"You are still an entry," I said. "Ramayyan has you in his ledgers too."
 
-“So are carpenters,” he replied. “They do not always get to choose which houses their beams hold up.”
+"Yes," Lannoy said. "But he pays me. On time. In my hand. And he lets me build walls that will stand after I am dead. That is more than the Company ever offered."
 
 He looked at me.
 
-“My mother writes that the company priests tell her to pray for my soul,” he added quietly. “She lights candles for a son who is either dead or damned, depending on which story they tell that week. I do not know which pains her less.”
+"My mother writes that the company priests tell her to pray for my soul," he added quietly. "She lights candles for a son who is either dead or damned, depending on which story they tell that week. I do not know which pains her less."
 
 The admission hung between us, more intimate than any talk of angles.
 
-“Do you ever regret staying?” he asked.
+"Do you ever regret staying?" he asked.
 
 I thought of Goa. Of the storm. Of Keshavrao's hand slipping from the rope. Of the first time Marthanda Varma offered me a place.
 
@@ -366,11 +398,11 @@ Below, our sentries shouted and scattered, muskets snatched up, eyes searching t
 
 By the time a search party reached the far bank, whoever had fired was gone. They found only three spent cartridges, trampled grass and the faint, sour smell of someone who had sweated fear and anger in equal measure.
 
-“Not our men,” Ramayyan said later, when reports came in. “Our guards do not waste powder taking potshots at their own fort. Dutch agents, perhaps. Or some Cochin fool who thinks that if De Lannoy dies, the company will pat his head. It pleases me that they aimed badly. It troubles me that they aimed at all.”
+“Not our men,” Ramayyan said later, when reports came in. “Our guards do not waste powder taking potshots at their own fort. Dutch agents, perhaps. Or some Kochi fool who thinks that if De Lannoy dies, the company will pat his head. It pleases me that they aimed badly. It troubles me that they aimed at all.”
 
 Lannoy had gone very still when the first ball passed his ear. Afterward, in the lamplight of the guardroom, he looked at the chipped stone on the parapet and said only, “They will try again, in other ways.”
 
-For me, the musket marks at Udayagiri became one more line in the ledger of storms we now lived under. Not all of them came from the sea.
+For me, the musket marks at Udayagiri became one more mark in the tally of storms we now lived under. Not all of them came from the sea.
 
 The next morning the king sent for us. He listened to Ramayyan’s report, eyes flat, then turned to two Nair soldiers from his own household, men with scarred forearms and the quiet gait of temple guards.
 

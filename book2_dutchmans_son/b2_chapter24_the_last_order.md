@@ -140,7 +140,7 @@ De Lannoy's gaze flicked toward his son.
 
 "Pay the men," he said.
 
-He looked at Kesavadas' clerk standing near the door, as if he knew the clerk would carry these words into ledgers.
+He looked at Kesavadas' clerk standing near the door, as if he knew the clerk would carry these words into the books.
 
 "Pay them on time," he repeated. "A hungry gunner is a traitor waiting."
 

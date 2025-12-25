@@ -36,7 +36,7 @@ Inside, the air was cooler. The roof was high enough to let smoke and heat rise,
 
 At the far end, on a slightly raised wooden platform, a man sat with a spear resting against his shoulder and a rolled map on the mat before him.
 
-He wore no crown. His hair was tied back, his forehead marked with the simple lines of a Vaishnavite devotee. His upper body was bare save for a single cloth thrown over one shoulder. A sword lay within easy reach, its hilt polished by use, not ornament.
+He wore no crown. He was tall, his hair tied into a bun to his left in the style I would come to know as a *Konda*. His forehead was marked with the simple lines of a Vaishnavite devotee. His upper body was bare save for a single cloth thrown over one shoulder. A sword lay within easy reach, its hilt polished by use, not ornament.
 
 At his side sat another man with sharp, fine features and a thin frame wrapped in a plain white cloth. In front of him lay a low table with palm leaf bundles, ink and a stylus. His eyes moved constantly, taking in everything, even when the king's attention seemed fixed on the map. Men near us whispered that this was his diwan, Ramayyan, a man who spoke Persian and Dutch and the trade tongues of this coast.
 
@@ -138,7 +138,7 @@ For a few breaths the Maharaja studied me in silence.
 
 He spoke again in Malayalam, gesturing briefly toward the inlet and the wall behind him.
 
-“He says they already have horses from the Nawab of Arcot,” Ramayyan translated. “Men who ride well enough. They have their own Nair warriors who can fight on foot or on small horses in this soil. They have Dutch fortifications in their minds, thanks to other Europeans who have chosen to be practical rather than loyal. He asks what you add that he does not already have.”
+“He says they already have horse from the Nayak of Madurai,” Ramayyan translated. “Men who ride well enough. They have their own Nair warriors who can fight on foot or on small horses in this soil. They have Dutch fortifications in their minds, thanks to other Europeans who have chosen to be practical rather than loyal. He asks what you add that he does not already have.”
 
 It was the same question that had been asked in the coastal compound, only sharpened by the fact that this time it came from the mouth of a man who could, with a word, have me thrown back to the Portuguese or consigned to some pepper estate as expendable labour.
 
@@ -146,7 +146,7 @@ I looked past him for a moment, out through the open side of the hall. From here
 
 Above them all the sea lay, flat and deceptive. Somewhere beyond that horizon sat Goa, with its dungeons. Somewhere farther still, Dutch hulls cut through foaming water, carrying men who believed pepper and souls could belong to them by right.
 
-“You have horse from Arcot,” I said slowly. “You have Nair warriors who know this land as they know their own pulse. You have guns and forts and men from across the sea who teach you how Europeans think. What you do not yet have is someone who has ridden into a European line and felt it break. Someone who has watched their neat formations falter not from fear of God, but because a hoof struck at the right moment in the right place.”
+“You have horse from Madurai,” I said slowly. “You have Nair warriors who know this land as they know their own pulse. You have guns and forts and men from across the sea who teach you how Europeans think. What you do not yet have is someone who has ridden into a European line and felt it break. Someone who has watched their neat formations falter not from fear of God, but because a hoof struck at the right moment in the right place.”
 
 I thought of Kanka then, of wet sand beneath his hooves near Chaul, of Portuguese musketeers flinching when our horses came at an angle they had not drilled for. I thought of Keshavrao's eyes in the storm, and the weight I now carried.
 
@@ -160,7 +160,7 @@ Marthanda Varma tapped the butt of his spear against the mat once, twice.
 
 The diwan inclined his head.
 
-In Konkani, for my benefit, he said, “The Nawab's horsemen know the straight charge. They do not know the feint and vanish the way Deccan riders do. Our Maravar riders fight bravely, but not yet with discipline against guns. You could help shape that.”
+In Konkani, for my benefit, he said, “The Madurai horsemen know the straight charge. They do not know the feint and vanish the way Deccan riders do. Our Maravar riders fight bravely, but not yet with discipline against guns. You could help shape that.”
 
 The king smiled thinly at his minister's summary. He said something brief in Malayalam, his gaze returning to me.
 
@@ -168,7 +168,7 @@ The king smiled thinly at his minister's summary. He said something brief in Mal
 
 Marthanda Varma glanced past me toward the open hall and spoke again.
 
-“He says that outside this fort a strip of land runs along the shore, too wet for most cavalry work, too narrow for big batteries,” the diwan went on. “It is also where the Dutch will expect us to be weakest. He tells you to take the Arcot horse and a hundred Maravar riders and show him something there he has not already imagined. And he says that if you are wrong, you will find Travancore worse than the Portuguese.”
+“He says that outside this fort a strip of land runs along the shore, too wet for most cavalry work, too narrow for big batteries,” the diwan went on. “It is also where the Dutch will expect us to be weakest. He tells you to take the Madurai horse and a hundred Maravar riders and show him something there he has not already imagined. And he says that if you are wrong, you will find Travancore worse than the Portuguese.”
 
 The way Ramayyan relayed it made it clear that his king had imagined a great deal.
 

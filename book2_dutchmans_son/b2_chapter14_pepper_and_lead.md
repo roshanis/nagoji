@@ -10,7 +10,7 @@ In Travancore I learned that war could be measured the same way.
 
 Not in battles.
 
-In ledgers.
+In account books.
 
 Ramayyan had turned Mavelikara into a counting house for a kingdom, and the lesson had spread. Pepper was no longer only spice. It was lead, wages, and walls.
 
@@ -124,7 +124,7 @@ Protection.
 
 The word tasted rotten to me.
 
-I had grown up under a Company too. I knew what protection meant when a ledger was involved.
+I had grown up under a Company too. I knew what protection meant when the books were involved.
 
 Kesavadas nodded slowly.
 
@@ -296,7 +296,7 @@ I told him yes.
 
 He asked what it would cost.
 
-I told him, honestly, that the cost would not fit in a ledger.
+I told him, honestly, that the cost would not fit in any column.
 
 Hendrik stared at me as if I had spoken nonsense.
 

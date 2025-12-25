@@ -108,7 +108,7 @@ Revathi came to the fort one week later.
 
 She did not speak to me at first. She simply stood in the courtyard, looking at the banner that flew above the gate, the banner that now flew over all the lands that had once been a dozen kingdoms.
 
-“She reached Cochin,” she finally said. “They gave her a small house. She tends a garden now.”
+“She reached Kochi,” she finally said. “They gave her a small house. She tends a garden now.”
 
 “I am glad she lives,” I said.
 
@@ -146,7 +146,7 @@ She paused.
 
 “What did you choose?” I asked.
 
-“To remember,” she said. “When everyone else forgets what this cost, I will remember. Savitri's face. Her garden in Cochin. The laugh she will never laugh again. Someone has to carry that weight. It will not be you. It will not be him. So it will be me.”
+“To remember,” she said. “When everyone else forgets what this cost, I will remember. Savitri's face. Her garden in Kochi. The laugh she will never laugh again. Someone has to carry that weight. It will not be you. It will not be him. So it will be me.”
 
 She walked away into the evening light.
 
@@ -206,9 +206,9 @@ Father Duarte appeared in the doorway behind him. He was older now, his hair ful
 
 “The Maharaja has been generous,” Duarte said. “He permits us this small space. In return, we ask nothing of him but the right to serve.”
 
-“And to pray,” De Lannoy added. “A man needs something beyond walls and ledgers. Otherwise the walls become a prison and the ledgers become chains.”
+“And to pray,” De Lannoy added. “A man needs something beyond walls and accounts. Otherwise the walls become a prison and the accounts become chains.”
 
-I looked at them: the Dutch soldier who had crossed the lines at Kanyakumari and chosen to stay, the Portuguese priest who had watched my torture and chosen to atone. Both had found their way to this same small chapel in a Hindu kingdom that had broken the power of both their empires.
+I looked at them: the Dutch soldier who had surrendered at Colachel and chosen to stay, the Portuguese priest who had watched my torture and chosen to atone. Both had found their way to this same small chapel in a Hindu kingdom that had broken the power of both their empires.
 
 “It is strange,” I said. “The three of us. A Maratha cavalryman, a Dutch artillerist, a Portuguese priest. Twenty years ago, our peoples were killing each other across three continents. Now we stand under the same banner.”
 
@@ -270,7 +270,7 @@ I thought of Marthanda Varma on that rampart, gripping the stone, saying “I re
 
 I looked out at the forts that now guarded every approach, at the roads that connected every village, at the army that could stand against Mysore and the Dutch and whoever else came.
 
-When I had first washed ashore on this coast, the king had borrowed lancers from Arcot and begged muskets from English factors. His cavalry was a handful of men on horses that feared the sand. His forts were old walls that a good siege train could breach in a week.
+When I had first washed ashore on this coast, the king had borrowed lancers from the Nayak of Madurai and begged muskets from English factors. His cavalry was a handful of men on horses that feared the sand. His forts were old walls that a good siege train could breach in a week.
 
 Now there were fifty thousand men under arms. Musketeers drilled in the European fashion, firing by volley, reloading in step. Artillery crews who could hit a ship's deck from shore batteries. A string of star forts from Kottar to the northern marches, each one designed by men who had learned from Dutch mistakes. Horse that no longer feared the surf. Officers who read maps and spoke three languages. A navy that made the Marakkars proud to fly the king's flag beside their own.
 
@@ -282,7 +282,7 @@ He did not understand. How could he? He had been born into the kingdom we built.
 
 I thought of a young man in a Portuguese dungeon, telling a priest that belief did not matter, that only numbers and chains and ships were real. That man had been wrong. Belief had turned out to matter more than anything, just not the kind the priest was selling.
 
-But somewhere in Cochin, an old woman tended her garden.
+But somewhere in Kochi, an old woman tended her garden.
 
 And somewhere in Velinadu, another old woman remembered, while young voices that carried my blood and hers shouted in the courtyards of a house that had taken me in as a guest and kept my children as its own.
 
@@ -292,7 +292,7 @@ That was the price.
 
 That was always the price.
 
-The monsoon came that year, as it always did. The rains fell on the forts and the fields and the roads. They fell on Cochin, where Savitri's garden drank them gratefully. They fell on Velinadu, where Revathi sat and remembered and my grandchildren ran laughing through wet corridors.
+The monsoon came that year, as it always did. The rains fell on the forts and the fields and the roads. They fell on Kochi, where Savitri's garden drank them gratefully. They fell on Velinadu, where Revathi sat and remembered and my grandchildren ran laughing through wet corridors.
 
 They fell on me, on these walls, on this kingdom that had eaten so many smaller ones to become something that might survive.
 

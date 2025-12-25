@@ -11,27 +11,27 @@ This guide is here so you can keep houses, titles, and foreign powers straight o
 ## Travancore and Venad (Deep South)
 
 *   **Marthanda Varma (historical):** King of Venad and architect of Travancore’s rise, ruthless in consolidation and hungry for a sovereign southern state.
-*   **Ramayyan Dalawa (historical):** The king’s diwan and principal strategist, a man of letters, ledgers, and cold clarity.
+*   **Ramayyan Dalawa (historical):** The king’s diwan and principal strategist, a man of letters, records, and cold clarity.
 *   **The Senior Rani (historical):** Matrilineal authority within the royal household, whose legitimacy and politics shape succession.
 *   **The *Ettuveetil Pillamar* (historical, collective):** “Lords of the Eight Houses,” powerful nobles broken during the years of consolidation.
 *   **The Thampi brothers (historical, collective):** Rival claimants and violent challengers to the young king’s authority.
 
 ## Dutch and European Soldiers
 
-*   **Eustachius De Lannoy (historical):** A Dutch officer who crossed over during the Colachel campaign and rose to become the kingdom’s senior European commander.
+*   **Eustachius De Lannoy (historical):** A Dutch officer who fought at Colachel, surrendered with the garrison, and chose to enter Travancore service. He rose to become the kingdom's senior European commander.
 *   **Karl August (composite):** A European deserter and drill expert, used in the novel as a bridge between company discipline and local war.
 
 ## Other Colonial Powers
 
 *   **Portuguese authorities in Goa (historical):** The Estado da Índia administration, controlling prisons, forts, and old trade routes by fear and habit.
-*   **English at Anjengo (historical):** A cautious Company presence on the Travancore coast, trading and watching, sometimes lending aid when interests align.
+*   **English at Anchuthengu (Anjengo) (historical):** A cautious Company presence on the Travancore coast, trading and watching, sometimes lending aid when interests align.
 *   **French at Mahe (historical):** A smaller European power on the coast, present as a rumour and a possible counterweight in the wider chessboard.
 
 ## Rivals, Allies, and Neighbours
 
-*   **Cochin (historical polity):** A coastal kingdom and Dutch ally, threatened by Travancore’s expansion.
-*   **Samudri, the Zamorin of Calicut (historical title):** “Lord of the Sea,” a northern power whose interests clash with any southern empire.
-*   **The Nawab of Arcot (historical office):** A Carnatic ruler whose cavalry and politics tug at Travancore’s southern frontier.
+*   **Kochi (Cochin) (historical polity):** A coastal kingdom and Dutch ally, threatened by Travancore’s expansion.
+*   **Samudri, the Zamorin of Kozhikode (Calicut) (historical title):** “Lord of the Sea,” a northern power whose interests clash with any southern empire.
+*   **The Nayak of Madurai (historical office):** A Tamil southern ruler whose horsemen and claims press Travancore’s frontier.
 *   **Chanda Sahib (historical):** A Carnatic contender whose pressure helps trigger the Dutch crisis.
 *   **Kottarakkara and the Elayadathu line (historical polity):** A northern succession house used by rivals and foreign companies as leverage against Travancore.
 *   **Kayamkulam, Desinganadu, Purakkad, Thekkumkur, Vadakkumkur (historical polities):** Smaller kingdoms and principalities drawn into alliances against a rising Travancore.

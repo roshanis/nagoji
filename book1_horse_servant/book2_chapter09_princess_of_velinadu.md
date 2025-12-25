@@ -111,7 +111,7 @@ She leaned back slightly, studying me.
 
 She picked up a piece of plantain from her plate at last, but held it between finger and thumb rather than eating.
 
-“They also love patterns,” she went on. “They say you trained the Arcot horse on wet sand. Made them move like the fish I watch at low tide. Ramayyan filled a grove of palm leaves about it.”
+“They also love patterns,” she went on. “They say you trained the Madurai horse on wet sand. Made them move like the fish I watch at low tide. Ramayyan filled a grove of palm leaves about it.”
 
 “You think you can teach our men to kill Dutch as easily as you killed Portuguese on your hills?” she asked.
 
@@ -119,7 +119,7 @@ She picked up a piece of plantain from her plate at last, but held it between fi
 
 “Yet you keep pouring,” she said. “Why?”
 
-“Because if we do not, their flag will cast a shadow over every fort from Nashik to this coast,” I said. “Because in Goa, they tried to erase my name and replace it with a number in a ledger. I have seen their hunger. Give them an inch of riverbank, and they will swallow the whole valley before you have finished signing their treaty.”
+“Because if we do not, their flag will cast a shadow over every fort from Nashik to this coast,” I said. “Because in Goa, they tried to erase my name and replace it with a number in their books. I have seen their hunger. Give them an inch of riverbank, and they will swallow the whole valley before you have finished signing their treaty.”
 
 Her eyes narrowed slightly.
 

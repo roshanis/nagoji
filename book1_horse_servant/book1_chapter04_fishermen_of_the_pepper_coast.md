@@ -4,7 +4,7 @@ When the sea finally spat me out, it did so without ceremony.
 
 Sand. My chest slammed into it so hard I thought my ribs had cracked. Salt water poured from my mouth, my nose, places I did not know could hold water. The retreating surf clawed at my legs, trying to pull me back. I dug my fingers into the coarse grit and held on.
 
-Breathing was a battle. Each time I drew in air it brought more salt, more pain. My limbs felt like they belonged to someone else, a man made of lead and bruises. Somewhere in the confusion the rope around my chest had come free of the spar. Perhaps it had caught on something beneath the surface. Perhaps the storm gods had decided they wanted the wood more than they wanted me.
+Breathing was a battle. Each time I drew in air it brought more salt, more pain. My limbs felt like they belonged to someone else, a man made of lead and bruises. Somewhere in the confusion the rope around my chest had come free of the spar. Perhaps it had caught on something beneath the surface. Perhaps the sea gods had decided they had eaten enough and spat me out.
 
 I lay there for a time that could have been minutes or hours, cheek pressed to wet sand, waves washing over my back and receding. At some point the noise in my ears shifted. The sea was no longer alone.
 

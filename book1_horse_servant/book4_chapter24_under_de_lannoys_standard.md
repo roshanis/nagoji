@@ -116,7 +116,7 @@ White cotton, cut long in the European fashion, with buttons of brass running do
 
 The war hall had gone very quiet.
 
-I stood among a dozen officers, Nair captains, Maravar commanders, a few men from the hired Arcot regiment. De Lannoy stood apart, near the maps, his face carefully blank.
+I stood among a dozen officers, Nair captains, Maravar commanders, a few men from the hired Madurai regiment. De Lannoy stood apart, near the maps, his face carefully blank.
 
 “The drill is European,” the king continued. “The muskets are European. The cannon are cast to European patterns. The forts are built to European designs.” He set the coat down on the table. “It is time the men who use these things look as if they belong to the same army.”
 
@@ -198,7 +198,7 @@ He was watching the evening drill, a cup of toddy in his hand. The setting sun p
 
 He nodded slowly, still watching the men below.
 
-“When I crossed the lines at Kanyakumari,” he said, “I expected to die. I had seen what happens to European officers who walk into an Indian camp without a flag behind them. A rope if you are unlucky. A cell if you are not. What I did not expect was to be offered a choice.”
+"When the fort burned at Colachel," he said, "I expected to die. I had seen what happens to European officers who surrender to an Indian king. A rope if you are unlucky. A cell if you are not. What I did not expect was to be offered a choice."
 
 “The king's offer.”
 
@@ -206,7 +206,7 @@ He nodded slowly, still watching the men below.
 
 He turned to face me.
 
-“The first time I put on Travancore colours, I felt as if I had swallowed broken glass. Every thread reminded me that I was no longer Dutch. That the company's ledgers had written me off. That my mother would light candles for a son who had become, in their eyes, a traitor.”
+“The first time I put on Travancore colours, I felt as if I had swallowed broken glass. Every thread reminded me that I was no longer Dutch. That the company's books had written me off. That my mother would light candles for a son who had become, in their eyes, a traitor.”
 
 “And now?”
 
@@ -656,7 +656,7 @@ His name was Thoma Ittyerah, and he was the first man I met in Travancore who ma
 
 He was Syrian Christian, from a family that claimed descent from converts made by the Apostle Thomas himself, long before any Portuguese ship had troubled these waters. His people had been here for centuries, trading pepper and metal while kingdoms rose and fell around them.
 
-“My grandfather cast cannon for the Zamorin,” Thoma told me the first day we worked together. “My father cast them for Cochin. I cast them for Travancore.” He shrugged, his broad shoulders lifting beneath the simple white cloth of his tunic. “The metal does not care which king pays for the mould.”
+“My grandfather cast cannon for the Zamorin,” Thoma told me the first day we worked together. “My father cast them for Kochi. I cast them for Travancore.” He shrugged, his broad shoulders lifting beneath the simple white cloth of his tunic. “The metal does not care which king pays for the mould.”
 
 De Lannoy had found him in the north, at a village where Syrian Christian metalworkers had been making church bells and agricultural tools for generations. What Lannoy saw was potential, men who understood fire and bronze, who could learn to shape weapons as easily as ploughshares.
 
@@ -676,7 +676,7 @@ He stepped back and signalled. The cannon roared. Downrange, a wooden target exp
 
 “You learned from the Dutch?”
 
-“My uncle worked in their foundry at Cochin, before they decided that teaching Indians to cast good bronze was against company policy.” He smiled, showing teeth stained by betel. “They stopped the lessons. They could not take back what we had already learned.”
+“My uncle worked in their foundry at Kochi, before they decided that teaching Indians to cast good bronze was against company policy.” He smiled, showing teeth stained by betel. “They stopped the lessons. They could not take back what we had already learned.”
 
 His crews worked with a precision that reminded me of temple rituals, each movement prescribed, each role understood. The loader, the rammer, the man who held the slow match. They moved around the cannon like priests around an altar, their faith not in any god but in the mathematics of fire.
 
@@ -690,17 +690,17 @@ We were inspecting a shipment of saltpetre when a small boat pulled up to the do
 
 The man approached, his eyes taking in everything, the stacked barrels, the guards, me.
 
-“The roads from Cochin are clear this season,” he said. His Malayalam was accented, the vowels shaped by some other tongue. “The king's peace has been good for travel.”
+“The roads from Kochi are clear this season,” he said. His Malayalam was accented, the vowels shaped by some other tongue. “The king's peace has been good for travel.”
 
 Thoma turned to me. "Ananthan, this is Avraham ben Ephraim. His family has traded with mine for four generations. Avraham, this is the Maratha, the one the soldiers call the Deccan rider."
 
 Avraham inclined his head. “I have heard of you. The man who teaches horses to dance with muskets.”
 
-“The man who tries,” I said. “What brings you from Cochin?”
+“The man who tries,” I said. “What brings you from Kochi?”
 
 “Saltpetre,” he said. “And other things the king requires. My people have traded on this coast longer than any European memory.”
 
-I had heard of the Jews of Cochin, traders who kept their own quarter near the Raja's palace, but I had never spoken to one.
+I had heard of the Jews of Kochi, traders who kept their own quarter near the Raja's palace, but I had never spoken to one.
 
 “You supply the king's army?” I asked.
 
@@ -710,21 +710,21 @@ He gestured toward the barrels.
 
 “Good saltpetre,” he said to Thoma. “From the caves near Madurai. The Tamil merchants tried to raise the price, but we reminded them that we have been trading longer than their grandfathers have been alive. They reconsidered.”
 
-Thoma laughed. “The Jews of Cochin,” he said to me, “have a saying: 'The Portuguese came and went, the Dutch came and are going, the English are coming. We remain.'”
+Thoma laughed. “The Jews of Kochi,” he said to me, “have a saying: 'The Portuguese came and went, the Dutch came and are going, the English are coming. We remain.'”
 
 “We have been expelled from many lands,” Avraham said. “Spain, Portugal, half of Europe. But never from this coast. The rajas here understood something that Christian kings did not, a merchant who can trade with Arabs and Persians and Europeans alike is more valuable than any army.”
 
 He looked at the fort rising behind us, at the star-shaped bastions and the European-style walls.
 
-“Now you build armies too,” he added. “Perhaps that is wise. Perhaps not. We shall see what survives longer, the walls or the ledgers.”
+“Now you build armies too,” he added. “Perhaps that is wise. Perhaps not. We shall see what survives longer, the walls or the books.”
 
 ---
 
-Over the following months, I learned more about the Jews of Cochin.
+Over the following months, I learned more about the Jews of Kochi.
 
 Thoma said there were Malabari Jews, old families woven into the coast, and Paradesi Jews, newer arrivals from Europe who still carried Spanish and Portuguese scars. Both lived under the Raja's protection near the palace, trading where others were forbidden to own land.
 
-"They cannot own land outside their quarter," Thoma said. "But they can own ships. They can trade. And they remember everything, every debt, every favour, every slight. Do not cheat a Jew of Cochin, Ananthan. His grandson will remember."
+"They cannot own land outside their quarter," Thoma said. "But they can own ships. They can trade. And they remember everything, every debt, every favour, every slight. Do not cheat a Jew of Kochi, Ananthan. His grandson will remember."
 
 “You speak as if you admire them,” I said.
 
@@ -746,7 +746,7 @@ Avraham came to the fort several more times that season, always with goods the a
 
 One evening, I joined them.
 
-“You ask many questions,” Avraham observed, after I had spent an hour learning about trade routes and currency exchanges and the complex web of debts and favours that connected Cochin to Basra to Amsterdam.
+“You ask many questions,” Avraham observed, after I had spent an hour learning about trade routes and currency exchanges and the complex web of debts and favours that connected Kochi to Basra to Amsterdam.
 
 "I was a soldier," I said. "Soldiers learn to read terrain. This," I gestured vaguely at the account books and manifests spread between us, "is terrain I never learned to read."
 
@@ -764,7 +764,7 @@ He was quiet for a moment, turning his cup in his hands.
 
 He stood, gathering his papers.
 
-"My grandfather traded with the Zamorin," he said. "My father traded with Cochin. I trade with Travancore. My son will trade with whoever holds this coast when I am gone." He smiled, and there was something ancient in his eyes. "The Jews endure, Pillai. We have outlasted Pharaohs and Caesars and Inquisitors. We will outlast kings of pepper, too."
+"My grandfather traded with the Zamorin," he said. "My father traded with Kochi. I trade with Travancore. My son will trade with whoever holds this coast when I am gone." He smiled, and there was something ancient in his eyes. "The Jews endure, Pillai. We have outlasted Pharaohs and Caesars and Inquisitors. We will outlast kings of pepper, too."
 
 He left, his small boat disappearing into the gathering dusk.
 
@@ -794,7 +794,7 @@ I took the blade.
 
 He leaned against a rack of spears, staring at some point between us.
 
-“Back where?” he asked. “To ships that would call me traitor? To a land that has already written my name in a different ledger?”
+“Back where?” he asked. “To ships that would call me traitor? To a land that has already written my name in a different set of books?”
 
 He shook his head.
 

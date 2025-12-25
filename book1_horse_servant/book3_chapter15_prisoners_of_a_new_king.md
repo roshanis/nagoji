@@ -12,7 +12,7 @@ It was a strange sight. Beaten men, coats stained with soot and blood, yet formi
 
 I sat on my horse near the dunes, watching them come.
 
-“They look relieved,” Dhanaji said. “They think they are going for a long walk and then a boat home.”
+“They look relieved,” Dhanaji said at my shoulder. “They think they are going for a long walk and then a boat home.”
 
 “The King does not let tigers walk away because they promise not to bite,” I said.
 
@@ -24,15 +24,19 @@ A conch blew.
 
 Suddenly, the Nair lines thickened. Spears lowered. Matchlocks were raised from behind the dunes where my riders had waited. The path to Kanyakumari was blocked by a wall of shields.
 
-The Dutch column halted. Confusion rippled through their ranks. Their senior officer, a man named Donnadi who had commanded in De Lannoy's absence, shouted something and pointed his sword toward the road.
+The Dutch column halted. Confusion rippled through their ranks. Donnadi, the senior surviving officer, shouted something and pointed his sword toward the road. Beside him stood De Lannoy, tall and pale, his blue coat as stained and torn as the rest.
 
-Ramayyan rode forward, with De Lannoy at his side.
+Ramayyan rode forward alone.
 
 "The road is closed," Ramayyan said, his voice carrying over the wind. "You are prisoners of the State of Travancore."
 
-"We have terms!" Donnadi shouted back, his face darkening with rage. Then his eyes found De Lannoy on our side, a strip of Travancore cloth knotted across his stained blue coat, and something harder crossed his features. "Traitor. You negotiated this trap."
+"We have terms!" Donnadi shouted back, his face darkening with rage. "You agreed to let us march to Kanyakumari with our arms!"
 
-"I negotiated your lives," De Lannoy called back in Dutch. "The alternative was to let you starve until the monsoon drowned what the siege did not kill. Take what is offered, Joseph."
+"Terms change when kings have time to think," Ramayyan said. "You burned our temples. You took our people as slaves. Did you think we would simply wave goodbye?"
+
+De Lannoy stepped forward from the Dutch ranks. His voice was calm, carrying the weight of a man who had already calculated the odds.
+
+"Joseph," he said quietly, in Dutch. "Look around you. This is not a battle we can win. The alternative is worse than surrender."
 
 "You have marched out," Ramayyan said calmly. "Now you will drop the arms."
 
@@ -44,7 +48,7 @@ His lips moved. I could not hear the words, but I saw him look at the sky, then 
 
 Donnadi reached out and put a hand on the boy's shoulder. Something passed between them, permission, perhaps, or apology. The boy's face crumpled, then steadied.
 
-Then Donnadi looked at his men, hollow-eyed, burnt, swaying with fatigue. He looked at the thousands of fresh Nair troops ringing them. He looked at the sea behind him, where the ships had drawn back like spectators who did not want to be splashed by blood. And he looked at De Lannoy, standing with the enemy, already wearing their cloth.
+Then Donnadi looked at his men, hollow-eyed, burnt, swaying with fatigue. He looked at the thousands of fresh Nair troops ringing them. He looked at the sea behind him, where the ships had drawn back like spectators who did not want to be splashed by blood. And he looked at De Lannoy, who had spoken the truth no one else dared say.
 
 He swore, a short, sharp sound. Then he unbuckled his sword belt.
 
@@ -58,7 +62,7 @@ The clatter of hundreds of muskets falling onto the beach sounded like a heavy r
 
 “Take them,” Varma said.
 
-We took twenty-three European officers that day, with Joseph Donnadi the senior among them. We took hundreds of soldiers, their muskets, their drums, and the few cannon that had not burst in the fire. De Lannoy, who had crossed to us eleven days before, watched his former comrades march into captivity with an expression I could not read.
+We took twenty-four European officers that day, with Joseph Donnadi and Eustachius De Lannoy among them. We took hundreds of soldiers, their muskets, their drums, and the few cannon that had not burst in the fire. De Lannoy walked with the prisoners, but his eyes were not on the ground. They were on the walls of Udayagiri, as if he were already measuring them for improvement.
 
 We did not march them to Kanyakumari. We marched them inland, away from the sea that had failed to save them, to the granite walls of Udayagiri Fort.
 
@@ -108,6 +112,56 @@ I watched him work, this man who fed both sides and swore loyalty to neither, an
 
 ---
 
+The victory did not give us the luxury of rest.
+
+Before the prisoners were fully counted, Ramayyan's runners brought new word from the south. A boat had slipped in under the headlands at Kanyakumari. Fresh men. Blue coats. Not a fleet, but enough to be dangerous if they reached our exhausted lines while we were busy sorting captives and salvaging cannon.
+
+Marthanda Varma called me to the edge of the dunes.
+
+"They will try to reach their countrymen," he said, eyes on the sea. "Or at least to make us believe they can. Either way, I will not let the company write a second ending to this battle while my men are drinking water."
+
+He pointed south, toward the hard line where land narrowed and the sea pressed close.
+
+"Ride," he ordered. "Take your fastest. Take Maravar scouts. Take the Madurai men if they can keep up. Find what has come out of Kanyakumari and break its teeth. But do not chase it into stone."
+
+Dhanaji swung into his saddle without waiting for me to speak.
+
+"If you are going to ride into trouble," he said, "I will be close enough to drag you out."
+
+We went south at a gallop, the beach track flashing under hooves, coconut palms blurring into a green wall. The wind off the sea stung my eyes. My ribs, bruised from the fighting and the hard turns of the charge, protested at every stride. I clenched my jaw and rode through it. Pain was a tax you paid for staying alive.
+
+An hour later we met them where our coastal lines bent around a shallow stream. The trenches and palm-log barricades we had thrown up for the siege ran here like a scar, and the Dutch had found a weak stitch. A handful of blue coats had slipped through in the early light, bayonets fixed, moving with the quick confidence of men who believed the war had not yet been decided.
+
+They had pushed far enough to make our pickets fall back. Far enough to taste the idea of escape.
+
+Then they saw cavalry crest the sand ridge.
+
+I did not give them time to choose a formation. I drove my horse straight at their centre, then pulled left at the last moment, letting the wet sand do what it always did: slow the footman and favour the rider who knew when to turn. Dhanaji hit from the right with the Maravar scouts, cutting off their retreat to the dunes. Madurai lancers came in behind us, not elegant in this ground, but heavy enough to make Dutch shoulders flinch.
+
+Their first volley cracked in the damp air and went wide. Smoke blew into their own faces. They tried to reset. They tried to lock into the comfort of drill. But drill is a luxury when hooves are already inside your breath.
+
+Steel met steel. A Dutch sergeant went down under a horse's shoulder, his bayonet skittering into the sand. Another man fired point-blank and missed, the recoil turning his musket into a club. I took him with the flat of my blade, not out of mercy, but because we needed prisoners who could speak.
+
+It lasted minutes. It felt like an hour.
+
+When the Dutch realised they could not break through and could not hold the ground, they did the one sensible thing. They withdrew fast, back toward Kanyakumari, leaving two dead, three wounded, and one officer limping between his men, his face pale with shock at how quickly a victory can be taken away.
+
+My horse wanted to follow. So did my blood.
+
+Then a runner reached us, panting, a palm leaf message in his hand.
+
+"Order from the Dalawa," he gasped. "Do not pursue. Not into their guns."
+
+I stared south, toward the invisible factory walls at Kanyakumari, toward the ships that could still put cannon on any open stretch of beach. I knew what Ramayyan meant. Here, on broken sand and shallow water, their discipline became a burden. Under their own stone, with clear ground and prepared fire, it would become a weapon again.
+
+I lifted my sword and held it across my chest, the signal to halt.
+
+"Let them run," I told my men. "Let them carry the story back. Today they learned that even the road home has teeth."
+
+Only when the last blue coat had vanished into the haze did I let myself breathe.
+
+---
+
 Two days later, I stood in a stone courtyard within Udayagiri.
 
 The air here was different, still heavy with moisture, but held close by the hills and the high walls. The Dutch officers had been separated from their men. They were kept in the upper quarters, treated better than common prisoners but watched by guards who never blinked.
@@ -142,11 +196,11 @@ Lannoy fell silent. He knew enough of war to know that the loser does not dictat
 
 “The Company is a ledger,” Varma said.
 
-“And a ledger with too much red ink is burnt,” Tharakan interjected softly, his voice carrying the weight of a man who owned half the warehouses on the coast.
+“And books with too much red ink are burned,” Tharakan interjected softly, his voice carrying the weight of a man who owned half the warehouses on the coast.
 
 “It has already written you off,” the king continued, nodding at his noble. “Do you think they will send a fleet to rescue a man who lost a beachhead? They will count the cost, shake their heads, and hire a new captain.”
 
-Ramayyan had already shown him damp letters taken from the wrecked Dutch camp. One, in the Governor's careful hand from Cochin, admitted that the company had been “successful at first, but for want of men and other necessaries had to leave him master of the field.” Varma did not need enemy ink to know the truth, but he enjoyed hearing it from their own mouths.
+Ramayyan had already shown him damp letters taken from the wrecked Dutch camp. One, in the Governor's careful hand from Kochi, admitted that the company had been “successful at first, but for want of men and other necessaries had to leave him master of the field.” Varma did not need enemy ink to know the truth, but he enjoyed hearing it from their own mouths.
 
 Lannoy flinched. It was a small movement, but it betrayed him.
 

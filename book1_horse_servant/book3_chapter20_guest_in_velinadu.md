@@ -22,7 +22,7 @@ On the third evening, as the festival ended and the crowds dispersed, she stoppe
 
 “No,” I agreed.
 
-“It is noticed. People talk. Ramayyan has already written three lines about it in his ledger.”
+“It is noticed. People talk. Ramayyan has already written three lines about it.”
 
 “Only three?”
 
@@ -138,7 +138,7 @@ I laughed, the sound startling us both.
 
 “And Ramayyan?” I asked.
 
-“He has already written three lines in his ledger about the possible outcomes,” she said. “He will adjust the fourth when we tell him what we have decided.”
+“He has already written three lines about the possible outcomes,” she said. “He will adjust the fourth when we tell him what we have decided.”
 
 “My house,” I said slowly, “will always be Padmini Amma’s courtyard and whatever barracks and walls the king sends me to. My name in the Deccan is already a ghost. If I marry you, I do not become lord of Velinadu. I become another story whispered in its corridors.”
 

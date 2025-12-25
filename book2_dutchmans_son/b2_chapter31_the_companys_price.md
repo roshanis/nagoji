@@ -308,6 +308,6 @@ Pepper weighed.
 Powder bought.
 Obligations written.
 
-The ledger was growing heavier than the gun.
+The paper was growing heavier than the gun.
 
 And it did not even pretend to be honest.

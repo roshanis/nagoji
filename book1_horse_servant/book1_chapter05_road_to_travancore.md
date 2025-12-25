@@ -154,7 +154,7 @@ His eyes flicked to my bandaged hands, the brand under my sleeve. “You raided 
 
 He tapped the edge of his palm leaf with the stylus.
 
-“Our king sharpens his sword for the Dutch now,” he said, waiting for Ibrahim to echo the words in Konkani. “And for those local chiefs who think they can hide behind European flags. He has horse from Arcot, musketeers of his own, ships that slip between the foreign hulls at night. What does a Maratha rider know that he does not already have?”
+“Our king sharpens his sword for the Dutch now,” he said, waiting for Ibrahim to echo the words in Konkani. “And for those local chiefs who think they can hide behind European flags. He has horse from Madurai, musketeers of his own, ships that slip between the foreign hulls at night. What does a Maratha rider know that he does not already have?”
 
 There it was. The question that would decide whether I was given a place in this new game or quietly dropped into some ditch.
 

@@ -118,7 +118,7 @@ The words hung in the air like smoke after a musket shot.
 
 The threat was clear. Somewhere, someone the Dutch could use was waiting. A claim. A grievance. A kinswoman with long memories.
 
-I thought of the name I had seen in Ramayyan's ledger. Elayadathu. The entry marked HIGH.
+I thought of the name I had seen in Ramayyan's register. Elayadathu. The entry marked HIGH.
 
 “Misunderstandings,” Padmini said under her breath, her voice harder than before. “A pretty word for greed.”
 

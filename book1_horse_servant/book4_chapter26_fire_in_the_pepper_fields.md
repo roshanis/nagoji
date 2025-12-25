@@ -270,7 +270,7 @@ Later, when Ramayyan sifted rumours, Ibrahim Marakkar's name floated more than o
 
 I asked Ramayyan about it once, months after the ash had cooled.
 
-He did not look up from his ledger.
+He did not look up from his palm leaves.
 
 “Some men are most useful when both sides believe they are theirs,” he said. “Ibrahim has traded on this coast longer than you have been alive. He will trade here after we are both dust. Do not trouble yourself with his accounts. I keep them for him.”
 

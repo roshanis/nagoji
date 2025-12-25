@@ -170,11 +170,11 @@ He looked at me, expression flat. "Then you do not know how many shots you can f
 
 He set the scoop down.
 
-"A fortress is not walls," he said. "A fortress is logistics. It is rice, it is water, it is saltpetre and sulphur. A man who commands guns must command ledgers too. Do you understand?"
+"A fortress is not walls," he said. "A fortress is logistics. It is rice, it is water, it is saltpetre and sulphur. A man who commands guns must command accounts too. Do you understand?"
 
 I did, in a way that made my stomach tighten.
 
-My father had been a Company trader. He had spoken of ledgers with boredom. I had thought war was separate from that world.
+My father had been a Company trader. He had spoken of accounts with boredom. I had thought war was separate from that world.
 
 De Lannoy was telling me the opposite. That war was accounting written in blood.
 
@@ -283,4 +283,3 @@ As I left his room, the smell of powder still in my nose, I realised I had not t
 I had thought about angles.
 
 That was the most frightening transformation of all.
-

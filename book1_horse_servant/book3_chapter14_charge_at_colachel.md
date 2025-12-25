@@ -10,7 +10,7 @@ The first days were confusion.
 
 Messages galloped up and down the coast. Men who had thought they were going home from the southern campaign found themselves turned north instead. Guns that had faced Chanda Sahib's lines were dragged through wet fields and narrow village paths toward this new beachhead. For a short, sharp time, the Dutch had what they wanted: Travancore stretched, its king fighting on two fronts, its lines thin.
 
-Their confidence had not come from the sea alone. Two years before Colachel, the company had decided to stop being a guest at our table. They reached for the oldest weapon on this coast, a royal house divided. They took up the grievance of the Elayadathu line at Kottarakkara, a princess pushed aside when Varma interfered in her house's succession, and they promised her Dutch support in return for pepper signed cheap under her seal. Desinganadu, Cochin, Purakkad, Thekkumkur, each nursing its own wounds, were quick to stand under that foreign umbrella. Their men struck from the north while Dutch ships bit at the south, and for a few months blue coats sat in villages from Kottar to the edges of Colachel as if Padmanabhapuram were already within reach.
+Their confidence had not come from the sea alone. Two years before Colachel, the company had decided to stop being a guest at our table. They reached for the oldest weapon on this coast, a royal house divided. They took up the grievance of the Elayadathu line at Kottarakkara, a princess pushed aside when Varma interfered in her house's succession, and they promised her Dutch support in return for pepper signed cheap under her seal. Desinganadu, Kochi, Purakkad, Thekkumkur, each nursing its own wounds, were quick to stand under that foreign umbrella. Their men struck from the north while Dutch ships bit at the south, and for a few months blue coats sat in villages from Kottar to the edges of Colachel as if Padmanabhapuram were already within reach.
 
 Only when those scattered strands were pulled together did the battle settle into its true shape.
 
@@ -28,7 +28,7 @@ Our lines curved around their beachhead like a tightening noose. We dug trenches
 
 Strategy had shifted, just as Varma had promised.
 
-My riders did not charge squares. We became the gaolers of the perimeter. Ponnan’s Maravar horse wove through scrub and low palms, closing gaps my Deccan eyes would have missed, while Arcot and Maratha riders watched the wider tracks.
+My riders did not charge squares. We became the gaolers of the perimeter. Ponnan’s Maravar horse wove through scrub and low palms, closing gaps my Deccan eyes would have missed, while Madurai and Maratha riders watched the wider tracks.
 
 We patrolled the scrub inland, catching the desperate few who tried to slip out to forage for food. We rode down their scouts. We cut off the trickle of fresh water from the inland streams.
 
@@ -68,23 +68,11 @@ Yet they held.
 
 Their officers kept them disciplined. From a distance, a tall figure paced the perimeter of their shrinking fort, shifting men to plug gaps, rationing their dwindling food, keeping their muskets firing though the volleys grew more ragged as powder ran low.
 
-"They are stubborn," Ramayyan admitted one evening, looking over the casualty reports. "Good officers, wasted on a ledger's war."
+"They are stubborn," Ramayyan admitted one evening, looking over the casualty reports. "Good officers, wasted on a merchant's war."
 
 "They think they serve their nation," Varma said. The king sat on a camp stool, sharpening a small knife, his eyes on the distant Dutch fires.
 
 "They serve a company," Ramayyan corrected. "Merchants who will check the cost of their rescue against the price of pepper and decide they are too expensive."
-
-Then, eight days before the end, the tall officer vanished from the Dutch ramparts.
-
-The watch boy on the palm noticed first. "The pale one with the stick is gone," he called down. "Two days now. They move differently without him."
-
-Rumours reached us through Marakkar ears: a European had crossed the lines at Kanyakumari, had walked into a Travancore outpost and asked to speak to whoever commanded. Not as a prisoner. As a man with something to offer.
-
-"De Lannoy," Ramayyan said, reading a palm leaf message that had come by runner. "Eustache Benoit de Lannoy, born in Arras. A captain. He says the Dutch position is hopeless and he would rather build than rot."
-
-"A deserter," I said.
-
-"A pragmatist," Varma corrected. "There is a difference. One runs from fear. The other walks toward opportunity." He looked at the distant Dutch fires. "Bring him to me after this is done. If he is what he claims, he may be more useful than all the prisoners we take."
 
 The end, when it came, arrived on a wind from the sea.
 
@@ -134,7 +122,7 @@ The Nair infantry braced, their swords and spears forming a wall against the bay
 
 I was already riding when I saw it.
 
-I had positioned my Maravar and Arcot horse on the left flank, hidden by a grove of palms. From there, I saw what Ramayyan might have missed in the smoke, the Dutch square had a seam.
+I had positioned my Maravar and Madurai horse on the left flank, hidden by a grove of palms. From there, I saw what Ramayyan might have missed in the smoke, the Dutch square had a seam.
 
 They were focused on the infantry ahead. Their rear ranks watched the burning fort behind them. But their flank, the side facing the scrubland, had thinned as officers pulled men forward to reinforce the advance.
 
@@ -158,17 +146,25 @@ The survivors threw down their arms. Some knelt. Others simply stood, hollow-eye
 
 As the sun began to set, painting the smoke-stained sky in lurid purples and reds, the fire finally burned itself down to glowing embers. The Dutch huddled on the beach, a broken remnant of the force that had landed with such arrogance. But they had not surrendered meekly. They had come out fighting, and it had taken our charge to end them.
 
-Then, through the haze of smoke and fading light, a figure emerged from our lines.
+Then, through the haze of smoke and fading light, a figure emerged from the Dutch lines.
 
-He was tall, pale-haired, wearing a simple cotton tunic instead of the blue coat I had expected. He walked toward the Dutch survivors with his hands open at his sides, calling out in their tongue. I recognized the voice from descriptions: De Lannoy, the deserter who had crossed to us eight days before.
+He was tall, pale-haired, his blue coat torn and stained with soot. He walked toward us with his hands open at his sides, calling out in Portuguese. Behind him, I could see Rijtel and the other surviving officers, hollow-eyed, watching their comrade step forward to parley.
 
-The Dutch survivors stared at him with a mixture of recognition and betrayal. Some spat. Others simply sagged, as if seeing one of their own in Travancore cloth was the final blow.
+"I am Eustachius De Lannoy," the tall man said, his voice carrying across the sand. "Captain of the Dutch East India Company. I speak for the garrison."
 
-De Lannoy spoke to them for a long moment, his voice too low to carry. When he turned back toward our lines, a Dutch sergeant had stepped forward to parley.
+Ramayyan stepped forward.
+
+"You speak for men who burned our temples and took our people as slaves," he said. "Why should we listen?"
+
+De Lannoy did not flinch.
+
+"Because dead men cannot teach you how to build what we just lost," he said. "And I would rather build than rot."
+
+It was the first time I heard those words from his own mouth. Later, I would learn what they meant. But in that moment, standing in the smoke of a ruined fort, they sounded like a man who had already decided which side of the wall he wanted to stand on.
 
 I rode up to where Ramayyan stood.
 
-He was not holding a ledger today. The Diwan had led the infantry centre himself, as he had led it against Quilon and against the Desinganadu forces in the years before I arrived. His white dhoti was splattered with mud and soot. He was wiping a curved Nair sword with a piece of silk, the motion as precise as his calligraphy. Men who knew only his reputation for accounts and stylus forgot that he had planned the supply lines that kept our batteries fed, the grain routes that let us starve the Dutch while our own men ate. A general who cannot count is a butcher. Ramayyan could count, and he could kill.
+He was not holding his leaf bundles today. The Diwan had led the infantry centre himself, as he had led it against Kollam and against the Desinganadu forces in the years leading up to this siege. His white dhoti was splattered with mud and soot. He was wiping a curved Nair sword with a piece of silk, the motion as precise as his calligraphy. Men who knew only his reputation for accounts and stylus forgot that he had planned the supply lines that kept our batteries fed, the grain routes that let us starve the Dutch while our own men ate. A general who cannot count is a butcher. Ramayyan could count, and he could kill.
 
 “They are done,” I said.
 

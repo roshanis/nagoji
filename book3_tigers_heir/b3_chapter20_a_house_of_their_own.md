@@ -18,7 +18,7 @@ It demanded that I stay soft in one place.
 
 Mariam remained in the refugee camp long after the first wave had been resettled.
 
-Kesavadas kept her close because she was useful. She could speak to Portuguese-speaking factors without bending. She could read a ledger without pretending it was holy. She could translate grief into lists, and lists into orders.
+Kesavadas kept her close because she was useful. She could speak to Portuguese-speaking factors without bending. She could read accounts without pretending they were holy. She could translate grief into lists, and lists into orders.
 
 Men like Kesavadas love people like that. Not because they are kind. Because they are rare.
 

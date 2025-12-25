@@ -1,4 +1,4 @@
-# Horse of the Servant
+# Horse of the Servant {.title}
 
 
 *RV Menon*

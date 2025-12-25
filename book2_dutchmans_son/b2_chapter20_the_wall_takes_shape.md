@@ -38,7 +38,7 @@ That relentlessness was the true wall.
 
 Raja Kesavadas met me at a temporary camp, a cluster of palm-leaf shelters and canvas tents raised on slightly higher ground to avoid the worst of the water.
 
-He looked out over the cleared line with a face that belonged on a ledger. Calm. Assessing. Unimpressed by romance.
+He looked out over the cleared line with a face made for columns. Calm. Assessing. Unimpressed by romance.
 
 "De Lannoy cannot ride this far now," he said by way of greeting.
 

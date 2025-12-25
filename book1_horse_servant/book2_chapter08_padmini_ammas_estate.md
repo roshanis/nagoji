@@ -2,9 +2,15 @@
 
 For months I lived near the fishermen’s village, sleeping on a mat in a small hut that smelled of dried prawns and damp thatch.
 
-It was months of sun and salt. My days were spent on the wet sands, shouting until my throat was raw, trying to make Arcot horses and Maravar ponies understand each other. The fishermen watched us from their boats, laughing when a charger stumbled, nodding when a formation held. I ate their fish curry, spicy enough to make a Deccan man weep for milk, and drank their toddy. I became, in a small way, part of the landscape: the foreign captain who yelled at horses.
+It was months of sun and salt. My days were spent on the wet sands, shouting until my throat was raw, trying to make Madurai horses and Maravar ponies understand each other. The fishermen watched us from their boats, laughing when a charger stumbled, nodding when a formation held. I ate their fish curry, spicy enough to make a Deccan man weep for milk, and drank their toddy. I became, in a small way, part of the landscape: the foreign captain who yelled at horses.
 
-Then the King’s summons came. Not to the war hall, but to a smaller pavilion near the temple.
+But the king did not keep me only on the beach.
+
+There were inland fights too, small wars that never reached European maps but decided who paid tax, who held a temple key, who dared to whisper a rival claim. A pepper hill that refused the king’s men. A noble house whose gates had been shut too often. A band of chavers sent to make an example of an official on a narrow bund between paddy fields. Each time speed mattered, cavalry went first, and each time I found myself at the head of it, shouting orders in broken Malayalam, the salt still in my hair, my bandaged fingers clenched around reins that did not care about pain.
+
+We came back with cuts and missing men. We also came back with a different kind of silence, the kind that forms when soldiers have watched you ride into danger instead of pointing at it from behind. Ramayyan said it once, flatly, as if it were a note on a palm leaf. “The Maharaja has seen you in blood, not only in sand.”
+
+Then the King's ola came. Not to the war hall, but to a smaller pavilion near the temple.
 
 Ramayyan was waiting. He did not look up from his palm leaves as I entered.
 

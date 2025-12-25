@@ -1,6 +1,6 @@
 # Chapter 7: Horses in Wet Sand
 
-The first time I tried to make Arcot horses run in Malabar sand, they laughed at me.
+The first time I tried to make Madurai horses run in Malabar sand, they laughed at me.
 
 Not with their mouths. Horses do not waste breath on that. They laughed with every sideways step, every planted hoof that refused to drive, every rolling eye that said what the riders did not dare speak aloud.
 
@@ -8,9 +8,9 @@ You do not belong here, Deccan man.
 
 The strip of beach the king had given me was narrow, caught between the rise of a low bluff and the tug of the Arabian Sea. At high tide the waves gnawed at it until only a sliver remained. At low tide it opened into a broader, packed plain of damp sand that looked inviting to a cavalryman who had never tried to stop a charge on such footing.
 
-The sun had only just cleared the line of palms when the Arcot troop arrived, lances gleaming, turbans wrapped high. Their commander, a lean man with a hawk nose and a scar that puckered his left cheek, saluted with his spear butt to his chest.
+The sun had only just cleared the line of palms when the Madurai troop arrived, lances gleaming, turbans wrapped high. Their commander, a lean man with a hawk nose and a scar that puckered his left cheek, saluted with his spear butt to his chest.
 
-“Raza Khan, at your service,” he said in a Hindustani that carried the singsong of the Carnatic. “The Nawab sends his horse as promised. We have fought for Arcot and for your king before.”
+“Raza Khan, at your service,” he said in a Hindustani that carried the singsong of the Carnatic. “The Nayak of Madurai sends his horse as promised. We have fought for Madurai and for your king before.”
 
 Behind him the men sat straight in their saddles, horses tossing their heads, bits clinking. They looked confident. Too confident.
 
@@ -26,11 +26,11 @@ At the time, with the memory of chains still raw on my skin, the challenge had f
 
 Raza Khan frowned, his hand resting on his pommel.
 
-“We did not ride from Arcot to school our mounts like children on their first pony,” he said. “My men ride to break lines, not to dance with crabs.”
+“We did not ride from Madurai to school our mounts like children on their first pony,” he said. “My men ride to break lines, not to dance with crabs.”
 
 “Your men ride on hard earth,” I said. “Here the ground lies to you. It looks firm, but it drinks the hoof. If you charge a Dutch square and your horse stumbles on the turn, you are not a soldier, you are a target.”
 
-The Arcot rider’s jaw tightened. He glanced up at the bluff, where the King watched. He did not want to be seen arguing with the stranger Marthanda Varma had set over him.
+The Madurai rider’s jaw tightened. He glanced up at the bluff, where the King watched. He did not want to be seen arguing with the stranger Marthanda Varma had set over him.
 
 “One pass,” he said. “To show you there is no magic in sand.”
 
@@ -38,7 +38,7 @@ Ponnan said nothing, but a faint smile touched his lips as he signalled his Mara
 
 The first pass was a disaster.
 
-I watched the Arcot horses hit the wetter sand. They were heavy beasts, bred for the dry plains of the Carnatic. When they tried to turn, their weight carried them deep. Hooves sucked into the slurry. Legs flailed. Riders jerked reins to keep their seats, breaking the proud rhythm of the charge.
+I watched the Madurai horses hit the wetter sand. They were heavy beasts, bred for the dry country around Madurai. When they tried to turn, their weight carried them deep. Hooves sucked into the slurry. Legs flailed. Riders jerked reins to keep their seats, breaking the proud rhythm of the charge.
 
 The Maravar fared slightly better. Their ponies were smaller, stepping lightly where the larger horses sank. They spun and darted, grinning at the southerners’ clumsiness.
 
@@ -48,7 +48,7 @@ Ponnan brought his horse alongside mine as the line wheeled back toward firmer g
 
 “This earth has judged hooves longer than you have ridden, Deccan man,” Ponnan said quietly. “We learned that under other kings.”
 
-“Then teach your Arcot friends,” I said. “Today they followed me into the bog. Tomorrow they follow you around it.”
+“Then teach your Madurai friends,” I said. “Today they followed me into the bog. Tomorrow they follow you around it.”
 
 His eye flicked to Raza Khan, still cursing at his mount, then back to me.
 
@@ -66,9 +66,9 @@ He glared at me, but the anger was cooled by the shame of the stumble.
 
 We spent the morning in that slurry.
 
-I stripped the pageantry from them. No formations. No lances. Just men sweating in the heat, learning that the Malabar coast did not care about their lineage. I made them mix their lines, one heavy Arcot horse, one light Maravar pony.
+I stripped the pageantry from them. No formations. No lances. Just men sweating in the heat, learning that the Malabar coast did not care about their lineage. I made them mix their lines, one heavy Madurai horse, one light Maravar pony.
 
-“Watch him,” I told an Arcot rider whose beast was lathered and trembling. I pointed to a Maravar youth whose pony stood calm. “He does not force the step. He waits for the sand to hold him.”
+“Watch him,” I told a Madurai rider whose beast was lathered and trembling. I pointed to a Maravar youth whose pony stood calm. “He does not force the step. He waits for the sand to hold him.”
 
 The sun climbed. The heat turned the air liquid.
 
@@ -98,7 +98,7 @@ Raza Khan looked at the crude map.
 
 “Make them hold.”
 
-We went back to the work. Slowly, muscle by muscle, the rhythm changed. The Arcot horses stopped fighting the ground. The riders stopped jerking the reins. They began to feel the heavy, sucking pause of the sand and ride through it.
+We went back to the work. Slowly, muscle by muscle, the rhythm changed. The Madurai horses stopped fighting the ground. The riders stopped jerking the reins. They began to feel the heavy, sucking pause of the sand and ride through it.
 
 The change came first in the saddle. Horses moved under their riders with a new give, the subtle shift from resistance to acceptance. Men began to trust that their mounts would not vanish under them at every turn. Horses began to trust that their riders would not ask for impossible strides.
 
@@ -132,7 +132,7 @@ I bowed my head once.
 
 “I will try,” I said.
 
-As I rode back down toward the strip of wet sand where Arcot and Maravar horsemen waited, catching their breath, a strange mixture tightened in my chest.
+As I rode back down toward the strip of wet sand where Madurai and Maravar horsemen waited, catching their breath, a strange mixture tightened in my chest.
 
 Fear, yes. Responsibility, sharp as any spear point. But also something I had not felt since before Goa, before the dungeon, before the storm.
 
@@ -142,13 +142,23 @@ Anticipation.
 
 That evening, after the horses had been rubbed down and the men had scattered to their cook fires, I walked among the picketed mounts.
 
-In the Deccan, I had ridden Kanka, a black mare with a temper like monsoon lightning and a stride that ate distance. She had died at Bassein, a Portuguese ball through her chest, and I had walked the last miles to Goa on foot, too stunned to mourn properly.
+In the Deccan, I had ridden Kanka, a black mare with a temper like monsoon lightning and a stride that ate distance. She had died at Vasai, a Portuguese ball through her chest, and I had walked the last miles to Goa on foot, too stunned to mourn properly.
 
-The horses here were different. Smaller, most of them. The Maravar ponies stood barely fourteen hands, their coats rough, their eyes watchful. The Arcot horses were taller, bred for show as much as war, their lines elegant but their temperaments uncertain in this strange wet land.
+The horses here were different. Smaller, most of them. The Maravar ponies stood barely fourteen hands, their coats rough, their eyes watchful. The Madurai horses were taller, bred for show as much as war, their lines elegant but their temperaments uncertain in this strange wet land.
+
+I had learned, in my months on this coast, that horses were not native to Kerala in the way they were to the Deccan or the Rajput lands. The monsoon rotted hooves. The humidity bred sores and fevers that could kill a horse in a week. The dense palm groves and flooded paddy fields left no room for the open grazing that built strong cavalry stock. Every war horse on this coast was an import, carried by ship or walked down through the mountain passes, and every one of them cost more than a soldier's yearly wage.
+
+A good Madurai charger, the kind Raza Khan's men rode, cost fifty pagodas if you bought it young and trained it yourself. A proven war horse, one that had seen battle and not bolted at the sound of cannon, could fetch twice that. Arab horses, brought by traders through Gujarat and the Konkan ports, commanded three or four times as much, their desert bloodlines prized for endurance and speed. But Arabs suffered worst in this climate. I had seen them arrive sleek and proud, and within a season turn dull-coated and listless, their lungs thick with the wet air, their legs swelling from standing in mud.
+
+The Maravar ponies were different. They were not beautiful. No raja would ride one in a procession. But their ancestors had lived on this coast for generations, bred by families who valued survival over elegance. They knew the monsoon in their bones. Their hooves were hard and narrow, shedding water instead of holding it. Their coats grew thick with oils that turned the rain. They ate the coarse grasses that grew between the paddies, food that would give a Madurai charger colic.
+
+The smart commanders mixed their cavalry. Maravar ponies for the scouts, the flankers, the men who needed to move fast through terrain that would swallow a heavier horse. Madurai and Arab stock for the shock troops, the ones who would hit a line once and hit it hard, then withdraw before the ground could trap them.
+
+It was expensive. Ramayyan had shown me the accounts once, his stylus tapping each line as if the numbers pained him. More coin went to feeding and replacing horses than to paying the men who rode them. But without cavalry, the king was just another petty chief with spears. With cavalry, he could strike where the Dutch did not expect, move faster than their infantry could march, and remind every rival raja that Travancore's reach extended beyond its forts.
 
 One horse caught my attention.
 
-She was a bay mare, neither Arcot nor Maravar, something in between, probably bought from a trader who dealt with both coasts. Her coat was the colour of ochre red earth after rain, that deep red-brown that seemed to hold the earth's heat. She stood at the edge of the picket line, watching me approach with an expression I recognized.
+She was a bay mare, neither Madurai nor Maravar, something in between, probably bought from a trader who dealt with both coasts. Her coat was the colour of ochre red earth after rain, that deep red-brown that seemed to hold the earth's heat. She stood at the edge of the picket line, watching me approach with an expression I recognized.
 
 Wariness. Interest. The calculation of a creature deciding whether to trust.
 
@@ -166,7 +176,7 @@ But it was honest.
 
 She tossed her head, as if agreeing to terms she had not yet heard.
 
-It was the first time since Bassein that I had named a horse. The first time I had let myself care whether one particular animal lived or died.
+It was the first time since Vasai that I had named a horse. The first time I had let myself care whether one particular animal lived or died.
 
 Some bonds are forged in battle. Others in the quiet after, when the sun sets and a man stands alone with a creature who asks nothing but grain and a steady hand.
 

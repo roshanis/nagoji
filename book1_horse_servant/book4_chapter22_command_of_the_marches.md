@@ -332,7 +332,7 @@ Later, when the blood had been washed from the stone and a fresh smear of sandal
 
 Ramayyan paced like a caged tiger.
 
-“I keep ledgers,” he said. “I count chiefs who murmur. I watch Dutch papers. I listen to Marakkar gossip. I have already seen arrows loosed from our own walls, poison in lamp oil, knives in festival crowds. I knew there were men who wished you dead. I did not know one had sent a chaver after the heir.”
+“I keep records,” he said. “I count chiefs who murmur. I watch Dutch papers. I listen to Marakkar gossip. I have already seen arrows loosed from our own walls, poison in lamp oil, knives in festival crowds. I knew there were men who wished you dead. I did not know one had sent a chaver after the heir.”
 
 “If you had,” Marthanda Varma said, “you would have forbidden me to climb that hill. I would have gone anyway.”
 
@@ -374,7 +374,7 @@ I shook my head.
 
 I looked at the king.
 
-“I will take your frontier,” I said. “I will build horse there that answer to this land. I will send word north of what I have chosen. If the Peshwa or his men think me traitor, they can write my name in their own ledgers. I have no space left in mine for their judgments.”
+“I will take your frontier,” I said. “I will build horse there that answer to this land. I will send word north of what I have chosen. If the Peshwa or his men think me traitor, they can write my name in their own books. I have no space left in mine for their judgments.”
 
 Ramayyan closed his eyes briefly, then opened them.
 

@@ -32,7 +32,7 @@ So we rode.
 
 My new command was a mixed force.
 
-Travancore Maravar horse, lighter and quicker than Deccan cavalry, able to move through scrub and narrow paths. Arcot lancers, still a little disdainful of these inland tracks but proud of their spears. A core of Maratha riders from my own band, men who had chosen to stay in this southern service with me, their tongues and jokes still carrying the hills in them.
+Travancore Maravar horse, lighter and quicker than Deccan cavalry, able to move through scrub and narrow paths. Madurai lancers, still a little disdainful of these inland tracks but proud of their spears. A core of Maratha riders from my own band, men who had chosen to stay in this southern service with me, their tongues and jokes still carrying the hills in them.
 
 Behind us, on slower feet, marched a unit of musketeers and a small, mobile gun, meant more to remind the northern chiefs of the king's reach than to batter walls.
 
@@ -470,7 +470,7 @@ The Heir stood frozen, eyes wide, as the assassin's knife, a curved, nasty thing
 
  “Who sent him?”
 
- “We found a mark on his dagger hilt,” Ramayyan said. “And gold in his waist pouch that speaks of Cochin mints. But the style... the hatred...”
+ “We found a mark on his dagger hilt,” Ramayyan said. “And gold in his waist pouch that speaks of Kochi mints. But the style... the hatred...”
 
  He hesitated.
 

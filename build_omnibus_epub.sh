@@ -15,11 +15,11 @@ awk 'FNR==1 && NR!=1 {print ""} {print}' \
   omnibus_title_page.md \
   dedication.md \
   front_matter_publication_notes.md \
-  front_matter_foreword.md \
-  front_matter_prequel.md \
-  front_matter_character_guide.md \
+  book1_horse_servant/front_matter_foreword.md \
+  book1_horse_servant/front_matter_prequel.md \
+  book1_horse_servant/front_matter_character_guide.md \
   title_page.md \
-  finished_book1/*.md \
+  book1_horse_servant/book*_chapter*.md \
   book2_dutchmans_son/title_page.md \
   book2_dutchmans_son/b2_chapter01_the_kings_death.md \
   book2_dutchmans_son/b2_chapter02_smoke_at_colachel.md \
@@ -89,7 +89,7 @@ awk 'FNR==1 && NR!=1 {print ""} {print}' \
   book3_tigers_heir/b3_chapter32_what_we_carry.md \
   book3_tigers_heir/b3_epilogue_monsoon.md \
   Author_Historical_Note_nagoji.md \
-  glossary.md \
+  book1_horse_servant/glossary.md \
   front_matter_about_author.md \
   > "$MANUSCRIPT_FILE"
 

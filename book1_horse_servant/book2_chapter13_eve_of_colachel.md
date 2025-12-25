@@ -28,7 +28,7 @@ He blinked, then grinned.
 
 “Always thinking of profit, Amma,” he said.
 
-“Profit is survival written on a ledger,” she replied. “Go. Make sure the granaries are locked. If any man tries to sell grain to a company agent at the old price tomorrow, I will make him eat dust for a month.”
+“Profit is survival written in accounts,” she replied. “Go. Make sure the granaries are locked. If any man tries to sell grain to a company agent at the old price tomorrow, I will make him eat dust for a month.”
 
 By noon, she was at the fort, her stick tapping stone as she walked along the ramparts.
 
@@ -48,7 +48,7 @@ By sunset, she was back at her estate, watching as boys carried oil to the templ
 
 While she moved through her layers of responsibility, I moved through mine.
 
-In the coastal training ground, I rode with the Arcot and Maravar horsemen one last time before the real test. We had been drilling for months, so we did not run full drills. It was too late to teach new tricks. Instead, we rode slowly along the wet sand, letting the horses feel the ground under different tides.
+In the coastal training ground, I rode with the Madurai and Maravar horsemen one last time before the real test. We had been drilling for months, so we did not run full drills. It was too late to teach new tricks. Instead, we rode slowly along the wet sand, letting the horses feel the ground under different tides.
 
 Ponnan kept his horse a half length from mine, as he often did now, close enough to hear, far enough to pretend distance.
 
@@ -90,7 +90,7 @@ In the war hall, maps lay open again.
 
 Marthanda Varma studied them with that same stillness I had come to recognise, the kind that meant all his thinking had narrowed to a fine point. Beside him stood a man I had seen only fleetingly, Mathoo Tharakan, a Syrian Christian merchant from the north with eyes as sharp as Ramayyan’s stylus. He wore the simple white cloth of his people, but the gold cross at his neck and the deference the Dalawa showed him spoke of his standing.
 
-“They are here because their ledgers are bleeding,” Marthanda Varma said, his finger tracing the coastline on the map. He glanced at the merchant. “They are angry that we swallow the pepper states. They are angry that we refuse their contracts and sell instead through men like Tharakan here. They are angry that the profit stays in Syrian and Nair purses instead of flowing to Batavia.”
+“They are here because their books are bleeding,” Marthanda Varma said, his finger tracing the coastline on the map. He glanced at the merchant. “They are angry that we swallow the pepper states. They are angry that we refuse their contracts and sell instead through men like Tharakan here. They are angry that the profit stays in Syrian and Nair purses instead of flowing to Batavia.”
 
 Tharakan inclined his head. “Their anger is cheaper than their pepper, Your Highness. Let them keep it.”
 
@@ -100,15 +100,71 @@ He looked up, his eyes hard.
 
 Ramayyan moved a token, a small Dutch coin, onto the sand of Colachel.
 
-I had learned by then not to mistake him for a clerk. Before I arrived, he had led armies against Quilon and the Desinganadu coalition, breaking their lines with the same precision he used to balance a ledger. He understood supply routes the way a river pilot understands currents: where grain could flow, where it would pool, where it would run dry. The best generals I had known in the Deccan were the ones who could count rice bags as easily as enemy banners. Ramayyan could do both without looking up from his palm leaves.
+I had learned by then not to mistake him for a clerk. I had seen him lead men against Kollam and the Desinganadu coalition, breaking their lines with the same precision he used to balance accounts. He understood supply routes the way a river pilot understands currents: where grain could flow, where it would pool, where it would run dry. The best generals I had known in the Deccan were the ones who could count rice bags as easily as enemy banners. Ramayyan could do both without looking up from his palm leaves.
 
-"They are overconfident," the Dalawa said. "And they are alone. Our spies in Ceylon say the Governor there has stripped his garrisons to send this force. They expect reinforcements from Batavia, but they will not come."
+"They are overconfident," the Dalawa said. "And they are alone. Our spies in Sri Lanka say the Governor there has stripped his garrisons to send this force. They expect reinforcements from Batavia, but they will not come."
 
 “Why not?” I asked.
 
-“The Java War,” Ramayyan said, a rare hint of satisfaction in his voice. “The Dutch are busy fighting their own fires in the east. They cannot spare men for a pepper feud in Travancore. What sits on that beach is all they have.”
+"The Java War," Ramayyan said, a rare hint of satisfaction in his voice. "The Dutch are busy fighting their own fires in the east. They cannot spare men for a pepper feud in Travancore. What sits on that beach is all they have."
 
-“Two thousand men,” Varma said. “Professional soldiers. Good muskets. Cannon.”
+He pulled out a worn palm leaf, covered in his precise script.
+
+"Let me tell you what Van Imhoff planned," he said. "Because understanding a man's strategy reveals his blindness."
+
+The Dalawa traced a line along the coast.
+
+"His plan was simple. Blockade every port from Kollam to Kanyakumari. Stop all pepper exports. Strangle the chumkam."
+
+"Chumkam?" I asked.
+
+"The tax on imports and exports," Tharakan said, his merchant's voice sharpening. "Every bag of pepper that leaves this coast, every bolt of cloth, every measure of cardamom - the crown takes its share. It is the main source of the Maharaja's income. More than land revenue. More than temple taxes. Van Imhoff thought if he could cut the chumkam, the treasury would empty within months. No treasury, no army. No army, no war."
+
+"A sailor's strategy," Varma said. "He thinks like a man who has spent his life on ships. Control the sea, control the trade. But he forgets that pepper has legs."
+
+Ramayyan smiled thinly.
+
+"The centres of the pepper and cloth industry are not on the coast. They are inland, at Kottar, between Colachel and Kalkulam. From there, transport to Madurai and the Coromandel coast is easy. Overland. The Dutch can blockade our harbours until their ships rot, but they cannot stop a bullock cart."
+
+"So we moved the trade," Tharakan added. "Syrian Christian merchants have been walking pepper east through the passes for months now. The Dutch sit on their roadsteads watching empty beaches while our goods reach Madurai and beyond."
+
+"Van Imhoff does not understand inland trade," Ramayyan said. "His career taught him to think in terms of harbours and roadsteads. He never learned that a region like this has arteries the sea cannot touch."
+
+I remembered the long months leading to this moment.
+
+Last November, Dutch ships had appeared off Colachel and bombarded the town for three days. The inhabitants fled. Houses burned. The harbour was blocked. We thought it was the invasion, but they sailed away when the northeast monsoon made landing impossible. It was only a message, written in salt and ash: we can reach you.
+
+In February, they came back. Stein van Gollenesse led the fleet from Kochi. Four hundred men landed on the beach at dawn, covered by ship cannons firing at our positions. Twenty-two Dutch dead, seventeen wounded. Our men scattered into the dunes and palm forests, regrouped, and began the slow work of encirclement.
+
+What followed was not war as the Deccan knew it. It was a strangling.
+
+The Dutch attacked Tengapattanam next, burning houses and temples, taking prisoners. Women and children dragged to the ships. Ramayyan had shown me the intelligence reports, his face carved from stone as he read them.
+
+"They sold prisoners as slaves," he had said. "Twelve and a half rixdollars for anyone over fourteen. Twenty rixdollars for a Nair, because Nairs are worth more to the Batavia markets. Children younger than fourteen, the soldiers kept for themselves."
+
+The Jesuits at Colachel had protested. The Dutch locked five of them in a ship's cabin, claiming it was for their protection. Some escaped and brought us intelligence: the fortress the Dutch were building had bastions made of mud that collapsed when they mounted cannon. There was no drinking water inside the walls. Provisions were rotting in the open air because they had no warehouse. The soldiers were falling sick.
+
+"Their own engineer, a man named Leslorant, cannot decide what he wants," Karl August had reported. He was our eyes inside the Dutch mind, a German deserter who knew their methods. "He builds today, demolishes tomorrow. The bastions are too small for the artillery. When they put nine cannons on the walls, the weight made them collapse."
+
+"And their commander?" I had asked.
+
+"Hackert." Karl August spat the name. "He left. Took most of the ships, the rice, the gunpowder, the ammunition. Sailed to Tuticorin in May and left a lieutenant named Rijtel behind with two hundred and fifty Europeans, fifty lascars, and two ensigns. They have provisions for days, not weeks."
+
+That was the force we faced now. Not the grand army Van Imhoff had envisioned, but a skeleton garrison abandoned by its own commanders, building a fortress that fell apart under its own guns, drinking arrack because the water tank was never finished.
+
+The coalition that had supported the Dutch was fracturing too.
+
+"The princess-regent of Nedumangadu sent the Dutch a desperate letter in September," Ramayyan said. "She begged them to help her immediately because she could not hold out an hour against us. She asked them to rescue her younger brother, still imprisoned by us, forbidden to correspond with her, barely fed."
+
+"And the Dutch?" I asked.
+
+"Refused. They had other plans." Ramayyan's voice was flat. "They wanted to use her as a lever, not save her. When she was no longer useful, they abandoned her. Desinganadu is the same. He promised to fight us, then stopped his campaign because of a festival. A festival. The man halts a war so his soldiers can sacrifice cocks to Bhadrakali."
+
+The king looked up from the map.
+
+"Coalitions built on Dutch coin fall apart when the coin stops flowing. The princess-regent has no power. Desinganadu has no loyalty. The chiefs who joined them are already sending quiet messages to our court, asking whether we might forgive past mistakes."
+
+"Two thousand men," Varma said now, returning to the present. "Professional soldiers. Good muskets. Cannon."
 
 “Against our thousands,” I said. “If we charge them,”
 
@@ -142,13 +198,13 @@ The clouds that had hung low all day finally let go a thin drizzle, just enough 
 
 Not the noisy, sprawling festival of harvest or marriage, but a focused, tight ceremony meant to steady hands that would hold weapons at dawn. Oil lamps were set in long rows along the outer wall. Men and women moved past them with cupped palms, touching each flame lightly, then pressing that faint heat to their eyelids and chests.
 
-Padmini stood near the inner gate, handing small packets of kumkum and ash to any soldier who wished to take them. Some men tied the cloth around their wrists, others tucked it into their belts. A few, mostly Arcot horsemen, hung back, respectful but wary of unfamiliar gods.
+Padmini stood near the inner gate, handing small packets of kumkum and ash to any soldier who wished to take them. Some men tied the cloth around their wrists, others tucked it into their belts. A few, mostly Madurai horsemen, hung back, respectful but wary of unfamiliar gods.
 
 Ibrahim brought a small brass lamp from the mosque by the shore and set it discreetly near the temple steps, the light from it mingling with the others.
 
 “The sea does not care whose name you call when it takes you,” he murmured to me. “Best to have several listening.”
 
-Raza Khan stood apart with his Arcot men, their hands pressed together in their own way towards Mecca, their lips moving in prayers that belonged to other lands. We had all come from somewhere else. Tomorrow we would bleed into the same sand.
+Raza Khan stood apart with his Madurai men, their hands pressed together in their own way towards Mecca, their lips moving in prayers that belonged to other lands. We had all come from somewhere else. Tomorrow we would bleed into the same sand.
 
 “You think they pray on those ships?” Ibrahim asked, nodding toward the dark line of the sea.
 

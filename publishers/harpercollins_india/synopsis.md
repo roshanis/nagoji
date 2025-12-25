@@ -8,7 +8,7 @@ They break him in a Portuguese cellar under Goa, nail by nail, question by quest
 
 Nagoji Sawant was *huzurat* cavalry under Chimaji Appa, a rider sworn to drive foreigners from the Konkan coast. Captured at the edge of victory, he is shipped south in chains. A storm tears the vessel apart. He lives.
 
-He does not wash up in safety. He washes up on the pepper coast, where every kingdom is a bargain and every bargain is backed by steel. In Venad, the ambitious king Marthanda Varma is crushing rival houses and dragging small polities into a single state. The Dutch East India Company wants that state divided. Cochin and northern powers want it stopped. The sea is full of flags that smell of monopoly.
+He does not wash up in safety. He washes up on the pepper coast, where every kingdom is a bargain and every bargain is backed by steel. In Venad, the ambitious king Marthanda Varma is crushing rival houses and dragging small polities into a single state. The Dutch East India Company wants that state divided. Kochi (Cochin) and northern powers want it stopped. The sea is full of flags that smell of monopoly.
 
 Pulled into court as a useful stranger, Nagoji is set to train horsemen for a war no one can afford to lose. As alliances tighten and old grudges ignite, the decisive clash comes at Colachel, where sand, smoke, and discipline decide whether Europeans can be humbled on an Indian beach.
 
@@ -38,7 +38,7 @@ Nagoji Sawant, a twenty-five-year-old Maratha cavalry officer from near present-
 
 Nagoji learns the workings of Travancore's court and countryside, discovers how much power Malabar women wield, falls into a dangerous attraction with Princess Revathi Bayi, and helps prepare a trap for the Dutch he has not yet seen.
 
-- **Chapter 7: Horses in Wet Sand** - Ordered to train Travancore and Arcot cavalry in 1738, Nagoji struggles until he adapts Deccan tactics to wet coastal ground and wins grudging respect from local horsemen.
+- **Chapter 7: Horses in Wet Sand** - Ordered to train Travancore and Madurai Nayak cavalry in 1738, Nagoji struggles until he adapts Deccan tactics to wet coastal ground and wins grudging respect from local horsemen.
 
 - **Chapter 8: Padmini Amma's Estate** - Billeted on Padmini Amma's matrilineal estate, he is startled by a woman who commands land, men and pepper revenue, and she explains how royal women like Revathi Bayi sit at the top of this order.
 
@@ -46,9 +46,9 @@ Nagoji learns the workings of Travancore's court and countryside, discovers how 
 
 - **Chapter 10: Lessons in Travancore** - Over the years 1738-1740, Nagoji rides in the King's internal campaigns against the *Ettuveetil Pillamar* (Eight Houses). He sees how religion, landholding and army mesh, and how Ramayyan's unseen hand links them to break feudal power.
 
-- **Chapter 11: Dutch on the Horizon** - From coastal watch posts, Ibrahim brings reports of disciplined Dutch ships offshore under a hard-drilling commander Nagoji never quite sees, and De Lannoy's name is heard only as a rumour.
+- **Chapter 11: Dutch on the Horizon** - A watch boy spots Dutch ships probing the coast, and in court Nagoji watches envoys and chiefs manoeuvre as Van Imhoff’s gold insult echoes into new threats. Karl August’s intelligence and Ramayyan’s trade strategy reveal the war behind the war, and Nagoji first glimpses De Lannoy as a distant shape on a Dutch deck.
 
-- **Chapter 12: Threads of Alliance** - In court, Nagoji watches Dutch envoys, chieftains, temple men, Padmini Amma and Revathi Bayi manoeuvre while Ramayyan quietly shapes the outcome, and he realises he is just one piece on a board that stretches to Batavia.
+- **Chapter 12: The Shadow from Arcot** - Chanda Sahib’s pressure from the passes forces Travancore to pay in coin and blood, until news arrives that the Marathas have caged him at Tiruchirappalli. The king and diwan seize their window, turning their full attention to the Dutch at sea.
 
 - **Chapter 13: The Eve of Colachel (1741)** - With Dutch fleets finally near after years of shadow war, Nagoji readies his veteran cavalry. Padmini Amma secures her estates, Revathi Bayi moves inside the palace to manage aristocratic fears, and the king and diwan tighten their trap.
 
@@ -60,7 +60,7 @@ The battle of Colachel shatters Dutch power, introduces De Lannoy as a prisoner 
 
 - **Chapter 14: The Siege of Colachel** - Nagoji rides the slow grind of a coastal siege until a lucky shot hits the Dutch powder magazine and turns the beachhead into fire. In the smoke, he finds the weak seam in a disciplined square, strikes with cavalry at the precise moment, and watches the foreign order collapse into capture.
 
-- **Chapter 15: Prisoners of a New King** - Dutch prisoners are screened, De Lannoy is interrogated by Marthanda Varma and Ramayyan in a scene that echoes Nagoji's own first questioning, and he accepts Travancore service while Nagoji feels his uniqueness fade.
+- **Chapter 15: Prisoners of a New King** - The Dutch are trapped into captivity, and when fresh men slip out of Kanyakumari, Nagoji rides hard to break their attempt to reach the coast. At Udayagiri, De Lannoy is interrogated by Marthanda Varma and Ramayyan in a scene that echoes Nagoji's own first questioning, and he accepts Travancore service while Nagoji feels his uniqueness fade.
 
 - **Chapter 16: Building a New Army** - Time jumps forward as De Lannoy reshapes forts and infantry drills, Nagoji rebuilds cavalry doctrine, Ramayyan keeps everything aligned with the crown, and Padmini Amma negotiates how her estate survives within this tighter military net.
 
@@ -90,6 +90,6 @@ Nagoji chooses to stay in Travancore, rises to command cavalry under De Lannoy, 
 
 - **Chapter 26: Fire in the Pepper Fields** - Dutch-backed raiders and internal revolt strike at once. Nagoji orders a scorched strip through Padmini Amma's pepper fields to deny cover to enemies. He saves the kingdom but wounds his relationship with both Padmini and Revathi, who sees he will always choose the king's project over the old houses.
 
-- **Chapter 27: The Last of the Old Houses** - After Padmini Amma's death, Nagoji becomes caretaker of her estate. The king moves against Kottarakkara, the last independent house. Princess Savitri, Revathi's kinswoman, claims succession; the king refuses. She flees to Dutch support. A bitter war ends with her exile to Cochin.
+- **Chapter 27: The Last of the Old Houses** - After Padmini Amma's death, Nagoji becomes caretaker of her estate. The king moves against Kottarakkara, the last independent house. Princess Savitri, Revathi's kinswoman, claims succession; the king refuses. She flees to Dutch support. A bitter war ends with her exile to Kochi.
 
 - **Chapter 28: Servant of Padmanabha** - In 1750, Marthanda Varma surrenders the kingdom to Lord Padmanabha in the *Thrippadidanam* ceremony, making the state untouchable by noble rebellion. Revathi confronts Nagoji one final time, choosing to be 'the one who remembers' what the kingdom cost. In 1753, the Dutch sign the Treaty of Mavelikkara. Years later, an aged Nagoji stands on the walls as monsoon falls, asked by a young officer what Travancore was like before. "I miss what it cost," he says. Some things do not wash. Some things we carry.

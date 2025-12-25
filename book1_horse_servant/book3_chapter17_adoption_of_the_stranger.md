@@ -38,7 +38,7 @@ The boy considered this.
 
 The Senior Rani placed a hand on his shoulder. “You will learn many things when you are older,” she said. Her voice was cool, measured, the voice of a woman who had spent her life ensuring her son would live long enough to learn anything at all. “For now, you will learn to watch and remember. That is what kings do before they act.”
 
-She looked at me, and I saw the calculation in her eyes, the same ledger-keeping that lived in her brother.
+She looked at me, and I saw the calculation in her eyes, the same cold counting that lived in her brother.
 
 “My brother trusts you,” she said. “I am slower to trust. But I am told you have kept him alive when others would have let him fall. That buys you my attention, if not yet my confidence.”
 

@@ -8,16 +8,16 @@ These are working notes comparing the reference EPUB against our Books 1 to 3 an
 
 *   **Eustachius De Lannoy**: Born in **Arras** (29 December 1715). Deserted the VOC from **Kanyakumari** (2 August 1741). Served Travancore as **Venattu Kappittan** (Captain of Venad) and was known as **Valiya Kappittan** (Great Captain). Died at Udayagiri (1 June 1777).
 *   **Joannes Eustachius Benedictus de Lannoy**: De Lannoy’s son, killed at **Kalakad** (14 September 1765), described as barely twenty. Known as **Cheriya Kappittan** (Small Captain).
-*   **Gustaaf Willem Baron van Imhoff**: Dutch Governor of Ceylon, key diplomatic antagonist; his February 1739 visit and the gold insult help trigger the Travancore war.
-*   **Julius Valentijn Stein van Gollenesse**: VOC commander at Cochin; central figure for the Dutch side of the Colachel campaign (optional to name on-page, but useful historical texture).
+*   **Gustaaf Willem Baron van Imhoff**: Dutch Governor of Sri Lanka (Ceylon), key diplomatic antagonist; his February 1739 visit and the gold insult help trigger the Travancore war.
+*   **Julius Valentijn Stein van Gollenesse**: VOC commander at Kochi (Cochin); central figure for the Dutch side of the Colachel campaign (optional to name on-page, but useful historical texture).
 *   **Successor chain after De Lannoy (use for continuity)**: Pierre Fleury (d. 16 March 1780), then Joseph Donnadi.
 
 ## Places and Geography to Keep Consistent
 
 *   **Colachel**: Dutch landing point and siege theatre.
 *   **Kanyakumari**: Key staging point; De Lannoy’s desertion point in the reference.
-*   **Quilon (Kollam)**: Core node for the Desinganadu polity.
-*   **Desinganadu**: Principality centred on Quilon (Kollam), repeatedly entangled with Dutch policy.
+*   **Kollam (Quilon)**: Core node for the Desinganadu polity.
+*   **Desinganadu**: Principality centred on Kollam (Quilon), repeatedly entangled with Dutch policy.
 *   **Tengapattanam**: Site of the late-night Van Imhoff meeting in February 1739.
 *   **Aramboli pass and Aramboli Lines**: Southern defensive works, important as evidence of pre-war state-building.
 *   **Nedumkotta / Travancore Lines**: Northern wall system (started 1761) with a deep ditch, bastions, and camps, built to resist Mysore.

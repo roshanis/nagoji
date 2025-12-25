@@ -52,7 +52,7 @@ The name fell into the room like a stone into water.
 
 I had known this day was coming.
 
-The foreshadowing had been there for years, in Revathi's silences, in Padmini's careful warnings, in the entries in Ramayyan's ledger that I had glimpsed and pretended not to understand.
+The foreshadowing had been there for years, in Revathi's silences, in Padmini's careful warnings, in the notes Ramayyan kept that I had glimpsed and pretended not to understand.
 
 Kayamkulam had fallen. Thekkumkur and Vadakkumkur were ours. But now a new name rose.
 
@@ -60,7 +60,7 @@ Kottarakkara. Savitri.
 
 Names that meant nothing to me when I first washed up on this coast, and everything now.
 
-The Raja of Kottarakkara had finally pushed too far. Dutch factors in his court. Letters intercepted that spoke of “alternatives” to Travancore rule. When we marched, he fled to Cochin, leaving the throne empty. But his kinswoman remained.
+The Raja of Kottarakkara had finally pushed too far. Dutch factors in his court. Letters intercepted that spoke of “alternatives” to Travancore rule. When we marched, he fled to Kochi, leaving the throne empty. But his kinswoman remained.
 
 “He thinks he can play them against us,” Ramayyan said. “He thinks if he makes himself useful to the Dutch, they will protect him from our reach.”
 
@@ -90,7 +90,7 @@ We blocked the roads his merchants used. We diverted the canals that fed his fie
 
 “Walls can be rebuilt,” I said. “What we are breaking cannot.”
 
-Within months, the siege lines around Kottarakkara were complete. The Raja fled to Cochin. But Savitri did not run. She stayed to claim the chair he left behind.
+Within months, the siege lines around Kottarakkara were complete. The Raja fled to Kochi. But Savitri did not run. She stayed to claim the chair he left behind.
 
 And then Savitri's letter came.
 
@@ -204,7 +204,7 @@ Something flickered in her face. Memory. Pain.
 
 He turned away, then back.
 
-“I will not kill you,” he said. “I will not imprison you. You will go to Cochin, to the Dutch who promised you so much and delivered so little. You will live there. But you will not return. If you set foot in Travancore again, I will treat you as I would any invader.”
+“I will not kill you,” he said. “I will not imprison you. You will go to Kochi, to the Dutch who promised you so much and delivered so little. You will live there. But you will not return. If you set foot in Travancore again, I will treat you as I would any invader.”
 
 “Exile,” she said.
 

@@ -4,7 +4,7 @@ Tipu did not retreat from Travancore because he ran out of courage.
 
 He retreated because another army moved against him from the east, and even tigers must turn when the jungle catches fire.
 
-When the British arrived, they did not come with poetry about saving kingdoms. They came with ledgers, cannon, and the calm certainty of men who believed the peninsula was a board game and we were pieces that could be rearranged.
+When the British arrived, they did not come with poetry about saving kingdoms. They came with account books, cannon, and the calm certainty of men who believed the peninsula was a board game and we were pieces that could be rearranged.
 
 They brought relief.
 
@@ -197,4 +197,3 @@ As the green silk snapped above the wall, I thought of the refugees who had walk
 Walls do not mean safety.
 
 Walls only mean you have chosen where you will bleed.
-

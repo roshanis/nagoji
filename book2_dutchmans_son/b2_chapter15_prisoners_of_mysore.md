@@ -349,7 +349,7 @@ Infantry drill. Volley rhythm. Bayonet work.
 Rocket teams. Ten men. Aim for neatness.
 Cavalry wheel and strike.
 
-I wrote it in Dutch, because Dutch was the language of my old Company's ledgers, and I could not stop myself from treating enemy doctrine like an inventory.
+I wrote it in Dutch, because Dutch was the language of my old Company's account books, and I could not stop myself from treating enemy doctrine like an inventory.
 
 When I finished, I sat in the dark shed and listened to the fort settle into night.
 
