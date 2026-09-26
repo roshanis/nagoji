@@ -16,11 +16,12 @@ Two writers share this chapter. The first wrote the approach to the shrine and m
 
 It gets a 4 rather than a 5 because the scene logic holds and its best passages are among the book's best. It gets a 4 rather than a 3 because the fight and the last forty lines read as machine-made, line after line.
 
-**This ruling cuts less than the pattern auditor asked for.** I defend 23 of its flags. Most are lines VOICE_BIBLE already holds up as models, or plain facts and short dialogue the story needs. The ruling also **adds what both auditors missed**:
+**This ruling cuts less than the pattern auditor asked for.** I defend 23 flagged lines. Most are lines VOICE_BIBLE already holds up as models, or plain facts and short dialogue the story needs. The ruling also **adds what both auditors missed, and corrects one of their claims**:
 - Nagoji has fought chavers before (Ch 8 L9), so "I had heard of such men in stories" (L119) is false.
 - The priest who is sent away at L263 to 265 still has his arm around the heir at L311.
 - Nobody goes to the ten-year-old heir after the killing, although Ch 24 L387 remembers him clinging to his uncle's leg.
-- The king's extermination order at L281 is given again, in full, at Ch 23 L495 to 521.
+- The fight reuses the moves of the Ch 21 festival attack: Nagoji catches the wrist, and the king goes down on spilled oil (Ch 21 L193).
+- One of the holistic reader's continuity objections is wrong. The king's low shoulder at L251 is explained by L215 (note 9).
 
 **Three repairs do more than any single line edit**, and the confirmed table builds them in:
 1. **Let Nagoji count.** When he is afraid, he counts (VOICE_BIBLE T2), and this chapter never lets him. R1 replaces the "Old habit / Count the exits / Everything seemed ordinary" cascade (L57 to 67) with a real count. The assassin then becomes "a third temple man ... I had not counted him". The same fix removes the duplicated courtyard inventory and the confusion between two "younger" temple men.
