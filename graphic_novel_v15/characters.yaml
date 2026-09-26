@@ -1,0 +1,273 @@
+# Horse of the Servant, graphic novel V15: locked character bible.
+#
+# This file is the single source of truth for how every recurring character looks.
+# tools/build.py reads it to write character_bible.md and to inject each character's
+# `prompt` text into every Qwen image prompt where that character appears.
+#
+# Rules:
+# - Change a design here, never inside a panel prompt.
+# - `anchors` are the details a reader uses to recognise the character at thumbnail
+#   size. Every panel that shows the character must keep all of them visible.
+# - `avoid` lists the V13 drift this design corrects. It is added to the negative prompt.
+# - `verify` marks period details that should be checked with the historian agent
+#   before the chapters that use them are drawn.
+
+style:
+  name: "Ink and wash, 1738 Malabar"
+  prompt: >-
+    hand-inked historical graphic novel panel, confident brush-ink contour lines with
+    varied weight, flat watercolour washes, restrained palette, cinematic composition,
+    period-accurate eighteenth-century Indian and Portuguese material culture,
+    realistic proportions, expressive but natural faces, no text
+  negative: >-
+    text, letters, words, captions, speech bubbles, signature, watermark, logo,
+    photorealistic render, 3d render, glossy digital painting, airbrushed skin,
+    bodybuilder physique, six-pack abs, film-star glamour, extra fingers, fused hands,
+    deformed hands, extra limbs, duplicate person, modern clothing, zippers, sunglasses,
+    wristwatch, kerosene hurricane lamp, glass lamp chimney, peacock feather,
+    Chinese dragon
+  palettes:
+    dungeon: "umber, lamp-black and candle-ochre palette, deep shadow, single warm light source"
+    harbour: "bleached whitewash, hard noon light, tar-black hulls, pale sea green"
+    hold: "near-monochrome brown-black, thin grey daylight from a hatch"
+    storm: "slate, storm-teal and bone-white foam, lightning as the only highlight"
+    coast: "wet sand ochre, palm green, overcast pearl sky"
+    village: "red laterite, green paddy, coconut-smoke haze, warm evening"
+    dusk_road: "indigo dusk, firefly yellow points, lamp-orange accents"
+    hall: "carved dark teak, oil-lamp gold, deep red lacquer"
+    deccan_memory: "sun-bleached Deccan gold and dust, sepia edges, slightly faded"
+
+characters:
+
+  nagoji:
+    name: "Nagoji Sawant (later Ananthan Pillai)"
+    role: "Narrator. Maratha huzurat cavalryman, 25 in 1738."
+    prompt: >-
+      Nagoji, a lean wiry Maratha horseman aged 25, long narrow face, high cheekbones,
+      a hooked nose with an old break, heavy black handlebar moustache, a thin pale scar
+      through his left eyebrow, watchful dark eyes, wiry rider's build, not muscular bulk
+    anchors:
+      - "Handlebar moustache (kept in every phase, the main recognition cue)"
+      - "Scar through the LEFT eyebrow"
+      - "Lean horseman's body, never a bodybuilder"
+      - "Phases B and C: bandaged fingers on both hands; Portuguese brand on the LEFT upper arm"
+    phases:
+      A_deccan:
+        when: "Chapter 1 flashback only"
+        wear: >-
+          Dark red Maratha pagdi turban, off-white knee-length angarkha tied at the side,
+          saffron cummerbund, fitted trousers, curved talwar, riding boots
+      B_prisoner:
+        when: "Chapters 1 to 3"
+        wear: >-
+          Long matted black hair to the shoulders, several days of beard, torn grey loincloth
+          and a ragged shirt, iron collar and wrist manacles, dirty cloth bandages on every
+          fingertip, a raised brand on the left upper arm
+      C_castaway:
+        when: "Chapters 4 and 5"
+        wear: >-
+          Wet hair tied back, beard, bare-chested and bruised on the beach; later a plain
+          village cotton dhoti and simple collarless cotton shirt, clean linen strips on the
+          fingers, rope burns across both palms
+      D_travancore_service:
+        when: "Chapters 6 to 16"
+        wear: >-
+          Hair tied up under a dark red Maratha pagdi (his signature, marks him as the
+          outsider), off-white angarkha or a plain shirt for drill, saffron sash
+    avoid: "Bare-chested hero shots outside the beach scene; curly shampoo-advert hair; three different hairstyles in one chapter"
+
+  keshavrao:
+    name: "Keshavrao (Rao)"
+    role: "Younger comrade from the Konkan campaign. Drowns in Chapter 3."
+    prompt: >-
+      Keshavrao, a thin Maratha youth aged 19, narrow shoulders, boyish oval face,
+      large frightened eyes, a wispy first moustache
+    anchors:
+      - "Narrow shoulders and a visibly younger face than Nagoji"
+      - "Hair hacked short in prison (long and tied in the Chapter 1 flashback)"
+      - "His right hand twitches at his side, reaching for a sword that is not there"
+    phases:
+      A_deccan:
+        when: "Chapter 1 flashback and the Chapter 2 memory panel"
+        wear: >-
+          Bareheaded on horseback, long hair tied at the nape, white angarkha, mouth open in
+          song
+      B_prisoner:
+        when: "Chapters 1 to 3"
+        wear: >-
+          Black hair hacked short and uneven, torn grey cloth, iron collar and manacles,
+          bruised cheek
+    avoid: "Looking the same age as Nagoji; appearing without being named"
+
+  kanka:
+    name: "Kanka"
+    role: "Nagoji's black warhorse. Shot at his capture."
+    prompt: >-
+      Kanka, a compact black Deccani war stallion with a thick black mane,
+      a single white sock on the left hind leg, red and gold Maratha bridle
+    anchors: ["Solid black", "White sock on the LEFT hind leg", "Red and gold bridle"]
+
+  duarte:
+    name: "Father Duarte"
+    role: "Portuguese priest at the Goa dungeon. Returns in Chapters 24 and 25."
+    prompt: >-
+      Father Duarte, a thin Portuguese priest in his forties, scholar's stoop,
+      clean-shaven hollow cheeks, tired grey eyes rimmed red, ink-stained fingers,
+      plain black cassock, small wooden crucifix on a cord
+    anchors: ["Stoop", "Grey eyes", "Ink-stained fingers", "Plain black cassock with no ornament"]
+    avoid: "Heroic or sinister caricature; he is a guilty, hesitant man"
+
+  joao:
+    name: "João the gaoler"
+    role: "Portuguese gaoler and torturer."
+    prompt: >-
+      João, a broad heavy Portuguese gaoler in his forties, balding crown with a fringe of
+      dark hair, stubble, belly straining a wide leather belt, leather jerkin over a
+      sweat-stained shirt, a ring of iron keys at his hip
+    anchors: ["Balding crown", "Belly over the belt", "Key ring at the hip"]
+
+  ibrahim:
+    name: "Ibrahim Marakkar, the kapitan"
+    role: "Coastal Marakkar trader and fixer (composite)."
+    prompt: >-
+      Ibrahim, a short broad Marakkar Muslim trader in his forties, a white skullcap,
+      short trimmed greying beard, a scar running from his left ear to the corner of
+      his jaw, white long cotton shirt over a white mundu, an indigo shoulder cloth
+    anchors:
+      - "Scar from LEFT ear to jaw corner"
+      - "Habit: thumb tracing the scar when he is calculating"
+      - "Indigo shoulder cloth"
+    avoid: "Blue European-style coat (V13); green costume shorthand"
+
+  marthanda_varma:
+    name: "Marthanda Varma"
+    role: "King of Venad and Travancore, 33 in 1738."
+    prompt: >-
+      Marthanda Varma, a lean Kerala king aged 33, intense stillness, a thin moustache,
+      hair gathered in a Kerala kudumi knot at the front of the head, sandal-paste marks
+      on the forehead, gold kadukkan earrings, one heavy gold necklace, a fine white
+      shoulder cloth over a bare chest, white mundu with a gold kasavu border,
+      a straight Kerala sword
+    anchors: ["Kudumi front knot, never a turban", "Gold kadukkan earrings", "Stillness: he rarely gestures"]
+    avoid: "Peacock feather turban (V13, every page); Rajput or Mughal court dress; tiger-skin throne"
+    verify: "Formal headgear for the war hall and the 1750 Thrippadidanam scenes"
+
+  ramayyan:
+    name: "Ramayyan Dalawa"
+    role: "The king's diwan and strategist."
+    prompt: >-
+      Ramayyan, a thin Tamil Brahmin minister in his forties, shaved front of the head with
+      a tied kudumi at the back, sacred thread across the chest, plain white veshti and
+      shoulder cloth, deep smile lines at the eyes, thin fingers holding palm-leaf records
+      and an iron stylus
+    anchors: ["Palm-leaf ledger in hand", "Sacred thread", "Dry thin smile"]
+
+  padmini:
+    name: "Padmini Amma"
+    role: "Nair matriarch who adopts Nagoji."
+    prompt: >-
+      Padmini Amma, a formidable Nair matriarch in her sixties, iron-grey hair in a low
+      knot, deep-set commanding eyes, off-white mundu-neriyathu with a narrow gold border,
+      heavy gold earrings, a dark wooden walking stick always in hand
+    anchors: ["Walking stick", "Iron-grey hair", "Off-white with narrow gold border"]
+
+  revathi:
+    name: "Revathi Bayi"
+    role: "Princess of Velinadu. Nagoji's love and later wife."
+    prompt: >-
+      Revathi, a princess of Velinadu in her late twenties, sharp intelligent face, strong
+      straight brows, hair in a Kerala side knot on the left adorned with jasmine, a gold
+      kasu-mala coin necklace, off-white mundu-neriyathu with a deep maroon and gold border
+    anchors:
+      - "Deep maroon and gold border on off-white cloth: ALWAYS, in every scene"
+      - "Side knot on the left with jasmine"
+      - "Gold coin necklace"
+    avoid: "Purple, green or blue Tamil silk saris (V13 changed her costume by chapter, so readers could not tell her from other women)"
+
+  de_lannoy:
+    name: "Eustachius De Lannoy"
+    role: "Dutch officer captured at Colachel, later Travancore's commander."
+    prompt: >-
+      De Lannoy, a tall pale Flemish officer aged 26, long face, light brown hair tied in a
+      queue, careful grey-blue eyes, a Dutch East India Company blue coat with brass
+      buttons (Chapters 13 to 15), later a Travancore officer's coat
+    anchors: ["Very tall", "Hair in a queue", "Long pale face"]
+    verify: "Travancore officer coat design for Chapter 24"
+
+  karl_august:
+    name: "Karl August"
+    role: "European deserter and drill expert (composite)."
+    prompt: >-
+      Karl August, a stocky German soldier in his thirties, sunburned face, short
+      red-blond beard, a battered cocked hat, a faded company coat with the facings torn off
+    anchors: ["Red-blond beard", "Coat with torn-off facings"]
+
+  dhanaji:
+    name: "Dhanaji"
+    role: "Deccani exile in Travancore service."
+    prompt: >-
+      Dhanaji, a broad Deccani soldier in his thirties, pockmarked cheeks, a thick
+      moustache, a faded orange Maratha pagdi, cotton angarkha with a patched sleeve
+    anchors: ["Faded orange pagdi", "Pockmarked cheeks"]
+
+  raza_khan:
+    name: "Raza Khan"
+    role: "Commander of the Madurai horse."
+    prompt: >-
+      Raza Khan, a lean cavalry commander in his forties, hawk nose, a scar puckering his
+      left cheek, a white turban wrapped high, a quilted cotton riding coat, a lance
+    anchors: ["Hawk nose", "Scar on the LEFT cheek", "White turban wrapped high"]
+    avoid: "Green turban shorthand (V13 page 54)"
+
+  ponnam:
+    name: "Ponnam Pandya Deven"
+    role: "Maravar horseman."
+    prompt: >-
+      Ponnam, a stocky dark-skinned Maravar horseman in his thirties, huge curled moustache,
+      a red cloth tied around the head, bare arms, a short spear
+    anchors: ["Huge curled moustache", "Red head cloth"]
+
+  savitri:
+    name: "Savitri of Kottarakkara"
+    role: "Claimant of the last old house (fictional)."
+    prompt: >-
+      Savitri, a dignified Kerala noblewoman in her forties, grey streak in her hair,
+      level unafraid gaze, dark green mundu-neriyathu border, a single gold chain
+    anchors: ["Grey streak in the hair", "Dark green border"]
+
+  heir:
+    name: "The young heir"
+    role: "Rama Varma, the future king."
+    prompt: >-
+      a solemn Kerala prince aged about fourteen, kudumi knot at the front of the head,
+      small gold earrings, white mundu with a gold border
+    anchors: ["Kudumi front knot", "Always shown younger and smaller than the adults"]
+    verify: "His age in each chapter against the novel's timeline"
+
+  kayal:
+    name: "Kayal"
+    role: "Nagoji's bay mare from Chapter 7."
+    prompt: "Kayal, a bay mare with a black mane and a narrow white blaze"
+    anchors: ["Bay coat", "Narrow white blaze"]
+
+  # Chapter 1 to 5 minor characters. Not recurring, but kept here so every panel that
+  # shows them uses the same face.
+  clerk:
+    name: "Portuguese prison clerk"
+    prompt: "a bored Portuguese clerk with a quill, black coat, lace-less white collar"
+  fisherman_bhau:
+    name: "Konkani-speaking fisherman"
+    prompt: >-
+      a weathered Konkani-speaking fisherman in his thirties, lungi hitched to the thigh,
+      short sleeveless vest, a gap-toothed grin, salt-stiff hair
+    anchors: ["Gap-toothed grin"]
+  village_woman:
+    name: "Village healer"
+    prompt: >-
+      a village woman in her fifties with grey streaks in her hair, plain off-white cotton
+      sari, betel-stained lips, brisk capable hands
+  coastal_official:
+    name: "The king's man on the coast"
+    prompt: >-
+      a Travancore official in his fifties, no crown, plain white dhoti and shoulder cloth,
+      a stack of palm-leaf records and a stylus, dry amused eyes

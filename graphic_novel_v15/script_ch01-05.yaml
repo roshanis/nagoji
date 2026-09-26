@@ -1,0 +1,853 @@
+# Horse of the Servant, graphic novel V15. Script for Chapters 1 to 5 (pages 1 to 23).
+#
+# Source: book1_horse_servant/book1_chapter01..05. V13 covered the same ground in 21 pages.
+#
+# What changed from V13, and why:
+# - Cold open on Kanka and Keshavrao alive (page 1), so the reader loses something real
+#   on pages 2, 4 and 16. In V13 both losses arrived as one line of dialogue.
+# - Keshavrao is named and given a face and a song before the ship. The song returns as
+#   a callback on page 9 and as silence on page 16.
+# - Captions cut to what the pictures cannot show. Target: 2 captions a page, 15 words
+#   each at most. V13 averaged 3 to 4, many copied from the novel's prose.
+# - Torture is implied by shadow and cutaway, never shown directly.
+# - The storm gets 6 pages (V13: 5) and the escape gets its beats in order: ring, pull,
+#   musket, ladder, rope, choice, jump.
+# - One chapter header style (see style_guide.md). Chapter openers carry the band; no
+#   other page does.
+#
+# Field reference (tools/build.py validates all of this):
+#   layout:   rows of relative panel widths, top to bottom, e.g. [[1], [1, 1], [2, 1]]
+#   heights:  relative row heights, same length as layout
+#   panels:   in reading order, one per layout slot
+#   chars:    character ids from characters.yaml, optionally with :phase
+#   art:      what Qwen should draw. Never put dialogue or lettering here.
+#   captions: narration boxes. pos is tl, tr, bl or br (default tl)
+#   balloons: kind is speech, shout, whisper or thought. pos is tl, tc, tr, ml, mr, bl,
+#             bc or br. tail points toward the speaker: l, r, bl, br, b (default b)
+#   silent:   true marks an intentional wordless panel
+
+book: "Horse of the Servant"
+chapters:
+  1: "Dungeons of Goa"
+  2: "The Slave Ship South"
+  3: "The Choice in the Storm"
+  4: "The Fishermen of the Pepper Coast"
+  5: "Road to Travancore"
+
+pages:
+
+# ---------------------------------------------------------------- CHAPTER 1
+- page: 1
+  chapter_open: 1
+  palette: deccan_memory
+  purpose: "Cold open. Show what Nagoji is about to lose: the horse, the boy, the life."
+  layout: [[1], [1, 1]]
+  heights: [2.2, 1]
+  panels:
+  - id: "01-1"
+    shot: "wide, low angle, dynamic"
+    chars: ["nagoji:A_deccan", "kanka", "keshavrao:A_deccan"]
+    art: >-
+      Maratha horsemen charging across a dry Konkan plain toward a low Portuguese
+      coastal fort wreathed in musket smoke. In front, Nagoji leans low over Kanka at
+      full gallop, talwar raised. Beside him Keshavrao rides bareheaded, head thrown back,
+      singing. Dust and gunsmoke, sunlight glaring through
+    captions:
+    - {text: "Near Chaul, 1738. The last good day.", pos: tl}
+  - id: "01-2"
+    shot: "close-up"
+    chars: ["keshavrao:A_deccan"]
+    art: "Keshavrao singing at the top of his voice as a musket ball kicks up dust beside his horse, grinning"
+    balloons:
+    - {kind: shout, text: "Shoot the song out of my mouth, if you can!", pos: tl, tail: br}
+  - id: "01-3"
+    shot: "medium, from behind the fort wall"
+    chars: []
+    art: >-
+      Portuguese musketeers in morions behind a parapet, one aiming carefully down his
+      barrel at an approaching black horse. Smoke curling from the matchcord
+    silent: true
+
+- page: 2
+  palette: dungeon
+  purpose: "The capture, then the ledger. The novel's first line lands here, earned."
+  layout: [[1, 1], [1], [1]]
+  heights: [1, 1.1, 1]
+  panels:
+  - id: "02-1"
+    shot: "medium, motion blur"
+    chars: ["nagoji:A_deccan", "kanka"]
+    art: "Kanka rearing in a burst of musket smoke, hit in the chest, Nagoji being thrown from the saddle"
+    silent: true
+  - id: "02-2"
+    shot: "close-up on the ground"
+    chars: ["nagoji:A_deccan", "kanka"]
+    art: >-
+      Nagoji face down in the dust, reaching toward the fallen black horse whose eye is
+      open and still. Portuguese boots stepping between them
+    silent: true
+  - id: "02-3"
+    shot: "insert, top-down on a table"
+    chars: ["clerk"]
+    art: >-
+      A quill scratching a line into a heavy prison ledger by candlelight, a column of
+      numbers, the clerk's ink-black cuff. Dungeon stone behind, blurred
+    captions:
+    - {text: "The first thing they took was my name.", pos: tl}
+  - id: "02-4"
+    shot: "wide, long row"
+    chars: ["nagoji:B_prisoner"]
+    art: >-
+      A curved vaulted cellar under the Goa fortress. A row of chained prisoners against
+      the wet wall, ankles linked by iron. Nagoji among them, bandaged hands in his lap,
+      eyes open and watching. Water dripping, one lantern
+    captions:
+    - {text: "Here I was a number beside the words prisioneiro marata.", pos: bl}
+
+- page: 3
+  palette: dungeon
+  purpose: "Introduce Duarte and João through how they treat the prisoners."
+  layout: [[1], [1, 1], [1]]
+  heights: [1.1, 1, 1]
+  panels:
+  - id: "03-1"
+    shot: "medium wide"
+    chars: ["duarte", "joao"]
+    art: >-
+      Father Duarte walking carefully between the rows of prisoners, lifting his black
+      cassock above the slime on the floor. João beside him with a lantern, grinning.
+      Church bells implied by a shaft of dusty light from a grate far above
+    captions:
+    - {text: "They had already taken my fingernails by the time Father Duarte came.", pos: tl}
+  - id: "03-2"
+    shot: "medium"
+    chars: ["joao", "nagoji:B_prisoner"]
+    art: "João tapping Nagoji's shoulder with his boot, almost friendly. Nagoji's face blank"
+    balloons:
+    - {kind: speech, text: "Este. This one is stubborn.", pos: tl, tail: bl}
+  - id: "03-3"
+    shot: "close-up"
+    chars: ["duarte"]
+    art: "Duarte looking down at Nagoji's bandaged hands, flinching, his ink-stained fingers twitching inside his sleeves"
+    balloons:
+    - {kind: speech, text: "You understand our language, senhor marata?", pos: tr, tail: bl}
+  - id: "03-4"
+    shot: "low angle, Nagoji's point of view upward"
+    chars: ["nagoji:B_prisoner", "duarte", "joao"]
+    art: >-
+      Nagoji looking up from the floor, jaw set, lantern light on one side of his face.
+      Duarte and João above him, silhouetted
+    balloons:
+    - {kind: speech, text: "Enough to know when I am being lied to, Father.", pos: bl, tail: br}
+    - {kind: speech, text: "Bring him.", pos: tr, tail: b}
+
+- page: 4
+  palette: dungeon
+  purpose: "The interrogation. The horse's death lands as a blow, not an aside."
+  layout: [[1], [1, 1], [2, 1]]
+  heights: [1.1, 1, 1]
+  panels:
+  - id: "04-1"
+    shot: "wide establishing"
+    chars: ["nagoji:B_prisoner", "duarte", "joao"]
+    art: >-
+      A vaulted interrogation chamber. Nagoji tied to a stool, wrists bound to its legs.
+      Ropes hanging from an iron ring in the ceiling. A brazier glowing. A table with
+      tools laid out, seen only as dark shapes. Duarte standing with hands in sleeves
+    balloons:
+    - {kind: speech, text: "Which forts? Which roads? Does Chimaji Appa bring his guns to Goa?", pos: tr, tail: b}
+  - id: "04-2"
+    shot: "medium close"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji half-smiling through a split lip"
+    balloons:
+    - {kind: speech, text: "You draw lines on paper and call them borders.", pos: tl, tail: b}
+    - {kind: speech, text: "My horse does not read.", pos: bl, tail: r}
+  - id: "04-3"
+    shot: "medium"
+    chars: ["joao"]
+    art: "João lifting a pair of iron tongs from the table, speaking casually, not looking at Nagoji"
+    balloons:
+    - {kind: speech, text: "Your horse is dead. We shot it when we took you. Fine animal.", pos: tl, tail: br}
+  - id: "04-4"
+    shot: "extreme close-up, memory inset"
+    chars: ["nagoji:B_prisoner", "kanka"]
+    art: >-
+      Split image: Nagoji's eyes in the dark, wet but hard, and overlapping it a warm
+      faded memory of Kanka's black mane against his cheek on a winter morning
+    silent: true
+  - id: "04-5"
+    shot: "close-up"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji's face closed like a door, looking straight at the reader"
+    balloons:
+    - {kind: speech, text: "Then he died better than I will.", pos: tl, tail: b}
+
+- page: 5
+  palette: dungeon
+  purpose: "Duarte's question and his hesitation. The torture is off-panel."
+  layout: [[1, 1], [1], [1, 1]]
+  heights: [1, 1.1, 1]
+  panels:
+  - id: "05-1"
+    shot: "close two-shot"
+    chars: ["duarte", "nagoji:B_prisoner"]
+    art: "Duarte leaning close to Nagoji, speaking quietly, a real question in his tired face"
+    balloons:
+    - {kind: speech, text: "Not for the Viceroy. For me. Why do you fight? For God? For plunder?", pos: tl, tail: bl}
+  - id: "05-2"
+    shot: "medium close"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji answering evenly, eyes on the priest"
+    balloons:
+    - {kind: speech, text: "Because men who do not fight are trampled.", pos: tl, tail: b}
+    - {kind: speech, text: "God I leave to you. He seems to favour whoever has the better powder.", pos: bl, tail: r}
+  - id: "05-3"
+    shot: "wide, shadows only"
+    chars: ["joao", "duarte"]
+    art: >-
+      The chamber wall lit by the brazier. We see only shadows: João's shadow reaching
+      toward the tool table, Duarte's shadow giving a small nod. The stool at the edge
+      of frame
+    captions:
+    - {text: "He nodded. A small, weary nod.", pos: tl}
+    - {text: "After that, pain lost its degrees.", pos: br}
+  - id: "05-4"
+    shot: "insert"
+    chars: ["duarte", "joao"]
+    art: "Duarte's thin ink-stained hand clamping over João's thick wrist as João reaches for the brazier"
+    balloons:
+    - {kind: speech, text: "Not yet. The Viceroy needs a hand that can still hold a quill.", pos: tl, tail: b}
+  - id: "05-5"
+    shot: "medium"
+    chars: ["duarte"]
+    art: "Duarte turning away toward the door, his face grey, not looking back"
+    balloons:
+    - {kind: speech, text: "Enough. A dead prisoner cannot testify.", pos: tr, tail: bl}
+
+- page: 6
+  palette: dungeon
+  purpose: "Nagoji counting. Establish his defining habit, then the hook."
+  layout: [[1], [1, 1, 1], [1]]
+  heights: [1.1, 0.8, 1.2]
+  panels:
+  - id: "06-1"
+    shot: "medium"
+    chars: ["nagoji:B_prisoner"]
+    art: >-
+      Nagoji chained back against the cellar wall, freshly bandaged hands raw, eyes closed,
+      lips moving slightly. Rats at the edge of the straw. Someone sobbing in the dark
+    captions:
+    - {text: "I closed my eyes. Not in prayer. In calculation.", pos: tl}
+  - id: "06-2"
+    shot: "insert"
+    chars: ["joao"]
+    art: "Close on the iron key ring at João's belt as he passes"
+    captions:
+    - {text: "Which men wear keys.", pos: bl}
+  - id: "06-3"
+    shot: "insert"
+    chars: []
+    art: "Two guards changing shift at the cellar door, one yawning"
+    captions:
+    - {text: "When the guard changes.", pos: bl}
+  - id: "06-4"
+    shot: "insert"
+    chars: []
+    art: "Worn stone steps rising toward a bright barred door"
+    captions:
+    - {text: "How many steps to the light.", pos: bl}
+  - id: "06-5"
+    shot: "wide"
+    chars: ["nagoji:B_prisoner"]
+    art: >-
+      Prisoners whispering along the row, heads close together. Nagoji listening, one eye
+      open, a thin thread of daylight across his face from the grate above
+    balloons:
+    - {kind: whisper, text: "They are taking men south. By ship.", pos: tl, tail: br}
+    captions:
+    - {text: "Ships meant movement. Movement meant chances.", pos: br}
+
+# ---------------------------------------------------------------- CHAPTER 2
+- page: 7
+  chapter_open: 2
+  palette: dungeon
+  purpose: "The chain line. Keshavrao is alive, and changed."
+  layout: [[1, 1], [1]]
+  heights: [1, 1.4]
+  panels:
+  - id: "07-1"
+    shot: "medium"
+    chars: ["joao"]
+    art: "João coming down the cellar line with a leather strip of marks, tapping one prisoner, skipping two, humming"
+    balloons:
+    - {kind: shout, text: "Up! Those marked go to the docks.", pos: tl, tail: b}
+  - id: "07-2"
+    shot: "medium"
+    chars: ["nagoji:B_prisoner", "joao"]
+    art: "João unlocking Nagoji's ankle shackles, Nagoji rising slowly, every joint stiff, refusing to limp"
+    balloons:
+    - {kind: speech, text: "On your feet, marata. The Viceroy has found a use for you.", pos: tr, tail: bl}
+  - id: "07-3"
+    shot: "wide, along the chain"
+    chars: ["keshavrao:B_prisoner", "nagoji:B_prisoner"]
+    art: >-
+      Six prisoners chained collar to collar climbing a narrow stone stair toward daylight.
+      Two places ahead of Nagoji, Keshavrao, hair hacked short, narrow shoulders stiff,
+      his right hand twitching at his side. A guard with a club walks between them
+    balloons:
+    - {kind: whisper, text: "Rao.", pos: bl, tail: r}
+    captions:
+    - {text: "Keshavrao. Nineteen. He had sung all the way to Chaul.", pos: tl}
+    - {text: "He did not look back.", pos: br}
+
+- page: 8
+  palette: harbour
+  purpose: "Duarte's blessing, Goa's streets, the black ship."
+  layout: [[1, 1], [1]]
+  heights: [1, 1.5]
+  panels:
+  - id: "08-1"
+    shot: "medium, glare"
+    chars: ["duarte"]
+    art: >-
+      A whitewashed fortress courtyard in hard light. Father Duarte in a broad travelling
+      hat at the gate, slowly making the sign of the cross toward the chain of prisoners.
+      His jaw is tight. It is not triumph
+    captions:
+    - {text: "A blessing, perhaps. Or an apology.", pos: bl}
+  - id: "08-2"
+    shot: "medium, street level"
+    chars: ["nagoji:B_prisoner"]
+    art: >-
+      The prisoner chain shuffling down a narrow Goan street, balconies nearly touching
+      overhead. Goan Catholics in clean cotton covering their noses. A Hindu merchant in a
+      doorway watching with a blank, calculating face
+    silent: true
+  - id: "08-3"
+    shot: "wide, harbour"
+    chars: ["nagoji:B_prisoner"]
+    art: >-
+      Goa harbour: a forest of masts, gulls, a high black-hulled Portuguese carrack with a
+      carved and painted stern castle. The prisoner chain being driven up a tarred gangplank.
+      On the wharf a man in a broad hat checks a list
+    captions:
+    - {text: "Horses would hate this.", pos: br}
+
+- page: 9
+  palette: hold
+  purpose: "The hold. Rebuild the bond so the loss hurts."
+  layout: [[1], [1, 1], [1]]
+  heights: [1.1, 1, 1]
+  panels:
+  - id: "09-1"
+    shot: "wide, cramped"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: >-
+      A ship's hold fitted with wooden shelves divided into pens. Four or five chained men
+      to a pen, iron rings bolted into the beams above. Prayers scratched into the wood.
+      A square of grey sky through the hatch far above
+    captions:
+    - {text: "Rao and I ended in the same pen. Chance, or indifference.", pos: tl}
+  - id: "09-2"
+    shot: "close two-shot in the dark"
+    chars: ["keshavrao:B_prisoner", "nagoji:B_prisoner"]
+    art: "Keshavrao turning his head at last toward Nagoji, a thin smile in a bruised face"
+    balloons:
+    - {kind: whisper, text: "Sahib.", pos: tl, tail: bl}
+    - {kind: whisper, text: "Rao. You are still alive.", pos: br, tail: r}
+  - id: "09-3"
+    shot: "close"
+    chars: ["keshavrao:B_prisoner"]
+    art: "Keshavrao laughing weakly, the laugh turning into a cough"
+    balloons:
+    - {kind: whisper, text: "For now.", pos: tr, tail: bl}
+  - id: "09-4"
+    shot: "memory panel, faded edges"
+    chars: ["keshavrao:A_deccan"]
+    art: "Warm faded memory: Keshavrao riding bareheaded near Chaul, singing, musket smoke behind him (echo of page 1)"
+    captions:
+    - {text: "In camp he was the one who sang. The dungeon had scraped that away.", pos: bl}
+
+- page: 10
+  palette: hold
+  purpose: "The price per head, then the promise. End the chapter on the promise."
+  layout: [[1], [1, 1], [1]]
+  heights: [1, 1, 1.2]
+  panels:
+  - id: "10-1"
+    shot: "looking up at the hatch"
+    chars: []
+    art: "Portuguese sailors' legs and boots seen through the open hatch against bright sky, one of them laughing"
+    balloons:
+    - {kind: speech, text: "These bodies are silver if they live. Pray for their health, not their souls.", pos: tl, tail: b}
+  - id: "10-2"
+    shot: "close"
+    chars: ["keshavrao:B_prisoner"]
+    art: "Keshavrao shivering, looking at the creaking hull"
+    balloons:
+    - {kind: whisper, text: "If the chains break... I will follow wherever you jump, sahib.", pos: tl, tail: b}
+  - id: "10-3"
+    shot: "close"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji's face taking the weight of that, the heaviest thing in the hold"
+    silent: true
+  - id: "10-4"
+    shot: "insert, then pull back"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: >-
+      Nagoji's bandaged hand resting on Keshavrao's thin forearm, manacles touching.
+      Keshavrao's fingers closing over it. Behind them the hull timbers straining as the
+      ship rolls
+    balloons:
+    - {kind: whisper, text: "If there is a chance, I will not leave you.", pos: tl, tail: b}
+    captions:
+    - {text: "Promises made in chains are the easiest to break.", pos: br}
+
+# ---------------------------------------------------------------- CHAPTER 3
+- page: 11
+  chapter_open: 3
+  palette: storm
+  purpose: "The storm arrives. The musket falls into the hold."
+  layout: [[1], [1, 1], [1]]
+  heights: [1, 1, 1.1]
+  panels:
+  - id: "11-1"
+    shot: "wide exterior"
+    chars: []
+    art: "The black carrack pitching in a rising night sea, sails being reefed, lightning on the horizon"
+    captions:
+    - {text: "The first warning was the way the ship moved.", pos: tl}
+  - id: "11-2"
+    shot: "looking up the ladder"
+    chars: []
+    art: "A Portuguese guard at the top of the hatch ladder in pouring rain, musket in hand, bracing against the frame"
+    balloons:
+    - {kind: shout, text: "No shouting! No prayers! Try the ladder and we shoot!", pos: tl, tail: b}
+  - id: "11-3"
+    shot: "medium"
+    chars: []
+    art: "The guard losing his footing as the ship lurches, arms flung wide, the musket leaving his hand"
+    silent: true
+  - id: "11-4"
+    shot: "floor level"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: >-
+      The musket spinning to rest on the wet planks at the foot of the ladder. Every
+      chained man in the hold staring at it. Nagoji and Keshavrao in the foreground
+    captions:
+    - {text: "Muskets are like horses. They draw every eye.", pos: tr}
+
+- page: 12
+  palette: storm
+  purpose: "Water rises. Nagoji takes command. Rao chooses the chance."
+  layout: [[1, 1], [1], [1, 1]]
+  heights: [1, 1.1, 1]
+  panels:
+  - id: "12-1"
+    shot: "medium"
+    chars: []
+    art: "Cold seawater surging across the floor of the hold, men thrown against each other, chains snapping taut"
+    silent: true
+  - id: "12-2"
+    shot: "medium"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji hooking his forearms over the beam above, shouting to the men around him, who copy him"
+    balloons:
+    - {kind: shout, text: "Hook your arms over the beam! Don't let the chain drag you!", pos: tl, tail: b}
+  - id: "12-3"
+    shot: "close two-shot"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: "Nagoji gripping Keshavrao's forearm to steady him, speaking low and close, faces wet"
+    balloons:
+    - {kind: speech, text: "When wood breaks, bolts pull out. There will be one moment. Towards air. Towards anything that floats.", pos: tl, tail: b}
+  - id: "12-4"
+    shot: "close"
+    chars: ["keshavrao:B_prisoner"]
+    art: "Keshavrao swallowing hard, eyes wide, then nodding"
+    balloons:
+    - {kind: speech, text: "With you, I prefer the death that has a chance.", pos: tl, tail: b}
+  - id: "12-5"
+    shot: "insert"
+    chars: []
+    art: "The iron ring bolted into the beam above them, dark cracks spreading through the wood around the bolt"
+    balloons:
+    - {kind: speech, text: "The ring. When it goes, we move.", pos: bl, tail: r}
+
+- page: 13
+  palette: storm
+  purpose: "The pull. Physical, rhythmic, together."
+  layout: [[1], [1, 1, 1], [1]]
+  heights: [1.1, 0.8, 1.1]
+  panels:
+  - id: "13-1"
+    shot: "medium, dramatic"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: "The ring tearing out of the beam in a spray of splinters as the ship drops, the chain sagging, men screaming with sudden hope"
+    silent: true
+  - id: "13-2"
+    shot: "tight"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: "Both men hauling backwards on the chain with everything they have, collars biting their necks"
+    balloons:
+    - {kind: shout, text: "One!", pos: tl}
+  - id: "13-3"
+    shot: "tight"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: "Same two men straining again, the bolt hole widening"
+    balloons:
+    - {kind: shout, text: "Again!", pos: tl}
+  - id: "13-4"
+    shot: "tight"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: "The bolt tearing free, both men falling backwards into the water"
+    balloons:
+    - {kind: shout, text: "Four!", pos: tl}
+  - id: "13-5"
+    shot: "wide"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: >-
+      Nagoji and Keshavrao moving along the pens kicking at rings, freeing other men's
+      collar chains. Still manacled at wrist and ankle, but standing straighter
+    captions:
+    - {text: "Slack iron at the throat did something to the spine that torture had not.", pos: tl}
+
+- page: 14
+  palette: storm
+  purpose: "The ladder and the guard."
+  layout: [[1, 1], [1], [1]]
+  heights: [1, 1.2, 1]
+  panels:
+  - id: "14-1"
+    shot: "medium"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji wading through knee-deep water and picking up the unloaded musket by the stock"
+    captions:
+    - {text: "Not loaded. Still, weight is weight.", pos: tl}
+  - id: "14-2"
+    shot: "medium"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: "Nagoji starting up the swaying ladder, shackled ankles, musket in one hand. Keshavrao at its foot"
+    balloons:
+    - {kind: speech, text: "Stay behind me.", pos: tr, tail: bl}
+  - id: "14-3"
+    shot: "low angle up the ladder, lightning backlight"
+    chars: ["nagoji:B_prisoner"]
+    art: >-
+      A second guard silhouetted in the hatch by a lightning flash, trying to level his
+      musket down at Nagoji as the ship lurches. Nagoji halfway up, driving the musket
+      butt upward into the guard's wrist
+    balloons:
+    - {kind: shout, text: "Back! Back, or I fire!", pos: tl, tail: b}
+  - id: "14-4"
+    shot: "top-down"
+    chars: ["nagoji:B_prisoner"]
+    art: "The guard falling past Nagoji into the flooded hold. Nagoji at the top of the ladder, shouting down to the prisoners below"
+    balloons:
+    - {kind: shout, text: "Now! All of you who can climb, move!", pos: bl, tail: tr}
+
+- page: 15
+  palette: storm
+  purpose: "The deck. The biggest image in the chapter. The rope."
+  layout: [[1], [1, 1]]
+  heights: [2, 1]
+  panels:
+  - id: "15-1"
+    shot: "splash, wide"
+    chars: ["nagoji:B_prisoner", "keshavrao:B_prisoner"]
+    art: >-
+      The carrack's deck in the storm at night. The mainmast snapped, torn canvas
+      streaming. Sailors at the pumps and cutting rigging, nobody looking at the
+      prisoners. A towering wave rearing on the right, lit silver by lightning. Nagoji
+      clinging to a rope at the rail, a broken spar floating just beyond it. At the hatch,
+      Keshavrao half out, still chained at the ankles, reaching toward him
+    balloons:
+    - {kind: shout, text: "Sahib! Do not leave me!", pos: bl, tail: r}
+  - id: "15-2"
+    shot: "medium"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji throwing a coil of wet rope across the deck toward the hatch"
+    balloons:
+    - {kind: shout, text: "Tie it round your chest! Quick!", pos: tl, tail: b}
+  - id: "15-3"
+    shot: "medium"
+    chars: ["keshavrao:B_prisoner"]
+    art: "Keshavrao fumbling with the rope with cold, clumsy fingers as a wall of water rises behind him"
+    silent: true
+
+- page: 16
+  palette: storm
+  purpose: "The loss and the choice. Let the silent panel breathe."
+  layout: [[1, 1], [1], [1, 1]]
+  heights: [1, 1.2, 1]
+  panels:
+  - id: "16-1"
+    shot: "insert"
+    chars: ["nagoji:B_prisoner"]
+    art: "The rope tearing through Nagoji's bandaged hands, skin burning, pulled by a force far stronger than a man"
+    captions:
+    - {text: "The line took the wrong kind of weight.", pos: tl}
+  - id: "16-2"
+    shot: "medium"
+    chars: []
+    art: "The end of the rope whipping over the rail into the black water"
+    silent: true
+  - id: "16-3"
+    shot: "wide, still"
+    chars: []
+    art: "The empty hatch, a broken ladder, seawater pouring in, rain. No one there"
+    silent: true
+  - id: "16-4"
+    shot: "close"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji at the rail, rain on his face, rope wrapped twice around his chest, looking down at the floating spar"
+    balloons:
+    - {kind: speech, text: "Forgive me.", pos: tl, tail: b}
+  - id: "16-5"
+    shot: "wide, from the sea looking up"
+    chars: ["nagoji:B_prisoner"]
+    art: "Nagoji leaping from the rail of the listing ship into the churning sea toward the spar"
+    captions:
+    - {text: "To the boy I promised not to leave. To the horse who died better than I would.", pos: tl}
+
+# ---------------------------------------------------------------- CHAPTER 4
+- page: 17
+  chapter_open: 4
+  palette: coast
+  purpose: "Alive. Strangers' faces. The wreck on the reef."
+  layout: [[1], [1, 1], [1]]
+  heights: [1.1, 1, 1]
+  panels:
+  - id: "17-1"
+    shot: "wide, high angle"
+    chars: ["nagoji:C_castaway"]
+    art: >-
+      A grey dawn beach, black rocks, a line of coconut palms. Nagoji face down in the
+      surf line, fingers dug into the sand. Far along the shore a Portuguese hull broken
+      on a reef, timber in the waves
+    captions:
+    - {text: "When the sea finally spat me out, it did so without ceremony.", pos: tl}
+  - id: "17-2"
+    shot: "Nagoji's point of view, looking up"
+    chars: ["fisherman_bhau"]
+    art: "Three fishermen's faces against a flat grey sky, looking down, the nearest one with a gap-toothed grin"
+    balloons:
+    - {kind: speech, text: "Easy, bhau. You are on land now.", pos: tl, tail: b}
+  - id: "17-3"
+    shot: "close"
+    chars: ["nagoji:C_castaway", "fisherman_bhau"]
+    art: "A clay pot pressed to Nagoji's cracked lips"
+    balloons:
+    - {kind: speech, text: "Water.", pos: tr, tail: bl}
+  - id: "17-4"
+    shot: "insert"
+    chars: ["nagoji:C_castaway"]
+    art: "A fisherman's hand lifting Nagoji's bandaged hand, another pulling cloth back from the angry brand on his left upper arm"
+    balloons:
+    - {kind: speech, text: "Soldier's calluses. And look. The brand.", pos: tl, tail: b}
+
+- page: 18
+  palette: coast
+  purpose: "The debate over his life, and the first mention of Travancore."
+  layout: [[1, 1], [1], [1]]
+  heights: [1, 1, 1.1]
+  panels:
+  - id: "18-1"
+    shot: "medium"
+    chars: []
+    art: "A nervous older fisherman standing back, glancing toward the wreck"
+    balloons:
+    - {kind: speech, text: "Kill him. The Portuguese will come asking about their ship.", pos: tl, tail: b}
+  - id: "18-2"
+    shot: "medium"
+    chars: ["fisherman_bhau"]
+    art: "The gap-toothed fisherman snorting, crouched by Nagoji"
+    balloons:
+    - {kind: speech, text: "They ask anyway. Half dead is still half alive.", pos: tl, tail: b}
+  - id: "18-3"
+    shot: "close two-shot"
+    chars: ["fisherman_bhau", "nagoji:C_castaway"]
+    art: "The fisherman leaning in, Nagoji's eyes sharpening at the word king"
+    balloons:
+    - {kind: speech, text: "Our king to the south fights them too. And the Dutch.", pos: tl, tail: b}
+    - {kind: speech, text: "Travancore.", pos: br, tail: l}
+  - id: "18-4"
+    shot: "wide"
+    chars: ["nagoji:C_castaway", "fisherman_bhau"]
+    art: >-
+      The fishermen carrying Nagoji inland between wet paddy plots and red laterite houses
+      with palm-leaf roofs. Children staring from doorways. A girl pointing
+    balloons:
+    - {kind: speech, text: "Portuguese!", pos: tl, tail: b}
+    - {kind: speech, text: "No. This one is enemy of the Portuguese.", pos: br, tail: b}
+
+- page: 19
+  palette: village
+  purpose: "Care, and the man who weighs him."
+  layout: [[1, 1], [1], [1]]
+  heights: [1, 1, 1.2]
+  panels:
+  - id: "19-1"
+    shot: "medium"
+    chars: ["village_woman"]
+    art: "A grey-streaked village woman in her doorway wiping her hands on her sari, looking the dripping stranger up and down"
+    balloons:
+    - {kind: speech, text: "Bring him in. If he dies, burn him quietly. If not, send for the kapitan.", pos: tl, tail: b}
+  - id: "19-2"
+    shot: "medium, interior"
+    chars: ["village_woman", "nagoji:C_castaway"]
+    art: "Inside a cool dim mud house, Nagoji on a woven mat, the woman cleaning his wounds briskly, mouth tight at the sight of his fingers"
+    balloons:
+    - {kind: speech, text: "She asks what they did to you.", pos: tl, tail: b}
+    - {kind: speech, text: "Asked questions.", pos: br, tail: l}
+  - id: "19-3"
+    shot: "insert"
+    chars: []
+    art: "A barefoot boy panting at the doorway, pointing back up the path"
+    silent: true
+  - id: "19-4"
+    shot: "medium, doorway silhouette"
+    chars: ["ibrahim", "nagoji:C_castaway"]
+    art: >-
+      Ibrahim stepping into the dim house, backlit, short and broad, the scar from his left
+      ear to his jaw catching the light. His eyes moving over Nagoji like a horse trader's
+      over new stock
+    captions:
+    - {text: "In that silence, I was being weighed.", pos: br}
+
+# ---------------------------------------------------------------- CHAPTER 5
+- page: 20
+  chapter_open: 5
+  palette: village
+  purpose: "Ibrahim, and the ache of the word horse."
+  layout: [[1, 1], [1], [1]]
+  heights: [1, 1, 1]
+  panels:
+  - id: "20-1"
+    shot: "medium"
+    chars: ["ibrahim"]
+    art: "Ibrahim seated on a stool, thumb tracing the scar on his jaw, studying Nagoji"
+    balloons:
+    - {kind: speech, text: "You are Maratha. You fought them.", pos: tl, tail: b}
+  - id: "20-2"
+    shot: "medium"
+    chars: ["nagoji:C_castaway"]
+    art: "Nagoji sitting up on the mat, bruised, bandaged, meeting his eyes"
+    balloons:
+    - {kind: speech, text: "Yes. Who is your king?", pos: tl, tail: b}
+  - id: "20-3"
+    shot: "two-shot"
+    chars: ["ibrahim", "nagoji:C_castaway"]
+    art: "Ibrahim standing, Nagoji's face changing at a single word"
+    balloons:
+    - {kind: speech, text: "You will learn his titles in time. Can you ride? A cart, or a horse?", pos: tl, tail: bl}
+    captions:
+    - {text: "At the word horse, an ache that had nothing to do with broken skin.", pos: br}
+  - id: "20-4"
+    shot: "medium"
+    chars: ["nagoji:C_castaway"]
+    art: "Nagoji in a clean village cotton dhoti and simple shirt, the brand now hidden, looking down at the unfamiliar cloth"
+    balloons:
+    - {kind: speech, text: "I can sit.", pos: tr, tail: bl}
+
+- page: 21
+  palette: dusk_road
+  purpose: "The road. Pepper, guns, and how news travels on this coast."
+  layout: [[1], [1, 1], [1]]
+  heights: [1.3, 1, 1]
+  panels:
+  - id: "21-1"
+    shot: "wide"
+    chars: ["ibrahim", "nagoji:C_castaway"]
+    art: >-
+      A bullock cart creaking along a raised path between flooded paddy fields at dusk,
+      the water reflecting the sky in strips. Sacks of rice and dried black pepper in the
+      cart bed. Nagoji on the sacks, Ibrahim at the front. Fireflies beginning
+    balloons:
+    - {kind: speech, text: "Pepper. It sits in the lungs. It pays for guns.", pos: tl, tail: b}
+    - {kind: speech, text: "And for kings.", pos: tr, tail: b}
+  - id: "21-2"
+    shot: "medium"
+    chars: ["ibrahim"]
+    art: "Ibrahim looking sideways at Nagoji from the cart, a little too careful"
+    balloons:
+    - {kind: speech, text: "My people are the vines along this coast. We carry news as well as goods.", pos: tl, tail: b}
+  - id: "21-3"
+    shot: "medium"
+    chars: ["nagoji:C_castaway"]
+    art: "Nagoji watching him, not fooled"
+    balloons:
+    - {kind: speech, text: "And what do you tell them about me?", pos: tl, tail: b}
+  - id: "21-4"
+    shot: "medium wide"
+    chars: ["ibrahim", "nagoji:C_castaway"]
+    art: "Village boys running alongside the cart, pointing and laughing at the stranger"
+    balloons:
+    - {kind: speech, text: "Who is he?", pos: tl, tail: b}
+    - {kind: speech, text: "A man who thought he could drown, then changed his mind.", pos: br, tail: l}
+
+- page: 22
+  palette: dusk_road
+  purpose: "The shrine. The old woman names what he carries."
+  layout: [[1], [1, 1]]
+  heights: [1.3, 1]
+  panels:
+  - id: "22-1"
+    shot: "wide"
+    chars: ["ibrahim", "nagoji:C_castaway"]
+    art: >-
+      A wayside shrine under a great tree hung with cloth and bangles, a stone image, a
+      small oil lamp in a clay dish. An old woman blessing Ibrahim with a smear of ash.
+      The cart waiting on the road
+    silent: true
+  - id: "22-2"
+    shot: "close"
+    chars: []
+    art: "The old woman looking past Ibrahim straight at Nagoji, lamp light under her face"
+    balloons:
+    - {kind: speech, text: "That one carries storms in his bones.", pos: tl, tail: b}
+  - id: "22-3"
+    shot: "two-shot"
+    chars: ["ibrahim", "nagoji:C_castaway"]
+    art: "Ibrahim shrugging as he climbs back onto the cart, Nagoji raising an eyebrow"
+    balloons:
+    - {kind: speech, text: "I told her you carry horses there too. Both are useful, if you can ride them.", pos: tl, tail: b}
+
+- page: 23
+  palette: hall
+  purpose: "The test before the king's man. End Book One's opening act."
+  layout: [[1], [1, 1], [1]]
+  heights: [1.1, 1, 1.1]
+  panels:
+  - id: "23-1"
+    shot: "wide interior"
+    chars: ["coastal_official", "ibrahim", "nagoji:C_castaway"]
+    art: >-
+      A low compound hall with carved wooden pillars and hanging oil lamps. Men seated
+      cross-legged. On a slightly raised platform, the official with palm-leaf records.
+      Ibrahim presenting Nagoji
+    balloons:
+    - {kind: speech, text: "You bring me shipwreck.", pos: tr, tail: b}
+    - {kind: speech, text: "The sea brought him. I only stopped the crabs finishing.", pos: bl, tail: r}
+  - id: "23-2"
+    shot: "medium"
+    chars: ["coastal_official"]
+    art: "The official tapping his stylus on a palm leaf"
+    balloons:
+    - {kind: speech, text: "Our king has Madurai horse and his own musketeers. What does a Maratha rider know that he does not?", pos: tl, tail: b}
+  - id: "23-3"
+    shot: "close"
+    chars: ["nagoji:C_castaway"]
+    art: "Nagoji answering steadily, lamp light on the scar through his eyebrow"
+    balloons:
+    - {kind: speech, text: "What a horse can do to a musket line, when the man in the saddle has stopped being impressed.", pos: tl, tail: b}
+  - id: "23-4"
+    shot: "wide, night exterior, dreamlike"
+    chars: ["nagoji:C_castaway"]
+    art: >-
+      Nagoji asleep on a mat under the eaves at night. Above him, dissolving into the dark,
+      a faint vision of horses galloping along wet sand under a moon
+    balloons:
+    - {kind: speech, text: "Rest tonight. Tomorrow, the king's war hall.", pos: tl, tail: b}
+    captions:
+    - {text: "That night I did not dream of drowning. Only hooves on sand.", pos: br}
