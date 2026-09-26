@@ -136,7 +136,8 @@ def cmd_refs(args):
             prompt = (f"{style['prompt'].strip().rstrip('.')}. Character model sheet on a plain warm paper background, "
                       f"{views} of the same {'animal' if is_horse else 'person'}, consistent design "
                       f"across every view, even neutral lighting. {subject}.")
-            params = {"size": REF_SIZE, "negative_prompt": style["negative"], "prompt_extend": False,
+            negative = style["negative"] + (f", {c['avoid_visual']}" if c.get("avoid_visual") else "")
+            params = {"size": REF_SIZE, "negative_prompt": negative, "prompt_extend": False,
                       "watermark": False, "seed": args.seed}
             print("ref", ref)
             data = call(args, args.t2i_model, [{"text": prompt}], params)

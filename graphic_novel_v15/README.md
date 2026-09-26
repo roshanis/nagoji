@@ -17,6 +17,9 @@ approach before the remaining chapters are redone.
 | `style_guide.md` | Look, storytelling rules, page template, workflow |
 | `tools/build.py` | Validate, generate docs and prompts, letter and assemble pages |
 | `tools/generate_qwen.py` | Generate character sheets and panel art with Qwen image models |
+| `openai_prompts_ch01-05.md` | The same prompts written for OpenAI image models, ready to paste into ChatGPT (generated) |
+| `prompts/script_ch01-05.openai.jsonl` | OpenAI requests, one per sheet and panel (generated) |
+| `tools/generate_openai.py` | Generate sheets and panels through the OpenAI Images API |
 | `fonts/` | Comic Neue and Cinzel (SIL Open Font License) |
 
 Generated at build time and not committed: `out/` (lettered pages and PDF), `refs/`
@@ -26,9 +29,9 @@ Generated at build time and not committed: `out/` (lettered pages and PDF), `ref
 
 - Script, character bible, prompts and lettering pipeline: done for Chapters 1 to 5.
 - Art: **not generated yet.** The environment this was built in cannot reach the Qwen
-  API (its network policy blocks `dashscope.aliyuncs.com` and `huggingface.co`), so
-  `tools/generate_qwen.py` has only been dry-run. Its first real run should be a single
-  panel, checked by eye.
+  API or the OpenAI API (its network policy blocks `dashscope.aliyuncs.com`,
+  `huggingface.co` and `api.openai.com`), so both generator scripts have only been
+  dry-run. The first real run of either should be a single panel, checked by eye.
 
 ## Quick start
 
@@ -42,3 +45,6 @@ python tools/generate_qwen.py panels --only 01-1   # one panel first
 python tools/generate_qwen.py panels --pages 1-23
 python tools/build.py pages          # final lettered pages and PDF in out/
 ```
+
+OpenAI instead of Qwen: paste from `openai_prompts_ch01-05.md` into ChatGPT, or run
+`python tools/build.py openai`, then `tools/generate_openai.py sheets` and `panels`.

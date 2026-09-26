@@ -8,7 +8,8 @@
 # - Change a design here, never inside a panel prompt.
 # - `anchors` are the details a reader uses to recognise the character at thumbnail
 #   size. Every panel that shows the character must keep all of them visible.
-# - `avoid` lists the V13 drift this design corrects. It is added to the negative prompt.
+# - `avoid` explains, for people, which V13 drift this design corrects.
+# - `avoid_visual` is the image-safe version, added to every image prompt's exclusions.
 # - `verify` marks period details that should be checked with the historian agent
 #   before the chapters that use them are drawn.
 
@@ -46,6 +47,7 @@ characters:
       Nagoji, a lean wiry Maratha horseman aged 25, long narrow face, high cheekbones,
       a hooked nose with an old break, heavy black handlebar moustache, a thin pale scar
       through his left eyebrow, watchful dark eyes, wiry rider's build, not muscular bulk
+    avoid_visual: "muscular bodybuilder torso, glossy curly hair, clean-shaven face"
     anchors:
       - "Handlebar moustache (kept in every phase, the main recognition cue)"
       - "Scar through the LEFT eyebrow"
@@ -82,6 +84,7 @@ characters:
     prompt: >-
       Keshavrao, a thin Maratha youth aged 19, narrow shoulders, boyish oval face,
       large frightened eyes, a wispy first moustache
+    avoid_visual: "a man older than twenty, thick beard"
     anchors:
       - "Narrow shoulders and a visibly younger face than Nagoji"
       - "Hair hacked short in prison (long and tied in the Chapter 1 flashback)"
@@ -114,6 +117,7 @@ characters:
       Father Duarte, a thin Portuguese priest in his forties, scholar's stoop,
       clean-shaven hollow cheeks, tired grey eyes rimmed red, ink-stained fingers,
       plain black cassock, small wooden crucifix on a cord
+    avoid_visual: "sinister villain caricature, ornate vestments"
     anchors: ["Stoop", "Grey eyes", "Ink-stained fingers", "Plain black cassock with no ornament"]
     avoid: "Heroic or sinister caricature; he is a guilty, hesitant man"
 
@@ -133,6 +137,7 @@ characters:
       Ibrahim, a short broad Marakkar Muslim trader in his forties, a white skullcap,
       short trimmed greying beard, a scar running from his left ear to the corner of
       his jaw, white long cotton shirt over a white mundu, an indigo shoulder cloth
+    avoid_visual: "European coat, turban"
     anchors:
       - "Scar from LEFT ear to jaw corner"
       - "Habit: thumb tracing the scar when he is calculating"
@@ -148,6 +153,7 @@ characters:
       on the forehead, gold kadukkan earrings, one heavy gold necklace, a fine white
       shoulder cloth over a bare chest, white mundu with a gold kasavu border,
       a straight Kerala sword
+    avoid_visual: "turban, peacock feather, tiger-skin throne, Mughal or Rajput court dress"
     anchors: ["Kudumi front knot, never a turban", "Gold kadukkan earrings", "Stillness: he rarely gestures"]
     avoid: "Peacock feather turban (V13, every page); Rajput or Mughal court dress; tiger-skin throne"
     verify: "Formal headgear for the war hall and the 1750 Thrippadidanam scenes"
@@ -178,6 +184,7 @@ characters:
       Revathi, a princess of Velinadu in her late twenties, sharp intelligent face, strong
       straight brows, hair in a Kerala side knot on the left adorned with jasmine, a gold
       kasu-mala coin necklace, off-white mundu-neriyathu with a deep maroon and gold border
+    avoid_visual: "silk sari in purple, green or blue"
     anchors:
       - "Deep maroon and gold border on off-white cloth: ALWAYS, in every scene"
       - "Side knot on the left with jasmine"
@@ -216,6 +223,7 @@ characters:
     prompt: >-
       Raza Khan, a lean cavalry commander in his forties, hawk nose, a scar puckering his
       left cheek, a white turban wrapped high, a quilted cotton riding coat, a lance
+    avoid_visual: "green turban, crescent flag"
     anchors: ["Hawk nose", "Scar on the LEFT cheek", "White turban wrapped high"]
     avoid: "Green turban shorthand (V13 page 54)"
 

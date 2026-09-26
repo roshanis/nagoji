@@ -5,11 +5,12 @@ Commands:
   check     validate the script and characters (run before anything else)
   docs      write character_bible.md and script_*.md for reading and review
   prompts   write prompts/<script>.jsonl, one Qwen request per panel
+  openai    write OpenAI image prompts (JSONL for the API, Markdown for ChatGPT)
   pages     compose lettered pages from art/<panel-id>.png (grey placeholders
             where art is missing) into out/pages/*.png and out/<script>.pdf
 
 Usage:
-  python tools/build.py check|docs|prompts|pages [script_ch01-05.yaml]
+  python tools/build.py check|docs|prompts|openai|pages [script_ch01-05.yaml]
 
 Lettering is done here, not by the image model, so balloons can never overflow,
 go blank or cover a title the way V13 page 136 did: any text that does not fit
@@ -191,8 +192,8 @@ def build_prompt(chars, page, panel):
         if phase:
             desc += f", wearing: {c['phases'][phase]['wear'].strip()}"
         parts.append(f"Character: {desc}.")
-        if c.get("avoid"):
-            negatives.append(c["avoid"])
+        if c.get("avoid_visual"):
+            negatives.append(c["avoid_visual"])
         refs.append(cid)
     parts.append("Leave clear empty space for lettering; no text anywhere in the image.")
     return " ".join(parts), ", ".join(negatives), refs
@@ -213,6 +214,111 @@ def cmd_prompts(chars, script, script_name):
             }, ensure_ascii=False))
     out.write_text("\n".join(lines) + "\n")
     print(f"wrote {out.relative_to(ROOT)} ({len(lines)} panels)")
+
+
+# ------------------------------------------------------------------ OpenAI prompts
+# OpenAI image models (gpt-image-1) take one natural-language prompt and no negative
+# prompt, so exclusions are written into the prompt as an "Avoid" line.
+OPENAI_SIZES = [(1536, 1024), (1024, 1024), (1024, 1536)]
+AREA = {"t": "top", "m": "middle", "b": "bottom", "l": "left", "c": "centre", "r": "right"}
+
+
+def openai_size(w, h):
+    ratio = w / h
+    return min(OPENAI_SIZES, key=lambda s: abs(math.log((s[0] / s[1]) / ratio)))
+
+
+def char_block(c, phase):
+    lines = [f"- {c['prompt'].strip()}."]
+    if phase:
+        lines.append(f"  Wearing: {c['phases'][phase]['wear'].strip()}.")
+    return "\n".join(lines)
+
+
+def openai_panel_prompt(chars, page, panel, w, h):
+    style, cdefs = chars["style"], chars["characters"]
+    ow, oh = openai_size(w, h)
+    shape = "landscape" if ow > oh else "portrait" if oh > ow else "square"
+    out = [f"A single {shape} panel for a historical graphic novel set on the Indian west coast in 1738.",
+           f"Style: {style['prompt'].strip().rstrip('.')}.",
+           f"Colour: {style['palettes'][page['palette']]}.",
+           f"Camera: {panel.get('shot', 'medium')}.",
+           f"Scene: {panel['art'].strip().rstrip('.')}."]
+    refs = panel.get("chars", [])
+    if refs:
+        out.append("Characters (if character reference sheets are attached, match them exactly):")
+        for ref in refs:
+            cid, phase = split_char(ref)
+            out.append(char_block(cdefs[cid], phase))
+    spots = sorted({AREA[i["pos"][0]] + "-" + AREA[i["pos"][1]]
+                    for i in panel.get("captions", []) + panel.get("balloons", [])})
+    if spots:
+        out.append("Composition: keep the " + " and ".join(spots) + " area of the frame calm and "
+                   "uncluttered (sky, wall or shadow, no faces) because lettering will be added there later.")
+    avoid = [style["negative"].strip()]
+    avoid += [cdefs[split_char(r)[0]]["avoid_visual"] for r in refs if cdefs[split_char(r)[0]].get("avoid_visual")]
+    out.append("Do not draw any text, letters, speech bubbles or captions. Avoid: " + "; ".join(avoid) + ".")
+    return "\n".join(out), f"{ow}x{oh}"
+
+
+def openai_sheet_prompt(chars, cid, phase):
+    style, c = chars["style"], chars["characters"][cid]
+    animal = any(k in c.get("role", "").lower() for k in ("horse", "mare"))
+    views = ("side view, three-quarter view and a head close-up" if animal else
+             "full-body front view, three-quarter view, profile view and a head close-up")
+    out = [f"A character model sheet for a historical graphic novel: {views} of the same "
+           f"{'animal' if animal else 'person'}, on plain warm paper, even neutral light, "
+           "the design identical in every view.",
+           f"Style: {style['prompt'].strip().rstrip('.')}.",
+           "Subject:", char_block(c, phase),
+           "Do not draw any text or labels. Avoid: " + style["negative"].strip()
+           + (f"; {c['avoid_visual']}" if c.get("avoid_visual") else "") + "."]
+    return "\n".join(out)
+
+
+def cmd_openai(chars, script, script_name):
+    stem = Path(script_name).stem
+    used = []
+    for page in script["pages"]:
+        for p in page["panels"]:
+            for ref in p.get("chars", []):
+                if ref not in used:
+                    used.append(ref)
+    jl, md = [], [
+        f"# OpenAI image prompts: {stem}", "",
+        f"Generated by `tools/build.py openai` from `characters.yaml` and `{script_name}`. "
+        "Edit those files, not this one.", "",
+        "## How to use in ChatGPT", "",
+        "1. Generate every character sheet below first, in one conversation per character. "
+        "Save the one you like best as `refs/<id>.png`.",
+        "2. For each panel, start a new conversation, attach the sheets for the characters "
+        "named in that panel, then paste the prompt.",
+        "3. Save each result as `art/<panel id>.png`, then run `python tools/build.py pages` to "
+        "letter the pages. Do not let ChatGPT add the dialogue; the build does that.", "",
+        "The API route is `tools/generate_openai.py`, which does steps 1 and 2 automatically.", "",
+        "## Character sheets", ""]
+    for ref in used:
+        cid, phase = split_char(ref)
+        prompt = openai_sheet_prompt(chars, cid, phase)
+        rid = ref.replace(":", "__")
+        jl.append(json.dumps({"kind": "sheet", "id": rid, "size": "1536x1024", "prompt": prompt},
+                             ensure_ascii=False))
+        md += [f"### Sheet `{rid}` (1536x1024)", "", "```", prompt, "```", ""]
+    md += ["## Panels", ""]
+    for page in script["pages"]:
+        md += [f"### Page {page['page']}", ""]
+        for panel, (x, y, w, h) in zip(page["panels"], page_boxes(page)):
+            prompt, size = openai_panel_prompt(chars, page, panel, w, h)
+            refs = [r.replace(":", "__") for r in panel.get("chars", [])]
+            jl.append(json.dumps({"kind": "panel", "id": panel["id"], "page": page["page"],
+                                  "size": size, "refs": refs, "prompt": prompt}, ensure_ascii=False))
+            attach = ", ".join(f"`{r}`" for r in refs) or "none"
+            md += [f"#### Panel {panel['id']} ({size}; attach: {attach})", "", "```", prompt, "```", ""]
+    (ROOT / "prompts").mkdir(exist_ok=True)
+    (ROOT / "prompts" / f"{stem}.openai.jsonl").write_text("\n".join(jl) + "\n")
+    (ROOT / f"openai_prompts_{stem.removeprefix('script_')}.md").write_text("\n".join(md))
+    print(f"wrote prompts/{stem}.openai.jsonl and openai_prompts_{stem.removeprefix('script_')}.md "
+          f"({len(used)} sheets, {len(jl) - len(used)} panels)")
 
 
 # ------------------------------------------------------------------ docs
@@ -459,6 +565,8 @@ def main():
         cmd_docs(chars, script, script_name)
     elif cmd == "prompts":
         cmd_prompts(chars, script, script_name)
+    elif cmd == "openai":
+        cmd_openai(chars, script, script_name)
     elif cmd == "pages":
         cmd_pages(chars, script, script_name)
     else:
