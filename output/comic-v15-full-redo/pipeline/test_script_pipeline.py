@@ -982,7 +982,7 @@ class Chapter9V2AcceptanceTests(unittest.TestCase):
     def test_live_bible_carries_the_approved_v2_edits(self):
         """Author approved 2026-10-02: review-sheets/CONTINUITY-PROMPT-V2-REVIEW.html, plus Padmini grey from ch16."""
         bible=p.load_continuity(p.CONTINUITY)
-        for text in ('| 9 @1-2.3 |','| 9 @11- |','| 10-15 |','## Scoped art rules (prompt profile v2)'):
+        for text in ('| 9 @1-2.3 |','| 9 @11- |','| 10 @1-1.3 |','| 13-15 |','## Scoped art rules (prompt profile v2)'):
             self.assertIn(text,bible['raw'])
         self.assertNotIn('| 9-15 |',bible['raw'])
         for chapter in (9,15):

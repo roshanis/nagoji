@@ -2,7 +2,7 @@
 
 ## Chapter 5: Road to Travancore
 
-Source: `book1_horse_servant/book1_chapter05_road_to_travancore.md`, 2,007 words, adapted as 8 pages (top of the 6-8 range) and 40 panels. Revised after three blind reviews (r1 kept in `script-reviews/CHAPTER-05-SCRIPT-r1.md`).
+Source: `book1_horse_servant/book1_chapter05_road_to_travancore.md`, 2,007 words, adapted as 9 pages (one over the 6-8 range: the last page was split on 2026-10-02 so its lettering fits) and 40 panels. Revised after three blind reviews (r1 kept in `script-reviews/CHAPTER-05-SCRIPT-r1.md`).
 
 ---
 
@@ -274,7 +274,7 @@ Five panels. Name, rank, and the question that decides everything.
 
 ## PAGE 8
 
-Five panels. The answer, the silence, the bow, and the road pointing south. 8.2 and 8.3 may share one tier, side by side; 8.5 is the tallest tier.
+Three panels. The answer and the silence. 8.2 and 8.3 may share one tier, side by side.
 
 **8.1** Reverse wide from behind the official's platform, looking down the hall: the official's bare shoulder, topknot and palm leaves dark in the near foreground; beyond, the seated men turned on their mats toward Nagoji, who stands small and upright at the edge of the central mat. Ibrahim (turban, grey-flecked beard, faint ash) at his shoulder, leaning in to translate. Nagoji's eyes are not on Ibrahim; they are on the official. Rafters and hanging lamps above leave room for the balloons.
 
@@ -292,7 +292,13 @@ Five panels. The answer, the silence, the bow, and the road pointing south. 8.2 
 
 > *No text.*
 
-**8.4** The official in the mid-ground at a readable size, on his platform, the slight smile, the stylus resting. Nagoji in the foreground, lowering his head in a measured bow, not deep. Ibrahim (turban, faint ash) a step behind him. The official's balloons sit high beside the official; the captions sit in the foreground space around Nagoji's lowered head.
+---
+
+## PAGE 9
+
+Two panels. The bow, and the road pointing south. 9.2 is the tallest tier.
+
+**9.1** The official in the mid-ground at a readable size, on his platform, the slight smile, the stylus resting. Nagoji in the foreground, lowering his head in a measured bow, not deep. Ibrahim (turban, faint ash) a step behind him. The official's balloons sit high beside the official; the captions sit in the foreground space around Nagoji's lowered head.
 
 > OFFICIAL (Malayalam): You speak well for someone who almost fed the fish.
 
@@ -302,7 +308,7 @@ Five panels. The answer, the silence, the bow, and the road pointing south. 8.2 
 
 > CAPTION: but as a man who understands that some battles begin with a lowered gaze and a measured tone.
 
-**8.5** Full width, bottom, the tallest tier, about 40 percent of the page. Night, moonlight the only light. Camera slightly high inside the compound. In the lower foreground, Nagoji asleep on a mat under the eaves, one bandaged hand lying loosely curled on the mat, as if around reins. Beyond him the red stone wall, and over the top of it, pepper vines on their support trees and the pale road running away south into the dark. The captions sit in the moonlit sky.
+**9.2** Full width, bottom, the tallest tier, about 60 percent of the page. Night, moonlight the only light. Camera slightly high inside the compound. In the lower foreground, Nagoji asleep on a mat under the eaves, one bandaged hand lying loosely curled on the mat, as if around reins. Beyond him the red stone wall, and over the top of it, pepper vines on their support trees and the pale road running away south into the dark. The captions sit in the moonlit sky.
 
 > CAPTION: Somewhere to the south a king I had not yet met considered maps covered in salt stains and ink.
 
@@ -316,7 +322,7 @@ Five panels. The answer, the silence, the bow, and the road pointing south. 8.2 
 
 ## Adaptation notes
 
-- **Page budget.** 8 pages, the top of the 6-8 range, 40 panels. The hall interview is the chapter's drama, so it gets three pages (6 to 8). The travel (village, pepper path, cart, road, shrine, hills) is compressed into pages 3 to 5. Page 8 is the densest page because the answer, the bow and the closing night are all verbatim; give 8.5 the tallest tier.
+- **Page budget.** 9 pages, one over the 6-8 range, 40 panels (the author split the last page on 2026-10-02: its lettering did not fit one page). The hall interview is the chapter's drama, so it gets three pages (6 to 8). The travel (village, pepper path, cart, road, shrine, hills) is compressed into pages 3 to 5. Page 8 is the densest page because the answer, the bow and the closing night are all verbatim; give 8.5 the tallest tier.
 - **Lettering convention.** Konkani between Ibrahim and Nagoji is lettered as plain English. Lines tagged (Malayalam) get a distinct treatment (for example angle brackets). Nagoji hears them through Ibrahim, whose translations are not repeated in balloons.
 - **Cut for length.** Ibrahim's "whose boats pull the pepper your people crave" and "they will already know more about you than you think"; "after a Portuguese ship broke"; Nagoji's "Pepper, cloth, horses from beyond the sea" list; the "fewer coins and perhaps fewer fingers" warning; the official's "Rest tonight". The village-life, bazaar and hall descriptions become staging only.
 - **Reordered.** On page 5 the shrine comes before the climb into the hills (the novel has it after), so the page ends on the watcher and "one whose arrival has been announced", which hands off to "This is the man I sent word about" at the gate.
@@ -330,11 +336,11 @@ Five panels. The answer, the silence, the bow, and the road pointing south. 8.2 
 ### Review changes (r1 to r2)
 
 - Restored the raiding admission (4.4) and "Your masters. Not you." (4.5), so "I serve, as all men serve" answers a challenge; page 4 now ends on the fort line and "Our fortresses are both. You will see." gets its own quiet panel (5.1). The 4.3 inset is folded into 4.2.
-- 8.4 bow caption is the novel's full sentence, verbatim, across two boxes.
+- 9.1 bow caption is the novel's full sentence, verbatim, across two boxes.
 - Added "He will want to hear what you have seen" to 1.4.
-- 8.5 uses the novel's maps and road sentences verbatim, restoring "south" and the maps plant.
+- 9.2 uses the novel's maps and road sentences verbatim, restoring "south" and the maps plant.
 - Verbatim fixes: 4.1 "both eyes and more teeth than one would expect from the Viceroy's dungeons"; 7.4 "those local chiefs who think they can hide behind European flags"; 8.1 "He knows these hills".
-- Added a silent beat (8.3) for the novel's pause before the smile; the official's lines follow in 8.4.
+- Added a silent beat (8.3) for the novel's pause before the smile; the official's lines follow in 9.1.
 - 7.5 stakes caption moved above the question, so the question is the last thing lettered before the turn.
 - Page 8 reframed: reverse wide down the hall (8.1), close on the eyes (8.2), silent side-on (8.3), in place of three push-ins on one face.
 - Cut "A calculation. A road not taken." from 1.5; the flicker is wordless, as with Duarte in Chapter 1. Corrected the note that called 4.2 a silent beat.

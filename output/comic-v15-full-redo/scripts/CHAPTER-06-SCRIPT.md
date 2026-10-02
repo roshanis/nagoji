@@ -260,7 +260,7 @@ Five panels. The answer the chapter exists for. Give the speech room and break i
 
 > NAGOJI: You have guns and forts and men from across the sea who teach you how Europeans think.
 
-**8.2** Large, the page's biggest panel. The stain again, the largest yet, in warm stained tones: Kanka, the black mare of Chapter 1, on wet sand near Chaul, and low over her neck the memory rider, Nagoji BEFORE his capture, in Maratha cavalry dress (rust-red turban, cream tunic, red sash, talwar), hands unbandaged. Other Maratha riders in turbans and cream tunics come in beside him. A line of Portuguese musketeers (broad tilted hats, buff leather coats, matchlocks; not British red, not Dutch blue) flinching and falling out of order as the horses come in at an angle they never drilled for. No blood. At the bottom edge, in normal colour, the present-day Nagoji small, seated on his mat: bare-headed, cream shirt, bandaged hands, speaking.
+**8.2** Large, full width, the page's biggest panel, about 40 percent of the page. The stain again, the largest yet, in warm stained tones: Kanka, the black mare of Chapter 1, on wet sand near Chaul, and low over her neck the memory rider, Nagoji BEFORE his capture, in Maratha cavalry dress (rust-red turban, cream tunic, red sash, talwar), hands unbandaged. Other Maratha riders in turbans and cream tunics come in beside him. A line of Portuguese musketeers (broad tilted hats, buff leather coats, matchlocks; not British red, not Dutch blue) flinching and falling out of order as the horses come in at an angle they never drilled for. No blood. At the bottom edge, in normal colour, the present-day Nagoji small, seated on his mat: bare-headed, cream shirt, bandaged hands, speaking.
 
 > NAGOJI: What you do not yet have is someone who has ridden into a European line and felt it break.
 
@@ -308,7 +308,7 @@ Five panels. The verdict, delivered by a minister whose king is smiling at him.
 
 > RAMAYYAN: You are an experiment.
 
-**9.4** Varma in profile in the near left third, facing screen right, glancing out toward the open side of the hall (face from the sheet only; a cream-and-gold turban with a jewelled peacock-feather crest). The view between the pillars fills the right two thirds: below the fort, a narrow strip of wet sand pinned between a low laterite bluff crowned with coconut palms and the sea. This is the ground of Chapter 7; plant it clearly. Nagoji is out of frame.
+**9.4** Full width. Varma in profile in the near left third, facing screen right, glancing out toward the open side of the hall (face from the sheet only; a cream-and-gold turban with a jewelled peacock-feather crest). The view between the pillars fills the right two thirds: below the fort, a narrow strip of wet sand pinned between a low laterite bluff crowned with coconut palms and the sea. This is the ground of Chapter 7; plant it clearly. Nagoji is out of frame.
 
 > VARMA: [in Malayalam]
 

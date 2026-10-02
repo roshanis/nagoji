@@ -288,7 +288,7 @@ Five panels. The raid near Attingal. Shoot it from outside and above; the point 
 
 > CAPTION: There was no glory in it. Only the brutal efficiency of state-building.
 
-**8.4** The smoking courtyard of an old noble house: carved wooden pillars, a tiled roof scorched at one corner, ash drifting. Marthanda Varma (V13 face; a cream-and-gold turban with its jewelled peacock-feather crest, cream and gold, gold necklaces, bare-chested, spear grounded) standing. Before him the defeated chief: a lean, grey-haired, older Nair lord in fine but disordered white. His sword is still belted at his side, one hand on the buckle, his eyes on the King. The choice is not yet made. Nagoji at the King's shoulder.
+**8.4** The smoking courtyard of an old noble house: carved wooden pillars, a tiled roof scorched at one corner, ash drifting. Marthanda Varma (V13 face; a cream-and-gold turban with its jewelled peacock-feather crest, cream and gold, gold necklaces, bare-chested, spear grounded) standing. Before him the defeated chief: a lean, grey-haired, older Nair lord in fine but disordered white. His sword is still thrust through the waist sash at his side, one hand on its hilt, his eyes on the King. The choice is not yet made. Nagoji at the King's shoulder.
 
 > CAPTION: A house that had been noble for three centuries.
 

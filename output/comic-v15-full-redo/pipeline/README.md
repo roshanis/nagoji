@@ -155,6 +155,38 @@ or sandbox-setting change is performed.
    same frame hash, prompt hash, reference, visual-review and exact-copy gates.
    Reused originals must be copied into the new package and retain source hashes.
 
+## Moving panels to a new page: import-frame
+
+Prepare a new sibling package from the revised script, then import each chosen
+candidate from the original package. For example, move chapter 5 panel 8.4 to 9.1:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 "$V15_PY" "$V15_RUN" import-frame --chapter 5 \
+  --package-dir output/comic-v15-full-redo/chapters/ch05-split \
+  --from-package output/comic-v15-full-redo/chapters/ch05 \
+  --source page-08-panel-04-v03 --frame-id page-09-panel-01
+```
+
+The target panel must be a prepared job, and both packages' recorded scripts must
+have identical speakers and text, chunk for chunk. The target is validated through
+`load_job` as usual. Source lettering comes from the source package's
+`SCRIPT-SOURCE.md`, whose SHA256 must match the script hash in `IMAGEGEN-JOBS.json`.
+Matching entries in `SCRIPT-REVISIONS.json` apply their recorded `lettering_changes`
+in order; entries without lettering changes preserve the frozen copy's lettering.
+This keeps old panel IDs available after the author repaginates the live script.
+Only when `SCRIPT-SOURCE.md` is absent may import read the live source script, and
+its hash must match the prepared hash or an accepted revision for that script.
+A mismatched frozen copy or unrecorded live hash is refused, even when the job
+contains embedded script pages. The source frame must match its
+recorded SHA256, and the source and target packages must differ. The command copies
+the frame to the next free target version without overwriting frames or records.
+It prints the new candidate JSON with `origin: "imported"` and `imported_from`
+containing the source package, candidate record path and SHA256, and original panel
+ID. The generating prompt and its hash remain those of the source candidate.
+Review starts as `pending`; measure geometry and review the new panel before
+selection. Selection and build retain the original prompt hash check.
+`--from-package` and `--source` apply only to `import-frame`.
+
 ## Prompt assembly v2
 
 Chapter 9 and later require an art direction sidecar. Chapters 1 through 8 keep
@@ -254,7 +286,9 @@ prompts. The initial nine-panel pilot is 1.5, 2.2, 5.4, 8.5, 9.2, 5.2, 3.1,
 10.5 and 9.1. Read those v2 prompts beside their v1 in-memory versions and
 keep any A/B comparison outside the package and before editing the live bible.
 The capture gate requires an appended or moderated v2 prompt to repeat the
-exact final SETTING paragraph as its final blank-line paragraph. This worktree
+exact final SETTING paragraph as its final blank-line paragraph. A v2 correction may also be set in just before
+the prepared final SETTING paragraph (the prepared text before it unchanged, SETTING still last);
+the chapter 9 correction batches use that layout. v1 corrections are only ever appended. This worktree
 contains no images and performs no image generation.
 
 Do not bypass hash checks or replace the production sidecar. A v1 versus v2 A/B

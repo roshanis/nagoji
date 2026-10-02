@@ -674,7 +674,7 @@ Five panels. Alone on the bluff at night. Let the page breathe.
 
 > CAPTION: Here they hovered beyond sight, their decisions sealed with wax hundreds of leagues away.
 
-**21.3** Nagoji's palm pressed flat against the rough rock beside him. Ridged nails, the brand edge on the left wrist just visible.
+**21.3** Nagoji's palm pressed flat against the rough rock beside him. Ridged nails, the edge of the brand on the inner left forearm, a hand's width above the wrist, just visible.
 
 > NAGOJI (quiet): Come closer. Come stand where I can reach you.
 

@@ -380,7 +380,7 @@ Four panels. Many crowns, and two days. The memory and the crowns get the most r
 
 > PADMINI: You outsiders see one crown. We see many, layered on the same land. Sometimes they sit well together. Sometimes they cut.
 
-**11.3** Nagoji and Padmini Amma on the platform. Beyond the low wall, the kalari rises and falls: the tops of sticks, a youth caught mid-leap. Padmini Amma getting to her feet, using the stick more as a symbol than as a support. Nagoji still seated, looking up at her.
+**11.3** Full width. Nagoji and Padmini Amma on the platform. Beyond the low wall, the kalari rises and falls: the tops of sticks, a youth caught mid-leap. Padmini Amma getting to her feet, using the stick more as a symbol than as a support. Nagoji still seated, looking up at her.
 
 > NAGOJI: When do we go to Velinadu?
 

@@ -162,6 +162,282 @@ class PackageCase(unittest.TestCase):
         self.assertNotIn('art_direction', job)
 
 
+class ImportFrameTests(PackageCase):
+    TARGET = 'page-09-panel-01'
+    TARGET_SILENT = 'page-09-panel-02'
+
+    def setUp(self):
+        super().setUp()
+        self.source_pkg = self.pkg
+        source_job_path = self.source_pkg / 'IMAGEGEN-JOBS.json'
+        job = json.loads(source_job_path.read_text())
+        job['script'] = r.s.parse_script(self.script)
+        source_job_path.write_text(json.dumps(job), encoding='utf-8')
+        revised = self.root / 'generating-prompt.txt'
+        revised.write_text(BASE_PROMPT + '\nCORRECTION: keep the hands visible.\n', encoding='utf-8')
+        self.source_record = self.capture(self.generated('source.png'), PANEL, '--prompt', str(revised))
+        self.source_record_path = self.candidate_path()
+        self.pkg = self.v15 / 'chapters' / 'ch02-split'
+        (self.pkg / 'prompts').mkdir(parents=True)
+        target_script = self.root / 'split-script.md'
+        target_script.write_text(SCRIPT.replace('PAGE 1', 'PAGE 9').replace('**1.', '**9.'), encoding='utf-8')
+        job['script'] = r.s.parse_script(target_script)
+        for item, panel in zip(job['jobs'], (self.TARGET, self.TARGET_SILENT)):
+            prompt = self.pkg / 'prompts' / f'{panel}.txt'
+            prompt.write_text(BASE_PROMPT.replace(PANEL, panel) + '\n', encoding='utf-8')
+            item.update(id=panel, prompt_path=str(prompt), prompt_sha256=sha(prompt))
+        (self.pkg / 'IMAGEGEN-JOBS.json').write_text(json.dumps(job), encoding='utf-8')
+
+    def import_frame(self, *extra):
+        return self.run_cli('import-frame', '--from-package', str(self.source_pkg),
+                            '--source', self.source_record_path.stem, '--frame-id', self.TARGET, *extra)
+
+    def assert_no_import(self):
+        self.assertFalse(list((self.pkg / 'frames').glob('*')))
+        self.assertFalse(list((self.pkg / 'candidates').glob('*')))
+
+    def test_import_preserves_provenance_and_uses_next_version(self):
+        self.capture(self.generated('earlier.png'), self.TARGET)
+        before = {path: path.read_bytes() for path in self.source_pkg.rglob('*') if path.is_file()}
+        record = self.import_frame()
+        frame = self.pkg / 'frames' / f'{self.TARGET}-v02.png'
+        self.assertEqual(record['id'], self.TARGET)
+        self.assertEqual(record['path'], str(frame))
+        self.assertEqual(frame.read_bytes(), Path(self.source_record['path']).read_bytes())
+        for field in ('sha256', 'width', 'height', 'prompt_path', 'prompt_sha256', 'references',
+                      'generation_tool', 'original_generated_path', 'base_prompt_path', 'base_prompt_sha256'):
+            self.assertEqual(record[field], self.source_record[field], field)
+        self.assertEqual(record['origin'], 'imported')
+        self.assertEqual(record['visual_review'], 'pending')
+        self.assertEqual(record['imported_from'], {
+            'package': str(self.source_pkg.resolve()), 'record': str(self.source_record_path.resolve()),
+            'record_sha256': sha(self.source_record_path), 'frame_id': PANEL})
+        self.assertEqual(json.loads(self.candidate_path(self.TARGET, 'v02').read_text()), record)
+        self.assertEqual(before, {path: path.read_bytes() for path in self.source_pkg.rglob('*') if path.is_file()})
+
+    def test_import_refuses_different_lettering(self):
+        job_path = self.pkg / 'IMAGEGEN-JOBS.json'
+        original = job_path.read_text()
+        for change in ('speaker', 'text', 'count', 'order'):
+            with self.subTest(change=change):
+                job = json.loads(original)
+                chunks = job['script']['pages']['9']['panels'][0]['copy']
+                if change == 'speaker':
+                    chunks[1]['speaker'] = 'NAGOJI'
+                elif change == 'text':
+                    chunks[1]['text'] += '!'
+                elif change == 'count':
+                    chunks.pop()
+                else:
+                    chunks.reverse()
+                job_path.write_text(json.dumps(job), encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'lettering'):
+                    self.import_frame()
+                self.assert_no_import()
+
+    def test_import_refuses_frame_sha_mismatch(self):
+        with Path(self.source_record['path']).open('ab') as output:
+            output.write(b'changed')
+        with self.assertRaisesRegex(ValueError, '(?i)(sha256|hash).*mismatch'):
+            self.import_frame()
+        self.assert_no_import()
+
+    def test_import_never_overwrites_existing_frames_or_records(self):
+        orphan_frame = self.pkg / 'frames' / f'{self.TARGET}-v01.png'
+        orphan_record = self.candidate_path(self.TARGET, 'v02')
+        orphan_frame.parent.mkdir(parents=True)
+        orphan_record.parent.mkdir(parents=True)
+        orphan_frame.write_bytes(b'existing frame')
+        orphan_record.write_bytes(b'existing record')
+        first = self.import_frame()
+        second = self.import_frame()
+        self.assertTrue(first['path'].endswith('-v03.png'))
+        self.assertTrue(second['path'].endswith('-v04.png'))
+        self.assertEqual(orphan_frame.read_bytes(), b'existing frame')
+        self.assertEqual(orphan_record.read_bytes(), b'existing record')
+        self.assertEqual(json.loads(self.candidate_path(self.TARGET, 'v03').read_text()), first)
+
+    def test_import_exclusive_creation_refuses_racing_writes(self):
+        original_open = Path.open
+        for directory, suffix in (('frames', '.png'), ('candidates', '.json')):
+            with self.subTest(directory=directory):
+                dest = self.pkg / directory / f'{self.TARGET}-v01{suffix}'
+                def racing_open(path, mode='r', *args, **kwargs):
+                    if path == dest and any(flag in mode for flag in 'wx'):
+                        with original_open(path, 'xb') as other:
+                            other.write(b'concurrent writer')
+                    return original_open(path, mode, *args, **kwargs)
+                with mock.patch.object(Path, 'open', racing_open):
+                    with self.assertRaises(FileExistsError):
+                        self.import_frame()
+                self.assertEqual(dest.read_bytes(), b'concurrent writer')
+                # Each race uses its own fresh destination package.
+                self.pkg = self.pkg.with_name('ch02-race')
+                self.pkg.mkdir(exist_ok=True)
+                if not (self.pkg / 'IMAGEGEN-JOBS.json').exists():
+                    (self.pkg / 'IMAGEGEN-JOBS.json').write_bytes(
+                        (self.v15 / 'chapters' / 'ch02-split' / 'IMAGEGEN-JOBS.json').read_bytes())
+
+    def test_import_refuses_same_package_and_unknown_panels(self):
+        with self.assertRaisesRegex(ValueError, 'same package'):
+            self.import_frame('--from-package', str(self.pkg / '..' / self.pkg.name))
+        with self.assertRaisesRegex(ValueError, '(?i)(unknown|not.*job).*frame|target.*panel'):
+            self.import_frame('--frame-id', 'page-99-panel-99')
+        changed = dict(self.source_record, id='page-99-panel-99')
+        self.source_record_path.write_text(json.dumps(changed), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, '(?i)source.*(panel|frame)'):
+            self.import_frame()
+        self.assert_no_import()
+
+    def test_import_flags_are_refused_on_other_commands(self):
+        commands = ('prepare', 'next-job', 'capture', 'select', 'build', 'verify',
+                    'auto-geometry', 'fit-layout', 'accept-script-revision')
+        for command in commands:
+            for flag in ('--from-package', '--source'):
+                with self.subTest(command=command, flag=flag):
+                    error = io.StringIO()
+                    with contextlib.redirect_stderr(error), self.assertRaises(SystemExit) as caught:
+                        self.run_cli(command, flag, 'source')
+                    self.assertEqual(caught.exception.code, 2)
+                    self.assertIn(f'{flag} applies only to import-frame', error.getvalue())
+
+    def test_import_uses_frozen_script_after_live_source_restructure(self):
+        frozen = self.source_pkg / r.SCRIPT_SOURCE
+        frozen.write_bytes(self.script.read_bytes())
+        self.script.write_text(SCRIPT.replace('Up! Those marked', 'Stop! Nobody')
+                               .replace('PAGE 1', 'PAGE 9').replace('**1.', '**9.'), encoding='utf-8')
+        self.assertNotIn(PANEL, dict(r._lettering(r.s.parse_script(self.script))))
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+        self.assertEqual(frozen.read_text(encoding='utf-8'), SCRIPT)
+
+    def revise_target_lettering(self, text):
+        job_path = self.pkg / 'IMAGEGEN-JOBS.json'
+        job = json.loads(job_path.read_text())
+        script = Path(job['script']['path'])
+        script.write_text(SCRIPT.replace('PAGE 1', 'PAGE 9').replace('**1.', '**9.')
+                          .replace('Up! Those marked go to the docks.', text), encoding='utf-8')
+        job['script'] = r.s.parse_script(script)
+        job_path.write_text(json.dumps(job), encoding='utf-8')
+
+    def accept_source_lettering(self, text):
+        self.script.write_text(SCRIPT.replace('Up! Those marked go to the docks.', text), encoding='utf-8')
+        return r.accept_script_revision(SimpleNamespace(reason='author wording', allow_lettering=True),
+                                        self.source_pkg)
+
+    def test_import_without_frozen_source_accepts_matching_live_hash(self):
+        self.assertFalse((self.source_pkg / r.SCRIPT_SOURCE).exists())
+        job_path = self.source_pkg / 'IMAGEGEN-JOBS.json'
+        job = json.loads(job_path.read_text())
+        job['script'] = {key: job['script'][key] for key in ('path', 'sha256')}
+        job_path.write_text(json.dumps(job), encoding='utf-8')
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+
+    def test_import_without_frozen_source_accepts_accepted_live_hash(self):
+        text = 'Up! To the docks.'
+        self.script.write_text(SCRIPT.replace('Up! Those marked go to the docks.', text), encoding='utf-8')
+        (self.source_pkg / r.SCRIPT_REVISIONS).write_text(json.dumps([
+            {'source': str(self.script), 'sha256': sha(self.script), 'reason': 'accepted wording',
+             'lettering_changes': [{'panel': PANEL, 'chunk': 1, 'speaker': 'JOÃO',
+                                    'before': 'Up! Those marked go to the docks.', 'after': text}]}
+        ]), encoding='utf-8')
+        self.revise_target_lettering(text)
+        self.assertFalse((self.source_pkg / r.SCRIPT_SOURCE).exists())
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+
+    def test_import_without_frozen_source_refuses_mismatched_live_hash(self):
+        self.script.write_text(SCRIPT.replace('A silent beat.', 'A silent beat, rain.'), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, '(?i)(recorded|source).*script.*(changed|hash)'):
+            self.import_frame()
+        self.assert_no_import()
+
+    def test_import_live_fallback_ignores_another_scripts_accepted_hash(self):
+        self.script.write_text(SCRIPT.replace('A silent beat.', 'A silent beat, rain.'), encoding='utf-8')
+        (self.source_pkg / r.SCRIPT_REVISIONS).write_text(json.dumps([
+            {'source': str(self.root / 'other-script.md'), 'sha256': sha(self.script)}
+        ]), encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, '(?i)(recorded|source).*script.*(changed|hash)'):
+            self.import_frame()
+        self.assert_no_import()
+
+    def test_import_refuses_frozen_hash_mismatch_even_when_live_matches(self):
+        (self.source_pkg / r.SCRIPT_SOURCE).write_text(SCRIPT + '\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'SCRIPT-SOURCE.md.*(match|hash)'):
+            self.import_frame()
+        self.assert_no_import()
+
+    def test_import_applies_recorded_lettering_changes_in_order(self):
+        (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
+        self.accept_source_lettering('Up! To the docks.')
+        self.accept_source_lettering('Up! Now.')
+        revisions = json.loads((self.source_pkg / r.SCRIPT_REVISIONS).read_text())
+        self.assertEqual([entry['lettering_changes'][0]['before'] for entry in revisions],
+                         ['Up! Those marked go to the docks.'] * 2)
+        self.revise_target_lettering('Up! Now.')
+        self.script.write_text(self.script.read_text(encoding='utf-8').replace('PAGE 1', 'PAGE 9')
+                               .replace('**1.', '**9.'), encoding='utf-8')
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+
+    def test_import_direction_only_revision_keeps_frozen_lettering(self):
+        (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
+        self.script.write_text(SCRIPT.replace('A silent beat.', 'A silent beat, rain.'), encoding='utf-8')
+        r.accept_script_revision(SimpleNamespace(reason='rain', allow_lettering=False), self.source_pkg)
+        revisions = json.loads((self.source_pkg / r.SCRIPT_REVISIONS).read_text())
+        self.assertNotIn('lettering_changes', revisions[0])
+        self.script.write_text(SCRIPT.replace('PAGE 1', 'PAGE 9').replace('**1.', '**9.'), encoding='utf-8')
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+
+    def test_import_refuses_target_with_pre_revision_lettering(self):
+        (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
+        self.accept_source_lettering('Up! Now.')
+        with self.assertRaisesRegex(ValueError, 'Panel lettering differs'):
+            self.import_frame()
+        self.assert_no_import()
+
+    def test_import_still_validates_target_through_load_job(self):
+        (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
+        target = Path(json.loads((self.pkg / 'IMAGEGEN-JOBS.json').read_text())['script']['path'])
+        target.write_text(target.read_text(encoding='utf-8') + '\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'Input changed since preparation'):
+            self.import_frame()
+        self.assert_no_import()
+
+    def test_import_supports_relative_source_frame_paths(self):
+        record = dict(self.source_record, path=f'frames/{self.source_record_path.stem}.png')
+        self.source_record_path.write_text(json.dumps(record), encoding='utf-8')
+        imported = self.import_frame()
+        self.assertEqual(imported['sha256'], self.source_record['sha256'])
+        self.assertEqual(imported['imported_from']['record_sha256'], sha(self.source_record_path))
+
+    def test_import_uses_frozen_script_when_job_has_only_script_hash(self):
+        for package in (self.source_pkg, self.pkg):
+            job_path = package / 'IMAGEGEN-JOBS.json'
+            job = json.loads(job_path.read_text())
+            job['script'] = {key: job['script'][key] for key in ('path', 'sha256')}
+            job_path.write_text(json.dumps(job), encoding='utf-8')
+        (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
+        self.script.write_text(SCRIPT.replace('Up! Those marked', 'Stop! Nobody'), encoding='utf-8')
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+
+    def test_import_select_and_build_validation_accept_source_prompt(self):
+        record = self.import_frame()
+        self.capture(self.generated('silent.png', boxes=[]), self.TARGET_SILENT)
+        job = r.load_job(self.pkg)
+        self.assertNotEqual(record['prompt_sha256'], job['jobs'][0]['prompt_sha256'])
+        for panel in (self.TARGET, self.TARGET_SILENT):
+            geometry = self.root / f'{panel}.json'
+            self.run_cli('auto-geometry', '--candidate', str(self.candidate_path(panel)),
+                         '--geometry-out', str(geometry))
+            self.run_cli('select', '--candidate', str(self.candidate_path(panel)), '--geometry', str(geometry),
+                         '--reviewer', 'Test', '--review-note', 'Passed.')
+        rows = r.selected_rows(self.pkg, job)
+        r.c.validate_selection(rows, job['script'], self.pkg)
+        self.assertEqual(rows[0]['origin'], 'imported')
+        self.assertEqual(rows[0]['imported_from'], record['imported_from'])
+        Path(record['prompt_path']).write_text('changed', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'Prompt hash mismatch'):
+            r.c.validate_selection(rows, job['script'], self.pkg)
+
+
 class ScriptRevisionTests(PackageCase):
     """accept-script-revision: an author's change to a script's directions is accepted when the lettering is untouched."""
 
@@ -548,6 +824,33 @@ class CapturePromptTests(PackageCase):
             encoding='utf-8')
         record = self.capture(self.generated('b.png'), PANEL, '--prompt', str(complete))
         self.assertEqual(record['prompt_path'], str(complete.resolve()))
+
+    def test_v2_correction_inserted_before_the_final_setting_is_accepted(self):
+        # Chapter 9 fix-r1: corrections went in just before the prepared SETTING paragraph, which stayed last.
+        base = self._install_v2_base_prompt()
+        body = base.rsplit('\n\n', 1)[0]
+        inserted = self.root / 'inserted.txt'
+        inserted.write_text(body + "\n\nCORRECTION: keep the hands visible.\n\nSETTING (this panel): a dark cellar.\n",
+                            encoding='utf-8')
+        record = self.capture(self.generated('a.png'), PANEL, '--prompt', str(inserted))
+        self.assertEqual(record['prompt_path'], str(inserted.resolve()))
+        self.assertEqual(record['base_prompt_sha256'], self.job()['prompt_sha256'])
+        altered = self.root / 'altered.txt'                       # the prepared text before SETTING may not change
+        altered.write_text(body.replace('2 blank', '3 blank') + "\n\nCORRECTION: keep the hands visible.\n\n"
+                           "SETTING (this panel): a dark cellar.\n", encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'prepared prompt'):
+            self.capture(self.generated('b.png'), PANEL, '--prompt', str(altered))
+
+    def test_v1_correction_must_still_be_appended(self):
+        lines = BASE_PROMPT + "\n\nLAST PARAGRAPH."
+        prompt_path = Path(self.job()['prompt_path']); prompt_path.write_text(lines + "\n", encoding='utf-8')
+        jobs_path = self.pkg / 'IMAGEGEN-JOBS.json'; data = json.loads(jobs_path.read_text(encoding='utf-8'))
+        next(item for item in data['jobs'] if item['id'] == PANEL)['prompt_sha256'] = sha(prompt_path)
+        jobs_path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+        inserted = self.root / 'v1-inserted.txt'
+        inserted.write_text(BASE_PROMPT + "\n\nCORRECTION: x.\n\nLAST PARAGRAPH.\n", encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'prepared prompt'):
+            self.capture(self.generated('a.png'), PANEL, '--prompt', str(inserted))
 
     def test_moderated_rewrite_must_repeat_original_setting_at_the_end(self):
         base = self._install_v2_base_prompt()

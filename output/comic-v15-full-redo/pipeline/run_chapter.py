@@ -210,6 +210,87 @@ def frame_file(record,out):
     raise FileNotFoundError(f'candidate frame not found: {record["path"]}')
 
 
+def _recorded_script(job,out):
+    """Recover source-package lettering independently of a later split of its live script."""
+    item=job['script'];source=out/SCRIPT_SOURCE;revisions=out/SCRIPT_REVISIONS
+    entries=json.loads(revisions.read_text()) if revisions.is_file() else []
+    entries=[entry for entry in entries if entry.get('source')==item['path']]
+    if source.exists():
+        if not source.is_file() or c.sha256(source)!=item['sha256']:
+            raise ValueError(f'{SCRIPT_SOURCE} does not match the script the package was prepared from')
+        script=s.parse_script(source)
+        panels={panel['id']:panel for page in script['pages'].values() for panel in page['panels']}
+        for entry in entries:
+            # accept_script_revision records text changes against the frozen original,
+            # so later entries replace earlier text, even when their "before" is the original.
+            for change in entry.get('lettering_changes',[]):
+                panel=panels.get(change['panel']);index=change['chunk']
+                if (panel is None or type(index) is not int or not 0<=index<len(panel['copy'])
+                        or panel['copy'][index]['speaker']!=change['speaker']):
+                    raise ValueError(f'Invalid recorded lettering change: {change["panel"]} chunk {index}')
+                s._reject_dashes(change['after'], f'recorded lettering {change["panel"]}')
+                panel['copy'][index]['text']=change['after']
+        return script
+    live=Path(item['path'])
+    accepted={item['sha256']}|{entry['sha256'] for entry in entries}
+    if live.is_file() and c.sha256(live) in accepted:return s.parse_script(live)
+    raise ValueError(f'Recorded source script is unavailable or its hash changed: {item["path"]}; '
+                     f'{SCRIPT_SOURCE} is missing and the live hash must be recorded or accepted')
+
+
+def import_frame(args,out):
+    """Copy an unchanged candidate to a new panel ID, preserving its generating provenance."""
+    from hashlib import sha256
+    from io import BytesIO
+    from PIL import Image
+    job=load_job(out)
+    if not all((args.from_package,args.source,args.frame_id)):
+        raise ValueError('import-frame needs --from-package --source --frame-id')
+    source_out=args.from_package.resolve()
+    if source_out==out.resolve():raise ValueError('Cannot import from the same package')
+    if not any(item['id']==args.frame_id for item in job['jobs']):
+        raise ValueError(f'Unknown target frame: {args.frame_id}')
+    stem=re.fullmatch(r'(page-\d+-panel-\d+)-v\d+',args.source)
+    if stem is None:raise ValueError('--source must be a source frame stem, such as page-08-panel-04-v03')
+    record_path=source_out/'candidates'/f'{args.source}.json'
+    record_bytes=record_path.read_bytes();record=json.loads(record_bytes)
+    source_job=json.loads((source_out/'IMAGEGEN-JOBS.json').read_text(encoding='utf-8'))
+    source_id=record['id']
+    if source_id!=stem[1] or not any(item['id']==source_id for item in source_job['jobs']):
+        raise ValueError(f'Unknown or mismatched source panel: {source_id}')
+    source_copy=dict(_lettering(_recorded_script(source_job,source_out)))
+    target_script=job['script']
+    if 'pages' not in target_script:target_script=s.parse_script(Path(target_script['path']))
+    target_copy=dict(_lettering(target_script))
+    if source_id not in source_copy or args.frame_id not in target_copy:
+        raise ValueError('Source or target panel is missing from its recorded script')
+    if source_copy[source_id]!=target_copy[args.frame_id]:
+        raise ValueError(f'Panel lettering differs: {source_id} -> {args.frame_id}')
+    source_frame=frame_file(record,source_out)
+    frame_bytes=source_frame.read_bytes();digest=sha256(frame_bytes).hexdigest()
+    if digest!=record['sha256']:raise ValueError(f'Source frame sha256 mismatch: {source_id}')
+    with Image.open(BytesIO(frame_bytes)) as im:width,height=im.size;mode=im.mode
+    if mode!='RGB' or (width,height)!=(record['width'],record['height']):
+        raise ValueError(f'Source frame RGB/dimensions mismatch: {source_id}')
+    candidates=out/'candidates';frames=out/'frames'
+    index=1
+    while (candidates/f'{args.frame_id}-v{index:02d}.json').exists() or (frames/f'{args.frame_id}-v{index:02d}.png').exists():index+=1
+    frame=frames/f'{args.frame_id}-v{index:02d}.png'
+    result={'id':args.frame_id,'path':str(frame),'sha256':digest,'width':width,'height':height,
+            'generation_tool':record['generation_tool'],'origin':'imported',
+            'prompt_path':record['prompt_path'],'prompt_sha256':record['prompt_sha256'],
+            'references':record.get('references',[]),'visual_review':'pending',
+            'original_generated_path':record.get('original_generated_path',str(source_frame)),
+            'imported_from':{'package':str(source_out),'record':str(record_path),
+                             'record_sha256':sha256(record_bytes).hexdigest(),'frame_id':source_id}}
+    for key in ('base_prompt_path','base_prompt_sha256','moderated_rewrite'):
+        if key in record:result[key]=record[key]
+    frames.mkdir(parents=True,exist_ok=True)
+    with frame.open('xb') as output:output.write(frame_bytes)
+    write_json(candidates/f'{args.frame_id}-v{index:02d}.json',result)
+    return result
+
+
 def _draw_kind(speaker):
     return 'caption' if speaker.strip().upper().startswith('CAPTION') else 'speech'
 
@@ -871,7 +952,7 @@ def build(args,out):
 
 def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('command',choices=['prepare','next-job','capture','select','build','verify','auto-geometry','fit-layout',
+    p.add_argument('command',choices=['prepare','next-job','capture','import-frame','select','build','verify','auto-geometry','fit-layout',
                                       'accept-script-revision'])
     p.add_argument('--reason',help='accept-script-revision: why the author changed the script')
     p.add_argument('--allow-lettering',action='store_true',
@@ -881,6 +962,8 @@ def main(argv=None):
     p.add_argument('--art-direction',type=Path,help='prepare: v2 art-direction sidecar JSON')
     p.add_argument('--allow-draft',action='store_true',help='prepare: permit a draft art-direction sidecar')
     p.add_argument('--frame-id');p.add_argument('--generated',type=Path)
+    p.add_argument('--from-package',type=Path,help='import-frame: source package directory')
+    p.add_argument('--source',help='import-frame: source candidate stem, e.g. page-08-panel-04-v03')
     p.add_argument('--candidate',type=Path);p.add_argument('--geometry',type=Path)
     p.add_argument('--reviewer');p.add_argument('--review-note')
     p.add_argument('--manifest',type=Path);p.add_argument('--layout',type=Path)
@@ -909,6 +992,8 @@ def main(argv=None):
     p.add_argument('--structures',action='store_true',
                    help='fit-layout: also choose each page\'s row structure (which panels share a row) from the script layout cues and the fit')
     args=p.parse_args(argv)
+    for flag,value in (('--from-package',args.from_package),('--source',args.source)):
+        if value is not None and args.command!='import-frame':p.error(f'{flag} applies only to import-frame')
     if args.prompt is not None and args.command!='capture':p.error('--prompt applies only to capture')
     if args.art_direction is not None and args.command!='prepare':p.error('--art-direction applies only to prepare')
     if args.allow_draft and args.command!='prepare':p.error('--allow-draft applies only to prepare')
@@ -946,8 +1031,13 @@ def main(argv=None):
             # A correction may only append to the prepared prompt. Refuse before anything is written.
             if not args.prompt.is_file():raise ValueError(f'--prompt file does not exist: {args.prompt}')
             base=Path(item['prompt_path']).read_bytes().rstrip()
-            if not args.moderated and not args.prompt.read_bytes().startswith(base):
-                raise ValueError(f'--prompt must begin with the prepared prompt {item["prompt_path"]}; a correction can only be appended')
+            sent=args.prompt.read_bytes()
+            # v2 also takes a correction set in just before the prepared final SETTING paragraph, which must stay last
+            # (checked below); everything before that paragraph is the prepared text, unchanged.
+            inserted=job.get('prompt_profile')=='v2' and b'\n\n' in base and sent.startswith(base.rsplit(b'\n\n',1)[0]+b'\n\n')
+            if not args.moderated and not sent.startswith(base) and not inserted:
+                raise ValueError(f'--prompt must begin with the prepared prompt {item["prompt_path"]}; a correction can only be appended'
+                                 + (' or set in before its final SETTING paragraph' if job.get('prompt_profile')=='v2' else ''))
             base_text=base.decode('utf-8')
             final_block=base_text.rstrip().split('\n\n')[-1]
             if job.get('prompt_profile')=='v2':
@@ -978,6 +1068,7 @@ def main(argv=None):
             'visual_review':'pending','original_generated_path':str(args.generated)}
         result.update(revised)
         write_json(candidates/f'{args.frame_id}-v{index:02d}.json',result)
+    elif args.command=='import-frame':result=import_frame(args,out)
     elif args.command=='select':
         if not all([args.candidate,args.geometry,args.reviewer,args.review_note]):
             raise ValueError('select needs --candidate --geometry --reviewer --review-note')

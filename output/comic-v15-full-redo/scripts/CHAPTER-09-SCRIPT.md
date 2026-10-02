@@ -42,7 +42,7 @@ Five panels. Compress the ride. Let the land do the talking, then give us the na
 
 > PADMINI: Remember that when you meet Revathi. She carries those bones in her tongue.
 
-**1.5** Wide, full width. Velinadu Kovilakam ahead. No towering walls, no bastions: a low ring of red laterite and earth circling a cluster of tiled roofs and broad trees. The gate is wide enough for carts and elephants. Nair guards (bare-chested, white mundu hitched to the knee, hair knotted high at the front, no turbans) with spears and small round shields watch the riders come.
+**1.5** Wide, full width. Velinadu Kovilakam ahead. No towering walls, no bastions: a low ring of red laterite and earth circling a cluster of tiled roofs and broad trees. The gate is wide enough for carts and elephants. Nair guards (bare-chested, white mundu hitched to the knee, hair knotted high at the front, no turbans) with spears and small round shields watch the riders come. Seen from the approaching riders: no riders in frame.
 
 > CAPTION: Velinadu Kovilakam was not the city my Deccan mind had expected.
 
@@ -320,7 +320,7 @@ Five panels. Three words, then an invitation, then an instruction.
 
 > REVATHI: Not from mine.
 
-**9.2** Nagoji. Nothing moves in his face.
+**9.2** Nagoji, still seated cross-legged on his mat, barefoot. Nothing moves in his face.
 
 > CAPTION: The words were light. The tone was not.
 
