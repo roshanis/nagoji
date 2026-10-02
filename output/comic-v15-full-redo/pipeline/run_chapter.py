@@ -146,6 +146,24 @@ class AutoGeometryError(ValueError):
     """auto-geometry could not produce a geometry that is safe to select."""
 
 
+_MALAYALAM=re.compile(r"\([^)]*\bmalayalam\b[^)]*\)",re.I)
+
+
+def lettered_script(path):
+    """The script as it is lettered: parse_script, with every line tagged (Malayalam) inside angle brackets.
+
+    Angle brackets mark speech Nagoji cannot follow, translated for the reader (the chapter 4 convention); a line
+    already bracketed is left as it is. The script file and parse_script, which the image prompts use, are unchanged.
+    """
+    script=s.parse_script(path)
+    for page in script['pages'].values():
+        for panel in page['panels']:
+            for chunk in panel.get('copy') or []:
+                if _MALAYALAM.search(chunk['speaker']) and not chunk['text'].lstrip().startswith('<'):
+                    chunk['text']='<'+chunk['text']+'>'
+    return script
+
+
 def frame_file(record,out):
     """A record's frame: absolute, or relative to the working directory, repository root or package."""
     path=Path(record['path'])
@@ -444,7 +462,7 @@ def auto_geometry(args,out):
         raise AutoGeometryError('auto-geometry needs --candidate and --geometry-out')
     if args.geometry_out.exists():
         raise AutoGeometryError(f'geometry file already exists: {args.geometry_out}')
-    job=load_job(out);script=s.parse_script(Path(job['script']['path']))
+    job=load_job(out);script=lettered_script(Path(job['script']['path']))
     record=json.loads(args.candidate.read_text())
     panel={p['id']:p for page in script['pages'].values() for p in page['panels']}.get(record.get('id'))
     if panel is None:
@@ -749,7 +767,7 @@ def fit_layout_command(args,out):
     if args.layout_out.exists():raise LayoutFitError(f'layout file already exists: {args.layout_out}')
     prior=json.loads(args.layout.read_text()).get('page_rows')
     if not isinstance(prior,dict):raise LayoutFitError(f'{args.layout} has no page_rows')
-    job=load_job(out);script=s.parse_script(Path(job['script']['path']))
+    job=load_job(out);script=lettered_script(Path(job['script']['path']))
     face_scale=FACE_SCALE if args.face_scale is None else args.face_scale
     margin=lf.MARGIN if args.margin is None else args.margin
     if not(face_scale>0 and margin>0):raise LayoutFitError('--face-scale and --margin must be above 0')
@@ -768,7 +786,7 @@ def fit_layout_command(args,out):
 
 
 def build(args,out):
-    job=load_job(out);script=s.parse_script(Path(job['script']['path']))
+    job=load_job(out);script=lettered_script(Path(job['script']['path']))
     if args.manifest:
         payload=json.loads(args.manifest.read_text());rows=payload['frames']
     else:rows=selected_rows(out,job)
@@ -925,7 +943,7 @@ def main(argv=None):
         except (ValueError,OSError) as error:
             raise SystemExit(f'accept-script-revision failed: {error}')
     else:
-        job=load_job(out);script=s.parse_script(Path(job['script']['path']))
+        job=load_job(out);script=lettered_script(Path(job['script']['path']))
         manifest=json.loads((out/f'SELECTION-MANIFEST-{args.revision}.json').read_text())
         composition=json.loads((out/'review'/f'COMPOSITION-{args.revision}.json').read_text())
         pdf=out/'pdf'/f'Horse-of-the-Servant-V15-Chapter-{args.chapter:02d}-{args.revision}.pdf'

@@ -379,7 +379,7 @@ Five panels. Three faiths, one warning, and the chapter's last line.
 
 > IBRAHIM: The king does not keep men for their faith. He keeps them for what they can do.
 
-**12.4** Ibrahim walking away into the gathering dark, speaking over his shoulder, his white turban catching the last light. In the foreground, Nagoji (rust-red turban, cream tunic, red sash) and Kayal watching him go.
+**12.4** Full width. Ibrahim walking away into the gathering dark, speaking over his shoulder, his white turban catching the last light. In the foreground, Nagoji (rust-red turban, cream tunic, red sash) and Kayal watching him go.
 
 > IBRAHIM: Remember that, when you wonder why a Muslim sailor and a Hindu horseman and a Christian merchant all sit in the same war hall.
 

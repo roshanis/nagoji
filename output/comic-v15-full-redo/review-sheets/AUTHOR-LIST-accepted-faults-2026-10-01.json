@@ -1,8 +1,6 @@
 {
  "about": "Accepted faults and author decisions collected while finishing V15 chapters 1 to 8 (2026-10-01). Art faults here used their correction attempts or sit in approved art; each needs an author decision (accept, or regenerate later).",
- "pending_decisions": [
-  "Nagoji's ear ornament: the nagoji-v2 sheet's small hanging drop, or the bible's stud?"
- ],
+ "pending_decisions": [],
  "items": [
   {
    "chapter": 5,
@@ -156,6 +154,30 @@
    "kind": "art",
    "source": "ch08 round 3 selection (accepted after two correction attempts)",
    "fault": "After two correction attempts: the hand at the belt is drawn as a right hand (thumb on the inner side, next to the buckle) on the LEFT arm, and the nails do not clearly show ridges. Logged for the author (v02 has the brand near the elbow on the outer forearm instead)."
+  },
+  {
+   "chapter": 7,
+   "id": "page-12-panel-04",
+   "kind": "script revision (direction only)",
+   "source": "ch07 r2 build",
+   "fault": "Script 12.4 now starts 'Full width.' (accepted revision, backup scripts/CHAPTER-07-SCRIPT.md.backup-pre-124-fullwidth): at half width beside 12.3 there was no room in the dusk sky for Ibrahim's long line without covering Nagoji. Revert if you prefer the pairing; the line would then need shortening."
+  },
+  {
+   "chapter": 4,
+   "id": "page-05-panel-02",
+   "kind": "art (minor)",
+   "source": "ch04 f4 selection",
+   "fault": "The child beside the whispering girl still wears an olive short-sleeved stitched top (the girl's own blouse was fixed); an edit could drape her in cream cloth too."
+  },
+  {
+   "chapter": 4,
+   "id": "page 5 layout",
+   "kind": "design question",
+   "source": "ch04 r12 five-lens review",
+   "fault": "The top tier of page 5 is ragged: 5.2 is fitted to its art's aspect and centred, so it is shorter than 5.1 beside it, with cream bands above and below. Same question as chapter 2 page 1 and chapter 3 page 3."
   }
+ ],
+ "decided": [
+  "2026-10-02: Nagoji's ear ornament is the small flush gold stud (bible). From chapter 9 the prompts and selection enforce it; panels already picked in chapters 1 to 8 that show a small hanging drop are a known deviation, listed here for a later pass if wanted."
  ]
 }

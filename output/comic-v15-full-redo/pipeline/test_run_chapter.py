@@ -2255,3 +2255,34 @@ class UnpaintedTests(unittest.TestCase):
     def test_the_flag_applies_only_to_auto_geometry_and_fit_layout(self):
         with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit):
             r.main(['build', '--chapter', '1', '--unpainted'])
+
+
+class MalayalamLetteringTests(unittest.TestCase):
+    """Lines tagged (Malayalam) are lettered inside angle brackets, the chapter 4 convention for speech Nagoji cannot follow.
+
+    Chapter 5 r2: its script tags 22 lines "(Malayalam)" and asks for a distinct treatment, but they were lettered as
+    plain balloons, so Nagoji seemed to follow Malayalam unaided. The brackets are added where the runner reads the
+    script for lettering; the script text and the image prompts are unchanged.
+    """
+
+    SCRIPT = ("# Chapter 5\n\n## PAGE 1\n\n**1.1** A hut.\n\n> IBRAHIM (Malayalam): Can he travel?\n\n"
+              "> NAGOJI: I can ride.\n\n> GIRL (Malayalam): <Portuguese.>\n\n> GUARD (off, Malayalam): You come late, *kapitan*.\n")
+
+    def setUp(self):
+        self.dir = Path(tempfile.mkdtemp())
+        self.path = self.dir / 'CHAPTER-05-SCRIPT.md'
+        self.path.write_text(self.SCRIPT, encoding='utf-8')
+
+    def texts(self, script):
+        return [chunk['text'] for page in script['pages'].values() for panel in page['panels'] for chunk in panel['copy']]
+
+    def test_malayalam_lines_are_bracketed_for_lettering_only(self):
+        import script_pipeline as s
+        self.assertEqual(self.texts(r.lettered_script(self.path)),
+                         ['<Can he travel?>', 'I can ride.', '<Portuguese.>', '<You come late, *kapitan*.>'])
+        self.assertEqual(self.texts(s.parse_script(self.path))[0], 'Can he travel?')     # the parsed script is unchanged
+
+    def test_the_runner_letters_from_the_lettered_script(self):
+        source = (Path(__file__).resolve().parent / 'run_chapter.py').read_text(encoding='utf-8')
+        self.assertEqual(source.count("script=lettered_script(Path(job['script']['path']))"), 4)
+        self.assertNotIn("script=s.parse_script(Path(job['script']['path']))", source)

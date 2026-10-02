@@ -221,7 +221,8 @@ optional fields; without them a page is byte for byte what it was:
   edge (an off-frame speaker) inside a balloon that touches that edge, which draws no tail. A tail to an off-frame
   speaker (a mouth point within 0.5 pt of the panel edge, or beyond it) runs all the way to the border, so it reads
   as pointing out of the panel rather than at whoever stands between the balloon and the edge; the planner checks
-  that full length against faces and other balloons.
+  that full length against faces and other balloons. Every face counts for such a tail, since none is its speaker's
+  (until chapter 6 r1 only tails to on-frame speakers were checked, and an off-panel tail in 4.5 ran across Varma's eyes).
 - `rect` is the shape. Text is centred inside it with at least 5 pt of padding (a balloon
   adds a little more so the text clears its rounded corners), and the fit check uses that
   padded interior. The shape is clipped to the panel. It may run past an edge of `visible_rect`
@@ -384,6 +385,15 @@ lists such chunks as `bleeds`, with the pixels past the frame on each side. The 
 balloon whose box is pinned to an edge by a large text block. A chunk whose corners still cannot be
 hidden fails with "the corners of its painted region cannot be hidden": for example two painted
 balloons so close that their boxes need more corner room than lies between them.
+
+### Malayalam lines: angle brackets
+
+Chapter 4 letters speech Nagoji cannot follow inside angle brackets (`<Kill him.>`), typed into the script. Chapter 5
+instead tags such lines `(Malayalam)` and asks for a distinct treatment, and its r2 lettered them as plain balloons, so
+Nagoji seemed to understand Malayalam unaided. `run_chapter.lettered_script` is what auto-geometry, fit-layout, build
+and verify read: `parse_script`, with every line whose speaker tag names Malayalam put inside angle brackets (a line
+already bracketed is left alone). The script file, `parse_script` and the image prompts are unchanged, and
+accept-script-revision still compares the raw lettering.
 
 ### Art with no painted balloons: `--unpainted`
 

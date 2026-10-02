@@ -1068,6 +1068,37 @@ def tip_of(wedge):
     return bx + (tx - bx) * length / distance, by + (ty - by) * length / distance
 
 
+class OffFrameVoiceFaceTests(Tmp):
+    """An off-frame voice's tail, which now runs to the frame's edge, never crosses a face: none of them is its speaker's.
+
+    Chapter 6 r1, 4.5: Nagoji's off-panel line had a long tail from its balloon to the left edge, straight across
+    Varma's eyes; only tails to on-frame speakers were checked against the faces they pass.
+    """
+
+    R = (.45, .4)
+    SCALE = .3
+    BOUNDS = [0, 0, 1200, 600]
+    EDGE = (0, 300)                                     # the voice is off the left edge
+    FACE = (400, 300, 60, 'K')                          # a face between the edge and the balloon's painted region
+
+    def setUp(self):
+        super().setUp()
+        self.path = save(frame(boxes=[(800, 250, 1100, 350)]), self.dir, 'v.png')    # holds the balloon at the right
+        self.found = rv.find_regions(self.path, 1)
+
+    def place(self, faces):
+        return rv.place_boxes(self.path, self.found, [[(320, 120)]], [self.EDGE], faces=faces, scale=self.SCALE,
+                              tail_margin=12, rounded=[self.R])
+
+    def test_the_tail_to_an_off_frame_voice_may_not_cross_any_face(self):
+        free = self.place([])                                                        # the face is not protected:
+        wedge = rv.tail_wedge(free['boxes'][0], free['corner'][0], self.EDGE, self.BOUNDS, self.SCALE)
+        self.assertTrue(rv.tail_meets_face(wedge, self.FACE))                         # the tail runs through it
+        with self.assertRaises(rv.PlacementError) as caught:
+            self.place([self.FACE])
+        self.assertIn('chunk 0: its tail would cross a face (K)', str(caught.exception))
+
+
 class TailTipTests(Tmp):
     """A reader credits a balloon to whoever its drawn tail's tip lands nearest, so the tip never lands nearer another face."""
 

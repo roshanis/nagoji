@@ -1283,6 +1283,8 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
             theirs = [f for f in faces if f is not nearest and dist(f) > 0
                       and math.hypot(f[0] - nearest[0], f[1] - nearest[1]) >= f[2] + nearest[2]]
             ours = [f for f in faces if f not in theirs]
+        elif balloon and faces and targets[i] is not None:
+            theirs = list(faces)                # an off-frame voice: its tail runs to the edge, and no face is its speaker's
         before = [(j, placed[j]) for j in range(i) if placed[j] is not None]      # the boxes that read before this one
 
         def breach(box, ratio, kinds=RULES):
@@ -1298,7 +1300,7 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
                 for j, wedge in wedges:
                     if tail_crosses(wedge, box):
                         return 'box', j
-            if 'face' in kinds and mine is not None and own is not None:
+            if 'face' in kinds and mine is not None:
                 for f in theirs:
                     if tail_meets_face(mine, f):
                         return 'face', f[3]
