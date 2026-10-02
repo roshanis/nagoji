@@ -1,0 +1,112 @@
+{
+  "schema_version": "r1",
+  "scope": [
+    "page-09",
+    "page-10"
+  ],
+  "selection_performed": false,
+  "candidates_reviewed": 13,
+  "frames": {
+    "page-09-panel-01": {
+      "selected_recommendation": "v02",
+      "decision": "review",
+      "defects_v01": [
+        "Keshavrao hairline graze reads reddish"
+      ],
+      "defects_v02": [
+        "hairline still has faint reddish marks; no explicit gore"
+      ]
+    },
+    "page-09-panel-02": {
+      "selected_recommendation": "v01",
+      "decision": "review",
+      "defects_v01": [
+        "blank balloons are generated reserve shapes; left forearm coverage should be checked in crop"
+      ]
+    },
+    "page-09-panel-03": {
+      "selected_recommendation": "v01",
+      "decision": "review",
+      "defects_v01": [
+        "Nagoji forearm is exposed despite covered-left-arm rule; hands and action otherwise clear"
+      ]
+    },
+    "page-09-panel-04": {
+      "selected_recommendation": "v01",
+      "decision": "review",
+      "defects_v01": [
+        "Nagoji forearm is exposed; large blank reserves otherwise clear"
+      ]
+    },
+    "page-09-panel-05": {
+      "selected_recommendation": null,
+      "decision": "reject",
+      "defects_v01": [
+        "red-orange palm/bandage staining reads as blood or gore"
+      ],
+      "defects_v02": [
+        "red-orange palm/bandage staining remains, reject"
+      ]
+    },
+    "page-10-panel-01": {
+      "selected_recommendation": "v01",
+      "decision": "review",
+      "defects_v01": [
+        "left forearm exposure should be checked against framing; empty hatch and chains read clearly"
+      ]
+    },
+    "page-10-panel-02": {
+      "selected_recommendation": "v02",
+      "decision": "review",
+      "defects_v01": [
+        "large dangling earrings violate tiny flush stud"
+      ],
+      "defects_v02": [
+        "single large round stud still larger than sheet stud; root review required"
+      ]
+    },
+    "page-10-panel-03": {
+      "selected_recommendation": "v01",
+      "decision": "review",
+      "defects_v01": [
+        "unrequested Portuguese guards in background; left forearm exposure"
+      ]
+    },
+    "page-10-panel-04": {
+      "selected_recommendation": "v01",
+      "decision": "review",
+      "defects_v01": [
+        "left forearm exposure; background guards have red sleeves but read Portuguese deck crew"
+      ]
+    },
+    "page-10-panel-05": {
+      "selected_recommendation": "v01",
+      "decision": "review",
+      "defects_v01": [
+        "left forearm is visible underwater; rope, collar and chains read clearly"
+      ]
+    }
+  },
+  "native_review_notes": [
+    "All candidates inspected at native resolution through built-in imagegen display.",
+    "Blank outlined balloons and caption boxes are reserves only; no lettering was accepted as art.",
+    "p09.5 v01 and v02 rejected for blood-like red-orange staining.",
+    "p09.1 v01 and v02 retain a faint red-looking hairline mark and require root decision.",
+    "p10.2 v01 rejected for dangling earrings; v02 has one large round stud and requires root decision.",
+    "p09.3, p09.4, p10.1, p10.3, p10.4, p10.5 show exposed forearm areas that root must judge against the covered-left-forearm rule.",
+    "Panoramic v02/v03 corrections generated to match full-width layout aspect, approximately 3:1.",
+    "p09.1 v03 generation was blocked twice by built-in imagegen safety moderation; v02 remains preserved for root decision.",
+    "p10.3 v03 includes exactly three blank caption reserves and removes all unrequested guards."
+  ],
+  "geometry_files": [],
+  "latest_corrections": {
+    "page-09-panel-02": "v02 panoramic correction, forearm still partly visible but hands and rope remain clear",
+    "page-09-panel-04": "v02 panoramic correction, no faces or extra characters, forearms mostly cropped/covered",
+    "page-09-panel-05": "v03 panoramic correction, clean natural palms and pale frayed bandages, no blood-like stains",
+    "page-10-panel-01": "v02 panoramic correction, distant figure and empty hatch, no extra people",
+    "page-10-panel-02": "v03 panoramic correction, single small flush round stud and two caption reserves",
+    "page-10-panel-03": "v03 panoramic correction, no guards, exactly three caption reserves",
+    "page-10-panel-04": "v02 panoramic correction, no guards, leap and trailing rope",
+    "page-10-panel-05": "v02 panoramic correction, dark underwater storm, loose rope end near spar"
+  }
+}

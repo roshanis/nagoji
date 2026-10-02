@@ -1,0 +1,16 @@
+{
+  "schema_version": "r1",
+  "scope": [
+    "page-09"
+  ],
+  "created_additively": true,
+  "findings": [
+    "Current raw candidate sha256 values for page 9 candidates match their frame bytes. Current prepared prompt hashes also match candidate records.",
+    "Capture-generated candidate records retain the prepared job prompt path because run_chapter capture derives it from the job. Correction provenance siblings record the actual generation prompt path and sheet-only references used in the built-in imagegen call.",
+    "For page-09-panel-02-v03 and page-09-panel-03-v02, raw frame files were created before capture attempts, so run_chapter capture could not be rerun without a frame collision. Their candidate records were created additively from the capture schema and preserve the raw frame bytes. Later v04 and v03 captures completed through run_chapter.",
+    "No previous generated frame was attached to the correction calls recorded in this audit. Only the two approved character sheets were attached."
+  ],
+  "known_limitations": [
+    "This ledger does not reconstruct earlier process state before this task. It records current byte checks and the capture collision evidence."
+  ]
+}

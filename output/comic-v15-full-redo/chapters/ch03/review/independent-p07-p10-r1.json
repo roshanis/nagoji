@@ -1,0 +1,90 @@
+{
+  "schema_version": "independent-visual-review-v1",
+  "reviewer": "Codex independent visual QA",
+  "scope": "pages 7 through 10, currently stable v01 frames only",
+  "review_basis": [
+    "CHAPTER-03-SCRIPT.md pages 7 through 10",
+    "CONTINUITY.md Nagoji and Keshavrao chapter 3 rows",
+    "approved Chapter 1 pilot renders and review",
+    "native resolution inspection of each listed PNG"
+  ],
+  "reviewed_at_utc": "2026-09-30T00:00:00Z",
+  "reviewed_candidates": {
+    "page-07-panel-01-v01": {
+      "recommendation": "regenerate",
+      "reason": "Staging and guard fall read clearly, with no blood, gore, noose, or invented lettering. Nagoji identity is broadly correct, but his left forearm is fully exposed instead of hidden under the ragged tunic flap. The guard reads as a period Portuguese morion guard."
+    },
+    "page-07-panel-02-v01": {
+      "recommendation": "regenerate",
+      "reason": "Guard fall and Nagoji pressed to the ladder are legible, with visible ankle irons and no gore or text. Nagoji's left forearm is exposed, violating the hidden-brand continuity lock."
+    },
+    "page-07-panel-03-v01": {
+      "recommendation": "accept candidate",
+      "reason": "The face-down still shape in the hold reads as the scripted aftermath from a distance. No blood, gore, noose, or lettering is visible, and the ship interior is period-consistent."
+    },
+    "page-07-panel-04-v01": {
+      "recommendation": "regenerate",
+      "reason": "The empty collar, manacles, rain, and call down into the hold read correctly, with a clean caption reserve. Nagoji's left forearm remains exposed instead of covered."
+    },
+    "page-08-panel-01-v01": {
+      "recommendation": "regenerate",
+      "reason": "Storm deck, snapped mast, mixed barefoot crew, empty collar, wrist chain, and ankle chain are readable and period-appropriate. Nagoji's left forearm is exposed. Crew clothing does not read as British redcoats or Dutch blue-coats."
+    },
+    "page-08-panel-02-v01": {
+      "recommendation": "accept candidate",
+      "reason": "Keshavrao reads as younger, thinner, short-haired, faint-moustached, and without an ear stud. Both manacled hands, empty collar, and ankle hobble are visible. Hands and staging are plausible, with no blood, gore, noose, or lettering."
+    },
+    "page-08-panel-03-v01": {
+      "recommendation": "accept candidate",
+      "reason": "Nagoji is correctly seen from behind at the rail; the two lower insets show Keshavrao's thin manacled hands and the shattered spar. The storm and ship remain period-consistent, and no blood, gore, noose, or lettering is visible. Reserve boxes are clear."
+    },
+    "page-08-panel-04-v01": {
+      "recommendation": "accept candidate",
+      "reason": "The wave crest fills the narrow strip as scripted. Rigging and rail read as a period sailing ship. No people, blood, gore, noose, or lettering are present."
+    },
+    "page-09-panel-01-v01": {
+      "recommendation": "accept candidate",
+      "reason": "Keshavrao reads as the younger captive with short slick hair, faint moustache, empty collar, and a reaching right hand. The upper-left inset shows Nagoji's bandaged manacled hand on the rope coil. No blood is drawn at the hairline, and there is no gore, noose, or invented lettering."
+    },
+    "page-09-panel-02-v01": {
+      "recommendation": "regenerate",
+      "reason": "The short throw, rope coils, Keshavrao's reach, and Nagoji's identity read well, with no gore or noose. Nagoji's left forearm is exposed instead of hidden under the ragged tunic flap."
+    },
+    "page-09-panel-03-v01": {
+      "recommendation": "regenerate",
+      "reason": "The rope crossing from Nagoji to Keshavrao and Keshavrao's clumsy manacled hands are clear. Both identities are distinct and there is no blood, gore, noose, or lettering. Nagoji's left forearm is exposed."
+    },
+    "page-09-panel-04-v01": {
+      "recommendation": "regenerate",
+      "reason": "The wide rope-taut beat and Nagoji's visible wrist and ankle irons read clearly, with good caption reserves and no gore or noose. Nagoji's left forearm is exposed instead of covered."
+    },
+    "page-09-panel-05-v01": {
+      "recommendation": "regenerate",
+      "reason": "Rope splice failure and Nagoji's identity are clear, with no open noose or torn flesh. However, the dark red-orange staining on the bandages and hands may read as blood despite the no-blood rule. Regenerate with reddened, scorched palms rendered without blood-like stains, while preserving the frayed rope and empty reserves."
+    },
+    "page-10-panel-01-v01": {
+      "recommendation": "regenerate",
+      "reason": "The empty hatch, broken ladder, streaming hold, empty collar, wrist chain, and ankle hobble are staged correctly. Nagoji's left forearm is exposed instead of hidden, so the brand could be read as visible."
+    },
+    "page-10-panel-02-v01": {
+      "recommendation": "regenerate",
+      "reason": "The close-up has the correct wet hair, moustache, clean-shaven chin, collar, and Deccan memory stain with no blood. The visible jewellery appears as two gold earrings rather than the single small gold ear stud required by continuity."
+    },
+    "page-10-panel-03-v01": {
+      "recommendation": "conditional accept",
+      "reason": "Nagoji's profile, single visible gold stud, empty collar, wrist chain, rope knot, and spar read clearly; the left forearm is covered by the ragged tunic flap. The two Portuguese guards in the background are an extra visual element not called for in the script, but they are period-consistent and do not read as redcoats or Dutch blue-coats. Keep only if the artist confirms they are intentional and do not obstruct lettering."
+    }
+  },
+  "not_available_at_review": [
+    "page-10-panel-04-v01",
+    "page-10-panel-05-v01"
+  ],
+  "global_findings": {
+    "identity": "Nagoji generally has the thick curled moustache, clean-shaven chin, loose curls, and visible gold stud. Keshavrao remains visibly younger, thinner, faint-moustached, and without an ear stud in the reviewed frames.",
+    "hands": "No obvious extra-finger or impossible hand failure was found in the reviewed frames. Rope and manacle interactions are generally legible.",
+    "text": "Generated text is absent. Blank caption and speech reserves are present where requested and are not treated as lettering.",
+    "violence": "The guard fall and Keshavrao aftermath are staged without visible gore. Panel 9.5 needs a blood-read check on the scorched bandages.",
+    "period_ship": "The sailing ship, storm deck, rigging, Portuguese guard silhouettes, and mixed crew are broadly period-consistent."
+  },
+  "technical_note": "No geometry was measured and no candidate was selected. This file records visual QA only."
+}

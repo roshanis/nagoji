@@ -1,0 +1,30 @@
+{
+  "chapter": 3,
+  "page": 2,
+  "status": "pending_root_selection",
+  "attempts": [
+    {"id":"page-02-panel-01-v01","decision":"reject","reason":"Musket and hold read strongly, but caption boxes are too shallow for two 8.5 point lines."},
+    {"id":"page-02-panel-01-v02","decision":"accept_for_review","reason":"Native review shows timber hold, foreground flintlock musket, chained prisoners looking toward it, clean-shaven Nagoji with curled moustache and flush stud, Keshavrao distinction, covered left forearm, and generous caption reserves."},
+    {"id":"page-02-panel-02-v01","decision":"reject","reason":"First generation incorrectly placed the scene outdoors with a fort and full guard."},
+    {"id":"page-02-panel-02-v01-regenerated","decision":"accept_for_review_pending_copy_fit","candidate":"candidates/page-02-panel-02-v01.json","prompt":"prompts/page-02-panel-02-generation-v02.txt","reason":"Regenerated as an interior below-deck view. Native review shows only the morion silhouette in the hatch, wet hold timbers, storm light, no exterior setting, and two blank speech reserves. Copy-fit fails for the second balloon after contain crop."},
+    {"id":"page-02-panel-03-v01","decision":"reject","reason":"First generation included a visible guard and musket intrusion in the two-shot."},
+    {"id":"page-02-panel-03-v01-regenerated","decision":"accept_for_review_pending_copy_fit","candidate":"candidates/page-02-panel-03-v01.json","prompt":"prompts/page-02-panel-03-generation-v02.txt","reason":"Regenerated close two-shot stays below deck with Nagoji left and Keshavrao right, correct identity cues, wet boards, covered left forearm and blank speech reserves. Copy-fit fails for the second balloon."},
+    {"id":"page-02-panel-04-v01","decision":"accept_for_review","reason":"Native review shows floor-level flintlock against beam, current around stock and ladder into grey light, with one blank caption reserve."},
+    {"id":"page-02-panel-04-v02","decision":"reject","reason":"Regeneration drifted to an unrelated group scene with no musket and no ladder strip staging."},
+    {"id":"page-02-panel-04-v03","decision":"accept_for_review","reason":"Regenerated floor-level hold strip restores the musket, water current and ladder, with a large caption reserve that passed copy-fit preflight."},
+    {"id":"page-02-panel-01-v04","decision":"accept_for_review","reason":"Identity correction restores rigid collars, bandaged wrists, slack pen chains, flush gold stud and covered left forearm while preserving musket staging and caption reserves."},
+    {"id":"page-02-panel-02-v03","decision":"accept_for_review","reason":"Edit enlarges the right reserve while preserving the below-deck morion silhouette. Copy fit and native light support pass."},
+    {"id":"page-02-panel-03-v04","decision":"accept_for_review","reason":"Edit enlarges the left reserve and preserves corrected Nagoji and Keshavrao identity and costume. Copy fit and native light support pass."}
+  ],
+  "geometry": {
+    "page-02-panel-01-v02":"review/page-02-panel-01-v02-geometry.json",
+    "page-02-panel-02-v01":"review/page-02-panel-02-v01-geometry.json",
+    "page-02-panel-03-v01":"review/page-02-panel-03-v01-geometry.json",
+    "page-02-panel-04-v01":"review/page-02-panel-04-v01-geometry.json",
+    "page-02-panel-04-v03":"review/page-02-panel-04-v03-geometry.json",
+    "page-02-panel-01-v04":"review/page-02-panel-01-v04-geometry.json",
+    "page-02-panel-02-v03":"review/page-02-panel-02-v03-geometry.json",
+    "page-02-panel-03-v04":"review/page-02-panel-03-v04-geometry.json"
+  },
+  "native_review": "All four retained candidates were viewed at native resolution. No visible letters or gore were found. Selection remains with the root reviewer; this subtask did not write selections."
+}

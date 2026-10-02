@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "chapter": 1,
+  "page": 9,
+  "selection_input": "../SELECTION-INPUT-r3.json",
+  "continuity": "../../CONTINUITY.md",
+  "frames": [
+    {
+      "id": "page-09-panel-01",
+      "page": 9,
+      "panel": 1,
+      "description": "Back in the cellar. Nagoji chained in his place. Eyes closed. His hands are raw meat.",
+      "copy": [{"speaker":"CAPTION","text":"I closed my eyes. Not in prayer. In calculation."}],
+      "path": "../frames/page-09-panel-01-v15-r2.png",
+      "sha256": "d6a84c956ad5546730371668a53feaff950914ad34ebea4e2e4a772d0cd75077",
+      "origin": "regenerated",
+      "source_path": "../frames/page-09-panel-01-v15-r1.png",
+      "source_sha256": "29cbd4fdabd4586afb31588779b5eaa9f3ffbd78534a24f2acc6f75497fc8308",
+      "correction": "Eyes naturally closed to match the scripted calculation beat; all composition and reserve geometry preserved.",
+      "width": 2158,
+      "height": 729,
+      "visible_rect": [20,140,2139,597],
+      "reserves": [{"kind":"caption","rect":[872,176,1679,316],"copy_indices":[0]}],
+      "prompt_path": "../prompts/page-09-panel-01-v15-r2.txt",
+      "references_sha256": ["bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"]
+    },
+    {
+      "id": "page-09-panel-02",
+      "page": 9,
+      "panel": 2,
+      "description": "A grid of four small insets inside the panel, what he is counting: guards at the door, a key ring, boots on the stair, the bucket.",
+      "copy": [{"speaker":"CAPTION","text":"How many guards. How often they changed. Which men wore keys and which carried only cudgels. How many steps from the stair to the courtyard."}],
+      "path": "../frames/page-09-panel-02-v15-r1.png",
+      "sha256": "28d80e67d947aa50036bf733ae11660da2ac4e0ccd11790a92646e23084c6d7d",
+      "origin": "regenerated",
+      "source_path": "../frames/page-09-panel-02-v15-r1.png",
+      "source_sha256": "28d80e67d947aa50036bf733ae11660da2ac4e0ccd11790a92646e23084c6d7d",
+      "correction": "Portuguese garrison guards in muted earth kit; preserved from accepted page 9 art pass.",
+      "visible_rect": [8,8,2027,764],
+      "reserves": [{"kind":"caption","rect":[31,16,2008,156],"copy_indices":[0]}],
+      "prompt_path": "../prompts/page-09-panel-02-v15-r1.txt",
+      "references_sha256": []
+    },
+    {
+      "id": "page-09-panel-03",
+      "page": 9,
+      "panel": 3,
+      "description": "A whisper passing along the chained line, man to man, drawn as leaning heads in the dark.",
+      "copy": [{"speaker":"PRISONER","text":"They are gathering us for transport. South. By ship. For labour."}],
+      "path": "../frames/page-09-panel-03-v15-r2.png",
+      "sha256": "780d9d3d452e284df3bf5c98d6df2f0a75ce159f2d84a9c27d8a63e367d746a6",
+      "origin": "regenerated",
+      "source_path": "../frames/page-09-panel-03-v15-r1.png",
+      "source_sha256": "2450134bc44ce278a7d3989862257f75959b2304a905c0a18db0dc5119dc6517",
+      "correction": "Changed only Nagoji's lower dhoti to dirty cream or ivory; upper tunic remains ochre and all reserve geometry is preserved.",
+      "width": 2067,
+      "height": 761,
+      "visible_rect": [12,120,2057,637],
+      "reserves": [{"kind":"speech","rect":[1200,170,1827,290],"copy_indices":[0]}],
+      "prompt_path": "../prompts/page-09-panel-03-v15-r2.txt",
+      "references_sha256": ["bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"]
+    },
+    {
+      "id": "page-09-panel-04",
+      "page": 9,
+      "panel": 4,
+      "description": "Full width. Nagoji's eyes opening in the dark.",
+      "copy": [
+        {"speaker":"CAPTION","text":"Ships meant movement. Movement meant chances."},
+        {"speaker":"CAPTION","text":"They had taken my name. They had tried to break my body."},
+        {"speaker":"CAPTION","text":"They had forgotten the simplest lesson of the Deccan monsoon."},
+        {"speaker":"CAPTION (separate, weighted)","text":"Storms do not ask permission."}
+      ],
+      "path": "../frames/page-09-panel-04-v15-r2.png",
+      "sha256": "bb67a383f7c9bc658ddfd4b809b9d5bb11f9ae4e4de6aca70b6484ef9fe6a217",
+      "origin": "regenerated",
+      "source_path": "../frames/page-09-panel-04-v15-r2.png",
+      "source_sha256": "bb67a383f7c9bc658ddfd4b809b9d5bb11f9ae4e4de6aca70b6484ef9fe6a217",
+      "correction": "Accepted r2 close-up with one flush ear stud and no dangling ornaments.",
+      "visible_rect": [16,12,1865,816],
+      "reserves": [
+        {"kind":"caption","rect":[50,100,488,285],"copy_indices":[0]},
+        {"kind":"caption","rect":[50,330,488,445],"copy_indices":[1]},
+        {"kind":"caption","rect":[50,682,650,780],"copy_indices":[2]},
+        {"kind":"caption","rect":[1220,682,1820,780],"copy_indices":[3]}
+      ],
+      "prompt_path": "../prompts/page-09-panel-04-v15-r2.txt",
+      "references_sha256": ["bc270c0540427de10c753c9a8a6cc3eaa293c0aaba4e5d6e468c2b99134e2be0"]
+    }
+  ]
+}

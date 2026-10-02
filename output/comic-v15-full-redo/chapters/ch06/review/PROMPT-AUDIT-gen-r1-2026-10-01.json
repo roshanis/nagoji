@@ -1,0 +1,600 @@
+{
+ "chapter": 6,
+ "audit": {
+  "panels": [
+   {
+    "id": "page-01-panel-01",
+    "risk": "medium",
+    "problems": "Neither mount has a coat colour or tack. The coastal horse comes back in 1.2 and 1.5, where the caption names Kanka, and Ibrahim's pony comes back in 1.2. Without colours the horses will drift between panels and may come out black. The prompt also gives no colour for Ibrahim's coat, and his sheet shows muted teal.",
+    "addendum": "The rider on the sea side (screen right) is Nagoji: bare-headed, long curly hair tied back, a long-sleeved collarless cream tunic-shirt and dhoti, on a small, rough-coated, dark liver-chestnut horse with a pale flaxen mane and tail. The inland rider (screen left) is Ibrahim: white turban, dark muted-teal short coat, on a stocky dark brown pony with a black mane. Both have plain Indian padded saddles and simple leather bridles. Neither horse is black or grey.",
+    "author_flag": "Neither the script nor CONTINUITY.md gives a coat colour for the coastal horse (1.1, 1.2, 1.5) or for Ibrahim's pony (1.1, 1.2). The addenda choose a dark liver-chestnut with a flaxen mane and a dark brown pony, to stay clear of Kanka (black), Kayal (red bay with black points) and the grey gelding. Please confirm or substitute, and consider adding both to the Horses section."
+   },
+   {
+    "id": "page-01-panel-02",
+    "risk": "high",
+    "problems": "The prompt says 'his LEFT cheek turned to us' but gives no screen positions, and the generator mirrors sides, so the scar will often land on the right cheek. Ibrahim's sheet paints the scar as a red, stitched line that reads as a fresh wound, and shows a muted-teal coat with the pockets on the vest, while the prompt says 'dark short coat with bulging pockets'. The horse colours are unset and recur in 1.1 and 1.5. The Nagoji sheet's ear ornament is a hanging gold drop, and its commander figure wears boots and rolled sleeves.",
+    "addendum": "Nagoji rides on screen left and Ibrahim on screen right, a little nearer the camera. Ibrahim turns his head toward Nagoji (toward screen left), so his own left cheek, on the screen-right side of his face, faces the camera. The scar runs on that cheek, from below the left ear down through the beard to the jaw: a thin, pale, healed line, not red, with no stitch marks. His right cheek is unscarred. His short coat is the dark muted teal of his sheet, open over the cream vest whose bulging patch pockets he pats. Nagoji's horse is small and rough-coated, dark liver-chestnut with a pale flaxen mane and tail. Ibrahim's pony is stocky and dark brown with a black mane. Both have plain Indian padded saddles and simple leather bridles. Nagoji wears a collarless cream tunic-shirt with long sleeves down to the bandaged wrists. He is barefoot, with a small flat gold stud on the earlobe (not the hanging drop on the sheet) and a smooth clean-shaven chin.",
+    "author_flag": "Three gaps between the sheets and the text recur through the chapter and are only patched panel by panel here. (1) The Nagoji sheet's ear ornament is a hanging drop, but the bible says a small stud. (2) The bible's chapter 6 row ('simple cream shirt') leaves out the chapter 5 lock (collarless, long sleeves, no buttons, barefoot, hair tied back), so no prompt inherits it. (3) The Ibrahim sheet draws the scar red and stitched and the coat muted teal with the pockets on the vest. The script says 'dark short coat with bulging pockets', and chapter 5 calls the scar a bare pale line. Consider writing all three into CONTINUITY.md."
+   },
+   {
+    "id": "page-01-panel-03",
+    "risk": "low",
+    "problems": "No concrete art risk. The only issue is in the lettering: Ibrahim speaks but is not in the frame or the cast.",
+    "addendum": "",
+    "author_flag": "The line 'IBRAHIM (small, soft)' has no speaker in frame and is not marked (off). The letterer will need an off-panel edge tail."
+   },
+   {
+    "id": "page-01-panel-04",
+    "risk": "medium",
+    "problems": "'Travancore guards in white cotton with dark sashes, matchlocks and spears' leaves their torsos and headwear open. White jackets with turbans and matchlocks would read as 19th-century sepoys. Nothing keeps the speaking guard's face clear, and 'Nagoji in the foreground, turning his head' may block him. The prompt names Ibrahim's scar but not which side faces the camera, and his coat colour is unset.",
+    "addendum": "The guards are bare-chested Nair soldiers in white mundus, with dark cloth sashes at the waist and hair in topknots. No jackets, coats or turbans. The guard who raises his hand is the speaker: show his face in three-quarter view, with his mouth clear and not overlapped by Nagoji's head. Ibrahim wears his dark muted-teal short coat over the cream vest. His scar, a thin pale healed line, appears only on his own left cheek; if that cheek is turned away, show no scar. Nagoji: long curly hair tied back, a long-sleeved collarless cream tunic-shirt and dhoti, barefoot, no turban, sash or sword.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-01-panel-05",
+    "risk": "medium",
+    "problems": "The horse has no colour, and the caption copy in the prompt names Kanka, so a black horse is likely; it must match 1.1 and 1.2. Nagoji's hand on the neck bares a forearm, and nothing says the sleeve covers it.",
+    "addendum": "The coastal horse is the same animal as in 1.2: small, rough-coated, dark liver-chestnut with a pale flaxen mane and tail, a plain padded saddle and a leather bridle. It is not black. Nagoji: long curly hair tied back, a collarless cream tunic-shirt with long sleeves down to the bandaged wrists so no brand shows, dhoti, barefoot. The linen on his hand is clean and white.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-02-panel-01",
+    "risk": "medium",
+    "problems": "This is the first view of the hall and its seated men. Neither the hall's construction nor the courtiers' dress is fixed, and both recur in 2.4, 2.5, 3.1, 6.1 and 9.5, so turbans, shirts and pillar styles will drift. Ibrahim's coat colour is also unset.",
+    "addendum": "Fix the hall as it will look in every view: wooden pillars carved with vines and tigers, a high roof with dark rafters, woven mats on the floor, a slightly raised wooden platform at the far end, and the long side open between pillars to the sea. The seated men are Kerala courtiers, all dressed alike: bare-chested, white mundus, hair in topknots, no turbans and no shirts, so none can be taken for Ramayyan, Ibrahim or Nagoji. Seen from behind, Ibrahim has his white turban and dark muted-teal short coat. Nagoji is bare-headed, long curly hair tied back, in a long-sleeved collarless cream tunic-shirt and dhoti, barefoot.",
+    "author_flag": "Neither the script nor the bible describes how the courtiers dress. The addenda use bare-chested Kerala court dress (white mundu, topknot, no turban). Please confirm."
+   },
+   {
+    "id": "page-02-panel-02",
+    "risk": "medium",
+    "problems": "'A rolled map lies open on the mat' invites painted place names, compass letters and a cartouche. Ramayyan's palm-leaf bundles may pick up pseudo-script.",
+    "addendum": "The map shows only an inked coastline, rivers and hills: no writing, place names, numerals, compass letters or cartouche. Any palm leaf on Ramayyan's table shows only faint, blurred scratches, with no legible letters or script shapes.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-02-panel-03",
+    "risk": "medium",
+    "problems": "Ibrahim is the speaker, but 'at Nagoji's ear' does not keep his face toward the camera. The prompt names the scar 'from his LEFT ear' without saying which side faces the camera, which invites a mirrored scar. Nagoji is in profile with his ear showing, so the sheet's hanging drop is likely to be copied. Ibrahim's coat colour is unset.",
+    "addendum": "Ibrahim's face is in three-quarter view toward the camera, so his barely moving lips read. His scar, a thin pale healed line, appears only on his own left cheek; if that cheek is turned away, show none. His coat is dark muted teal, and his hand rests on a bulging pocket of the cream vest. Nagoji in profile: long curly hair tied back, a small flat gold stud on the lobe (not a hanging drop), a smooth clean-shaven chin, a collarless cream tunic-shirt.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-02-panel-04",
+    "risk": "medium",
+    "problems": "The palm-leaf bundles, ink pot and stylus on the table invite open olas, which usually come back with pseudo-script. The two whisperers are unnamed courtiers with no set dress, and either could be drawn in a white wrap like Ramayyan's.",
+    "addendum": "Any palm leaf shows only faint, blurred scratches, with no legible letters or script shapes. The two whisperers in the foreground dress like the seated rows: bare-chested, white mundus, hair in topknots, no turbans, so neither resembles Ramayyan in his wrapped white cloth.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-02-panel-05",
+    "risk": "medium",
+    "problems": "The rows of turning heads put many faces in a 3:1 strip, the courtiers' dress is unset (drift from 2.1), and Ibrahim's coat colour is unset.",
+    "addendum": "The seated courtiers are bare-chested in white mundus, with hair in topknots and no turbans. Keep their turned faces small and low, leaving the upper band of rafters plain for the caption. Ibrahim, seen from behind: white turban, dark muted-teal short coat. Nagoji: long curly hair tied back, a long-sleeved collarless cream tunic-shirt and dhoti, barefoot, no turban.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-03-panel-01",
+    "risk": "medium",
+    "problems": "The camera is at the entrance end, so Ibrahim, 'a pace behind' Nagoji, faces away from it, yet both balloons are his. Nothing sets which side of his face shows or what colour his coat is. Varma's map, small as it is, can still pick up marks.",
+    "addendum": "Ibrahim, the speaker, stands on screen left of Nagoji and turns his head in profile toward him (toward screen right) as he gestures, so his face, beard and moving mouth read. This shows his right cheek, so no scar is visible. His coat is dark muted teal over the cream vest. Nagoji bows, seen from behind: long curly hair tied back, a collarless long-sleeved cream tunic-shirt, dhoti, barefoot, no turban, sash or sword. The seated courtiers are bare-chested in white mundus, with topknots. The map on the platform has no writing.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-03-panel-02",
+    "risk": "low",
+    "problems": "The two long captions must fit a thin strip that the eyes fill. Nothing else is a concrete risk.",
+    "addendum": "Keep both eyes inside the middle half of the width, and let the temples at each end fade into plain shadow for the two captions.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-03-panel-03",
+    "risk": "medium",
+    "problems": "The shot is over the shoulder from behind Nagoji, and he speaks 'Yes. I was.', but nothing keeps any of his face visible for the tail.",
+    "addendum": "Show Nagoji in lost profile at the near edge: the curve of his cheek, the tip of his moustache and his jaw show past his tied-back hair. He wears the collarless long-sleeved cream tunic-shirt, and no turban.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-03-panel-04",
+    "risk": "medium",
+    "problems": "'Wide and flat' did not trigger a FRAME SHAPE line, so a 3:2 frame with the figures spread over its full height is likely. 'Stagger the balloons' invites painted balloons. In this side view Nagoji stands at screen right facing screen left, which shows his left side, so a short or rolled sleeve (as on the sheet) would bare the forearm that carries the brand.",
+    "addendum": "Keep the three figures in one row across the middle band of the height, and leave the plain closed wall above them open for four lettering areas. Paint no balloons. Nagoji's long left sleeve comes down to the bandaged wrist, so no brand shows. He wears the collarless cream tunic-shirt and is barefoot, with a small flat gold stud and a clean-shaven chin.",
+    "author_flag": "'Wide and flat' is not one of the pipeline's layout cues (full width, strip, tier, splash), so the prompt got no FRAME SHAPE line. If 3.4 should take a full-width row, write 'full width' in the script line."
+   },
+   {
+    "id": "page-03-panel-05",
+    "risk": "medium",
+    "problems": "This is a close-up on bandaged fingers after torture, with nothing ruling out stains, so red-tinged bandages are likely. The hands and wrists are close, and nothing says the sleeves cover the forearms.",
+    "addendum": "Nagoji's wrappings are clean white linen, with no red or brown stains. His long cream sleeves come down over the wrists, so no forearm or brand shows.",
+    "author_flag": "'NAGOJI: They tried.' is spoken by a figure whose face is out of frame, but it is not marked (off). The letterer will need an edge tail."
+   },
+   {
+    "id": "page-04-panel-01",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-04-panel-02",
+    "risk": "medium",
+    "problems": "Ramayyan, the speaker, is in the near foreground pointing away from the camera toward the mat, so his face is likely to be turned away. 'Favouring healing wounds' can be drawn as visible wounds or stained cloth. Nagoji's costume comes only from the one-line bible entry, against the commander sheet.",
+    "addendum": "Ramayyan is turned in three-quarter profile toward the mat, so his face and mouth read past his pointing arm and stylus. Nagoji's stiffness shows in his posture only: no visible wounds, blood or stained cloth. Nagoji: long curly hair tied back, a collarless long-sleeved cream tunic-shirt, plain dhoti, barefoot, bandaged hands, no turban or sash.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-04-panel-03",
+    "risk": "medium",
+    "problems": "A Portuguese bastion invites a flag with arms or lettering. The raised hand 'shaping a low wall in the air' bares a forearm, and nothing says the sleeve covers it. The memory may come back with a border or seam.",
+    "addendum": "The bastion memory has soft, irregular edges that fade into the hall's shadows: no border line, inset box or hard seam. No flag, banner or coat of arms on the bastion. Nagoji's raised hand keeps its long cream sleeve down to the bandaged wrist, so no brand shows. Long curly hair tied back, a collarless tunic-shirt, a small flat gold stud, a clean-shaven chin.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-04-panel-04",
+    "risk": "medium",
+    "problems": "'The stain shifts and softens' means nothing to a generator reading this prompt alone, so a framed or seamed inset is likely. An anonymous Jesuit-looking padre can read as Father Duarte, and a Portuguese column invites a flag.",
+    "addendum": "Paint the hearsay as a pale, hazy sepia wash that bleeds into the hall like a stain on paper: no border, frame line, inset box or hard seam. The padre is small and indistinct, a stocky man with a dark beard, so he cannot be taken for the gaunt, clean-shaven, grey-haired Father Duarte. No flags or banners in the column. Nagoji sits small at the lower edge, in normal colour, facing the camera as he talks: bare-headed, long curly hair tied back, a collarless long-sleeved cream tunic-shirt.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-04-panel-05",
+    "risk": "high",
+    "problems": "The prompt asks for an 'Inset, top left corner of the panel' with no border instruction, the exact case that came back frameless or seamed. The inset's palm leaf ('scratching fast') and the map with its river mouth both invite pseudo-writing.",
+    "addendum": "Paint the inset as a separate small rectangle in the top-left corner, about a quarter of the panel's width, with a clean white border and a thin black outline. Make it fully opaque, so none of the main scene shows through it. Inside it, Ramayyan's hand and stylus move on a palm leaf whose marks are only faint, blurred scratches, with no legible letters. The map under Varma's finger shows only an inked coastline, a river mouth and hills: no writing, place names, numerals, compass letters or cartouche.",
+    "author_flag": "Ramayyan's question comes from a figure who is not in the main frame (only his hand shows, in the inset), and it is not marked (off). If the generated inset still fails, consider generating it as a separate frame and compositing it in."
+   },
+   {
+    "id": "page-05-panel-01",
+    "risk": "medium",
+    "problems": "'Behind him, the stain' is undefined in a prompt read on its own. The galloping-horse view may show a neck and mane, and nothing says what colour (it must be Kanka, black). A burning Portuguese warehouse invites signboards or flags.",
+    "addendum": "Paint the memory as a soft, irregular, warm sepia wash that bleeds into the hall behind him like a stain on paper: no border, frame line, inset box or hard seam, and Nagoji stays in normal colour. If the horse's neck and mane show at the bottom of the memory, they are black: this is Kanka. No signboards, lettering or flags on the warehouse, quay or ships. Nagoji sits cross-legged: long curly hair tied back, a collarless long-sleeved cream tunic-shirt.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-02",
+    "risk": "medium",
+    "problems": "The description is one line with no costume, setting or pose. The attached sheet's commander figure (rust-red turban, red sash, talwar, boots) and its hanging earring can leak in, and nothing says he is still seated on his mat.",
+    "addendum": "Medium close on Nagoji, seated cross-legged on his mat in the hall and facing the camera, with pillars and the bright open side behind him on screen right. Bare-headed, long curly hair tied back, a collarless long-sleeved cream tunic-shirt over a plain dhoti, bandaged hands. No turban, sash or sword. A small flat gold stud on the lobe, not a hanging drop, and a smooth clean-shaven chin.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-03",
+    "risk": "medium",
+    "problems": "'Head lifted from the map' and 'stylus paused mid-stroke' put both the map and an open palm leaf in the frame, with no rule against marks on either.",
+    "addendum": "The map shows only an inked coastline, rivers and hills, with no writing, place names or numerals. Ramayyan's palm leaf shows only faint, blurred scratches, with no legible letters or script shapes.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-04",
+    "risk": "medium",
+    "problems": "The description is one line with no costume, setting or pose, so the commander sheet's turban, sash, sword and hanging earring can leak in, and nothing says he is seated on his mat.",
+    "addendum": "Nagoji is seated cross-legged on his mat in the hall, facing the camera as he speaks to the king, with pillars and the bright open side behind him on screen right. Bare-headed, long curly hair tied back, a collarless long-sleeved cream tunic-shirt over a plain dhoti, bandaged hands. No turban, sash or sword. A small flat gold stud on the lobe, not a hanging drop, and a smooth clean-shaven chin.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-05",
+    "risk": "medium",
+    "problems": "'Already writing' puts an open palm leaf in shot, which invites pseudo-script. Varma's map may also be in frame.",
+    "addendum": "Ramayyan's palm leaf shows only faint, blurred scratches, with no legible letters or script shapes. Any map in frame has no writing.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-06-panel-01",
+    "risk": "medium",
+    "problems": "'Ramayyan in white cloth at his left hand' gives no screen side, so he may be mirrored to screen left. The hall and the seated courtiers can drift from page 2.",
+    "addendum": "Ramayyan sits at the king's left hand, which is screen right. The hall keeps its wooden pillars carved with vines and tigers, its dark rafters and its mats. The seated courtiers are bare-chested in white mundus, with topknots and no turbans. Nagoji, from behind: long curly hair tied back, a collarless cream tunic-shirt, no turban.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-06-panel-02",
+    "risk": "medium",
+    "problems": "'His stylus held still above the leaf' puts an open palm leaf in shot, which invites pseudo-script.",
+    "addendum": "The palm leaf shows only faint, blurred scratches, with no legible letters or script shapes.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-06-panel-03",
+    "risk": "medium",
+    "problems": "Hands gripping the knees bare the forearms, and nothing says the sleeves cover them (the sheet's tunic has rolled sleeves), so a brand or bare forearm may appear. Costume, ear stud and chin come only from the sheet and the one-line bible entry.",
+    "addendum": "Nagoji's long cream sleeves come down to the bandaged wrists, so no forearm or brand shows. Collarless tunic-shirt, plain dhoti, barefoot, long curly hair tied back. A small flat gold stud, not a hanging drop, and a smooth clean-shaven chin. The linen on his hands is clean and white.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-06-panel-04",
+    "risk": "medium",
+    "problems": "Ibrahim's coat colour is unset (his sheet shows muted teal), and nothing says which side of his face shows the scar. He stands at screen left, facing the platform.",
+    "addendum": "Ibrahim's short coat is dark muted teal over the cream vest. His scar, a thin pale healed line, is only on his own left cheek, which here is the side toward the open side (screen left); otherwise keep it out of view. Ramayyan turns his face toward screen left, so his mouth reads. Nagoji, from behind: long curly hair tied back, a collarless cream tunic-shirt, no turban.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-07-panel-01",
+    "risk": "high",
+    "problems": "The panel exists to light the LEFT-jaw scar, but no screen side is given, and the generator mirrors sides. The sheet paints the scar red and stitched, which reads as a wound. The coat colour is unset.",
+    "addendum": "The sea light comes from screen right and falls on the screen-right side of Ibrahim's face, which is his own left cheek. The scar runs there, from below the left ear down through the beard to the jaw: a thin, pale, healed line, not red, with no stitch marks. His right cheek, on screen left, is unscarred. His short coat is the dark muted teal of his sheet, open over the cream vest with bulging patch pockets.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-07-panel-02",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-07-panel-03",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-07-panel-04",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-07-panel-05",
+    "risk": "low",
+    "problems": "Cargo sacks and moored boats are common carriers of stencilled pseudo-text and flags.",
+    "addendum": "The sacks are plain and unmarked, and the boats carry no flags or painted marks.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-01",
+    "risk": "medium",
+    "problems": "Hands on the knees bare the forearms, and nothing says the sleeves cover them. The costume comes only from the one-line bible entry, against the commander sheet and its hanging earring.",
+    "addendum": "Nagoji's long cream sleeves come down to the bandaged wrists, so no forearm or brand shows. Collarless tunic-shirt, plain dhoti, barefoot, long curly hair tied back, no turban or sash. A small flat gold stud, not a hanging drop, and a smooth clean-shaven chin.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-02",
+    "risk": "high",
+    "problems": "'The stain again' is undefined in a prompt read on its own, so a hard border or seam is likely. 'Other Maratha riders in turbans' leaves the turban colour open, and red turbans would blur the memory Nagoji. Two Nagojis share the frame, and the present-day one may inherit the turban and sash. Nothing keeps his face up for his two balloons, and musketeers 'falling' invite wounds.",
+    "addendum": "Paint the memory as a soft, irregular, warm sepia wash that bleeds into the hall like a stain on paper: no border, frame line, inset box or hard seam. The other Maratha riders wear white or cream pagdis and cream angarkhas, no red or rust turbans and no red sashes, and ride brown horses, so the memory Nagoji in rust-red on the black mare Kanka stands out. The musketeers stumble and break ranks, with no wounds. The present-day Nagoji at the bottom edge, in normal colour, faces the camera as he speaks: bare-headed, long curly hair tied back, a collarless long-sleeved cream tunic-shirt, bandaged hands, no turban, sash or sword.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-03",
+    "risk": "medium",
+    "problems": "'Narrow, cold' did not trigger a FRAME SHAPE line, so a 3:2 frame showing his whole face is likely. 'The stain turns' is undefined in a prompt read on its own.",
+    "addendum": "Frame tightly across the eyes and wet brows only, from the plastered fringe to just below the eyes, filling the width so the frame crops to a narrow band, with plain dark ends for the two short captions. Paint it as the memory stain gone cold: a soft blue-grey wash with irregular edges, and no border, box or seam.",
+    "author_flag": "'Narrow' is not a layout cue, so the frame shape is left undetermined. Write 'narrow strip' or 'full width' in the script line if that is the intent."
+   },
+   {
+    "id": "page-08-panel-04",
+    "risk": "medium",
+    "problems": "'Leaning in toward the platform edge at screen left', with only Nagoji in the cast, invites an unsheeted figure on the platform. 'For the balloons' may prompt painted balloons. The side view shows his left side and forearm.",
+    "addendum": "Only the near edge of the platform shows at screen left, with no figure on it in frame (the king is just out of shot). Paint no balloons, and keep the rafters and hall space above him plain. Nagoji shows his left side: his long left sleeve comes down to the bandaged wrist, so no brand shows. Collarless cream tunic-shirt, long curly hair tied back, a small flat gold stud, a clean-shaven chin.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-05",
+    "risk": "medium",
+    "problems": "The cast is Varma only, but a full-width view of the platform, with his eyes 'never leaving the man on the mat', invites an unsheeted diwan beside him and an unsheeted man on the mat. The 'two small motion ticks' are drawn marks that can turn letter-like.",
+    "addendum": "Varma is the only figure: the diwan's table and the man on the mat are just out of frame. The motion ticks are two short curved strokes beside the spear butt, with nothing letter-like.",
+    "author_flag": "Ramayyan is not in the 8.5 cast, although the hall plan seats him at the king's left. If he should appear in this wide view, name him in the script line so his sheet is attached."
+   },
+   {
+    "id": "page-09-panel-01",
+    "risk": "medium",
+    "problems": "Ramayyan sits at his low table in a medium shot, so the palm-leaf bundles are in view and invite pseudo-script.",
+    "addendum": "The palm-leaf bundles are tied shut, and any open leaf shows only faint, blurred scratches, with no legible letters or script shapes.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-09-panel-02",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-09-panel-03",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-09-panel-04",
+    "risk": "low",
+    "problems": "The image prompt is sound. The only problem is in the lettering.",
+    "addendum": "",
+    "author_flag": "RAMAYYAN speaks the long line about the shore, but he is not in the frame or the cast, and the line is not marked (off)."
+   },
+   {
+    "id": "page-09-panel-05",
+    "risk": "medium",
+    "problems": "'Ramayyan (at the king's left hand)' gives no screen side in this view from the entrance end, so he may be mirrored. The hall and courtiers can drift.",
+    "addendum": "Ramayyan sits at the king's left hand, which is screen right. The hall keeps its carved wooden pillars, dark rafters and mats, with the open side on screen left. Any seated courtiers are bare-chested in white mundus, with topknots. Nagoji: long curly hair tied back, a collarless cream tunic-shirt, no turban.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-01",
+    "risk": "medium",
+    "problems": "'Despite the pull of healing wounds' can be drawn as wounds or stained cloth. The costume line is short, set against the commander sheet and its hanging earring.",
+    "addendum": "The strain shows in his posture only: no visible wounds, blood or stained cloth. Nagoji: long curly hair tied back, a collarless cream tunic-shirt with long sleeves to the bandaged wrists, plain dhoti, barefoot, no turban, sash or sword. A small flat gold stud, not a hanging drop, and a clean-shaven chin.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-02",
+    "risk": "low",
+    "problems": "'At his left hand Ramayyan' gives no screen side.",
+    "addendum": "Ramayyan sits at the king's left hand, which is screen right.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-03",
+    "risk": "low",
+    "problems": "'Wind off the sea in his hair' will loosen the hair that every other panel ties back.",
+    "addendum": "Nagoji's hair stays tied back, with loose strands lifting in the wind. Collarless long-sleeved cream tunic-shirt, plain dhoti, barefoot. Ramayyan's palm leaves are a bundle tied shut, and his face is toward the camera, so his mouth reads.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-04",
+    "risk": "medium",
+    "problems": "Nothing says which hand rests at the hip, and it must match 10.5. A forearm at the hip, with no word on sleeves, can show the brand, and the bandage may come back stained.",
+    "addendum": "It is his RIGHT hand, in clean white linen without stains. The long cream sleeve covers the forearm down to the bandaged wrist, and the left arm is out of frame, so no brand shows.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-05",
+    "risk": "low",
+    "problems": "Nothing says which hand rests at the hip, and it must match 10.4.",
+    "addendum": "His RIGHT hand rests at his right hip, on screen right in this back view, with the long sleeve down to the wrist. Long curly hair tied back, a collarless cream tunic-shirt, plain dhoti, barefoot.",
+    "author_flag": ""
+   }
+  ]
+ },
+ "verdicts": {
+  "panels": [
+   {
+    "id": "page-01-panel-01",
+    "keep": true,
+    "addendum": "The rider on the sea side (screen right) is Nagoji: bare-headed, long curly hair tied back, a long-sleeved collarless cream tunic-shirt and dhoti, on a small, rough-coated, dark liver-chestnut horse with a pale flaxen mane and tail. The inland rider (screen left) is Ibrahim: white turban, dark muted-teal short coat, on a stocky dark brown pony with a black mane. Both horses have plain Indian padded saddles and simple leather bridles.",
+    "reason": "Needed: the coastal horse returns in 1.2 and 1.5 and has no colour anywhere, so it would drift (failure mode 6). The chosen colours do not clash with Kayal, the grey gelding or Kanka. The sides agree with 1.2: seen from the front, the sea side is screen left. The shirt matches the ch5 Chapter 5-6 costume (long sleeves, collarless). Cut 'Neither horse is black or grey' because the colour line already covers it."
+   },
+   {
+    "id": "page-01-panel-02",
+    "keep": true,
+    "addendum": "Nagoji rides on screen left and Ibrahim on screen right, a little nearer the camera. Ibrahim turns his head toward Nagoji (toward screen left), so his own left cheek, on the screen-right side of his face, faces the camera. The scar runs on that cheek, from below the left ear down through the beard to the jaw: a thin, pale, healed line, not red, with no stitch marks. His right cheek is unscarred. His short coat is the dark muted teal of his sheet, open over the cream vest whose bulging patch pockets he pats. Nagoji's horse is small and rough-coated, dark liver-chestnut with a pale flaxen mane and tail; Ibrahim's pony is stocky and dark brown with a black mane. Both have plain Indian padded saddles and simple leather bridles. Nagoji wears a collarless cream tunic-shirt with long sleeves down to the bandaged wrists, and is barefoot.",
+    "reason": "Geometry checked: when a man faces the camera and turns to his right (screen left), his left cheek faces the camera. The scar wording matches ch5's 'bare pale line' and the thin scar accepted in ch4. The sheet does draw it red and stitched, which could read as blood. Putting the pockets on the vest follows the bible over the script, as the prompt says it should. Removed the 'flat gold stud, not the hanging drop' clause: the approved sheet and the accepted ch1 and ch4 frames show the drop, so it would cause drift. Removed 'clean-shaven chin', which the continuity block already says."
+   },
+   {
+    "id": "page-01-panel-04",
+    "keep": true,
+    "addendum": "The guards are Nair soldiers: bare-chested, white mundus hitched to the knee, dark cloth sashes, hair in topknots; no turbans and no coats. The guard who raises his hand is the speaker: show his face in three-quarter view, with his mouth clear and not overlapped by Nagoji's head. Ibrahim wears his dark muted-teal short coat over the cream vest. His scar, a thin pale healed line, is only on his own left cheek; if that cheek is turned away, show no scar. Nagoji: long curly hair tied back, a long-sleeved collarless cream tunic-shirt and dhoti, barefoot, no turban, sash or sword.",
+    "reason": "Valid sepoy-look and speaker-face risks (failure modes 7 and 9). Tightened 'No jackets' to 'no coats', because ch5 set Travancore guards as 'short white cotton jackets or bare-chested'. Bare-chested stays within that range, and the turban ban removes the sepoy read. The scar line is conditional, so it cannot be mirrored."
+   },
+   {
+    "id": "page-01-panel-05",
+    "keep": true,
+    "addendum": "The coastal horse is small and rough-coated, dark liver-chestnut with a pale flaxen mane and tail, with a plain padded saddle and a leather bridle. Nagoji: long curly hair tied back, a collarless cream tunic-shirt with long sleeves down to the bandaged wrists, dhoti, barefoot. The linen on his hand is clean and white.",
+    "reason": "Horse colour has to match 1.2, so this is needed. Cut 'same animal as in 1.2', which means nothing to a generator reading this prompt alone. Cut 'It is not black': the Kanka caption gives no colour, so the colour line is enough. Cut 'so no brand shows': naming the brand can make the generator draw one, and the long sleeve already hides the forearm."
+   },
+   {
+    "id": "page-02-panel-01",
+    "keep": true,
+    "addendum": "The hall: wooden pillars carved with vines and tigers, a high roof with dark rafters, woven mats on the floor, a slightly raised wooden platform at the far end, and the long side open between pillars to the sea. The seated men are Kerala courtiers, all dressed alike: bare-chested, white mundus, hair in topknots, no turbans and no shirts. Seen from behind, Ibrahim has his white turban and dark muted-teal short coat. Nagoji is bare-headed, long curly hair tied back, in a long-sleeved collarless cream tunic-shirt and dhoti, barefoot.",
+    "reason": "The hall details come from script 1.3 and 2.2, and the courtiers' dress matches ch5's hall men. Both recur across the chapter (failure mode 4). Trimmed the explanatory 'so none can be taken for...' clause."
+   },
+   {
+    "id": "page-02-panel-02",
+    "keep": true,
+    "addendum": "The map shows only an inked coastline, rivers and hills: no writing, place names, numerals, compass letters or cartouche. Any palm leaf on Ramayyan's table shows only faint, blurred scratches, with no legible letters or script shapes.",
+    "reason": "An open map at the centre of a large panel is a real pseudo-text risk (failure mode 2). It is correct and not redundant."
+   },
+   {
+    "id": "page-02-panel-03",
+    "keep": true,
+    "addendum": "Ibrahim's face is in three-quarter view toward the camera, so his barely moving lips read. His scar, a thin pale healed line, is only on his own left cheek; if that cheek is turned away, show none. His coat is dark muted teal, and his hand rests on a bulging pocket of the cream vest. Nagoji in profile: long curly hair tied back, a collarless cream tunic-shirt.",
+    "reason": "Speaker visibility and a conditional scar are both sound. Removed the 'flat stud, not a hanging drop' clause, which contradicts the approved sheet and the earlier chapters' frames, and the clean-shaven chin, which is already in the continuity block."
+   },
+   {
+    "id": "page-02-panel-04",
+    "keep": true,
+    "addendum": "Any palm leaf shows only faint, blurred scratches, with no legible letters or script shapes. The two whisperers in the foreground are bare-chested, in white mundus, with hair in topknots and no turbans, so neither resembles Ramayyan in his wrapped white cloth.",
+    "reason": "Open olas on the table are a known pseudo-script risk. Unsheeted foreground whisperers need the same look as the courtiers (failure mode 4). Correct as written."
+   },
+   {
+    "id": "page-02-panel-05",
+    "keep": true,
+    "addendum": "The seated courtiers are bare-chested in white mundus, with hair in topknots and no turbans. Keep their turned faces small and low, leaving the upper band of rafters plain for the caption. Ibrahim, seen from behind: white turban, dark muted-teal short coat. Nagoji: long curly hair tied back, a long-sleeved collarless cream tunic-shirt and dhoti, barefoot, no turban.",
+    "reason": "A crowd of faces in a 3:1 strip is failure mode 9, and courtier dress would drift without this (failure mode 4). It is consistent with the script and the strip shape."
+   },
+   {
+    "id": "page-03-panel-01",
+    "keep": true,
+    "addendum": "Ibrahim, the speaker, stands on screen left of Nagoji and turns his head in profile toward him (toward screen right) as he gestures, so his face, beard and moving mouth read; this shows his right cheek, so no scar is visible. His coat is dark muted teal over the cream vest. Nagoji bows, seen from behind: long curly hair tied back, a long-sleeved collarless cream tunic-shirt, dhoti, barefoot, no turban, sash or sword. The seated courtiers are bare-chested in white mundus, with topknots. The map on the platform has no writing.",
+    "reason": "Geometry checked: Ibrahim faces away from the camera, and turning to his right (screen right) shows his right cheek, so no scar is correct. Screen left matches the script's 'toward the open side'. Ibrahim has both balloons, so his face must read."
+   },
+   {
+    "id": "page-03-panel-02",
+    "keep": true,
+    "addendum": "Keep both eyes inside the middle half of the width, and let the temples at each end fade into plain shadow for the two captions.",
+    "reason": "Two long captions on a strip filled with eyes have nowhere to go. This is a cheap, concrete layout fix that agrees with the strip shape and the script's 'Dark'."
+   },
+   {
+    "id": "page-03-panel-03",
+    "keep": true,
+    "addendum": "Show Nagoji in lost profile at the near edge: the curve of his cheek, the tip of his moustache and his jaw show past his tied-back hair. He wears the collarless long-sleeved cream tunic-shirt, and no turban.",
+    "reason": "He speaks from an over-the-shoulder shot (failure mode 9). A lost profile keeps the script's framing and still gives the tail a face."
+   },
+   {
+    "id": "page-03-panel-04",
+    "keep": true,
+    "addendum": "Keep the three figures in one row across the middle band of the height, and leave the plain closed wall above them open for four lettering areas. Paint no balloons. Nagoji's left side faces the camera: his long left sleeve comes down to the bandaged wrist. He wears the collarless cream tunic-shirt and is barefoot.",
+    "reason": "'Stagger the balloons' in the description invites painted balloons. The panel is not solo, so its crop is uncertain, and a single band protects the four lettering areas. Geometry checked: with the camera on the open side, Nagoji facing the king shows his left side. Removed 'so no brand shows', which names the brand, and the stud and chin clauses."
+   },
+   {
+    "id": "page-03-panel-05",
+    "keep": true,
+    "addendum": "Nagoji's wrappings are clean white linen, with no red or brown stains. His long cream sleeves come down over his wrists, so no forearm shows.",
+    "reason": "Bandages after torture shown close up risk stains (failure mode 8). The sleeve line matches the ch5 costume. Removed the mention of the brand."
+   },
+   {
+    "id": "page-04-panel-02",
+    "keep": true,
+    "addendum": "Ramayyan is turned side-on, his face in profile toward the mat, so his face and mouth read past his pointing arm and stylus. Nagoji's stiffness shows in his posture only: no visible wounds, blood or stained cloth. Nagoji: long curly hair tied back, a collarless long-sleeved cream tunic-shirt, plain dhoti, barefoot, bandaged hands, no turban or sash.",
+    "reason": "The speaker is in the near foreground pointing away from the camera, and 'favouring healing wounds' is a real risk. 'Three-quarter profile toward the mat' was geometrically muddled, because the mat lies away from the camera. Changed it to a side-on profile so the face actually reads."
+   },
+   {
+    "id": "page-04-panel-03",
+    "keep": true,
+    "addendum": "The bastion memory has soft, irregular edges that fade into the hall's shadows: no border line, inset box or hard seam. No flag, banner or coat of arms on the bastion. Nagoji's raised hand keeps its long cream sleeve down to the bandaged wrist. Long curly hair tied back, a collarless cream tunic-shirt.",
+    "reason": "The prompt's 'Chapter 1, panel 6.5 device' means nothing to the generator, and the ch1 frame confirms the device is a bleed with no border. A Portuguese bastion invites a lettered flag. Removed the brand mention and the stud and chin clauses."
+   },
+   {
+    "id": "page-04-panel-04",
+    "keep": true,
+    "addendum": "Paint the hearsay as a pale, hazy, faded wash that bleeds into the hall like a stain on paper: no border, frame line, inset box or hard seam. The padre is small and indistinct in the haze: a stocky man with a full dark beard and dark hair. No flags or banners in the column. Nagoji sits small at the lower edge, in normal colour, facing the camera as he talks: bare-headed, long curly hair tied back, a collarless long-sleeved cream tunic-shirt.",
+    "reason": "The undefined 'stain' risks a seam or inset. A gaunt Jesuit would read as Duarte (his sheet shows him gaunt, clean-shaven and grey-haired), and the script calls the padre a stranger. Removed the explicit naming and description of Father Duarte, because a negative description invites those very traits. Dropped 'sepia' so as not to impose a palette the script does not ask for."
+   },
+   {
+    "id": "page-04-panel-05",
+    "keep": true,
+    "addendum": "Paint the inset as a separate small rectangle in the top-left corner, about a quarter of the panel's width, with a clean white border and a thin black outline. Make it fully opaque, so none of the main scene shows through it. Inside it, Ramayyan's hand and stylus move on a palm leaf whose marks are only faint, blurred scratches, with no legible letters. The map under Varma's finger shows only an inked coastline, a river mouth and hills: no writing, place names, numerals, compass letters or cartouche.",
+    "reason": "This is exactly failure mode 3 (an inset asked for with no border instruction) plus two documents in shot (failure mode 2). Correct as written."
+   },
+   {
+    "id": "page-05-panel-01",
+    "keep": true,
+    "addendum": "Paint the memory with soft, irregular edges that bleed into the hall behind him like a stain on paper: no border, frame line, inset box or hard seam, and Nagoji stays in normal colour. If a horse's neck and mane show at the bottom of the memory, they are black. No signboards, lettering or flags on the warehouse, quay or ships. Nagoji sits cross-legged: long curly hair tied back, a collarless long-sleeved cream tunic-shirt.",
+    "reason": "The undefined stain and a lettered warehouse or flag are real risks. Removed 'warm sepia': the ch1 stain device it echoes is in full colour, and a night fire scene needs no tint. The horse colour stays conditional, without naming Kanka, since the script does not name the horse here."
+   },
+   {
+    "id": "page-05-panel-02",
+    "keep": true,
+    "addendum": "Nagoji is seated cross-legged on his mat in the hall, facing the camera, with pillars and the bright open side behind him on screen right. Bare-headed, long curly hair tied back, a collarless long-sleeved cream tunic-shirt over a plain dhoti, bandaged hands. No turban, sash or sword.",
+    "reason": "The one-line description gives the commander sheet a chance to leak in its turban, sash and sword (failure mode 4). Removed 'Medium close', which sets a shot size the script did not, and the stud and chin clauses."
+   },
+   {
+    "id": "page-05-panel-03",
+    "keep": true,
+    "addendum": "The map shows only an inked coastline, rivers and hills, with no writing, place names or numerals. Ramayyan's palm leaf shows only faint, blurred scratches, with no legible letters or script shapes.",
+    "reason": "Both the map and an open leaf are in shot (failure mode 2). Correct."
+   },
+   {
+    "id": "page-05-panel-04",
+    "keep": true,
+    "addendum": "Nagoji is seated cross-legged on his mat in the hall, facing the camera as he speaks to the king, with pillars and the bright open side behind him on screen right. Bare-headed, long curly hair tied back, a collarless long-sleeved cream tunic-shirt over a plain dhoti, bandaged hands. No turban, sash or sword.",
+    "reason": "Same costume-leak risk as 5.2. Removed the stud and chin clauses for the same reasons."
+   },
+   {
+    "id": "page-05-panel-05",
+    "keep": true,
+    "addendum": "Ramayyan's palm leaf shows only faint, blurred scratches, with no legible letters or script shapes. Any map in frame has no writing.",
+    "reason": "'Already writing' puts an open leaf in shot (failure mode 2). Short and correct."
+   },
+   {
+    "id": "page-06-panel-01",
+    "keep": true,
+    "addendum": "Ramayyan sits at the king's left hand, which is screen right. The hall keeps its wooden pillars carved with vines and tigers, its dark rafters and its mats. The seated courtiers are bare-chested in white mundus, with topknots and no turbans. Nagoji, from behind: long curly hair tied back, a collarless cream tunic-shirt, no turban.",
+    "reason": "The prompt gives no screen side for Ramayyan. From the entrance end, the king's left is screen right, which matches the hall plan. Hall and courtier continuity hold too."
+   },
+   {
+    "id": "page-06-panel-02",
+    "keep": true,
+    "addendum": "The palm leaf shows only faint, blurred scratches, with no legible letters or script shapes.",
+    "reason": "An open leaf in a low-angle shot is a pseudo-script risk. Minimal and correct."
+   },
+   {
+    "id": "page-06-panel-03",
+    "keep": true,
+    "addendum": "Nagoji's long cream sleeves come down to the bandaged wrists, so no forearm shows. Collarless tunic-shirt, plain dhoti, barefoot, long curly hair tied back. The linen on his hands is clean and white.",
+    "reason": "Hands gripping the knees bare the forearms, and the sheet has rolled sleeves. Kept the ch5 long-sleeve costume. Removed the brand mention and the stud and chin clauses."
+   },
+   {
+    "id": "page-06-panel-04",
+    "keep": true,
+    "addendum": "Ibrahim's short coat is dark muted teal over the cream vest. His scar, a thin pale healed line, is only on his own left cheek; if that cheek is turned away from the camera, show no scar. Nagoji, from behind: long curly hair tied back, a collarless cream tunic-shirt, no turban.",
+    "reason": "Removed the claim that his left cheek is 'the side toward the open side (screen left)'. That holds only if he faces away from the camera, but 'hands folded over his pockets' suggests a front view, where his left cheek would be on screen right. As written, it could cause the very mirroring it aims to prevent. Also removed the Ramayyan line, which repeats the prompt."
+   },
+   {
+    "id": "page-07-panel-01",
+    "keep": true,
+    "addendum": "The sea light comes from screen right and falls on the screen-right side of Ibrahim's face, which is his own left cheek. The scar runs there, from below the left ear down through the beard to the jaw: a thin, pale, healed line, not red, with no stitch marks. His right cheek, on screen left, is unscarred. His short coat is the dark muted teal of his sheet, open over the cream vest with bulging patch pockets.",
+    "reason": "Geometry checked: he faces the camera and the open side is on screen right, so his left cheek is on the screen-right side. This matches the script's hall-plan reasoning, and the scar wording matches ch4 and ch5. The panel exists for this scar, so it is needed."
+   },
+   {
+    "id": "page-07-panel-05",
+    "keep": true,
+    "addendum": "The sacks are plain and unmarked, and the boats carry no flags or painted marks.",
+    "reason": "Cargo sacks and boats are common carriers of stencils and flags. It is short and consistent with ch5's 'no markings of any kind' sacks."
+   },
+   {
+    "id": "page-08-panel-01",
+    "keep": true,
+    "addendum": "Nagoji's long cream sleeves come down to the bandaged wrists, so no forearm shows. Collarless tunic-shirt, plain dhoti, barefoot, long curly hair tied back, no turban or sash.",
+    "reason": "Hands on the knees bare the forearms, and the commander sheet could leak in. Removed the brand mention and the stud and chin clauses."
+   },
+   {
+    "id": "page-08-panel-02",
+    "keep": true,
+    "addendum": "Paint the memory in warm stained tones with soft, irregular edges that bleed into the hall like a stain on paper: no border, frame line, inset box or hard seam. The other Maratha riders wear white or cream pagdis and cream angarkhas, with no red or rust turbans and no red sashes, and ride brown horses, so the memory Nagoji in rust-red on the black mare stands out. The musketeers stumble and break ranks, with no wounds. The present-day Nagoji at the bottom edge, in normal colour, faces the camera as he speaks: bare-headed, long curly hair tied back, a collarless long-sleeved cream tunic-shirt, bandaged hands, no turban, sash or sword.",
+    "reason": "Needed: an undefined stain, two Nagojis in one frame, 'falling' musketeers and two balloons for the present-day figure. Replaced 'warm sepia wash' with the script's 'warm stained tones', because a sepia wash would flatten the rust-red and black that the addendum itself relies on to make him stand out."
+   },
+   {
+    "id": "page-08-panel-03",
+    "keep": true,
+    "addendum": "Crop tight to the eyes and wet brows: the plastered fringe at the top edge, the frame ending just below the eyes, with dark shadow at the outer ends for the two short captions. The whole frame is the memory, in cold storm blue-grey, with no border, inset box or seam inside it.",
+    "reason": "Rewritten. The panel is not solo, so its row decides its shape. 'Filling the width so the frame crops to a narrow band' asks the generator to draw a band inside a 3:2 image, which invites letterbox bars or an inner frame (failure mode 3). Kept the tight eye crop and the cold treatment. The 'irregular edges' wording would create a vignette inside a panel that is all memory, so it was replaced."
+   },
+   {
+    "id": "page-08-panel-04",
+    "keep": true,
+    "addendum": "Only the near edge of the platform shows at screen left, with no figure on it in frame. Paint no balloons; keep the rafters and hall space above him plain. Nagoji's left side faces the camera: his long left sleeve comes down to the bandaged wrist. Collarless cream tunic-shirt, long curly hair tied back.",
+    "reason": "Nagoji is the only cast member, so an unsheeted king would come out off model. The prompt's 'for the balloons' invites painted balloons. Geometry matches 3.4. Removed the brand mention and the stud and chin clauses."
+   },
+   {
+    "id": "page-08-panel-05",
+    "keep": true,
+    "addendum": "Varma is the only figure on the platform: the diwan's table and the man on the mat are just out of frame.",
+    "reason": "Varma is the only cast member, and the prompt's 'the man on the mat' invites an unsheeted Nagoji. Ramayyan off panel fits 'Ram.' being answered at 9.1. Narrowed 'only figure' to the platform so the silent hall is not emptied. Dropped the motion-tick clause as speculative: ticks are not text, and the risk is unproven."
+   },
+   {
+    "id": "page-09-panel-01",
+    "keep": true,
+    "addendum": "The palm-leaf bundles are tied shut, and any open leaf shows only faint, blurred scratches, with no legible letters or script shapes.",
+    "reason": "A medium shot at the table puts leaves in view. Tied bundles match the Ramayyan sheet's tied ledger. Correct."
+   },
+   {
+    "id": "page-09-panel-05",
+    "keep": true,
+    "addendum": "Ramayyan sits at the king's left hand, which is screen right. The hall keeps its carved wooden pillars, dark rafters and mats. Any seated courtiers are bare-chested in white mundus, with topknots. Nagoji: long curly hair tied back, a collarless cream tunic-shirt, no turban.",
+    "reason": "The screen side is correct from the entrance end, and the prompt omits it. Removed 'open side on screen left', which the prompt already states."
+   },
+   {
+    "id": "page-10-panel-01",
+    "keep": true,
+    "addendum": "The strain shows in his posture only: no visible wounds, blood or stained cloth. Nagoji: long curly hair tied back, a collarless cream tunic-shirt with long sleeves to the bandaged wrists, plain dhoti, barefoot, no turban, sash or sword.",
+    "reason": "'Pull of healing wounds' risks visible wounds (failure mode 8), and he now stands at full length, where the commander sheet could leak in. Removed the stud and chin clauses."
+   },
+   {
+    "id": "page-10-panel-02",
+    "keep": true,
+    "addendum": "Ramayyan sits at the king's left hand, which is screen right.",
+    "reason": "The prompt gives no screen side for this two-shot. Facing the platform, the king's left is screen right, which matches every other platform panel."
+   },
+   {
+    "id": "page-10-panel-03",
+    "keep": true,
+    "addendum": "Nagoji's hair stays tied back, with loose strands lifting in the wind. Collarless long-sleeved cream tunic-shirt, plain dhoti, barefoot. Ramayyan's palm leaves are a bundle tied shut, and his face is toward the camera, so his mouth reads.",
+    "reason": "This reconciles the wind with the tied-back hair seen in every other panel. A tied bundle avoids pseudo-script. Ramayyan speaks, so his face must show."
+   },
+   {
+    "id": "page-10-panel-04",
+    "keep": true,
+    "addendum": "His RIGHT hand on his RIGHT hip, with his right side toward the camera; the hand in clean white linen without stains, the long cream sleeve down to the bandaged wrist. His left arm is out of frame.",
+    "reason": "The hand has to match 10.5, but the original addendum named no camera side, so a mirrored render would swap hands between consecutive panels (failure mode 5). Added the side facing the camera. Removed 'so no brand shows', which names the brand."
+   },
+   {
+    "id": "page-10-panel-05",
+    "keep": true,
+    "addendum": "His RIGHT hand rests at his right hip, on screen right in this back view, with the long sleeve down to the wrist. Long curly hair tied back, a collarless cream tunic-shirt, plain dhoti, barefoot.",
+    "reason": "Geometry is correct: in a back view, his right is screen right. It pairs with 10.4 and keeps his left arm away from the brand."
+   }
+  ]
+ }
+}

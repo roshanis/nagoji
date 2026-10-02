@@ -1,0 +1,73 @@
+{
+  "frames": [
+    {
+      "id": "page-05-panel-03",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-05-panel-03-v04.png",
+      "sha256": "0baecd4185c2828f94695a05b617eacf5418c7a6ec137154a423f95cb3bec0a7",
+      "width": 2135,
+      "height": 736,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/finish-page-05-panel-03-v04-r3.txt",
+      "prompt_sha256": "30f6087a6484b45ec0825a902365231b5265b8733fbbcc9dc43ccddd89f7e2af",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-05-panel-03-v03.png",
+          "sha256": "8ea784188b1d1174d5065b863f3e567466e2551ccf4239f8c0bddf9aa6276c58"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+          "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f2ca-7273-7e22-bc22-d82736c84bc9/exec-a1f02d71-870a-4d0a-bee0-839dabd27fdc.png",
+      "visible_rect": [
+        0,
+        0,
+        2135,
+        736
+      ],
+      "reserves": [
+        {
+          "kind": "speech",
+          "rect": [
+            82,
+            26,
+            898,
+            141
+          ],
+          "copy_indices": [
+            0
+          ]
+        },
+        {
+          "kind": "speech",
+          "rect": [
+            970,
+            26,
+            2020,
+            141
+          ],
+          "copy_indices": [
+            1
+          ]
+        }
+      ],
+      "review_note": "Root visual pass: awake clothed Nagoji, correct carriers, finger wraps and child in background doorway. Both full dialogue lines fit at105pt row with1.0 light support. Independent review pending."
+    }
+  ],
+  "moderation_rewrites": 1,
+  "moderation_success_candidate": "v02",
+  "subsequent_visual_corrections": [
+    "v03 finger wraps",
+    "v04 child age and lettering reserve"
+  ],
+  "page5_rows": [
+    110,
+    90,
+    105,
+    105,
+    105.5
+  ]
+}

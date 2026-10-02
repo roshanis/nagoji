@@ -1,0 +1,56 @@
+{
+  "id": "page-08-panel-02",
+  "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-08-panel-02-v02.png",
+  "sha256": "3e54e2f4e156f8155fe1d218e91f9015148bab9189353f48afcd646190955ed0",
+  "width": 1536,
+  "height": 1024,
+  "generation_tool": "built-in imagegen",
+  "origin": "generated",
+  "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/prompts/page-08-panel-02-generation-v02.txt",
+  "prompt_sha256": "d91c359794cb1d6673af1a49a3c8ce5b270562d9242c6f5d81d29cae615bc790",
+  "references": [
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-08-panel-02-v01.png",
+      "sha256": "32ebbaaeda3fdb7ed733054d3585f0b8a7c268aa265d4ff4bc04d0a8168ddc60"
+    },
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+      "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    }
+  ],
+  "visual_review": "pass",
+  "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27f-a489-7813-86d0-caae94cfb057/exec-a3eac72d-eeff-472e-9129-bbe6878a4e81.png",
+  "root_ready": {
+    "source_candidate": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-08-panel-02-v02.json",
+    "source_provenance": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-08-panel-02-v02-provenance.json",
+    "actual_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/prompts/page-08-panel-02-generation-v02.txt",
+    "actual_prompt_sha256": "d91c359794cb1d6673af1a49a3c8ce5b270562d9242c6f5d81d29cae615bc790",
+    "actual_reference_paths": [
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-08-panel-02-v01.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png"
+    ],
+    "reference_hashes_verified": true
+  },
+  "visible_rect": [
+    0,
+    0,
+    1536,
+    1024
+  ],
+  "reserves": [
+    {
+      "kind": "caption",
+      "rect": [
+        1000,
+        20,
+        1500,
+        220
+      ],
+      "copy_indices": [
+        0
+      ]
+    }
+  ],
+  "reviewer": "Codex root with independent native review",
+  "review_note": "Identity, action, period setting, covered brand, irons, hands and blank reserves reviewed at native resolution. Copy fit and native light support pass current pipeline."
+}

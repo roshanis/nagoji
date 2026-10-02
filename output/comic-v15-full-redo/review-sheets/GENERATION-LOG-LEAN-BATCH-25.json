@@ -1,0 +1,34 @@
+[
+  {
+    "chapter": 3,
+    "id": "page-03-panel-02",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-03-panel-02-v10.json",
+    "error": null,
+    "generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f84f-3b2a-7a43-ac98-de62dbd9ad03/exec-9f9e5af6-a3e0-4ea8-947b-03008fa898db.png"
+  },
+  {
+    "chapter": 3,
+    "id": "page-06-panel-01",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-06-panel-01-v10.json",
+    "error": null,
+    "generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f84f-3b2a-7a43-ac98-de62dbd9ad03/exec-e60d5c29-1123-470c-a08e-075ffd7a83a4.png"
+  },
+  {
+    "chapter": 3,
+    "id": "page-06-panel-04",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-06-panel-04-v09.json",
+    "error": null,
+    "generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f84f-3b2a-7a43-ac98-de62dbd9ad03/exec-1387800d-f26c-468d-86d1-25b68f5e5259.png"
+  },
+  {
+    "chapter": 1,
+    "id": "page-01-panel-02",
+    "status": "error",
+    "candidate_record": null,
+    "error": "Traceback (most recent call last):\n  File \"/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py\", line 923, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py\", line 872, in main\n    raise ValueError(f'--prompt must begin with the prepared prompt {item[\"prompt_path\"]}; a correction can only be appended')\nValueError: --prompt must begin with the prepared prompt /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01-v2/prompts/page-01-panel-02.txt; a correction can only be appended\nCapture retried once with the exact requested prompt and returned the same error. The supplied prompt differs from the prepared prompt; correcting this requires changes outside the permitted files. No moderation refusal occurred.",
+    "generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f84f-3b2a-7a43-ac98-de62dbd9ad03/exec-bd9e1983-67b2-4cb0-9783-4a3c5e5c3cb4.png"
+  }
+]

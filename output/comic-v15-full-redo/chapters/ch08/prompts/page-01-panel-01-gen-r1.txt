@@ -1,0 +1,26 @@
+V15 graphic novel panel page-01-panel-01 for chapter 8. Wide, full width. Wet sand at low tide, hard morning glare. Nagoji on his plain grey gelding, in his commander kit (rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar at his hip; thick curled moustache, CLEAN-SHAVEN CHIN), stands in his stirrups, one arm flung out, mouth open in a shout. Ahead of him a ragged double line of riders: tall Madurai chargers beside small shaggy Maravar ponies, the line bowing where the ponies cannot keep pace. Beyond them, Kerala plank-sewn fishing canoes and log catamarans drawn up in the shallows, fishermen watching from them, one doubled over laughing.
+
+FRAME SHAPE: a wide horizontal strip, about 3 to 1 (width to height), filling the whole width; keep faces and the key action inside the middle half of the height.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+grey_gelding: - **Nagoji's grey gelding**: his plain grey daytime mount in ch7-8, distinct from Kayal.
+madurai_troop: - **The Madurai troop** (ch7, ch8, ch13): Carnatic cavalry of the 1740s in knee-length white jama tunics, plain cloth waistbands, loose trousers, high-wrapped white or off-white turbans, never green, red or rust; quilted Indian saddles; long bamboo lances with no pennons; tall, heavy horses in dark bay, dark brown and black, no greys. Raza Khan alone rides in a deep green turban.
+nagoji: Constant identity: strong cheekbones, straight nose, thick curled moustache, CLEAN-SHAVEN CHIN (light stubble at most, captivity only), long curly black hair, small gold ear stud, lean cavalryman build. No forehead marks, no sacred thread, no royal jewellery. No facial scar.; Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand's width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art, and no painted balloons, caption boxes or frames: leave clear, low-detail space where the lettering will go. The letterer draws every balloon and caption over the finished art.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+No text of any kind in generated art. Do not render the following exact copy; it is composited later:
+CAPTION: Months of sun and salt.
+CAPTION: I became, in a small way, part of the landscape.
+Leave clear, low-detail space (sky, wall, floor or shadow) for exactly 2 lettering area(s), one per copy chunk, preferably in the upper part of the frame, with enough room for the exact characters above. Draw NO balloons, boxes, frames, outlines, banners or text of any kind in those areas or anywhere else; the lettering is added afterwards. This replaces any earlier mention of blank balloon or caption reserves. Keep faces, hands, and important action outside those areas.
+No invented lettering, pseudo-writing, logos, watermark, gore, or anachronistic costume.
+
+PRE-GENERATION NOTE (appended after a prompt audit): Nagoji's grey is the only grey horse in the frame. It wears a quilted Indian saddle and a plain leather bridle, not a European saddle. The Maravar riders are bare-headed, in plain white or undyed mundus hitched for riding and short jackets, on small rough-coated dun and dark-brown ponies. The fishermen are bare-chested, each with a cotton cloth over one shoulder and a plain single-colour lungi: no checks, plaids, vests or shirts. Keep the inner side of Nagoji's left forearm turned away from the camera, so no mark shows on either arm.

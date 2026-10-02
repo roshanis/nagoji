@@ -1,0 +1,71 @@
+{
+  "review_version": "v15",
+  "reviewer": "Codex",
+  "scope": "Independent visual review of root generated sheets requested by the parent agent",
+  "results": [
+    {
+      "character": "10 Father Duarte",
+      "output": "output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+      "sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453",
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "face_matches_approved_chapter_1_frames": "pass",
+        "thin_gaunt_lined_fifties_face": "pass",
+        "grey_swept_back_hair_with_side_curls": "pass",
+        "grey_tired_eyes": "pass",
+        "plain_black_cassock": "pass",
+        "plain_standing_collar_no_white_roman_tabs": "pass",
+        "small_cross_on_thin_chain": "pass",
+        "ink_stained_fingers_detail": "pass",
+        "header_and_detail_text_readable": "pass",
+        "no_em_or_en_dash": "pass"
+      },
+      "notes": "The sheet matches the approved Chapter 1 face direction and the bible. The collar is plain black in the turnaround and the detail caption is BLACK STANDING COLLAR. No white Roman collar tab is visible. The selected Chapter 1 frames show the same thin gaunt lined face, swept grey hair and tired eyes in context."
+    },
+    {
+      "character": "11 Joao",
+      "output": "output/comic-v15-full-redo/concepts/11-joao-v15.png",
+      "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a",
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "broad_heavy_ruddy_gaoler": "pass",
+        "brown_leather_jerkin": "pass",
+        "cream_shirt": "pass",
+        "wide_belt": "pass",
+        "iron_key_ring": "pass",
+        "not_a_priest": "pass",
+        "turnarounds_and_expressions_consistent": "pass",
+        "header_and_detail_text_readable": "pass",
+        "no_em_or_en_dash": "pass"
+      },
+      "notes": "The sheet clearly reads as a broad heavy Portuguese gaoler with ruddy complexion, brown leather jerkin over a cream shirt, wide belt and iron keys. It contains no cassock or priest collar. The lantern appears only as a detail and as a held prop in the large view, while the Chapter 1 selected frames use the same heavy gaoler identity."
+    },
+    {
+      "character": "16 The Senior Rani of Attingal",
+      "output": "output/comic-v15-full-redo/concepts/16-senior-rani-v15.png",
+      "sha256": "118a5ae795f9c653ea870a9e0167d4ef521c1e6a65a506fc7f6782a2a9297bc8",
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "smooth_faced_family_likeness_to_v13_varma": "pass",
+        "tall_upright_posture": "pass",
+        "severe_hair_pulled_back_no_flowers": "pass",
+        "white_cloth_narrow_gold_border": "pass",
+        "small_gold_ear_ornaments": "pass",
+        "not_old_grey_haired": "pass",
+        "turnarounds_and_expressions_consistent": "pass",
+        "header_and_detail_text_readable": "pass",
+        "no_em_or_en_dash": "pass"
+      },
+      "notes": "The face has the same strong cheekbones, straight nose and controlled expression family as the V13 Varma reference, while remaining distinctly female. She is tall and upright, dressed in white with a narrow gold border, with a severe dark bun and small gold ear ornaments. No flowers or grey older-woman treatment are present."
+    },
+    {
+      "character": "17 The Young Heir",
+      "output": null,
+      "sha256": null,
+      "checks": {
+        "output_present_for_review": "fail"
+      },
+      "notes": "The requested 17-young-heir-v15.png was not present at review time and was reported as still generating. No visual verdict was made for this sheet."
+    }
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "schema_version": 2,
+  "character": "Kayal",
+  "project": "Horse of the Servant",
+  "edition": "V15",
+  "status": "pass",
+  "author_approval": "pending",
+  "method": "local pixel repair, no imagegen",
+  "final_image_uses_imagegen": false,
+  "authorization": "The user explicitly approved a local repair of the original after three built-in imagegen edits failed.",
+  "source_reference": {
+    "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/19-kanka-v15.png",
+    "sha256": "ad7ef9ce9481cedbca01195dcffaec122f8df8414b35756ed5086d6e6183996a"
+  },
+  "edit_source": {
+    "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/20-kayal-v15.png",
+    "sha256": "e7ff2430145349e8a05472e17e0a487a7202daf61264778abd9c97e5203f1882"
+  },
+  "output": {
+    "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/20-kayal-v15b.png",
+    "sha256": "1aad9910bd74c481946d4759d2373022edda0907028fb340340c3c743d90934e",
+    "width": 1536,
+    "height": 1024,
+    "format": "PNG"
+  },
+  "supersedes": {
+    "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/KAYAL-SHEET-REVIEW.json",
+    "sha256": "e266bad9366f9cadac7e36ecff5b56e86ac44d1565acbd37bd0a60a54582c4b5",
+    "original_retained": true,
+    "reason": "The original no-white-markings pass missed the small white FRONT forehead star. That pass is invalidated. This updated record is additive because overwriting existing files is prohibited."
+  },
+  "repair": {
+    "method": "Decode the original PNG to RGB24. Replace only the 19 listed star and antialiased halo pixels. For each masked pixel x,y and channel, interpolate original pixels x528,y and x532,y with t=(x-528)/4 and round to nearest integer. Nearby bay coat colour and row texture blend the repaired area into its unchanged boundary. Encode a lossless PNG.",
+    "tools": "Node.js Buffer and local ffmpeg for lossless decoding, encoding and in-memory crops. No imagegen used for the final image.",
+    "bounding_box": {
+      "coordinate_system": "zero-based pixel coordinates, origin top left",
+      "left": 529,
+      "top": 122,
+      "right_exclusive": 532,
+      "bottom_exclusive": 130,
+      "width": 3,
+      "height": 8
+    },
+    "changed_pixel_count": 19,
+    "changed_pixel_coordinates": [
+      [
+        529,
+        122
+      ],
+      [
+        530,
+        122
+      ],
+      [
+        529,
+        123
+      ],
+      [
+        530,
+        123
+      ],
+      [
+        529,
+        124
+      ],
+      [
+        530,
+        124
+      ],
+      [
+        531,
+        124
+      ],
+      [
+        529,
+        125
+      ],
+      [
+        530,
+        125
+      ],
+      [
+        531,
+        125
+      ],
+      [
+        529,
+        126
+      ],
+      [
+        530,
+        126
+      ],
+      [
+        531,
+        126
+      ],
+      [
+        530,
+        127
+      ],
+      [
+        531,
+        127
+      ],
+      [
+        530,
+        128
+      ],
+      [
+        531,
+        128
+      ],
+      [
+        530,
+        129
+      ],
+      [
+        531,
+        129
+      ]
+    ],
+    "outside_bbox_changed_pixel_count": 0,
+    "outside_bbox_compared_pixel_count": 1572840,
+    "proof": {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/20-kayal-v15b.png",
+      "sha256": "1aad9910bd74c481946d4759d2373022edda0907028fb340340c3c743d90934e",
+      "width": 1536,
+      "height": 1024,
+      "changed_pixel_count": 19,
+      "changed_pixel_coordinates": [
+        [
+          529,
+          122
+        ],
+        [
+          530,
+          122
+        ],
+        [
+          529,
+          123
+        ],
+        [
+          530,
+          123
+        ],
+        [
+          529,
+          124
+        ],
+        [
+          530,
+          124
+        ],
+        [
+          531,
+          124
+        ],
+        [
+          529,
+          125
+        ],
+        [
+          530,
+          125
+        ],
+        [
+          531,
+          125
+        ],
+        [
+          529,
+          126
+        ],
+        [
+          530,
+          126
+        ],
+        [
+          531,
+          126
+        ],
+        [
+          530,
+          127
+        ],
+        [
+          531,
+          127
+        ],
+        [
+          530,
+          128
+        ],
+        [
+          531,
+          128
+        ],
+        [
+          530,
+          129
+        ],
+        [
+          531,
+          129
+        ]
+      ],
+      "changed_region": {
+        "coordinate_system": "zero-based pixel coordinates, origin top left",
+        "left": 529,
+        "top": 122,
+        "right_exclusive": 532,
+        "bottom_exclusive": 130,
+        "width": 3,
+        "height": 8
+      },
+      "outside_bbox_changed_pixel_count": 0,
+      "outside_bbox_compared_pixel_count": 1572840,
+      "source_rgb24_sha256": "c729be077585ad55385413c125abbc4b4537be1228df8d96fc9c9effa015f3e9",
+      "output_rgb24_sha256": "c170f756a3b54af3d7534089bdce34e5cfcecc26826bf1e0953bead23e7ea31a",
+      "source_rgb24_with_bbox_zeroed_sha256": "2ef72149b36bf1ab62d4437a6b27f953dda62adf121b9c9523456aae61b0bba2",
+      "output_rgb24_with_bbox_zeroed_sha256": "2ef72149b36bf1ab62d4437a6b27f953dda62adf121b9c9523456aae61b0bba2",
+      "saved_png_decodes_exactly_to_repaired_rgb": true,
+      "comparison": "Compare all decoded RGB24 pixels. Count any pixel with a differing channel. Zero the stated bounding box in both buffers, then compare bytes and SHA256. Equal masked-buffer hashes and zero outside mismatches prove unchanged pixels outside the box."
+    }
+  },
+  "checks": {
+    "front_star_and_halo_removed": {
+      "status": "pass",
+      "evidence": "FRONT face inspected at 6x; repair inspected at 20x. Continuous brown coat, no white or cream mark and no visible seam."
+    },
+    "every_face_zoomed": {
+      "status": "pass",
+      "evidence": "3/4, FRONT, both profiles, all six expressions and EYE detail individually enlarged and inspected."
+    },
+    "zero_white_face_or_leg_hair": {
+      "status": "pass",
+      "evidence": "All face and visible-leg crops passed root and independent review; eye and hoof reflections remain correct."
+    },
+    "nothing_else_changed": {
+      "status": "pass",
+      "evidence": "Exactly 19 pixels changed inside the star and halo mask. Every other pixel is identical to the original."
+    },
+    "mare_bay_black_points_tack_layout_style_text": {
+      "status": "pass",
+      "evidence": "Original anatomy, coat, black points, bridle, Indian saddle pad, layout, lettering and palette preserved exactly outside the repaired star pixels."
+    },
+    "no_pixel_change_outside_bbox": {
+      "status": "pass",
+      "evidence": "All 1,572,840 outside-box pixels compare identically and masked RGB24 hashes match."
+    }
+  },
+  "zoom_checks": [
+    {
+      "view": "MAIN",
+      "status": "pass",
+      "region": {
+        "left": 278,
+        "top": 48,
+        "width": 145,
+        "height": 244
+      },
+      "magnification": 3,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "FRONT",
+      "status": "pass",
+      "region": {
+        "left": 486,
+        "top": 86,
+        "width": 96,
+        "height": 127
+      },
+      "magnification": 6,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No residual star or halo; bay coat blends naturally."
+    },
+    {
+      "view": "RIGHT PROFILE",
+      "status": "pass",
+      "region": {
+        "left": 896,
+        "top": 84,
+        "width": 113,
+        "height": 115
+      },
+      "magnification": 5,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "LEFT PROFILE",
+      "status": "pass",
+      "region": {
+        "left": 1158,
+        "top": 86,
+        "width": 97,
+        "height": 118
+      },
+      "magnification": 5,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "RELAXED",
+      "status": "pass",
+      "region": {
+        "left": 443,
+        "top": 482,
+        "width": 162,
+        "height": 227
+      },
+      "magnification": 3,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "ALERT",
+      "status": "pass",
+      "region": {
+        "left": 614,
+        "top": 482,
+        "width": 171,
+        "height": 227
+      },
+      "magnification": 3,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "CURIOUS",
+      "status": "pass",
+      "region": {
+        "left": 795,
+        "top": 482,
+        "width": 170,
+        "height": 227
+      },
+      "magnification": 3,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "UNEASY",
+      "status": "pass",
+      "region": {
+        "left": 973,
+        "top": 482,
+        "width": 174,
+        "height": 227
+      },
+      "magnification": 3,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "TIRED",
+      "status": "pass",
+      "region": {
+        "left": 1155,
+        "top": 482,
+        "width": 173,
+        "height": 227
+      },
+      "magnification": 3,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "SPIRITED",
+      "status": "pass",
+      "region": {
+        "left": 1338,
+        "top": 482,
+        "width": 173,
+        "height": 227
+      },
+      "magnification": 3,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "EYE DETAIL",
+      "status": "pass",
+      "region": {
+        "left": 444,
+        "top": 791,
+        "width": 193,
+        "height": 165
+      },
+      "magnification": 4,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair; white catchlight is confined to the eye."
+    },
+    {
+      "view": "MAIN LEGS",
+      "status": "pass",
+      "region": {
+        "left": 55,
+        "top": 468,
+        "width": 319,
+        "height": 323
+      },
+      "magnification": 2,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "FRONT LEGS",
+      "status": "pass",
+      "region": {
+        "left": 487,
+        "top": 252,
+        "width": 101,
+        "height": 153
+      },
+      "magnification": 4,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "RIGHT PROFILE LEGS",
+      "status": "pass",
+      "region": {
+        "left": 641,
+        "top": 244,
+        "width": 292,
+        "height": 160
+      },
+      "magnification": 2,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "BACK LEGS",
+      "status": "pass",
+      "region": {
+        "left": 1041,
+        "top": 266,
+        "width": 96,
+        "height": 140
+      },
+      "magnification": 4,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "LEFT PROFILE LEGS",
+      "status": "pass",
+      "region": {
+        "left": 1214,
+        "top": 246,
+        "width": 289,
+        "height": 158
+      },
+      "magnification": 2,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    },
+    {
+      "view": "LOWER LEG DETAIL",
+      "status": "pass",
+      "region": {
+        "left": 1109,
+        "top": 791,
+        "width": 195,
+        "height": 165
+      },
+      "magnification": 3,
+      "method": "In-memory nearest-neighbour enlargement, visually inspected. No crop files written.",
+      "finding": "No white hair markings."
+    }
+  ],
+  "independent_review": {
+    "reviewer": "kayal_review",
+    "requested_model": "gpt-5.6-luna",
+    "status": "pass",
+    "findings": "All enlarged faces, eye detail and visible legs pass. No residual forehead marking, repair seam or unrelated visual change. No concerns remain.",
+    "files_written": 0
+  },
+  "imagegen_attempt_count": 3,
+  "local_repair_count": 1,
+  "selected_result": "local_repair",
+  "failed_imagegen_attempts": [
+    {
+      "attempt": 1,
+      "method": "built-in imagegen",
+      "status": "fail",
+      "selected": false,
+      "output_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ea72-4300-7e52-b237-049d0c1e2e84/exec-11773e5e-c542-4ec9-9d88-ea4b096b09b4.png",
+      "output_sha256": "07d5f76f024a78f16b50702a780ba0967ef54d31ea006999f29a4684338ddcfb",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/prompts/20-kayal-v15b.txt",
+      "reason": "FRONT white star remains; unrelated coat, face and eye detail was smoothed or repainted.",
+      "checks": {
+        "front_star_removed": "fail",
+        "other_faces_and_legs_no_white_hair": "pass",
+        "change_nothing_else": "fail",
+        "layout_text_tack_anatomy_bay_and_black_points": "pass"
+      },
+      "pixel_comparison_to_original": {
+        "changed_pixels": 1489235,
+        "outside_diagnostic_bbox_changed_pixels": 1488635,
+        "diagnostic_bbox": {
+          "left": 523,
+          "top": 114,
+          "right_exclusive": 543,
+          "bottom_exclusive": 144
+        },
+        "mean_absolute_channel_difference": 4.316553115844727
+      },
+      "input_reference_mode": "Original full sheet attached by absolute path.",
+      "root_review": "fail",
+      "independent_review": "fail",
+      "prompt_sha256": "72b91b4b5966720113cf39c59bea476ce43daa39964b7f87f4cef05e931ee9e8"
+    },
+    {
+      "attempt": 2,
+      "method": "built-in imagegen",
+      "status": "fail",
+      "selected": false,
+      "output_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ea72-4300-7e52-b237-049d0c1e2e84/exec-a5ada543-ba30-4146-868a-7f673fc280b4.png",
+      "output_sha256": "39e104f65934803acda03b93685eea7e1b91879137ec9624a23508f66f07ad4f",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/prompts/20-kayal-v15b-attempt-2.txt",
+      "reason": "FRONT white star remains; unrelated coat, face and eye detail was smoothed or repainted.",
+      "checks": {
+        "front_star_removed": "fail",
+        "other_faces_and_legs_no_white_hair": "pass",
+        "change_nothing_else": "fail",
+        "layout_text_tack_anatomy_bay_and_black_points": "pass"
+      },
+      "pixel_comparison_to_original": {
+        "changed_pixels": 1484601,
+        "outside_diagnostic_bbox_changed_pixels": 1484001,
+        "diagnostic_bbox": {
+          "left": 523,
+          "top": 114,
+          "right_exclusive": 543,
+          "bottom_exclusive": 144
+        },
+        "mean_absolute_channel_difference": 4.35137579176161
+      },
+      "input_reference_mode": "Original full sheet attached by absolute path.",
+      "root_review": "fail",
+      "independent_review": "fail",
+      "prompt_sha256": "b7cde265ec289d5586fe1bdeed29718227c157e8eec2d95b32a9c5fd7636d289"
+    },
+    {
+      "attempt": 3,
+      "method": "built-in imagegen",
+      "status": "fail",
+      "selected": false,
+      "output_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ea72-4300-7e52-b237-049d0c1e2e84/exec-500ff089-1605-4c32-9c6c-d03e4edca687.png",
+      "output_sha256": "7233a45d9c9060f4a635609ac2d56b5b51ec9ae5fe9f48b106bce0ded6cf0621",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/prompts/20-kayal-v15b-attempt-3.txt",
+      "reason": "A pale cream forehead mark remains; unrelated rendering was smoothed or repainted.",
+      "checks": {
+        "front_star_removed": "fail",
+        "other_faces_and_legs_no_white_hair": "pass",
+        "change_nothing_else": "fail",
+        "layout_text_tack_anatomy_bay_and_black_points": "pass"
+      },
+      "pixel_comparison_to_original": {
+        "changed_pixels": 1471931,
+        "outside_diagnostic_bbox_changed_pixels": 1471331,
+        "diagnostic_bbox": {
+          "left": 523,
+          "top": 114,
+          "right_exclusive": 543,
+          "bottom_exclusive": 144
+        },
+        "mean_absolute_channel_difference": 4.256637149386936
+      },
+      "input_reference_mode": "Original full sheet plus a six-times enlarged FRONT crop in memory, attached as the last two images.",
+      "root_review": "fail",
+      "independent_review": "fail",
+      "prompt_sha256": "1483615a1a7f3b1fe7871446cb11213af8696da5712471815dbafd4265638d6d"
+    }
+  ],
+  "imagegen_prompt_paths": [
+    "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/prompts/20-kayal-v15b.txt",
+    "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/prompts/20-kayal-v15b-attempt-2.txt",
+    "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/prompts/20-kayal-v15b-attempt-3.txt"
+  ],
+  "unmet_visual_requirements": [],
+  "notes": [
+    "The original review JSON is preserved; this additive version records the new output and corrects its mistaken no-white-markings pass.",
+    "The three rejected imagegen outputs remain in the tool-managed cache. None supplied pixels to the final image.",
+    "No existing image, prompt, JSON, script, pipeline file or chapter was overwritten, deleted or moved."
+  ],
+  "reviewed_at_utc": "2026-09-29T00:22:40Z",
+  "integrity_checks": {
+    "prior_concepts_unchanged": {
+      "status": "pass",
+      "baseline": {
+        "count": 95,
+        "sha256": "ab432bfa4577c3d8f788a5cb29910545530fccc57b9e196ba8d3007194eddcf9"
+      }
+    },
+    "protected_files_unchanged": {
+      "status": "pass",
+      "baseline": {
+        "count": 384,
+        "sha256": "20a72759e4a1494678d993c52da78396530f79683b2476b19194f58eb55db3db"
+      }
+    },
+    "saved_pixel_proof_independently_recomputed": {
+      "status": "pass"
+    },
+    "exact_failed_attempt_prompts_saved": {
+      "status": "pass"
+    },
+    "no_em_or_en_dashes_in_new_text": {
+      "status": "pass"
+    }
+  }
+}

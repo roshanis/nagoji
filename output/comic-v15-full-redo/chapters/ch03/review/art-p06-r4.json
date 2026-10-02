@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "scope": ["page-06"],
+  "status": "ready_for_independent_selection_review",
+  "selection_done": false,
+  "final_candidates": {
+    "page-06-panel-01": "v06",
+    "page-06-panel-02": "v07",
+    "page-06-panel-03": "v03",
+    "page-06-panel-04": "v07",
+    "page-06-panel-05": "v02"
+  },
+  "copy_fit_preflight": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 18,
+    "method": "compositor.copy_fit_measurements plus run_chapter.audit_reserve_pixels"
+  },
+  "native_review": {
+    "page-06-panel-01": {
+      "status": "pass_pending_root_review",
+      "notes": "Upper-left dialogue balloons are vertically stacked. The first upper balloon tail points to Keshavrao on the right, and the second lower balloon tail points to Nagoji on the left without intersecting. Flooded hold, chains, cloth coverage, wrapped hands, stud, and bottom reserves preserved."
+    },
+    "page-06-panel-02": {"status":"pass_pending_root_review","notes":"Retained root-passed v07."},
+    "page-06-panel-03": {"status":"pass_pending_root_review","notes":"Retained root-passed v03."},
+    "page-06-panel-04": {"status":"pass_pending_root_review","notes":"Retained root-passed v07."},
+    "page-06-panel-05": {"status":"pass_pending_root_review","notes":"Retained root-passed v02."}
+  },
+  "regenerations": [
+    {"frame_id":"page-06-panel-01","from":"v05","to":"v06","reason":"Correct dialogue reading order and balloon tail attribution: Keshavrao Others. first, Nagoji Quickly. second."},
+    {"frame_id":"page-06-panel-01","candidate":"unversioned imagegen output","decision":"rejected","reason":"Changed setting and character costume, losing the prepared flooded-hold staging."}
+  ],
+  "remaining_deviations": "None identified in this native review. Root must perform independent immutable selection review. No selection ledger was written."
+}

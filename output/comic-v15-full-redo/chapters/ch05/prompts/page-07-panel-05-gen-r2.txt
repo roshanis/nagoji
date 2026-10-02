@@ -1,0 +1,26 @@
+V15 graphic novel panel page-07-panel-05 for chapter 5. Close on the official, patient, waiting, the stylus still. Set the caption at the top of the panel; the question is the last thing lettered on the page.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art, and no painted balloons, caption boxes or frames: leave clear, low-detail space where the lettering will go. The letterer draws every balloon and caption over the finished art.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+No text of any kind in generated art. Do not render the following exact copy; it is composited later:
+CAPTION: Then came the question that would decide whether I was given a place in this new game, or quietly dropped into some ditch.
+OFFICIAL (Malayalam): What does a Maratha rider know that he does not already have?
+Leave clear, low-detail space (sky, wall, floor or shadow) for exactly 2 lettering area(s), one per copy chunk, preferably in the upper part of the frame, with enough room for the exact characters above. Draw NO balloons, boxes, frames, outlines, banners or text of any kind in those areas or anywhere else; the lettering is added afterwards. This replaces any earlier mention of blank balloon or caption reserves. Keep faces, hands, and important action outside those areas.
+No invented lettering, pseudo-writing, logos, watermark, gore, or anachronistic costume.
+
+PRE-GENERATION NOTE (appended after a prompt audit): The official: older and heavier, a patient round face, bare-headed with a Kerala topknot, clean chin, greying moustache, bare torso, white mundu, plain white shoulder cloth; no crown, turban, beard, sacred thread or forehead marks. His leaf is blank or bears only faint unreadable scratches. Keep the top of the panel low-detail (rafters or shadow) for the caption.
+
+EDIT INSTRUCTION (this job is an edit of the attached image): Keep everything that is right in the attached image (composition, setting, figures, faces, costumes and light); change only what this correction describes: Remove the over-the-shoulder foreground figure entirely. This is a close shot of the official alone, with no Nagoji, no back of a head and no shoulder in the foreground. Draw it in the same inked graphic-novel line-and-wash style as the other panels on this page, not as a photograph. Keep the official exactly as before: older and heavy, a patient round face, grey-streaked Kerala topknot, greying moustache, clean chin, bare torso, plain white shoulder cloth, no thread or forehead marks, chin resting on his fist, the stylus held still above a blank palm leaf, an open brass oil lamp beside him. Seat him on his slightly raised wooden platform behind a low stack of palm-leaf records, not at a European-style table. Background: the dim hall with carved wooden pillars and open brass lamps hanging on chains. Any guard behind him is a Nair man with a topknot and no turban. Keep the top quarter of the frame (dark rafters and plain wall) low-detail for the long caption, and leave a second clear patch of wall beside his head for the question.
+
+LETTERING UPDATE (overrides any earlier instruction about blank text areas): draw NO balloons, caption boxes, frames, outlines or text of any kind anywhere in the image; leave clear, low-detail space where lettering will go.

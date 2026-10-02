@@ -1,0 +1,142 @@
+{
+  "created_at_utc": "2026-09-27T15:24:43.357145+00:00",
+  "revision": "r2",
+  "status": "pass",
+  "checks": {
+    "baseline_concepts_unchanged": {
+      "status": "pass",
+      "count": 75
+    },
+    "protected_sources_unchanged": {
+      "status": "pass",
+      "count": 55
+    },
+    "selected_sheet_count": {
+      "status": "pass",
+      "count": 17
+    },
+    "unchanged_selected_rows": {
+      "status": "pass",
+      "count": 14
+    },
+    "selected_followup_visual_checks": {
+      "status": "pass",
+      "count": 3,
+      "reviewers": [
+        "Codex root",
+        "independent followup_review"
+      ]
+    },
+    "png_decode_and_dimensions": {
+      "status": "pass",
+      "count": 4,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    "contact_sheet": {
+      "status": "pass",
+      "path": "output/comic-v15-full-redo/concepts/ALL-SHEETS-CONTACT-r2.png",
+      "sha256": "6cd4171e7ab206db6df427362d59a3887bb4702f2e8b100578d3534e76bc10c7",
+      "dimensions": [
+        2400,
+        3752
+      ],
+      "labelled_sheets": 17,
+      "visually_reviewed": true
+    },
+    "review_and_prompt_hashes": {
+      "status": "pass"
+    },
+    "all_prompts_saved_before_generation": {
+      "status": "pass",
+      "count": 4
+    },
+    "revathi_one_retry_limit": {
+      "status": "pass",
+      "attempts": 2,
+      "retries": 1
+    },
+    "new_text_em_and_en_dash_scan": {
+      "status": "pass"
+    },
+    "existing_records_preserved": {
+      "status": "pass",
+      "updated_records": [
+        "SHEET-REVIEW-r2.json",
+        "README-r2.md",
+        "OUTPUT-FILES-v15-r2.md"
+      ]
+    },
+    "build_log_append_only": {
+      "status": "pass",
+      "prefix_bytes": 1674343,
+      "prefix_sha256": "f7b70f56182cf84da9e128dc402d6364c2a4e66086d144c3907c7d16e08c29c0",
+      "entries_appended": 1,
+      "appended_bytes": 1900,
+      "appended_sha256": "278256017cd1a8c6417df6a7db695aac3e71c57b26d73c8a7d1bd3870ece29a7",
+      "timestamp_utc": "2026-09-27T15:24:43Z"
+    }
+  },
+  "file_hashes_before_integrity_record": [
+    {
+      "path": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15d.png",
+      "sha256": "f43457565bbadb7dd81d7bc27d9e469b55968449d9919667a6c595017aba6142"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15e.png",
+      "sha256": "b485fca3a0ef36342d513ac6950a5dc333c304c7be0f6bb82813f99c9160d768"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15f.png",
+      "sha256": "f6676adafc6cc5c8c977ac0c2c7b55236e681cee1c9ae328dae73171ab9a3e3b"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/18-savitri-v15b.png",
+      "sha256": "4d29b5bee873d09bcbfd8b745dd0b6dc7dabcc02a6ae0edea43d7202b0c4a8bd"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/ALL-SHEETS-CONTACT-r2.png",
+      "sha256": "6cd4171e7ab206db6df427362d59a3887bb4702f2e8b100578d3534e76bc10c7"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/OUTPUT-FILES-v15-r2.md",
+      "sha256": "4af730c594f10595d9ffccc2943c07818c1d1f44970048796cc6ded27b2678b6"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/README-r2.md",
+      "sha256": "abc0bc8e7936c7bb0a810e133bea5c67c941d6775f53c4d66661099bf8a920c1"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/SHEET-REVIEW-r2.json",
+      "sha256": "50a717ab0f195efa06ff1d766ef38563459d84b0b442d0dbf37288c91935cc2e"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15d.txt",
+      "sha256": "396ed4521e2e054c7797b33d7b39fa5b7504304cb0fb8cd3dff5ca28051ae0ce"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15e.txt",
+      "sha256": "52af17342e466a132371102d985acb224926efb7d2a77eb4d571461db33c06b2"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15f.txt",
+      "sha256": "6dc251920b087902875329530cfadc837b6b5b61a152578d9585106939cacf0c"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/prompts/18-savitri-v15b.txt",
+      "sha256": "fb7237c9a424780cc20a0731628e9c1d9c2f12cdb3998ebabe2eb37c172e1fbe"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/reviews/FOLLOWUP-BASELINE-r2.json",
+      "sha256": "c8690bd18c933b3a2973238a2d85cf3a6e2219d1065fc62e3faf7747c3942f86"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/reviews/FOLLOWUP-REVIEW-r2.json",
+      "sha256": "d6e529d305c9e18c0b4ac58dac107f1de627464f5752d6237af99df02969720e"
+    }
+  ],
+  "author_approval": "pending",
+  "independent_final_audit": "Selected paths, 17 labelled cards, attempt records, rejected Revathi e, pending author status, listed hashes and 75 baseline files verified without inconsistency."
+}

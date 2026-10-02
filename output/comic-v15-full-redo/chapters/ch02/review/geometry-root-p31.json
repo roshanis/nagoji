@@ -1,0 +1,26 @@
+{
+  "frame_id": "page-03-panel-01",
+  "candidate": "../frames/page-03-panel-01-v05.png",
+  "source_size": [2172, 724],
+  "visible_rect": [0, 0, 2172, 590],
+  "reserves": [
+    {"kind": "caption", "rect": [20, 16, 758, 160], "copy_indices": [0]},
+    {"kind": "caption", "rect": [1410, 16, 2152, 160], "copy_indices": [1]}
+  ],
+  "copy_preflight": {
+    "font_size_pt": 8.5,
+    "status": "pass",
+    "fits": [true, true],
+    "tight_margin": [false, true]
+  },
+  "reserve_pixel_audit": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 3
+  },
+  "staging": {
+    "planned_slot_pt": [36.0, 494.25, 369.0, 85.5],
+    "actual_clip_slot_pt": [63.12203389830509, 494.25, 314.7559322033898, 85.5],
+    "policy": "contain_visible_viewport_centered_inside_planned_slot"
+  }
+}

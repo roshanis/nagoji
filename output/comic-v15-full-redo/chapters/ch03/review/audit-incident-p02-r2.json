@@ -1,0 +1,15 @@
+{
+  "incident": "candidate-metadata-mutated-after-capture",
+  "scope": "The candidate JSON records for page 2 panels 1, 2, 3 and 4 were updated after capture to point to custom generation prompt files and record prior-frame provenance. The original frame PNGs were preserved. No existing ledger or incident file was edited in this pass.",
+  "mutated_candidates": [
+    "candidates/page-02-panel-01-v02.json",
+    "candidates/page-02-panel-01-v04.json",
+    "candidates/page-02-panel-02-v01.json",
+    "candidates/page-02-panel-02-v03.json",
+    "candidates/page-02-panel-03-v01.json",
+    "candidates/page-02-panel-03-v03.json",
+    "candidates/page-02-panel-03-v04.json",
+    "candidates/page-02-panel-04-v03.json"
+  ],
+  "correction": "Use review/page-02-candidate-provenance-r1.json and the candidate fields for actual prompt hashes and prior-frame hashes."
+}

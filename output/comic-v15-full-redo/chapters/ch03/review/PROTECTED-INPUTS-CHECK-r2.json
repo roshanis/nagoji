@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-09-30T15:06:25.925417+00:00",
+  "baseline_count": 62,
+  "unchanged_count": 57,
+  "externally_changed_shared_files": [
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/README.md",
+      "before_sha256": "269017c52a26efb35d7b8e0cfd88bae9e06cd18be0cfd5c3f37ad85ab2dc77f8",
+      "current_sha256": "95de720facaf70f8839fcc5cafdbdb47835fa7d1febe39cff161f9886192c255"
+    },
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/compositor.py",
+      "before_sha256": "e21ae216b2d6d756497a24d9b1e7a36d4164791640dcb36dac3d9ca2106808a8",
+      "current_sha256": "7f561152bca043678f610a384256488a4b91db933d822bab7defae882c2a53b7"
+    },
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py",
+      "before_sha256": "0c947477e4f93da35684cc262c4673eb2bb7bd2b6929967b718a2b3f6d3a40df",
+      "current_sha256": "cdaa792cca92689aba019364eb6aa606a58ba044b6a38fbb38ca6d5e2a72b5f5"
+    },
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/test_compositor.py",
+      "before_sha256": "d550143ef11d8642eaec6f15e1949f1fc2f3933cc8d75a19b6860a44b567ff4c",
+      "current_sha256": "41857217aa710c15cf6b745e1101e4874da742ef1b8c85c99594e3c751010026"
+    },
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/test_script_pipeline.py",
+      "before_sha256": "87c9194c168428707ce12605eb8b9330963ca62af3f0a99ce8d2103c92d43f2d",
+      "current_sha256": "9537c5229a9d1b8cf5fe141c15a3cbfb06009e0482a854a239dd9ef7a596ac4c"
+    }
+  ],
+  "task_statement": "This task did not edit these shared files. Other chapter tasks run concurrently. Final copy, image, PDF and script checks will use the current pipeline and record its hashes."
+}
