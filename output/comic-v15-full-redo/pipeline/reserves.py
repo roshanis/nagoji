@@ -52,6 +52,8 @@ PARTIAL_MIN_SHARE = .10     # a painted region is worth covering only if this sh
 CORNER_SLACK_PX = 1         # a painted pixel must lie this far inside a rounded corner, for anti-aliasing
 CORNER_CLEAR = 1 - math.sqrt(.5)   # a rounded corner takes this share of its radius from its text area's corner
 FACE_MARGIN_PX = 4          # a box stays at least this far from a face zone
+BODY_HALF_WIDTH = 2         # a face zone stands for a figure: its body is this many face radii either side of the face,
+BODY_DEPTH = 8              # ... from the face's bottom down to this many radii below its centre (a tail tip there is theirs)
 OVERLAP_MAX = .5            # a lower-ranked region sharing more than this with a chosen one is a duplicate
 TOP_WEIGHT = .35            # a quiet window's cost rises by this much from the top of the frame to the bottom
 TOP_RETRY = (1.5, 4.0)      # when placement fails, retry with these stronger top preferences, in turn
@@ -628,6 +630,12 @@ def _reads_after(first, second, strict=True):
     return right or second[1] >= first[3] - LEFT_BELOW_SHARE * short
 
 
+def _on_body(point, face):
+    """True when a point lies on the body below a face zone (see BODY_HALF_WIDTH and BODY_DEPTH)."""
+    x, y, r = face[0], face[1], face[2]
+    return x - BODY_HALF_WIDTH * r <= point[0] <= x + BODY_HALF_WIDTH * r and y + r <= point[1] <= y + BODY_DEPTH * r
+
+
 def _rule_message(i, culprit, placed, tried):
     """Why chunk i cannot be placed, when lifting one placement rule is what lets it: culprit is (rule, who)."""
     kind, who = culprit
@@ -643,8 +651,8 @@ def _rule_message(i, culprit, placed, tried):
         return (f"chunk {i}: its tail would cross a face ({who}): {clear} runs the tail from its balloon to its "
                 f"speaker's mouth across {who}; {tried}")
     if kind == 'tip':
-        return (f"chunk {i}: its tail tip would point at another face ({who}): {clear} ends the drawn tail nearer {who} "
-                f"than its own speaker, so a reader would credit the balloon to {who}; {tried}")
+        return (f"chunk {i}: its tail tip would point at another figure ({who}): {clear} ends the drawn tail nearer {who} "
+                f"than its own speaker, or on {who}'s body, so a reader would credit the balloon to {who}; {tried}")
     return (f"chunk {i}: its box would read before chunk {who}'s, against the script order: {clear} is above it, "
             f"or left of it on the same line; {tried}")
 
@@ -1145,7 +1153,8 @@ def place_boxes(image_path, found, options, targets=None, *, tail_margin=TAIL_MA
     the mouth, and any that holds the mouth or overlaps that zone). (3) Readers credit a balloon to whoever its
     drawn tail's tip lands nearest, and the tip often stops well short of the mouth: when the speaker is in the
     frame (and faces are known), the tip of the wedge (see _tail_parts) is never nearer to another face zone than to
-    the speaker's own zones (the ones rule 2 spares), each measured to the zone's edge and 0 inside it. (4) Boxes read in
+    the speaker's own zones (the ones rule 2 spares), each measured to the zone's edge and 0 inside it, and it never
+    lands on another figure's body (see _on_body) unless it is on the speaker's own as well. (4) Boxes read in
     script order, by their tops: box j, after box i for i < j, lies to its right (by centre) where their tops are level
     (within READ_ROW_SHARE of the shorter box's height), and otherwise starts lower than it (see _reads_after). Each is a test a position must pass, so the other positions and
     narrower wraps are tried; PlacementError names the chunk and the tail, face or chunk it cannot be placed
@@ -1311,6 +1320,11 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
                 for f in theirs:
                     if reach(f) < held:
                         return 'tip', f[3]
+                # A tip on another figure's body reads as theirs too, however near the speaker's face it is.
+                if not any(_on_body(tip, f) for f in ours):
+                    for f in theirs:
+                        if _on_body(tip, f):
+                            return 'tip', f[3]
             if 'order' in kinds:
                 for j, rect in before:
                     if not _reads_after(rect, box, strict):

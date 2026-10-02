@@ -27,11 +27,21 @@ SCRIPT_SOURCE='SCRIPT-SOURCE.md'          # the package's frozen copy of the scr
 SCRIPT_REVISIONS='SCRIPT-REVISIONS.json'  # script versions accepted since: directions changed, lettering untouched
 
 
-def check_recorded_input(item,out):
+def _snapshot_name(path):
+    """Return the package snapshot filename for a recorded input, if one exists."""
+    name=Path(path).name
+    if name.endswith('-ART-DIRECTION.json'):
+        return 'ART-DIRECTION-SNAPSHOT.json'
+    return SNAPSHOTS.get(name)
+
+
+def check_recorded_input(item,out,snapshot_name=None):
     """The recorded input must be unchanged, or frozen in the package's own snapshot."""
-    if c.sha256(Path(item['path']))==item['sha256']:return
-    snapshot=Path(out)/SNAPSHOTS.get(Path(item['path']).name,'')
-    if snapshot.name and snapshot.is_file() and c.sha256(snapshot)==item['sha256']:return
+    source_path=Path(item['path'])
+    if source_path.is_file() and c.sha256(source_path)==item['sha256']:return
+    snapshot_name=snapshot_name or _snapshot_name(item['path'])
+    snapshot=Path(out)/snapshot_name if snapshot_name else None
+    if snapshot is not None and snapshot.is_file() and c.sha256(snapshot)==item['sha256']:return
     revisions,source=Path(out)/SCRIPT_REVISIONS,Path(out)/SCRIPT_SOURCE
     if revisions.is_file() and source.is_file() and c.sha256(source)==item['sha256']:
         accepted={entry['sha256'] for entry in json.loads(revisions.read_text()) if entry.get('source')==item['path']}
@@ -45,12 +55,22 @@ def _lettering(script):
             for page in script['pages'].values() for panel in page['panels']]
 
 
+def _lettering_changes(before,after):
+    """The text-only changes between two _lettering lists, or None when the panels, balloons or speakers differ."""
+    if [(panel,[speaker for speaker,_ in copy]) for panel,copy in before]!=[(panel,[speaker for speaker,_ in copy]) for panel,copy in after]:
+        return None
+    return [{'panel':panel,'chunk':i,'speaker':a[0],'before':a[1],'after':b[1]}
+            for (panel,old),(_,new) in zip(before,after) for i,(a,b) in enumerate(zip(old,new)) if a!=b]
+
+
 def accept_script_revision(args,out):
-    """Accept the package's script as revised by the author: only directions may change, never the panels or the copy.
+    """Accept the package's script as revised by the author: directions may change, and with --allow-lettering the
+    text of existing balloons and captions, never the panels, the balloons or their speakers.
 
     The package must hold SCRIPT-SOURCE.md, a copy of the script it was prepared from (frozen before the edit); the
-    live script must parse to the same panels with the same speakers and text. The accepted hash is appended to
-    SCRIPT-REVISIONS.json with the reason, and load_job then accepts the revised script.
+    live script must parse to the same panels with the same speakers (and, without --allow-lettering, the same text).
+    The accepted hash is appended to SCRIPT-REVISIONS.json with the reason and any text changes, and load_job then
+    accepts the revised script. A text change needs a new fit and build, since the balloons are sized from the text.
     """
     if not args.reason:raise ValueError('accept-script-revision needs --reason')
     job=json.loads((out/'IMAGEGEN-JOBS.json').read_text());item=job['script']
@@ -59,15 +79,25 @@ def accept_script_revision(args,out):
     if c.sha256(source)!=item['sha256']:raise ValueError(f'{SCRIPT_SOURCE} does not match the script the package was prepared from')
     live=Path(item['path'])
     before,after=_lettering(s.parse_script(source)),_lettering(s.parse_script(live))
+    changes=[]
     if before!=after:
-        changed=sorted({panel for panel,_ in before}.symmetric_difference({panel for panel,_ in after})
-                       |{a[0] for a,b in zip(before,after) if a!=b})
-        raise ValueError('the revised script changes the lettering or the panels ('+', '.join(changed or ['panel order'])+')')
+        changed=', '.join(sorted({panel for panel,_ in before}.symmetric_difference({panel for panel,_ in after})
+                                 |{a[0] for a,b in zip(before,after) if a!=b}) or ['panel order'])
+        changes=_lettering_changes(before,after)
+        if changes is None:
+            raise ValueError(f'the revised script changes the panels, balloons or speakers, not only the lettering ({changed})')
+        if not args.allow_lettering:
+            raise ValueError(f'the revised script changes the lettering ({changed}); pass --allow-lettering to accept text-only changes')
+        for change in changes:
+            if chr(0x2014) in change['after'] or chr(0x2013) in change['after']:
+                raise ValueError(f"{change['panel']}: the new text has an em or en dash")
     revisions=out/SCRIPT_REVISIONS
     entries=json.loads(revisions.read_text()) if revisions.is_file() else []
     from datetime import datetime,timezone
-    entries.append({'source':item['path'],'sha256':c.sha256(live),'reason':args.reason,
-                    'accepted_at':datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')})
+    entry={'source':item['path'],'sha256':c.sha256(live),'reason':args.reason,
+           'accepted_at':datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}
+    if changes:entry['lettering_changes']=changes
+    entries.append(entry)
     if revisions.is_file():
         # An append-only log: every earlier entry is kept, and the file is replaced in one step.
         text=json.dumps(entries,indent=2,ensure_ascii=False)+'\n'
@@ -76,13 +106,20 @@ def accept_script_revision(args,out):
         with partial.open('x',encoding='utf-8') as f:f.write(text)
         os.replace(partial,revisions)
     else:write_json(revisions,entries)
-    return {'accepted':c.sha256(live),'revisions':len(entries)}
+    return {'accepted':c.sha256(live),'revisions':len(entries),'lettering_changes':len(changes)}
 
 
 def load_job(out):
     job=json.loads((out/'IMAGEGEN-JOBS.json').read_text())
+    profile=job.get('prompt_profile')
+    if profile not in (None,'v1','v2'):
+        raise ValueError(f'Unknown prompt_profile: {profile}')
     for item in [job['script'],job['continuity'],job['character_lock']]:
         check_recorded_input(item,out)
+    if profile=='v2' and 'art_direction' not in job:
+        raise ValueError('v2 job requires art_direction')
+    if 'art_direction' in job:
+        check_recorded_input(job['art_direction'],out,'ART-DIRECTION-SNAPSHOT.json')
     for item in job['jobs']:
         if c.sha256(Path(item['prompt_path']))!=item['prompt_sha256']:
             raise ValueError(f'Prepared prompt changed: {item["id"]}')
@@ -837,8 +874,12 @@ def main(argv=None):
     p.add_argument('command',choices=['prepare','next-job','capture','select','build','verify','auto-geometry','fit-layout',
                                       'accept-script-revision'])
     p.add_argument('--reason',help='accept-script-revision: why the author changed the script')
+    p.add_argument('--allow-lettering',action='store_true',
+                   help='accept-script-revision: also accept text-only changes to existing balloons and captions')
     p.add_argument('--chapter',type=int,required=True)
     p.add_argument('--cast-overrides',type=Path)
+    p.add_argument('--art-direction',type=Path,help='prepare: v2 art-direction sidecar JSON')
+    p.add_argument('--allow-draft',action='store_true',help='prepare: permit a draft art-direction sidecar')
     p.add_argument('--frame-id');p.add_argument('--generated',type=Path)
     p.add_argument('--candidate',type=Path);p.add_argument('--geometry',type=Path)
     p.add_argument('--reviewer');p.add_argument('--review-note')
@@ -869,6 +910,10 @@ def main(argv=None):
                    help='fit-layout: also choose each page\'s row structure (which panels share a row) from the script layout cues and the fit')
     args=p.parse_args(argv)
     if args.prompt is not None and args.command!='capture':p.error('--prompt applies only to capture')
+    if args.art_direction is not None and args.command!='prepare':p.error('--art-direction applies only to prepare')
+    if args.allow_draft and args.command!='prepare':p.error('--allow-draft applies only to prepare')
+    if args.allow_lettering and args.command!='accept-script-revision':
+        p.error('--allow-lettering applies only to accept-script-revision')
     if args.geometry_out is not None and args.command!='auto-geometry':p.error('--geometry-out applies only to auto-geometry')
     if args.inset is not None and args.command!='auto-geometry':p.error('--inset applies only to auto-geometry')
     if args.draw and args.command!='auto-geometry':p.error('--draw applies only to auto-geometry')
@@ -886,7 +931,8 @@ def main(argv=None):
         if value is not None and args.command!='fit-layout':p.error(f'{flag} applies only to fit-layout')
     out=package(args.chapter,args.package_dir)
     if args.command=='prepare':
-        result=s.prepare(args.chapter,out,cast_overrides_path=args.cast_overrides)
+        result=s.prepare(args.chapter,out,cast_overrides_path=args.cast_overrides,
+                         art_direction_path=args.art_direction,allow_draft=args.allow_draft)
     elif args.command=='next-job':
         job=load_job(out)
         result=next((j for j in job['jobs'] if not list((out/'candidates').glob(j['id']+'-*.json'))),None)
@@ -902,6 +948,16 @@ def main(argv=None):
             base=Path(item['prompt_path']).read_bytes().rstrip()
             if not args.moderated and not args.prompt.read_bytes().startswith(base):
                 raise ValueError(f'--prompt must begin with the prepared prompt {item["prompt_path"]}; a correction can only be appended')
+            base_text=base.decode('utf-8')
+            final_block=base_text.rstrip().split('\n\n')[-1]
+            if job.get('prompt_profile')=='v2':
+                if not final_block.startswith('SETTING (this panel):'):
+                    raise ValueError('v2 prepared prompt must end with a SETTING paragraph')
+                revised_text=args.prompt.read_text(encoding='utf-8').rstrip()
+                if any(mark in revised_text for mark in ('\u2014','\u2013')):
+                    raise ValueError('em dash or en dash in revised prompt')
+                if revised_text.split('\n\n')[-1] != final_block:
+                    raise ValueError('revised prompt must end by repeating the prepared SETTING paragraph')
             revised={'prompt_path':str(args.prompt.resolve()),'prompt_sha256':c.sha256(args.prompt),
                      'base_prompt_path':item['prompt_path'],'base_prompt_sha256':item['prompt_sha256']}
             # A softened rewrite after a moderation refusal is allowed only when declared, and is recorded as such.

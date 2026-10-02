@@ -66,7 +66,6 @@ tunic, red sash, talwar, hands unbandaged.
 - **Ramayyan Dalawa**: thin, sharp fine features, receding hair, plain white cloth, palm-leaf bundles and stylus.
   | 14 | Battle: mud-splattered white dhoti, curved Nair sword. |
 - **Padmini Amma**: in her fifties; thick black hair coiled at the nape; simple gold; muted earth-toned silk sari hitched for walking, the old Kerala drape with no stitched blouse; long walking stick.
-  | 16-27 | Grey threading through her black hair. |
 - **Revathi Bayi**: a little younger than Nagoji; deep blue or indigo sari with gold; jasmine in a braid; flat-coin necklace; gold armlets; sandalwood line at the hairline.
   | 11 | Deep green sari in place of the indigo. |
   | 20-28 | Wears a tali; grey threading in her hair. |

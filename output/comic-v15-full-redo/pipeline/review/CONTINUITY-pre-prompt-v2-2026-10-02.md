@@ -31,12 +31,7 @@ lean cavalryman build. No forehead marks, no sacred thread, no royal jewellery. 
 | 5 | Pages 1 and 2, before he is given new clothes: bare-chested in the cream captivity dhoti, no shirt, hair loose, hands wrapped in clean linen, rope burns across the chest, faint chafe rings at the ankles, no irons. From page 3: a collarless cream tunic-shirt over a village cotton dhoti, bare-headed, hair tied back, hands still bandaged. |
 | 6 | Village cotton dhoti and simple cream shirt, bare-headed, hair loose or tied back, hands still bandaged. |
 | 7-8 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand's width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross. |
-| 9 @1-2.3 | Commander sheet: rust-red turban, cream tunic with sleeves down to the wrists, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve. |
-| 9 @2.4-5.1 | Commander sheet: rust-red turban, cream tunic with sleeves down to the wrists, broad red sash, cream trousers, barefoot, talwar. Nails healed but ridged. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve. |
-| 9 @5.2 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, barefoot, talwar. Nails healed but ridged. The left sleeve is pushed back: the brand on the inner LEFT forearm is a pale puckered patch of raised ridges a hand's width above the wrist, with no letters or numerals, and a long, thin WHITE scar runs from the wrist toward the elbow alongside it. |
-| 9 @5.3-10.5 | Commander sheet: rust-red turban, cream tunic with sleeves down to the wrists, broad red sash, cream trousers, barefoot, talwar. Nails healed but ridged. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve. |
-| 9 @11- | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, barefoot, talwar. Nails healed but ridged. The left sleeve is pushed back: the brand on the inner LEFT forearm is a pale puckered patch of raised ridges a hand's width above the wrist, with no letters or numerals, and a long, thin WHITE scar runs from the wrist toward the elbow alongside it. |
-| 10-15 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand's width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross. A long, thin white scar along the same forearm, running from the wrist toward the elbow, beside the brand. |
+| 9-15 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand's width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross. A long, thin white scar along the same forearm, running from the wrist toward the elbow, beside the brand. |
 | 16 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand's width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross. A long, thin white scar along the same forearm, running from the wrist toward the elbow, beside the brand. First grey at the temples. On parade days, a blue Travancore drill coat over his clothes. |
 | 17 | Pages 1 to 8.3: commander look (rust-red turban, cream tunic, broad red sash, cream trousers), no talwar, barefoot at home. From panel 8.4 to the end of page 10: bare-headed, long curly hair loose, still in tunic and sash, the turban folded in his hand or set down; the ivory-handled knife with the conch mark at his sash from 9.5; on 10.1 he gathers his hair into a knot for the first time. Pages 11 to 13: Ananthan Pillai, Kerala topknot, hair still black with only the first grey at the temples, NO turban, plain cream mundu with no gold border, cream shoulder cloth, bare arms, the conch knife at the mundu's waist fold, no silver chain yet. Throughout, the brand and the long white forearm scar on the inner LEFT forearm above the wrist. |
 | 18-19 | Ananthan Pillai: Kerala topknot high on the crown, NO turban, cream or white mundu with shoulder cloth, first grey at the temples, the brand and the long white forearm scar on the inner LEFT forearm above the wrist; silver chain of office; the ivory-handled knife with the conch mark at his waist. |
@@ -65,8 +60,7 @@ tunic, red sash, talwar, hands unbandaged.
   | 28 | Dedication: same face aged, low knot, plain mundu, bare torso, no jewels, no headwear, the sacred thread across his chest. |
 - **Ramayyan Dalawa**: thin, sharp fine features, receding hair, plain white cloth, palm-leaf bundles and stylus.
   | 14 | Battle: mud-splattered white dhoti, curved Nair sword. |
-- **Padmini Amma**: in her fifties; thick black hair coiled at the nape; simple gold; muted earth-toned silk sari hitched for walking, the old Kerala drape with no stitched blouse; long walking stick.
-  | 16-27 | Grey threading through her black hair. |
+- **Padmini Amma**: in her fifties at first; thick black hair coiled at the nape, going grey later; simple gold; cotton sari hitched for walking, the old Kerala drape with no stitched blouse; long walking stick. Dies ch27.
 - **Revathi Bayi**: a little younger than Nagoji; deep blue or indigo sari with gold; jasmine in a braid; flat-coin necklace; gold armlets; sandalwood line at the hairline.
   | 11 | Deep green sari in place of the indigo. |
   | 20-28 | Wears a tali; grey threading in her hair. |
@@ -126,17 +120,6 @@ tunic, red sash, talwar, hands unbandaged.
 - **Kayal**: Nagoji's bay mare, an ochre red-brown coat with a black mane, tail and lower legs, no white markings, sized between a Madurai charger and a Maravar pony. Chosen at the ch7 picket line; carries him through Colachel in ch14 and into ch13, ch15, ch16, ch20, ch22, ch23, ch24 and ch26.
 - **Nagoji's grey gelding**: his plain grey daytime mount in ch7-8, distinct from Kayal.
 - **Megha**: a grey horse with a black mane, named for the monsoon clouds; ridden in ch16 only, where his death frames the chapter.
-
-## Scoped art rules (prompt profile v2)
-
-- [all] 1740s dress, arms, objects.
-- [all] No blood or gore; stage aftermath.
-- [kerala, court, coast, travancore_camp] Clay or brass oil lamps; open wicks.
-- [deccan] The Maratha flag is a saffron swallow-tailed pennant; Maratha riders in the background wear white or cream angarkhas and pagdis, never a rust-red turban with a red sash.
-- [carnatic, travancore_camp, dutch] Raiders' and rivals' banners are plain cloth.
-- [dutch] Dutch East India Company soldiers wear blue coats. No soldier, Indian or European, wears a British red coat.
-- [portuguese] Portuguese guards never wear British red coats or Dutch blue coats.
-- [portuguese] Interrogation ropes hang from an iron ring for binding wrists, never tied as nooses.
 
 ## Standing rules for generated art
 

@@ -1068,6 +1068,62 @@ def tip_of(wedge):
     return bx + (tx - bx) * length / distance, by + (ty - by) * length / distance
 
 
+class TipOnBodyTests(Tmp):
+    """A tip that lands on another figure's body reads as theirs, even when the speaker's face is the nearest face.
+
+    Chapter 6 r2, 9.5: Ramayyan's order sat left of the throne and its short tail ended on Varma's knee. Ramayyan's
+    face was nearer the tip than Varma's (high above it), so the face-distance rule passed; readers credited the king.
+    A face zone stands for a figure: the body is taken as the column BODY_HALF_WIDTH face radii either side of the
+    face and from its bottom down to BODY_DEPTH radii below its centre.
+    """
+
+    R = (.45, .4)
+    SCALE = .3
+    BOUNDS = [0, 0, 1200, 600]
+    K = (820, 330, 40, 'K')                       # the speaker, at the right
+    V = (650, 40, 40, 'V')                        # a seated figure whose face is high and whose body runs down beside K
+    MOUTH = (820, 345)
+
+    def place(self, region, size, faces=None):
+        path = save(frame(boxes=[region]), self.dir, 'b.png')
+        return rv.place_boxes(path, rv.find_regions(path, 1), [[size]], [self.MOUTH],
+                              faces=[self.K, self.V] if faces is None else faces, scale=self.SCALE, tail_margin=12,
+                              rounded=[self.R])
+
+    def tip(self, result):
+        return tip_of(rv.tail_wedge(result['boxes'][0], result['corner'][0], self.MOUTH, self.BOUNDS, self.SCALE))
+
+    def on_body(self, point, face):
+        x, y, r, _ = face
+        return (x - rv.BODY_HALF_WIDTH * r <= point[0] <= x + rv.BODY_HALF_WIDTH * r
+                and y + r <= point[1] <= y + rv.BODY_DEPTH * r)
+
+    def test_a_tip_on_another_figures_body_is_moved_off_it(self):
+        region = (150, 280, 450, 360)
+        with mock.patch.object(rv, 'BODY_DEPTH', 0):                  # bodies ignored: what the planner did before
+            old = self.place(region, (420, 110))
+        tip = self.tip(old)
+        reach = lambda f: max(0.0, math.hypot(tip[0] - f[0], tip[1] - f[1]) - f[2])
+        self.assertLess(reach(self.K), reach(self.V))                 # the speaker's face is the nearer one
+        self.assertTrue(self.on_body(tip, self.V))                    # yet the tip lands on V
+        result = self.place(region, (420, 110))
+        self.assertFalse(self.on_body(self.tip(result), self.V))
+        box = result['boxes'][0]
+        self.assertTrue(box[0] <= region[0] and box[1] <= region[1] and box[2] >= region[2] and box[3] >= region[3])
+
+    def test_a_pinned_balloon_whose_tip_must_land_on_another_body_fails_naming_them(self):
+        with self.assertRaises(rv.PlacementError) as caught:
+            self.place((230, 280, 530, 360), (300, 80))
+        self.assertIn("chunk 0: its tail tip would point at another figure (V)", str(caught.exception))
+
+    def test_a_tip_on_the_speakers_own_body_is_fine_where_the_bodies_overlap(self):
+        # K stands just in front of V: the column below V's face also holds K's body, so a tip there is K's as well.
+        k = (640, 330, 40, 'K')
+        self.MOUTH = (640, 345)
+        result = self.place((150, 280, 450, 360), (420, 110), faces=[k, self.V])
+        self.assertEqual(len(result['boxes']), 1)
+
+
 class OffFrameVoiceFaceTests(Tmp):
     """An off-frame voice's tail, which now runs to the frame's edge, never crosses a face: none of them is its speaker's.
 

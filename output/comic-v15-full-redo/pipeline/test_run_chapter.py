@@ -31,6 +31,29 @@ class PackageDirTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             r.package(1, r.V15 / "chapters" / "ch01-v2" / ".." / ".." / "ch01-v2")
 
+    def test_prepare_forwards_art_direction_and_allow_draft(self):
+        package_dir = r.V15 / "chapters" / "ch09-pilot"
+        with mock.patch.object(r.s, "prepare", return_value={"ok": True}) as prepare:
+            output = io.StringIO()
+            with contextlib.redirect_stdout(output):
+                r.main([
+                    "prepare", "--chapter", "9", "--package-dir", str(package_dir),
+                    "--cast-overrides", "cast.json", "--art-direction", "direction.json",
+                    "--allow-draft",
+                ])
+        prepare.assert_called_once_with(
+            9, package_dir, cast_overrides_path=Path("cast.json"),
+            art_direction_path=Path("direction.json"), allow_draft=True,
+        )
+
+    def test_prepare_without_art_direction_keeps_v1_call_shape(self):
+        package_dir = r.V15 / "chapters" / "ch02-pilot"
+        with mock.patch.object(r.s, "prepare", return_value={"ok": True}) as prepare:
+            with contextlib.redirect_stdout(io.StringIO()):
+                r.main(["prepare", "--chapter", "2", "--package-dir", str(package_dir)])
+        prepare.assert_called_once_with(2, package_dir, cast_overrides_path=None,
+                                        art_direction_path=None, allow_draft=False)
+
 
 
 class StyledReservePixelTests(unittest.TestCase):
@@ -133,6 +156,11 @@ class PackageCase(unittest.TestCase):
     def candidate_path(self, panel=PANEL, version='v01'):
         return self.pkg / 'candidates' / f'{panel}-{version}.json'
 
+    def test_v1_load_job_without_art_direction_needs_no_v2_keys(self):
+        job = r.load_job(self.pkg)
+        self.assertNotIn('prompt_profile', job)
+        self.assertNotIn('art_direction', job)
+
 
 class ScriptRevisionTests(PackageCase):
     """accept-script-revision: an author's change to a script's directions is accepted when the lettering is untouched."""
@@ -189,6 +217,47 @@ class ScriptRevisionTests(PackageCase):
                 self.assertIn('lettering', message)
                 self.assertFalse((self.pkg / 'SCRIPT-REVISIONS.json').exists())
 
+    def test_a_wording_trim_needs_allow_lettering_and_is_logged(self):
+        # Chapter 7 page 12 was too full to letter; the author shortens lines, and only the text may change.
+        self.freeze()
+        self.script.write_text(self.SCRIPT_TEXT.replace('Up! Those marked go to the docks.', 'Up! To the docks.'),
+                               encoding='utf-8')
+        message = self.fails('accept-script-revision', '--reason', 'author trims')
+        self.assertIn('--allow-lettering', message)
+        self.assertFalse((self.pkg / 'SCRIPT-REVISIONS.json').exists())
+        result = self.run_cli('accept-script-revision', '--reason', 'author trims', '--allow-lettering')
+        entry = json.loads((self.pkg / 'SCRIPT-REVISIONS.json').read_text())[-1]
+        self.assertEqual(entry['sha256'], result['accepted'])
+        self.assertEqual(entry['lettering_changes'], [{'panel': PANEL, 'chunk': 1, 'speaker': 'JOÃO',
+                                                       'before': 'Up! Those marked go to the docks.',
+                                                       'after': 'Up! To the docks.'}])
+        self.assertEqual(result['lettering_changes'], 1)
+        r.load_job(self.pkg)
+
+    def test_allow_lettering_still_refuses_panel_balloon_and_speaker_changes(self):
+        self.freeze()
+        for changed in (self.SCRIPT_TEXT.replace('> CAPTION: They woke us under cover of bells.\n\n', ''),  # a chunk gone
+                        self.SCRIPT_TEXT.replace('**1.2** A silent beat.', ''),                     # a panel gone
+                        self.SCRIPT_TEXT.replace('> JOÃO: Up!', '> GUARD: Up!')):                   # a new speaker
+            with self.subTest(changed=changed[-60:]):
+                self.script.write_text(changed, encoding='utf-8')
+                message = self.fails('accept-script-revision', '--reason', 'x', '--allow-lettering')
+                self.assertIn('panels, balloons or speakers', message)
+                self.assertFalse((self.pkg / 'SCRIPT-REVISIONS.json').exists())
+
+    def test_allow_lettering_refuses_dashes_in_the_new_text(self):
+        self.freeze()
+        for dash in (chr(0x2014), chr(0x2013)):
+            with self.subTest(dash=hex(ord(dash))):
+                self.script.write_text(self.SCRIPT_TEXT.replace('Up! Those marked', 'Up' + dash + 'those marked'),
+                                       encoding='utf-8')
+                self.assertIn('dash', self.fails('accept-script-revision', '--reason', 'x', '--allow-lettering'))
+                self.assertFalse((self.pkg / 'SCRIPT-REVISIONS.json').exists())
+
+    def test_allow_lettering_applies_only_to_accept_script_revision(self):
+        with self.assertRaises(SystemExit):
+            self.run_cli('verify', '--revision', 'r1', '--allow-lettering')
+
     def test_it_needs_the_frozen_original_and_a_reason(self):
         self.script.write_text(self.SCRIPT_TEXT.replace('A silent beat.', 'A silent beat, rain.'), encoding='utf-8')
         self.assertIn('SCRIPT-SOURCE.md', self.fails('accept-script-revision', '--reason', 'x'))
@@ -197,6 +266,53 @@ class ScriptRevisionTests(PackageCase):
         self.freeze_from = None
         (self.pkg / 'SCRIPT-SOURCE.md').write_text(self.SCRIPT_TEXT, encoding='utf-8')
         self.assertIn('--reason', self.fails('accept-script-revision'))
+
+
+class RecordedArtDirectionTests(PackageCase):
+    def _job_data(self):
+        return json.loads((self.pkg / 'IMAGEGEN-JOBS.json').read_text(encoding='utf-8'))
+
+    def test_load_job_checks_recorded_art_direction_hash(self):
+        import script_pipeline as s
+        sidecar = self.root / 'pilot-direction.json'
+        sidecar.write_text('draft v1\n', encoding='utf-8')
+        jobs_path = self.pkg / 'IMAGEGEN-JOBS.json'
+        data = json.loads(jobs_path.read_text(encoding='utf-8'))
+        data['art_direction'] = {'path': str(sidecar), 'sha256': s.sha256(sidecar)}
+        jobs_path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+        sidecar.write_text('draft v2\n', encoding='utf-8')
+        (self.pkg / 'ART-DIRECTION-SNAPSHOT.json').write_text('draft v1\n', encoding='utf-8')
+        r.load_job(self.pkg)
+        (self.pkg / 'ART-DIRECTION-SNAPSHOT.json').write_text('draft v0\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'Input changed since preparation'):
+            r.load_job(self.pkg)
+
+    def test_v2_load_job_requires_art_direction_record(self):
+        jobs_path = self.pkg / 'IMAGEGEN-JOBS.json'
+        data = self._job_data()
+        data['prompt_profile'] = 'v2'
+        jobs_path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'art_direction'):
+            r.load_job(self.pkg)
+
+    def test_load_job_rejects_unknown_prompt_profile(self):
+        jobs_path = self.pkg / 'IMAGEGEN-JOBS.json'
+        data = self._job_data()
+        data['prompt_profile'] = 'v99'
+        jobs_path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'prompt_profile'):
+            r.load_job(self.pkg)
+
+    def test_missing_art_direction_source_uses_matching_snapshot(self):
+        import script_pipeline as s
+        sidecar = self.root / 'pilot-direction.json'
+        sidecar.write_text('draft v1\n', encoding='utf-8')
+        data = self._job_data()
+        data['art_direction'] = {'path': str(sidecar), 'sha256': s.sha256(sidecar)}
+        (self.pkg / 'ART-DIRECTION-SNAPSHOT.json').write_text('draft v1\n', encoding='utf-8')
+        sidecar.unlink()
+        (self.pkg / 'IMAGEGEN-JOBS.json').write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+        r.load_job(self.pkg)
 
 
 class AutoGeometryTests(PackageCase):
@@ -403,6 +519,66 @@ class CapturePromptTests(PackageCase):
         # Refusal happens before anything is written.
         self.assertFalse(list((self.pkg / 'candidates').glob('*')) if (self.pkg / 'candidates').exists() else [])
         self.assertFalse(list((self.pkg / 'frames').glob('*')) if (self.pkg / 'frames').exists() else [])
+
+    def _install_v2_base_prompt(self):
+        base = BASE_PROMPT + "\n\nSETTING (this panel): a dark cellar."
+        prompt_path = Path(self.job()['prompt_path'])
+        prompt_path.write_text(base + "\n", encoding='utf-8')
+        jobs_path = self.pkg / 'IMAGEGEN-JOBS.json'
+        data = json.loads(jobs_path.read_text(encoding='utf-8'))
+        item = next(item for item in data['jobs'] if item['id'] == PANEL)
+        item['prompt_sha256'] = sha(prompt_path)
+        data['prompt_profile'] = 'v2'
+        sidecar = self.root / 'CHAPTER-02-ART-DIRECTION.json'
+        sidecar.write_text('{}\n', encoding='utf-8')
+        data['art_direction'] = {'path': str(sidecar), 'sha256': sha(sidecar)}
+        (self.pkg / 'ART-DIRECTION-SNAPSHOT.json').write_text('{}\n', encoding='utf-8')
+        jobs_path.write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')
+        return base
+
+    def test_revised_prompt_must_repeat_original_setting_at_the_end(self):
+        base = self._install_v2_base_prompt()
+        missing = self.root / 'missing-setting.txt'
+        missing.write_text(base + "\nCORRECTION: keep the hands visible.\n", encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'SETTING'):
+            self.capture(self.generated('a.png'), PANEL, '--prompt', str(missing))
+        complete = self.root / 'complete-setting.txt'
+        complete.write_text(
+            base + "\nCORRECTION: keep the hands visible.\n\nSETTING (this panel): a dark cellar.\n",
+            encoding='utf-8')
+        record = self.capture(self.generated('b.png'), PANEL, '--prompt', str(complete))
+        self.assertEqual(record['prompt_path'], str(complete.resolve()))
+
+    def test_moderated_rewrite_must_repeat_original_setting_at_the_end(self):
+        base = self._install_v2_base_prompt()
+        missing = self.root / 'moderated-missing-setting.txt'
+        missing.write_text('A calm scene after moderation.\n', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'SETTING'):
+            self.capture(self.generated('a.png'), PANEL, '--prompt', str(missing), '--moderated')
+        complete = self.root / 'moderated-complete-setting.txt'
+        complete.write_text(
+            'A calm scene after moderation.\n\nSETTING (this panel): a dark cellar.\n',
+            encoding='utf-8')
+        record = self.capture(self.generated('b.png'), PANEL, '--prompt', str(complete), '--moderated')
+        self.assertTrue(record['moderated_rewrite'])
+
+    def test_v2_revised_setting_must_be_a_separate_final_paragraph(self):
+        base = self._install_v2_base_prompt()
+        joined = self.root / 'joined-setting.txt'
+        joined.write_text(base + "\nCORRECTION: keep the hands visible. SETTING (this panel): a dark cellar.\n",
+                          encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'SETTING'):
+            self.capture(self.generated('a.png'), PANEL, '--prompt', str(joined))
+
+    def test_v2_revised_prompt_rejects_em_and_en_dashes(self):
+        base = self._install_v2_base_prompt()
+        for mark in ('\u2014', '\u2013'):
+            with self.subTest(mark=mark):
+                path = self.root / 'dashed.txt'
+                path.write_text(base + f"\nCORRECTION: keep the hands {mark} visible.\n\n"
+                                "SETTING (this panel): a dark cellar.\n", encoding='utf-8')
+                with self.assertRaisesRegex(ValueError, 'dash'):
+                    self.capture(self.generated('a.png'), PANEL, '--prompt', str(path))
 
     def test_select_and_validate_selection_accept_a_candidate_captured_with_prompt(self):
         import compositor as c
@@ -869,6 +1045,8 @@ class ReviewerPicksTests(unittest.TestCase):
             self.skipTest('chapter 4 review files are not readable')
         if not picks:
             self.skipTest('no reviewer tail files')
+        if not any((package / 'frames').glob('*.png')):
+            self.skipTest('chapter 4 local frames are not available')
         script = job['script']
         geometry = c.geometry_for_script(script, layout['page_rows'])
         panels = {p['id']: p for page in script['pages'].values() for p in page['panels']}
@@ -879,6 +1057,9 @@ class ReviewerPicksTests(unittest.TestCase):
             panel_id = stem.rsplit('-v', 1)[0]
             try:
                 record = json.loads((package / 'candidates' / f'{stem}.json').read_text())
+                recorded_path = Path(record['path'])
+                if recorded_path.is_absolute() and package not in recorded_path.parents:
+                    continue
                 frame = r.frame_file(record, package)
                 raw = json.loads(tails_path.read_text())
             except (OSError, ValueError):
@@ -1563,6 +1744,22 @@ class BibleSnapshotTests(unittest.TestCase):
         (self.pkg / "CONTINUITY-SNAPSHOT.md").write_text("# something else\n", encoding="utf-8")
         self.live.write_text("# bible v2\n", encoding="utf-8")
         with self.assertRaises(ValueError):
+            r.check_recorded_input(item, self.pkg)
+
+    def test_art_direction_snapshot_name_is_independent_of_sidecar_filename(self):
+        sidecar = self.root / "CHAPTER-09-ART-DIRECTION.json"
+        sidecar.write_text("draft v1\n", encoding="utf-8")
+        item = {"path": str(sidecar), "sha256": r.c.sha256(sidecar)}
+        (self.pkg / "ART-DIRECTION-SNAPSHOT.json").write_text("draft v1\n", encoding="utf-8")
+        sidecar.write_text("draft v2\n", encoding="utf-8")
+        r.check_recorded_input(item, self.pkg)
+
+    def test_changed_art_direction_without_matching_snapshot_fails(self):
+        sidecar = self.root / "pilot-ART-DIRECTION.json"
+        sidecar.write_text("draft v1\n", encoding="utf-8")
+        item = {"path": str(sidecar), "sha256": r.c.sha256(sidecar)}
+        sidecar.write_text("draft v2\n", encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, 'Input changed since preparation'):
             r.check_recorded_input(item, self.pkg)
 
 

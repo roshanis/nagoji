@@ -41,7 +41,12 @@ or sandbox-setting change is performed.
    before editing, then run `run_chapter.py accept-script-revision --chapter N --reason
    "..."`. It refuses unless the frozen copy is the prepared script and the edited script
    parses to the same panels with the same speakers and text, and records the new hash
-   in `SCRIPT-REVISIONS.json`, which the input check then accepts.
+   in `SCRIPT-REVISIONS.json`, which the input check then accepts. When the author
+   shortens or rewords lines (as for chapter 7 page 12), add `--allow-lettering`: the
+   text of existing balloons and captions may then change, but never the panels, the
+   number of balloons or their speakers, and the new text may not hold an em or en dash.
+   Each changed line is logged with its old and new text under `lettering_changes`.
+   The balloons are sized from the text, so fit and build again afterwards.
 
 2. Review inferred cast and framing before generation. Pronouns, offscreen speech,
    memories and unnamed figures need editorial judgement. Supply
@@ -149,6 +154,116 @@ or sandbox-setting change is performed.
    An import must meet the
    same frame hash, prompt hash, reference, visual-review and exact-copy gates.
    Reused originals must be copied into the new package and retain source hashes.
+
+## Prompt assembly v2
+
+Chapter 9 and later require an art direction sidecar. Chapters 1 through 8 keep
+the v1 prompt path unless a separate sibling package explicitly opts into v2.
+The sidecar is selected with `run_chapter.py prepare --art-direction FILE`.
+Draft sidecars require `--allow-draft`; preparation still validates every panel
+before it writes the package. A v2 job records `prompt_profile: "v2"`, the
+sidecar path and SHA256 under `art_direction`, a `setting` on every job, and
+`ART-DIRECTION-SNAPSHOT.json`. `load_job` rejects unknown profiles, requires
+the sidecar record for v2, and accepts a changed or unavailable source only
+when the recorded package snapshot has the original hash.
+
+The sidecar schema is:
+
+```json
+{
+  "prompt_profile": "v2",
+  "chapter": 9,
+  "status": "draft",
+  "settings": {
+    "verandah": {
+      "label": "the palace verandah",
+      "scopes": ["kerala", "court"],
+      "anchor": "carved wooden pillars and a view of the wet garden",
+      "absent": "no fort, European building or stone cell",
+      "time": "morning light",
+      "allow_terms": []
+    }
+  },
+  "pages": {"1": "verandah"},
+  "panels": {
+    "page-01-panel-01": {
+      "setting": "verandah",
+      "time": "morning light",
+      "frame": "standard",
+      "distant": false,
+      "lettering_space": "upper wall",
+      "bleed": "none",
+      "sheets": true
+    }
+  },
+  "character_notes": {},
+  "not_shown": {}
+}
+```
+
+Every panel must resolve to one known setting. Setting scopes, anchors and
+absent text are linted, and the prompt places the setting label in the header
+and the setting anchor in the final paragraph. Scoped continuity rules replace
+the v1 standing block. Prompt lettering summarizes count, speaker and length
+without quoting copy, then asks for clear low detail space and states the no
+text rule once. Reference sheets are listed in attachment order and their
+approved hashes and caveats are checked. Cast gaps, foreign terms in Indian
+settings, stale look rows, unknown sidecar keys and forbidden dash characters
+fail preparation before any output is written.
+
+The valid setting scopes are `kerala`, `court`, `coast`, `travancore_camp`,
+`dutch`, `portuguese`, `deccan`, `carnatic` and `sea`. `allow_terms` is an
+optional list of otherwise guarded words for that setting. Page defaults are
+merged first, then panel overrides. Panel overrides may set `setting`, `time`,
+`frame` (`strip`, `standard` or `tall`), `distant` (boolean),
+`lettering_space`, `bleed` and `sheets` (boolean). A frame contradiction with
+the script, such as a strip override that conflicts with a required tall
+composition, is rejected for review. `not_shown` changes the prompt by stating
+which named person is outside the frame; it also satisfies the cast lint for
+that panel. A sidecar must declare `status` as `draft` or `approved`.
+
+The author approved the proposed bible on 2026-10-02
+(`review-sheets/CONTINUITY-PROMPT-V2-REVIEW.html`) and it is now `CONTINUITY.md`,
+with one addition: Padmini's grey hair from chapter 16. The applied change is
+`review-sheets/CONTINUITY-PROMPT-V2-APPLIED.diff`, and the bible from before it is
+`pipeline/review/CONTINUITY-pre-prompt-v2-2026-10-02.md`.
+`CONTINUITY-PROMPT-V2-PROPOSED.md` is kept only as the record of what was reviewed.
+Chapter 8 is pinned to its own `CONTINUITY-SNAPSHOT.md`: the new Padmini line would
+change 29 of its v1 prompts, so the live-bible freeze test covers chapters 5 to 7
+and the snapshot freeze covers 5 to 8. Never prepare chapters 1 to 8 again against
+the live bible. A pilot uses the live bible and the draft Chapter 9 sidecar
+through a scratch package:
+
+```sh
+TMP_PACKAGE="${TMPDIR:-/tmp}/nagoji-ch09-v2-pilot"
+PYTHONDONTWRITEBYTECODE=1 "$V15_PY" pipeline/script_pipeline.py prepare \
+  --chapter 9 --out "$TMP_PACKAGE" \
+  --scripts-dir scripts \
+  --cast-overrides scripts/CHAPTER-09-CAST-OVERRIDES.json \
+  --art-direction scripts/CHAPTER-09-ART-DIRECTION.json --allow-draft
+PYTHONDONTWRITEBYTECODE=1 "$V15_PY" pipeline/script_pipeline.py audit \
+  --out "$TMP_PACKAGE"
+```
+
+The audit is read-only and checks the prompts actually sent, using candidate
+records and selected rows when they exist. It reports the number ending in a
+SETTING paragraph, copy leaks, foreign terms outside author text, rule share,
+median length against v1, no text rule count, reference sheet order and the
+Chapter 9 boots and barefoot split. Audit corrected prompts as well as base
+prompts. The initial nine-panel pilot is 1.5, 2.2, 5.4, 8.5, 9.2, 5.2, 3.1,
+10.5 and 9.1. Read those v2 prompts beside their v1 in-memory versions and
+keep any A/B comparison outside the package and before editing the live bible.
+The capture gate requires an appended or moderated v2 prompt to repeat the
+exact final SETTING paragraph as its final blank-line paragraph. This worktree
+contains no images and performs no image generation.
+
+Do not bypass hash checks or replace the production sidecar. A v1 versus v2 A/B
+comparison must use the bible from before the edit (the backup above), as the
+Chapter 9 acceptance test does with the Chapter 5 snapshot.
+
+Padmini's sheet caveat says her hair is BLACK with no grey. That is right through
+chapter 15. From chapter 16 her bible row adds grey threading, so the caveat must
+become chapter-aware before chapter 16 is prepared.
 
 ## Lean review path
 
@@ -264,14 +379,18 @@ another's tail, and, when the speaker is in the frame, the path
 never enters a face zone that is not the speaker's own (the zone nearest the mouth, and any that holds the mouth or
 overlaps it). Readers also credit a balloon to whoever its drawn tail's tip lands nearest, and the tip stops well short
 of the mouth (the wedge runs 60 percent of the way, between 8 and 28 pt), so the tip is never nearer to another face
-zone than to the speaker's own (distances to each zone's edge, 0 inside it). A balloon with no painted region goes as near its speaker (for a voice off frame, its point on the
+zone than to the speaker's own (distances to each zone's edge, 0 inside it). Nor does the tip land on another figure's
+body: a face zone stands for a person, whose body is taken as the column two face radii either side of the face, from
+its bottom down to eight radii below its centre (`BODY_HALF_WIDTH`, `BODY_DEPTH`). A tip there reads as theirs even
+when the speaker's face is the nearer face, unless it is on the speaker's own body as well (chapter 6 r2, 9.5:
+Ramayyan's order tailed onto Varma's knee). A balloon with no painted region goes as near its speaker (for a voice off frame, its point on the
 edge, since the tail shows where the voice comes from) as it validly can: windows are ranked by
 tail length, quietness only breaking ties between similar lengths, and a tail longer than 35 percent of the visible
 frame's diagonal is taken only when nothing shorter is valid (if that leaves a chunk unplaced, nearness is given up
 only where needed, with the rules above still holding: first for the failing chunk, then for it and one earlier chunk at a
 time, the nearest first, and only then for every chunk). Boxes also read in script order, judged by their tops as
 a reader takes them. A strict rule is tried first: tops within a quarter of the shorter box's height are level, and a level later box lies to the right; otherwise the later box starts lower, and if it sits to the LEFT it must start below the earlier box (overlapping it by at most a tenth of the shorter height), because a box at the left inside another's band is read first by some readers and second by others. The planner places boxes as high as a rule allows, so a looser threshold is always met right at its edge. Only when no placement meets the strict rule is the lenient one used (tops within 0.4 of the shorter height, or a later box starting lower by less than two thirds of it, or a later box starting lower with at least half of the shorter height inside the earlier box's band, are level; otherwise it starts lower). The band test catches a short box beside a tall one: chapter 2 r2, 5.3, put a one-line reply at the left, 135 px below the top of a three-line balloon but inside its band, and readers took the reply first. Placement is greedy, so an early chunk can take the quiet bottom of the frame and strand the rest; each rule is tried at the usual top preference (`TOP_WEIGHT`, 0.35) and then at stronger ones (`TOP_RETRY`). Greedy placement never revisits a chunk, so when every attempt fails because an earlier chunk's box stops a later one (a tail would cross it, or the later box would read before it), the panel is re-placed with that box barred from the spot it took, up to `REPAIR_ROUNDS` (4) times; a panel that placed without repair is placed exactly as before. A chunk that cannot meet these fails naming the chunk and what is in the way ("its
-tail would cross chunk 1's balloon", "its tail would cross a face (Duarte)", "its tail tip would point at another face
+tail would cross chunk 1's balloon", "its tail would cross a face (Duarte)", "its tail tip would point at another figure
 (Duarte)", "its box would read before chunk 0's").
 
 Two more wishes are soft: a chunk meets them where any position of any wrap allows, and is placed without them, as it
