@@ -1,0 +1,138 @@
+{
+  "status": "reviewed_proposed_page_geometry",
+  "created_utc": "2026-09-30T15:02:00Z",
+  "scope": "Chapter 4 pages 1 and 2, nine frames",
+  "layout_basis": {
+    "page_width_pt": 523.5,
+    "panel_gap_pt": 2,
+    "page_1_row_heights_pt": [165, 165, 105, 82.5],
+    "page_2_row_heights_pt": [110, 140, 180, 87.5],
+    "page_2_split_row_columns_pt": [260.75, 260.75],
+    "lettering_support": "All listed reserves retain clear native support for the approved 8.5 pt lettering pass."
+  },
+  "rows": [
+    {
+      "id": "page-01-panel-01",
+      "candidate": "page-01-panel-01-v02",
+      "path": "chapters/ch04/frames/page-01-panel-01-v02.png",
+      "sha256": "59299c105704a1e8baa7be89d65f13f19ecf44efc2d26e748d39d539fb0e9f2a",
+      "source_size_px": [1905, 825],
+      "visible_rect_px": [0, 0, 1905, 825],
+      "placement": {"page": 1, "row": 1, "height_pt": 165, "width_pt": 523.5},
+      "reserves": [{"kind": "caption", "rect_px": [38, 44, 899, 118], "copy_indices": [0]}],
+      "review": "Pass. Beach aftermath, distant figure and blank caption reserve remain clear."
+    },
+    {
+      "id": "page-01-panel-02",
+      "candidate": "page-01-panel-02-v02",
+      "path": "chapters/ch04/frames/page-01-panel-02-v02.png",
+      "sha256": "20be5bcdbb2de5e0f112be2a30d1f27919cd0d4131ee80857c0c3b003739969d",
+      "source_size_px": [1875, 839],
+      "visible_rect_px": [0, 0, 1875, 839],
+      "placement": {"page": 1, "row": 2, "height_pt": 165, "width_pt": 523.5},
+      "reserves": [{"kind": "caption", "rect_px": [959, 14, 1854, 126], "copy_indices": [0]}],
+      "review": "Pass. Clean-shaven chin, moustache, single gold stud, wraps and blank upper reserve."
+    },
+    {
+      "id": "page-01-panel-03",
+      "candidate": "page-01-panel-03-v02",
+      "path": "chapters/ch04/frames/page-01-panel-03-v02.png",
+      "sha256": "f7312f6d85d41617a2bdcb1b3173c803d3a2db818c1018760c23736d662609fc",
+      "source_size_px": [2076, 757],
+      "visible_rect_px": [0, 0, 2076, 757],
+      "placement": {"page": 1, "row": 3, "height_pt": 105, "width_pt": 523.5},
+      "reserves": [{"kind": "caption", "rect_px": [35, 29, 980, 205], "copy_indices": [0]}],
+      "review": "Pass. Close face remains clean-shaven with one flush stud and clear caption reserve."
+    },
+    {
+      "id": "page-01-panel-04",
+      "candidate": "page-01-panel-04-v03",
+      "path": "chapters/ch04/frames/page-01-panel-04-v03.png",
+      "sha256": "f3c2b115f2cacd8a7ea3464a625232e463dc00e91a0f4a2bd1fe05e688ab902c",
+      "source_size_px": [2124, 740],
+      "visible_rect_px": [0, 0, 2124, 740],
+      "placement": {"page": 1, "row": 4, "height_pt": 82.5, "width_pt": 523.5},
+      "reserves": [
+        {"kind": "caption", "rect_px": [25, 15, 592, 145], "copy_indices": [0]},
+        {"kind": "speech", "rect_px": [640, 10, 1025, 170], "copy_indices": [1]},
+        {"kind": "speech", "rect_px": [1165, 10, 1550, 170], "copy_indices": [2]},
+        {"kind": "speech", "rect_px": [1670, 10, 2100, 172], "copy_indices": [3]}
+      ],
+      "review": "Pass after v03 regeneration. Exactly six feet at far right, only lowest ankle edge visible, no shins or other body parts, four top lettering reserves."
+    },
+    {
+      "id": "page-02-panel-01",
+      "candidate": "page-02-panel-01-v01",
+      "path": "chapters/ch04/frames/page-02-panel-01-v01.png",
+      "sha256": "3d2856275d7dcaaa9494faec64dca29112ce98ffbd9251dbbc827eac737b173e",
+      "source_size_px": [2135, 736],
+      "visible_rect_px": [0, 0, 2135, 736],
+      "placement": {"page": 2, "row": 1, "height_pt": 110, "width_pt": 523.5},
+      "reserves": [{"kind": "caption", "rect_px": [740, 557, 1385, 678], "copy_indices": [0]}],
+      "review": "Pass. Three established fishermen faces remain distinct and the lower caption reserve is clear."
+    },
+    {
+      "id": "page-02-panel-02",
+      "candidate": "page-02-panel-02-v02",
+      "path": "chapters/ch04/frames/page-02-panel-02-v02.png",
+      "sha256": "2c2e0d106054169493dc3da586917eaba4f202ab9a4f2f299df7ef868d54b269",
+      "source_size_px": [1435, 1096],
+      "visible_rect_px": [4, 4, 1431, 1092],
+      "placement": {"page": 2, "row": 2, "column": 1, "height_pt": 140, "width_pt": 260.75},
+      "reserves": [
+        {"kind": "speech", "rect_px": [80, 30, 560, 190], "copy_indices": [0]},
+        {"kind": "caption", "rect_px": [35, 915, 1400, 1060], "copy_indices": [1]}
+      ],
+      "review": "Pass. Fisherman hand stages the hair, Nagoji's wrapped hand is readable, and reserves are clear."
+    },
+    {
+      "id": "page-02-panel-03",
+      "candidate": "page-02-panel-03-v02",
+      "path": "chapters/ch04/frames/page-02-panel-03-v02.png",
+      "sha256": "6618509eeb42d4b9faec1d261fbccfa245a39f2653ee20937b6bf34591e84bcb",
+      "source_size_px": [1435, 1096],
+      "visible_rect_px": [4, 4, 1431, 1092],
+      "placement": {"page": 2, "row": 2, "column": 2, "height_pt": 140, "width_pt": 260.75},
+      "reserves": [
+        {"kind": "speech", "rect_px": [85, 35, 410, 122], "copy_indices": [0]},
+        {"kind": "caption", "rect_px": [40, 948, 1395, 1045], "copy_indices": [1]}
+      ],
+      "review": "Pass. Water hand staging is legible, clean chin and single stud hold, and reserves are clear."
+    },
+    {
+      "id": "page-02-panel-04",
+      "candidate": "page-02-panel-04-v02",
+      "path": "chapters/ch04/frames/page-02-panel-04-v02.png",
+      "sha256": "0c26399198fc40c41d6596120942b503a68c7b74beee39a9a4254e98795d27e8",
+      "source_size_px": [1795, 876],
+      "visible_rect_px": [3, 3, 1792, 873],
+      "placement": {"page": 2, "row": 3, "height_pt": 180, "width_pt": 523.5},
+      "reserves": [{"kind": "caption", "rect_px": [28, 28, 606, 108], "copy_indices": [0]}],
+      "review": "Pass. Three full-figure fishermen read in the specified costumes; Nagoji's sand-caked forearm has no readable brand; hand wraps and the caption reserve hold."
+    },
+    {
+      "id": "page-02-panel-05",
+      "candidate": "page-02-panel-05-v02",
+      "path": "chapters/ch04/frames/page-02-panel-05-v02.png",
+      "sha256": "2e601e7ba2366816271d3516c1d72667ac35aeeabe5ed61dfbb5ad6512aea06c",
+      "source_size_px": [1933, 814],
+      "visible_rect_px": [0, 0, 1933, 500],
+      "placement": {"page": 2, "row": 4, "height_pt": 87.5, "width_pt": 523.5, "crop_note": "Use narrow surf-strip crop; remove unused white lower field."},
+      "reserves": [
+        {"kind": "caption", "rect_px": [75, 34, 887, 110], "copy_indices": [0]},
+        {"kind": "caption", "rect_px": [921, 34, 1863, 110], "copy_indices": [1]}
+      ],
+      "review": "Pass with proposed narrow crop. Empty surf POV, floating planks and torn sail only; no human figure enters the visible crop."
+    }
+  ],
+  "checks": {
+    "frame_count": 9,
+    "all_source_hashes_recorded": true,
+    "all_rows_reviewed_native": true,
+    "page_01_panel_04_regenerated": "v03 removes visible shin sections while retaining script beat and all four reserves",
+    "page_02_panel_04_brand": "not readable; forearm remains sand-caked",
+    "page_02_panel_05_crop": "narrow strip [0,0,1933,500] proposed",
+    "text_in_art": "none observed",
+    "blood_or_gore": "none observed"
+  }
+}

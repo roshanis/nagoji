@@ -1,0 +1,28 @@
+{
+  "schema_version": "ch03-art-review-r1",
+  "chapter": "ch03",
+  "pages": [3, 4],
+  "status": "ready_for_independent_review_before_select",
+  "generation_tool": "built-in imagegen",
+  "frames": [
+    {"id":"page-03-panel-01","candidate":"candidates/page-03-panel-01-v01.json","geometry":"geometry/page-03-panel-01-v01.json","decision":"review","notes":"Wide below-deck hold and storm surge read clearly. White caption reserve is upper left. Generated distant Portuguese figures appear at the hatch, an unrequested background detail to check against the script."},
+    {"id":"page-03-panel-02","candidate":"candidates/page-03-panel-02-v01.json","geometry":"geometry/page-03-panel-02-v01.json","decision":"review","notes":"Nagoji is identifiable by curled moustache, clean chin, long curls and gold stud. Ochre captivity tunic, collar and wrist restraints are visible. Left arm is raised and exposed, so check brand visibility and continuity before selection."},
+    {"id":"page-03-panel-03","candidate":"candidates/page-03-panel-03-v01.json","geometry":"geometry/page-03-panel-03-v01.json","decision":"review","notes":"Nagoji and Keshavrao are distinct, with the paired speech reserves clear. Nagoji has a clean chin and small gold stud. Check that the left arm remains turned away from view."},
+    {"id":"page-03-panel-04","candidate":"candidates/page-03-panel-04-v01.json","geometry":"geometry/page-03-panel-04-v01.json","decision":"review","notes":"Close storm hold scene with clear two reserve balloons. Nagoji reads correctly and Keshavrao has short hair and faint moustache. Staged restraint is visible with no blood or noose."},
+    {"id":"page-03-panel-05","candidate":"candidates/page-03-panel-05-v01.json","provenance":"candidates/page-03-panel-05-v01-provenance.json","geometry":"geometry/page-03-panel-05-v01.json","decision":"review","notes":"Final v03 candidate after two safety-system rejections. Close clothed Keshavrao portrait has short hair, faint moustache, no stud and iron collar. Three blank reserves are clear. The actual prompt and hash are recorded in the provenance sibling."},
+    {"id":"page-04-panel-01","candidate":"candidates/page-04-panel-01-v01.json","geometry":"geometry/page-04-panel-01-v01.json","decision":"review","notes":"Nagoji and Keshavrao are staged in the flooded hold. Nagoji has moustache, clean chin and collar. Check the visible arm and the single tiny flush stud against the continuity lock."},
+    {"id":"page-04-panel-02","candidate":"candidates/page-04-panel-02-v01.json","provenance":"candidates/page-04-panel-02-v01-provenance.json","geometry":"geometry/page-04-panel-02-v01.json","decision":"review","notes":"Keshavrao close-up matches the sheet: short ragged hair, faint moustache, no ear stud, grey-brown tunic and collar. Single large blank reserve is clear. The additive prompt and actual reference hash are recorded in the provenance sibling."},
+    {"id":"page-04-panel-03","candidate":"candidates/page-04-panel-03-v01.json","geometry":"geometry/page-04-panel-03-v01.json","decision":"review","notes":"Wide lightning portrait in the hold. Caption reserve is upper left. No recognizable principal identity, blood or gore. Check the reserve size at print scale."},
+    {"id":"page-04-panel-04","candidate":"candidates/page-04-panel-04-v01.json","geometry":"geometry/page-04-panel-04-v01.json","decision":"review","notes":"Underside deck impact reads through bowed planks and water ingress. Two blank reserves are visible. No text, blood or noose."},
+    {"id":"page-04-panel-05","candidate":"candidates/page-04-panel-05-v01.json","geometry":"geometry/page-04-panel-05-v01.json","decision":"review","notes":"Nagoji and Keshavrao are distinct in the waist-deep water scene. Nagoji moustache, clean chin, long curls, gold stud and collar are visible. Check left arm coverage and staged violence before selection."}
+  ],
+  "regenerations": [
+    {"id":"page-03-panel-05","attempts":["v01","v02","v03"],"selected_candidate":"v01 capture of v03 actual prompt","reason":"The first two imagegen calls were rejected by the safety system. The v03 additive prompt constrained the frame to a clothed head-and-shoulders portrait while preserving the script beat and reserves."},
+    {"id":"page-04-panel-02","attempts":["v01 additive prompt"],"selected_candidate":"v01 capture of additive prompt","reason":"The prepared wording was rejected by the safety system; the additive prompt constrained framing to a clothed head-and-shoulders portrait."}
+  ],
+  "geometry_paths": [
+    "geometry/page-03-panel-01-v01.json","geometry/page-03-panel-02-v01.json","geometry/page-03-panel-03-v01.json","geometry/page-03-panel-04-v01.json","geometry/page-03-panel-05-v01.json",
+    "geometry/page-04-panel-01-v01.json","geometry/page-04-panel-02-v01.json","geometry/page-04-panel-03-v01.json","geometry/page-04-panel-04-v01.json","geometry/page-04-panel-05-v01.json"
+  ],
+  "preflight": {"selection_not_run": true,"copy_fit_pending_full_chapter_rows": true,"note":"Geometry has been measured in source-pixel coordinates. Root must run copy fit against the complete chapter rows and independently review these ten frames before immutable select."}
+}

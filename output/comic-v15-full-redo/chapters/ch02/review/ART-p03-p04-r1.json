@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": ["page-03-panel-01", "page-03-panel-02", "page-03-panel-03", "page-03-panel-04", "page-04-panel-01", "page-04-panel-02", "page-04-panel-03", "page-04-panel-04", "page-04-panel-05"],
+  "reviewer": "Codex",
+  "status": "selected",
+  "review": "All nine frames inspected at native resolution. Identity, costume rows, separate collar and wrist restraints, period staging, hands, no text, no gore, no nooses, and reserve placement passed. Page 3 panels 1, 3, 4 and page 4 panel 2 were regenerated additively as v02 for taller lettering reserves. Earlier candidates remain preserved.",
+  "selected": {
+    "page-03-panel-01": {"candidate": "candidates/page-03-panel-01-v02.json", "frame": "frames/page-03-panel-01-v02.png", "generation_prompt_addendum": "prompts/page-03-panel-01-generation-v02.txt", "generation_prompt_addendum_sha256": "d4ffaec66be6319a6fc9661eee731d03155f81179cf068fa38453a45343e8eb8", "geometry": "review/geometry-page-03-panel-01-r1.json"},
+    "page-03-panel-02": {"candidate": "candidates/page-03-panel-02-v01.json", "frame": "frames/page-03-panel-02-v01.png", "geometry": "review/geometry-page-03-panel-02-r1.json"},
+    "page-03-panel-03": {"candidate": "candidates/page-03-panel-03-v02.json", "frame": "frames/page-03-panel-03-v02.png", "generation_prompt_addendum": "prompts/page-03-panel-03-generation-v02.txt", "generation_prompt_addendum_sha256": "423af2d3a66f6837b82ad4a30cec2efa6cb74503f01d8aded05be208da035eb4", "geometry": "review/geometry-page-03-panel-03-r1.json"},
+    "page-03-panel-04": {"candidate": "candidates/page-03-panel-04-v02.json", "frame": "frames/page-03-panel-04-v02.png", "generation_prompt_addendum": "prompts/page-03-panel-04-generation-v02.txt", "generation_prompt_addendum_sha256": "e7c16b2b565f51ee034edaa0ed3bdcaea071e24b27ddba25599ebccb2ad69aa0", "geometry": "review/geometry-page-03-panel-04-r1.json"},
+    "page-04-panel-01": {"candidate": "candidates/page-04-panel-01-v01.json", "frame": "frames/page-04-panel-01-v01.png", "geometry": "review/geometry-page-04-panel-01-r1.json"},
+    "page-04-panel-02": {"candidate": "candidates/page-04-panel-02-v02.json", "frame": "frames/page-04-panel-02-v02.png", "generation_prompt_addendum": "prompts/page-04-panel-02-generation-v02.txt", "generation_prompt_addendum_sha256": "4f2fd58a2f9a90b142f95292a532aa0c5821ba518a165a7dc20822f7e5e6f70b", "geometry": "review/geometry-page-04-panel-02-r1.json"},
+    "page-04-panel-03": {"candidate": "candidates/page-04-panel-03-v01.json", "frame": "frames/page-04-panel-03-v01.png", "geometry": "review/geometry-page-04-panel-03-r1.json"},
+    "page-04-panel-04": {"candidate": "candidates/page-04-panel-04-v01.json", "frame": "frames/page-04-panel-04-v01.png", "geometry": "review/geometry-page-04-panel-04-r1.json"},
+    "page-04-panel-05": {"candidate": "candidates/page-04-panel-05-v01.json", "frame": "frames/page-04-panel-05-v01.png", "geometry": "review/geometry-page-04-panel-05-r1.json"}
+  }
+}

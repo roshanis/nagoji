@@ -1,0 +1,290 @@
+{
+ "reviews": [
+  {
+   "chapter": 10,
+   "verdict": "sound with fixes",
+   "problems": [
+    {
+     "where": "scripts/CHAPTER-10-CAST-OVERRIDES.json, page-01-panel-05",
+     "severity": "must fix",
+     "problem": "The cast list includes \"temple_priest\". The dry run (v2-dry-ch10-...-e) attaches temple-priest-v1.png as a third sheet, adds 'Temple priest face' to PEOPLE IN THIS PANEL ('Draw each named person once') and adds it to LOOKS. That contradicts the script's Art note: 'No V13 temple-priest sheet is attached anywhere in this chapter: the 1.5 officiant is too small to identify, and the sheet risks putting his face on Ramayyan.' The officiant is meant to be tiny, deep in the sanctum, while Ramayyan is the foreground figure.",
+     "fix": "\"page-01-panel-05\": [\"nagoji\", \"ramayyan\"]"
+    },
+    {
+     "where": "scripts/CHAPTER-10-ART-DIRECTION.json, settings.attingal_estate (panels 8.3 and 8.4)",
+     "severity": "should fix",
+     "problem": "One setting covers the peaceful approach and the aftermath. Its absent line ends 'No fire, smoke or broken gate in the peaceful dawn approach.' That sentence is the last sentence of the final SETTING paragraph in the 8.3 prompt, where the script asks for 'the estate gate broken open... smoke rising from a burning outbuilding', and in the 8.4 prompt, which asks for 'The smoking courtyard... scorched... ash drifting'. A panel prompt cannot tell which panel it is, so the conditional clause will not protect these frames.",
+     "fix": "Replace settings.attingal_estate with: {\"label\": \"Madampi estate near Attingal\", \"scopes\": [\"kerala\", \"travancore_camp\"], \"anchor\": \"The madampi's estate near Attingal before the attack: high old laterite walls pressed by thick bamboo, an intact timber gate and tiled roofs inside, all quiet.\", \"absent\": \"No fire, smoke, broken gate, bodies, foreign fort or European palace. The supply-map inset contains only the mapmaker's hand and leaf, no face or full figure.\", \"time\": \"dawn in blue mist\"}. Add settings.attingal_breach: {\"label\": \"Madampi estate near Attingal after the breach\", \"scopes\": [\"kerala\", \"travancore_camp\"], \"anchor\": \"The same madampi's estate near Attingal: high old laterite walls pressed by bamboo, the timber gate broken open, and the inner courtyard of a tiled noble house with carved timber pillars, one roof corner scorched, smoke from a burning outbuilding and drifting ash.\", \"absent\": \"No bodies, blood, foreign fort, European palace or extra named commander. The chief's sons are not present.\", \"time\": \"early morning, smoke and drifting ash\"}. Panels: \"page-08-panel-03\": {\"setting\": \"attingal_breach\", \"distant\": true, \"time\": \"early morning, smoke over the breached gate\"}, \"page-08-panel-04\": {\"setting\": \"attingal_breach\"}."
+    },
+    {
+     "where": "scripts/CHAPTER-10-CAST-OVERRIDES.json and ART-DIRECTION not_shown, page-08-panel-02",
+     "severity": "should fix",
+     "problem": "Ramayyan appears only as a hand holding a palm leaf in an inset. He is cast anyway, so the prompt attaches his sheet, lists him under PEOPLE IN THIS PANEL and adds his MUST MATCH face line ('Thin sharp features and receding hair...'). The setting's absent clause asks for 'no face or full figure'. The prompt therefore contradicts itself, and the likely result is a full Ramayyan riding in the bamboo charge.",
+     "fix": "Cast overrides: \"page-08-panel-02\": [\"nagoji\"]. Sidecar not_shown: add \"page-08-panel-02\": [\"ramayyan\"]. Keep the absent sentence 'The supply-map inset contains only the mapmaker's hand and leaf, no face or full figure.' in the approach setting."
+    },
+    {
+     "where": "scripts/CHAPTER-10-ART-DIRECTION.json, settings.estate_tree (panels 9.3 and 9.4)",
+     "severity": "should fix",
+     "problem": "The anchor says 'still seated for the forearm insert'. In the 9.3 prompt this invites an inset forearm inside the wide night panel. In the script 9.4 is a separate close panel, not an insert. The absent line 'No foreign cell outside a specified memory' is vague, and it does not carry the script's 'Nothing on the wrist where the iron once was.'",
+     "fix": "anchor: \"The roots of a great jackfruit tree in the Travancore estate yard. Nagoji sits on the ground among the roots with his knees bent. Across the yard the kalari glows; the hill temple is distant.\" absent: \"No chair, bench, stool, foreground companion, inset, prison cell, chain or iron on the wrist.\""
+    },
+    {
+     "where": "scripts/CHAPTER-10-ART-DIRECTION.json, settings.drill_ground (panels 4.2 to 4.5 and 9.2)",
+     "severity": "should fix",
+     "problem": "The anchor carries 'For the tight recruit insert, frame only the unnamed recruit and musket' into all four page 4 prompts, which invites a recruit inset there. It also carries 'Keep firing-line compositions side-on with observers behind the muzzles' into the 9.2 prompt, which has no line and no observers. 'Behind the muzzles' is ambiguous and can be read as beyond them, in the line of fire.",
+     "fix": "drill_ground anchor: \"The flat training strip inland from the red laterite Travancore coastal fort, with sloping tiled gatehouse roofs. In firing-line views the line is seen side-on, and anyone watching stands behind the firing line or at its flank, never in front of the muzzles.\" absent: \"No foreign fort, blue-coated drill master, red uniform, named recruit or extra observers.\" Add settings.recruit_dusk: {\"label\": \"Recruit at the Travancore drill ground\", \"scopes\": [\"kerala\", \"travancore_camp\"], \"anchor\": \"The edge of the Travancore drill ground, cropped tight: one unnamed young Nair recruit in a white mundu ramming a charge down his musket barrel, the ramrod mid-stroke, the flat ground soft behind him.\", \"absent\": \"No drill master, observers, firing line, named principal or foreign fort.\", \"time\": \"dusk\"}. Panel: \"page-09-panel-02\": {\"setting\": \"recruit_dusk\", \"frame\": \"strip\"}."
+    },
+    {
+     "where": "scripts/CHAPTER-10-ART-DIRECTION.json, settings.ayyappa_temple (panels 1.4 to 2.5)",
+     "severity": "should fix",
+     "problem": "The anchor says 'Nagoji and Ramayyan remain standing side by side at the inner threshold'. In 1.5 the script has Ramayyan 'stopped and turned back to face Nagoji', so this final SETTING paragraph overrides that staging. In 2.2 and 2.3 it also names both men although one of them is not_shown.",
+     "fix": "anchor: \"A small Ayyappa temple on a Travancore hill: low laterite gateway base, two-tiered sloping tiled roof on timber posts, worn steps, stone-pillared mandapa and lamp-niched courtyard wall. Inside the precinct Nagoji and Ramayyan are barefoot and stay at the inner threshold or in the mandapa shade, never inside the sanctum; Nagoji's boots and talwar stay at the foot of the outer steps.\""
+    },
+    {
+     "where": "scripts/CHAPTER-10-ART-DIRECTION.json, panels.page-02-panel-05.lettering_space",
+     "severity": "should fix",
+     "problem": "In the script 2.5, the wall 'set with dozens of small niches, a lamp burning in every one' stands above the worshippers ('Below it, worshippers'). This is the chapter's central ledger image. The override asks to 'Leave clear upper courtyard wall and shadow above the worshippers', which reserves the lamp wall itself as blank lettering space.",
+     "fix": "\"lettering_space\": \"Leave the dark roof eaves above the lamp-niche wall clear for two long off-panel speech areas; the lit niches stay fully visible below them.\""
+    },
+    {
+     "where": "scripts/CHAPTER-10-ART-DIRECTION.json, settings.market (panels 3.1 to 3.5 and 4.1)",
+     "severity": "should fix",
+     "problem": "The anchor names 'Yusuf's cloth table'. The stall belongs to the woman stallholder (3.3: Yusuf is 'leaning across the table toward the stallholder'). The anchor goes to 3.1, 3.2 and 4.1, where Yusuf is not cast, and to 3.4, where not_shown says Yusuf is outside the frame. This invites an unlooked Yusuf or makes him the stallholder.",
+     "fix": "anchor: \"The Travancore market under cloth and palm-leaf awnings: rice, pepper sacks and oil jars; the woman stallholder's cloth table, piled with cloth and backed by pepper sacks, with the young scribe's low desk at its end. The stallholder remains behind her table with her baby. Seated traders sit cross-legged on low platforms or mats. The last awnings open onto a firm track toward a distant red laterite Travancore fort with tiled gatehouse.\""
+    },
+    {
+     "where": "CONTINUITY-PROMPT-V2-CH10-12-PROPOSED.md, Nagoji row '10 @9.4' (author approval needed per the CONTINUITY rule)",
+     "severity": "should fix",
+     "problem": "The brand and scar are on the INNER left forearm, but the script has the forearm 'resting on his knee'. With the palm down, the inner forearm lies against the knee, so the image model will paint the marks on the outer forearm. 9.4 has sheets:false, and no sidecar field can carry a pose, so the row must state it.",
+     "fix": "| 10 @9.4 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. His LEFT forearm rests on his knee palm up, the LEFT sleeve pushed back, so the inner forearm faces the viewer: the old brand is a pale puckered patch of raised ridges a hand's width above the wrist, with no letters or numerals and not a cross; a long thin WHITE scar runs from wrist toward elbow beside it. Nothing on the wrist. |"
+    },
+    {
+     "where": "scripts/CHAPTER-10-ART-DIRECTION.json, panels.page-07-panel-04.bleed",
+     "severity": "should fix",
+     "problem": "The pipeline always adds 'Draw each named person once, with no doubles' to PEOPLE IN THIS PANEL. The script and the setting require Nagoji in each of three bands. The current bleed ('each of the three bands shows the same Nagoji once') does not resolve the conflict, so the model may draw him only once.",
+     "fix": "\"bleed\": \"Temporal montage, not one continuous scene: Nagoji appears exactly three times, once in each band, at a different season; the no-doubles rule applies within each band.\""
+    },
+    {
+     "where": "scripts/CHAPTER-10-CAST-OVERRIDES.json, page-07-panel-04, page-08-panel-02, page-08-panel-05 (and Kayal's bible line)",
+     "severity": "should fix",
+     "problem": "Nagoji rides in five depictions (three montage bands, the bamboo charge and the ride home), but no panel casts a horse. The model will pick a random mount each time, and a black horse would read as the dead Kanka. The bible gives Kayal for ch7 and ch13 onward, and the grey gelding only for ch7 and ch8. Chapter 10 has no assigned mount.",
+     "fix": "Author to confirm the mount. If Kayal: \"page-07-panel-04\": [\"nagoji\", \"kayal\"], \"page-08-panel-02\": [\"nagoji\", \"kayal\"], \"page-08-panel-05\": [\"nagoji\", \"varma\", \"kayal\"], and add ch10 to Kayal's chapter list in the bible."
+    },
+    {
+     "where": "scripts/CHAPTER-10-SCRIPT.md, panel 8.4 description",
+     "severity": "note",
+     "problem": "'His sword is still belted at his side, one hand on the buckle' invites a European leather sword belt with a metal buckle on a 1740s Nair lord. The bible's own Kerala lord convention (Kollamkara Raja) is 'no leather belt... a worn-hilted sword at the sash'. The attingal setting does not guard against it.",
+     "fix": "Replace with: \"His sword is still thrust through the waist sash at his side, one hand on its hilt, his eyes on the King.\""
+    },
+    {
+     "where": "scripts/CHAPTER-10-ART-DIRECTION.json, settings.coastal_hall (panels 7.1 to 7.3)",
+     "severity": "note",
+     "problem": "This is the recurring chapter 6 hall (the 3.3 caption says 'from the coastal hall'). Chapter 6 fixed its look: pillars carved with vines and tigers, a long side open toward the sea, and an entrance up a short flight of stone steps. The generic anchor ('timber pillars under a sloping tiled roof') will produce a different building.",
+     "fix": "anchor: \"The entrance of the Travancore coastal hall from chapter 6, at the top of a short flight of stone steps: timber pillars carved with vines and tigers under a sloping tiled roof, the long side open toward the sea. Inside, men sit on woven floor mats over palm leaves and cups of buttermilk. Ramayyan and Nagoji remain standing at the doorway through their exchange.\""
+    }
+   ]
+  },
+  {
+   "chapter": 11,
+   "verdict": "sound with fixes",
+   "problems": [
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, character_notes (no varma entry); affects war-hall panels 3.1, 3.5, 4.2, 4.5, 7.1, 7.3",
+     "severity": "must fix",
+     "problem": "In every young view on the attached varma-v1 sheet, Varma wears the cream-and-gold turban with the peacock crest. His LOOKS line in these panels also contradicts itself: the base clause gives the war hall a side knot above his left ear, while the ch11 @1-4 and @7 rows give a white cloth band. Nothing in MUST MATCH tells the model to drop the sheet's turban. Some panel texts never mention headwear at all (7.3 is just \"Varma.\"), so the war-hall Varma is likely to come out in the court turban.",
+     "fix": "Add to character_notes: \"varma\": \"Headwear follows the scene line in his LOOKS, never the turbans drawn on his sheet: in the war hall only a narrow white cloth band over black hair pulled back, with no turban and no crest; at Tengapattanam and in the coastal audience hall the cream-and-gold turban with the jewelled peacock-feather crest. Black hair, not the grey of the sheet's older figure. Never a crown.\" Optionally, start the bible rows 11 @1-4 and 11 @7 with \"Instead of the side knot: \"."
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, character_notes.revathi (13 panels attach her sheet: 8.1, 9.5, 10.2, 10.4, 10.5, 12.2, 13.1, 14.5, 15.2, 15.3, 15.5, 16.1, 16.3)",
+     "severity": "must fix",
+     "problem": "Revathi's approved sheet (05-revathi-bayi-v15f) shows a small red dot between her brows and heavy gold: armlets, bell earrings and gold zari. In 8.1 the script makes the sandalwood line her only forehead mark, because she is a widow, and 9.5 has jewellery \"quieter than before\" with the caption \"Less gold than at our first meeting.\" The current note does not rule out the red dot, and the base LOOKS line still asks for \"gold armlets\". As it stands, the art will contradict both the widow status and the caption.",
+     "fix": "Replace the revathi note with: \"Deep GREEN sari, never blue or indigo; jasmine braid; flat-coin necklace; less gold than on her sheet, with no gold armlets. The sandalwood line at the hairline is her only forehead mark: no red dot between the brows, no sindoor or red in the parting, no tali.\" Optionally also change the bible row to \"| 11 | Deep green sari in place of the indigo; quieter jewellery than at her first meeting with Nagoji: the flat-coin necklace, no gold armlets. |\"."
+    },
+    {
+     "where": "CONTINUITY-PROMPT-V2-CH10-12-PROPOSED.md, Nagoji row \"11 @1-21.2\"",
+     "severity": "should fix",
+     "problem": "The row puts boots on Nagoji for the whole chapter. That includes kneeling at the floor map in the war hall (3.1 to 4.1, 7.2), standing on the mats of the royal audience hall (8.1, 12.5, 13.1, 15.3, 16.5), Karl's room and sitting on the hall mat beside Ramayyan (20.1, 20.5). Chapters 9 and 10 set the habit of boots off at the step and bare feet on mats (ch9 2.4, ch10 9.1: \"Boots set in a row by the door\"), and both Kerala and Maratha court custom remove footwear. The panel texts never mention feet, so the LOOKS line decides what is drawn. This is a CONTINUITY diff and needs your approval.",
+     "fix": "Replace \"| 11 @1-21.2 | ... |\" with seven rows. Let B = \"Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. Sleeves down to the wrists. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve.\" and F = \"Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, barefoot on the floor and mats with his boots left at the door, talwar. Nails healed but ridged. Sleeves down to the wrists. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve.\" Rows: | 11 @1-2 | B |, | 11 @3-4 | F |, | 11 @5-6 | B |, | 11 @7-17 | F |, | 11 @18-19 | B |, | 11 @20 | F |, | 11 @21.1-21.2 | B |. Keep 11 @21.3 and 11 @21.4- as they are. These spans neither overlap nor leave gaps."
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.audience_hall.anchor",
+     "severity": "should fix",
+     "problem": "The anchor's \"the visitors' cleared mat space is left of the platform, the secretary's place is at its right\" will be read in image terms. The script places the Dutch on the KING'S left and Ramayyan at the king's right (8.2, 13.1, 14.5). In front-facing views such as 8.2 and 8.4 that is image-right for the Dutch, so the anchor contradicts the panel text and the staging can flip between panels.",
+     "fix": "Replace that clause with: \"In the audience, the visitors' cleared mat space is on the king's own left hand and the secretary's place on his own right hand (camera right and camera left when he faces the viewer),\"."
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.tengapattanam_pavilion.time (pages 5 and 6)",
+     "severity": "should fix",
+     "problem": "The script header for pages 5 and 6 calls for \"a warmer, slightly faded palette\" for the flashback. Page headers do not reach panel prompts, and the sidecar time line does not carry it, so the flashback will be painted in the present-day palette.",
+     "fix": "Set time to: \"night, half past eleven, torchlight and clay or brass oil lamps; a warmer, slightly faded flashback palette\"."
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.tengapattanam_pavilion.anchor (5.2 to 6.5)",
+     "severity": "should fix",
+     "problem": "The page 5 header says the four other Deccan riders wear plain off-white turbans and white sashes, and that only Nagoji wears the rust-red turban and red sash. That header is lost. The 5.3 prompt says only \"four riders in off-white turbans\" and nothing about sashes. The [deccan] rule that guards against this is not in scope here, so the riders risk becoming copies of Nagoji.",
+     "fix": "Append to the anchor: \"Any Deccan riders standing with Nagoji and Dhanaji wear plain off-white turbans and white sashes; only Nagoji wears the rust-red turban and red sash.\""
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, panels.page-05-panel-01.bleed",
+     "severity": "should fix",
+     "problem": "5.1 shows ranks of Dutch soldiers, but the script gives VOC blue coats only to the trumpeters and drummers. The setting's scopes (kerala, court, coast) leave out the [dutch] rule \"No soldier ... wears a British red coat\", so the line infantry may be painted as redcoats.",
+     "fix": "Replace the bleed with: \"Full-panel remembered event at Tengapattanam, before the present map-room conversation; preserve the nighttime procession and reception, with no present war hall layered over it. The Dutch trumpeters, drummers and every soldier in the ranks wear VOC blue coats; none wears a red coat.\""
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, panels.page-04-panel-01.bleed",
+     "severity": "should fix",
+     "problem": "The ghosted Pune court in 4.1 shows sardars behind Nagoji. The war_hall setting does not pull in the [deccan] rule, so the remembered sardars may wear rust-red turbans and red sashes and double Nagoji in the same frame.",
+     "fix": "Replace the bleed with: \"Only a translucent memory of Pune's court enters behind Nagoji: painted pillars, a high seat, scribes and sardars in white or cream pagdis and angarkhas, none in a rust-red turban or red sash. Nagoji remains kneeling at the floor map in the present Travancore war hall; do not turn the memory's high seat into present furniture.\""
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.courtyard_room.time (page 17)",
+     "severity": "should fix",
+     "problem": "Page 17 falls between 16.4 and 16.5 (\"low evening light\", the Dutch leaving) and page 18 (\"copper evening ... the same day as the court\"). The novel confirms that Ramayyan leads him to Karl straight from the hall as the light slants low. \"daylight from the courtyard\" would make the scene jump back to bright day.",
+     "fix": "Set time to: \"low slanting evening light from the narrow courtyard\"."
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, panels.page-04-panel-03",
+     "severity": "should fix",
+     "problem": "4.3 is not an insert. \"He does not lift his eyes\" puts Ramayyan's lowered face in frame, yet \"sheets\": false removes his reference sheet, so his face can drift in a panel on the same page as 3.1 and 6.5.",
+     "fix": "Delete \"sheets\": false from page-04-panel-03 and keep only its lettering_space."
+    },
+    {
+     "where": "CONTINUITY-PROMPT-V2-CH10-12-PROPOSED.md, Nagoji row \"11 @21.3\"",
+     "severity": "should fix",
+     "problem": "In 21.3 his palm is pressed flat on the rock, which turns the inner forearm downward. To make the brand edge \"just visible\", the model is likely to move it to the back of the wrist or the outer forearm, which breaks the inner-LEFT-forearm placement used in every other chapter.",
+     "fix": "Replace the row text with: \"Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The LEFT sleeve is eased back and the forearm turned slightly outward as the palm presses the rock, so only the edge of the old pale puckered brand shows on the INNER forearm, a hand's width above the wrist; no letters or numerals, never on the back of the hand or the outer forearm. The long white scar beside it stays mostly covered.\""
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, character_notes.karl (17.1, 17.2, 17.4)",
+     "severity": "should fix",
+     "problem": "Karl's approved sheet shows European knee breeches, a brown sash and buckled leather shoes. The script and the novel put him in a rough shirt and a dhoti. The note says \"awkward dhoti\" but does not tell the model to ignore the sheet's lower costume, and the sheet is attached as a costume reference.",
+     "fix": "Replace the karl note with: \"Cropped greying hair, bare head, sickly yellow pallor, rough cotton shirt and an awkwardly tied dhoti in place of the knee breeches, sash and buckled shoes on his sheet; no coat or uniform.\""
+    },
+    {
+     "where": "scripts/CHAPTER-11-CAST-OVERRIDES.json, mounted panels 1.3, 1.4, 2.2, 2.4, 2.5, 18.1, 18.4, 19.3, 19.5; settings headland_lookout and coastal_ridge",
+     "severity": "should fix",
+     "problem": "Nagoji is mounted in nine panels across two scenes, but no prompt names his horse, so every standalone prompt will invent one and the coat colour will drift from panel to panel. Ibrahim's horse is unspecified too. The bible has Kayal (from the ch7 picket line) and the grey gelding (ch7-8 only), and Kayal has an approved sheet.",
+     "fix": "Once you confirm Kayal rather than the grey gelding, add \"kayal\" to the cast lists of page-01-panel-03, page-01-panel-04, page-02-panel-02, page-02-panel-04, page-02-panel-05, page-18-panel-01, page-18-panel-04, page-19-panel-03 and page-19-panel-05. Also append to the headland_lookout and coastal_ridge anchors: \"When Ibrahim is mounted, he rides a plain dark brown horse.\""
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, character_notes.dutch_envoys (9.1, 10.1, 10.3, 13.3, 14.4)",
+     "severity": "note",
+     "problem": "In the novel the envoys are \"respectfully bareheaded within the hall\", and the script has the tricornes under the arm or in hand (8.3, 16.4). The note's \"Both carry black tricornes\" lets the model put the hats on their heads in the indoor close-ups.",
+     "fix": "Change to: \"Both carry black tricornes in hand or under the arm and stay bareheaded inside the hall; no wigs, no gold braid, no blue coats.\" (keep the rest of the note)."
+    },
+    {
+     "where": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.audience_hall.anchor (interpreter in 8.3, 8.4, 9.1, 15.1, 16.4)",
+     "severity": "note",
+     "problem": "The interpreter recurs in five panels, and the payoff in 16.4 is a glance back. Only his features are given, never his dress, so he will be redesigned in each panel and may merge with the clerks.",
+     "fix": "Append to the anchor: \"The interpreter is the same man in every view: mixed Portuguese and Indian features, bareheaded, a plain white cotton jacket over a dark lower cloth, empty-handed, never in an envoy's coat.\""
+    }
+   ]
+  },
+  {
+   "chapter": 12,
+   "verdict": "sound with fixes",
+   "problems": [
+    {
+     "where": "scripts/CHAPTER-12-ART-DIRECTION.json, character_notes (affects 5.3, 5.5, 6.1, 6.3, 6.4, 6.5, 7.2, 7.4, 7.5)",
+     "severity": "should fix",
+     "problem": "Varma has no MUST MATCH line, but his look is at risk. The attached V13 varma-v1 sheet shows the cream-and-gold turban with peacock crest on every court figure and on both face studies, and has no bare-headed figure at all. Only 5.3 says in its own text that he is bare-headed. In the other eight war-hall panels his head is described only by the LOOKS line, which also carries the base court-turban sentence, and by the absent line, which forbids only 'gold-crest headwear'. A turban, or the grey hair of the sheet's later figure, can come straight from the sheet. No sheet caveat exists for Varma in script_pipeline.py SHEET_CAVEATS.",
+     "fix": "Add to character_notes: \"varma\": \"Face, moustache and build from his sheet, with black hair, never the grey of the sheet's later figure. On page 1 he wears the sheet's cream-and-gold turban with the peacock-feather crest. In the war hall on pages 5 to 7 he is bare-headed with his hair in a side knot above the LEFT ear: no turban, no crest and no headband, whatever the sheet shows.\""
+    },
+    {
+     "where": "scripts/CHAPTER-12-ART-DIRECTION.json, settings.war_hall.absent (all of pages 5.3 to 7.5)",
+     "severity": "should fix",
+     "problem": "The absent line ends 'only Nagoji wears one here', and it goes into the final SETTING paragraph of 7 panels where Nagoji is not in the cast: 5.4, 5.5, 6.1, 6.3, 6.4, 7.2 and 7.5. In 7.2 NOT SHOWN even puts him outside the frame. The line tells the model a turbaned man is present, which invites an extra rust-red-turbaned figure behind Varma or the chief. Also, 'gold-crest headwear on Varma' still allows a plain turban, which is exactly what his sheet shows. 5.3 and 6.2 already say in their own text that Nagoji is the only turbaned man, so nothing is lost.",
+     "fix": "Replace the absent value with: \"No throne, European chairs or glass lamps. No turban, crest or headband on Varma, and no turban on any chief, guard or attendant.\""
+    },
+    {
+     "where": "scripts/CHAPTER-12-ART-DIRECTION.json, settings.nagercoil_ravine.anchor (panel 4.1)",
+     "severity": "should fix",
+     "problem": "The anchor includes 'During the rest Dhanaji sits on a rock while Nagoji stands holding both bridles.' It is sent as the last paragraph of the 4.1 action prompt, where Nagoji is mounted and Dhanaji is at his shoulder with his talwar drawn. That staging contradicts 4.1, and because it comes last it can unhorse Nagoji or seat Dhanaji. 4.2's own script text already gives this staging, so the sentence adds nothing there.",
+     "fix": "Set the anchor to: \"The same ravine mouth near Nagercoil in both action and aftermath: red-earth scrub and palmyra, stream-cut rocks, gullies and hills. Open brown ground lies beyond the defensible mouth.\""
+    },
+    {
+     "where": "scripts/CHAPTER-12-ART-DIRECTION.json, not_shown (panels 2.5 and 3.5, shrine_steps anchor)",
+     "severity": "should fix",
+     "problem": "The shrine_steps anchor says Nagoji and Ramayyan sit side by side, with Nagoji's boots below the step, his talwar on his knees and Ramayyan's leaf bundle beside him. It goes into the two single-figure 3:1 strips: 2.5 (cast Nagoji only) and 3.5 (cast Ramayyan only, 'Ramayyan's face'). A strip leaves room for the second man, and the anchor names him and his props, so the absent man is likely to be drawn in. Neither panel has a not_shown entry, unlike the matching ch10 and ch11 cases.",
+     "fix": "Add to not_shown: \"page-02-panel-05\": [\"ramayyan\"], \"page-03-panel-05\": [\"nagoji\"]. Optionally change the anchor's second sentence to: \"When both men are in the panel they sit side by side, Nagoji barefoot with his boots together below the bottom step and his talwar across his knees, Ramayyan's leaf bundle and stylus beside him.\""
+    },
+    {
+     "where": "scripts/CHAPTER-12-ART-DIRECTION.json, settings.beach_rise.anchor (panels 8.2, 8.5)",
+     "severity": "should fix",
+     "problem": "The anchor says 'Nagoji's close-up belongs to this rise'. It is sent to 8.2 (seen from behind) and to 8.5 (a distant, full-width strip of him walking back, with the beach running away below). As the final paragraph it pushes a close-up framing against the distant shot the script asks for.",
+     "fix": "Set the anchor to: \"A low rise above the Travancore coast, black sea below, campfires behind and a long empty pale beach. Nagoji stands on this rise in every view of him here; his framing, orientation and movement follow the panel description.\""
+    },
+    {
+     "where": "scripts/CHAPTER-12-ART-DIRECTION.json, settings.nagercoil_ravine.anchor (panels 4.1, 4.2)",
+     "severity": "note",
+     "problem": "Nagoji is mounted in 4.1 and holds both bridles in 4.2, but nothing in the script, sidecar or bible says which horse he has. By this point (after the ch7 picket line) the bible makes Kayal his mount, so the model will invent a horse, possibly a grey or a white one.",
+     "fix": "Append to the nagercoil_ravine anchor: \"Nagoji's horse is his bay mare Kayal: ochre red-brown coat, black mane, tail and lower legs, no white markings.\" Alternatively, add \"kayal\" to the cast of page-04-panel-01 and page-04-panel-02 in CHAPTER-12-CAST-OVERRIDES.json so her approved sheet is attached; that needs author approval, because the CONTINUITY Kayal line does not list ch12."
+    }
+   ]
+  }
+ ],
+ "answers": {
+  "answers": [
+   {
+    "question": 0,
+    "recommendation": "Overall: mostly sound, with six real problems listed as items 6 to 11 below. Checks that passed: the CH10-12 span rows parse; Nagoji, Varma and Padmini have no gaps or overlaps in chapters 10, 11 and 12; the boots and barefoot splits in chapter 10 (1.4 to 2.5 and 9.1) and chapter 12 (2 to 3) match the scripts; the 10 @9.4 and 11 @21.3 forearm rows match the scripts; the Varma headwear rows match each scene; and the Padmini cotton-sari row is right for chapters 10 and 11. The bible, the sidecars and the cast files contain no em or en dashes. The dry-run packages ending -e match the current sidecars byte for byte, and I read those prompts. The scoped-rule edit to 'Non-Maratha raiders' and rivals' banners' is correct and needed: chapter 12 panels 4.4 (travancore_camp) and 8.3 (carnatic) draw saffron Maratha pennants, and the old wording would have contradicted them. Renaming the entry to 'Chanda Sahib of Arcot' is harmless: the pipeline still finds his entry.",
+    "change": "No change beyond items 1 to 11."
+   },
+   {
+    "question": 1,
+    "recommendation": "Remove the temple priest from 10.1.5. The script notes say no V13 temple-priest sheet is attached anywhere in chapter 10, because the officiant is too small to identify and the sheet risks putting his face on Ramayyan. At the moment the dry-run prompt lists 'Temple priest face' among PEOPLE, attaches his sheet as image 3, and prints a LOOKS line for him. Removing him does not break the cast check: the only name it looks for is the literal key 'temple_priest', so the word 'priest' in the description does not trigger it. Ramayyan's MUST MATCH line ('never the officiating priest's face') stays.",
+    "change": "scripts/CHAPTER-10-CAST-OVERRIDES.json: \"page-01-panel-05\": [\"nagoji\", \"ramayyan\"]. No sidecar or bible change."
+   },
+   {
+    "question": 2,
+    "recommendation": "Take Ramayyan out of the cast for 10.8.2 and mark him as not shown. The panel is a gallop through bamboo; only his hand appears, in an inset. Right now the prompt says 'PEOPLE: Nagoji, Ramayyan Dalawa', attaches his full sheet and his LOOKS line, which invites a whole Ramayyan among the riders. Turning sheets off for the panel would also drop Nagoji's sheet, and he leads the charge. With Ramayyan as not shown, the cast check is still satisfied, Nagoji keeps his sheet, and the hand is described on its own.",
+    "change": "scripts/CHAPTER-10-CAST-OVERRIDES.json: \"page-08-panel-02\": [\"nagoji\"]. scripts/CHAPTER-10-ART-DIRECTION.json: add \"page-08-panel-02\": [\"ramayyan\"] to not_shown, and add to the panels override \"page-08-panel-02\" the key \"bleed\": \"Inset only, drawn inside this panel's own frame: a thin hand holding a palm leaf scratched with the estate's supply paths as plain lines. No face, no full figure, no lettering.\" (keep the existing lettering_space)."
+   },
+   {
+    "question": 3,
+    "recommendation": "Keep Nagoji in all three bands, as the script says ('Nagoji in each band'). Say plainly that the draw-once rule applies to each band separately. Right now the generic line 'Draw each named person once, with no doubles' sits two paragraphs above 'each of the three bands shows the same Nagoji once', so the model gets two conflicting instructions. No cast or bible change is needed: the existing setting anchor ('Nagoji appears once in each separate time-band, not as three riders in one moment') can stay.",
+    "change": "scripts/CHAPTER-10-ART-DIRECTION.json, panels \"page-07-panel-04\" \"bleed\": \"Temporal montage, not one continuous scene. Here the rule to draw each named person once applies to each band separately: Nagoji appears exactly once in every band, three times across the panel, the same man in three seasons, never twice within one band.\""
+   },
+   {
+    "question": 4,
+    "recommendation": "Chapter 10, 9.3 (jackfruit tree): yes, boots. The script's Art note lists the barefoot moments exhaustively (temple 1.4 to 2.5, barracks mat 9.1), and the tree is outdoors in his own yard; leave 10 @9.2-9.3 as drafted. Chapter 11 floor-seated scenes: no, make him barefoot. The bible's own convention for chapters 9, 10 and 12 is barefoot whenever he sits or kneels on a hall floor or mat, with the boots left aside: the ch9 verandah mat, the ch10 barracks mat with 'boots set in a row by the door', the ch12 shrine steps. Chapter 11 has him kneeling at the war-hall floor map, where the king sits cross-legged on the floor (3.2 to 4.1, and page 7 continues the scene), and 'seated on the mat' in the hall at dusk (page 20). Drawing him booted there would break that convention two pages after chapter 10's barracks scene. In the audience pages (8 to 16) he stands at a pillar and the script is silent, so keep boots there. Every other row keeps its current text.",
+    "change": "CONTINUITY-PROMPT-V2-CH10-12-PROPOSED.md: replace the single row '| 11 @1-21.2 | ...boots... |' with these rows. B = 'Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. Sleeves down to the wrists. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve.' | 11 @1-2.5 | B |; | 11 @3-4.5 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, barefoot, talwar; his boots wait outside the war hall door. Nails healed but ridged. Sleeves down to the wrists. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve. |; | 11 @5-6.5 | B |; | 11 @7 | same text as @3-4.5 |; | 11 @8-19.5 | B |; | 11 @20 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, barefoot, talwar; his boots wait at the hall door. Nails healed but ridged. Sleeves down to the wrists. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve. |; | 11 @21-21.2 | B |. Keep the 11 @21.3 and 11 @21.4- rows unchanged. I checked these spans against the page counts: no gaps, no overlaps, and every endpoint panel exists. Chapter 10: no change."
+   },
+   {
+    "question": 5,
+    "recommendation": "Keep both guesses. Tengapattanam: the script seats the king at a 'low table' with guards 'behind the king's seat', so a low, backless local seat follows from it, and it matches chapter 11 page 8's 'low platform, not a throne'. The gap is that Van Imhoff's seat is never stated, and the absent line forbids a high-backed chair only for Varma. A wigged governor in a European chair at a low table is the likely drift. Captive's floor mat (12.8.3): the script has officers counting coin 'on a cloth before him' and the captive 'seated', which puts him at floor level. A floor mat also shows his fall without inventing furniture.",
+    "change": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.tengapattanam_pavilion.anchor: replace 'The king's seat is low and backless, local timber rather than a high-backed chair.' with 'The king's seat is low and backless, local timber rather than a high-backed chair, and the governor sits across the low table on a matching low seat.'; and in its absent field replace 'No European throne or high-backed chair for Varma,' with 'No European throne or high-backed chair for anyone,'. Chapter 12 captive_vision: no change."
+   },
+   {
+    "question": 6,
+    "recommendation": "Review finding: on page 10.8, one setting's absent line contradicts panels 8.3 and 8.4. The attingal_estate setting covers the whole page, and its absent line ends every page-8 prompt with 'No fire, smoke or broken gate in the peaceful dawn approach.' 8.3 describes a broken gate and a burning outbuilding; 8.4 a smoking courtyard. That line is the last thing the model reads. It also puts 'The supply-map inset contains only the mapmaker's hand' into 8.1, 8.3 and 8.4, which have no inset. Fix: split the setting in two.",
+    "change": "scripts/CHAPTER-10-ART-DIRECTION.json: replace settings.attingal_estate with two settings. \"attingal_approach\": {\"label\": \"Madampi estate near Attingal at dawn\", \"scopes\": [\"kerala\", \"travancore_camp\"], \"anchor\": \"The madampi's estate near Attingal: high old laterite walls pressed round by thick groves of wet bamboo, and a closed timber gate.\", \"absent\": \"No fire, smoke or broken gate yet. No foreign fort, European palace or extra named commander.\", \"time\": \"dawn in blue mist\"}, and \"attingal_aftermath\": {\"label\": \"Madampi estate near Attingal after the breach\", \"scopes\": [\"kerala\", \"travancore_camp\"], \"anchor\": \"The same madampi's estate near Attingal after the breach: the timber gate broken open, high old laterite walls, and the inner courtyard of a tiled noble house with carved timber pillars.\", \"absent\": \"No bodies or blood, no foreign fort or European palace, no extra named commander. The chief's sons are not present.\", \"time\": \"early morning, smoke over the breached gate\"}. Set pages \"8\": \"attingal_approach\", and add \"setting\": \"attingal_aftermath\" to the overrides for page-08-panel-03 and page-08-panel-04 (keep their time values). The 8.2 inset wording moves to that panel's bleed, as in item 2."
+   },
+   {
+    "question": 7,
+    "recommendation": "Review finding: the chapter 10 ayyappa_temple anchor stages the two men in ways the script does not. It says 'Nagoji and Ramayyan remain standing side by side at the inner threshold', but in 1.5 Ramayyan 'has turned back to face Nagoji', and in 1.4 they are climbing the steps. It also names Nagoji in 2.4 ('Close on Ramayyan'), where he has no not_shown entry, so a second figure may be added. The same kind of leak happens in chapter 12 panel 3.5: the shrine_steps anchor describes Nagoji seated and barefoot, but the panel is a single-face strip of Ramayyan.",
+    "change": "scripts/CHAPTER-10-ART-DIRECTION.json, settings.ayyappa_temple: anchor = \"A small Ayyappa temple on a Travancore hill: low laterite gateway base, two-tiered sloping tiled roof on timber posts, worn stone steps, stone-pillared mandapa and lamp-niched courtyard wall. Everyone inside the precinct is barefoot.\"; absent = \"No tall stone gateway tower, chairs or benches. No boots or carried talwar inside the precinct; boots and a talwar appear only at the foot of the outer steps. The fisherman and labourer stay outside the outer gateway.\" Add not_shown \"page-02-panel-04\": [\"nagoji\"]. scripts/CHAPTER-12-ART-DIRECTION.json: add not_shown \"page-03-panel-05\": [\"nagoji\"]."
+   },
+   {
+    "question": 8,
+    "recommendation": "Review finding: Varma's look is at risk in the chapter 11 war hall (3.1, 3.5, 4.2, 4.5, 7.1, 7.3). His attached V13 sheet shows the cream-and-gold turban with the peacock crest in three of its four figures. The prompt tells the model to take 'faces, build, hair and costume' from the sheets. Only the bible row says 'no turban or crest', and nothing overrides the sheet. The chapter 12 war_hall setting already guards against this ('no gold-crest headwear on Varma... only Nagoji wears one here'); the chapter 11 war_hall setting does not.",
+    "change": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.war_hall.absent: append \" No turban or peacock crest on Varma here, whatever his reference sheet shows; only the narrow white cloth band over his pulled-back hair.\""
+   },
+   {
+    "question": 9,
+    "recommendation": "Review finding: a scope tag is missing at Tengapattanam (11.5 to 11.6). Panel 5.1 draws ranks of Dutch soldiers and drummers by torchlight, but the setting's scopes are only kerala, court and coast. The prompt therefore carries no '[dutch] ... No soldier, Indian or European, wears a British red coat' rule. Version 2 dropped the old standing block that used to carry it.",
+    "change": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.tengapattanam_pavilion.scopes: [\"kerala\", \"court\", \"coast\", \"dutch\"]."
+   },
+   {
+    "question": 10,
+    "recommendation": "Review finding: the chapter 11 audience_hall anchor gives the seating plan in viewer-relative terms that can come out mirrored, and it brings in a person who does not exist. 'The visitors' cleared mat space is left of the platform, the secretary's place is at its right' depends on the camera. The script fixes the positions by the king's own hands: 8.2 'Ramayyan at the king's right... On the king's left, an empty cleared space', and 13.1 'to his left'. 'Secretary' may also produce an extra figure, since Ramayyan is the Dalawa.",
+    "change": "scripts/CHAPTER-11-ART-DIRECTION.json, settings.audience_hall.anchor: replace \"In the audience, the visitors' cleared mat space is left of the platform, the secretary's place is at its right, and\" with \"In the audience, the visitors' cleared mat space is on the king's own left of the platform, Ramayyan's place is on the king's own right, and\"."
+   },
+   {
+    "question": 11,
+    "recommendation": "Review findings, two smaller items. (a) Chapter 11: Revathi's costume caption is unprotected. In 9.5 the script says 'jewellery quieter than before' and the caption reads 'Less gold than at our first meeting'. Her base line ('sari with gold... gold armlets') and her approved sheet push the other way, and the chapter's MUST MATCH note does not mention it. (b) Chapter 11, 13.2: the panel is tight on a young clerk's hands, but the cast lists dutch_envoys. As a result, the prompt's LOOKS and MUST MATCH sections describe both envoys' coats, queue and tricornes. The clerk is unnamed. With the cast cleared, the panel still passes the cast check through its not_shown entry for Varma. (c) Chapter 10, estate_tree anchor: the words 'still seated for the forearm insert' also reach 9.3, which may make the model add a forearm inset that shows the brand while the sleeves are meant to be down.",
+    "change": "(a) scripts/CHAPTER-11-ART-DIRECTION.json, character_notes.revathi = \"Deep GREEN sari, jasmine braid, flat-coin necklace, sandalwood line at the hairline. Less gold than at her first meeting: no armlets and no anklet. No tali and no sindoor; never the indigo sari in this audience.\" (b) scripts/CHAPTER-11-CAST-OVERRIDES.json: \"page-13-panel-02\": []. (c) scripts/CHAPTER-10-ART-DIRECTION.json, settings.estate_tree.anchor = \"The roots of a great jackfruit tree in the Travancore estate yard. Nagoji sits directly among the roots with his knees bent. Across the yard the kalari glows; the hill temple is distant.\""
+   }
+  ]
+ }
+}

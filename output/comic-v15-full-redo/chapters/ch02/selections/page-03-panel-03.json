@@ -1,0 +1,69 @@
+{
+  "id": "page-03-panel-03",
+  "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-03-panel-03-v02.png",
+  "sha256": "ea38acaa742c9297cdb98ee293545b4f918d352f797bb8bd20a3cbfaf5c90477",
+  "width": 1536,
+  "height": 1024,
+  "generation_tool": "built-in imagegen",
+  "origin": "generated",
+  "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-03.txt",
+  "prompt_sha256": "85382901918551d6a80a2a909216f792a8e8bfaa6c12c26efe4d125f4e841b45",
+  "references": [
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/11-joao-v15.png",
+      "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a"
+    },
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+      "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+  ],
+  "visual_review": "pass",
+  "original_generated_path": "chapters/ch02/candidates/page-03-panel-03-v02.png",
+  "visible_rect": [
+    0,
+    0,
+    1536,
+    1024
+  ],
+  "reserves": [
+    {
+      "kind": "speech",
+      "rect": [
+        228,
+        17,
+        710,
+        137
+      ],
+      "copy_indices": [
+        0
+      ]
+    },
+    {
+      "kind": "caption",
+      "rect": [
+        1205,
+        583,
+        1513,
+        704
+      ],
+      "copy_indices": [
+        1
+      ]
+    },
+    {
+      "kind": "caption",
+      "rect": [
+        1156,
+        847,
+        1514,
+        955
+      ],
+      "copy_indices": [
+        2
+      ]
+    }
+  ],
+  "reviewer": "Codex",
+  "review_note": "Native-resolution review passed identity, costume, period staging, hands, no text, no gore, no nooses, and measured blank reserves; selected v02 with additive prompt provenance."
+}

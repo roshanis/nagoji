@@ -1,0 +1,13 @@
+# Generated art and builds stay on disk and out of git: frames, candidates, renders, contact sheets,
+# character sheets and chapter PDFs are rebuilt from the recorded picks, prompts and geometry here.
+*.png
+*.PNG
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.zip
+# Local safety copies made before each edit (git history replaces them).
+*.backup*
+__pycache__/
+.DS_Store

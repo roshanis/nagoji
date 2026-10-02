@@ -1,0 +1,50 @@
+# Chapter 7 script review: reviser's disposition
+
+Script: `output/comic-v15-full-redo/scripts/CHAPTER-07-SCRIPT.md` (pre-review draft kept as `CHAPTER-07-SCRIPT-r1.md`).
+Result: 12 pages, 56 panels (target 10, range 8 to 12), up from 11 pages and 52 panels. 32 findings: 32 applied, 0 rejected. Seven were applied in a different form from the reviewer's fix, and six carry a CONTINUITY.md change that is proposed in the script notes rather than made here.
+Each finding was checked against `book2_chapter07_horses_in_wet_sand.md`, `book1_chapter06_coastal_hall.md` (Varma's hair), `CONTINUITY.md`, the V13 Nagoji and Varma concept sheets, the revised Chapter 4 script (brand, Ibrahim), the Chapter 12 and 14 scripts (Madurai turbans, Ponnan, Dhanaji), and `pipeline/script_pipeline.py`. The revised script parses with `parse_script` (12 pages, 56 panels), contains no em or en dashes, and no panel carries more than 41 words of lettering.
+
+## Fidelity
+
+1. **10.5, the belonging resolution is cut.** APPLIED, in a different form. Both novel lines are restored verbatim. The two captions came to 55 words, too many for one strip, so 10.5 carries "the first time I had let myself care whether one particular animal lived or died". The Colachel and belonging captions open page 11 over a wide, quiet panel (11.1), which is exactly where the novel puts them, just before Ibrahim arrives.
+2. **11.3 and 11.4, Ibrahim's three faiths reshaped.** APPLIED. Confirmed against the novel: "We built mosques. We kept the faith. But we also lit lamps ... Christian priests" is restored verbatim (12.1), along with "You are useful too" (12.3) and the war-hall line as he leaves (12.4). The novel's "when you wonder why" is kept. The scene now spans 11.2 to 12.4.
+3. **11.2, Nagoji's own statement of faith cut.** APPLIED. "And yet I have seen you bow your head in their churches" goes in 11.3, and "I pray to whatever is listening" gets its own panel (11.4), with the novel's "If the gods are as numerous as men say" kept.
+4. **9.5, "neither Madurai nor Maravar" is only in the art.** APPLIED. The caption is added before "I knew that look".
+5. **11.5, the Deccan-soil bridge is missing.** APPLIED. It is now the first caption of the final panel (12.5), before the storm lines.
+6. **1.3, the riders' contempt is lost.** APPLIED. The novel has the eyes saying "what the riders did not dare speak aloud". That caption now comes before the italic line.
+7. **Awning position (2.2, 3.2, 7.4, 9.2).** APPLIED. The novel puts it on the bluff ("I rode up the slope to them"). It now stands on the bluff's lower shoulder in 2.2. Raza Khan glances UP at it in 3.2, and Nagoji rides up and swings down in 7.4.
+8. **4.2, the Maravar look already expert.** APPLIED. "Fared slightly better" is confirmed. The pony now slips and throws sand, then recovers and darts away. It is folded into 4.1 (see finding 12).
+9. **Verbatim drift at 2.3, 5.3 and 9.4.** APPLIED. All three are confirmed against the novel and restored: "At the time, with the memory of chains", "You must ride with the sand", "too stunned to mourn properly".
+
+## Craft
+
+10. **11.3 carries 46 words.** APPLIED, in a different form. The count is confirmed. The reviewer's move of the lamps line into 11.2 was overtaken by findings 2 and 3. The lamps line (12.1) and the salt-and-fresh line (12.2) are now separate panels, and 12.2 is the water image with only the backwaters line over it.
+11. **Page 8 is all talking heads.** APPLIED. 8.2 is now a high wide shot over Varma's shoulder, down onto the regrouping line. 8.4 is a wide of the sea with Varma small in silhouette. The vista moves out of 7.4, which now holds only the king rising and Nagoji arriving.
+12. **Page 4, three strips crushed into a third.** APPLIED, together with finding 26. The Maravar pony is folded into 4.1, which is cut to half the page. The page is now three panels: 4.1, then 4.2 and 4.3 sharing the lower half.
+13. **3.1 carries 42 words.** APPLIED. The Dutch-square line moves to 3.2 as NAGOJI (off), so Raza Khan's jaw and upward glance react to it. 3.1 now holds 20 words.
+14. **3.2 caption restates the staging.** APPLIED. It is cut to "The king had set a stranger over him." That is the one fact the glance at the awning cannot show.
+15. **6.4 is overloaded, and no host panel is given for the insets.** APPLIED. 6.4 keeps only "Us. We do not hit them. We bait them." The bait line opens 6.5 (38 words). Both insets sit side by side in 6.5's upper band, which is kept as open sea and sky, and 6.5 fills the lower half of the page.
+16. **10.1, horse-economics exposition in a quiet scene.** APPLIED. Trimmed from 39 to 29 words. "Were not beautiful", which restated the art, is gone. The reviewer's "No war horse is native to this coast" was not used; the novel's own "Every war horse on this coast was an import" is kept.
+17. **Awning position (craft lens).** APPLIED. Same change as finding 7.
+
+## Continuity
+
+18. **Varma is written bare-headed with no head description.** APPLIED; a CONTINUITY.md change is proposed. Verified: varma-v1.png shows the white turban and peacock crest in every court view. The novel's Chapter 6 gives "a bun to his left" and "Vaishnavite" lines. Every Varma panel (2.2, 7.4, 8.2, 8.4, 8.5) now says to take only the face, with NO turban and NO crest, the bun to his left, forehead lines, the cloth, and necklaces. The pipeline pastes the bible's "Court: ... peacock crest" into each Varma prompt and says it overrides the script, so a beach line in CONTINUITY.md is flagged as a blocker (bible proposal 1). The bible was not edited, because it is shared by the parallel chapter revisers.
+19. **The Nagoji turban can drop out of close-ups.** APPLIED. Verified: the sheet's face studies are bare-headed. Every Nagoji panel restates the turban, and the head-filling panels (9.3, 10.4) say to take the face from the commander figure. 9.3 keeps the turban's lower edge in frame. A generation note at the top covers the whole chapter.
+20. **Ponnan and Nagoji could twin.** APPLIED, in a different form. Verified: Nagoji's sheet has the red sash over his left shoulder. Every Ponnan panel now gives him no turban, short curls, a stockier build, bare legs and a small dun pony, with the red cloth over the RIGHT shoulder. "Only Ponnan wears red" appears in 2.1. His jacket is dark brown rather than the proposed indigo, because Dhanaji wears indigo in Chapter 14. Bible proposal 4.
+21. **The Madurai troop could come out as British-era sowars.** APPLIED, in a different form. The 1740s look (white jama, waistband, quilted Indian saddle, bamboo lance with no pennon, nothing European) is set in 1.1 and restated in every troop panel, because each prompt stands alone. The turbans are white or off-white only, not "white or pale green", so Raza Khan's deep green stays unique, as Chapter 12 also requires. The silver turban ornament was left out, to avoid a new permanent costume item. Bible proposal 5.
+22. **2.4, three riders with no order.** APPLIED. Left to right: Raza Khan, then Nagoji pointing with his right arm, then Ponnan lower on his dun. Each has his marks.
+23. **2.3, the brand is loose.** APPLIED, in a different form. The LEFT hand and inner left forearm are now fixed, as is the absence of text. The reviewer's "crude cross, as in Chapter 4, 3.2" is out of date: the revised Chapter 4 draws a row of ridges on the inner left forearm, blurred past reading, with no cross and no letters, and this panel now matches it. The remaining conflict (the bible's ch4 row and Chapter 5, 1.1 say "upper arm"; Chapter 8, 4.4 says "wrist") is flagged as bible proposal 6.
+24. **11.1, Ibrahim could read as Raza Khan.** APPLIED. Chapter 4 (6.5) gives him a white turban and a short grey-flecked beard, and both are now added. His left side is lit so the scar reads, with "no green, no hawk nose". This is restated in each Ibrahim panel. Bible proposal 3.
+25. **Kayal's colour and size are undrawable as written.** APPLIED, in a different form. She is a bay with an ochre red-brown body, BLACK mane, tail and lower legs, and no white markings, restated from 9.5 to 12.5. "About 14.3 hands" was replaced with a relative size the model can draw: a little taller than the ponies and clearly smaller than the Madurai horses. Bible proposal 2.
+26. **Page 4 layout and 300 PPI.** APPLIED. 4.1 is now half the page. The large panels (3.4, 4.1, 6.5, 7.3, 12.5) are marked to be generated at their placed aspect ratio, and a top note restates the 300 effective PPI rule and the 2x upscale fallback.
+27. **Awning position (continuity lens).** APPLIED. Same change as finding 7: one one-pole awning in one place across 2.2, 3.2, 7.4 and 8.x.
+28. **Troop horse colours unset.** APPLIED. Madurai horses are dark bay, dark brown and black, with no greys. Maravar ponies are dun and dark brown, with no greys. Raza Khan rides a dark bay. In 9.5 and 10.1, no other red-bay stands near Kayal.
+29. **Raza Khan's scar and turban drift in close-ups.** APPLIED. The deep-green turban, the scar on the anatomical LEFT cheek and the pointed moustache are restated in every Raza Khan panel. In 2.5, 3.2 and 5.3 his left cheek is turned to camera.
+30. **5.2, mounted or on foot.** APPLIED. The novel says he "wrestled his horse back to firm ground". He stays mounted, shaking his boot in the stirrup.
+31. **6.3 and 6.4 invite arrows and labels.** APPLIED. Both specify grooves scored in wet sand only, made by the driftwood tip, with no arrows, symbols, letters or labels.
+32. **9.4, Kanka's rider unspecified.** APPLIED, in a different form. She has no rider and no saddle, with mane and tail streaming. An empty saddle was not used, because it reads as death, and the panel wants her alive.
+
+## Blocker carried forward
+
+Before Chapter 7 is generated, the CONTINUITY.md owner must add Varma's beach line (bible proposal 1). The pipeline copies the bible into every prompt as overriding the script, so without that line the court "peacock crest" will reach 2.2, 7.4, 8.2, 8.4 and 8.5. Proposals 2 to 6 are needed before Chapters 4, 5, 8 and 14 are generated.

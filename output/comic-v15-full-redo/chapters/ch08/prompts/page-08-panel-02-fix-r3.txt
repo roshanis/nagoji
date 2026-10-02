@@ -1,0 +1,26 @@
+V15 graphic novel panel page-08-panel-02 for chapter 8. Nagoji looking out past the tree, somewhere north. Behind his head, bleeding into the panel edge like a stain rather than a clean flashback frame, desaturated: a column of Maratha horsemen riding at dawn across open country toward a whitewashed Portuguese fort wall with low bastions, a plain saffron pennant at its head, the riders small and distant. No devices on the pennant, no text.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+nagoji: Constant identity: strong cheekbones, straight nose, thick curled moustache, CLEAN-SHAVEN CHIN (light stubble at most, captivity only), long curly black hair, small gold ear stud, lean cavalryman build. No forehead marks, no sacred thread, no royal jewellery. No facial scar.; Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand's width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art, and no painted balloons, caption boxes or frames: leave clear, low-detail space where the lettering will go. The letterer draws every balloon and caption over the finished art.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+No text of any kind in generated art. Do not render the following exact copy; it is composited later:
+NAGOJI: I rode where the Peshwa's orders sent me.
+NAGOJI: I did not think it fair to ask a woman to wait for a man who might ride into Portuguese guns one morning and never ride back.
+Leave clear, low-detail space (sky, wall, floor or shadow) for exactly 2 lettering area(s), one per copy chunk, preferably in the upper part of the frame, with enough room for the exact characters above. Draw NO balloons, boxes, frames, outlines, banners or text of any kind in those areas or anywhere else; the lettering is added afterwards. This replaces any earlier mention of blank balloon or caption reserves. Keep faces, hands, and important action outside those areas.
+No invented lettering, pseudo-writing, logos, watermark, gore, or anachronistic costume.
+
+PRE-GENERATION NOTE (appended after a prompt audit): The memory riders wear white or cream angarkhas and white pagdis, with no rust-red turbans or red sashes. The pennant is plain saffron and swallow-tailed. The fort wall flies no flag and carries no crest or marks. The memory fades softly into the courtyard and the panel edge, with no hard line, border or inset box between them.
+
+EDIT INSTRUCTION (this job is an edit of the attached image): Keep everything that is right in the attached image (composition, setting, figures, faces, costumes and light); change only what this correction describes: EDIT v02 and keep everything else exactly as it is: the jackfruit tree, the clay-tiled Nair house, Nagoji's seated pose, face, clean-shaven chin, curled moustache, rust-red turban, cream tunic, red sash, talwar, both sleeves down to the wrists, and the soft, borderless sepia memory stain at upper right with its riders, saffron swallow-tailed pennant and whitewashed fort wall. Change only the raised leg's shin in the bottom-left corner (about x 0.04 to 0.16, y 0.81 to 1.0). Remove the brown cross-strapped riding boot and paint the loose cream trouser leg falling to a bare brown ankle, with the bare foot resting on the grey stone platform if it fits in the frame. He is barefoot at the estate, as in 7.1 and 8.4. Paint no boots, sandals, straps, wrappings or footwear anywhere in the frame.
+
+LETTERING UPDATE (overrides any earlier instruction about blank text areas): draw NO balloons, caption boxes, frames, outlines or text of any kind anywhere in the image; leave clear, low-detail space where lettering will go.

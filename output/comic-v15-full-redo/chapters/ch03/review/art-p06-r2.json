@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "scope": [
+    "page-06"
+  ],
+  "status": "ready_for_independent_selection_review",
+  "selection_done": false,
+  "final_candidates": {
+    "page-06-panel-01": "v03",
+    "page-06-panel-02": "v05",
+    "page-06-panel-03": "v03",
+    "page-06-panel-04": "v05",
+    "page-06-panel-05": "v02"
+  },
+  "copy_fit_preflight": {
+    "status": "pass",
+    "minimum_light_fraction": 0.9984126984126984,
+    "line_count": 27,
+    "method": "compositor.copy_fit_measurements plus run_chapter.audit_reserve_pixels"
+  },
+  "corrections": [
+    {
+      "frame_id": "page-06-panel-01",
+      "from": "v02",
+      "to": "v03",
+      "reason": "Nagoji left and Keshavrao right, other prisoners unable to free themselves, flooded hold, correct arm coverage and bandage state."
+    },
+    {
+      "frame_id": "page-06-panel-02",
+      "from": "v04",
+      "to": "v05",
+      "reason": "remove dangling earring, cover anatomical left forearm, bandage both hands, preserve restraints and submerged musket."
+    },
+    {
+      "frame_id": "page-06-panel-03",
+      "from": "v02",
+      "to": "v03",
+      "reason": "replace rectangular breech-like opening with accurate shallow flintlock priming pan beside cock."
+    },
+    {
+      "frame_id": "page-06-panel-04",
+      "from": "v04",
+      "to": "v05",
+      "reason": "tiny flush stud, bandaged hands and wide flooded-hold framing."
+    },
+    {
+      "frame_id": "page-06-panel-05",
+      "from": "v01",
+      "to": "v02",
+      "reason": "remove visible red sleeves from guard silhouette."
+    }
+  ],
+  "notes": "No selection ledger was written. Parent agent must independently review and run immutable select."
+}

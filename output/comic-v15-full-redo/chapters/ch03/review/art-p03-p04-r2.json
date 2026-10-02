@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "chapter": 3,
+  "pages": [3, 4],
+  "status": "partial_review_pending_root",
+  "native_review": {
+    "visually_passed_candidates": [
+      "page-03-panel-01-v03",
+      "page-03-panel-02-v05",
+      "page-03-panel-03-v04",
+      "page-03-panel-05-v01",
+      "page-04-panel-02-v01",
+      "page-04-panel-04-v02",
+      "page-04-panel-05-v02"
+    ],
+    "rejected_or_pending": {
+      "page-03-panel-04-v01": "left forearm exposed and reserves failed copy fit",
+      "page-03-panel-04-v02-v03": "regenerated call produced wide hold staging with exposed arms and no usable paired reserves",
+      "page-04-panel-01-v03": "best staging but left forearm still visibly exposed; second reserve failed fit",
+      "page-04-panel-01-v04": "regenerated call produced hands and wood only, no usable character staging",
+      "page-04-panel-03-v02": "enclosed hold, but wrist-cuff visibility requires root confirmation"
+    }
+  },
+  "copy_fit_and_pixels": {
+    "passed": ["page-03-panel-01-v03", "page-03-panel-03-v04", "page-03-panel-05-v01", "page-04-panel-02-v01", "page-04-panel-03-v02", "page-04-panel-04-v02", "page-04-panel-05-v02"],
+    "failed": ["page-03-panel-02-v05 first reserve remains too small for its line", "page-03-panel-04-v01 both reserves too small", "page-04-panel-01-v03 second reserve too small"],
+    "pixel_audit": "not accepted for failing rows; p3.2 geometry adjustment was tested and its first line still did not fit"
+  },
+  "provenance": "Actual prompt provenance siblings were added for the latest candidates. Prior frames and captures remain preserved. Correction calls used the attached approved sheets only; no prior frame was attached.",
+  "next_step": "Root must independently review latest candidates and either regenerate p3.2, p3.4 and p4.1 with larger reserves and fully covered left forearm, or document deviations before select."
+}
