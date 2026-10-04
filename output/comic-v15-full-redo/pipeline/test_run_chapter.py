@@ -2284,6 +2284,8 @@ class FitLayoutCommandTests(PackageCase):
         return path
 
     def fit(self, *extra, manifest=None):
+        if '--structures' in extra and '--probe' in extra and '--jobs' not in extra:
+            extra += ('--jobs', '1')                  # keep planner mocks in the calling process
         return self.run_cli('fit-layout', '--manifest', str(manifest or self.manifest()), '--layout', str(self.prior),
                             '--layout-out', str(self.layout_out), *extra)
 
@@ -2703,6 +2705,79 @@ class FitLayoutCommandTests(PackageCase):
         self.assertTrue(fitted['report']['pages']['1']['rows'][0]['cue_met'])
         self.assertEqual(fitted['report']['probe']['planner_calls'], probe.calls)      # the shared probe did the asking
         self.assertGreater(probe.calls, 0)
+
+    def parallel_fixture(self):
+        """Two pages in script order, with real painted art and distinct panel ids for spawn workers."""
+        path = self.generated('parallel.png', boxes=[(325, 38, 525, 105)], size=(600, 250))
+        folder = self.root / 'parallel-geometry'
+        folder.mkdir()
+        script = {'pages': {}}
+        frames = []
+        for page_no in ('2', '1'):
+            panels = []
+            for number in (1, 2):
+                panel_id = f'page-{int(page_no):02d}-panel-{number:02d}'
+                copy = [{'speaker': 'CAPTION', 'text': 'Wait.'}] if number == 1 else []
+                panels.append({'id': panel_id, 'page': int(page_no), 'copy': copy,
+                               'description': 'Narrow strip.' if number == 1 else 'A quiet room.'})
+                frames.append({'id': panel_id, 'path': str(path), 'width': 600, 'height': 250,
+                               'visible_rect': [0, 0, 600, 250]})
+            script['pages'][page_no] = {'panels': panels}
+        (folder / 'parallel-tails.json').write_text('{}')
+        (folder / 'parallel-faces.json').write_text(json.dumps([{'x': .9, 'y': .3, 'r': .08}]))
+        manifest = self.root / 'parallel-manifest.json'
+        manifest.write_text(json.dumps({'frames': frames}))
+        prior = {'2': [40, 481.5], '1': [40, 481.5]}   # bound the deliberately unplaceable painted probe
+        return script, prior, manifest, folder
+
+    def test_structures_parallel_probe_matches_serial_report_and_planner_calls(self):
+        import layout_fit as lf
+        script, prior, manifest, folder = self.parallel_fixture()
+        by_mode = []
+        for unpainted in (False, True):
+            with self.subTest(unpainted=unpainted), mock.patch.object(r, 'UNPAINTED', unpainted):
+                inputs = r.fit_inputs(self.pkg, manifest, None, folder, 1.0, script)
+                self.assertEqual(bool(inputs['painted']), not unpainted)
+                serial = r.structure_fit(lf, script, prior, inputs, folder, 3.0, True, jobs=1)
+                parallel = r.structure_fit(lf, script, prior, inputs, folder, 3.0, True, jobs=2)
+                self.assertEqual(list(parallel['page_rows']), ['2', '1'])
+                self.assertEqual(list(parallel['report']['pages']), ['2', '1'])
+                self.assertEqual(json.dumps(serial['page_rows'], sort_keys=True),
+                                 json.dumps(parallel['page_rows'], sort_keys=True))
+                self.assertEqual(json.dumps(serial['report'], sort_keys=True),
+                                 json.dumps(parallel['report'], sort_keys=True))
+                self.assertGreater(serial['report']['probe']['planner_calls'], 0)
+                self.assertEqual(serial['report']['probe']['planner_calls'], parallel['report']['probe']['planner_calls'])
+                self.assertTrue(all('structure' in page for page in parallel['report']['pages'].values()))
+                by_mode.append(serial['report']['probe'])
+        if len(by_mode) == 2:
+            self.assertNotEqual(by_mode[0], by_mode[1])   # losing UNPAINTED in a worker must be observable
+
+    def test_structures_parallel_worker_error_propagates(self):
+        import layout_fit as lf
+        script, prior, manifest, folder = self.parallel_fixture()
+        (folder / 'parallel-tails.json').write_text(json.dumps({'0': [.5, .5]}))
+        inputs = r.fit_inputs(self.pkg, manifest, None, folder, 1.0, script)
+        errors = []
+        for jobs in (1, 2):
+            with self.subTest(jobs=jobs):
+                with self.assertRaisesRegex(r.AutoGeometryError, 'caption and takes no tail') as caught:
+                    r.structure_fit(lf, script, prior, inputs, folder, 3.0, True, jobs=jobs)
+                errors.append(str(caught.exception))
+        if len(errors) == 2:
+            self.assertEqual(errors[0], errors[1])
+
+    def test_jobs_requires_fit_layout_with_structures_and_probe(self):
+        for argv in (('fit-layout',), ('fit-layout', '--structures'), ('fit-layout', '--probe'), ('next-job',)):
+            stderr = io.StringIO()
+            with self.subTest(argv=argv), contextlib.redirect_stderr(stderr), self.assertRaises(SystemExit) as caught:
+                self.run_cli(*argv, '--jobs', '2')
+            self.assertEqual(caught.exception.code, 2)
+            self.assertIn('--jobs applies only to fit-layout --structures --probe', stderr.getvalue())
+        for extra, expected in (((), 4), (('--jobs', '2'), 2), (('--jobs', '0'), 0)):
+            with mock.patch.object(r.os, 'cpu_count', return_value=6), mock.patch.object(r, 'fit_layout_command', return_value={}) as fit:
+                self.run_cli('fit-layout', '--structures', '--probe', *extra)
+            self.assertEqual(fit.call_args.args[0].jobs, expected)
 
     def test_new_flags_are_scoped_to_fit_layout(self):
         with contextlib.redirect_stderr(io.StringIO()):

@@ -737,6 +737,11 @@ def fit_structures(script, prior_rows, frames, faces=None, margin=MARGIN, painte
         key = str(page_no)
         page_rows[key], pages[key] = _choose_structure(key, page, (prior_rows or {}).get(key), frames, faces, margin,
                                                        painted, keep, refine, top)
+    return assemble_structures(page_rows, pages, margin, top if refine is not None else None)
+
+
+def assemble_structures(page_rows, pages, margin=MARGIN, top=None):
+    """Assemble fitted pages in their supplied order; `top` is the probe limit, or None without refinement."""
     changed = sum(1 for page in pages.values() if page['structure']['chosen'] != page['structure']['prior'])
-    search = {'row_sizes': list(ROW_SIZES), 'pages_changed': changed, 'probe_top': top if refine is not None else None}
+    search = {'row_sizes': list(ROW_SIZES), 'pages_changed': changed, 'probe_top': top}
     return {'page_rows': page_rows, 'report': {**_summary(pages, margin), 'structure_search': search, 'pages': pages}}

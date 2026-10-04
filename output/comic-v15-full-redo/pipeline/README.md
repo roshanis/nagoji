@@ -632,6 +632,11 @@ verify the best candidates). Rows of three are not tried. The prior layout's own
 chapters 1 to 4, one full-width row per panel where a page has none) is always a candidate, and wins a tie. Without the
 flag nothing changes.
 
+With `fit-layout --structures --probe`, `--jobs N` runs independent pages in spawned workers, defaulting to the CPU
+count minus two (at least one), capped at the page count. `--jobs 1` keeps the in-process path. Both paths retain the
+same page order, layout, report and total planner call count; worker errors propagate to the command. `--jobs` is
+refused outside `fit-layout --structures --probe`.
+
 Script layout cues, read from each panel's `description` (case-insensitive, from its first two sentences):
 
 - Alone in its row: "full width", "full-width", "full page width" (so "Full-width tier" and "Wide, full page width" too);

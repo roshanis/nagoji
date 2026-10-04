@@ -2,9 +2,11 @@
 """V15 per-chapter production entry point. Built-in imagegen runs in Codex."""
 from __future__ import annotations
 import argparse
+import concurrent.futures
 import copy
 import functools
 import json
+import multiprocessing
 import os
 import re
 import shutil
@@ -847,15 +849,12 @@ def probe_fit(lf,script,prior,inputs,tails_dir,margin,step_pt=PROBE_STEP_PT,prob
     return fitted
 
 
-def structure_fit(lf,script,prior,inputs,tails_dir,margin,probing):
-    """fit-layout --structures: choose each page's rows (which panels share a row) as well as their heights.
-
-    With `probing`, the planner is asked about the top candidates of each page (layout_fit.PROBE_TOP): each is
-    probe_fit at its own widths, sharing one SlotProbe, and the best one the planner verifies is chosen. The report's
-    "probe" section is then the chosen candidates' (floors, pins, verified, ...), with the planner calls of all.
-    """
-    frames,faces,painted,keep=inputs['frames'],inputs['faces'],inputs['painted'],inputs['keep']
-    if not probing:return lf.fit_structures(script,prior,frames,faces,margin=margin,painted=painted,keep=keep)
+def _structure_page(page_no,page,prior,inputs,tails_dir,margin,unpainted):
+    """Spawn worker: return one page's rows, structure report, probe reports and total planner calls."""
+    import layout_fit as lf
+    global UNPAINTED
+    UNPAINTED=unpainted
+    script={'pages':{page_no:page}}
     probe=SlotProbe(script,inputs,tails_dir);probed={}
 
     def refine(page_no,page,entry,minimums):
@@ -864,9 +863,47 @@ def structure_fit(lf,script,prior,inputs,tails_dir,margin,probing):
         probed[(page_no,sizes)]=fitted['report']['probe']
         return fitted,all(fitted['report']['probe']['verified'].values())
 
-    fitted=lf.fit_structures(script,prior,frames,faces,margin=margin,painted=painted,keep=keep,refine=refine)
+    fitted=lf.fit_structures(script,{page_no:prior},inputs['frames'],inputs['faces'],margin=margin,
+                             painted=inputs['painted'],keep=inputs['keep'],refine=refine)
+    return fitted['page_rows'][page_no],fitted['report']['pages'][page_no],probed,probe.calls
+
+
+def structure_fit(lf,script,prior,inputs,tails_dir,margin,probing,jobs=1):
+    """fit-layout --structures: choose each page's rows (which panels share a row) as well as their heights.
+
+    With `probing`, the planner is asked about the top candidates of each page (layout_fit.PROBE_TOP): each is
+    probe_fit at its own widths, sharing a SlotProbe within each page, and the best one the planner verifies is chosen. The report's
+    "probe" section is then the chosen candidates' (floors, pins, verified, ...), with the planner calls of all.
+    With probing and `jobs > 1`, pages run in spawned processes, capped at the number of pages, and results are
+    assembled in script order. `jobs <= 1` keeps the in-process shared probe; without probing `jobs` has no effect.
+    """
+    frames,faces,painted,keep=inputs['frames'],inputs['faces'],inputs['painted'],inputs['keep']
+    if not probing:return lf.fit_structures(script,prior,frames,faces,margin=margin,painted=painted,keep=keep)
+    if jobs>1:
+        page_rows,pages,probed={},{},{};planner_calls=0
+        if script['pages']:
+            with concurrent.futures.ProcessPoolExecutor(max_workers=min(jobs,len(script['pages'])),
+                                                       mp_context=multiprocessing.get_context('spawn')) as pool:
+                futures=[(str(page_no),pool.submit(_structure_page,str(page_no),page,(prior or {}).get(str(page_no)),
+                                                   inputs,tails_dir,margin,UNPAINTED))
+                         for page_no,page in script['pages'].items()]
+                for page_no,future in futures:
+                    page_rows[page_no],pages[page_no],found,calls=future.result()
+                    probed.update(found);planner_calls+=calls
+        fitted=lf.assemble_structures(page_rows,pages,margin,lf.PROBE_TOP)
+    else:
+        probe=SlotProbe(script,inputs,tails_dir);probed={}
+
+        def refine(page_no,page,entry,minimums):
+            fitted=probe_fit(lf,{'pages':{page_no:page}},{page_no:entry},inputs,tails_dir,margin,probe=probe,minimums=minimums)
+            sizes=tuple(len(row) if isinstance(row,list) else 1 for row in fitted['page_rows'][page_no])
+            probed[(page_no,sizes)]=fitted['report']['probe']
+            return fitted,all(fitted['report']['probe']['verified'].values())
+
+        fitted=lf.fit_structures(script,prior,frames,faces,margin=margin,painted=painted,keep=keep,refine=refine)
+        planner_calls=probe.calls
     chosen=[probed[(page_no,tuple(page['structure']['chosen']))] for page_no,page in fitted['report']['pages'].items()]
-    merged={'step_pt':PROBE_STEP_PT,'planner_calls':probe.calls,'rounds':max((found['rounds'] for found in chosen),default=0),
+    merged={'step_pt':PROBE_STEP_PT,'planner_calls':planner_calls,'rounds':max((found['rounds'] for found in chosen),default=0),
             'floors':{},'pins':{},'verified':{},'unplaceable':[],'off_grid':[],'unprobed':[]}
     for found in chosen:
         for key in ('floors','pins','verified'):merged[key].update(found[key])
@@ -892,7 +929,7 @@ def fit_layout_command(args,out):
     if args.probe and args.faces_dir is None:
         raise LayoutFitError('--probe needs --faces-dir, which holds each frame\'s <stem>-tails.json and -faces.json')
     inputs=fit_inputs(out,args.manifest,args.decisions,args.faces_dir,face_scale,script)
-    if args.structures:fitted=structure_fit(lf,script,prior,inputs,args.faces_dir,margin,args.probe)
+    if args.structures:fitted=structure_fit(lf,script,prior,inputs,args.faces_dir,margin,args.probe,jobs=args.jobs)
     elif args.probe:fitted=probe_fit(lf,script,prior,inputs,args.faces_dir,margin)
     else:fitted=lf.fit_layout(script,prior,inputs['frames'],inputs['faces'],margin=margin,painted=inputs['painted'],keep=inputs['keep'])
     source={'layout':str(args.layout),'layout_sha256':c.sha256(args.layout),'manifest':str(args.manifest),
@@ -991,6 +1028,8 @@ def main(argv=None):
                    help='auto-geometry --draw and fit-layout: the art has no painted balloons, so no painted regions are measured or covered')
     p.add_argument('--structures',action='store_true',
                    help='fit-layout: also choose each page\'s row structure (which panels share a row) from the script layout cues and the fit')
+    p.add_argument('--jobs',type=int,
+                   help='fit-layout --structures --probe: page workers (default: CPU count minus 2, at least 1; <=1 runs in process)')
     args=p.parse_args(argv)
     for flag,value in (('--from-package',args.from_package),('--source',args.source)):
         if value is not None and args.command!='import-frame':p.error(f'{flag} applies only to import-frame')
@@ -1007,6 +1046,9 @@ def main(argv=None):
     if args.keep is not None and args.command!='auto-geometry':p.error('--keep applies only to auto-geometry')
     if args.probe and args.command!='fit-layout':p.error('--probe applies only to fit-layout')
     if args.structures and args.command!='fit-layout':p.error('--structures applies only to fit-layout')
+    if args.jobs is not None and not (args.command=='fit-layout' and args.structures and args.probe):
+        p.error('--jobs applies only to fit-layout --structures --probe')
+    if args.jobs is None:args.jobs=max(1,(os.cpu_count() or 1)-2)
     if args.unpainted and not (args.command=='fit-layout' or (args.command=='auto-geometry' and args.draw)):
         p.error('--unpainted applies only to auto-geometry --draw and fit-layout')
     global UNPAINTED
