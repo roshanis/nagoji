@@ -364,6 +364,19 @@ def parse_keep(raw,width,height):
     return zones
 
 
+def keep_coverage(boxes,keep_px,visible_rect):
+    """Share of each keep zone's visible area covered by nonoverlapping box rectangles in source pixels."""
+    shares=[]
+    for x0,y0,x1,y1 in keep_px:
+        x0=max(x0,visible_rect[0]);y0=max(y0,visible_rect[1])
+        x1=min(x1,visible_rect[2]);y1=min(y1,visible_rect[3])
+        area=max(0,x1-x0)*max(0,y1-y0)
+        covered=sum(max(0,min(x1,bx1)-max(x0,bx0))*max(0,min(y1,by1)-max(y0,by0))
+                    for bx0,by0,bx1,by1 in boxes)
+        shares.append(covered/area if area else 0.0)
+    return shares
+
+
 HEAD_RADIUS=.09      # an implied head zone's radius, as a share of the frame height
 
 
@@ -595,6 +608,7 @@ def auto_geometry(args,out):
     geometry=c.geometry_for_script(script,layout.get('page_rows'))
     inset=args.inset if getattr(args,'inset',None) is not None else rv.INSET_PX
     painted=partly=bleeds=clearance=heads=keeps=voices=None
+    coverage={}
     if getattr(args,'draw',False):
         if getattr(args,'inset',None) is not None:raise AutoGeometryError('--inset does not apply with --draw')
         from PIL import Image
@@ -610,6 +624,7 @@ def auto_geometry(args,out):
         painted=plan['painted'];inset=None
         partly=plan['partly_covered'];bleeds=plan['bleeds'];clearance=plan['face_clearance'];heads=plan['head_zones']
         keeps=plan['keep_overlaps'];voices=plan['edge_voice_no_tail']
+        coverage={'keep_coverage':keep_coverage([reserve['rect'] for reserve in plan['reserves']],keep,plan['visible_rect'])}
     else:
         if getattr(args,'tails',None):raise AutoGeometryError('--tails needs --draw')
         if getattr(args,'faces',None):raise AutoGeometryError('--faces needs --draw')
@@ -632,7 +647,7 @@ def auto_geometry(args,out):
     return {'geometry_out':str(args.geometry_out),'panel':panel['id'],'frame':str(frame),
             'visible_rect':found['visible_rect'],'inset_px':inset,'reserves':found['reserves'],
             'draw':painted is not None,'painted':painted,'partly_covered':partly,'bleeds':bleeds,
-            'face_clearance':clearance,'head_zones':heads,'keep_overlaps':keeps,'edge_voice_no_tail':voices,
+            'face_clearance':clearance,'head_zones':heads,'keep_overlaps':keeps,**coverage,'edge_voice_no_tail':voices,
             'tightest_ink_margin_pt':min((min(m['ink_margins_pt'].values()) for m in measurements),default=None),
             'minimum_light_fraction':pixels['minimum_light_fraction']}
 
@@ -725,16 +740,20 @@ def fit_inputs(out,manifest,decisions=None,faces_dir=None,face_scale=FACE_SCALE,
     return {'frames':frames,'faces':faces,'painted':painted,'keep':keep,'sources':sources,'stems':stems}
 
 
-def drawn_fits(row,panel,slot,tails,faces,script):
+def drawn_fits(row,panel,slot,tails,faces,script,keep_max=None):
     """Whether the drawn-balloon planner places `panel`'s copy in `slot` and the fit check passes.
 
     This is auto-geometry's own plan, fit measurement and pixel audit, without writing a file.
     `row` holds the frame's id, path, width and height, and optionally "keep", the panel's keep zones in source pixels.
+    With `keep_max`, no zone's visible area may be covered beyond that share by the placed boxes.
     """
     from types import SimpleNamespace
     geometry={'pages':{str(panel['page']):[slot]}}
     try:plan=drawn_geometry(Path(row['path']),panel['copy'],slot,tails,faces,keep=row.get('keep'))
     except AutoGeometryError:return False
+    if keep_max is not None and row.get('keep'):
+        shares=keep_coverage([reserve['rect'] for reserve in plan['reserves']],row['keep'],plan['visible_rect'])
+        if any(share>keep_max for share in shares):return False
     found=dict(row);found.update({'visible_rect':plan['visible_rect'],'reserves':plan['reserves']})
     try:
         measured=c.copy_fit_measurements([found],script,geometry,SimpleNamespace(B=SimpleNamespace(measure=c.measure)),
@@ -752,8 +771,8 @@ PROBE_ROUNDS=6
 class SlotProbe:
     """Asks the planner whether a panel's copy can be placed at a row height. Answers are cached."""
 
-    def __init__(self,script,inputs,tails_dir):
-        self.script=script
+    def __init__(self,script,inputs,tails_dir,keep_max=None):
+        self.script=script;self.keep_max=keep_max
         self.panels={p['id']:p for page in script['pages'].values() for p in page['panels']}
         self.frames=inputs['frames'];self.faces=inputs['faces'];self.keep=inputs.get('keep') or {};self.cache={};self.calls=0;self.tails={}
         for panel_id,stem in inputs['stems'].items():
@@ -774,7 +793,8 @@ class SlotProbe:
             faces=parse_faces([{'x':x,'y':y,'r':radius} for x,y,radius in self.faces.get(panel_id,[])],
                               frame['width'],frame['height'])
             slot={'id':panel_id,'rect_pt':[c.ART_X_PT,c.ART_Y_PT,width_pt,height_pt]}
-            self.cache[key]=drawn_fits(row,panel,slot,tails,faces,self.script)
+            options={} if self.keep_max is None else {'keep_max':self.keep_max}
+            self.cache[key]=drawn_fits(row,panel,slot,tails,faces,self.script,**options)
         return self.cache[key]
 
     def first_fit(self,panel_id,width_pt,low_pt,high_pt,step_pt=PROBE_STEP_PT):
@@ -793,7 +813,7 @@ class SlotProbe:
         return None
 
 
-def probe_fit(lf,script,prior,inputs,tails_dir,margin,step_pt=PROBE_STEP_PT,probe=None,minimums=None):
+def probe_fit(lf,script,prior,inputs,tails_dir,margin,step_pt=PROBE_STEP_PT,probe=None,minimums=None,keep_max=None):
     """Fit with planner-proved floors: each row is given at least the height its panels need, then verified.
 
     Each probed panel is scanned upward from its row's lower bound, in `step_pt` steps, for the first
@@ -805,7 +825,7 @@ def probe_fit(lf,script,prior,inputs,tails_dir,margin,step_pt=PROBE_STEP_PT,prob
     layout_fit.fit_layout gives the row at least that. `probe` is a SlotProbe to reuse, so that fits of
     several candidate structures share the planner's answers (its `calls` then counts all of them).
     """
-    probe=probe or SlotProbe(script,inputs,tails_dir)
+    probe=probe or SlotProbe(script,inputs,tails_dir,keep_max=keep_max)
     minimums=minimums or {}
     layout=lf.structure(script,prior)
     rows=[(page,row) for page,rows_ in layout.items() for row in rows_]
@@ -849,16 +869,17 @@ def probe_fit(lf,script,prior,inputs,tails_dir,margin,step_pt=PROBE_STEP_PT,prob
     return fitted
 
 
-def _structure_page(page_no,page,prior,inputs,tails_dir,margin,unpainted):
+def _structure_page(page_no,page,prior,inputs,tails_dir,margin,unpainted,keep_max=None):
     """Spawn worker: return one page's rows, structure report, probe reports and total planner calls."""
     import layout_fit as lf
     global UNPAINTED
     UNPAINTED=unpainted
     script={'pages':{page_no:page}}
-    probe=SlotProbe(script,inputs,tails_dir);probed={}
+    probe=SlotProbe(script,inputs,tails_dir,keep_max=keep_max);probed={}
 
     def refine(page_no,page,entry,minimums):
-        fitted=probe_fit(lf,{'pages':{page_no:page}},{page_no:entry},inputs,tails_dir,margin,probe=probe,minimums=minimums)
+        fitted=probe_fit(lf,{'pages':{page_no:page}},{page_no:entry},inputs,tails_dir,margin,probe=probe,minimums=minimums,
+                         keep_max=keep_max)
         sizes=tuple(len(row) if isinstance(row,list) else 1 for row in fitted['page_rows'][page_no])
         probed[(page_no,sizes)]=fitted['report']['probe']
         return fitted,all(fitted['report']['probe']['verified'].values())
@@ -868,7 +889,7 @@ def _structure_page(page_no,page,prior,inputs,tails_dir,margin,unpainted):
     return fitted['page_rows'][page_no],fitted['report']['pages'][page_no],probed,probe.calls
 
 
-def structure_fit(lf,script,prior,inputs,tails_dir,margin,probing,jobs=1):
+def structure_fit(lf,script,prior,inputs,tails_dir,margin,probing,jobs=1,keep_max=None):
     """fit-layout --structures: choose each page's rows (which panels share a row) as well as their heights.
 
     With `probing`, the planner is asked about the top candidates of each page (layout_fit.PROBE_TOP): each is
@@ -885,17 +906,18 @@ def structure_fit(lf,script,prior,inputs,tails_dir,margin,probing,jobs=1):
             with concurrent.futures.ProcessPoolExecutor(max_workers=min(jobs,len(script['pages'])),
                                                        mp_context=multiprocessing.get_context('spawn')) as pool:
                 futures=[(str(page_no),pool.submit(_structure_page,str(page_no),page,(prior or {}).get(str(page_no)),
-                                                   inputs,tails_dir,margin,UNPAINTED))
+                                                   inputs,tails_dir,margin,UNPAINTED,keep_max))
                          for page_no,page in script['pages'].items()]
                 for page_no,future in futures:
                     page_rows[page_no],pages[page_no],found,calls=future.result()
                     probed.update(found);planner_calls+=calls
         fitted=lf.assemble_structures(page_rows,pages,margin,lf.PROBE_TOP)
     else:
-        probe=SlotProbe(script,inputs,tails_dir);probed={}
+        probe=SlotProbe(script,inputs,tails_dir,keep_max=keep_max);probed={}
 
         def refine(page_no,page,entry,minimums):
-            fitted=probe_fit(lf,{'pages':{page_no:page}},{page_no:entry},inputs,tails_dir,margin,probe=probe,minimums=minimums)
+            fitted=probe_fit(lf,{'pages':{page_no:page}},{page_no:entry},inputs,tails_dir,margin,probe=probe,minimums=minimums,
+                             keep_max=keep_max)
             sizes=tuple(len(row) if isinstance(row,list) else 1 for row in fitted['page_rows'][page_no])
             probed[(page_no,sizes)]=fitted['report']['probe']
             return fitted,all(fitted['report']['probe']['verified'].values())
@@ -929,15 +951,18 @@ def fit_layout_command(args,out):
     if args.probe and args.faces_dir is None:
         raise LayoutFitError('--probe needs --faces-dir, which holds each frame\'s <stem>-tails.json and -faces.json')
     inputs=fit_inputs(out,args.manifest,args.decisions,args.faces_dir,face_scale,script)
-    if args.structures:fitted=structure_fit(lf,script,prior,inputs,args.faces_dir,margin,args.probe,jobs=args.jobs)
-    elif args.probe:fitted=probe_fit(lf,script,prior,inputs,args.faces_dir,margin)
+    keep_max=getattr(args,'keep_max',None)
+    if args.structures:fitted=structure_fit(lf,script,prior,inputs,args.faces_dir,margin,args.probe,jobs=args.jobs,keep_max=keep_max)
+    elif args.probe:fitted=probe_fit(lf,script,prior,inputs,args.faces_dir,margin,keep_max=keep_max)
     else:fitted=lf.fit_layout(script,prior,inputs['frames'],inputs['faces'],margin=margin,painted=inputs['painted'],keep=inputs['keep'])
     source={'layout':str(args.layout),'layout_sha256':c.sha256(args.layout),'manifest':str(args.manifest),
             'margin':margin,'face_scale':face_scale}
     if args.structures:source['structures']=True
+    tolerance={} if keep_max is None else {'keep_max':keep_max}
+    source.update(tolerance)
     write_json(args.layout_out,{'page_rows':fitted['page_rows'],'fitted_from':source})
     return {'layout_out':str(args.layout_out),**fitted['report'],'face_scale':face_scale,'sources':inputs['sources'],
-            'faces':sorted(inputs['faces']),'painted':sorted(inputs['painted']),'keep':sorted(inputs['keep'])}
+            'faces':sorted(inputs['faces']),'painted':sorted(inputs['painted']),'keep':sorted(inputs['keep']),**tolerance}
 
 
 def build(args,out):
@@ -1024,6 +1049,8 @@ def main(argv=None):
     p.add_argument('--margin',type=float,help='fit-layout: usable-to-needed lettering area to aim for (default 3)')
     p.add_argument('--probe',action='store_true',
                    help='fit-layout: also ask the planner, per panel, what height places its copy (needs --faces-dir)')
+    p.add_argument('--keep-max',type=float,
+                   help='fit-layout --probe: maximum share of each visible keep zone covered by boxes (above 0, at most 1)')
     p.add_argument('--unpainted',action='store_true',
                    help='auto-geometry --draw and fit-layout: the art has no painted balloons, so no painted regions are measured or covered')
     p.add_argument('--structures',action='store_true',
@@ -1045,6 +1072,9 @@ def main(argv=None):
     if args.faces is not None and args.command!='auto-geometry':p.error('--faces applies only to auto-geometry')
     if args.keep is not None and args.command!='auto-geometry':p.error('--keep applies only to auto-geometry')
     if args.probe and args.command!='fit-layout':p.error('--probe applies only to fit-layout')
+    if args.keep_max is not None:
+        if not (args.command=='fit-layout' and args.probe):p.error('--keep-max applies only to fit-layout --probe')
+        if not (0<args.keep_max<=1):p.error('--keep-max must be above 0 and at most 1')
     if args.structures and args.command!='fit-layout':p.error('--structures applies only to fit-layout')
     if args.jobs is not None and not (args.command=='fit-layout' and args.structures and args.probe):
         p.error('--jobs applies only to fit-layout --structures --probe')

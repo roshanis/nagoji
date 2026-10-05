@@ -623,6 +623,12 @@ placed at their final height (`off_grid`, a narrow window such as the 2 percent 
 and the panels without a tails file or frame (`unprobed`). A probed floor the
 page cannot give is reported as `cannot_fit`. Probing runs the planner about 10 times per panel (226 runs, a few minutes, for chapter 4's 25 probed panels).
 
+With `fit-layout --probe`, opt in to `--keep-max F` (`0 < F <= 1`) to reject a placement when its boxes cover more
+than that share of any keep zone's visible area. It also applies with `--structures` and parallel workers. The value
+is recorded as `keep_max` in the layout's `fitted_from` and the returned report; omitting it preserves the existing
+behavior. `auto-geometry --draw` reports `keep_coverage` beside `keep_overlaps`: one fraction per keep zone, summing
+box intersections with the zone's part inside `visible_rect`, or zero if the zone has no visible part. Placement is unchanged.
+
 **Choosing the rows too: `--structures`.** Frames from the image generator are mostly 3:2, and five full-width
 rows of 3:2 art on one page cannot all span the column (the crop is limited), so many panels come out narrower than the
 column with empty bars at the sides, while two 3:2 panels side by side fill it naturally. With `--structures`, each page

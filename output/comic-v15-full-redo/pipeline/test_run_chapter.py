@@ -1168,6 +1168,18 @@ class DrawnAutoGeometryTests(PackageCase):
         self.assertEqual(result['keep_overlaps'], {'0': [0]})                # the caption must hide its painted box, and says so
         self.assertEqual(result['edge_voice_no_tail'], [])
 
+    def test_draw_reports_keep_coverage_for_each_zone(self):
+        candidate = self.candidate()
+        tails = self.write_tails({'1': [.5, .95]})
+        _, plain = self.draw(candidate, tails, 'coverage-plain.json')
+        self.assertEqual(plain['keep_coverage'], [])
+        zones = [{'x0': .1, 'y0': .08, 'x1': .2, 'y1': .15},
+                 {'x0': .4, 'y0': .7, 'x1': .45, 'y1': .8}]
+        keep = self.write_tails(zones, 'coverage-keep.json')
+        _, result = self.draw(candidate, tails, 'coverage-kept.json', '--keep', keep)
+        self.assertEqual(result['keep_coverage'], [1.0, 0.0])
+        self.assertEqual(result['keep_overlaps'], {'0': [0]})
+
     def test_a_tail_point_right_beside_the_painted_region_now_implies_a_head_it_would_cover(self):
         # Deliberately changed: this used to grow the box away from a mouth 50 px beside the painted balloon.
         # The head the mouth implies (0.09 of the frame height) is larger than that gap, so the painted balloon
@@ -1875,6 +1887,25 @@ class TailReadingGeometryTests(unittest.TestCase):
         self.assertEqual(len(r.drawn_geometry(path, copy, self.SLOT, [speaker], faces[:1])['reserves']), 1)
 
 
+class KeepCoverageTests(unittest.TestCase):
+    def test_keep_coverage_partial_overlap(self):
+        self.assertEqual(r.keep_coverage([[0, 0, 40, 50]], [[20, 10, 60, 50]], [0, 0, 100, 100]), [.5])
+
+    def test_keep_coverage_sums_boxes_inside_the_visible_part(self):
+        boxes = [[-50, 0, 20, 100], [40, 0, 80, 100]]
+        zones = [[-100, -100, 100, 200], [40, 20, 80, 60]]
+        visible = [0, 0, 100, 100]
+        before = json.dumps([boxes, zones, visible])
+        self.assertEqual(r.keep_coverage(boxes, zones, visible), [.6, 1.0])
+        self.assertEqual(json.dumps([boxes, zones, visible]), before)
+        self.assertEqual(r.keep_coverage([], zones, visible), [0.0, 0.0])
+
+    def test_keep_coverage_zones_without_a_visible_part_are_zero(self):
+        zones = [[120, 0, 150, 100], [-20, 0, 0, 100], [0, -20, 100, 0]]
+        self.assertEqual(r.keep_coverage([[-50, -50, 200, 200]], zones, [0, 0, 100, 100]), [0.0, 0.0, 0.0])
+        self.assertEqual(r.keep_coverage([], [], [0, 0, 100, 100]), [])
+
+
 class KeepZoneGeometryTests(unittest.TestCase):
     """Keep zones (a gripping hand, a prop) are held in the cover crop exactly as faces are, and are soft obstacles to boxes."""
 
@@ -2496,6 +2527,74 @@ class FitLayoutCommandTests(PackageCase):
         (folder / f'{PANEL}-v01-tails.json').write_text(json.dumps({'1': [.5, .95]}))
         return folder
 
+    def test_slot_probe_rejects_excess_keep_coverage_only_when_enabled(self):
+        folder = self.probe_folder()
+        script = r.lettered_script(self.script)
+        inputs = r.fit_inputs(self.pkg, self.manifest(), None, folder, 1.0, script)
+        panel = script['pages']['1']['panels'][0]
+        slot = {'id': PANEL, 'rect_pt': [r.c.ART_X_PT, r.c.ART_Y_PT, 369, 300]}
+        plan = r.drawn_geometry(Path(inputs['frames'][PANEL]['path']), panel['copy'], slot,
+                                [None, (1200.0, 950.0)], [])
+        x0, y0, x1, y1 = plan['reserves'][0]['rect']
+        inputs['keep'] = {PANEL: [[x0 / 2400, y0 / 1000, x1 / 2400, y1 / 1000]]}
+        with mock.patch.object(r, 'drawn_geometry', return_value=plan):
+            self.assertTrue(r.SlotProbe(script, inputs, folder).fits(PANEL, 369, 300))
+            self.assertTrue(r.SlotProbe(script, inputs, folder, keep_max=None).fits(PANEL, 369, 300))
+            self.assertFalse(r.SlotProbe(script, inputs, folder, keep_max=.5).fits(PANEL, 369, 300))
+            self.assertTrue(r.SlotProbe(script, inputs, folder, keep_max=1.0).fits(PANEL, 369, 300))
+            inputs['keep'] = {}
+            self.assertTrue(r.SlotProbe(script, inputs, folder, keep_max=.5).fits(PANEL, 369, 300))
+
+    def test_keep_max_requires_fit_layout_with_probe(self):
+        for argv in (('fit-layout',), ('fit-layout', '--structures'), ('next-job',)):
+            stderr = io.StringIO()
+            with self.subTest(argv=argv), contextlib.redirect_stderr(stderr), self.assertRaises(SystemExit) as caught:
+                self.run_cli(*argv, '--keep-max', '.25')
+            self.assertEqual(caught.exception.code, 2)
+            self.assertIn('--keep-max applies only to fit-layout --probe', stderr.getvalue())
+
+    def test_keep_max_refuses_values_outside_zero_to_one(self):
+        for value in ('0', '-.1', '1.01', 'nan', 'inf'):
+            stderr = io.StringIO()
+            with self.subTest(value=value), contextlib.redirect_stderr(stderr), self.assertRaises(SystemExit) as caught:
+                self.run_cli('fit-layout', '--probe', '--keep-max', value)
+            self.assertEqual(caught.exception.code, 2)
+            self.assertIn('--keep-max must be above 0 and at most 1', stderr.getvalue())
+        for value in ('.001', '1'):
+            with mock.patch.object(r, 'fit_layout_command', return_value={}) as fit:
+                self.run_cli('fit-layout', '--probe', '--keep-max', value)
+            self.assertEqual(fit.call_args.args[0].keep_max, float(value))
+
+    def test_keep_max_is_used_and_recorded_by_both_probe_modes(self):
+        folder = self.probe_folder()
+        seen = []
+
+        def placed(row, panel, slot, tails, faces, script, keep_max=None):
+            seen.append(keep_max)
+            return keep_max == .25
+
+        for mode, extra in (('rows', ()), ('structures', ('--structures',))):
+            self.layout_out = self.root / f'keep-max-{mode}.json'
+            seen.clear()
+            with self.subTest(mode=mode):
+                with mock.patch.object(r, 'drawn_fits', side_effect=placed):
+                    result = self.fit('--faces-dir', str(folder), '--probe', '--keep-max', '.25', *extra)
+                self.assertEqual(result['keep_max'], .25)
+                self.assertEqual(json.loads(self.layout_out.read_text())['fitted_from']['keep_max'], .25)
+                self.assertEqual(result['probe']['verified'], {PANEL: True})
+                self.assertTrue(seen)
+                self.assertEqual(set(seen), {.25})
+
+    def test_keep_max_omitted_preserves_default_reports(self):
+        folder = self.probe_folder()
+        for mode, extra in (('ratio', ()), ('rows', ('--probe',)), ('structures', ('--probe', '--structures'))):
+            self.layout_out = self.root / f'default-{mode}.json'
+            with self.subTest(mode=mode), mock.patch.object(r, 'drawn_fits', return_value=True) as fits:
+                result = self.fit('--faces-dir', str(folder), *extra)
+            self.assertNotIn('keep_max', result)
+            self.assertNotIn('keep_max', json.loads(self.layout_out.read_text())['fitted_from'])
+            self.assertTrue(all('keep_max' not in call.kwargs for call in fits.call_args_list))
+
     def auto_draw(self, layout, name):
         folder = self.root / 'geometry'
         return self.run_cli('auto-geometry', '--candidate', str(self.candidate_path()), '--geometry-out',
@@ -2766,6 +2865,22 @@ class FitLayoutCommandTests(PackageCase):
                 errors.append(str(caught.exception))
         if len(errors) == 2:
             self.assertEqual(errors[0], errors[1])
+
+    def test_structures_keep_max_parallel_matches_serial_and_rejects_coverage(self):
+        import layout_fit as lf
+        script, prior, manifest, folder = self.parallel_fixture()
+        (folder / 'parallel-keep.json').write_text(json.dumps([{'x0': 0, 'y0': 0, 'x1': 1, 'y1': 1}]))
+        with mock.patch.object(r, 'UNPAINTED', True):
+            inputs = r.fit_inputs(self.pkg, manifest, None, folder, 1.0, script)
+            plain = r.structure_fit(lf, script, prior, inputs, folder, 3.0, True, jobs=1)
+            serial = r.structure_fit(lf, script, prior, inputs, folder, 3.0, True, jobs=1, keep_max=.0001)
+            parallel = r.structure_fit(lf, script, prior, inputs, folder, 3.0, True, jobs=2, keep_max=.0001)
+        self.assertTrue(all(plain['report']['probe']['verified'].values()))
+        self.assertEqual(serial['report']['probe']['verified'], {'page-02-panel-01': False, PANEL: False})
+        self.assertEqual(serial['report']['probe']['unplaceable'], [PANEL, 'page-02-panel-01'])
+        self.assertGreater(serial['report']['probe']['planner_calls'], 0)
+        self.assertEqual(list(parallel['page_rows']), ['2', '1'])
+        self.assertEqual(serial, parallel)
 
     def test_jobs_requires_fit_layout_with_structures_and_probe(self):
         for argv in (('fit-layout',), ('fit-layout', '--structures'), ('fit-layout', '--probe'), ('next-job',)):
