@@ -1,0 +1,175 @@
+test_keep_coverage_partial_overlap (test_run_chapter.KeepCoverageTests.test_keep_coverage_partial_overlap) ... ERROR
+test_keep_coverage_sums_boxes_inside_the_visible_part (test_run_chapter.KeepCoverageTests.test_keep_coverage_sums_boxes_inside_the_visible_part) ... ERROR
+test_keep_coverage_zones_without_a_visible_part_are_zero (test_run_chapter.KeepCoverageTests.test_keep_coverage_zones_without_a_visible_part_are_zero) ... ERROR
+test_draw_reports_keep_coverage_for_each_zone (test_run_chapter.DrawnAutoGeometryTests.test_draw_reports_keep_coverage_for_each_zone) ... ERROR
+test_slot_probe_rejects_excess_keep_coverage_only_when_enabled (test_run_chapter.FitLayoutCommandTests.test_slot_probe_rejects_excess_keep_coverage_only_when_enabled) ... ERROR
+test_keep_max_requires_fit_layout_with_probe (test_run_chapter.FitLayoutCommandTests.test_keep_max_requires_fit_layout_with_probe) ... FAIL
+test_keep_max_refuses_values_outside_zero_to_one (test_run_chapter.FitLayoutCommandTests.test_keep_max_refuses_values_outside_zero_to_one) ... FAIL
+test_keep_max_is_used_and_recorded_by_both_probe_modes (test_run_chapter.FitLayoutCommandTests.test_keep_max_is_used_and_recorded_by_both_probe_modes) ... usage: python -m unittest [-h] [--reason REASON] [--allow-lettering] --chapter
+                          CHAPTER [--cast-overrides CAST_OVERRIDES]
+                          [--art-direction ART_DIRECTION] [--allow-draft]
+                          [--frame-id FRAME_ID] [--generated GENERATED]
+                          [--from-package FROM_PACKAGE] [--source SOURCE]
+                          [--candidate CANDIDATE] [--geometry GEOMETRY]
+                          [--reviewer REVIEWER] [--review-note REVIEW_NOTE]
+                          [--manifest MANIFEST] [--layout LAYOUT]
+                          [--revision REVISION] [--first-folio FIRST_FOLIO]
+                          [--upscale-python UPSCALE_PYTHON]
+                          [--upscale-script UPSCALE_SCRIPT]
+                          [--package-dir PACKAGE_DIR]
+                          [--geometry-out GEOMETRY_OUT] [--prompt PROMPT]
+                          [--moderated] [--inset INSET] [--draw]
+                          [--tails TAILS] [--styles STYLES] [--faces FACES]
+                          [--keep KEEP] [--layout-out LAYOUT_OUT]
+                          [--decisions DECISIONS] [--faces-dir FACES_DIR]
+                          [--face-scale FACE_SCALE] [--margin MARGIN]
+                          [--probe] [--unpainted] [--structures] [--jobs JOBS]
+                          {prepare,next-job,capture,import-frame,select,build,verify,auto-geometry,fit-layout,accept-script-revision}
+python -m unittest: error: unrecognized arguments: --keep-max .25
+
+  test_keep_max_is_used_and_recorded_by_both_probe_modes (test_run_chapter.FitLayoutCommandTests.test_keep_max_is_used_and_recorded_by_both_probe_modes) (mode='rows') ... ERROR
+usage: python -m unittest [-h] [--reason REASON] [--allow-lettering] --chapter
+                          CHAPTER [--cast-overrides CAST_OVERRIDES]
+                          [--art-direction ART_DIRECTION] [--allow-draft]
+                          [--frame-id FRAME_ID] [--generated GENERATED]
+                          [--from-package FROM_PACKAGE] [--source SOURCE]
+                          [--candidate CANDIDATE] [--geometry GEOMETRY]
+                          [--reviewer REVIEWER] [--review-note REVIEW_NOTE]
+                          [--manifest MANIFEST] [--layout LAYOUT]
+                          [--revision REVISION] [--first-folio FIRST_FOLIO]
+                          [--upscale-python UPSCALE_PYTHON]
+                          [--upscale-script UPSCALE_SCRIPT]
+                          [--package-dir PACKAGE_DIR]
+                          [--geometry-out GEOMETRY_OUT] [--prompt PROMPT]
+                          [--moderated] [--inset INSET] [--draw]
+                          [--tails TAILS] [--styles STYLES] [--faces FACES]
+                          [--keep KEEP] [--layout-out LAYOUT_OUT]
+                          [--decisions DECISIONS] [--faces-dir FACES_DIR]
+                          [--face-scale FACE_SCALE] [--margin MARGIN]
+                          [--probe] [--unpainted] [--structures] [--jobs JOBS]
+                          {prepare,next-job,capture,import-frame,select,build,verify,auto-geometry,fit-layout,accept-script-revision}
+python -m unittest: error: unrecognized arguments: --keep-max .25
+  test_keep_max_is_used_and_recorded_by_both_probe_modes (test_run_chapter.FitLayoutCommandTests.test_keep_max_is_used_and_recorded_by_both_probe_modes) (mode='structures') ... ERROR
+test_keep_max_omitted_preserves_default_reports (test_run_chapter.FitLayoutCommandTests.test_keep_max_omitted_preserves_default_reports) ... ok
+test_structures_keep_max_parallel_matches_serial_and_rejects_coverage (test_run_chapter.FitLayoutCommandTests.test_structures_keep_max_parallel_matches_serial_and_rejects_coverage) ... ERROR
+
+======================================================================
+ERROR: test_keep_coverage_partial_overlap (test_run_chapter.KeepCoverageTests.test_keep_coverage_partial_overlap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 1892, in test_keep_coverage_partial_overlap
+    self.assertEqual(r.keep_coverage([[0, 0, 40, 50]], [[20, 10, 60, 50]], [0, 0, 100, 100]), [.5])
+                     ^^^^^^^^^^^^^^^
+AttributeError: module 'run_chapter' has no attribute 'keep_coverage'
+
+======================================================================
+ERROR: test_keep_coverage_sums_boxes_inside_the_visible_part (test_run_chapter.KeepCoverageTests.test_keep_coverage_sums_boxes_inside_the_visible_part)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 1899, in test_keep_coverage_sums_boxes_inside_the_visible_part
+    self.assertEqual(r.keep_coverage(boxes, zones, visible), [.6, 1.0])
+                     ^^^^^^^^^^^^^^^
+AttributeError: module 'run_chapter' has no attribute 'keep_coverage'
+
+======================================================================
+ERROR: test_keep_coverage_zones_without_a_visible_part_are_zero (test_run_chapter.KeepCoverageTests.test_keep_coverage_zones_without_a_visible_part_are_zero)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 1905, in test_keep_coverage_zones_without_a_visible_part_are_zero
+    self.assertEqual(r.keep_coverage([[-50, -50, 200, 200]], zones, [0, 0, 100, 100]), [0.0, 0.0, 0.0])
+                     ^^^^^^^^^^^^^^^
+AttributeError: module 'run_chapter' has no attribute 'keep_coverage'
+
+======================================================================
+ERROR: test_draw_reports_keep_coverage_for_each_zone (test_run_chapter.DrawnAutoGeometryTests.test_draw_reports_keep_coverage_for_each_zone)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 1175, in test_draw_reports_keep_coverage_for_each_zone
+    self.assertEqual(plain['keep_coverage'], [])
+                     ~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'keep_coverage'
+
+======================================================================
+ERROR: test_slot_probe_rejects_excess_keep_coverage_only_when_enabled (test_run_chapter.FitLayoutCommandTests.test_slot_probe_rejects_excess_keep_coverage_only_when_enabled)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 2542, in test_slot_probe_rejects_excess_keep_coverage_only_when_enabled
+    self.assertTrue(r.SlotProbe(script, inputs, folder, keep_max=None).fits(PANEL, 369, 300))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SlotProbe.__init__() got an unexpected keyword argument 'keep_max'
+
+======================================================================
+ERROR: test_keep_max_is_used_and_recorded_by_both_probe_modes (test_run_chapter.FitLayoutCommandTests.test_keep_max_is_used_and_recorded_by_both_probe_modes) (mode='rows')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 2581, in test_keep_max_is_used_and_recorded_by_both_probe_modes
+    result = self.fit('--faces-dir', str(folder), '--probe', '--keep-max', '.25', *extra)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 2320, in fit
+    return self.run_cli('fit-layout', '--manifest', str(manifest or self.manifest()), '--layout', str(self.prior),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 144, in run_cli
+    r.main([argv[0], '--chapter', chapter, '--package-dir', str(self.pkg), *argv[1:]])
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/run_chapter.py", line 1033, in main
+    args=p.parse_args(argv)
+         ^^^^^^^^^^^^^^^^^^
+  File "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/argparse.py", line 1908, in parse_args
+    self.error(msg)
+  File "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/argparse.py", line 2650, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/argparse.py", line 2637, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+======================================================================
+ERROR: test_keep_max_is_used_and_recorded_by_both_probe_modes (test_run_chapter.FitLayoutCommandTests.test_keep_max_is_used_and_recorded_by_both_probe_modes) (mode='structures')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 2581, in test_keep_max_is_used_and_recorded_by_both_probe_modes
+    result = self.fit('--faces-dir', str(folder), '--probe', '--keep-max', '.25', *extra)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 2320, in fit
+    return self.run_cli('fit-layout', '--manifest', str(manifest or self.manifest()), '--layout', str(self.prior),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 144, in run_cli
+    r.main([argv[0], '--chapter', chapter, '--package-dir', str(self.pkg), *argv[1:]])
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/run_chapter.py", line 1033, in main
+    args=p.parse_args(argv)
+         ^^^^^^^^^^^^^^^^^^
+  File "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/argparse.py", line 1908, in parse_args
+    self.error(msg)
+  File "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/argparse.py", line 2650, in error
+    self.exit(2, _('%(prog)s: error: %(message)s\n') % args)
+  File "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/argparse.py", line 2637, in exit
+    _sys.exit(status)
+SystemExit: 2
+
+======================================================================
+ERROR: test_structures_keep_max_parallel_matches_serial_and_rejects_coverage (test_run_chapter.FitLayoutCommandTests.test_structures_keep_max_parallel_matches_serial_and_rejects_coverage)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 2876, in test_structures_keep_max_parallel_matches_serial_and_rejects_coverage
+    serial = r.structure_fit(lf, script, prior, inputs, folder, 3.0, True, jobs=1, keep_max=.0001)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: structure_fit() got an unexpected keyword argument 'keep_max'
+
+======================================================================
+FAIL: test_keep_max_requires_fit_layout_with_probe (test_run_chapter.FitLayoutCommandTests.test_keep_max_requires_fit_layout_with_probe)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 2554, in test_keep_max_requires_fit_layout_with_probe
+    self.assertIn('--keep-max applies only to fit-layout --probe', stderr.getvalue())
+AssertionError: '--keep-max applies only to fit-layout --probe' not found in 'usage: python -m unittest [-h] [--reason REASON] [--allow-lettering] --chapter\n                          CHAPTER [--cast-overrides CAST_OVERRIDES]\n                          [--art-direction ART_DIRECTION] [--allow-draft]\n                          [--frame-id FRAME_ID] [--generated GENERATED]\n                          [--from-package FROM_PACKAGE] [--source SOURCE]\n                          [--candidate CANDIDATE] [--geometry GEOMETRY]\n                          [--reviewer REVIEWER] [--review-note REVIEW_NOTE]\n                          [--manifest MANIFEST] [--layout LAYOUT]\n                          [--revision REVISION] [--first-folio FIRST_FOLIO]\n                          [--upscale-python UPSCALE_PYTHON]\n                          [--upscale-script UPSCALE_SCRIPT]\n                          [--package-dir PACKAGE_DIR]\n                          [--geometry-out GEOMETRY_OUT] [--prompt PROMPT]\n                          [--moderated] [--inset INSET] [--draw]\n                          [--tails TAILS] [--styles STYLES] [--faces FACES]\n                          [--keep KEEP] [--layout-out LAYOUT_OUT]\n                          [--decisions DECISIONS] [--faces-dir FACES_DIR]\n                          [--face-scale FACE_SCALE] [--margin MARGIN]\n                          [--probe] [--unpainted] [--structures] [--jobs JOBS]\n                          {prepare,next-job,capture,import-frame,select,build,verify,auto-geometry,fit-layout,accept-script-revision}\npython -m unittest: error: unrecognized arguments: --keep-max .25\n'
+
+======================================================================
+FAIL: test_keep_max_refuses_values_outside_zero_to_one (test_run_chapter.FitLayoutCommandTests.test_keep_max_refuses_values_outside_zero_to_one)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py", line 2562, in test_keep_max_refuses_values_outside_zero_to_one
+    self.assertIn('--keep-max must be above 0 and at most 1', stderr.getvalue())
+AssertionError: '--keep-max must be above 0 and at most 1' not found in 'usage: python -m unittest [-h] [--reason REASON] [--allow-lettering] --chapter\n                          CHAPTER [--cast-overrides CAST_OVERRIDES]\n                          [--art-direction ART_DIRECTION] [--allow-draft]\n                          [--frame-id FRAME_ID] [--generated GENERATED]\n                          [--from-package FROM_PACKAGE] [--source SOURCE]\n                          [--candidate CANDIDATE] [--geometry GEOMETRY]\n                          [--reviewer REVIEWER] [--review-note REVIEW_NOTE]\n                          [--manifest MANIFEST] [--layout LAYOUT]\n                          [--revision REVISION] [--first-folio FIRST_FOLIO]\n                          [--upscale-python UPSCALE_PYTHON]\n                          [--upscale-script UPSCALE_SCRIPT]\n                          [--package-dir PACKAGE_DIR]\n                          [--geometry-out GEOMETRY_OUT] [--prompt PROMPT]\n                          [--moderated] [--inset INSET] [--draw]\n                          [--tails TAILS] [--styles STYLES] [--faces FACES]\n                          [--keep KEEP] [--layout-out LAYOUT_OUT]\n                          [--decisions DECISIONS] [--faces-dir FACES_DIR]\n                          [--face-scale FACE_SCALE] [--margin MARGIN]\n                          [--probe] [--unpainted] [--structures] [--jobs JOBS]\n                          {prepare,next-job,capture,import-frame,select,build,verify,auto-geometry,fit-layout,accept-script-revision}\npython -m unittest: error: unrecognized arguments: --keep-max 0\n'
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.246s
+
+FAILED (failures=2, errors=8)

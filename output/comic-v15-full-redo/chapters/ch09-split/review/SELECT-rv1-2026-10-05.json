@@ -1,0 +1,1577 @@
+{
+  "summary": "Select candidates and mark face and keep zones for a sibling package with an explicit frames path",
+  "agentCount": 20,
+  "logs": [
+    "▸ running dynamic workflow v15-select-drawn",
+    "[v15-select-drawn] chapter 9: 10 picked, 0 need regeneration, 0 without a decision",
+    "▸ v15-select-drawn done",
+    "▸ running dynamic workflow v15-keep",
+    "▸ running dynamic workflow v15-faces2",
+    "[v15-keep] chapter 9: keep regions for 10 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 9: face zones for 10 frames, 45 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 9,
+        "decisions": [
+          {
+            "id": "page-01-panel-01",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.328,
+                "y": 0.262,
+                "r": 0.11
+              },
+              {
+                "x": 0.575,
+                "y": 0.285,
+                "r": 0.12
+              },
+              {
+                "x": 0.748,
+                "y": 0.417,
+                "r": 0.095
+              },
+              {
+                "x": 0.144,
+                "y": 0.442,
+                "r": 0.065
+              },
+              {
+                "x": 0.864,
+                "y": 0.477,
+                "r": 0.06
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The correction works. v02 changes Nagoji's horse from v01's black horse with a white blaze to a bay: red-brown coat, black mane and forelock, no blaze or star. The lower legs are cropped out of frame. The rest of the image is unchanged, and the edit added no new faults. Nagoji still has the moustache, the clean-shaven chin, the rust turban, sleeves down and boots. Ibrahim matches his sheet, and Padmini is in her cream sari with no blouse. One small flaw is in both versions: Nagoji's visible ear shows no gold stud. It is tiny at this panel width, but a retouch could add a flush gold dot to the lobe. Older composition points the correction did not touch: Nagoji rides on the viewer's left, about level with Padmini rather than slightly behind her left side, and Padmini's side-saddle seat cannot be confirmed. The caption fits easily in the open grey sky at the top right.",
+            "correction": ""
+          },
+          {
+            "id": "page-01-panel-02",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.405,
+                "y": 0.223,
+                "r": 0.045
+              },
+              {
+                "x": 0.552,
+                "y": 0.239,
+                "r": 0.042
+              },
+              {
+                "x": 0.268,
+                "y": 0.256,
+                "r": 0.038
+              },
+              {
+                "x": 0.137,
+                "y": 0.384,
+                "r": 0.025
+              },
+              {
+                "x": 0.186,
+                "y": 0.363,
+                "r": 0.025
+              },
+              {
+                "x": 0.078,
+                "y": 0.522,
+                "r": 0.045
+              },
+              {
+                "x": 0.225,
+                "y": 0.547,
+                "r": 0.048
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The correction is mostly successful but leaves one fault. v03 makes Nagoji's horse a bay: red-brown coat, black mane, tail and lower legs. v01 was black with a broad blaze. At full zoom, however, a thin faint white stripe remains on the forehead and down the face, left over from the blaze. That breaks the rule of no white markings. v03 is still clearly the less flawed version, so it stays the pick. Painting the stripe out to the bay coat colour would make it clean. The edit re-rendered the whole frame slightly but added no new faults. The children's anatomy, the women with baskets (seen from behind, no blouses), the shrine with its lamps, the lotus pond, Ibrahim, Padmini's cream sari and Nagoji's boots and sleeves all still read correctly. Nagoji's ear has a small gold bead at the lobe, the same as in v01. It reads as a stud at panel scale. The caption fits in the open sky at the top left and centre.",
+            "correction": ""
+          },
+          {
+            "id": "page-01-panel-03",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.329,
+                "y": 0.252
+              },
+              {
+                "copy_index": 1,
+                "x": 0.672,
+                "y": 0.223
+              },
+              {
+                "copy_index": 2,
+                "x": 0.672,
+                "y": 0.223
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.312,
+                "y": 0.21,
+                "r": 0.11
+              },
+              {
+                "x": 0.7,
+                "y": 0.19,
+                "r": 0.11
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The correction works. v02 changes Nagoji's horse from v01's near-black horse with a white blaze to a bay: red-brown coat and black mane, with no blaze, star or snip, even at full zoom. The changes stay on the horse and add no new faults. Nagoji matches his sheet: rust turban, a tiny flush gold stud, a thick curled moustache, a clean-shaven chin, sleeves to the wrist, the red sash, a talwar and boots. Padmini wears the cream sari in the old drape with no blouse, gold at her throat and wrists, the stick strapped along the saddle and the sword at her side. She looks ahead without turning, as the script asks. One older point the correction did not touch: white gate pillars stand behind the riders, although 1.2 already has them out on the road. Read it as a second gate. The three balloons fit in the open sky between and above the two heads, and the empty road in the centre gives more room.",
+            "correction": ""
+          },
+          {
+            "id": "page-02-panel-01",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.831,
+                "y": 0.435
+              },
+              {
+                "copy_index": 1,
+                "x": 0.831,
+                "y": 0.435
+              },
+              {
+                "copy_index": 2,
+                "x": 0.421,
+                "y": 0.229
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.151,
+                "y": 0.176,
+                "r": 0.098
+              },
+              {
+                "x": 0.392,
+                "y": 0.2,
+                "r": 0.088
+              },
+              {
+                "x": 0.84,
+                "y": 0.361,
+                "r": 0.093
+              },
+              {
+                "x": 0.663,
+                "y": 0.576,
+                "r": 0.025
+              },
+              {
+                "x": 0.802,
+                "y": 0.576,
+                "r": 0.025
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The correction works. Nagoji's horse is now Kayal: a red-brown bay with a black mane and no white markings. Its lower legs are out of frame. The edit swapped the coats, so Padmini's horse is now black with a white blaze. That matches her black horse with a star in 2.2, so page 2 is now consistent. It still differs from page 1, where Padmini rides a brown horse with a blaze. Padmini's mount is not locked in the bible, so this is minor. Nagoji is unchanged: tiny flush gold stud with nothing hanging, clean-shaven chin, sleeves down, plain brown boots. Padmini wears the cream sari with no blouse. The guard bows toward the riders. There is no text or anachronism, and open sky at upper centre for the guard's and Padmini's balloons. v01 is not acceptable because Nagoji rides a black horse with a blaze.",
+            "correction": ""
+          },
+          {
+            "id": "page-02-panel-02",
+            "pick": "v02",
+            "backup": "v01",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.531,
+                "y": 0.376
+              },
+              {
+                "copy_index": 1,
+                "x": 0.531,
+                "y": 0.376
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.531,
+                "y": 0.376
+              },
+              {
+                "copy_index": 1,
+                "x": 0.531,
+                "y": 0.376
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.231,
+                "y": 0.137,
+                "r": 0.093
+              },
+              {
+                "x": 0.492,
+                "y": 0.342,
+                "r": 0.073
+              },
+              {
+                "x": 0.874,
+                "y": 0.51,
+                "r": 0.04
+              },
+              {
+                "x": 0.951,
+                "y": 0.479,
+                "r": 0.04
+              },
+              {
+                "x": 0.345,
+                "y": 0.42,
+                "r": 0.016
+              },
+              {
+                "x": 0.378,
+                "y": 0.41,
+                "r": 0.016
+              },
+              {
+                "x": 0.405,
+                "y": 0.384,
+                "r": 0.018
+              },
+              {
+                "x": 0.602,
+                "y": 0.376,
+                "r": 0.016
+              },
+              {
+                "x": 0.628,
+                "y": 0.379,
+                "r": 0.016
+              },
+              {
+                "x": 0.674,
+                "y": 0.381,
+                "r": 0.016
+              },
+              {
+                "x": 0.691,
+                "y": 0.405,
+                "r": 0.016
+              },
+              {
+                "x": 0.872,
+                "y": 0.352,
+                "r": 0.018
+              },
+              {
+                "x": 0.892,
+                "y": 0.327,
+                "r": 0.018
+              },
+              {
+                "x": 0.977,
+                "y": 0.303,
+                "r": 0.02
+              },
+              {
+                "x": 0.973,
+                "y": 0.366,
+                "r": 0.02
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.231,
+                "y": 0.137,
+                "r": 0.093
+              },
+              {
+                "x": 0.492,
+                "y": 0.342,
+                "r": 0.073
+              },
+              {
+                "x": 0.874,
+                "y": 0.51,
+                "r": 0.04
+              },
+              {
+                "x": 0.951,
+                "y": 0.479,
+                "r": 0.04
+              }
+            ],
+            "issues": "The correction works and adds no new fault. Nagoji's horse on the left is now a red-brown bay much closer to Kayal's sheet: black mane, no white markings on the visible head, lower legs out of frame. In v01 it was a duller dark brown. Nothing else changed. The black horse with a small star is Padmini's: she stands beside it with her hand on its saddle, matching her mount in 2.1 v02. The black horse's lowered head is steeply foreshortened but readable, as accepted before. Nagoji is half-dismounted in period wrapped boots, with a flush gold stud, clean-shaven chin and sleeves down. Padmini holds her stick and wears the cream sari with no blouse. The clerk with palm leaves and stylus and the swordsman match the script. There is no text. Padmini's balloons go on the roof tiles and sky above her (upper centre).",
+            "correction": ""
+          },
+          {
+            "id": "page-02-panel-04",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.643,
+                "y": 0.329
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.387,
+                "y": 0.244,
+                "r": 0.098
+              },
+              {
+                "x": 0.671,
+                "y": 0.293,
+                "r": 0.083
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The correction fixes the boots. v01 had modern lace-up boots with eyelets, laces and lug-type soles. In v02 they are soft brown mid-calf boots bound with wrapped leather thongs, with no eyelets or laces and thin flat soles, matching his sheet. They stand side by side on the stone ledge by the step. The edit touched only the boots. Nagoji is barefoot and cross-legged with a tiny flush gold stud, clean-shaven chin and sleeves down. Padmini wears the cream drape with no blouse, her stick laid along the mat. Lamplit drummer shadows show through the inner doorway. Small existing quirks carried over from v01: a second brass tumbler on the mat, and a bindi on Padmini not seen in 2.1 or 2.2. The plain white wall at upper centre takes Padmini's balloon, and the sky at upper left or the stone step at the bottom takes the caption. v01 is not acceptable because of the modern boots.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-03",
+            "pick": "v02",
+            "backup": "v01",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.636,
+                "y": 0.464
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.636,
+                "y": 0.464
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.168,
+                "y": 0.083,
+                "r": 0.075
+              },
+              {
+                "x": 0.372,
+                "y": 0.418,
+                "r": 0.062
+              },
+              {
+                "x": 0.661,
+                "y": 0.44,
+                "r": 0.07
+              },
+              {
+                "x": 0.911,
+                "y": 0.513,
+                "r": 0.08
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.168,
+                "y": 0.083,
+                "r": 0.075
+              },
+              {
+                "x": 0.372,
+                "y": 0.418,
+                "r": 0.062
+              },
+              {
+                "x": 0.661,
+                "y": 0.44,
+                "r": 0.07
+              },
+              {
+                "x": 0.911,
+                "y": 0.513,
+                "r": 0.08
+              }
+            ],
+            "issues": "The correction works. In v01 the servant wore a stitched red short-sleeved blouse under her drape. In v02 she wears a plain off-white old Kerala drape over one shoulder with bare arms and no blouse. Her hands and the brass plate placement are still sound. A pixel diff shows the edit stayed in the servant's area, apart from a small redraw of Revathi's face, which now has the sandalwood line at her hairline that the bible asks for. Nagoji is the same as in v01: tiny flush gold stud with nothing hanging, curled moustache, clean-shaven chin, sleeves down to the wrists, barefoot, talwar at his side. Padmini's cream sari and the stick across her knees are unchanged. Revathi still matches her sheet (indigo and gold, bead necklace, jasmine braid, armlets, right shoulder bare). No text, anachronism or new anatomy fault. The script beat holds: Nagoji standing at frame left, his empty mat in front of him, Revathi gesturing from her mat, and the servant setting the plate by her knee while she ignores it. Revathi's line can go on the plain cream wall at upper right or in the sky at top centre, clear of all faces.",
+            "correction": ""
+          },
+          {
+            "id": "page-09-panel-02",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.15,
+                "y": 1
+              },
+              {
+                "copy_index": 1,
+                "x": 0.15,
+                "y": 1
+              },
+              {
+                "copy_index": 2,
+                "x": 0.15,
+                "y": 1
+              }
+            ],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The correction does what it was meant to do. v01 shows plain, smooth, tall riding boots with no thongs, which is not the boot on his sheet, so it is rejected. v02 keeps everything else the same: the shot is still tight and low, the boots sit side by side on the stone verandah step, there is red earth in the courtyard beyond, the daylight matches 9.1, 9.3, 9.4 and 9.5, and there are no figures and no painted text. The boots are now soft, slouched brown leather bound with wrapped leather thongs, knotted with trailing ends. They have no eyelets, no laces and no modern soles, only a stitched welt and a low heel that suit the period. The correction introduced no new fault. One small leftover inconsistency: in 2.4 v02 and 12.1 v02 the boots are shorter, mid-calf, with thongs spiralling down the shaft. Here the shafts are a little taller and the thongs sit in one band near the top, like a garter. The material, colour and wrapped-thong idea are the same, so I think this is acceptable, but it is not an exact match. There is plenty of clear space for Revathi's three off-panel lines: the red courtyard either side of the boots, the strip of sky at the top, and the stone floor and mat along the bottom. Revathi is off-panel on the verandah behind and to the left of the camera, so the tails point to the bottom edge at lower left.",
+            "correction": ""
+          },
+          {
+            "id": "page-12-panel-01",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.288,
+                "y": 0.137
+              },
+              {
+                "copy_index": 1,
+                "x": 0.659,
+                "y": 0.187
+              },
+              {
+                "copy_index": 2,
+                "x": 0.288,
+                "y": 0.137
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.277,
+                "y": 0.11,
+                "r": 0.072
+              },
+              {
+                "x": 0.697,
+                "y": 0.156,
+                "r": 0.098
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The correction fixes every target in v01. Boots: v01's modern lace-up boots with eyelets and treaded soles are now soft brown mid-calf boots bound with criss-crossed leather thongs, with no laces or eyelets. They are in the same family as the 2.4 v02 and 9.2 v02 boots (brown, mid-calf, wrapped thongs). The 9.2 pair is a little taller and has dangling tie ends, and the welt stitching on the sole here is acceptable for the period. Arm: the RIGHT sleeve is now down to the wrist (v01 had the right forearm bare too). The LEFT sleeve is pushed above the elbow, and the inner left forearm, turned palm-forward, shows the pale ridged brand patch about a hand's width above the wrist, with no letters, and a long thin white scar running wrist to elbow beside it. In v01 the brand was a blotchy lightning-like mark. He now grips his left arm just below the rolled sleeve, which still reads as absently rubbing the forearm, though it is a touch less literal than v01. No new faults: the face, turban, moustache, clean-shaven chin, barefoot feet, talwar, Revathi, the verandah, lamplight and the lettering space (top-right sky, dark trees in the centre) are unchanged from v01. Minor shared note: the ear stud is a small gold ball sitting just under the lobe. It reads as a tiny stud at frame size, matches the sheet, and is identical in v01. Revathi's bare-shouldered drape differs from the bloused sheet but matches 12.3 to 12.5. v01 is no longer acceptable (modern boots, both forearms bare), so there is no backup.",
+            "correction": ""
+          },
+          {
+            "id": "page-12-panel-03",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.635,
+                "y": 0.346
+              },
+              {
+                "copy_index": 1,
+                "x": 0.332,
+                "y": 0.283
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.267,
+                "y": 0.21,
+                "r": 0.186
+              },
+              {
+                "x": 0.697,
+                "y": 0.312,
+                "r": 0.161
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The author-approved mirror fixes the brand side. The marked arm is now Nagoji's LEFT arm, extended palm-up across his knee. It shows the long thin white scar along the inner forearm and the pale ridged brand patch near the wrist, with no legible letters, consistent with 12.4. The mirror introduces no rendering faults. The face still has the thick curled moustache, a clean-shaven chin and a tiny flush gold stud. There is no text, and the hands are sound: his left hand is loosely curled with the nails showing naturally, and his right hand rests on his knee. Revathi's fingertips hover clear of his forearm, so nothing is touched, which keeps the page rule. Her sari end crossing the other shoulder is the known, accepted side effect. Side effects to flag for the letterer and author: (1) screen direction now flips. Revathi is on the right and Nagoji on the left here, while 12.1, 12.4 and 12.5 put Revathi on the left. (2) Revathi speaks first but sits on the right. Her balloon should go high, top-centre over the doorway (about x 0.40 to 0.65, y 0.02 to 0.10) or the top-right sky, with its tail down to her mouth. Nagoji's balloon should sit lower at top-left beside his turban (about x 0 to 0.18), so the reading order holds. Shared with v01 and with 12.2 and 12.5: his unmarked RIGHT sleeve is also rolled to the elbow. The hard check says only the left sleeve is pushed back, but this is not a new fault and shows no mark. v01 has the brand on his right arm, the defect being fixed, so it is not an acceptable backup.",
+            "correction": ""
+          }
+        ],
+        "missing": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 9,
+        "result": {
+          "chapter": 9,
+          "panels": [
+            {
+              "id": "page-01-panel-01",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.145,
+                  "y": 0.46,
+                  "r": 0.029,
+                  "who": "bare-chested rider with topknot, background left by gate"
+                },
+                {
+                  "x": 0.334,
+                  "y": 0.283,
+                  "r": 0.041,
+                  "who": "red-turbaned moustached rider, three-quarter, left of centre"
+                },
+                {
+                  "x": 0.596,
+                  "y": 0.286,
+                  "r": 0.05,
+                  "who": "woman in white-gold sari, three-quarter, centre"
+                },
+                {
+                  "x": 0.743,
+                  "y": 0.451,
+                  "r": 0.046,
+                  "who": "grey-bearded man in white turban, right of centre"
+                },
+                {
+                  "x": 0.868,
+                  "y": 0.5015,
+                  "r": 0.025,
+                  "who": "bare-chested rider with topknot, background right"
+                }
+              ]
+            },
+            {
+              "id": "page-01-panel-02",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.274,
+                  "y": 0.2685,
+                  "r": 0.0155,
+                  "who": "grey-bearded man in white turban on white horse"
+                },
+                {
+                  "x": 0.415,
+                  "y": 0.226,
+                  "r": 0.0144,
+                  "who": "red-turbaned moustached rider, centre"
+                },
+                {
+                  "x": 0.56,
+                  "y": 0.241,
+                  "r": 0.0145,
+                  "who": "woman in sari on horse, right of centre"
+                },
+                {
+                  "x": 0.186,
+                  "y": 0.372,
+                  "r": 0.0098,
+                  "who": "bare-chested rider with topknot, background left (nearer of two)"
+                },
+                {
+                  "x": 0.1405,
+                  "y": 0.387,
+                  "r": 0.0095,
+                  "who": "bearded bare-chested rider with topknot, far background left"
+                },
+                {
+                  "x": 0.12,
+                  "y": 0.525,
+                  "r": 0.0146,
+                  "who": "smiling running boy at far left"
+                },
+                {
+                  "x": 0.237,
+                  "y": 0.581,
+                  "r": 0.0176,
+                  "who": "smiling running boy, foreground left"
+                }
+              ]
+            },
+            {
+              "id": "page-01-panel-03",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.333,
+                  "y": 0.217,
+                  "r": 0.047,
+                  "who": "woman in sari with gold earrings, three-quarter, left"
+                },
+                {
+                  "x": 0.683,
+                  "y": 0.216,
+                  "r": 0.045,
+                  "who": "red-turbaned moustached man, three-quarter, right"
+                }
+              ]
+            },
+            {
+              "id": "page-02-panel-01",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.1607,
+                  "y": 0.1884,
+                  "r": 0.035,
+                  "who": "turbaned moustached rider, three-quarter, left"
+                },
+                {
+                  "x": 0.42,
+                  "y": 0.218,
+                  "r": 0.037,
+                  "who": "woman rider in white-gold sari, three-quarter, centre"
+                },
+                {
+                  "x": 0.828,
+                  "y": 0.421,
+                  "r": 0.032,
+                  "who": "bowing gate guard with topknot, profile, right"
+                },
+                {
+                  "x": 0.6657,
+                  "y": 0.5815,
+                  "r": 0.011,
+                  "who": "background spear guard, left of steps"
+                },
+                {
+                  "x": 0.8027,
+                  "y": 0.5776,
+                  "r": 0.011,
+                  "who": "background spear guard, right of steps"
+                }
+              ]
+            },
+            {
+              "id": "page-02-panel-02",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.254,
+                  "y": 0.1465,
+                  "r": 0.034,
+                  "who": "turbaned moustached rider, three-quarter, upper left"
+                },
+                {
+                  "x": 0.527,
+                  "y": 0.364,
+                  "r": 0.036,
+                  "who": "woman in white-gold sari leading horse, three-quarter, centre"
+                },
+                {
+                  "x": 0.8685,
+                  "y": 0.5195,
+                  "r": 0.019,
+                  "who": "grey-haired moustached official with ledger, right"
+                },
+                {
+                  "x": 0.9577,
+                  "y": 0.4885,
+                  "r": 0.016,
+                  "who": "young moustached man with stick, far right"
+                },
+                {
+                  "x": 0.3457,
+                  "y": 0.4243,
+                  "r": 0.0085,
+                  "who": "verandah woman in orange, far left"
+                },
+                {
+                  "x": 0.3796,
+                  "y": 0.4146,
+                  "r": 0.0085,
+                  "who": "verandah woman in white sari, left"
+                },
+                {
+                  "x": 0.4023,
+                  "y": 0.3887,
+                  "r": 0.0095,
+                  "who": "verandah woman in purple-green sari, left"
+                },
+                {
+                  "x": 0.6022,
+                  "y": 0.3848,
+                  "r": 0.009,
+                  "who": "verandah woman in green blouse, centre"
+                },
+                {
+                  "x": 0.6276,
+                  "y": 0.3838,
+                  "r": 0.008,
+                  "who": "verandah woman beside pillar, centre"
+                },
+                {
+                  "x": 0.6738,
+                  "y": 0.3867,
+                  "r": 0.009,
+                  "who": "verandah woman in pink-yellow sari, centre"
+                },
+                {
+                  "x": 0.6908,
+                  "y": 0.4111,
+                  "r": 0.0085,
+                  "who": "small verandah woman in white-pink, centre right"
+                },
+                {
+                  "x": 0.873,
+                  "y": 0.3545,
+                  "r": 0.0095,
+                  "who": "verandah woman in purple blouse, right"
+                },
+                {
+                  "x": 0.8919,
+                  "y": 0.3335,
+                  "r": 0.0095,
+                  "who": "verandah woman peeking beside banner, right"
+                },
+                {
+                  "x": 0.9727,
+                  "y": 0.309,
+                  "r": 0.0105,
+                  "who": "verandah woman in red-white, upper far right"
+                },
+                {
+                  "x": 0.9714,
+                  "y": 0.3726,
+                  "r": 0.009,
+                  "who": "verandah woman seated, lower far right"
+                },
+                {
+                  "x": 0.995,
+                  "y": 0.324,
+                  "r": 0.008,
+                  "who": "verandah woman cut by right frame edge, far right"
+                }
+              ]
+            },
+            {
+              "id": "page-02-panel-04",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.4119,
+                  "y": 0.2705,
+                  "r": 0.044,
+                  "who": "turbaned moustached man drinking, three-quarter, left of centre"
+                },
+                {
+                  "x": 0.653,
+                  "y": 0.317,
+                  "r": 0.043,
+                  "who": "smiling woman in white-gold sari, three-quarter profile, right of centre"
+                }
+              ]
+            },
+            {
+              "id": "page-04-panel-03",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.186,
+                  "y": 0.112,
+                  "r": 0.032,
+                  "who": "standing man in red turban with moustache, three-quarter right, upper left"
+                },
+                {
+                  "x": 0.399,
+                  "y": 0.436,
+                  "r": 0.032,
+                  "who": "seated older man in cream mundu, three-quarter right, centre left"
+                },
+                {
+                  "x": 0.645,
+                  "y": 0.455,
+                  "r": 0.031,
+                  "who": "woman in blue sari with jasmine braid, looking up left, centre right"
+                },
+                {
+                  "x": 0.888,
+                  "y": 0.589,
+                  "r": 0.029,
+                  "who": "serving woman in white, head bowed, setting down plate, right"
+                }
+              ]
+            },
+            {
+              "id": "page-09-panel-02",
+              "version": "v02",
+              "faces": []
+            },
+            {
+              "id": "page-12-panel-01",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.296,
+                  "y": 0.12,
+                  "r": 0.029,
+                  "who": "woman in blue sari, three-quarter, on steps at left"
+                },
+                {
+                  "x": 0.665,
+                  "y": 0.167,
+                  "r": 0.035,
+                  "who": "Nagoji, red turban, profile facing left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-12-panel-03",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.331,
+                  "y": 0.247,
+                  "r": 0.068,
+                  "who": "Nagoji, red turban, three-quarter looking down, left"
+                },
+                {
+                  "x": 0.626,
+                  "y": 0.314,
+                  "r": 0.058,
+                  "who": "woman in blue sari, three-quarter looking down-left, right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 9,
+        "result": {
+          "chapter": 9,
+          "panels": [
+            {
+              "id": "1.1",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.08,
+                  "y0": 0.12,
+                  "x1": 0.25,
+                  "y1": 0.88,
+                  "what": "estate gate (torch pillar and open gate leaf) with the first Nair relative riding out through it"
+                },
+                {
+                  "x0": 0.69,
+                  "y0": 0.48,
+                  "x1": 0.81,
+                  "y1": 0.8,
+                  "what": "Ibrahim's short coat over the vest with bulging pockets"
+                },
+                {
+                  "x0": 0.82,
+                  "y0": 0.45,
+                  "x1": 0.93,
+                  "y1": 0.9,
+                  "what": "second Nair relative (bare-chested, mundu) closing the party"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "1.2",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.04,
+                  "y0": 0.46,
+                  "x1": 0.31,
+                  "y1": 0.88,
+                  "what": "children racing along the narrow bund between flooded channels (the caption's referent)"
+                },
+                {
+                  "x0": 0.11,
+                  "y0": 0.2,
+                  "x1": 0.63,
+                  "y1": 0.7,
+                  "what": "the riding party in the middle distance (Padmini, Nagoji, Ibrahim, two relatives)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "1.3",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.33,
+                  "y0": 0.47,
+                  "x1": 0.4,
+                  "y1": 0.63,
+                  "what": "Padmini's sword with leather-wrapped hilt at her right side"
+                },
+                {
+                  "x0": 0.42,
+                  "y0": 0.28,
+                  "x1": 0.47,
+                  "y1": 0.62,
+                  "what": "Padmini's long walking stick strapped along the saddle"
+                },
+                {
+                  "x0": 0.72,
+                  "y0": 0.45,
+                  "x1": 0.79,
+                  "y1": 0.57,
+                  "what": "Nagoji's talwar hilt at his sash"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "2.1",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.78,
+                  "y0": 0.27,
+                  "x1": 0.97,
+                  "y1": 0.6,
+                  "what": "Nair guard at the gate bowing his head, eyes sliding sideways toward the riders, spear and shield"
+                },
+                {
+                  "x0": 0.29,
+                  "y0": 0.26,
+                  "x1": 0.53,
+                  "y1": 0.6,
+                  "what": "Padmini still in the saddle, hands on the reins"
+                },
+                {
+                  "x0": 0.05,
+                  "y0": 0.28,
+                  "x1": 0.26,
+                  "y1": 0.58,
+                  "what": "Nagoji mounted just behind her, the stranger the guard is eyeing"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "2.2",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.36,
+                  "y0": 0.5,
+                  "x1": 0.62,
+                  "y1": 0.98,
+                  "what": "Padmini dismounted, hand on the saddle, long walking stick in her right hand down to the ground"
+                },
+                {
+                  "x0": 0.81,
+                  "y0": 0.45,
+                  "x1": 0.995,
+                  "y1": 0.73,
+                  "what": "Heavy-set clerk with palm-leaf bundle and stylus, and the Nair man with a sword, watching toward the doorway"
+                },
+                {
+                  "x0": 0.12,
+                  "y0": 0.45,
+                  "x1": 0.3,
+                  "y1": 0.9,
+                  "what": "Nagoji in the saddle, booted foot in the stirrup, about to dismount"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "2.4",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.02,
+                  "y0": 0.64,
+                  "x1": 0.16,
+                  "y1": 0.8,
+                  "what": "Nagoji's boots set side by side on the verandah step"
+                },
+                {
+                  "x0": 0.23,
+                  "y0": 0.7,
+                  "x1": 0.93,
+                  "y1": 0.85,
+                  "what": "Bare feet on the woven mat, brass tumbler, banana leaf parcel, and Padmini's stick laid along the mat"
+                },
+                {
+                  "x0": 0.84,
+                  "y0": 0.16,
+                  "x1": 0.98,
+                  "y1": 0.42,
+                  "what": "Lamplit inner doorway with drummers' shadows thrown on the inner wall"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "4.3",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.01,
+                  "x1": 0.22,
+                  "y0": 0.8,
+                  "y1": 0.94,
+                  "what": "Nagoji's bare feet, still standing at frame left, with the edge of his empty mat"
+                },
+                {
+                  "x0": 0.23,
+                  "x1": 0.51,
+                  "y0": 0.61,
+                  "y1": 0.81,
+                  "what": "Padmini's walking stick held across her knees"
+                },
+                {
+                  "x0": 0.53,
+                  "x1": 0.86,
+                  "y0": 0.65,
+                  "y1": 0.86,
+                  "what": "Revathi's open hand gesturing him to his mat, and her legs folded under her on the mat"
+                },
+                {
+                  "x0": 0.77,
+                  "x1": 0.95,
+                  "y0": 0.82,
+                  "y1": 0.94,
+                  "what": "Servant's hands setting the brass plate of food by Revathi's knee"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "9.2",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.39,
+                  "x1": 0.64,
+                  "y0": 0.28,
+                  "y1": 0.7,
+                  "what": "Nagoji's boots standing side by side on the verandah stone edge, with the red earth courtyard directly behind them"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "12.1",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.08,
+                  "y0": 0.76,
+                  "x1": 0.21,
+                  "y1": 0.94,
+                  "what": "Nagoji's boots still standing on the verandah step (callback to 2.4)"
+                },
+                {
+                  "x0": 0.69,
+                  "y0": 0.38,
+                  "x1": 0.82,
+                  "y1": 0.6,
+                  "what": "Nagoji's right hand rubbing his bared left forearm, sleeve pushed back, scar and brand visible"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "12.3",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.39,
+                  "y0": 0.57,
+                  "x1": 0.57,
+                  "y1": 0.83,
+                  "what": "Nagoji's bared left forearm: long thin white scar along the inner side and pale ridged brand near the wrist, in lamplight"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-select-drawn",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch9 p1",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a51895e50a2ddd7e9",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216378095,
+      "queuedAt": 1791216378082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 1 of Chapter 9 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runt…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216505493,
+      "tokens": 102793,
+      "toolCalls": 43,
+      "durationMs": 127395,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-01-panel-01\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.328,\"y\":0.262,\"r\":0.11},{\"x\":0.575,\"y\":0.285,\"r\":0.12},{\"x\":0.748,\"y\":0.417,\"r\":0.095},{\"x\":0.144,\"y\":0.442,\"r\":0.065},{\"x\":0.864,\"y\":0.477,\"r\":0.06}],\"backup_faces\":[],\"issues\":\"The correction works. v02 changes Nagoji's horse from v01's black horse with a white blaze to a bay: red-brown…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch9 p2",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "ab999eed9655a54bf",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216378096,
+      "queuedAt": 1791216378082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 2 of Chapter 9 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runt…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216543641,
+      "tokens": 114504,
+      "toolCalls": 43,
+      "durationMs": 164657,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-02-panel-01\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.831,\"y\":0.435},{\"copy_index\":1,\"x\":0.831,\"y\":0.435},{\"copy_index\":2,\"x\":0.421,\"y\":0.229}],\"backup_tails\":[],\"faces\":[{\"x\":0.151,\"y\":0.176,\"r\":0.098},{\"x\":0.392,\"y\":0.2,\"r\":0.088},{\"x\":0.84,\"y\":0.361,\"r\":0.093},{\"x\":0.663,\"y\":0.576,\"r\":0.025},{\"x\":0.802,\"y\":0.576,\"r\":0.025}],\"backup_faces\":[],\"issues\":\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "select ch9 p4",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "ace6cef2777c7244f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216378096,
+      "queuedAt": 1791216378082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 4 of Chapter 9 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runt…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216438713,
+      "tokens": 76169,
+      "toolCalls": 20,
+      "durationMs": 59728,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-04-panel-03\",\"pick\":\"v02\",\"backup\":\"v01\",\"tails\":[{\"copy_index\":0,\"x\":0.636,\"y\":0.464}],\"backup_tails\":[{\"copy_index\":0,\"x\":0.636,\"y\":0.464}],\"faces\":[{\"x\":0.168,\"y\":0.083,\"r\":0.075},{\"x\":0.372,\"y\":0.418,\"r\":0.062},{\"x\":0.661,\"y\":0.44,\"r\":0.07},{\"x\":0.911,\"y\":0.513,\"r\":0.08}],\"backup_faces\":[{\"x\":0.168,\"y\":0.083,\"r\":0.075},{\"x\":0.372,\"y\":0.418,\"r\":0.062},{\"x\":0.661,\"y\":0.…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "select ch9 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a693c00805cab9188",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216378097,
+      "queuedAt": 1791216378083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 9 of Chapter 9 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runt…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216433527,
+      "tokens": 82659,
+      "toolCalls": 16,
+      "durationMs": 54542,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-09-panel-02\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.15,\"y\":1},{\"copy_index\":1,\"x\":0.15,\"y\":1},{\"copy_index\":2,\"x\":0.15,\"y\":1}],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"The correction does what it was meant to do. v01 shows plain, smooth, tall riding boots with no thongs, which is not the boot on his sheet, so it is rejected. v02 keeps ev…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "select ch9 p12",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "adfc31960282120ff",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216378098,
+      "queuedAt": 1791216378083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 12 of Chapter 9 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216582382,
+      "tokens": 114111,
+      "toolCalls": 36,
+      "durationMs": 203397,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-12-panel-01\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.288,\"y\":0.137},{\"copy_index\":1,\"x\":0.659,\"y\":0.187},{\"copy_index\":2,\"x\":0.288,\"y\":0.137}],\"backup_tails\":[],\"faces\":[{\"x\":0.277,\"y\":0.11,\"r\":0.072},{\"x\":0.697,\"y\":0.156,\"r\":0.098}],\"backup_faces\":[],\"issues\":\"The correction fixes every target in v01. Boots: v01's modern lace-up boots with eyelets and t…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "keep ch9 p1",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a1b5222cbfb5e57e7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582405,
+      "queuedAt": 1791216582395,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 1 of chapter 9 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-09-SCRIPT.md (…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216669854,
+      "tokens": 77553,
+      "toolCalls": 11,
+      "durationMs": 87446,
+      "resultPreview": "{\"panels\":[{\"id\":\"1.1\",\"version\":\"v02\",\"keep\":[{\"x0\":0.08,\"y0\":0.12,\"x1\":0.25,\"y1\":0.88,\"what\":\"estate gate (torch pillar and open gate leaf) with the first Nair relative riding out through it\"},{\"x0\":0.69,\"y0\":0.48,\"x1\":0.81,\"y1\":0.8,\"what\":\"Ibrahim's short coat over the vest with bulging pockets\"},{\"x0\":0.82,\"y0\":0.45,\"x1\":0.93,\"y1\":0.9,\"what\":\"second Nair relative (bare-chested, mundu) closing …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "keep ch9 p2",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "aa869a61e16250410",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582405,
+      "queuedAt": 1791216582395,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 2 of chapter 9 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-09-SCRIPT.md (…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216666409,
+      "tokens": 74086,
+      "toolCalls": 14,
+      "durationMs": 84001,
+      "resultPreview": "{\"panels\":[{\"id\":\"2.1\",\"version\":\"v02\",\"keep\":[{\"x0\":0.78,\"y0\":0.27,\"x1\":0.97,\"y1\":0.6,\"what\":\"Nair guard at the gate bowing his head, eyes sliding sideways toward the riders, spear and shield\"},{\"x0\":0.29,\"y0\":0.26,\"x1\":0.53,\"y1\":0.6,\"what\":\"Padmini still in the saddle, hands on the reins\"},{\"x0\":0.05,\"y0\":0.28,\"x1\":0.26,\"y1\":0.58,\"what\":\"Nagoji mounted just behind her, the stranger the guard is …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "keep ch9 p4",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a01d017236a58c955",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582406,
+      "queuedAt": 1791216582395,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 4 of chapter 9 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-09-SCRIPT.md (…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216614932,
+      "tokens": 63670,
+      "toolCalls": 7,
+      "durationMs": 32524,
+      "resultPreview": "{\"panels\":[{\"id\":\"4.3\",\"version\":\"v02\",\"keep\":[{\"x0\":0.01,\"x1\":0.22,\"y0\":0.8,\"y1\":0.94,\"what\":\"Nagoji's bare feet, still standing at frame left, with the edge of his empty mat\"},{\"x0\":0.23,\"x1\":0.51,\"y0\":0.61,\"y1\":0.81,\"what\":\"Padmini's walking stick held across her knees\"},{\"x0\":0.53,\"x1\":0.86,\"y0\":0.65,\"y1\":0.86,\"what\":\"Revathi's open hand gesturing him to his mat, and her legs folded under her …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "keep ch9 p9",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a2b529c3f82ff197a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582407,
+      "queuedAt": 1791216582395,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 9 of chapter 9 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-09-SCRIPT.md (…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216589711,
+      "tokens": 60522,
+      "toolCalls": 3,
+      "durationMs": 7302,
+      "resultPreview": "{\"panels\":[{\"id\":\"9.2\",\"version\":\"v02\",\"keep\":[{\"x0\":0.39,\"x1\":0.64,\"y0\":0.28,\"y1\":0.7,\"what\":\"Nagoji's boots standing side by side on the verandah stone edge, with the red earth courtyard directly behind them\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "keep ch9 p12",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a8c8d00eadab74938",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582408,
+      "queuedAt": 1791216582395,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 12 of chapter 9 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-09-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216628858,
+      "tokens": 70824,
+      "toolCalls": 9,
+      "durationMs": 46449,
+      "resultPreview": "{\"panels\":[{\"id\":\"12.1\",\"version\":\"v02\",\"keep\":[{\"x0\":0.08,\"y0\":0.76,\"x1\":0.21,\"y1\":0.94,\"what\":\"Nagoji's boots still standing on the verandah step (callback to 2.4)\"},{\"x0\":0.69,\"y0\":0.38,\"x1\":0.82,\"y1\":0.6,\"what\":\"Nagoji's right hand rubbing his bared left forearm, sleeve pushed back, scar and brand visible\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"12.3\",\"version\":\"v02\",\"keep\":[{\"x0\":0.39,\"y0\"…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 5,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "mark ch9 p1",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a8499f53654ea525c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582448,
+      "queuedAt": 1791216582437,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216739831,
+      "tokens": 94052,
+      "toolCalls": 32,
+      "durationMs": 157380,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-01-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.145,\"y\":0.46,\"r\":0.029,\"who\":\"bare-chested rider with topknot, background left by gate\"},{\"x\":0.334,\"y\":0.283,\"r\":0.041,\"who\":\"red-turbaned moustached rider, three-quarter, left of centre\"},{\"x\":0.597,\"y\":0.288,\"r\":0.05,\"who\":\"woman in white-gold sari, three-quarter, centre\"},{\"x\":0.741,\"y\":0.455,\"r\":0.046,\"who\":\"grey-bearded man …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "mark ch9 p2",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a2cd73aa6d5a8e9bf",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582448,
+      "queuedAt": 1791216582437,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216739294,
+      "tokens": 96836,
+      "toolCalls": 39,
+      "durationMs": 156843,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.1635,\"y\":0.187,\"r\":0.031,\"who\":\"turbaned moustached rider, three-quarter, left\"},{\"x\":0.42,\"y\":0.218,\"r\":0.037,\"who\":\"woman rider in white-gold sari, three-quarter, centre\"},{\"x\":0.828,\"y\":0.421,\"r\":0.032,\"who\":\"bowing gate guard with topknot, profile, right\"},{\"x\":0.6657,\"y\":0.5815,\"r\":0.011,\"who\":\"background spear guard, left of…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "mark ch9 p4",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a0bc6984bbcd24d15",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582449,
+      "queuedAt": 1791216582437,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216627321,
+      "tokens": 67204,
+      "toolCalls": 12,
+      "durationMs": 44870,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.183,\"y\":0.11,\"r\":0.033,\"who\":\"standing man in red turban with moustache, three-quarter right, upper left\"},{\"x\":0.399,\"y\":0.434,\"r\":0.033,\"who\":\"seated older man in cream mundu, three-quarter right, centre left\"},{\"x\":0.645,\"y\":0.45,\"r\":0.03,\"who\":\"woman in blue sari with jasmine braid, looking up left, centre right\"},{\"x\":0.889,\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "mark ch9 p9",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aec6974df7589f5a7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582450,
+      "queuedAt": 1791216582438,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216591746,
+      "tokens": 61843,
+      "toolCalls": 5,
+      "durationMs": 9295,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-02\",\"version\":\"v02\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "mark ch9 p12",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ac3470b4887989f71",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216582451,
+      "queuedAt": 1791216582438,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216622816,
+      "tokens": 71550,
+      "toolCalls": 14,
+      "durationMs": 40364,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-12-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.296,\"y\":0.12,\"r\":0.029,\"who\":\"woman in blue sari, three-quarter, on steps at left\"},{\"x\":0.664,\"y\":0.166,\"r\":0.035,\"who\":\"Nagoji, red turban, profile facing left, right\"}]},{\"id\":\"page-12-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.331,\"y\":0.247,\"r\":0.068,\"who\":\"Nagoji, red turban, three-quarter looking down, left\"},{\"x\":0.626,\"y\":0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "check ch9 p9",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a825982a952dd95b1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216591749,
+      "queuedAt": 1791216591747,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216594757,
+      "tokens": 59155,
+      "toolCalls": 2,
+      "durationMs": 3008,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-02\",\"version\":\"v02\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "check ch9 p12",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a9364d701523462af",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216622818,
+      "queuedAt": 1791216622817,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216649082,
+      "tokens": 64574,
+      "toolCalls": 9,
+      "durationMs": 26264,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-12-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.296,\"y\":0.12,\"r\":0.029,\"who\":\"woman in blue sari, three-quarter, on steps at left\"},{\"x\":0.665,\"y\":0.167,\"r\":0.035,\"who\":\"Nagoji, red turban, profile facing left, right\"}]},{\"id\":\"page-12-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.331,\"y\":0.247,\"r\":0.068,\"who\":\"Nagoji, red turban, three-quarter looking down, left\"},{\"x\":0.626,\"y\":0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "check ch9 p4",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "acf53bc530a00a10c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216627323,
+      "queuedAt": 1791216627321,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216668111,
+      "tokens": 64992,
+      "toolCalls": 7,
+      "durationMs": 40788,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.186,\"y\":0.112,\"r\":0.032,\"who\":\"standing man in red turban with moustache, three-quarter right, upper left\"},{\"x\":0.399,\"y\":0.436,\"r\":0.032,\"who\":\"seated older man in cream mundu, three-quarter right, centre left\"},{\"x\":0.645,\"y\":0.455,\"r\":0.031,\"who\":\"woman in blue sari with jasmine braid, looking up left, centre right\"},{\"x\":0.88…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "check ch9 p2",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a780720cb57558ddf",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216739297,
+      "queuedAt": 1791216739295,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216855739,
+      "tokens": 93877,
+      "toolCalls": 26,
+      "durationMs": 116441,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.1607,\"y\":0.1884,\"r\":0.035,\"who\":\"turbaned moustached rider, three-quarter, left\"},{\"x\":0.42,\"y\":0.218,\"r\":0.037,\"who\":\"woman rider in white-gold sari, three-quarter, centre\"},{\"x\":0.828,\"y\":0.421,\"r\":0.032,\"who\":\"bowing gate guard with topknot, profile, right\"},{\"x\":0.6657,\"y\":0.5815,\"r\":0.011,\"who\":\"background spear guard, left o…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "check ch9 p1",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "abdf598dc66c26073",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216739833,
+      "queuedAt": 1791216739832,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216821092,
+      "tokens": 77937,
+      "toolCalls": 20,
+      "durationMs": 81259,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-01-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.145,\"y\":0.46,\"r\":0.029,\"who\":\"bare-chested rider with topknot, background left by gate\"},{\"x\":0.334,\"y\":0.283,\"r\":0.041,\"who\":\"red-turbaned moustached rider, three-quarter, left of centre\"},{\"x\":0.596,\"y\":0.286,\"r\":0.05,\"who\":\"woman in white-gold sari, three-quarter, centre\"},{\"x\":0.743,\"y\":0.451,\"r\":0.046,\"who\":\"grey-bearded man …"
+    }
+  ],
+  "totalTokens": 1588911,
+  "totalToolCalls": 368
+}

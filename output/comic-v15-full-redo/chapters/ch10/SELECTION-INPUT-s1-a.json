@@ -1,0 +1,1633 @@
+{
+ "schema_version": 2,
+ "chapter": 10,
+ "status": "lean_selection",
+ "tag": "s1-a",
+ "frames": [
+  {
+   "id": "page-01-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-01-panel-01-v01.png",
+   "sha256": "c094935e4580d1616161e927b74bdb0f056313f5b68c43f0d503bd028410f165",
+   "width": 2172,
+   "height": 724,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-01-panel-01.txt",
+   "prompt_sha256": "5bd7d7f7849dd7687bf5dbcf734f2f74efca7e1448c749f1cb522a11da3a6d69",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-e22ae2f0-9813-4314-a5fb-43cefbe39eb0.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-01-panel-01.txt",
+   "base_prompt_sha256": "5bd7d7f7849dd7687bf5dbcf734f2f74efca7e1448c749f1cb522a11da3a6d69",
+   "visible_rect": [
+    0,
+    0,
+    2172,
+    607
+   ],
+   "art_rect": [
+    0,
+    0,
+    2172,
+    724
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      69,
+      0,
+      860,
+      186
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      198,
+      814,
+      374
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only: the tiny background riders at the gate wear ochre-orange turbans, not white or cream, but with white tunics and no red sash they cannot be mistaken for Nagoji. Otherwise clean: a Deccan hill fort on black rock, a thick bastion with cannon ports, lime-washed walls, hard sun, saffron swallow-tailed pennants, no figure close enough to identify, no text. There is plenty of open sky at the top left for both captions."
+  },
+  {
+   "id": "page-01-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-01-panel-02-v03.png",
+   "sha256": "05d2b9e26c21918db4abc21678b7a524dbce8f9dcd27ebab38e46f580752ecef",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-01-panel-02-fix-r2.txt",
+   "prompt_sha256": "51a2425c8e69d5665ba3b5590ea023f249ef18e8645db133d8de40bb0463418e",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/private/tmp/claude-501/ch10-fix-r2/page-01-panel-02-composite.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-01-panel-02.txt",
+   "base_prompt_sha256": "a2234babaa82e82fe41275e11168033b2c174a53284b965e1abb65ceb15e2b93",
+   "visible_rect": [
+    0,
+    106,
+    1536,
+    568
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1020,
+      106,
+      1502,
+      248
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1020,
+      259,
+      1515,
+      401
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "The contact sheet was missing at /tmp/claude-501/ch10-fix2-sheets, so I judged the three frames directly. They are pixel-identical except for a 35-pixel ear region. v01 has a hanging gold drop earring. v02 is worse: a stud with a drop still hanging below it, inside a smeared patch. v03 now has a tiny flush gold stud with nothing hanging, which passes. Its one remaining flaw is a faint flat skin-toned patch around the lobe and jaw left by the region edit. You can see it at 4x zoom, but it is barely visible at 2x and should not show at print size. Everything else is clean. The chin is clean-shaven, with only light jaw shading that matches the sheet. There is no forehead mark; the small dot is a cheek mole beside the eye. Both sleeves reach the wrists, and the hands gripping the sash are sound. The commander costume, boots and talwar are all correct, and Ramayyan matches his sheet. The setting is right: laterite walls, a dripping tiled roof, palms and an open-wick brass lamp, with no text. There are two small departures from the script. Ramayyan walks beside Nagoji instead of waiting on the path. He also holds the palm-leaf bundle and a stylus in his hand, not under his arm. The sky at upper right is clear enough for both captions."
+  },
+  {
+   "id": "page-01-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-01-panel-03-v01.png",
+   "sha256": "f37f22cb2d13a15f00d6d61d187cce6131735953e5e04a026a1644ab543b5a99",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-01-panel-03.txt",
+   "prompt_sha256": "a4b89e0e26141acda694bedd976bb0de1ae581624dd6ed17929eb0296a38074c",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-5ab17100-b488-480e-8ded-c056213caef5.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-01-panel-03.txt",
+   "base_prompt_sha256": "a4b89e0e26141acda694bedd976bb0de1ae581624dd6ed17929eb0296a38074c",
+   "visible_rect": [
+    0,
+    128,
+    1536,
+    635
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      595,
+      128,
+      996,
+      268
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1064,
+      262
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      261,
+      519,
+      417
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor: Ramayyan holds a second stylus with his palm-leaf bundle as well as the one in his right hand. The house front (wooden veranda pillars, plastered wall) differs from 1.2's laterite doorway, but 1.2 needs regeneration anyway. Passes: a flush gold ball stud on the lobe with nothing hanging, clean-shaven chin, sleeves down to the wrists, boots, talwar at the left hip, Ramayyan turned to go with Nagoji a step behind, sound hands, no text. Open sky at the top centre and top right gives room for the speech balloon and the caption."
+  },
+  {
+   "id": "page-01-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-01-panel-05-v02.png",
+   "sha256": "badd422611c6300306c033674754c255ecfd25a2984de7390673a7b83a65fbfe",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-01-panel-05-fix-r1.txt",
+   "prompt_sha256": "2fa51373e54a3f6cd18d43a7b376c14dd9219a0c866f9fa2aebd31b2fc5dea81",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/private/tmp/claude-501/ch10-fix-r1/page-01-panel-05-composite.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-01-panel-05.txt",
+   "base_prompt_sha256": "878b2fa37542915a73254933465048f456dd7a0f67169dd3a39f8e788b6a7405",
+   "visible_rect": [
+    0,
+    106,
+    1536,
+    568
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1102,
+      106,
+      1512,
+      414
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1040,
+      251
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      120,
+      346,
+      770,
+      539
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      516,
+      154
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v01 fails on a hanging gold drop earring. v02 passes: the region edit leaves one tiny flush gold stud on the lobe with nothing hanging. Moustache and chin are correct. Both men are barefoot; Nagoji carries no talwar, wears the commander dress and has his sleeves to the wrists. Ramayyan has turned back to face Nagoji, with receding hair, plain white cloth and no forehead marks. The courtyard has lamps, bells on chains, incense, Brahmins at ritual in the background, and the priest (thread, gold-bordered mundu, hair knot) holding a lamp tray in the sanctum doorway. Minor notes, not fails: the left door jamb of the sanctum carries a small dark carved band whose lower part has glyph-like marks; at panel size it reads as ornament, not lettering. The lobe edge where the drop was removed is slightly soft. Lettering space: Nagoji's balloon fits over the sky and hills at top left, and Ramayyan's over the dark roof beam and door lintel at top centre."
+  },
+  {
+   "id": "page-02-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-02-panel-01-v02.png",
+   "sha256": "6eadce81bfeb5e5fef1f0f9971dcfc10b3112f4addef075a7633eea9d8e036a6",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-02-panel-01-fix-r1.txt",
+   "prompt_sha256": "fef3b20b4d0638a59c532294d9e594cf2638cfd1c6238ee310541af1aff0b215",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ff2b-e0d0-7200-91b1-48fafc2bf20c/exec-e113f06c-1a9f-49c0-aa2d-3e8e83dcb071.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-02-panel-01.txt",
+   "base_prompt_sha256": "30b0eb1b1a0d5e6b1a8881301691d6d0e0bc52790783c7982268f454a4339961",
+   "visible_rect": [
+    0,
+    92,
+    1536,
+    738
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      924,
+      134,
+      1301,
+      307
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      991,
+      392
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      0,
+      389,
+      627,
+      657
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      991,
+      392
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      851,
+      460,
+      1444,
+      647
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      542,
+      272
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 passes every hard check. Nagoji has a tiny flush gold stud with nothing hanging, a clean-shaven chin, the rust-red turban, a cream tunic with sleeves to the wrist, the red sash and no talwar. His hands are sound and loosely clasped in front of the sash. Ramayyan matches his sheet, carries the palm-leaf bundle and stylus, and has the faint smile. The pillar lamps are now open brass bowls on brackets with bare flames, the standing lamp is brass with open wicks, and there is no glass anywhere. The frame cuts both men at the shin, so their feet do not show; no boots are visible, so the barefoot rule is not contradicted. There is no text and no chair. The bright courtyard is behind them at left and the lit sanctum ahead at right. Lettering space: the sky at top left and the dark stone wall at top right. v01 is rejected: enclosed glass box-lanterns on the pillars break the Kerala open-lamp rule, and Nagoji's hands are joined in prayer, which the script does not ask for."
+  },
+  {
+   "id": "page-04-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-04-panel-03-v03.png",
+   "sha256": "4c91677a8ac451982f1b72459e0e1149e52f310ad235afa2153e93c4de51710f",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-04-panel-03-fix-r2.txt",
+   "prompt_sha256": "b6ca604ab993b7435f081d416644381a425c7f2ee2646b796d44650ae4755c52",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ff69-e47b-70a2-ba7c-1165de6a0326/exec-352418de-5449-46b6-9796-f265e03c82d9.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-04-panel-03.txt",
+   "base_prompt_sha256": "25037042b8a40125f661aba52d638d4eabbec06f737044bb6a144008ca7828f9",
+   "visible_rect": [
+    0,
+    174,
+    1536,
+    697
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      700,
+      534,
+      1223,
+      694
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Last attempt, accepted with one fault: Nagoji's earring in v03 is still a tiny gold oval hanging just below the lobe, not a flush stud. At print size it is only a few pixels and barely visible. Everything else passes. His chin is clean-shaven and his forehead is clear. He wears the rust-red turban, red sash, boots and talwar, his sleeves are down, and his right hand is tucked behind his back. Ramayyan matches his sheet: balding with curly sides, white cloth, palm-leaf bundle and stylus, barefoot. The stocky European drill master in the faded brown coat gives the command with his arm flung down and his mouth open, standing clear of the muzzles. The front rank in white turbans fires side-on toward the right, with flashes and rolling smoke. Ramayyan and Nagoji stand at the left edge behind the line. The laterite fort with tiled roofs matches 4.2 and 4.4. There is no text, gore or anachronism. The muskets are flintlocks rather than the matchlocks the script names, which is plausible for European-drilled troops in the 1740s. The open sky at top right takes the caption. Rejected versions: in v01 Nagoji gives the command and there is no drill master. v02 has a larger hanging drop earring, stubble-like grey shading on the chin, and a bare forearm behind his back with the sleeve pushed up."
+  },
+  {
+   "id": "page-04-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-04-panel-04-v01.png",
+   "sha256": "37621b48f2e2d27e7957111b1edd8b3f3324f47b8d44cde61ada643ef2a91349",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-04-panel-04.txt",
+   "prompt_sha256": "111a61a9ada8de396d8b0c49583e091037de7d61fc4aebb9887e0a0242caac1e",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-5229cc09-3b10-4e85-9d13-04f30fd12010.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-04-panel-04.txt",
+   "base_prompt_sha256": "111a61a9ada8de396d8b0c49583e091037de7d61fc4aebb9887e0a0242caac1e",
+   "visible_rect": [
+    0,
+    123,
+    1536,
+    585
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1200,
+      331,
+      1417,
+      465
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1111,
+      425
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      225,
+      453,
+      490,
+      577
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      465,
+      260
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Hard checks pass: Nagoji's ear is a tiny flush gold stud; chin clean-shaven with thick curled moustache; sleeves down; talwar; feet out of frame. His eyes cut sidelong toward Ramayyan, as the script asks. Ramayyan matches his sheet, with a composed, unmoved face and palm-leaf bundle and stylus. Smoke is thinning over the line; no text; hands are sound; plenty of sky at the top for both short balloons. Minor: the background soldiers wear dark turbans and are still aiming, unlike the white turbans in 4.2 and 4.5. A plain white marker flag on a pole stands at top left of the drill ground; the letterer can cover it with Nagoji's balloon. Ramayyan is also glancing sideways at Nagoji."
+  },
+  {
+   "id": "page-05-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-05-panel-01-v01.png",
+   "sha256": "6b0ea1510ef9fa1f3a6d1e13e7d093e4fc51090da5c8c2290954cb47230e20b1",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-05-panel-01.txt",
+   "prompt_sha256": "5f48f06b228db9842530b92ea4033cef5d385d694fb22f01db7094e63bd87aa1",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-69fbddfb-9d3f-4714-bfc9-768f01361c23.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-05-panel-01.txt",
+   "base_prompt_sha256": "5f48f06b228db9842530b92ea4033cef5d385d694fb22f01db7094e63bd87aa1",
+   "visible_rect": [
+    0,
+    163,
+    1536,
+    799
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      697,
+      163,
+      1336,
+      299
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      215,
+      335,
+      933,
+      679
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      553,
+      205
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only. The tiny flag on the distant white fort is orange-white-orange, not the plain red, white and blue banded Dutch flag shown in 5.3. Ibrahim's scar does not read because his far (left) cheek is turned away in this wide shot. Everything else passes: Ibrahim matches his sheet (white turban, grey-flecked beard, teal short coat over the pocketed vest, mundu, sandals). He is shouting at a boatman heaving a barrel into a loaded boat, with poled boats on a backwater. No text, sound hands. Clear sky top-centre for the caption and balloon."
+  },
+  {
+   "id": "page-05-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-05-panel-02-v03.png",
+   "sha256": "77ed036730d8539a7abc5d3d8c38cb66141e1a9e30570e4b2633a9638bbc8b05",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-05-panel-02-fix-r2.txt",
+   "prompt_sha256": "3ab8a6870858944c4aebd2f57c6508ba72dac0673ea12092df071cef415f7b77",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/private/tmp/claude-501/ch10-fix-r2/page-05-panel-02-composite.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-05-panel-02.txt",
+   "base_prompt_sha256": "fc74b2c3d9864c4d31ef69ed61593801e2468cd58c9d50fbe727e4586ce6d5ae",
+   "visible_rect": [
+    0,
+    34,
+    1536,
+    496
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      624,
+      34,
+      1085,
+      226
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1144,
+      276
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      240,
+      298,
+      820,
+      490
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      567,
+      194
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v03 is clean on the hard checks. Nagoji has a small round gold stud flush on the lobe with nothing hanging, a clean-shaven chin (only light jaw hatching), no forehead mark, sleeves to the wrists, boots and talwar, and the rust-red turban and sash. Ibrahim (right) touches his forehead with his right hand, three-quarter with his anatomical left cheek to camera, and the ear-to-jaw scar reads as on his sheet. Ramayyan matches his sheet, with stylus and palm-leaf bundle. There is no text and no flag on the distant fort. Layout matches 5.4 and 5.5 (Ramayyan left, Ibrahim right). Minor points: Ibrahim's greeting is a flat-hand salute at the brow rather than a fingertip touch, and his scar is slightly reddish, as on his sheet. Rejected: v02 has a hanging gold drop earring on Nagoji. v01 misses the beat: Ibrahim's palms are pressed together, not touching his forehead, and his scarred left cheek is turned away. Lettering space: open sky top centre (x 0.42 to 0.70, y 0 to 0.15) and top left above Ramayyan."
+  },
+  {
+   "id": "page-05-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-05-panel-03-v01.png",
+   "sha256": "19ba675eb00a398f64a80510b5627de974997bf6aff5b1c049d3992d96eee007",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-05-panel-03.txt",
+   "prompt_sha256": "c2f1c08f13a1741521460eafff8544454a938ea7d29b378115149b49e320e03d",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-f296bb1a-2104-4e68-a39c-3e18a76970cb.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-05-panel-03.txt",
+   "base_prompt_sha256": "c2f1c08f13a1741521460eafff8544454a938ea7d29b378115149b49e320e03d",
+   "visible_rect": [
+    0,
+    139,
+    1536,
+    601
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      96,
+      403,
+      748,
+      595
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      438,
+      307
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      912,
+      355,
+      1492,
+      547
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      438,
+      307
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean against sheets, bible row and script beat."
+  },
+  {
+   "id": "page-05-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-05-panel-04-v02.png",
+   "sha256": "2c1a08f6371a6d43f2891e78638687a7feba93a4ef571aac15f6d121d5494417",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-05-panel-04-fix-r1.txt",
+   "prompt_sha256": "fe7aa694345a34ab6c96265239ba5059efa37de6b3986dbab09acf170dfee3a0",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ff2b-e0d0-7200-91b1-48fafc2bf20c/exec-b1b1cdf8-b667-4b6e-9e71-dc04942c92a6.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-05-panel-04.txt",
+   "base_prompt_sha256": "a749ae1b01f30ff284e86be3abe1b6c24f8377baf1aa5e694aea627adda9e7e1",
+   "visible_rect": [
+    0,
+    243,
+    1536,
+    820
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      200,
+      243,
+      438,
+      410
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      502,
+      309
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      741,
+      399,
+      1436,
+      711
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      912,
+      310
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      105,
+      642,
+      481,
+      810
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      502,
+      309
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean against sheets, bible row and script beat."
+  },
+  {
+   "id": "page-06-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-06-panel-02-v02.png",
+   "sha256": "6f88e41abc0a046b9c30d2b007e4fed9c2d0467b84ced6160d290dbddf49afb9",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-06-panel-02-fix-r1.txt",
+   "prompt_sha256": "f03616f8f5e2a89662f44289a8279eeb166ba110f7eac8c50c74a2fb33ca09a1",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ff2b-e0d0-7200-91b1-48fafc2bf20c/exec-6a3cf093-2ba8-4c4b-9ea0-6b29c6a8dc6b.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-06-panel-02.txt",
+   "base_prompt_sha256": "d1d3466a52e4a0907e29a0579825da334a21ed3b861f27ea1ab45154539deca2",
+   "visible_rect": [
+    0,
+    307,
+    1536,
+    768
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      736,
+      307,
+      1309,
+      492
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      851,
+      514,
+      1457,
+      698
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v01 fails the ear check: a gold drop hangs below the lobe. v02 (a regeneration) passes. Nagoji is seen from behind in lost profile, and his ear shows a tiny flush gold stud. He wears boots, sleeves are down, and he carries the talwar, sash and rust-red turban. The wide high view takes in the hill temple, market awnings, a drill ground with small white-clad troops (no redcoats), backwaters and the westering sun. Only the red laterite fort wall cuts in at the top-left edge. There is no text, and a large clear sky across the top holds both captions. Minor issues, not failures: the fort wall comes down the left edge further than \"only the edge cutting into the top of the frame\". One small whitewashed building with blue shutters near the drill ground looks faintly European."
+  },
+  {
+   "id": "page-06-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-06-panel-05-v02.png",
+   "sha256": "b1ac4570ae695b983eee023eb6888b2ed8cdb00d840f8e6197025e7c6290b37a",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-06-panel-05-fix-r1.txt",
+   "prompt_sha256": "dd93eff5da84019e68ae9e84dff6f78933c3d83ab44d300d4a7d66bcf30079c5",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ff2b-e0d0-7200-91b1-48fafc2bf20c/exec-7090b34d-868d-420f-8307-14d8f1266c1a.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-06-panel-05.txt",
+   "base_prompt_sha256": "5fabedf9e967da3f212c5a6807747c94feb3b2f5e09acc75a61646f48adb9ac8",
+   "visible_rect": [
+    0,
+    76,
+    1536,
+    538
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      806,
+      76,
+      1486,
+      326
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      730,
+      245
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      31,
+      262,
+      695,
+      512
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      730,
+      245
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v01 fails the ear check: a large gold drop hangs below the lobe. v01 also shows a lighthouse-like tower in the harbour, which may be an anachronism. v02 (a regeneration) passes. The ear is a small flush gold stud, the chin is clean-shaven, he wears boots, sleeves are down, and he carries the talwar. Ramayyan taps the palm-leaf bundle with one finger. The fort wall rises high above them with plain unlettered red pennants, and dusk comes in over the sea with lateen-sailed boats. Hands are sound and there is no text. The upper-right sky is clear for both Ramayyan lines. Minor issue: Ramayyan is barefoot here, which matches his sheet but not the sandals he wears in 6.1 and 6.3."
+  },
+  {
+   "id": "page-07-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-07-panel-02-v01.png",
+   "sha256": "8281d3553f5eb658b4dabbd1d246ffd3e076d2124a19ef01edba77efe0a8a235",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-07-panel-02.txt",
+   "prompt_sha256": "0a8a31098f2ebff7aa920b404297fdbfe64ed5a07bc17f88510a2e7a1b2c7b6a",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-fc01223d-5678-40c2-9d81-0fe57f6c0fe9.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-07-panel-02.txt",
+   "base_prompt_sha256": "0a8a31098f2ebff7aa920b404297fdbfe64ed5a07bc17f88510a2e7a1b2c7b6a",
+   "visible_rect": [
+    0,
+    91,
+    1536,
+    592
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      572,
+      91,
+      1230,
+      299
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      521,
+      130
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "All hard checks pass. The ear ornament is a tiny flush stud on the lobe with nothing hanging. He has the thick curled moustache, a clean chin (faint shading only), sleeves to the wrists, boots, rust-red turban, red sash and cream trousers. His left hand rests on the talwar hilt at his hip, and the anatomy is sound. It is the same hall as 7.1 and 7.3: tiger-carved doorjambs, brass lamps with open wicks, men seated with brass vessels. There is no text and no chair. Soft notes: (1) the sky is a warm orange sunset with the sun on the horizon, while 7.1 and 7.3 show a violet dusk, a small lighting shift; (2) the shot is full figure rather than close. Open sky at upper right holds Nagoji's balloon."
+  },
+  {
+   "id": "page-07-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-07-panel-03-v01.png",
+   "sha256": "c6208d97fadfed4b360f3fe7aba36d15cf2698450dd239985f611441bae74c4f",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-07-panel-03.txt",
+   "prompt_sha256": "fb411630d4889925c21bace181bb6d3a3c3e37b3f2341a14b94a6a4abdd300e3",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+     "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-25eb1d95-f5f7-455b-9768-b4e0b1b8ea35.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-07-panel-03.txt",
+   "base_prompt_sha256": "fb411630d4889925c21bace181bb6d3a3c3e37b3f2341a14b94a6a4abdd300e3",
+   "visible_rect": [
+    0,
+    153,
+    1536,
+    635
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      238,
+      153,
+      534,
+      293
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      621,
+      234
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      51,
+      306,
+      646,
+      446
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      621,
+      234
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      477,
+      567,
+      625
+     ],
+     "copy_indices": [
+      2
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean on the hard checks. Ramayyan matches his sheet and is alone in the panel. He stands half turned toward the lamplit hall and gives a measuring sideways look. The hall has the same tiger-carved jambs and dusk sea as 7.1. Hanging and standing lamps are brass with open wicks. There is no text, no chair and no anachronism, and the hands with stylus and bundle are sound. Soft notes: (1) one background man, seated with his back to camera, wears a rust-red turban. His bare arm, maroon shoulder cloth and mundu do not match Nagoji's costume, so he should not read as Nagoji, but the author may want to know; (2) Ramayyan's eyes go to frame right, while in 7.1 Nagoji stood to his left, a mild screen-direction shift. Lettering space: the sky and eave at top centre-left for the two balloons, and the plain stone steps at the bottom for the caption."
+  },
+  {
+   "id": "page-07-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-07-panel-05-v02.png",
+   "sha256": "4f6d79c000b418ed39def86d119a9b24908bfdcc0801da3f87ca735d3f205311",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-07-panel-05-fix-r1.txt",
+   "prompt_sha256": "0070f666b51eb5179a9dd5d5fb78106a9d8c67272144748ce6bef822d6d929fb",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/04-padmini-amma-v15d.png",
+     "sha256": "f43457565bbadb7dd81d7bc27d9e469b55968449d9919667a6c595017aba6142"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/private/tmp/claude-501/ch10-fix-r1/page-07-panel-05-composite.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-07-panel-05.txt",
+   "base_prompt_sha256": "658335ce6ce17a783aceff8bd03edcd404f69af90e838e388339089ed67fdcd6",
+   "visible_rect": [
+    0,
+    78,
+    1536,
+    881
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      840,
+      198,
+      1486,
+      518
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      470,
+      663,
+      864
+     ],
+     "copy_indices": [
+      1
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1020,
+      528,
+      1512,
+      774
+     ],
+     "copy_indices": [
+      2
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 passes every hard check. Nagoji's ear has a flush round gold stud with nothing hanging; it is a little larger than on the sheet but still a stud. His chin is clean-shaven and he wears the commander outfit with sleeves down, boots and a talwar. Padmini wears a cotton sari with a gold border in the old drape with no blouse. Her black hair is coiled at the nape, with simple gold and her walking stick. The heavy-set Nair chieftain stands on his threshold in red-bordered cloth with gold ear rings. An empty bullock cart and a column of lancers with lances upright are present. There are no European chairs, no text and no anachronism, and the hands are sound. The sky at the top centre and the plain dirt road at the bottom left hold the three captions. Minor deviations: Nagoji stands in the road rather than right at a gatepost, the lancers wear white turbans, and their mounts are full-sized horses, some with white blazes, rather than small ponies; Nagoji is not mounted, so the blazes do not matter for Kayal. v01 fails because Nagoji's ear has a hanging gold drop."
+  },
+  {
+   "id": "page-08-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-08-panel-01-v01.png",
+   "sha256": "1ea5611436dad7a1f0622e70d4f228f0fb861350bfcc0f56058a6d92c86241cc",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-08-panel-01.txt",
+   "prompt_sha256": "376575d3003f1a812a9f2bdd54553db3531cf65414142b036d0ff4bbf40d23a5",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-84f88d89-9ca0-41e9-ba29-97a4033279aa.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-08-panel-01.txt",
+   "base_prompt_sha256": "376575d3003f1a812a9f2bdd54553db3531cf65414142b036d0ff4bbf40d23a5",
+   "visible_rect": [
+    0,
+    81,
+    1536,
+    543
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      448,
+      81,
+      1035,
+      308
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean against sheets, bible row and script beat."
+  },
+  {
+   "id": "page-08-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-08-panel-03-v01.png",
+   "sha256": "44e490e62bfce71d734100568ee644069118be27503e96d077d7abf98b5e95c0",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-08-panel-03.txt",
+   "prompt_sha256": "d39956a2fc8b7712c0d803bd6c75e2670deebc5c17206e57816e4466cf1c050d",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-741bb7f0-4bc8-4106-901f-396cc2af6e05.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-08-panel-03.txt",
+   "base_prompt_sha256": "d39956a2fc8b7712c0d803bd6c75e2670deebc5c17206e57816e4466cf1c050d",
+   "visible_rect": [
+    0,
+    194,
+    1536,
+    840
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      896,
+      546,
+      1524,
+      804
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor issues, still acceptable. The camera is near eye level and slightly raised, not the high angle the script asks for, though the shot is still wide and distant. The light is bright low morning sun, not 8.1's blue dawn mist; this reads as later in the morning. A small figure stands silhouetted in the doorway of the burning outbuilding, ambiguous but not a body, with no blood or gore. Hard checks pass: the gate matches 8.1 (laterite pillars with ball finials, broken wooden doors), riders are inside the walls, spears and shields are thrown down, smoke rises, there is no text, and open sky at top left and centre leaves room for the caption."
+  },
+  {
+   "id": "page-08-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-08-panel-04-v03.png",
+   "sha256": "8c2f0a07b5e714f05e2991fc117af5d772c55f0a2b66ac523221b663f8e75989",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-08-panel-04-fix-r2.txt",
+   "prompt_sha256": "1df62c7c92683446e5502e3381d4b6d4a8c6a237a1f76362724b12706ff209a1",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/varma-v1.png",
+     "sha256": "f8b31d7d12fb713008c98850e453d085b48bd1f5489f40bd6c98621271ceba8b"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/private/tmp/claude-501/ch10-fix-r2/page-08-panel-04-composite.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-08-panel-04.txt",
+   "base_prompt_sha256": "294a722418d224422e46067dbe89c2fdb659f6321741d0216bffe1b976441d99",
+   "visible_rect": [
+    0,
+    154,
+    1536,
+    748
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      861,
+      301,
+      1424,
+      473
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      462,
+      550,
+      1069,
+      732
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean against sheets, bible row and script beat."
+  },
+  {
+   "id": "page-09-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-09-panel-01-v02.png",
+   "sha256": "d84b26da0807e4918cec3dfc5634e098941d9544fe4ba7acf1eb9ca682f8f393",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-01-fix-r1.txt",
+   "prompt_sha256": "20cf11fbd12b9caeac1d09ec01a1c58178793050b6fe2a729c0579ace757bdfa",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ff2b-e0d0-7200-91b1-48fafc2bf20c/exec-2583c4ed-35d9-4c05-8c59-1e6bc67d6d9f.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-01.txt",
+   "base_prompt_sha256": "967ca86cc771b0c3db0aacd7b2d5d7bd8456ea959d145753440d66fc10e34a88",
+   "visible_rect": [
+    0,
+    174,
+    1536,
+    871
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      126,
+      468,
+      761,
+      811
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      798,
+      468,
+      1419,
+      810
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 passes every hard check. The ear is a round gold stud flush on the lobe with nothing hanging. Chin is clean-shaven and he is barefoot on the mat with sleeves to the wrists. His is the only red turban in the room, the boots sit in a row by the door, and the bare-chested soldier beside him laughs. He eats rice from the plantain leaf with his right hand. No chairs and no text. The top band of laterite wall and ceiling (y 0 to 20%) is clear for both captions. v01 fails: a hanging drop earring, and a second diner in a maroon turban and red vest who reads as a double of Nagoji. Minor points in v02: the stud is a slightly large bead but flush. His left hand rests on his knee with the fingertips near the leaf edge, not in the food. The small dusk-dark sentry outside the door wears a knee-length coat with crossed belts and a cap; it reads as an Indian jama, not a redcoat. No talwar is visible."
+  },
+  {
+   "id": "page-09-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-09-panel-02-v01.png",
+   "sha256": "d66518748647786afa90c4a9e96c3987efbda5a4625892c149c41165aca475c4",
+   "width": 2172,
+   "height": 724,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-02.txt",
+   "prompt_sha256": "f509d67e844d3d9c5c15013b8f251ff566d92f8aaac8aef7b1f107f4269e86f0",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-c678da49-f06b-4725-8fe7-41676b6f169f.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-02.txt",
+   "base_prompt_sha256": "f509d67e844d3d9c5c15013b8f251ff566d92f8aaac8aef7b1f107f4269e86f0",
+   "visible_rect": [
+    0,
+    0,
+    2172,
+    607
+   ],
+   "art_rect": [
+    0,
+    0,
+    2172,
+    724
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1081,
+      0,
+      1928,
+      186
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "No hard check fails. Minor points: the strip is framed as a medium shot rather than really tight, and the musket looks a little short, with the lock at hip height while the muzzle is at chest height. A young Nair recruit (topknot, bare chest, white mundu) rams with the ramrod mid-stroke at dusk. His hands are sound, and there is no text and no anachronism. The sky at upper centre and right is clear space for the caption."
+  },
+  {
+   "id": "page-09-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-09-panel-03-v02.png",
+   "sha256": "6c598b9831645223fae3e84ffddfe1e92175ca6fdb17505ecfef993570f66b8b",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-03-fix-r1.txt",
+   "prompt_sha256": "9a487aa94f9f49755a53f7d052341492de4efd62a1f8fd48f16ae9bba9ff2092",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/private/tmp/claude-501/ch10-fix-r1/page-09-panel-03-composite.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-03.txt",
+   "base_prompt_sha256": "448dc410e3c3a482b61265acdb6464e01c6f144041295155e60deea6db881ba4",
+   "visible_rect": [
+    0,
+    188,
+    1536,
+    902
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      720,
+      188,
+      1353,
+      670
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      86,
+      532,
+      708,
+      882
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 passes every hard check. The ear edit worked: the near lobe now has one tiny gold stud sitting flush with nothing hanging (v01 had a hanging drop, which fails). Chin is clean-shaven, he wears brown laced boots and his sleeves are down, as the 9.2-9.3 row requires. He sits alone among the jackfruit roots at night, with the lit kalari and figures across the yard and the temple lit on its hill. No text. Hands are sound. There is plenty of empty night sky upper right for both captions. Minor points: faint stubble-like shading on the chin and jaw that reads as shadow at print size. A small warm sliver at the far jaw edge where the hidden far earlobe sits reads as rim-lit skin, not jewellery. No talwar is visible."
+  },
+  {
+   "id": "page-09-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-09-panel-04-v03.png",
+   "sha256": "315e12cd35ace101c22238e12c7f996c8c95e1aba545e7685aadddc58520a672",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-04-fix-r2-moderated.txt",
+   "prompt_sha256": "4ad4e729efb70047624b6c6989b8794459796fdc097dfedc77f0c9caf18754ba",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ff69-e47b-70a2-ba7c-1165de6a0326/exec-5c0c8e8a-a896-403c-bea9-ee557bf99033.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-04.txt",
+   "base_prompt_sha256": "2c3fee801b9745beb41a205aaa826cdfb94a70cda800f454d1a75b9ed90352cf",
+   "moderated_rewrite": true,
+   "visible_rect": [
+    0,
+    132,
+    1536,
+    728
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      924,
+      132,
+      1520,
+      315
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      870,
+      335,
+      1425,
+      573
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only: the RIGHT sleeve sits a little above the right wrist, so a short strip of bare right forearm shows. This is not the branded arm, and the commander sheet itself shows rolled sleeves. Framing is medium rather than a tight close, but the branded forearm is still the focal point. Everything else checks out. Ear: tiny flush gold stud, nothing hanging. Chin clean-shaven, no forehead mark. LEFT sleeve pushed back with the forearm resting palm up over the knee. Brand: pale puckered ridged patch with no letters or numerals, long white scar beside it, wrist bare. Five digits, nails healed. Brown laced boots and a brass-pommel sword, both matching the sheet. Jackfruit tree roots, the lamplit kalari, and a lit Hindu gopuram on the hill, all matching panel 9.3. No church, no text. Clear sky for caption 0 at top right (about x 0.45-0.98, y 0.02-0.15). Low-detail courtyard ground or roots for caption 1 at right (about x 0.68-0.98, y 0.62-0.72 or 0.85-0.97). Backup v01 is also clean on ear, chin, brand and five digits. It ranks lower because its boots are black riding boots and its sword is a stirrup-hilt sabre, neither matching the sheet, and its right sleeve is rolled further up. v02 is unusable: a sixth digit on the open hand, and a white church-like building on the hill."
+  },
+  {
+   "id": "page-09-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/frames/page-09-panel-05-v01.png",
+   "sha256": "390e59aa0be490e824a797d0b61f713a799596ef21b7cf8eb940981ad857f0c4",
+   "width": 2172,
+   "height": 724,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-05.txt",
+   "prompt_sha256": "8b4d78a4cd92dfd06e0c758bf4bca7c8ad5982302e8c2cfb1ecbf7dd7830f790",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/exec-b70af96e-bff4-44e7-9e19-f112f7f0ac65.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-05.txt",
+   "base_prompt_sha256": "8b4d78a4cd92dfd06e0c758bf4bca7c8ad5982302e8c2cfb1ecbf7dd7830f790",
+   "visible_rect": [
+    0,
+    0,
+    2172,
+    607
+   ],
+   "art_rect": [
+    0,
+    0,
+    2172,
+    724
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      390,
+      0,
+      1216,
+      242
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      396,
+      807,
+      575
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "No hard check fails. Minor points: the hill temple has a tall tower rather than Kerala tiered roofs, though it matches the temple in 9.3. The single lit hall sits toward the right near the coast-ward fields rather than clearly far inland. The ship's lantern is a tiny dot on the horizon and may need checking at print size. The panel shows the rise at night with the lit hill temple, the laterite fort, the market lights, the backwaters, the palace, the apart hall, the pale roads and the black sea with one lantern. There are no figures and no text. The broad dark sky across the top and the dark foreground at bottom left give room for both captions."
+  }
+ ],
+ "missing": [
+  "page-01-panel-04",
+  "page-02-panel-02",
+  "page-02-panel-03",
+  "page-02-panel-04",
+  "page-02-panel-05",
+  "page-03-panel-01",
+  "page-03-panel-02",
+  "page-03-panel-03",
+  "page-03-panel-04",
+  "page-03-panel-05",
+  "page-04-panel-01",
+  "page-04-panel-02",
+  "page-04-panel-05",
+  "page-05-panel-05",
+  "page-06-panel-01",
+  "page-06-panel-03",
+  "page-06-panel-04",
+  "page-07-panel-01",
+  "page-07-panel-04",
+  "page-08-panel-02",
+  "page-08-panel-05"
+ ]
+}

@@ -1,0 +1,393 @@
+{
+  "probe": {
+    "layout": {
+      "fitted_from": {
+        "face_scale": 1.0,
+        "layout": "<fixture>/prior.json",
+        "layout_sha256": "2304f91dd3b646d46283ea7b650d3bc1c78e36135870413433b58601e675c2e8",
+        "manifest": "<fixture>/manifest.json",
+        "margin": 3.0
+      },
+      "page_rows": {
+        "1": [
+          200,
+          321.5
+        ]
+      }
+    },
+    "report": {
+      "face_scale": 1.0,
+      "faces": [],
+      "keep": [],
+      "layout_out": "<fixture>/fitted.json",
+      "margin": 3.0,
+      "max_growth_of_prior": 2.0,
+      "min_row_pt": 55.0,
+      "min_share_of_prior": 0.6,
+      "pages": {
+        "1": {
+          "min_ratio_after": 4.45,
+          "min_ratio_before": 2.51,
+          "panels": {
+            "page-01-panel-01": {
+              "faces_share": 0.0,
+              "fill_after": 0.89,
+              "fill_before": 1.0,
+              "fill_width_after": 1.0,
+              "fill_width_before": 1.0,
+              "frame": "given",
+              "needed_pt2_after": 14681,
+              "ratio_after": 4.45,
+              "ratio_before": 2.51,
+              "usable_pt2_after": 65368
+            },
+            "page-01-panel-02": {
+              "faces_share": 0.0,
+              "fill_after": 1.0,
+              "fill_before": 0.81,
+              "fill_width_after": 1.0,
+              "fill_width_before": 1.0,
+              "frame": "given",
+              "needed_pt2_after": 0,
+              "ratio_after": null,
+              "ratio_before": null,
+              "usable_pt2_after": 118634
+            }
+          },
+          "rows": [
+            {
+              "floor_met": true,
+              "floor_pt": 60,
+              "max_pt": 200,
+              "min_pt": 60,
+              "new_pt": 200,
+              "panels": [
+                "page-01-panel-01"
+              ],
+              "prior_pt": 100,
+              "ratio_after": 4.45,
+              "ratio_before": 2.51,
+              "silent": false
+            },
+            {
+              "max_pt": 843,
+              "min_pt": 55,
+              "new_pt": 321.5,
+              "panels": [
+                "page-01-panel-02"
+              ],
+              "prior_pt": 421.5,
+              "ratio_after": null,
+              "ratio_before": null,
+              "silent": true
+            }
+          ],
+          "status": "ok"
+        }
+      },
+      "painted": [
+        "page-01-panel-01"
+      ],
+      "probe": {
+        "floors": {
+          "page-01-panel-01": 60
+        },
+        "off_grid": [],
+        "pins": {},
+        "planner_calls": 2,
+        "rounds": 1,
+        "step_pt": 5.0,
+        "unplaceable": [],
+        "unprobed": [],
+        "verified": {
+          "page-01-panel-01": true
+        }
+      },
+      "sources": {
+        "page-01-panel-01": "manifest",
+        "page-01-panel-02": "manifest"
+      },
+      "statuses": {
+        "cannot_fit": 0,
+        "ok": 1,
+        "tight": 0
+      },
+      "wrap_share_of_clip_width": 0.36
+    }
+  },
+  "ratio": {
+    "layout": {
+      "fitted_from": {
+        "face_scale": 1.0,
+        "layout": "<fixture>/prior.json",
+        "layout_sha256": "2304f91dd3b646d46283ea7b650d3bc1c78e36135870413433b58601e675c2e8",
+        "manifest": "<fixture>/manifest.json",
+        "margin": 3.0
+      },
+      "page_rows": {
+        "1": [
+          200,
+          321.5
+        ]
+      }
+    },
+    "report": {
+      "face_scale": 1.0,
+      "faces": [],
+      "keep": [],
+      "layout_out": "<fixture>/fitted.json",
+      "margin": 3.0,
+      "max_growth_of_prior": 2.0,
+      "min_row_pt": 55.0,
+      "min_share_of_prior": 0.6,
+      "pages": {
+        "1": {
+          "min_ratio_after": 4.45,
+          "min_ratio_before": 2.51,
+          "panels": {
+            "page-01-panel-01": {
+              "faces_share": 0.0,
+              "fill_after": 0.89,
+              "fill_before": 1.0,
+              "fill_width_after": 1.0,
+              "fill_width_before": 1.0,
+              "frame": "given",
+              "needed_pt2_after": 14681,
+              "ratio_after": 4.45,
+              "ratio_before": 2.51,
+              "usable_pt2_after": 65368
+            },
+            "page-01-panel-02": {
+              "faces_share": 0.0,
+              "fill_after": 1.0,
+              "fill_before": 0.81,
+              "fill_width_after": 1.0,
+              "fill_width_before": 1.0,
+              "frame": "given",
+              "needed_pt2_after": 0,
+              "ratio_after": null,
+              "ratio_before": null,
+              "usable_pt2_after": 118634
+            }
+          },
+          "rows": [
+            {
+              "max_pt": 200,
+              "min_pt": 60,
+              "new_pt": 200,
+              "panels": [
+                "page-01-panel-01"
+              ],
+              "prior_pt": 100,
+              "ratio_after": 4.45,
+              "ratio_before": 2.51,
+              "silent": false
+            },
+            {
+              "max_pt": 843,
+              "min_pt": 55,
+              "new_pt": 321.5,
+              "panels": [
+                "page-01-panel-02"
+              ],
+              "prior_pt": 421.5,
+              "ratio_after": null,
+              "ratio_before": null,
+              "silent": true
+            }
+          ],
+          "status": "ok"
+        }
+      },
+      "painted": [
+        "page-01-panel-01"
+      ],
+      "sources": {
+        "page-01-panel-01": "manifest",
+        "page-01-panel-02": "manifest"
+      },
+      "statuses": {
+        "cannot_fit": 0,
+        "ok": 1,
+        "tight": 0
+      },
+      "wrap_share_of_clip_width": 0.36
+    }
+  },
+  "structures": {
+    "layout": {
+      "fitted_from": {
+        "face_scale": 1.0,
+        "layout": "<fixture>/prior.json",
+        "layout_sha256": "2304f91dd3b646d46283ea7b650d3bc1c78e36135870413433b58601e675c2e8",
+        "manifest": "<fixture>/manifest.json",
+        "margin": 3.0,
+        "structures": true
+      },
+      "page_rows": {
+        "1": [
+          200,
+          321.5
+        ]
+      }
+    },
+    "report": {
+      "face_scale": 1.0,
+      "faces": [],
+      "keep": [],
+      "layout_out": "<fixture>/fitted.json",
+      "margin": 3.0,
+      "max_growth_of_prior": 2.0,
+      "min_row_pt": 55.0,
+      "min_share_of_prior": 0.6,
+      "pages": {
+        "1": {
+          "min_ratio_after": 4.45,
+          "min_ratio_before": 2.51,
+          "panels": {
+            "page-01-panel-01": {
+              "faces_share": 0.0,
+              "fill_after": 0.89,
+              "fill_before": 1.0,
+              "fill_width_after": 1.0,
+              "fill_width_before": 1.0,
+              "frame": "given",
+              "needed_pt2_after": 14681,
+              "ratio_after": 4.45,
+              "ratio_before": 2.51,
+              "usable_pt2_after": 65368
+            },
+            "page-01-panel-02": {
+              "faces_share": 0.0,
+              "fill_after": 1.0,
+              "fill_before": 0.81,
+              "fill_width_after": 1.0,
+              "fill_width_before": 1.0,
+              "frame": "given",
+              "needed_pt2_after": 0,
+              "ratio_after": null,
+              "ratio_before": null,
+              "usable_pt2_after": 118634
+            }
+          },
+          "rows": [
+            {
+              "floor_met": true,
+              "floor_pt": 60,
+              "max_pt": 200,
+              "min_pt": 60,
+              "new_pt": 200,
+              "panels": [
+                "page-01-panel-01"
+              ],
+              "prior_pt": 100,
+              "ratio_after": 4.45,
+              "ratio_before": 2.51,
+              "silent": false
+            },
+            {
+              "max_pt": 843,
+              "min_pt": 55,
+              "new_pt": 321.5,
+              "panels": [
+                "page-01-panel-02"
+              ],
+              "prior_pt": 421.5,
+              "ratio_after": null,
+              "ratio_before": null,
+              "silent": true
+            }
+          ],
+          "status": "ok",
+          "structure": {
+            "alternatives": [
+              {
+                "chosen": true,
+                "cues_ok": true,
+                "mean_fill": 0.943,
+                "min_fill": 0.886,
+                "min_ratio": 4.45,
+                "prior": true,
+                "rows_pt": [
+                  200,
+                  321.5
+                ],
+                "structure": [
+                  1,
+                  1
+                ],
+                "verified": true
+              },
+              {
+                "chosen": false,
+                "cues_ok": true,
+                "mean_fill": 0.246,
+                "min_fill": 0.168,
+                "min_ratio": 1.24,
+                "prior": false,
+                "rows_pt": [
+                  523.5
+                ],
+                "structure": [
+                  2
+                ],
+                "verified": true
+              }
+            ],
+            "candidates": 2,
+            "chosen": [
+              1,
+              1
+            ],
+            "cues": {},
+            "excluded": 0,
+            "mean_fill": 0.943,
+            "min_fill": 0.886,
+            "min_ratio": 4.45,
+            "prior": [
+              1,
+              1
+            ],
+            "verified": true
+          }
+        }
+      },
+      "painted": [
+        "page-01-panel-01"
+      ],
+      "probe": {
+        "floors": {
+          "page-01-panel-01": 60
+        },
+        "off_grid": [],
+        "pins": {},
+        "planner_calls": 4,
+        "rounds": 1,
+        "step_pt": 5.0,
+        "unplaceable": [],
+        "unprobed": [],
+        "verified": {
+          "page-01-panel-01": true
+        }
+      },
+      "sources": {
+        "page-01-panel-01": "manifest",
+        "page-01-panel-02": "manifest"
+      },
+      "statuses": {
+        "cannot_fit": 0,
+        "ok": 1,
+        "tight": 0
+      },
+      "structure_search": {
+        "pages_changed": 0,
+        "probe_top": 3,
+        "row_sizes": [
+          1,
+          2
+        ]
+      },
+      "wrap_share_of_clip_width": 0.36
+    }
+  }
+}

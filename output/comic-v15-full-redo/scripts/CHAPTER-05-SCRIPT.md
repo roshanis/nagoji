@@ -308,7 +308,7 @@ Two panels. The bow, and the road pointing south. 9.2 is the tallest tier.
 
 > CAPTION: but as a man who understands that some battles begin with a lowered gaze and a measured tone.
 
-**9.2** Full width, bottom, the tallest tier, about 60 percent of the page. Night, moonlight the only light. Camera slightly high inside the compound. In the lower foreground, Nagoji asleep on a mat under the eaves, one bandaged hand lying loosely curled on the mat, as if around reins. Beyond him the red stone wall, and over the top of it, pepper vines on their support trees and the pale road running away south into the dark. The captions sit in the moonlit sky.
+**9.2** Full width, bottom, the tallest tier, about half the page. Night, moonlight the only light. Camera slightly high inside the compound. In the lower foreground, Nagoji asleep on a mat under the eaves, one bandaged hand lying loosely curled on the mat, as if around reins. Beyond him the red stone wall, and over the top of it, pepper vines on their support trees and the pale road running away south into the dark. The captions sit in the moonlit sky.
 
 > CAPTION: Somewhere to the south a king I had not yet met considered maps covered in salt stains and ink.
 
