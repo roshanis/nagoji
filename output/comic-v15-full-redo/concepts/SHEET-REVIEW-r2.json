@@ -1,0 +1,2891 @@
+{
+  "schema_version": 2,
+  "title": "Horse of the Servant V15 character sheet review",
+  "created_at_utc": "2026-09-27T15:21:03.839225+00:00",
+  "method": "Built-in image_gen edits. Round 1 used original sheets; round 2 uses the three exact user-selected current sheets as inputs. Contact sheets are deterministic montages.",
+  "authoritative_bible": {
+    "path": "output/comic-v15-full-redo/CONTINUITY.md",
+    "sha256": "e177e26e5f8f17543a62cabdd70c4483b1191fc790c35b680d47ca90f2612b93",
+    "read_in_full": true
+  },
+  "summary": {
+    "sheets": 17,
+    "visual_pass": 17,
+    "visual_hold": 0,
+    "author_approved": 0,
+    "tool_attempts": 32,
+    "generated_images": 31,
+    "newly_reviewed_in_r2": 3,
+    "unchanged_reviews_carried_from_r1": 14
+  },
+  "process_deviations": [
+    {
+      "character": "Revathi Bayi",
+      "requirement": "At most two regenerations",
+      "actual": "Four successful image generations, one beyond limit; all preserved and further generation stopped.",
+      "status": "fail",
+      "round": "r1 historical, unchanged"
+    },
+    {
+      "character": "Keshavrao",
+      "requirement": "Save exact prompt before generation",
+      "actual": "Second prompt was submitted inline and saved afterward from exact submitted text.",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/07-keshavrao-v15b.txt",
+      "status": "fail",
+      "round": "r1 historical, unchanged"
+    }
+  ],
+  "review_disagreements": [
+    {
+      "character": "Revathi Bayi",
+      "check": "sandalwood hairline",
+      "root": "Cannot confidently resolve final mark",
+      "independent": "Thin ochre line present but subtle",
+      "resolution": "Author assessment pending",
+      "round": "r1 historical",
+      "superseded_by_r2": "Root and independent reviewer agree that all seven requested hairline marks are clearly visible on 05-revathi-bayi-v15f.png. Author approval remains pending."
+    }
+  ],
+  "review_clarifications": [
+    "Heir role Varma's nephew is correct; reviewer withdrew obsolete-role objection.",
+    "Padmini LOW BUN is compatible with a nape coil. Silk caption and silver-temple inset are actual remaining defects.",
+    "Mathoo interim caption changes were for prompt consistency; SILVER HAIR and CROSS NECKLACE are not intrinsically inaccurate.",
+    "Round 2 preserves the Revathi pale third palette swatch because the user requested a caption-only change and nothing else. It is labelled DEEP BLUE as explicitly requested.",
+    "Round 2 applies the author clarification that Savitri mourning has no bindi and no jewellery; the earlier white-clothing-only review is superseded for that selected sheet."
+  ],
+  "duplicate_artifacts": [
+    {
+      "path": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15a.png",
+      "duplicate_of": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15.png",
+      "sha256": "9135863aa798f9c5f92a768b6ac370da1df06201328dabfa57d131f365cafdab",
+      "note": "Byte-identical copy, not a fourth Padmini generation."
+    }
+  ],
+  "sheets": [
+    {
+      "number": 3,
+      "character": "Ramayyan Dalawa",
+      "source_sheet": "output/character-model-sheets-v1/03-ramayyan-dalawa.png",
+      "source_sha256": "839c76fc71ebcf60cb4304c8ff7ee5312348c761836e0dce010f3105dc7ab3ff",
+      "output": "output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+      "output_sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/03-ramayyan-dalawa-v15.txt",
+      "prompt_sha256": "7aec3651ee580b8bfb424904cbe587ff0c5696b13d9e235d51dd954ad96f5b7c",
+      "changes": "Plain white cloth confirmed; face, receding hair, palm-leaf bundle and stylus retained.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "thin_sharp_receding": {
+          "status": "pass",
+          "notes": "Same thin face, fine sharp features and receding hair."
+        },
+        "white_cloth": {
+          "status": "pass",
+          "notes": "Plain white cloth without added trim."
+        },
+        "palm_leaf_and_stylus": {
+          "status": "pass",
+          "notes": "Palm-leaf bundle and stylus visible in main figure and details."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "thin_sharp_receding": {
+              "status": "pass",
+              "notes": "Same thin face, fine sharp features and receding hair."
+            },
+            "white_cloth": {
+              "status": "pass",
+              "notes": "Plain white cloth without added trim."
+            },
+            "palm_leaf_and_stylus": {
+              "status": "pass",
+              "notes": "Palm-leaf bundle and stylus visible in main figure and details."
+            }
+          },
+          "reason": "Accepted on first attempt.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/03-ramayyan-dalawa-v15.txt",
+          "prompt_sha256": "7aec3651ee580b8bfb424904cbe587ff0c5696b13d9e235d51dd954ad96f5b7c",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19",
+          "number": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/03-05-review-v15.json",
+          "sha256": "605640f0f9a5cc392a38946ace5bff56e12d5c89f11ca8dd9c1719e7b29efa7d"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "character": "Padmini Amma",
+      "source_sheet": "output/character-model-sheets-v1/04-padmini-amma.png",
+      "source_sha256": "a710838b584575acc731d8fea2032419b8fd93837b147be2c5e0bf2734b198d6",
+      "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15d.png",
+      "output_sha256": "f43457565bbadb7dd81d7bc27d9e469b55968449d9919667a6c595017aba6142",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15d.txt",
+      "prompt_sha256": "396ed4521e2e054c7797b33d7b39fa5b7504304cb0fb8cd3dff5ca28051ae0ce",
+      "changes": "Cotton caption corrected; silver-temple inset replaced by thick black nape-coil close-up labelled BLACK HAIR. Face, drape, stick, gold and layout retained.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+        },
+        "hair_and_pose_preserved": {
+          "status": "pass",
+          "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No new anatomy, costume, identity or layout defect observed."
+        },
+        "no_em_or_en_dashes": {
+          "status": "pass",
+          "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+        },
+        "cotton_caption": {
+          "status": "pass",
+          "notes": "Third palette caption reads COTTON; original ivory swatch retained."
+        },
+        "black_hair_detail": {
+          "status": "pass",
+          "notes": "Second detail shows thick black hair coiled at the nape and reads BLACK HAIR. The silver-temple inset is gone."
+        },
+        "black_nape_coil": {
+          "status": "pass",
+          "notes": "Black nape hair remains consistent in figures, portraits and replacement detail; highlights read as black hair sheen."
+        },
+        "cotton_hitched_sari": {
+          "status": "pass",
+          "notes": "Hitched sari and cotton caption are consistent."
+        },
+        "no_blouse": {
+          "status": "pass",
+          "notes": "No stitched blouse; original drape preserved."
+        },
+        "simple_gold_and_stick": {
+          "status": "pass",
+          "notes": "Existing simple gold jewellery and long walking stick retained."
+        },
+        "face_age": {
+          "status": "pass",
+          "notes": "Mature source face retained."
+        },
+        "only_requested_changes": {
+          "status": "pass",
+          "notes": "Only requested palette text and second detail inset/caption changed materially on visual comparison."
+        }
+      },
+      "attempt_count": 4,
+      "generated_image_count": 4,
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15.txt",
+          "checks": {
+            "face_identity_preserved": {
+              "status": "pass"
+            },
+            "no_stitched_blouse": {
+              "status": "pass"
+            },
+            "nape_coil_and_walking_stick": {
+              "status": "pass"
+            },
+            "caption_accuracy": {
+              "status": "fail",
+              "notes": "Silk and silver-temple captions remained wrong. LOW BUN itself is compatible with nape coil."
+            }
+          },
+          "reason": "Regenerated because LOW BUN was an incorrect caption for the nape coil.",
+          "prompt_sha256": "96584bd5f172a62ce324b8727f530b493d33834829daebfbc626227f121b8ae5",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "9135863aa798f9c5f92a768b6ac370da1df06201328dabfa57d131f365cafdab",
+          "number": 1
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15b.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15b.txt",
+          "checks": {
+            "face_identity_preserved": {
+              "status": "pass"
+            },
+            "no_stitched_blouse": {
+              "status": "fail",
+              "notes": "The retry reintroduced a stitched rust blouse."
+            },
+            "nape_coil_and_walking_stick": {
+              "status": "pass"
+            },
+            "caption_accuracy": {
+              "status": "pass"
+            }
+          },
+          "reason": "Rejected because a stitched blouse returned despite the correction prompt.",
+          "prompt_sha256": "1ba29dc0b3d83a6d6107caec86ce177d5cade5ccefcc0e6c282baae2160bde87",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "e81c5574cf5fd9fa2881a2f3ae0d28f491f75e264f97572d9a4d2a509f9b14b9",
+          "number": 2
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15c.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15c.txt",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "fail",
+              "notes": "IVORY SILK conflicts with cotton; SILVER TEMPLES inset conflicts with black-haired base. GOLD BORDER and WOOD are accurate."
+            },
+            "no_new_visual_defects": {
+              "status": "fail",
+              "notes": "Silver-temple inset remains inconsistent with main hair."
+            },
+            "face_age": {
+              "status": "pass",
+              "notes": "Source mature face retained, appropriate to fifties."
+            },
+            "no_blouse": {
+              "status": "pass",
+              "notes": "Stitched blouse absent from every figure and portrait."
+            },
+            "black_nape_coil": {
+              "status": "fail",
+              "notes": "Black nape coil in full figures, but silver-temple detail conflicts."
+            },
+            "cotton_hitched_sari": {
+              "status": "fail",
+              "notes": "Sari hitched for walking; IVORY SILK caption conflicts with cotton."
+            },
+            "simple_gold_and_stick": {
+              "status": "pass",
+              "notes": "Simple gold and long wooden walking stick visible."
+            }
+          },
+          "reason": "Best of three attempts for costume compliance. Caption mismatch remains for author review.",
+          "prompt_sha256": "ad129902452d29e8b07f23e0eb49f166bdb0df3b5cc7eeda42f1164b9e9c58d6",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "96a73de4a4ea96ccf1c43178e767a4fd6d327e977de2b08b6c8c9be6a9aee1ce",
+          "number": 3
+        },
+        {
+          "number": 4,
+          "character": "Padmini Amma",
+          "edit_input": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15c.png",
+          "edit_input_sha256": "96a73de4a4ea96ccf1c43178e767a4fd6d327e977de2b08b6c8c9be6a9aee1ce",
+          "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15d.png",
+          "output_sha256": "f43457565bbadb7dd81d7bc27d9e469b55968449d9919667a6c595017aba6142",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15d.txt",
+          "prompt_sha256": "396ed4521e2e054c7797b33d7b39fa5b7504304cb0fb8cd3dff5ca28051ae0ce",
+          "prompt_saved_before_generation": true,
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+            },
+            "hair_and_pose_preserved": {
+              "status": "pass",
+              "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No new anatomy, costume, identity or layout defect observed."
+            },
+            "no_em_or_en_dashes": {
+              "status": "pass",
+              "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+            },
+            "cotton_caption": {
+              "status": "pass",
+              "notes": "Third palette caption reads COTTON; original ivory swatch retained."
+            },
+            "black_hair_detail": {
+              "status": "pass",
+              "notes": "Second detail shows thick black hair coiled at the nape and reads BLACK HAIR. The silver-temple inset is gone."
+            },
+            "black_nape_coil": {
+              "status": "pass",
+              "notes": "Black nape hair remains consistent in figures, portraits and replacement detail; highlights read as black hair sheen."
+            },
+            "cotton_hitched_sari": {
+              "status": "pass",
+              "notes": "Hitched sari and cotton caption are consistent."
+            },
+            "no_blouse": {
+              "status": "pass",
+              "notes": "No stitched blouse; original drape preserved."
+            },
+            "simple_gold_and_stick": {
+              "status": "pass",
+              "notes": "Existing simple gold jewellery and long walking stick retained."
+            },
+            "face_age": {
+              "status": "pass",
+              "notes": "Mature source face retained."
+            },
+            "only_requested_changes": {
+              "status": "pass",
+              "notes": "Only requested palette text and second detail inset/caption changed materially on visual comparison."
+            }
+          },
+          "reason": "Selected: both requested corrections pass with source face, costume and layout preserved.",
+          "review_status": "pass",
+          "reviewers": [
+            "Codex root",
+            "independent followup_review"
+          ],
+          "author_approval": "pending",
+          "round": "r2",
+          "round_attempt": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/03-05-review-v15.json",
+          "sha256": "605640f0f9a5cc392a38946ace5bff56e12d5c89f11ca8dd9c1719e7b29efa7d"
+        },
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/FOLLOWUP-REVIEW-r2.json",
+          "sha256": "d6e529d305c9e18c0b4ac58dac107f1de627464f5752d6237af99df02969720e"
+        }
+      ],
+      "edit_input": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15c.png",
+      "edit_input_sha256": "96a73de4a4ea96ccf1c43178e767a4fd6d327e977de2b08b6c8c9be6a9aee1ce",
+      "followup_round": {
+        "revision": "r2",
+        "previous_selection": {
+          "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15c.png",
+          "output_sha256": "96a73de4a4ea96ccf1c43178e767a4fd6d327e977de2b08b6c8c9be6a9aee1ce",
+          "review_status": "hold"
+        },
+        "attempt_count": 1,
+        "retry_count": 0
+      }
+    },
+    {
+      "number": 5,
+      "character": "Revathi Bayi",
+      "source_sheet": "output/character-model-sheets-v1/05-revathi-bayi.png",
+      "source_sha256": "de9716e933d3b78052755cade1a5cf76ce893352474f5334e43dc2c2d5bc0b02",
+      "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15f.png",
+      "output_sha256": "f6676adafc6cc5c8c977ac0c2c7b55236e681cee1c9ae328dae73171ab9a3e3b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15f.txt",
+      "prompt_sha256": "6dc251920b087902875329530cfadc837b6b5b61a152578d9585106939cacf0c",
+      "changes": "DEEP BLUE caption corrected; thin sandalwood hairline visible in the 3/4 view and all six expressions. Original pale swatch and five details preserved after one retry; blue sari, jasmine, coins and armlets retained, no tali.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+        },
+        "hair_and_pose_preserved": {
+          "status": "pass",
+          "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No new anatomy, costume, identity or layout defect observed."
+        },
+        "no_em_or_en_dashes": {
+          "status": "pass",
+          "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+        },
+        "deep_blue_caption": {
+          "status": "pass",
+          "notes": "Third palette caption reads DEEP BLUE; other labels remain unchanged."
+        },
+        "pale_palette_swatch_preserved": {
+          "status": "pass",
+          "notes": "The original pale ivory third swatch is retained, as required by the caption-only instruction."
+        },
+        "sandalwood_hairline": {
+          "status": "pass",
+          "notes": "Thin pale sandalwood stroke clearly visible at the hairline in the large 3/4 view and all six expressions."
+        },
+        "hairline_3_4_view": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_neutral": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_happy": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_surprised": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_worried": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_sad": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_determined": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "detail_insets_preserved": {
+          "status": "pass",
+          "notes": "All five detail insets preserved; EYES & BROW has no added stripe."
+        },
+        "deep_blue_gold": {
+          "status": "pass",
+          "notes": "Deep blue sari and gold borders preserved."
+        },
+        "jasmine_braid": {
+          "status": "pass",
+          "notes": "Black braid and jasmine preserved."
+        },
+        "flat_coin_necklace": {
+          "status": "pass",
+          "notes": "Flat coins preserved; no tali."
+        },
+        "gold_armlets": {
+          "status": "pass",
+          "notes": "Separate gold upper-arm ornaments and fifth detail preserved."
+        },
+        "only_requested_changes": {
+          "status": "pass",
+          "notes": "Only palette caption and seven requested hairline marks changed materially on visual comparison."
+        }
+      },
+      "attempt_count": 6,
+      "generated_image_count": 6,
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15.png",
+          "checks": {
+            "face_identity_preserved": {
+              "status": "pass",
+              "notes": "Same young adult tapered oval face retained."
+            },
+            "indigo_or_deep_blue_sari": {
+              "status": "pass",
+              "notes": "Purple is replaced by saturated deep blue and indigo with gold."
+            },
+            "jasmine_braid": {
+              "status": "pass",
+              "notes": "Long braid with jasmine is consistent across views and detail."
+            },
+            "jewellery_and_forehead": {
+              "status": "pass",
+              "notes": "Flat-coin necklace, gold armlets, and sandalwood line are visible."
+            },
+            "no_tali": {
+              "status": "pass"
+            },
+            "layout_and_text": {
+              "status": "pass",
+              "notes": "All views are present, labels are readable, and PURPLE GOLD ZARI is corrected to INDIGO GOLD ZARI."
+            },
+            "period_and_negative_constraints": {
+              "status": "pass",
+              "notes": "No watermark, extra characters, em dash, en dash, crown, or later ageing observed."
+            },
+            "armlets": {
+              "status": "fail",
+              "notes": "No distinct upper-arm armlets, only sleeve borders and wrist bangles."
+            },
+            "blue_sari": {
+              "status": "pass"
+            },
+            "layout": {
+              "status": "pass"
+            }
+          },
+          "reason": "Reviewer found missing separate upper-arm armlets.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15.txt",
+          "prompt_sha256": "c752949ffc7d16a1fb559696d219f0b5d2e18bbd38cd12bc8b426c12e0217985",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "f00f750b37f56f96d9ec210412a914c92d62e512deac25c2119fac843492afda",
+          "number": 1
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15b.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15b.txt",
+          "checks": {
+            "armlets": {
+              "status": "pass",
+              "notes": "Distinct armlet shapes appear."
+            },
+            "blue_sari": {
+              "status": "fail",
+              "notes": "The edit reverted the sari to purple and restored an outdated purple palette."
+            },
+            "no_tali": {
+              "status": "pass",
+              "notes": "No tali visible."
+            },
+            "detail_tile_count": {
+              "status": "fail",
+              "notes": "Six detail tiles appear instead of the requested five."
+            }
+          },
+          "reason": "Rejected because the successful blue correction was lost and the detail row expanded.",
+          "prompt_sha256": "63fe456889cc11c432510505ff3139aff93083c8bfb0ef4fb2e60fdbbe141baa",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "4a356ebfc2c12c2840fa906c0b4fd1fc67fee71062192004653b86ff75c496ec",
+          "number": 2
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15c.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15c.txt",
+          "checks": {
+            "armlets": {
+              "status": "pass"
+            },
+            "blue_sari": {
+              "status": "pass"
+            },
+            "no_tali": {
+              "status": "pass"
+            },
+            "detail_tile_count": {
+              "status": "fail",
+              "notes": "Six detail tiles appear, including both JHUMKA EARRINGS and GOLD ARMLET."
+            }
+          },
+          "reason": "Rejected because the image kept six detail tiles despite the five tile instruction.",
+          "prompt_sha256": "12f70dac7c0416eb9536dc1d6aeb9d4326aae4a916d781106b240b7629083fb6",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "12afac9e340ec4c4c2eb7c52b88e13fa27f3f273cb563d63a7915c94827a7164",
+          "number": 3
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15d.txt",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "fail",
+              "notes": "WHITE SILK swatch is stale against fully blue sari. INDIGO SILK and GOLD ZARI are accurate."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "deep_blue_gold": {
+              "status": "pass",
+              "notes": "Deep blue sari with gold throughout."
+            },
+            "jasmine_braid": {
+              "status": "pass",
+              "notes": "Black braid with jasmine retained."
+            },
+            "flat_coin_necklace": {
+              "status": "pass",
+              "notes": "Flat coins visible, no tali."
+            },
+            "gold_armlets": {
+              "status": "pass",
+              "notes": "Separate gold upper-arm ornaments and dedicated fifth detail are clear."
+            },
+            "sandalwood_hairline": {
+              "status": "fail",
+              "notes": "Root cannot confidently resolve mark; independent reviewer sees subtle ochre line. Held for author assessment, not asserted absent."
+            }
+          },
+          "reason": "Selected for armlet and five tile compliance, with palette caption mismatch recorded for author review.",
+          "prompt_sha256": "78655a95e6df77e0c995c6b4751fae75d83f26b2b22d14f7b95aa68205aa119d",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+          "number": 4
+        },
+        {
+          "number": 5,
+          "character": "Revathi Bayi",
+          "edit_input": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+          "edit_input_sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+          "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15e.png",
+          "output_sha256": "b485fca3a0ef36342d513ac6950a5dc333c304c7be0f6bb82813f99c9160d768",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15e.txt",
+          "prompt_sha256": "52af17342e466a132371102d985acb224926efb7d2a77eb4d571461db33c06b2",
+          "prompt_saved_before_generation": true,
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+            },
+            "hair_and_pose_preserved": {
+              "status": "pass",
+              "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No new anatomy, costume, identity or layout defect observed."
+            },
+            "no_em_or_en_dashes": {
+              "status": "pass",
+              "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+            },
+            "deep_blue_caption": {
+              "status": "pass",
+              "notes": "Third palette caption reads DEEP BLUE; other labels remain unchanged."
+            },
+            "pale_palette_swatch_preserved": {
+              "status": "fail",
+              "notes": "Third swatch changed from pale ivory to blue."
+            },
+            "sandalwood_hairline": {
+              "status": "pass",
+              "notes": "Thin pale sandalwood stroke clearly visible at the hairline in the large 3/4 view and all six expressions."
+            },
+            "hairline_3_4_view": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_neutral": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_happy": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_surprised": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_worried": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_sad": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_determined": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "detail_insets_preserved": {
+              "status": "fail",
+              "notes": "EYES & BROW gained an unrequested sandalwood stripe."
+            },
+            "deep_blue_gold": {
+              "status": "pass",
+              "notes": "Deep blue sari and gold borders preserved."
+            },
+            "jasmine_braid": {
+              "status": "pass",
+              "notes": "Black braid and jasmine preserved."
+            },
+            "flat_coin_necklace": {
+              "status": "pass",
+              "notes": "Flat coins preserved; no tali."
+            },
+            "gold_armlets": {
+              "status": "pass",
+              "notes": "Separate gold upper-arm ornaments and fifth detail preserved."
+            },
+            "only_requested_changes": {
+              "status": "fail",
+              "notes": "Palette swatch colour and second detail changed outside the requested regions."
+            }
+          },
+          "reason": "Rejected: requested edits present, but swatch colour and EYES & BROW changed outside scope. One retry authorized and used.",
+          "review_status": "hold",
+          "reviewers": [
+            "Codex root",
+            "independent followup_review"
+          ],
+          "author_approval": "pending",
+          "round": "r2",
+          "round_attempt": 1
+        },
+        {
+          "number": 6,
+          "character": "Revathi Bayi",
+          "edit_input": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+          "edit_input_sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+          "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15f.png",
+          "output_sha256": "f6676adafc6cc5c8c977ac0c2c7b55236e681cee1c9ae328dae73171ab9a3e3b",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15f.txt",
+          "prompt_sha256": "6dc251920b087902875329530cfadc837b6b5b61a152578d9585106939cacf0c",
+          "prompt_saved_before_generation": true,
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+            },
+            "hair_and_pose_preserved": {
+              "status": "pass",
+              "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No new anatomy, costume, identity or layout defect observed."
+            },
+            "no_em_or_en_dashes": {
+              "status": "pass",
+              "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+            },
+            "deep_blue_caption": {
+              "status": "pass",
+              "notes": "Third palette caption reads DEEP BLUE; other labels remain unchanged."
+            },
+            "pale_palette_swatch_preserved": {
+              "status": "pass",
+              "notes": "The original pale ivory third swatch is retained, as required by the caption-only instruction."
+            },
+            "sandalwood_hairline": {
+              "status": "pass",
+              "notes": "Thin pale sandalwood stroke clearly visible at the hairline in the large 3/4 view and all six expressions."
+            },
+            "hairline_3_4_view": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_neutral": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_happy": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_surprised": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_worried": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_sad": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "hairline_determined": {
+              "status": "pass",
+              "notes": "Visible narrow pale line touching black hairline."
+            },
+            "detail_insets_preserved": {
+              "status": "pass",
+              "notes": "All five detail insets preserved; EYES & BROW has no added stripe."
+            },
+            "deep_blue_gold": {
+              "status": "pass",
+              "notes": "Deep blue sari and gold borders preserved."
+            },
+            "jasmine_braid": {
+              "status": "pass",
+              "notes": "Black braid and jasmine preserved."
+            },
+            "flat_coin_necklace": {
+              "status": "pass",
+              "notes": "Flat coins preserved; no tali."
+            },
+            "gold_armlets": {
+              "status": "pass",
+              "notes": "Separate gold upper-arm ornaments and fifth detail preserved."
+            },
+            "only_requested_changes": {
+              "status": "pass",
+              "notes": "Only palette caption and seven requested hairline marks changed materially on visual comparison."
+            }
+          },
+          "reason": "Selected after one retry: both scope deviations corrected and requested seven hairlines visible.",
+          "review_status": "pass",
+          "reviewers": [
+            "Codex root",
+            "independent followup_review"
+          ],
+          "author_approval": "pending",
+          "round": "r2",
+          "round_attempt": 2
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/03-05-review-v15.json",
+          "sha256": "605640f0f9a5cc392a38946ace5bff56e12d5c89f11ca8dd9c1719e7b29efa7d"
+        },
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/05-revathi-review-v15b.json",
+          "sha256": "6402896b6134ba34d388d1f1a12b8a29b07768b889a5fb09df17d281f8a7c6c5"
+        },
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/FOLLOWUP-REVIEW-r2.json",
+          "sha256": "d6e529d305c9e18c0b4ac58dac107f1de627464f5752d6237af99df02969720e"
+        }
+      ],
+      "edit_input": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+      "edit_input_sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+      "followup_round": {
+        "revision": "r2",
+        "previous_selection": {
+          "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+          "output_sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+          "review_status": "hold"
+        },
+        "attempt_count": 2,
+        "retry_count": 1
+      }
+    },
+    {
+      "number": 6,
+      "character": "Eustachius De Lannoy",
+      "source_sheet": "output/character-model-sheets-v1/06-eustachius-de-lannoy.png",
+      "source_sha256": "58a7786439189bea48c1c8ea7bf1e65487d95e0109149684c27dbcc6acd8d698",
+      "output": "output/comic-v15-full-redo/concepts/06-eustachius-de-lannoy-v15b.png",
+      "output_sha256": "5ec2d7f5ba0fa49c593a3964f6af79bb0823e29fca9b9251cd257487013e513c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/06-eustachius-de-lannoy-v15b.txt",
+      "prompt_sha256": "f31661d61cd0e7e6ec1924a4518a708486253f1983adb5e193903df79e4e21ff",
+      "changes": "Pale hair and plain white tunic-coat, ankle-length white mundu and sandals replace Dutch uniform.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "tall_pale_hair": {
+          "status": "pass",
+          "notes": "Tall source figure and pale ash-blond hair across all views."
+        },
+        "main_costume": {
+          "status": "pass",
+          "notes": "Plain white cotton tunic-coat, white ankle-length mundu, sandals."
+        },
+        "no_dutch_coat": {
+          "status": "pass",
+          "notes": "Blue coat and obsolete costume captions removed."
+        }
+      },
+      "attempt_count": 2,
+      "generated_image_count": 2,
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/06-eustachius-de-lannoy-v15.png",
+          "checks": {
+            "layout": {
+              "status": "pass"
+            },
+            "face_identity": {
+              "status": "pass"
+            },
+            "tall_pale_hair": {
+              "status": "pass"
+            },
+            "white_tunic_coat": {
+              "status": "pass"
+            },
+            "white_ankle_length_mundu": {
+              "status": "pass"
+            },
+            "sandals": {
+              "status": "pass"
+            },
+            "no_dutch_blue_coat": {
+              "status": "pass"
+            },
+            "captions_readable_and_current": {
+              "status": "pass"
+            },
+            "four_turnarounds_six_expressions_five_details": {
+              "status": "pass"
+            },
+            "no_garbled_text_or_extra_people": {
+              "status": "pass"
+            },
+            "pale_hair": {
+              "status": "fail"
+            },
+            "plain_white_mundu_no_gold_border": {
+              "status": "fail"
+            }
+          },
+          "reason": "Hair remained copper brown and mundu had a gold border.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/06-eustachius-de-lannoy-v15.txt",
+          "prompt_sha256": "e1408678cc478da21aa1ddaf40e36fb61f3ffbb411439d96beb5492e382953fe",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "9a88f047b3c731fb5acdde50d9cc7176c53a95f844802e122b3941600ce1cff9",
+          "number": 1
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/06-eustachius-de-lannoy-v15b.png",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "tall_pale_hair": {
+              "status": "pass",
+              "notes": "Tall source figure and pale ash-blond hair across all views."
+            },
+            "main_costume": {
+              "status": "pass",
+              "notes": "Plain white cotton tunic-coat, white ankle-length mundu, sandals."
+            },
+            "no_dutch_coat": {
+              "status": "pass",
+              "notes": "Blue coat and obsolete costume captions removed."
+            }
+          },
+          "reason": "Targeted retry corrected hair colour and removed gold mundu border.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/06-eustachius-de-lannoy-v15b.txt",
+          "prompt_sha256": "f31661d61cd0e7e6ec1924a4518a708486253f1983adb5e193903df79e4e21ff",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "5ec2d7f5ba0fa49c593a3964f6af79bb0823e29fca9b9251cd257487013e513c",
+          "number": 2
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/06-09-review-v15.json",
+          "sha256": "7ce64db84a71ae18489e2ba85e954090dfeb389cd74c89bd960edc15ca093d42"
+        },
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/06-09-review-v15b.json",
+          "sha256": "2266a1fa81ab719385cd2e03d6835e8f7c302c18ae3b661a6e7680b247ff69d5"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "character": "Keshavrao",
+      "source_sheet": "output/character-model-sheets-v1/07-keshavrao.png",
+      "source_sha256": "67cda96c026a4087014ed379d8d7e9fa7a73d7a9d8848a97ff74fd3697942486",
+      "output": "output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+      "output_sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/07-keshavrao-v15c.txt",
+      "prompt_sha256": "02b0b1608d5e030cae814bacc1a5d80db94844fe9824a04e20b0c1567b561e44",
+      "changes": "Younger face, sparse faint moustache, narrow shoulders, hacked-short hair and grey-brown prisoner tunic; no ear stud.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "age_and_shoulders": {
+          "status": "pass",
+          "notes": "Teenage face with smoother forehead and narrow shoulders."
+        },
+        "short_hair_faint_moustache": {
+          "status": "pass",
+          "notes": "Hacked-short black hair and sparse upper-lip growth with skin visible."
+        },
+        "prisoner_costume": {
+          "status": "pass",
+          "notes": "Grey-brown ragged tunic, bare feet, no ear stud."
+        },
+        "distinct_from_nagoji": {
+          "status": "pass",
+          "notes": "No long curls, heavy curled moustache, stud or commander costume."
+        }
+      },
+      "attempt_count": 3,
+      "generated_image_count": 3,
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/07-keshavrao-v15.png",
+          "checks": {
+            "layout": {
+              "status": "fail"
+            },
+            "face_identity": {
+              "status": "pass"
+            },
+            "nineteen_narrow_shoulders": {
+              "status": "pass"
+            },
+            "faint_moustache": {
+              "status": "pass"
+            },
+            "grey_brown_prisoner_tunic": {
+              "status": "pass"
+            },
+            "no_ear_stud": {
+              "status": "pass"
+            },
+            "four_turnarounds_six_expressions": {
+              "status": "pass"
+            },
+            "five_details": {
+              "status": "fail"
+            },
+            "captions_readable_and_current": {
+              "status": "pass"
+            }
+          },
+          "reason": "Generated six detail close-ups instead of the required five.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/07-keshavrao-v15.txt",
+          "prompt_sha256": "5434ac326a31a236b2948afb06ef26343deeacb857ed4bc21db14f7e7c96be0d",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "b7fe98b47fae60b6ab77a52a612bccc1be74e391cd27803f744e5289aac7b5a6",
+          "number": 1
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/07-keshavrao-v15b.png",
+          "checks": {
+            "layout": {
+              "status": "pass"
+            },
+            "face_identity": {
+              "status": "pass"
+            },
+            "nineteen_narrow_shoulders": {
+              "status": "pass"
+            },
+            "faint_moustache": {
+              "status": "pass"
+            },
+            "grey_brown_prisoner_tunic": {
+              "status": "pass"
+            },
+            "no_ear_stud": {
+              "status": "pass"
+            },
+            "four_turnarounds_six_expressions": {
+              "status": "pass"
+            },
+            "five_details": {
+              "status": "pass"
+            },
+            "captions_readable_and_current": {
+              "status": "pass"
+            },
+            "no_garbled_text_or_extra_people": {
+              "status": "pass"
+            },
+            "adolescent_face": {
+              "status": "fail"
+            },
+            "sparse_wispy_moustache": {
+              "status": "fail"
+            },
+            "palette_tan_cotton_label": {
+              "status": "pass"
+            }
+          },
+          "reason": "Main portraits and detail moustache read too dense and adult, with deep forehead wrinkles.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/07-keshavrao-v15b.txt",
+          "prompt_sha256": "ee94fef32ba5933b1d8b1a8bba6fffa13980343e253380e86eefaeb31d82cff3",
+          "prompt_saved_before_generation": false,
+          "provenance_note": "Exact inline prompt recovered and saved afterward.",
+          "output_sha256": "0451b5309361e732a5920214f9248f29cd9a9b9688b173611f9738e24cda7753",
+          "number": 2
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "age_and_shoulders": {
+              "status": "pass",
+              "notes": "Teenage face with smoother forehead and narrow shoulders."
+            },
+            "short_hair_faint_moustache": {
+              "status": "pass",
+              "notes": "Hacked-short black hair and sparse upper-lip growth with skin visible."
+            },
+            "prisoner_costume": {
+              "status": "pass",
+              "notes": "Grey-brown ragged tunic, bare feet, no ear stud."
+            },
+            "distinct_from_nagoji": {
+              "status": "pass",
+              "notes": "No long curls, heavy curled moustache, stud or commander costume."
+            }
+          },
+          "reason": "Final authorized retry gives a younger face, sparse moustache with visible skin, correct TAN COTTON label, and exactly five details.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/07-keshavrao-v15c.txt",
+          "prompt_sha256": "02b0b1608d5e030cae814bacc1a5d80db94844fe9824a04e20b0c1567b561e44",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de",
+          "number": 3
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/06-09-review-v15.json",
+          "sha256": "7ce64db84a71ae18489e2ba85e954090dfeb389cd74c89bd960edc15ca093d42"
+        },
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/06-09-review-v15b.json",
+          "sha256": "2266a1fa81ab719385cd2e03d6835e8f7c302c18ae3b661a6e7680b247ff69d5"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "character": "Dhanaji",
+      "source_sheet": "output/character-model-sheets-v1/08-dhanaji.png",
+      "source_sha256": "d837d1fc93d28538ef084aa0041bc674acbf22b24b394c371b4c41b9a6d204ab",
+      "output": "output/comic-v15-full-redo/concepts/08-dhanaji-v15.png",
+      "output_sha256": "ef7c77526a047a645b5e652301767734ff60a82a317f67485d80fa42542a6834",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/08-dhanaji-v15.txt",
+      "prompt_sha256": "6ff48fef5f1df1a2ab209dcd15fccce855e9ae156172e1dc8afc4dc3f1fcbf1b",
+      "changes": "Short black beard, white pagdi, indigo quilted tunic and talwar; sash and brown vest removed.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "stocky_build": {
+          "status": "pass",
+          "notes": "Broad heavy torso retained."
+        },
+        "short_black_beard": {
+          "status": "pass",
+          "notes": "Short black beard present across all views."
+        },
+        "pagdi_and_tunic": {
+          "status": "pass",
+          "notes": "White Maratha pagdi and indigo quilted tunic throughout."
+        },
+        "no_sash": {
+          "status": "pass",
+          "notes": "Waist sash removed, no rust-red turban or brown vest."
+        },
+        "talwar": {
+          "status": "pass",
+          "notes": "Curved talwar and detail shown."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/08-dhanaji-v15.png",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "stocky_build": {
+              "status": "pass",
+              "notes": "Broad heavy torso retained."
+            },
+            "short_black_beard": {
+              "status": "pass",
+              "notes": "Short black beard present across all views."
+            },
+            "pagdi_and_tunic": {
+              "status": "pass",
+              "notes": "White Maratha pagdi and indigo quilted tunic throughout."
+            },
+            "no_sash": {
+              "status": "pass",
+              "notes": "Waist sash removed, no rust-red turban or brown vest."
+            },
+            "talwar": {
+              "status": "pass",
+              "notes": "Curved talwar and detail shown."
+            }
+          },
+          "reason": "Initial generation visually passed all requested checks.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/08-dhanaji-v15.txt",
+          "prompt_sha256": "6ff48fef5f1df1a2ab209dcd15fccce855e9ae156172e1dc8afc4dc3f1fcbf1b",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "ef7c77526a047a645b5e652301767734ff60a82a317f67485d80fa42542a6834",
+          "number": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/06-09-review-v15.json",
+          "sha256": "7ce64db84a71ae18489e2ba85e954090dfeb389cd74c89bd960edc15ca093d42"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "character": "Ibrahim Marakkar",
+      "source_sheet": "output/character-model-sheets-v1/09-ibrahim-marakkar.png",
+      "source_sha256": "4eb8d36548443f26bde82746633227e103c4dffde6f29e256a90d5263a02c91b",
+      "output": "output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+      "output_sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/09-ibrahim-marakkar-v15.txt",
+      "prompt_sha256": "a34b78e51770e6ed70fb7015b6bea25778ca55edd95f17992947f3f7183cb13b",
+      "changes": "Short coat and bulging vest pockets replace long coat; anatomical-left ear-to-jaw scar added.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "short_broad_build": {
+          "status": "pass",
+          "notes": "Compact broad stature retained."
+        },
+        "turban_beard": {
+          "status": "pass",
+          "notes": "White turban and short grey-flecked beard."
+        },
+        "left_scar": {
+          "status": "pass",
+          "notes": "Scar runs from anatomical left ear to jaw, on viewer right in frontal portraits."
+        },
+        "short_coat_vest": {
+          "status": "pass",
+          "notes": "Short coat over pale vest with bulging pockets, no long coat."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "short_broad_build": {
+              "status": "pass",
+              "notes": "Compact broad stature retained."
+            },
+            "turban_beard": {
+              "status": "pass",
+              "notes": "White turban and short grey-flecked beard."
+            },
+            "left_scar": {
+              "status": "pass",
+              "notes": "Scar runs from anatomical left ear to jaw, on viewer right in frontal portraits."
+            },
+            "short_coat_vest": {
+              "status": "pass",
+              "notes": "Short coat over pale vest with bulging pockets, no long coat."
+            }
+          },
+          "reason": "Initial generation visually passed all requested checks.",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/09-ibrahim-marakkar-v15.txt",
+          "prompt_sha256": "a34b78e51770e6ed70fb7015b6bea25778ca55edd95f17992947f3f7183cb13b",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470",
+          "number": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/06-09-review-v15.json",
+          "sha256": "7ce64db84a71ae18489e2ba85e954090dfeb389cd74c89bd960edc15ca093d42"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "character": "Father Duarte",
+      "source_sheet": "output/character-model-sheets-v1/10-father-duarte.png",
+      "source_sha256": "84230ef3899102121ef3e9d604d4031408618914c3f355219b4bca77335adec8",
+      "output": "output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+      "output_sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/10-father-duarte-v15.txt",
+      "prompt_sha256": "08d93265712d1ab3fc0c859b6703377cdf095e0f6741038036483317252536e8",
+      "changes": "Chapter 1 face, swept grey hair, black standing collar, small cross and ink-stained hand; white collar and bald inset removed.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large full body, four opposite-direction turnarounds, six expressions, five details and palette preserved."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "face_from_approved_chapter1": {
+          "status": "pass",
+          "notes": "Gaunt long lined face, long nose, hollow cheeks and swept grey side curls match selected Chapter 1 close portraits."
+        },
+        "age_build_hair_eyes": {
+          "status": "pass",
+          "notes": "Man in his fifties, thin stooped build, grey tired eyes and swept grey hair without bald crown."
+        },
+        "black_cassock_plain_standing_collar": {
+          "status": "pass",
+          "notes": "Black collar across large view, four turnarounds, six expressions and collar detail. No white tab or edging."
+        },
+        "small_cross_thin_chain": {
+          "status": "pass",
+          "notes": "Small plain cross on thin chain present wherever chest is visible."
+        },
+        "hands": {
+          "status": "pass",
+          "notes": "Ink-stained right hand rendered in main pose and dedicated detail. Callused texture visible."
+        },
+        "text": {
+          "status": "pass",
+          "notes": "Header and all captions readable. Swept hair and black collar replace obsolete captions."
+        },
+        "no_new_defects": {
+          "status": "pass",
+          "notes": "No extra limbs, unrelated characters or visible anachronistic collar."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "number": 1,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/10-father-duarte-v15.txt",
+          "prompt_sha256": "08d93265712d1ab3fc0c859b6703377cdf095e0f6741038036483317252536e8",
+          "output": "output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+          "status": "visual_review_pass",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large full body, four opposite-direction turnarounds, six expressions, five details and palette preserved."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "face_from_approved_chapter1": {
+              "status": "pass",
+              "notes": "Gaunt long lined face, long nose, hollow cheeks and swept grey side curls match selected Chapter 1 close portraits."
+            },
+            "age_build_hair_eyes": {
+              "status": "pass",
+              "notes": "Man in his fifties, thin stooped build, grey tired eyes and swept grey hair without bald crown."
+            },
+            "black_cassock_plain_standing_collar": {
+              "status": "pass",
+              "notes": "Black collar across large view, four turnarounds, six expressions and collar detail. No white tab or edging."
+            },
+            "small_cross_thin_chain": {
+              "status": "pass",
+              "notes": "Small plain cross on thin chain present wherever chest is visible."
+            },
+            "hands": {
+              "status": "pass",
+              "notes": "Ink-stained right hand rendered in main pose and dedicated detail. Callused texture visible."
+            },
+            "text": {
+              "status": "pass",
+              "notes": "Header and all captions readable. Swept hair and black collar replace obsolete captions."
+            },
+            "no_new_defects": {
+              "status": "pass",
+              "notes": "No extra limbs, unrelated characters or visible anachronistic collar."
+            }
+          },
+          "prompt_saved_before_generation": true,
+          "output_sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453"
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/root-10-11-16-17-v15.json",
+          "sha256": "b87e97bfd72bad1ad79a206ff2424a8845923467948e7bce1b7ccd695fd5b3a4"
+        }
+      ],
+      "supporting_face_references": [
+        {
+          "id": "page-02-panel-02",
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-02-panel-02-v15-r1.png",
+          "sha256": "6227b3de6788a0c94fe3b97258c13763d788c62d567a4d926195fa3e50285db2"
+        },
+        {
+          "id": "page-06-panel-01",
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-06-panel-01-v15-r1.png",
+          "sha256": "234059f27019addee4cbef8ee190172901bfeb125713c61141587294ab84ef80"
+        },
+        {
+          "id": "page-08-panel-02",
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-08-panel-02-v15-r1.png",
+          "sha256": "6dea2aa81ad6109b47096d9aeb7cbc822bd2243d35fc43c50c0843b3ea589802"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "character": "Joao",
+      "source_sheet": "output/character-model-sheets-v1/11-joao.png",
+      "source_sha256": "7a2f0d2db9e54560cd4dfad2800ed5006ac053da4900707abe481e3b62268983",
+      "output": "output/comic-v15-full-redo/concepts/11-joao-v15.png",
+      "output_sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/11-joao-v15.txt",
+      "prompt_sha256": "025ac376fe9c06c09c4bdf7de51701f08ddb21148c5fa0fe14b92944337267b5",
+      "changes": "Approved Chapter 1 bearded face; brown leather jerkin, cream shirt, wide belt and iron keys.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Source layout retains complete figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "face_from_approved_chapter1": {
+          "status": "pass",
+          "notes": "Heavy ruddy Portuguese face with full short dark beard, moustache, high forehead and swept dark curls, distinct from priest."
+        },
+        "build": {
+          "status": "pass",
+          "notes": "Broad shoulders, thick torso and heavy-set stature retained."
+        },
+        "costume": {
+          "status": "pass",
+          "notes": "Worn brown leather jerkin over cream shirt; diamond quilting removed. Wide belt."
+        },
+        "iron_keys": {
+          "status": "pass",
+          "notes": "Dark metal key ring and iron keys with highlights shown on belt and detail."
+        },
+        "not_a_priest": {
+          "status": "pass",
+          "notes": "No cassock, clerical collar or cross."
+        },
+        "text": {
+          "status": "pass",
+          "notes": "JOAO and material labels readable, leather and iron captions correct."
+        },
+        "no_new_defects": {
+          "status": "pass",
+          "notes": "Source lantern retained in Goa setting, anatomy coherent."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "number": 1,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/11-joao-v15.txt",
+          "prompt_sha256": "025ac376fe9c06c09c4bdf7de51701f08ddb21148c5fa0fe14b92944337267b5",
+          "output": "output/comic-v15-full-redo/concepts/11-joao-v15.png",
+          "status": "visual_review_pass",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Source layout retains complete figure, four turnarounds, six expressions, five details and palette."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "face_from_approved_chapter1": {
+              "status": "pass",
+              "notes": "Heavy ruddy Portuguese face with full short dark beard, moustache, high forehead and swept dark curls, distinct from priest."
+            },
+            "build": {
+              "status": "pass",
+              "notes": "Broad shoulders, thick torso and heavy-set stature retained."
+            },
+            "costume": {
+              "status": "pass",
+              "notes": "Worn brown leather jerkin over cream shirt; diamond quilting removed. Wide belt."
+            },
+            "iron_keys": {
+              "status": "pass",
+              "notes": "Dark metal key ring and iron keys with highlights shown on belt and detail."
+            },
+            "not_a_priest": {
+              "status": "pass",
+              "notes": "No cassock, clerical collar or cross."
+            },
+            "text": {
+              "status": "pass",
+              "notes": "JOAO and material labels readable, leather and iron captions correct."
+            },
+            "no_new_defects": {
+              "status": "pass",
+              "notes": "Source lantern retained in Goa setting, anatomy coherent."
+            }
+          },
+          "prompt_saved_before_generation": true,
+          "output_sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a"
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/root-10-11-16-17-v15.json",
+          "sha256": "b87e97bfd72bad1ad79a206ff2424a8845923467948e7bce1b7ccd695fd5b3a4"
+        }
+      ],
+      "supporting_face_references": [
+        {
+          "id": "page-02-panel-01",
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-02-panel-01-v15-r1.png",
+          "sha256": "c86b7eba88197e81ae81442859dfed167916d473345cd21f5efb7788f961460a"
+        },
+        {
+          "id": "page-02-panel-02",
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-02-panel-02-v15-r1.png",
+          "sha256": "6227b3de6788a0c94fe3b97258c13763d788c62d567a4d926195fa3e50285db2"
+        },
+        {
+          "id": "page-04-panel-02",
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-04-panel-02-v15-r1.png",
+          "sha256": "6664f78ddc5dd75fef71b8235bbc50c12943ff48e82d1a22bec4a059646c0f46"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "character": "Karl August",
+      "source_sheet": "output/character-model-sheets-v1/12-karl-august.png",
+      "source_sha256": "8516bca3c60c75c152f9b6ee232939f2434cc83d2b7aed8890cbbd1d83c912df",
+      "output": "output/comic-v15-full-redo/concepts/12-karl-august-v15.png",
+      "output_sha256": "7062897d657b57ea60096f3ce4a4fbc4d818efff70e261a72b0b7741dbbfae4a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/12-karl-august-v15.txt",
+      "prompt_sha256": "f550d8944d0e5557e2a268ed6fb52ad93340bd6ce3f0fe29601f4027de89f469",
+      "changes": "Cropped greying hair, pale sickly-yellow complexion and rough cotton shirt.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "pale_yellow_cast": {
+          "status": "pass",
+          "notes": "Sickly-yellow pale complexion replaces bronze skin."
+        },
+        "cropped_greying_hair": {
+          "status": "pass",
+          "notes": "Cropped grey-brown hair across main figure, portraits and hair detail."
+        },
+        "rough_cotton": {
+          "status": "pass",
+          "notes": "Rough cotton shirt and material captions corrected."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "pale_yellow_cast": {
+              "status": "pass",
+              "notes": "Sickly-yellow pale complexion replaces bronze skin."
+            },
+            "cropped_greying_hair": {
+              "status": "pass",
+              "notes": "Cropped grey-brown hair across main figure, portraits and hair detail."
+            },
+            "rough_cotton": {
+              "status": "pass",
+              "notes": "Rough cotton shirt and material captions corrected."
+            }
+          },
+          "reason": "initial edit passed visual review",
+          "output": "output/comic-v15-full-redo/concepts/12-karl-august-v15.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/12-karl-august-v15.txt",
+          "prompt_sha256": "f550d8944d0e5557e2a268ed6fb52ad93340bd6ce3f0fe29601f4027de89f469",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "7062897d657b57ea60096f3ce4a4fbc4d818efff70e261a72b0b7741dbbfae4a",
+          "number": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/12-15-review-v15.json",
+          "sha256": "7fe19f9de17db6eeca52a2aec24134323f73528021c90f94e932a9cb693b8195"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "character": "Raza Khan",
+      "source_sheet": "output/character-model-sheets-v1/13-raza-khan-v2.png",
+      "source_sha256": "c919eef236b5f8a01493b839fc2d519e8bcaf245647cef827d92983583f26e04",
+      "output": "output/comic-v15-full-redo/concepts/13-raza-khan-v15.png",
+      "output_sha256": "0f9dd5d1036950a3db8db1cf2bc7c81ed06cc8533ba0aaeed51675db5cad4a83",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/13-raza-khan-v15.txt",
+      "prompt_sha256": "d91d988ee6192c967855f545c36a02d05763ef9ece5747ebd66d7e4517c77072",
+      "changes": "V2 face retained with lean hawk-nosed identity, pointed moustache, green turban and anatomical-left cheek scar checked.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "lean_hawk_nose": {
+          "status": "pass",
+          "notes": "Lean face and hawk nose retained."
+        },
+        "pointed_moustache": {
+          "status": "pass",
+          "notes": "Pointed moustache and existing v2 facial identity retained."
+        },
+        "anatomical_left_scar": {
+          "status": "pass",
+          "notes": "Left cheek scar; absent from right profile and present on left-facing profile."
+        },
+        "green_turban_lancer": {
+          "status": "pass",
+          "notes": "Green wrapped turban and lancer equipment retained from specified v2 base."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "lean_hawk_nose": {
+              "status": "pass",
+              "notes": "Lean face and hawk nose retained."
+            },
+            "pointed_moustache": {
+              "status": "pass",
+              "notes": "Pointed moustache and existing v2 facial identity retained."
+            },
+            "anatomical_left_scar": {
+              "status": "pass",
+              "notes": "Left cheek scar; absent from right profile and present on left-facing profile."
+            },
+            "green_turban_lancer": {
+              "status": "pass",
+              "notes": "Green wrapped turban and lancer equipment retained from specified v2 base."
+            }
+          },
+          "reason": "initial edit passed visual review",
+          "output": "output/comic-v15-full-redo/concepts/13-raza-khan-v15.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/13-raza-khan-v15.txt",
+          "prompt_sha256": "d91d988ee6192c967855f545c36a02d05763ef9ece5747ebd66d7e4517c77072",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "0f9dd5d1036950a3db8db1cf2bc7c81ed06cc8533ba0aaeed51675db5cad4a83",
+          "number": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/12-15-review-v15.json",
+          "sha256": "7fe19f9de17db6eeca52a2aec24134323f73528021c90f94e932a9cb693b8195"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "character": "Ponnan (Ponnam Pandya Deven)",
+      "source_sheet": "output/character-model-sheets-v1/14-ponnam-pandya-deven-v2.png",
+      "source_sha256": "b0c341f8a257f4d515506983057c5ed2887e78ba2cd2ec78f97a68d045c7b23c",
+      "output": "output/comic-v15-full-redo/concepts/14-ponnan-v15.png",
+      "output_sha256": "c46334bd0276c0043b1f8064d5cda6ce60551b25ed65a99f016a290b4ad76872",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/14-ponnan-v15.txt",
+      "prompt_sha256": "7d0c36387a1109ff8666d3e11af2b282adcf172d3909aeb5ad24194818da9c11",
+      "changes": "V2 face retained; red shoulder cloth, short jacket and white mundu hitched above bare knees.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "broad_curly_moustache": {
+          "status": "pass",
+          "notes": "Broad shoulders, curly hair, thick moustache and clean chin retained."
+        },
+        "red_cloth_short_jacket": {
+          "status": "pass",
+          "notes": "Red shoulder cloth and short jacket visible throughout."
+        },
+        "white_mundu_bare_knees": {
+          "status": "pass",
+          "notes": "White mundu hitched above knees, bare knees visible in all body views."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "broad_curly_moustache": {
+              "status": "pass",
+              "notes": "Broad shoulders, curly hair, thick moustache and clean chin retained."
+            },
+            "red_cloth_short_jacket": {
+              "status": "pass",
+              "notes": "Red shoulder cloth and short jacket visible throughout."
+            },
+            "white_mundu_bare_knees": {
+              "status": "pass",
+              "notes": "White mundu hitched above knees, bare knees visible in all body views."
+            }
+          },
+          "reason": "initial edit passed visual review",
+          "output": "output/comic-v15-full-redo/concepts/14-ponnan-v15.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/14-ponnan-v15.txt",
+          "prompt_sha256": "7d0c36387a1109ff8666d3e11af2b282adcf172d3909aeb5ad24194818da9c11",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "c46334bd0276c0043b1f8064d5cda6ce60551b25ed65a99f016a290b4ad76872",
+          "number": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/12-15-review-v15.json",
+          "sha256": "7fe19f9de17db6eeca52a2aec24134323f73528021c90f94e932a9cb693b8195"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "character": "Mathoo Tharakan",
+      "source_sheet": "output/character-model-sheets-v1/15-mathoo-tharakan.png",
+      "source_sha256": "af1532497eb73edd2884f0c460e48a628045130dd8e26ff135c71b3611657271",
+      "output": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15c.png",
+      "output_sha256": "8f123bf8f21d7d7b98f40889aa61c77bba87cfebf859aa50949f6b79d0b02ebf",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/15-mathoo-tharakan-v15c.txt",
+      "prompt_sha256": "b54c7cfa2d3eb479a7d7cee8c3fba9cd2eafad16ac5d23b6070348d1839a0bff",
+      "changes": "Fine grey moustache and grey receding hair clarified; white base cloth and gold cross retained.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "older_grey_receding": {
+          "status": "pass",
+          "notes": "Older source identity retained, receding hair more visibly grey."
+        },
+        "fine_grey_moustache": {
+          "status": "pass",
+          "notes": "Moustache thinner and grey in main figure and all expressions."
+        },
+        "gold_cross_white_cloth": {
+          "status": "pass",
+          "notes": "Gold cross and white base cloth retained, no later maroon costume."
+        }
+      },
+      "attempt_count": 3,
+      "generated_image_count": 3,
+      "attempts": [
+        {
+          "checks": {
+            "visual_review": {
+              "status": "pass"
+            },
+            "fine_grey_moustache": {
+              "status": "fail",
+              "notes": "Root found moustache too broad and dark; generator agreed to retry."
+            }
+          },
+          "reason": "initial edit passed visual review",
+          "output": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/15-mathoo-tharakan-v15.txt",
+          "prompt_sha256": "88254be852164ab850a08ca732ff2e1a580fd7d03150a458c7a8f8bb068c001f",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "7f58cfea43728ac0838119fec3e71df96e1204648149a452646cd7131a16bd0b",
+          "number": 1
+        },
+        {
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/15-mathoo-tharakan-v15b.txt",
+          "checks": {
+            "thin_fine_grey_moustache": {
+              "status": "pass"
+            },
+            "correct_detail_captions": {
+              "status": "fail"
+            },
+            "layout_and_identity": {
+              "status": "pass"
+            }
+          },
+          "reason": "moustache correction passed, but three detail captions regressed to SILVER HAIR, CROSS NECKLACE and IVORY CLOTH",
+          "output": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15b.png",
+          "prompt_sha256": "94c190fac4a0ecc62daea9dd44a8245391b71775012ef091c0e9f498cf1599e0",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "4f728cf36da9515d449ba1a5589619cffa7a7b8fdfb89573f8d2238dd112d0df",
+          "number": 2
+        },
+        {
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/15-mathoo-tharakan-v15c.txt",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "older_grey_receding": {
+              "status": "pass",
+              "notes": "Older source identity retained, receding hair more visibly grey."
+            },
+            "fine_grey_moustache": {
+              "status": "pass",
+              "notes": "Moustache thinner and grey in main figure and all expressions."
+            },
+            "gold_cross_white_cloth": {
+              "status": "pass",
+              "notes": "Gold cross and white base cloth retained, no later maroon costume."
+            }
+          },
+          "reason": "restored exact V15 captions while retaining the thinner grey moustache",
+          "output": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15c.png",
+          "prompt_sha256": "b54c7cfa2d3eb479a7d7cee8c3fba9cd2eafad16ac5d23b6070348d1839a0bff",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "8f123bf8f21d7d7b98f40889aa61c77bba87cfebf859aa50949f6b79d0b02ebf",
+          "number": 3
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/12-15-review-v15.json",
+          "sha256": "7fe19f9de17db6eeca52a2aec24134323f73528021c90f94e932a9cb693b8195"
+        },
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/15-mathoo-tharakan-review-v15b.json",
+          "sha256": "0a7cffbde00233882d32b1c26b562a5acea53a4962309185e15dcfa1ff767358"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "character": "The Senior Rani of Attingal",
+      "source_sheet": "output/character-model-sheets-v1/16-senior-rani.png",
+      "source_sha256": "53afe41945c859431aebc141d8b20ae19d1854e51e517b09fc9e25a637750f2b",
+      "output": "output/comic-v15-full-redo/concepts/16-senior-rani-v15.png",
+      "output_sha256": "118a5ae795f9c653ea870a9e0167d4ef521c1e6a65a506fc7f6782a2a9297bc8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/16-senior-rani-v15.txt",
+      "prompt_sha256": "8424b5d2a657915f83b564350a602767cc9a718c2e1d1f0d4c827b5426d99911",
+      "changes": "Smooth-faced sister with Varma family likeness, tall upright posture, severe dark bun, white cloth with narrow gold border and small earrings.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Existing five body views, six expressions, five details and palette retained."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "face_and_age": {
+          "status": "pass",
+          "notes": "Smooth adult face at Varma's court-age range, angular brow, nose and cheekbones plausibly express sibling likeness."
+        },
+        "posture": {
+          "status": "pass",
+          "notes": "Tall elongated figure, upright shoulders and cool expression."
+        },
+        "hair": {
+          "status": "pass",
+          "notes": "Black hair severely pulled back into bun in all views; no flowers or silver temple inset."
+        },
+        "costume": {
+          "status": "pass",
+          "notes": "White drape with narrow gold border, small ear ornaments, no heavy necklace."
+        },
+        "text": {
+          "status": "pass",
+          "notes": "Full correct name THE SENIOR RANI OF ATTINGAL, accurate role and updated detail captions."
+        },
+        "no_new_defects": {
+          "status": "pass",
+          "notes": "No regalia borrowed from Varma, no elderly face."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "number": 1,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/16-senior-rani-v15.txt",
+          "prompt_sha256": "8424b5d2a657915f83b564350a602767cc9a718c2e1d1f0d4c827b5426d99911",
+          "output": "output/comic-v15-full-redo/concepts/16-senior-rani-v15.png",
+          "status": "visual_review_pass",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Existing five body views, six expressions, five details and palette retained."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "face_and_age": {
+              "status": "pass",
+              "notes": "Smooth adult face at Varma's court-age range, angular brow, nose and cheekbones plausibly express sibling likeness."
+            },
+            "posture": {
+              "status": "pass",
+              "notes": "Tall elongated figure, upright shoulders and cool expression."
+            },
+            "hair": {
+              "status": "pass",
+              "notes": "Black hair severely pulled back into bun in all views; no flowers or silver temple inset."
+            },
+            "costume": {
+              "status": "pass",
+              "notes": "White drape with narrow gold border, small ear ornaments, no heavy necklace."
+            },
+            "text": {
+              "status": "pass",
+              "notes": "Full correct name THE SENIOR RANI OF ATTINGAL, accurate role and updated detail captions."
+            },
+            "no_new_defects": {
+              "status": "pass",
+              "notes": "No regalia borrowed from Varma, no elderly face."
+            }
+          },
+          "prompt_saved_before_generation": true,
+          "output_sha256": "118a5ae795f9c653ea870a9e0167d4ef521c1e6a65a506fc7f6782a2a9297bc8"
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/root-10-11-16-17-v15.json",
+          "sha256": "b87e97bfd72bad1ad79a206ff2424a8845923467948e7bce1b7ccd695fd5b3a4"
+        }
+      ],
+      "supporting_face_references": [
+        {
+          "path": "output/comic-v13-reference-redesign-v1/concepts/varma-v1.png",
+          "sha256": "f8b31d7d12fb713008c98850e453d085b48bd1f5489f40bd6c98621271ceba8b",
+          "role": "family resemblance only"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "character": "The Young Heir",
+      "source_sheet": "output/character-model-sheets-v1/17-young-heir.png",
+      "source_sha256": "ff3a41094088faaa02f5b1b84242b72d0ddb296c244f765facaf91b64d7acd0e",
+      "output": "output/comic-v15-full-redo/concepts/17-young-heir-v15b.png",
+      "output_sha256": "d1ab47bbe6f0720434ca1d6304441b355d59c213bda38f16b3436186cbecb346",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/17-young-heir-v15b.txt",
+      "prompt_sha256": "ba0c8e59358c0ed90750db117328001f360cf421a61a1135cbacab50a5654488",
+      "changes": "Ten-year-old face retained with small neat topknot, bare chest, plain white mundu and thin gold chain.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Complete source sheet layout with four turnarounds, six expressions and five details."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "face_and_age": {
+          "status": "pass",
+          "notes": "Recognisable old child face, about ten, wide watchful eyes, high cheekbones with subtle family resemblance. Child proportions."
+        },
+        "topknot": {
+          "status": "pass",
+          "notes": "Small neat black topknot throughout full figures and expressions. Head detail shows knot rather than loose curls."
+        },
+        "costume": {
+          "status": "pass",
+          "notes": "Bare chest, plain clean white mundu without gold edging or shoulder cloth, thin gold chain, barefoot."
+        },
+        "text": {
+          "status": "pass",
+          "notes": "Correct name and current role Varma's nephew. Readable updated captions."
+        },
+        "no_new_defects": {
+          "status": "pass",
+          "notes": "Source fine pale forehead mark retained. No weapons, adult regalia or facial hair."
+        }
+      },
+      "attempt_count": 2,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "number": 1,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/17-young-heir-v15.txt",
+          "prompt_sha256": "5827f58cdf32d7056102e596763faff2588fd168939f5755c2f4f362016a8447",
+          "output": null,
+          "status": "tool_rejected",
+          "error": {
+            "code": "moderation_blocked",
+            "stage": "output",
+            "category": "other",
+            "request_id": "c4614eaa-0835-459a-9869-8765ebebd9de"
+          },
+          "checks": {
+            "generation_completed": {
+              "status": "fail"
+            }
+          },
+          "reason": "No image produced by first tool call.",
+          "prompt_saved_before_generation": true
+        },
+        {
+          "number": 2,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/17-young-heir-v15b.txt",
+          "prompt_sha256": "ba0c8e59358c0ed90750db117328001f360cf421a61a1135cbacab50a5654488",
+          "output": "output/comic-v15-full-redo/concepts/17-young-heir-v15b.png",
+          "status": "visual_review_pass",
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Complete source sheet layout with four turnarounds, six expressions and five details."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "face_and_age": {
+              "status": "pass",
+              "notes": "Recognisable old child face, about ten, wide watchful eyes, high cheekbones with subtle family resemblance. Child proportions."
+            },
+            "topknot": {
+              "status": "pass",
+              "notes": "Small neat black topknot throughout full figures and expressions. Head detail shows knot rather than loose curls."
+            },
+            "costume": {
+              "status": "pass",
+              "notes": "Bare chest, plain clean white mundu without gold edging or shoulder cloth, thin gold chain, barefoot."
+            },
+            "text": {
+              "status": "pass",
+              "notes": "Correct name and current role Varma's nephew. Readable updated captions."
+            },
+            "no_new_defects": {
+              "status": "pass",
+              "notes": "Source fine pale forehead mark retained. No weapons, adult regalia or facial hair."
+            }
+          },
+          "prompt_saved_before_generation": true,
+          "output_sha256": "d1ab47bbe6f0720434ca1d6304441b355d59c213bda38f16b3436186cbecb346"
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/root-10-11-16-17-v15.json",
+          "sha256": "b87e97bfd72bad1ad79a206ff2424a8845923467948e7bce1b7ccd695fd5b3a4"
+        }
+      ],
+      "supporting_face_references": [
+        {
+          "path": "output/comic-v13-reference-redesign-v1/concepts/varma-v1.png",
+          "sha256": "f8b31d7d12fb713008c98850e453d085b48bd1f5489f40bd6c98621271ceba8b",
+          "role": "family resemblance only"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "character": "Savitri of Kottarakkara",
+      "source_sheet": "output/character-model-sheets-v1/18-savitri.png",
+      "source_sha256": "d63bfadb38ac2752872feac5b8bf5aabcf06766f0d39636019487d22d77d9f11",
+      "output": "output/comic-v15-full-redo/concepts/18-savitri-v15b.png",
+      "output_sha256": "4d29b5bee873d09bcbfd8b745dd0b6dc7dabcc02a6ae0edea43d7202b0c4a8bd",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/18-savitri-v15b.txt",
+      "prompt_sha256": "fb7237c9a424780cc20a0731628e9c1d9c2f12cdb3998ebabe2eb37c172e1fbe",
+      "changes": "Bindi and all jewellery removed from every view and detail; fifth inset now PLAIN WHITE shoulder cloth. Obsolete gold palette cue now CLOTH SHADOW. Careworn face, hair, pose and white mourning clothes retained.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+        },
+        "hair_and_pose_preserved": {
+          "status": "pass",
+          "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No new anatomy, costume, identity or layout defect observed."
+        },
+        "no_em_or_en_dashes": {
+          "status": "pass",
+          "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+        },
+        "bindi_removed_3_4_view": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_turnarounds": {
+          "status": "pass",
+          "notes": "All visible turnaround foreheads unmarked."
+        },
+        "bindi_removed_neutral": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_happy": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_surprised": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_worried": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_sad": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_determined": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_details": {
+          "status": "pass",
+          "notes": "Visible face detail forehead unmarked; replacement cloth detail has no face."
+        },
+        "no_earrings": {
+          "status": "pass",
+          "notes": "No earrings in the main figure, turnarounds, expressions, FACE PROFILE or GATHERED HAIR details."
+        },
+        "no_chain": {
+          "status": "pass",
+          "notes": "No chain or necklace in any view or detail."
+        },
+        "no_other_jewellery": {
+          "status": "pass",
+          "notes": "Bangles removed from main figure and turnarounds; ears, necks and wrists unadorned."
+        },
+        "plain_white_detail": {
+          "status": "pass",
+          "notes": "Fifth detail replaced with plain white shoulder cloth, captioned PLAIN WHITE."
+        },
+        "palette_current": {
+          "status": "pass",
+          "notes": "Obsolete MUTED GOLD swatch replaced with neutral CLOTH SHADOW under the standing stale-caption rule."
+        },
+        "older_careworn_face": {
+          "status": "pass",
+          "notes": "Careworn facial features retained."
+        },
+        "white_mourning": {
+          "status": "pass",
+          "notes": "Plain white mourning sari and blouse retained, with no coloured trim or jewellery."
+        },
+        "only_requested_changes": {
+          "status": "pass",
+          "notes": "Mourning marks and ornaments removed; obsolete jewellery detail and associated gold palette cue replaced. Face, hair, pose and white clothing preserved."
+        }
+      },
+      "attempt_count": 2,
+      "generated_image_count": 2,
+      "attempts": [
+        {
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "older_careworn_face": {
+              "status": "pass",
+              "notes": "Source mature careworn face retained."
+            },
+            "white_mourning": {
+              "status": "pass",
+              "notes": "Plain white mourning outfit replaces crimson in all full views, portraits and details."
+            }
+          },
+          "reasons": [],
+          "output": "output/comic-v15-full-redo/concepts/18-savitri-v15.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/18-savitri-v15.txt",
+          "prompt_sha256": "5bc827c90b2411d428dfa125c616d45513d136a32041a5beabd053eed158338f",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "cd002c389ba33272054e73a592b8be84931bf3ab89b5dfa573d47857633c8df4",
+          "number": 1
+        },
+        {
+          "number": 2,
+          "character": "Savitri of Kottarakkara",
+          "edit_input": "output/comic-v15-full-redo/concepts/18-savitri-v15.png",
+          "edit_input_sha256": "cd002c389ba33272054e73a592b8be84931bf3ab89b5dfa573d47857633c8df4",
+          "output": "output/comic-v15-full-redo/concepts/18-savitri-v15b.png",
+          "output_sha256": "4d29b5bee873d09bcbfd8b745dd0b6dc7dabcc02a6ae0edea43d7202b0c4a8bd",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/18-savitri-v15b.txt",
+          "prompt_sha256": "fb7237c9a424780cc20a0731628e9c1d9c2f12cdb3998ebabe2eb37c172e1fbe",
+          "prompt_saved_before_generation": true,
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+            },
+            "hair_and_pose_preserved": {
+              "status": "pass",
+              "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No new anatomy, costume, identity or layout defect observed."
+            },
+            "no_em_or_en_dashes": {
+              "status": "pass",
+              "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+            },
+            "bindi_removed_3_4_view": {
+              "status": "pass",
+              "notes": "Forehead unmarked."
+            },
+            "bindi_removed_turnarounds": {
+              "status": "pass",
+              "notes": "All visible turnaround foreheads unmarked."
+            },
+            "bindi_removed_neutral": {
+              "status": "pass",
+              "notes": "Forehead unmarked."
+            },
+            "bindi_removed_happy": {
+              "status": "pass",
+              "notes": "Forehead unmarked."
+            },
+            "bindi_removed_surprised": {
+              "status": "pass",
+              "notes": "Forehead unmarked."
+            },
+            "bindi_removed_worried": {
+              "status": "pass",
+              "notes": "Forehead unmarked."
+            },
+            "bindi_removed_sad": {
+              "status": "pass",
+              "notes": "Forehead unmarked."
+            },
+            "bindi_removed_determined": {
+              "status": "pass",
+              "notes": "Forehead unmarked."
+            },
+            "bindi_removed_details": {
+              "status": "pass",
+              "notes": "Visible face detail forehead unmarked; replacement cloth detail has no face."
+            },
+            "no_earrings": {
+              "status": "pass",
+              "notes": "No earrings in the main figure, turnarounds, expressions, FACE PROFILE or GATHERED HAIR details."
+            },
+            "no_chain": {
+              "status": "pass",
+              "notes": "No chain or necklace in any view or detail."
+            },
+            "no_other_jewellery": {
+              "status": "pass",
+              "notes": "Bangles removed from main figure and turnarounds; ears, necks and wrists unadorned."
+            },
+            "plain_white_detail": {
+              "status": "pass",
+              "notes": "Fifth detail replaced with plain white shoulder cloth, captioned PLAIN WHITE."
+            },
+            "palette_current": {
+              "status": "pass",
+              "notes": "Obsolete MUTED GOLD swatch replaced with neutral CLOTH SHADOW under the standing stale-caption rule."
+            },
+            "older_careworn_face": {
+              "status": "pass",
+              "notes": "Careworn facial features retained."
+            },
+            "white_mourning": {
+              "status": "pass",
+              "notes": "Plain white mourning sari and blouse retained, with no coloured trim or jewellery."
+            },
+            "only_requested_changes": {
+              "status": "pass",
+              "notes": "Mourning marks and ornaments removed; obsolete jewellery detail and associated gold palette cue replaced. Face, hair, pose and white clothing preserved."
+            }
+          },
+          "reason": "Selected: all bindi and jewellery removed, PLAIN WHITE detail and cloth-shadow palette cue current.",
+          "review_status": "pass",
+          "reviewers": [
+            "Codex root",
+            "independent followup_review"
+          ],
+          "author_approval": "pending",
+          "round": "r2",
+          "round_attempt": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/18-19-review-v15.json",
+          "sha256": "0493048a7169429a3d8c78c7680d88edb6ec8009793aa95cad884185f7ab6d5a"
+        },
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/FOLLOWUP-REVIEW-r2.json",
+          "sha256": "d6e529d305c9e18c0b4ac58dac107f1de627464f5752d6237af99df02969720e"
+        }
+      ],
+      "edit_input": "output/comic-v15-full-redo/concepts/18-savitri-v15.png",
+      "edit_input_sha256": "cd002c389ba33272054e73a592b8be84931bf3ab89b5dfa573d47857633c8df4",
+      "followup_round": {
+        "revision": "r2",
+        "previous_selection": {
+          "output": "output/comic-v15-full-redo/concepts/18-savitri-v15.png",
+          "output_sha256": "cd002c389ba33272054e73a592b8be84931bf3ab89b5dfa573d47857633c8df4",
+          "review_status": "pass"
+        },
+        "attempt_count": 1,
+        "retry_count": 0
+      }
+    },
+    {
+      "number": 19,
+      "character": "Kanka",
+      "source_sheet": "output/character-model-sheets-v1/19-kanka.png",
+      "source_sha256": "0e1df2fc82b7d1c066ef4c3f2acd483c85725f4b5ef07caff1e2992342f8727c",
+      "output": "output/comic-v15-full-redo/concepts/19-kanka-v15.png",
+      "output_sha256": "ad7ef9ce9481cedbca01195dcffaec122f8df8414b35756ed5086d6e6183996a",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/19-kanka-v15.txt",
+      "prompt_sha256": "cd22e097cdd69338df8955434367aa827f8efea3f91dbe3772aa6a590e324bd4",
+      "changes": "Black mare proportions and anatomy clarified while retaining face, mane, tack and expressive layout.",
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Source identity retained except requested face, age and hairstyle changes."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Native-resolution header and detail captions inspected."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+        },
+        "black_mare": {
+          "status": "pass",
+          "notes": "Black coat, mane and tail retained, no white markings."
+        },
+        "female_anatomy": {
+          "status": "pass",
+          "notes": "No stallion sheath or male anatomy visible; neck and trunk refined consistently."
+        },
+        "temper_and_identity": {
+          "status": "pass",
+          "notes": "Alert, spirited expressions and recognisable head retained."
+        }
+      },
+      "attempt_count": 1,
+      "generated_image_count": 1,
+      "attempts": [
+        {
+          "checks": {
+            "face_identity": {
+              "status": "pass",
+              "notes": "Source identity retained except requested face, age and hairstyle changes."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large figure, four turnarounds, six expressions, five details and colour palette present."
+            },
+            "text_readable_and_current": {
+              "status": "pass",
+              "notes": "Native-resolution header and detail captions inspected."
+            },
+            "no_new_visual_defects": {
+              "status": "pass",
+              "notes": "No extra characters, missing limbs or unrelated costume changes observed."
+            },
+            "black_mare": {
+              "status": "pass",
+              "notes": "Black coat, mane and tail retained, no white markings."
+            },
+            "female_anatomy": {
+              "status": "pass",
+              "notes": "No stallion sheath or male anatomy visible; neck and trunk refined consistently."
+            },
+            "temper_and_identity": {
+              "status": "pass",
+              "notes": "Alert, spirited expressions and recognisable head retained."
+            }
+          },
+          "reasons": [],
+          "output": "output/comic-v15-full-redo/concepts/19-kanka-v15.png",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/19-kanka-v15.txt",
+          "prompt_sha256": "cd22e097cdd69338df8955434367aa827f8efea3f91dbe3772aa6a590e324bd4",
+          "prompt_saved_before_generation": true,
+          "output_sha256": "ad7ef9ce9481cedbca01195dcffaec122f8df8414b35756ed5086d6e6183996a",
+          "number": 1
+        }
+      ],
+      "review_status": "pass",
+      "author_approval": "pending",
+      "review_records": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/reviews/18-19-review-v15.json",
+          "sha256": "0493048a7169429a3d8c78c7680d88edb6ec8009793aa95cad884185f7ab6d5a"
+        }
+      ]
+    }
+  ],
+  "selection_revision": "r2",
+  "previous_ledger": {
+    "path": "output/comic-v15-full-redo/concepts/SHEET-REVIEW.json",
+    "sha256": "5e4f3ff3762b72759d1aecae6e975f381287dfeaf62c77cdeaa36dd7be36a9c2"
+  },
+  "followup_round": {
+    "revision": "r2",
+    "newly_reviewed_sheets": [
+      4,
+      5,
+      18
+    ],
+    "unchanged_selections_carried_forward": 14,
+    "attempts": 4,
+    "generated_images": 4,
+    "process_deviations": [],
+    "review_path": "output/comic-v15-full-redo/concepts/reviews/FOLLOWUP-REVIEW-r2.json",
+    "review_sha256": "d6e529d305c9e18c0b4ac58dac107f1de627464f5752d6237af99df02969720e",
+    "records_versioning": "Requested existing records retained unchanged; updated versions use -r2 suffix to comply with no-overwrite instruction."
+  }
+}

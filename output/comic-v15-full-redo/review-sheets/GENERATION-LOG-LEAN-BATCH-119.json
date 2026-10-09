@@ -1,0 +1,99 @@
+[
+  {
+    "chapter": 6,
+    "package": "output/comic-v15-full-redo/chapters/ch06-split",
+    "id": "page-07-panel-01",
+    "mode": "edit",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch06-split/candidates/page-07-panel-01-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixr8-ch06/page-07-panel-01-composite.png",
+    "region_crops": [
+      {
+        "source_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch06-split/frames/page-07-panel-01-v01.png",
+        "source_box_xyxy_exclusive": [
+          240,
+          685,
+          530,
+          805
+        ],
+        "source_crop_size": [
+          290,
+          120
+        ],
+        "attached_crop_path": "/private/tmp/claude-501/fixr8-ch06/page-07-panel-01-crop.png",
+        "upscaled_size": [
+          1024,
+          424
+        ],
+        "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a1185f-012b-7e01-b646-4d918f36a0c9/exec-c1a1eadb-30ff-4934-9d12-a0c18bb38c82.png",
+        "output_region_xyxy_exclusive": [
+          0,
+          0,
+          1947,
+          808
+        ],
+        "output_was_full_scene": false,
+        "resize_filter": "LANCZOS",
+        "mask": "Solid centre with linear feather over 10 percent of each crop dimension; alpha zero at outer edge.",
+        "max_pixel_difference_outside_crop": 0,
+        "captured_max_pixel_difference_outside_crop": 0
+      }
+    ],
+    "notes": [
+      "No stray limbs, duplicated figures or obvious new seams observed during the limited compositing artifact check.",
+      "One imagegen edit call with verbatim prompt and only the designated crop attached. No rate limits, moderation refusals or retries.",
+      "No review, selection or builds; candidate remains visual_review pending.",
+      "Capture record references are inherited package metadata; actual tool attachment was only the logged crop."
+    ]
+  },
+  {
+    "chapter": 6,
+    "package": "output/comic-v15-full-redo/chapters/ch06-split",
+    "id": "page-04-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch06-split/candidates/page-04-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixr8-ch06/page-04-panel-02-composite.png",
+    "region_crops": [
+      {
+        "source_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch06-split/frames/page-04-panel-02-v01.png",
+        "source_box_xyxy_exclusive": [
+          445,
+          270,
+          1150,
+          710
+        ],
+        "source_crop_size": [
+          705,
+          440
+        ],
+        "attached_crop_path": "/private/tmp/claude-501/fixr8-ch06/page-04-panel-02-crop-v2.png",
+        "upscaled_size": [
+          1024,
+          639
+        ],
+        "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a1185f-012b-7e01-b646-4d918f36a0c9/exec-a522fe1c-b503-4538-b560-d506c331926b.png",
+        "output_region_xyxy_exclusive": [
+          0,
+          0,
+          1588,
+          991
+        ],
+        "output_was_full_scene": false,
+        "resize_filter": "LANCZOS",
+        "mask": "Solid centre with linear feather over 10 percent of each crop dimension; alpha zero at outer edge.",
+        "max_pixel_difference_outside_crop": 0,
+        "captured_max_pixel_difference_outside_crop": 0
+      }
+    ],
+    "notes": [
+      "No stray limbs or duplicated figures observed. The returned crop also changes hand texture and wall/frieze sharpness inside the crop; a soft sharpness transition is visible near the lower crop boundary. Retained without another generation or repair.",
+      "One imagegen edit call with verbatim prompt and only the designated crop attached. No rate limits, moderation refusals or retries.",
+      "No review, selection or builds; candidate remains visual_review pending.",
+      "Capture record references are inherited package metadata; actual tool attachment was only the logged crop.",
+      "Initial unused wall crop (790,285,1080,700) retained as page-04-panel-02-crop.png. Expanded crop-v2 includes both sides of the back-wall join and carved bands; no faces included."
+    ]
+  }
+]

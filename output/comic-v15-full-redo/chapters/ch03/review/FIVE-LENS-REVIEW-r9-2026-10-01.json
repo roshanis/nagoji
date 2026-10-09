@@ -1,0 +1,458 @@
+{
+ "chapter": 3,
+ "confirmed": [
+  {
+   "page": 5,
+   "panel": "5",
+   "severity": "major",
+   "description": "The top panel border cuts Nagoji's head off just above the moustache. His eyes and upper face are out of frame, so the script's beat that both men look up into open space is lost for him, and the only things identifying him are his hair, moustache and costume. Keshavrao's head is also clipped, but his face is still visible.",
+   "evidence": "At the top of 5.5 (left figure, about x 330-560 and y 2100-2200 at full resolution), only the curled moustache and chin of Nagoji's face are inside the frame. The script for 5.5 says both 'look up into open space above their heads'.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed, though the reviewer overstated it slightly. In panel 5.5 the top border (black rule at y 2062-2064, art starting at y 2065 at full resolution) runs straight through Nagoji's eye line. Only a thin sliver at the bottom of each eye is left, about 10 to 15 px with the pupils turned up, plus the nose, the curled moustache, the chin and the earring. His brow, forehead and the crown of his long hair are all out of frame. It is not \"just above the moustache\", but the effect is about the same. The protagonist's face is cut through the eyes, and you can see this clearly even at the downscaled page view. It is a tangent-style crop, and it is the only figure treated this way: Keshavrao, on the right of the same panel, has his whole face and his upward gaze inside the frame, with only the tips of his hair clipped. The script says both men 'look up into open space above their heads', and there is no space above Nagoji's head, so for him the beat rests only on the tilt of his chin. Nothing in the bible or the script excuses this crop. It is not a blocker: the hair, earring, moustache, mustard tunic and continuity from 5.4 still identify him, the panel has no lettering, and Keshavrao carries the look-up beat. But it is clearly wrong, it is localized, and it falls under 'awkward crop hiding the action', so major is the right severity. The fix is to reframe or redraw the panel with headroom above Nagoji."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.3",
+   "severity": "major",
+   "description": "Keshavrao's wrists are not chained together. His arms are flung out to full span, with one cuff in Nagoji's grip at the centre and the other at the far right. The bible and script fix wrist manacles joined by a short chain about a forearm long, and the script stages Nagoji's wrist chain clanging against Keshavrao's cuffs.",
+   "evidence": "The crop of the 3.3 strip shows a cuff on Keshavrao's right wrist near Nagoji's bandaged hand (about x860, y1400 original) and a cuff on his left wrist about 600 px away at the right edge (about x1410, y1330). No chain joins the two. In every other panel (1.2, 2.1, 5.5, 8.2, 9.1) his wrists are linked.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I checked this on zoomed crops of page 3, panel 3.3, and the problem is real. Keshavrao has his arms flung out to full span. His right wrist is in the centre of the panel: an unbandaged hand with a cuff, just below Nagoji's bandaged fist. His left wrist is at the far right edge (about x1410, y1330 in the original), reaching for a barrel. That cuff has no chain on it at all. Nothing joins it to the other wrist, and nothing runs behind his body. The only chain near him runs from his collar down along his right arm toward Nagoji. A forearm-long wrist chain cannot allow arms spread this wide. The script makes the irons apply to every prisoner for the whole chapter: in 1.1, wrist manacles 'joined by a short slack chain about a forearm long', fixed for the whole chapter. Later panels depend on that chain: the 8.3 inset shows 'the wrist chain between them', in 9.1 'the slack of the wrist chain' lets his hand reach, and in 9.3 'the short wrist chain catches' on the rope. Keshavrao's own bible line says nothing about irons, but the script is clear, so nothing permits the free arms. At print size the spread-arm pose and the lone cuff on the right are plain to see. In a chapter about chains, a reader can notice it. The error is in one panel and is a prop and continuity mistake, not a wrong identity or a missing beat. That makes it major, not a blocker."
+   }
+  },
+  {
+   "page": 8,
+   "panel": "8.3",
+   "severity": "major",
+   "description": "The two insets along the bottom edge (Keshavrao's hands on the hatch rim and the floating spar) have no border, keyline or gutter. They butt straight against the main wave image and against each other, so they look like a compositing seam rather than insets. The inset on 9.1 does have a keyline, so the treatment is also inconsistent. The 'Wait to free him...' caption sits right on the seam.",
+   "evidence": "In a crop at about y 1330-1440 (display), the main image ends and the inset art begins at a hard edge with no black line, and the hatch inset meets the spar inset at x about 662 with only a hard cut. The 9.1 inset at top left of page 9 has a thin dark border.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "The art does show the problem, but it is minor, not major. On page 8, panel 8.3, the two bottom insets (the hatch hands and the floating spar) have no keyline or gutter. In the original pixels the main wave image hard-cuts into the inset strip at about y 1899\u20131900. No dark line runs along that edge (luminance across the edge is 47\u219222 at x 900, 50\u219291 at x 1400 and 10\u219253 at x 1600). The hatch and spar insets meet at x about 918\u2013920, also with a hard cut and no line. A 640x640 nearest-neighbour zoom of that corner shows the brown wood, the blue water and the deck above simply butting together. The 9.1 inset on page 9 does have a thin black keyline (a 0\u20133 luminance stripe at x about 613 against neighbouring values of 100+), so the reviewer is right that the treatment is inconsistent. The 'Wait to free him...' caption box ends exactly on the horizontal seam (its black border is at y 1901\u20131904), so it sits on the seam. The script only asks for 'Two insets along the bottom edge' and says nothing about borders, so this is not a script violation. It is also too slight to be major: wood, sea and rail differ so sharply in colour that both insets still read as separate images at print size. The hands on the hatch rim and the shattered spar are fully visible, no action is hidden, and the lettering stays readable. This is a craft-consistency fix (add a 1\u20132 pt keyline or a small gutter around both insets to match 9.1), so minor."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.1, 3.2, 3.3, 3.5 vs 3.4",
+   "severity": "major",
+   "description": "Four of the five panels are narrowed to about 78% of the art column and centred, while 3.4 runs full width between them. The page reads as a ragged stack of mismatched strips with wide empty margins, not a clean grid.",
+   "evidence": "Measured bounds: 3.1, 3.2, 3.3 and 3.5 are x 314-1523; 3.4 is x 148-1689. Visible at a glance: 3.4 sticks out about 120 display px on each side of the other strips.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed. I measured the page-03 render (1838x2775) by finding the panel borders against the page background. Panels 3.1, 3.2, 3.3 and 3.5 run x 314-1522, about 1,209 px or 4.02 in, which is 78% of the column. Panel 3.4 runs x 148-1688, the full 5.125 in column. DPI-REPORT.json agrees: the clip_xywh widths are about 289.4 pt for 3.1, 3.2 and 3.3 and 369 pt for 3.4. At print size, 3.4 sticks out about 0.55 in past the other strips on each side, and the cream margins beside the four narrow strips are plain to see. On the page it reads as one wide strip wedged into a centred stack of narrow ones.\n\nNothing permits this. The script and CONTINUITY.md say nothing about centred or inset panels. Script 3.1 is marked \"Wide\", so narrowing it goes against the script. Pages 1, 2, 4, 5, 7, 9 and 10 put every panel at the full x 148-1688 column, so page 3 breaks the chapter's grid.\n\nThe cause looks like the fitter (LAYOUT-fitted-s11.json page 3 rows: 101, 85.1, 76.4, 131.4, 121.6) shrinking those four frames to fit their row heights instead of filling the column. The art itself is fine and no redraw is needed: a re-fit or re-composite of page 3 fixes it. That makes it major, not a blocker."
+   }
+  },
+  {
+   "page": 6,
+   "panel": "6.1-6.5 (whole page)",
+   "severity": "major",
+   "description": "The edges are ragged and the gutters uneven. The top three panels are inset on both sides. In the bottom row, 6.4 starts at the full left margin and 6.5 stops short of the right margin, and the gutter between 6.4 and 6.5 is about six times the page's normal gutter. No right edge lines up with any other.",
+   "evidence": "Measured bounds: 6.1, 6.2 and 6.3 are x 205-1632; 6.4 is x 148-916; 6.5 is x 950-1660. The gutter between 6.4 and 6.5 is 34 px; other gutters on the page are 5 px.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "Confirmed, but it is minor, not major. I measured page-06.png at 300 DPI. The normal live area in this chapter is x 148-1688, with 5-6 px gutters (pages 1, 2, 4, 5 and 7). On page 6, panels 6.1, 6.2 and 6.3 run x 205-1631, so they are inset 57 px on each side. Panel 6.4 runs x 148-915 and juts about 57 px (4.8 mm) left of the column above it. Panel 6.5 runs x 950-1659, about 28 px (2.4 mm) past 6.3's right edge and 29 px short of the live edge. The gap between 6.4 and 6.5 is 34 px (about 2.9 mm), against 5 px between the stacked rows. A crop of the bottom row shows the jog and the wide gap clearly, so it is visible at print size. LAYOUT-fitted-s11.json and the script give it no design reason. The numbers point to the fit step shrinking each image to keep its aspect ratio: 6.5 sits centred in a half-width cell (x 921-1688), which leaves the wide gap and the uneven right edge. One part of the claim is overstated: 6.1, 6.2 and 6.3 do share a right edge (x 1630-1631). Only 6.5 breaks the line. It is minor because nothing hides the action, the reading order and lettering are unaffected, and no art needs redrawing. Re-fitting the bottom row to the same column (or the full live area for every row) with a standard gutter fixes it. Page 3 shows the same fit pattern, though there the full-width 3.4 reads more like a deliberate breakout."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "major",
+   "description": "The broadside wave beat is lost. The script calls for the hold thrown sideways, men almost weightless, pen chains snapping sideways and water surging across the floor to the knee. The art is a level, untilted hall with water running lengthwise down a central channel like a river, and rows of bare-backed men in loincloths leaning forward on benches. It reads as galley rowers in a flooding channel, not a hold struck side-on. The prisoners have also lost the grey, brown and off-white rags they wear in 1.1, 2.1 and 4.3.",
+   "evidence": "Page 3 top strip: the perspective runs straight down a central water channel with no tilt or sideways motion, and the men on both sides are shirtless, in loincloths, reaching forward in rowing posture.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I checked this with zoomed crops of page 3, panel 3.1, and the finding holds. The panel is level: the posts stand vertical and nothing is thrown sideways. The water runs lengthwise down a central aisle like a river, not across the floor. No one is weightless; every figure is braced and leaning forward over a bench-like box with arms out, so the rows on both sides read as galley rowers. The script asks for a broadside hit, the hold thrown sideways, men weightless and chains snapping sideways along the rows. Only the surging water and the side-running chains are there. The layout also contradicts the hold set up on 1.1 and 2.1 (plank shelves along the hull, pens of four or five men) with a long two-sided aisle. On costume, every visible prisoner is shirtless in a loincloth. Script 1.1 says the prisoners wear grey, brown and off-white rags, and pages 1 and 2 show them in torn tunics and dhotis, so the costume breaks continuity. I rated it major rather than blocker. It is one establishing wide shot. The caption and the next panels (3.2 grip on the beams, 3.3 the roll) still carry the storm, and the beat is weakened and misread rather than missing."
+   }
+  }
+ ],
+ "refuted": [
+  {
+   "page": 4,
+   "panel": "4.5",
+   "lens": "continuity",
+   "description": "Keshavrao has no iron collar. This panel comes before the ring breaks, when every man in the pen is still collared to the pen chain, and he is collared in 4.2 and again in 5.4.",
+   "reason": "The art does draw the collar. The panel uses frames/page-04-panel-05-v05.png, per SELECTION-MANIFEST-r9.json. In that unlettered frame Keshavrao (right) wears a broad rusted iron collar at the base of his neck, with a chain hanging from its side down to his wrist manacles. On the lettered page the \"Look. The ring.\" balloon and its tail sit over his lower neck and collarbone and cover the band. The bare skin the reviewer saw is his upturned throat between the chin and the collar line. A collar at the base of the neck would show no metal there. Below the balloon the chain still drops from his neck area to his cuffs, so he does not read as unshackled. At print size he looks like a man whose neck is behind a balloon, not one with no collar. The one thing left is polish: nudging the balloon right or down a little would show the collar edge. That is optional and is not a continuity error."
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "lens": "rules",
+   "description": "Letter-like pseudo-script is painted into the art. Two gilt cartouches on the carved stern castle, one just left of Nagoji's head and one at the far right of the stern gallery, are filled with glyphs that read as letters in a South Indian-looking script, not as ornament. This breaks the standing rule against any text in the art. Fix it with a localized retouch: paint plain panels or foliate scrollwork with no letter shapes.",
+   "reason": "I cropped and zoomed both cartouches on page 8, panel 8.1 (page-08.png at 1838x2775, 300 DPI). The left one is about x 1222-1272, y 515-535 and the right one about x 1455-1500, y 540-560. They are real, but they are tiny. Each gilt panel is about 45-50 px wide (about 4 mm printed), and the loops inside are about 19 px tall (about 1.6 mm), soft gold on dark brown, partly behind rain and Nagoji's hair. Only at 5-10x does the left panel start to look like a row of characters. The right one still reads as 'ft'-like scrollwork even at 10x. At 1x, which is already about 3x print size on screen, both read as gilt foliate carving on a baroque stern gallery. That is period-appropriate ornament, and the script asks for a 'carved stern castle'. They do not read as a name board or an inscription. CONTINUITY.md line 126 bans text in the art, but nothing here is legible, and print scale is too small for a reader to see it as writing. The rule therefore isn't actually broken at print size. At most this is an optional polish retouch (make the left cartouche plainly foliate), not a major defect."
+  },
+  {
+   "page": 8,
+   "panel": "8.1-8.4 (whole page)",
+   "lens": "lettering",
+   "description": "The page has no common column. Every panel is a different width, so no two panels share a left or right edge, and 8.2 sits as a small box in the middle of the page with wide cream margins. It does not read as one coherent grid like the approved Ch1 page 1.",
+   "reason": "The measurements are right, but they don't add up to a major problem. I re-measured the r9 page 8 render: 8.1 spans x 148-1688, 8.2 spans 461-1376, 8.3 spans 167-1670 and 8.4 spans 187-1650, so the panel widths do differ. Three things make this acceptable.\n\n(1) The script allows it. Only 8.1 and 8.3 are asked to be \"full width\", and 8.4 is a \"Narrow strip\". The pipeline's layout rules (pipeline/README.md, layout cues; SPAN_SHARE = 0.95 in pipeline/layout_fit.py) count a panel that must stand alone as meeting \"full width\" when its art spans at least 95% of the column. 8.3 spans 97.6% and 8.4 spans 95.0%, so both pass. 8.2 has no width cue at all. It is a close reaction beat (\"then stop time\"), and a narrower centred panel there is a normal comics device. The page still reads as one top-to-bottom column, and the reading order is never in doubt.\n\n(2) This is already the house layout in the delivered Chapter 1 master. In chapters/ch01/renders/r5, page 6 has five panels at four different widths, including a centred box at x 414-1422 (65% of the column) with cream on both sides. Pages 3, 4, 5, 7 and 8 also have narrower centred panels. Ch1 page 1 happens to be all full width, but it is not the only standard set by the delivered chapter. Chapter 2 pages 1 and 5 show the same pattern.\n\n(3) The rest is too slight to matter in print. The 8.3 and 8.4 insets are 19 px and 39 px per side at 300 DPI, about 1.6 mm and 3.3 mm. The 13 px gap between 8.1 and 8.2 is about 1.1 mm, against about 0.5 mm elsewhere. Seen at print scale, the page reads as a deliberate stepped column, not a broken grid. Nothing needs to be redrawn. At most it is a minor polish note."
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "lens": "lettering",
+   "description": "The two opening captions are placed in reverse of reading order. The first caption ('The first warning was not the shout of a sailor...') sits at the top right, and the second ('It was the change in the way the ship moved.') sits at the far left just below it. A reader entering the panel at top left meets the second caption first, which garbles the chapter's opening line.",
+   "reason": "I measured the page at full 300 DPI resolution. In panel 1.1 the caption \"The first warning was not the shout of a sailor or the crack of thunder.\" runs from y 393 to 520, starting just 33 px below the panel's top edge at about y 360. The caption \"It was the change in the way the ship moved.\" runs from y 526 to 614. The boxes do not overlap vertically: caption 1 sits wholly above caption 2, about one box height higher. That makes two separate reading rows. Reading the top row first and then the next row from the left gives caption 1, then caption 2, which is the order the script gives (1.1: first warning, then change in the way the ship moved). The reviewer says a reader starting at top left meets caption 2 first, but the top-left band of the panel (y 360 to 526) holds no text. A reader scanning across the top meets caption 1 first and then drops down and back to the left, the normal Z path. The wording also enforces the order: \"It was the change...\" clearly continues \"The first warning was not...\", so a reader who strays would correct at once. A stepped layout from upper right to lower left is not the textbook arrangement, but it is not a reversal. At print size it is a small polish choice at most: caption 2 could drop a little lower or caption 1 could move left. It is not a lettering error that garbles the opening."
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "lens": "fidelity",
+   "description": "The planted sword-hand callback is lost. The script says Keshavrao's right hand twitches at his side, reaching for a sword that is not there. The adaptation notes call this its last use, set up in Chapter 2 at 1.5 and 6.2. In the art his right hand is clamped on his own thigh as if pushing himself up, so the gesture does not read.",
+   "reason": "At full resolution (crop of page 9, panel 9.1, around x 830-1080, y 520-860 in the 1838-wide original), Keshavrao's right hand is at his right hip, at his side. It is half-curled and lies loosely over the cream cloth. It is not braced flat or pressing down. It is the same pose the Chapter 2 renders use for the plant. In ch02 r2 page 6, panel 6.2, his right hand rests at the right hip with the fingers half-curled over the cloth. In page 1, panel 1.5, his hands hang at the waist. The Chapter 2 script notes say \"Poses replace motions\" for this gesture, so the callback is meant to be carried by the same resting pose, not a drawn twitch. Panel 9.1 repeats that pose: hand at his side, fingers curled round nothing, the wrist chain slack enough to let it reach, and the left hand on the hatch rim as scripted. So the art echoes the plant as it was established, and the reviewer's \"pushing himself up\" reading is only one possible reading of an ambiguous gesture. The difference from a scripted \"reach\" is too slight to matter at print size, and when uncertain I am told to refute."
+  }
+ ],
+ "minors": [
+  {
+   "page": 3,
+   "panel": "2",
+   "severity": "minor",
+   "description": "The cast list gives Nagoji only, but the young prisoner at the right copying the beam grip is drawn exactly in the Keshavrao lock: short ragged hair, faint moustache, grey-brown torn tunic and iron collar. Readers will take him for Keshavrao. However, both his wrists are wrapped in white bandages under the manacles, and Keshavrao's lock calls for thin, unbandaged hands. Either he is a Keshavrao look-alike or he is an off-model Keshavrao.",
+   "evidence": "Right half of 3.2 (about x 1040-1300 and y 920-1145): a youthful face with a faint moustache and a grey-brown tunic, with white bandage bands at both wrists above the cuffs. Keshavrao is unbandaged in 3.3, 4.5 and 5.4.",
+   "lens": "identity"
+  },
+  {
+   "page": 10,
+   "panel": "1",
+   "severity": "minor",
+   "description": "The top panel border cuts across Nagoji's head at eye level, so his gaze toward the empty hatch (the point of the panel) barely reads, and his face is half lost in the wide shot.",
+   "evidence": "At the top of 10.1 (about x 520-740 and y 355-480), the frame line runs across his brow. Only one eye, the nose and the moustache are visible.",
+   "lens": "identity"
+  },
+  {
+   "page": 5,
+   "panel": "3",
+   "severity": "minor",
+   "description": "The top border crops Nagoji's head at the brow while he rounds on the prisoners. His bared teeth read, but the crown of his head and his hair are cut off, which makes the shot feel cramped.",
+   "evidence": "At the top of 5.3 (about x 880-1100 and y 865-1000), the frame line sits just above his eyes.",
+   "lens": "identity"
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "severity": "minor",
+   "description": "The collar rig is off-bible. Nagoji's collar has its ring at the front of the throat, and an extra chain hangs straight down his chest from that ring into his lap. The bible specifies a hinged collar with a ring at the side, with the single pen chain running collar to collar through the side rings. This front ring and hanging chest chain set the pattern repeated in 3.4, 4.1, 4.5, 8.1, 9.4, 10.1 and 10.3.",
+   "evidence": "The 1.1 zoom (Nagoji, about x700-1000, y620-930 original) shows a ring centred under his chin and a vertical chain dropping from it to the dhoti. The pen chain leaves separately from behind his shoulder toward the next pen.",
+   "lens": "continuity"
+  },
+  {
+   "page": 2,
+   "panel": "2.4",
+   "severity": "minor",
+   "description": "The planted musket and the ladder do not match 2.1 on the same page. In 2.1 the musket has a brass butt plate and brass furniture, and in 6.3 it has brass barrel bands. In 2.4 it has a plain iron-rimmed butt and iron fittings. The 2.1 ladder is a steep single ladder beside a post, but in 2.4 it becomes a broad railed staircase rising to open sky.",
+   "evidence": "2.1: large brass oval butt plate in the foreground (about x280-520, y1200-1470). 2.4: the butt is wood with a thin steel rim (about x170-260, y2300-2500), and at the right edge a wide staircase with handrails runs up to cloud and no hatch frame.",
+   "lens": "continuity"
+  },
+  {
+   "page": 6,
+   "panel": "6.4",
+   "severity": "minor",
+   "description": "The ladder changes construction between panels on the same page. In 6.2 it is a sawn-plank ladder with flat stiles. In 6.4 it is a pole ladder with rope-lashed rungs. Page 7 drifts again: 7.1 and 7.2 have a flat-rail ladder, and 7.3, looking down the same shaft, shows a solid boxed staircase.",
+   "evidence": "6.2 left side: square-cut planks and flat rungs (about x290-640, y780-1340). 6.4: round poles with rope bindings at every rung joint (about x470-880, y2040-2510). 7.3 bottom: a wide enclosed stair with solid treads (about x1100-1450, y1760-1875).",
+   "lens": "continuity"
+  },
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "minor",
+   "description": "The background prisoners change costume. Script 1.1 has the other prisoners in grey, brown and off-white rag tunics, as drawn in 1.1, 2.1 and 4.3. In 3.1, and again in 7.3, they are bare-chested in loincloths or clean white dhotis, so the hold reads as a different ship.",
+   "evidence": "3.1: every visible figure along both rows of pens is shirtless in a short loincloth. 7.3: the prisoners pressed back from the body are shirtless in white dhotis. 1.1, 2.1 and 4.3 show torn grey and off-white tunics.",
+   "lens": "continuity"
+  },
+  {
+   "page": 8,
+   "panel": "8.3",
+   "severity": "minor",
+   "description": "The crew's costume drifts from 8.1 on the same page. The script specifies barefoot sailors in loose shirts and slops, with knitted caps or head cloths and no uniforms, and 8.1 follows that. In 8.3 the sailors wear dark leather-look waistcoats, and one wears a black cocked hat, so they read as pirates or officers. Leather over the shirt is reserved for the guards.",
+   "evidence": "Left half of 8.3 (about x165-900, y1560-1800 original): three sailors in dark vests over white shirts, the centre one in a black tricorne-style hat. 8.1 shows head cloths, loose shirts and red sashes only.",
+   "lens": "continuity"
+  },
+  {
+   "page": 9,
+   "panel": "9.5",
+   "severity": "minor",
+   "description": "The rope-burn injury is not readable. The script calls for scorched bandages and palms that are reddened and burned. The bandages are shredded, but the palms are the normal skin tone, so the injury that 10.1 relies on ('The burns on my palms...') is not established until the next page, where the palms do appear reddened.",
+   "evidence": "The 9.5 crop shows both open palms (about x900-1100 and x1150-1350, y2230-2460) in the same tan as the fingers, with no redness or scorching. 10.1 shows the palms visibly reddened.",
+   "lens": "continuity"
+  },
+  {
+   "page": 10,
+   "panel": "10.5",
+   "severity": "minor",
+   "description": "The injury continuity resets. After 9.5, 10.1 and 10.3 show the bandages stripped into trailing shreds, but in 10.5 Nagoji's forearms have neat, intact white wraps and no loose strips.",
+   "evidence": "10.5: a clean, thick white bandage around the forearm above the right-hand manacle (about x970-1050, y2340-2430). 10.3: the same arms trail torn bandage strips.",
+   "lens": "continuity"
+  },
+  {
+   "page": 10,
+   "panel": "10.3",
+   "severity": "minor",
+   "description": "The script asks for the ragged tunic flap to stay over his left forearm in this panel. Nagoji faces right, with the gold stud on his visible left ear, so the near arm is his left. That forearm is bare above the bandage, with no flap over it.",
+   "evidence": "10.3 crop: the near forearm (about x420-560, y1380-1540 original) shows bare skin between the elbow and the shredded wrist bandage. The ochre cloth stays on the torso. In 10.1 and 10.4 his left forearm is under a ragged ochre sleeve.",
+   "lens": "continuity"
+  },
+  {
+   "page": 10,
+   "panel": "10.3-10.4",
+   "severity": "minor",
+   "description": "The screen direction flips between consecutive panels. In 10.3 Nagoji stands at the rail facing right, with the sea and spar to the right and the ship to the left. In 10.4 he leaps to the left, with the ship's side behind him on the right. This crosses the line just at the leap.",
+   "evidence": "10.3: rail, mast and barrels at the left edge, open sea and spar at the right. 10.4: the hull and rail fill the right third, and the figure flies toward the left edge.",
+   "lens": "continuity"
+  },
+  {
+   "page": 10,
+   "panel": "10.1",
+   "severity": "minor",
+   "description": "The setting does not match the script or the previous pages. The script specifies an empty hatch and a broken ladder. Here the hatch is a long cargo opening with a short ladder that is intact, unlike the small square coaming hatch seen in 8.2, 8.3 and 9.1.",
+   "evidence": "10.1 right half: a long rectangular opening with water pouring in and an undamaged wooden ladder (about x1180-1320, y630-860 original). In 8.2 and 9.1 the hatch is a small square frame.",
+   "lens": "continuity"
+  },
+  {
+   "page": 7,
+   "panel": "7.1",
+   "severity": "minor",
+   "description": "The hobble chain is drawn long and slack. Nagoji's feet are a full running stride apart, one on a rung and one in the water, joined by a long thin chain. The bible fixes a short hobble chain, which 6.4 shows cutting every step short.",
+   "evidence": "Ankle zoom (about x160-620, y1000-1360 original): the rear ankle cuff is about 300 px below and behind the front one, joined by a thin chain several times longer than the short heavy hobble chain drawn on the same ankles in 8.1 and 10.1.",
+   "lens": "continuity"
+  },
+  {
+   "page": 7,
+   "panel": "7.1",
+   "severity": "minor",
+   "description": "A rope hanging in the hold background could be read as a noose. It hangs on the post right beside the falling guard, which is the moment of his death. The rope has wrapped turns at the top over a long hanging loop with a knot at its base, and in this panel that reads uncomfortably like a hangman's knot. Repaint it as a flat, belayed coil or move it out of the panel.",
+   "evidence": "page-07.png, panel 1, background post behind the ladder, at about x 780-970, y 860-1150 in source pixels. A zoomed crop shows binding turns at the top with a single long oval bight and a knot hanging below them.",
+   "lens": "rules"
+  },
+  {
+   "page": 10,
+   "panel": "10.5",
+   "severity": "minor",
+   "description": "The barnacles on the underside of the spar are drawn as round shells, each with two dark pits and an open dark mouth. Several read as small skulls or screaming faces just as the chapter closes on Nagoji sinking. That edges toward macabre imagery the no-gore rule is meant to avoid. Simplify them to conical barnacle shells with a single slit opening.",
+   "evidence": "page-10.png, panel 5, upper right on the spar's underside, at about x 1250-1680, y 2030-2170 in source pixels. A 3x crop shows the largest cluster (centre right) with an eyes-and-mouth arrangement. The smaller barnacles on the same spar in 10.3 read correctly as shells.",
+   "lens": "rules"
+  },
+  {
+   "page": 4,
+   "panel": "4.1",
+   "severity": "minor",
+   "description": "Nagoji's second balloon ('You have seen the dungeon...') is laid over the back of the foreground figure, Keshavrao. Its tail leaves the balloon beside Keshavrao's shoulder and ends on Nagoji's fist on the chain, not near his head, so the speaker can be misread as Keshavrao.",
+   "evidence": "The balloon covers Keshavrao's back at lower left (about x 108-405, y 740-985 display). The tail tip lands at about (300,700) on Nagoji's bandaged fist; Nagoji's face is at about (440,350).",
+   "lens": "lettering"
+  },
+  {
+   "page": 3,
+   "panel": "3.5",
+   "severity": "minor",
+   "description": "The tail of 'Move where?' ends in the dark gap beside the wall and does not reach Keshavrao. 'And if there is no such thing?' is squeezed into a narrow balloon with awkward breaks ('And if / there is no / such / thing?') that crowds his cheek.",
+   "evidence": "The 'Move where?' tail tip is at about (630,1595) display; Keshavrao's hair begins about x 700. The right balloon is about 170 px wide, at x 915-1085.",
+   "lens": "lettering"
+  },
+  {
+   "page": 2,
+   "panel": "2.3",
+   "severity": "minor",
+   "description": "Nagoji's balloon ('If the ship breaks, no musket will save them.') sits under the two men, and its tail points up to Nagoji's clasped manacled hands rather than his head. Keshavrao's balloon is right beside it, so the attribution is weaker than it should be.",
+   "evidence": "The tail tip is at about (850,1350) display, on Nagoji's wrists; his face is at about (850,1160).",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.2",
+   "severity": "minor",
+   "description": "The tail of 'Tie it! Around your chest! Quick!' points at Nagoji's hands and the rope, not his head. The balloon sits midway between Nagoji and Keshavrao, so the speaker is not obvious at a glance.",
+   "evidence": "The tail tip is at about (555,760) display, on the rope at his wrists; Nagoji's face is at about (470,680). The balloon is centred at about x 715, between the two men.",
+   "lens": "lettering"
+  },
+  {
+   "page": 2,
+   "panel": "2.2 / 2.3",
+   "severity": "minor",
+   "description": "The two panels in the middle row are misaligned. 2.3 starts lower and ends higher than 2.2, so the row's top and bottom borders step, and the gutter under 2.1 is uneven across the row.",
+   "evidence": "Measured bounds: 2.2 is y 1517-2173; 2.3 is y 1529-2161, a 12 px step at both top and bottom on the 1838 px render.",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.1",
+   "severity": "minor",
+   "description": "The two short balloons are cross-placed. 'Others.' (Keshavrao) sits over Nagoji's shoulder with its tail running right, and 'Quickly.' (Nagoji) sits on Keshavrao's raised arm with its tail running left. The tails cross the gap between the men, and the attribution reads muddled. The 'Others.' balloon is also flattened against the top panel border.",
+   "evidence": "Both balloons are stacked at about x 390-530 display, between the two men. The top of 'Others.' touches the panel border at y about 260.",
+   "lens": "lettering"
+  },
+  {
+   "page": 5,
+   "panel": "5.3",
+   "severity": "minor",
+   "description": "Nagoji, the speaker and focal action of the panel, has his head cut off at the forehead by the top panel border. The balloon then crowds the space beside his face, and the wide strip has ample room below.",
+   "evidence": "Nagoji's brow sits right at the top border (y about 630 display), with only the eyes down visible, while his body fills the panel to the bottom.",
+   "lens": "lettering"
+  },
+  {
+   "page": 10,
+   "panel": "10.2",
+   "severity": "minor",
+   "description": "The script asks for both captions over the memory stain and clear of his face. Both extend off the stain onto Nagoji's hair, and the second caption's right edge reaches the hair just under his ear, against his jawline.",
+   "evidence": "Caption 1 right edge is at about x 815 and caption 2 right edge at about x 835 (display). Nagoji's hair and ear start about x 760-840 at y 700-880.",
+   "lens": "lettering"
+  },
+  {
+   "page": 10,
+   "panel": "10.4",
+   "severity": "minor",
+   "description": "The lower caption ('To whatever gods listen to men who jump into storms.') touches the fingertips of Nagoji's leading outstretched hand, crowding the key gesture of the leap. The upper caption is jammed flush into the panel's top-left corner.",
+   "evidence": "The lower caption's top edge is at about y 1355 display, and the left hand's fingertips are at about (300-340, 1340-1360).",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.5 / 9.1",
+   "severity": "minor",
+   "description": "In 9.5 the 'Keshavrao was gone.' caption clips the tip of Nagoji's right thumb and is shrunk into the top-right corner for the chapter's key beat. In 9.1 the script places the caption inside the upper-left inset, but it is lettered at the top right of the main panel instead.",
+   "evidence": "The 9.5 caption's left edge is at about x 963 display, over the thumb at about (955-975, 1620-1655). The 9.1 caption is at about x 748-1155, y 260-352, outside the inset at x 108-443.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.3 (also 4.4)",
+   "severity": "minor",
+   "description": "The off-panel shouts from the deck are lettered in plain smooth oval balloons with very long needle tails running to the top border. 1.3 calls for jagged, overlapping shout balloons. In 4.4 the script asks for the first balloon upper left (before the impact) and the second lower right (after it), but both sit side by side along the bottom.",
+   "evidence": "1.3: two smooth ovals at y about 915-1045 display, with spike tails rising to y about 715. 4.4: both balloons at y about 1680-1810, at left and right.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.4 (also 2.1, 3.1, 5.2, 5.4, 6.2, 7.1, 10.4)",
+   "severity": "minor",
+   "description": "Line breaks are polish-level throughout: many balloons and captions end on an orphaned single word, and 3.1 splits a sentence badly. The Ch1 standard avoids this.",
+   "evidence": "Orphaned last lines: 'over.' (1.4), 'space.' (2.1), 'gum.' (5.2), 'load.' (6.2), 'think.' (7.1), 'would.' (10.4). 3.1 breaks 'It / built in layers.' 1.3 breaks 'Haul, / haul!'.",
+   "lens": "lettering"
+  },
+  {
+   "page": 3,
+   "panel": "3.4",
+   "severity": "minor",
+   "description": "The first balloon ('Storms break ships...') is jammed against the top panel border, with its top flattened into the frame, and it sits on the crown of Keshavrao's head. The two Nagoji balloons also zigzag right-then-left, so the left balloon can be read first.",
+   "evidence": "The balloon top is at y about 1068 display, against the panel top at 1065. Its bottom edge (about 1192) meets Keshavrao's hairline. The second balloon is at the left, at y 1192-1357.",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "minor",
+   "description": "The script places the caption inside the upper-left inset (Nagoji's fingers in the rope coil). It is lettered in the main panel at the upper right, so it detaches from the 'nowhere' image it belongs to.",
+   "evidence": "'For a moment I was nowhere. Only a body in a cold, roaring universe.' sits at the top right over the sky beside Keshavrao. The inset at the top left has no lettering.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 4,
+   "panel": "4.4",
+   "severity": "minor",
+   "description": "The script asks for the first sailor balloon at the upper left, before the impact, and the second at the lower right, after it, so the crash sits between the two lines. Both balloons are lettered side by side along the bottom, which loses the before-and-after timing.",
+   "evidence": "'The mainmast! Cut the rope...' (lower left) and 'She is taking water!...' (lower centre-right) are at the same height at the bottom of the panel, with long tails up to the corners.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 4,
+   "panel": "4.5",
+   "severity": "minor",
+   "description": "Keshavrao is meant to shout into Nagoji's ear, chin jerked toward the ring. In the art a third prisoner is wedged between them, and Keshavrao faces away from Nagoji toward the ring, so the urgent private exchange becomes a three-man group shot.",
+   "evidence": "Page 4 bottom-right panel: Nagoji on the left, a bearded prisoner in the centre, Keshavrao on the right facing the ring at the upper right, about a body-width from Nagoji.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 2,
+   "panel": "2.1",
+   "severity": "minor",
+   "description": "The script says every chained head has turned to look at the musket, and the caption reinforces it ('They draw every eye'). Nagoji, the key figure, looks off-panel to the left, and most of the background men look at the camera, so the pull of the musket is weak.",
+   "evidence": "Page 2 large panel: Nagoji's eyes and head are turned to screen left, away from the musket in the lower foreground. Keshavrao is the only clear figure looking down toward it.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "severity": "minor",
+   "description": "The opening wide misses its framing directions: 'the whole image tilted hard' and 'near darkness'. The hold is level and warmly lit, so the first sign of the storm (the ship's changed motion, which both captions point to) is not shown.",
+   "evidence": "Page 1 top strip: horizontal planks and upright pen boards, even amber lantern light across Nagoji and the prisoners, and no canted horizon.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "severity": "minor",
+   "description": "The caption order is ambiguous. The second caption ('It was the change in the way the ship moved.') sits at the panel's left edge, where the eye enters. The first ('The first warning was not...') is at the upper right, only just above it. That stair runs down to the left, inviting readers to read the answer before the setup.",
+   "evidence": "Page 1 panel 1: the right caption spans about y 258-375 at x 790-1215, and the left caption starts at y 378 at x 108-505 (1325-wide view).",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "3.2",
+   "severity": "minor",
+   "description": "The script tags both of Nagoji's lines '(in Marathi)', noting this is the moment he speaks for all the prisoners. The lettering has no language marker, so the tag is lost. Every other line in the chapter (Konkani or Portuguese) is lettered the same way.",
+   "evidence": "The balloons 'Hold to the beams! Hook your arms over the wood.' and 'Do not let the chain drag you.' are plain, with no bracket, tag or footnote.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.3",
+   "severity": "minor",
+   "description": "The crop cuts Nagoji's head at the top border. His bared teeth stay visible, but the panel's key action, Nagoji rounding on the prisoners, is squeezed against the frame edge.",
+   "evidence": "Page 5 third panel: the top of Nagoji's hair and forehead are cut off by the panel border at about y 628, and his face sits in the top 60 px of the panel.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.2",
+   "severity": "minor",
+   "description": "The script has the chain's end drop when the ring tears half out, with the whole length sagging into the water and yanking the row sideways. In the art the chain stays taut at chest height from collar to collar along the row, so the sudden slack does not show.",
+   "evidence": "Page 5 panel 2: the chain runs in a straight, taut line through the five men's collars above the water. Only the short end hangs from the ring at the upper right.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.4",
+   "severity": "minor",
+   "description": "The framing and the prop are off-script. The script calls for a low angle up the ladder. The art is an eye-level shot from behind Keshavrao, and the ladder is now a rope ladder with knotted rope rungs. In 6.2, 7.1 and 7.2 the same ladder is a rigid wooden one.",
+   "evidence": "Page 6 lower-left panel: the side ropes and lashed rungs are bound with rope knots. Page 6 panel 2 and page 7 panels 1-2 show a plank-sided wooden ladder.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 7,
+   "panel": "7.1",
+   "severity": "minor",
+   "description": "The script stages both men small on the ladder, seen side-on from a distance, with Nagoji climbing below the guard (continuing from 6.4). The art has Nagoji large in the frame at the foot of the ladder, one foot in the water and one on the lowest rung, lunging up. That undoes the climb shown in 6.4.",
+   "evidence": "Page 7 top panel: Nagoji's right foot is in the splash at the floor (about x 160, y 940) and his left foot is on a low rung, while the guard stands several rungs up. Both figures fill most of the panel height.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 9,
+   "panel": "9.5",
+   "severity": "minor",
+   "description": "The script calls for scorched, reddened, burned palms with the bandages stripped. The bandages are shredded correctly, but the palms are ordinary skin tone with no burn reddening. That undercuts 10.1's caption, 'The burns on my palms were the only proof he had been there at all'.",
+   "evidence": "Page 9 bottom strip: both open palms holding the rope are an even tan and pink, with no scorch or redness distinct from the backs of the hands.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 10,
+   "panel": "10.1",
+   "severity": "minor",
+   "description": "The script says Nagoji is looking at the empty hatch, beside a broken ladder. In the art he looks down at his hands, toward the lower left, away from the hatch, and the ladder in the hatch is intact.",
+   "evidence": "Page 10 top panel: Nagoji's head is bowed toward his palms. The hatch at the right shows a whole wooden ladder with all its rungs, and water streams past it.",
+   "lens": "fidelity"
+  }
+ ]
+}

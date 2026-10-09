@@ -1,0 +1,59 @@
+{
+  "id": "page-06-panel-01",
+  "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-06-panel-01-v05.png",
+  "sha256": "ef1483f7f314b5850328870d38c8554a3a1679f1bf024843f11fad817d05421f",
+  "width": 2129,
+  "height": 739,
+  "generation_tool": "built-in imagegen",
+  "origin": "generated",
+  "prompt_path": "prompts/page-06-panel-01-generation-v05.txt",
+  "prompt_sha256": "74559c41f153a4fed255e85a8252f1dcbec1e253c25d4583407b3fcb0535446d",
+  "references": [
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+      "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+      "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+  ],
+  "visual_review": "pass",
+  "original_generated_path": "output/comic-v15-full-redo/chapters/ch02/candidates/page-06-panel-01/candidate-v05.png",
+  "visible_rect": [
+    0,
+    0,
+    2129,
+    739
+  ],
+  "reserves": [
+    {
+      "rect": [
+        1600,
+        20,
+        2100,
+        220
+      ],
+      "copy_indices": [
+        0
+      ]
+    },
+    {
+      "rect": [
+        1550,
+        220,
+        2100,
+        450
+      ],
+      "copy_indices": [
+        1
+      ]
+    }
+  ],
+  "copy_indices": [
+    0,
+    1
+  ],
+  "reviewer": "Codex",
+  "review_note": "Native review passed targeted v05 preserve edit; copy fit remains to be checked by root against final crop."
+}

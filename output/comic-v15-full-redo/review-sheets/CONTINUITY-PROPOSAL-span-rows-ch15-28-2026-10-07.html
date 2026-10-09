@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CONTINUITY span rows</title><style>:root{--bg:#faf7f0;--fg:#1d1b17;--muted:#6b645a;--card:#fff;--line:#e3dccd;--accent:#8a3b12;--add:#e5f3e1;--addfg:#1f5a17;--del:#fbe6e3;--delfg:#8a1f12}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#171513;--fg:#ece6da;--muted:#a59d90;--card:#211e1a;--line:#3a352e;--accent:#e08a5a;--add:#1d2e1a;--addfg:#a8d99c;--del:#3a1d19;--delfg:#f0a598}}
+:root[data-theme="dark"]{--bg:#171513;--fg:#ece6da;--muted:#a59d90;--card:#211e1a;--line:#3a352e;--accent:#e08a5a;--add:#1d2e1a;--addfg:#a8d99c;--del:#3a1d19;--delfg:#f0a598}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 Georgia,serif;margin:0;padding:24px 16px}main{max-width:900px;margin:0 auto}
+h2{color:var(--accent);border-bottom:1px solid var(--line);padding-bottom:4px;margin-top:1.8em}li{margin:.4em 0}code{font-size:.9em}
+pre.diff{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px;overflow-x:auto;font:12.5px/1.45 Menlo,monospace;white-space:pre-wrap;word-break:break-word}
+.add{background:var(--add);color:var(--addfg);display:block}.del{background:var(--del);color:var(--delfg);display:block}.hunk{color:var(--muted);display:block}</style></head><body><main><h1>CONTINUITY proposal: span rows for chapters 15, 17, 20, 22, 24 and 28</h1>
+<p>Status: APPROVED by the author on 2026-10-07 and applied to CONTINUITY.md exactly as below (backup: pipeline/review/CONTINUITY-pre-span-rows-ch15-28-2026-10-07.md). Tested beforehand on a scratch copy: all six chapters prepare cleanly (ch15 69 panels, ch17 64, ch20 84, ch22 67, ch24 145, ch28 64).</p>
+<h2>Why</h2>
+<p>Six chapters cannot generate art yet. Each has a CONTINUITY row that describes a costume change in words (&quot;until&quot;, &quot;afterwards&quot;, &quot;after he changes&quot;, &quot;pages 1 to 13&quot;, &quot;from page 6&quot;, &quot;epilogue&quot;). The prompt builder gives every panel exactly one row, so it refuses rows whose meaning depends on where in the chapter the panel falls. The fix is to cut each such row into span rows (the &quot;@page.panel&quot; form chapters 9 to 12 already use), keeping your wording. Panels affected: ch15 30, ch17 40, ch20 59, ch22 57, ch24 all Nagoji panels, ch28 25.</p>
+<p>The other ten new chapters (13, 14, 16, 18, 19, 21, 23, 25, 26, 27) are not blocked and are generating now.</p>
+<h2>Proposed rows</h2>
+<p>Wording is yours unless marked NEW. NEW wording is taken from the chapter script&#x27;s panel descriptions; please accept, change or strike it.</p>
+<h3>Chapter 15, De Lannoy (row 112)</h3>
+<ul><li>
+Replace &quot;| 15 | First in the torn, soot-stained blue coat ... the bandage still on. |&quot; with:
+</li><li>
+| 15 @1-13.2 | The torn, soot-stained blue coat with a linen bandage on his left hand and wrist. |
+</li><li>
+| 15 @13.3 | NEW: Barefoot, in a sweat-stained shirt open at the throat, the coat folded on the bench, the linen bandage on his left hand and wrist. |
+</li><li>
+| 15 @13.4- | A white ankle-length mundu, a plain white cotton tunic-coat and sandals, the linen bandage still on his left hand and wrist. |
+</li><li>
+Note: the drafting agent proposed the change at 13.4, but the script has him already out of the coat in 13.3.
+</li></ul>
+<h3>Chapter 17, Nagoji (row 60)</h3>
+<ul><li>
+| 17 @1-8.3 | Commander look (rust-red turban, cream tunic, broad red sash, cream trousers), no talwar, barefoot at home. The brand and the long white forearm scar on the inner LEFT forearm above the wrist. |
+</li><li>
+| 17 @8.4-9.4 | Bare-headed, long curly hair loose, still in tunic and sash, the turban folded in his hand or set down. The brand and the long white forearm scar on the inner LEFT forearm above the wrist. |
+</li><li>
+| 17 @9.5-9 | Bare-headed, long curly hair loose, still in tunic and sash, the turban set down; the ivory-handled knife with the conch mark. The brand and the long white forearm scar on the inner LEFT forearm above the wrist. |
+</li><li>
+| 17 @10.1-10 | Bare-headed, his long curly hair gathered into a knot on his crown for the first time, still in tunic and sash; the conch knife at his sash. The brand and the long white forearm scar on the inner LEFT forearm above the wrist. |
+</li><li>
+| 17 @11- | Ananthan Pillai, Kerala topknot, hair still black with only the first grey at the temples, NO turban, plain cream mundu with no gold border, cream shoulder cloth, bare arms, the conch knife at the mundu&#x27;s waist fold, no silver chain yet. The brand and the long white forearm scar on the inner LEFT forearm above the wrist. |
+</li><li>
+Question: the current row says hair loose &quot;to the end of page 10&quot; and also that he knots it on 10.1. The script shows the new knot at 10.4. I have assumed the knot holds from 10.1 to the end of page 10.
+</li></ul>
+<h3>Chapter 20, Nagoji (row 62)</h3>
+<ul><li>
+| 20 @1-10.2 | Ananthan Pillai: Kerala topknot high on the crown, NO turban, cream or white mundu with shoulder cloth, first grey at the temples, the brand and the long white forearm scar on the inner LEFT forearm above the wrist; silver chain of office; the ivory-handled knife with the conch mark at his waist. |
+</li><li>
+| 20 @10.3- | The same, with no knife at his waist (he gives it to Dhanaji in 10.3 to 10.5). |
+</li></ul>
+<h3>Chapter 22, Nagoji (row 64) and Varma (row 87)</h3>
+<ul><li>
+Nagoji:
+</li><li>
+| 22 @1-7.2 | Ananthan Pillai: Kerala topknot high on the crown, NO turban, cream or white mundu with shoulder cloth, first grey at the temples, the brand and the long white forearm scar on the inner LEFT forearm above the wrist; silver chain of office; no knife; uninjured. |
+</li><li>
+| 22 @7.3-9 | NEW: the same, his right arm hanging useless from the fall on the stone, his left palm cut and not yet wrapped (no blood shown). |
+</li><li>
+| 22 @10.1- | The same, his right shoulder bound and his left palm wrapped. |
+</li><li>
+Note: the drafting agent proposed 5.4 and 7.3 as the cuts. The script has his shoulder hit at 7.3 and the binding at 10.1, so I moved the last change to 10.1.
+</li><li>
+Varma:
+</li><li>
+| 22 @1-10 | Hill shrine: plain temple dress, one gold chain, no spear, cream mundu with a thin gold border. |
+</li><li>
+| 22 @11- | Plain temple dress, one gold chain, no spear, cream mundu with a thin gold border, with a cream cloth over his injured right shoulder and a stitched brow. |
+</li><li>
+This also removes the word &quot;Fort&quot; from the shrine panels, which the foreign-term guard otherwise trips on.
+</li></ul>
+<h3>Chapter 24, Nagoji (row 66)</h3>
+<ul><li>
+| 24 @1-14.1 | Ananthan Pillai: Kerala topknot high on the crown, NO turban, cream or white mundu with shoulder cloth, first grey at the temples, the brand and the long white forearm scar on the inner LEFT forearm above the wrist; silver chain of office; no knife; no coat. |
+</li><li>
+| 24 @14.2- | In uniform: white European-cut coat, red waistcoat, plain brass buttons, knee breeches, buckled European riding boots, the silver chain of office worn over the coat, Kerala topknot, no hat, no turban, first grey at the temples; the brand and the long white forearm scar on the inner LEFT forearm above the wrist. |
+</li><li>
+Note: the drafting agent proposed the change at page 14. The script puts him in uniform for the first time at 14.2; 14.1 is De Lannoy&#x27;s nod on the parapet.
+</li></ul>
+<h3>Chapter 28, Nagoji (row 68, &quot;28 epilogue&quot;)</h3>
+<ul><li>
+| 28 @1-5 | Kerala topknot, first grey at the temples, bare-chested in a cream mundu and shoulder cloth as Kerala temple custom requires. |
+</li><li>
+| 28 @6-11 | In uniform: white European-cut coat, red waistcoat, plain brass buttons, knee breeches, buckled European riding boots, the silver chain of office worn over the coat, Kerala topknot, no hat, no turban. |
+</li><li>
+| 28 @12-12 | Later-life sheet: grey-streaked hair in a topknot, white mundu with a gold border. |
+</li><li>
+| 28 @13.1 | NEW: captivity sheet (young Nagoji in the Goa interrogation room memory, as the script&#x27;s 13.1 describes). |
+</li><li>
+| 28 @13.2 | NEW: Ananthan Pillai in the married years (Kerala topknot, NO turban, as the script&#x27;s 13.2 describes). |
+</li><li>
+| 28 @13.3- | Later-life sheet: grey-streaked hair in a topknot, white mundu with a gold border. |
+</li></ul>
+<h2>Not blocking, for later</h2>
+<ul><li>
+Chapters 13 to 16: Nagoji&#x27;s rows say &quot;The Portuguese brand&quot;; rows 9 to 12 say &quot;The old brand&quot;. The new sidecars work around it with an allowed-word list. Rewording those rows to &quot;The old brand&quot; would let the workaround go.
+</li><li>
+Chapter 13: the script gives the Madurai troop &quot;bright high-wrapped turbans&quot;; the bible says white or off-white. The sidecar follows the bible.
+</li><li>
+Chapter 13: Padmini&#x27;s sari is &quot;cotton&quot; in script 2.2 but &quot;cream silk&quot; in the bible. The sidecar avoids naming the fabric.
+</li></ul>
+<h2>What happens after approval</h2>
+<p>I apply the rows exactly as approved, with a backup of CONTINUITY.md, prepare the six packages and start their generation the same way as the other ten.</p></main></body></html>

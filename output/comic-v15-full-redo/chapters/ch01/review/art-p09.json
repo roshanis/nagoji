@@ -1,0 +1,77 @@
+{
+  "chapter": "01",
+  "page": 9,
+  "source_manifest": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v14-chapter-01-rebuild-v1/SELECTION-MANIFEST-r5.json",
+  "continuity": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/CONTINUITY.md",
+  "frames": [
+    {
+      "id": "page-09-panel-01",
+      "source_id": "9.1",
+      "source_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v14-chapter-01-rebuild-v1/frames/page-09-panel-01-v2.png",
+      "source_sha256": "a96a244aa0ddfa2436452b0162fc2cdbf5c6b4a7a83eacf9095fdf9da5038a6d",
+      "path": "../frames/page-09-panel-01-v15-r1.png",
+      "sha256": "29cbd4fdabd4586afb31588779b5eaa9f3ffbd78534a24f2acc6f75497fc8308",
+      "width": 2159,
+      "height": 728,
+      "visible_rect": [20, 140, 2140, 596],
+      "reserves": [{"kind":"caption","rect":[872,176,1680,316],"copy_indices":[0]}],
+      "prompt_path": "../prompts/page-09-panel-01-v15-r1.txt",
+      "origin": "regenerated",
+      "correction": "Removed beard and restored V13 captivity identity: curled moustache, clean-shaven chin, loose curls, gold ear stud, ochre tunic, cream dhoti, bandages, ankle irons and bare feet.",
+      "references_sha256": ["bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"]
+    },
+    {
+      "id": "page-09-panel-02",
+      "source_id": "page-09-panel-02",
+      "source_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v14-chapter-01-rebuild-v1/frames/page-09-panel-02-v3.png",
+      "source_sha256": "bdd1abdef3958ab2f187818e357230cbf62fb3ee9fff13dd367ffa977c6957a4",
+      "path": "../frames/page-09-panel-02-v15-r1.png",
+      "sha256": "28d80e67d947aa50036bf733ae11660da2ac4e0ccd11790a92646e23084c6d7d",
+      "width": 2034,
+      "height": 773,
+      "visible_rect": [8, 8, 2027, 764],
+      "reserves": [{"kind":"caption","rect":[31,16,2008,156],"copy_indices":[0]}],
+      "prompt_path": "../prompts/page-09-panel-02-v15-r1.txt",
+      "origin": "regenerated",
+      "correction": "Replaced blue or redcoat reading with unmistakable Portuguese garrison guards in muted cream, brown and earth kit.",
+      "references_sha256": []
+    },
+    {
+      "id": "page-09-panel-03",
+      "source_id": "9.3",
+      "source_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v14-chapter-01-rebuild-v1/frames/page-09-panel-03-v2.png",
+      "source_sha256": "ca60042514a71bc899c68e476629ce7fc69dda098da0ad8fadc0bea8c15ef55a",
+      "path": "../frames/page-09-panel-03-v15-r1.png",
+      "sha256": "2450134bc44ce278a7d3989862257f75959b2304a905c0a18db0dc5119dc6517",
+      "width": 2068,
+      "height": 760,
+      "visible_rect": [12, 120, 2058, 636],
+      "reserves": [{"kind":"speech","rect":[1200,170,1828,290],"copy_indices":[0]}],
+      "prompt_path": "../prompts/page-09-panel-03-v15-r1.txt",
+      "origin": "regenerated",
+      "correction": "Removed beard from central Nagoji while preserving distinct beards on other prisoners and the blank speech reserve.",
+      "references_sha256": ["bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"]
+    },
+    {
+      "id": "page-09-panel-04",
+      "source_id": "page-09-panel-04",
+      "source_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v14-chapter-01-rebuild-v1/frames/page-09-panel-04-v5.png",
+      "source_sha256": "1e3ccc2b4cc01a541a87c29d5691b972bd7a15ea4af4e7dac557d0842fd23fe0",
+      "path": "../frames/page-09-panel-04-v15-r1.png",
+      "sha256": "bd81d5da7477a465815c4bd5a0d799a1bc2509a7f15c708c00c16a4b5d359e40",
+      "width": 1873,
+      "height": 840,
+      "visible_rect": [16, 12, 1865, 816],
+      "reserves": [
+        {"kind":"caption","rect":[50,100,488,285],"copy_indices":[0]},
+        {"kind":"caption","rect":[50,330,488,445],"copy_indices":[1]},
+        {"kind":"caption","rect":[50,565,760,775],"copy_indices":[2]},
+        {"kind":"caption","rect":[1215,565,1820,775],"copy_indices":[3]}
+      ],
+      "prompt_path": "../prompts/page-09-panel-04-v15-r1.txt",
+      "origin": "regenerated",
+      "correction": "Removed beard from Nagoji close-up, retaining curled moustache, clean-shaven chin, gold ear stud and binding rope from an iron ring. No noose.",
+      "references_sha256": ["bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"]
+    }
+  ]
+}

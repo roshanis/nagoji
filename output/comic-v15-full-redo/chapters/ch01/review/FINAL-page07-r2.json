@@ -1,0 +1,48 @@
+{
+  "review": "finalrender r2 targeted corrections",
+  "source_manifest": "output/comic-v15-full-redo/chapters/ch01/SELECTION-INPUT-r3.json",
+  "frames": [
+    {
+      "id": "page-07-panel-03",
+      "path": "output/comic-v15-full-redo/chapters/ch01/frames/page-07-panel-03-v15-r2.png",
+      "sha256": "f0142d17a6bb12d04a2bde1c8a2ca14039fb3848044b82a50fe3ac5477698d8a",
+      "width": 2079,
+      "height": 756,
+      "mode": "RGB",
+      "visible_rect": [12, 168, 2068, 592],
+      "reserves": [{"kind": "caption", "rect": [884, 200, 2012, 380], "copy_indices": [0]}],
+      "source_id": "7.3",
+      "source_path": "output/comic-v15-full-redo/chapters/ch01/frames/page-07-panel-03-v15-r1.png",
+      "source_sha256": "c7d109bc571f52f31b631294bb4f8a52c471d8cc508606cb746032b06bed4d2f",
+      "origin": "regenerated",
+      "correction": "Replaced the dangling multi-bead earring with one small flush gold ear stud; all other composition and blank caption reserve preserved.",
+      "references": [{"path": "output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png", "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"}],
+      "visual_review": "pass"
+    },
+    {
+      "id": "page-07-panel-04",
+      "path": "output/comic-v15-full-redo/chapters/ch01/frames/page-07-panel-04-v15-r2.png",
+      "sha256": "f053fc435de11c0018535a35603d83f08bd6074de85e84b2e8503879811e84a5",
+      "width": 1916,
+      "height": 821,
+      "mode": "RGB",
+      "visible_rect": [16, 44, 1908, 776],
+      "reserves": [{"kind": "speech", "rect": [160, 100, 1060, 445], "copy_indices": [0, 1, 2]}],
+      "source_id": "page-07-panel-04",
+      "source_path": "output/comic-v15-full-redo/chapters/ch01/frames/page-07-panel-04-v15-r1.png",
+      "source_sha256": "51306738d6663c88e1f5ae2e402e43aa27b02221111ab4e3fdc83877fae59ff8",
+      "origin": "regenerated",
+      "correction": "Changed only Nagoji's lower dhoti/trousers to dirty cream/ivory; retained torn ochre upper tunic, restraints, cast, and blank speech reserve.",
+      "references": [{"path": "output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png", "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"}],
+      "visual_review": "pass"
+    }
+  ],
+  "checks": {
+    "blank_reserves_preserved": true,
+    "no_nooses_added": true,
+    "panel_07_03_stud_only": true,
+    "panel_07_04_lower_garment_cream": true,
+    "panel_07_04_upper_tunic_ochre": true,
+    "remaining_deviation": "Panel 7.4 generated width is 1916 pixels versus 1915 in r1; visible rectangle was rescaled by one pixel on the right edge."
+  }
+}

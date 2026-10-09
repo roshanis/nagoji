@@ -1,0 +1,130 @@
+{
+  "measurements": [
+    {
+      "frame_id": "page-04-panel-05",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        60.57692307692308,
+        151.9230769230769,
+        60.576923076923066,
+        24.230769230769255
+      ],
+      "lines": [
+        "We will drown down",
+        "here."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 5.316923076923068,
+        "top": 4.305384615384625,
+        "bottom": 4.30538461538463
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.05,
+          53.26,
+          6.05
+        ],
+        [
+          0.0,
+          -0.05,
+          13.56,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        13.875384615384629,
+        4.355384615384629
+      ]
+    },
+    {
+      "frame_id": "page-04-panel-05",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        245.76923076923077,
+        151.9230769230769,
+        53.65384615384613,
+        24.230769230769255
+      ],
+      "lines": [
+        "Look. The ring."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 12.713846153846134,
+        "top": 8.195384615384626,
+        "bottom": 8.19538461538463
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.79,
+          38.94,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        9.985384615384628
+      ]
+    }
+  ],
+  "pixels": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 3,
+    "lines": [
+      {
+        "frame_id": "page-04-panel-05",
+        "text": "We will drown down",
+        "source_pixel_rect": [
+          162,
+          55,
+          469,
+          90
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-04-panel-05",
+        "text": "here.",
+        "source_pixel_rect": [
+          162,
+          110,
+          240,
+          145
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-04-panel-05",
+        "text": "Look. The ring.",
+        "source_pixel_rect": [
+          1232,
+          77,
+          1457,
+          123
+        ],
+        "light_fraction": 1.0
+      }
+    ]
+  }
+}

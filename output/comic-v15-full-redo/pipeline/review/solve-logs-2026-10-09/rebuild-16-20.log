@@ -1,0 +1,50 @@
+== ch16-split assemble u1-b
+ "selected": 104,
+ "regenerate": 0,
+== ch16-split build r2
+{
+  "pdf": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch16-split/pdf/Horse-of-the-Servant-V15-Chapter-16-r2.pdf",
+  "sha256": "663c06904ad725ad72d709dd147657741e110b604736e508db926771fa4cfea8",
+  "minimum_ppi": 300.5625764370159,
+  "median_ppi": 557.0684588034609,
+  "script_chunks": 180
+}
+== ch18-split assemble u1-b
+ "selected": 50,
+ "regenerate": 0,
+== ch18-split build r2
+{
+  "pdf": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch18-split/pdf/Horse-of-the-Servant-V15-Chapter-18-r2.pdf",
+  "sha256": "795fe2db458a0fb840accaed53e4eb69e7ec095833a93dd586f3a38380d5e5f9",
+  "minimum_ppi": 306.27861184270654,
+  "median_ppi": 558.9824907043164,
+  "script_chunks": 112
+}
+== ch20-split2 assemble u1-b
+ "selected": 83,
+ "regenerate": 1,
+  "page-14-panel-03: v01 reserves failed (auto-geometry failed: page-14-panel-03: chunk 1: its box would read before chunk 0's, against the script order: every position that holds its text and clears everything else is above it, or left of it on the same line; 11 size(s) tried, from 602 x 132 down t
+== ch20-split2 build r2
+  File "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py", line 1191, in main
+    elif args.command=='build':result=build(args,out)
+                                      ^^^^^^^^^^^^^^^
+  File "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py", line 1005, in build
+    c.validate_selection(rows,script,out)
+  File "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/compositor.py", line 708, in validate_selection
+    raise ValueError('Selected frames must cover every scripted panel once, in order')
+ValueError: Selected frames must cover every scripted panel once, in order
+== ch15-split folio build r2
+  "pdf": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch15-split/pdf/Horse-of-the-Servant-V15-Chapter-15-r2.pdf",
+  "sha256": "919e59a7b1aa31a72bc843923d52f9258d0e93a667dd07b5efe95451f1e27c95",
+  "minimum_ppi": 303.7762237762238,
+  "median_ppi": 550.0037299515105,
+  "script_chunks": 129
+}
+== ch19 folio build r2
+  "pdf": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch19/pdf/Horse-of-the-Servant-V15-Chapter-19-r2.pdf",
+  "sha256": "bf965e8040b15843924298de333bff9ad2bb288dbe612ff3253af45b99be88b7",
+  "minimum_ppi": 306.3010065457881,
+  "median_ppi": 482.8290766208251,
+  "script_chunks": 113
+}
+REBUILD-16-20-DONE

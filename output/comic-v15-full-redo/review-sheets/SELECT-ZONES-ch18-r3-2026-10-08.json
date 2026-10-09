@@ -1,0 +1,303 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 4,
+  "logs": [
+    "chapter 18: 2 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 18: keep regions for 2 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 18: face zones for 2 frames, 4 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 18,
+        "decisions": [
+          {
+            "id": "page-09-panel-02",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.456,
+                "y": 0.31
+              },
+              {
+                "copy_index": 1,
+                "x": 0.661,
+                "y": 0.317
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.095,
+                "y": 0.23,
+                "r": 0.08
+              },
+              {
+                "x": 0.4,
+                "y": 0.265,
+                "r": 0.12
+              },
+              {
+                "x": 0.715,
+                "y": 0.23,
+                "r": 0.14
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor: Padmini's hair carries somewhat more grey than the 'mostly black, a few threads of grey' line, but it still reads as dark hair coiled at the nape, so it passes. Everything else is clean. Nagoji has a black topknot with grey at the temples, no turban, a thick curled moustache, a clean-shaven chin, a small flush gold stud, a silver chain and the ivory knife at his waist. Revathi has the sandalwood line, no red dot, the flat-coin necklace, jasmine and armlets. The verandah at sunset with a timber rail matches 9.1 and 9.3. Hands are sound and there is no painted text. The open sky across the top center and top right gives room for Revathi's long balloon and Nagoji's short one.",
+            "correction": ""
+          },
+          {
+            "id": "page-09-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "tails_note_ignored": null,
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.45,
+                "y": 0.225,
+                "r": 0.14
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Clean. Nagoji has a black topknot, no turban, a thick curled moustache, a clean-shaven chin, a small gold stud and the silver chain of office on his chest. He sits cross-legged at a low writing board with a reed pen, a small brass ink pot and a clay open-wick lamp on a brass tray, which matches 9.5. The papers show only faint strokes, not legible text. His large shadow falls on the limewashed wall, and the shuttered window looks out on dark hills. The dark upper wall around the shadow is clear for the two captions.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 18,
+        "result": {
+          "chapter": 18,
+          "panels": [
+            {
+              "id": "page-09-panel-02",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.1075,
+                  "y": 0.245,
+                  "r": 0.042,
+                  "who": "older woman in white kasavu sari with staff, background left"
+                },
+                {
+                  "x": 0.445,
+                  "y": 0.297,
+                  "r": 0.048,
+                  "who": "young woman in blue sari, three-quarter view, centre"
+                },
+                {
+                  "x": 0.677,
+                  "y": 0.305,
+                  "r": 0.058,
+                  "who": "Nagoji, three-quarter view facing left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-09-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.464,
+                  "y": 0.3,
+                  "r": 0.06,
+                  "who": "Nagoji, head bowed writing, centre"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 18,
+        "result": {
+          "chapter": 18,
+          "panels": [
+            {
+              "id": "page-09-panel-02",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0,
+                  "x1": 0.2,
+                  "y0": 0.16,
+                  "y1": 0.48,
+                  "what": "Padmini a little way off at left, watching the pair, hand on her walking stick (required third figure)"
+                },
+                {
+                  "x0": 0.39,
+                  "x1": 0.53,
+                  "y0": 0.5,
+                  "y1": 0.62,
+                  "what": "Revathi's open-hand gesture toward Nagoji as she gives her charge"
+                },
+                {
+                  "x0": 0.66,
+                  "x1": 0.77,
+                  "y0": 0.36,
+                  "y1": 0.59,
+                  "what": "Nagoji's silver chain of office and medallion"
+                },
+                {
+                  "x0": 0.77,
+                  "x1": 0.83,
+                  "y0": 0.6,
+                  "y1": 0.75,
+                  "what": "Ivory-handled knife at Nagoji's waist beside his hands on the rail"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-09-panel-04",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.02,
+                  "x1": 0.16,
+                  "y0": 0.73,
+                  "y1": 0.9,
+                  "what": "Lit clay oil lamp (planted for 9.5's 'oil not yet half gone')"
+                },
+                {
+                  "x0": 0.2,
+                  "x1": 0.78,
+                  "y0": 0.55,
+                  "y1": 0.88,
+                  "what": "Hand writing with the reed pen, brass ink pot, and paper sheets on the low writing board"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch18 p9",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ad2f6ca1f8c3b5b7a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510290704,
+      "queuedAt": 1791510290697,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 9 of Chapter 18 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch18/page-09.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791510340756,
+      "tokens": 87657,
+      "toolCalls": 21,
+      "durationMs": 50052,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-09-panel-02\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.456,\"y\":0.31},{\"copy_index\":1,\"x\":0.661,\"y\":0.317}],\"backup_tails\":[],\"faces\":[{\"x\":0.095,\"y\":0.23,\"r\":0.08},{\"x\":0.4,\"y\":0.265,\"r\":0.12},{\"x\":0.715,\"y\":0.23,\"r\":0.14}],\"backup_faces\":[],\"issues\":\"Minor: Padmini's hair carries somewhat more grey than the 'mostly black, a few threads of grey' line, but …"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "mark ch18 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a741b146a96969e41",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510340767,
+      "queuedAt": 1791510340762,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510367361,
+      "tokens": 68998,
+      "toolCalls": 9,
+      "durationMs": 26594,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.1075,\"y\":0.245,\"r\":0.042,\"who\":\"older woman in white kasavu sari with staff, background left\"},{\"x\":0.443,\"y\":0.29,\"r\":0.05,\"who\":\"young woman in blue sari, three-quarter view, centre\"},{\"x\":0.677,\"y\":0.305,\"r\":0.058,\"who\":\"Nagoji, three-quarter view facing left, right\"}]},{\"id\":\"page-09-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.4…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "keep ch18 p9",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a3b10271534288278",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510340776,
+      "queuedAt": 1791510340771,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 9 of chapter 18 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-18-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510391164,
+      "tokens": 69391,
+      "toolCalls": 10,
+      "durationMs": 50388,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-02\",\"version\":\"v03\",\"keep\":[{\"x0\":0,\"x1\":0.2,\"y0\":0.16,\"y1\":0.48,\"what\":\"Padmini a little way off at left, watching the pair, hand on her walking stick (required third figure)\"},{\"x0\":0.39,\"x1\":0.53,\"y0\":0.5,\"y1\":0.62,\"what\":\"Revathi's open-hand gesture toward Nagoji as she gives her charge\"},{\"x0\":0.66,\"x1\":0.77,\"y0\":0.36,\"y1\":0.59,\"what\":\"Nagoji's silver chain of …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "check ch18 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a3b39f96e75e0d27d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510367366,
+      "queuedAt": 1791510367364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510402975,
+      "tokens": 66102,
+      "toolCalls": 9,
+      "durationMs": 35609,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.1075,\"y\":0.245,\"r\":0.042,\"who\":\"older woman in white kasavu sari with staff, background left\"},{\"x\":0.445,\"y\":0.297,\"r\":0.048,\"who\":\"young woman in blue sari, three-quarter view, centre\"},{\"x\":0.677,\"y\":0.305,\"r\":0.058,\"who\":\"Nagoji, three-quarter view facing left, right\"}]},{\"id\":\"page-09-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0…"
+    }
+  ],
+  "totalTokens": 292148,
+  "totalToolCalls": 49
+}

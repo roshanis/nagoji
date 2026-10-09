@@ -1,0 +1,30 @@
+{
+  "schema_version": "r2",
+  "scope": [
+    "page-09",
+    "page-10"
+  ],
+  "created_additively": true,
+  "raw_json_mutation_finding": {
+    "statement": "I did not rewrite or overwrite any pre-existing page 9 or page 10 candidate JSON. I created new candidate JSON files only when a capture collision existed because a raw frame path had already been created, and those new files were additive revisions. Existing candidate byte histories before this task are not available to reconstruct.",
+    "current_check": "Current candidate sha256 values match their referenced frame bytes. Correction provenance siblings record actual prompt paths and current frame hashes.",
+    "base_capture_sha256": "The prior provenance mismatch flag concerns provenance metadata versus raw candidate JSON bytes. I cannot certify earlier provenance bytes or reconstruct unrecoverable prior versions.",
+    "manual_capture_cases": [
+      "page-09-panel-01-v04",
+      "page-09-panel-02-v03",
+      "page-09-panel-03-v02"
+    ]
+  },
+  "reference_deviation": {
+    "statement": "The correction calls made in this task attached the approved character sheets only. They did not attach a previous frame. This deviates from the README previous-frame correction preference and is recorded without fabricating a previous-frame reference.",
+    "actual_attached_references": "The two approved character sheets listed in each correction provenance sibling."
+  },
+  "root_independent_review": {
+    "page-09-panel-01-v06": "reject: missing collar",
+    "page-09-panel-02-v04": "reject: missing collar, missing manacles, missing face, wrong staging",
+    "page-09-panel-03-v03": "reject: missing collar",
+    "page-09-panel-04-v05": "reject: missing knee and rope coil, rope action fails script staging",
+    "page-09-panel-05-v06": "reject: rope breaks between hands and lacks knee and coil staging; script requires behind-hands rope and severed tail to rail"
+  },
+  "copy_fit_light_audit": "The latest page 9 geometry set reached copy-fit true for all measured reserves after reserve revisions, but light audit was not a pass because page-09-panel-01 lettering crossed nonblank art under the measured geometry. Therefore no page 9 candidate is certified ready."
+}

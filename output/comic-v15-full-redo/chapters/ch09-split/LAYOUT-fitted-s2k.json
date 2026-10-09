@@ -1,0 +1,120 @@
+{
+  "page_rows": {
+    "1": [
+      91.4,
+      88.9,
+      166.9,
+      106.4,
+      61.9
+    ],
+    "2": [
+      248,
+      [
+        141.7,
+        141.7
+      ],
+      [
+        129.8,
+        129.8
+      ]
+    ],
+    "3": [
+      [
+        314.1,
+        314.1
+      ],
+      207.4
+    ],
+    "4": [
+      142.2,
+      165.4,
+      211.9
+    ],
+    "5": [
+      231.6,
+      289.9
+    ],
+    "6": [
+      [
+        238.2,
+        238.2
+      ],
+      109.5,
+      92.2,
+      77.6
+    ],
+    "7": [
+      129,
+      [
+        249,
+        249
+      ],
+      [
+        141.5,
+        141.5
+      ]
+    ],
+    "8": [
+      92.7,
+      112.7,
+      [
+        204.5,
+        204.5
+      ],
+      107.6
+    ],
+    "9": [
+      [
+        181.6,
+        181.6
+      ],
+      [
+        149,
+        149
+      ],
+      188.9
+    ],
+    "10": [
+      120.6,
+      [
+        197.7,
+        197.7
+      ],
+      123.8,
+      75.4
+    ],
+    "11": [
+      [
+        161.6,
+        161.6
+      ],
+      144.4,
+      [
+        213.5,
+        213.5
+      ]
+    ],
+    "12": [
+      [
+        169.4,
+        169.4
+      ],
+      [
+        183.9,
+        183.9
+      ],
+      166.2
+    ]
+  },
+  "fitted_from": {
+    "layout": "chapters/ch09-split/review/LAYOUT-start.json",
+    "layout_sha256": "fa402c0d99716296cb38c92adc5362021dc9f79728e64f41548fd0702978a16d",
+    "manifest": "chapters/ch09-split/SELECTION-INPUT-s2-a.json",
+    "margin": 3.0,
+    "face_scale": 1.0,
+    "structures": true,
+    "chunked": "scratchpad fit_pages.py + fit_merge.py (run_chapter._structure_page per page)",
+    "keep_max": 0.34,
+    "pages_from": "pages 4,5,6,9 from the unrestricted s2 fit (their placements already met the tolerance); the rest fitted with keep_max 0.34"
+  }
+}

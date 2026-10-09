@@ -1,0 +1,117 @@
+{
+ "page_rows": {
+  "1": [
+   98.5,
+   175.0,
+   [
+    144.0,
+    144.0
+   ],
+   100.0
+  ],
+  "2": [
+   149.3,
+   [
+    120.0,
+    120.0
+   ],
+   127.2,
+   121.0
+  ],
+  "3": [
+   212.7,
+   102.1,
+   204.7
+  ],
+  "4": [
+   144.9,
+   376.6
+  ],
+  "5": [
+   265.3,
+   256.2
+  ],
+  "6": [
+   190.2,
+   210.8,
+   118.5
+  ],
+  "7": [
+   [
+    136.0,
+    136.0
+   ],
+   209.8,
+   [
+    173.7,
+    173.7
+   ]
+  ],
+  "8": [
+   191.4,
+   115,
+   117,
+   94.1
+  ],
+  "9": [
+   [
+    120.0,
+    120.0
+   ],
+   199.0,
+   109.3,
+   89.2
+  ],
+  "10": [
+   103.2,
+   168.1,
+   89.0,
+   93.2,
+   62.0
+  ],
+  "11": [
+   110.0,
+   [
+    120,
+    120
+   ],
+   155.5,
+   132.0
+  ],
+  "12": [
+   [
+    238.0,
+    238.0
+   ],
+   [
+    147.6,
+    147.6
+   ],
+   133.9
+  ]
+ },
+ "fitted_from": {
+  "solver": "scratchpad solve_bars.py: every grouping into rows of one or two, planner-verified at the final heights with keep_max 0.34, and each slot kept inside the shapes its cover crop can reach (worst-panel fill per page in page_fill)",
+  "package": "chapters/ch06-split",
+  "manifest": "chapters/ch06-split/SELECTION-INPUT-s1-a.json",
+  "decisions": "chapters/ch06-split/review/LEAN-SELECTION-drawn-split-r1.json",
+  "faces": "chapters/ch06-split/review/FACES-s1.json",
+  "keep": "chapters/ch06-split/review/KEEP-s1.json",
+  "keep_max": 0.34,
+  "step_pt": 5,
+  "page_fill": {
+   "1": 0.98,
+   "2": 0.95,
+   "3": 0.98,
+   "4": 0.98,
+   "5": 0.98,
+   "6": 0.98,
+   "7": 0.98,
+   "8": 0.85,
+   "9": 0.98,
+   "10": 0.75,
+   "11": 0.8,
+   "12": 0.98
+  }
+ }
+}

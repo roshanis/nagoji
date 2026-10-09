@@ -1,0 +1,257 @@
+{
+  "prompt_profile": "v2",
+  "chapter": 15,
+  "status": "draft",
+  "settings": {
+    "colachel_beach": {
+      "label": "Colachel beach and the burnt Dutch camp",
+      "scopes": [
+        "coast",
+        "travancore_camp",
+        "dutch"
+      ],
+      "anchor": "Colachel beach on the Travancore coast: a long pale sand shore under low dunes and coconut palms, the charred timber stockade and burnt-out Dutch camp lying ash grey on the sand, a low sandy rise where the Travancore battery stood, and the shore road running south toward Kanyakumari. Far out on the open sea, a few Dutch ships ride small and distant.",
+      "absent": "No stone fort, bastions, harbour or town on this beach, and no European tents left standing. No red coats, no blood or bodies, and no coats, uniforms, hats or turbans on the Nair soldiers.",
+      "time": "clear mid-morning sun, the smoke of the burning gone"
+    },
+    "colachel_waterline": {
+      "label": "Colachel surf line the morning after",
+      "scopes": [
+        "coast",
+        "sea"
+      ],
+      "anchor": "The surf line at Colachel: breakers rolling onto pale sand, low dunes and coconut palms behind, and up the beach the charred stockade with scattered rope, metal and torn canvas from the empty, wrecked Dutch camp. Small open wooden coastal boats with oars, no guns and no flags run in through the breakers to ground on the sand.",
+      "absent": "No Dutch soldiers or prisoners on the beach, no tall ships near the shore, and no stone fort, pier or harbour. No blood or bodies among the salvage.",
+      "time": "morning, low sun off the sea"
+    },
+    "udayagiri_road": {
+      "label": "Inland road to Udayagiri",
+      "scopes": [
+        "kerala",
+        "travancore_camp",
+        "dutch"
+      ],
+      "anchor": "A red earth road running inland between coconut palms and green paddy toward Udayagiri Fort, whose long granite walls and bastions rise against the green hills at the foot of the Ghats. The sea lies behind the marchers, out of view.",
+      "absent": "No ropes, chains or yokes on the prisoners, no European buildings or church, and no red coats. Udayagiri flies no Dutch or Company flag.",
+      "time": "daylight, hot haze over the paddy"
+    },
+    "kanyakumari_track": {
+      "label": "Beach track toward Kanyakumari",
+      "scopes": [
+        "coast",
+        "travancore_camp",
+        "dutch"
+      ],
+      "anchor": "The beach track running south from Colachel toward Kanyakumari, where the land narrows and the sea presses close: firm sand under an unbroken wall of coconut palms, then old siege trenches and palm-log barricades bending round a shallow stream that spreads across wet sand. Far to the south, low rocky headlands fade into sea haze.",
+      "absent": "No stone fort, town or temple in view, and no blood, wounds or bodies. No red coats, no green turbans on the lancers, and no red shoulder cloths on the unnamed Maravar scouts.",
+      "time": "hard daylight, sea glare and haze to the south"
+    },
+    "udayagiri_audience": {
+      "label": "Private audience room at Udayagiri",
+      "scopes": [
+        "kerala",
+        "court"
+      ],
+      "anchor": "A small room for private audiences inside Udayagiri: bare dressed granite walls, a low stone platform with simple woven mats, a plain timber door, and one window onto green hills, with a yard below it where Nair spearmen drill. Where they appear, Varma sits on the platform with his spear leaning within reach, Ramayyan and Tharakan sit on the mats to one side, and Nagoji stands by the door.",
+      "absent": "No throne, crown, chairs, tables, carpets or glass lamps, and no turban or peacock crest on Varma in this room. No flags, Company emblems or legible writing anywhere.",
+      "time": "daylight from the single window",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "udayagiri_courtyard": {
+      "label": "Udayagiri courtyard",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The inner courtyard of Udayagiri: worn granite flagstones, a raised upper walk along the inner wall above a lower yard, and plain doorways to the officers' quarters under sloping tiled roofs, with a stone bench outside one door. Green hills show beyond the courtyard wall.",
+      "absent": "No European barracks, glass lanterns, flags or Company emblems, and no chairs or tables: anyone seated sits on the ground. No ropes or chains on anyone and no red coats.",
+      "time": "before dawn, cool blue-grey light",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "udayagiri_ramparts": {
+      "label": "Udayagiri ramparts",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The granite ramparts of Udayagiri: a long wall walk behind a plain stone parapet, bastions at the turns, and beyond them the narrow green country of Travancore, palm groves and paddy running down from the Ghats to a thin line of sea.",
+      "absent": "No flags, Company emblems, cannon smoke or European towers on the walls, and no crowd on the wall walk. No town lights or roads cutting the valley.",
+      "time": "evening, amber sky",
+      "allow_terms": [
+        "portuguese"
+      ]
+    }
+  },
+  "pages": {
+    "1": "colachel_beach",
+    "2": "colachel_beach",
+    "3": "colachel_beach",
+    "4": "colachel_beach",
+    "5": "colachel_beach",
+    "6": "colachel_waterline",
+    "7": "kanyakumari_track",
+    "8": "udayagiri_audience",
+    "9": "udayagiri_audience",
+    "10": "udayagiri_audience",
+    "11": "udayagiri_audience",
+    "12": "udayagiri_courtyard",
+    "13": "udayagiri_courtyard",
+    "14": "udayagiri_ramparts"
+  },
+  "panels": {
+    "page-01-panel-01": {
+      "frame": "strip",
+      "distant": true
+    },
+    "page-01-panel-03": {
+      "lettering_space": "Keep the upper left of the frame, above Dhanaji, clear for his two speeches."
+    },
+    "page-02-panel-02": {
+      "frame": "strip",
+      "distant": true
+    },
+    "page-03-panel-02": {
+      "lettering_space": "Leave quiet space above the two heads at frame-left, near the taller man's mouth, for the two whispered speeches."
+    },
+    "page-04-panel-05": {
+      "frame": "strip"
+    },
+    "page-05-panel-03": {
+      "setting": "udayagiri_road"
+    },
+    "page-05-panel-04": {
+      "setting": "udayagiri_road"
+    },
+    "page-06-panel-05": {
+      "frame": "strip",
+      "lettering_space": "Leave open sky above the boats for the caption, with room near Ibrahim for his long called-back speech."
+    },
+    "page-07-panel-01": {
+      "setting": "colachel_beach"
+    },
+    "page-07-panel-02": {
+      "setting": "colachel_beach"
+    },
+    "page-08-panel-05": {
+      "lettering_space": "Leave clear wall space above and between the two heads so the King's speech can overlap and cut across De Lannoy's."
+    },
+    "page-09-panel-04": {
+      "sheets": false
+    },
+    "page-10-panel-03": {
+      "sheets": false
+    },
+    "page-10-panel-04": {
+      "lettering_space": "Keep the open sky beyond the window clear for the two speeches, and a quiet, low-detail band along the foot of the panel for the long caption."
+    },
+    "page-12-panel-01": {
+      "setting": "udayagiri_audience"
+    },
+    "page-12-panel-02": {
+      "setting": "udayagiri_audience"
+    },
+    "page-12-panel-03": {
+      "frame": "strip",
+      "time": "high sun, hard noon light with short shadows"
+    },
+    "page-12-panel-05": {
+      "sheets": false
+    },
+    "page-13-panel-02": {
+      "time": "first light catching the tops of the walls"
+    },
+    "page-13-panel-03": {
+      "time": "first light"
+    },
+    "page-13-panel-04": {
+      "time": "first light",
+      "bleed": "The upper-left inset sits inside this panel's own frame and is read first: a tight crop of De Lannoy's waist and Nagoji's hands at the tuck, with no faces. The main image shows each man once, full figure, with the tuck holding.",
+      "lettering_space": "Keep a small clear area beside the upper-left inset for the short oath, and quiet courtyard wall above the two men for the two speeches."
+    },
+    "page-13-panel-05": {
+      "time": "early morning light"
+    },
+    "page-14-panel-01": {
+      "setting": "udayagiri_courtyard",
+      "time": "early morning, the light growing"
+    },
+    "page-14-panel-02": {
+      "setting": "udayagiri_courtyard",
+      "time": "early morning, the light growing"
+    },
+    "page-14-panel-03": {
+      "distant": true
+    },
+    "page-14-panel-04": {
+      "time": "dusk, the amber fading"
+    },
+    "page-14-panel-05": {
+      "frame": "strip",
+      "distant": true,
+      "time": "dusk, last light on the sea",
+      "lettering_space": "Leave a broad band of open dusk sky above the walls for the single long caption."
+    }
+  },
+  "character_notes": {
+    "nagoji": "Thick curled moustache; clean-shaven chin and jaw, smooth skin, no beard, no stubble and no grey in his black hair yet, and a tiny flush gold ear stud on the lobe with nothing hanging from it. His brand, a pale puckered patch of raised ridges with no letters beside a long thin white scar on the inner LEFT forearm, shows only where the panel says his sleeves are pushed up.",
+    "dhanaji": "Stockier and a little shorter than Nagoji, short black beard, white Maratha pagdi, indigo quilted tunic, no sash, talwar, on a brown horse; never a rust-red turban or a red sash.",
+    "kayal": "Bay mare: ochre red-brown coat with black mane, tail and lower legs, and no white markings anywhere; never grey or black-bodied.",
+    "varma": "Face, moustache and build from his sheet, with black hair, never the grey of the sheet's later figure, and never a crown. On the beach on pages 1 to 7 he wears the cream-and-gold turban with the jewelled peacock-feather crest; inside Udayagiri on pages 8 to 12 he is bare-headed with his hair in a side knot above the LEFT ear, no turban and no crest.",
+    "ramayyan": "Thin sharp features and receding hair, bare-headed, plain unbordered white cloth, no jewellery, forehead marks or sacred thread; never Tharakan's maroon silk or gold chains, and never the officiating priest's face.",
+    "mathoo": "Older and heavier-set than Ramayyan, grey receding hair, fine grey moustache, clean chin, a dark maroon silk tunic under heavy gold chains, one chain carrying a small gold St Thomas cross with flared, budded arms, not a crucifix. A layman and court noble: no robes and no clerical headgear.",
+    "eustachius": "A head taller than the other officers, pale hair, a linen bandage round his LEFT hand and wrist in every panel. Torn, soot-stained blue coat and boots through page 13 panel 2 and a sweat-stained shirt, barefoot, in panel 3; from page 13 panel 4 on, a plain white ankle-length mundu tucked at the waist, a plain white cotton tunic-coat and sandals, bare-headed, never the blue coat.",
+    "donnadi": "Shorter and stockier than De Lannoy, weathered, dark hair tied back, a blue officer's coat with a sash and a brass-hilted sword; never tall or pale-haired.",
+    "ibrahim": "White turban, short grey-flecked beard and a thin pale scar from the anatomical LEFT ear to the jaw, nothing on the forehead; shorter than his boatmen but broader, in a short coat over a vest with bulging pockets.",
+    "madurai_troop": "Knee-length white jama tunics, plain cloth waistbands, high-wrapped white or off-white turbans, never green, red or rust, and long bamboo lances with no pennons, on dark bay, dark brown or black horses, no greys."
+  },
+  "not_shown": {
+    "page-01-panel-04": [
+      "varma"
+    ],
+    "page-02-panel-01": [
+      "varma"
+    ],
+    "page-02-panel-02": [
+      "nagoji"
+    ],
+    "page-03-panel-05": [
+      "keshavrao"
+    ],
+    "page-05-panel-01": [
+      "donnadi",
+      "eustachius"
+    ],
+    "page-06-panel-02": [
+      "nagoji",
+      "varma"
+    ],
+    "page-06-panel-03": [
+      "varma"
+    ],
+    "page-06-panel-05": [
+      "ramayyan"
+    ],
+    "page-07-panel-05": [
+      "ramayyan"
+    ],
+    "page-09-panel-01": [
+      "eustachius"
+    ],
+    "page-10-panel-03": [
+      "eustachius"
+    ],
+    "page-10-panel-04": [
+      "varma"
+    ],
+    "page-11-panel-02": [
+      "donnadi"
+    ],
+    "page-14-panel-02": [
+      "nagoji"
+    ]
+  }
+}

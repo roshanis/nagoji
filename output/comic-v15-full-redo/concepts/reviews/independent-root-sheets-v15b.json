@@ -1,0 +1,70 @@
+{
+  "review_version": "v15b",
+  "reviewer": "Codex",
+  "scope": "Final independent visual review of root sheets 10, 11, 16 and 17",
+  "results": [
+    {
+      "character": "10 Father Duarte",
+      "output": "output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+      "sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453",
+      "checks": {
+        "face_and_age": "pass",
+        "grey_swept_back_hair_and_tired_eyes": "pass",
+        "plain_black_cassock_and_standing_collar": "pass",
+        "no_white_roman_collar_tabs": "pass",
+        "cross_and_ink_stained_fingers": "pass",
+        "text_and_layout": "pass"
+      },
+      "notes": "Matches the approved Chapter 1 Duarte face references and bible costume."
+    },
+    {
+      "character": "11 Joao",
+      "output": "output/comic-v15-full-redo/concepts/11-joao-v15.png",
+      "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a",
+      "checks": {
+        "broad_heavy_ruddy_gaoler": "pass",
+        "brown_leather_jerkin_and_cream_shirt": "pass",
+        "wide_belt_and_iron_key_ring": "pass",
+        "not_a_priest": "pass",
+        "text_and_layout": "pass"
+      },
+      "notes": "Clearly reads as the Portuguese gaoler described by the bible."
+    },
+    {
+      "character": "16 The Senior Rani of Attingal",
+      "output": "output/comic-v15-full-redo/concepts/16-senior-rani-v15.png",
+      "sha256": "118a5ae795f9c653ea870a9e0167d4ef521c1e6a65a506fc7f6782a2a9297bc8",
+      "checks": {
+        "family_likeness_to_v13_varma": "pass",
+        "tall_upright_and_smooth_faced": "pass",
+        "severe_hair_no_flowers": "pass",
+        "white_cloth_narrow_gold_border": "pass",
+        "small_gold_ear_ornaments": "pass",
+        "not_old_grey_haired": "pass",
+        "text_and_layout": "pass"
+      },
+      "notes": "Matches the requested sister of Varma, with controlled family resemblance and no old-woman treatment."
+    },
+    {
+      "character": "17 The Young Heir",
+      "source_sheet": "output/character-model-sheets-v1/17-young-heir.png",
+      "source_sha256": "ff3a41094088faaa02f5b1b84242b72d0ddb296c244f765facaf91b64d7acd0e",
+      "output": "output/comic-v15-full-redo/concepts/17-young-heir-v15b.png",
+      "sha256": "d1ab47bbe6f0720434ca1d6304441b355d59c213bda38f16f3436186cbecb346",
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "about_ten_child_proportions": "pass",
+        "uncle_family_resemblance_sharp_cheekbones_watchful_eyes": "pass",
+        "small_neat_topknot_no_loose_curls": "pass",
+        "plain_white_mundu": "pass",
+        "bare_chest": "pass",
+        "thin_gold_chain": "pass",
+        "all_views_and_details_consistent": "pass",
+        "text_readable": "pass",
+        "correct_role_text": "fail",
+        "no_em_or_en_dash": "pass"
+      },
+      "notes": "The visual correction succeeds: the sheet shows a roughly ten-year-old child with sharp cheekbones, wide watchful eyes, a neat topknot, bare chest, plain white mundu and thin gold chain. However, the header role reads VARMA'S NEPHEW instead of the source prompt's exact role CHILD LEARNING TO LEAD. The role is semantically related to the bible, but the text check fails because the requested role text is not preserved exactly. No retry or edit was performed."
+    }
+  ]
+}

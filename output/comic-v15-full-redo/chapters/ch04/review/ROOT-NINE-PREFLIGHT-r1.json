@@ -1,0 +1,1381 @@
+{
+  "status": "partial_preflight_only_not_build_acceptance",
+  "created_utc": "2026-09-30T14:08:32.712205+00:00",
+  "reviewed_frame_count": 9,
+  "layout_proposal": {
+    "page_rows": {
+      "1": [
+        165,
+        165,
+        105,
+        82.5
+      ],
+      "2": [
+        102,
+        [
+          140,
+          140
+        ],
+        180,
+        95.5
+      ],
+      "3": [
+        130,
+        75,
+        110,
+        105,
+        95.5
+      ],
+      "4": [
+        120,
+        115,
+        85,
+        100,
+        95.5
+      ],
+      "5": [
+        110,
+        105,
+        90,
+        105,
+        105.5
+      ],
+      "6": [
+        [
+          104,
+          104
+        ],
+        104,
+        100,
+        209.5
+      ]
+    }
+  },
+  "layout_note": "Proposed page2 adjustment was tested in memory before stopping. LAYOUT.json has not been replaced. This snapshot does not authorize build.",
+  "rows": [
+    {
+      "id": "page-01-panel-01",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-01-panel-01-v02.png",
+      "sha256": "59299c105704a1e8baa7be89d65f13f19ecf44efc2d26e748d39d539fb0e9f2a",
+      "width": 1905,
+      "height": 825,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-01-panel-01-v02.txt",
+      "prompt_sha256": "8d4d0ec1bcf383b5faf7a2389ebb330d314c7bd6f14baf6716811b253e38625c",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-01-panel-01-v01.png",
+          "sha256": "a44a43f1c5dd8089fe0bfab96cdbb8367b6f71389f56e90ff62d18d4852e0ca8"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+          "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-0e107a02-2ef3-4256-80ad-cd75b2dfd0e2.png",
+      "visible_rect": [
+        0,
+        0,
+        1905,
+        825
+      ],
+      "reserves": [
+        {
+          "kind": "caption",
+          "rect": [
+            38,
+            44,
+            899,
+            118
+          ],
+          "copy_indices": [
+            0
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-01-panel-02",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-01-panel-02-v02.png",
+      "sha256": "20be5bcdbb2de5e0f112be2a30d1f27919cd0d4131ee80857c0c3b003739969d",
+      "width": 1875,
+      "height": 839,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-01-panel-02-v02.txt",
+      "prompt_sha256": "d45db33f2db2a7d2bc50f58bcc58c90f9dcac30551c568ffbac5ab208c3eb99e",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-01-panel-02-v01.png",
+          "sha256": "53c9071caae8609ea9155b00c58b280f63d9b64430a6e90ddaeae33893e280e9"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+          "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-fe3cd0ed-f7ed-408d-b21d-1a381d4ea620.png",
+      "visible_rect": [
+        0,
+        0,
+        1875,
+        839
+      ],
+      "reserves": [
+        {
+          "kind": "caption",
+          "rect": [
+            959,
+            14,
+            1854,
+            126
+          ],
+          "copy_indices": [
+            0
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-01-panel-03",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-01-panel-03-v02.png",
+      "sha256": "f7312f6d85d41617a2bdcb1b3173c803d3a2db818c1018760c23736d662609fc",
+      "width": 2076,
+      "height": 757,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-01-panel-03-v02.txt",
+      "prompt_sha256": "42808dfe850fa42a53ad731938169d373b7bc66d864945a2425532363c87bda4",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-01-panel-03-v01.png",
+          "sha256": "350bc944fb1cf9955349221ff799ea9fefa388fb1aa65f593c075a3cc96a9a64"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+          "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-44f0069f-01c1-4ca2-8a72-cce958d8dfbf.png",
+      "visible_rect": [
+        0,
+        0,
+        2076,
+        757
+      ],
+      "reserves": [
+        {
+          "kind": "caption",
+          "rect": [
+            35,
+            29,
+            980,
+            205
+          ],
+          "copy_indices": [
+            0
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-01-panel-04",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-01-panel-04-v02.png",
+      "sha256": "11c1f1810fe342cda41c60462a4897bb6694bcae60c65ee7f3d801ebd999219a",
+      "width": 2167,
+      "height": 726,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-01-panel-04-v02.txt",
+      "prompt_sha256": "38c08b1f8f15e2d398208da73bdef410b3dae53a552225b305efde26a5572762",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-01-panel-04-v01.png",
+          "sha256": "1f2a7a2136487e9dc81675caef5c587942b39b8294f4a42e6a9e31220194c553"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-31cc1303-01cf-4164-87d4-7f0df138e939.png",
+      "visible_rect": [
+        0,
+        0,
+        2167,
+        484
+      ],
+      "reserves": [
+        {
+          "kind": "caption",
+          "rect": [
+            30,
+            39,
+            582,
+            181
+          ],
+          "copy_indices": [
+            0
+          ]
+        },
+        {
+          "kind": "speech",
+          "rect": [
+            650,
+            62,
+            960,
+            162
+          ],
+          "copy_indices": [
+            1
+          ]
+        },
+        {
+          "kind": "speech",
+          "rect": [
+            1090,
+            55,
+            1485,
+            165
+          ],
+          "copy_indices": [
+            2
+          ]
+        },
+        {
+          "kind": "speech",
+          "rect": [
+            1600,
+            55,
+            2060,
+            165
+          ],
+          "copy_indices": [
+            3
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass_with_ankle_deviation_in_1.4"
+    },
+    {
+      "id": "page-02-panel-01",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-01-v01.png",
+      "sha256": "3d2856275d7dcaaa9494faec64dca29112ce98ffbd9251dbbc827eac737b173e",
+      "width": 2135,
+      "height": 736,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-02-panel-01-v01.txt",
+      "prompt_sha256": "d9ed7bae499330a0a3869df818394c2c90970df6922eb0d7201ec5b16dbf8b13",
+      "references": [],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-769a1700-5f6e-46c7-b0f9-40a1abe6ceb9.png",
+      "visible_rect": [
+        0,
+        0,
+        2135,
+        736
+      ],
+      "reserves": [
+        {
+          "kind": "caption",
+          "rect": [
+            740,
+            557,
+            1385,
+            678
+          ],
+          "copy_indices": [
+            0
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-02-panel-02",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-02-v02.png",
+      "sha256": "2c2e0d106054169493dc3da586917eaba4f202ab9a4f2f299df7ef868d54b269",
+      "width": 1435,
+      "height": 1096,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-02-panel-02-v02.txt",
+      "prompt_sha256": "f11892f328bfbf3a5f173558597a0d6de00ecf8c189656716d7cd7a11dfa01d4",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-02-v01.png",
+          "sha256": "32433209e50d4700ef6af1c64423888a846766e1ddecb0586ee6251821f5f2f3"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+          "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-01-v01.png",
+          "sha256": "3d2856275d7dcaaa9494faec64dca29112ce98ffbd9251dbbc827eac737b173e"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-5bfaa7df-571c-43d2-9416-ff71bcd31ec4.png",
+      "visible_rect": [
+        4,
+        4,
+        1431,
+        1092
+      ],
+      "reserves": [
+        {
+          "kind": "speech",
+          "rect": [
+            80,
+            30,
+            560,
+            190
+          ],
+          "copy_indices": [
+            0
+          ]
+        },
+        {
+          "kind": "caption",
+          "rect": [
+            35,
+            915,
+            1400,
+            1060
+          ],
+          "copy_indices": [
+            1
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-02-panel-03",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-03-v02.png",
+      "sha256": "6618509eeb42d4b9faec1d261fbccfa245a39f2653ee20937b6bf34591e84bcb",
+      "width": 1435,
+      "height": 1096,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-02-panel-03-v02.txt",
+      "prompt_sha256": "94de4b6ce16ed5084c75bbae7245b57b1c04cc44a9bc050168ded843846aa4c3",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-03-v01.png",
+          "sha256": "c915e22d7744bc6b8b6513638507581fd66e203811126869240a87ac285e30d3"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+          "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-01-v01.png",
+          "sha256": "3d2856275d7dcaaa9494faec64dca29112ce98ffbd9251dbbc827eac737b173e"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-b7de908e-34ac-42dc-84d9-aeb6ad3f937f.png",
+      "visible_rect": [
+        4,
+        4,
+        1431,
+        1092
+      ],
+      "reserves": [
+        {
+          "kind": "speech",
+          "rect": [
+            85,
+            35,
+            410,
+            122
+          ],
+          "copy_indices": [
+            0
+          ]
+        },
+        {
+          "kind": "caption",
+          "rect": [
+            40,
+            948,
+            1395,
+            1045
+          ],
+          "copy_indices": [
+            1
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-02-panel-04",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-04-v02.png",
+      "sha256": "0c26399198fc40c41d6596120942b503a68c7b74beee39a9a4254e98795d27e8",
+      "width": 1795,
+      "height": 876,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-02-panel-04-v02.txt",
+      "prompt_sha256": "cbc16470bd698865d17d9f248628c04b0a1aa978a8ae838e2a831405564cc16a",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-04-v01.png",
+          "sha256": "cdeb985d9ba5a4abfa864cb935225052f0a2dc251705b5cf8d4067ff1c4c136c"
+        },
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+          "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-3a60cd82-4321-4df6-976d-883402efff11.png",
+      "visible_rect": [
+        3,
+        3,
+        1792,
+        873
+      ],
+      "reserves": [
+        {
+          "kind": "caption",
+          "rect": [
+            28,
+            28,
+            606,
+            108
+          ],
+          "copy_indices": [
+            0
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-02-panel-05",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-05-v02.png",
+      "sha256": "2e601e7ba2366816271d3516c1d72667ac35aeeabe5ed61dfbb5ad6512aea06c",
+      "width": 1933,
+      "height": 814,
+      "generation_tool": "built-in imagegen",
+      "origin": "generated",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/production-page-02-panel-05-v02.txt",
+      "prompt_sha256": "38df6b1dd0c9d78c179cf2c2db7feac1a1629fba474305c9840c1080905be535",
+      "references": [
+        {
+          "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/frames/page-02-panel-05-v01.png",
+          "sha256": "b843ae7bd32c57998e4b0d27b8878a064c70f9c36668896caa12c52cdee50840"
+        }
+      ],
+      "visual_review": "pending",
+      "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-d5c0-7092-8c5e-0d0ac7203852/exec-dc9961c2-8325-473d-a809-8c6dcd6f7de6.png",
+      "visible_rect": [
+        0,
+        0,
+        1933,
+        500
+      ],
+      "reserves": [
+        {
+          "kind": "caption",
+          "rect": [
+            75,
+            34,
+            887,
+            110
+          ],
+          "copy_indices": [
+            0
+          ]
+        },
+        {
+          "kind": "caption",
+          "rect": [
+            921,
+            34,
+            1863,
+            110
+          ],
+          "copy_indices": [
+            1
+          ]
+        }
+      ],
+      "review_status": "root_native_review_pass"
+    }
+  ],
+  "measurements": [
+    {
+      "frame_id": "page-01-panel-01",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        43.36062992125984,
+        554.2948818897637,
+        166.77637795275592,
+        14.33385826771655
+      ],
+      "lines": [
+        "When the sea finally spat me out, it did so without ceremony."
+      ],
+      "adaptation": {
+        "planned_rect_pt": [
+          36.0,
+          414.75,
+          369.0,
+          165
+        ],
+        "actual_clip_rect_pt": [
+          36.0,
+          417.34842519685037,
+          369.0,
+          159.8031496062992
+        ],
+        "visible_aspect": 2.309090909090909,
+        "planned_aspect": 2.2363636363636363,
+        "policy": "contain_visible_viewport_centered_inside_planned_slot"
+      },
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 5.006377952755912,
+        "top": 3.2719291338582757,
+        "bottom": 3.2719291338582748
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          159.77,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        5.011929133858275
+      ]
+    },
+    {
+      "frame_id": "page-01-panel-02",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        224.7312,
+        388.0108,
+        176.13600000000002,
+        22.041600000000017
+      ],
+      "lines": [
+        "Breathing was a battle. Each time I drew in air it brought more",
+        "salt, more pain."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 10.706000000000017,
+        "top": 2.3408000000000087,
+        "bottom": 2.3408000000000078
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.79,
+          163.43,
+          6.05
+        ],
+        [
+          0.0,
+          -1.74,
+          40.8,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        13.650800000000007,
+        4.130800000000008
+      ]
+    },
+    {
+      "frame_id": "page-01-panel-03",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        81.37846763540291,
+        217.3153896961691,
+        131.07661822985466,
+        24.412153236459716
+      ],
+      "lines": [
+        "My limbs felt like they belonged to someone",
+        "else, a man made of lead and bruises."
+      ],
+      "adaptation": {
+        "planned_rect_pt": [
+          36.0,
+          140.75,
+          369.0,
+          105
+        ],
+        "actual_clip_rect_pt": [
+          76.52377807133422,
+          140.75,
+          287.95244385733156,
+          105
+        ],
+        "visible_aspect": 2.7424042272126816,
+        "planned_aspect": 3.5142857142857142,
+        "policy": "contain_visible_viewport_centered_inside_planned_slot"
+      },
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 13.566618229854654,
+        "top": 3.526076618229858,
+        "bottom": 3.5260766182298573
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.79,
+          115.51,
+          6.05
+        ],
+        [
+          0.0,
+          -0.63,
+          99.99,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        14.836076618229857,
+        5.316076618229857
+      ]
+    },
+    {
+      "frame_id": "page-01-panel-04",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        40.92613636363636,
+        107.89772727272727,
+        94.09090909090908,
+        24.204545454545425
+      ],
+      "lines": [
+        "The sea was no longer alone."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 15.690909090909088,
+        "top": 8.18227272727271,
+        "bottom": 8.182272727272714
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          -0.02,
+          -1.79,
+          76.38,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        9.972272727272713
+      ]
+    },
+    {
+      "frame_id": "page-01-panel-04",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        146.60795454545456,
+        111.13636363636363,
+        52.840909090909065,
+        17.04545454545456
+      ],
+      "lines": [
+        "...alive..."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 28.920909090909063,
+        "top": 5.47272727272728,
+        "bottom": 5.4727272727272815
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.05,
+          21.92,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        5.522727272727281
+      ]
+    },
+    {
+      "frame_id": "page-01-panel-04",
+      "copy_indices": [
+        2
+      ],
+      "rect_pt": [
+        221.60795454545453,
+        110.62499999999999,
+        67.32954545454547,
+        18.750000000000014
+      ],
+      "lines": [
+        "Look at his hands..."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 14.289545454545468,
+        "top": 6.325000000000006,
+        "bottom": 6.325000000000008
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.05,
+          51.04,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        6.375000000000008
+      ]
+    },
+    {
+      "frame_id": "page-01-panel-04",
+      "copy_indices": [
+        3
+      ],
+      "rect_pt": [
+        308.53977272727275,
+        110.62499999999999,
+        78.40909090909088,
+        18.750000000000014
+      ],
+      "lines": [
+        "See the brand on his arm."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 8.659090909090878,
+        "top": 6.300000000000008,
+        "bottom": 6.300000000000007
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.05,
+          67.75,
+          6.1
+        ]
+      ],
+      "baselines_pt": [
+        6.350000000000007
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-01",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        175.11277173913044,
+        485.7880434782609,
+        89.38858695652169,
+        16.769021739130437
+      ],
+      "lines": [
+        "They were not Portuguese."
+      ],
+      "adaptation": {
+        "planned_rect_pt": [
+          36.0,
+          477.75,
+          369.0,
+          102
+        ],
+        "actual_clip_rect_pt": [
+          72.5584239130435,
+          477.75,
+          295.883152173913,
+          102
+        ],
+        "visible_aspect": 2.900815217391304,
+        "planned_aspect": 3.6176470588235294,
+        "policy": "contain_visible_viewport_centered_inside_planned_slot"
+      },
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 17.408586956521702,
+        "top": 4.464510869565219,
+        "bottom": 4.464510869565219
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          -0.02,
+          -1.79,
+          69.96,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        6.254510869565219
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-02",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        45.71875000000001,
+        451.81617647058823,
+        61.764705882352935,
+        20.588235294117624
+      ],
+      "lines": [
+        "Easy, *bhau*. You",
+        "are on land now."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 12.064705882352932,
+        "top": 1.6391176470588107,
+        "bottom": 1.6391176470588127
+      },
+      "tight_margin": true,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          47.7,
+          6.05
+        ],
+        [
+          0.0,
+          -0.05,
+          43.79,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        12.899117647058812,
+        3.3791176470588127
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-02",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        39.92830882352942,
+        339.86764705882354,
+        175.64338235294116,
+        18.658088235294144
+      ],
+      "lines": [
+        "*Bhau.* Brother, in Konkani. Near enough to my Marathi."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 24.083382352941157,
+        "top": 5.409044117647072,
+        "bottom": 5.409044117647072
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.79,
+          149.56,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        7.199044117647072
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-03",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        231.86213235294122,
+        460.56617647058823,
+        41.819852941176464,
+        11.194852941176464
+      ],
+      "lines": [
+        "Water."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 22.809852941176462,
+        "top": 2.5474264705882312,
+        "bottom": 2.547426470588233
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.05,
+          17.01,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        2.597426470588233
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-03",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        226.07169117647064,
+        341.7977941176471,
+        174.3566176470588,
+        12.48161764705884
+      ],
+      "lines": [
+        "The first swallow burned. The second soothed."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 50.40661764705881,
+        "top": 3.1908088235294194,
+        "bottom": 3.190808823529421
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          -0.02,
+          -0.05,
+          121.93,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        3.240808823529421
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-04",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        40.603448275862085,
+        312.02586206896547,
+        119.58620689655172,
+        16.551724137931046
+      ],
+      "lines": [
+        "I recognised the curve of a Portuguese hull."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 2.6962068965517147,
+        "top": 4.355862068965523,
+        "bottom": 4.355862068965523
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.79,
+          114.89,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        6.145862068965523
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-05",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        50.22349999999999,
+        130.74,
+        155.09200000000004,
+        14.515999999999963
+      ],
+      "lines": [
+        "No bodies. Not that I could see."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 71.95200000000004,
+        "top": 4.207999999999981,
+        "bottom": 4.207999999999982
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.05,
+          81.14,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        4.257999999999982
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-05",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        211.8095,
+        130.74,
+        179.92199999999997,
+        14.515999999999963
+      ],
+      "lines": [
+        "Perhaps the sea had decided it had eaten enough men for one day."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 2.4219999999999686,
+        "top": 3.3379999999999814,
+        "bottom": 3.3379999999999814
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.79,
+          175.5,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        5.1279999999999815
+      ]
+    }
+  ],
+  "reserve_pixel_audit": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 18,
+    "lines": [
+      {
+        "frame_id": "page-01-panel-01",
+        "text": "When the sea finally spat me out, it did so without ceremony.",
+        "source_pixel_rect": [
+          48,
+          61,
+          873,
+          101
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-02",
+        "text": "Breathing was a battle. Each time I drew in air it brought more",
+        "source_pixel_rect": [
+          969,
+          26,
+          1800,
+          66
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-02",
+        "text": "salt, more pain.",
+        "source_pixel_rect": [
+          969,
+          74,
+          1176,
+          114
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-03",
+        "text": "My limbs felt like they belonged to someone",
+        "source_pixel_rect": [
+          49,
+          54,
+          882,
+          111
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-03",
+        "text": "else, a man made of lead and bruises.",
+        "source_pixel_rect": [
+          49,
+          123,
+          770,
+          171
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-04",
+        "text": "The sea was no longer alone.",
+        "source_pixel_rect": [
+          42,
+          87,
+          490,
+          133
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-04",
+        "text": "...alive...",
+        "source_pixel_rect": [
+          662,
+          94,
+          790,
+          130
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-04",
+        "text": "Look at his hands...",
+        "source_pixel_rect": [
+          1102,
+          92,
+          1401,
+          128
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-04",
+        "text": "See the brand on his arm.",
+        "source_pixel_rect": [
+          1612,
+          92,
+          2009,
+          128
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-01",
+        "text": "They were not Portuguese.",
+        "source_pixel_rect": [
+          754,
+          589,
+          1259,
+          646
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-02",
+        "text": "Easy, *bhau*. You",
+        "source_pixel_rect": [
+          96,
+          43,
+          466,
+          103
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-02",
+        "text": "are on land now.",
+        "source_pixel_rect": [
+          96,
+          117,
+          436,
+          164
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-02",
+        "text": "*Bhau.* Brother, in Konkani. Near enough to my Marathi.",
+        "source_pixel_rect": [
+          51,
+          957,
+          1213,
+          1018
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-03",
+        "text": "Water.",
+        "source_pixel_rect": [
+          101,
+          55,
+          233,
+          102
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-03",
+        "text": "The first swallow burned. The second soothed.",
+        "source_pixel_rect": [
+          55,
+          973,
+          1003,
+          1020
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-04",
+        "text": "I recognised the curve of a Portuguese hull.",
+        "source_pixel_rect": [
+          38,
+          49,
+          593,
+          87
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-05",
+        "text": "No bodies. Not that I could see.",
+        "source_pixel_rect": [
+          85,
+          56,
+          510,
+          88
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-05",
+        "text": "Perhaps the sea had decided it had eaten enough men for one day.",
+        "source_pixel_rect": [
+          931,
+          51,
+          1850,
+          93
+        ],
+        "light_fraction": 1.0
+      }
+    ]
+  },
+  "blocking_note": "Shared compositor cannot implement approved special lettering. Stop and fix through the pipeline owner."
+}

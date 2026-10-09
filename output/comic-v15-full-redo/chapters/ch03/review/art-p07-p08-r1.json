@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "chapter": 3,
+  "pages": [7, 8],
+  "reviewer": "Codex",
+  "status": "ready_for_independent_review",
+  "native_review": "All eight frames were opened at native resolution. The art contains no rendered letters, logos, watermarks, nooses, blood, or gore. Page 8 panel 3 is one generated frame with two bottom insets as required. The Portuguese hold and 1738 sailing ship details are period appropriate. Keshavrao remains distinct from Nagoji by his short hair, faint moustache, grey-brown rags, and no ear stud. The Nagoji candidates keep the brand area covered or turned away, with the tiny flush gold stud and no dangling ornament. Blank outlined reserves were measured in top-left source-pixel coordinates.",
+  "attempts": [
+    {"frame_id":"page-07-panel-01","candidates":["page-07-panel-01-v01","page-07-panel-01-v02"],"selected_recommendation":"page-07-panel-01-v02","reason":"v02 has clearer side-on staging, generous reserves, and stronger below-deck continuity. v01 exposed too much of the left forearm."},
+    {"frame_id":"page-07-panel-02","candidates":["page-07-panel-02-v01","page-07-panel-02-v02"],"selected_recommendation":"page-07-panel-02-v02","reason":"v02 improves the fall and ladder read and keeps the face, hands, and action legible. v01 was rejected for exposed left forearm."},
+    {"frame_id":"page-07-panel-03","candidates":["page-07-panel-03-v01"],"selected_recommendation":"page-07-panel-03-v01","reason":"Clear hold-down view, face-down shape, prisoners recoiling, no blood, and one caption reserve."},
+    {"frame_id":"page-07-panel-04","candidates":["page-07-panel-04-v01","page-07-panel-04-v02"],"selected_recommendation":"page-07-panel-04-v02","reason":"v02 has a stronger hatch exit and storm beat, clear collar and chains, and a usable speech reserve. v01 was less controlled and exposed the forearm."},
+    {"frame_id":"page-08-panel-01","candidates":["page-08-panel-01-v01","page-08-panel-01-v02"],"selected_recommendation":"page-08-panel-01-v02","reason":"v02 gives a readable storm deck with crew, snapped mast, Nagoji against the rail, and two caption reserves. v01 was rejected for weaker deck staging and exposed left forearm."},
+    {"frame_id":"page-08-panel-02","candidates":["page-08-panel-02-v01"],"selected_recommendation":"page-08-panel-02-v01","reason":"Keshavrao is about nineteen, short-haired, faint-moustached, grey-brown, unstudied, manacled and hobbled, with a clear speech reserve."},
+    {"frame_id":"page-08-panel-03","candidates":["page-08-panel-03-v01","page-08-panel-03-v02"],"selected_recommendation":"page-08-panel-03-v02","reason":"v02 contains the storm wall, Nagoji back view, and exactly two distinct bottom insets for Keshavrao hands and the shattered spar. v01 was rejected for weaker identity control."},
+    {"frame_id":"page-08-panel-04","candidates":["page-08-panel-04-v01"],"selected_recommendation":"page-08-panel-04-v01","reason":"Narrow wave crest strip fills the frame with no text or unintended characters."}
+  ],
+  "geometry_files": [
+    "geometry/page-07-panel-01-v02.json",
+    "geometry/page-07-panel-02-v02.json",
+    "geometry/page-07-panel-03-v01.json",
+    "geometry/page-07-panel-04-v02.json",
+    "geometry/page-08-panel-01-v02.json",
+    "geometry/page-08-panel-02-v01.json",
+    "geometry/page-08-panel-03-v02.json",
+    "geometry/page-08-panel-04-v01.json"
+  ],
+  "remaining_deviations": [
+    "Generated blank speech and caption boxes vary in border shape and texture; lettering remains reserved for the compositor.",
+    "Some storm-deck crew faces and uniforms are small background details and are not identity subjects.",
+    "Effective PPI and copy-fit acceptance remain build-stage checks. No selection was recorded by this subtask."
+  ]
+}

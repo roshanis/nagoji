@@ -1,0 +1,92 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Continuity v2 Review</title><style>:root{--bg:#faf7f0;--fg:#1d1b17;--muted:#6b645a;--card:#fff;--line:#e3dccd;--accent:#8a3b12;--add:#e5f3e1;--addfg:#1f5a17;--del:#fbe6e3;--delfg:#8a1f12}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#171513;--fg:#ece6da;--muted:#a59d90;--card:#211e1a;--line:#3a352e;--accent:#e08a5a;--add:#1d2e1a;--addfg:#a8d99c;--del:#3a1d19;--delfg:#f0a598}}
+:root[data-theme="dark"]{--bg:#171513;--fg:#ece6da;--muted:#a59d90;--card:#211e1a;--line:#3a352e;--accent:#e08a5a;--add:#1d2e1a;--addfg:#a8d99c;--del:#3a1d19;--delfg:#f0a598}
+body{background:var(--bg);color:var(--fg);font:16px/1.55 Georgia,serif;margin:0;padding:24px 16px}main{max-width:900px;margin:0 auto}
+h2{color:var(--accent);border-bottom:1px solid var(--line);padding-bottom:4px;margin-top:1.8em}li{margin:.4em 0}code{font-size:.9em}
+pre.diff{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px;overflow-x:auto;font:12.5px/1.45 Menlo,monospace;white-space:pre-wrap;word-break:break-word}
+.add{background:var(--add);color:var(--addfg);display:block}.del{background:var(--del);color:var(--delfg);display:block}.hunk{color:var(--muted);display:block}</style></head><body><main><h1>CONTINUITY.md changes for prompt v2</h1>
+<p>For your approval before any chapter 9 images. Nothing is applied yet: CONTINUITY.md is unchanged, and the proposed text sits in <code>CONTINUITY-PROMPT-V2-PROPOSED.md</code> with the diff in <code>review-sheets/CONTINUITY-PROMPT-V2.diff</code>.</p>
+<h2>The three edits</h2>
+<ol><li>
+<b>Nagoji, chapter 9 split by page.</b> The single 9-15 row becomes five chapter 9 rows plus a 10-15 row with the
+ old text. Sleeves stay down and hide the brand and scar, except on 5.2 and page 11, where the script shows them.
+ Boots until 2.3; barefoot from 2.4, when he leaves them on the verandah step.
+</li><li>
+<b>Padmini&#x27;s base line.</b> Drops &quot;at first&quot;, &quot;going grey later&quot; and &quot;Dies ch27&quot;, and &quot;cotton sari&quot; becomes &quot;muted
+ earth-toned silk sari&quot; to match the chapter 9 script. v2 refuses timeline words inside a look, because the model
+ reads &quot;going grey later&quot; as grey hair now. When she greys needs a row of its own (question 2).
+</li><li>
+<b>New section: scoped art rules.</b> Eight rules, each tagged with the settings it belongs to. A panel&#x27;s prompt
+ gets only the rules for its own setting, so the Portuguese rope rule no longer reaches a Kerala verandah.
+</li></ol>
+<h2>One side effect</h2>
+<p>Chapters 1 to 8 still use the v1 prompts, built from the live bible. Edit 2 would change 29 chapter 8 prompts if chapter 8 were ever prepared again. The chapter 8 package keeps its own frozen copy of the bible, so the current art and builds are not affected.</p>
+<h2>The diff</h2>
+<pre class="diff"><span class="del">--- CONTINUITY.md</span>
+<span class="add">+++ CONTINUITY-PROMPT-V2-PROPOSED.md</span>
+<span class="hunk">@@ -31,7 +31,12 @@</span>
+<span class=""> | 5 | Pages 1 and 2, before he is given new clothes: bare-chested in the cream captivity dhoti, no shirt, hair loose, hands wrapped in clean linen, rope burns across the chest, faint chafe rings at the ankles, no irons. From page 3: a collarless cream tunic-shirt over a village cotton dhoti, bare-headed, hair tied back, hands still bandaged. |</span>
+<span class=""> | 6 | Village cotton dhoti and simple cream shirt, bare-headed, hair loose or tied back, hands still bandaged. |</span>
+<span class=""> | 7-8 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand&#x27;s width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross. |</span>
+<span class="del">-| 9-15 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand&#x27;s width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross. A long, thin white scar along the same forearm, running from the wrist toward the elbow, beside the brand. |</span>
+<span class="add">+| 9 @1-2.3 | Commander sheet: rust-red turban, cream tunic with sleeves down to the wrists, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve. |</span>
+<span class="add">+| 9 @2.4-5.1 | Commander sheet: rust-red turban, cream tunic with sleeves down to the wrists, broad red sash, cream trousers, barefoot, talwar. Nails healed but ridged. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve. |</span>
+<span class="add">+| 9 @5.2 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, barefoot, talwar. Nails healed but ridged. The left sleeve is pushed back: the brand on the inner LEFT forearm is a pale puckered patch of raised ridges a hand&#x27;s width above the wrist, with no letters or numerals, and a long, thin WHITE scar runs from the wrist toward the elbow alongside it. |</span>
+<span class="add">+| 9 @5.3-10.5 | Commander sheet: rust-red turban, cream tunic with sleeves down to the wrists, broad red sash, cream trousers, barefoot, talwar. Nails healed but ridged. The old brand and the long white scar on the inner LEFT forearm stay hidden under the sleeve. |</span>
+<span class="add">+| 9 @11- | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, barefoot, talwar. Nails healed but ridged. The left sleeve is pushed back: the brand on the inner LEFT forearm is a pale puckered patch of raised ridges a hand&#x27;s width above the wrist, with no letters or numerals, and a long, thin WHITE scar runs from the wrist toward the elbow alongside it. |</span>
+<span class="add">+| 10-15 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand&#x27;s width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross. A long, thin white scar along the same forearm, running from the wrist toward the elbow, beside the brand. |</span>
+<span class=""> | 16 | Commander sheet: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar. Nails healed but ridged. The Portuguese brand on the inner LEFT forearm, a hand&#x27;s width above the wrist, seen when sleeves are pushed up: a pale puckered patch of raised ridges blurred past reading, not a cross. A long, thin white scar along the same forearm, running from the wrist toward the elbow, beside the brand. First grey at the temples. On parade days, a blue Travancore drill coat over his clothes. |</span>
+<span class=""> | 17 | Pages 1 to 8.3: commander look (rust-red turban, cream tunic, broad red sash, cream trousers), no talwar, barefoot at home. From panel 8.4 to the end of page 10: bare-headed, long curly hair loose, still in tunic and sash, the turban folded in his hand or set down; the ivory-handled knife with the conch mark at his sash from 9.5; on 10.1 he gathers his hair into a knot for the first time. Pages 11 to 13: Ananthan Pillai, Kerala topknot, hair still black with only the first grey at the temples, NO turban, plain cream mundu with no gold border, cream shoulder cloth, bare arms, the conch knife at the mundu&#x27;s waist fold, no silver chain yet. Throughout, the brand and the long white forearm scar on the inner LEFT forearm above the wrist. |</span>
+<span class=""> | 18-19 | Ananthan Pillai: Kerala topknot high on the crown, NO turban, cream or white mundu with shoulder cloth, first grey at the temples, the brand and the long white forearm scar on the inner LEFT forearm above the wrist; silver chain of office; the ivory-handled knife with the conch mark at his waist. |</span>
+<span class="hunk">@@ -60,7 +65,7 @@</span>
+<span class="">   | 28 | Dedication: same face aged, low knot, plain mundu, bare torso, no jewels, no headwear, the sacred thread across his chest. |</span>
+<span class=""> - **Ramayyan Dalawa**: thin, sharp fine features, receding hair, plain white cloth, palm-leaf bundles and stylus.</span>
+<span class="">   | 14 | Battle: mud-splattered white dhoti, curved Nair sword. |</span>
+<span class="del">-- **Padmini Amma**: in her fifties at first; thick black hair coiled at the nape, going grey later; simple gold; cotton sari hitched for walking, the old Kerala drape with no stitched blouse; long walking stick. Dies ch27.</span>
+<span class="add">+- **Padmini Amma**: in her fifties; thick black hair coiled at the nape; simple gold; muted earth-toned silk sari hitched for walking, the old Kerala drape with no stitched blouse; long walking stick.</span>
+<span class=""> - **Revathi Bayi**: a little younger than Nagoji; deep blue or indigo sari with gold; jasmine in a braid; flat-coin necklace; gold armlets; sandalwood line at the hairline.</span>
+<span class="">   | 11 | Deep green sari in place of the indigo. |</span>
+<span class="">   | 20-28 | Wears a tali; grey threading in her hair. |</span>
+<span class="hunk">@@ -121,6 +126,17 @@</span>
+<span class=""> - **Nagoji&#x27;s grey gelding**: his plain grey daytime mount in ch7-8, distinct from Kayal.</span>
+<span class=""> - **Megha**: a grey horse with a black mane, named for the monsoon clouds; ridden in ch16 only, where his death frames the chapter.</span>
+<span class=""> </span>
+<span class="add">+## Scoped art rules (prompt profile v2)</span>
+<span class="add">+</span>
+<span class="add">+- [all] 1740s dress, arms, objects.</span>
+<span class="add">+- [all] No blood or gore; stage aftermath.</span>
+<span class="add">+- [kerala, court, coast, travancore_camp] Clay or brass oil lamps; open wicks.</span>
+<span class="add">+- [deccan] The Maratha flag is a saffron swallow-tailed pennant; Maratha riders in the background wear white or cream angarkhas and pagdis, never a rust-red turban with a red sash.</span>
+<span class="add">+- [carnatic, travancore_camp, dutch] Raiders&#x27; and rivals&#x27; banners are plain cloth.</span>
+<span class="add">+- [dutch] Dutch East India Company soldiers wear blue coats. No soldier, Indian or European, wears a British red coat.</span>
+<span class="add">+- [portuguese] Portuguese guards never wear British red coats or Dutch blue coats.</span>
+<span class="add">+- [portuguese] Interrogation ropes hang from an iron ring for binding wrists, never tied as nooses.</span>
+<span class="add">+</span>
+<span class=""> ## Standing rules for generated art</span>
+<span class=""> </span>
+<span class=""> - No text of any kind in the art, and no painted balloons, caption boxes or frames: leave clear, low-detail space where the lettering will go. The letterer draws every balloon and caption over the finished art.</span>
+</pre>
+<h2>Questions</h2>
+<ol><li>
+Approve the diff, and how to handle the chapter 8 side effect.
+</li><li>
+Padmini&#x27;s grey hair: from which chapter?
+</li><li>
+The Velinadu banners (2.2 and 6.5): plain cloth, or a colour or emblem?
+</li><li>
+Chapter 9 panels 10.3 and 10.4: the draft says morning light, and 10.5 is &quot;That night&quot;. Keep morning, or late
+ afternoon?
+</li></ol>
+<h2>Also done today</h2>
+<ul><li>
+The two reviewer fixes are in, with tests:
+<ul><li>
+The prompt audit no longer counts a NOT SHOWN line (&quot;Dutch envoys is outside the frame&quot;) as a foreign term.
+</li><li>
+Page-span rows for one character may not overlap. Chapter rows still stack: Revathi&#x27;s ch20-28 tali row plus
+ her ch27 funeral row both apply.
+</li></ul>
+</li><li>
+The reviewer&#x27;s broader suggestion, refusing any second row, would have blocked that legitimate Revathi
+ chapter 27 case, so the check covers only span rows.
+</li></ul></main></body></html>

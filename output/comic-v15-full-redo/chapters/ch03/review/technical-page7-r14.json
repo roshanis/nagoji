@@ -1,0 +1,289 @@
+{
+  "status": "pass",
+  "revision": "r14",
+  "frames": [
+    "page-07-panel-01-v09",
+    "page-07-panel-02-v03",
+    "page-07-panel-03-v05",
+    "page-07-panel-04-v03"
+  ],
+  "copy_fit": [
+    {
+      "frame_id": "page-07-panel-01",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        39.88625592417062,
+        524.6220379146919,
+        181.87677725118482,
+        52.075829383886344
+      ],
+      "lines": [
+        "Years of riding into gaps in enemy lines had trained my body to",
+        "move before my mind could think."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 13.816777251184817,
+        "top": 17.357914691943172,
+        "bottom": 17.357914691943172
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.79,
+          166.06,
+          6.05
+        ],
+        [
+          0.0,
+          -1.74,
+          89.82,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        28.66791469194317,
+        19.14791469194317
+      ]
+    },
+    {
+      "frame_id": "page-07-panel-01",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        261.4028436018957,
+        424.7452606635071,
+        140.87677725118488,
+        40.028436018957336
+      ],
+      "lines": [
+        "Bone cracked."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 100.89677725118489,
+        "top": 16.964218009478667,
+        "bottom": 16.964218009478667
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.05,
+          37.98,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        17.014218009478668
+      ]
+    },
+    {
+      "frame_id": "page-07-panel-03",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        223.2919921875,
+        374.41276041666663,
+        78.25032552083331,
+        19.7119140625
+      ],
+      "lines": [
+        "The ladder was clear."
+      ],
+      "adaptation": {
+        "planned_rect_pt": [
+          221.5,
+          251.75,
+          183.5,
+          166
+        ],
+        "actual_clip_rect_pt": [
+          221.5,
+          273.5833333333333,
+          183.5,
+          122.33333333333333
+        ],
+        "visible_aspect": 1.5,
+        "planned_aspect": 1.105421686746988,
+        "policy": "contain_visible_viewport_centered_inside_planned_slot"
+      },
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 19.70032552083331,
+        "top": 6.805957031249999,
+        "bottom": 6.805957031250001
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          -0.02,
+          -0.05,
+          56.53,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        6.855957031250001
+      ]
+    },
+    {
+      "frame_id": "page-07-panel-04",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        245.443359375,
+        215.736328125,
+        88.8134765625,
+        24.5654296875
+      ],
+      "lines": [
+        "Now! Move! All of you who can",
+        "climb, move!"
+      ],
+      "adaptation": {
+        "planned_rect_pt": [
+          36.0,
+          56.25,
+          369.0,
+          193.5
+        ],
+        "actual_clip_rect_pt": [
+          75.375,
+          56.25,
+          290.25,
+          193.5
+        ],
+        "visible_aspect": 1.5,
+        "planned_aspect": 1.9069767441860466,
+        "policy": "contain_visible_viewport_centered_inside_planned_slot"
+      },
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 6.023476562499994,
+        "top": 3.627714843749999,
+        "bottom": 3.6277148437500006
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          80.79,
+          6.05
+        ],
+        [
+          0.0,
+          -0.63,
+          34.17,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        14.88771484375,
+        5.367714843750001
+      ]
+    }
+  ],
+  "reserve_audit": {
+    "status": "pass",
+    "minimum_light_fraction": 0.9913177586108414,
+    "line_count": 6,
+    "lines": [
+      {
+        "frame_id": "page-07-panel-01",
+        "text": "Years of riding into gaps in enemy lines had trained my body to",
+        "source_pixel_rect": [
+          30,
+          107,
+          885,
+          148
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-07-panel-01",
+        "text": "move before my mind could think.",
+        "source_pixel_rect": [
+          30,
+          156,
+          493,
+          196
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-07-panel-01",
+        "text": "Bone cracked.",
+        "source_pixel_rect": [
+          1170,
+          681,
+          1366,
+          713
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-07-panel-03",
+        "text": "The ladder was clear.",
+        "source_pixel_rect": [
+          32,
+          72,
+          505,
+          123
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-07-panel-04",
+        "text": "Now! Move! All of you who can",
+        "source_pixel_rect": [
+          911,
+          69,
+          1338,
+          110
+        ],
+        "light_fraction": 0.9913177586108414
+      },
+      {
+        "frame_id": "page-07-panel-04",
+        "text": "climb, move!",
+        "source_pixel_rect": [
+          911,
+          120,
+          1091,
+          155
+        ],
+        "light_fraction": 1.0
+      }
+    ]
+  }
+}

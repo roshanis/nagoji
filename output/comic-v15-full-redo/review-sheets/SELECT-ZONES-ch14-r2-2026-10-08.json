@@ -1,0 +1,2755 @@
+{
+  "summary": "Select candidates and mark face and keep zones for a sibling package with an explicit frames path",
+  "agentCount": 36,
+  "logs": [
+    "▸ running dynamic workflow v15-select-drawn",
+    "[v15-select-drawn] chapter 14: 17 picked, 1 need regeneration, 0 without a decision",
+    "▸ v15-select-drawn done",
+    "▸ running dynamic workflow v15-keep",
+    "▸ running dynamic workflow v15-faces2",
+    "[v15-keep] chapter 14: keep regions for 17 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 14: face zones for 17 frames, 128 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 14,
+        "decisions": [
+          {
+            "id": "page-02-panel-03",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.448,
+                "y": 0.207
+              },
+              {
+                "copy_index": 1,
+                "x": 0.448,
+                "y": 0.207
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.413,
+                "y": 0.16,
+                "r": 0.095
+              },
+              {
+                "x": 0.124,
+                "y": 0.217,
+                "r": 0.06
+              },
+              {
+                "x": 0.064,
+                "y": 0.356,
+                "r": 0.075
+              },
+              {
+                "x": 0.02,
+                "y": 0.288,
+                "r": 0.05
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Nagoji matches the sheet and the ch14 commander row: rust-red turban, cream tunic, broad red sash, cream trousers, boots and talwar; thick curled moustache, clean-shaven chin with no stubble, small gold ear stud. He stands calm, eyes on the Dutch camp. The camp has a smoke plume and a plain unlettered red-white-blue flag, which matches panel 2.2's trench, flag and lighting. No painted text, noose or gore, and the hands are sound. The two Nagoji lines fit in the open sky right of his head (x 0.48-0.98, y 0.02-0.18), above the flag. Small concerns: his brow is a little furrowed for 'calm', and three trench extras wear white turbans, indigo quilted tunics and beards like Dhanaji. That costume matches the background troops in panel 2.2, so it is consistent, though a reader could take one of them for Dhanaji. The bottom-right extra is seen from behind, and that figure's face is not readable.",
+            "correction": ""
+          },
+          {
+            "id": "page-03-panel-01",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.281,
+                "y": 0.452,
+                "r": 0.03
+              },
+              {
+                "x": 0.323,
+                "y": 0.446,
+                "r": 0.03
+              },
+              {
+                "x": 0.574,
+                "y": 0.446,
+                "r": 0.03
+              },
+              {
+                "x": 0.623,
+                "y": 0.43,
+                "r": 0.035
+              },
+              {
+                "x": 0.821,
+                "y": 0.468,
+                "r": 0.028
+              },
+              {
+                "x": 0.865,
+                "y": 0.459,
+                "r": 0.03
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. The r1 fix worked. Low, narrow, dark plank boats now come in from the open sea toward the beach, bows toward the camera. Oiled, bare-chested Mukkuvar men in loincloths paddle with little spray, and the bow wakes are small. The scene is night, with monsoon cloud over a faint moon, black swells with thin foam lines, an empty beach with no Nagoji, and a palm headland at the left that matches 3.2. A large, dark, empty sky across the top half takes the caption. Minor points: the hulls are dark grey rather than truly soot-black, and a couple of paddlers grip with one hand, but neither reads as wrong at print size. Hands and anatomy are sound, and there is no text, gore or anachronism.",
+            "correction": ""
+          },
+          {
+            "id": "page-03-panel-04",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.262,
+                "y": 0.296
+              },
+              {
+                "copy_index": 1,
+                "x": 0.522,
+                "y": 0.318
+              },
+              {
+                "copy_index": 2,
+                "x": 0.522,
+                "y": 0.318
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.215,
+                "y": 0.234,
+                "r": 0.12
+              },
+              {
+                "x": 0.547,
+                "y": 0.283,
+                "r": 0.1
+              },
+              {
+                "x": 0.03,
+                "y": 0.435,
+                "r": 0.03
+              },
+              {
+                "x": 0.98,
+                "y": 0.545,
+                "r": 0.03
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. Nagoji matches the sheet and the ch13-15 row. He wears the rust-red turban, cream tunic with sleeves to the wrists, broad red sash, cream trousers and the talwar from 3.2. He has a thick curled moustache, a clean-shaven chin and a tiny flush stud on the lobe, and his hand at his chin is well drawn. The stud reads pale gold to pearl, and faint cheek shading is not stubble. The r1 fix brought Antony in line with 3.3. He has no headband, curly black hair swept back, a short grizzled beard, a pale nick through the eyebrow, rope scars on both forearms, a small wooden cross on a cord and a white loincloth, with no cheek or jaw scar. He gives a dry, unhurried shrug, hand on hip, palm flicked open toward the dark sea. Minor drift from 3.3: grey streaks in his hair, a greyer beard and a slightly heavier build. His forearm scars look like pinkish bands. He still reads as the same headman. The night beach, boats and fishermen match 3.2 and 3.3, though the figures are lit a little warmer. The wide empty sky above Nagoji's turban and right of Antony's head takes all three balloons. Hands are sound, and there is no text, gore or anachronism.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-02",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.77,
+                "y": 0.459,
+                "r": 0.016
+              },
+              {
+                "x": 0.718,
+                "y": 0.457,
+                "r": 0.013
+              },
+              {
+                "x": 0.274,
+                "y": 0.378,
+                "r": 0.012
+              },
+              {
+                "x": 0.302,
+                "y": 0.388,
+                "r": 0.012
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. The sappers' topknots sit on the crown rather than tied forward. The cannon is tilted up on the rampart with slumped earth and a broken carriage under it, not buried muzzle-down, but it still reads as a sagging work. Rijtel is correct: a short, dark-haired officer in a blue coat with a sash, standing small among the sick under torn canvas, with empty barrels stacked nearby. The flag is a plain tricolour and nothing in the frame is lettered. The open dusk sky across the top takes both captions easily.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-03",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.586,
+                "y": 0.293,
+                "r": 0.02
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. De Lannoy points the men toward the gap rather than physically pushing them. He is seen from behind, as the script requires (no face): tall, pale-haired, in a soot-stained blue coat, standing higher than the tricorned soldiers. The thin musket puffs along the palisade and the ground-level heat haze are both there. The wide empty sky above the camp has plenty of room for the single caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-05",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v02 (the only candidate) gets Ramayyan right: close, lit by the brass lamp, matches his sheet, and his hands on the palm-leaf bundle are sound. Varma breaks continuity, though. In panel 4.4, a moment earlier in the same scene, he wears the cream-and-gold turban with the jewelled peacock-feather crest, and the script's art lock calls for that turban. Here he is bare-headed, his hair loose and swept back with visible grey streaks. That reads as the aged dedication look from the varma-v1 sheet, not the 1741 campaign Varma, so the turban vanishes between consecutive panels.",
+            "correction": "Keep this exact composition and lighting: Ramayyan large in the left foreground, lit from below by the brass ghee lamp at lower left, holding the tied palm-leaf bundle in both hands, with thin sharp features, receding curly black hair and plain white cloth; a low tan awning overhead, open dark night sky and distant orange Dutch camp fires in the middle, and plain awning and sky left clear above and between the two men for lettering. Varma sits in the right background on the same wooden camp stool, wearing exactly the costume from panel 4.4 of the same scene: the varma-v1 face, a cream-and-gold turban with a jewelled peacock-feather crest covering his head, jet-black hair with NO grey or silver streaks (he is a man in his mid-thirties), pearl ear drops, a thick curled black moustache, a red forehead mark, bare chest, cream-and-gold cloth over one shoulder, layered gold necklaces and a gold armlet. A small knife lies on a grey whetstone across his knee, his hand resting motionless on the hilt, sharpening stopped, his eyes turned toward Ramayyan. No bare head, no loose swept-back hair and no aged look on Varma."
+          },
+          {
+            "id": "page-05-panel-04",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.246,
+                "y": 0.217,
+                "r": 0.065
+              },
+              {
+                "x": 0.355,
+                "y": 0.217,
+                "r": 0.055
+              },
+              {
+                "x": 0.189,
+                "y": 0.513,
+                "r": 0.065
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable with a minor gunnery-logic flaw: the rammer is held from the breech side and lies along the top of the barrel instead of entering the muzzle, and the sponge is raised rather than in the bore. The beat still reads as the crew working the gun. The crouching gunner squints along the barrel with his hand on the elevation wedge, and the barrel points toward the Dutch stockade, which carries the aim beat the caption needs. Setting, white head cloths and wicker gabions match 5.5. The Dutch flag is a plain tricolour with no text. The caption fits in the clear upper-right sky.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-05",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.15,
+                "y": 0.104,
+                "r": 0.085
+              },
+              {
+                "x": 0.35,
+                "y": 0.428,
+                "r": 0.055
+              },
+              {
+                "x": 0.437,
+                "y": 0.456,
+                "r": 0.055
+              },
+              {
+                "x": 0.843,
+                "y": 0.552,
+                "r": 0.06
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Clean against the sheets. Nagoji wears the commander look (rust-red turban, cream tunic, red sash over the shoulder and round the waist, cream trousers, boots, talwar) with a thick curled moustache, clean-shaven chin and small gold ear ornament, matching nagoji-v2. Kayal is a bay with a black mane, tail and lower legs and no white markings, on the quilted ochre pad. The gun fires with a white smoke puff, and dust at the wheels suggests recoil. Minor: the gunner with the lit linstock stands right of the muzzle instead of at the breech, which is odd but not dangerous-looking given the perspective. The battery, gabions and crew dress match 5.4. There is no text or pseudo-text, and the clear upper-centre and right sky holds both captions.",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-03",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.163,
+                "y": 0.176,
+                "r": 0.075
+              },
+              {
+                "x": 0.498,
+                "y": 0.84,
+                "r": 0.083
+              },
+              {
+                "x": 0.638,
+                "y": 0.767,
+                "r": 0.044
+              },
+              {
+                "x": 0.057,
+                "y": 0.418,
+                "r": 0.022
+              },
+              {
+                "x": 0.012,
+                "y": 0.4,
+                "r": 0.018
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable, and it fixes the r1 failure. Nagoji matches the sheet and the ch14 row: compact rust-red turban, long curly black hair, a thick black moustache with curled ends, a clean-shaven chin with no stubble, a small gold stud bead on the lobe, cream tunic with sleeves to the wrist, broad red sash with the loose end whipping back, cream trousers, boots and a talwar hilt. Kayal is correct: a bay coat with black mane, tail and lower legs and no white markings, the ochre quilted pad, and she is rearing. His right fist hauls on the reins and his left hand is hidden. The blast glare, the flame-and-smoke pillar and the spinning debris sit over the Dutch stockade, and the forward gabion trench is full of men flat with their hands over their heads. The hard blue sky matches 6.1. There is no text, no gore and no anachronism, and the panel needs no lettering space. One flaw: at the far left edge, behind our cannon (about x 0 to 0.075, y 0.38 to 0.45), two small background figures wear blue coats and black tricornes. They read as Dutch soldiers inside our battery and contradict the bare-chested Nair gun crews in white turbans of 5.1 to 5.5. They are small and partly hidden by the cannon and the flying sash. A paint-out to white-turbaned Nair gunners, or a slight crop of the left edge, is recommended if a retouch pass is available.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-01",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0,
+                "y": 0.3
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.388,
+                "y": 0.44,
+                "r": 0.025
+              },
+              {
+                "x": 0.438,
+                "y": 0.448,
+                "r": 0.025
+              },
+              {
+                "x": 0.462,
+                "y": 0.454,
+                "r": 0.025
+              },
+              {
+                "x": 0.495,
+                "y": 0.451,
+                "r": 0.025
+              },
+              {
+                "x": 0.519,
+                "y": 0.445,
+                "r": 0.025
+              },
+              {
+                "x": 0.545,
+                "y": 0.44,
+                "r": 0.025
+              },
+              {
+                "x": 0.581,
+                "y": 0.443,
+                "r": 0.025
+              },
+              {
+                "x": 0.609,
+                "y": 0.44,
+                "r": 0.025
+              },
+              {
+                "x": 0.669,
+                "y": 0.459,
+                "r": 0.025
+              },
+              {
+                "x": 0.709,
+                "y": 0.459,
+                "r": 0.025
+              },
+              {
+                "x": 0.741,
+                "y": 0.451,
+                "r": 0.025
+              },
+              {
+                "x": 0.784,
+                "y": 0.459,
+                "r": 0.025
+              },
+              {
+                "x": 0.879,
+                "y": 0.445,
+                "r": 0.025
+              },
+              {
+                "x": 0.989,
+                "y": 0.434,
+                "r": 0.025
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: the Nair extras in the foreground trench wear their topknots on the crown rather than forward-tied. Otherwise the beat is right: blue- and grey-coated Dutch ranks with fixed bayonets and levelled muskets step out of the burning palisade, the tricolour is plain, there is no text, and the palm grove on the left gives Dhanaji's off-panel tail a place to point (left edge). The open sky at upper left and centre takes the balloon.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-02",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.954,
+                "y": 0.83,
+                "r": 0.073
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: the rendering is more painterly than the inked look of 7.1, 7.3 and 7.5. One Nair extra cut off at the left edge wears a white head cloth, and the topknots sit on the crown rather than forward-tied. The beat reads clearly: a distant Dutch line fires a volley in a long bank of smoke, and in the foreground trench men duck behind shields at the wicker parapet. There is no gore and no text, and the large clear sky at upper left takes the caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-03",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.482,
+                "y": 0.403
+              },
+              {
+                "copy_index": 1,
+                "x": 0.482,
+                "y": 0.403
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.467,
+                "y": 0.364,
+                "r": 0.07
+              },
+              {
+                "x": 0.12,
+                "y": 0.444,
+                "r": 0.085
+              },
+              {
+                "x": 0.068,
+                "y": 0.352,
+                "r": 0.06
+              },
+              {
+                "x": 0.173,
+                "y": 0.347,
+                "r": 0.06
+              },
+              {
+                "x": 0.273,
+                "y": 0.381,
+                "r": 0.05
+              },
+              {
+                "x": 0.384,
+                "y": 0.415,
+                "r": 0.04
+              },
+              {
+                "x": 0.583,
+                "y": 0.4,
+                "r": 0.06
+              },
+              {
+                "x": 0.664,
+                "y": 0.405,
+                "r": 0.045
+              },
+              {
+                "x": 0.736,
+                "y": 0.43,
+                "r": 0.03
+              },
+              {
+                "x": 0.934,
+                "y": 0.41,
+                "r": 0.08
+              },
+              {
+                "x": 0.889,
+                "y": 0.371,
+                "r": 0.05
+              },
+              {
+                "x": 0.964,
+                "y": 0.332,
+                "r": 0.04
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Ramayyan matches his sheet: thin, sharp features, receding crown with curly sides, bare-headed, no shield, a mud-splattered white dhoti and a curved sword raised. He is bare-chested, which the script allows because it names only the dhoti. Nair topknots sit on the crown rather than forward-tied (minor, extras). The Dutch bayonets press against the shield wall with no blood, the flags are plain tricolours, and hands and anatomy are sound. The clear sky at upper left and centre, above the embankment, takes both short balloons.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-05",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Clean. The view is from a rise at the palm line (palm trunk and rocks in the foreground), looking down at the Dutch square. Its front is jammed against the packed Nair line at left, its rear rank faces the burning palisade, and the near flank facing the scrubland is a single ragged file with daylight between the men. An officer at right reaches out and pulls a soldier from that file toward the front. There is no text or flag lettering, and the large clear sky at upper left takes both captions.",
+            "correction": ""
+          },
+          {
+            "id": "page-08-panel-02",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.546,
+                "y": 0.396,
+                "r": 0.083
+              },
+              {
+                "x": 0.303,
+                "y": 0.459,
+                "r": 0.068
+              },
+              {
+                "x": 0.924,
+                "y": 0.449,
+                "r": 0.083
+              },
+              {
+                "x": 0.765,
+                "y": 0.376,
+                "r": 0.049
+              },
+              {
+                "x": 0.843,
+                "y": 0.366,
+                "r": 0.045
+              },
+              {
+                "x": 0.97,
+                "y": 0.356,
+                "r": 0.05
+              },
+              {
+                "x": 0.443,
+                "y": 0.376,
+                "r": 0.04
+              },
+              {
+                "x": 0.387,
+                "y": 0.391,
+                "r": 0.04
+              },
+              {
+                "x": 0.309,
+                "y": 0.361,
+                "r": 0.035
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor: a few white-turbaned riders on the left are drawn slightly ahead of the POV rider rather than behind, which still reads as one charging wave. Kayal's ears and black mane match the sheet. The sergeant has his mouth open and his arm out with a sound five-fingered hand. Bayonets sit at scattered angles, and the burning stockade behind the square matches 6.5 and 7.5. No text. The open blue sky at upper left is clear space for the caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-08-panel-04",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.329,
+                "y": 0.21,
+                "r": 0.062
+              },
+              {
+                "x": 0.609,
+                "y": 0.234,
+                "r": 0.073
+              },
+              {
+                "x": 0.104,
+                "y": 0.205,
+                "r": 0.04
+              },
+              {
+                "x": 0.151,
+                "y": 0.229,
+                "r": 0.035
+              },
+              {
+                "x": 0.029,
+                "y": 0.225,
+                "r": 0.035
+              },
+              {
+                "x": 0.4,
+                "y": 0.264,
+                "r": 0.045
+              },
+              {
+                "x": 0.485,
+                "y": 0.337,
+                "r": 0.035
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Dhanaji (white pagdi, indigo quilted tunic, short black beard, talwar raised) rides nearly abreast of Nagoji, slightly forward and nearer the camera, not a clear half length ahead. The Dutch beyond are three soldiers standing close together facing away in the dust, not strictly back to back. Kayal has a faint pale sheen on the forehead that is a highlight, not a real white star; the clear star belongs to Dhanaji's brown horse, which is allowed. Nagoji matches the sheet: rust-red turban, cream tunic, broad red sash (its loose end lies across his thigh and is cloth, not blood), cream trousers, boots, talwar, curled moustache, clean-shaven chin, small gold ear stud. Fallen Dutch soldiers show no blood. No text. The smoky sky at top centre, above and between the two heads, has room for the caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-08-panel-05",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Minor: the musket already lies in the trampled sand rather than falling, which still reads as dropped. The surrendering Dutch, out of focus with hands up, are seen mostly from behind, so no faces can be read. A small post with a crossbar stands among the burning stockade towers in the background; it is negligible. The warm late light and the burning stockade carry over from 8.2 and 8.4 and lead into the 9.1 sunset. No text, no blood. The soft cloud at top centre and the open foreground sand both have room for the caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-09-panel-01",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.953,
+                "y": 0.26,
+                "r": 0.073
+              },
+              {
+                "x": 0.733,
+                "y": 0.366,
+                "r": 0.06
+              },
+              {
+                "x": 0.84,
+                "y": 0.406,
+                "r": 0.047
+              },
+              {
+                "x": 0.626,
+                "y": 0.434,
+                "r": 0.047
+              },
+              {
+                "x": 0.488,
+                "y": 0.547,
+                "r": 0.056
+              },
+              {
+                "x": 0.609,
+                "y": 0.68,
+                "r": 0.062
+              },
+              {
+                "x": 0.809,
+                "y": 0.609,
+                "r": 0.047
+              },
+              {
+                "x": 0.366,
+                "y": 0.631,
+                "r": 0.051
+              },
+              {
+                "x": 0.025,
+                "y": 0.372,
+                "r": 0.047
+              },
+              {
+                "x": 0.299,
+                "y": 0.445,
+                "r": 0.03
+              },
+              {
+                "x": 0.354,
+                "y": 0.451,
+                "r": 0.03
+              },
+              {
+                "x": 0.575,
+                "y": 0.524,
+                "r": 0.03
+              },
+              {
+                "x": 0.671,
+                "y": 0.468,
+                "r": 0.028
+              },
+              {
+                "x": 0.42,
+                "y": 0.53,
+                "r": 0.03
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Only v02 was offered and it is acceptable. It matches the 9.1 beat: a wide lurid purple-red sunset through smoke, the stockade burned down to glowing embers along the dune, and Dutch survivors in ash-stained blue coats on the beach, some kneeling and some standing with hands raised. The setting is the open beach, which fits 8.5 and 9.2. There is no painted text, no blood and no noose. Small points only: the shirtless Nair guard in the right foreground has a cluster of three spear or staff shafts near him, and his grip is a little ambiguous. Dutch ships sit on the horizon, which fits the historical siege. Neither problem touches a principal or the key action. The upper-left sky, above the horizon and left of the smoke, is clear and low in detail for the caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-10-panel-03",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.423,
+                "y": 0.437
+              },
+              {
+                "copy_index": 1,
+                "x": 0.423,
+                "y": 0.437
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.34,
+                "y": 0.28,
+                "r": 0.28
+              }
+            ],
+            "backup_faces": [],
+            "issues": "",
+            "correction": ""
+          }
+        ],
+        "missing": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 14,
+        "result": {
+          "chapter": 14,
+          "panels": [
+            {
+              "id": "page-02-panel-03",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.4414,
+                  "y": 0.1895,
+                  "r": 0.032,
+                  "who": "Nagoji, red turban, three-quarter profile facing right, centre"
+                },
+                {
+                  "x": 0.1536,
+                  "y": 0.2422,
+                  "r": 0.027,
+                  "who": "topknot spearman, profile facing right, upper left"
+                },
+                {
+                  "x": 0.1009,
+                  "y": 0.3896,
+                  "r": 0.028,
+                  "who": "white-turbaned bearded gunner, profile facing right, left"
+                },
+                {
+                  "x": 0.0267,
+                  "y": 0.3203,
+                  "r": 0.021,
+                  "who": "white-turbaned man cut by left edge, lost profile (ear, cheek, beard), front of face hidden behind gunner's turban"
+                },
+                {
+                  "x": 0.9056,
+                  "y": 0.7197,
+                  "r": 0.044,
+                  "who": "white-turbaned musketeer, lost profile (ear, cheek and beard), lower right foreground"
+                }
+              ]
+            },
+            {
+              "id": "page-03-panel-01",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.281,
+                  "y": 0.463,
+                  "r": 0.013,
+                  "who": "turbaned rower, left boat, front"
+                },
+                {
+                  "x": 0.323,
+                  "y": 0.454,
+                  "r": 0.012,
+                  "who": "bare-headed rower, left boat, behind"
+                },
+                {
+                  "x": 0.575,
+                  "y": 0.457,
+                  "r": 0.012,
+                  "who": "bare-headed rower, centre boat, rear left"
+                },
+                {
+                  "x": 0.623,
+                  "y": 0.446,
+                  "r": 0.016,
+                  "who": "turbaned bearded rower, centre boat, front"
+                },
+                {
+                  "x": 0.821,
+                  "y": 0.473,
+                  "r": 0.011,
+                  "who": "bare-headed rower, right boat"
+                },
+                {
+                  "x": 0.865,
+                  "y": 0.468,
+                  "r": 0.011,
+                  "who": "turbaned rower, right boat"
+                }
+              ]
+            },
+            {
+              "id": "page-03-panel-04",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.254,
+                  "y": 0.275,
+                  "r": 0.042,
+                  "who": "Nagoji, red turban, profile, left"
+                },
+                {
+                  "x": 0.523,
+                  "y": 0.311,
+                  "r": 0.053,
+                  "who": "grey-bearded fisherman with cross, three-quarter, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-04-panel-02",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.12,
+                  "y": 0.387,
+                  "r": 0.024,
+                  "who": "spearman at left, lost profile (ear, cheek and jaw), facing the camp"
+                },
+                {
+                  "x": 0.309,
+                  "y": 0.604,
+                  "r": 0.027,
+                  "who": "rifleman centre-left, lost profile, cheek on musket stock"
+                }
+              ]
+            },
+            {
+              "id": "page-04-panel-03",
+              "version": "v02",
+              "faces": []
+            },
+            {
+              "id": "page-05-panel-04",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.264,
+                  "y": 0.232,
+                  "r": 0.026,
+                  "who": "bearded gunner with rammer pole, three-quarter right, upper left"
+                },
+                {
+                  "x": 0.377,
+                  "y": 0.236,
+                  "r": 0.024,
+                  "who": "gunner with sponge staff, profile right, upper centre-left"
+                },
+                {
+                  "x": 0.215,
+                  "y": 0.535,
+                  "r": 0.037,
+                  "who": "crouching bearded gunner at breech, profile right, lower left"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-05",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.168,
+                  "y": 0.127,
+                  "r": 0.035,
+                  "who": "red-turbaned rider on horse, three-quarter right, upper left"
+                },
+                {
+                  "x": 0.362,
+                  "y": 0.446,
+                  "r": 0.028,
+                  "who": "bearded gunner with sponge rammer, profile right, centre-left"
+                },
+                {
+                  "x": 0.45,
+                  "y": 0.47,
+                  "r": 0.025,
+                  "who": "gunner with rammer, lost profile (nose edge and beard), centre"
+                },
+                {
+                  "x": 0.828,
+                  "y": 0.59,
+                  "r": 0.028,
+                  "who": "gunner with linstock, lost profile (brow edge and beard), right"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-03",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.1855,
+                  "y": 0.194,
+                  "r": 0.023,
+                  "who": "Nagoji, red turban, three-quarter view on rearing horse, upper left"
+                },
+                {
+                  "x": 0.488,
+                  "y": 0.877,
+                  "r": 0.038,
+                  "who": "white-turbaned sepoy ducking behind gabion, tilted face half under hand, bottom centre"
+                },
+                {
+                  "x": 0.641,
+                  "y": 0.785,
+                  "r": 0.016,
+                  "who": "white-turbaned sepoy pressed to rampart, face under arm, centre right"
+                }
+              ]
+            },
+            {
+              "id": "page-07-panel-01",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.3878,
+                  "y": 0.4453,
+                  "r": 0.0101,
+                  "who": "musketeer aiming, far left of front rank"
+                },
+                {
+                  "x": 0.4149,
+                  "y": 0.4521,
+                  "r": 0.0101,
+                  "who": "bearded musketeer behind the leftmost aimers"
+                },
+                {
+                  "x": 0.438,
+                  "y": 0.4555,
+                  "r": 0.0113,
+                  "who": "musketeer aiming, front rank left"
+                },
+                {
+                  "x": 0.4628,
+                  "y": 0.4577,
+                  "r": 0.0113,
+                  "who": "musketeer aiming, front rank left of centre"
+                },
+                {
+                  "x": 0.4938,
+                  "y": 0.4532,
+                  "r": 0.0124,
+                  "who": "moustached musketeer, front rank centre-left"
+                },
+                {
+                  "x": 0.5186,
+                  "y": 0.4476,
+                  "r": 0.0124,
+                  "who": "musketeer, front rank centre"
+                },
+                {
+                  "x": 0.5417,
+                  "y": 0.4453,
+                  "r": 0.0113,
+                  "who": "musketeer with upright musket, centre"
+                },
+                {
+                  "x": 0.5812,
+                  "y": 0.4476,
+                  "r": 0.0124,
+                  "who": "musketeer aiming, front rank centre"
+                },
+                {
+                  "x": 0.6099,
+                  "y": 0.4453,
+                  "r": 0.0124,
+                  "who": "musketeer, front rank centre-right"
+                },
+                {
+                  "x": 0.6268,
+                  "y": 0.4498,
+                  "r": 0.009,
+                  "who": "musketeer, second rank centre-right"
+                },
+                {
+                  "x": 0.6522,
+                  "y": 0.4498,
+                  "r": 0.0101,
+                  "who": "bearded musketeer, centre-right"
+                },
+                {
+                  "x": 0.6697,
+                  "y": 0.468,
+                  "r": 0.0124,
+                  "who": "musketeer aiming, front rank right of centre"
+                },
+                {
+                  "x": 0.709,
+                  "y": 0.466,
+                  "r": 0.0101,
+                  "who": "grey-coat soldier before the fire, right"
+                },
+                {
+                  "x": 0.7424,
+                  "y": 0.46,
+                  "r": 0.0101,
+                  "who": "blue-coat soldier, right"
+                },
+                {
+                  "x": 0.7627,
+                  "y": 0.46,
+                  "r": 0.0101,
+                  "who": "grey-coat soldier, right"
+                },
+                {
+                  "x": 0.7864,
+                  "y": 0.4611,
+                  "r": 0.0101,
+                  "who": "grey-coat soldier, far right of fire"
+                },
+                {
+                  "x": 0.81,
+                  "y": 0.4556,
+                  "r": 0.0101,
+                  "who": "grey-coat soldier beside the charred post, right"
+                },
+                {
+                  "x": 0.8799,
+                  "y": 0.4464,
+                  "r": 0.0101,
+                  "who": "musketeer aiming by the palisade, right"
+                },
+                {
+                  "x": 0.9876,
+                  "y": 0.4431,
+                  "r": 0.0113,
+                  "who": "musketeer aiming, cut by right edge"
+                }
+              ]
+            },
+            {
+              "id": "page-07-panel-02",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.976,
+                  "y": 0.8636,
+                  "r": 0.028,
+                  "who": "bearded warrior face-down behind shield, cut by right edge"
+                }
+              ]
+            },
+            {
+              "id": "page-07-panel-03",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.1393,
+                  "y": 0.4707,
+                  "r": 0.0303,
+                  "who": "warrior with topknot, left foreground, three-quarter view"
+                },
+                {
+                  "x": 0.082,
+                  "y": 0.3691,
+                  "r": 0.0215,
+                  "who": "warrior with topknot, upper left"
+                },
+                {
+                  "x": 0.1855,
+                  "y": 0.374,
+                  "r": 0.0205,
+                  "who": "moustached warrior with topknot, left"
+                },
+                {
+                  "x": 0.2865,
+                  "y": 0.4033,
+                  "r": 0.0186,
+                  "who": "warrior behind shield, left of centre"
+                },
+                {
+                  "x": 0.3854,
+                  "y": 0.417,
+                  "r": 0.0186,
+                  "who": "warrior behind shields, left of the leader"
+                },
+                {
+                  "x": 0.4746,
+                  "y": 0.3906,
+                  "r": 0.0264,
+                  "who": "bald curly-haired leader with raised sword, centre"
+                },
+                {
+                  "x": 0.5977,
+                  "y": 0.4258,
+                  "r": 0.0244,
+                  "who": "moustached warrior with topknot, right of the leader"
+                },
+                {
+                  "x": 0.6771,
+                  "y": 0.429,
+                  "r": 0.0176,
+                  "who": "warrior behind shield, centre-right"
+                },
+                {
+                  "x": 0.8991,
+                  "y": 0.4746,
+                  "r": 0.0273,
+                  "who": "musketeer in profile aiming, right foreground"
+                },
+                {
+                  "x": 0.9616,
+                  "y": 0.3574,
+                  "r": 0.0166,
+                  "who": "musketeer, top right"
+                },
+                {
+                  "x": 0.8854,
+                  "y": 0.3838,
+                  "r": 0.0137,
+                  "who": "musketeer behind muskets, right"
+                },
+                {
+                  "x": 0.8444,
+                  "y": 0.3848,
+                  "r": 0.0137,
+                  "who": "musketeer behind muskets, right of centre"
+                },
+                {
+                  "x": 0.2174,
+                  "y": 0.373,
+                  "r": 0.0098,
+                  "who": "background warrior between the left pair"
+                },
+                {
+                  "x": 0.7467,
+                  "y": 0.4453,
+                  "r": 0.0127,
+                  "who": "warrior with topknot behind sword, centre-right"
+                },
+                {
+                  "x": 0.5482,
+                  "y": 0.3955,
+                  "r": 0.0098,
+                  "who": "background warrior behind the leader's arm"
+                },
+                {
+                  "x": 0.2439,
+                  "y": 0.382,
+                  "r": 0.011,
+                  "who": "warrior peering over a shield, left of centre"
+                },
+                {
+                  "x": 0.3077,
+                  "y": 0.382,
+                  "r": 0.011,
+                  "who": "warrior behind, right of the shielded warrior, left of centre"
+                },
+                {
+                  "x": 0.009,
+                  "y": 0.1665,
+                  "r": 0.0098,
+                  "who": "warrior on the embankment, cut by left edge"
+                },
+                {
+                  "x": 0.059,
+                  "y": 0.1906,
+                  "r": 0.0098,
+                  "who": "warrior on the embankment, upper left"
+                },
+                {
+                  "x": 0.096,
+                  "y": 0.2055,
+                  "r": 0.0098,
+                  "who": "moustached warrior on the embankment, upper left"
+                },
+                {
+                  "x": 0.148,
+                  "y": 0.2145,
+                  "r": 0.0098,
+                  "who": "warrior on the embankment, upper left of centre"
+                },
+                {
+                  "x": 0.171,
+                  "y": 0.2265,
+                  "r": 0.0098,
+                  "who": "warrior on the embankment behind a shield, upper left of centre"
+                }
+              ]
+            },
+            {
+              "id": "page-07-panel-05",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.0737,
+                  "y": 0.5304,
+                  "r": 0.011,
+                  "who": "bearded warrior in profile, left of the mass"
+                },
+                {
+                  "x": 0.099,
+                  "y": 0.5152,
+                  "r": 0.011,
+                  "who": "bearded warrior in profile, upper left of the mass"
+                },
+                {
+                  "x": 0.1202,
+                  "y": 0.5552,
+                  "r": 0.011,
+                  "who": "warrior with topknot in profile, left of centre of the mass"
+                },
+                {
+                  "x": 0.1625,
+                  "y": 0.6077,
+                  "r": 0.011,
+                  "who": "warrior in profile, lower middle of the mass"
+                },
+                {
+                  "x": 0.2343,
+                  "y": 0.5732,
+                  "r": 0.011,
+                  "who": "bearded warrior in profile, right part of the mass"
+                },
+                {
+                  "x": 0.0863,
+                  "y": 0.568,
+                  "r": 0.011,
+                  "who": "stooping warrior in profile, front left of the mass"
+                },
+                {
+                  "x": 0.4335,
+                  "y": 0.541,
+                  "r": 0.011,
+                  "who": "musketeer in profile in the melee, centre"
+                },
+                {
+                  "x": 0.4548,
+                  "y": 0.6117,
+                  "r": 0.011,
+                  "who": "musketeer aiming in the melee, centre"
+                },
+                {
+                  "x": 0.468,
+                  "y": 0.6085,
+                  "r": 0.011,
+                  "who": "bearded musketeer in profile, front of the melee"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-02",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.5534,
+                  "y": 0.4102,
+                  "r": 0.0361,
+                  "who": "shouting officer, centre"
+                },
+                {
+                  "x": 0.2995,
+                  "y": 0.4854,
+                  "r": 0.0322,
+                  "who": "wide-eyed soldier, foreground left"
+                },
+                {
+                  "x": 0.9323,
+                  "y": 0.4873,
+                  "r": 0.0391,
+                  "who": "bearded soldier, foreground right"
+                },
+                {
+                  "x": 0.3776,
+                  "y": 0.4092,
+                  "r": 0.0205,
+                  "who": "soldier in profile, left of centre"
+                },
+                {
+                  "x": 0.4414,
+                  "y": 0.3906,
+                  "r": 0.0166,
+                  "who": "soldier facing viewer, behind officer"
+                },
+                {
+                  "x": 0.3021,
+                  "y": 0.3779,
+                  "r": 0.0127,
+                  "who": "soldier behind foreground-left soldier"
+                },
+                {
+                  "x": 0.6426,
+                  "y": 0.375,
+                  "r": 0.0166,
+                  "who": "soldier in profile, right of officer"
+                },
+                {
+                  "x": 0.6823,
+                  "y": 0.3682,
+                  "r": 0.0117,
+                  "who": "shadowed soldier behind, right of officer"
+                },
+                {
+                  "x": 0.763,
+                  "y": 0.3877,
+                  "r": 0.0215,
+                  "who": "soldier in profile, right"
+                },
+                {
+                  "x": 0.8333,
+                  "y": 0.3867,
+                  "r": 0.0195,
+                  "who": "soldier looking left, right"
+                },
+                {
+                  "x": 0.8815,
+                  "y": 0.3711,
+                  "r": 0.0127,
+                  "who": "shadowed soldier, right"
+                },
+                {
+                  "x": 0.9688,
+                  "y": 0.3779,
+                  "r": 0.0215,
+                  "who": "soldier at right edge, top"
+                },
+                {
+                  "x": 0.1042,
+                  "y": 0.2051,
+                  "r": 0.0117,
+                  "who": "lead turbaned rider, lost profile, left"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-04",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.3372,
+                  "y": 0.2295,
+                  "r": 0.0264,
+                  "who": "red-turbaned rider, three-quarter, left of centre"
+                },
+                {
+                  "x": 0.6107,
+                  "y": 0.2676,
+                  "r": 0.0303,
+                  "who": "blue-quilted rider with sword, white turban, centre right"
+                },
+                {
+                  "x": 0.1094,
+                  "y": 0.2266,
+                  "r": 0.0166,
+                  "who": "bearded rider with raised sword, upper left"
+                },
+                {
+                  "x": 0.0326,
+                  "y": 0.2393,
+                  "r": 0.0107,
+                  "who": "turbaned rider at far left"
+                },
+                {
+                  "x": 0.1569,
+                  "y": 0.2393,
+                  "r": 0.0127,
+                  "who": "turbaned rider behind, left"
+                },
+                {
+                  "x": 0.4076,
+                  "y": 0.2861,
+                  "r": 0.0166,
+                  "who": "bearded turbaned rider behind, centre"
+                },
+                {
+                  "x": 0.4863,
+                  "y": 0.3428,
+                  "r": 0.0117,
+                  "who": "small turbaned rider in background, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-05",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.3444,
+                  "y": 0.134,
+                  "r": 0.0166,
+                  "who": "surrendering soldier, lost profile, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-09-panel-01",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.0383,
+                  "y": 0.3946,
+                  "r": 0.0203,
+                  "who": "guard far left, lost profile from behind (beard and cheek showing)"
+                },
+                {
+                  "x": 0.2954,
+                  "y": 0.4555,
+                  "r": 0.0124,
+                  "who": "guard centre-left, profile"
+                },
+                {
+                  "x": 0.3489,
+                  "y": 0.4645,
+                  "r": 0.0124,
+                  "who": "second guard centre-left, profile"
+                },
+                {
+                  "x": 0.3269,
+                  "y": 0.5738,
+                  "r": 0.0113,
+                  "who": "small seated soldier behind guards"
+                },
+                {
+                  "x": 0.3709,
+                  "y": 0.6336,
+                  "r": 0.0237,
+                  "who": "kneeling soldier left, face in hands"
+                },
+                {
+                  "x": 0.4171,
+                  "y": 0.5524,
+                  "r": 0.0169,
+                  "who": "bearded soldier behind, looking down"
+                },
+                {
+                  "x": 0.4589,
+                  "y": 0.6156,
+                  "r": 0.0147,
+                  "who": "bowed soldier behind main kneeler"
+                },
+                {
+                  "x": 0.491,
+                  "y": 0.5806,
+                  "r": 0.0225,
+                  "who": "main kneeling soldier, head bowed, centre"
+                },
+                {
+                  "x": 0.5541,
+                  "y": 0.584,
+                  "r": 0.0158,
+                  "who": "kneeling soldier behind, head down"
+                },
+                {
+                  "x": 0.5806,
+                  "y": 0.5254,
+                  "r": 0.0113,
+                  "who": "background soldier, lost profile with moustache"
+                },
+                {
+                  "x": 0.6212,
+                  "y": 0.4419,
+                  "r": 0.0192,
+                  "who": "standing soldier, hands clasped"
+                },
+                {
+                  "x": 0.6669,
+                  "y": 0.4724,
+                  "r": 0.0124,
+                  "who": "background soldier"
+                },
+                {
+                  "x": 0.6922,
+                  "y": 0.4814,
+                  "r": 0.0124,
+                  "who": "background soldier right"
+                },
+                {
+                  "x": 0.7289,
+                  "y": 0.4036,
+                  "r": 0.0225,
+                  "who": "soldier hands raised, left"
+                },
+                {
+                  "x": 0.8399,
+                  "y": 0.4239,
+                  "r": 0.0192,
+                  "who": "soldier hands raised, right"
+                },
+                {
+                  "x": 0.6178,
+                  "y": 0.6956,
+                  "r": 0.0248,
+                  "who": "foreground soldier, face in hands"
+                },
+                {
+                  "x": 0.8117,
+                  "y": 0.6167,
+                  "r": 0.0192,
+                  "who": "kneeling soldier right, head bowed"
+                },
+                {
+                  "x": 0.7892,
+                  "y": 0.5355,
+                  "r": 0.0124,
+                  "who": "kneeling soldier behind right"
+                },
+                {
+                  "x": 0.9064,
+                  "y": 0.4408,
+                  "r": 0.0124,
+                  "who": "guard right background, profile"
+                },
+                {
+                  "x": 0.9329,
+                  "y": 0.2931,
+                  "r": 0.0361,
+                  "who": "guard far right, profile"
+                }
+              ]
+            },
+            {
+              "id": "page-10-panel-03",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.415,
+                  "y": 0.415,
+                  "r": 0.105,
+                  "who": "Nagoji, turbaned rider, three-quarter view, left of centre"
+                },
+                {
+                  "x": 0.0189,
+                  "y": 0.532,
+                  "r": 0.011,
+                  "who": "bearded spearman at far left edge, lost profile"
+                },
+                {
+                  "x": 0.5892,
+                  "y": 0.5547,
+                  "r": 0.0115,
+                  "who": "bearded spearman behind Nagoji's shoulder, lost profile"
+                },
+                {
+                  "x": 0.6706,
+                  "y": 0.5391,
+                  "r": 0.012,
+                  "who": "bearded spearman with white shoulder cloth, centre, lost profile"
+                },
+                {
+                  "x": 0.793,
+                  "y": 0.5547,
+                  "r": 0.01,
+                  "who": "distant bearded spearman, centre right, lost profile"
+                },
+                {
+                  "x": 0.9714,
+                  "y": 0.5635,
+                  "r": 0.011,
+                  "who": "bearded spearman at right edge, lost profile"
+                },
+                {
+                  "x": 0.7467,
+                  "y": 0.6504,
+                  "r": 0.011,
+                  "who": "seated French soldier in tricorn, left of group, profile"
+                },
+                {
+                  "x": 0.778,
+                  "y": 0.6738,
+                  "r": 0.014,
+                  "who": "seated bareheaded French soldier, head bowed"
+                },
+                {
+                  "x": 0.7962,
+                  "y": 0.6572,
+                  "r": 0.012,
+                  "who": "grey-haired French soldier behind group"
+                },
+                {
+                  "x": 0.8366,
+                  "y": 0.6768,
+                  "r": 0.017,
+                  "who": "grey-bearded French soldier in tricorn, seated"
+                },
+                {
+                  "x": 0.9102,
+                  "y": 0.6982,
+                  "r": 0.015,
+                  "who": "seated French soldier, head bowed, right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 14,
+        "result": {
+          "chapter": 14,
+          "panels": [
+            {
+              "id": "2.3",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.55,
+                  "y0": 0.19,
+                  "x1": 0.88,
+                  "y1": 0.46,
+                  "what": "Dutch camp with tricolour flag, palisade and blue-coated soldiers, the target of Nagoji's gaze"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "3.1",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.5,
+                  "y0": 0.4,
+                  "x1": 0.72,
+                  "y1": 0.62,
+                  "what": "lead low dark boat with oiled Mukkuvar men paddling through the surf"
+                },
+                {
+                  "x0": 0.21,
+                  "y0": 0.42,
+                  "x1": 0.39,
+                  "y1": 0.6,
+                  "what": "second dark boat with paddlers, so the panel shows a group of boats"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "3.4",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.6,
+                  "y0": 0.49,
+                  "x1": 0.85,
+                  "y1": 0.64,
+                  "what": "Antony's outstretched arm and open palm gesturing toward the dark water"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-04-panel-02",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.38,
+                  "y0": 0.29,
+                  "x1": 0.47,
+                  "y1": 0.36,
+                  "what": "cannon tilted on slumped mud rampart"
+                },
+                {
+                  "x0": 0.4,
+                  "y0": 0.38,
+                  "x1": 0.88,
+                  "y1": 0.59,
+                  "what": "sick men lying under torn canvas"
+                },
+                {
+                  "x0": 0.735,
+                  "y0": 0.44,
+                  "x1": 0.79,
+                  "y1": 0.58,
+                  "what": "Lieutenant Rijtel, blue coat with officer's sash, standing among the sick"
+                },
+                {
+                  "x0": 0.82,
+                  "y0": 0.46,
+                  "x1": 0.97,
+                  "y1": 0.66,
+                  "what": "stacked empty barrels by the wall"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-04-panel-03",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.555,
+                  "y0": 0.28,
+                  "x1": 0.635,
+                  "y1": 0.405,
+                  "what": "tall pale-haired Dutch officer in blue coat pointing, pushing men to the gap"
+                },
+                {
+                  "x0": 0.32,
+                  "y0": 0.3,
+                  "x1": 0.5,
+                  "y1": 0.39,
+                  "what": "thin ragged volley puffs from the Dutch wall"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "5.4",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.2,
+                  "y0": 0.32,
+                  "x1": 0.5,
+                  "y1": 0.45,
+                  "what": "rammer gripped in both hands and driven toward the muzzle"
+                },
+                {
+                  "x0": 0.38,
+                  "y0": 0.14,
+                  "x1": 0.45,
+                  "y1": 0.33,
+                  "what": "sponge staff held up, dripping"
+                },
+                {
+                  "x0": 0.25,
+                  "y0": 0.62,
+                  "x1": 0.3,
+                  "y1": 0.72,
+                  "what": "gunner's hand on the wooden elevation wedge"
+                },
+                {
+                  "x0": 0.24,
+                  "y0": 0.42,
+                  "x1": 0.6,
+                  "y1": 0.67,
+                  "what": "gun barrel, breech to muzzle, laid toward the fort"
+                },
+                {
+                  "x0": 0.62,
+                  "y0": 0.19,
+                  "x1": 0.92,
+                  "y1": 0.37,
+                  "what": "Dutch stockade and flag at the centre of the fort, the gun's target"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "5.5",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.5,
+                  "y0": 0.36,
+                  "x1": 0.86,
+                  "y1": 0.78,
+                  "what": "gun firing: barrel, muzzle flash and white smoke cloud"
+                },
+                {
+                  "x0": 0.08,
+                  "y0": 0.04,
+                  "x1": 0.2,
+                  "y1": 0.5,
+                  "what": "Nagoji mounted on Kayal, watching still"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "6.3",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.11,
+                  "y0": 0.01,
+                  "x1": 0.56,
+                  "y1": 0.6,
+                  "what": "Kayal rearing with forelegs up, Nagoji hauling on the reins"
+                },
+                {
+                  "x0": 0,
+                  "y0": 0.27,
+                  "x1": 0.17,
+                  "y1": 0.46,
+                  "what": "loose end of Nagoji's red sash whipping back"
+                },
+                {
+                  "x0": 0.6,
+                  "y0": 0.03,
+                  "x1": 0.92,
+                  "y1": 0.38,
+                  "what": "pillar of flame and black smoke with debris over the Dutch camp"
+                },
+                {
+                  "x0": 0.3,
+                  "y0": 0.72,
+                  "x1": 0.66,
+                  "y1": 0.95,
+                  "what": "men in the forward trench flung flat by the blast"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-07-panel-01",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.33,
+                  "y0": 0.28,
+                  "x1": 0.84,
+                  "y1": 0.68,
+                  "what": "Blue- and grey-coated Dutch soldiers in formed ranks, muskets levelled, stepping out of the burning gap in the palisade"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-07-panel-02",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.45,
+                  "y0": 0.2,
+                  "x1": 0.99,
+                  "y1": 0.38,
+                  "what": "Dutch line firing the volley: bank of musket smoke and muzzle flashes"
+                },
+                {
+                  "x0": 0.1,
+                  "y0": 0.56,
+                  "x1": 0.7,
+                  "y1": 0.95,
+                  "what": "Our men in the forward trench ducking behind shields at the parapet"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-07-panel-03",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.33,
+                  "y0": 0.1,
+                  "x1": 0.55,
+                  "y1": 0.75,
+                  "what": "Ramayyan at the centre of the line, no shield, curved sword raised"
+                },
+                {
+                  "x0": 0.55,
+                  "y0": 0.38,
+                  "x1": 0.88,
+                  "y1": 0.7,
+                  "what": "Nair shield wall meeting the oncoming Dutch bayonets"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-07-panel-05",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.3,
+                  "y0": 0.42,
+                  "x1": 0.5,
+                  "y1": 0.72,
+                  "what": "Dutch front ranks packed tight against the Nair shield line"
+                },
+                {
+                  "x0": 0.49,
+                  "y0": 0.44,
+                  "x1": 0.99,
+                  "y1": 0.69,
+                  "what": "The seam: the scrubland-facing flank thinned to a single ragged file with daylight between the men, and the officer reaching out to pull men from it"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "8.2",
+              "version": "page-08-panel-02-v02",
+              "keep": [
+                {
+                  "x0": 0.38,
+                  "y0": 0.49,
+                  "x1": 0.71,
+                  "y1": 0.76,
+                  "what": "horse's ears in foreground (rider's-eye POV)"
+                },
+                {
+                  "x0": 0.47,
+                  "y0": 0.32,
+                  "x1": 0.76,
+                  "y1": 0.6,
+                  "what": "sergeant, mouth open, arm thrown out to wheel his men"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "8.4",
+              "version": "page-08-panel-04-v02",
+              "keep": [
+                {
+                  "x0": 0.44,
+                  "y0": 0.07,
+                  "x1": 0.73,
+                  "y1": 0.62,
+                  "what": "Dhanaji (white turban, indigo tunic) with sword raised, his horse half a length ahead"
+                },
+                {
+                  "x0": 0.17,
+                  "y0": 0.15,
+                  "x1": 0.4,
+                  "y1": 0.5,
+                  "what": "Nagoji beside and behind Dhanaji, so the surge past his shoulder reads"
+                },
+                {
+                  "x0": 0.73,
+                  "y0": 0.32,
+                  "x1": 0.88,
+                  "y1": 0.54,
+                  "what": "Dutch soldiers fighting back to back in the dust beyond"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "8.5",
+              "version": "page-08-panel-05-v02",
+              "keep": [
+                {
+                  "x0": 0.035,
+                  "y0": 0.555,
+                  "x1": 0.875,
+                  "y1": 0.955,
+                  "what": "dropped Dutch musket lying in trampled sand"
+                },
+                {
+                  "x0": 0.39,
+                  "y0": 0.21,
+                  "x1": 0.59,
+                  "y1": 0.42,
+                  "what": "soft-focus Dutch soldiers beyond with hands going up"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "9.1",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.34,
+                  "x1": 0.89,
+                  "y0": 0.32,
+                  "y1": 0.9,
+                  "what": "Dutch survivors surrendering: kneeling men in ash-stained blue coats and the standing men with hands raised"
+                },
+                {
+                  "x0": 0.37,
+                  "x1": 0.75,
+                  "y0": 0.2,
+                  "y1": 0.4,
+                  "what": "stockade burned down to glowing embers along the ridge behind the survivors"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "10.3",
+              "version": "v02",
+              "keep": [],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-select-drawn",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch14 p2",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "ad6aa70a5a5709da5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180291,
+      "lastProgressAt": 1791470180291,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-02-panel-03\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.448,\"y\":0.207},{\"copy_index\":1,\"x\":0.448,\"y\":0.207}],\"backup_tails\":[],\"faces\":[{\"x\":0.413,\"y\":0.16,\"r\":0.095},{\"x\":0.124,\"y\":0.217,\"r\":0.06},{\"x\":0.064,\"y\":0.356,\"r\":0.075},{\"x\":0.02,\"y\":0.288,\"r\":0.05}],\"backup_faces\":[],\"issues\":\"Minor only. Nagoji matches the sheet and the ch14 commander row: rust-…",
+      "promptPreview": "You are choosing finished art for page 2 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch14 p3",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a93fee5568c2b820e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180291,
+      "lastProgressAt": 1791470180291,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-03-panel-01\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.281,\"y\":0.452,\"r\":0.03},{\"x\":0.323,\"y\":0.446,\"r\":0.03},{\"x\":0.574,\"y\":0.446,\"r\":0.03},{\"x\":0.623,\"y\":0.43,\"r\":0.035},{\"x\":0.821,\"y\":0.468,\"r\":0.028},{\"x\":0.865,\"y\":0.459,\"r\":0.03}],\"backup_faces\":[],\"issues\":\"Acceptable. The r1 fix worked. Low, narrow, dark plank boats now come in from th…",
+      "promptPreview": "You are choosing finished art for page 3 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "select ch14 p4",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "ac545aadda6161d87",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180291,
+      "lastProgressAt": 1791470180291,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-04-panel-02\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.77,\"y\":0.459,\"r\":0.016},{\"x\":0.718,\"y\":0.457,\"r\":0.013},{\"x\":0.274,\"y\":0.378,\"r\":0.012},{\"x\":0.302,\"y\":0.388,\"r\":0.012}],\"backup_faces\":[],\"issues\":\"Minor only. The sappers' topknots sit on the crown rather than tied forward. The cannon is tilted up on the rampart with slumped earth and a…",
+      "promptPreview": "You are choosing finished art for page 4 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "select ch14 p5",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a55e75e1eba689828",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180292,
+      "lastProgressAt": 1791470180292,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-05-panel-04\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.246,\"y\":0.217,\"r\":0.065},{\"x\":0.355,\"y\":0.217,\"r\":0.055},{\"x\":0.189,\"y\":0.513,\"r\":0.065}],\"backup_faces\":[],\"issues\":\"Acceptable with a minor gunnery-logic flaw: the rammer is held from the breech side and lies along the top of the barrel instead of entering the muzzle, and the sponge is …",
+      "promptPreview": "You are choosing finished art for page 5 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "select ch14 p6",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "abecfc37fc8cb92e3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180292,
+      "lastProgressAt": 1791470180292,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-06-panel-03\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.163,\"y\":0.176,\"r\":0.075},{\"x\":0.498,\"y\":0.84,\"r\":0.083},{\"x\":0.638,\"y\":0.767,\"r\":0.044},{\"x\":0.057,\"y\":0.418,\"r\":0.022},{\"x\":0.012,\"y\":0.4,\"r\":0.018}],\"backup_faces\":[],\"issues\":\"Acceptable, and it fixes the r1 failure. Nagoji matches the sheet and the ch14 row: compact rust-red turban, l…",
+      "promptPreview": "You are choosing finished art for page 6 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "select ch14 p7",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a214b77cc47127af3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180292,
+      "lastProgressAt": 1791470180292,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-07-panel-01\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0,\"y\":0.3}],\"backup_tails\":[],\"faces\":[{\"x\":0.388,\"y\":0.44,\"r\":0.025},{\"x\":0.438,\"y\":0.448,\"r\":0.025},{\"x\":0.462,\"y\":0.454,\"r\":0.025},{\"x\":0.495,\"y\":0.451,\"r\":0.025},{\"x\":0.519,\"y\":0.445,\"r\":0.025},{\"x\":0.545,\"y\":0.44,\"r\":0.025},{\"x\":0.581,\"y\":0.443,\"r\":0.025},{\"x\":0.609,\"y\":0.44,\"r\":0.025},{\"x\":0.669,\"y…",
+      "promptPreview": "You are choosing finished art for page 7 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "select ch14 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a55c8a297d24859cc",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180292,
+      "lastProgressAt": 1791470180292,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-08-panel-02\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.546,\"y\":0.396,\"r\":0.083},{\"x\":0.303,\"y\":0.459,\"r\":0.068},{\"x\":0.924,\"y\":0.449,\"r\":0.083},{\"x\":0.765,\"y\":0.376,\"r\":0.049},{\"x\":0.843,\"y\":0.366,\"r\":0.045},{\"x\":0.97,\"y\":0.356,\"r\":0.05},{\"x\":0.443,\"y\":0.376,\"r\":0.04},{\"x\":0.387,\"y\":0.391,\"r\":0.04},{\"x\":0.309,\"y\":0.361,\"r\":0.035}],\"backup_fac…",
+      "promptPreview": "You are choosing finished art for page 8 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "select ch14 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "aeab411258b08b829",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180292,
+      "lastProgressAt": 1791470180292,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-09-panel-01\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.953,\"y\":0.26,\"r\":0.073},{\"x\":0.733,\"y\":0.366,\"r\":0.06},{\"x\":0.84,\"y\":0.406,\"r\":0.047},{\"x\":0.626,\"y\":0.434,\"r\":0.047},{\"x\":0.488,\"y\":0.547,\"r\":0.056},{\"x\":0.609,\"y\":0.68,\"r\":0.062},{\"x\":0.809,\"y\":0.609,\"r\":0.047},{\"x\":0.366,\"y\":0.631,\"r\":0.051},{\"x\":0.025,\"y\":0.372,\"r\":0.047},{\"x\":0.299,\"…",
+      "promptPreview": "You are choosing finished art for page 9 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "select ch14 p10",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "aa97f4b0c94fbd520",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180292,
+      "lastProgressAt": 1791470180292,
+      "cached": true,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-10-panel-03\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.423,\"y\":0.437},{\"copy_index\":1,\"x\":0.423,\"y\":0.437}],\"backup_tails\":[],\"faces\":[{\"x\":0.34,\"y\":0.28,\"r\":0.28}],\"backup_faces\":[],\"issues\":\"\",\"correction\":\"\"}]}",
+      "promptPreview": "You are choosing finished art for page 10 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-ru…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "keep ch14 p2",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "aa18f525bfc34ad5c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180314,
+      "queuedAt": 1791470180300,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 2 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470194085,
+      "tokens": 60583,
+      "toolCalls": 3,
+      "durationMs": 13770,
+      "resultPreview": "{\"panels\":[{\"id\":\"2.3\",\"version\":\"v02\",\"keep\":[{\"x0\":0.55,\"y0\":0.19,\"x1\":0.88,\"y1\":0.46,\"what\":\"Dutch camp with tricolour flag, palisade and blue-coated soldiers, the target of Nagoji's gaze\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "keep ch14 p3",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a7ee6ed1bd170a658",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180314,
+      "queuedAt": 1791470180300,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 3 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470209273,
+      "tokens": 64859,
+      "toolCalls": 7,
+      "durationMs": 28958,
+      "resultPreview": "{\"panels\":[{\"id\":\"3.1\",\"version\":\"v02\",\"keep\":[{\"x0\":0.5,\"y0\":0.4,\"x1\":0.72,\"y1\":0.62,\"what\":\"lead low dark boat with oiled Mukkuvar men paddling through the surf\"},{\"x0\":0.21,\"y0\":0.42,\"x1\":0.39,\"y1\":0.6,\"what\":\"second dark boat with paddlers, so the panel shows a group of boats\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"3.4\",\"version\":\"v02\",\"keep\":[{\"x0\":0.6,\"y0\":0.49,\"x1\":0.85,\"y1\":0.64,\"what\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "keep ch14 p4",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a2081091fd1c903ce",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180315,
+      "queuedAt": 1791470180300,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 4 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470210998,
+      "tokens": 69491,
+      "toolCalls": 11,
+      "durationMs": 30683,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-02\",\"version\":\"v02\",\"keep\":[{\"x0\":0.38,\"y0\":0.29,\"x1\":0.47,\"y1\":0.36,\"what\":\"cannon tilted on slumped mud rampart\"},{\"x0\":0.4,\"y0\":0.38,\"x1\":0.88,\"y1\":0.59,\"what\":\"sick men lying under torn canvas\"},{\"x0\":0.735,\"y0\":0.44,\"x1\":0.79,\"y1\":0.58,\"what\":\"Lieutenant Rijtel, blue coat with officer's sash, standing among the sick\"},{\"x0\":0.82,\"y0\":0.46,\"x1\":0.97,\"y1\":0.66,\"w…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "keep ch14 p5",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a55cea4acc000a3b6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180315,
+      "queuedAt": 1791470180301,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 5 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470241075,
+      "tokens": 73320,
+      "toolCalls": 9,
+      "durationMs": 60760,
+      "resultPreview": "{\"panels\":[{\"id\":\"5.4\",\"version\":\"v02\",\"keep\":[{\"x0\":0.2,\"y0\":0.32,\"x1\":0.5,\"y1\":0.45,\"what\":\"rammer gripped in both hands and driven toward the muzzle\"},{\"x0\":0.38,\"y0\":0.14,\"x1\":0.45,\"y1\":0.33,\"what\":\"sponge staff held up, dripping\"},{\"x0\":0.25,\"y0\":0.62,\"x1\":0.3,\"y1\":0.72,\"what\":\"gunner's hand on the wooden elevation wedge\"},{\"x0\":0.24,\"y0\":0.42,\"x1\":0.6,\"y1\":0.67,\"what\":\"gun barrel, breech to …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "keep ch14 p6",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a6f75c09c13b7046a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180315,
+      "queuedAt": 1791470180301,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 6 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470204083,
+      "tokens": 62430,
+      "toolCalls": 5,
+      "durationMs": 23768,
+      "resultPreview": "{\"panels\":[{\"id\":\"6.3\",\"version\":\"v02\",\"keep\":[{\"x0\":0.11,\"y0\":0.01,\"x1\":0.56,\"y1\":0.6,\"what\":\"Kayal rearing with forelegs up, Nagoji hauling on the reins\"},{\"x0\":0,\"y0\":0.27,\"x1\":0.17,\"y1\":0.46,\"what\":\"loose end of Nagoji's red sash whipping back\"},{\"x0\":0.6,\"y0\":0.03,\"x1\":0.92,\"y1\":0.38,\"what\":\"pillar of flame and black smoke with debris over the Dutch camp\"},{\"x0\":0.3,\"y0\":0.72,\"x1\":0.66,\"y1\":0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "keep ch14 p7",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a3c6d78b56034a939",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180315,
+      "queuedAt": 1791470180301,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 7 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470236390,
+      "tokens": 71610,
+      "toolCalls": 12,
+      "durationMs": 56075,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-01\",\"version\":\"v02\",\"keep\":[{\"x0\":0.33,\"y0\":0.28,\"x1\":0.84,\"y1\":0.68,\"what\":\"Blue- and grey-coated Dutch soldiers in formed ranks, muskets levelled, stepping out of the burning gap in the palisade\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"page-07-panel-02\",\"version\":\"v02\",\"keep\":[{\"x0\":0.45,\"y0\":0.2,\"x1\":0.99,\"y1\":0.38,\"what\":\"Dutch line firing the volley: bank of…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "keep ch14 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ae982532636c5e501",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180315,
+      "queuedAt": 1791470180301,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 8 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470236864,
+      "tokens": 69494,
+      "toolCalls": 9,
+      "durationMs": 56549,
+      "resultPreview": "{\"panels\":[{\"id\":\"8.2\",\"version\":\"page-08-panel-02-v02\",\"keep\":[{\"x0\":0.38,\"y0\":0.49,\"x1\":0.71,\"y1\":0.76,\"what\":\"horse's ears in foreground (rider's-eye POV)\"},{\"x0\":0.47,\"y0\":0.32,\"x1\":0.76,\"y1\":0.6,\"what\":\"sergeant, mouth open, arm thrown out to wheel his men\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"8.4\",\"version\":\"page-08-panel-04-v02\",\"keep\":[{\"x0\":0.44,\"y0\":0.07,\"x1\":0.73,\"y1\":0.62,\"what\":…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "keep ch14 p9",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ac3acb42af8edc2f3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180315,
+      "queuedAt": 1791470180301,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 9 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470211268,
+      "tokens": 62809,
+      "toolCalls": 7,
+      "durationMs": 30953,
+      "resultPreview": "{\"panels\":[{\"id\":\"9.1\",\"version\":\"v02\",\"keep\":[{\"x0\":0.34,\"x1\":0.89,\"y0\":0.32,\"y1\":0.9,\"what\":\"Dutch survivors surrendering: kneeling men in ash-stained blue coats and the standing men with hands raised\"},{\"x0\":0.37,\"x1\":0.75,\"y0\":0.2,\"y1\":0.4,\"what\":\"stockade burned down to glowing embers along the ridge behind the survivors\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "keep ch14 p10",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "aeb00bab94038839e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180315,
+      "queuedAt": 1791470180301,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 10 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791470187728,
+      "tokens": 62472,
+      "toolCalls": 3,
+      "durationMs": 7413,
+      "resultPreview": "{\"panels\":[{\"id\":\"10.3\",\"version\":\"v02\",\"keep\":[],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 5,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "mark ch14 p2",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a4fac7c6d97413342",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180364,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470224831,
+      "tokens": 66076,
+      "toolCalls": 15,
+      "durationMs": 44466,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.4395,\"y\":0.1904,\"r\":0.034,\"who\":\"Nagoji, red turban, three-quarter profile facing right, centre\"},{\"x\":0.1484,\"y\":0.2461,\"r\":0.025,\"who\":\"topknot spearman, profile facing right, upper left\"},{\"x\":0.0944,\"y\":0.3955,\"r\":0.031,\"who\":\"white-turbaned bearded gunner, profile facing right, left\"},{\"x\":0.0247,\"y\":0.3164,\"r\":0.023,\"who\":\"w…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "mark ch14 p3",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "af5f9e77f3c6db8de",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180364,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470255703,
+      "tokens": 80543,
+      "toolCalls": 27,
+      "durationMs": 75338,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.281,\"y\":0.463,\"r\":0.013,\"who\":\"turbaned rower, left boat, front\"},{\"x\":0.323,\"y\":0.454,\"r\":0.012,\"who\":\"bare-headed rower, left boat, behind\"},{\"x\":0.575,\"y\":0.457,\"r\":0.012,\"who\":\"bare-headed rower, centre boat, rear left\"},{\"x\":0.623,\"y\":0.446,\"r\":0.016,\"who\":\"turbaned bearded rower, centre boat, front\"},{\"x\":0.821,\"y\":0.473,\"r\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "mark ch14 p4",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "abd2ea3576a2b3231",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180364,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470247553,
+      "tokens": 79235,
+      "toolCalls": 22,
+      "durationMs": 67188,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-02\",\"version\":\"v02\",\"faces\":[{\"x\":0.119,\"y\":0.406,\"r\":0.033,\"who\":\"spearman at left, lost profile (cheek and jaw only), facing the camp\"},{\"x\":0.312,\"y\":0.611,\"r\":0.025,\"who\":\"rifleman centre-left, lost profile, cheek on musket stock\"}]},{\"id\":\"page-04-panel-03\",\"version\":\"v02\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "mark ch14 p5",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a753064d2dc73d3fb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180364,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470241068,
+      "tokens": 71926,
+      "toolCalls": 18,
+      "durationMs": 60703,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-04\",\"version\":\"v02\",\"faces\":[{\"x\":0.264,\"y\":0.232,\"r\":0.026,\"who\":\"bearded gunner with rammer pole, three-quarter right, upper left\"},{\"x\":0.378,\"y\":0.234,\"r\":0.024,\"who\":\"gunner with sponge staff, profile right, upper centre-left\"},{\"x\":0.215,\"y\":0.535,\"r\":0.037,\"who\":\"crouching bearded gunner at breech, profile right, lower left\"}]},{\"id\":\"page-05-panel-05\",\"versi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "mark ch14 p6",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a049b8a435cbfdef1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180364,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470261297,
+      "tokens": 79164,
+      "toolCalls": 29,
+      "durationMs": 80932,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.1855,\"y\":0.195,\"r\":0.025,\"who\":\"Nagoji, red turban, three-quarter view on rearing horse, upper left\"},{\"x\":0.5025,\"y\":0.895,\"r\":0.021,\"who\":\"white-turbaned sepoy ducking behind gabion, partial face under hand, bottom centre\"},{\"x\":0.643,\"y\":0.786,\"r\":0.012,\"who\":\"white-turbaned sepoy pressed to rampart, face under arm, centre righ…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "mark ch14 p7",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ac784ab19571e8efa",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180365,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470550359,
+      "tokens": 141210,
+      "toolCalls": 73,
+      "durationMs": 369994,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.3878,\"y\":0.4453,\"r\":0.0101,\"who\":\"musketeer aiming, far left of front rank\"},{\"x\":0.4149,\"y\":0.4521,\"r\":0.0101,\"who\":\"musketeer behind the leftmost aimers\"},{\"x\":0.438,\"y\":0.4555,\"r\":0.0113,\"who\":\"musketeer aiming, front rank left\"},{\"x\":0.4628,\"y\":0.4577,\"r\":0.0113,\"who\":\"musketeer aiming, front rank left of centre\"},{\"x\":0.4938,…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "mark ch14 p8",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a248363410acd82d5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470180365,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470445717,
+      "tokens": 123065,
+      "toolCalls": 56,
+      "durationMs": 265352,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-02\",\"version\":\"v02\",\"faces\":[{\"x\":0.5534,\"y\":0.4102,\"r\":0.0361,\"who\":\"shouting officer, centre\"},{\"x\":0.2995,\"y\":0.4854,\"r\":0.0322,\"who\":\"wide-eyed soldier, foreground left\"},{\"x\":0.9323,\"y\":0.4873,\"r\":0.0391,\"who\":\"bearded soldier, foreground right\"},{\"x\":0.3776,\"y\":0.4092,\"r\":0.0205,\"who\":\"soldier in profile, left of centre\"},{\"x\":0.4414,\"y\":0.3906,\"r\":0.0166,\"who…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 26,
+      "label": "mark ch14 p9",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a5ce3cd90099e9dfb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470187730,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470336571,
+      "tokens": 89047,
+      "toolCalls": 31,
+      "durationMs": 148841,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.0383,\"y\":0.3946,\"r\":0.0203,\"who\":\"guard far left, lost profile from behind\"},{\"x\":0.2954,\"y\":0.4555,\"r\":0.0124,\"who\":\"guard centre-left, profile\"},{\"x\":0.3489,\"y\":0.4645,\"r\":0.0124,\"who\":\"second guard centre-left, profile\"},{\"x\":0.3269,\"y\":0.5738,\"r\":0.0113,\"who\":\"small seated soldier behind guards\"},{\"x\":0.3664,\"y\":0.6257,\"r\":0.0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 27,
+      "label": "mark ch14 p10",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aab88e5de99d8493e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470194085,
+      "queuedAt": 1791470180350,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470314772,
+      "tokens": 83841,
+      "toolCalls": 28,
+      "durationMs": 120687,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.41,\"y\":0.415,\"r\":0.112,\"who\":\"Nagoji, turbaned rider, three-quarter view, left of centre\"},{\"x\":0.0189,\"y\":0.532,\"r\":0.011,\"who\":\"bearded spearman at far left edge, lost profile\"},{\"x\":0.5892,\"y\":0.5557,\"r\":0.011,\"who\":\"bearded spearman behind Nagoji's shoulder, lost profile\"},{\"x\":0.6725,\"y\":0.538,\"r\":0.011,\"who\":\"bearded spearma…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 28,
+      "label": "check ch14 p2",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ab3feeb73bd0c190a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470224832,
+      "queuedAt": 1791470224832,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470337911,
+      "tokens": 76224,
+      "toolCalls": 19,
+      "durationMs": 113079,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.4414,\"y\":0.1895,\"r\":0.032,\"who\":\"Nagoji, red turban, three-quarter profile facing right, centre\"},{\"x\":0.1536,\"y\":0.2422,\"r\":0.027,\"who\":\"topknot spearman, profile facing right, upper left\"},{\"x\":0.1009,\"y\":0.3896,\"r\":0.028,\"who\":\"white-turbaned bearded gunner, profile facing right, left\"},{\"x\":0.0267,\"y\":0.3203,\"r\":0.021,\"who\":\"w…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 29,
+      "label": "check ch14 p5",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "afa73745c1918dba4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470241070,
+      "queuedAt": 1791470241069,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470299779,
+      "tokens": 71868,
+      "toolCalls": 14,
+      "durationMs": 58709,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-04\",\"version\":\"v02\",\"faces\":[{\"x\":0.264,\"y\":0.232,\"r\":0.026,\"who\":\"bearded gunner with rammer pole, three-quarter right, upper left\"},{\"x\":0.377,\"y\":0.236,\"r\":0.024,\"who\":\"gunner with sponge staff, profile right, upper centre-left\"},{\"x\":0.215,\"y\":0.535,\"r\":0.037,\"who\":\"crouching bearded gunner at breech, profile right, lower left\"}]},{\"id\":\"page-05-panel-05\",\"versi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 30,
+      "label": "check ch14 p4",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a0c445c3696da75da",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470247555,
+      "queuedAt": 1791470247554,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470305242,
+      "tokens": 71890,
+      "toolCalls": 16,
+      "durationMs": 57687,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-02\",\"version\":\"v02\",\"faces\":[{\"x\":0.12,\"y\":0.387,\"r\":0.024,\"who\":\"spearman at left, lost profile (ear, cheek and jaw), facing the camp\"},{\"x\":0.309,\"y\":0.604,\"r\":0.027,\"who\":\"rifleman centre-left, lost profile, cheek on musket stock\"}]},{\"id\":\"page-04-panel-03\",\"version\":\"v02\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 31,
+      "label": "check ch14 p3",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a695f27f9e2d8964a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470255705,
+      "queuedAt": 1791470255704,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470302113,
+      "tokens": 69660,
+      "toolCalls": 14,
+      "durationMs": 46408,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.281,\"y\":0.463,\"r\":0.013,\"who\":\"turbaned rower, left boat, front\"},{\"x\":0.323,\"y\":0.454,\"r\":0.012,\"who\":\"bare-headed rower, left boat, behind\"},{\"x\":0.575,\"y\":0.457,\"r\":0.012,\"who\":\"bare-headed rower, centre boat, rear left\"},{\"x\":0.623,\"y\":0.446,\"r\":0.016,\"who\":\"turbaned bearded rower, centre boat, front\"},{\"x\":0.821,\"y\":0.473,\"r\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 32,
+      "label": "check ch14 p6",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a7ccfb40362b7c11d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470261298,
+      "queuedAt": 1791470261297,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470329588,
+      "tokens": 70926,
+      "toolCalls": 20,
+      "durationMs": 68290,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.1855,\"y\":0.194,\"r\":0.023,\"who\":\"Nagoji, red turban, three-quarter view on rearing horse, upper left\"},{\"x\":0.488,\"y\":0.877,\"r\":0.038,\"who\":\"white-turbaned sepoy ducking behind gabion, tilted face half under hand, bottom centre\"},{\"x\":0.641,\"y\":0.785,\"r\":0.016,\"who\":\"white-turbaned sepoy pressed to rampart, face under arm, centre r…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 33,
+      "label": "check ch14 p10",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a9712c041659936ae",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470314773,
+      "queuedAt": 1791470314772,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470413653,
+      "tokens": 76500,
+      "toolCalls": 19,
+      "durationMs": 98880,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.415,\"y\":0.415,\"r\":0.105,\"who\":\"Nagoji, turbaned rider, three-quarter view, left of centre\"},{\"x\":0.0189,\"y\":0.532,\"r\":0.011,\"who\":\"bearded spearman at far left edge, lost profile\"},{\"x\":0.5892,\"y\":0.5547,\"r\":0.0115,\"who\":\"bearded spearman behind Nagoji's shoulder, lost profile\"},{\"x\":0.6706,\"y\":0.5391,\"r\":0.012,\"who\":\"bearded spea…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 34,
+      "label": "check ch14 p9",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a05c37aa36ffe2f32",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470336573,
+      "queuedAt": 1791470336572,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470457288,
+      "tokens": 81886,
+      "toolCalls": 23,
+      "durationMs": 120715,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.0383,\"y\":0.3946,\"r\":0.0203,\"who\":\"guard far left, lost profile from behind (beard and cheek showing)\"},{\"x\":0.2954,\"y\":0.4555,\"r\":0.0124,\"who\":\"guard centre-left, profile\"},{\"x\":0.3489,\"y\":0.4645,\"r\":0.0124,\"who\":\"second guard centre-left, profile\"},{\"x\":0.3269,\"y\":0.5738,\"r\":0.0113,\"who\":\"small seated soldier behind guards\"},{\"x\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 35,
+      "label": "check ch14 p8",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a385e38ba80b63b7f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470445718,
+      "queuedAt": 1791470445718,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791470608748,
+      "tokens": 105678,
+      "toolCalls": 33,
+      "durationMs": 163030,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-02\",\"version\":\"v02\",\"faces\":[{\"x\":0.5534,\"y\":0.4102,\"r\":0.0361,\"who\":\"shouting officer, centre\"},{\"x\":0.2995,\"y\":0.4854,\"r\":0.0322,\"who\":\"wide-eyed soldier, foreground left\"},{\"x\":0.9323,\"y\":0.4873,\"r\":0.0391,\"who\":\"bearded soldier, foreground right\"},{\"x\":0.3776,\"y\":0.4092,\"r\":0.0205,\"who\":\"soldier in profile, left of centre\"},{\"x\":0.4414,\"y\":0.3906,\"r\":0.0166,\"who…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 36,
+      "label": "check ch14 p7",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a497baffef44a7b54",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791470550361,
+      "queuedAt": 1791470550360,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791471143683,
+      "tokens": 200659,
+      "toolCalls": 74,
+      "durationMs": 593322,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.3878,\"y\":0.4453,\"r\":0.0101,\"who\":\"musketeer aiming, far left of front rank\"},{\"x\":0.4149,\"y\":0.4521,\"r\":0.0101,\"who\":\"bearded musketeer behind the leftmost aimers\"},{\"x\":0.438,\"y\":0.4555,\"r\":0.0113,\"who\":\"musketeer aiming, front rank left\"},{\"x\":0.4628,\"y\":0.4577,\"r\":0.0113,\"who\":\"musketeer aiming, front rank left of centre\"},{\"x\"…"
+    }
+  ],
+  "totalTokens": 2236466,
+  "totalToolCalls": 597
+}

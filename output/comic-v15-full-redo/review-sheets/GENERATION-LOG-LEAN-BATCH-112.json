@@ -1,0 +1,46 @@
+[
+  {
+    "chapter": 9,
+    "package": "output/comic-v15-full-redo/chapters/ch09-split2",
+    "id": "page-14-panel-02",
+    "mode": "edit",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split2/candidates/page-14-panel-02-v02.json",
+    "error": null,
+    "region_crops": [
+      {
+        "source": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split2/frames/page-14-panel-02-v01.png",
+        "box": [
+          56,
+          512,
+          1024,
+          1024
+        ],
+        "size": [
+          968,
+          512
+        ],
+        "upscaled_size": [
+          1024,
+          542
+        ],
+        "input": "/private/tmp/claude-501/fixrv3-ch09/page-14-panel-02-crop-1024.png",
+        "generated": "/Users/roshanvenugopal/.codex/generated_images/01a11846-0dd6-73d1-ba10-9bb62e5ef873/exec-df4d459d-5e83-4eb1-9e8d-bbdcc40374cd.png",
+        "composite": "/private/tmp/claude-501/fixrv3-ch09/page-14-panel-02-composite.png",
+        "feather_px": 51,
+        "feather_type": "cosine, solid centre, bottom edge solid at original canvas boundary",
+        "outside_crop_max_pixel_difference": 0,
+        "source_sha256": "83661c2e50786c3424b472dcc29e12fb896940dc3c639b2a58ee5595a714a491",
+        "generated_size": [
+          1724,
+          912
+        ],
+        "composite_size": [
+          1536,
+          1024
+        ]
+      }
+    ],
+    "notes": "One built-in imagegen edit call with verbatim prompt and only the upscaled crop attached. LANCZOS upscale and downscale. No stray duplicated limb or obvious seam observed during the requested region check. Capture remains visual_review: pending."
+  }
+]

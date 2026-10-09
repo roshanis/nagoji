@@ -1,0 +1,27 @@
+V15 graphic novel panel page-02-panel-03 for chapter 8. Close on Ramayyan as he finally looks up, the stylus paused above the leaf.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+ramayyan: - **Ramayyan Dalawa**: thin, sharp fine features, receding hair, plain white cloth, palm-leaf bundles and stylus.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art, and no painted balloons, caption boxes or frames: leave clear, low-detail space where the lettering will go. The letterer draws every balloon and caption over the finished art.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+No text of any kind in generated art. Do not render the following exact copy; it is composited later:
+CAPTION: His gaze was like a clerk's scale, weighing gold against brass.
+RAMAYYAN: She is Nair. Her house follows the old ways. They are... particular about who sleeps under their roof.
+RAMAYYAN: You are Maratha? Which line?
+Leave clear, low-detail space (sky, wall, floor or shadow) for exactly 3 lettering area(s), one per copy chunk, preferably in the upper part of the frame, with enough room for the exact characters above. Draw NO balloons, boxes, frames, outlines, banners or text of any kind in those areas or anywhere else; the lettering is added afterwards. This replaces any earlier mention of blank balloon or caption reserves. Keep faces, hands, and important action outside those areas.
+No invented lettering, pseudo-writing, logos, watermark, gore, or anachronistic costume.
+
+PRE-GENERATION NOTE (appended after a prompt audit): The leaf under the paused stylus is blank. Frame his head and shoulders with the stylus and leaf low in the frame, and keep the dark pavilion wood above and beside his head plain for the three lettering areas.
+
+REVIEW CORRECTION (the first image of this panel was rejected): Keep the close framing on Ramayyan's head and shoulders and his likeness exactly as now: receding hairline, curly black hair at the sides, clean-shaven, thin sharp features, plain white cloth. Keep the stylus paused just above a blank palm leaf low in the frame. Set this in the same open pavilion of dark oiled wood beside the grey laterite temple wall as panels 2.1 and 2.2. Behind him are only dark wooden beams and pillars, the temple wall, coconut palms and the curved clay-tiled temple roofs. NO water, lagoon, backwater, river or distant house. Remove the brass oil lamp entirely: no lamp of any kind, lit or unlit, no brass vessel, pot, bowl or ritual object anywhere in the frame. The only props are the low wooden desk, the blank palm-leaf bundles and the stylus. He lifts his eyes toward frame LEFT, where Nagoji stands in panel 2.2. Keep the dark wood above and on both sides of his head plain and low-detail for three lettering areas.
+
+SETTING ANCHOR: Chapter 8 happens in Kerala, Travancore, in 1740: a fishing beach and thatched hut, flooded paddy bunds, a palace verandah and a temple-side pavilion of dark oiled wood, then Padmini Amma's Nair estate (low tiered roofs of curved country clay tiles, carved oiled timber beams and pillars, wooden-floored verandahs, enclosed courtyards, a granary, a huge jackfruit tree over a smooth stone platform). There are NO forts, castles, citadels, battlements, towers, European villas, churches, ships or sailing boats anywhere in the frame unless this prompt names them: the hilltop fort in the background of the attached Nagoji sheet is NOT part of this scene, so use that sheet only for his face and costume. Padmini Amma's hair is thick and BLACK with no grey at all. Nagoji's forearms show no marks or patches unless this prompt asks for the brand. Draw it in the inked graphic-novel style of the book (clean ink line, painted colour), never photorealistic.

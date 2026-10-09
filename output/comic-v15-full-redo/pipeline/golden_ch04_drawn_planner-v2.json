@@ -1,0 +1,3120 @@
+{
+ "about": "Drawn-balloon placements of the approved chapter 4 picks from the planner with head-aware tails (2026-10-08: a tail runs to just outside its speaker's head, written as the reserve's tail_head, compositor.TAIL_HEAD_GAP_PT) and the per-chunk short-tail fallback (a chunk the long tail cannot place gets the legacy short tail, written as tail_short). Same picks and layouts as golden_ch04_drawn_planner.json, which is unchanged and still pins the planner with the short tail forced (the tail model is the only thing that moved these placements); reserves are kept whole here, tail_head and tail_short included. Of the 66 placements (22 under each of prior, ratio and probe) 58 are unchanged and 8 moved, in 4 picks; all 66 still pass the compositor fit check and none needs the short tail.",
+ "layouts": {
+  "prior": {
+   "1": [
+    165,
+    165,
+    105,
+    82.5
+   ],
+   "2": [
+    110,
+    [
+     140,
+     140
+    ],
+    180,
+    87.5
+   ],
+   "3": [
+    130,
+    75,
+    110,
+    105,
+    95.5
+   ],
+   "4": [
+    120,
+    115,
+    85,
+    100,
+    95.5
+   ],
+   "5": [
+    110,
+    105,
+    90,
+    105,
+    105.5
+   ],
+   "6": [
+    [
+     104,
+     104
+    ],
+    104,
+    100,
+    209.5
+   ]
+  },
+  "ratio": {
+   "1": [
+    141.8,
+    146.6,
+    119.4,
+    109.7
+   ],
+   "2": [
+    168.1,
+    [
+     120.2,
+     120.2
+    ],
+    123,
+    106.2
+   ],
+   "3": [
+    78,
+    55,
+    112,
+    158.6,
+    111.9
+   ],
+   "4": [
+    74.5,
+    119.3,
+    90.1,
+    128,
+    103.6
+   ],
+   "5": [
+    102.3,
+    102,
+    96.2,
+    139.4,
+    75.6
+   ],
+   "6": [
+    [
+     125.1,
+     125.1
+    ],
+    184.5,
+    82.2,
+    125.7
+   ]
+  },
+  "probe": {
+   "1": [
+    140.1,
+    144.8,
+    117.9,
+    114.7
+   ],
+   "2": [
+    168.1,
+    [
+     120.2,
+     120.2
+    ],
+    123,
+    106.2
+   ],
+   "3": [
+    88,
+    55,
+    107.2,
+    158,
+    107.3
+   ],
+   "4": [
+    82,
+    117.9,
+    89,
+    126.4,
+    100.2
+   ],
+   "5": [
+    102.3,
+    102,
+    96.2,
+    139.4,
+    75.6
+   ],
+   "6": [
+    [
+     125.1,
+     125.1
+    ],
+    178.5,
+    88.2,
+    125.7
+   ]
+  }
+ },
+ "placements": {
+  "prior": {
+   "page-01-panel-01-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1845,
+     825
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       26,
+       26,
+       912,
+       136
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-01-panel-02-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1875,
+     839
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       908,
+       0,
+       1875,
+       161
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-01-panel-03-v02": {
+    "visible_rect": [
+     0,
+     2,
+     2076,
+     593
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       0,
+       15,
+       1038,
+       218
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-01-v02": {
+    "visible_rect": [
+     0,
+     210,
+     1536,
+     672
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       1023,
+       210,
+       1374,
+       302
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-02-v03": {
+    "visible_rect": [
+     0,
+     0,
+     1436,
+     1096
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       123,
+       410,
+       789,
+       744
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       645,
+       318
+      ],
+      "tail_head": [
+       645,
+       269,
+       98.6
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       0,
+       760,
+       566,
+       1081
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-02-panel-03-v02": {
+    "visible_rect": [
+     4,
+     3,
+     1430,
+     1096
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       30,
+       3,
+       461,
+       217
+      ],
+      "copy_indices": [
+       0
+      ],
+      "corner": 0.4,
+      "tail": [
+       705,
+       355
+      ],
+      "tail_head": [
+       705,
+       306,
+       98.6
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       29,
+       919,
+       1407,
+       1077
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-02-panel-04-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1795,
+     876
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       2,
+       14,
+       631,
+       122
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-05-v01": {
+    "visible_rect": [
+     0,
+     0,
+     1932,
+     459
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       63,
+       23,
+       895,
+       177
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       899,
+       23,
+       1893,
+       176
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-03-panel-01-v07": {
+    "visible_rect": [
+     23,
+     0,
+     2113,
+     736
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       6,
+       -39,
+       537,
+       264
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       649,
+       227
+      ],
+      "tail_head": [
+       649,
+       194,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1685,
+       -16,
+       2116,
+       170
+      ],
+      "copy_indices": [
+       1
+      ],
+      "corner": 0.4,
+      "tail": [
+       1584,
+       267
+      ],
+      "tail_head": [
+       1584,
+       234,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-02-v03": {
+    "visible_rect": [
+     0,
+     281,
+     1536,
+     743
+    ],
+    "reserves": []
+   },
+   "page-03-panel-03-v05": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     637
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       968,
+       0,
+       1756,
+       183
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       924,
+       189,
+       1738,
+       362
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       845,
+       277
+      ],
+      "tail_head": [
+       845,
+       244,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       93,
+       372,
+       942,
+       620
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       845,
+       277
+      ],
+      "tail_head": [
+       845,
+       244,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-04-v05": {
+    "visible_rect": [
+     0,
+     92,
+     1536,
+     554
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       690,
+       92,
+       1171,
+       281
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       90,
+       272,
+       499,
+       518
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       784,
+       364,
+       1316,
+       496
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-05-v04": {
+    "visible_rect": [
+     0,
+     58,
+     1536,
+     520
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       48,
+       58,
+       484,
+       192
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       0,
+       205
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       624,
+       58,
+       974,
+       192
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       594,
+       338
+      ],
+      "tail_head": [
+       594,
+       292,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       90,
+       274,
+       479,
+       419
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       594,
+       338
+      ],
+      "tail_head": [
+       594,
+       292,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-01-v04": {
+    "visible_rect": [
+     0,
+     0,
+     1795,
+     585
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       896,
+       352,
+       1544,
+       487
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       795,
+       470
+      ],
+      "tail_head": [
+       795,
+       431,
+       78.8
+      ]
+     }
+    ]
+   },
+   "page-04-panel-02-v03": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     666
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1271,
+       0,
+       2105,
+       248
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1428,
+       273,
+       2033,
+       446
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       0,
+       403,
+       868,
+       651
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-03-v02": {
+    "visible_rect": [
+     0,
+     33,
+     1536,
+     495
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       924,
+       33,
+       1531,
+       205
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       738,
+       213,
+       1025,
+       363
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       561,
+       330
+      ],
+      "tail_head": [
+       561,
+       284,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-04-v04": {
+    "visible_rect": [
+     0,
+     126,
+     1536,
+     588
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       976,
+       126,
+       1322,
+       254
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       501,
+       357
+      ],
+      "tail_head": [
+       501,
+       311,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       888,
+       270,
+       1505,
+       468
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       753,
+       450
+      ],
+      "tail_head": [
+       753,
+       403,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       340,
+       449,
+       627,
+       588
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       753,
+       450
+      ],
+      "tail_head": [
+       753,
+       403,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-05-panel-01-v08": {
+    "visible_rect": [
+     0,
+     57,
+     1793,
+     593
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       660,
+       105,
+       1153,
+       204
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       1121,
+       228,
+       1765,
+       382
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-05-panel-02-v05": {
+    "visible_rect": [
+     0,
+     104,
+     1795,
+     616
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       324,
+       410,
+       635,
+       556
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       224,
+       485
+      ],
+      "tail_head": [
+       224,
+       446,
+       78.8
+      ]
+     }
+    ]
+   },
+   "page-05-panel-03-v05": {
+    "visible_rect": [
+     0,
+     3,
+     2135,
+     525
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       945,
+       3,
+       1719,
+       176
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       679,
+       283
+      ],
+      "tail_head": [
+       679,
+       250,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       252,
+       339,
+       999,
+       512
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       679,
+       283
+      ],
+      "tail_head": [
+       679,
+       250,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-05-panel-04-v02": {
+    "visible_rect": [
+     0,
+     72,
+     1536,
+     534
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1024,
+       88,
+       1315,
+       220
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       919,
+       258
+      ],
+      "tail_head": [
+       919,
+       212,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       644,
+       325,
+       1226,
+       514
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       919,
+       258
+      ],
+      "tail_head": [
+       919,
+       212,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-05-panel-05-v05": {
+    "visible_rect": [
+     0,
+     0,
+     2137,
+     611
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       525,
+       273,
+       1116,
+       446
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       470,
+       254
+      ],
+      "tail_head": [
+       470,
+       221,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1617,
+       294,
+       2005,
+       467
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       872,
+       200
+      ],
+      "tail_head": [
+       872,
+       167,
+       66.2
+      ]
+     }
+    ]
+   }
+  },
+  "ratio": {
+   "page-01-panel-01-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1905,
+     733
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       20,
+       24,
+       919,
+       138
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-01-panel-02-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1875,
+     745
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       908,
+       0,
+       1875,
+       161
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-01-panel-03-v02": {
+    "visible_rect": [
+     0,
+     0,
+     2076,
+     672
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       0,
+       15,
+       1038,
+       218
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-01-v02": {
+    "visible_rect": [
+     0,
+     90,
+     1536,
+     791
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       1177,
+       101,
+       1528,
+       193
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-02-v03": {
+    "visible_rect": [
+     0,
+     0,
+     1436,
+     941
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       0,
+       574,
+       666,
+       908
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       645,
+       318
+      ],
+      "tail_head": [
+       645,
+       269,
+       98.6
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       680,
+       600,
+       1246,
+       921
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-02-panel-03-v02": {
+    "visible_rect": [
+     4,
+     14,
+     1430,
+     1056
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       23,
+       14,
+       468,
+       266
+      ],
+      "copy_indices": [
+       0
+      ],
+      "corner": 0.4,
+      "tail": [
+       705,
+       355
+      ],
+      "tail_head": [
+       705,
+       306,
+       98.6
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       29,
+       880,
+       1407,
+       1056
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-02-panel-04-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1795,
+     599
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       2,
+       14,
+       631,
+       122
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-05-v01": {
+    "visible_rect": [
+     0,
+     0,
+     1932,
+     557
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       63,
+       23,
+       895,
+       177
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       899,
+       23,
+       1893,
+       176
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-03-panel-01-v07": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     452
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       -35,
+       0,
+       507,
+       309
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       649,
+       227
+      ],
+      "tail_head": [
+       649,
+       194,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1700,
+       -9,
+       2119,
+       169
+      ],
+      "copy_indices": [
+       1
+      ],
+      "corner": 0.4,
+      "tail": [
+       1584,
+       267
+      ],
+      "tail_head": [
+       1584,
+       234,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-02-v03": {
+    "visible_rect": [
+     0,
+     281,
+     1536,
+     743
+    ],
+    "reserves": []
+   },
+   "page-03-panel-03-v05": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     649
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       968,
+       0,
+       1756,
+       183
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       924,
+       189,
+       1738,
+       362
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       845,
+       277
+      ],
+      "tail_head": [
+       845,
+       244,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       93,
+       372,
+       942,
+       620
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       845,
+       277
+      ],
+      "tail_head": [
+       845,
+       244,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-04-v05": {
+    "visible_rect": [
+     0,
+     0,
+     1536,
+     661
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       814,
+       0,
+       1428,
+       179
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       814,
+       374,
+       1440,
+       553
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       255,
+       495,
+       759,
+       620
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-05-v04": {
+    "visible_rect": [
+     0,
+     56,
+     1536,
+     523
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       42,
+       70,
+       418,
+       186
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       0,
+       205
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       518,
+       406,
+       819,
+       521
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       594,
+       338
+      ],
+      "tail_head": [
+       594,
+       292,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1050,
+       386,
+       1385,
+       511
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       594,
+       338
+      ],
+      "tail_head": [
+       594,
+       292,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-01-v04": {
+    "visible_rect": [
+     0,
+     75,
+     1795,
+     510
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       899,
+       249,
+       1607,
+       486
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       795,
+       470
+      ],
+      "tail_head": [
+       795,
+       431,
+       78.8
+      ]
+     }
+    ]
+   },
+   "page-04-panel-02-v03": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     691
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       682,
+       0,
+       1516,
+       248
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       819,
+       252,
+       1424,
+       425
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       0,
+       434,
+       868,
+       682
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-03-v02": {
+    "visible_rect": [
+     0,
+     33,
+     1536,
+     495
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       960,
+       33,
+       1533,
+       195
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       731,
+       203,
+       1001,
+       344
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       561,
+       330
+      ],
+      "tail_head": [
+       561,
+       284,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-04-v04": {
+    "visible_rect": [
+     0,
+     90,
+     1536,
+     624
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       784,
+       90,
+       1096,
+       205
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       501,
+       357
+      ],
+      "tail_head": [
+       501,
+       311,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       880,
+       222,
+       1522,
+       401
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       753,
+       450
+      ],
+      "tail_head": [
+       753,
+       403,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1035,
+       405,
+       1294,
+       530
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       753,
+       450
+      ],
+      "tail_head": [
+       753,
+       403,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-05-panel-01-v08": {
+    "visible_rect": [
+     0,
+     76,
+     1793,
+     574
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       660,
+       100,
+       1153,
+       199
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       1121,
+       228,
+       1765,
+       382
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-05-panel-02-v05": {
+    "visible_rect": [
+     0,
+     111,
+     1795,
+     608
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       324,
+       417,
+       635,
+       563
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       224,
+       485
+      ],
+      "tail_head": [
+       224,
+       446,
+       78.8
+      ]
+     }
+    ]
+   },
+   "page-05-panel-03-v05": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     557
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       630,
+       0,
+       1404,
+       173
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       679,
+       283
+      ],
+      "tail_head": [
+       679,
+       250,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       252,
+       336,
+       999,
+       509
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       679,
+       283
+      ],
+      "tail_head": [
+       679,
+       250,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-05-panel-04-v02": {
+    "visible_rect": [
+     0,
+     13,
+     1536,
+     594
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       675,
+       313,
+       950,
+       438
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       919,
+       258
+      ],
+      "tail_head": [
+       919,
+       212,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       968,
+       387,
+       1519,
+       566
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       919,
+       258
+      ],
+      "tail_head": [
+       919,
+       212,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-06-panel-03-v03": {
+    "visible_rect": [
+     0,
+     0,
+     1774,
+     887
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       0,
+       8,
+       709,
+       162
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       995,
+       227
+      ],
+      "tail_head": [
+       995,
+       187,
+       79.8
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1171,
+       8,
+       1774,
+       152
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       995,
+       227
+      ],
+      "tail_head": [
+       995,
+       187,
+       79.8
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       74,
+       698,
+       1341,
+       851
+      ],
+      "copy_indices": [
+       2
+      ]
+     }
+    ]
+   }
+  },
+  "probe": {
+   "page-01-panel-01-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1905,
+     724
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       20,
+       24,
+       919,
+       138
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-01-panel-02-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1875,
+     736
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       908,
+       0,
+       1875,
+       161
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-01-panel-03-v02": {
+    "visible_rect": [
+     0,
+     0,
+     2076,
+     664
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       0,
+       15,
+       1038,
+       218
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-01-v02": {
+    "visible_rect": [
+     0,
+     90,
+     1536,
+     791
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       1177,
+       101,
+       1528,
+       193
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-02-v03": {
+    "visible_rect": [
+     0,
+     0,
+     1436,
+     941
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       0,
+       574,
+       666,
+       908
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       645,
+       318
+      ],
+      "tail_head": [
+       645,
+       269,
+       98.6
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       680,
+       600,
+       1246,
+       921
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-02-panel-03-v02": {
+    "visible_rect": [
+     4,
+     14,
+     1430,
+     1056
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       23,
+       14,
+       468,
+       266
+      ],
+      "copy_indices": [
+       0
+      ],
+      "corner": 0.4,
+      "tail": [
+       705,
+       355
+      ],
+      "tail_head": [
+       705,
+       306,
+       98.6
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       29,
+       880,
+       1407,
+       1056
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-02-panel-04-v02": {
+    "visible_rect": [
+     0,
+     0,
+     1795,
+     599
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       2,
+       14,
+       631,
+       122
+      ],
+      "copy_indices": [
+       0
+      ]
+     }
+    ]
+   },
+   "page-02-panel-05-v01": {
+    "visible_rect": [
+     0,
+     0,
+     1932,
+     557
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       63,
+       23,
+       895,
+       177
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       899,
+       23,
+       1893,
+       176
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-03-panel-01-v07": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     510
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       -35,
+       0,
+       507,
+       309
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       649,
+       227
+      ],
+      "tail_head": [
+       649,
+       194,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1700,
+       -9,
+       2119,
+       169
+      ],
+      "copy_indices": [
+       1
+      ],
+      "corner": 0.4,
+      "tail": [
+       1584,
+       267
+      ],
+      "tail_head": [
+       1584,
+       234,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-02-v03": {
+    "visible_rect": [
+     0,
+     281,
+     1536,
+     743
+    ],
+    "reserves": []
+   },
+   "page-03-panel-03-v05": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     621
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       968,
+       0,
+       1756,
+       183
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       924,
+       189,
+       1738,
+       362
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       845,
+       277
+      ],
+      "tail_head": [
+       845,
+       244,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       93,
+       372,
+       942,
+       620
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       845,
+       277
+      ],
+      "tail_head": [
+       845,
+       244,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-04-v05": {
+    "visible_rect": [
+     0,
+     0,
+     1536,
+     658
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       814,
+       0,
+       1428,
+       179
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       814,
+       374,
+       1440,
+       553
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       255,
+       495,
+       759,
+       620
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       601,
+       385
+      ],
+      "tail_head": [
+       601,
+       339,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-03-panel-05-v04": {
+    "visible_rect": [
+     0,
+     58,
+     1536,
+     520
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       42,
+       58,
+       431,
+       177
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       0,
+       205
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       504,
+       394,
+       815,
+       513
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       594,
+       338
+      ],
+      "tail_head": [
+       594,
+       292,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1136,
+       378,
+       1483,
+       507
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       594,
+       338
+      ],
+      "tail_head": [
+       594,
+       292,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-01-v04": {
+    "visible_rect": [
+     0,
+     75,
+     1795,
+     510
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       900,
+       363,
+       1606,
+       510
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       795,
+       470
+      ],
+      "tail_head": [
+       795,
+       431,
+       78.8
+      ]
+     }
+    ]
+   },
+   "page-04-panel-02-v03": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     683
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       682,
+       0,
+       1516,
+       248
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       819,
+       252,
+       1424,
+       425
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       0,
+       434,
+       868,
+       682
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       589,
+       200
+      ],
+      "tail_head": [
+       589,
+       167,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-03-v02": {
+    "visible_rect": [
+     0,
+     33,
+     1536,
+     495
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       940,
+       33,
+       1520,
+       197
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       731,
+       203,
+       1005,
+       346
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       561,
+       330
+      ],
+      "tail_head": [
+       561,
+       284,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-04-panel-04-v04": {
+    "visible_rect": [
+     0,
+     94,
+     1536,
+     621
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       784,
+       94,
+       1096,
+       209
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       501,
+       357
+      ],
+      "tail_head": [
+       501,
+       311,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       880,
+       226,
+       1522,
+       405
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       753,
+       450
+      ],
+      "tail_head": [
+       753,
+       403,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1050,
+       409,
+       1309,
+       534
+      ],
+      "copy_indices": [
+       2
+      ],
+      "tail": [
+       753,
+       450
+      ],
+      "tail_head": [
+       753,
+       403,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-05-panel-01-v08": {
+    "visible_rect": [
+     0,
+     76,
+     1793,
+     574
+    ],
+    "reserves": [
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       660,
+       100,
+       1153,
+       199
+      ],
+      "copy_indices": [
+       0
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       1121,
+       228,
+       1765,
+       382
+      ],
+      "copy_indices": [
+       1
+      ]
+     }
+    ]
+   },
+   "page-05-panel-02-v05": {
+    "visible_rect": [
+     0,
+     111,
+     1795,
+     608
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       324,
+       417,
+       635,
+       563
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       224,
+       485
+      ],
+      "tail_head": [
+       224,
+       446,
+       78.8
+      ]
+     }
+    ]
+   },
+   "page-05-panel-03-v05": {
+    "visible_rect": [
+     0,
+     0,
+     2135,
+     557
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       630,
+       0,
+       1404,
+       173
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       679,
+       283
+      ],
+      "tail_head": [
+       679,
+       250,
+       66.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       252,
+       336,
+       999,
+       509
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       679,
+       283
+      ],
+      "tail_head": [
+       679,
+       250,
+       66.2
+      ]
+     }
+    ]
+   },
+   "page-05-panel-04-v02": {
+    "visible_rect": [
+     0,
+     13,
+     1536,
+     594
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       675,
+       313,
+       950,
+       438
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       919,
+       258
+      ],
+      "tail_head": [
+       919,
+       212,
+       92.2
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       968,
+       387,
+       1519,
+       566
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       919,
+       258
+      ],
+      "tail_head": [
+       919,
+       212,
+       92.2
+      ]
+     }
+    ]
+   },
+   "page-06-panel-03-v03": {
+    "visible_rect": [
+     0,
+     0,
+     1774,
+     859
+    ],
+    "reserves": [
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       0,
+       8,
+       709,
+       162
+      ],
+      "copy_indices": [
+       0
+      ],
+      "tail": [
+       995,
+       227
+      ],
+      "tail_head": [
+       995,
+       187,
+       79.8
+      ]
+     },
+     {
+      "kind": "speech",
+      "draw": "speech",
+      "rect": [
+       1171,
+       8,
+       1774,
+       152
+      ],
+      "copy_indices": [
+       1
+      ],
+      "tail": [
+       995,
+       227
+      ],
+      "tail_head": [
+       995,
+       187,
+       79.8
+      ]
+     },
+     {
+      "kind": "caption",
+      "draw": "caption",
+      "rect": [
+       74,
+       698,
+       1341,
+       851
+      ],
+      "copy_indices": [
+       2
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "notes": [
+  "2026-10-08 head-aware tails: prior/page-04-panel-04-v04 chunk 0 moves from x 768 to 976 and chunk 2 from y 415 to 449; prior/page-05-panel-05-v05 chunks 0 and 1 trade sides (chunk 0 from x 819 to 525, chunk 1 from x 357 to 1617); ratio/page-03-panel-05-v04 chunks 0 and 1 move (chunk 0 from [826, 56] to [518, 406], chunk 1 from [30, 191] to [1050, 386]); ratio/page-04-panel-02-v03 chunk 0 moves 21 px left; ratio/page-04-panel-04-v04 chunk 0 moves 28 px right; probe/page-03-panel-05-v04, probe/page-04-panel-02-v03 and probe/page-04-panel-04-v04 likewise. The earlier placements are reproduced exactly by the planner with the short tail forced (test_run_chapter.RealTallCoverTests)."
+ ]
+}

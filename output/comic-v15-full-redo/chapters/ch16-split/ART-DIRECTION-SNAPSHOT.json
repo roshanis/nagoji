@@ -1,0 +1,651 @@
+{
+  "prompt_profile": "v2",
+  "chapter": 16,
+  "status": "draft",
+  "settings": {
+    "estate_stable": {
+      "label": "Thatched stable at the Travancore estate",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "A thatched estate stable in Travancore: timber posts, palm-leaf thatch on a low roof, slatted plank walls laying stripes of light across clean straw, a wooden trough and a tethering rail. The two grooms keep back at the open doorway while the grey horse lies on his side in the straw.",
+      "absent": "No blood, wounds or healer's tools, no glass lanterns, brick stalls or European fittings, and no second horse lying down.",
+      "time": "dawn light through the slats",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "hill_grave": {
+      "label": "Tamarind hill behind the estate",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "The bare hill behind the Travancore estate: hard red laterite earth, scrub grass and one spreading tamarind tree, with the estate's tiled roofs, coconut palms and a flat training ground far below. The grave is an unmarked long mound of turned red earth beside the tamarind, dug with a broad-bladed Kerala mammatty hoe.",
+      "absent": "No headstone, cross or carved marker, no spade or shovel, and no foreign fort, ships or European buildings in the view below.",
+      "time": "late afternoon",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "estate_training_ground": {
+      "label": "Estate training ground and kalari",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The estate's flat training ground of beaten red earth below the hill: a weathered Nair veteran drilling bare-chested recruits in white mundus with matchlocks and powder flasks. Beyond them, a sunken kalari floor of packed earth with a small corner shrine, where broad-shouldered youths trade strikes with long sticks.",
+      "absent": "No blue or red coats, no European officers, no principal characters and no foreign fort.",
+      "time": "bright daylight"
+    },
+    "estate_courtyard": {
+      "label": "Estate courtyard under the jackfruit tree",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "The inner courtyard of Padmini's Travancore estate house: a great jackfruit tree throwing deep shade over stone paving, a low laterite wall along one side, and tiled eaves on carved timber posts over an open verandah. Nagoji's woven mat lies in the tree's shade; anyone seated sits on the mat, the low wall or the verandah edge.",
+      "absent": "No chairs, benches, cots, European furniture or glass lamps, and no foreign fort or buildings beyond the walls.",
+      "time": "warm afternoon shade in a softened, warm flashback palette",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "night_room": {
+      "label": "Nagoji's small room in the estate house at night",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "A small limewashed room in the Travancore estate house: laterite walls, a low timber ceiling, a woven mat on the floor, a timber door and one small window with wooden bars open on palm fronds against the night sky. Faces read only by the faint glow the window gives, with deep shadow everywhere else.",
+      "absent": "No lit lamp, candle or glass lantern, and no bed, cot, chair or European furniture.",
+      "time": "midnight, almost dark, faint night glow through the barred window, warm softened flashback palette",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "colachel_memory": {
+      "label": "Colachel charge memory",
+      "scopes": [
+        "coast",
+        "dutch"
+      ],
+      "anchor": "A harsh fragment of the battle on the beach at Colachel: Travancore horsemen seen from behind, driving through gun smoke into a line of blue-coated Dutch East India Company soldiers on pale sand, at the moment of collision, the faces of the men in the line showing.",
+      "absent": "No blood or gore, no fallen bodies in close view, no red coats, no ships and no readable face among the riders.",
+      "time": "smoky grey daylight, hard and desaturated"
+    },
+    "lagoon_wall_memory": {
+      "label": "Lagoon battle seen from the walls",
+      "scopes": [
+        "kerala",
+        "coast"
+      ],
+      "anchor": "A fortified red laterite wall above the edge of a Kerala lagoon, a younger Revathi standing at the parapet looking out. Far off and small across the water's edge, a horse goes down among struggling men.",
+      "absent": "No close view of the fight, no blood, bodies or what follows, no identifiable uniforms, ships or European buildings, and no Nagoji.",
+      "time": "pale, washed daylight"
+    },
+    "granary_storeroom": {
+      "label": "Estate granary storeroom in darkness",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "The dark storeroom of the estate granary: rows of great clay rice vessels standing taller than a man's waist, timber beams and stacked sacks. In one corner a low wooden door that looks like nothing more than a repair panel.",
+      "absent": "No lit lamp, glass lantern, furniture or foreign objects.",
+      "time": "near-total darkness, warm flashback palette",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "hidden_cellar": {
+      "label": "Hidden earth cellar below the granary",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "A small earth cellar beneath the estate granary: packed-earth walls and floor, a low ceiling of timber beams, a single woven mat, one brass oil lamp with an open wick and a low wooden door in the corner. Both figures stay fully dressed in every view.",
+      "absent": "No bed, cot, cushions or furniture, no glass lamp or candles, and no nudity.",
+      "time": "the small warm light of a single brass lamp in deep darkness, warm flashback palette",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "tiruvattar_steps": {
+      "label": "River steps at the Tiruvattar temple",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "The river steps below the Adi Kesava Perumal temple at Tiruvattar: a clear river running over black stone, worn granite steps green with wet moss, and above them the temple's long granite outer wall under sloping tiled and copper roofs, with rows of brass ghee lamps. The royal party stands barefoot on the steps; boots stay with the horses at the top of the bank.",
+      "absent": "No boots or carried talwar on the steps, no crown, no towering painted gateway tower, no chairs, and no foreign fort or buildings.",
+      "time": "morning light on the water, a thin warm wash of an earlier season",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "tiruvattar_shrine": {
+      "label": "Inner shrine of the Tiruvattar temple",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "Inside the Tiruvattar temple: a long dim granite corridor of carved pillars and lamp-bearing figures leading to the inner shrine, rows of brass ghee lamps with open wicks and a polished stone floor. The sanctum stays a dark doorway glowing with lamplight, and the deity inside is never drawn.",
+      "absent": "No crown, crest or jewels on Varma, no boots, no chairs, no glass lamps and no visible image of the deity.",
+      "time": "dim interior, warm ghee lamplight"
+    },
+    "tiruvattar_road": {
+      "label": "Green country on the ride back from Tiruvattar",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "Green Travancore country on the way back from Tiruvattar: a red-earth track between wet paddy, coconut palms and wooded hills, with a small mounted royal column in plain dress. Varma rides in his plain white cloth with the long sword laid across his knees.",
+      "absent": "No crown, crest or court jewels on Varma, no war banners, and no foreign fort, ships or European buildings.",
+      "time": "bright sun after rain, a thin warm wash of an earlier season",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "udayagiri_pay_yard": {
+      "label": "Lower yard at Udayagiri, the deserters' pay table",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The lower yard inside Udayagiri's thick granite and laterite walls below its rocky hill: a low table of palm-leaf ledgers and coin, and a queue of former Company soldiers, sunburnt Europeans in torn shirts and breeches, waiting to sign on and be paid. Ramayyan counts coin at the table while De Lannoy stands apart beside it as an officer, never in the queue.",
+      "absent": "No blue coats, tricornes, wigs or muskets on the deserters, no red coats, no chairs, and Nagoji is not in this view.",
+      "time": "daylight, a thin warm wash of an earlier season"
+    },
+    "padmanabhapuram_works": {
+      "label": "Kalkulam rebuilt as Padmanabhapuram",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The fort at Kalkulam being rebuilt as Padmanabhapuram: low, thick granite and laterite walls with angled bastions thrust out like the points of a jagged star, sloped parapets, firing steps and open ground at the base with no safe shadow. Bamboo scaffolding, masons hauling stone and stretches of the old square wall still standing beside the new work.",
+      "absent": "No tall square towers in the new work, no blue coats, no European buildings or ships, and no iron machinery.",
+      "time": "hot daylight, a thin warm wash of an earlier season",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "deccan_fort_memory": {
+      "label": "Deccan hill fort memory",
+      "scopes": [
+        "deccan"
+      ],
+      "anchor": "A remembered Deccan hill fort: tall, square-cornered walls and towers of black basalt rising from a crag above dry plains.",
+      "absent": "No coast, palms, star-shaped bastions, figures or present-day Travancore works.",
+      "time": "dry ochre memory light under a hard sun"
+    },
+    "drill_ground": {
+      "label": "Travancore drill ground near the coast",
+      "scopes": [
+        "kerala",
+        "coast",
+        "travancore_camp"
+      ],
+      "anchor": "A long flat Travancore drill ground of beaten earth and pale sand below laterite and granite walls, palms along its edge, a low wall and a small timber dais at one side, and a thin band of sea on the horizon. Firing lines are seen side-on, and anyone watching stands behind or beside the line, never in front of the muzzles.",
+      "absent": "No ship close inshore, any hull only a tiny shape at anchor on the horizon; no red coats, blue coats only where the panel names them and never on De Lannoy, and no chairs.",
+      "time": "daylight under a thin warm wash that fades toward the full palette",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "northern_bastion": {
+      "label": "New bastion on the northern marches",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "A new angled bastion of fresh-cut laterite and granite on Travancore's northern marches, set above a narrow pass between forested hills, with earth ramparts and a long view down the pass.",
+      "absent": "No coast, ships, foreign buildings, throne or chairs.",
+      "time": "clear daylight, a thin warm wash of an earlier season",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "velinadu_muster": {
+      "label": "Muster field at Velinadu",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "An open muster field at Velinadu: flat red earth beside green paddy and palms, with the low laterite and earth ring and tiled roofs of the Velinadu Kovilakam in the distance. A mixed unit of Nair and Madurai infantry fires in turn, bare-chested in their own white mundus, under the red banner with the silver conch.",
+      "absent": "No blue coats or hats at this muster, no towering walls or bastions, no foreign buildings and no chairs.",
+      "time": "daylight with drifting gun smoke, the warm wash nearly gone",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "nashik_memory": {
+      "label": "Village near Nashik, a memory",
+      "scopes": [
+        "deccan"
+      ],
+      "anchor": "A remembered village near Nashik: black-soil fields below flat-topped basalt hills, a mud-walled house with a tiled roof, a man walking a field and an old white-haired couple in the doorway.",
+      "absent": "No coast, palms or Travancore buildings, no Nagoji and no rust-red turban or red sash.",
+      "time": "dry, desaturated Deccan memory light"
+    },
+    "inlet_bastion": {
+      "label": "Coastal bastion above the inlet",
+      "scopes": [
+        "kerala",
+        "coast",
+        "travancore_camp"
+      ],
+      "anchor": "A stone bastion of a Travancore coastal fort above an inlet: a waist-high laterite parapet with a broad top and a cannon embrasure, and far below, dark water where small Marakkar sailing boats move like dark insects, with palms along the shore beyond.",
+      "absent": "No large ships, no Company flag, no other figures on the parapet beyond the two men, and no European buildings.",
+      "time": "dusk, the sky the colour of old pewter, in the full palette",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "ceylon_garrison_memory": {
+      "label": "Company garrison yard in Ceylon, a memory",
+      "scopes": [
+        "dutch"
+      ],
+      "anchor": "A Dutch East India Company garrison yard in Ceylon: a whitewashed Dutch colonial fort wall with red-tiled roofs and palms beyond, thin fever-worn soldiers in faded, patched blue Company coats, some bare-headed, chewing biscuit. In a lit doorway, officers in better blue coats and powdered wigs sit at their wine.",
+      "absent": "No red coats, no Travancore figures, no De Lannoy in the yard and no blood.",
+      "time": "fever-grey daylight, cold and washed"
+    },
+    "schoolroom_memory": {
+      "label": "Northern schoolroom in Flanders, a memory",
+      "scopes": [
+        "dutch"
+      ],
+      "anchor": "A plain schoolroom in Flanders: whitewashed walls, a small window of leaded panes, a wooden desk with ruler and compasses, and a pale-haired boy of about ten drawing a star-shaped fortress plan in lines and angles.",
+      "absent": "No people in the drawing, no writing, letters or numerals on the paper or walls, no grown De Lannoy and no tropical light.",
+      "time": "cold grey northern daylight"
+    },
+    "church_memory": {
+      "label": "Flemish church side altar, a memory",
+      "scopes": [
+        "dutch"
+      ],
+      "anchor": "A dim Flemish Catholic church: a stone side altar and an iron rack of small candle flames, an old woman in a dark shawl lighting one more.",
+      "absent": "No writing on walls or plaques, no De Lannoy and no tropical light.",
+      "time": "dim candlelight in a cold stone interior"
+    },
+    "storm_memory": {
+      "label": "Storm at sea, the lost hand",
+      "scopes": [
+        "sea"
+      ],
+      "anchor": "Black storm water at night beside a ship's side: a straight, taut, wet and fraying line running out of frame, and a young man's hand slipping from it into the water.",
+      "absent": "No loop, knot or noose in the line, no face, no full figure and no blood.",
+      "time": "cold storm dark, lightning grey"
+    },
+    "udayagiri_walls": {
+      "label": "Walls of Udayagiri",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The walls of Udayagiri around its rocky granite hill: massive granite and laterite curtain walls with new angled bastions, a stone wall walk behind a waist-high parapet, an outer ditch with scrub and rock beyond, and a lower battery above water fringed with trees. Any Nair guard shown has a forward-tied topknot, a white mundu, a long Nair sword and a small round shield.",
+      "absent": "No ships, no blue or red coats, no European buildings and no glass lanterns.",
+      "time": "dusk",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "udayagiri_ditch": {
+      "label": "Ditch and scrub below the Udayagiri walls",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The outer ditch and far bank below the walls of Udayagiri: rough scrub, rock and trampled grass, with the dark granite wall rising behind and sentries running with muskets and torches.",
+      "absent": "No visible attacker, no bodies or blood, no metal cartridge casings or brass, and no glass lanterns.",
+      "time": "nightfall, running torchlight"
+    },
+    "udayagiri_guardroom": {
+      "label": "Guardroom at Udayagiri",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "A guardroom inside the Udayagiri walls: rough granite walls, a low timber door, a floor mat and a low stone ledge for palm-leaf records, lit by a clay oil lamp with an open wick.",
+      "absent": "No chairs, writing desk, glass lanterns or European furniture.",
+      "time": "night, clay lamplight",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "royal_hall": {
+      "label": "Travancore palace hall",
+      "scopes": [
+        "kerala",
+        "court"
+      ],
+      "anchor": "A Travancore palace hall: carved timber pillars on a laterite base, a sloping tiled roof, a polished dark floor and one side open to a courtyard. Varma stands bare-headed before Nagoji and De Lannoy with two Nair soldiers of his household.",
+      "absent": "No throne, crown, chairs, glass lamps or foreign interior.",
+      "time": "morning daylight",
+      "allow_terms": [
+        "portuguese"
+      ]
+    },
+    "velinadu_hall_memory": {
+      "label": "Revathi's hall at Velinadu, a memory",
+      "scopes": [
+        "kerala",
+        "court"
+      ],
+      "anchor": "Revathi's hall in the Velinadu Kovilakam: timber pillars, a tiled roof and a stone floor laid with mats, where a room of seated listeners faces her as she speaks openly.",
+      "absent": "No towering walls or bastions, no chairs, no foreign buildings and no Nagoji.",
+      "time": "daylight, softened as a memory"
+    }
+  },
+  "pages": {
+    "1": "estate_stable",
+    "2": "hill_grave",
+    "3": "estate_courtyard",
+    "4": "estate_courtyard",
+    "5": "night_room",
+    "6": "night_room",
+    "7": "night_room",
+    "8": "hidden_cellar",
+    "9": "hidden_cellar",
+    "10": "tiruvattar_steps",
+    "11": "padmanabhapuram_works",
+    "12": "drill_ground",
+    "13": "drill_ground",
+    "14": "drill_ground",
+    "15": "drill_ground",
+    "16": "drill_ground",
+    "17": "inlet_bastion",
+    "18": "inlet_bastion",
+    "19": "inlet_bastion",
+    "20": "udayagiri_walls",
+    "21": "udayagiri_ditch",
+    "22": "udayagiri_walls",
+    "23": "udayagiri_walls"
+  },
+  "panels": {
+    "page-01-panel-02": {
+      "sheets": false
+    },
+    "page-01-panel-03": {
+      "sheets": false
+    },
+    "page-01-panel-04": {
+      "setting": "hill_grave"
+    },
+    "page-01-panel-05": {
+      "setting": "hill_grave",
+      "time": "sunset, a second man's long shadow across the mound"
+    },
+    "page-02-panel-01": {
+      "time": "dusk, the sky still red"
+    },
+    "page-02-panel-02": {
+      "time": "dusk, red sky behind his profile"
+    },
+    "page-02-panel-03": {
+      "time": "dusk, lamps flickering on the training ground below"
+    },
+    "page-02-panel-04": {
+      "setting": "estate_training_ground"
+    },
+    "page-02-panel-05": {
+      "time": "dusk"
+    },
+    "page-04-panel-04": {
+      "time": "midnight, no moon, every lamp out, only starlight on the paving",
+      "distant": true
+    },
+    "page-05-panel-02": {
+      "setting": "colachel_memory",
+      "bleed": "A small, harsh memory inset in hard, desaturated smoke grey, set apart from the dark, warm room; it holds only the charge, and no figure from the room enters it."
+    },
+    "page-06-panel-03": {
+      "setting": "lagoon_wall_memory",
+      "bleed": "A memory panel washed out and colder than the warm dark room around it; only the younger Revathi on the wall and the distant fall, nothing of what follows."
+    },
+    "page-06-panel-05": {
+      "sheets": false
+    },
+    "page-07-panel-05": {
+      "lettering_space": "Leave dark wall above Revathi's lifted face for the two speeches, and a separate low-detail band along the bottom edge for the lower caption."
+    },
+    "page-08-panel-01": {
+      "setting": "granary_storeroom"
+    },
+    "page-08-panel-02": {
+      "setting": "granary_storeroom",
+      "sheets": false
+    },
+    "page-08-panel-03": {
+      "time": "darkness just as the brass lamp catches, the first real light of the night"
+    },
+    "page-08-panel-06": {
+      "frame": "strip"
+    },
+    "page-09-panel-05": {
+      "time": "dawn in thin blades of light through the cracks of the low door, the lamp burnt out with one thread of smoke"
+    },
+    "page-09-panel-06": {
+      "frame": "strip",
+      "time": "thin dawn light beside the cold brass lamp",
+      "sheets": false
+    },
+    "page-10-panel-02": {
+      "setting": "tiruvattar_shrine"
+    },
+    "page-10-panel-03": {
+      "setting": "tiruvattar_shrine"
+    },
+    "page-10-panel-04": {
+      "setting": "tiruvattar_road"
+    },
+    "page-10-panel-05": {
+      "setting": "tiruvattar_road",
+      "frame": "strip",
+      "distant": true
+    },
+    "page-11-panel-01": {
+      "setting": "udayagiri_pay_yard"
+    },
+    "page-11-panel-02": {
+      "distant": true
+    },
+    "page-11-panel-03": {
+      "setting": "deccan_fort_memory",
+      "distant": true,
+      "bleed": "A small inset in dry Deccan colours, set apart from the green and laterite of the present works; only the remembered fort, with no figure."
+    },
+    "page-12-panel-01": {
+      "time": "morning, a thin warm wash of an earlier season"
+    },
+    "page-12-panel-02": {
+      "time": "afternoon, a thin warm wash of an earlier season"
+    },
+    "page-13-panel-01": {
+      "setting": "northern_bastion"
+    },
+    "page-13-panel-02": {
+      "setting": "northern_bastion"
+    },
+    "page-14-panel-02": {
+      "time": "parade morning with drums, the warm wash nearly gone"
+    },
+    "page-15-panel-02": {
+      "setting": "velinadu_muster",
+      "lettering_space": "Leave open sky above the firing line and the banner for the caption and the three speeches, clear of Revathi's and Nagoji's faces."
+    },
+    "page-15-panel-03": {
+      "setting": "velinadu_muster"
+    },
+    "page-16-panel-03": {
+      "setting": "nashik_memory",
+      "bleed": "A small memory inset in dry Deccan colours, set apart from the present Travancore drill ground; Nagoji does not appear in it."
+    },
+    "page-16-panel-04": {
+      "time": "night, musketeers drilling by open-wick clay lamps below the low wall"
+    },
+    "page-16-panel-05": {
+      "time": "night, open-wick clay lamplight from below"
+    },
+    "page-16-panel-06": {
+      "frame": "strip",
+      "time": "night, open-wick clay lamplight from below"
+    },
+    "page-17-panel-01": {
+      "distant": true,
+      "lettering_space": "Leave the wide pewter sky above the two silhouettes for the three lettering areas, clear of the boats below."
+    },
+    "page-17-panel-03": {
+      "lettering_space": "Leave the dusk sky above the two-shot, on De Lannoy's side, for his three speeches."
+    },
+    "page-18-panel-02": {
+      "setting": "ceylon_garrison_memory",
+      "bleed": "A memory panel in a cold, washed fever grey, set apart from the pewter dusk on the bastion; only the garrison, and no figure from the parapet."
+    },
+    "page-19-panel-03": {
+      "setting": "schoolroom_memory",
+      "bleed": "A memory panel in cold grey northern light, set apart from the tropical dusk; the boy is the only figure, and the grown De Lannoy does not appear."
+    },
+    "page-19-panel-04": {
+      "time": "the last light of dusk"
+    },
+    "page-19-panel-05": {
+      "setting": "church_memory",
+      "bleed": "A memory panel in dim candlelit browns and greys, set apart from the dusk bastion; only the old woman and the candles."
+    },
+    "page-20-panel-01": {
+      "setting": "inlet_bastion",
+      "time": "the last light of dusk",
+      "lettering_space": "Keep the lower corner clear for the separate storm inset, and leave the sky above the two men for the four lettering areas."
+    },
+    "page-20-panel-02": {
+      "setting": "storm_memory",
+      "sheets": false,
+      "bleed": "A memory inset in cold storm colours, set apart from the warm last light on the parapet; only the hand, the taut line and black water."
+    },
+    "page-20-panel-03": {
+      "distant": true,
+      "time": "dusk, weeks later, one tiny muzzle flash in the scrub"
+    },
+    "page-21-panel-03": {
+      "setting": "udayagiri_guardroom",
+      "lettering_space": "Leave the shadowed upper wall above the lamp for the three speeches, clear of Ramayyan's palm leaves and the stone in De Lannoy's hands."
+    },
+    "page-21-panel-04": {
+      "setting": "royal_hall"
+    },
+    "page-21-panel-05": {
+      "setting": "royal_hall"
+    },
+    "page-22-panel-03": {
+      "setting": "velinadu_hall_memory",
+      "bleed": "A memory inset in softened, slightly warm colour, set apart from the dusk wall walk; only Revathi and her listeners."
+    },
+    "page-23-panel-01": {
+      "time": "the end of dusk, cannon smoke rolling over the water",
+      "lettering_space": "Leave the smoke-hazed sky above the bastion for the three speeches, clear of the faces."
+    },
+    "page-23-panel-02": {
+      "time": "the last light",
+      "distant": true,
+      "lettering_space": "Leave the wide last-light sky above the small figures for two captions and a separate, weighted final caption."
+    },
+    "page-23-panel-03": {
+      "frame": "strip",
+      "time": "the last light",
+      "lettering_space": "Keep the feet, dhotis and muskets low in the strip and leave the upper band clear for the caption and the separate, weighted caption."
+    }
+  },
+  "character_notes": {
+    "nagoji": "Thick curled moustache; clean-shaven chin and jaw, smooth skin, no beard or facial scar; a tiny flush gold ear stud on the lobe with nothing hanging from it, and the brand only on the inner LEFT forearm. Grey at the temples and dress follow the panel description over the sheet and LOOKS line: on pages 3 to 9 he is convalescent with no turban, tunic, sash or boots and no grey, no grey on pages 10 to 13 or on page 14 until panel 3, faint grey from page 14 panel 4 to page 19, and clear first grey on pages 1, 2, 20 and 21.",
+    "dhanaji": "Stockier and a little shorter than Nagoji, short black beard, white Maratha pagdi, indigo quilted tunic, no sash, talwar at his hip; never a rust-red turban or a red sash.",
+    "revathi": "Deep indigo sari with gold, braid looped with jasmine, flat-coin necklace, gold armlets and a thin sandalwood line at the hairline as her only forehead mark; no tali, no sindoor and no red dot, for she is a widow in this chapter. On pages 8 and 9 she stays fully dressed in the sari with the pallu over her shoulder.",
+    "padmini": "Thick black hair coiled at the nape with only a few fine grey threads, far less grey than her sheet shows; cotton sari hitched for walking in the old Kerala drape with no stitched blouse, simple gold and a long walking stick.",
+    "varma": "Face, moustache and build from his sheet with black hair, never the grey of the sheet's older figure, and never a crown. On page 10 a plain white cloth with a narrow linen dressing on the left shoulder, bare-headed, no crest or jewels; at the northern bastion on page 13 and on the parade dais the cream-and-gold turban with the jewelled peacock-feather crest; at the drill ground in panel 13.3 and in the hall on page 19 bare-headed with his hair in a side knot above the LEFT ear, bare-chested in a cream mundu with a gold border.",
+    "ramayyan": "Thin sharp fine features and receding hair, plain unbordered white cloth, palm-leaf bundles and stylus, no forehead marks or sacred thread; never the temple priest's face.",
+    "eustachius": "Tall, pale-haired, long-nosed and bare-headed, a man in his forties. In every panel a plain white cotton tunic-coat over a white ankle-length mundu with sandals, never a blue coat, tricorne or wig.",
+    "temple_priest": "The V13 temple priest face from his sheet, used here only for the Chief Priest of Tiruvattar: barefoot and bare-chested in a white mundu, the long sword carried across both open palms.",
+    "keshavrao": "Seen only as a young man's thin, wet hand slipping from the line, a ragged grey-brown sleeve at most; no face, no full figure and no ear stud.",
+    "bhalerao": "A small far figure walking the field in the Nashik memory: slighter and younger than Nagoji, a small white Maratha pagdi and a cotton angarkha; never drawn from the Nagoji sheet.",
+    "nagoji_father": "White-haired, bent and thick-knuckled, in a coarse dhoti, a white pheta and a black wool kambal, standing with Nagoji's mother in the doorway.",
+    "nagoji_mother": "White-haired, in a nine-yard sari worn kashta-style, green glass bangles and turmeric-stained hands.",
+    "megha": "A plain grey horse with a black mane and tail, steady rather than fine; never Kayal's bay coat, and on page 1 no wound or blood, only stillness.",
+    "kayal": "Bay mare with an ochre red-brown coat, black mane, tail and lower legs and no white markings; never grey."
+  },
+  "not_shown": {
+    "page-01-panel-05": [
+      "dhanaji"
+    ],
+    "page-02-panel-04": [
+      "nagoji"
+    ],
+    "page-03-panel-01": [
+      "revathi"
+    ],
+    "page-04-panel-03": [
+      "padmini"
+    ],
+    "page-04-panel-04": [
+      "nagoji"
+    ],
+    "page-05-panel-02": [
+      "nagoji"
+    ],
+    "page-05-panel-03": [
+      "nagoji"
+    ],
+    "page-05-panel-04": [
+      "padmini"
+    ],
+    "page-05-panel-05": [
+      "padmini"
+    ],
+    "page-06-panel-03": [
+      "nagoji"
+    ],
+    "page-07-panel-04": [
+      "padmini"
+    ],
+    "page-08-panel-06": [
+      "nagoji",
+      "revathi"
+    ],
+    "page-09-panel-01": [
+      "padmini"
+    ],
+    "page-09-panel-02": [
+      "revathi"
+    ],
+    "page-09-panel-04": [
+      "nagoji"
+    ],
+    "page-09-panel-05": [
+      "keshavrao"
+    ],
+    "page-11-panel-03": [
+      "eustachius",
+      "nagoji"
+    ],
+    "page-16-panel-01": [
+      "nagoji"
+    ],
+    "page-16-panel-03": [
+      "nagoji"
+    ],
+    "page-18-panel-02": [
+      "eustachius"
+    ],
+    "page-19-panel-03": [
+      "eustachius"
+    ],
+    "page-19-panel-04": [
+      "ramayyan"
+    ],
+    "page-19-panel-05": [
+      "eustachius"
+    ],
+    "page-20-panel-01": [
+      "keshavrao",
+      "varma"
+    ],
+    "page-22-panel-01": [
+      "revathi"
+    ],
+    "page-22-panel-03": [
+      "eustachius",
+      "nagoji"
+    ]
+  }
+}

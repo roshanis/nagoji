@@ -1,0 +1,107 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 2,
+  "logs": [
+    "chapter 17: 0 picked, 2 need regeneration; 0 page reviewers failed"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 17,
+        "decisions": [
+          {
+            "id": "page-03-panel-04",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v02 is the only listed candidate. Its composition, setting and four of the six figures work well. Varma is bare-headed with a knot, gold necklaces and no spear, and the Prince copies his hands-on-knees pose. The Rani has no jasmine and stands upright. Ramayyan holds a palm-leaf bundle and stylus by the storeroom doorway. Nagoji stands apart at the right, barefoot, in a rust turban, cream tunic and red sash. There is dusk sky for the captions, a black mirror floor and no painted text. But it fails two MUST MATCH lines. (1) Nagoji has a clear red vertical tilak on his forehead, and the bible forbids any forehead mark on him. (2) Padmini wears a stitched, short-sleeved blouse under the sari, but she must wear the old Kerala drape with no stitched blouse, as on her sheet. Her face is also rounder and softer than the strong-jawed face on her sheet. v01 is not listed and cannot be chosen.",
+            "correction": "Keep this exact composition, setting and lighting. The dusk sky and palms fill the top centre between the roof slopes, which stays low-detail for the captions. On the left, Marthanda Varma and the Prince sit on low stools in mirrored hands-on-knees poses. The Rani stands upright in white with no flowers. Padmini sits with her walking stick leaning beside her. Ramayyan sits with a palm-leaf bundle and stylus by the storeroom doorway of tall clay vessels, half in shadow. Nagoji stands apart at the right edge of the lamplight, barefoot, in a rust-red turban, cream tunic, broad red sash and cream trousers. Fix two things. First, Nagoji's forehead is bare, smooth skin: no red, vermilion, sandal or ash mark, tilak or line anywhere between his brows or on his forehead. He keeps the thick curled moustache, clean-shaven chin and tiny gold ear stud. Second, Padmini wears NO stitched blouse and NO sleeves. Her cream sari is in the old Kerala drape, with the gold-bordered upper end brought across her chest and over one shoulder, leaving her arms and the other shoulder bare, exactly as on her reference sheet. She has only one simple gold chain. Give her the sheet's leaner, strong-jawed, deeply lined face with thick black hair coiled at the nape and fresh jasmine. Her face is never rounded or soft, and never the Rani's."
+          },
+          {
+            "id": "page-07-panel-02",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The only listed candidate, v02, fixes the round-1 faults. Varma's hair is black with a knot. Nagoji has a flush gold stud, a clean-shaven chin and the curled moustache, and he is seated. The composition, setting and plate all work. But two likeness and continuity errors remain. (1) Ramayyan has a clear grey moustache. His sheet shows him clean-shaven, and so does panel 7.1 directly before this one. (2) Nagoji's RIGHT forearm (the image-left arm resting across his knee, about x 0.08-0.15, y 0.57-0.61) carries a large pale ridged brand patch, and his left wrist carries a second one. The brand belongs only on the inner LEFT forearm (bible row 17 @1-8.3), and panel 7.5 shows it there. Lesser points: Varma faces and gestures toward the left (the Rani and Nagoji) rather than addressing the seated Padmini as the script asks. Padmini's hair reads salt-and-pepper rather than thick black with light grey threading. The Rani's bun is softer than her sheet's severe bun. Everything else is clean: the Rani's plate holds the folded cloth, ivory elephant and lit lamp, and the Prince is correct. The scene has the nalukettu with the black mirror floor, rice vessels and open sky. There is no painted text, and the roof and sky band across the top leaves balloon room.",
+            "correction": "Keep this exact wide composition, lighting and setting. Nagoji sits on the stone step at left in the rust-red turban, cream tunic, red sash and cream trousers, barefoot, with a flush gold stud, the thick curled moustache and a clean-shaven chin. The Rani stands with the silver plate holding the folded red cloth, the small ivory elephant and the lit brass lamp. The Prince and Ramayyan sit cross-legged in the middle background, and Marthanda Varma stands bare-chested and bare-headed with black hair, gold necklaces and a cream mundu. Padmini sits at right with her walking stick and jasmine. Keep the carved elephant pillars, rice vessels, black mirror floor, open evening sky and the clear roof band at the top for balloons. Fix these points. Ramayyan Dalawa is completely CLEAN-SHAVEN, with no moustache, beard or stubble, exactly as on his sheet and in the previous panel: a thin face, receding curly black hair, no forehead mark. Nagoji's RIGHT forearm is plain, smooth, unmarked skin. The brand (a small pale ridged patch) and the long white scar appear ONLY on the inner LEFT forearm and wrist, never on the right arm. In this wide view the tunic sleeves may cover both forearms. Marthanda Varma turns his head and shoulders toward Padmini on his left (image right) and looks down at her with formal gravity, one open palm extended toward her, so he is clearly addressing her. Padmini Amma's hair is thick and BLACK with only a few fine grey threads, not salt-and-pepper."
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 17,
+        "result": null
+      },
+      {
+        "kind": "keep",
+        "chapter": 17,
+        "result": null
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch17 p3",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a48e1d01b21ac57e1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511752304,
+      "queuedAt": 1791511752298,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 3 of Chapter 17 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch17/page-03.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511799512,
+      "tokens": 77485,
+      "toolCalls": 13,
+      "durationMs": 47208,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-03-panel-04\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v02 is the only listed candidate. Its composition, setting and four of the six figures work well. Varma is bare-headed with a knot, gold necklaces and no spear, and the Prince copies his hands-on-knees pose. The Rani has no jasmine and stands upright. Ramayyan holds …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch17 p7",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ad4a3dd212931910c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511752304,
+      "queuedAt": 1791511752298,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 7 of Chapter 17 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch17/page-07.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511863304,
+      "tokens": 91486,
+      "toolCalls": 23,
+      "durationMs": 111000,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-07-panel-02\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"The only listed candidate, v02, fixes the round-1 faults. Varma's hair is black with a knot. Nagoji has a flush gold stud, a clean-shaven chin and the curled moustache, and he is seated. The composition, setting and plate all work. But two likeness and continuity err…"
+    }
+  ],
+  "totalTokens": 168971,
+  "totalToolCalls": 36
+}

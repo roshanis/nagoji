@@ -1,0 +1,482 @@
+{
+  "summary": "Judge new Nagoji and Varma model-sheet candidates (two independent judges per sheet), then test whether the chosen sheets keep the two men apart",
+  "agentCount": 7,
+  "logs": [
+    "21-nagoji-commander-v15: totals {\"f1-1\":49,\"f1-2\":44}; judges picked f1-1, f1-1",
+    "22-nagoji-ananthan-pillai-v15: totals {\"f1-1\":42,\"f1-2\":41}; judges picked f1-1, none",
+    "23-marthanda-varma-v15: totals {\"f1-1\":43,\"f1-2\":42}; judges picked f1-2, f1-1"
+  ],
+  "result": {
+    "chosen": {
+      "21-nagoji-commander-v15": {
+        "pick": "f1-1",
+        "totals": {
+          "f1-1": 49,
+          "f1-2": 44
+        },
+        "judges_best": [
+          "f1-1",
+          "f1-1"
+        ]
+      },
+      "22-nagoji-ananthan-pillai-v15": {
+        "pick": "f1-1",
+        "totals": {
+          "f1-1": 42,
+          "f1-2": 41
+        },
+        "judges_best": [
+          "f1-1",
+          "none"
+        ]
+      },
+      "23-marthanda-varma-v15": {
+        "pick": "f1-1",
+        "totals": {
+          "f1-1": 43,
+          "f1-2": 42
+        },
+        "judges_best": [
+          "f1-2",
+          "f1-1"
+        ]
+      }
+    },
+    "judgements": [
+      {
+        "sheet": "21-nagoji-commander-v15",
+        "lens": "identity",
+        "candidates": [
+          {
+            "candidate": "f1-1",
+            "identity_fidelity": 8,
+            "rule_compliance": 6,
+            "text_quality": 10,
+            "failures": [
+              "TURBAN: a soft dark smudge remains directly under the centre of the lower lip, which fix1 item 2 asked to remove; at panel scale it reads as a soul patch. The same smudge also shows in FRONT (darkest here) and THREE-QUARTER.",
+              "LEFT FOREARM: the hand is anatomically a RIGHT hand. The palm faces the viewer, the fingers point to the viewer's left and the thumb and thenar pad are on top. A left hand in that pose would have its thumb underneath. The panel is labelled LEFT, so the image contradicts its own label and the brand-side rule.",
+              "FRONT, THREE-QUARTER, LEFT PROFILE, full figure, TURBAN: the ear ornament is a domed gold ball with a specular highlight, about a third of the lobe's width, not a tiny flat stud smaller than a lentil. In FRONT and THREE-QUARTER it sits on the lower edge of the lobe rather than in its middle. Nothing hangs from it.",
+              "Full figure: the tunic's front edge runs from his LEFT shoulder to his RIGHT hip. That matches the V13 sheet but is the reverse of fix1 item 1's wording (right shoulder to left hip). No buttons, placket or stand collar; sleeves reach the wrists.",
+              "FRONT and LEFT PROFILE (identity drift, minor): compared with V13, the brows are heavier and more knitted, the moustache tips curl up less in FRONT, the LEFT PROFILE nose tip is rounder with an orange highlight, and all the skin is airbrushed smoother, so he looks slightly younger. Bone structure, nose line, eyes and moustache mass still match V13.",
+              "TURBAN (identity, minor): this is the only newly drawn head. Its face is a little narrower, with less pronounced cheekbones and a longer, rounder-tipped nose than THREE-QUARTER, but it still reads as the same man."
+            ]
+          },
+          {
+            "candidate": "f1-2",
+            "identity_fidelity": 7,
+            "rule_compliance": 5,
+            "text_quality": 10,
+            "failures": [
+              "LEFT PROFILE: the small dark piercing dot is still on the earlobe, just above the gold stud. Fix1 item 3 explicitly asked for its removal, and it reads as a second piercing.",
+              "TURBAN: a soft dark smudge remains under the centre of the lower lip, which fix1 item 2 asked to remove. The same smudge shows in FRONT and THREE-QUARTER.",
+              "FRONT: faint dark stipple dots on the chin ball. THREE-QUARTER: a little more speckled texture along the jaw than f1-1. Both drift toward the stubble the prompt forbids.",
+              "LEFT FOREARM: the hand is anatomically a RIGHT hand (palm toward viewer, fingers pointing left, thumb on top), but the panel is labelled LEFT FOREARM.",
+              "FRONT, THREE-QUARTER, LEFT PROFILE, full figure, TURBAN: the ear ornament is a domed gold ball with a highlight, about a third of the lobe's width, not a tiny flat stud. In FRONT and THREE-QUARTER it sits on the lower edge of the lobe.",
+              "Full figure: the tunic's front edge runs from his right shoulder to his left hip, which matches the fix1 text. It is the mirror of the approved V13 tunic, which crosses from his left shoulder to his right hip.",
+              "FRONT and LEFT PROFILE (identity drift, minor): heavier knitted brows, less upturned moustache tips in FRONT, a rounder nose tip in LEFT PROFILE and airbrushed skin compared with V13. The bone structure and moustache shape still match.",
+              "TURBAN (identity, minor): slightly narrower face and softer cheekbones than THREE-QUARTER, but still the same man."
+            ]
+          }
+        ],
+        "best": "f1-1",
+        "why": "Both candidates come from the same draft, and the face regions are nearly identical (mean pixel difference 4.5 to 6.3 between them, against 14.5 to 21.5 from V13). FRONT, LEFT PROFILE, THREE-QUARTER and the full-figure head keep the V13 pose and bone structure: broad cheekbones, square jaw, straight nose, the same eyes and a thick curled handlebar moustache. The only changes are the intended removal of stubble, airbrushed skin and slightly heavier brows, so on both sheets every view reads as the same man as V13 and as each other, of the same apparent age. The newly drawn TURBAN head is a little narrower but still recognisably him. The deciding difference is that f1-2 still has the dark piercing dot on the LEFT PROFILE earlobe that fix1 item 3 asked to remove, and slightly more chin and jaw stipple. f1-1 has neither. Its tunic wrap runs opposite to the fix1 wording but matches the approved V13 sheet, so that is a prompt conflict rather than an identity error. Both candidates share failures worth a follow-up correction pass or a prompt caveat: the under-lip smudge in TURBAN, FRONT and THREE-QUARTER (a soul-patch risk), domed ball studs instead of tiny flat studs, and a LEFT FOREARM panel whose hand is drawn as a right hand. None of these changes the face, so f1-1 is the one to adopt for the identity lens."
+      },
+      {
+        "sheet": "21-nagoji-commander-v15",
+        "lens": "rules",
+        "candidates": [
+          {
+            "candidate": "f1-1",
+            "identity_fidelity": 9,
+            "rule_compliance": 6,
+            "text_quality": 10,
+            "failures": [
+              "LEFT FOREARM: the arm is drawn as a RIGHT arm. Palm faces the viewer, fingers point left, elbow at right and the thumb sits on the upper side, which is right-hand chirality; a left forearm in this pose would have the thumb on the lower side. Shared with f1-2 (inherited from the draft). Cheap fix: flip only that panel's artwork horizontally, not its label.",
+              "LEFT FOREARM: the brand patch starts just above the wrist crease (roughly half a hand's width), not a hand's width above it; its raised lumps are crisp, rounded and pinkish, so it leans toward the 'blistered' look fix1 item 5 forbids (still pale, shapeless, no letters, cross or emblem; the thin white scar runs wrist to elbow beside it correctly).",
+              "FULL FIGURE: the wrap-front edge runs from his LEFT shoulder down to his RIGHT side, the reverse of fix1 item 1 ('from his right shoulder to his left hip'). It does match how the V13 drawing laps, and the tunic is a clean cross-over with no buttons, placket or stand collar and sleeves to the wrists, so this is a literal-text miss more than a costume error.",
+              "FULL FIGURE, FRONT, THREE-QUARTER, TURBAN: a soft dark smudge remains directly under the lower lip; at sheet scale it reads as lip shadow, but fix1 item 2 asked for no dark patch under the lower lip in TURBAN and at zoom it could suggest a soul patch.",
+              "ALL VIEWS: the ear ornament is a domed gold ball rather than a 'tiny flat' stud, roughly lentil size; it is flush on the lobe with nothing hanging in every view (FULL FIGURE ball sits at the very bottom edge of the lobe, the most marginal one). LEFT PROFILE piercing dot is correctly removed."
+            ]
+          },
+          {
+            "candidate": "f1-2",
+            "identity_fidelity": 9,
+            "rule_compliance": 5,
+            "text_quality": 10,
+            "failures": [
+              "LEFT PROFILE: the small dark piercing dot is still on the earlobe directly above the gold stud. Fix1 item 3 named this exact defect for removal, and it is the ear-ornament rule the bible treats as a lock; a panel generator can read it as a second piercing or a hole above a hanging ornament.",
+              "LEFT FOREARM: same mirrored chirality as f1-1: the arm is drawn as a RIGHT arm (thumb on the upper side with palm toward viewer, fingers left, elbow right).",
+              "LEFT FOREARM: brand patch begins just above the wrist crease rather than a hand's width up (it is softer, blurrier and more flesh-toned than f1-1's, which suits fix1 item 5 better; no symbol; white scar present).",
+              "FRONT and THREE-QUARTER: slightly more fine stipple and hatch texture on the chin and jaw than f1-1, edging toward the stubble stipple the prompt forbids; dark smudge under the lower lip remains in FRONT, THREE-QUARTER, TURBAN and FULL FIGURE.",
+              "TURBAN: the stud is a little larger and sits lower than in f1-1, its lower rim on the edge of the lobe (still flush, nothing hanging). All studs are domed balls rather than flat.",
+              "FULL FIGURE: wrap-front edge correctly runs from his right shoulder to his left hip with no buttons, placket or collar (passes fix1 item 1)."
+            ]
+          }
+        ],
+        "best": "f1-1",
+        "why": "The two candidates are nearly pixel-identical. Header 'NAGOJI SAWANT', subtitle 'COMMANDER YEARS' and the five labels FRONT, LEFT PROFILE, THREE-QUARTER, TURBAN and LEFT FOREARM are spelled exactly in both, with no extra text. Both are on a plain ivory background with no scenery. Hair is long, curly and black with no grey and no topknot. The moustache is a thick rolled handlebar. Neither has a forehead mark, sacred thread or necklace. The TURBAN study has no shoulder cloth. Faces match V13 in the head studies. They differ in two places. f1-2 still shows the dark piercing dot above the stud in LEFT PROFILE, the explicit ear correction (fix1 item 3) on the rule the author locked (ear = stud). f1-1 removed it. f1-1's own miss is the wrap direction (left shoulder to right hip rather than the fix text's right shoulder to left hip), but it matches the V13 drawing the fix cites and will not mislead panels about any identity lock. So f1-1 is the safer adoption. Before or after adopting it, note one shared defect: the LEFT FOREARM panel shows a right arm by hand chirality. Flipping only that panel's artwork horizontally (not the label) fixes it without regenerating. Also check whether the author wants the residual lip shadow softened."
+      },
+      {
+        "sheet": "22-nagoji-ananthan-pillai-v15",
+        "lens": "identity",
+        "candidates": [
+          {
+            "candidate": "f1-1",
+            "identity_fidelity": 8,
+            "rule_compliance": 5,
+            "text_quality": 10,
+            "failures": [
+              "ALL HEAD VIEWS (main figure, FRONT, LEFT PROFILE, THREE-QUARTER, UNIFORM): grey is still a broad silver sweep from the temple back over the side of the head to behind the ear, not the thin first-grey streak fix1 item 2 asked for; it ages him past the 'about ten years older, first grey' target",
+              "FRONT and THREE-QUARTER: loose curls still hang behind the ears down the sides of the neck toward the shoulder line, more than 'a few short curls at the nape' (fix1 item 1)",
+              "FRONT: brows are knitted down into a heavier scowl than the level, slightly lifted brows of the V13 FRONT; moustache is much fuller with tips rolling down and in, where V13 has a thinner moustache with small up-hooked tips (the thicker moustache was requested, but the shape drift should be noted)",
+              "UNIFORM: the small face is shorter and wider and more generic than the sheet heads, and no gold ear stud is visible on the lobe ('flush stud in every view')",
+              "THREE-QUARTER and FRONT: grey-brown stipple shadow on chin and jaw reads as light stubble (V13 had the same shading, but the prompt asks for smooth clean-shaven skin)",
+              "Main figure: the round silver medallion carries a faint embossed X / saltire shape, against 'plain polished silver with no marks' (fix1 item 4)",
+              "Topknot carries some warm brown highlights rather than jet black (milder than f1-2)",
+              "LEFT FOREARM: brand patch is pinkish and glossy with bead-like raised blobs that can read as freshly blistered rather than old flesh-toned scar (fix1 item 7); white scar is correct"
+            ]
+          },
+          {
+            "candidate": "f1-2",
+            "identity_fidelity": 8,
+            "rule_compliance": 4,
+            "text_quality": 10,
+            "failures": [
+              "ALL HEAD VIEWS (main figure, FRONT, LEFT PROFILE, THREE-QUARTER, UNIFORM): grey is an even broader, smoother silver band than f1-1 (roughly 15 to 20 percent more grey area in FRONT, LEFT PROFILE and THREE-QUARTER), directly against fix1 item 2 and reading older than 'first grey'",
+              "Topknot in FRONT, LEFT PROFILE, THREE-QUARTER and main figure shows clear chestnut-brown highlights, not the jet-black topknot fix1 item 2 requires",
+              "FRONT and THREE-QUARTER: loose curls hang behind the ears down the sides of the neck, more than a few short nape curls (fix1 item 1)",
+              "FRONT: same knitted-scowl brows and fuller down-rolled moustache tips as f1-1, a drift from the V13 FRONT expression and up-hooked tips",
+              "UNIFORM: small face shorter and wider than the sheet heads; no gold ear stud visible on the lobe",
+              "THREE-QUARTER and FRONT: grey-brown stipple on chin and jaw reads as light stubble",
+              "Main figure: medallion is mostly plain but shows a faint radial starburst converging to a centre point",
+              "LEFT FOREARM: brand is a pink cracked-plate pattern rather than flesh-toned puckered ridges; reads as scaly skin, though shapeless and without symbols; white scar is correct"
+            ]
+          }
+        ],
+        "best": "f1-1",
+        "why": "On identity the two candidates are a tie. Their faces are almost pixel-identical, and both are clearly the V13 man in every view: same straight nose and bridge, broad cheekbones, square jaw, heavy-lidded almond eyes and long lean face. He reads leaner and older. The LEFT PROFILE is the closest match to V13, and all four large heads (main, FRONT, LEFT PROFILE, THREE-QUARTER) are consistently one man. Both share the same identity drifts. The brows are knitted into a heavier scowl, the moustache is fuller with tips that roll down where V13's hook up, and the small UNIFORM face is a little shorter and more generic, with no visible ear stud. The candidates differ only in hair and props. f1-2 has a wider silver band and a brown-highlighted topknot, and both push him past 'first grey at the temples' and away from the jet-black topknot. f1-1 has less grey and a darker topknot, so it is closer to the requested age and hair. Its faint X on the medallion and its glossy brand patch are small fixes that prompt caveats can cover (plain unmarked medallion; old flesh-toned scar). Adopt f1-1 with panel-prompt caveats on four points: a thin temple streak only, curls tied up, the stud always visible, and a clean-shaven chin. Do not adopt f1-2."
+      },
+      {
+        "sheet": "22-nagoji-ananthan-pillai-v15",
+        "lens": "rules",
+        "candidates": [
+          {
+            "candidate": "f1-1",
+            "identity_fidelity": 7,
+            "rule_compliance": 3,
+            "text_quality": 10,
+            "failures": [
+              "MAIN FIGURE: the round silver medallion carries a clearly embossed X / cross shape (visible at normal size, unmistakable when zoomed); fix1 item 4 and the base prompt require plain polished silver with no marks",
+              "ALL HEAD VIEWS (MAIN FIGURE, FRONT, LEFT PROFILE, THREE-QUARTER, UNIFORM): the grey is still a broad silver sweep from the temple back over the side of the head to the knot, not a thin first-grey streak at each temple; fix1 item 2 was not applied, so the sheet now reads closer to the LATER LIFE grey-streaked look",
+              "UNIFORM: no ear stud visible on the earlobe at any zoom; the rule says a flush stud in every view",
+              "LEFT FOREARM: the hand is drawn palm toward the viewer, fingers pointing left with the thumb on the upper edge, which is anatomically a RIGHT hand; a panel generator copying this could put the brand on the wrong arm (brand itself passes: pale, irregular raised ridges, no letters, cross or emblem, thin white scar beside it running toward the elbow, though it starts a little above the wrist)",
+              "FRONT, THREE-QUARTER, LEFT PROFILE, MAIN FIGURE: grey stippled shading along the jaw and under the lower lip reads as light stubble, against 'smooth skin, no stubble'",
+              "FRONT, LEFT PROFILE, MAIN FIGURE: a fuller mass of loose curls hangs behind the ears down to mid-neck, more than 'a few short curls at the nape' (fix1 item 1); not shoulder length, so a partial fail",
+              "MAIN FIGURE: build is still visibly muscled (sharply cut six-pack, heavy deltoids), not quite the wiry cavalryman fix1 item 6 asks for",
+              "UNIFORM: a pale crescent highlight under the eye could read as a facial mark at panel scale (bible: no facial scar); minor",
+              "Passes: header 'NAGOJI SAWANT', subtitle 'ANANTHAN PILLAI' and all five labels exact, no extra text; topknot high on the crown in every head view; studs flush with no drop in MAIN, FRONT (both ears), LEFT PROFILE, THREE-QUARTER; profiles face opposite ways; tube mundu to ankles with no gold border and no divided legs; shoulder cloth over his left shoulder; ivory conch-scroll knife at the waist fold; uniform coat, red waistcoat, brass buttons, breeches, buckled boots, chain over coat, no hat; plain ivory background"
+            ]
+          },
+          {
+            "candidate": "f1-2",
+            "identity_fidelity": 7,
+            "rule_compliance": 4,
+            "text_quality": 10,
+            "failures": [
+              "ALL HEAD VIEWS (MAIN FIGURE, FRONT, LEFT PROFILE, THREE-QUARTER, UNIFORM): the grey is still a broad silver sweep from the temple back over the side of the head, not a thin streak at each temple; fix1 item 2 was not applied",
+              "ALL HEAD VIEWS: the topknot carries brown / copper highlights, against fix1 'the rest of the hair, including the topknot, is jet black'",
+              "UNIFORM: no ear stud visible on the earlobe at any zoom; the rule says a flush stud in every view",
+              "LEFT FOREARM: same mirrored hand as f1-1: palm to viewer, fingers left, thumb on the upper edge, which is anatomically a RIGHT hand (brand itself passes: pale, irregular cobbled ridges, no letters, cross or emblem, thin white scar beside it toward the elbow)",
+              "MAIN FIGURE: the medallion is mostly plain polished silver but shows a faint radiating sheen that can read as a faint starburst when zoomed; far better than f1-1's cross, but not perfectly blank",
+              "FRONT, THREE-QUARTER, LEFT PROFILE, MAIN FIGURE: grey stippled shading along the jaw and under the lower lip reads as light stubble",
+              "FRONT, LEFT PROFILE: loose curls behind the ears dangle to mid-neck, a little longer than f1-1's; more than 'a few short curls at the nape'",
+              "MAIN FIGURE: build still visibly muscled with a sharply cut six-pack, not fully wiry",
+              "UNIFORM: the same pale crescent highlight under the eye as f1-1; minor",
+              "Passes: all text exact with nothing extra; topknot high on the crown in every head view; studs flush with nothing hanging in MAIN, FRONT (both ears), LEFT PROFILE, THREE-QUARTER; profiles face opposite ways; tube mundu, no gold border, no divided legs or ankle cuffs; shoulder cloth on his left shoulder; conch-scroll ivory knife at the waist fold; uniform complete with the chain over the coat and no hat; plain ivory background"
+            ]
+          }
+        ],
+        "best": "none",
+        "why": "The two candidates are almost the same image. The faces, labels, costume and layout match, and all text is correct in both. Both also fail the same three points. First, fix1 item 2 was not applied: every head view keeps a broad silver sweep over the side of the head, not a thin first grey at each temple. That would push every chapter 17 to 28 panel toward the grey-streaked LATER LIFE look. Second, the UNIFORM figure has no ear stud. Third, the LEFT FOREARM panel draws a right hand, which could lead the panel generator to put the brand on the wrong arm. Both also show stubble-like stippling on the jaw. Between them, f1-2 is clearly closer. Its medallion is almost plain, while f1-1 has an embossed cross, which breaks fix1 item 4 and adds the cross motif the story avoids. f1-2's own extra fault is copper highlights in the topknot, which is milder. So no candidate should be adopted as is. f1-2 is the right base for a fix2 pass that thins the grey to temple streaks, makes the topknot jet black, adds the flush stud in UNIFORM, cleans the jaw shading, blanks the medallion sheen, and mirrors the forearm-panel hand to a true left hand."
+      },
+      {
+        "sheet": "23-marthanda-varma-v15",
+        "lens": "identity",
+        "candidates": [
+          {
+            "candidate": "f1-1",
+            "identity_fidelity": 7,
+            "rule_compliance": 5,
+            "text_quality": 10,
+            "failures": [
+              "FRONT: expression drift from V13. The brows are knitted with vertical frown lines, the eyes are narrowed and heavy-lidded, and the chin is raised, so he glares sternly instead of having V13's deep-set calm eyes. The jaw also reads a little broader than the V13 front face study. Nose, brow line, moustache shape and earrings still match, so it is recognisably the same man.",
+              "FRONT: the hair on his right side (image left) puffs out in a full mass over the temple instead of lying sleek and flat to the skull. The receding M-shaped temples age him slightly compared with the COURT face.",
+              "LEFT PROFILE: the knot sits on the back edge of the skull at the crown-back. It sticks out a full knot-width behind the head instead of sitting on the side above the left ear. This contradicts the FRONT and BACK views, where the knot is on his left side.",
+              "LEFT PROFILE: compared with the V13 profile face study, the nose tip is slightly more pointed and the forehead slopes back more. It still reads as the same man.",
+              "BARE-HEADED: the knot again sticks out from the upper back of the skull, higher and further back than in f1-2, so it reads as a back bun rather than a side knot above the left ear.",
+              "BARE-HEADED: the hair behind the ear runs down to the nape and ends in feathery wisps below the earring. This reads as loose locks at the nape, which correction 2 asked to remove.",
+              "BARE-HEADED: the same scowl as FRONT, with a faint crease running down the cheek. The moustache is slightly bushier at the hooked tips than in f1-2.",
+              "COURT: keeps V13's curly shoulder-length locks below the turban. That breaks the identity lock 'never curly, never loose to the shoulders', but the prompt also says to keep the COURT look exactly, so the conflict is in the prompt. The face is slightly re-rendered, with darker contrast and a bolder moustache, but it is still the V13 face."
+            ]
+          },
+          {
+            "candidate": "f1-2",
+            "identity_fidelity": 7,
+            "rule_compliance": 5,
+            "text_quality": 10,
+            "failures": [
+              "FRONT: the same expression drift as f1-1. The brows are knitted with frown lines, the eyes are narrowed, and the raised chin makes him glare instead of having V13's calm deep-set gaze. The jaw is slightly broader than the V13 front face study. Nose, moustache shape and earrings match V13.",
+              "FRONT: the hair on his right side (image left) is puffed rather than flat to the skull. It also carries more light grey highlight strands than f1-1 (about 30 percent more pale neutral pixels in every hair region), which at panel scale could read as salt-and-pepper.",
+              "LEFT PROFILE: the knot still sticks out behind the skull at the back-upper head rather than sitting on the side above the ear. It is only marginally lower and nearer ear level than in f1-1, and it still contradicts the FRONT and BACK views.",
+              "BARE-HEADED: the knot sticks out from the upper back of the skull, slightly lower and closer to the ear than in f1-1, but it still reads as a back bun in this three-quarter view.",
+              "BARE-HEADED: feathery hair continues down behind the ear to the nape, below the earring, and reads as loose locks at the nape.",
+              "COURT: keeps V13's curly shoulder-length locks below the turban, the same prompt conflict as in f1-1. The face is slightly re-rendered with darker contrast but is still V13."
+            ]
+          }
+        ],
+        "best": "f1-2",
+        "why": "The two candidates are almost the same image. Pixel differences are confined to the three head studies and the BARE-HEADED head. The COURT figure and both bodies are effectively unchanged from V13, apart from slightly darker contrast on the COURT face and a bolder moustache.\n\nOn identity both pass. The FRONT study matches the V13 front face study closely: the same long straight nose with a rounded tip, the same brow line, the same moustache shape and thickness with upturned tips (measured dark area within about 13 percent of V13), the same pearl drops and the same apparent age of about 40. The LEFT PROFILE and BARE-HEADED faces read as the same man as COURT and as each other. The only real identity drift, in both, is expression: a knitted scowl with narrowed eyes instead of V13's calm deep-set gaze.\n\nNeither candidate is better on identity, so the choice comes down to rule compliance. In both, the LEFT PROFILE and BARE-HEADED views put the knot on the upper back of the skull, which disagrees with the FRONT and BACK views where it sits on his left side. That is the main risk for panel generation. f1-2's knot sits slightly lower and nearer the ear in those two views, and its BARE-HEADED moustache is a touch tidier, so it edges f1-1. f1-1 has slightly darker, cleaner hair highlights.\n\nAdopt f1-2 only with a panel-prompt caveat (the knot sits on the left side of the head above and behind the left ear, never at the back) and a calm-expression note, or run one more correction pass on the LEFT PROFILE and BARE-HEADED knots. Crops are saved under /tmp/claude-501/mv/."
+      },
+      {
+        "sheet": "23-marthanda-varma-v15",
+        "lens": "rules",
+        "candidates": [
+          {
+            "candidate": "f1-1",
+            "identity_fidelity": 6,
+            "rule_compliance": 6,
+            "text_quality": 10,
+            "failures": [
+              "COURT: not kept exactly as V13 despite both prompts saying so; the face is re-rendered broader and heavier, with furrowed brows, a thicker, wider moustache that leans toward a bushy handlebar, and a darker stubble shadow on the chin and jaw",
+              "COURT: the curly black locks hanging below the turban to the neck come from V13, but they still break the 'never curly, never loose' identity lock (inherited, low priority)",
+              "LEFT PROFILE: the knot sticks out from the back of the skull silhouette, high and well behind the ear (about 60 px behind and 45 px above the earring), so it reads as a high back bun, not a knot on the left side above the ear; this conflicts with the BACK view, which puts it on the upper left side",
+              "BARE-HEADED: the knot sits high at the crown-back contour (about 35 px behind and 33 px above the ear), not 'just above and behind' the left ear; at three-quarter angle it reads close to a back-of-head bun",
+              "FRONT: faint light grey highlight strokes in the hair over his right temple and the crown; it is mostly black, but the rule says no grey or silver strands anywhere",
+              "FRONT: the hair puffs out with wavy strokes over his right ear and is not combed sleek and flat to the skull (fix1 item 2)",
+              "FRONT: he looks older than COURT, with forehead lines, receding bare temples, crow's feet and deep nasolabial folds; the moustache is thick, with broad rounded curls, heavier than V13 and short of 'clearly thinner and tidier than a bushy handlebar'",
+              "FRONT and BARE-HEADED: a grey stubble shadow on the chin and jaw weakens the clean-shaven chin rule",
+              "BARE-HEADED and LEFT PROFILE: a mass of hair runs down behind the ear to the nape and ends in loose wisps, against fix1's 'no loose locks behind the ears or at the nape'",
+              "BACK: only one knot, correctly on his left (image left), and no second bun; but the hair strokes meet in a V at the centre of the nape instead of sweeping up toward the knot, which hints that the hair is gathered at the nape (minor)"
+            ]
+          },
+          {
+            "candidate": "f1-2",
+            "identity_fidelity": 6,
+            "rule_compliance": 5,
+            "text_quality": 10,
+            "failures": [
+              "COURT: the same drift from V13 as f1-1 (heavier, broader face, furrowed brows, thicker moustache leaning toward a handlebar, stubble shadow) despite 'keep the COURT figure exactly'",
+              "COURT: the inherited curly locks hang below the turban to the neck (low priority)",
+              "FRONT: more visible grey or silver strands than f1-1 in the side hair over his right temple, with wavier strand lines; it reads as the first grey and breaks 'no grey or silver strands anywhere' (the grey-pixel ratio in the hair is higher than f1-1 in every view: 0.091 vs 0.073 FRONT, 0.066 vs 0.046 LEFT PROFILE, 0.099 vs 0.085 BARE-HEADED)",
+              "FRONT: the hair is voluminous and wavy at the sides, not sleek and flat to the skull",
+              "FRONT: aged features (forehead lines, receding bare temples, crow's feet, deep folds) and a thick moustache with broad curled tips, heavier than V13",
+              "LEFT PROFILE: the knot sticks out from the back-top of the skull well behind the ear and reads as a back bun, which conflicts with the BACK view placement",
+              "BARE-HEADED: the knot is slightly lower and closer to the ear than in f1-1 (better), but it still sits on the back contour of the head",
+              "BARE-HEADED: a pale streak of skin or highlight at the upper hairline reads as a receding temple or lightening hair",
+              "BARE-HEADED and LEFT PROFILE: hair hangs down behind the ear to the nape with wispy loose ends (fix1 item 2)",
+              "BACK: the strands cross in a twist at the centre of the nape, which hints at a second roll or twist there (fix1 item 3 asked to remove anything at the nape); f1-1's nape is cleaner",
+              "FRONT and BARE-HEADED: a stubble shadow on the chin and jaw"
+            ]
+          }
+        ],
+        "best": "f1-1",
+        "why": "The two candidates are nearly the same image: the pixel difference is confined to the three head studies and the bare-headed head. Both pass the hard rules. Labels are exact (MARTHANDA VARMA, COURT, BARE-HEADED, FRONT, LEFT PROFILE, BACK) with no extra text. Every view has pearl drop earrings and no stud. There is no crown, no beard and no forearm mark. The background is clean ivory. The BARE-HEADED figure looks to image left with the left ear showing, wears exactly two gold bead necklaces, the namam and a cream mundu with a narrow gold border, and is barefoot. The knot is on his left in FRONT (image right) and BACK (image left), and BACK has only one knot. Shared weaknesses: the LEFT PROFILE and BARE-HEADED knots sit on the back-top contour, so they read partly as a back bun; the COURT face drifted heavier than V13; FRONT looks older, with a moustache heavier than the 'neat, trimmed' spec; there is stubble shadow; and loose hair hangs behind the ear. f1-1 is the better pick because its hair carries fewer grey highlight strands in every view (f1-2's FRONT temple reads as silver-streaked, which breaks the strictest rule), its FRONT side hair is less wavy, and its BACK nape has no crossed twist that could read as a second roll. f1-2's only advantage is a slightly lower BARE-HEADED knot. Adopt f1-1, with prompt caveats for panels: 'knot on the left side just above and behind the left ear, never a back or crown bun; jet-black hair with no grey; neat, thin moustache; clean chin'."
+      }
+    ],
+    "distinctness": {
+      "confusable": true,
+      "shared_features": [
+        "The same face template in both sheets: a long oval face, high strong cheekbones, a straight prominent nose, heavy dark brows and deep-set eyes",
+        "A black handlebar moustache with upturned tips over a clean-shaven chin",
+        "The same warm brown skin tone, rendering and lighting",
+        "The same apparent age band, a mature man of about 35 to 45",
+        "Long black hair gathered into a knot when bare-headed (Ananthan Pillai's crown topknot, Varma's side knot), so the silhouette is a knot above or behind the head in both",
+        "Something in each earlobe (a gold stud for Nagoji, a pearl drop for Varma)",
+        "A lean, muscular, bare-chested build in the Kerala scenes",
+        "Both men turbaned in the formal panels (Nagoji's rust-red, Varma's cream-and-gold court turban), which hides hair texture, grey and knot placement and leaves only the face, the forehead and the ears"
+      ],
+      "distinguishing_features": [
+        "Forehead mark: Varma wears a white Vaishnavite namam with a red centre line, which still reads clearly as a pale vertical mark at 80 px. Nagoji's forehead is bare. This is the strongest single cue, but the bible asks for it only in the ch7 row.",
+        "Ear ornament: Varma has a large white pearl drop in each lobe, which shows as a bright dot at jaw level at 80 px. Nagoji's small gold stud is almost invisible at 80 px.",
+        "Hair texture and colour: Nagoji's hair is thick, curly and full, with a visible grey band at the temples from ch16 on. Varma's hair is sleek, straight and glossy jet black, flat to the skull, with no grey. This reads in bare-headed panels but is hidden under either turban.",
+        "Knot placement: Nagoji wears a large round knot high on top of the crown. Varma wears a small knot at the side, above his LEFT ear. This is clear in front and three-quarter views and weak in left profile, where both knots sit behind the head.",
+        "Moustache weight: Nagoji's is heavier and bushier, broad and drooping before it curls. Varma's is thinner and neatly waxed, with sharper upturned points. The difference is marginal at 80 px.",
+        "Face shape: Nagoji's face is longer and narrower, with hollow cheeks. Varma's jaw is slightly broader and squarer. This is marginal at 80 px and gone in greyscale face-only crops.",
+        "Build: Varma is drawn slightly broader through the chest and shoulders, Nagoji leaner. This is marginal and hidden in head-and-shoulders panels."
+      ],
+      "prompt_lines": {
+        "nagoji": "Nagoji has a long, narrow, hollow-cheeked face, a HEAVY bushy black moustache that droops before it curls up, thick CURLY black hair (grey at the temples from ch16) worn loose or in a large knot high on TOP of the crown, only a tiny gold stud in each earlobe, and a bare forehead with no mark of any kind.",
+        "varma": "Marthanda Varma has a slightly broader, squarer jaw, a THIN neatly waxed moustache with sharp upturned points, SLEEK STRAIGHT glossy jet-black hair with NO grey, combed flat into a small knot at the side above his LEFT ear (never on top of the crown), a white Vaishnavite namam with a red centre line on his forehead, and a large white PEARL DROP hanging from each earlobe."
+      },
+      "verdict": "Confusable. I cropped and compared the heads at 80 px and in greyscale face-only crops (saved under /tmp/claude-501/heads/). Under the hair and the ornaments, the two faces come from one template: the same long oval face, cheekbones, straight nose, dark handlebar moustache, clean chin, skin tone and age. The f1-1 sheets do separate them at 80 px, but only through features that can be dropped or covered: Varma's namam, his pearl drops, his straight black hair with no grey, and his side knot. A reader would lose the distinction in several situations. In the court-turban panels of ch10 to ch12, set beside Nagoji's rust-red turban, the faces are near twins, and only the namam and the pearl drops remain. The same happens in left profile, in Varma's white-headband scenes in ch11, in ch28, where he is aged and wears no jewels, and whenever the generator drops the namam. That last case is likely, because the bible asks for the namam only in ch7. The root cause is in the bible: Varma's base line names no facial features beyond \"V13 varma-v1 face\". It never mentions the namam outside ch7, the pearl drops, the straight hair or the absence of grey. Nagoji's line spells out the cheekbones, nose, thick curled moustache and grey temples, so the generator fills Varma's blank with Nagoji. The two prompt lines above should go into every panel prompt that shows both men. Exceptions for the namam and pearls (ch22 stitched brow, ch28 with no jewels) and any change to CONTINUITY.md need the author's approval, because CONTINUITY diffs need author approval."
+    }
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Judge"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Distinctness"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "identity 21-nagoji-commander-v15",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "ac843f4db96470597",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791489572752,
+      "queuedAt": 1791489572738,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "f1-1",
+      "promptPreview": "Read-only task: do not edit, create, move or delete any project file; you may save zoom crops under $TMPDIR with Python and Pillow (/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python) and Read them. No em dashes or en dashes in your output.\nYou judge candidates for a character model sheet of the graphic novel \"Horse of the Servant\" (Travancore and Goa…",
+      "promptFramed": true,
+      "lastProgressAt": 1791489836367,
+      "tokens": 109604,
+      "toolCalls": 42,
+      "durationMs": 263614,
+      "resultPreview": "{\"candidates\":[{\"candidate\":\"f1-1\",\"identity_fidelity\":8,\"rule_compliance\":6,\"text_quality\":10,\"failures\":[\"TURBAN: a soft dark smudge remains directly under the centre of the lower lip, which fix1 item 2 asked to remove; at panel scale it reads as a soul patch. The same smudge also shows in FRONT (darkest here) and THREE-QUARTER.\",\"LEFT FOREARM: the hand is anatomically a RIGHT hand. The palm fac…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "rules 21-nagoji-commander-v15",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a2fb9c52faf0e1f07",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791489572752,
+      "queuedAt": 1791489572739,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "f1-1",
+      "promptPreview": "Read-only task: do not edit, create, move or delete any project file; you may save zoom crops under $TMPDIR with Python and Pillow (/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python) and Read them. No em dashes or en dashes in your output.\nYou judge candidates for a character model sheet of the graphic novel \"Horse of the Servant\" (Travancore and Goa…",
+      "promptFramed": true,
+      "lastProgressAt": 1791489858436,
+      "tokens": 114337,
+      "toolCalls": 57,
+      "durationMs": 284884,
+      "resultPreview": "{\"candidates\":[{\"candidate\":\"f1-1\",\"identity_fidelity\":9,\"rule_compliance\":6,\"text_quality\":10,\"failures\":[\"LEFT FOREARM: the arm is drawn as a RIGHT arm. Palm faces the viewer, fingers point left, elbow at right and the thumb sits on the upper side, which is right-hand chirality; a left forearm in this pose would have the thumb on the lower side. Shared with f1-2 (inherited from the draft). Cheap…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "identity 22-nagoji-ananthan-pillai-v15",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a62c35a00dbda06cb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791489572752,
+      "queuedAt": 1791489572739,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "f1-1",
+      "promptPreview": "Read-only task: do not edit, create, move or delete any project file; you may save zoom crops under $TMPDIR with Python and Pillow (/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python) and Read them. No em dashes or en dashes in your output.\nYou judge candidates for a character model sheet of the graphic novel \"Horse of the Servant\" (Travancore and Goa…",
+      "promptFramed": true,
+      "lastProgressAt": 1791489799349,
+      "tokens": 99317,
+      "toolCalls": 40,
+      "durationMs": 225796,
+      "resultPreview": "{\"candidates\":[{\"candidate\":\"f1-1\",\"identity_fidelity\":8,\"rule_compliance\":5,\"text_quality\":10,\"failures\":[\"ALL HEAD VIEWS (main figure, FRONT, LEFT PROFILE, THREE-QUARTER, UNIFORM): grey is still a broad silver sweep from the temple back over the side of the head to behind the ear, not the thin first-grey streak fix1 item 2 asked for; it ages him past the 'about ten years older, first grey' targe…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "rules 22-nagoji-ananthan-pillai-v15",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a26256f730b3ced93",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791489572752,
+      "queuedAt": 1791489572739,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "none",
+      "promptPreview": "Read-only task: do not edit, create, move or delete any project file; you may save zoom crops under $TMPDIR with Python and Pillow (/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python) and Read them. No em dashes or en dashes in your output.\nYou judge candidates for a character model sheet of the graphic novel \"Horse of the Servant\" (Travancore and Goa…",
+      "promptFramed": true,
+      "lastProgressAt": 1791489794494,
+      "tokens": 113160,
+      "toolCalls": 50,
+      "durationMs": 220941,
+      "resultPreview": "{\"candidates\":[{\"candidate\":\"f1-1\",\"identity_fidelity\":7,\"rule_compliance\":3,\"text_quality\":10,\"failures\":[\"MAIN FIGURE: the round silver medallion carries a clearly embossed X / cross shape (visible at normal size, unmistakable when zoomed); fix1 item 4 and the base prompt require plain polished silver with no marks\",\"ALL HEAD VIEWS (MAIN FIGURE, FRONT, LEFT PROFILE, THREE-QUARTER, UNIFORM): the …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "identity 23-marthanda-varma-v15",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "add57872b20cde776",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791489572752,
+      "queuedAt": 1791489572739,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "f1-2",
+      "promptPreview": "Read-only task: do not edit, create, move or delete any project file; you may save zoom crops under $TMPDIR with Python and Pillow (/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python) and Read them. No em dashes or en dashes in your output.\nYou judge candidates for a character model sheet of the graphic novel \"Horse of the Servant\" (Travancore and Goa…",
+      "promptFramed": true,
+      "lastProgressAt": 1791489839879,
+      "tokens": 105497,
+      "toolCalls": 44,
+      "durationMs": 266326,
+      "resultPreview": "{\"candidates\":[{\"candidate\":\"f1-1\",\"identity_fidelity\":7,\"rule_compliance\":5,\"text_quality\":10,\"failures\":[\"FRONT: expression drift from V13. The brows are knitted with vertical frown lines, the eyes are narrowed and heavy-lidded, and the chin is raised, so he glares sternly instead of having V13's deep-set calm eyes. The jaw also reads a little broader than the V13 front face study. Nose, brow li…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "rules 23-marthanda-varma-v15",
+      "phaseIndex": 1,
+      "phaseTitle": "Judge",
+      "agentId": "a5c279f3335833618",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791489572752,
+      "queuedAt": 1791489572739,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "f1-1",
+      "promptPreview": "Read-only task: do not edit, create, move or delete any project file; you may save zoom crops under $TMPDIR with Python and Pillow (/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python) and Read them. No em dashes or en dashes in your output.\nYou judge candidates for a character model sheet of the graphic novel \"Horse of the Servant\" (Travancore and Goa…",
+      "promptFramed": true,
+      "lastProgressAt": 1791489802881,
+      "tokens": 103821,
+      "toolCalls": 33,
+      "durationMs": 229328,
+      "resultPreview": "{\"candidates\":[{\"candidate\":\"f1-1\",\"identity_fidelity\":6,\"rule_compliance\":6,\"text_quality\":10,\"failures\":[\"COURT: not kept exactly as V13 despite both prompts saying so; the face is re-rendered broader and heavier, with furrowed brows, a thicker, wider moustache that leans toward a bushy handlebar, and a darker stubble shadow on the chin and jaw\",\"COURT: the curly black locks hanging below the tu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "distinctness skeptic",
+      "phaseIndex": 2,
+      "phaseTitle": "Distinctness",
+      "agentId": "ae51c680d58691e2a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791489858450,
+      "queuedAt": 1791489858438,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Confusable. I cropped and compared the heads at 80 px and i…",
+      "promptPreview": "Read-only task: do not edit, create, move or delete any project file; you may save zoom crops under $TMPDIR with Python and Pillow (/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python) and Read them. No em dashes or en dashes in your output.\nTry hard to CONFUSE these two men; default to \"confusable\" if you are unsure. Nagoji (a Maratha cavalry commande…",
+      "promptFramed": true,
+      "lastProgressAt": 1791489970608,
+      "tokens": 85150,
+      "toolCalls": 17,
+      "durationMs": 112158,
+      "resultPreview": "{\"confusable\":true,\"shared_features\":[\"The same face template in both sheets: a long oval face, high strong cheekbones, a straight prominent nose, heavy dark brows and deep-set eyes\",\"A black handlebar moustache with upturned tips over a clean-shaven chin\",\"The same warm brown skin tone, rendering and lighting\",\"The same apparent age band, a mature man of about 35 to 45\",\"Long black hair gathered …"
+    }
+  ],
+  "totalTokens": 730886,
+  "totalToolCalls": 283
+}

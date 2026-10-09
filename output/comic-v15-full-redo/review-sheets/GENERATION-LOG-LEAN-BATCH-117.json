@@ -1,0 +1,504 @@
+[
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-11-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-11-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-11-panel-02-composite.png",
+    "region_crops": [
+      [
+        885,
+        0,
+        1495,
+        310
+      ],
+      [
+        0,
+        0,
+        525,
+        275
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 2,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-11-panel-02-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-11-panel-02-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-362c4f44-1842-4cb5-aeee-510fd68f6c4a.png",
+          "output_recovery_crop": [
+            1300,
+            0,
+            1759,
+            370
+          ],
+          "input_crop_sha256": "97e451aab045134a9d294fad09ae457b900773132fe3196f9205450d5c6260e1",
+          "raw_generated_sha256": "916c87ab4f69ee2e8864580b42a2d8ccf8348531740c6f6ad19f4f7165046ad8",
+          "raw_generated_size": [
+            1759,
+            894
+          ]
+        },
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-11-panel-02-region-2.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-1dbc80cb-516d-4f10-af1e-d0036261fd32.png",
+          "output_recovery_crop": [
+            900,
+            0,
+            1734,
+            330
+          ],
+          "input_crop_sha256": "e4f9399929d0fdc4da99646cc53ee69f44e110131c0c9899b5406983851fe291",
+          "raw_generated_sha256": "cc45c0d3bd6373fda2c12c6f4e6e087a5589f99f9df95c5e85a6fbf1d8a8d706",
+          "raw_generated_size": [
+            1734,
+            907
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "Visible rectangular roof and wall transitions around both recovered background patches, strongest below and beside the upper-right patch. No remaining white balloon shapes or obvious balloon outlines. No duplicated limbs or extra figures introduced."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  },
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-13-panel-01",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-13-panel-01-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-13-panel-01-composite.png",
+    "region_crops": [
+      [
+        1140,
+        0,
+        1536,
+        620
+      ],
+      [
+        987,
+        627,
+        1360,
+        989
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 2,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-13-panel-01-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-13-panel-01-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-8b56d12d-c11f-4efc-aa41-84313db2525c.png",
+          "output_recovery_crop": [
+            665,
+            340,
+            1002,
+            868
+          ],
+          "input_crop_sha256": "1efda44cfc9ef9f6a14b5b1ed1aaedd9ec85d7688ea2f4ed804000ccdc975885",
+          "raw_generated_sha256": "0ed0fd7c18cd4e9e225c468f413e1e67922fa24fd4bbf72288feb482ee0fbb0c",
+          "raw_generated_size": [
+            1002,
+            1569
+          ]
+        },
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-13-panel-01-region-2.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-948c1f88-7815-4399-83cf-f39abb31ff1f.png",
+          "output_recovery_crop": [
+            786,
+            784,
+            1126,
+            1216
+          ],
+          "input_crop_sha256": "e7ef4ca3112b7193ce7952d7f8bfca28e383b08f22eaa19dae7313b85982d4ee",
+          "raw_generated_sha256": "d29808015b829a8080d1bdd1dbf04fceb6ded82cb00006400107ef1aa08b84d8",
+          "raw_generated_size": [
+            1273,
+            1236
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "Large head, shoulder and chain alignment discontinuity in the right figure; visible inset right-edge blend and changed head proportions. A dark clothing fragment from the regenerated scene is visible above-left of the main chief head. No duplicated limbs or complete extra figure, but the fragment is an unwanted partial figure."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  },
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-13-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-13-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-13-panel-02-composite.png",
+    "region_crops": [
+      [
+        0,
+        15,
+        980,
+        1024
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-13-panel-02-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-13-panel-02-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-f0b205bf-a375-4a86-9d75-386af21e9f8b.png",
+          "output_recovery_crop": null,
+          "input_crop_sha256": "a7e4b546b31b90690ac12861bea7ac73f1de9b61d3876fd249a2ffa1730a2ce9",
+          "raw_generated_sha256": "ef0347461abb32d208fc10c958c9330430236714beff0136138c818495e759ef",
+          "raw_generated_size": [
+            1236,
+            1272
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "Faint ghost of the original hair contour remains above the new bald crown in the top feather band. Some background and cloth detail changes within crop. No duplicated limbs or extra figures."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  },
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-12-panel-02",
+    "mode": "edit",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-12-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-12-panel-02-composite.png",
+    "region_crops": [
+      [
+        1105,
+        215,
+        1536,
+        900
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-12-panel-02-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-12-panel-02-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-dd390528-2e22-4dfd-8c28-943c7eeaa79e.png",
+          "output_recovery_crop": null,
+          "input_crop_sha256": "d91bca45a512e566c4cd93138da93ff7b8dcdc61cea724fe0b6ffa7fe33b8bdd",
+          "raw_generated_sha256": "48f082d15ed9fd9ff35702ad854c8e558416a4778030a2644676ce3ce714c684",
+          "raw_generated_size": [
+            995,
+            1581
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "No obvious duplicated limbs, extra figures, leftover balloon edges or seams in the requested compositing check."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  },
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-18-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-18-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-18-panel-02-composite.png",
+    "region_crops": [
+      [
+        478,
+        634,
+        928,
+        1024
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-18-panel-02-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-18-panel-02-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-34688732-377b-4479-97c4-54101c937e8d.png",
+          "output_recovery_crop": [
+            366,
+            192,
+            976,
+            818
+          ],
+          "input_crop_sha256": "0d57e8f59b280eabd79ed47bfeace6dcc0ac502d86da0f1dae4d27910ee26aee",
+          "raw_generated_sha256": "b716afbbfc59295b1beed93dcef6a9badf1e4de0c834fc69a00a2b0d1dd828a2",
+          "raw_generated_size": [
+            1347,
+            1167
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "Visible blend and texture discontinuity at the upper hair edge and left ear/jasmine edge of the middle inset. Face proportions changed in the recovered crop. No duplicated limbs or extra figures."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  },
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-18-panel-03",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-18-panel-03-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-18-panel-03-composite.png",
+    "region_crops": [
+      [
+        130,
+        135,
+        415,
+        415
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-18-panel-03-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-18-panel-03-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-28a73322-f4e2-4cb0-8ff7-d49aa4e25e77.png",
+          "output_recovery_crop": [
+            137,
+            220,
+            557,
+            633
+          ],
+          "input_crop_sha256": "14b2b706d62844ac3bad01d8b7b62f2009866eb7841fbf4b1d823cf55a4b1408",
+          "raw_generated_sha256": "7ae06e6d90a45a2ec0dd6e7c60321014f374826cf0a9cced6bae58fe85a526b3",
+          "raw_generated_size": [
+            1265,
+            1243
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "Obvious rectangular replacement background with pillar and lamp fragments around the head; head and neck alignment changed. Forehead dot removed. No duplicated limbs or complete extra figures, but background slivers from the expanded scene remain."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  },
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-17-panel-05",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-17-panel-05-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-17-panel-05-composite.png",
+    "region_crops": [
+      [
+        225,
+        160,
+        458,
+        389
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-17-panel-05-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-17-panel-05-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-2edace39-fecb-4146-9288-5be34a8f4186.png",
+          "output_recovery_crop": [
+            150,
+            85,
+            660,
+            586
+          ],
+          "input_crop_sha256": "b7ebad103be687eea96a580a4916c9d4f98808167f123c0076571ab09d50dd10",
+          "raw_generated_sha256": "c49e3141fab52d6fd61898cc040cffeab3fb7dcddbfd2aed1de456238a1924a3",
+          "raw_generated_size": [
+            1774,
+            887
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "Forehead dot remains. Head size and face proportions changed; visible background and neck blending. Small background face fragments occur at the crop sides from the expanded scene. No duplicated limbs."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  },
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-19-panel-01",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-19-panel-01-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-19-panel-01-composite.png",
+    "region_crops": [
+      [
+        357,
+        174,
+        578,
+        395
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-19-panel-01-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-19-panel-01-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-00a0a9c9-f184-4d87-bedb-6da06aec7ff7.png",
+          "output_recovery_crop": [
+            0,
+            216,
+            460,
+            756
+          ],
+          "input_crop_sha256": "c3bcf43729ef87a772bfe19252fdfcaa3a4b5691468b9b93462560fddcfd352e",
+          "raw_generated_sha256": "0b78f57d4ef7200ef9a90f4ee680763b2dff07ddfab0f2eaef4cd19516e4216e",
+          "raw_generated_size": [
+            1254,
+            1254
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "Obvious pale rectangular background patch around the head and changed face/neck alignment. Forehead dot removed. No duplicated limbs or extra figures."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  },
+  {
+    "chapter": 11,
+    "package": "output/comic-v15-full-redo/chapters/ch11-split2",
+    "id": "page-22-panel-01",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-22-panel-01-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch11/page-22-panel-01-composite.png",
+    "region_crops": [
+      [
+        10,
+        5,
+        845,
+        205
+      ]
+    ],
+    "notes": {
+      "new_version": "v02",
+      "max_pixel_difference_outside_crops": 0,
+      "mask": "Solid centre with smoothstep feather over 10 percent of the crop short side; no taper at image boundary.",
+      "generation_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "prompt_file": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/prompts/page-22-panel-01-fix-rv1.txt",
+      "prompt_verbatim": true,
+      "only_crop_attached": true,
+      "regions": [
+        {
+          "input_crop_path": "/private/tmp/claude-501/fixrv1-ch11/page-22-panel-01-region-1.png",
+          "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11856-2e01-79e2-9ff9-41a8799b3176/exec-10243c03-9632-46f9-85c1-af3d3885ec00.png",
+          "output_recovery_crop": [
+            0,
+            0,
+            2048,
+            385
+          ],
+          "input_crop_sha256": "9a7b1fbfae8f8abbd4bc140c8c44fccb1e8a283b266b37c7905be64042676945",
+          "raw_generated_sha256": "7547795b081367bac6148892c09c2947240cacc0b520425c6781d02316b3b113",
+          "raw_generated_size": [
+            2170,
+            725
+          ]
+        }
+      ],
+      "compositing_defect_check": [
+        "Four ships visible, three large and one smaller. Obvious rectangular sky colour and horizon-height seam around the recovered ship patch. No extra hulls apparent, no duplicated limbs or extra foreground figures."
+      ],
+      "visual_review": "pending",
+      "scope": "Region editing, compositing, requested defect check and capture only. No selection or builds. Capture reference metadata comes from the prepared package; actual imagegen attachments were only the recorded crops."
+    }
+  }
+]

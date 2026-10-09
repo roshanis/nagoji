@@ -1,0 +1,667 @@
+{
+ "chapter": 7,
+ "audit": {
+  "panels": [
+   {
+    "id": "page-01-panel-01",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-01-panel-02",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-01-panel-03",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": "The second caption's italic is asked for only in the speaker label 'CAPTION (italic, the words no rider spoke)'. script_pipeline.py keeps that label as plain text, and the compositor italicises only text wrapped in *markers* (compositor._lettering_runs). The line will probably letter in roman unless the script wraps the copy itself in *...*. The '(separate, weighted)' labels in 9.3 and 12.5 have the same problem."
+   },
+   {
+    "id": "page-01-panel-04",
+    "risk": "medium",
+    "problems": "Three lettering areas (one caption and two Raza balloons) sit in a medium shot that also asks for the troop 'sit straight' behind him with lances 'gleaming'. Upright lance tips and a row of faces can fill the sky band (failure 9). Only the Raza sheet is attached, and it has a large olive-green shoulder drape. In crowd shots the generator tends to copy that green onto other riders, which breaks 'the only green turban'.",
+    "addendum": "Show only four or five riders behind him, receding and partly overlapped, their lances slanted back so the tips stay below the top third. Keep the upper third of the frame open pale dawn sky, with no heads in it, for three lettering areas. Only Raza Khan wears green: no other rider has a green turban or shoulder cloth.",
+    "author_flag": "The approved Raza Khan sheet gives him a grey-flecked goatee and an olive-green shoulder drape. Neither CONTINUITY.md nor the script mentions them, so close-ups will copy them and wides may drop them. Decide whether they belong to his look, so reviewers do not reject a panel for having them or for leaving them out."
+   },
+   {
+    "id": "page-01-panel-05",
+    "risk": "medium",
+    "problems": "The injected Nagoji line says the brand is 'seen when sleeves are pushed up', and the attached commander figure has both sleeves rolled to mid-forearm. A brand is therefore likely to be painted on a visible forearm, although the script does not call for one here; in ch4 it came out letter-like and on the outer arm. The sheet's 'small gold ear stud' is drawn as a small hanging ball, and ch4 reviews rejected a dangling ear ornament. The cast has no Madurai line, so no Indian saddle is named for the grey.",
+    "addendum": "His cream sleeves come down to his wrists and cover both forearms. His ear stud is a tiny flush gold dot on the earlobe, with nothing hanging from it. The grey wears a padded Indian cloth saddle and a plain leather bridle, with no Western saddle horn.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-02-panel-01",
+    "risk": "high",
+    "problems": "The attached Ponnan sheet dresses him in a red short-sleeved tunic with gold borders, a broad red drape and a gold-bordered dhoti. The prompt asks for a 'short dark-brown jacket, a narrow red cloth over his right shoulder, white mundu', and the injected bible line says only 'red shoulder cloth... short jacket'. The sheet will probably win, giving an all-red, gold-trimmed Ponnan. That breaks 'Only Ponnan wears red' as a single accent, and the shoulder may come out mirrored.",
+    "addendum": "From the Ponnan sheet take only his face, cropped curly hair, heavy moustache and stocky build, and ignore its costume: no red tunic, no broad red drape, no gold borders. Here he wears a plain short dark-brown jacket, one narrow plain red cloth over his anatomical RIGHT shoulder only, and a plain white mundu hitched to the knee. The other Maravar wear plain brown or undyed jackets and plain white mundus, with no red and no gold borders anywhere.",
+    "author_flag": "The approved Ponnan sheet (14-ponnan-v15.png) shows a red gold-trimmed tunic, a broad red drape and a gold-bordered dhoti. The script, and its bible proposal 4, gives him a short dark-brown jacket and a narrow red cloth over the right shoulder, and CONTINUITY.md still says only 'short jacket'. Every Ponnan panel (2.1, 2.4, 3.3, 4.3, 5.1) will fight its attached sheet. Align the sheet or the bible entry before generating, or accept per-panel overrides."
+   },
+   {
+    "id": "page-02-panel-02",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-02-panel-03",
+    "risk": "high",
+    "problems": "The brand wording, 'a short row of raised, ridged burn scars... crude marks', matches the ch4 3.2 insert prompt, whose results were rejected as 'reddish, overly distinct' and 'letter-like' (a row of separate marks reads as glyphs). The prompt does not set the forearm's rotation. A hand holding reins normally turns the inner forearm away from the camera, so the generator may paint the brand on the outer arm or move it toward the elbow, as it did in ch4. Nothing anchors that the hand is a LEFT hand.",
+    "addendum": "Pose: seen over his left shoulder, his left forearm rests along his thigh with the palm turned up and the slack reins lying across the open palm, thumb pointing away from his body. The inner side of the forearm faces the camera, and the right hand is out of frame. The brand is one small oval patch, about the size of a large coin, a hand's width above the wrist crease and well below the elbow. It is smooth, slightly shiny scar tissue, paler than the skin, with a few soft ridges that run together so that no separate marks can be counted or read. It stays in the same tone family as his skin and is never red, dark, inked or outlined.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-02-panel-04",
+    "risk": "high",
+    "problems": "The Ponnan sheet conflict is the same as in 2.1 (red tunic, broad drape and gold borders against a dark-brown jacket and narrow red cloth). 'Three riders abreast, facing down the beach' does not say where the camera is. From behind, Nagoji's face is lost for his two balloons. The right-arm point, Raza's left-cheek scar and Ponnan's right-shoulder cloth are not tied to the frame, so they can mirror, and a left-arm point would expose the inner left forearm and the brand. This cast has no Madurai line, so no saddle type is named.",
+    "addendum": "Seen from the front at a slight angle so all three faces read, the riders facing the camera. Raza Khan's scar is on his cheek nearer Nagoji. Nagoji points with his RIGHT arm, on Raza Khan's side of the frame, keeps his left hand low on the reins, and his cream sleeves cover both forearms to the wrist. Ponnan: from his sheet take only the face, curly hair, moustache and build; he wears a plain short dark-brown jacket, one narrow plain red cloth on his anatomical right shoulder (the shoulder nearer Nagoji) and a plain white mundu, with no red tunic and no gold borders. All three horses have padded Indian cloth saddles, with no Western saddle horns.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-02-panel-05",
+    "risk": "medium",
+    "problems": "'one hand resting on his pommel' invites a Western saddle horn. The cast is Raza alone, so the Madurai line that names 'quilted Indian saddles' is not in this prompt. 'his left cheek toward us' gives no head direction, and the generator mirrors scars readily.",
+    "addendum": "He looks toward the left side of the frame, as in his sheet's expression heads, so the scarred left cheek is the one we see. His hand rests on the low padded front of a quilted Indian cloth saddle, with no Western saddle horn.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-03-panel-01",
+    "risk": "low",
+    "problems": "The injected brand line ('seen when sleeves are pushed up') and the commander figure's rolled sleeves invite an unscripted brand. The sheet's ear stud is drawn hanging.",
+    "addendum": "His cream sleeves come down to his wrists and cover both forearms. His ear stud is a tiny flush gold dot on the earlobe.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-03-panel-02",
+    "risk": "low",
+    "problems": "'left cheek toward the camera' gives no head direction, so the scar can mirror in a tight shot.",
+    "addendum": "His face is turned toward the left side of the frame, as in his sheet's expression heads, so the scar is on the cheek nearest the camera.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-03-panel-03",
+    "risk": "high",
+    "problems": "'Inset, upper corner' inside one generated frame asks for no border, and the lettering rule in the same prompt says 'Draw NO... frames, outlines'. That is the ch1 to 4 failure: frameless insets with hard seams or the main art showing through. Raza is 'wheeling his dark-bay horse away, calling back over his shoulder', but his face direction is unset, so the speaker can end up with his back to us. The single lettering area is 'preferably upper', which the inset may take. The Ponnan sheet costume conflict applies. The cast has no Madurai line, so no saddle type is named.",
+    "addendum": "The Ponnan inset is a separate small picture, about a quarter of the frame, in the upper LEFT corner. It is enclosed by a clean white border with a thin black outline, the one frame line allowed in this panel, and nothing of the main scene shows inside or behind it. Raza Khan rides away toward the right of the frame and turns his head back over his left shoulder, his face in three-quarter view toward the camera with the scarred left cheek showing. Keep the upper right area plain sky for his balloon. In the inset Ponnan wears a plain short dark-brown jacket and one narrow plain red cloth on his right shoulder, with no red tunic and no gold borders. Raza Khan's saddle is a quilted Indian cloth saddle with no Western saddle horn.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-03-panel-04",
+    "risk": "low",
+    "problems": "The Raza sheet, the only reference attached, has a large green drape, and in a crowded charge the generator may spread that green to other riders.",
+    "addendum": "No rider but Raza Khan wears any green.",
+    "author_flag": "'Wide, half the page' gives layout_fit a 0.5 size floor but not a solo row: only 'full width' or strip/tier/splash words do that. The fitter may therefore pair 3.4 with another panel in a half-width slot (4.1 and 7.3 have the same wording). Adding 'full width' to the script is not a fix either, because the pipeline would then ask for a 3:1 strip, the problem described for 6.5. If these must span the column at half height, the layout has to be pinned. The script's 'generated at its placed aspect ratio' is not carried into the image_gen args, which have no aspect parameter, so these go at the default 3:2. That suits a full-width half page."
+   },
+   {
+    "id": "page-04-panel-01",
+    "risk": "medium",
+    "problems": "The page note 'Keep the horses safe: they flounder and recover, none falls or is hurt' is not in the panel prompt, and 'legs flailing for footing' with 'the proud line has become a knot' invites horses down on their sides, rolling, or riders thrown. The Raza sheet's green drape may spread across the crowd.",
+    "addendum": "Every horse stays upright. They are bogged to the fetlocks and scrambling, but none falls, rolls or is hurt, and no rider is thrown. No rider but Raza Khan wears any green.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-04-panel-02",
+    "risk": "medium",
+    "problems": "'one arm out' does not say which arm. A left arm held out turns the inner left forearm toward the camera, and the injected brand line plus the sheet's rolled sleeves then invite a painted brand. 'Between the two lines' leaves the second line undescribed, because this cast has no Maravar or Ponnan text, so it may come out as more turbaned Madurai riders.",
+    "addendum": "He holds his RIGHT arm out, his left hand on the reins, his cream sleeves down to the wrists. On one side of him are the Madurai riders in white jamas and white turbans on dark horses. On the other are bare-headed Maravar in plain white mundus and brown jackets on small dun ponies, with no red among them.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-04-panel-03",
+    "risk": "high",
+    "problems": "Ponnan is the speaker but sits 'Beyond him, a head lower' with 'eyes forward, not turning his head'. From a side view Nagoji and the grey will hide him, leaving two balloons without a visible speaker (failure 9). The Ponnan sheet costume conflict applies.",
+    "addendum": "Camera slightly ahead of the two riders at three-quarter front, so Ponnan's whole face shows beside and below Nagoji's shoulder, not hidden behind him or the grey. Ponnan: from his sheet take only the face, curly hair, moustache and build; he wears a plain short dark-brown jacket, one narrow plain red cloth on his anatomical right shoulder and a plain white mundu, with no red tunic and no gold borders. Nagoji's cream sleeves come down to his wrists.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-01",
+    "risk": "high",
+    "problems": "The Ponnan sheet costume conflict applies (red tunic, broad drape and gold borders against a dark-brown jacket and narrow red cloth). Both riders speak, and 'Ponnan's eyes have slid toward' a background figure, so his face may turn away. No saddle type is named. The injected brand line plus the rolled-sleeve sheet invite a brand on Nagoji's forearm.",
+    "addendum": "Ponnan: from his sheet take only the face, curly hair, moustache and build; he wears a plain short dark-brown jacket, one narrow plain red cloth on his anatomical right shoulder and a plain white mundu, with no red tunic and no gold borders. Both faces read clearly for their balloons, Ponnan's in three-quarter view with only his eyes slid sideways. Nagoji's cream sleeves come down to his wrists. Both mounts have padded Indian cloth saddles, with no Western saddle horns.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-02",
+    "risk": "medium",
+    "problems": "'shakes his boot in the stirrup' puts the tack in close view, and this cast has no Madurai line naming 'quilted Indian saddles', so a Western saddle with horn and fenders is likely. The scar has no head direction and can mirror.",
+    "addendum": "His face is turned toward the left of the frame so the scarred left cheek shows. He sits a quilted Indian cloth saddle with a plain iron stirrup on a leather strap, with no Western saddle horn and no fenders.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-03",
+    "risk": "low",
+    "problems": "'left cheek toward the camera' gives no head direction, and the mounted shot names no saddle type.",
+    "addendum": "He looks down toward the left of the frame, so the scarred left cheek faces the camera. Quilted Indian cloth saddle, with no Western saddle horn.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-04",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-05-panel-05",
+    "risk": "medium",
+    "problems": "'drinking from a gourd' can hide the speaker's mouth and face. 'sweat-soaked' combined with the sheet's reddish crossed scar can read as blood on the face (failure 8). Nagoji 'squatting on his heels' rests his forearms forward, where the injected brand line and the rolled-sleeve sheet invite an unscripted brand. The scar side has no head direction.",
+    "addendum": "Raza Khan is on the right of the frame, turned toward Nagoji on the left, so his scarred left cheek faces the camera. The scar is old, healed and dry, and there are no red marks on his face. The water vessel is a dried bottle gourd lowered just below his mouth, so his face reads. Nagoji's cream sleeves come down to his wrists and cover both forearms.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-06-panel-01",
+    "risk": "low",
+    "problems": "A talking figure with gesturing hands, plus the injected brand line and the rolled-sleeve sheet, invites an unscripted brand. The sheet's ear stud is drawn hanging.",
+    "addendum": "His cream sleeves come down to his wrists and cover both forearms. His ear stud is a tiny flush gold dot on the earlobe.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-06-panel-02",
+    "risk": "medium",
+    "problems": "'wiping his face with the tail of his deep-green turban cloth', with the sheet's reddish scar, can read as wiping blood (failure 8), and the cloth can cover the speaker's mouth (failure 9). 'Nagoji's hand' in the foreground does not name the hand or the sleeve length; with the brand line injected, a left hand in close view is likely to carry a painted brand. With the Nagoji sheet attached, the generator may also draw his whole figure, although the script shows only the hand.",
+    "addendum": "Raza Khan faces toward the left of the frame so the scarred left cheek shows. He wipes sweat from his brow with the green cloth, leaving his mouth and scarred cheek uncovered. The scar is old, healed and dry, with no red on his face or on the cloth. Of Nagoji only his RIGHT hand appears, entering from the lower edge with the cream sleeve down to the wrist; his face and body stay out of frame.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-06-panel-03",
+    "risk": "medium",
+    "problems": "The word 'Inset' and the layout note 'It sits at the left of the upper band of 6.5' may lead the generator to paint a frame inside the frame, or a wider beach scene with a small square picture in its upper left (failure 3). 'The driftwood tip scoring' implies a hand, but no cast or sleeve is given, so a bare forearm could appear.",
+    "addendum": "Generate one complete square picture filled edge to edge with the overhead view of wet sand: no border, no frame inside the frame, no wider scene around it. The placement note is for the page layout only. If a hand shows, it is only fingertips on the driftwood at the frame edge, with no forearm.",
+    "author_flag": "The compositor has no inset overlay: layout_fit treats inset panels as ordinary row panels. 6.3 and 6.4 will therefore be laid out as their own row slots, not inside 6.5's upper band. See 6.5."
+   },
+   {
+    "id": "page-06-panel-04",
+    "risk": "medium",
+    "problems": "As in 6.3, 'Inset' and 'It sits at the right of the upper band of 6.5, beside 6.3' can produce a frame inside the frame or a wider scene. The curved grooves that 'hook away' can come out with arrowhead ends.",
+    "addendum": "Generate one complete square picture filled edge to edge with the overhead view of wet sand: no border, no frame inside the frame, no wider scene around it. The placement note is for the page layout only. The curved grooves end in soft rounded tips. If a hand shows, it is only fingertips on the driftwood at the frame edge, with no forearm.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-06-panel-05",
+    "risk": "high",
+    "problems": "'The drawing in the foreground' is never defined in this standalone prompt. The generator may paint a map with symbols, arrows or pseudo-writing (failure 2) instead of the three sand grooves of 6.4. 'crouched over it' can bow both heads so that Nagoji, the speaker of three balloons, shows only the top of his turban. The pipeline added a 3:1 FRAME SHAPE, but the script sizes the panel at the lower half of the page, so the fitter will crop away about half the width (failure 10 in reverse), and anything outside the centre is lost. The scar side is not tied to the frame. Crouched forearms invite the injected brand.",
+    "addendum": "The drawing is only three grooves scored in the wet sand with a driftwood stick: one straight groove, and two curved grooves sweeping in from either side, bending toward it and hooking away before they touch it. There are no arrows, letters, symbols or other marks. Keep the drawing and both men together inside the central half of the frame's width; the outer quarter on each side holds only sand, sea and sky. Nagoji crouches on the left. Raza Khan crouches on the right with his face turned toward Nagoji, so the scarred left cheek faces the camera. Both faces show below their turbans and are not hidden by bowed heads. Nagoji's cream sleeves come down to his wrists.",
+    "author_flag": "Two layout problems the prompt cannot fix. (1) The pipeline has no inset overlay: layout_fit treats 'Inset' panels as ordinary row panels, so 6.3 and 6.4 will not sit in 6.5's upper band. The open upper third of 6.5 will just be sky, which is still usable for its three balloons. (2) 'Full width' makes the pipeline add a 3:1 FRAME SHAPE, while the script sizes 6.5 at the lower half of the page: about 1.4:1, with the row floored at 45 percent of the story height. The fitter will crop roughly half the width away (MIN_KEEP 0.45 permits it), and the print will need the 2x upscale. The script's 'generated at its placed aspect ratio' is not implemented, because the image_gen args carry no aspect parameter."
+   },
+   {
+    "id": "page-07-panel-01",
+    "risk": "high",
+    "problems": "'studying the half-erased map' is undefined in this standalone prompt and may produce a paper map or a sand drawing with symbols or pseudo-writing (failure 2). Nagoji has 'forearms on his knees', which puts both forearms on show next to the injected brand line and the rolled-sleeve sheet. The scar side is not tied to the frame. Both men speak.",
+    "addendum": "The map is the same three grooves in the wet sand, one straight groove and two curved grooves hooking away from it, now half smoothed by a sheet of foam. There is no paper, symbol or letter. Raza Khan is on the right of the frame with his face turned toward Nagoji on the left, so the scarred left cheek faces the camera; both faces are visible for their balloons. Nagoji's cream sleeves come down to his wrists and cover both forearms where they rest on his knees.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-07-panel-02",
+    "risk": "medium",
+    "problems": "Nagoji, 'already walking back toward his grey', will probably be drawn with his back to us, yet he speaks 'Make them hold.' (failure 9). Raza's scar side is not tied to the frame.",
+    "addendum": "Raza Khan looks out toward the left of the frame, so the scarred left cheek faces the camera. Nagoji walks toward his grey on the right of the frame and turns his face back toward Raza Khan in profile, so his balloon has a visible speaker.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-07-panel-03",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-07-panel-04",
+    "risk": "medium",
+    "problems": "'writing a last mark on a palm leaf' invites visible script on the ola (failure 2). The attached varma-v1 sheet shows the turban and peacock crest on every head, and the injected bible line also describes the court turban, so the turban may come back despite 'NO turban'. 'swinging down from the grey' puts Nagoji's arms on show next to the injected brand line.",
+    "addendum": "Varma's head is bare: black hair combed back from the forehead into a knot above his left ear, with nothing on top of his head. Ramayyan's palm leaf is seen edge-on, the stylus tip just touching it, with no marks or script visible. Nagoji's cream sleeves come down to his wrists.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-01",
+    "risk": "low",
+    "problems": "This medium close-up of Nagoji lacks the 'commander figure, not the bare-headed studies' note that 1.5, 9.3 and 10.4 carry. The injected brand line and the sheet's hanging stud apply.",
+    "addendum": "His rust-red turban is on, wrapped as on the sheet's full-length commander figure. His cream sleeves come down to his wrists. His ear stud is a tiny flush gold dot on the earlobe.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-02",
+    "risk": "low",
+    "problems": "'bun to his left' seen from behind can be mirrored.",
+    "addendum": "Seen from behind, his hair knot sits above his left ear, on the left side of the frame, and there is nothing else on his head.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-03",
+    "risk": "medium",
+    "problems": "'looking up from his palm leaves' puts the olas in view at medium range, which invites pseudo-writing (failure 2). There are three balloons for two speakers. Nagoji's close shot lacks the commander-figure note.",
+    "addendum": "The palm leaves in Ramayyan's lap are seen edge-on or from their blank side, with no marks or script visible. Nagoji's rust-red turban is on, as on the sheet's full-length commander figure. Both faces are visible.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-04",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-08-panel-05",
+    "risk": "medium",
+    "problems": "This is a tight face shot with only varma-v1 attached, and every head on that sheet wears the turban and peacock crest. The injected bible line also describes the court turban. 'NO turban, NO peacock crest' is negative only, which leaves the generator to fill the crown of the head from the sheet.",
+    "addendum": "His head is bare: black hair combed back from the forehead and gathered into a knot above his anatomical left ear. There is no cloth, band, feather or jewel on his head, unlike the heads on the sheet.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-09-panel-01",
+    "risk": "low",
+    "problems": "'bows his head' can tip the face under the turban, losing the speaker for 'I will try.' The sheet's ear stud is drawn hanging.",
+    "addendum": "A small nod, with his face still readable under the turban. His ear stud is a tiny flush gold dot on the earlobe.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-09-panel-02",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-09-panel-03",
+    "risk": "medium",
+    "problems": "The pipeline's FRAME SHAPE line says 'keep faces and the key action inside the middle half of the height'. That contradicts the script's strip, which runs from the turban's lower edge to the top of the moustache, and it can bring back a small whole head in a wide strip (failure 10). An eye strip also has little low-detail space for the caption.",
+    "addendum": "This is an extreme close-up, not a face placed in a wider scene: the eyes and brows run across the strip, the lower edge of the rust-red turban touches the top border, and the top of the moustache touches the bottom border. Leave a plain dark area at one end of the strip, beyond the far temple, for the one-word caption.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-09-panel-04",
+    "risk": "medium",
+    "problems": "The Kanka memory 'bleeding into the panel's edge' does not say which edge or how far, so it can land on Nagoji or come back as a hard-edged rectangle (failure 3). A black mare on black soil at dusk can vanish. A dusk camp with cook fires invites hanging glass lanterns (failure 7).",
+    "addendum": "Put the memory along the right edge, about a third of the width. It has no border, no hard edge and no rectangle, and fades into the dusk through a soft, smoky dissolve, in paler, faded tones under a pale sky so the black mare reads in silhouette. Nagoji walks in the other two thirds, clear of it. The only light comes from the open cook fires and the sky; there are no lanterns.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-09-panel-05",
+    "risk": "low",
+    "problems": "Dusk light can darken a bay to near black. 'She is watching him come' can bring an unreferenced man into the frame.",
+    "addendum": "Enough warm last light falls on her that the ochre red-brown body reads clearly against her black mane and legs. She looks toward the camera, with no person beside her.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-01",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-02",
+    "risk": "medium",
+    "problems": "'holding out his hand, palm up and low' does not say which hand. A palm-up left hand turns the inner left forearm to the camera, and the injected brand line plus the rolled-sleeve sheet then invite a painted brand. This tight shot lacks the commander-figure note.",
+    "addendum": "He holds out his RIGHT hand, palm up; his left arm hangs at his side. His cream sleeves come down to his wrists. His rust-red turban is on, wrapped as on the sheet's full-length commander figure.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-03",
+    "risk": "low",
+    "problems": "'His hand has come to rest on her neck' puts a forearm in a close shot next to the injected brand line. This tight shot lacks the commander-figure note.",
+    "addendum": "His cream sleeves come down to his wrists. His rust-red turban is on, as on the sheet's full-length commander figure.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-04",
+    "risk": "low",
+    "problems": "Three lettering areas in a close two-shot, where the two heads tend to fill the frame (failure 9). The sheet's ear stud is drawn hanging.",
+    "addendum": "Keep the upper third of the frame plain, darkening sky above their heads for three lettering areas. His ear stud is a tiny flush gold dot on the earlobe.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-10-panel-05",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-11-panel-01",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-11-panel-02",
+    "risk": "low",
+    "problems": "'no green' may push Ibrahim's coat away from the muted teal on his sheet, making it drift against 11.3 to 12.4, which do not say it. The lit left side is not tied to a facing direction. Nagoji's hand on the neck puts a forearm next to the injected brand line.",
+    "addendum": "Ibrahim faces toward the left of the frame, toward Nagoji, so his lit left side and scar face the camera. His short coat is the muted blue-teal of his sheet. Nagoji's cream sleeves come down to his wrists.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-11-panel-03",
+    "risk": "low",
+    "problems": "The scar side is not tied to a facing direction.",
+    "addendum": "He faces toward the left of the frame, so the scarred left side faces the camera.",
+    "author_flag": "The middle line is lettered 'NAGOJI:' although Nagoji is not in this panel, whereas the chapter labels other unseen speakers '(off)' (3.2, 5.2, 5.3, 6.2 to 6.4). Mark it 'NAGOJI (off)' for consistency."
+   },
+   {
+    "id": "page-11-panel-04",
+    "risk": "low",
+    "problems": "'one hand still on Kayal's black mane' does not name the hand, which puts a forearm in view next to the injected brand line. The sheet's ear stud is drawn hanging.",
+    "addendum": "His RIGHT hand rests on Kayal's mane, and his cream sleeves come down to his wrists. His ear stud is a tiny flush gold dot on the earlobe.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-11-panel-05",
+    "risk": "medium",
+    "problems": "'his eyes going past Nagoji' in an Ibrahim-only cast may make the generator add a generic Nagoji with no reference, so a wrong-costumed figure. The scar side is not tied to a facing direction.",
+    "addendum": "Ibrahim is alone in the frame; Nagoji is not shown. He looks off toward the left of the frame, so his lit left side and scar face the camera.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-12-panel-01",
+    "risk": "low",
+    "problems": "'half turned toward the sea' does not say which side faces the camera, so the scar can end up on the hidden side.",
+    "addendum": "The sea lies to the left of the frame, and Ibrahim half turns toward it, so his scarred left side faces the camera.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-12-panel-02",
+    "risk": "low",
+    "problems": "",
+    "addendum": "",
+    "author_flag": ""
+   },
+   {
+    "id": "page-12-panel-03",
+    "risk": "low",
+    "problems": "Which frame edge holds Nagoji is unset, so the facing direction and the scar side can mirror.",
+    "addendum": "Nagoji's turban and shoulder are at the LEFT edge of the frame, so Ibrahim, facing him, shows his scarred left side.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-12-panel-04",
+    "risk": "medium",
+    "problems": "'walking away into the gathering dark, speaking over his shoulder' can give a speaker seen only from behind (failure 9), and the scar side is unset.",
+    "addendum": "Ibrahim walks away toward the right of the frame and turns his head back over his left shoulder, his face in profile with the scarred left side toward the camera, so his balloon has a visible speaker.",
+    "author_flag": ""
+   },
+   {
+    "id": "page-12-panel-05",
+    "risk": "medium",
+    "problems": "'Night' with only 'bay, black mane and tail' will probably render Kayal as a black horse. That breaks her coat continuity and makes her read as Kanka (failure 6).",
+    "addendum": "Enough moonlight falls on Kayal that her ochre red-brown body still reads against her black mane, tail and legs; she must not read as a black horse.",
+    "author_flag": ""
+   }
+  ]
+ },
+ "verdicts": {
+  "panels": [
+   {
+    "id": "page-01-panel-04",
+    "keep": true,
+    "addendum": "Keep the upper third of the frame as open pale dawn sky above every head, crossed at most by a few thin lance shafts, for the three lettering areas. No rider but Raza Khan wears any green: no green turban, sash or shoulder cloth on any other rider.",
+    "reason": "Both risks are real. Three lettering areas sit in a medium crowd shot (failure 9). The Raza sheet's large olive drape could spread to the troop: in ch4 the generator gave Nagoji's features to the Young Fisherman, so sheet traits do bleed onto other figures. I cut 'only four or five riders' and the slanted lances. They thin out 'the troop has arrived' and are not needed: thin shafts do not block lettering."
+   },
+   {
+    "id": "page-01-panel-05",
+    "keep": true,
+    "addendum": "His cream sleeves come down to his wrists and cover both forearms. His ear stud is a tiny flush gold dot on the earlobe, with nothing hanging from it. The grey wears a padded Indian cloth saddle and a plain leather bridle, with no Western saddle horn.",
+    "reason": "The evidence holds. The commander figure on the sheet has both sleeves rolled to mid-forearm, and its stud is a drop. Ch4 rejected 'premature brand' and 'dangling ear ornament' several times, and ch1 7.3 had to be fixed to 'a small flush gold stud'. The bible's 'seen when sleeves are pushed up' means the sleeves are down by default, so this agrees with the bible. No tack is named anywhere in this prompt. One condition: the sleeve line has to go into every Nagoji panel where his forearms can show (also 9.2, 9.4, 10.1, 10.5, 11.1, 12.1, 12.4, 12.5). Otherwise the sheet's rolled sleeves come back and change from panel to panel (failure 4)."
+   },
+   {
+    "id": "page-02-panel-01",
+    "keep": true,
+    "addendum": "From the Ponnan sheet take only his face, cropped curly hair, heavy moustache and stocky build, not its costume: no red tunic, no broad red drape, no gold borders. Here he wears a plain short dark-brown jacket, one narrow plain red cloth over his anatomical right shoulder only, and a plain white mundu hitched to the knee. The other Maravar wear plain brown or undyed jackets and plain white mundus, with no red and no gold borders.",
+    "reason": "The conflict is confirmed. The sheet shows a red short-sleeved tunic with gold borders, a broad red drape and a gold-bordered dhoti. The prompt says a dark-brown jacket and a narrow red cloth, and the ch13 and ch14 scripts say 'short dark jacket' too. Left alone, Ponnan will come out differently from panel to panel. I tightened the wording only. Flag for the author: this sets aside the costume on an author-approved sheet in favour of the script. Use the same wording in every Ponnan panel (2.4, 3.3, 4.3, 5.1, and ch6)."
+   },
+   {
+    "id": "page-02-panel-03",
+    "keep": true,
+    "addendum": "Pose: seen from above over his left shoulder, his left forearm rests along his thigh with the wrist turned palm up, the fingers curled loosely around the slack reins so their ridged nails show, thumb pointing away from his body. The inner side of the forearm faces the camera; his right hand is out of frame. The brand is one small irregular patch, about the size of a large coin, a hand's width above the wrist crease and well below the elbow: pale, slightly shiny puckered scar tissue whose soft ridges run together, so no separate marks can be counted or read. It is paler than the skin and never red, dark, inked or outlined.",
+    "reason": "Needed. The prompt's 'short row of raised, ridged burn scars... crude marks' is close to the ch4 3.2 wording whose v01 was rejected as 'reddish, overly distinct'. Ch4 also rejected outer-arm and letter-like brands. The addendum follows the bible ('a pale puckered patch'), which overrides the script. Fix: the proposal put the reins on an OPEN palm, which hides the nails the script asks for ('nails healed but ridged'). With the fingers curled in an upturned palm, the nails face the camera. I also changed 'oval' to 'irregular' to match the accepted ch4 brand."
+   },
+   {
+    "id": "page-02-panel-04",
+    "keep": true,
+    "addendum": "Seen from the front at a slight angle, the three riders facing the camera so all three faces read. Nagoji points with his RIGHT arm toward Raza Khan's side of the frame, keeps his left hand low on the reins, and his cream sleeves cover both forearms to the wrist. Raza Khan's scar is on the cheek nearer Nagoji. Ponnan: from his sheet take only the face, curly hair, moustache and build; he wears a plain short dark-brown jacket, one narrow plain red cloth on his anatomical right shoulder (the shoulder nearer Nagoji) and a plain white mundu, with no red tunic and no gold borders. All three horses have padded Indian cloth saddles, with no Western saddle horns.",
+    "reason": "The sides are geometrically right with the riders facing the camera. Raza is at frame left, so his left cheek and Nagoji's right arm both fall on the inner side, and Ponnan's right shoulder is the one nearer the centre. Without a camera position, 'facing down the beach' invites a back view that hides the speaker's face (failure 9). The left-to-right order still matches the script. I tightened the wording only."
+   },
+   {
+    "id": "page-02-panel-05",
+    "keep": true,
+    "addendum": "He looks toward the left side of the frame, as in his sheet's expression heads, so the scarred left cheek is the one we see. His hand rests on the low padded front of a quilted Indian cloth saddle, with no Western saddle horn.",
+    "reason": "Correct: facing frame left shows his left cheek, and the sheet's heads face that way. 'Pommel' with no saddle type named is a real invitation to a Western horn, and the hand puts the tack in close view. Kept unchanged."
+   },
+   {
+    "id": "page-03-panel-01",
+    "keep": true,
+    "addendum": "His cream sleeves come down to his wrists and cover both forearms. His ear stud is a tiny flush gold dot on the earlobe.",
+    "reason": "Same evidence as 1.5: sheet sleeves rolled, and ch1 and ch4 rejected dangling studs. Keeping it here also keeps the sleeves consistent with 1.5 and 2.4."
+   },
+   {
+    "id": "page-03-panel-02",
+    "keep": true,
+    "addendum": "His face is turned toward the left side of the frame, as in his sheet's expression heads, so the scar is on the cheek nearest the camera.",
+    "reason": "Cheap, and correct. It matches the sheet and keeps Raza facing frame left from panel to panel (Nagoji off to the left). A tight shot is where a mirrored scar shows most (failure 5)."
+   },
+   {
+    "id": "page-03-panel-03",
+    "keep": true,
+    "addendum": "The Ponnan inset is a separate small picture, about a quarter of the frame, in the upper LEFT corner, enclosed by a clean white border with a thin black outline (the one frame line allowed in this panel), with nothing of the main scene showing inside or behind it. Raza Khan rides away from the camera toward the upper right, his back to us, and twists to look back over his LEFT shoulder (the shoulder on the left of the frame), so his face shows in three-quarter view with the scarred left cheek nearest the camera. Keep the upper right area plain sky for his balloon. In the inset Ponnan wears a plain short dark-brown jacket and one narrow plain red cloth on his right shoulder, with no red tunic and no gold borders. Raza Khan's saddle is a quilted Indian cloth saddle with no Western saddle horn.",
+    "reason": "The inset handling follows the failure-3 rule (white border, thin black outline) and overrides the prompt's 'no frames' line explicitly. Fix: the proposed 'rides away toward the right... turns back over his left shoulder' is ambiguous. If he rides across the frame to the right in profile, his left shoulder is the far one, so the turn would hide his face, or the generator would turn him over the near shoulder and mirror the scar. Riding away from the camera makes the left-shoulder turn show the left cheek."
+   },
+   {
+    "id": "page-03-panel-04",
+    "keep": true,
+    "addendum": "No rider but Raza Khan wears any green, neither turban nor shoulder cloth.",
+    "reason": "The prompt already rules out green turbans, but not the green drape on the attached Raza sheet. In a wide charge with only that sheet attached, it can spread to other riders, as features spread in ch4. Short and harmless; it matches 1.4 and 4.1."
+   },
+   {
+    "id": "page-04-panel-01",
+    "keep": true,
+    "addendum": "Every horse stays upright. They are bogged to the fetlocks and scrambling, but none falls, rolls or is hurt, and no rider is thrown. No rider but Raza Khan wears any green.",
+    "reason": "Needed. The script's page note ('Keep the horses safe... none falls or is hurt') did not reach the panel prompt, and 'legs flailing' plus 'the proud line has become a knot' invites downed horses. It agrees with the script's 'hauling on the reins to keep their seats'. Kept unchanged."
+   },
+   {
+    "id": "page-04-panel-02",
+    "keep": true,
+    "addendum": "He holds his RIGHT arm out, his left hand on the reins, his cream sleeves down to the wrists. On one side of him are the Madurai riders in white jamas and white turbans on dark horses. On the other are bare-headed Maravar in plain white mundus and plain brown jackets on small dun and dark-brown ponies, with no red among them.",
+    "reason": "Needed. An unspecified outstretched arm may be the left, with the inner forearm toward the camera. The cast has no Maravar text, so 'the two lines' would probably come out as two Madurai lines. The Maravar description matches script 2.1 and the 2.1 addendum. I added dark-brown ponies, which the script allows."
+   },
+   {
+    "id": "page-04-panel-03",
+    "keep": true,
+    "addendum": "Camera slightly ahead of the two riders at three-quarter front, so Ponnan's whole face shows beside and below Nagoji's shoulder, not hidden behind him or the grey. Ponnan: from his sheet take only the face, curly hair, moustache and build; he wears a plain short dark-brown jacket, one narrow plain red cloth on his anatomical right shoulder and a plain white mundu, with no red tunic and no gold borders. Nagoji's cream sleeves come down to his wrists.",
+    "reason": "Ponnan speaks both balloons but sits on the far side, a head lower. In a side view, Nagoji and the grey would hide him. The three-quarter-front camera keeps the script's near and far order and his 'eyes forward'. The costume line is the same as in the other Ponnan panels. Kept."
+   },
+   {
+    "id": "page-05-panel-01",
+    "keep": true,
+    "addendum": "Ponnan: from his sheet take only the face, curly hair, moustache and build; he wears a plain short dark-brown jacket, one narrow plain red cloth on his anatomical right shoulder and a plain white mundu, with no red tunic and no gold borders. Both faces read clearly for their balloons, Ponnan's in three-quarter view with only his eyes slid sideways. Nagoji's cream sleeves come down to his wrists. Both mounts have padded Indian cloth saddles, with no Western saddle horns.",
+    "reason": "Consistent with the other Ponnan panels. 'Only his eyes slid sideways' keeps the script beat and stops the speaker turning his head away. Kept."
+   },
+   {
+    "id": "page-05-panel-02",
+    "keep": true,
+    "addendum": "His face is turned toward the left of the frame so the scarred left cheek shows. He sits a quilted Indian cloth saddle with a plain iron stirrup on a leather strap, with no Western saddle horn and no wide leather fenders.",
+    "reason": "'Shakes his boot in the stirrup' puts the tack in close view, and no saddle type is named for a Raza-only cast. Iron stirrups are right for the period. The facing direction matches the sheet and the other Raza panels. Wording slightly clarified."
+   },
+   {
+    "id": "page-05-panel-03",
+    "keep": true,
+    "addendum": "He looks down toward the left of the frame, so the scarred left cheek faces the camera. Quilted Indian cloth saddle, with no Western saddle horn.",
+    "reason": "Correct, and it puts the off-panel Nagoji on the left, consistent with the tails in 5.2 and 5.3. Short. Kept."
+   },
+   {
+    "id": "page-05-panel-05",
+    "keep": true,
+    "addendum": "Raza Khan is on the right of the frame, turned toward Nagoji on the left, so his scarred left cheek faces the camera. His scar is the same old healed scar as on his sheet, and the sweat on his face is clear, with no red streaks or smears. The water vessel is a dried bottle gourd lowered just below his mouth, so his face reads. Nagoji's cream sleeves come down to his wrists and cover both forearms.",
+    "reason": "The speaker's face, the sides and the brand risk are all real. Fix: 'no red marks on his face' would fight the sheet's reddish scar and could change the scar from panel to panel. The new wording keeps the sheet's scar and rules out only red sweat streaks or smears (failure 8)."
+   },
+   {
+    "id": "page-06-panel-01",
+    "keep": true,
+    "addendum": "His cream sleeves come down to his wrists and cover both forearms. His ear stud is a tiny flush gold dot on the earlobe.",
+    "reason": "Talking with his hands while squatting puts his forearms in view. Same evidence as 1.5, and it keeps the sleeves consistent."
+   },
+   {
+    "id": "page-06-panel-02",
+    "keep": true,
+    "addendum": "Raza Khan faces toward the left of the frame so the scarred left cheek shows. He wipes sweat from his brow with the green cloth, leaving his mouth and scarred cheek uncovered; his scar is the same old healed scar as on his sheet, with no red streaks on his face or on the cloth. Of Nagoji only his RIGHT hand appears, entering from the lower edge with the cream sleeve down to the wrist; his face and body stay out of frame.",
+    "reason": "Needed: wiping can cover the speaker's mouth or read as wiping blood, and a close foreground left hand is where a painted brand is most likely. Nagoji being out of frame matches 'NAGOJI (off)'. Scar wording changed as in 5.5, so it does not contradict the sheet's reddish scar."
+   },
+   {
+    "id": "page-06-panel-03",
+    "keep": true,
+    "addendum": "Generate one complete square picture filled edge to edge with the overhead view of wet sand: no border, no frame inside the frame, no wider scene around it. The placement note is for the page layout only. If a hand shows, it is only fingertips on the driftwood at the frame edge, with no forearm.",
+    "reason": "In a standalone prompt, 'Inset' plus 'It sits at the left of the upper band of 6.5' could plausibly produce a 6.5-style beach with a small square drawn inside it (failure 3). The fingertips limit keeps any forearm, and so the brand, out of frame. Kept."
+   },
+   {
+    "id": "page-06-panel-04",
+    "keep": true,
+    "addendum": "Generate one complete square picture filled edge to edge with the overhead view of wet sand: no border, no frame inside the frame, no wider scene around it. The placement note is for the page layout only. The curved grooves end in soft rounded tips. If a hand shows, it is only fingertips on the driftwood at the frame edge, with no forearm.",
+    "reason": "Same as 6.3. The 'soft rounded tips' are a positive cue against arrowheads where the grooves 'hook away', which supports the prompt's 'no arrows'. Kept."
+   },
+   {
+    "id": "page-06-panel-05",
+    "keep": true,
+    "addendum": "Ignore the 3 to 1 FRAME SHAPE line above: this panel fills the lower half of the page, so compose it at about 3 to 2 (width to height), keeping the upper third as open sea and sky for the two insets. The drawing is only three grooves scored in the wet sand with a driftwood stick: one straight groove, and two curved grooves sweeping in from either side, bending toward it and hooking away before they touch it, their ends soft and rounded. There are no arrows, letters, symbols or other marks. The thin sheet of foam softens one end of the straight groove. Nagoji crouches on the left; Raza Khan crouches on the right with his face turned toward Nagoji, so the scarred left cheek faces the camera. Both faces show below their turbans and are not hidden by bowed heads. Nagoji's cream sleeves come down to his wrists.",
+    "reason": "The diagnosis is right, but the fix should go to the cause. The FRAME SHAPE line comes from the 'full width' solo cue and contradicts the script ('the lower half of the page... generated at its placed aspect ratio'). layout_fit gives this panel min_share 0.5, a slot of about 1.4 to 1.75:1, and the code notes that the generator takes its shape from the prompt. So the addendum states the correct shape instead of squeezing the action into the middle half of a strip that will be cropped. The rest is kept. It defines the undefined 'drawing' and 'Dutch line' (failure 2 risk) and sets the sides and visible faces."
+   },
+   {
+    "id": "page-07-panel-01",
+    "keep": true,
+    "addendum": "The map is the same three grooves in the wet sand, one straight groove and two curved grooves hooking away from it, now half smoothed by a sheet of foam; there is no paper, symbol or letter. Raza Khan is on the right of the frame, his head bent toward the map with his face turned toward the left of the frame, so the scarred left cheek faces the camera and his face stays readable. Nagoji is on the left; his cream sleeves come down to his wrists and cover both forearms where they rest on his knees.",
+    "reason": "Needed: 'half-erased map' is undefined in this prompt, and 'forearms on his knees' puts both arms in view. Fix: the proposal turned Raza's face toward Nagoji, but the script has him 'studying the half-erased map'. Bent toward the map and facing frame left keeps the script beat and still shows his left cheek."
+   },
+   {
+    "id": "page-07-panel-02",
+    "keep": true,
+    "addendum": "Raza Khan looks out toward the left of the frame, so the scarred left cheek faces the camera. Nagoji walks toward his grey on the right of the frame and turns his face back toward Raza Khan in profile, so his balloon has a visible speaker; his cream sleeves come down to his wrists.",
+    "reason": "'Already walking back toward his grey' invites a back view of the speaker of 'Make them hold.' (failure 9). The sides hold together. I added the sleeve clause because his arms swing in view while walking, and it keeps the sleeves consistent with 7.1 and 7.4."
+   },
+   {
+    "id": "page-07-panel-04",
+    "keep": true,
+    "addendum": "Varma's head is bare: black hair combed back from the forehead into a knot above his left ear, with nothing on top of his head. Ramayyan's palm leaf is seen edge-on, the stylus tip just touching it, with no marks or script visible. Nagoji's cream sleeves come down to his wrists.",
+    "reason": "Matches the bible ('side knot above his left ear') and the script. The varma-v1 sheet shows the turban and crest on every head, and the injected bible line describes the court turban, so a positive bare-head description is needed. A palm leaf with writing on it is a confirmed pseudo-text risk (failure 2); seen edge-on, the writing action stays. Kept."
+   },
+   {
+    "id": "page-08-panel-01",
+    "keep": true,
+    "addendum": "His rust-red turban is on, wrapped as on the sheet's full-length commander figure. His cream sleeves come down to his wrists. His ear stud is a tiny flush gold dot on the earlobe.",
+    "reason": "A medium close-up with a sheet whose three face studies are bare-headed. The script's own generation note warns of this, and it is spelled out in 1.5, 9.3 and 10.4 but missing here. With the reins in hand, his forearms show. Kept."
+   },
+   {
+    "id": "page-08-panel-02",
+    "keep": true,
+    "addendum": "Seen from behind, his hair knot sits above his left ear, on the left side of the frame, and there is nothing else on his head.",
+    "reason": "Correct: from behind, his left ear is on frame left. 'Bun to his left' in a back three-quarter view is easy to mirror, and the only reference has turbans. Low cost. Kept."
+   },
+   {
+    "id": "page-08-panel-03",
+    "keep": true,
+    "addendum": "The palm leaves in Ramayyan's lap are seen edge-on or from their blank side, with no marks or script visible. Nagoji's rust-red turban is on, as on the sheet's full-length commander figure, and his ear stud is a tiny flush gold dot on the earlobe. Both faces are visible.",
+    "reason": "Medium-range palm leaves are a confirmed pseudo-text risk, and both speakers need visible faces. I added the flush-stud clause: the prompt names his 'gold ear stud' in a close shot, the same case as 8.1 and 9.1."
+   },
+   {
+    "id": "page-08-panel-05",
+    "keep": true,
+    "addendum": "His head is bare: black hair combed back from the forehead and gathered into a knot above his anatomical left ear. There is no cloth, band, feather or jewel on his head, unlike the heads on the sheet.",
+    "reason": "This is the panel most likely to go wrong. A tight face with only the turbaned varma-v1 attached, and the prompt's 'NO turban' is only a negative. A positive description of the bare head and knot is needed. Matches the bible's beach rule. Kept."
+   },
+   {
+    "id": "page-09-panel-01",
+    "keep": true,
+    "addendum": "A small nod, with his face still readable under the turban. His ear stud is a tiny flush gold dot on the earlobe.",
+    "reason": "'Bows his head' can hide the face of the man saying 'I will try.' The nod still lands. The stud evidence is as in 1.5. Kept."
+   },
+   {
+    "id": "page-09-panel-03",
+    "keep": true,
+    "addendum": "This is an extreme close-up, not a face placed in a wider scene; the 'middle half of the height' clause above does not apply. The strip shows only a band of the face: the lower edge of the rust-red turban along the top border, the eyes and brows across the middle, and the top of the moustache along the bottom border. Leave a plain, low-detail dark area at one end of the strip, beside his temple, for the one-word caption.",
+    "reason": "Needed. The FRAME SHAPE line's 'keep faces... inside the middle half of the height' directly contradicts the script's crop from turban edge to moustache, and invites a small whole head in a wide strip. Fix: 'beyond the far temple' implied a three-quarter turn, but the script says 'eyes, forward'. I changed it to 'beside his temple' and named the clause being overridden."
+   },
+   {
+    "id": "page-09-panel-04",
+    "keep": true,
+    "addendum": "Put the memory along the right edge, about a third of the width. It has no border, no hard edge and no rectangle, and fades into the dusk through a soft, smoky dissolve, in paler, faded tones under a pale sky so the black mare reads in silhouette. Nagoji walks in the other two thirds, clear of it. The only light comes from the open cook fires and the sky; there are no lanterns.",
+    "reason": "Matches the script's 'like a stain rather than a clean flashback frame'. It stops the hard-edged rectangle (failure 3), keeps the memory off Nagoji, and makes a black mare on black soil readable at dusk. Glass lanterns are a confirmed failure, and a dusk picket line invites them. Kept."
+   },
+   {
+    "id": "page-09-panel-05",
+    "keep": true,
+    "addendum": "Enough warm last light falls on her that the ochre red-brown body reads clearly against her black mane and legs. She looks toward the camera, with no person beside her.",
+    "reason": "In dusk light a bay can render near black and read as Kanka (failure 6). 'Watching him come' with a Kayal-only cast could bring in an unreferenced man. Looking toward the camera also gives the eye echo of page 1 that the script wants. Kept."
+   },
+   {
+    "id": "page-10-panel-02",
+    "keep": true,
+    "addendum": "He holds out his RIGHT hand, palm up; his left arm hangs at his side. His cream sleeves come down to his wrists. His rust-red turban is on, wrapped as on the sheet's full-length commander figure.",
+    "reason": "A palm-up left hand is the easiest way to paint a brand without the script asking for one. Naming the right hand avoids it without changing the beat. It is a close shot, so the commander-figure note applies. Kept."
+   },
+   {
+    "id": "page-10-panel-03",
+    "keep": true,
+    "addendum": "His cream sleeves come down to his wrists. His rust-red turban is on, as on the sheet's full-length commander figure.",
+    "reason": "A hand on her neck in a close shot puts a forearm in view, and his eyes-closed head is near the bare-headed face studies. Short. Kept."
+   },
+   {
+    "id": "page-10-panel-04",
+    "keep": true,
+    "addendum": "Keep the upper third of the frame plain, darkening sky above their heads for three lettering areas. His ear stud is a tiny flush gold dot on the earlobe.",
+    "reason": "A close two-shot of two heads with three lettering areas is a likely failure-9 case. The stud is in close view. Kept."
+   },
+   {
+    "id": "page-11-panel-02",
+    "keep": true,
+    "addendum": "Ibrahim faces toward the left of the frame, toward Nagoji, so his lit left side and scar face the camera. Nagoji's cream sleeves come down to his wrists.",
+    "reason": "The facing anchor is correct, matches the sheet's heads and fixes the screen geography for 11.3 to 12.4 (Nagoji left). Nagoji's hand on the neck puts a forearm in view. I dropped the coat-colour sentence as speculative. The muted teal coat on the attached sheet will drive the colour, and naming 'teal' next to the script's 'no green' is more likely to confuse than help."
+   },
+   {
+    "id": "page-11-panel-03",
+    "keep": true,
+    "addendum": "He faces toward the left of the frame, so the scarred left side faces the camera.",
+    "reason": "Correct, cheap and consistent with 11.2 and the sheet. It guards against a mirrored scar in a solo shot. Kept."
+   },
+   {
+    "id": "page-11-panel-04",
+    "keep": true,
+    "addendum": "His RIGHT hand rests on Kayal's mane, and his cream sleeves come down to his wrists. His ear stud is a tiny flush gold dot on the earlobe.",
+    "reason": "A hand on the mane in a medium shot puts a forearm in view. Naming the right hand and the sleeves keeps the unscripted brand away. Kept."
+   },
+   {
+    "id": "page-11-panel-05",
+    "keep": true,
+    "addendum": "Ibrahim is alone in the frame; Nagoji is not shown. He looks off toward the left of the frame, so his lit left side and scar face the camera.",
+    "reason": "The cast is Ibrahim only, so 'his eyes going past Nagoji' could bring in an unreferenced Nagoji. Looking left matches the geography from 11.2 onward. Kept."
+   },
+   {
+    "id": "page-12-panel-01",
+    "keep": true,
+    "addendum": "The sea lies to the left of the frame, and Ibrahim half turns toward it, so his scarred left side faces the camera.",
+    "reason": "Without a side for the sea, 'half turned toward the sea' can hide the scar. Consistent with 11.5. Kept."
+   },
+   {
+    "id": "page-12-panel-03",
+    "keep": true,
+    "addendum": "Nagoji's turban and shoulder are at the LEFT edge of the frame, so Ibrahim, facing him, shows his scarred left side.",
+    "reason": "Correct, and it continues the 11.2 geography. Kept."
+   },
+   {
+    "id": "page-12-panel-04",
+    "keep": true,
+    "addendum": "Ibrahim walks away from the camera into the dark toward the upper right, and looks back over his LEFT shoulder (the shoulder on the left of the frame), so his face shows in profile with the scarred left side toward the camera and his balloon has a visible speaker.",
+    "reason": "Needed against a back-only speaker. Fix: 'walks away toward the right of the frame' can be drawn as a profile walk to the right, which shows his right side, and turning over the far left shoulder would then hide his face. Walking away from the camera makes the left-shoulder look show the left cheek."
+   },
+   {
+    "id": "page-12-panel-05",
+    "keep": true,
+    "addendum": "Enough moonlight falls on Kayal that her ochre red-brown body still reads against her black mane, tail and legs; she must not read as a black horse.",
+    "reason": "A night shot with only 'bay, black mane and tail' is likely to render her black, which reads as Kanka (failure 6). Kept. Separate issue for the orchestrator, not addressed by this addendum: the 3:1 FRAME SHAPE here comes from the same 'full width' cue as 6.5. The script calls this 'the largest panel on the page... generated at its placed aspect ratio', so check its slot before generating."
+   }
+  ]
+ }
+}

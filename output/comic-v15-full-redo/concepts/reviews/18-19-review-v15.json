@@ -1,0 +1,98 @@
+{
+  "review_version": "v15",
+  "reviewed_by": "Codex",
+  "characters": [
+    {
+      "character": "18 Savitri of Kottarakkara",
+      "source_sheet": "output/character-model-sheets-v1/18-savitri.png",
+      "source_sha256": "d63bfadb38ac2752872feac5b8bf5aabcf06766f0d39636019487d22d77d9f11",
+      "output": "output/comic-v15-full-redo/concepts/18-savitri-v15.png",
+      "output_sha256": "cd002c389ba33272054e73a592b8be84931bf3ab89b5dfa573d47857633c8df4",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/18-savitri-v15.txt",
+      "attempts": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/18-savitri-v15.png",
+          "sha256": "cd002c389ba33272054e73a592b8be84931bf3ab89b5dfa573d47857633c8df4",
+          "checks": {
+            "dimensions_1536x1024": "pass",
+            "old_face_preserved": "pass",
+            "older_careworn_identity": "pass",
+            "plain_white_mourning_clothes": "pass",
+            "all_full_body_views_consistent": "pass",
+            "expressions_and_details_consistent": "pass",
+            "layout_preserved": "pass",
+            "text_readable_and_correct": "pass",
+            "stale_crimson_or_purple_costume_removed": "pass",
+            "no_extra_characters_or_anachronisms": "pass",
+            "no_em_or_en_dash": "pass"
+          },
+          "reasons": []
+        }
+      ],
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "old_face_preserved": "pass",
+        "older_careworn_identity": "pass",
+        "plain_white_mourning_clothes": "pass",
+        "all_full_body_views_consistent": "pass",
+        "expressions_and_details_consistent": "pass",
+        "layout_preserved": "pass",
+        "text_readable_and_correct": "pass",
+        "stale_crimson_or_purple_costume_removed": "pass",
+        "no_extra_characters_or_anachronisms": "pass",
+        "no_em_or_en_dash": "pass"
+      },
+      "notes": "The obsolete crimson costume was replaced throughout by plain white mourning dress. Detail captions and palette labels now describe the white mourning variant. Face, hair arrangement, panel layout and expression identity were retained.",
+      "attempt_count": 1,
+      "selected_attempt": 1
+    },
+    {
+      "character": "19 Kanka",
+      "source_sheet": "output/character-model-sheets-v1/19-kanka.png",
+      "source_sha256": "0e1df2fc82b7d1c066ef4c3f2acd483c85725f4b5ef07caff1e2992342f8727c",
+      "output": "output/comic-v15-full-redo/concepts/19-kanka-v15.png",
+      "output_sha256": "ad7ef9ce9481cedbca01195dcffaec122f8df8414b35756ed5086d6e6183996a",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/19-kanka-v15.txt",
+      "attempts": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/19-kanka-v15.png",
+          "sha256": "ad7ef9ce9481cedbca01195dcffaec122f8df8414b35756ed5086d6e6183996a",
+          "checks": {
+            "dimensions_1536x1024": "pass",
+            "black_mare_identity": "pass",
+            "no_stallion_reading": "pass",
+            "black_coat_mane_tail_preserved": "pass",
+            "plain_brown_bridle_and_modest_brass": "pass",
+            "no_white_markings": "pass",
+            "four_legs_and_natural_hooves": "pass",
+            "all_full_body_views_consistent": "pass",
+            "horse_expressions_natural": "pass",
+            "layout_preserved": "pass",
+            "text_readable_and_correct": "pass",
+            "no_rider_saddle_armour_or_extra_animals": "pass",
+            "no_em_or_en_dash": "pass"
+          },
+          "reasons": []
+        }
+      ],
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "black_mare_identity": "pass",
+        "no_stallion_reading": "pass",
+        "black_coat_mane_tail_preserved": "pass",
+        "plain_brown_bridle_and_modest_brass": "pass",
+        "no_white_markings": "pass",
+        "four_legs_and_natural_hooves": "pass",
+        "all_full_body_views_consistent": "pass",
+        "horse_expressions_natural": "pass",
+        "layout_preserved": "pass",
+        "text_readable_and_correct": "pass",
+        "no_rider_saddle_armour_or_extra_animals": "pass",
+        "no_em_or_en_dash": "pass"
+      },
+      "notes": "The source identity and layout were retained. The edited sheet consistently presents Kanka as a black mare with natural refined mare proportions, no visible male anatomy or stallion cue, and the required plain bridle, four legs and no white markings.",
+      "attempt_count": 1,
+      "selected_attempt": 1
+    }
+  ]
+}

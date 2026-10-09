@@ -1,0 +1,454 @@
+{
+ "chapter": 1,
+ "confirmed": [
+  {
+   "page": 1,
+   "panel": "1",
+   "severity": "major",
+   "description": "A background prisoner is drawn as a second Nagoji. He sits in the middle of the chained line, just left of the grey-bearded man, and has all of Nagoji's markers: curly black shoulder-length hair, a thick curled moustache, a clean-shaven chin and a small gold ear stud. In the panel that establishes the narrator, the reader sees two men with his face. The extra should get a beard, a different hairstyle and no earring.",
+   "evidence": "page-01.png, crop px (760,460)-(860,560) on the 1838x2775 render: profile facing left, with a curled moustache, a bare chin and a gold stud on the visible ear. Compare the foreground Nagoji at px (1010,360)-(1690,915) and the V13 nagoji-v2 sheet.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I'm confirming this, but as minor, not major. A crop of page-01.png at px (700,420)-(960,620), enlarged 4x, shows the extra just left of the grey-bearded man. He has curly black hair, a thick curled moustache, a clean chin and a small gold stud on his visible ear. That is four of Nagoji's fixed identity markers from CONTINUITY.md. The bible also cares about lookalikes: it takes the ear stud off Keshavrao \"so he cannot be mistaken for Nagoji\", and it keeps Nagoji's sheet off Bhalerao. So the resemblance is real and goes against the author's stated intent.\n\nThe claim that the reader sees \"two men with his face\" goes too far, for these reasons:\n- The extra's hair stops at the nape. Nagoji's hair is long.\n- The extra wears cream or white rags, not Nagoji's torn ochre sleeveless tunic.\n- His head is about 100 px tall, roughly 0.3 in at print size. At that size the ear stud is a speck of a few pixels.\n- Several other prisoners in the row also have moustaches and dark curly hair, including the man two places to his left and the curly-haired man with his head down to the right of the grey beard. He reads as one of a generic group, not as a clone.\n- The narrator is unmistakable: the large foreground figure in ochre, with bandaged hands, at px (1300,360)-(1560,600).\n\nThe cast override for page-01-panel-01 lists only Nagoji, and the bible sets no rule for unnamed cellar extras. This is a polish fix for the next repaint of this panel: give the extra a beard or shorter, straight hair and remove the stud. It does not need a forced redraw."
+   }
+  },
+  {
+   "page": 2,
+   "panel": "2.1",
+   "severity": "major",
+   "description": "Duarte is seen from behind, walking away down the passage, but his gold cross on its chain hangs down the middle of his back.",
+   "evidence": "Zoomed crop of 2.1: we see the back of his grey head and the back of his cassock and cape. The thin gold chain and crucifix hang centred on his spine, below the shoulder cape. On the sheet and in every other panel the cross hangs on his chest.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 2, panel 2.1. I zoomed in on the original render around x 900-1060, y 360-560. Duarte is drawn from behind. We see the back of his grey head and neck, the back of his shoulder cape and sash, and his right hand reaching back to lift the hem. A thin gold chain runs from his collar down the back of the cape to a gold crucifix that hangs on his upper back, slightly left of his spine. That cannot happen with a pendant worn at the neck. The bible gives him \"a small cross on a thin chain\", and panel 2.2 shows it on his front as normal. Nothing in the script allows it: the script for 2.1 says only that we see the priest backlit and do not see faces. This is not too small to matter. The cross is about 2 mm tall at print size, but it is the only bright gold spot on an all-black figure, so the eye goes straight to it, and it was easy to see even in the downscaled full-page view. It is a costume error confined to one spot, so it rates major, not a blocker. The fix is small: paint the cross and chain out of the back view (only the chain might show at the neck), with no need to redraw the panel."
+   }
+  },
+  {
+   "page": 2,
+   "panel": "2.1, 2.2",
+   "severity": "major",
+   "description": "Duarte wears a short shoulder cape (a pellegrina) over the cassock. It is not on the approved sheet or in the bible, which calls for a plain black cassock with a plain standing collar. The cape also comes and goes through the chapter, so his costume flickers.",
+   "evidence": "Cape present: 2.1, 2.2, 3.5 and 6.1 (a clear cape line across the shoulders and upper arms). Cape absent: 3.1, 4.2, 4.4, 5.3, 7.2, 8.3 and 8.6, where he wears the plain cassock and sash from 10-father-duarte-v15.png.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed. I zoomed into page 2. In 2.1 and 2.2 Duarte clearly wears a short shoulder cape (a pellegrina). Its hem runs across the upper arms, above the sash, and it is easy to see at print size. In 2.2 it hangs well past his elbow on the near arm. The approved sheet, 10-father-duarte-v15.png, shows the front, both profiles and the back, and none of them has a cape: just a buttoned cassock, a standing collar, a sash and a cross. The bible line (CONTINUITY.md line 68) asks for a plain black cassock with a plain standing collar, and the script never mentions a cape. The flicker is real. 3.5 (cape clearly visible over the arms) and 6.1 (cape edge across the shoulders and upper arms) also have it. 7.2, 7.6, 8.1, 8.3 (the overhead full-figure view) and 8.6 show the plain cassock with no cape. Pages 6 to 8 are one continuous interrogation, so the cape appears and disappears in the same room in the same scene. A pellegrina is period-plausible for an 18th-century Jesuit, so this is not an anachronism. It is still off-model against the approved sheet and inconsistent across panels. The task rubric rates a costume error as major, and it is localized to 2.1, 2.2, 3.5 and 6.1. Fix: remove the cape from those four panels, or the author could approve the cape and add it everywhere, but one of the two is needed."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.5",
+   "severity": "major",
+   "description": "Duarte has drifted off model. He looks younger and smoother, with darker brown-grey hair combed flat back instead of the gaunt fifties face with loose grey curls at the sides. He also wears the off-sheet shoulder cape.",
+   "evidence": "Zoomed crop of 3.5 (right edge): smooth, unlined face and slicked brown-grey hair. Compare 3.1 on the same page and 4.2, which show deep lines and tousled grey curls as on the sheet.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I confirmed part of the claim and am downgrading it to minor. In panel 3.5 (far right of the bottom strip on page 3), Duarte wears a tiered shoulder cape over his cassock. The cape shows in a 4x zoom and can still be made out at full-page size. The approved sheet (10-father-duarte-v15.png) shows a plain cassock with a sash and no cape. Panel 3.1 on the same page and panels 4.2 and 4.4 on the next page all show him without one, so the cape appears in one panel and is gone in the panels on either side. That is a real costume inconsistency.\n\nThe identity part of the claim does not hold up at print size. Duarte is a small background figure here, about 0.8 in tall, with a face about 6 mm high. At that size, smoothness or facial lines cannot be judged. His hair is swept back and grey-taupe under the orange torchlight, with a little curl at the nape. That fits the bible's \"grey hair swept back\" well enough. He still reads clearly as Duarte: gaunt profile, black cassock with a standing collar, small gold cross, and he speaks the line. Panel 4.4 draws him at a similar small size, and that version is more on-model with curlier grey hair. That makes 3.5 the weak one, but not a wrong identity.\n\nNeither the bible nor the script forbids a cape, and it is not anachronistic. The script's beat (Duarte standing, turning away, not looking at Nagoji) is delivered. So this is a localized polish fix: remove the cape, and optionally grey the hair and add a few curls. It is not a major redraw."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.1, 3.5",
+   "severity": "major",
+   "description": "The cellar setting breaks continuity. Pages 1 and 2 establish Nagoji in a long row of chained prisoners along a wet, moss-streaked wall, ankles linked to a shared iron bar. On page 3 the other prisoners are gone, and he sits alone in different rooms.",
+   "evidence": "3.1: Nagoji sits alone against a torch-lit wall beside a blue arched barred window, with no men either side. 3.5: Nagoji sits alone on a stone ledge in a large vaulted hall with a central staircase, his ankle chain running to a wall ring rather than the shared bar. In 2.2 and 2.3 he sits shoulder to shoulder with other prisoners.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed from zoomed crops of page 3. Panel 3.1: Nagoji sits on the floor with nobody on either side. Behind him is a dry, torch-lit ashlar wall with arched barred windows, and there is a lone wall ring to his right. The wet, moss-streaked wall and the row of prisoners from 1.1, 2.2 and 2.3 are gone. Panel 3.5 is a wide strip that establishes a new space: a large, empty vaulted hall with a broad central staircase and a reflective floor. Nagoji sits alone on a raised stone ledge, his ankle chain running up to a wall ring instead of the shared iron bar. Panel 3.2 also shows only an empty wall with a ring, and 3.4 shows an empty vaulted corridor. Nothing in the script or the bible allows this. Script 1.1 has \"Fifteen men chained in a row along it, ankles linked by a single iron bar\". In 2.2 Duarte moves \"along the line of prisoners\", and 9.1 returns to \"Back in the cellar. Nagoji chained in his place\", so page 3 is meant to be the same cellar and the same row. The cast override lists only named characters (1.1 also lists only Nagoji, yet 15 men are drawn), so it does not rule out the background prisoners. The page 3 panel prompts never mention the cellar, the row or the bar, which explains the drift. This is not too slight to matter. 3.5 is a full-width wide shot, and at print size the empty hall and lone ledge read clearly as a different room, one page after the crowded row. It is localized background and setting continuity, not identity or a missing beat. All dialogue beats are present and correctly attributed. So major, not blocker. Mainly 3.5 needs a redraw back in the moss-walled cellar with neighbours and the shared bar. 3.1 also needs neighbours or the matching wet wall."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.3 (and knock-on to 3.2, 3.4, 3.5)",
+   "severity": "major",
+   "description": "The page layout is badly out of proportion. The tight mouth insert 3.3 takes about 40% of the page, so the other four beats are squeezed into thin strips. The approved r6 page 3 used a modest strip for the mouth. At this scale the crop runs from nostrils to neck and enlarges the crackled skin texture, and both balloon tails end on the chin, well below the lips.",
+   "evidence": "In LAYOUT-fitted-d8.json, page 3 rows are [103, 57.8, 240.1, 59.6, 55]. In the render, 3.3 spans page y 755 to 1475 of 2000. The squeezed strips crop heads at the top border: Nagoji's crown in 3.2 and Jo\u00e3o's head in 3.4. The 3.3 tails stop at the chin around y 1270, while the lips sit around y 990.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "The problem is real, but it is minor rather than major.\n\nWhat the art shows: I measured the r13 page-03.png (1838x2775). The panel rows sit at y 358-790 (3.1), 795-1039 (3.2), 1044-2048 (3.3), 2053-2305 (3.4) and 2310-2542 (3.5). So 3.3 takes about 1004 of the 2184 px panel area (46%, or 36% of the full page). 3.2, 3.4 and 3.5 are each squeezed to roughly 230-250 px, about 0.8 in when printed. That matches LAYOUT-fitted-d8 page 3 rows [103, 57.8, 240.1, 59.6, 55]. The approved r6 layout (LAYOUT.json / ch01 r6 page 3) used [134, 90, 124, 89.5, 78], where 3.3 is about 24%. Comparing r7, r9, r11, r12 and r13 shows the insert growing with each fitted layout. At this size the crop runs from the nostrils to the neck, and a zoomed crop of the chin (x 700-1300, y 1500-1900) shows the crackle-like skin texture enlarged. It is still faintly visible at half scale. Both 3.3 tails end on the chin (tips near y 1765 native), well below the lips (near y 1375).\n\nWhy it is not major:\n- No beat is missing and no action is hidden. In 3.2 Nagoji's face and level look are complete. In 3.4 Jo\u00e3o's laugh, beard and hands on belt all read. In 3.5 Duarte is standing and turned away, and \"Bring him.\" is clearly his.\n- The head crops in 3.2 and 3.4 only trim the hair crown at the top border. The faces are intact.\n- The 3.3 tails point up toward the only figure in the panel, so the speaker is clear. That is a polish point, not a wrong-speaker tail.\n- The script sets no panel sizes for page 3, so this is a pacing and balance flaw, not a breach of the script or the bible.\n- The r11 and r12 five-lens reviews rated this same imbalance as minor.\n\nFix: re-crop the 3.3 viewport to a modest strip, as in r6. That gives the space back to 3.1, 3.2 and 3.5, removes the top-border head trims and shortens the distance from the tails to the mouth."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "major",
+   "description": "Jo\u00e3o's off-panel balloon tail ('Two days. He still insists he is only a horseman.') is a very long wedge. It runs from the balloon at lower centre to the right panel edge and cuts diagonally across Nagoji's forearm and lap, in the panel where Duarte is supposed to be looking at Nagoji's bandaged hands.",
+   "evidence": "In the crop of 3.1, the white tail starts at the balloon's right end (page x about 660, y 520), passes over Nagoji's raised right arm and elbow, and reaches the right border near y 375. The balloon also covers Duarte's crouched lower body.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I couldn't refute this. On page 3, panel 3.1 (r13 render), Jo\u00e3o's off-panel tail on \"Two days. He still insists he is only a horseman.\" starts at the right end of the balloon, at about x 920, y 725 on the 1838 px page. It runs as a long white wedge to the right border at about x 1680, y 515, which is roughly 760 px, or about 2.5 inches at print size, across nearly half the panel. Crops show it cutting diagonally across Nagoji's left forearm, which rests across his body, and across his lap and right knee. It is plainly visible even at full-page thumbnail size. Neither CONTINUITY.md nor the script sets any rule for off-panel tails, so nothing allows it. One correction to the report: both bandaged hands sit above the tail and stay fully visible, and so does Duarte's downcast face. The key beat (Duarte looking at the hands) is still readable, so this is not a blocker. Separately, the same balloon hides Duarte's lower body, which weakens the \"crouched to Nagoji's level\" staging. This is clearly wrong lettering in one panel, and the fix needs no redraw: shorten the tail to a short off-panel stub at the nearest border, or move the balloon. That makes it major."
+   }
+  }
+ ],
+ "refuted": [
+  {
+   "page": 6,
+   "panel": "5",
+   "lens": "identity",
+   "description": "In the Kanka memory inset, Nagoji in his pre-capture cavalry dress (rust-red turban, cream tunic, red sash) has visible stubble across his jaw and chin. His moustache is a short, straight, downturned one, not the thick curled moustache. The bible allows light stubble only in captivity, and this is before his capture, so the face should match the clean-chinned commander look on the sheet. Kanka herself matches her sheet: black coat, brown bridle, brass fittings.",
+   "reason": "I refute this one. When zoomed in, the inset face in panel 6.5 (page-06.png, around px 380-560, 2290-2500) does show some grey shading on the jaw and chin, and a moustache that is shorter and less curled than on the sheet. There are three reasons this is not a real problem. (1) Size: at 300 DPI the memory-Nagoji face is only about 55-70 px wide, roughly 5 mm when printed. At native resolution the shading reads as ordinary modelling of the jaw, not stubble. (2) The sheet already looks like this: the commander figure and the left-profile head on nagoji-v2.png both have the same faint grey shading on the jaw and chin. So the inset matches the sheet the bible tells us to follow (the bible note says pre-capture memory panels should match the commander sheet). (3) Identity: the face is in profile with the eyes closed, pressed into the mane, so the moustache is foreshortened and its curl can't be seen from this angle. At print size he is still clearly Nagoji: rust-red turban, cream tunic, red sash, gold ear stud, long curly black hair, unbandaged hand, and a black mare with a brown bridle and brass fittings. The script asks for a painterly stain bleeding into the panel, not a clean portrait. The difference from the front-facing present-day face on the right comes from the angle and the painting style, not a different face. At most this is a polish note, and I'm not confident enough to confirm it."
+  },
+  {
+   "page": 8,
+   "panel": "8.5",
+   "lens": "continuity",
+   "description": "The background Nagoji contradicts the scene. He sits by the wall near the door on a chair, wrists unbound and resting in his lap, looking relaxed with a slight smile, while 8.3 has him bound to the stool in the middle of the room under the ropes, with Jo\u00e3o working on his hands.",
+   "reason": "I zoomed into page 8, and the art does not show the contradiction the reviewer describes. In 8.3 Nagoji is not tied to the stool with rope. He sits on a plain wooden stool with bandaged wrists and chained iron cuffs on his ankles, and Jo\u00e3o holds his hands. The hanging ropes are behind the stool, not on him. In 8.5 he sits on the same kind of stool with the same bandaged wrists, the same ankle cuffs and chain, and the same tan vest and off-white trousers. His hands rest in his lap because Jo\u00e3o has let go and is reaching for the brazier, so loose hands follow from the beat. The script asks for \"Nagoji, blurred, in the background\", and he is drawn soft-focus behind the brazier, as asked. The wall chains, door and table behind him come from a low, compressed camera angle. Comics shift the room around like this all the time, and his setup still matches 8.3. Even blown up, his face is too soft to read as a clear smile. At print size it reads as quiet and withdrawn, which suits the script's line about the mind floating above the body. Nothing here needs fixing."
+  },
+  {
+   "page": 3,
+   "panel": "3.2",
+   "lens": "lettering",
+   "description": "Duarte's off-panel line 'You understand our language, senhor marata?' has its tail pointing to the right panel edge. 3.1 just set up the off-panel right as Jo\u00e3o's voice, and Duarte was staged to Nagoji's left. Nagoji's eyeline in 3.2 also goes up and to the left. A reader will likely give this line to Jo\u00e3o.",
+   "reason": "Refuted. The tail is real but the claim does not hold up. I zoomed in on 3.2 (page px about 560-1700, y 790-1040) and found three things. (1) The eyeline evidence is wrong. Nagoji's face turns slightly toward the viewer's right: the nose sits right of the face's center and his right ear and earring show on the viewer's left. Both irises sit at center or a little right of center, looking at the camera and slightly up and right. They do not look to the viewer's left. So inside 3.2 the short right-pointing tail matches where Nagoji is looking, which is normal lettering practice for an off-panel speaker. (2) The tail is a short stub that stops about 50 px before the right border. Jo\u00e3o's tail in 3.1 is a long wedge running to the upper right edge, so the two do not read as the same convention. (3) There is a mismatch with 3.1: there Duarte is on the left, here the camera reverses and Nagoji faces right. But it is cleared up at once. The script and the cast file both have Duarte off-panel in 3.2. Nagoji's reply in 3.3 starts with \"Father,\" which only fits the priest. Jo\u00e3o's 3.4 line, \"You see. He understands,\" only works if someone else asked the question. At most a reader stumbles for one panel, so the beat and the speaker are not lost. At print size this is minor polish at most: the letterer could optionally move the balloon or tail to the left or bottom-left to match 3.1. It is not a major error."
+  },
+  {
+   "page": 8,
+   "panel": "8.1, 8.2",
+   "lens": "fidelity",
+   "description": "The planted hesitation beat does not read. Script 8.1 asks for Duarte's jaw working, 'as if he is chewing words he cannot swallow', held for a full panel the reader must remember in ch24, then 8.2 a small weary nod. The art gives two small half-width strips that look like the same frame twice. Duarte's face is neutral in both, and the only difference is a slight head dip in 8.2. He sits in the left third of each strip, and empty wall fills the rest.",
+   "reason": "Refuted. I zoomed in on page-08.png top row (x140-1700, y350-600 at 300 DPI) and checked it again at about 150 DPI. The beat reads, and parts of the claim do not match the art.\n\n(1) The two panels are not \"the same frame twice.\" They use the standard comics pause device: the same framing repeated with one changed detail. In 8.1 Duarte's eyes are open and cast down-right. In 8.2 his eyes are fully closed and his head and nose drop further. That reads as a weary, resigned nod, which is exactly what script 8.2 asks for. The difference is still clear at reduced size.\n\n(2) Duarte's face in 8.1 is not neutral. His brow is knitted, his lips are pressed with the corners turned down, and his gaze is averted. That is a troubled, reluctant look. It follows Jo\u00e3o's \"Let me loosen his tongue\" across the page turn and comes just before the torture wide in 8.3, so the reader gets: hesitation, then consent, then consequence.\n\n(3) The script only asks for a dedicated panel (\"Hold on him for a full panel\"). It gives no size, so two half-width strips meet the instruction. The empty wall works as negative space in a silent beat panel. It does not hide any action.\n\n(4) The ch24 plant is also reinforced on the same page: in 8.6 Duarte is turned away and says \"Enough.\"\n\nThe one fair point is minor polish: 8.1 shows no visible jaw clench or masseter tension for \"chewing words he cannot swallow.\" That nuance is too slight to matter at print size, where the face is about 0.3 in tall, and the hesitation still reads. It is not a major defect."
+  },
+  {
+   "page": 8,
+   "panel": "8.5",
+   "lens": "fidelity",
+   "description": "Background Nagoji contradicts the torture beat. Script 8.5 comes right after the first wedge (8.3) and wants Nagoji blurred in the background. Here he sits relaxed and unbound, hands folded loosely in his lap, wearing a faint smile. That tells a different story from 'pain lost its degrees', and it breaks the wrist binding set up in 5.3 and 6.2.",
+   "reason": "Page 8, panel 5 (script 8.5) does not show the problem described. At 300 DPI (about x1250-1520, y1570-1950), background Nagoji is out of focus as the script asks. He is not unbound. Both ankle irons and their hobble chain are clearly visible. His hands and wrists are wrapped in white linen, which is what CONTINUITY.md requires for him in chapter 1 (\"bandaged hands and wrists, ankle irons\"). The \"faint smile\" cannot be seen: in a native-resolution crop the face is soft, the mouth is hidden under the moustache, and no expression can be read at print size, where the face is roughly a quarter inch. The claimed break with 5.3/6.2 does not hold either. In 8.3, the wedge panel just before, the art already has his wrists free of the stool legs and held out to Jo\u00e3o, and a wedge under the thumbnail needs that access. So 8.5, with bandaged hands forward and ankles still in irons, matches the panel before it. The script gives 8.5 no posture or expression direction; it only says \"Nagoji, blurred, in the background.\" A composed, upright figure also fits his \"entirely unimpressed\" stance in 6.2 and the script's own note that the mind floats free of the body. At most, a more slumped posture would be a small polish choice, not a major error."
+  },
+  {
+   "page": 4,
+   "panel": "4.4",
+   "lens": "fidelity",
+   "description": "The page-turn beat's framing is lost. Script: the doorway ahead is dark with a red glow from inside, and Nagoji's face is in profile, lit by that glow. The art is a medium-wide three-figure shot of Joao, Nagoji and Duarte walking. Nagoji is small at frame left, lit cool blue, and the red light never reaches his face. The 'doorway' is a flat, evenly bright red-orange slab rather than a dark opening with glow spilling out.",
+   "reason": "I refuted this after zooming into panel 4.4 on page-04.png (crop x915-1700, y1955-2550). The panel delivers the script beat (doorway ahead with a red glow from inside it, room still hidden, Nagoji's face in profile lit by the glow). (1) The face is not lit cool blue. At 5x, Nagoji is in clean right-facing profile. The orange-red glow sits on his cheek, nose, brow and the rim of his hair. A sample of the face area averages RGB about (78,49,33), which is warm. The blue-grey is only on the stone wall behind him. Duarte walks ahead in the frame but does not block the light from his face. (2) The doorway does show a red glow from an unseen interior. A stone jamb and threshold frame a red-orange opening at the right, and none of the room is visible, so the reveal is held for page 5 as the script asks. Painting the opening as a glowing field instead of a darker opening with spill is a reasonable artistic reading of \"dark, a red glow coming from inside it\", not a missing beat. (3) The script does not ask for a close-up. The medium shot of all three figures walking toward the glowing door still reads as the page-turn moment at print size. Nagoji's profile is about 0.3 inch tall and clearly legible. A tighter framing would be a taste note at most, not a fidelity error."
+  }
+ ],
+ "minors": [
+  {
+   "page": 4,
+   "panel": "4",
+   "severity": "minor",
+   "description": "In the profile at the doorway, Nagoji's moustache is a thin pencil line rather than the thick curled one, and his mouth is set in a slight smile, which softens the face toward someone else. The script asks for a face that shows nothing, lit by the red glow.",
+   "evidence": "page-04.png, crop px (1070,1990)-(1220,2110), upscaled: a thin, short moustache and a soft upturned mouth. Compare the thick curled moustache in 4.2 at px (640,1000)-(900,1250) on the same page.",
+   "lens": "identity"
+  },
+  {
+   "page": 4,
+   "panel": "4",
+   "severity": "minor",
+   "description": "The escort walking behind Nagoji wears Jo\u00e3o's signature costume: a brown leather jerkin with frog fastenings, a cream shirt with rolled sleeves and a brass-buckled belt. But his face is lean and long, with a receding hairline, unlike Jo\u00e3o's heavy, round, curly-haired face. The script has Jo\u00e3o walking behind, so readers will take this man for Jo\u00e3o with a different face. Either redraw him as Jo\u00e3o or dress the guard differently.",
+   "evidence": "page-04.png, crop px (920,1960)-(1010,2300): a lean bearded face with a receding hairline, in Jo\u00e3o's jerkin and buckle. Compare Jo\u00e3o in 4.2 at px (250,1180)-(560,1560) and the 11-joao-v15 sheet.",
+   "lens": "identity"
+  },
+  {
+   "page": 5,
+   "panel": "3",
+   "severity": "minor",
+   "description": "While being bound to the stool, Nagoji has a thinner, drooping moustache and a narrower face than on the sheet, so he reads as a slightly different man from the close-ups on pages 2, 3 and 7.",
+   "evidence": "page-05.png, crop px (650,1950)-(1400,2350): the moustache is thin and drooping rather than thick and curled. Duarte and Jo\u00e3o in the same panel match their sheets.",
+   "lens": "identity"
+  },
+  {
+   "page": 3,
+   "panel": "3",
+   "severity": "minor",
+   "description": "In the mouth close-up, Nagoji wears two large gold ball earrings, one in each ear. The bible specifies a single small gold ear stud, and the sheet's front view shows it in the right ear only. Elsewhere the stud moves between ears: his right ear in 1.3, 2.4, 7.3, 9.1 and 9.4; his left ear in 2.3, 6.3, 6.5 and 7.4.",
+   "evidence": "page-03.png, panel 3 (px ~147-1690 x 1040-2050): gold balls at both the left and right ear edges. V13 nagoji-v2 front view: a stud on his right ear only.",
+   "lens": "identity"
+  },
+  {
+   "page": 2,
+   "panel": "1, 2",
+   "severity": "minor",
+   "description": "Duarte's costume isn't consistent from panel to panel. In 2.1 and 2.2, and again in 3.5 and 6.1, he wears a short shoulder cape over the cassock. The approved sheet has no cape, and he appears without one in 4.2, 4.4, 5.3, 7.2 and 8.6.",
+   "evidence": "page-02.png, crop px (147,360)-(1690,1276): a cape over the shoulders in both panels. Also page-03.png 3.5 at px (1341,2303)-(1562,2553) and page-06.png 6.1. No cape on page-04.png 4.2 at px (1102,943)-(1470,1248) or on the 10-father-duarte-v15 sheet.",
+   "lens": "identity"
+  },
+  {
+   "page": 3,
+   "panel": "3.1 vs 3.5",
+   "severity": "minor",
+   "description": "His bandaging changes on the same page. In 3.1 both hands are wrapped over the knuckles, with reddish-brown stains. In 3.5 only the wrists are wrapped and the hands are bare and clean. The chapter keeps switching between the two: wrists only in 1.1, 4.1, 4.2 and 6.4; full stained hand wraps again in 9.1.",
+   "evidence": "3.1 crop: both hands are fully wrapped with stained knuckle bandages. 3.5 crop: white wrist cuffs only, fingers bare. The bible row for chapter 1 says 'bandaged hands and wrists', and script 1.1 says 'hands wrapped in filthy cloth', so wrists-only is under-specified.",
+   "lens": "continuity"
+  },
+  {
+   "page": 4,
+   "panel": "4.2 vs 4.3, 4.4",
+   "severity": "minor",
+   "description": "The length of Nagoji's cream dhoti changes from panel to panel on the same page.",
+   "evidence": "4.2: a full drape reaching the ankles. 4.3: a ragged, frayed hem at mid-calf. 4.4: frayed at or just below the knee. By 5.3 and 6.2 it reads as knee-length torn trousers.",
+   "lens": "continuity"
+  },
+  {
+   "page": 5,
+   "panel": "5.1 vs 5.2",
+   "severity": "minor",
+   "description": "What is on the table changes between the establishing shot and the insert.",
+   "evidence": "5.1 shows about four pliers, two hammers, four wedges and a pair of tongs, with the table in the centre of the room. 5.2 shows five pliers, six wedges, four long mallets, an iron shackle, coiled rope, folded cloth and a box. Also, the low basket brazier on a short tripod in 5.1 becomes a brazier on a tall pedestal stand in 5.3.",
+   "lens": "continuity"
+  },
+  {
+   "page": 6,
+   "panel": "6.4",
+   "severity": "minor",
+   "description": "Jo\u00e3o picks the tongs off a separate low bench by the right-hand wall, beside hanging shackles. The tool table established in 6.1 and 6.2 stands on the left of the room. The brazier also becomes a low fire tray on the floor.",
+   "evidence": "6.1 and 6.2: the long tool table is to Nagoji's left, with the brazier on a stand behind and to the right. 6.4: Jo\u00e3o stands at the right wall over a small box bench with chains on the wall, and an open fire tray burns on the floor between them.",
+   "lens": "continuity"
+  },
+  {
+   "page": 8,
+   "panel": "8.3, 8.5, 8.6",
+   "severity": "minor",
+   "description": "The brazier's design and position change within the page. With pages 5 and 6, the room has five or six different braziers.",
+   "evidence": "8.3: a small basket on a tripod at the far back left, well away from Jo\u00e3o. 8.5: a wide, deep iron pan with scroll handles right at Jo\u00e3o's hip. 8.6: a small tripod brazier at the back right.",
+   "lens": "continuity"
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "minor",
+   "description": "The cellar restraints no longer match the opening. Page 1 chains the line by the ankles to a single shared iron bar. In 9.1 each man has heavy chains hanging from wall rings to his ankle cuffs, and there is no bar.",
+   "evidence": "1.1: a continuous iron bar runs along the floor, with each man's ankle cuff chained to it. 9.1: thick chains drop from the wall to Nagoji's and his neighbours' ankle irons, and no bar is visible.",
+   "lens": "continuity"
+  },
+  {
+   "page": 9,
+   "panel": "9.2 (key-ring inset)",
+   "severity": "minor",
+   "description": "The key-ring inset shows a brown coat with brass buttons and a red facing piped in white. It is the only red uniform element among the gaolers and edges toward the British redcoat look that the bible forbids for Portuguese guards.",
+   "evidence": "Second inset of 9.2: a red-and-white striped lapel or facing at the right edge, next to brass buttons. The guards in the first inset and in 4.1 wear brown waistcoats or leather jerkins with no red.",
+   "lens": "continuity"
+  },
+  {
+   "page": 6,
+   "panel": "5",
+   "severity": "minor",
+   "description": "In the Kanka memory, Nagoji's red sash breaks up into red droplets spattered over his cream shirt and into the black ink-splash edge. It comes right after Jo\u00e3o's line 'We shot it', so it reads as blood spray. That conflicts with the no-blood rule and with the script's 'stain rather than a clean flashback' intent.",
+   "evidence": "Bottom-centre of the flashback inset, about x 560-780 / y 2440-2545 at 1838 px width. The sash's red turns into scattered red flecks mixed with the grey and black splatter.",
+   "lens": "rules"
+  },
+  {
+   "page": 3,
+   "panel": "1",
+   "severity": "minor",
+   "description": "Nagoji's hand bandages carry rust-red blotches that read as fresh blood seeping through. Under the standing rule (no blood or gore, show aftermath through staging), they should be grime-brown or plain soiled linen. He also wears two silver rings over the bandaged fingers. His identity sheet allows no jewellery beyond the ear stud, and a captive would have been stripped of rings.",
+   "evidence": "Crop of his raised hands at about x 880-1100 / y 580-720: red-brown stains on both wraps, plus a silver ring on each hand. The same hands show no rings on pages 4, 5, 8 or 9.",
+   "lens": "rules"
+  },
+  {
+   "page": 9,
+   "panel": "1",
+   "severity": "minor",
+   "description": "The wrist and hand bandages again carry reddish-brown blotches that read as dried blood. This is milder than page 3, but the same rule applies. Soiled grey-brown linen would keep the 'raw hands' aftermath without showing blood.",
+   "evidence": "Nagoji's crossed wrists, centre of the panel, about x 780-1100 / y 660-960: rust-red patches across both wraps.",
+   "lens": "rules"
+  },
+  {
+   "page": 9,
+   "panel": "2 (inset 2, key ring)",
+   "severity": "minor",
+   "description": "Beside the guard's brown coat and key ring, a bright red coat panel with a white facing stripe and a gold edge shows at the right edge of the inset. That is a British-redcoat cue on a Portuguese guard. Elsewhere the guards are in brown jerkins and waistcoats (page 4 panel 1, page 9 panel 2 inset 1).",
+   "evidence": "Inset 2 of the four-inset strip, right edge, about x 850-920 / y 1150-1570: a red garment with a white band, next to a brass tube on a tassel.",
+   "lens": "rules"
+  },
+  {
+   "page": 2,
+   "panel": "2.3",
+   "severity": "minor",
+   "description": "Jo\u00e3o's balloon 'Este. This one is stubborn.' sits so close to his head that it overlaps the side of his face and hair. The panel's top border also cuts his head at the forehead, so his first speaking face is boxed in between the border and the balloon.",
+   "evidence": "The balloon's right edge and tail overlap Jo\u00e3o's right cheek and sideburn (page x about 420 to 460, y 930 to 1000). The top of his head is cut by the panel border at y about 925.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.5",
+   "severity": "minor",
+   "description": "The two captions read in a backward Z. 'Above us, the bells rang for evening prayer.' is upper right, and its follow-on 'Steady as monsoon rain on a Deccan roof.' is lower left. The eye goes right first, then back left and down. The approved r6 standard set these left then right on one line.",
+   "evidence": "'Above us...' box at page x 737 to 1125, y 1663 to 1725. 'Steady as...' box at x 125 to 500, y 1727 to 1790.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "severity": "minor",
+   "description": "The second caption ('Not with ceremony or proclamation...') is dropped into the middle of the chained line. It covers the torsos and knees of several prisoners and the edge of Nagoji's torso, where the standard kept both captions on the wall above the figures.",
+   "evidence": "Caption box at page x 585 to 1015, y 408 to 500, over the grey-bearded man's and the sleeping man's laps and the left edge of Nagoji's tunic.",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.1",
+   "severity": "minor",
+   "description": "Duarte's second balloon ('What we do not know is who ordered the attacks...') is set as a tall, narrow column of 2 to 3 words per line over 8 lines, squeezed against the right border. Its tail points at the back of Duarte's shoulder rather than toward his mouth.",
+   "evidence": "Balloon at page x 965 to 1190, y 400 to 695. The tail tip is at about x 900, y 470, behind Duarte's head; his mouth is at about x 835, y 400.",
+   "lens": "lettering"
+  },
+  {
+   "page": 7,
+   "panel": "7.2",
+   "severity": "minor",
+   "description": "Duarte's two balloon tails do not point to his mouth. The first ends on his eye and cheekbone. The second ('Do you believe you fight for God...') ends on his raised, ink-stained hand.",
+   "evidence": "Second tail tip at page x about 545, y 670, on the back of his hand. First tail tip at about x 530, y 595, at eye level.",
+   "lens": "lettering"
+  },
+  {
+   "page": 8,
+   "panel": "8.5",
+   "severity": "minor",
+   "description": "Duarte's two consecutive balloons have tails pointing in different directions: 'Not yet.' points up to the top-left corner, and 'The Viceroy needs a hand...' points left off the panel edge. Both balloons also sit on his own black-sleeved arm, which weakens the read of whose hand is closing on Jo\u00e3o's wrist.",
+   "evidence": "'Not yet.' tail at page x about 165, y 1135. Second balloon tail at x about 120, y 1300. Both balloons overlay the black cassock sleeve that runs to the gripping hand at x about 650, y 1250.",
+   "lens": "lettering"
+  },
+  {
+   "page": 8,
+   "panel": "8.6",
+   "severity": "minor",
+   "description": "Duarte's 'Enough.' is placed on the right side of the panel, stacked on top of Jo\u00e3o's off-panel 'He still holds back names.' Its tail stops at the hanging ropes, far from Duarte's mouth, so the pair reads as a single right-side voice and the speaker of 'Enough.' is unclear.",
+   "evidence": "'Enough.' balloon at page x 905 to 1030, y 1545 to 1630, with its tail tip at about x 830, y 1610. Duarte's mouth is at about x 640, y 1640. Jo\u00e3o's balloon sits directly below at x 895 to 1165.",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.4",
+   "severity": "minor",
+   "description": "The script asks for the chapter's last line, 'Storms do not ask permission.', to be a separate, weighted caption. It is lettered in the same size, weight and box style as the other three captions, so the closing beat has no emphasis.",
+   "evidence": "'Storms do not ask permission.' box (page x 672 to 955, y 1765 to 1828) uses the same font and box treatment as 'They had forgotten the simplest lesson...' beside it.",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "minor",
+   "description": "In this tall panel, Nagoji's head is jammed against the top border with the crown and forehead cut off, while most of the panel height goes to knees and legs. The 'eyes closed' beat sits right at the edge, next to a caption that is also flush to the corner.",
+   "evidence": "The top border cuts Nagoji's head through the hairline at page y about 262. His closed eyes are at about y 300. The caption box butts the top-right corner at x 806 to 1215, y 262 to 322.",
+   "lens": "lettering"
+  },
+  {
+   "page": 8,
+   "panel": "8.5 (also 3.1, 5.3, 6.4, 7.2, 7.5, 9.3, 9.4)",
+   "severity": "minor",
+   "description": "Balloon and caption text is broken at a fixed width throughout, leaving one-word or two-word last lines and awkward breaks.",
+   "evidence": "Examples: 'The Viceroy needs a hand that can still hold a / quill.' (8.5); 'You see. He gives you nothing. Let me loosen his / tongue.' (7.5); 'Your horse is dead. We shot it when we brought / you in.' (6.4); 'They are gathering us for transport. South. By / ship. For labour.' (9.3); 'This was where the Portuguese forged / information.' (5.3); 'Tell me this at least, Nagoji. Not for the Viceroy. / For me.' (7.2).",
+   "lens": "lettering"
+  },
+  {
+   "page": 3,
+   "panel": "3.3",
+   "severity": "minor",
+   "description": "The mouth close-up loses its script detail and dominates the page. Script: 'Tight on Nagoji's mouth, cracked and rust-dark' (the trace of two days since questioning). The lips are smooth, full and healthy, and they are closed while he speaks two balloons. The panel is the largest on the page (about 36% of page height), while the page's closing order, 3.5 'Bring him', gets a thin strip.",
+   "evidence": "page-03.png panel 3 (approx y1045-2045): an unblemished closed mouth, curled moustache and both ear studs, with no cracking or dark discoloration. Panel 3.5 is about 230 px tall, against about 1000 px for 3.3.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "3.5",
+   "severity": "minor",
+   "description": "The setting jumps. Script 3.5 continues the cellar exchange. Nagoji now sits alone on a stone ledge in a large, empty, wet-floored vaulted hall with a central staircase. The line of chained prisoners established in 1.1, 2.2 and 2.3, which he was part of, has vanished.",
+   "evidence": "page-03.png bottom strip (approx y2300-2540): Nagoji alone at far left, chained to the ledge. No other prisoners anywhere in the hall. Duarte walks away at right.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "severity": "minor",
+   "description": "The framing reveals Nagoji's face too early. Script 1.1: 'Nagoji nearest us, three-quarter back view, hands wrapped in filthy cloth'. The face is held back for the close-up in 1.3. The art shows him in three-quarter front view with his full face and eyes turned toward the window, which pre-empts 1.3. His hands are not clearly cloth-wrapped; the cloth reads as a rag over his knee.",
+   "evidence": "page-01.png panel 1, right side (approx x1350-1690, y380-880): frontal face with moustache and ear stud fully lit.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.2",
+   "severity": "minor",
+   "description": "The ledger insert does not show an entry being made. Script: the clerk's hand and quill over the entry, 'The ink is still wet.' The entry '17 prisioneiro marata' sits on the left page in clean typeset italic, not quill handwriting. The quill is poised over the blank right page, away from the entry. The clerk's sleeve is a lace ruffle over red-and-gold brocade, which reads as a nobleman rather than a clerk.",
+   "evidence": "page-01.png panel 2 (approx x150-1690, y910-1375): the entry is at left-center in Georgia-like italic type. The nib touches the empty right page near x1250. A ruffled lace cuff and red embroidered sleeve are at the lower right.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.5",
+   "severity": "minor",
+   "description": "The caption order is ambiguous. Script order: 'Above us, the bells rang for evening prayer.' then 'Steady as monsoon rain on a Deccan roof.' The second caption sits at the far left, only slightly lower than the first, which sits at the right, so many readers will read 'Steady as monsoon rain' first.",
+   "evidence": "page-01.png panel 5: 'Above us...' box top at about y2310, x1020-1560. 'Steady as...' box top at about y2400, x170-690 (300 DPI coordinates).",
+   "lens": "fidelity"
+  },
+  {
+   "page": 2,
+   "panel": "2.2",
+   "severity": "minor",
+   "description": "The staging and cast drift from the script. Script 2.2 puts Duarte in the foreground alone (cast override: duarte only), with the calluses on his right hand drawn clearly. Duarte is mid-ground, and Joao stands beside him with a full face reveal. The extended right palm shows dark ink-like spots rather than readable calluses.",
+   "evidence": "page-02.png panel 2 (approx x700-1450, y770-1280): Joao's face and keys are directly behind Duarte. Duarte's open right palm shows black speckles.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.3",
+   "severity": "minor",
+   "description": "Duarte's nervous tic is hidden. Script: 'Duarte standing back, hands tucked into his sleeves, fingers worrying at the cloth'. This is part of his planted hesitation. Joao's body covers his hands and sleeves entirely.",
+   "evidence": "page-05.png panel 3 (approx x930-1100, y2010-2300): only Duarte's head and upper chest with the cross are visible above Joao's shoulder.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.4",
+   "severity": "minor",
+   "description": "The restraint is inconsistent with the adjacent panels. Script and 5.3 seat Nagoji on a stool with his wrists bound to its legs. In 6.4 he sits in an armed chair with his wrists roped to the armrests.",
+   "evidence": "page-06.png panel 4, left (approx x350-900, y2050-2240): coiled rope around chair arms at both wrists. Panels 5.3 and 6.2 show an armless stool.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "severity": "minor",
+   "description": "The memory setting departs from the script. Script: 'a black mare's neck, a winter morning, a man's cheek against her mane'. The art shows a warm sunset or sunrise over a palm-lined tropical river with a fort, and the man presses his face to the mare's face or forehead rather than her mane. The silence and the stain transition are correct.",
+   "evidence": "page-06.png panel 5, left third (approx x150-720, y2245-2540): palms, low sun on the water, warm sky. The rust-turbaned rider's cheek rests against the horse's head below the forelock.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 7,
+   "panel": "7.3",
+   "severity": "minor",
+   "description": "The eyes play the wrong note. Script: 'Nagoji's eyes, unfocused. He is not in the room.' The eyes are narrowed and cut sharply sideways, which reads as a suspicious, focused glance at someone present rather than a drift into the Godavari memory.",
+   "evidence": "page-07.png panel 3 (approx x150-760, y1160-1460): hard sidelong glance under a furrowed brow.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 9,
+   "panel": "9.3",
+   "severity": "minor",
+   "description": "The whispered line is lettered as a normal speech balloon. Script: 'A whisper passing along the chained line'. A solid standard balloon reads as normal-volume speech. The tail tip lands between Nagoji's chin and the whisperer's cupped hand, so the speaker is slightly ambiguous.",
+   "evidence": "page-09.png panel 3 (approx x480-960, y1770-1960): a solid-outline balloon with its tail apex at about x800, y1775, beside Nagoji's jaw.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 9,
+   "panel": "9.4",
+   "severity": "minor",
+   "description": "The final caption is not weighted. Script: 'CAPTION (separate, weighted): Storms do not ask permission.' This is the chapter's last line and its hook. It uses the same box style and type size as the three captions before it and is one of the smaller boxes in the panel.",
+   "evidence": "page-09.png panel 4, bottom center (approx x935-1325, y2450-2535): a plain white box in the same DIN Condensed size as 'They had forgotten...' beside it.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 2,
+   "panel": "page header",
+   "severity": "minor",
+   "description": "The chapter title 'Dungeons of Goa' repeats as a large display heading at the top of every page from 2 through 9, at the same size and position as the page 1 chapter opener. The script sets the title only on the opening page, and the repeat makes each page read like a new chapter start.",
+   "evidence": "page-02.png to page-09.png: identical bold serif 'Dungeons of Goa' centered at about y300 (300 DPI) above the panel grid.",
+   "lens": "fidelity"
+  }
+ ]
+}

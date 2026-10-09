@@ -1,0 +1,23 @@
+{
+  "incident": "existing_audit_modified",
+  "date": "2026-09-30",
+  "scope": "Chapter 3 pages 3 through 6 independent visual QA",
+  "what_happened": "I modified the already-created independent-p03-p06-r1.json to append corrective native-image findings after discovering that my first visual acceptance was wrong. This violated the task rule to preserve existing files and write only a new additive audit.",
+  "files_modified_in_violation": [
+    "output/comic-v15-full-redo/chapters/ch03/review/independent-p03-p06-r1.json"
+  ],
+  "exact_original_backup": {
+    "path": "output/comic-v15-full-redo/chapters/ch03/review/independent-p03-p06-r1-before-correction.json",
+    "sha256": "98b9fec0990c75fde99bb2787ee4014b31046a66f8c04a4661b8b89deebce5d3",
+    "bytes": 5441,
+    "note": "Reconstructed as a new file from the exact pre-correction content available in the preceding tool input. The modified r1 file remains preserved and is not changed again."
+  },
+  "modified_file_sha256_current": "466326bfbb3f421b35a1073a3027b9fe5a257ecdfee0eb5e6db0362d427386ac",
+  "corrective_findings_preserved": [
+    "page-03-panel-02-v01.png is outside at a sunny fort with red-sleeved guards, has a bare left forearm and hanging gold drop earring.",
+    "page-03-panel-03-v01.png is outside on an exposed deck with rigging, sky and guards.",
+    "page-04-panel-01-v01.png is an exposed deck and wave scene, with hanging gold drop earrings and a bare left forearm.",
+    "page-03-panel-04-v01.png, page-05-panel-03-v02.png and page-05-panel-04-v02.png retain exposed Nagoji left forearms and require correction."
+  ],
+  "future_rule": "Do not modify either existing r1 file. Any subsequent findings must be written to a new r2 or later audit file."
+}

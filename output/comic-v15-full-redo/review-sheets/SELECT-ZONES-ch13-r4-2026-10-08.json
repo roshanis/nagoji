@@ -1,0 +1,88 @@
+{
+ "result": {
+  "selections": [
+   {
+    "chapter": 13,
+    "decisions": [
+     {
+      "id": "page-02-panel-05",
+      "pick": "v04",
+      "backup": null,
+      "tails": [
+       {
+        "copy_index": 0,
+        "x": 0.452,
+        "y": 0.268
+       },
+       {
+        "copy_index": 1,
+        "x": 0.452,
+        "y": 0.268
+       }
+      ],
+      "backup_tails": [],
+      "faces": [
+       {
+        "x": 0.43,
+        "y": 0.21,
+        "r": 0.11
+       }
+      ],
+      "backup_faces": [],
+      "issues": "Forced pick past the two-correction stopping rule (Claude, 2026-10-08). v04 is a hand retouch of v02 (see HAND-RETOUCH-2026-10-08.json): Padmini alone in the anteroom, on model, eyes on the middle distance, leaf lowered, clear wall for both balloons. The faint pseudo-text on the leaf is smoothed away. Remaining fault for the author: the leaf is a short, broad tag with a pale cord, not the long narrow ola strip with the red braided cord of 2.4.",
+      "correction": ""
+     }
+    ],
+    "failedPages": []
+   }
+  ],
+  "zones": [
+   {
+    "kind": "faces",
+    "chapter": 13,
+    "result": {
+     "chapter": 13,
+     "panels": [
+      {
+       "id": "page-02-panel-05",
+       "version": "v04",
+       "faces": [
+        {
+         "x": 0.448,
+         "y": 0.234,
+         "r": 0.058,
+         "who": "Padmini, three-quarter view facing right, centre-left"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
+    "kind": "keep",
+    "chapter": 13,
+    "result": {
+     "chapter": 13,
+     "panels": [
+      {
+       "id": "2.5",
+       "version": "v04",
+       "keep": [
+        {
+         "x0": 0.395,
+         "x1": 0.54,
+         "y0": 0.61,
+         "y1": 0.69,
+         "what": "Padmini's hand holding the lowered palm-leaf ola strip (Revathi's letter)"
+        }
+       ],
+       "beat_present": true,
+       "missing": ""
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "about": "Assembled by hand from the faces and keep workflows wf_3c0b072c-dee and wf_de515fb3-073 for the retouched v04; the decision is Claude's forced pick."
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "scope": [
+    "page-05",
+    "page-06"
+  ],
+  "status": "ready_for_independent_selection_review",
+  "selection_done": false,
+  "native_resolution_review": {
+    "status": "pass",
+    "checks": [
+      "identity against approved sheets",
+      "clean-shaven Nagoji chin",
+      "thick curled moustache",
+      "tiny flush gold stud",
+      "Keshavrao distinct about nineteen with faint moustache and no stud",
+      "captivity collars and wrist and ankle restraints",
+      "left forearm brand concealed",
+      "below-deck 1738 Portuguese ship hold",
+      "no text or pseudo-writing",
+      "no nooses",
+      "no blood or gore",
+      "hands and matchlock staging",
+      "blank outlined reserves"
+    ]
+  },
+  "copy_fit_preflight": {
+    "status": "pass",
+    "minimum_light_fraction": 0.995511572571923,
+    "line_count": 27,
+    "method": "compositor.copy_fit_measurements plus run_chapter.audit_reserve_pixels using Chapter 3 layout"
+  },
+  "final_candidates": {
+    "page-05-panel-01": "v02",
+    "page-05-panel-02": "v02",
+    "page-05-panel-03": "v03",
+    "page-05-panel-04": "v03",
+    "page-05-panel-05": "v02",
+    "page-06-panel-01": "v02",
+    "page-06-panel-02": "v04",
+    "page-06-panel-03": "v02",
+    "page-06-panel-04": "v04",
+    "page-06-panel-05": "v01"
+  },
+  "attempts": [
+    {
+      "frame_id": "page-05-panel-03",
+      "rejected": [
+        "v01",
+        "v02"
+      ],
+      "reason": "background guard rendered in red Portuguese coat in v01 and v02; left forearm and reserve geometry required correction; v03 regenerated with below-deck setting, concealed left forearm and larger reserve"
+    },
+    {
+      "frame_id": "page-05-panel-04",
+      "rejected": [
+        "v01",
+        "v02"
+      ],
+      "reason": "v01 placed unrequested guards above deck; v02 retained exposed left forearm and insufficient reserve; v03 regenerated below deck with only prisoners, covered left forearm and larger reserves"
+    },
+    {
+      "frame_id": "page-05-panel-01",
+      "rejected": [
+        "v01"
+      ],
+      "reason": "caption reserve too shallow for two lines; v02 regenerated with large reserve"
+    },
+    {
+      "frame_id": "page-05-panel-02",
+      "rejected": [
+        "v01"
+      ],
+      "reason": "caption reserve too shallow for three lines; v02 regenerated with large reserve"
+    },
+    {
+      "frame_id": "page-05-panel-05",
+      "rejected": [
+        "v01"
+      ],
+      "reason": "silent panel incorrectly contained four blank caption boxes, and character restraints needed correction; v02 regenerated with no boxes and correct restraints"
+    },
+    {
+      "frame_id": "page-06-panel-01",
+      "rejected": [
+        "v01"
+      ],
+      "reason": "lower-right caption reserve too shallow; v02 regenerated with larger caption reserve"
+    },
+    {
+      "frame_id": "page-06-panel-02",
+      "rejected": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "reason": "v01 and v02 had restraint, musket staging and reserve defects; v03 reserves remained insufficient for the longest line; v04 regenerated with visible collars, manacles, submerged musket and very large reserves"
+    },
+    {
+      "frame_id": "page-06-panel-03",
+      "rejected": [
+        "v01"
+      ],
+      "reason": "left forearm exposure and shallow reserve; v02 regenerated with covered forearm and large reserves"
+    },
+    {
+      "frame_id": "page-06-panel-04",
+      "rejected": [
+        "v01",
+        "v02",
+        "v03"
+      ],
+      "reason": "v01 lacked Keshavrao restraints and flooded hold; v02 and v03 reserve and collar details required correction; v04 regenerated with flooded hold, both sets of restraints and oversized caption reserve"
+    },
+    {
+      "frame_id": "page-06-panel-05",
+      "rejected": [],
+      "reason": "v01 passed native visual review and copy fit after measured reserve inset"
+    }
+  ],
+  "notes": "No selection ledger was written. Parent agent must independently review and run immutable select."
+}

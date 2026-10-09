@@ -1,0 +1,85 @@
+{
+  "reviewer": "Codex independent visual QA",
+  "scope": "pages 3 through 6",
+  "revision": "r1",
+  "status": "blocked_on_artist_selection_and_regeneration",
+  "basis": "Native resolution inspection of current frame candidates against the approved Chapter 3 script, CONTINUITY.md, and the attached character sheets.",
+  "approved_or_acceptable_current": [
+    "page-03-panel-02-v01.png: Nagoji identity, clean chin, curled moustache, long curls, visible small gold stud, ochre captivity rag, collar and wrist manacles read clearly; blank speech reserves are usable.",
+    "page-03-panel-03-v01.png: Nagoji and Keshavrao are visually distinct, the forearm rescue and wrist-chain contact are legible, no text or gore.",
+    "page-03-panel-04-v01.png: tight storm two-shot works; Nagoji and Keshavrao identities remain distinct and reserves are clear.",
+    "page-03-panel-05-v01.png: Keshavrao reads young, short-haired, faint-moustached and without an ear stud; collar and dark hold staging fit.",
+    "page-04-panel-01-v01.png: Nagoji and Keshavrao staging is legible and Nagoji's left forearm remains covered; no text or gore.",
+    "page-04-panel-02-v01.png: Keshavrao close-up is period and identity consistent, with a clear caption reserve.",
+    "page-04-panel-03-v01.png: storm hold tableau is legible, no visible text or gore.",
+    "page-05-panel-03-v02.png: prisoners visibly react with sudden hope while Nagoji turns and warns them; this supersedes the mismatched v01 staging. The Portuguese guard is in buff and cream period kit.",
+    "page-05-panel-04-v01.png and page-05-panel-04-v02.png: hauling action and reserves fit the scripted pull beat; choose only after artist selection ledger identifies the exact candidate.",
+    "page-06-panel-03-v01.png: musket, open frizzen and dry pan are clearly staged; hands are readable and no gore.",
+    "page-06-panel-04-v01.png: ladder climb, musket under arm, hobble chain and Keshavrao below are all legible; identity and reserves pass visually.",
+    "page-06-panel-05-v01.png: POV silhouette, morion and musket aimed down the ladder are strong, with no literal text rendered."
+  ],
+  "blocking_findings": [
+    {
+      "panels": ["page-04-panel-04", "page-04-panel-05", "page-05-panel-01", "page-05-panel-02"],
+      "severity": "block",
+      "finding": "Current v01 images do not follow their exact scripted staging. Current page 4 panel 4 is an iron-ring close-up instead of the ceiling impact with the mainmast balloon before and pump balloon after. Current page 4 panel 5 is an exterior ship and wave scene instead of the waist-deep hold with Keshavrao pointing to the ring. Current page 5 panel 1 is a standing Nagoji prison tableau instead of the close overhead ring with cracked wood. Current page 5 panel 2 is a seated two-person lock tableau instead of the ring tearing from its last bolt. Page 5 panel 3 v02 now fixes its earlier mismatch and is acceptable on staging. Regenerate or replace the four remaining frames before selection.",
+      "action": "artist_regeneration_required"
+    },
+    {
+      "panels": ["page-06-panel-01", "page-06-panel-02"],
+      "severity": "major",
+      "finding": "Current v01 compositions are close in mood but do not clearly carry all exact scripted beats. Page 6 panel 1 needs both men working along the beam, one chain dropping free, another ring holding, and the background prisoners staring after them. Page 6 panel 2 needs the ladder foot, thigh-deep water, submerged musket, Nagoji looking hatchward and Keshavrao looking toward Nagoji. Recheck against the exact script after any replacement.",
+      "action": "artist_or_root_recheck"
+    },
+    {
+      "panels": ["page-06-panel-05"],
+      "severity": "major",
+      "finding": "The silhouette guard has visibly red sleeves and a dark vest. At native resolution the costume can read as a redcoat or generic modern military silhouette, conflicting with the Portuguese guard continuity. Recheck or regenerate with the Chapter 3 Portuguese guard look, soaked buff jerkin over a shirt, no red coat and no blue coat, while preserving the silhouette and morion read.",
+      "action": "artist_regeneration_recommended"
+    }
+  ],
+  "continuity_notes": [
+    "Across acceptable close frames Nagoji has the required thick curled moustache and clean-shaven chin, and Keshavrao remains distinctly about nineteen with a faint moustache and no ear stud.",
+    "Nagoji's small gold stud is sometimes rendered on both ears in page 4 panel 1. The approved continuity calls for a small gold ear stud. Verify the selected revision keeps the visible stud singular or flush enough to avoid a second earring read.",
+    "Nagoji's covered left forearm and hidden brand requirement is visually respected in the current page 3 and 4 close frames. Keep it covered in replacements.",
+    "No nooses, blood, gore or invented readable lettering were found in the inspected current frames. Blank outlined reserves are present, but their count and measured fit remain a root copy-fit task.",
+    "Current scenes consistently read as an enclosed wooden ship hold except the flagged page 4 panel 5 exterior frame, which must not be selected."
+  ],
+  "selection": {
+    "selected_paths": [],
+    "note": "Artist selection ledgers were not present at review time. This file intentionally does not select or measure candidates. Re-review exact selected paths after regeneration and ledger completion."
+  },
+  "correction_addendum_2026-09-30": {
+    "reason": "The initial acceptable_or_acceptable_current list was incorrect because it relied too much on prompt sequence and insufficiently on direct native image inspection. The following prior acceptances are withdrawn.",
+    "withdrawn_acceptances": [
+      {
+        "panel": "page-03-panel-02-v01.png",
+        "finding": "REJECT. The image is outside on a sunny fortress or fort wall with palms and red-sleeved guards, not the enclosed storm hold. Nagoji's left forearm is bare and the visible gold earring reads as a hanging drop, contrary to the covered forearm and small flush stud constraints."
+      },
+      {
+        "panel": "page-03-panel-03-v01.png",
+        "finding": "REJECT. The image is on an exposed ship deck with rigging, sky and guards, not the enclosed hold. It is unusable for the scripted rescue beat."
+      },
+      {
+        "panel": "page-04-panel-01-v01.png",
+        "finding": "REJECT. The image is an exposed deck and wave scene, not the enclosed hold over Keshavrao's shoulder. Nagoji shows hanging gold drop earrings and a bare left forearm, both continuity failures."
+      }
+    ],
+    "direct_native_rule": "For all subsequent checks, acceptance requires direct native-resolution inspection of the exact candidate path. Prompt text, job cast, reserve geometry and apparent sequence cannot substitute for what is visibly drawn.",
+    "recheck_scope": ["page-03-panel-01-v01.png", "page-03-panel-04-v01.png", "page-03-panel-05-v01.png", "page-04-panel-02-v01.png", "page-04-panel-03-v01.png", "page-05-panel-03-v02.png", "page-05-panel-04-v02.png", "page-06-panel-03-v01.png", "page-06-panel-04-v01.png", "page-06-panel-05-v01.png"],
+    "additional_withdrawals_after_native_recheck": [
+      {
+        "panel": "page-03-panel-04-v01.png",
+        "finding": "REJECT pending corrected art. Although the hold staging is correct, Nagoji's visible left forearm is bare from the bandage toward the elbow. The chapter rule requires the left arm covered or turned so the brand stays hidden."
+      },
+      {
+        "panel": "page-05-panel-03-v02.png",
+        "finding": "REJECT pending corrected art. The corrected staging is good, but Nagoji's visible left forearm remains bare. Keep that arm covered or turned away in the replacement."
+      },
+      {
+        "panel": "page-05-panel-04-v02.png",
+        "finding": "REJECT pending corrected art. The interior hauling staging is good, but both visible Nagoji forearms are exposed beyond the wrist wraps, with the left forearm not covered as required."
+      }
+    ]
+  }
+}

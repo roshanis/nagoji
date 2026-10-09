@@ -1,0 +1,25 @@
+V15 graphic novel panel page-04-panel-02 for chapter 1. Being walked down a low vaulted corridor, Duarte ahead, João behind. Torchlight. Twenty paces of stone.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+duarte: - **Father Duarte**: thin, gaunt Portuguese Jesuit in his fifties, lined face, grey hair swept back with loose curls at the sides, scholar's stoop, grey tired eyes, ink-stained fingers, callused right hand, plain black cassock with a plain standing collar and a small cross on a thin chain. NO white Roman collar tab (a 19th-century anachronism).
+joao: - **Joao**: broad, heavy, ruddy Portuguese gaoler; brown leather jerkin over a cream shirt; wide belt; iron key ring. NOT a priest, no cassock, no collar. Ch1-2 only.
+nagoji: Constant identity: strong cheekbones, straight nose, thick curled moustache, CLEAN-SHAVEN CHIN (light stubble at most, captivity only), long curly black hair, small gold ear stud, lean cavalryman build. No forehead marks, no sacred thread, no royal jewellery. No facial scar.; Captivity sheet: torn ochre sleeveless tunic, cream dhoti, bandaged hands and wrists, ankle irons, barefoot, hair loose. No turban. Keep his left arm covered or turned from camera, so the brand stays hidden.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art: blank balloon and caption reserves only, lettering composited later.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+No text of any kind in generated art. Do not render the following exact copy; it is composited later:
+CAPTION: A Maratha horseman does not whimper in front of an enemy. We bleed, we fall, we curse the gods and get back up.
+Reserve exactly 1 blank outlined text area(s), one per copy chunk, with enough clear space for the exact characters above. Keep faces, hands, and important action outside those reserves.
+No invented lettering, pseudo-writing, logos, watermark, gore, or anachronistic costume.
+
+EDIT INSTRUCTION (this job is an edit of the attached image): Keep this exact composition, lighting and cast: Father Duarte leading in the right foreground with the torch in his right hand, ink-stained left hand, plain black standing collar and small cross; Nagoji in the centre with clean-shaven chin, thick curled moustache, gold ear stud, loose curly hair, torn ochre tunic and cream dhoti; Joao behind at left in brown jerkin, breeches, cream stockings, buckled shoes and key ring; the low vaulted torchlit stone corridor with wet flagstones; the single blank caption box at upper left. Change only Nagoji's restraints and arms. Remove the iron wrist manacles and the long chain from his wrists to his ankles completely, so there is no metal at all above his ankles. His hands hang separately at his sides, not crossed or joined. Both hands and wrists are wrapped only in cloth bandages, as in the previous panel where the guards haul him up. His left arm hangs on the far side of his body with the inner forearm turned toward his thigh, away from camera. His only irons are two iron ankle cuffs joined by a short chain that drags on the stone between his bare feet. Also remove every blank speech balloon, balloon tail, caption box and outlined blank shape painted into the image, continuing the scene behind each; ignore any instruction above to keep or add a blank balloon or caption box.
+
+LETTERING UPDATE (overrides any earlier instruction about blank text areas): draw NO balloons, caption boxes, frames, outlines or text of any kind anywhere in the image; the letterer adds all lettering afterwards.

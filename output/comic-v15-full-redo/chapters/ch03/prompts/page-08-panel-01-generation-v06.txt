@@ -1,0 +1,32 @@
+V15 graphic novel panel page-08-panel-01 for chapter 3. About a third of the page, full width. The storm on deck: rain in sheets, the deck heeled over. The ship is the Chapter 2 vessel, hull black and high, her carved stern castle rising aft. The mainmast has snapped and leans at an angle, its torn canvas cracking like flags of surrender. The crew fight the weather everywhere: barefoot sailors in loose shirts and knee-length slops, some in knitted caps or head cloths, a mix of European, African and Indian men; some cut away rigging with knives in their teeth, others heave at the pump handles, their faces white in the lightning. No oilskins, no uniforms, no red or blue coats. Nagoji, just out of the hatch aft of the mast, has been thrown against the starboard rail and grips a line to keep from sliding into the black water; a coil of rope lies half loose at his bare feet. He wears his empty iron collar, wrist chain and hobble chain. Not one sailor is looking at him.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+nagoji: Constant identity: strong cheekbones, straight nose, thick curled moustache, CLEAN-SHAVEN CHIN (light stubble at most, captivity only), long curly black hair, small gold ear stud, lean cavalryman build. No forehead marks, no sacred thread, no royal jewellery. No facial scar.; Captivity sheet: torn ochre sleeveless tunic, cream dhoti, bandaged hands and wrists, ankle irons, barefoot, hair loose. No turban. A hinged iron collar with a ring at the side, and wrist manacles joined by a short chain about a forearm long. The ankle cuffs also have their own short hobble chain. Keep his left arm covered or turned from camera, so the brand stays hidden.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art: blank balloon and caption reserves only, lettering composited later.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+No text of any kind in generated art. Do not render the following exact copy; it is composited later:
+CAPTION: The storm greeted me like an enemy who had been waiting.
+CAPTION: To them I was just another piece of loose cargo tossed up from below.
+Reserve exactly 2 blank outlined text area(s), one per copy chunk, with enough clear space for the exact characters above. Keep faces, hands, and important action outside those reserves.
+No invented lettering, pseudo-writing, logos, watermark, gore, or anachronistic costume.
+
+CORRECTION FOR THIS GENERATION: Keep the entire left forearm covered by the torn ochre tunic flap and wrist bandage, turned away from camera; show only the right forearm skin. Nagoji has one tiny flush gold ear stud only, with no stem, hoop, drop, or dangling earring.
+
+EDIT TARGET: preserve the attached previous frame's storm-deck composition, ship, crew, Nagoji identity, restraint continuity, and period clothing. Replace the two top caption reserves with large clean warm-white outlined boxes, each approximately 650 by 175 source pixels, tall enough for the exact two caption chunks. Keep all lettering out of the image, and keep faces, hands, rigging action, and Nagoji outside the reserves. Attach the previous frame and the Nagoji sheet.
+
+RESTRAINT CORRECTION: On deck the hinged iron collar remains around Nagoji's neck, but its side ring is empty. No chain is attached to or hanging from the collar ring. Show only the wrist manacles and ankle hobble chain. Preserve the large caption reserves.
+
+RESERVE CORRECTION: Make both top caption boxes visibly oversized, each approximately 800 pixels wide by 220 pixels high, with solid warm-white interiors and generous inner margins for three lines of later lettering. Keep both boxes separate from crew, ropes, Nagoji, and the storm action. No text or symbols.
+
+FINAL RESERVE CORRECTION: The two caption boxes must have completely uniform pure white interiors with no paper grain, stains, shadows, speckles, or dark marks. Keep a thick black outline outside the pure white area. Preserve all ship, crew, Nagoji, empty collar ring, and storm details.
+
+The reserve interiors are literal flat RGB white (#FFFFFF), like clean comic lettering panels, not parchment and not textured paper. They must remain flat white across their entire interior.

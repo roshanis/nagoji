@@ -1,0 +1,451 @@
+{
+ "chapter": 5,
+ "confirmed": [
+  {
+   "page": 5,
+   "panel": "5.3, 5.5",
+   "severity": "major",
+   "description": "Nagoji's shirt is the wrong garment. In 5.3 it has a turned-down collar and a buttoned placket, like a modern collared shirt, and in 5.5 the placket shows buttons. The ch5 costume is a collarless pullover tunic-shirt with no buttons, no collar and no pocket, and that is how it is drawn in 3.3, 4.4, 5.4, 6.3, 7.1, 7.4 and 9.1.",
+   "evidence": "5.3: an open collar folds over at the neck, with button dots down the front opening. 5.5 (small figure on the sacks): button dots down the placket. 5.4 on the same page shows a plain round neck with no buttons.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "The problem is real, but it is smaller than the reviewer said. Zoomed crops of page-05.png show Nagoji's shirt with a front opening in two panels. In 5.3 (on the cart, background right) the neckline is open, with a fold-over collar point on his left side and two small button dots on the placket. In 5.5 (small figure on the sacks) there is a short placket with two button dots under a plain band neck. In 5.4, between them on the same page, he wears a plain round neck with no opening. The script forbids this: CHAPTER-05-SCRIPT.md line 93 and panel 3.1 call for a \"collarless cream homespun cotton tunic-shirt pulled on over the head ... no buttons, no collar, no pocket\". So it is a real costume deviation and a neckline change within one page. It is not an anachronism, though. Kurtas with a buttoned or tied front opening fit the period, and the garment's colour, fabric, cut, sleeves and dhoti all match. Only the neckline differs. Both figures are small background figures. At 300 DPI the 5.3 torso is about half an inch wide, and the buttons are specks about 0.01 inch across. Only the open collar fold in 5.3 can really be seen at print size, and the 5.5 placket is barely there. I rate it minor (polish: inpaint 5.3 and 5.5 to a closed round neck if those panels are touched again), not major."
+   }
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "severity": "major",
+   "description": "Nagoji's sleeves are pushed up to the elbows, so both forearms are bare down to the bandaged wrists. The script requires the left sleeve down over the brand, and in the same hall scene (6.3, 7.1, 7.4, 9.1) his sleeves reach the wrists. The bare left forearm also has no brand, which leaves the brand area visibly unmarked.",
+   "evidence": "8.1, centre: Nagoji standing on the mat with sleeves rolled to just below the elbow on both arms and bare forearms down to the wrist bandages. In 9.1, one page later, the sleeves are back down to the wrists.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "The problem is real. In a zoomed crop of 8.1 (page-08.png, about x880-1140, y540-1000 of the original), Nagoji's tunic sleeves are rolled up to just below the elbow on both arms. Both forearms are bare down to the linen wrist wraps. The script's cast note from page 3 says \"long sleeves ... the left sleeve down over the brand\". In the same hall scene the sleeves reach the wrists in 7.1, 7.4 and 9.1, so 8.1 is the only frame where they are rolled up. That makes it a visible costume jump inside one scene. The bible's Chapter 5 row does not mention sleeves, but the script does, and nothing in the bible permits rolled sleeves. Nagoji is the central standing figure in this wide panel, so the bare forearms are clear at print size. The second half of the claim, the missing brand, is weaker. His arms hang at his sides with the palms toward his thighs, so the inner left forearm, where the brand belongs, mostly faces his body. The missing brand is therefore defensible, but the rolled sleeves still break the script and the scene's continuity. This is a localized costume error, so it is major, not a blocker."
+   }
+  },
+  {
+   "page": 7,
+   "panel": "3",
+   "severity": "major",
+   "description": "The speaker tails cross. The official's balloon '<You know their forts?>' sits on Nagoji's side of the panel (lower left) and its tail runs right to the official. Nagoji's 'Some.' sits on the official's side (lower right) and its tail runs left to Nagoji. The two tails form an X over Nagoji's arm, which muddles who is speaking in a two-line exchange.",
+   "evidence": "page-07.png panel 3 (top right of tier 2). The tails cross at about x=1250-1330, y=1140-1190 in the render. Fix: swap the placement of the two balloons, so 'You know their forts?' goes upper right near the official's head under '<You raided them?>', and 'Some.' goes left near Nagoji under 'Yes.'",
+   "lens": "rules",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 7, panel 3 (top right of tier 2). I checked this on a zoomed crop of the original page, at about x 1180-1520 and y 940-1200. The balloon \"<You know their forts?>\" sits lower left, by Nagoji. Its tail runs up and to the right, but it stops in empty floor space and never reaches the official. \"Some.\" sits lower right, against the official's shoulder. Its tail runs up and to the left and ends at Nagoji's elbow, not his head. The two white tails cross in a clear X between the figures. The X shows even on the scaled-down full-page view, so it will show at print size. Neither CONTINUITY.md nor the script allows crossed tails; neither says anything about tail placement at all. One thing lessens the confusion: the official's Malayalam lines are in angle brackets and Nagoji's are not, and reading order (left, then right) still matches the script order. So a careful reader can still sort out who says what. That keeps it from being a blocker, but the tails are still clearly wrong and muddle a quick two-line exchange. It is a localized lettering fix and needs no redraw of the art. The reviewer's fix works: move \"You know their forts?\" up right near the official's head, under \"<You raided them?>\", and move \"Some.\" left near Nagoji's head, under \"Yes.\", with each tail pointing at its speaker's head."
+   }
+  },
+  {
+   "page": 7,
+   "panel": "7.3",
+   "severity": "major",
+   "description": "The tails of the last two balloons cross. Each balloon sits on the wrong speaker's side: the official's question is next to Nagoji, and Nagoji's answer is next to the official. The two tails make an X between the figures, so the exchange is hard to attribute at a glance.",
+   "evidence": "'<You know their forts?>' (lower left, beside Nagoji) has its tail running up and to the right toward the official's shoulder. 'Some.' (lower right, against the official's back) has its tail running up and to the left toward Nagoji's arm. The two wedges overlap at about x 900-960, y 720-760 on the 1325-wide view. Swapping the positions of the two balloons would remove the crossing.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed this on a zoomed crop of page 7, panel 7.3 (original pixels x 920-1700, y 690-1235). The two lower tails form a clear X between the figures. The tail of '<You know their forts?>' leaves the right side of its balloon, which sits lower left beside Nagoji's torso, and runs up and right. It ends in open floor just left of the official's ear and the brass knob. The tail of 'Some.' leaves the left side of its balloon, which sits lower right against the official's back, and runs up and left to Nagoji's arm at screen right. The two wedges overlap at about x 1250-1335, y 1000-1060 in original pixels, which matches the reviewer's 900-960 / 720-760 on the 1325-wide view. Both balloons sit on the other speaker's side, as reported. Nothing in the script or bible allows this: 7.3 only lists the four lines and the over-shoulder framing. At print size the crossing is plain to see in the middle of the panel. Readers can still work it out: each tail tip points at the right speaker, the order reads left to right, and the official's Malayalam lines carry angle brackets. So this is not a blocker. Crossed tails are still a standard lettering error that slows attribution, and the fix is local: swap the two balloons, or move 'Some.' under 'Yes.' on Nagoji's side and the question onto the official's side. Major is the right severity."
+   }
+  },
+  {
+   "page": 7,
+   "panel": "2",
+   "severity": "major",
+   "description": "The palm-leaf insert never shows its action. The script calls for the stylus 'cutting strokes into the palm leaf' (the echo of the Chapter 1 ledger, where the name is given back), but no strokes can be seen. Nagoji's big off-panel balloon covers the spot where the stylus tip would meet the leaf, so the hand only looks like it is about to write.",
+   "evidence": "In p7 panel 2 the stylus runs down into the fingers, and its tip falls behind the right edge of the 'Huzurat cavalry...' balloon. The exposed leaf surface is blank tan with no marks.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "The problem is real, and the art itself is not at fault. I zoomed into page 7, panel 2 of /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/renders/r2/page-07.png. The stylus goes down into the official's fingers. Below the fingers, where the tip should meet the leaf, only the white 'Huzurat cavalry...' balloon is visible. The leaf surface you can see is plain grain with no marks. The selected frame (/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-07-panel-02-v01.png, per SELECTION-MANIFEST-r2.json) does draw the beat. The stylus point is in the leaf with a short row of cut strokes (frame about x650-790, y690-715), and the strung palm-leaf bundle with its cord is on the left. I scaled the frame to the page using the stylus finial and the other hand's fingertips as reference points (about 0.54x). On that scale, the tip and the strokes land at about x300-370, y370-385 in panel coordinates. That is entirely inside Nagoji's off-panel balloon, which covers x40-410 of the panel. The cord and the bundle's binding are hidden too. Script 7.2 explicitly asks for the 'stylus cutting strokes into the palm leaf. Marks only'. The production note says this insert carries the Chapter 1 ledger echo, where the name taken in Goa is given back. Chapter 1, 1.2 shows visible writing in the ledger. As printed, the hand only looks ready to write, and the one detail the echo depends on is covered by lettering. This is not a slight issue at print size: the strokes are the subject of the insert. It is localized, though: moving or reshaping the balloon (for example up into the empty wall area at upper left, or making it narrower) would show art that already exists. The panel still reads as an official recording something, so the beat is not fully missing and this is not a blocker. Severity: major, as an awkward balloon placement that hides the action."
+   }
+  }
+ ],
+ "refuted": [
+  {
+   "page": 9,
+   "panel": "9.1",
+   "lens": "continuity",
+   "description": "Ibrahim's scar is mirrored onto his RIGHT cheek. He stands at screen left facing screen right, so the camera sees his right cheek, and pale diagonal scar streaks run from below that ear down through the beard. The bible and script put the scar on his LEFT side only (ear to jaw), and the script specifically guards against mirroring.",
+   "reason": "The marks are real but too faint to matter at print size. In panel 9.1 Ibrahim does face screen right, so we see his right cheek, and enlarging the art 5 to 8 times shows two or three thin pale diagonal streaks running from under his right ear across the beard toward his mouth. They are drawn like a scar, and they are on the wrong side. But they are hairlines about 1 to 2 px wide at 300 DPI (roughly 0.1 to 0.17 mm in print). Their brightness lift over the dark beard is only about 30 to 40 levels out of 255. The correct left-side scar in 7.4 lifts about 50 to 70 levels at a similar head size (about 130 to 140 px, under half an inch in print). Viewed at 1:1 pixels (300 DPI shown on screen, already bigger than the printed page) and in the full-page view, the streaks are barely visible and blend into the grey-flecked beard the bible calls for. Ibrahim is also a mid-ground figure standing behind the bowing Nagoji. Dark areas also tend to fill in when printed, which hides fine light lines like these even more. So this would not be seen as a mirrored scar in print. If the art is retouched anyway, painting out the streaks (original-pixel area x 305-350, y 625-660 on page-09.png) is optional polish and needs no redraw."
+  },
+  {
+   "page": 1,
+   "panel": "1.1 vs 1.3",
+   "lens": "continuity",
+   "description": "The brand sits in two different places on the same page. In 1.1 the pale ridged patch is on his LEFT forearm just below the elbow, roughly two hand-widths up, on the side facing the camera. In 1.3 it is correctly about a hand's width above the wrist. Bible and script: inner LEFT forearm, a hand's width above the wrist.",
+   "reason": "The reviewer saw the art correctly but the problem is too small to matter in print. In 1.1 the pale ridged patch on Nagoji's left forearm sits in the upper half of the forearm, just below the elbow, about 46 px (300 DPI) above the edge of the wrist bandage. The script and bible put it a hand's width above the wrist, and 1.3 gets that right. But in the 1.1 wide shot the forearm is small and foreshortened. The patch is about 22 px across (under 2 mm printed), and its offset from the right spot is about 3 to 4 mm. Viewed at 1:1 the panel shows only a faint pale fleck near his elbow, which reads as a scrape rather than as the brand. A reader cannot compare its position with the large, clear brand in 1.3. The real placement of the brand on this page is set by 1.3, which is correct. At most this is minor polish (move the fleck nearer the bandage on a retouch), not a major continuity error."
+  },
+  {
+   "page": 5,
+   "panel": "5.3",
+   "lens": "continuity",
+   "description": "Nagoji has become the cart driver. He sits at the front rail holding the reins and goad over the bullock, with an orange-red cloth at his waist that reads like the commander's red sash. The carter is not in the panel. In 5.2 and 5.5 on the same page the carter holds the goad at the yoke, and the script keeps the carter at the yoke from 3.4 to 6.1, with Nagoji a passenger on the sacks.",
+   "reason": "I'm refuting this. I zoomed in on page 5, panel 5.3 (the shrine, right half of the second tier). Nagoji does sit at the front of the cart with his bandaged hands on his knees, and he holds a thin dark stick or rope that runs toward the bullock. None of the three claims holds up as a major problem.\n\n1. **Red sash:** The \"orange-red cloth\" is a fleck about 15 px wide between his hands. At native 300 DPI it is barely there, and it reads as a dhoti tie or shadow, not the broad red commander's sash from chapters 7 onward. Nothing red shows at his waist in 5.2, 5.4 or 5.5. His costume otherwise matches the chapter 5 row: collarless cream tunic, dhoti, bare head, bandaged hands, moustache, clean chin.\n\n2. **Missing carter:** The script needs the carter at the yoke only in 3.4, 4.3 and 6.1, and the cast note only says how he looks from 3.4 to 6.1. The text for 5.3 asks for Ibrahim, the old woman and \"Nagoji on the cart, lit by its lantern,\" and the 5.3 cast list is just Ibrahim and Nagoji. The cart has stopped at the shrine, so the carter can be out of frame, as he is in 5.1 and 5.4.\n\n3. **Driving:** The stick is a hairline that ends at a figure under an inch tall in print. A reader sees a passenger sitting on the stopped cart in the lantern light, which is the beat the panel needs. That beat survives, and no line or later panel says otherwise: 5.4 puts him back on the sacks and 5.5 shows the carter at the yoke.\n\nAt most this is cosmetic polish, too small to matter at print size."
+  },
+  {
+   "page": 4,
+   "panel": "4",
+   "lens": "rules",
+   "description": "Anachronistic lighting in a Kerala setting. In the background between the two thatched huts there is a glowing round globe on a thin vertical pole, which reads as an electric street or garden lamp. Round, bulb-like glows also sit at the hut doorways. The standing rule allows only clay or brass open-wick lamps in Kerala, and no globes or lanterns.",
+   "reason": "I cropped page-04.png at (1450-1690, 1480-1700) and enlarged it 4x. The glows are there, but they are too small and too soft to count as an anachronism.\n\n1. Size. Of the 1838 px render at 300 DPI, the \"globe\" atop the post is about 7 px across, roughly 0.6 mm in print. The post is about 2 px wide and 28 px tall (0.17 x 2.4 mm), a faint dark line against dark foliage. The doorway glows are about 5-6 px. In the full-page view they are just pinpoints of warm light in a deliberately defocused background behind Ibrahim's shoulder. A reader will see lamplit huts, not electric fittings.\n\n2. A glow on a post is not anachronistic here. A distant open-wick flame renders as a round point of light at that blur level. A lamp on a post reads as a Kerala brass lamp pillar (deepastambham), which the script itself asks for on this same page: 4.3 calls for \"a brass lamp-post\" before the temple, and 5.2 calls for \"lamps lit in doorways.\"\n\n3. The bible rule (CONTINUITY.md lines 160 and 176) forbids glass chimneys and glass lanterns and requires clay or brass open-wick lamps. Nothing in the panel shows a glass globe, a chimney or a lantern housing. At most it is an unresolved warm point, which an oil flame would also produce.\n\nAt most this is a minor polish note (the slim post could be dropped). It is not a major error that needs a fix before publication."
+  },
+  {
+   "page": 7,
+   "panel": "7.5 (page-turn plan, pages 6-8)",
+   "lens": "lettering",
+   "description": "The pagination breaks the script's page-turn plan. The script assumes the chapter opens on a recto, so that pages 6 and 7 face each other and the question in 7.5 is followed by a page turn before the answer. The renders are folioed 32 to 40, which puts chapter page 1 on an even folio (a verso). That makes page 7 (folio 38) a verso facing page 8 (folio 39), so Nagoji's answer is visible at the same moment as the question and there is no turn. It also puts 'Name.' (6.5, folio 37) and 'Nagoji Sawant.' (7.1, folio 38) on opposite sides of a page turn instead of across the gutter of one spread.",
+   "reason": "The reviewer read the footers correctly: they say 32 to 40, and page 7 (panel 7.5) is folio 38. Even so, these numbers do not settle which side of the spread each page falls on in the printed book.\n\n1. PRODUCTION-PLAN.json says these are \"Chapter-master folios; final book folios are set at assembly after front matter.\" Chapter 4 runs straight into chapter 5 (first_folio 32) with no blank page between them, and nobody has counted the front matter yet. Each extra page of front matter swaps every recto and verso, so the 32 to 40 numbering says nothing final about page 7's side.\n\n2. The script's Adaptation notes (CHAPTER-05-SCRIPT.md line 333) say the chapter is planned to open on a recto and ask for \"Confirm the side at assembly.\" The script leaves that check for assembly, so it is not a fault in the current renders.\n\n3. The lettering on page 7 is correct. The 7.5 question \"What does a Maratha rider know that he does not already have?\" closes the page with the caption above it, which is what the script asks for. The answer comes on page 8.\n\nThis is not a fault in the art or the lettering, so there is nothing to fix at panel level. It belongs on the assembly checklist: chapter 5, page 1 must land on a recto, adding a blank page if needed, or the 6/7 spread and the turn after 7.5 are lost.\n\nSomething the reviewer did not mention, and which also shows these folios are provisional: PRODUCTION-PLAN.json gives chapter 5 8 pages and starts chapter 6 at folio 40, but the r2 renders run to 9 pages, with page 9 numbered 40. That clash should also be fixed at assembly."
+  },
+  {
+   "page": 5,
+   "panel": "5.2",
+   "lens": "lettering",
+   "description": "The speaker of the boy's line is unclear. '<Who is he?>' sits directly above Ibrahim's head, and its tail stops beside Ibrahim's raised thumb, well above the running boys. With Ibrahim's own answer balloon just below, the panel reads as Ibrahim speaking both lines.",
+   "reason": "Refuted. I checked page 5, panel 5.2 at full resolution (1838x2775). The \"<Who is he?>\" balloon does sit partly over Ibrahim's turban, but its tail leaves the lower-left of the balloon and runs down and to the left. That is away from Ibrahim's head and mouth (his head is below-right of where the tail starts) and toward the group of running boys. The tail tip is at about (343, 1020) in original pixels. It is closer to the boys than to Ibrahim: about 39 px from the pointing boy's fingertip at (365, 1052) and about 45 px from the head of the smiling boy behind that finger at (367, 1050), against about 60 px from Ibrahim's thumb. The reviewer measured only to the pointing boy's head and missed both of these closer targets. The pointing boy's raised arm leads straight up to the tail tip, which supports the reading. Ibrahim's own balloon, \"<A man who thought he could drown...>\", is separate, with its own tail into his vest. Two separate balloons with tails going in different directions do not read as one speaker. The script's beat (boy asks while pointing at Nagoji, Ibrahim answers over his shoulder) also makes the question-and-answer order clear. At print size the speakers are clear. A longer tail reaching all the way down to the pointing boy would be a small optional improvement, not a major lettering error."
+  },
+  {
+   "page": 5,
+   "panel": "3",
+   "lens": "fidelity",
+   "description": "The old woman is looking at Ibrahim, not past him to Nagoji, so the scripted beat ('Her eyes have already gone past him to Nagoji on the cart') is lost. Because her eyes are on Ibrahim, her line '<That one carries storms in his bones.>' reads as being about him. Only Ibrahim's reply in 5.4 fixes that.",
+   "reason": "I measured the gaze on the 300 DPI page 5 render, and the art doesn't show the problem clearly enough to confirm it. The old woman's eyes are at about (1127, 1023) in page pixels. Ibrahim's ash mark is at about (1260, 998), roughly 11 degrees up and to the right. Nagoji's face on the cart is at about (1570, 900), roughly 15 degrees up and to the right. So both men sit on almost the same sightline from her. A line from her eyes to Nagoji passes the edge of Ibrahim's turban. The woman's eyeline alone can't tell the reader which man she is looking at. Zoomed in, her irises sit high in her eyes and point steeply up and to the right, above her own hand on his forehead. That fits looking past his bowed head (his eyes are closed) at least as well as looking at the mark. The claim that 'nothing in her pose or eyes is aimed at him' is therefore not supported. Nagoji is lit by the lantern, framed clearly at upper right, and placed right where her line of sight continues. The 'That one' balloon is tailed to her. Ibrahim's 'I told her you carry horses there too' in 5.4 then closes any doubt. At most, the 'eyes gone past him' beat is underplayed, not lost. That is too slight to matter at print size, and I was uncertain, so I counted it as refuted."
+  }
+ ],
+ "minors": [
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "minor",
+   "description": "Ibrahim look-alike in the same panel. The net-mender at the right edge has a white wrapped head-cloth, a full grey-flecked beard, Ibrahim's round face and his moustache. Up close his head reads as a copy of Ibrahim's, who is walking a few inches to the left in the same panel. The turban plus grey-flecked beard is the pair of features the script uses to identify Ibrahim, and here it appears twice in one frame.",
+   "evidence": "page-03.png, original pixels: Ibrahim's head is at about x920-1110, y370-560 and the net-mender's head at about x1360-1560, y540-740. Side by side, both have a white turban, a black beard greying at the chin and the same moustache and brow. The only difference is that the net-mender is bare-chested and wears a gold chain. Fix: give the net-mender a bare head or a plain head-cloth, or a clean chin or a different beard.",
+   "lens": "identity"
+  },
+  {
+   "page": 3,
+   "panel": "3.5",
+   "severity": "minor",
+   "description": "Ibrahim's scar seems to be mirrored onto his RIGHT cheek. His body is half turned toward the bullocks (screen right) and he looks back at the camera, so the ear and cheek on screen left are his right side. The only scar-like marks are on that cheek. Nothing shows on the left jaw, where the bible puts the scar (LEFT ear to jaw).",
+   "evidence": "page-03.png, original pixels about x1050-1240, y2110-2280, upscaled 5x with contrast raised: two short pale diagonal lines run from the cheekbone toward the beard between the screen-left ear and the nose. The face is about 0.6 inch wide in print, so this is subtle, but it is the only panel where the scar side flips. Compare 1.4, 1.5, 4.4, 4.5, 5.1, 5.4 and 6.2, where the scar is correctly on his left, between the left ear and the jaw.",
+   "lens": "identity"
+  },
+  {
+   "page": 1,
+   "panel": "1.2",
+   "severity": "minor",
+   "description": "Ibrahim's scar is drawn too high and too far forward. It runs from the temple at the turban edge down across the cheekbone, close to the eye, instead of from the LEFT ear to the corner of the jaw. The bible, the sheet and panels 1.4 and 1.5 on the same page all put it ear-to-jaw.",
+   "evidence": "page-01.png, original pixels about x960-1260, y1000-1250: a red diagonal line starts beside the outer corner of the eye, under the turban, and stops at mid-cheek, well forward of the ear. In 1.4 (about x1100-1690, y1500-2000) the same scar runs from in front of the ear down into the jaw beard, under his thumb.",
+   "lens": "identity"
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "severity": "minor",
+   "description": "Nagoji drifts away from his sheet in the wide shot down the hall. His hair is drawn straight and swept back off the forehead with no curls. His face is long and gaunt with hollow cheeks, unlike the strong-cheekboned face on nagoji-v2.png. No gold ear stud shows on the visible (left) ear. He reads as a different, older man, and this is the panel where he delivers the chapter's key speech.",
+   "evidence": "page-08.png, original pixels about x960-1110, y540-700, upscaled 4x: smooth straight dark hair falls behind the ears, the face is narrow and lined, and the ear on screen right is bare. Compare 7.4 (about x400-580, y1260-1420) and 9.1, where he has thick curly hair tied back and the stud is visible.",
+   "lens": "identity"
+  },
+  {
+   "page": 5,
+   "panel": "5.2",
+   "severity": "minor",
+   "description": "The carter is not the same person as on page 3. The script fixes him as a thin young man with a small topknot and a clean-shaven face, and that is how 3.4 and 3.5 draw him. In 5.2 the bare-chested man with the goad at the right has a full dark moustache, a heavier, older face and a loose, messy bun.",
+   "evidence": "page-05.png, original pixels about x800-900, y900-1000: a man with a topknot, a clear moustache and an older face. Compare page-03.png 3.4 (about x1500-1660, y1530-1690), a young beardless carter with at most a trace of moustache, and 3.5 (about x1580-1700, y2180-2320), clean-shaven.",
+   "lens": "identity"
+  },
+  {
+   "page": 6,
+   "panel": "6.1, 6.2",
+   "severity": "minor",
+   "description": "Nagoji's tunic has a buttoned placket with three or four visible buttons. The script says no buttons, and the plain pullover appears again in 6.3 on the same page.",
+   "evidence": "6.2, centre: a row of small buttons down the open neck slit. 6.1: the same placket with buttons. 6.3: a plain round neck with no opening.",
+   "lens": "continuity"
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "severity": "minor",
+   "description": "Ibrahim breaks continuity within the hall scene. He wears dark leather sandals on the hall mats but is barefoot in 9.1 in the same hall. His forehead also shows no ash, which the script requires in every panel to the end of the chapter, and the scar is missing from his left cheek, which faces camera here.",
+   "evidence": "8.1: black strap sandals on both of Ibrahim's feet beside Nagoji's bare feet. Zoomed, his forehead under the turban is plain, and his left cheek (profile facing screen left) has no scar line. 9.1: Ibrahim barefoot, with the ash smear present.",
+   "lens": "continuity"
+  },
+  {
+   "page": 8,
+   "panel": "8.1, 8.3",
+   "severity": "minor",
+   "description": "The hall floor changes. The script calls for packed earth, and 7.3 shows an earthen floor, but 8.1 and 8.3 (and 9.1) show a polished, reflective wooden floor.",
+   "evidence": "8.3: a glossy floor reflecting the lamps under the seated men. 8.1: polished planks around the mats. 7.3: a matte brown earthen floor around Nagoji.",
+   "lens": "continuity"
+  },
+  {
+   "page": 1,
+   "panel": "1.3",
+   "severity": "minor",
+   "description": "The over-shoulder brand panel adds a long thin pale scar running from the brand toward the elbow and onto the upper arm. The bible gives Nagoji that long white forearm scar only from chapter 9. In ch5 the arm should carry the brand and nothing else.",
+   "evidence": "1.3, foreground forearm: a thin pale line runs diagonally from the lower edge of the brand patch toward the elbow, and a second pale line crosses the upper arm.",
+   "lens": "continuity"
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "severity": "minor",
+   "description": "A dark teal garment edge shows under Ibrahim's shawl, matching the teal short coat on his V15 sheet. The bible gives ch4-5 as a pale vest over a white mundu with no coat.",
+   "evidence": "1.1, Ibrahim in the doorway: a dark teal strip runs from the collar down between the vest's left front and the striped shawl.",
+   "lens": "continuity"
+  },
+  {
+   "page": 1,
+   "panel": "1.4, 1.5",
+   "severity": "minor",
+   "description": "Ibrahim's scar is drawn as a red, stitched-looking line, not the bare pale line in the script. This is the known red-scar fault on the sheet, and it carries through the chapter (also 1.1, 2.1, 2.3, 4.4, 4.5, 5.1, 5.2, 5.4, 6.2).",
+   "evidence": "1.4 and 1.5: a reddish-pink line from the left ear down through the beard to the jaw. 5.1 close-up: a reddish line with stitch-like ticks.",
+   "lens": "continuity"
+  },
+  {
+   "page": 4,
+   "panel": "4.4, 4.5",
+   "severity": "minor",
+   "description": "Nagoji's ear ornament is a hanging gold drop, not the small flush stud the bible specifies. This is the known ch1-8 deviation (author decision 2026-10-02), listed for the author. The drop also appears in 1.1, 1.5, 2.4, 3.5, 5.4, 6.3 and 7.4. 8.2 has the correct flush stud.",
+   "evidence": "4.5: a round gold bead hangs from a short post below the earlobe. 8.2: a flush stud on the lobe.",
+   "lens": "continuity"
+  },
+  {
+   "page": 2,
+   "panel": "2.3, 2.5",
+   "severity": "minor",
+   "description": "The hand dressings are inconsistent. In 1.1 and 1.3 both hands are wrapped in linen over the knuckles. From page 2 onward only the wrists are banded, leaving palms and fingers bare. The script asks for his hands wrapped in clean linen throughout.",
+   "evidence": "2.5: the hand flat on the wall has a band at the wrist only and bare fingers. 2.3: wrist band only. 1.1: both hands wrapped mitten-style over the knuckles.",
+   "lens": "continuity"
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "minor",
+   "description": "Nagoji's dhoti has a gold border stripe here. Everywhere else in the chapter it is the plain village cotton dhoti the script calls for.",
+   "evidence": "9.1: a gold-tan vertical border runs down the front of his dhoti and around the hem. In 8.1 and 7.4 the dhoti is plain.",
+   "lens": "continuity"
+  },
+  {
+   "page": 7,
+   "panel": "7.5",
+   "severity": "minor",
+   "description": "The background guard wears a broad leather belt with a large rectangular metal buckle over his mundu. The script dresses the guards in a dark sash.",
+   "evidence": "7.5, right edge: the guard holding a spear has a dark leather belt with a big square buckle at the waist.",
+   "lens": "continuity"
+  },
+  {
+   "page": 3,
+   "panel": "1",
+   "severity": "minor",
+   "description": "A background villager reads as modern. A bare-backed man walking away between the well and the huts wears blue knee-length shorts with a waistband, cut like modern board shorts, where a mundu or loincloth belongs in a 1738 fishing village.",
+   "evidence": "page-03.png panel 1, the figure behind the woman carrying the pot, around x=690, y=560-650 in the render (crop 600-780 x 520-700). Repaint the garment as a short white or indigo mundu hitched at the knee.",
+   "lens": "rules"
+  },
+  {
+   "page": 1,
+   "panel": "1",
+   "severity": "minor",
+   "description": "Ibrahim's costume has a modern cut, and it recurs on every page of the chapter. His 'pale vest' is drawn as a utility or safari vest: a buttoned front, square patch pockets with button-down flaps (two at the hip and a chest pocket in some panels), worn over a shirt with a multi-button front placket and a band collar. In a 1740s Malabar setting this reads as 20th-century clothing. It may match the Chapter 4 lock, so the fix is an author decision for the whole chapter, not a one-panel patch.",
+   "evidence": "Clearest in page-01.png panel 1 (Ibrahim in the doorway: flap pockets with visible buttons at the hip, a buttoned shirt placket) and panel 3. The same garment appears in 2.1, 3.1, 3.4, 4.1, 5.3, 6.3, 7.4 and 9.1 (page-09 panel 1 shows the flap pocket with a button, at about x=280, y=900). A plain collarless vest or tunic without patch pockets or a shirt placket would remove the modern read.",
+   "lens": "rules"
+  },
+  {
+   "page": 4,
+   "panel": "4.4",
+   "severity": "minor",
+   "description": "Nagoji's raiding admission is placed on Ibrahim's side of the frame. The balloon sits directly under Ibrahim's face and covers his torso. Only a leftward tail ties it to Nagoji, which invites a misreading of a key line.",
+   "evidence": "'We have learned to ride down toward the ports...' spans about x 548-1008, y 1215-1380, right below Ibrahim's beard. Its tail points left to Nagoji's shoulder at about (510, 1225). Nagoji's first balloon, 'They think of it when they want money.', is on the left, where this one could also go, stacked under it.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.5",
+   "severity": "minor",
+   "description": "The script says to keep all lettering on Nagoji's side so that Ibrahim's wordless flicker reads cleanly. Instead, the caption sits in the centre of the frame, right in Ibrahim's upward-left eyeline, and the 'Who is your king?' balloon runs over onto Ibrahim's shoulder.",
+   "evidence": "The caption 'The fishermen had spoken the name Travancore...' spans x 487-738, ending just short of Ibrahim's turban at about x 770. Ibrahim's gaze goes straight into the box. Nagoji's balloon reaches x 690, over Ibrahim's vest. Nagoji's side (x 222-450) has room for both items stacked.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.3 / 1.4 tier and page width",
+   "severity": "minor",
+   "description": "The page layout is ragged compared with the Chapter 1 standard. The four tiers are each a different width. Panel 1.4 is also out of line with 1.3: about 20 px higher at the top and 20 px lower at the bottom. This leaves an almost closed gutter between 1.2 and 1.4 and an uneven one above 1.5.",
+   "evidence": "Approximate tier extents: 1.1 x 135-1190; 1.2 x 235-1090; 1.3/1.4 x 107-1217; 1.5 x 222-1102. Panel 1.3 runs y 1047-1540 and 1.4 runs y 1027-1560. The gutter between the bottom of 1.2 (y about 1020) and the top of 1.4 (y about 1027) is about 7 px. Chapter 1 r6 page 1 keeps every tier at x 107-1217, aligned.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.4",
+   "severity": "minor",
+   "description": "The tail of 'Our king fights them too...' lands on Ibrahim's cheek under his eye instead of near his mouth, and the balloon covers the top half of his turban.",
+   "evidence": "The balloon spans x 915-1195, y 1030-1195, and its tail tip is at about (950, 1250), below the eye. The 'He will want to hear...' balloon below it correctly points to the beard.",
+   "lens": "lettering"
+  },
+  {
+   "page": 7,
+   "panel": "7.1 and 7.5",
+   "severity": "minor",
+   "description": "The two key beats on this page, the giving of Nagoji's name and the stakes question, are in narrow, centred panels, about 60% of the page width. Next to the full-width 7.2-7.4 tiers, the page looks unbalanced. In 7.1 the caption and the 'Nagoji Sawant.' balloon fill most of the small strip.",
+   "evidence": "7.1 spans x 313-1012 and 7.5 spans x 337-988, while 7.2 to 7.4 span x 107-1217. In 7.1 the caption box is butted against the top border, and the right edge of the panel cuts off a partial figure (the official's arm).",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.1 / 9.2",
+   "severity": "minor",
+   "description": "The last caption of 9.1 runs onto the bottom border, directly above the first caption of 9.2, which is butted against the top border. With only a thin gutter between them, the two reads as one continuous stack of five captions across the scene change from the hall to the moonlit compound. The script also asked for the 9.1 captions to sit near Nagoji's lowered head; they are at floor level.",
+   "evidence": "'but as a man who understands...' spans about x 760-1185, y 957-1050, with its bottom edge on the 9.1 border. 'Somewhere to the south...' starts at y about 1058, directly below it at x 730-1153. The two captions overlap horizontally, with an 8 px gutter between them.",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.1 and 9.2",
+   "severity": "minor",
+   "description": "'<You speak well...>' is flattened against the right panel border. Separately, the closing caption in 9.2, which the script marks 'separate, weighted', is lettered in the same weight and box style as the other captions.",
+   "evidence": "The right side of the 9.1 balloon (x about 1215, y 335-465) is cut flat by the border. In 9.2, 'When sleep came...' (x 653-1092, y 1330-1453) has the same font and stroke as 'Horses. Guns. Storms.'; the only difference is its position.",
+   "lens": "lettering"
+  },
+  {
+   "page": 5,
+   "panel": "5.2 and 5.5",
+   "severity": "minor",
+   "description": "Balloons are jammed into panel borders and partly clipped. This happens nowhere in the Chapter 1 standard.",
+   "evidence": "In 5.2, the right side and bottom of '<A man who thought he could drown...>' are cut flat by the borders in the bottom-right corner (x about 655, y 905-920). In 5.5, the left side of 'And with you?' is cut flat by the left border at x about 125.",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.1, 6.3, 6.4",
+   "severity": "minor",
+   "description": "Three lettering issues on this page. (1) In 6.1 and 6.4, balloons are clipped flat by the left and bottom borders. (2) In 6.3, the tail of the first whisper stops in the empty space by the pillar, well short of Ibrahim. (3) Ibrahim's two lines in 6.3 are scripted as whispers but lettered as ordinary solid balloons, with no dashed outline or smaller text.",
+   "evidence": "6.1: the left and bottom edges of '<The sea does not consult my schedule.>' are flush with the panel corner (x 108, y 550). 6.4: the left edge of '<The sea brought him...>' is flush at x 108. 6.3: the tail of 'This is not the king. He is busy elsewhere.' ends at about (615, 1045); Ibrahim's mouth is at about (470, 1060).",
+   "lens": "lettering"
+  },
+  {
+   "page": 3,
+   "panel": "3.3",
+   "severity": "minor",
+   "description": "The tail of the off-panel line 'And for kings. That too.' does not reach the panel border. It ends inside the pepper vine at the top right, so it can look as if the vine or tree is speaking rather than Ibrahim off panel.",
+   "evidence": "The tail runs from the balloon (x 878-1122, y 790-870) up to about (1200, 590) in the vines. The right border is at x 1215, and the tail never meets it.",
+   "lens": "lettering"
+  },
+  {
+   "page": 4,
+   "panel": "4.3",
+   "severity": "minor",
+   "description": "The script tags this line IBRAHIM (small), for quiet speech in a small, distant shot. It is lettered as a full-size balloon that takes up about a third of the panel and covers part of the Kerala temple roof the script asks for in the distance.",
+   "evidence": "'Rest. The road is long, and the bulls do not hurry.' spans x 870-1130, y 735-895 in a panel spanning x 665-1217, y 712-1062. It covers the left half of the temple roof at about x 1090-1130, y 820-880.",
+   "lens": "lettering"
+  },
+  {
+   "page": 5,
+   "panel": "2",
+   "severity": "minor",
+   "description": "The BOY's balloon '<Who is he?>' has a tail that ends next to Ibrahim's raised fist and turban, not on the pointing boy, so the question can read as Ibrahim's. The cart lantern, which the script says swings in this panel and stays lit as the key light from 5.1 to 6.1, is also missing.",
+   "evidence": "The tail tip sits in the sky just left of Ibrahim's raised thumb, above the boy's outstretched arm. No lantern hangs from the cart in this panel.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "2",
+   "severity": "minor",
+   "description": "The script asks for the two men to walk single file with Ibrahim's white turban leading, and for Nagoji's head to turn as he catches a scent, which sets up 'Pepper.' The render has them walking side by side toward the camera, Nagoji slightly ahead, with his head facing forward.",
+   "evidence": "Crop of p3 panel 2: Nagoji (left) and Ibrahim (right) walk abreast on the bund, both facing the viewer. Nagoji does not turn his head.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "3",
+   "severity": "minor",
+   "description": "Nagoji is drawn sitting on the ground with his forearms on his knees, in the middle of the walk. In 3.2 and 3.4 he is on foot, so the close-up suggests a rest stop the script does not have. The script beat is only a close on him breathing in.",
+   "evidence": "P3 panel 3 is a medium shot of Nagoji seated, with his bandaged wrists crossed over his knees, beside the pepper-vine tree.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "1",
+   "severity": "minor",
+   "description": "The top panel border crops through the top of Nagoji's head in the establishing wide shot, while Ibrahim beside him has full headroom.",
+   "evidence": "Crop of p3 panel 1: the border cuts across Nagoji's hairline just above his eyebrows.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 2,
+   "panel": "1",
+   "severity": "minor",
+   "description": "Ibrahim is scowling. The script wants his lips 'twitching toward a smile he does not allow', the tone of the evasion 'You will learn his names and his titles in good time.'",
+   "evidence": "P2 panel 1: Ibrahim's brows are knotted and his mouth is turned down.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 4,
+   "panel": "2",
+   "severity": "minor",
+   "description": "The lighting jumps out of the dusk sequence. 4.1 is a golden sunset and 4.3 is deep dusk, but 4.2 shows a clear blue afternoon sky and white clouds.",
+   "evidence": "P4 panel 2 background: bright blue sky and sunlit palms behind the handclasp.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 4,
+   "panel": "3",
+   "severity": "minor",
+   "description": "The script tags this line 'IBRAHIM (small)', but it is lettered as a full-size balloon that fills about a third of a wide panel meant to make the cart look small on the road.",
+   "evidence": "The P4 panel 3 balloon 'Rest. The road is long, and the bulls do not hurry.' is the same type size as the panel 4.1 balloons and larger than the cart group.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "3",
+   "severity": "minor",
+   "description": "The script marks both of Ibrahim's lines here as '(whisper)', but they are lettered in standard solid balloons. Nothing separates them from his normal speech.",
+   "evidence": "P6 panel 3: 'This is not the king. He is busy elsewhere.' and 'This is one of his hands on this coast.' have the same solid outline and type as the dialogue around them.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 7,
+   "panel": "1",
+   "severity": "minor",
+   "description": "On the panel where Nagoji gives his name back, the top border crops through his eyebrows, while Ibrahim beside him has full headroom.",
+   "evidence": "Crop of p7 panel 1: Nagoji's eyes sit right at the top frame line and his hair and forehead are cut off.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 7,
+   "panel": "3",
+   "severity": "minor",
+   "description": "The balloons are on the wrong sides, so their tails cross in an X. '<You know their forts?>' sits beside Nagoji with its tail running right to the official, and 'Some.' sits by the official with its tail running left to Nagoji. The two balloons also cover Nagoji's bandaged hands, which the script wants in frame and held before him.",
+   "evidence": "Crop of p7 panel 3: the two tails cross at Nagoji's waist, and his hands are hidden behind the lower-left balloon.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 8,
+   "panel": "1",
+   "severity": "minor",
+   "description": "The official sits on a carved high-backed chair. In 6.3, 6.4, 7.4 and 9.1 he sits cross-legged on a raised platform, so his seat changes within one scene. The script also has the seated men turned toward Nagoji, but most of them face the camera (toward the official).",
+   "evidence": "P8 panel 1 lower left: a carved wooden chair back behind the official's bare shoulder. The seated men on the left and right look toward the viewer.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 8,
+   "panel": "3",
+   "severity": "minor",
+   "description": "The script asks for 'the slight smile just starting' during the silence. The official is already grinning broadly, which takes away the payoff of the smile in 9.1. The script also calls the panel 'narrow, side-on', but it is a full-width tier.",
+   "evidence": "P8 panel 3: the official at the right has an open, wide smile, with his stylus raised.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 9,
+   "panel": "1",
+   "severity": "minor",
+   "description": "The lettering does not follow the script's placement. The official's second balloon sits below him, not high beside him. Both bow captions are at the bottom of the panel (one at Nagoji's feet, one at the lower right), not around Nagoji's lowered head. Ibrahim's ash smear, which the script calls for in this panel, cannot be seen. It is also missing in 7.1 and 8.1, although it shows in 6.2, 6.3 and 7.4.",
+   "evidence": "P9 panel 1: the '<Tomorrow we take you...>' balloon is below the official's knees; 'Not as a subject, not yet,' is beside Nagoji's feet. Crops show a clean forehead under Ibrahim's turban in 7.1, 8.1 and 9.1.",
+   "lens": "fidelity"
+  }
+ ]
+}

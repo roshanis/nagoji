@@ -1,0 +1,1670 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 34,
+  "logs": [
+    "chapter 22: 12 picked, 7 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-faces2] chapter 22: face zones for 12 frames, 25 faces",
+    "▸ v15-faces2 done",
+    "[v15-keep] chapter 22: keep regions for 12 frames; beat missing from the art in 3: 5.3, page-06-panel-02, page-06-panel-03",
+    "▸ v15-keep done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 22,
+        "decisions": [
+          {
+            "id": "page-03-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.698,
+                "y": 0.173
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.732,
+                "y": 0.127,
+                "r": 0.09
+              },
+              {
+                "x": 0.27,
+                "y": 0.178,
+                "r": 0.085
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. The gap between the two men is a little wider than arm's length, the chaver reads slightly older than in 3.3, and the niche-lamp flames barely bend. Otherwise clean: Nagoji matches his sheet and the ch22 row (high topknot with grey at the temples, thick curled moustache, clean-shaven chin, small flush gold stud, silver chain with medallion, shoulder cloth, scar on the inner left forearm, unarmed, barefoot) and stands under the jackfruit tree at right, watching. The chaver is at left, clean-shaven, with three ash stripes, a knot at the nape, a sacred thread and cloth over his left shoulder. He walks left toward the sanctum without looking at Nagoji, and the plate lamp burns straight up. There is no painted text, blade, blood or anachronism. Open sky and wall in the upper centre (about x 0.40 to 0.66, y 0.0 to 0.2) leave room for the balloon, and the caption can go top-left or on the lower floor.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.482,
+                "y": 0.386,
+                "r": 0.05
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor: the assistant reads more as falling forward onto hands and knees than fully crumpling, and the torch is lying still rather than visibly rolling. Otherwise clean. Low angle, he is in silhouette, close-cropped hair, bare-chested, no shoulder cloth, and no wound. The fallen torch spills light across the flags. The courtyard matches 4.5: sanctum with jasmine at left, jackfruit tree at right, niche lamps, side door. No text and no lettering needed.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.275,
+                "y": 0.322,
+                "r": 0.12
+              },
+              {
+                "x": 0.558,
+                "y": 0.225,
+                "r": 0.15
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor continuity: the dagger is a straight, single-edged knife held point-forward in the chaver's right hand. In 4.2 it is a slender reversed blade in his left hand, but it reads as a mid-struggle regrip. The hands at the hilt are slightly busy but readable: Nagoji's left hand clamps over the chaver's fist and wrist. Nagoji matches the sheet and the bible row. He has a high topknot with grey at the temples, a thick curled moustache, a clean-shaven chin, a small gold stud, a silver chain with a pendant, and the scar and brand on his inner left forearm with no letters. The chaver matches his tag: clean-shaven, three ash stripes, a low knot at the nape, a sacred thread and cloth over his left shoulder. Screen direction is correct (Nagoji right, chaver left), and the dog bolts mid-bark in the background. Clear dark sky at top centre (about x 0.30 to 0.55, y 0 to 0.12) takes the short caption, away from the inset in the upper left.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-01",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.317,
+                "y": 0.254,
+                "r": 0.08
+              },
+              {
+                "x": 0.387,
+                "y": 0.394,
+                "r": 0.07
+              },
+              {
+                "x": 0.635,
+                "y": 0.181,
+                "r": 0.085
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable; this fixes the r1/r2 failures. The old priest is now visibly elderly, with grey hair and ash stripes. He stands at the mandapa pillar on the sanctum side at screen LEFT, gripping the heir's arm and hauling him behind it. Varma, half turning toward the off-panel struggle at right, shoves the boy back toward the sanctum by the shoulder. He matches his ch22 row: bare-headed, pearl drop earring, one thin gold chain, bare chest, cream gold-bordered mundu, no crest and no spear. The heir is about ten, wide-eyed and staring, with a small topknot, a thin gold chain and a white mundu. The setting matches 5.2 and 5.3: jasmine-hung sanctum with a faint lingam at left, peeling lime-washed wall with niche lamps, jackfruit tree and roots at right, night. There is no text and no blood. Minor: because of the three-quarter view, Varma's knot reads as back or far side of the crown rather than clearly above the left ear. The priest's and boy's interlocked hands at the pillar are a little muddled at small size. For the three short captions, the sky at upper centre (x 0.42 to 0.58, top 18%) and the plain wall at upper right are clear.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-03",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.42,
+                "y": 0.178,
+                "r": 0.105
+              },
+              {
+                "x": 0.726,
+                "y": 0.216,
+                "r": 0.125
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. Exactly one dagger this time. The chaver (left, clean-shaven, ochre torn tunic, red sash, white lower cloth) drives his bent dagger-arm elbow into Nagoji's side under the chest, while Nagoji (right) winces and folds around it, his LEFT hand clamped on the chaver's dagger fist and the blade pointing down and away. Nagoji matches the sheet and the ch22 row: thick curled moustache, clean chin, tiny gold stud, high topknot with grey temples, silver chain with medallion, cream mundu and shoulder cloth. The brand on his inner left forearm is a pale puckered patch with no letters. Same courtyard and lighting as 5.2. Minor: Nagoji's grip sits on the fist and hilt rather than strictly on the wrist. The chaver's hair is shorter than in 5.2 and his ash stripes are hidden by hair and the turned brow. The sky and wall-top band at upper centre (x 0.52 to 0.70, top 16%) holds the medium caption clear of both faces.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-04",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Acceptable tight insert. Nagoji's LEFT arm comes from screen left (silver chain and cream shoulder cloth at the edge), palm toward the viewer with the thumb up, which is correct for a left hand. The brand is a pale puckered patch with the long white scar on the inner forearm and no letters. His hand has slid down onto the chaver's dagger fist: the thumb still hooks over the knuckles and the fingers still curl around beneath, while the blade's point lies across the heel of his open palm. That reads as slip, still holding, no cut. No blood, no text, and the night courtyard background (sanctum, niche lamps, tree roots) matches. Minor: the brand sits mid-forearm rather than near the wrist. No lettering is needed.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-05",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 (the only listed candidate): Varma is good and the beat of the blade at his throat works. He is at left, stepping in with a forward lunge, one hand rising at the dagger, sleek black hair, pearl drop earring, bead chain, bare chest, cream gold-bordered mundu, no crest and no spear. The chaver, though, has become a different man from 5.2 to 5.4: a shaved head with a back tuft, a rudraksha bead necklace, older features and a visible thin MOUSTACHE, where the script and earlier panels give a clean-shaven young man with thick curly black hair and ash stripes. Nagoji (right, correct look) grips with BOTH hands the chaver's LEFT, empty forearm, which is stretched back toward him, so the dagger arm is completely free. That breaks 'Nagoji's left hand still dragging on the chaver's wrist' and the 6.1 follow-on (Varma clamps the forearm just above Nagoji's left hand on the wrist). The brand scar is also drawn on both of Nagoji's forearms.",
+            "correction": "Keep the layout, night courtyard and Varma exactly as drawn: Varma at LEFT before the lamplit sanctum, lunging IN with his front foot advancing, sleek black hair, pearl drop earrings, one gold chain, bare chest and cream gold-bordered mundu, his hand rising toward the blade, and the jackfruit tree at right. Fix the chaver and Nagoji's grip. The chaver in the CENTRE must be the SAME man as in the previous panels: young, lean and wiry, completely CLEAN-SHAVEN with NO moustache and no stubble moustache, thick shoulder-length black CURLY hair (never a shaved head, never a tuft), three white horizontal ash stripes across his forehead, NO bead necklace, rudraksha or jewellery, in the ragged ochre sleeveless top, dark red sash and white lower cloth. He thrusts his single dagger up in his RIGHT hand, its point a hand-span short of Varma's throat. His LEFT hand is empty and held low at his side, and NOBODY holds his left arm. Nagoji at RIGHT (high topknot, grey temples, thick curled moustache, clean chin, tiny gold stud, silver chain, white mundu and shoulder cloth) lunges in close behind the chaver's dagger shoulder, his LEFT arm stretched forward along the chaver's extended dagger arm. Nagoji's LEFT hand is locked around the chaver's RIGHT wrist directly behind the dagger hilt, dragging it back, so a single line runs from the chaver's shoulder through Nagoji's grip to the blade. Nagoji's right hand is braced on the chaver's shoulder or back. Draw the pale, puckered brand patch and the long white scar ONLY on the inner side of Nagoji's left forearm, never on his right arm."
+          },
+          {
+            "id": "page-06-panel-01",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 (the only candidate) gets the three-man staging, the courtyard, Varma's throat strike, the chaver and Nagoji's face right (thick curled moustache, clean chin, flush gold stud, high topknot, grey temples, silver chain). The open night sky at the upper centre has room for the long caption. It repeats the failure that got page-04-panel-05 rejected in this chapter. Nagoji's chest faces the viewer, so the arm that clamps the chaver's forearm comes from his image-left shoulder: that is his RIGHT hand, not the LEFT the script and injury continuity call for. His left arm is cocked back in a fist. The brand and long white scar are painted on BOTH forearms. Each brand is a faint concentric-ring, tattoo-like emblem, not the pale puckered patch on the inner LEFT forearm only. Smaller points: Varma's left hand is a fist below Nagoji's grip, not clamped just above it. His knot sits at the back of his head behind the visible right ear, not above the LEFT ear (this chapter has tolerated that).",
+            "correction": "Keep this version's composition, courtyard, light and figures: the jasmine-hung sanctum and brass lamps at left, Varma at screen left, the clean-shaven ash-striped chaver in the centre holding the only dagger, Nagoji at the right edge, the jackfruit tree at right and the open dark sky across the upper centre for the caption. Keep Varma's right hand driving stiff-fingered into the chaver's throat, his calm face, his white horizontal sandal-paste lines with the red centre stroke, his pearl drop earring and his single gold bead chain. Fix Nagoji's handedness and brand. Draw Nagoji in profile, or a three-quarter view from slightly behind, facing screen LEFT, so his LEFT shoulder and LEFT arm are the ones nearest the viewer and nearest the chaver. His LEFT hand is locked on the chaver's dagger wrist, inner forearm turned toward the camera. His RIGHT arm stays back behind his body, out of the struggle, its forearm plain unmarked skin. The brand appears ONCE, only on the inner LEFT forearm a hand's width above the wrist: a pale, flesh-toned, puckered patch of raised scar ridges beside one long thin white scar. Draw no rings, circles, dots, patterns, tattoo or symbol of any kind, and no scar at all on the right arm. Varma's LEFT hand, fingers open and wrapped, clamps the chaver's forearm just ABOVE Nagoji's left hand, so both grips show clearly on the one dagger arm. Varma's knot sits above his LEFT ear, on the far side of his head, showing only as a small bun peeking over the top. Never put it as a bun behind his visible right ear. No blood on Nagoji's cut palm."
+          },
+          {
+            "id": "page-06-panel-02",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.319,
+                "y": 0.259,
+                "r": 0.132
+              },
+              {
+                "x": 0.472,
+                "y": 0.278,
+                "r": 0.137
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable, with minor misses. The beat reads clearly: the clean-shaven chaver (horizontal ash stripes, knot at the nape, sacred thread, white cloth over the shoulder) snaps his forehead into Varma's brow, and Varma reels back a step, eyes shut. Varma is bare-headed with no crest or spear, with his face and moustache from the sheet, a pearl drop earring, one gold bead chain, bare chest and a cream mundu with a gold border. There is no text and no blood. Minor: Varma's brow mark is the sheet's vertical namam, its red centre smeared at the impact. It is not the horizontal sandal-paste line seen in 6.3, but the namam has been tolerated elsewhere in this chapter. The red smear stays inside the mark and reads as kumkum, not a wound. His knot sits on the top and back of his head, not above the LEFT ear (tolerated in this chapter). The chaver's dagger hand hangs free and low at the lower right, with no grip on it. Both captions fit in the dark sky and the plain lime-washed wall at the upper centre-right, clear of both heads.",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-03",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.117,
+                "y": 0.244,
+                "r": 0.112
+              },
+              {
+                "x": 0.563,
+                "y": 0.273,
+                "r": 0.112
+              },
+              {
+                "x": 0.84,
+                "y": 0.161,
+                "r": 0.137
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable, with minor misses. It fixes the r1 failures: the left-to-right staging holds, with Varma recoiling at the left edge, the chaver in the middle and Nagoji at right. The chaver is clean-shaven and bare-chested, with ash stripes, a nape knot, a sacred thread and white cloth. Varma has black hair, no grey, his moustache with upturned points, a pearl drop, one gold chain, a bare chest and no crest or spear. Nagoji matches his sheet and ch22 row: thick curled moustache, clean chin, flush gold stud, high topknot, grey temples and silver chain. His RIGHT hand lies over his LEFT, and the long scar is on the LEFT forearm only. The dagger point stops about a hand-span from Varma's jaw and chin. There is no text and no blood. Minor: Nagoji's two hands catch the chaver's upper arm near the shoulder rather than the wrist. The dagger hilt has a second fist behind the first, which reads as the chaver's two-handed grip. Varma's sandal-paste line is intact, not smeared. His knot sits at the back of his head rather than above the LEFT ear (tolerated in this chapter). The panel has no lettering.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.357,
+                "y": 0.33,
+                "r": 0.12
+              },
+              {
+                "x": 0.598,
+                "y": 0.292,
+                "r": 0.062
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. The background figures are drawn sharp, not out of focus as the script asks. Nagoji's right arm lies stretched forward on the flags instead of hanging limp, so it reads as weight-bearing; this is soft because he is a background figure and the pose sets up 8.2 (crawling, LEFT hand reaching for the hilt). The whole floor glistens heavily wet. The 2.3 stair is described as wet stone, so this is plausible, but it is glossier than the dry flags in 7.1, 7.3 and 7.5. The dagger is straight with an ornate brass hilt, where the script calls for a slightly curved blade. Otherwise clean. Nagoji matches the sheet and the ch22 bible row: thick curled moustache, clean-shaven chin, tiny gold stud, high topknot, grey at the temples, silver chain, cream mundu with shoulder cloth. The chaver is clean-shaven, with ash stripes, a knot at the nape and cloth over his LEFT shoulder, consistent with 7.3 and 7.5. The courtyard (mandapa with jasmine and lingam at left, niche lamps, jackfruit roots at right) matches the neighbouring panels. The dagger rests against the pillar foot in niche-lamp light, with a spin trail on the flags. No painted text, blood or anachronism. Hands are sound. No lettering is needed.",
+            "correction": ""
+          },
+          {
+            "id": "page-08-panel-03",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Only v03 is listed. It is rejected because the hands are mirrored. Nagoji (right, facing screen left with his chest to the viewer and his shoulder cloth on his left shoulder) raises the dagger in his RIGHT hand, the arm the script says hangs useless after the fall. His LEFT arm is the one that hangs to the floor. The script (8.3) and the page's other panels (8.2 left hand closing on the hilt, 8.4 insert of the LEFT hand with the Goa brand turning the blade) need the dagger in his LEFT hand, so this frame contradicts the panels on either side. The brand/scar is also drawn on BOTH forearms instead of only the inner left. Smaller problems: Nagoji wears a grey bead necklace, not the silver link chain of office. The chaver lies flat and passive rather than arching his chest up toward the point. What works: the courtyard (sanctum and lingam at left, jasmine, peeling lime-wash wall, jackfruit roots at right, night with niche lamps), Varma's face, tilak, pearl earring, bare head and gold chain, the chaver's clean-shaven face and ash-striped brow, Nagoji's face (thick moustache, clean chin, grey temples, gold stud, high topknot), no blood, no text, and clear wall/sky space at upper left-centre for the two captions.",
+            "correction": "CRITICAL HAND FIX: Nagoji must hold the dagger in his LEFT hand and his RIGHT arm must hang limp and useless. To make this unambiguous, draw Nagoji at screen right in a left-side three-quarter profile facing screen LEFT, so that his LEFT side and LEFT arm are nearest the viewer. That near LEFT arm is raised high, fist closed on the dagger hilt, with the old brand and long white scar visible on its inner forearm a hand's width above the wrist. His far RIGHT arm hangs straight down, limp, from a dropped shoulder, its hand open and slack against the stones and partly hidden behind his body, and that right forearm is unmarked. Draw the brand on the left forearm only, never on both arms. Nagoji is up on one knee, and around his neck is a silver link chain of office with a round silver medallion, not a bead necklace. The chaver beneath Varma is not lying flat: his back is bowed and his chest is lifted off the stones, thrust up toward the descending point, his eyes fixed on the steel. Varma's right shoulder and forearm press down on the middle of that chest. Keep everything else exactly as before: the same courtyard, night lighting and lamp niches; Varma's face, tilak, pearl drop earring, bare head with side knot, single gold chain and cream mundu; the chaver's clean-shaven face with ash-striped brow; Nagoji's thick curled moustache, clean-shaven chin, grey temples, tiny gold ear stud and high topknot; no blood; and open, low-detail wall and night sky across the upper left and centre for the two captions."
+          },
+          {
+            "id": "page-09-panel-01",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 (the only candidate) has Nagoji's hands mirrored. He faces the camera, so the dagger in his screen-left hand is in his RIGHT hand. That is the arm dislocated at 7.3, which should hang useless. His LEFT hand, the forearm carrying the brand on the screen-right side, rests empty on his knee. Pages 8.2 to 8.4 make a point of him taking the blade left-handed, and 9.1 calls for the dagger lowered in his left hand. He also has two faint white lines between his brows, which breaks the 'no forehead marks' rule; r1 flagged this too. Everything else works. The high angle through the jackfruit leaves is right. The chaver lies face down in a white mundu with no blood. The elderly grey-bearded priest (consistent with 3.1 and 9.4) has his arm locked around the wide-eyed heir at the jasmine-hung sanctum door beside the pillar. Varma kneels back at right with the correct moustached face, pearl earring, one gold chain and side knot, with no crest and no spear. The dog lies against the far wall, there is no text, and the peeling upper wall is clear for two captions.",
+            "correction": "Keep this composition, lighting and setting exactly. That means the high angle from inside the jackfruit canopy and the chaver face down on the flags in a white mundu with no blood. Keep the grey-bearded old priest with his arm locked around the heir in the jasmine-hung sanctum doorway beside the pillar. Keep Varma kneeling back at right with his black moustache, pearl drop earring, one gold chain and black side knot, and the dog flattened against the far wall. Keep the plain peeling lime-washed wall across the top clear for two captions. Fix only Nagoji's hands and brow. He faces the camera, so his LEFT hand is on the screen-RIGHT side of his body: it is the arm whose inner forearm carries the pale puckered brand patch. That LEFT hand holds the lowered dagger point-down, held out a little away from his body toward the chaver. His RIGHT arm, on the screen-LEFT side of his body, hangs limp and EMPTY from a slumped right shoulder, its fingers open and slack and holding nothing. No blade is anywhere near that right hand. His forehead is bare skin, with no white lines, ash, sandal paste or mark of any kind between or above his brows."
+          },
+          {
+            "id": "page-09-panel-03",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 (the only candidate) draws Varma's brow cut as a RED gash with a red trickle running down to the eyebrow. The script says 'No blood rendered', and the r1 correction asked for an ink-only cut. The cut also sits beside the sandal paste instead of splitting it. Nagoji's brand is duplicated. His RIGHT forearm (hanging on the screen-left side) carries a full brand patch and the long white scar, and his LEFT forearm, folded across his chest, has a second puckered patch. The brand belongs on the inner LEFT forearm only. Everything else works and should stay. Varma is on the left on hands and knees, easing up off the chaver's face-down body, with the correct moustached face, pearl earring, gold bead chain and side knot, and no crest or spear. Nagoji rises from one knee on the right, with his right arm hanging and his left fist clenched at his chest. He has his topknot, grey temples, curled moustache, clean chin, gold stud and silver chain. The dagger lies on the flags. The sanctum and jasmine are at left and the jackfruit at right. The night sky across the top is clear for two short balloons.",
+            "correction": "Keep this composition, setting and both poses exactly. Varma stays on the left on hands and knees, pushing himself up off the chaver's face-down body, with his black moustache, pearl drop earring, gold bead chain and black side knot. Nagoji stays on the right, rising from one knee, his right arm hanging at his side and his LEFT fist clenched at his chest. Keep the dagger lying on the flags, the jasmine-hung sanctum at left, the niche-lamp wall and the jackfruit tree at right, and the starry night sky across the top clear for two balloons. Fix two things only. 1) Varma's brow cut contains NO red at all. Draw it as a short, thin, dark-brown ink line that crosses and cracks the white sandal paste on his brow. There is no red line, no drip and no trickle below it, and the only red on his face is the small red centre stripe of his forehead mark. 2) Nagoji's RIGHT forearm, the arm hanging on the screen-LEFT side of his body, is smooth, unmarked skin with no scar, brand, patch or white line. The pale puckered brand patch and the long thin white scar appear ONLY on the inner LEFT forearm, the arm folded across his chest on the screen-right side."
+          },
+          {
+            "id": "page-09-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.498,
+                "y": 0.302
+              },
+              {
+                "copy_index": 1,
+                "x": 0.498,
+                "y": 0.302
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.531,
+                "y": 0.259,
+                "r": 0.09
+              },
+              {
+                "x": 0.762,
+                "y": 0.205,
+                "r": 0.093
+              },
+              {
+                "x": 0.176,
+                "y": 0.158,
+                "r": 0.047
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable, with minor misses only. Varma's sandal paste is intact, and the brow cut set up in 9.3 is not visible. His split lip reads only as a slightly full, darker lower lip, which matches the accepted 9.4. The rest is right and fixes the r1 failures. Varma sits on the left against the jackfruit trunk: moustache, pearl earring, one gold chain, side knot, cream mundu, no crest or spear. His fingertips test his lip and his eyes go to the pillar, where the heir peers out (small white mundu, topknot, thin gold chain). Nagoji sits on the right with his back to the trunk: high topknot with grey temples, curled moustache, clean chin, flush gold stud and silver chain. His RIGHT arm hangs limp to the flags. His LEFT palm lies open with a thin dark cut and no red, and the brand and white scar show on that inner left forearm only. The chaver lies face down at lower left with empty hands, and the dagger lies before Nagoji's feet. There is no blood or text. Night sky and dark palms above Varma's head leave room for the long balloon, and the wall below it has room for the short one.",
+            "correction": ""
+          },
+          {
+            "id": "page-10-panel-01",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.54,
+                "y": 0.355
+              },
+              {
+                "copy_index": 1,
+                "x": 0.232,
+                "y": 0.234
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.225,
+                "y": 0.215,
+                "r": 0.075
+              },
+              {
+                "x": 0.527,
+                "y": 0.283,
+                "r": 0.11
+              },
+              {
+                "x": 0.822,
+                "y": 0.344,
+                "r": 0.093
+              }
+            ],
+            "backup_faces": [],
+            "issues": "v03 is the only candidate and it is acceptable. Nagoji matches his sheet: high topknot with grey at the temples, thick curled moustache, clean-shaven chin, tiny flush gold stud, and the silver chain with its medallion. His right shoulder is bound in cream cloth and his right hand rests limp on his knee. His left palm is held out palm up and the old priest is wrapping it. Varma matches his sheet: thick moustache, side knot above his left ear, pearl drop earrings, gold bead chain, bare chest, cream mundu with a gold border, no crest or spear. His head is tipped back with a wet cloth pressed to his brow. The priest is the same elderly priest with three ash stripes accepted in earlier rounds, with the brass pot and folded cloth beside him. The chaver's body lies face down in the lower-left foreground with the dagger beside it. There is no blood and no painted text. Nagoji's eyes are lowered toward the body. Minor deviations: (1) Varma sits on the shrine steps at screen left rather than leaning against the jackfruit bark. Nagoji is in the centre with the priest on the far right. This arrangement (shrine steps on the left, tree on the right) still matches 10.3 and 10.5. (2) The brand on the inner left forearm is a raised patch that is more pink-red than the pale patch on the sheet. It has the long white scar line and no emblem, and it reads as an old keloid scar rather than a wound. The open sky and wall across the top centre (about x 0.33 to 0.8, y 0 to 0.25) have room for both balloons. The doorway area above Varma can also take a balloon.",
+            "correction": ""
+          },
+          {
+            "id": "page-11-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.206,
+                "y": 0.319
+              },
+              {
+                "copy_index": 1,
+                "x": 0.428,
+                "y": 0.27
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.166,
+                "y": 0.259,
+                "r": 0.1
+              },
+              {
+                "x": 0.413,
+                "y": 0.215,
+                "r": 0.09
+              },
+              {
+                "x": 0.856,
+                "y": 0.242,
+                "r": 0.14
+              }
+            ],
+            "backup_faces": [],
+            "issues": "These are small issues and none of them fails the panel. Nagoji's hair is a loose curly mass with only a small knot at the crown, not a neat high topknot, and his temples show no grey. The bandage covers his left wrist more than his palm. Ramayyan's stylus points across the space in front of Varma. His gaze and Nagoji's answering look still make it read as aimed at Nagoji. Everything else is right. Nagoji has the curled moustache, a clean-shaven chin, the gold stud and the silver chain, his right arm is in a sling, and the scar shows on his inner left forearm. Varma is bare-headed with the side knot above his left ear, a stitched brow with no blood, pearl drops and one gold chain, and the cream cloth over his right shoulder. Ramayyan is thin and receding, in plain white, with the stylus and palm-leaf bundle. The doorway shows the torchlit courtyard with the picketed horses. There is plenty of plain wall in the upper left and upper centre for both balloons.",
+            "correction": ""
+          },
+          {
+            "id": "page-13-panel-01",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 is otherwise strong. Varma is distinct, with a sleek side knot above his left ear, namam, pearl drops, gold bead chain, stitched brow and a cream cloth on his right shoulder. Ramayyan is still at the left edge with bundle and stylus, the room and lamp are right, the courtyard horses show through the doorway, there is no text, and the upper wall is clear for lettering. But it repeats the injury mirror that the r1 and r2 corrections rejected. Nagoji's chest faces the viewer, so the sling knot and the bandaged upper arm on the near, screen-right shoulder are his LEFT. The arm on the screen-left side of his torso, his RIGHT, stretches toward Varma with the wrapped palm and brand. The bible needs the right shoulder bound and the left palm wrapped, and 13.2 sets up the bound right arm across the chest.",
+            "correction": "REVIEW CORRECTION (r3): the image generator has twice put Nagoji's sling on the near, screen-right shoulder and gestured with the arm on the screen-left side of his chest-facing torso, which mirrors his injuries. Fix it by changing the camera, not the gesture. Show Nagoji at screen right in a three-quarter BACK view, seen from behind his right shoulder, with his head turned in left-facing profile toward Varma so that his high topknot with grey temples, thick curled moustache, clean-shaven chin and tiny flush gold stud read clearly. His bare back and right shoulder blade face the viewer. The cream cloth sling is knotted on that near RIGHT shoulder at screen right and holds his RIGHT forearm folded against his chest, hidden in front of his body and still. His LEFT arm is the far arm, on the side toward Varma and the lamp. It reaches low across the table toward Varma with its palm wrapped in clean linen, and its upper arm is bare with no bandage. His fine silver chain of office shows around the back of his neck and hangs at his throat. Keep everything else from the last image. Varma sits at screen left facing the viewer three-quarter toward Nagoji, with sleek black hair knotted above his left ear, the namam, pearl drop earrings, a gold bead chain, a small stitched cut above his brow and the cream gold-bordered cloth over his right shoulder at screen left. Ramayyan sits very still at the far left edge with his palm-leaf bundle and stylus. Keep the low table with the brass open-wick lamp, cups and palm leaves, the open doorway onto the torchlit courtyard with horses picketed in a line, the night lamplight, and the plain upper wall on both sides of the doorway clear for two balloons."
+          },
+          {
+            "id": "page-13-panel-04",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 gets the mood: Varma winces mid-laugh with one eye shut and a stitched brow, the brass cups clink over the lamp, the doorway shows torchlit picketed horses, there is no text, and the upper wall has room for lettering. But it fails the scripted beat that both men toast left-handed, and it breaks the injury continuity. Varma raises his cup with his RIGHT arm, the screen-left arm under the cloth over his injured right shoulder, swung across his chest. Nagoji's chest faces the viewer, so his toasting arm (wrapped palm, brand) comes from the screen-left side of his torso and is his RIGHT. The sling knot and binding sit on his near, screen-right shoulder, his LEFT. The r1 and r2 corrections rejected this same mirror.",
+            "correction": "REVIEW CORRECTION (r3): the last image mirrored both toasting arms. Fix it through staging. Varma sits at screen left, facing the viewer three-quarter toward Nagoji. He raises his cup with his LEFT arm, the one on the screen-right side of his body nearer Nagoji, which reaches straight across without crossing his chest. His RIGHT arm, on the screen-left side under the cream gold-bordered cloth over his injured right shoulder, hangs lowered and still with its hand resting in his lap, holding nothing. Show Nagoji at screen right in a three-quarter BACK view, seen from behind his right shoulder, with his smiling face in left-facing profile toward Varma. His bare back and right shoulder blade face the viewer. The cream cloth sling is knotted on that near RIGHT shoulder and holds his right forearm folded against his chest, hidden in front of him. His LEFT arm is the far arm, on the side toward Varma. It reaches forward with the cup, its palm wrapped in clean linen and its upper arm bare. The two brass cups clink large at the centre of the frame, just above the open-wick lamp. Keep everything else from the last image: Varma wincing mid-laugh with one eye squeezed shut, his sleek black hair knotted above his left ear, the namam, pearl drop earrings, gold bead chain and small stitched cut above his brow. Keep Nagoji's high topknot with grey temples, thick curled moustache, clean-shaven chin, tiny flush gold stud and the fine silver chain at his nape and throat. Keep the low table with the brass pot, lamp, palm-leaf bundle and spare cup, the open doorway onto the torchlit courtyard with picketed horses, and the plain upper wall on both sides clear for two balloons."
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 22,
+        "result": {
+          "chapter": 22,
+          "panels": [
+            {
+              "id": "page-03-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.238,
+                  "y": 0.211,
+                  "r": 0.035,
+                  "who": "temple priest with ash marks, profile facing left, carrying lamp plate, left of centre"
+                },
+                {
+                  "x": 0.711,
+                  "y": 0.166,
+                  "r": 0.042,
+                  "who": "moustached bare-chested man with topknot and chain pendant, profile facing left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-04-panel-04",
+              "version": "v03",
+              "faces": []
+            },
+            {
+              "id": "page-04-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.323,
+                  "y": 0.343,
+                  "r": 0.056,
+                  "who": "young man with white forehead marks, three-quarter facing right, left of centre"
+                },
+                {
+                  "x": 0.503,
+                  "y": 0.318,
+                  "r": 0.06,
+                  "who": "moustached older man with grey-streaked topknot, profile facing left, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-01",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.335,
+                  "y": 0.282,
+                  "r": 0.05,
+                  "who": "grey-haired priest with ash marks, behind pillar, left of centre"
+                },
+                {
+                  "x": 0.397,
+                  "y": 0.41,
+                  "r": 0.042,
+                  "who": "boy with topknot, looking back, centre-left"
+                },
+                {
+                  "x": 0.655,
+                  "y": 0.212,
+                  "r": 0.045,
+                  "who": "moustached man with earring, three-quarter, right of centre"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-03",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.458,
+                  "y": 0.23,
+                  "r": 0.056,
+                  "who": "curly-haired attacker in torn tunic, snarling profile, centre"
+                },
+                {
+                  "x": 0.688,
+                  "y": 0.288,
+                  "r": 0.064,
+                  "who": "moustached man with topknot and chain, grimacing, right of centre"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-04",
+              "version": "v02",
+              "faces": []
+            },
+            {
+              "id": "page-06-panel-02",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.352,
+                  "y": 0.305,
+                  "r": 0.072,
+                  "who": "moustached man with pearl earring, eyes shut, three-quarter, left-centre"
+                },
+                {
+                  "x": 0.41,
+                  "y": 0.335,
+                  "r": 0.07,
+                  "who": "grimacing man with white forehead stripes, profile facing left, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-03",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.159,
+                  "y": 0.247,
+                  "r": 0.056,
+                  "who": "moustached man with pearl earring, head tilted back, left"
+                },
+                {
+                  "x": 0.514,
+                  "y": 0.306,
+                  "r": 0.058,
+                  "who": "young man with knife and forehead stripes, three-quarter facing left, centre"
+                },
+                {
+                  "x": 0.812,
+                  "y": 0.226,
+                  "r": 0.06,
+                  "who": "grey-streaked older man with heavy moustache, three-quarter, right"
+                }
+              ]
+            },
+            {
+              "id": "page-07-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.3665,
+                  "y": 0.378,
+                  "r": 0.045,
+                  "who": "moustached grey-haired man sprawled reaching, three-quarter, centre-left"
+                },
+                {
+                  "x": 0.5924,
+                  "y": 0.315,
+                  "r": 0.028,
+                  "who": "young man with forehead marks, kneeling behind, centre-right"
+                }
+              ]
+            },
+            {
+              "id": "page-09-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.1803,
+                  "y": 0.181,
+                  "r": 0.019,
+                  "who": "boy peeking from temple pillar, upper left"
+                },
+                {
+                  "x": 0.507,
+                  "y": 0.287,
+                  "r": 0.044,
+                  "who": "man with tilak and pearl earring, hand at moustache, centre"
+                },
+                {
+                  "x": 0.787,
+                  "y": 0.248,
+                  "r": 0.046,
+                  "who": "grey-streaked man with chain pendant against tree, right"
+                }
+              ]
+            },
+            {
+              "id": "page-10-panel-01",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.224,
+                  "y": 0.2205,
+                  "r": 0.035,
+                  "who": "moustached man on temple steps at left, cloth to forehead, face tilted up"
+                },
+                {
+                  "x": 0.542,
+                  "y": 0.336,
+                  "r": 0.038,
+                  "who": "Nagoji, three-quarter view looking down, centre"
+                },
+                {
+                  "x": 0.8008,
+                  "y": 0.3955,
+                  "r": 0.036,
+                  "who": "grey-haired elder with white moustache binding the arm, profile, right"
+                }
+              ]
+            },
+            {
+              "id": "page-11-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.199,
+                  "y": 0.303,
+                  "r": 0.048,
+                  "who": "balding older scribe at left, three-quarter"
+                },
+                {
+                  "x": 0.4186,
+                  "y": 0.262,
+                  "r": 0.045,
+                  "who": "moustached man with tilak, centre"
+                },
+                {
+                  "x": 0.7975,
+                  "y": 0.283,
+                  "r": 0.056,
+                  "who": "curly-haired moustached man, profile, right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 22,
+        "result": {
+          "chapter": 22,
+          "panels": [
+            {
+              "id": "3.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.14,
+                  "y0": 0.31,
+                  "x1": 0.25,
+                  "y1": 0.44,
+                  "what": "chaver's hands on the brass plate with flowers and lamp, its flame burning straight up"
+                },
+                {
+                  "x0": 0.52,
+                  "y0": 0.39,
+                  "x1": 0.56,
+                  "y1": 0.45,
+                  "what": "wall niche lamp flame bending in the breeze (contrast with the still plate flame)"
+                },
+                {
+                  "x0": 0.63,
+                  "y0": 0.18,
+                  "x1": 0.82,
+                  "y1": 0.5,
+                  "what": "Nagoji on the right under the tree with silver chain, within arm's length of the passing chaver"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-04-panel-04",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.17,
+                  "y0": 0.34,
+                  "x1": 0.51,
+                  "y1": 0.59,
+                  "what": "assistant in silhouette crumpling to the flagstones"
+                },
+                {
+                  "x0": 0.45,
+                  "y0": 0.52,
+                  "x1": 1,
+                  "y1": 0.78,
+                  "what": "fallen torch rolling on the stone, flame spilling light"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-04-panel-05",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.01,
+                  "y0": 0.59,
+                  "x1": 0.33,
+                  "y1": 0.76,
+                  "what": "Nagoji's left hand clamping the chaver's dagger wrist, blade visible"
+                },
+                {
+                  "x0": 0.78,
+                  "y0": 0.44,
+                  "x1": 0.96,
+                  "y1": 0.67,
+                  "what": "dog bolting mid-bark in background"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "5.1",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.42,
+                  "y0": 0.4,
+                  "x1": 0.49,
+                  "y1": 0.48,
+                  "what": "Varma's hand hooking the heir's shoulder, shoving him back"
+                },
+                {
+                  "x0": 0.26,
+                  "y0": 0.26,
+                  "x1": 0.42,
+                  "y1": 0.56,
+                  "what": "old priest catching the stumbling heir and pulling him behind the pillar"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "5.3",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.49,
+                  "y0": 0.35,
+                  "x1": 0.6,
+                  "y1": 0.53,
+                  "what": "attacker's elbow pressed against Nagoji's ribs"
+                },
+                {
+                  "x0": 0.4,
+                  "y0": 0.52,
+                  "x1": 0.63,
+                  "y1": 0.77,
+                  "what": "Nagoji's branded left hand still clamped on the dagger wrist, with the blade"
+                }
+              ],
+              "beat_present": false,
+              "missing": "The man on the left is not the chaver. He has loose curly hair and wears a ragged ochre tunic with a red sash. He has no three ash stripes, no knot at the nape, no white cloth over his left shoulder and no sacred thread, so readers would take him for a different man from the priest in 4.5. Also no elbow is driven into Nagoji's ribs: the dagger arm's elbow only rests against his flank, and Nagoji stands upright instead of folding around a blow."
+            },
+            {
+              "id": "5.4",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.19,
+                  "y0": 0.27,
+                  "x1": 0.38,
+                  "y1": 0.48,
+                  "what": "Goa brand and scar on Nagoji's left forearm near the wrist"
+                },
+                {
+                  "x0": 0.36,
+                  "y0": 0.35,
+                  "x1": 0.79,
+                  "y1": 0.81,
+                  "what": "Nagoji's open palm slipping to the chaver's fist, still hooked on it, with the dagger point across the heel of his palm"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-06-panel-02",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.34,
+                  "x1": 0.43,
+                  "y0": 0.18,
+                  "y1": 0.31,
+                  "what": "forehead-to-forehead headbutt contact: chaver's ash-striped brow cracking into Varma's brow"
+                }
+              ],
+              "beat_present": false,
+              "missing": "The headbutt and Varma's backward lean are drawn, but his brow mark is an intact, clean vertical white-and-red namam. The script calls for the horizontal line of sandal paste to be visibly smeared and broken by the blow."
+            },
+            {
+              "id": "page-06-panel-03",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.16,
+                  "x1": 0.47,
+                  "y0": 0.24,
+                  "y1": 0.36,
+                  "what": "chaver's fist and dagger thrusting toward the underside of Varma's jaw"
+                },
+                {
+                  "x0": 0.67,
+                  "x1": 0.77,
+                  "y0": 0.36,
+                  "y1": 0.5,
+                  "what": "Nagoji's two hands gripping the chaver"
+                }
+              ],
+              "beat_present": false,
+              "missing": "Nagoji's hands are clamped on the chaver's left shoulder and upper arm, not on the dagger wrist. The dagger hand is free at full extension, so the beat of his right hand joining his left on the wrist and stopping the blade a hand-span short of Varma's jaw is not drawn. Varma's sandal paste is also unsmeared."
+            },
+            {
+              "id": "7.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.49,
+                  "y0": 0.61,
+                  "x1": 0.9,
+                  "y1": 0.82,
+                  "what": "dagger at rest against the foot of the pillar, hilt touching the stone base"
+                },
+                {
+                  "x0": 0.29,
+                  "y0": 0.64,
+                  "x1": 0.52,
+                  "y1": 0.8,
+                  "what": "curved skid trail in the oil showing the dagger's spinning slide across the flags"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "9.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.145,
+                  "x1": 0.2,
+                  "y0": 0.11,
+                  "y1": 0.49,
+                  "what": "the heir in a small white mundu peering out from behind the temple pillar, where Varma is looking"
+                },
+                {
+                  "x0": 0.46,
+                  "x1": 0.53,
+                  "y0": 0.27,
+                  "y1": 0.4,
+                  "what": "Varma's fingers at his split lip, testing it"
+                },
+                {
+                  "x0": 0.03,
+                  "x1": 0.36,
+                  "y0": 0.74,
+                  "y1": 0.96,
+                  "what": "the chaver's body lying on the stones a little way off"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "10.1",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.64,
+                  "y0": 0.53,
+                  "x1": 0.78,
+                  "y1": 0.67,
+                  "what": "priest's hands binding Nagoji's cut left palm, with the Goa brand on the forearm just above the wrap"
+                },
+                {
+                  "x0": 0.165,
+                  "y0": 0.14,
+                  "x1": 0.225,
+                  "y1": 0.26,
+                  "what": "wet cloth Varma presses to his brow"
+                },
+                {
+                  "x0": 0,
+                  "y0": 0.75,
+                  "x1": 0.32,
+                  "y1": 0.97,
+                  "what": "the chaver's body Nagoji is looking at"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "11.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.21,
+                  "y0": 0.36,
+                  "x1": 0.32,
+                  "y1": 0.46,
+                  "what": "Ramayyan's hand with the stylus pointing right toward Nagoji"
+                },
+                {
+                  "x0": 0.71,
+                  "y0": 0.56,
+                  "x1": 0.88,
+                  "y1": 0.85,
+                  "what": "Nagoji's right arm bound in a sling across his chest and his wrapped left hand"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch22 p3",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a37d99f5b14075bcb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 3 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-03.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511789771,
+      "tokens": 79836,
+      "toolCalls": 13,
+      "durationMs": 44469,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-03-panel-05\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.698,\"y\":0.173}],\"backup_tails\":[],\"faces\":[{\"x\":0.732,\"y\":0.127,\"r\":0.09},{\"x\":0.27,\"y\":0.178,\"r\":0.085}],\"backup_faces\":[],\"issues\":\"Minor only. The gap between the two men is a little wider than arm's length, the chaver reads slightly older than in 3.3, and the niche-lamp flames barely bend. Otherwis…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch22 p4",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a510c70623131ae26",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 4 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-04.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511823938,
+      "tokens": 86731,
+      "toolCalls": 19,
+      "durationMs": 77617,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-04-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.482,\"y\":0.386,\"r\":0.05}],\"backup_faces\":[],\"issues\":\"Minor: the assistant reads more as falling forward onto hands and knees than fully crumpling, and the torch is lying still rather than visibly rolling. Otherwise clean. Low angle, he is in silhouette, close-cropped hair, bare-chested, n…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "select ch22 p5",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ac8c8e283582d5ed3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 5 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-05.txt: it lists the character sheets for this page and the 4 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511979391,
+      "tokens": 129300,
+      "toolCalls": 40,
+      "durationMs": 233070,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-05-panel-01\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.317,\"y\":0.254,\"r\":0.08},{\"x\":0.387,\"y\":0.394,\"r\":0.07},{\"x\":0.635,\"y\":0.181,\"r\":0.085}],\"backup_faces\":[],\"issues\":\"Acceptable; this fixes the r1/r2 failures. The old priest is now visibly elderly, with grey hair and ash stripes. He stands at the mandapa pillar on the sanctum side at scre…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "select ch22 p6",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ab1b471bc5ac7eeed",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 6 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-06.txt: it lists the character sheets for this page and the 3 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791512094280,
+      "tokens": 155598,
+      "toolCalls": 51,
+      "durationMs": 347959,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-06-panel-01\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v03 (the only candidate) gets the three-man staging, the courtyard, Varma's throat strike, the chaver and Nagoji's face right (thick curled moustache, clean chin, flush gold stud, high topknot, grey temples, silver chain). The open night sky at the upper centre has r…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "select ch22 p7",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a2df05e9e2b484ae2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 7 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-07.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511806563,
+      "tokens": 86082,
+      "toolCalls": 16,
+      "durationMs": 60242,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-07-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.357,\"y\":0.33,\"r\":0.12},{\"x\":0.598,\"y\":0.292,\"r\":0.062}],\"backup_faces\":[],\"issues\":\"Minor only. The background figures are drawn sharp, not out of focus as the script asks. Nagoji's right arm lies stretched forward on the flags instead of hanging limp, so it reads as weight-bearing; this …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "select ch22 p8",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a3f8fd854c1b55b31",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 8 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-08.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511811177,
+      "tokens": 76308,
+      "toolCalls": 11,
+      "durationMs": 64856,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-08-panel-03\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"Only v03 is listed. It is rejected because the hands are mirrored. Nagoji (right, facing screen left with his chest to the viewer and his shoulder cloth on his left shoulder) raises the dagger in his RIGHT hand, the arm the script says hangs useless after the fall. H…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "select ch22 p9",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a2b4d53feb8ac10da",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 9 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-09.txt: it lists the character sheets for this page and the 3 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511937228,
+      "tokens": 130884,
+      "toolCalls": 39,
+      "durationMs": 190907,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-09-panel-01\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v03 (the only candidate) has Nagoji's hands mirrored. He faces the camera, so the dagger in his screen-left hand is in his RIGHT hand. That is the arm dislocated at 7.3, which should hang useless. His LEFT hand, the forearm carrying the brand on the screen-right side…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "select ch22 p10",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "affe8741234a63f98",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 10 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-10.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511864204,
+      "tokens": 95021,
+      "toolCalls": 26,
+      "durationMs": 117883,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-10-panel-01\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.54,\"y\":0.355},{\"copy_index\":1,\"x\":0.232,\"y\":0.234}],\"backup_tails\":[],\"faces\":[{\"x\":0.225,\"y\":0.215,\"r\":0.075},{\"x\":0.527,\"y\":0.283,\"r\":0.11},{\"x\":0.822,\"y\":0.344,\"r\":0.093}],\"backup_faces\":[],\"issues\":\"v03 is the only candidate and it is acceptable. Nagoji matches his sheet: high topknot with grey at …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "select ch22 p11",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ae02613a9a9502dd3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 11 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-11.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511797398,
+      "tokens": 81281,
+      "toolCalls": 14,
+      "durationMs": 51076,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-11-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.206,\"y\":0.319},{\"copy_index\":1,\"x\":0.428,\"y\":0.27}],\"backup_tails\":[],\"faces\":[{\"x\":0.166,\"y\":0.259,\"r\":0.1},{\"x\":0.413,\"y\":0.215,\"r\":0.09},{\"x\":0.856,\"y\":0.242,\"r\":0.14}],\"backup_faces\":[],\"issues\":\"These are small issues and none of them fails the panel. Nagoji's hair is a loose curly mass with only …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "select ch22 p13",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a22f24bd30e017b97",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511745302,
+      "queuedAt": 1791511745290,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 13 of Chapter 22 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch22/page-13.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511933336,
+      "tokens": 103786,
+      "toolCalls": 18,
+      "durationMs": 187014,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-13-panel-01\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v03 is otherwise strong. Varma is distinct, with a sleek side knot above his left ear, namam, pearl drops, gold bead chain, stitched brow and a cream cloth on his right shoulder. Ramayyan is still at the left edge with bundle and stylus, the room and lamp are right, …"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "mark ch22 p3",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ac66faa42790414c2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094298,
+      "queuedAt": 1791512094289,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512132433,
+      "tokens": 67748,
+      "toolCalls": 14,
+      "durationMs": 38134,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.241,\"y\":0.208,\"r\":0.036,\"who\":\"temple priest with ash marks, profile facing left, carrying lamp plate, left of centre\"},{\"x\":0.713,\"y\":0.165,\"r\":0.042,\"who\":\"moustached bare-chested man with topknot and chain pendant, profile facing left, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "mark ch22 p4",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a7a38fe5b45f4d86d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094298,
+      "queuedAt": 1791512094289,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512141109,
+      "tokens": 68868,
+      "toolCalls": 10,
+      "durationMs": 46810,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.472,\"y\":0.402,\"r\":0.026,\"who\":\"crawling man in silhouette, centre, face turned down-right\"}]},{\"id\":\"page-04-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.316,\"y\":0.347,\"r\":0.054,\"who\":\"young man with white forehead marks, three-quarter, left of centre\"},{\"x\":0.506,\"y\":0.315,\"r\":0.059,\"who\":\"moustached older man with grey-streaked top…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "mark ch22 p5",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a6fd3d0573d39ac55",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094299,
+      "queuedAt": 1791512094289,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512125748,
+      "tokens": 70338,
+      "toolCalls": 9,
+      "durationMs": 31449,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-01\",\"version\":\"v03\",\"faces\":[{\"x\":0.335,\"y\":0.28,\"r\":0.05,\"who\":\"grey-haired priest with ash marks, behind pillar, left of centre\"},{\"x\":0.397,\"y\":0.405,\"r\":0.045,\"who\":\"boy with topknot, looking back, centre-left\"},{\"x\":0.657,\"y\":0.205,\"r\":0.045,\"who\":\"moustached man with earring, three-quarter, right of centre\"}]},{\"id\":\"page-05-panel-03\",\"version\":\"v03\",\"faces\":[…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "mark ch22 p6",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aa416d211bec9ca8d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094299,
+      "queuedAt": 1791512094289,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512156156,
+      "tokens": 74116,
+      "toolCalls": 15,
+      "durationMs": 61856,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.352,\"y\":0.305,\"r\":0.072,\"who\":\"moustached man with pearl earring, eyes shut, three-quarter, left-centre\"},{\"x\":0.41,\"y\":0.335,\"r\":0.07,\"who\":\"grimacing man with white forehead stripes, profile facing left, centre\"}]},{\"id\":\"page-06-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.156,\"y\":0.244,\"r\":0.05,\"who\":\"moustached man with pearl ea…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "mark ch22 p7",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aa3e0deed2ca22eb3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094299,
+      "queuedAt": 1791512094289,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512127822,
+      "tokens": 65110,
+      "toolCalls": 12,
+      "durationMs": 33523,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.3665,\"y\":0.376,\"r\":0.045,\"who\":\"moustached grey-haired man sprawled reaching, three-quarter, centre-left\"},{\"x\":0.5924,\"y\":0.315,\"r\":0.028,\"who\":\"young man with forehead marks, kneeling behind, centre-right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "mark ch22 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a6d88b52ef5ae3476",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094299,
+      "queuedAt": 1791512094289,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512163503,
+      "tokens": 69879,
+      "toolCalls": 21,
+      "durationMs": 69204,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.1803,\"y\":0.181,\"r\":0.019,\"who\":\"boy peeking from temple pillar, upper left\"},{\"x\":0.5046,\"y\":0.2857,\"r\":0.042,\"who\":\"man with tilak and pearl earring, hand at moustache, centre\"},{\"x\":0.789,\"y\":0.248,\"r\":0.045,\"who\":\"grey-streaked man with chain pendant against tree, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "mark ch22 p10",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a8f58a175a013dc5c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094299,
+      "queuedAt": 1791512094289,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512162595,
+      "tokens": 72864,
+      "toolCalls": 19,
+      "durationMs": 68296,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-01\",\"version\":\"v03\",\"faces\":[{\"x\":0.2233,\"y\":0.2256,\"r\":0.034,\"who\":\"moustached man on temple steps at left, cloth to forehead, face tilted up\"},{\"x\":0.5417,\"y\":0.338,\"r\":0.039,\"who\":\"Nagoji, three-quarter view looking down, centre\"},{\"x\":0.8008,\"y\":0.3955,\"r\":0.037,\"who\":\"grey-haired elder with white moustache binding the arm, profile, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "mark ch22 p11",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a83bfa977aa51f179",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094299,
+      "queuedAt": 1791512094289,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512132918,
+      "tokens": 64416,
+      "toolCalls": 12,
+      "durationMs": 38619,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-11-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.199,\"y\":0.303,\"r\":0.048,\"who\":\"balding older scribe at left, three-quarter\"},{\"x\":0.4186,\"y\":0.26,\"r\":0.043,\"who\":\"moustached man with tilak, centre\"},{\"x\":0.796,\"y\":0.273,\"r\":0.053,\"who\":\"curly-haired moustached man, profile, right\"}]}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "keep ch22 p3",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a92d154684f73dc3e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094338,
+      "queuedAt": 1791512094324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 3 of chapter 22 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-22-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512131514,
+      "tokens": 63869,
+      "toolCalls": 8,
+      "durationMs": 37176,
+      "resultPreview": "{\"panels\":[{\"id\":\"3.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0.14,\"y0\":0.31,\"x1\":0.25,\"y1\":0.44,\"what\":\"chaver's hands on the brass plate with flowers and lamp, its flame burning straight up\"},{\"x0\":0.52,\"y0\":0.39,\"x1\":0.56,\"y1\":0.45,\"what\":\"wall niche lamp flame bending in the breeze (contrast with the still plate flame)\"},{\"x0\":0.63,\"y0\":0.18,\"x1\":0.82,\"y1\":0.5,\"what\":\"Nagoji on the right under the tree…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "keep ch22 p4",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a3ea13f5e922b9ff1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094338,
+      "queuedAt": 1791512094324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 4 of chapter 22 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-22-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512148671,
+      "tokens": 66692,
+      "toolCalls": 7,
+      "durationMs": 54333,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-04\",\"version\":\"v03\",\"keep\":[{\"x0\":0.17,\"y0\":0.34,\"x1\":0.51,\"y1\":0.59,\"what\":\"assistant in silhouette crumpling to the flagstones\"},{\"x0\":0.45,\"y0\":0.52,\"x1\":1,\"y1\":0.78,\"what\":\"fallen torch rolling on the stone, flame spilling light\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"page-04-panel-05\",\"version\":\"v03\",\"keep\":[{\"x0\":0.01,\"y0\":0.59,\"x1\":0.33,\"y1\":0.76,\"what\":\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "keep ch22 p5",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a5a804e88b98dc3c1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094338,
+      "queuedAt": 1791512094324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 5 of chapter 22 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-22-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512249540,
+      "tokens": 91404,
+      "toolCalls": 18,
+      "durationMs": 155202,
+      "resultPreview": "{\"panels\":[{\"id\":\"5.1\",\"version\":\"v03\",\"keep\":[{\"x0\":0.42,\"y0\":0.4,\"x1\":0.49,\"y1\":0.48,\"what\":\"Varma's hand hooking the heir's shoulder, shoving him back\"},{\"x0\":0.26,\"y0\":0.26,\"x1\":0.42,\"y1\":0.56,\"what\":\"old priest catching the stumbling heir and pulling him behind the pillar\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"5.3\",\"version\":\"v03\",\"keep\":[{\"x0\":0.49,\"y0\":0.35,\"x1\":0.6,\"y1\":0.53,\"what\":\"a…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "keep ch22 p6",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ad2f50183196132e2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094338,
+      "queuedAt": 1791512094324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 6 of chapter 22 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-22-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512158854,
+      "tokens": 73770,
+      "toolCalls": 9,
+      "durationMs": 64515,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-02\",\"version\":\"v03\",\"keep\":[{\"x0\":0.34,\"x1\":0.43,\"y0\":0.18,\"y1\":0.31,\"what\":\"forehead-to-forehead headbutt contact: chaver's ash-striped brow cracking into Varma's brow\"}],\"beat_present\":false,\"missing\":\"The headbutt and Varma's backward lean are drawn, but his brow mark is an intact, clean vertical white-and-red namam. The script calls for the horizontal line of sa…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "keep ch22 p7",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a5a2c63f895264865",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094338,
+      "queuedAt": 1791512094324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 7 of chapter 22 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-22-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512119283,
+      "tokens": 62836,
+      "toolCalls": 5,
+      "durationMs": 24944,
+      "resultPreview": "{\"panels\":[{\"id\":\"7.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.49,\"y0\":0.61,\"x1\":0.9,\"y1\":0.82,\"what\":\"dagger at rest against the foot of the pillar, hilt touching the stone base\"},{\"x0\":0.29,\"y0\":0.64,\"x1\":0.52,\"y1\":0.8,\"what\":\"curved skid trail in the oil showing the dagger's spinning slide across the flags\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "keep ch22 p9",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a34fc5b7f4fe56d59",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094338,
+      "queuedAt": 1791512094324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 9 of chapter 22 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-22-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512120643,
+      "tokens": 63547,
+      "toolCalls": 7,
+      "durationMs": 26304,
+      "resultPreview": "{\"panels\":[{\"id\":\"9.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0.145,\"x1\":0.2,\"y0\":0.11,\"y1\":0.49,\"what\":\"the heir in a small white mundu peering out from behind the temple pillar, where Varma is looking\"},{\"x0\":0.46,\"x1\":0.53,\"y0\":0.27,\"y1\":0.4,\"what\":\"Varma's fingers at his split lip, testing it\"},{\"x0\":0.03,\"x1\":0.36,\"y0\":0.74,\"y1\":0.96,\"what\":\"the chaver's body lying on the stones a little way off\"}],\"b…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "keep ch22 p10",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "aed8e81fc68bfe8ab",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094338,
+      "queuedAt": 1791512094324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 10 of chapter 22 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-22-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791512120620,
+      "tokens": 62227,
+      "toolCalls": 5,
+      "durationMs": 26281,
+      "resultPreview": "{\"panels\":[{\"id\":\"10.1\",\"version\":\"v03\",\"keep\":[{\"x0\":0.64,\"y0\":0.53,\"x1\":0.78,\"y1\":0.67,\"what\":\"priest's hands binding Nagoji's cut left palm, with the Goa brand on the forearm just above the wrap\"},{\"x0\":0.165,\"y0\":0.14,\"x1\":0.225,\"y1\":0.26,\"what\":\"wet cloth Varma presses to his brow\"},{\"x0\":0,\"y0\":0.75,\"x1\":0.32,\"y1\":0.97,\"what\":\"the chaver's body Nagoji is looking at\"}],\"beat_present\":true,\"mi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 26,
+      "label": "keep ch22 p11",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a13a78bb1fcac7eef",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512094338,
+      "queuedAt": 1791512094324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 11 of chapter 22 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-22-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791512124305,
+      "tokens": 63699,
+      "toolCalls": 6,
+      "durationMs": 29966,
+      "resultPreview": "{\"panels\":[{\"id\":\"11.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.21,\"y0\":0.36,\"x1\":0.32,\"y1\":0.46,\"what\":\"Ramayyan's hand with the stylus pointing right toward Nagoji\"},{\"x0\":0.71,\"y0\":0.56,\"x1\":0.88,\"y1\":0.85,\"what\":\"Nagoji's right arm bound in a sling across his chest and his wrapped left hand\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 27,
+      "label": "check ch22 p5",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a5ac23a98ed9ff9b4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512125750,
+      "queuedAt": 1791512125749,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512162949,
+      "tokens": 68356,
+      "toolCalls": 9,
+      "durationMs": 37199,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-01\",\"version\":\"v03\",\"faces\":[{\"x\":0.335,\"y\":0.282,\"r\":0.05,\"who\":\"grey-haired priest with ash marks, behind pillar, left of centre\"},{\"x\":0.397,\"y\":0.41,\"r\":0.042,\"who\":\"boy with topknot, looking back, centre-left\"},{\"x\":0.655,\"y\":0.212,\"r\":0.045,\"who\":\"moustached man with earring, three-quarter, right of centre\"}]},{\"id\":\"page-05-panel-03\",\"version\":\"v03\",\"faces\":[…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 28,
+      "label": "check ch22 p7",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a2eec270361329f1e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512127824,
+      "queuedAt": 1791512127823,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512147585,
+      "tokens": 61173,
+      "toolCalls": 5,
+      "durationMs": 19761,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.3665,\"y\":0.378,\"r\":0.045,\"who\":\"moustached grey-haired man sprawled reaching, three-quarter, centre-left\"},{\"x\":0.5924,\"y\":0.315,\"r\":0.028,\"who\":\"young man with forehead marks, kneeling behind, centre-right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 29,
+      "label": "check ch22 p3",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a6ed1e427bb716c98",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512132434,
+      "queuedAt": 1791512132433,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512155433,
+      "tokens": 61406,
+      "toolCalls": 6,
+      "durationMs": 22999,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.238,\"y\":0.211,\"r\":0.035,\"who\":\"temple priest with ash marks, profile facing left, carrying lamp plate, left of centre\"},{\"x\":0.711,\"y\":0.166,\"r\":0.042,\"who\":\"moustached bare-chested man with topknot and chain pendant, profile facing left, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 30,
+      "label": "check ch22 p11",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ab9085d1f756528e3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512132919,
+      "queuedAt": 1791512132918,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512164386,
+      "tokens": 63997,
+      "toolCalls": 10,
+      "durationMs": 31467,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-11-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.199,\"y\":0.303,\"r\":0.048,\"who\":\"balding older scribe at left, three-quarter\"},{\"x\":0.4186,\"y\":0.262,\"r\":0.045,\"who\":\"moustached man with tilak, centre\"},{\"x\":0.7975,\"y\":0.283,\"r\":0.056,\"who\":\"curly-haired moustached man, profile, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 31,
+      "label": "check ch22 p4",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a3d2737df25ff9ec4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512141111,
+      "queuedAt": 1791512141110,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512199826,
+      "tokens": 69813,
+      "toolCalls": 11,
+      "durationMs": 58715,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-04\",\"version\":\"v03\",\"faces\":[]},{\"id\":\"page-04-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.323,\"y\":0.343,\"r\":0.056,\"who\":\"young man with white forehead marks, three-quarter facing right, left of centre\"},{\"x\":0.503,\"y\":0.318,\"r\":0.06,\"who\":\"moustached older man with grey-streaked topknot, profile facing left, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 32,
+      "label": "check ch22 p6",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ab294354c22407f90",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512156157,
+      "queuedAt": 1791512156156,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512214790,
+      "tokens": 70702,
+      "toolCalls": 11,
+      "durationMs": 58633,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.352,\"y\":0.305,\"r\":0.072,\"who\":\"moustached man with pearl earring, eyes shut, three-quarter, left-centre\"},{\"x\":0.41,\"y\":0.335,\"r\":0.07,\"who\":\"grimacing man with white forehead stripes, profile facing left, centre\"}]},{\"id\":\"page-06-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.159,\"y\":0.247,\"r\":0.056,\"who\":\"moustached man with pearl e…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 33,
+      "label": "check ch22 p10",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a42785f66dd8946f5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512162596,
+      "queuedAt": 1791512162595,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512189882,
+      "tokens": 63072,
+      "toolCalls": 8,
+      "durationMs": 27286,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-01\",\"version\":\"v03\",\"faces\":[{\"x\":0.224,\"y\":0.2205,\"r\":0.035,\"who\":\"moustached man on temple steps at left, cloth to forehead, face tilted up\"},{\"x\":0.542,\"y\":0.336,\"r\":0.038,\"who\":\"Nagoji, three-quarter view looking down, centre\"},{\"x\":0.8008,\"y\":0.3955,\"r\":0.036,\"who\":\"grey-haired elder with white moustache binding the arm, profile, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 34,
+      "label": "check ch22 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aed64388447932fb4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512163504,
+      "queuedAt": 1791512163503,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512222361,
+      "tokens": 66774,
+      "toolCalls": 12,
+      "durationMs": 58857,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.1803,\"y\":0.181,\"r\":0.019,\"who\":\"boy peeking from temple pillar, upper left\"},{\"x\":0.507,\"y\":0.287,\"r\":0.044,\"who\":\"man with tilak and pearl earring, hand at moustache, centre\"},{\"x\":0.787,\"y\":0.248,\"r\":0.046,\"who\":\"grey-streaked man with chain pendant against tree, right\"}]}]}"
+    }
+  ],
+  "totalTokens": 2651503,
+  "totalToolCalls": 496
+}

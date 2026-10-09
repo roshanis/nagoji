@@ -1,0 +1,14 @@
+{
+  "frame_id": "page-03-panel-02",
+  "candidate": "../frames/page-03-panel-02-v05.png",
+  "source_size": [1536, 1024],
+  "visible_rect": [0, 0, 1536, 1024],
+  "reserves": [
+    {"kind": "speech", "rect": [35, 25, 290, 125], "copy_indices": [0]},
+    {"kind": "speech", "rect": [405, 72, 960, 170], "copy_indices": [1]},
+    {"kind": "caption", "rect": [1060, 58, 1480, 155], "copy_indices": [2]}
+  ],
+  "copy_preflight": {"font_size_pt": 8.5, "status": "pass", "fits": [true, true, true]},
+  "reserve_pixel_audit": {"status": "pass", "minimum_light_fraction": 1.0, "line_count": 5},
+  "correction": "Inset reserves to the actual white balloon interiors; the prior broad geometry crossed tail or border pixels."
+}
