@@ -2,9 +2,9 @@
 
 ## Chapter 18: Dutch Come Bowing
 
-Source: `book1_horse_servant/book3_chapter18_dutch_come_bowing.md`, 2,651 words; 10 pages, 50 panels (insets in 5.5, 6.1 and 10.4).
+Source: `book1_horse_servant/book3_chapter18_dutch_come_bowing.md`, 2,651 words; 16 pages, 50 panels (insets in 8.3, 9.1 and 16.2).
 
-Look note for the whole chapter. Nagoji is Ananthan Pillai per CONTINUITY.md (chapters 17 to 27): BLACK hair in a Kerala topknot with only a first touch of grey at the temples (NOT the grey later-life figure on the nagoji-v2 sheet, and NOT the turbaned commander), NO turban, plain cream mundu with NO gold border and a shoulder cloth, the ivory-handled knife with the conch mark at his waist, thick curled moustache, clean-shaven chin, small gold ear stud, the brand just above his left wrist. The silver chain of office is worn from 2.1 to the end of the chapter, including at night in 9.4; it is absent only in 1.4. Every panel that shows him restates this, because the pipeline builds each frame from its own panel text.
+Look note for the whole chapter. Nagoji is Ananthan Pillai per CONTINUITY.md (chapters 17 to 27): BLACK hair in a Kerala topknot with only a first touch of grey at the temples (NOT the grey later-life figure on the nagoji-v2 sheet, and NOT the turbaned commander), NO turban, plain cream mundu with NO gold border and a shoulder cloth, the ivory-handled knife with the conch mark at his waist, thick curled moustache, clean-shaven chin, small gold ear stud, the brand just above his left wrist. The silver chain of office is worn from 2.1 to the end of the chapter, including at night in 14.4; it is absent only in 1.4. Every panel that shows him restates this, because the pipeline builds each frame from its own panel text.
 
 ---
 
@@ -76,7 +76,7 @@ Five panels. The hall. What Nagoji has become, and a ghost the Dutch did not exp
 
 ## PAGE 3
 
-Five panels. Regrets, and who sent them. End on the offer. Lettering: from 3.2 to 7.3 the envoy speaks Portuguese through the interpreter, and his scribe reads in Portuguese. Letter those lines as plain balloons with no brackets. The interpreter gets no balloon.
+Three panels. Regrets, and who sent them. End on the offer. Lettering: from 3.2 to 12.1 the envoy speaks Portuguese through the interpreter, and his scribe reads in Portuguese. Letter those lines as plain balloons with no brackets. The interpreter gets no balloon.
 
 **3.1** Lannoy (WHITE cotton coat, pale hair tied back) stepping back out of frame right, ceding the centre of the hall. The envoys turning to face the platform. Varma beyond them (a cream-and-gold turban with a jewelled peacock-feather crest), perfectly still, the smallest narrowing of the eyes.
 
@@ -94,7 +94,13 @@ Five panels. Regrets, and who sent them. End on the offer. Lettering: from 3.2 t
 
 > VARMA: Do you regret sending them here at all?
 
-**3.4** The envoy spreading his hands in the practised gesture of his trade. Behind him the Dutch scribes (bareheaded, plain grey coats) clutch their ribbon-tied bundles tighter.
+---
+
+## PAGE 4
+
+Two panels, continuing page 3.
+
+**4.1** The envoy spreading his hands in the practised gesture of his trade. Behind him the Dutch scribes (bareheaded, plain grey coats) clutch their ribbon-tied bundles tighter.
 
 > SENIOR ENVOY: Circumstances were misjudged. We underestimated the strength and resolve of Travancore.
 
@@ -102,7 +108,7 @@ Five panels. Regrets, and who sent them. End on the offer. Lettering: from 3.2 t
 
 > RAMAYYAN (off): By whose instruction?
 
-**3.5** Padmini in the foreground, both hands folded on the head of her stick, speaking to no one in particular. The envoy small in the background, already beckoning a scribe forward.
+**4.2** Padmini in the foreground, both hands folded on the head of her stick, speaking to no one in particular. The envoy small in the background, already beckoning a scribe forward.
 
 > SENIOR ENVOY: The Governor General and Council at Batavia.
 
@@ -114,15 +120,15 @@ Five panels. Regrets, and who sent them. End on the offer. Lettering: from 3.2 t
 
 ---
 
-## PAGE 4
+## PAGE 5
 
-Five panels. The treaty is read aloud on Travancore's terms. Revathi asks who is a pirate, and one clause makes Lannoy smile. Then the question no clause answers.
+Three panels. The treaty is read aloud on Travancore's terms. Revathi asks who is a pirate, and one clause makes Lannoy smile. Then the question no clause answers.
 
-**4.1** A Dutch scribe (European clerk, bareheaded, plain grey coat) stepping forward, offering a folded, ribbon-tied document with both hands. Ramayyan does not reach for it. He lifts two fingers, and his own young scribe (a youth in a white mundu, hair in a topknot) kneels at his side with a blank palm leaf and a stylus.
+**5.1** A Dutch scribe (European clerk, bareheaded, plain grey coat) stepping forward, offering a folded, ribbon-tied document with both hands. Ramayyan does not reach for it. He lifts two fingers, and his own young scribe (a youth in a white mundu, hair in a topknot) kneels at his side with a blank palm leaf and a stylus.
 
 > RAMAYYAN: Read.
 
-**4.2** Over Revathi's shoulder, seated, not rising: her profile in the near foreground (indigo sari with gold, jasmine in her braid, flat-coin necklace). Mid-ground, the Dutch scribe reading from the unfolded paper, its lines faint marks with no legible writing. Beyond, the senior envoy's face turned toward her, his jaw tightening. He gives no answer.
+**5.2** Over Revathi's shoulder, seated, not rising: her profile in the near foreground (indigo sari with gold, jasmine in her braid, flat-coin necklace). Mid-ground, the Dutch scribe reading from the unfolded paper, its lines faint marks with no legible writing. Beyond, the senior envoy's face turned toward her, his jaw tightening. He gives no answer.
 
 > CAPTION: Recognition of Travancore's sovereignty. No new forts without consultation. Pepper at agreed prices. Suppression of piracy on the coast.
 
@@ -130,11 +136,17 @@ Five panels. The treaty is read aloud on Travancore's terms. Revathi asks who is
 
 > REVATHI: In Velinadu, when we killed company men who broke their word, you called us pirates.
 
-**4.3** Close on Lannoy at his pillar (pale hair tied back, WHITE cotton coat), arms folded. One corner of his mouth twitches. In the soft background, the Dutch scribe still reading.
+**5.3** Close on Lannoy at his pillar (pale hair tied back, WHITE cotton coat), arms folded. One corner of his mouth twitches. In the soft background, the Dutch scribe still reading.
 
 > DUTCH SCRIBE (off): ...friendship and alliance, in the event of encroachment by any other European power.
 
-**4.4** Wide and tall. Varma from a low angle (a cream-and-gold turban with a jewelled peacock-feather crest), leaning forward a fraction on the platform, the spear upright beside him; the envoy in the near foreground, back to us. Nagoji standing at the king's right (black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife at his waist, thick curled moustache, clean-shaven chin). Along both sides of the hall, ministers turning to one another, a ripple of murmuring heads.
+---
+
+## PAGE 6
+
+Two panels, continuing page 5.
+
+**6.1** Wide and tall. Varma from a low angle (a cream-and-gold turban with a jewelled peacock-feather crest), leaning forward a fraction on the platform, the spear upright beside him; the envoy in the near foreground, back to us. Nagoji standing at the king's right (black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife at his waist, thick curled moustache, clean-shaven chin). Along both sides of the hall, ministers turning to one another, a ripple of murmuring heads.
 
 > VARMA: You would like us to fight your rivals at your side.
 
@@ -144,7 +156,7 @@ Five panels. The treaty is read aloud on Travancore's terms. Revathi asks who is
 
 > VARMA: Partners who once tried to break my spine.
 
-**4.5** Revathi, seated beside Padmini, facing us now, not rising. Her voice is level and it carries.
+**6.2** Revathi, seated beside Padmini, facing us now, not rising. Her voice is level and it carries.
 
 > REVATHI: And what do you offer for the men who died at Colachel and in Velinadu,
 
@@ -152,11 +164,11 @@ Five panels. The treaty is read aloud on Travancore's terms. Revathi asks who is
 
 ---
 
-## PAGE 5
+## PAGE 7
 
-Five panels. The answer, and the knife under it.
+Two panels. The answer, and the knife under it.
 
-**5.1** The envoy hesitating, glancing down at the tricorne in his hands before he looks up.
+**7.1** The envoy hesitating, glancing down at the tricorne in his hands before he looks up.
 
 > SENIOR ENVOY: We cannot bring back the dead.
 
@@ -164,17 +176,23 @@ Five panels. The answer, and the knife under it.
 
 > PADMINI (off, small lettering): Misunderstandings. A pretty word for greed.
 
-**5.2** The envoy again, his manner shifting to something almost casual. He turns the tricorne idly in his fingers and looks at no one.
+**7.2** The envoy again, his manner shifting to something almost casual. He turns the tricorne idly in his fingers and looks at no one.
 
 > SENIOR ENVOY: Not all houses on this coast share the Maharaja's... enthusiasm for consolidation.
 
 > SENIOR ENVOY: There are those who remember older arrangements. Older claims.
 
-**5.3** One widescreen frame in depth, not split. Near foreground: Ramayyan's hand, the stylus stopped mid-stroke on the leaf. Mid-ground, at the left: Revathi's hand on her knee curling into a loose fist (gold armlet, indigo-and-gold sari border at the knee). Far end, raised on the platform: Varma's eyes narrowing (a cream-and-gold turban with a jewelled peacock-feather crest).
+---
+
+## PAGE 8
+
+Three panels, continuing page 7.
+
+**8.1** One widescreen frame in depth, not split. Near foreground: Ramayyan's hand, the stylus stopped mid-stroke on the leaf. Mid-ground, at the left: Revathi's hand on her knee curling into a loose fist (gold armlet, indigo-and-gold sari border at the knee). Far end, raised on the platform: Varma's eyes narrowing (a cream-and-gold turban with a jewelled peacock-feather crest).
 
 > CAPTION: He did not look at anyone in particular. He did not need to.
 
-**5.4** Two-shot down the length of the hall: the envoy near, his back half to us; Varma far and small on the platform. The whole room silent between them.
+**8.2** Two-shot down the length of the hall: the envoy near, his back half to us; Varma far and small on the platform. The whole room silent between them.
 
 > SENIOR ENVOY: If the company wished, we could simply wait. Support those who feel aggrieved. Let internal divisions do what external force could not.
 
@@ -182,7 +200,7 @@ Five panels. The answer, and the knife under it.
 
 > SENIOR ENVOY: Perhaps. We have learned patience.
 
-**5.5** Bottom strip. Nagoji close, lamp-lit, his eyes gone somewhere else: black topknot, NO turban, first touch of grey at the temples only (NOT the grey later-life figure on the sheet), thick curled moustache, clean-shaven chin, small gold ear stud, cream shoulder cloth, the silver chain of office. A soft-edged inset beside his face: a single palm leaf from Ramayyan's register, seen at a raking angle, rows of incised marks too fine to read; the focus is a small notch cut at the leaf's edge.
+**8.3** Bottom strip. Nagoji close, lamp-lit, his eyes gone somewhere else: black topknot, NO turban, first touch of grey at the temples only (NOT the grey later-life figure on the sheet), thick curled moustache, clean-shaven chin, small gold ear stud, cream shoulder cloth, the silver chain of office. A soft-edged inset beside his face: a single palm leaf from Ramayyan's register, seen at a raking angle, rows of incised marks too fine to read; the focus is a small notch cut at the leaf's edge.
 
 > CAPTION: Somewhere, someone the Dutch could use was waiting. A claim. A grievance. A kinswoman with long memories.
 
@@ -194,11 +212,11 @@ Five panels. The answer, and the knife under it.
 
 ---
 
-## PAGE 6
+## PAGE 9
 
-Five panels. The king answers. Give him the room.
+Three panels. The king answers. Give him the room.
 
-**6.1** Large panel, the upper half of the page. Varma (V13 varma-v1 face; a cream-and-gold turban with a jewelled peacock-feather crest; bare-chested, cream and gold cloth, gold necklaces) very still on the platform, the spear upright beside him, lamp flames standing straight in the windless hall. Shot from low, over the envoys' shoulders, so the king fills the frame and the Dutch are dark shapes at its foot. At the king's right, Nagoji standing (black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife, thick curled moustache, clean-shaven chin). A small inset at the lower left corner: Revathi's hand on her knee (gold armlet, indigo-and-gold sari border), the fist from 5.3 loosening.
+**9.1** Large panel, the upper half of the page. Varma (V13 varma-v1 face; a cream-and-gold turban with a jewelled peacock-feather crest; bare-chested, cream and gold cloth, gold necklaces) very still on the platform, the spear upright beside him, lamp flames standing straight in the windless hall. Shot from low, over the envoys' shoulders, so the king fills the frame and the Dutch are dark shapes at its foot. At the king's right, Nagoji standing (black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife, thick curled moustache, clean-shaven chin). A small inset at the lower left corner: Revathi's hand on her knee (gold armlet, indigo-and-gold sari border), the fist from 8.1 loosening.
 
 > VARMA: You have learned that your guns cannot keep us from killing your men.
 
@@ -206,7 +224,7 @@ Five panels. The king answers. Give him the room.
 
 > VARMA: So you bring different papers. Clever.
 
-**6.2** The envoy opening his mouth to speak. In the foreground, Varma's raised hand, palm out, stops him.
+**9.2** The envoy opening his mouth to speak. In the foreground, Varma's raised hand, palm out, stops him.
 
 > VARMA: I approve of cleverness. It makes life interesting.
 
@@ -214,19 +232,25 @@ Five panels. The king answers. Give him the room.
 
 > VARMA: We will not sign away our children's choices.
 
-**6.3** Close on Varma (a cream-and-gold turban with a jewelled peacock-feather crest). Behind him, soft focus, Ramayyan's stylus paused over the leaf, his eyes lifted to the king.
+**9.3** Close on Varma (a cream-and-gold turban with a jewelled peacock-feather crest). Behind him, soft focus, Ramayyan's stylus paused over the leaf, his eyes lifted to the king.
 
 > VARMA: If you wish pepper, you will pay.
 
 > VARMA: If you wish warriors, you will not have them. This army is not for hire.
 
-**6.4** Varma's gaze moving off the envoy toward the edge of the hall. The envoy's throat working.
+---
+
+## PAGE 10
+
+Two panels, continuing page 9.
+
+**10.1** Varma's gaze moving off the envoy toward the edge of the hall. The envoy's throat working.
 
 > VARMA: As for Captain De Lannoy, he is now my officer. He will not return to your service.
 
 > SENIOR ENVOY: We had hoped he might be returned as part of an exchange...
 
-**6.5** Bottom strip, full width. Lannoy (tall, pale hair tied back, no wig, WHITE cotton coat, cloth-wrapped sword hilt) standing very straight at his pillar, eyes fixed somewhere past the envoys' shoulders.
+**10.2** Bottom strip, full width. Lannoy (tall, pale hair tied back, no wig, WHITE cotton coat, cloth-wrapped sword hilt) standing very straight at his pillar, eyes fixed somewhere past the envoys' shoulders.
 
 > VARMA (off): You had hoped many things.
 
@@ -234,17 +258,17 @@ Five panels. The king answers. Give him the room.
 
 ---
 
-## PAGE 7
+## PAGE 11
 
-Five panels. Ramayyan takes the paper war onto his own leaf. Then, in the emptying hall, two Dutchmen, one of them no longer Dutch. Lettering: 7.1 to 7.3 as page 3, plain balloons. 7.4 and 7.5 are spoken in Dutch and are lettered in angle brackets, as written.
+Two panels. Ramayyan takes the paper war onto his own leaf. Then, in the emptying hall, two Dutchmen, one of them no longer Dutch. Lettering: 11.1 to 12.1 as page 3, plain balloons. 12.2 and 12.3 are spoken in Dutch and are lettered in angle brackets, as written.
 
-**7.1** Wide enough to hold the cause and the reaction in one frame. Ramayyan seated low at the foot of the platform, mild, a hint of something like kindness in his face. The two envoys standing before him: the younger (brown coat, his own hair, no wig) looks as if he might choke; the senior (grey powdered wig, charcoal coat) holds his features still by will alone. At frame right, at his pillar, Lannoy (WHITE cotton coat, pale hair tied back) listening, very straight.
+**11.1** Wide enough to hold the cause and the reaction in one frame. Ramayyan seated low at the foot of the platform, mild, a hint of something like kindness in his face. The two envoys standing before him: the younger (brown coat, his own hair, no wig) looks as if he might choke; the senior (grey powdered wig, charcoal coat) holds his features still by will alone. At frame right, at his pillar, Lannoy (WHITE cotton coat, pale hair tied back) listening, very straight.
 
 > RAMAYYAN: If you wish to send him letters, we will read them first.
 
 > RAMAYYAN: If they instruct him to betray his new oath, we will burn them without troubling him.
 
-**7.2** Two-shot, the envoy standing, Ramayyan seated below him and entirely unbothered by it. Ramayyan has at last taken the Dutch document and laid it flat on the mat beside his own palm leaf, the two side by side in frame between them; the paper's lines are faint marks with no legible writing.
+**11.2** Two-shot, the envoy standing, Ramayyan seated below him and entirely unbothered by it. Ramayyan has at last taken the Dutch document and laid it flat on the mat beside his own palm leaf, the two side by side in frame between them; the paper's lines are faint marks with no legible writing.
 
 > SENIOR ENVOY: May we sign the articles on trade and recognition?
 
@@ -252,7 +276,13 @@ Five panels. Ramayyan takes the paper war onto his own leaf. Then, in the emptyi
 
 > SENIOR ENVOY: How long will this take?
 
-**7.3** Ramayyan close, already writing again on his leaf, the Dutch paper pinned under his elbow at the edge of frame.
+---
+
+## PAGE 12
+
+Three panels, continuing page 11.
+
+**12.1** Ramayyan close, already writing again on his leaf, the Dutch paper pinned under his elbow at the edge of frame.
 
 > RAMAYYAN: As long as needed. We have learned to be patient.
 
@@ -260,13 +290,13 @@ Five panels. Ramayyan takes the paper war onto his own leaf. Then, in the emptyi
 
 > RAMAYYAN: But the real treaty, the one where you promise never to stand in our way again, will come at Mavelikkara, when we are finished with the north.
 
-**7.4** Wide. Later: the hall thinning, chiefs drifting away in muttering pairs, Nair palace guards (bare-chested, white mundu, sword and round shield) escorting the Dutch party toward the doors. Lannoy near a pillar at frame right, hands clasped behind his back. The senior envoy has paused beside him at frame left.
+**12.2** Wide. Later: the hall thinning, chiefs drifting away in muttering pairs, Nair palace guards (bare-chested, white mundu, sword and round shield) escorting the Dutch party toward the doors. Lannoy near a pillar at frame right, hands clasped behind his back. The senior envoy has paused beside him at frame left.
 
 > SENIOR ENVOY: <You have chosen the wrong side. The company does not forget those who betray it.>
 
 > LANNOY: <It forgets those who die for it.>
 
-**7.5** Close two-shot, both in profile, neither looking at the other. Frame left: the senior envoy, grey powdered wig, charcoal coat, thin lace at the cuff. Frame right: Lannoy, his own pale hair tied back, no wig, WHITE cotton coat, the cloth-wrapped sword hilt at his hip.
+**12.3** Close two-shot, both in profile, neither looking at the other. Frame left: the senior envoy, grey powdered wig, charcoal coat, thin lace at the cuff. Frame right: Lannoy, his own pale hair tied back, no wig, WHITE cotton coat, the cloth-wrapped sword hilt at his hip.
 
 > LANNOY: <I prefer to be remembered by someone closer than Amsterdam.>
 
@@ -276,15 +306,15 @@ Five panels. Ramayyan takes the paper war onto his own leaf. Then, in the emptyi
 
 ---
 
-## PAGE 8
+## PAGE 13
 
 Five panels. The verandah. The first quiet after the paper war.
 
-**8.1** Wide. A long verandah outside the hall, carved wooden posts, palms and then the sea beyond, late afternoon light. Revathi at the edge, facing the water. Nagoji coming along the verandah behind her, the chain catching the light: BLACK hair in a Kerala topknot with only a first touch of grey at the temples (NOT the grey later-life figure on the sheet), NO turban, plain cream mundu with NO gold border and a shoulder cloth, the ivory-handled knife with the conch mark at his waist, the silver chain of office on his chest, thick curled moustache, clean-shaven chin, small gold ear stud.
+**13.1** Wide. A long verandah outside the hall, carved wooden posts, palms and then the sea beyond, late afternoon light. Revathi at the edge, facing the water. Nagoji coming along the verandah behind her, the chain catching the light: BLACK hair in a Kerala topknot with only a first touch of grey at the temples (NOT the grey later-life figure on the sheet), NO turban, plain cream mundu with NO gold border and a shoulder cloth, the ivory-handled knife with the conch mark at his waist, the silver chain of office on his chest, thick curled moustache, clean-shaven chin, small gold ear stud.
 
 > NAGOJI: Satisfied?
 
-**8.2** Revathi half-turned toward him (and toward us; he is off panel), the flat coins at her throat turned to small, steady suns by the low sun.
+**13.2** Revathi half-turned toward him (and toward us; he is off panel), the flat coins at her throat turned to small, steady suns by the low sun.
 
 > REVATHI: They bowed. That is something.
 
@@ -294,11 +324,11 @@ Five panels. The verandah. The first quiet after the paper war.
 
 > REVATHI: Paper burns. Land remembers.
 
-**8.3** Nagoji's point of view, tight on the flat coins at her throat, catching the light.
+**13.3** Nagoji's point of view, tight on the flat coins at her throat, catching the light.
 
 > CAPTION: For a moment I imagined that glint across a courtyard that smelled of rice and lamp smoke, not ink and powder.
 
-**8.4** Padmini arriving along the verandah, her stick ticking on the boards. The three of them together against the sea. Nagoji: black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife, thick curled moustache, clean-shaven chin.
+**13.4** Padmini arriving along the verandah, her stick ticking on the boards. The three of them together against the sea. Nagoji: black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife, thick curled moustache, clean-shaven chin.
 
 > PADMINI: Today, my son, we have made them pay to do what they once did for free. That is a small victory.
 
@@ -306,7 +336,7 @@ Five panels. The verandah. The first quiet after the paper war.
 
 > REVATHI: So do small betrayals.
 
-**8.5** Tight insert, low in the frame. Revathi's hand, gold bangles at the wrist, brushing the back of Nagoji's LEFT hand (ridged, discoloured nails, the brand just above the wrist) as she turns toward the sea. Only the two hands and a fold of indigo sari.
+**13.5** Tight insert, low in the frame. Revathi's hand, gold bangles at the wrist, brushing the back of Nagoji's LEFT hand (ridged, discoloured nails, the brand just above the wrist) as she turns toward the sea. Only the two hands and a fold of indigo sari.
 
 > CAPTION: It might have been an accident.
 
@@ -314,35 +344,35 @@ Five panels. The verandah. The first quiet after the paper war.
 
 ---
 
-## PAGE 9
+## PAGE 14
 
 Five panels. Her charge to him. The lamp. A knock.
 
-**9.1** Revathi turning from the rail to look straight at him, and at us, the bright sea behind her. He is off panel.
+**14.1** Revathi turning from the rail to look straight at him, and at us, the bright sea behind her. He is off panel.
 
 > CAPTION: She had dropped the titles she used in public.
 
 > REVATHI: Remember this, Nagoji. You are of this house now.
 
-**9.2** Two-shot at the verandah rail, Revathi and Nagoji (black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife, thick curled moustache, clean-shaven chin). Padmini a little way off, watching the two of them and pretending not to.
+**14.2** Two-shot at the verandah rail, Revathi and Nagoji (black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife, thick curled moustache, clean-shaven chin). Padmini a little way off, watching the two of them and pretending not to.
 
 > REVATHI: Few will talk of the quiet days after Colachel, when men in coats tried to rebuild their power with ink. Those days matter too.
 
 > NAGOJI: I will remember.
 
-**9.3** Close on Revathi. Nagoji's shoulder and black topknot soft in the near foreground (cream shoulder cloth, silver chain, no turban).
+**14.3** Close on Revathi. Nagoji's shoulder and black topknot soft in the near foreground (cream shoulder cloth, silver chain, no turban).
 
 > REVATHI: Good. Because one day, when you are old and some young rider asks you how we kept this coast from becoming another Goa, you must tell him about both.
 
 > REVATHI: The charge and the papers. The dead on the sand and the men who bowed here today.
 
-**9.4** Night. Nagoji's room. Nagoji cross-legged at a low writing board: black topknot, NO turban, cream mundu and shoulder cloth, the silver chain of office still on his chest, thick curled moustache, clean-shaven chin. A clay oil lamp, a reed pen (kalam) and a small brass ink pot, a few sheets of paper angled away from us so only faint strokes show. His shadow large on the wall.
+**14.4** Night. Nagoji's room. Nagoji cross-legged at a low writing board: black topknot, NO turban, cream mundu and shoulder cloth, the silver chain of office still on his chest, thick curled moustache, clean-shaven chin. A clay oil lamp, a reed pen (kalam) and a small brass ink pot, a few sheets of paper angled away from us so only faint strokes show. His shadow large on the wall.
 
 > CAPTION: Her words settled into me like stones in a pouch.
 
 > CAPTION: I had learned from watching Ramayyan that paper, in the right hands, could be a weapon.
 
-**9.5** The doorway. A guard's knuckles against the frame (a Nair palace guard, bare-chested, white mundu). In the foreground, the lamp: its oil not yet half gone.
+**14.5** The doorway. A guard's knuckles against the frame (a Nair palace guard, bare-chested, white mundu). In the foreground, the lamp: its oil not yet half gone.
 
 > GUARD: Ramayyan requests you.
 
@@ -352,17 +382,17 @@ Five panels. Her charge to him. The lamp. A knock.
 
 ---
 
-## PAGE 10
+## PAGE 15
 
-Five panels. Not Dutch. North.
+Two panels. Not Dutch. North.
 
-**10.1** Wide. Ramayyan's room by lamplight, palm leaves everywhere. Ramayyan in the near foreground, bent over his leaf and not looking up, as if the day had never ended. Beyond him, Ibrahim Marakkar (shorter than the fishermen but broader; white turban; short grey-flecked beard; scar from his ANATOMICAL left ear to the jaw; dark short coat with bulging pockets over a pale vest and white mundu) half-risen from a low stool, a cup of buttermilk in his hand, his low talk cut off. In the doorway, Nagoji: black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife, thick curled moustache, clean-shaven chin.
+**15.1** Wide. Ramayyan's room by lamplight, palm leaves everywhere. Ramayyan in the near foreground, bent over his leaf and not looking up, as if the day had never ended. Beyond him, Ibrahim Marakkar (shorter than the fishermen but broader; white turban; short grey-flecked beard; scar from his ANATOMICAL left ear to the jaw; dark short coat with bulging pockets over a pale vest and white mundu) half-risen from a low stool, a cup of buttermilk in his hand, his low talk cut off. In the doorway, Nagoji: black topknot, NO turban, cream mundu and shoulder cloth, silver chain of office, ivory knife, thick curled moustache, clean-shaven chin.
 
 > NAGOJI: Dutch?
 
 > RAMAYYAN: Not Dutch. North.
 
-**10.2** Ibrahim seated again, holding Nagoji's eyes (white turban, short grey-flecked beard, dark short coat). The scar on his ANATOMICAL left side, ear to jaw, is turned to the lamp and to us, thrown into relief. Nagoji's shoulder and black topknot soft in the near foreground.
+**15.2** Ibrahim seated again, holding Nagoji's eyes (white turban, short grey-flecked beard, dark short coat). The scar on his ANATOMICAL left side, ear to jaw, is turned to the lamp and to us, thrown into relief. Nagoji's shoulder and black topknot soft in the near foreground.
 
 > IBRAHIM: My cousins trade in Maratha ports. Pune has heard of Colachel.
 
@@ -370,7 +400,13 @@ Five panels. Not Dutch. North.
 
 > IBRAHIM: Others say it might make a useful ally against the English.
 
-**10.3** Ibrahim standing by the lamp, his cup set down on the stool, answering (white turban, short grey-flecked beard, dark short coat, the scar on his ANATOMICAL left side). Behind him, the open door and the night.
+---
+
+## PAGE 16
+
+Three panels, continuing page 15.
+
+**16.1** Ibrahim standing by the lamp, his cup set down on the stool, answering (white turban, short grey-flecked beard, dark short coat, the scar on his ANATOMICAL left side). Behind him, the open door and the night.
 
 > NAGOJI (off): And which way does the wind blow?
 
@@ -378,7 +414,7 @@ Five panels. Not Dutch. North.
 
 > IBRAHIM: Somewhere in the middle, men are deciding whether those names should be written in treaties or in obituaries.
 
-**10.4** The doorway, empty now, the night beyond; the cup left on the stool. Nagoji looking at it (black topknot, NO turban, cream shoulder cloth, silver chain, thick curled moustache, clean-shaven chin). Ramayyan at his leaf, the stylus paused. A small inset at the lower corner: Ramayyan's hand, the stylus moving again on the leaf, incised marks too fine to read.
+**16.2** The doorway, empty now, the night beyond; the cup left on the stool. Nagoji looking at it (black topknot, NO turban, cream shoulder cloth, silver chain, thick curled moustache, clean-shaven chin). Ramayyan at his leaf, the stylus paused. A small inset at the lower corner: Ramayyan's hand, the stylus moving again on the leaf, incised marks too fine to read.
 
 > NAGOJI: You trust him?
 
@@ -386,7 +422,7 @@ Five panels. Not Dutch. North.
 
 > RAMAYYAN: When the first letter comes, bring it to me.
 
-**10.5** Bottom strip, full width. Night. Nagoji alone at his open window, seen from behind (black topknot, NO turban, cream mundu and shoulder cloth, silver chain), his lamp in the foreground behind him. The window faces inland: a dark line of hills under stars on the horizon. Palm fronds outside stream toward the window and toward us, and the lamp flame is bent back into the room, away from the window. A faint haze of dust hangs in the air.
+**16.3** Bottom strip, full width. Night. Nagoji alone at his open window, seen from behind (black topknot, NO turban, cream mundu and shoulder cloth, silver chain), his lamp in the foreground behind him. The window faces inland: a dark line of hills under stars on the horizon. Palm fronds outside stream toward the window and toward us, and the lamp flame is bent back into the room, away from the window. A faint haze of dust hangs in the air.
 
 > CAPTION: The Dutch had come bowing.
 
@@ -398,27 +434,27 @@ Five panels. Not Dutch. North.
 
 ## Adaptation notes
 
-- **Page count.** 10 pages and 50 panels against a target of 9 (range 7 to 11). At Chapter 1's density, 2,651 words would need 12 or 13 pages. The middle of the chapter is a sustained verbal duel in one room, and each exchange lands on its own turn, so pages 2 to 7 are spent there. The rumour opening and the aftermath are compressed. The heaviest lettering is on page 7 (about 150 words) and page 10 (about 145); reserve generously in 7.3, 9.3 and 10.3.
+- **Page count.** 10 pages and 50 panels against a target of 9 (range 7 to 11). At Chapter 1's density, 2,651 words would need 12 or 13 pages. The middle of the chapter is a sustained verbal duel in one room, and each exchange lands on its own turn, so pages 2 to 11 are spent there. The rumour opening and the aftermath are compressed. The heaviest lettering is on page 11 (about 150 words) and page 15 (about 145); reserve generously in 12.1, 14.3 and 16.1.
 - **Opening rumour montage** reduced to two panels (market, temple). The backwaters and boatmen are cut. Yusuf keeps one caption because he returns in chapter 23. "He was right" is cut: the cut from 1.4 to 1.5 confirms Ramayyan's prediction.
-- **Treaty clauses.** The three core terms and the alliance clause are kept. "Suppression of piracy on the coast" is added to the 4.2 term caption as a bridging clause: the novel never reads a piracy clause aloud, but Revathi's "Who decides who is a pirate?" presupposes one. Cut: timber access, protection of company factors, Ramayyan's "only a pause for breath" (the Mannar and Mavelikkara line in 7.3 carries the same idea), the joint-commission exchange and Ramayyan's "Interesting", and Ramayyan's summary of the offer ("You offer recognition... You offer trade..."). Varma's "After you tried to land soldiers on my beach" is cut from 4.4; "Partners who once tried to break my spine" carries it.
+- **Treaty clauses.** The three core terms and the alliance clause are kept. "Suppression of piracy on the coast" is added to the 5.2 term caption as a bridging clause: the novel never reads a piracy clause aloud, but Revathi's "Who decides who is a pirate?" presupposes one. Cut: timber access, protection of company factors, Ramayyan's "only a pause for breath" (the Mannar and Mavelikkara line in 12.1 carries the same idea), the joint-commission exchange and Ramayyan's "Interesting", and Ramayyan's summary of the offer ("You offer recognition... You offer trade..."). Varma's "After you tried to land soldiers on my beach" is cut from 6.1; "Partners who once tried to break my spine" carries it.
 - **Moved:** Padmini's "a pretty word for greed" now follows the envoy's "misunderstandings" directly, where it bites. "The Company proposes a treaty" ends page 3 so the page turns on the offer.
 - **Varma's speech** keeps the Velinadu and Padmini's-line clause (his public answer to the envoy's threat about aggrieved houses: he names Revathi's house and Nagoji's new one) and "not sign away our children's choices" and "This army is not for hire", which Nagoji, a former hired sword, hears differently from anyone else in the room. Cut: "safe anchorage", "We will sign treaties that benefit us", and "they may address them to me, not to him".
-- **Lannoy and the envoy.** Cut the opening "You seem healthy" / "Men here do not waste tools" to keep 7.4 and 7.5 short; the betrayal, Amsterdam and kapitan lines stay verbatim. The chiefs' and priests' muttering after the session is background art in 7.4.
-- **Verandah.** Revathi's charge runs 9.1 to 9.3 in the novel's order: thesis, "I will remember", then "Good. Because one day...". Her opening sentence about the day Dutchmen fell before Travancore guns is cut, so "the quiet days afterward" becomes "the quiet days after Colachel" to stand alone. The "small, steady suns" image is art direction, not a caption. "They put quills where they once put muskets" is cut.
-- **Ibrahim.** Cut "They carry pepper and cloth and silver. They carry talk too", "Some men call it luck. Some call it warning", "who are beginning to look south with hungry eyes", and the "Pillai. I was just leaving" / "Stay" exchange, so "Not Dutch. North." sits alone in 10.1. The threat to Maratha borders is spoken, so Nagoji's "Pune. English. Ally. Threat." caption is cut as an echo. His forehead-touch farewell is dropped; the empty doorway in 10.4 carries the exit.
-- **Continuity flag.** The novel says Nagoji has already seen Elayadathu marked HIGH in Ramayyan's register, but chapters 14 to 17 never show that scene. The 5.5 inset shows the leaf without implying a specific earlier moment. Check against chapter 21 (Ramayyan's Ledger) before drawing.
-- **Wardrobe.** Nagoji's Ananthan Pillai look is restated in every panel that shows him, because nagoji-v2's only topknot figure is the grey later-life figure and its full-body figure is turbaned. The silver chain is worn from 2.1 through 10.5, including 9.4. Varma wears the cream-and-gold turban with its jewelled peacock-feather crest, per the author's occasion rule of 2026-09-27 (formal audiences and campaign take the turban and crest; bare-headed side knot elsewhere). Lannoy wears a WHITE cotton coat, matching chapters 16 and 21. Dutch locks: the senior envoy in a grey powdered wig, charcoal coat and black tricorne; the younger envoy in his own brown hair and a brown coat; the scribes as bareheaded European clerks in grey coats; the interpreter empty-handed in a coloured-border shoulder cloth; none in VOC blue. Travancore troops and guards are bare-chested Nairs (musketeers in 1.1; sword and round shield in 2.4, 7.4 and 9.5), never redcoat sepoys. Ibrahim keeps the chapter 4 and 6 lock (white turban, short grey-flecked beard, dark short coat); Yusuf keeps chapters 10 and 23 (white skullcap, trimmed beard, sea captain's short coat, no scar). Revathi wears no tali.
-- **Art constraints.** No legible text: the register leaf (5.5), the Dutch paper (4.2, 7.2), Nagoji's notes (9.4) and Ramayyan's leaf (10.4) show only faint strokes or incised marks at a raking angle.
-- **For CONTINUITY.md (author's edit, since the file is hash-locked).** The Ibrahim bullet still reads `- **Ibrahim Marakkar** ("kapitan"):`, which the pipeline parser does not match, so Ibrahim gets no bible block; his look is restated in 10.1 to 10.3 until it is fixed. Suggest also locking Ibrahim's white turban and grey-flecked beard, Yusuf Marakkar, and Lannoy's white cotton coat.
-- **Cast overrides for preparation** (pass with `--cast-overrides`): `{"page-01-panel-02": [], "page-01-panel-03": ["temple_priest"], "page-02-panel-02": ["nagoji"], "page-02-panel-04": ["eustachius"], "page-03-panel-02": [], "page-03-panel-03": ["varma"], "page-03-panel-04": [], "page-04-panel-02": ["revathi"], "page-04-panel-05": ["padmini", "revathi"], "page-05-panel-01": [], "page-05-panel-04": ["varma"], "page-05-panel-05": ["nagoji"], "page-06-panel-01": ["nagoji", "revathi", "varma"], "page-06-panel-02": ["varma"], "page-06-panel-04": ["varma"], "page-07-panel-01": ["eustachius", "ramayyan"], "page-07-panel-02": ["ramayyan"], "page-07-panel-03": ["ramayyan"], "page-07-panel-05": ["eustachius"], "page-08-panel-02": ["revathi"], "page-08-panel-03": ["revathi"], "page-08-panel-04": ["nagoji", "padmini", "revathi"], "page-09-panel-01": ["revathi"], "page-09-panel-04": ["nagoji"], "page-09-panel-05": []}`. Without them the text attaches the wrong sheets: "we", "us" and "my" in dialogue add Nagoji where he is not drawn, "Ibrahim's cousin" and "kapitan" add Ibrahim to 1.2 and 7.5, and names in captions and descriptions add Padmini, Ramayyan or Revathi to frames they are not in (5.1 has Padmini only off panel). 8.4 needs Revathi added. Every other panel's inferred cast is correct. The envoys, Yusuf, the scribes, the interpreter and the guards have no pipeline key and rely on their panel text.
-- **Print resolution, 300 PPI or more.** Every placed frame must reach at least 300 effective PPI after aspect-fit and crop, measured at placement, not from the file's DPI tag. The art width is 369 pt (5.125 in), so a full-width frame needs at least 1538 px of visible width; a native 1536 px frame reaches only 299.7 PPI. Every panel in this chapter is a full-width stacked strip, so generate each at the widest landscape size available and run it through the 2x Real-ESRGAN upscale (`~/AI/upscalers/upscale2x.py`) before placement, then confirm effective PPI after the crop. The insets in 5.5, 6.1 and 10.4 are drawn inside their host frames and inherit the host's PPI. Anything still below 300 PPI is upscaled 2x or regenerated, per CONTINUITY.md.
+- **Lannoy and the envoy.** Cut the opening "You seem healthy" / "Men here do not waste tools" to keep 12.2 and 12.3 short; the betrayal, Amsterdam and kapitan lines stay verbatim. The chiefs' and priests' muttering after the session is background art in 12.2.
+- **Verandah.** Revathi's charge runs 14.1 to 14.3 in the novel's order: thesis, "I will remember", then "Good. Because one day...". Her opening sentence about the day Dutchmen fell before Travancore guns is cut, so "the quiet days afterward" becomes "the quiet days after Colachel" to stand alone. The "small, steady suns" image is art direction, not a caption. "They put quills where they once put muskets" is cut.
+- **Ibrahim.** Cut "They carry pepper and cloth and silver. They carry talk too", "Some men call it luck. Some call it warning", "who are beginning to look south with hungry eyes", and the "Pillai. I was just leaving" / "Stay" exchange, so "Not Dutch. North." sits alone in 15.1. The threat to Maratha borders is spoken, so Nagoji's "Pune. English. Ally. Threat." caption is cut as an echo. His forehead-touch farewell is dropped; the empty doorway in 16.2 carries the exit.
+- **Continuity flag.** The novel says Nagoji has already seen Elayadathu marked HIGH in Ramayyan's register, but chapters 14 to 17 never show that scene. The 8.3 inset shows the leaf without implying a specific earlier moment. Check against chapter 21 (Ramayyan's Ledger) before drawing.
+- **Wardrobe.** Nagoji's Ananthan Pillai look is restated in every panel that shows him, because nagoji-v2's only topknot figure is the grey later-life figure and its full-body figure is turbaned. The silver chain is worn from 2.1 through 16.3, including 14.4. Varma wears the cream-and-gold turban with its jewelled peacock-feather crest, per the author's occasion rule of 2026-09-27 (formal audiences and campaign take the turban and crest; bare-headed side knot elsewhere). Lannoy wears a WHITE cotton coat, matching chapters 16 and 21. Dutch locks: the senior envoy in a grey powdered wig, charcoal coat and black tricorne; the younger envoy in his own brown hair and a brown coat; the scribes as bareheaded European clerks in grey coats; the interpreter empty-handed in a coloured-border shoulder cloth; none in VOC blue. Travancore troops and guards are bare-chested Nairs (musketeers in 1.1; sword and round shield in 2.4, 12.2 and 14.5), never redcoat sepoys. Ibrahim keeps the chapter 4 and 6 lock (white turban, short grey-flecked beard, dark short coat); Yusuf keeps chapters 10 and 23 (white skullcap, trimmed beard, sea captain's short coat, no scar). Revathi wears no tali.
+- **Art constraints.** No legible text: the register leaf (8.3), the Dutch paper (5.2, 11.2), Nagoji's notes (14.4) and Ramayyan's leaf (16.2) show only faint strokes or incised marks at a raking angle.
+- **For CONTINUITY.md (author's edit, since the file is hash-locked).** The Ibrahim bullet still reads `- **Ibrahim Marakkar** ("kapitan"):`, which the pipeline parser does not match, so Ibrahim gets no bible block; his look is restated in 15.1 to 16.1 until it is fixed. Suggest also locking Ibrahim's white turban and grey-flecked beard, Yusuf Marakkar, and Lannoy's white cotton coat.
+- **Cast overrides for preparation** (pass with `--cast-overrides`): `{"page-01-panel-02": [], "page-01-panel-03": ["temple_priest"], "page-02-panel-02": ["nagoji"], "page-02-panel-04": ["eustachius"], "page-03-panel-02": [], "page-03-panel-03": ["varma"], "page-03-panel-04": [], "page-04-panel-02": ["revathi"], "page-04-panel-05": ["padmini", "revathi"], "page-05-panel-01": [], "page-05-panel-04": ["varma"], "page-05-panel-05": ["nagoji"], "page-06-panel-01": ["nagoji", "revathi", "varma"], "page-06-panel-02": ["varma"], "page-06-panel-04": ["varma"], "page-07-panel-01": ["eustachius", "ramayyan"], "page-07-panel-02": ["ramayyan"], "page-07-panel-03": ["ramayyan"], "page-07-panel-05": ["eustachius"], "page-08-panel-02": ["revathi"], "page-08-panel-03": ["revathi"], "page-08-panel-04": ["nagoji", "padmini", "revathi"], "page-09-panel-01": ["revathi"], "page-09-panel-04": ["nagoji"], "page-09-panel-05": []}`. Without them the text attaches the wrong sheets: "we", "us" and "my" in dialogue add Nagoji where he is not drawn, "Ibrahim's cousin" and "kapitan" add Ibrahim to 1.2 and 12.3, and names in captions and descriptions add Padmini, Ramayyan or Revathi to frames they are not in (7.1 has Padmini only off panel). 13.4 needs Revathi added. Every other panel's inferred cast is correct. The envoys, Yusuf, the scribes, the interpreter and the guards have no pipeline key and rely on their panel text.
+- **Print resolution, 300 PPI or more.** Every placed frame must reach at least 300 effective PPI after aspect-fit and crop, measured at placement, not from the file's DPI tag. The art width is 369 pt (5.125 in), so a full-width frame needs at least 1538 px of visible width; a native 1536 px frame reaches only 299.7 PPI. Every panel in this chapter is a full-width stacked strip, so generate each at the widest landscape size available and run it through the 2x Real-ESRGAN upscale (`~/AI/upscalers/upscale2x.py`) before placement, then confirm effective PPI after the crop. The insets in 8.3, 9.1 and 16.2 are drawn inside their host frames and inherit the host's PPI. Anything still below 300 PPI is upscaled 2x or regenerated, per CONTINUITY.md.
 
 ### Review changes
 
-- Restored verbatim: Varma's Velinadu and Padmini's-line clause (6.1), with "I approve of cleverness" moved to 6.2 and an inset of Revathi's fist loosening; "Support those who feel aggrieved" (5.4) and "Somewhere, someone the Dutch could use was waiting" (5.5); Revathi's "Few will talk of the quiet days..." thesis and the novel's order "I will remember" / "Good." (9.2, 9.3); "That is a small victory" (8.4); "We underestimated the strength and resolve of Travancore" (3.4); "If he lies to me, another strand will tell me" (10.4); "Your paper will be weighed against it" and the "one where you promise never to stand in our way again" clause (7.2, 7.3).
-- Restored: the envoy's slight, stiff bow to Lannoy (2.4), with the 3.1 caption now naming what the king did not show; the envoy's request to sign the trade articles, so "We will draft our own version" is a refusal (7.2); Ibrahim's threat to Maratha borders (10.2); Revathi's pirate question with the envoy's silent jaw (4.2), bridged by a piracy term in the caption; the quotation marks on "Maratha" (2.3).
-- Cut as art duplication or clutter: "He was right" (1.5); "From the way their eyes lingered" (2.3); the Padmini inset in 2.2; the "Pune. English. Ally. Threat." echo (10.2); "I was just leaving" / "Stay" (10.1); "Some call it luck. Some call it warning" (10.2); Varma's "After you tried to land soldiers on my beach" (4.4).
-- Restaged: "The Company proposes a treaty" ends page 3; 8.2 now carries "Ram will keep copies" / "Paper burns. Land remembers" on Revathi's face and 8.3 is caption only; 5.3 is one widescreen frame in depth; 7.1 includes Lannoy; 7.2 lays the Dutch paper beside Ramayyan's leaf; 10.3 has Ibrahim by the lamp, not in the doorway; 10.4 gives "When the first letter comes" its own inset beat; 10.5 has one consistent wind direction.
-- Continuity locks: Nagoji's Ananthan Pillai look in every panel that shows him; 2.1 blocking (Nagoji the only standing figure, Dutch as silhouettes); Nair musketeers and guards; Lannoy's white coat and fixed screen side; Dutch envoy, scribe and interpreter costumes; Ibrahim's and Yusuf's heads and beards; whose hand is whose in 5.3 and 8.5; no pseudo-writing in 5.5 and 9.4; the chain worn throughout from 2.1. Reviser addition: Varma wears the cream-and-gold turban with its jewelled peacock-feather crest in every panel of this formal audience, per the author's occasion rule of 2026-09-27.
-- Lettering: the Portuguese note is rewritten as plain balloons through the interpreter from 3.2 to 7.3, and the Dutch lines now carry their angle brackets in the copy itself.
+- Restored verbatim: Varma's Velinadu and Padmini's-line clause (9.1), with "I approve of cleverness" moved to 9.2 and an inset of Revathi's fist loosening; "Support those who feel aggrieved" (8.2) and "Somewhere, someone the Dutch could use was waiting" (8.3); Revathi's "Few will talk of the quiet days..." thesis and the novel's order "I will remember" / "Good." (14.2, 14.3); "That is a small victory" (13.4); "We underestimated the strength and resolve of Travancore" (4.1); "If he lies to me, another strand will tell me" (16.2); "Your paper will be weighed against it" and the "one where you promise never to stand in our way again" clause (11.2, 12.1).
+- Restored: the envoy's slight, stiff bow to Lannoy (2.4), with the 3.1 caption now naming what the king did not show; the envoy's request to sign the trade articles, so "We will draft our own version" is a refusal (11.2); Ibrahim's threat to Maratha borders (15.2); Revathi's pirate question with the envoy's silent jaw (5.2), bridged by a piracy term in the caption; the quotation marks on "Maratha" (2.3).
+- Cut as art duplication or clutter: "He was right" (1.5); "From the way their eyes lingered" (2.3); the Padmini inset in 2.2; the "Pune. English. Ally. Threat." echo (15.2); "I was just leaving" / "Stay" (15.1); "Some call it luck. Some call it warning" (15.2); Varma's "After you tried to land soldiers on my beach" (6.1).
+- Restaged: "The Company proposes a treaty" ends page 3; 13.2 now carries "Ram will keep copies" / "Paper burns. Land remembers" on Revathi's face and 13.3 is caption only; 8.1 is one widescreen frame in depth; 11.1 includes Lannoy; 11.2 lays the Dutch paper beside Ramayyan's leaf; 16.1 has Ibrahim by the lamp, not in the doorway; 16.2 gives "When the first letter comes" its own inset beat; 16.3 has one consistent wind direction.
+- Continuity locks: Nagoji's Ananthan Pillai look in every panel that shows him; 2.1 blocking (Nagoji the only standing figure, Dutch as silhouettes); Nair musketeers and guards; Lannoy's white coat and fixed screen side; Dutch envoy, scribe and interpreter costumes; Ibrahim's and Yusuf's heads and beards; whose hand is whose in 8.1 and 13.5; no pseudo-writing in 8.3 and 14.4; the chain worn throughout from 2.1. Reviser addition: Varma wears the cream-and-gold turban with its jewelled peacock-feather crest in every panel of this formal audience, per the author's occasion rule of 2026-09-27.
+- Lettering: the Portuguese note is rewritten as plain balloons through the interpreter from 3.2 to 12.1, and the Dutch lines now carry their angle brackets in the copy itself.
 - Added cast overrides and the full-width 300 PPI print rule.

@@ -334,13 +334,19 @@ Four panels and an inset. Eleven years, told as flashback over Ramayyan's voice.
 
 > RAMAYYAN (off): A man of conscience, he said. A man who had seen what his empire did to those it conquered and found the taste bitter.
 
-**10.3** Flashback, the interrogation chamber from Chapter 1. Reuse the approved Chapter 1 panel 8.3 frame, desaturated, rather than generating it again: shot from high in the vault, small figures, the stool, the brazier, João's broad back, and Duarte standing just far enough back. If it must be redrawn: João broad and heavy in a brown leather jerkin over a cream shirt, wide belt, iron key ring, NOT a priest, no cassock; Duarte apart in his black cassock; Nagoji on the stool in torn ochre rags; no noose, and any rope hangs from the iron ring. Distance, not detail. No gore.
+---
+
+## PAGE 11
+
+Three panels, continuing page 10.
+
+**11.1** Flashback, the interrogation chamber from Chapter 1. Reuse the approved Chapter 1 panel 8.3 frame, desaturated, rather than generating it again: shot from high in the vault, small figures, the stool, the brazier, João's broad back, and Duarte standing just far enough back. If it must be redrawn: João broad and heavy in a brown leather jerkin over a cream shirt, wide belt, iron key ring, NOT a priest, no cassock; Duarte apart in his black cassock; Nagoji on the stool in torn ochre rags; no noose, and any rope hangs from the iron ring. Distance, not detail. No gore.
 
 > NAGOJI (off): He tortured me. He watched while João...
 
 > RAMAYYAN (off): Yes. He did.
 
-**10.4** Cutaway, present day, not seen through any window: the Travancore drill ground on a dry, bright day, set off with the same soft edges as the other voice-over images. European deserters in white Travancore coats drilling local gunners at a cannon. All balloons off-panel.
+**11.2** Cutaway, present day, not seen through any window: the Travancore drill ground on a dry, bright day, set off with the same soft edges as the other voice-over images. European deserters in white Travancore coats drilling local gunners at a cannon. All balloons off-panel.
 
 > RAMAYYAN (off): And then he spent years sending us reports on Portuguese troop movements.
 
@@ -348,7 +354,7 @@ Four panels and an inset. Eleven years, told as flashback over Ramayyan's voice.
 
 > RAMAYYAN (off): Some of them came because Father Duarte whispered in their ears.
 
-**10.5** Full width, bottom. Back in the room. Nagoji alone in the frame, sitting back on the stool, the lamp niche's glow beside him, looking at nothing.
+**11.3** Full width, bottom. Back in the room. Nagoji alone in the frame, sitting back on the stool, the lamp niche's glow beside him, looking at nothing.
 
 > CAPTION: Eleven years.
 
@@ -356,23 +362,23 @@ Four panels and an inset. Eleven years, told as flashback over Ramayyan's voice.
 
 ---
 
-## PAGE 11
+## PAGE 12
 
 Five panels. Was any of it real. End on where they stand.
 
-**11.1** Nagoji leaning in, low-voiced. Ramayyan's thin smile.
+**12.1** Nagoji leaning in, low-voiced. Ramayyan's thin smile.
 
 > NAGOJI: When he came with the embassy. Did he know...
 
 > RAMAYYAN: That you had become one of our generals? Of course he knew. I told him myself, years ago.
 
-**11.2** Flashback, Chapter 24: the parade ground by the stables. Duarte, older (grey hair, deeper stoop, plain black cassock with a small cross, NO collar tab), faces Nagoji, who wears his white Travancore coat. Duarte's hand rising toward the cross at his throat and stopping short, as in Chapter 24 panel 16.3.
+**12.2** Flashback, Chapter 24: the parade ground by the stables. Duarte, older (grey hair, deeper stoop, plain black cassock with a small cross, NO collar tab), faces Nagoji, who wears his white Travancore coat. Duarte's hand rising toward the cross at his throat and stopping short, as in Chapter 24 panel 16.3.
 
 > RAMAYYAN (off): He asked to come. Perhaps he wanted to know if you would kill him.
 
 > RAMAYYAN (off): Perhaps he wanted to give you the chance.
 
-**11.3** Close on Nagoji.
+**12.3** Close on Nagoji.
 
 > NAGOJI: Was any of it real? The guilt? The hesitation?
 
@@ -380,7 +386,7 @@ Five panels. Was any of it real. End on where they stand.
 
 > RAMAYYAN (off): He serves us because serving us is the only penance he can find.
 
-**11.4** Ramayyan on his seat, the old bundle on his knee, patient as a ledger.
+**12.4** Ramayyan on his seat, the old bundle on his knee, patient as a ledger.
 
 > NAGOJI: And you let me threaten him.
 
@@ -388,7 +394,7 @@ Five panels. Was any of it real. End on where they stand.
 
 > NAGOJI: Where do we stand?
 
-**11.5** Full width, bottom. Exterior, looking in through the barred window from the courtyard: the two men framed small in the lamplit room, Ramayyan's back to us, Nagoji facing the window beyond him, the dripping neem in the foreground.
+**12.5** Full width, bottom. Exterior, looking in through the barred window from the courtyard: the two men framed small in the lamplit room, Ramayyan's back to us, Nagoji facing the window beyond him, the dripping neem in the foreground.
 
 > RAMAYYAN: On the same side of the wall.
 
@@ -398,31 +404,31 @@ Five panels. Was any of it real. End on where they stand.
 
 ---
 
-## PAGE 12
+## PAGE 13
 
 Five panels. What the priest had meant, what Ramayyan makes of it, and the strange pieces this kingdom collects. End on the kingdom using him.
 
-**12.1** Wide flashback, soft-edged: the parade ground in Chapter 24, the moment of Chapter 24 panel 19.3. Duarte (older, grey hair, plain black cassock with a small cross, NO collar tab) nodding slowly; Nagoji in his white coat and topknot seen from behind at the edge of frame.
+**13.1** Wide flashback, soft-edged: the parade ground in Chapter 24, the moment of Chapter 24 panel 19.3. Duarte (older, grey hair, plain black cassock with a small cross, NO collar tab) nodding slowly; Nagoji in his white coat and topknot seen from behind at the edge of frame.
 
 > DUARTE (flashback): Then we are alike in that. More than I would have thought.
 
-**12.2** Back in the room. Close on Nagoji, the niche lamp lighting one side of his face.
+**13.2** Back in the room. Close on Nagoji, the niche lamp lighting one side of his face.
 
 > CAPTION: He had not been speaking only of choices and regrets.
 
 > CAPTION: He had been speaking of service to the same crown.
 
-**12.3** Ramayyan gathering the old leaves and tying the faded cord, not looking up.
+**13.3** Ramayyan gathering the old leaves and tying the faded cord, not looking up.
 
 > RAMAYYAN: That does not erase what he did. But it may change what it means.
 
-**12.4** Ramayyan at the door, the bundle under his arm, pausing on the threshold and looking back.
+**13.4** Ramayyan at the door, the bundle under his arm, pausing on the threshold and looking back.
 
 > RAMAYYAN: One more thing. The priest has asked to remain. Not as an envoy. Permanently.
 
 > RAMAYYAN: De Lannoy has been asking for a chaplain for years.
 
-**12.5** Full width, bottom. Imagined, soft-edged: a small chapel of local stone with a simple wooden cross, a lamp on a plain altar, the chapel of Chapter 28 panel 10.1. De Lannoy (tall, pale hair, white Travancore coat) and Duarte (grey, plain black cassock with a small cross, NO collar tab) kneeling side by side before it. Do not attach the temple-priest sheet to this panel or to any Duarte panel.
+**13.5** Full width, bottom. Imagined, soft-edged: a small chapel of local stone with a simple wooden cross, a lamp on a plain altar, the chapel of Chapter 28 panel 10.1. De Lannoy (tall, pale hair, white Travancore coat) and Duarte (grey, plain black cassock with a small cross, NO collar tab) kneeling side by side before it. Do not attach the temple-priest sheet to this panel or to any Duarte panel.
 
 > NAGOJI (off): This kingdom collects strange pieces.
 
@@ -430,21 +436,21 @@ Five panels. What the priest had meant, what Ramayyan makes of it, and the stran
 
 ---
 
-## PAGE 13
+## PAGE 14
 
 Four panels. Two women's verdicts, and the wall. End on the image of him standing on it.
 
-**13.1** Wide. The narrow courtyard after the rain, the neem dripping, its leaves gleaming. Padmini Amma (older now, grey in her coiled hair, simple gold, long walking stick) waiting under it as Nagoji steps out of Ramayyan's door.
+**14.1** Wide. The narrow courtyard after the rain, the neem dripping, its leaves gleaming. Padmini Amma (older now, grey in her coiled hair, simple gold, long walking stick) waiting under it as Nagoji steps out of Ramayyan's door.
 
 > PADMINI: Ram summoned you. He had the look he gets when balancing pots on a shelf.
 
-**13.2** Two-shot under the neem, Padmini leaning on her stick, Nagoji beside her.
+**14.2** Two-shot under the neem, Padmini leaning on her stick, Nagoji beside her.
 
 > NAGOJI: He tested a shelf. It did not crack.
 
 > PADMINI: Good. I am too old to build new ones for this house.
 
-**13.3** Velinadu, lamplight. Revathi (deep indigo sari with gold, tali, grey threading her hair, jasmine in her braid, sandalwood line at the hairline) seated on a mat by a lamp, a palm leaf held in her left hand, the stylus quick in her right, mouth firm.
+**14.3** Velinadu, lamplight. Revathi (deep indigo sari with gold, tali, grey threading her hair, jasmine in her braid, sandalwood line at the hairline) seated on a mat by a lamp, a palm leaf held in her left hand, the stylus quick in her right, mouth firm.
 
 > CAPTION: Revathi's answer came later, in one of her sharp letters.
 
@@ -452,7 +458,7 @@ Four panels. Two women's verdicts, and the wall. End on the image of him standin
 
 > CAPTION (letter): That is a narrow path. Do not pretend it is not also a chain.
 
-**13.4** Full width, bottom, the tallest panel on the page. Weeks on: evening on the fort's rampart, the stones dry, the sky clearing. Nagoji standing alone on the wall walk, small against the sky, looking north, where a new bank of cloud is building over the hills.
+**14.4** Full width, bottom, the tallest panel on the page. Weeks on: evening on the fort's rampart, the stones dry, the sky clearing. Nagoji standing alone on the wall walk, small against the sky, looking north, where a new bank of cloud is building over the hills.
 
 > CAPTION: She was right. Every choice binds.
 
@@ -466,10 +472,10 @@ Four panels. Two women's verdicts, and the wall. End on the image of him standin
 
 ## Adaptation notes
 
-- **Page count** is 13 against a target of 11, inside the 9 to 13 range. The extra pages go to the burning (page 8, a near-silent climax) and to the Duarte reveal, which is a second full turn in the chapter and runs from 9.4 to 12.5. The review restored the "alike" callback, Nagoji's realisation and Ramayyan's verdict; fitted onto one closing page with the chaplain, Padmini, Revathi and the wall, that page would have carried about 200 words, so the ending is split across pages 12 and 13.
+- **Page count** is 13 against a target of 11, inside the 9 to 13 range. The extra pages go to the burning (page 8, a near-silent climax) and to the Duarte reveal, which is a second full turn in the chapter and runs from 9.4 to 13.5. The review restored the "alike" callback, Nagoji's realisation and Ramayyan's verdict; fitted onto one closing page with the chaplain, Padmini, Revathi and the wall, that page would have carried about 200 words, so the ending is split across pages 13 and 14.
 - **Turban changed.** The novel has Nagoji shake rain from his turban. CONTINUITY.md overrides on appearance (topknot, no turban from ch17; uniform from ch24), so he shakes rain from his coat instead. The uniform is given in full in 1.1 (white coat, red waistcoat, knee breeches, buckled European boots as in Chapter 24 panel 15.2, no hat).
 - **Setting.** The novel names only "the fort" and the war hall. Udayagiri in 1.1 is a staging choice (De Lannoy's fort, where the chapel of Chapter 28 stands); change it if an earlier script fixed Ramayyan's office elsewhere. The horse is left unnamed because the novel does not name Nagoji's mount this late.
-- **The room** has one fixed floor plan, set in 1.2: Ramayyan on a low seat against the back wall, the one barred, unglazed window behind him onto the neem courtyard, the lamp niche in the side wall to his right, Nagoji's stool across the table with the door behind it. 3.5 and 11.5 look at that window from the courtyard.
+- **The room** has one fixed floor plan, set in 1.2: Ramayyan on a low seat against the back wall, the one barred, unglazed window behind him onto the neem courtyard, the lamp niche in the side wall to his right, Nagoji's stool across the table with the door behind it. 3.5 and 12.5 look at that window from the courtyard.
 - **The opening ride** on the marches is cut to one caption. The damp clothes are drawn, not said.
 - **The letter** keeps the greeting, Chanda Sahib, the offer, the Colachel line, the weaknesses of "this southern kingdom", the threat and the ask. "Word has reached us...", "You have seen their methods now. You know their weaknesses and their strengths," "Our masters plan," the Bhonsle's pepper and ports, "you will not come back as a simple cavalry officer" and "Think on this" are dropped. The weaknesses line is moved down to sit beside the threat in 2.4. The narrator's gloss on the Bhonsle of Nagpur is carried by the image of Chanda Sahib being led away in 2.2.
 - **Cut from the reasoning scene:** "How long have you had this?" and its answer, and "They offer you land, status, a place beside men whose blood you share." "You brought me here knowing this" is folded into Ramayyan's "Ask yourself why," and "the messenger arrested" is trimmed from that line. The spy of 2.1 gets his image in the 3.4 cutaway.
@@ -478,11 +484,11 @@ Four panels. Two women's verdicts, and the wall. End on the image of him standin
 - **The writing** is compressed from five paragraphs to three panels, alternating what he wrote and what he withheld, with the withheld things (bastions, batteries, patched walls, the price of partnership) drawn in shadow. The Dutch landing details (the narrow strip, the square, wet ground) are drawn in the 6.1 inset. The internal rifts among Travancore's chiefs and the matrilineal-estates clause are cut for space.
 - **"We watched them burn until the ash fell onto the stone floor"** is not lettered; 8.2 and 8.3 show it. **"He smiled. A true smile"** is drawn in 8.4; the captions keep only the time span and the judgement.
 - **Ramayyan's closed-door speech** keeps "You have closed a door on one future" and the "easier to cut" clause that Nagoji answers. "You understand what you have done" and "I would have seen it. The Maharaja would have seen it" are cut.
-- **The Duarte section** loses "He absolved them of their doubts and pointed them south," the troop-movement details, the dungeon recollection paragraph (replaced by the Chapter 1 callback shot in 10.3), the "learning to ride on wet sand" paragraph, "I did not know whether to laugh or weep," "And he still came," "A man who pretends guilt can be caught in his pretense," the small-stones line, "Does he know I know now?", the promise of many future meetings, "Your reach is longer than I imagined," and "Father Duarte will continue his work." What stays is the fact, the history, whether any of it was real, "And you let me threaten him," where the two men now stand, the "alike" callback with Nagoji's realisation, and Ramayyan's verdict.
+- **The Duarte section** loses "He absolved them of their doubts and pointed them south," the troop-movement details, the dungeon recollection paragraph (replaced by the Chapter 1 callback shot in 11.1), the "learning to ride on wet sand" paragraph, "I did not know whether to laugh or weep," "And he still came," "A man who pretends guilt can be caught in his pretense," the small-stones line, "Does he know I know now?", the promise of many future meetings, "Your reach is longer than I imagined," and "Father Duarte will continue his work." What stays is the fact, the history, whether any of it was real, "And you let me threaten him," where the two men now stand, the "alike" callback with Nagoji's realisation, and Ramayyan's verdict.
 - **The Marakkar trader** in 10.2 is unnamed, as in the novel, and drawn so he cannot be read as Ibrahim, whose loyalty Chapter 26 leaves open.
-- **The chaplain** is kept (12.4 and 12.5) because it sets up the chapel scene with De Lannoy and Duarte in Chapter 28. Thiruvananthapuram, Goa's "ghosts in the corridors" and "The Maharaja permits many things" are cut.
+- **The chaplain** is kept (13.4 and 13.5) because it sets up the chapel scene with De Lannoy and Duarte in Chapter 28. Thiruvananthapuram, Goa's "ghosts in the corridors" and "The Maharaja permits many things" are cut.
 - **Revathi's letter** drops its first sentence ("You have done what I expected and feared"), and a time caption marks it as coming later. "Ramayyan's test had not been whether I loved my hills more than this coast" is cut; the final image of Nagoji on the wall carries it.
-- **Echoes built in:** 9.2 mirrors Chapter 1 panel 1.2 (a hand making an entry that decides who he is), and 10.3 repeats Chapter 1 panel 8.3. 11.2 and 12.1 return to Chapter 24 panels 16.3 and 19.3, 12.5 prefigures the chapel of Chapter 28 panel 10.1, and 5.5 reuses the drowning hand of Chapter 24 panel 19.1 and the spyglass boy of Chapter 11 panel 1.2. "The entry had been made" in 13.4 closes the ledger loop.
+- **Echoes built in:** 9.2 mirrors Chapter 1 panel 1.2 (a hand making an entry that decides who he is), and 11.1 repeats Chapter 1 panel 8.3. 12.2 and 13.1 return to Chapter 24 panels 16.3 and 19.3, 13.5 prefigures the chapel of Chapter 28 panel 10.1, and 5.5 reuses the drowning hand of Chapter 24 panel 19.1 and the spyglass boy of Chapter 11 panel 1.2. "The entry had been made" in 14.4 closes the ledger loop.
 - **Verbatim lines kept:** "The ola came on a day that smelled of ink and rain," the letter's offer, the Colachel line and "the weaknesses of this southern kingdom, for all its new walls," the sardar's "killed or much land," "offering the latter and implying the former," "Everything is a trick," "You want to see what I do... one way or the other," "That trust has kept some of this kingdom's bones from breaking. It also makes you a potential crack," "I prefer to test a wall before the storm does," "Half truths / Selected truths," "The stylus felt heavier than any sword," "I will not pave their road over Padmini's fields or Velinadu's shrines," "I am not a Maratha who helps Travancore. Not anymore," "Once you do this, there is no echo," "My sword is here. My words stay here," "You have closed a door on one future," the record entry, "You keep it in your bones," "Since you have proven yourself today...," "He has been in my pay for eleven years," "I let you have your moment," "On the same side of the wall. Though you came to it by different doors," Duarte's "Then we are alike in that," "He had been speaking of service to the same crown," "That does not erase what he did. But it may change what it means," Padmini's shelf exchange, "I had chosen," and the chapter's last line.
 - **Print.** Per the author, every drawn panel must reach 300 DPI or more at its printed size; upscale 2x or regenerate any frame that falls short (CONTINUITY.md, print rule).
 
@@ -490,7 +496,7 @@ Four panels. Two women's verdicts, and the wall. End on the image of him standin
 
 Full disposition in `script-reviews/CHAPTER-25-REVIEW.md` (pre-review draft kept as `script-reviews/CHAPTER-25-SCRIPT-r1.md`).
 
-- Page count 12 to 13: the old page 12 is split so the restored Duarte turn has room (new 12.1 to 12.3), and page 13 carries Padmini, Revathi and the wall.
+- Page count 12 to 13: the old page 13 is split so the restored Duarte turn has room (new 13.1 to 13.3), and page 14 carries Padmini, Revathi and the wall.
 - Letter (2.3, 2.4): the Colachel and "southern kingdom" lines restored; the "He did not sign" caption moved to 2.5.
 - Page 3: 3.4 is now a toll-post cutaway and 3.5 an exterior of the room's wall in the storm; the 3.4 and 3.5 lines restored verbatim.
 - Page 4: the 4.1 inset is cut, the burning estate and Revathi share a split tier (4.3, 4.4), the two room panels are merged into 4.5, and 4.2 is a drawable taken fort.
@@ -499,7 +505,7 @@ Full disposition in `script-reviews/CHAPTER-25-REVIEW.md` (pre-review draft kept
 - 7.1 and 7.2 fix the leaf and make the hands distinct.
 - Page 8 relaid out (8.1 inset, 8.2 half page, 8.4 a full third); the 8.4 captions no longer describe the smile.
 - 9.1, 9.4 and 9.5 restore "closed a door", "easier to cut" and "Since you have proven yourself today"; 9.2 bans legible script.
-- 10.2 unnamed Marakkar, not Ibrahim; 10.3 reuses the Chapter 1 frame with João specified; 10.4 is a dry-day cutaway, not a window view.
-- 11.3 and 11.4 restore the novel's order and "And you let me threaten him"; Duarte has no collar tab in every panel.
-- 13.3 gets a time caption and Revathi's full look; 13.4 is weeks later and adds "I had chosen."
+- 10.2 unnamed Marakkar, not Ibrahim; 11.1 reuses the Chapter 1 frame with João specified; 11.2 is a dry-day cutaway, not a window view.
+- 12.3 and 12.4 restore the novel's order and "And you let me threaten him"; Duarte has no collar tab in every panel.
+- 14.3 gets a time caption and Revathi's full look; 14.4 is weeks later and adds "I had chosen."
 - Uniform, room floor plan and the 2.5 sardar/young Nagoji split are fixed in the panel directions.

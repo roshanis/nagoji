@@ -1,0 +1,222 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 4,
+  "logs": [
+    "chapter 25: 1 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-keep",
+    "▸ running dynamic workflow v15-faces2",
+    "[v15-keep] chapter 25: keep regions for 1 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 25: face zones for 1 frames, 2 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 25,
+        "decisions": [
+          {
+            "id": "page-08-panel-02",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.632,
+                "y": 0.107,
+                "r": 0.1
+              },
+              {
+                "x": 0.394,
+                "y": 0.171,
+                "r": 0.08
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: Ramayyan stands two or three paces back rather than one, and the fire lights his face less than Nagoji's. Nagoji matches his sheet: thick curled moustache, clean-shaven chin, small flush gold stud, topknot with grey at the temples, white coat, red waistcoat, silver chain and buckled boots. Ramayyan matches too: receding curly hair, plain white cloth, barefoot. The room matches 7.5, 8.1, 8.3 and 8.4: barred window with rain and the neem behind, lamp niche in the side wall, low table with palm-leaf bundles, stools and the door. Both hands are sound, there is no text and no gore. The panel has no lettering.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 25,
+        "result": {
+          "chapter": 25,
+          "panels": [
+            {
+              "id": "page-08-panel-02",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.417,
+                  "y": 0.199,
+                  "r": 0.033,
+                  "who": "balding man in white dhoti, three-quarter view, centre-left"
+                },
+                {
+                  "x": 0.662,
+                  "y": 0.153,
+                  "r": 0.041,
+                  "who": "moustached man in white coat, profile facing right, burning leaves, right of centre"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 25,
+        "result": {
+          "chapter": 25,
+          "panels": [
+            {
+              "id": "8.2",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.76,
+                  "y0": 0.19,
+                  "x1": 0.93,
+                  "y1": 0.43,
+                  "what": "Nagoji's hands holding the two palm leaves to the lamp, tips charring and in flame"
+                },
+                {
+                  "x0": 0.85,
+                  "y0": 0,
+                  "x1": 0.97,
+                  "y1": 0.22,
+                  "what": "black smoke lifting from the burning leaves"
+                },
+                {
+                  "x0": 0.33,
+                  "y0": 0.1,
+                  "x1": 0.51,
+                  "y1": 0.7,
+                  "what": "Ramayyan standing behind Nagoji, watching"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch25 p8",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a3c18c8f6b92c080d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510298949,
+      "queuedAt": 1791510298944,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 8 of Chapter 25 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch25/page-08.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791510335364,
+      "tokens": 82239,
+      "toolCalls": 16,
+      "durationMs": 36415,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-08-panel-02\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.632,\"y\":0.107,\"r\":0.1},{\"x\":0.394,\"y\":0.171,\"r\":0.08}],\"backup_faces\":[],\"issues\":\"Minor only: Ramayyan stands two or three paces back rather than one, and the fire lights his face less than Nagoji's. Nagoji matches his sheet: thick curled moustache, clean-shaven chin, small flush gold st…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "keep ch25 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "adf2634ed4abf400f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510335377,
+      "queuedAt": 1791510335372,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 8 of chapter 25 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-25-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510359569,
+      "tokens": 62438,
+      "toolCalls": 5,
+      "durationMs": 24192,
+      "resultPreview": "{\"panels\":[{\"id\":\"8.2\",\"version\":\"v03\",\"keep\":[{\"x0\":0.76,\"y0\":0.19,\"x1\":0.93,\"y1\":0.43,\"what\":\"Nagoji's hands holding the two palm leaves to the lamp, tips charring and in flame\"},{\"x0\":0.85,\"y0\":0,\"x1\":0.97,\"y1\":0.22,\"what\":\"black smoke lifting from the burning leaves\"},{\"x0\":0.33,\"y0\":0.1,\"x1\":0.51,\"y1\":0.7,\"what\":\"Ramayyan standing behind Nagoji, watching\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "mark ch25 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a22b5729fc288afd3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510335387,
+      "queuedAt": 1791510335383,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510357450,
+      "tokens": 62551,
+      "toolCalls": 8,
+      "durationMs": 22063,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.417,\"y\":0.199,\"r\":0.033,\"who\":\"balding man in white dhoti, three-quarter view, centre-left\"},{\"x\":0.662,\"y\":0.153,\"r\":0.041,\"who\":\"moustached man in white coat, profile facing right, burning leaves, right of centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "check ch25 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a3487d47d646bd8b0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510357455,
+      "queuedAt": 1791510357453,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510373838,
+      "tokens": 63143,
+      "toolCalls": 6,
+      "durationMs": 16383,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.417,\"y\":0.199,\"r\":0.033,\"who\":\"balding man in white dhoti, three-quarter view, centre-left\"},{\"x\":0.662,\"y\":0.153,\"r\":0.041,\"who\":\"moustached man in white coat, profile facing right, burning leaves, right of centre\"}]}]}"
+    }
+  ],
+  "totalTokens": 270371,
+  "totalToolCalls": 35
+}

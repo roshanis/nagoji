@@ -64,14 +64,18 @@ WEDGE_HALF_MAX_PT = 6.0     # and at most this
 WEDGE_HALF_SHARE = .18      # in between, this share of the balloon's shorter side
 WEDGE_EDGE_PT = 2.0         # the compositor holds a tail's mouth point this far inside the panel
 TAIL_EDGE_PT = .5           # the compositor takes a mouth point this near the panel edge, or beyond it, as off panel
-WEDGE_REACH = .6            # a tail runs about this share of the way to the mouth, between WEDGE_MIN_PT and WEDGE_MAX_PT
-WEDGE_MIN_PT = 8.0
-WEDGE_MAX_PT = 28.0
+WEDGE_MIN_PT = 8.0          # a tail is at least this long (compositor.TAIL_MIN_PT) and stops short of the mouth by 12
+WEDGE_GAP_MIN_PT = 4.0      # percent of the way, between these bounds (compositor.TAIL_GAP_MIN_PT and TAIL_GAP_MAX_PT)
+WEDGE_GAP_MAX_PT = 12.0
+WEDGE_HEAD_GAP_PT = 3.0     # a tail to a known head stops this far outside the head's circle (compositor.TAIL_HEAD_GAP_PT)
+WEDGE_SHORT_REACH = .6      # the legacy short tail, the fallback of a chunk the long one cannot place (compositor.TAIL_SHORT_REACH and
+WEDGE_SHORT_MAX_PT = 28.0   # TAIL_SHORT_MAX_PT): it runs this share of the way to the mouth, within WEDGE_MIN_PT and this, 90 percent at most
 TAIL_MAX_SHARE = .35        # a free balloon's tail is kept within this share of the visible frame's diagonal, where it can be
 TAIL_NEAR_SHARE = .06       # tail lengths within this share of the diagonal count as alike: quietness breaks the tie
 WEDGE_STROKE_PT = .8        # the compositor's stroke (compositor.DRAW_STROKE_PT): an off-frame voice's tail needs WEDGE_MIN_PT plus this of room
 KEEP_OVERLAP_MAX = .10      # a box that keeps off the keep zones may still cover less than this share of one
 RULES = ('cross', 'face', 'tip', 'order')   # the placement rules of a chunk: tails clear of balloons, clear of faces, tips at the speaker, reading order
+SAME_SPEAKER_PX = 2.0       # tail targets this close are one speaker's, whose tails may cross (place_boxes `uncross`)
 
 
 class ReserveError(ValueError):
@@ -483,15 +487,56 @@ def on_frame_edge(point, bounds, tolerance=EDGE_PX):
             or point[1] <= bounds[1] + tolerance or point[1] >= bounds[3] - tolerance)
 
 
-def tail_wedge(box, ratio, target, bounds, scale=1.0):
+def speaker_head(target, faces):
+    """The head circle (x, y, r) a tail target sits in, as the placement step picks it (run_chapter._tail_head): the
+    nearest-centre face zone holding it, else the nearest implied head zone ("head of chunk ..."), else None."""
+    if target is None or not faces:
+        return None
+    for implied in (False, True):
+        held = [f for f in faces if str(f[3]).startswith('head of chunk') == implied
+                and math.hypot(target[0] - f[0], target[1] - f[1]) <= f[2]]
+        if held:
+            x, y, r, _ = min(held, key=lambda f: math.hypot(target[0] - f[0], target[1] - f[1]))
+            return (round(x), round(y), round(r, 1))
+    return None
+
+
+def _head_entry(base, target, head):
+    """Distance along the ray from `base` toward `target` to where it first enters the head circle, or None
+    (compositor._head_entry)."""
+    hx, hy, hr = head
+    dx, dy = target[0] - base[0], target[1] - base[1]
+    length = math.hypot(dx, dy)
+    ux, uy = dx / length, dy / length
+    ox, oy = base[0] - hx, base[1] - hy
+    b, c = ox * ux + oy * uy, ox * ox + oy * oy - hr * hr
+    if c <= 0:
+        return None
+    disc = b * b - c
+    if disc < 0 or b >= 0:
+        return None
+    return -b - math.sqrt(disc)
+
+
+def _off_panel(target, bounds, scale=1.0):
+    """True for a tail target the compositor takes as a speaker off the panel (compositor.EDGE_TOLERANCE_PT): its tail runs to
+    the border, whichever length rule a tail follows."""
+    tol = TAIL_EDGE_PT / scale
+    return not (bounds[0] + tol < target[0] < bounds[2] - tol and bounds[1] + tol < target[1] < bounds[3] - tol)
+
+
+def tail_wedge(box, ratio, target, bounds, scale=1.0, head=None, short=False):
     """Where a balloon's tail runs, in pixels: ((base x, base y), (mouth x, mouth y), half the wedge's base width, wedge length), or None.
 
     This is the compositor's own rule (compositor._tail_plan) in source pixels. The wedge leaves the edge of `box`
     nearest the speaker's mouth (the top or bottom edge when the mouth is farther above or below than beside), its base
     centred on the mouth's line but kept on the edge's straight part, clear of the corners (radius `ratio` of the shorter
     side), and as wide as the compositor draws it (`scale` is points per source pixel). It tapers to a tip that stops
-    short of the mouth, by the compositor's length rule; the reader follows the line on from there. The mouth is first held
-    2 pt inside `bounds`, the panel. None when the mouth is inside the box: an off-frame speaker touching the box draws no tail.
+    short of the mouth, by the compositor's length rule: just outside `head`, the speaker's head circle (x, y, r) when it
+    is known (see speaker_head), else 12 percent of the way short within 4 to 12 pt. With `short` it is the legacy short
+    tail instead, which ignores `head`: WEDGE_SHORT_REACH of the way, within WEDGE_MIN_PT and WEDGE_SHORT_MAX_PT, 90 percent at
+    most (a chunk place_boxes could place only so, see its "short_tail"). The mouth is first held 2 pt inside `bounds`, the
+    panel. None when the mouth is inside the box: an off-frame speaker touching the box draws no tail.
     """
     x0, y0, x1, y1 = box
     w, h = x1 - x0, y1 - y0
@@ -510,9 +555,14 @@ def tail_wedge(box, ratio, target, bounds, scale=1.0):
     base = min(max(along, lo), hi) if lo <= hi else (low + high) / 2
     point = (base, edge) if dy >= dx else (edge, base)
     distance = math.hypot(tx - point[0], ty - point[1])
-    length = min(min(max(WEDGE_REACH * distance, WEDGE_MIN_PT / scale), WEDGE_MAX_PT / scale), .9 * distance)
-    tol = TAIL_EDGE_PT / scale    # the compositor's own test for a speaker off the panel (compositor.EDGE_TOLERANCE_PT)
-    if not (bounds[0] + tol < target[0] < bounds[2] - tol and bounds[1] + tol < target[1] < bounds[3] - tol):
+    if short:
+        length = min(min(max(WEDGE_SHORT_REACH * distance, WEDGE_MIN_PT / scale), WEDGE_SHORT_MAX_PT / scale), .9 * distance)
+    else:
+        entry = _head_entry(point, (tx, ty), head) if head is not None else None
+        gap = min(max(.12 * distance, WEDGE_GAP_MIN_PT / scale), WEDGE_GAP_MAX_PT / scale)
+        length = distance - gap if entry is None else entry - WEDGE_HEAD_GAP_PT / scale
+        length = min(max(length, WEDGE_MIN_PT / scale), max(.9 * distance, distance - WEDGE_GAP_MAX_PT / scale))
+    if _off_panel(target, bounds, scale):
         length = distance          # the compositor runs a tail to an off-panel speaker all the way to the border
     return point, (tx, ty), half, length
 
@@ -567,6 +617,30 @@ def tail_crosses(wedge, rect):
     """
     triangle, tip, mouth = _tail_parts(wedge)
     return _polygon_meets_rect(triangle, rect) or _segment_meets_rect(tip, mouth, rect)
+
+
+def tails_cross(first, second):
+    """True when two tails cross each other: each is the straight line from its wedge's base to its mouth (see tail_wedge).
+
+    A drawn tail and the line read on from its tip lie on that line. Lines that only touch, share an end or run parallel
+    do not cross.
+    """
+    (a, b), (c, d) = first[:2], second[:2]
+    side = lambda p, q, r: (q[0] - p[0]) * (r[1] - p[1]) - (q[1] - p[1]) * (r[0] - p[0])
+    return side(a, b, c) * side(a, b, d) < 0 and side(c, d, a) * side(c, d, b) < 0
+
+
+def crossed_tails(result, targets, rounded, faces, scale=None):
+    """(i, j) pairs of balloons in a place_boxes result whose tails, as the compositor draws them, cross each other, for
+    different speakers (targets more than SAME_SPEAKER_PX apart)."""
+    pts = 1.0 if scale is None else scale
+    bounds, boxes = result['visible_rect'], result['boxes']
+    wedges = [tail_wedge(boxes[i], result['corner'][i], t, bounds, pts, speaker_head(t, faces or []), result['short_tail'][i])
+              if t is not None and rounded is not None and rounded[i] is not None else None for i, t in enumerate(targets or [])]
+    return [(i, j) for i in range(len(wedges)) for j in range(i + 1, len(wedges))
+            if wedges[i] is not None and wedges[j] is not None
+            and math.hypot(targets[i][0] - targets[j][0], targets[i][1] - targets[j][1]) > SAME_SPEAKER_PX
+            and tails_cross(wedges[i], wedges[j])]
 
 
 def tail_meets_face(wedge, face):
@@ -653,6 +727,8 @@ def _rule_message(i, culprit, placed, tried):
     if kind == 'tip':
         return (f"chunk {i}: its tail tip would point at another figure ({who}): {clear} ends the drawn tail nearer {who} "
                 f"than its own speaker, or on {who}'s body, so a reader would credit the balloon to {who}; {tried}")
+    if kind == 'uncross':
+        return (f"chunk {i}: its tail would cross chunk {who}'s tail: {clear} runs the two tails across each other; {tried}")
     return (f"chunk {i}: its box would read before chunk {who}'s, against the script order: {clear} is above it, "
             f"or left of it on the same line; {tried}")
 
@@ -986,7 +1062,7 @@ def _edge_integral(image_path, bounds):
 
 
 def _quiet_window(integral, mean, bounds, size, obstacles, targets, previous, faces=(), face_margin=0, accept=None,
-                  lead=None, keeps=(), room=None, top=TOP_WEIGHT):
+                  lead=None, keeps=(), room=None, top=TOP_WEIGHT, inside=None):
     """Best clear window of `size`: low edge density, high in the frame (by `top`), in reading order, off the targets.
 
     `accept`, if given, is a further test on a window ([x0, y0, x1, y1]); the best one that passes is returned.
@@ -999,6 +1075,18 @@ def _quiet_window(integral, mean, bounds, size, obstacles, targets, previous, fa
     w, h = size
     step = max(4, min(w, h) // 8)
     xs, ys = np.arange(x0, x1 - w + 1, step), np.arange(y0, y1 - h + 1, step)
+    if inside is not None:
+        # Seed each zone independently, including its last fitting integer position.
+        # Filtering only the frame grid would miss narrow or off-grid blank bands.
+        axes = [[], []]
+        for a, b, c, d in inside:
+            lo_x, lo_y = math.ceil(max(x0, a)), math.ceil(max(y0, b))
+            hi_x, hi_y = math.floor(min(x1, c) - w), math.floor(min(y1, d) - h)
+            if lo_x <= hi_x and lo_y <= hi_y:
+                for axis, lo, hi in ((0, lo_x, hi_x), (1, lo_y, hi_y)):
+                    axes[axis].extend(range(lo, hi + 1, step))
+                    axes[axis].append(hi)
+        xs, ys = (np.array(sorted(set(axis)), dtype=int) for axis in axes)
     if not len(xs) or not len(ys):
         return None
     X, Y = xs[None, :], ys[:, None]
@@ -1006,6 +1094,11 @@ def _quiet_window(integral, mean, bounds, size, obstacles, targets, previous, fa
     cost = sums / (w * h) / (mean + 1e-6)
     cost = cost + top * ((Y + h / 2 - y0) / (y1 - y0))                      # prefer the top of the frame
     invalid = np.zeros(cost.shape, bool)
+    if inside is not None:
+        held = np.zeros(cost.shape, bool)
+        for a, b, c, d in inside:
+            held |= (X >= a) & (Y >= b) & (X + w <= c) & (Y + h <= d)
+        invalid |= ~held
     for o in obstacles:
         invalid |= (X + w > o[0] - BOX_GAP_PX) & (X < o[2] + BOX_GAP_PX) & (Y + h > o[1] - BOX_GAP_PX) & (Y < o[3] + BOX_GAP_PX)
     guard = TARGET_GUARD * min(x1 - x0, y1 - y0)
@@ -1101,12 +1194,16 @@ def _cause(sizes, cover, bounds, neighbours, keepouts, margin, corner_blocked=Fa
 
 
 def place_boxes(image_path, found, options, targets=None, *, tail_margin=TAIL_MARGIN_PX, rounded=None, bleed=None,
-                faces=None, face_margin=FACE_MARGIN_PX, widen=None, scale=None, keep=None):
+                faces=None, face_margin=FACE_MARGIN_PX, widen=None, scale=None, keep=None, uncross=False, inside=None):
     """Place one drawn box per chunk, none overlapping, all inside the visible frame.
 
     `found` is find_regions() output. options[i] lists the (width, height) pixel sizes that
     would hold chunk i's text, most preferred first. targets[i] is chunk i's tail target
     (x, y), the speaker's mouth, or None.
+
+    `inside[i]` is None or a list of source-pixel rectangles. Its whole box must fit
+    in one rectangle, on every search and retry. An empty list permits no placement.
+    Matching soft `keep` rectangles are ignored for that chunk only.
 
     A chunk whose reading-order position has a painted region gets a box that covers its
     bounding box plus 8 px, so no painted outline shows. A box never covers a tail target
@@ -1167,6 +1264,16 @@ def place_boxes(image_path, found, options, targets=None, *, tail_margin=TAIL_MA
     failing chunk, then for it and one earlier chunk at a time (the nearest first), then for every chunk; the first
     failure is reported if all of that fails too.
 
+    The tail in rules (1) to (3) is the one the compositor draws when it knows the speaker's head: it runs to just outside
+    the head (see tail_wedge and speaker_head), so it is long. A chunk that no position (of any size option, with or without
+    the soft wishes below) lets through under that tail is tried again with the legacy short tail (tail_wedge with `short`:
+    60 percent of the way, 28 pt at most) and, if that places it, is listed in "short_tail"; the compositor then draws that
+    tail too (a reserve's "tail_short", see run_chapter.drawn_geometry). Every later chunk is checked against the tail
+    each earlier chunk was placed with. If the greedy order still strands a chunk, the last resort is the planner as it was
+    before tails knew heads (every balloon with the short tail, all the passes above), and then each balloon's long tail goes
+    back wherever it reads right in that layout, the boxes staying where they are (a "pins" pass of _place_boxes). Where neither
+    places the panel it fails as it did, the error explaining the long tails.
+
     Two more wishes are soft: a chunk is placed to meet them when any position (of any size option) does, and
     without them, as before, when none does. (a) A balloon whose target is on the frame's edge (an off-frame voice)
     keeps WEDGE_MIN_PT plus WEDGE_STROKE_PT (points, so `scale` converts) between its box and that edge, so the
@@ -1176,13 +1283,61 @@ def place_boxes(image_path, found, options, targets=None, *, tail_margin=TAIL_MA
     more of the visible part of any of them is not valid, and "keep_overlaps" maps each chunk that could not keep off them to the indexes
     of the zones it covers that much. When both cannot be had, the keep zones win: the balloon gives up its tail room first.
 
+    With `uncross`, two speakers' tails are not left crossing each other where the search can keep them apart: when the
+    layout above has such an X (see crossed_tails), the whole search runs again with one more rule, that a balloon's tail
+    never crosses an earlier balloon's tail unless both point at one speaker (as rule (1), and an earlier chunk is moved
+    when a later one cannot keep clear of its tail). That layout is taken only if it covers no keep zone the first did
+    not and leaves no more off-frame voices without tail room; otherwise, or when there is none, the first layout stands.
+    A layout with no crossing tails is returned exactly as without `uncross`.
+
     Returns {"visible_rect", "boxes": [[x0, y0, x1, y1]], "painted": [bool], "partial": [bool],
     "corner": [ratio or None], "bleed": [[left, top, right, bottom] px past the frame],
     "face_clearance": [(px to the nearest face, its name) or None], "choice": [option index],
-    "keep_overlaps": {chunk: [keep index]}, "edge_voice_no_tail": [chunk]}.
+    "keep_overlaps": {chunk: [keep index]}, "edge_voice_no_tail": [chunk], "short_tail": [bool]} (the last, one per chunk:
+    True where only the short tail placed it).
     """
+    if inside is not None and len(inside) != len(options):
+        raise ValueError('inside must have one entry per chunk')
     kwargs = dict(tail_margin=tail_margin, rounded=rounded, bleed=bleed, faces=faces, face_margin=face_margin,
-                  widen=widen, scale=scale, keep=keep)
+                  widen=widen, scale=scale, keep=keep, inside=inside)
+    plain = _place_all(image_path, found, options, targets, kwargs)
+    if not uncross or not crossed_tails(plain, targets, rounded, faces, scale):
+        return plain
+    try:
+        apart = _place_all(image_path, found, options, targets, dict(kwargs, uncross=True))
+    except PlacementError:
+        return plain
+    worse = any(not set(zones) <= set(plain['keep_overlaps'].get(i, [])) for i, zones in apart['keep_overlaps'].items()) \
+        or not set(apart['edge_voice_no_tail']) <= set(plain['edge_voice_no_tail'])
+    return plain if worse or crossed_tails(apart, targets, rounded, faces, scale) else apart
+
+
+def _place_all(image_path, found, options, targets, kwargs):
+    """place_boxes' whole search (see there) with one set of rules: kwargs as place_boxes builds them, with "uncross"."""
+    scale, rounded = kwargs['scale'], kwargs['rounded']
+    try:
+        return _cascade(image_path, found, options, targets, kwargs)[0]
+    except PlacementError as error:
+        # Last resort: the planner as it was before tails knew heads, every balloon with the short tail. The greedy order
+        # that lets each chunk have the tail it can may still strand a later one, which the short tails never did.
+        pts = 1.0 if scale is None else scale
+        if not any(rounded is not None and rounded[i] is not None and t is not None and not _off_panel(t, found['visible_rect'], pts)
+                   for i, t in enumerate(targets or [])):
+            raise
+        try:
+            legacy, strict = _cascade(image_path, found, options, targets, dict(kwargs, legacy=True))
+        except PlacementError:
+            raise error from None
+    # The long tail goes back on every chunk whose long tail reads right in that layout, one chunk at a time in script order.
+    pins = list(zip(legacy['boxes'], legacy['corner'], legacy['choice']))
+    try:
+        return _place_boxes(image_path, found, options, targets, near=[True] * len(options), **dict(kwargs, strict=strict, pins=pins))
+    except PlacementError:
+        return legacy
+
+
+def _cascade(image_path, found, options, targets, kwargs):
+    """place_boxes' search: (the result, whether the strict reading order placed it), or the first PlacementError."""
     # Placement is greedy: an early chunk can take the quiet bottom of the frame and leave the later ones no place that
     # reads after it, so each reading-order rule is tried at the usual top preference and then at stronger ones. The
     # strict rule comes first; the lenient one only when nothing meets it. The lenient default's error is reported.
@@ -1190,7 +1345,7 @@ def place_boxes(image_path, found, options, targets=None, *, tail_margin=TAIL_MA
     for strict in (True, False):
         for top in (TOP_WEIGHT,) + TOP_RETRY:
             try:
-                return _place_relaxed(image_path, found, options, targets, dict(kwargs, top=top, strict=strict))
+                return _place_relaxed(image_path, found, options, targets, dict(kwargs, top=top, strict=strict)), strict
             except PlacementError as error:
                 if not strict and top == TOP_WEIGHT:
                     first_error = error
@@ -1207,7 +1362,7 @@ def place_boxes(image_path, found, options, targets=None, *, tail_margin=TAIL_MA
             error = None
             for top in (TOP_WEIGHT,) + TOP_RETRY:
                 try:
-                    return _place_relaxed(image_path, found, options, targets, dict(kwargs, top=top, strict=strict, avoid=avoid))
+                    return _place_relaxed(image_path, found, options, targets, dict(kwargs, top=top, strict=strict, avoid=avoid)), strict
                 except PlacementError as failure:
                     if error is None or (failure.blocker is not None and error.blocker is None):
                         error = failure
@@ -1242,9 +1397,15 @@ def _place_relaxed(image_path, found, options, targets, kwargs):
 
 
 def _place_boxes(image_path, found, options, targets, tail_margin, rounded, bleed, faces, face_margin, widen, scale, keep, near,
-                 top=TOP_WEIGHT, strict=True, avoid=None):
-    """One placement pass of place_boxes; near[i] ranks free balloon i's windows by tail length before quietness."""
+                 top=TOP_WEIGHT, strict=True, avoid=None, legacy=False, pins=None, uncross=False, inside=None):
+    """One placement pass of place_boxes; near[i] ranks free balloon i's windows by tail length before quietness.
+
+    With `legacy` every balloon gets the short tail and none is tried with the long one. With `pins`, a (box, corner ratio,
+    size option) per chunk, nothing is searched: each chunk is checked at its pinned place, long tail first, and is placed
+    there or the pass fails. With `uncross` a balloon's tail may not cross an earlier balloon's tail either (see place_boxes).
+    """
     faces = list(faces or [])
+    rules = RULES + (('uncross',) if uncross else ())
     bounds = found['visible_rect']
     regions = found['regions']
     targets = list(targets) if targets is not None else [None] * len(options)
@@ -1270,9 +1431,13 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
                                      f"hide reaches {face[3]}", i)
     painted = [i < len(regions) for i in range(len(options))]
     placed, choice = [None] * len(options), [None] * len(options)
+    shorts = [False] * len(options)                    # per chunk: placed with the legacy short tail (see place_boxes), not the long one
     corner = [None if rounded is None or rounded[i] is None else rounded[i][0] for i in range(len(options))]
     edge = None
     for i, sizes in enumerate(options):
+        inside_zones = None if inside is None else inside[i]
+        # A hard write constraint takes priority over its own soft keep rectangle.
+        chunk_zones = zones if inside_zones is None else [(j, z) for j, z in zones if not any(list(z) == list(h) for h in inside_zones)]
         # Earlier chunks are placed; later chunks with a painted region keep their cover clear.
         neighbours = [(j, placed[j] if placed[j] is not None else covers[j],
                        'box' if placed[j] is not None else 'painted region')
@@ -1284,7 +1449,8 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
         # What this chunk's placement must respect so its tail reads correctly and the balloons read in order.
         wedges = [(j, w) for j in range(len(options)) if j != i and placed[j] is not None and rounded is not None
                   and rounded[j] is not None and targets[j] is not None
-                  for w in [tail_wedge(placed[j], corner[j], targets[j], bounds, pts)] if w is not None]
+                  for w in [tail_wedge(placed[j], corner[j], targets[j], bounds, pts, speaker_head(targets[j], faces), shorts[j])]
+                  if w is not None]
         theirs, ours = [], []          # the face zones this chunk's tail must not enter (not its speaker's), and its speaker's
         if own is not None and balloon and faces:
             dist = lambda f: math.hypot(own[0] - f[0], own[1] - f[1]) - f[2]
@@ -1296,11 +1462,14 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
             theirs = list(faces)                # an off-frame voice: its tail runs to the edge, and no face is its speaker's
         before = [(j, placed[j]) for j in range(i) if placed[j] is not None]      # the boxes that read before this one
 
-        def breach(box, ratio, kinds=RULES):
-            """The first placement rule (of `kinds`) that `box` breaks, as (kind, who), or None."""
+        def breach(box, ratio, kinds=rules, short=False):
+            """The first placement rule (of `kinds`) that `box` breaks, as (kind, who), or None; `short`: with the short tail."""
+            if inside_zones is not None and not any(a <= box[0] and b <= box[1] and box[2] <= c and box[3] <= d
+                                            for a, b, c, d in inside_zones):
+                return 'inside', i
             mine = None
             if balloon and ('cross' in kinds or 'face' in kinds or 'tip' in kinds):
-                mine = tail_wedge(box, ratios[0] if ratio is None else ratio, targets[i], bounds, pts)
+                mine = tail_wedge(box, ratios[0] if ratio is None else ratio, targets[i], bounds, pts, speaker_head(targets[i], faces), short)
             if 'cross' in kinds:
                 if mine is not None:
                     for j, rect, _ in neighbours:
@@ -1325,13 +1494,18 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
                     for f in theirs:
                         if _on_body(tip, f):
                             return 'tip', f[3]
+            if 'uncross' in kinds and mine is not None:
+                for j, wedge in wedges:
+                    if math.hypot(targets[j][0] - targets[i][0], targets[j][1] - targets[i][1]) > SAME_SPEAKER_PX \
+                            and tails_cross(mine, wedge):
+                        return 'uncross', j
             if 'order' in kinds:
                 for j, rect in before:
                     if not _reads_after(rect, box, strict):
                         return 'order', j
             return None
 
-        governed = bool(wedges or theirs or before or balloon)
+        governed = bool(wedges or theirs or before or balloon or inside_zones is not None)
         lead = (targets[i], ratios[0], pts) if near[i] and balloon else None   # an off-frame voice goes near its edge point too
         corner_blocked = False
         blocker = None                 # the face an unconstrained box for this chunk would have covered
@@ -1340,7 +1514,7 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
         voice = balloon and on_frame_edge(targets[i], bounds)        # a balloon for a speaker off frame: its tail needs room
         if voice:
             rooms[i] = tuple(tail_room if beyond else 0.0 for beyond in _edge_sides(targets[i], bounds))
-        wishes = tuple(name for name, asked in (('keep', bool(zones)), ('edge', voice)) if asked)   # the soft ones, most wanted first
+        wishes = tuple(name for name, asked in (('keep', bool(chunk_zones)), ('edge', voice)) if asked)   # the soft ones, most wanted first
         levels = [wishes]              # tried in turn: all wishes, then all but one, then none (as the planner always did)
         for dropped in ('edge', 'keep'):
             fewer = tuple(name for name in wishes if name != dropped)
@@ -1349,9 +1523,9 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
         if () not in levels:
             levels.append(())
 
-        def solve(width, height, need, active, kinds=RULES, soft=()):
-            allow = (lambda b, q: breach(b, q, kinds) is None) if governed and kinds else None
-            keeps, clear = (zones if 'keep' in soft else ()), (rooms[i] if 'edge' in soft else None)
+        def solve(width, height, need, active, kinds=rules, soft=(), short=False):
+            allow = (lambda b, q: breach(b, q, kinds, short) is None) if governed and (kinds or inside_zones is not None) else None
+            keeps, clear = (chunk_zones if 'keep' in soft else ()), (rooms[i] if 'edge' in soft else None)
             if covers[i] is not None and (keeps or clear):
                 hard = allow
                 allow = lambda b, q: ((hard is None or hard(b, q)) and not _keep_hits(b, keeps)
@@ -1365,26 +1539,41 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
                                     active, face_margin, need=need, allow=allow), None, False)
             return (_quiet_window(edge[0], edge[1], bounds, (width, height), obstacles, aims, previous,
                                   active, face_margin, None if allow is None else (lambda b: allow(b, None)), lead,
-                                  keeps, clear, top), None, False)
+                                  keeps, clear, top, inside=inside_zones), None, False)
 
-        for soft in levels:
-            for k, (width, height) in enumerate(sizes):
-                if width > bounds[2] - bounds[0] or height > bounds[3] - bounds[1]:
-                    continue
-                need = widen[i][k] if widen is not None and widen[i] is not None and k < len(widen[i]) else None
-                if covers[i] is None and edge is None:
-                    edge = _edge_integral(image_path, bounds)
-                box, ratio, blocked = solve(width, height, need, faces, RULES, soft)
-                if not soft:           # only the placement without wishes explains a failure
-                    corner_blocked = corner_blocked or blocked
-                    if box is None and faces and blocker is None:
-                        free, free_ratio, _ = solve(width, height, need, ())
-                        if free is not None:
-                            blocker = _nearest_face(free, free_ratio if free_ratio is not None else (ratios[0] if ratios else None), faces)
-                if box is not None:
-                    if ratio is not None:
-                        corner[i] = ratio
-                    placed[i], choice[i] = box, k
+        # The long tail first. Only a chunk no position of which (any size, with or without the soft wishes) the long tail
+        # lets through is tried again with the legacy short one; an off-panel voice's tail runs to the border either way.
+        tails = (((True,) if legacy else (False, True)) if balloon and not _off_panel(targets[i], bounds, pts) else (False,))
+        if pins is not None:                # a layout to check, not to search: the chunk stays where it was, with the tail it can have
+            box, ratio, k = pins[i]
+            short = next((model for model in tails if breach(box, ratio, rules, model) is None), None)
+            if short is None:
+                raise PlacementError(f'chunk {i}: its tail does not read right in the layout it was to keep', i)
+            placed[i], choice[i], shorts[i] = box, k, short
+            if ratio is not None:
+                corner[i] = ratio
+            continue
+        for short in tails:
+            for soft in levels:
+                for k, (width, height) in enumerate(sizes):
+                    if width > bounds[2] - bounds[0] or height > bounds[3] - bounds[1]:
+                        continue
+                    need = widen[i][k] if widen is not None and widen[i] is not None and k < len(widen[i]) else None
+                    if covers[i] is None and edge is None:
+                        edge = _edge_integral(image_path, bounds)
+                    box, ratio, blocked = solve(width, height, need, faces, rules, soft, short)
+                    if not soft and short == legacy:     # only the first tail's placement without wishes explains a failure
+                        corner_blocked = corner_blocked or blocked
+                        if box is None and faces and blocker is None:
+                            free, free_ratio, _ = solve(width, height, need, (), rules, (), legacy)
+                            if free is not None:
+                                blocker = _nearest_face(free, free_ratio if free_ratio is not None else (ratios[0] if ratios else None), faces)
+                    if box is not None:
+                        if ratio is not None:
+                            corner[i] = ratio
+                        placed[i], choice[i], shorts[i] = box, k, short
+                        break
+                if placed[i] is not None:
                     break
             if placed[i] is not None:
                 break
@@ -1397,13 +1586,13 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
                 culprit = None
                 # One rule at a time, then each with the tip rule: a tail across a face ends at it too, so the face rule
                 # alone (or the tip rule alone) does not free a position.
-                lifts = [(kind,) for kind in RULES] + [(kind, 'tip') for kind in RULES if kind != 'tip']
+                lifts = [(kind,) for kind in rules] + [(kind, 'tip') for kind in rules if kind != 'tip']
                 for lifted in (lifts if first is not None else ()):
                     (width, height), need = first[1], (widen[i][first[0]] if widen is not None and widen[i] is not None
                                                         and first[0] < len(widen[i]) else None)
-                    free, free_ratio, _ = solve(width, height, need, faces, tuple(r for r in RULES if r not in lifted))
+                    free, free_ratio, _ = solve(width, height, need, faces, tuple(r for r in rules if r not in lifted), (), legacy)
                     if free is not None:
-                        culprit = breach(free, free_ratio, lifted)
+                        culprit = breach(free, free_ratio, lifted, legacy)
                         if culprit is not None:
                             break
                 if culprit is not None:
@@ -1413,17 +1602,22 @@ def _place_boxes(image_path, found, options, targets, tail_margin, rounded, blee
             if blocker is not None:
                 raise PlacementError(f'chunk {i}: its box would cover a face ({blocker[1]}): every position that holds its '
                                      f'text and hides its painted region reaches {blocker[1]}; {tried}', i)
+            if inside_zones is not None:
+                raise PlacementError(f'chunk {i}: its box cannot fit wholly inside one write zone; {tried}', i)
             raise PlacementError(f'chunk {i}: its box cannot be placed ('
                                  + _cause(sizes, covers[i], bounds, neighbours, aimed, tail_margin, corner_blocked,
                                           ratios[1] if ratios else None) + f'; {tried})', i)
     clearance = [_nearest_face(b, corner[i] if rounded is not None and rounded[i] is not None else None, faces)
                  for i, b in enumerate(placed)]
-    overlaps = {i: hits for i, b in enumerate(placed) for hits in [_keep_hits(b, zones)] if hits}
+    overlaps = {i: hits for i, b in enumerate(placed)
+                for hits in [_keep_hits(b, [(j, z) for j, z in zones
+                    if inside is None or inside[i] is None or not any(list(z) == list(h) for h in inside[i])])] if hits}
     return {'visible_rect': bounds, 'boxes': placed, 'painted': painted, 'partial': partial, 'corner': corner,
             'face_clearance': clearance,
             'bleed': [[max(0, bounds[0] - b[0]), max(0, bounds[1] - b[1]), max(0, b[2] - bounds[2]), max(0, b[3] - bounds[3])]
                       for b in placed], 'choice': choice, 'keep_overlaps': overlaps,
-            'edge_voice_no_tail': [i for i, room in enumerate(rooms) if room is not None and not _edge_clear(placed[i], bounds, room)]}
+            'edge_voice_no_tail': [i for i, room in enumerate(rooms) if room is not None and not _edge_clear(placed[i], bounds, room)],
+            'short_tail': shorts}
 
 
 def detect_reserves(image_path, count, speakers, *, inset=INSET_PX):

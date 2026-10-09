@@ -1,0 +1,202 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 4,
+  "logs": [
+    "chapter 9: 1 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-faces2] chapter 9: face zones for 1 frames, 0 faces",
+    "▸ v15-faces2 done",
+    "[v15-keep] chapter 9: keep regions for 1 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 9,
+        "decisions": [
+          {
+            "id": "page-15-panel-02",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.97,
+                "y": 0
+              },
+              {
+                "copy_index": 1,
+                "x": 0.97,
+                "y": 0
+              }
+            ],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Minor only. Revathi's fingertip hovers just above the wrist end of the brand rather than squarely over the long scar, and the gap is a little wider than a finger's breadth, but the gap still reads as the subject. Neither face is in frame (tight insert), so Nagoji's moustache, chin and stud cannot be checked here; his costume (cream tunic, sleeve pushed back, red sash) and the scar and brand on the inner LEFT forearm match the prompt and panel 15.1. Revathi matches her sheet: indigo and gold sari, bare right shoulder, jasmine braid, flat-coin necklace, armlet, bangles. The setting (night steps, brass lamps, lit hall doorway) matches 15.1 and 15.3. No painted text or balloons, and both hands are anatomically sound. Lettering can sit in the dark sky and tree area at top left and centre.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 9,
+        "result": {
+          "chapter": 9,
+          "panels": [
+            {
+              "id": "page-15-panel-02",
+              "version": "v02",
+              "faces": []
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 9,
+        "result": {
+          "chapter": 9,
+          "panels": [
+            {
+              "id": "15.2",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.16,
+                  "y0": 0.37,
+                  "x1": 0.46,
+                  "y1": 0.66,
+                  "what": "Bared forearm with the long white scar along the inner side, the ridged brand near the wrist, and the gap under her fingertip"
+                },
+                {
+                  "x0": 0.41,
+                  "y0": 0.4,
+                  "x1": 0.62,
+                  "y1": 0.56,
+                  "what": "Revathi's lifted hand with the fingertip hovering just above the scar and brand"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch9 p15",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a8d95666c5921a089",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514041243,
+      "queuedAt": 1791514041235,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 15 of Chapter 9 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r5-ch09-split2/page-15.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514127117,
+      "tokens": 79180,
+      "toolCalls": 11,
+      "durationMs": 85874,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-15-panel-02\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.97,\"y\":0},{\"copy_index\":1,\"x\":0.97,\"y\":0}],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"Minor only. Revathi's fingertip hovers just above the wrist end of the brand rather than squarely over the long scar, and the gap is a little wider than a finger's breadth, but the gap still reads as the…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "mark ch9 p15",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a9f6f911ef4b2cd88",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514127129,
+      "queuedAt": 1791514127124,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514150683,
+      "tokens": 60782,
+      "toolCalls": 6,
+      "durationMs": 23554,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-15-panel-02\",\"version\":\"v02\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "keep ch9 p15",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a62ae834755f6112d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514127138,
+      "queuedAt": 1791514127133,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 15 of chapter 9 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-09-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514161927,
+      "tokens": 64588,
+      "toolCalls": 5,
+      "durationMs": 34789,
+      "resultPreview": "{\"panels\":[{\"id\":\"15.2\",\"version\":\"v02\",\"keep\":[{\"x0\":0.16,\"y0\":0.37,\"x1\":0.46,\"y1\":0.66,\"what\":\"Bared forearm with the long white scar along the inner side, the ridged brand near the wrist, and the gap under her fingertip\"},{\"x0\":0.41,\"y0\":0.4,\"x1\":0.62,\"y1\":0.56,\"what\":\"Revathi's lifted hand with the fingertip hovering just above the scar and brand\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "check ch9 p15",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a20001a359a4dca15",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514150685,
+      "queuedAt": 1791514150684,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514157014,
+      "tokens": 59363,
+      "toolCalls": 2,
+      "durationMs": 6329,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-15-panel-02\",\"version\":\"v02\",\"faces\":[]}]}"
+    }
+  ],
+  "totalTokens": 263913,
+  "totalToolCalls": 24
+}

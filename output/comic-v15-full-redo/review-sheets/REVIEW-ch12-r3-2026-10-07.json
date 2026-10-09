@@ -1,0 +1,604 @@
+{
+ "chapter": 12,
+ "confirmed": [
+  {
+   "page": 5,
+   "panel": "5.3",
+   "severity": "major",
+   "description": "Varma looks like a bare-headed Nagoji. He has loose, collar-length curly black hair with no side knot, a thick curled moustache, a clean chin and a small flush gold stud in the ear. Those are Nagoji's identity markers from the nagoji-v2 front and three-quarter heads. It also breaks Varma's own continuity: two panels later (5.5, 6.1) his hair is pulled back into a knot and he wears large gold or pearl drop earrings, as on varma-v1. The bible row for ch12 @5- requires a side knot above the LEFT ear.",
+   "evidence": "Seated king on the red cushion, upper middle of 5.3, at about x1080-1240, y1530-1700 in the 1838px page. At 4x zoom he shows a full head of loose curls to the nape, a small gold stud and no knot. Compare 5.5 (right edge), where the hair is swept back into a knot and he wears a gold drop earring.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed the problem on page 5, panel 5.3. In a 4x crop of the seated king (about x1080-1300, y1500-1720 of the 1838px page), his hair is a full head of loose curls down to the collar, with no knot anywhere. His ear has only a small flush gold stud. He has a thick curled moustache and a clean chin. That is the bare-headed look from the nagoji-v2 front and three-quarter heads, not varma-v1.\n\nThe bible and script both forbid this. CONTINUITY row 12 @5- says the war hall Varma is bare-headed with his hair in a side knot above the LEFT ear. Script 5.3 says the same: \"bare-headed, his hair in a side knot above his left ear\". The rest of the scene follows the rule, so 5.3 is the only break. In 5.5 (crop x1440-1690, y2080-2330) the hair is swept back into a knot and he wears a gold drop earring, and 6.1, 6.3, 6.4 and 6.5 also show the knot and drop earrings.\n\nThe difference shows at print size: even in the full-page view his hair reads as loose curls. I rate it major, not blocker, because readers can still tell this is the king. He sits on the dais with the spear beside him, wearing gold necklaces, an armlet and a gold-bordered mundu, and the turbaned Nagoji stands apart at the back of the same panel. So the two men are not confused. The fault is a hair and earring error confined to one panel, against the bible and the next panels."
+   }
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "severity": "major",
+   "description": "In the coastal war-hall scene (5.5 to 8.2), Varma's required side knot above the LEFT ear is never drawn. Each time his hair is a knot at the back of the crown, the same as the Nair chieftains' topknots. In 6.5, where he is seen from behind among topknotted chiefs, and again in 8.2, the king loses the silhouette that is meant to set him apart from the chiefs.",
+   "evidence": "6.5 foreground over-the-shoulder figure: the bun sits on top of the crown, centred (crop at about x150-600, y2050-2390). 5.5, 6.1 and 7.2 show the bun at the back of the crown, and 6.4 and 8.2 the same. CONTINUITY Varma row 12 @5- says hair in a side knot above the LEFT ear.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 6, panel 6.5. I zoomed into the foreground over-the-shoulder Varma, at about x150-420, y1478-1700 in the 1325-wide view (page-06.png is 1838x2775). He is seen from behind and to the right, so the ear we can see, the one with the pearl drop, is his RIGHT ear. His hair is a half-up bun sitting on top of the crown, centred or slightly to his right, with the rest falling loose in long curls to his shoulders. Nothing is gathered above his left ear, which would be on the left side of the head as we look at it. The rule is explicit in three places: CONTINUITY Varma row \"12 @5-\" asks for a \"side knot above the LEFT ear\". The panel's own prompt (prompts/page-06-panel-05.txt) says the same in both LOOKS and MUST MATCH, and the build log records that the side knot was the author's occasion rule for war-hall scenes. Neither the script nor the bible allows a crown bun here. The difference is not too slight to matter: Varma's head is the largest element in a full-width panel. The back view is exactly the angle where the knot's position reads most clearly, and the background Nair chiefs in the same panel wear the same kind of bun on top of the crown. One correction to the original claim: the claim that the side knot is missing in every war-hall panel goes too far on page 6. In 6.3 (seen almost from the front) and 6.4 (three-quarter view from his right) the knot sits high on his left side, so it can pass as the side knot, and 6.5 also contradicts those panels. The severity is major, not blocker. It is a hair continuity error on a principal, but his identity is still clear: he is the foreground speaker with the balloon tail, with gold necklaces, earrings and a gold-bordered cloth, and his loose long curls set him apart from the chiefs' tight topknots. The fix is to redraw 6.5 with the knot moved above his left ear, visible on the left side of his head in this rear view."
+   }
+  },
+  {
+   "page": 5,
+   "panel": "5.3, 5.5",
+   "severity": "major",
+   "description": "Varma's war-hall look is off-bible and changes between panels on the same page. In 5.3 his hair is short loose curls with no side knot, and his broad young face, curly hair and curled moustache drift toward Nagoji's sheet and away from the lean V13 Varma face. In 5.5 the hair is a high knot at the crown and back of the head. The CONTINUITY row for chapter 12 from page 5 on asks for a bare head with the hair in a side knot above the LEFT ear.",
+   "evidence": "In the 5.3 crop, Varma sits on the red-cushioned dais seat with chin-length curly hair, no knot anywhere and no forehead mark. In 5.5 (right of frame) a tight bun sits high on the back of his head. CONTINUITY.md line 84 reads: '12 @5- ... bare head, hair in a side knot above the LEFT ear'.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed for panel 5.3 only. The 5.5 half of the claim does not hold up.\n\nPanel 5.3: I zoomed into the page render and the source frame (frames/page-05-panel-03-v01.png, 1536x1024). Varma on the dais has a loose mop of curls down to his jaw and no knot anywhere. On his visible right side the hair hangs loose to the nape, so it cannot be gathered into a knot over the left ear. This breaks CONTINUITY line 84 (\"12 @5- ... bare head, hair in a side knot above the LEFT ear\") and script 5.3 (\"his hair in a side knot above his left ear\").\n\nThis is a known miss, not a drawing choice. The fix prompt behind this frame (ch12/prompts/page-05-panel-03-fix-rv2.txt) asked in so many words: \"Varma's hair is tied in a neat knot on the LEFT side of his head above his left ear, not a bun on the crown and not a loose mane.\" The output still shows the loose mane.\n\nIt also breaks continuity on the page. In 5.5 and in 6.1, 6.3 and 6.4 he wears tied-up hair with a knot, so his hairstyle flips between 5.3 and 5.5. The loose curls also look like Nagoji's signature curly hair. The face itself (curled moustache, straight nose) is still close enough to V13 Varma, and he is clearly the king: dais, necklaces, armlets, spear at his right hand. Nagoji stands separately at the back in his red turban, so this is not a wrong-identity blocker. At about 0.35 in of head height in print, loose curls against a knot can still be seen.\n\nPanel 5.5: I would not count this. He faces left, so the ear we see is his LEFT ear. The bun sits high on that side, above and behind the ear, toward the back of the head. That is a loose but acceptable reading of \"side knot above the LEFT ear,\" and it matches the knotted hair on page 6.\n\nFix: redraw or edit 5.3 only, to give Varma a gathered knot on the left side of his head, matching 5.5 and page 6."
+   }
+  },
+  {
+   "page": 5,
+   "panel": "5.4",
+   "severity": "major",
+   "description": "The ola and Ramayyan's staging jump between panels. In 5.2 the ola is a single palm leaf with a red wax seal, and in 5.3 Ramayyan stands by a lamp breaking a small sealed leaf. In 5.4 he sits at a table gripping a thick bundle of many leaves tied with cord, with no seal, and a coin tray and stylus lie in front of him. In 5.5 he is standing again with a single thin leaf. The knuckle-whitening beat reads as a different document in a different place.",
+   "evidence": "5.2 shows a single leaf with a red wax blob. In 5.4 both fists grip a stack of leaves two fingers thick, bound with a double cord, on a wooden table, with a brass coin tray at lower left and a stylus on a mat at lower right. 5.5 shows Ramayyan standing with one flat leaf.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 5 after zooming in on panels 5.2 to 5.5.\n\n- 5.2: the messenger holds out a thin leaf packet tied with cord and closed with a red wax seal.\n- 5.3: Ramayyan stands by a brass lamp breaking a small sealed leaf, beside the low knee-height table.\n- 5.4: Ramayyan has his forearms on a tabletop at chest height, so he reads as seated at a desk, not standing. Both fists grip a thick wooden-looking bundle about two fingers deep, wrapped in a double cord, with no seal. A brass coin tray sits at lower left and a stylus on a mat at lower right. This bundle is plainly the \"palm-leaf ledger\" prop from his approved sheet (03-ramayyan-dalawa-v15.png) and the bible's \"palm-leaf bundles and stylus\" tag. It is not the message.\n- 5.5: he is standing again, holding a single flat leaf.\n\nThe script calls for one ola across these panels (\"single palm-leaf ola\" in 5.2, \"breaking the wax\" in 5.3, \"Ramayyan's hands on the leaf\" in 5.4, \"lowering the leaf\" in 5.5). The bible's prop note explains where the bundle came from but does not allow swapping the message out at the key beat.\n\nAt print size the jump is obvious, from the thick tied ledger in 5.4 to the thin single leaf in 5.5. The knuckle-whitening reaction now reads as Ramayyan gripping his own account book at a desk, not the news from Arcot.\n\nWhy major, not blocker: the reaction itself (white knuckles, unchanged face) is still drawn, so the beat is there but on the wrong object and in the wrong pose. The error is limited to one panel. A redraw of 5.4 should show him standing, holding the single opened leaf from 5.2 and 5.3, with no desk, coin tray or stylus in front of him."
+   }
+  },
+  {
+   "page": 2,
+   "panel": "2.1",
+   "severity": "major",
+   "description": "Anachronism: the boots Nagoji has taken off and left below the shrine steps are drawn as modern lace-up work or combat boots. They do not match the soft riding boots with wrapped thongs on the approved commander sheet (nagoji-v2.png), which panel 8.1 of this chapter draws correctly.",
+   "evidence": "Zoomed crop of the lower left of panel 2.1 (about x 460-700, y 710-860 in the 1838 px render): a pair of boots with rows of metal eyelets or speed hooks, crossed modern laces tied in a bow, pull tabs at the back of the collar and stitched welted soles. These read as 20th-century footwear. The boot on Nagoji in 8.1 (about x 240-440, y 1580-1870) is the period-correct sheet design, a soft upper with thongs wrapped around it.",
+   "lens": "rules",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed as a major problem. I zoomed into page 2, panel 2.1, at about x 440-720, y 690-880 of the 1838 px render. The pair of boots set below the shrine steps are modern lace-up work or combat boots. They have rows of eyelets or speed hooks, crossed laces tied in bows, pull tabs at the back of the collar, toe caps and welted soles. The approved Nagoji commander sheet (comic-v13-reference-redesign-v1/concepts/nagoji-v2.png) shows something different: soft, slouched brown riding boots with leather thongs wrapped around the shaft and tied at the ankle, with no eyelets or pull tabs. Panel 8.1 of this same chapter (page 8, about x 200-480, y 1540-1900) draws them the sheet's way, so Nagoji's boots don't match within the chapter. Neither the script nor the bible excuses this. Script 2.1 only says \"His boots are off and set side by side on the ground below the bottom step\", and CONTINUITY row \"12 @2-3\" says \"boots together below the shrine steps\". Both mean the sheet's boots, and nothing in either allows a modern design. The problem is not too small to matter: the boots are a clear, well-lit object in the lower left of the opening wide panel. Even at reduced page size they read plainly as 20th-century lace-up boots, an anachronism in a 1740s Travancore scene. It is a localized costume error, not an identity or lettering failure, so the severity is major, not blocker. The fix is to redraw only the boots as the sheet's soft thong-wrapped riding boots."
+   }
+  },
+  {
+   "page": 4,
+   "panel": "4.1 / 4.2 (page grid)",
+   "severity": "major",
+   "description": "The page grid is broken at the top. 4.1 is the scripted wide action panel, but it is the smallest panel on the page and floats in the middle of the left column, with a block of empty cream paper above it and another below it. That makes the 4.2 caption 'Dhanaji admitted it.' (top right) the first thing on the page, so a reader can start at 4.2 before 'Near Nagercoil.'",
+   "evidence": "In r3/page-04.png the first panel row runs from about y=358 to 1444 (original px), and 4.2 fills the right column over that whole height. 4.1 occupies only about y=617 to 1183 in the left column, leaving about 260 px of blank page above it and about 260 px below. 4.2's top border (y=358) is about 260 px higher than 4.1's (y=617). Chapter 1 r6 pages never leave a dead block like this inside a row.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed by measuring r3/page-04.png (1838x2775). Panel 4.2 runs from y=358 to 1443 in the right column. Panel 4.1 runs only from y=617 to 1184 in the left column. That leaves about 259 px of blank cream paper above 4.1 and about 259 px below it, roughly 0.86 in each at 300 DPI, so the gap is plainly visible at print size. 4.1 is scripted as the \"Wide action\" opening shot, yet it is the smallest panel on the page and floats in the middle of its cell. LAYOUT-solved-s1.json gives row 1 a cell of 260x260, and the landscape 4.1 image was shrunk to fit it, which created the gaps. Because nothing sits at the top left, the first lettering under the title is the 4.2 caption \"Dhanaji admitted it.\" at about y=360-450, more than 150 px above 4.1's top edge. A reader can easily start at 4.2, where the caption makes no sense before \"Near Nagercoil.\" and \"We spoke of it afterward...\". Neither the script nor the bible allows this. Chapter 1 r6 has no comparable empty block beside a panel inside a row. The art, balloons and order still work once the reader finds 4.1, so this is a localized layout fault and major rather than a blocker. The fix is to make 4.1 fill its cell, for example by cropping it taller or giving row 1 a different split."
+   }
+  },
+  {
+   "page": 4,
+   "panel": "4.2",
+   "severity": "major",
+   "description": "Dhanaji's second line is lettered one word per line in a tall, thin column balloon that sits on top of Nagoji's body. Its tail points left at the horse's head, not at Dhanaji's face, so the line reads as Nagoji speaking. The lettering looks broken.",
+   "evidence": "The balloon 'We / did / not / fight / them / in the / open. / We / let / the / land / fight / for / us.' is about x=1445 to 1609, y=742 to 1387 (original px), 14 lines tall. It covers Nagoji's sash, arms and legs on the right of the panel. The tail tip is near the horse's head at about x=1340, y=820. Dhanaji is seated at far left, his face at about x=1020, y=735.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 4, panel 4.2. I cropped the panel from the full-resolution render (crop x 920 to 1690, y 355 to 1445). Dhanaji's second line (\"We did not fight them in the open. We let the land fight for us.\") is set one or two words per line in a narrow vertical capsule about 14 lines tall. The capsule sits directly over Nagoji's sash, both hands holding the reins, his trousers and the top of his boots on the right side of the panel. Its tail points left, but the tip ends at the horse's forehead (about x 1335, y 820 at full resolution). That is roughly 300 px short of Dhanaji's face, which is at the far left at about x 1020, y 745. Because the balloon sits on Nagoji's body and the tail does not reach Dhanaji, a reader will most likely give the line to Nagoji. The script (4.2) gives both lines to DHANAJI. The one-word-per-line stack also looks like a balloon-width bug, and it stands out next to the normally set first balloon. Nothing in the script or the bible permits this layout, and the problem is obvious at print size. I rate it major, not blocker: the text is correct and can be read, and the fix is local (re-letter as a wider balloon in the open rocks or sky and run the tail to Dhanaji, or link it to his first balloon with a connector). The panel art does not need redrawing."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "major",
+   "description": "Ramayyan's long answer sits wholly on top of Nagoji, directly under Nagoji's own 'How many times?' balloon. Its tail is only a hairline sliver on the right edge, and the left side of the balloon is cut flat by the panel border. The answer reads as Nagoji continuing to speak.",
+   "evidence": "In r3/page-03.png the 'Every year since. Sometimes Chanda Sahib himself. ... threat of them.' balloon is about x=150 to 583, y=700 to 1096 (original px). It covers Nagoji's torso and arms. Its left edge runs straight along the panel border at x=150, and the tail is a thin wedge at about x=585 to 595, y=790 to 860, pointing at Ramayyan's arm. The Nagoji balloon above it has a clear tail into his turban.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed. I checked page 3, panel 3.1 in r3/page-03.png with zoomed crops. The script gives \"Every year since... threat of them.\" to Ramayyan, who is on the right turning the stone. In the render, that balloon runs from about x=150 to 590 and y=700 to 1100. It covers Nagoji's chest, arms and lap, and it sits directly under Nagoji's \"How many times?\" balloon, whose tail clearly points down into Nagoji's turban. The left side of the answer balloon is cut flat along the panel border at x of about 150 for most of its height. At 4x zoom, its tail is a broken thin wedge at about x=585 to 600, y=780 to 860. It is roughly 10 px wide, under 1 mm at print size, and drawn as two hairlines, so it does not read as a pointer. The only thing linking the balloon to Ramayyan is that the text answers the question. Its placement on Nagoji's body and in a stack under his balloon points to Nagoji, so a reader is likely to take it as Nagoji still speaking. This is a localized lettering fix (move the balloon toward Ramayyan or into the open space at upper right, and draw a proper tail to his mouth), not a redraw of the art. Major, not blocker."
+   }
+  },
+  {
+   "page": 4,
+   "panel": "4.3",
+   "severity": "major",
+   "description": "The off-panel tails for Ramayyan's two balloons are very long spikes. They run from the bottom of the panel to its top-right corner and cut across the walled town and road, which are the subject of the panel. Four balloons plus the caption cover about half the art, and the two bottom balloons sit hard against the left, bottom and right borders. Off-panel tails should be short stubs at the panel edge, and the script asks for open sky to hold the balloons.",
+   "evidence": "The tails of 'He gave it up, then took it back...' and 'Each time, men died...' start at about (388,1963) and (805,1963) and converge at the top-right corner, about (904,1526) (original px). The bottom balloons span about y=1960 to 2195, flush with the panel bottom at about y=2200. 'He gave it up' touches the left border at about x=150.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 4, panel 4.3. In a crop of the panel (original px x 140 to 920, y 1440 to 2210), the two Ramayyan balloons (\"He gave it up, then took it back...\" and \"Each time, men died...\") have long white wedge tails. They start at the tops of the balloons, at about y=1963, and meet at the panel's top-right corner, about (904,1526). On the way they cut diagonally across the walled town, its gate, the road running through it and the plains beyond. Those are the subject of the panel, so the town ends up sliced into strips. Both balloons sit low in the foreground instead of in the sky. Their bottoms reach about y=2195, so they nearly touch the bottom border at about 2200, and the left balloon is flush with the left border at about x=150. Nagoji's tail to the top-left corner is also long, but it crosses mostly sky and mountains, so it does less harm. Counting the caption and the Nagoji balloon, the lettering covers roughly half the art. The script for 4.3 says to \"Leave open sky for the balloons, whose tails run off the panel edge\". That asks for balloons in the sky with short tails off the edge, not long tails across the town. The text is readable and the story beat is there, so this is not a blocker. It is a clear, contained layout fault that takes away from the panel's main image, so it is major. Fix: move the Ramayyan balloons up into the sky, or stack them on the right, and give them short off-panel stub tails."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.4",
+   "severity": "major",
+   "description": "'You will see them closer.' is lettered one word per line in a thin column balloon that runs down to the bottom border, right over the timber gate and palisade the panel is meant to show. The 'The Maharaja understood...' balloon is flush with the top border and looks clipped. The script says to leave generous sky for the balloons, but they cover the earthworks.",
+   "evidence": "In r3/page-03.png the 'You / will / see / them / closer.' balloon is about x=689 to 870, y=2247 to 2527 (original px), against a panel bottom at about y=2537, and it sits on the gate at about x=650 to 800, y=2200. The top balloon's upper edge coincides with the panel top border at about y=1882.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "The lettering flaw is real, but it is not major, and the claim that the balloons hide the earthworks is mostly wrong. Measured on r3/page-03.png at original pixels: the 'You / will / see / them / closer.' balloon is a narrow tower about 184 px wide (x 688 to 872) inside a panel about 770 px wide, one word per line. Its bottom stroke ends at about y 2532 to 2534, right against the panel border at about 2536 to 2540, so the two lines touch. The 'The Maharaja understood...' balloon's top arc also touches the panel's top border. Both look amateurish at print size and are worth fixing: re-break the line to two lines, e.g. 'You will see / them closer.', and pull both balloons off the borders. However, the gate leaves sit at about x 620 to 710. The balloon only reaches the gate's right post (overlap of roughly 15 to 20 px), and the doors stay fully readable. The ditch, rampart, palisade with loopholes, sharpened stakes, sentries and torches on the left two thirds of the panel are all clear, so the beat survives. The 'Maharaja' balloon sits in the sky as the script asks; no text is clipped, and touching a border is a common lettering choice. Speaker tails point off-panel toward Ramayyan's panel, which suits 'RAMAYYAN (off)'. The balloons read in the correct order. This is polish, not a localized error that hides the action, so the right severity is minor."
+   }
+  },
+  {
+   "page": 2,
+   "panel": "page grid (2.1 to 2.5)",
+   "severity": "major",
+   "description": "The five stacked rows have five different widths and are centred, so the page reads as a ragged staircase, not a comic grid. 2.2 floats in the middle at less than half the live width. The Chapter 1 standard keeps rows to the shared live area, with at most one slight inset.",
+   "evidence": "Measured row extents (original px): 2.1 x=327 to 1509; 2.2 x=584 to 1253 (about 43% of the 148 to 1688 live area, with about 436 px blank each side); 2.3 x=187 to 1650; 2.4 x=225 to 1612; 2.5 x=148 to 1688. On Chapter 1 r6 page-01 and page-02, every row is 148 to 1688 except one inset of 28 px.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I couldn't refute this; it's confirmed. I re-measured page 2 at 300 DPI and got the same frame edges the reviewer reported: 2.1 runs from x=327 to 1509, 2.2 from 584 to 1253, 2.3 from 187 to 1650, 2.4 from 225 to 1612, and only 2.5 fills the 148 to 1688 live area. That gives five rows of five different widths, each centred, and the stepped outline shows plainly even when the page is scaled down. Panel 2.2 is about 43% of the live width, with roughly 436 px of blank paper on each side. Neither the script nor the bible asks for this. Script 2.2 says only \"Tight\" and gives no instruction about width or insets. The layout tool (pipeline/layout_fit.py) itself counts art with empty space at the sides as under-filled, so the narrow rows are what the tool settled for, not a design choice. This project has treated ragged edges as a defect before. The Chapter 1 r7 five-lens review rated a similar narrowing on page 5 as major, where 5.3 was cut to about three quarters of the width. The later Chapter 1 renders (ch01-v2 r14) have every row at 148 to 1688. The reviewer is partly wrong on one point: the older ch01/renders/r6 page-06 has three different insets, the narrowest at 414 to 1422. That only shows the earlier version had the same flaw, and it was later fixed. Here the flaw is more extreme than in the case already rated major. Panel 2.2 sits well under half width, and the page reads as a staircase rather than a grid. The art and lettering are still readable and nothing in the action is hidden. The fix is to re-fit the layout or the crops, so no panel needs to be redrawn. That makes it major, not a blocker."
+   }
+  },
+  {
+   "page": 9,
+   "panel": "9.5",
+   "severity": "major",
+   "description": "The closing beat is missing. The script has Nagoji turned from the sea and walking back toward the camp fires, and the adaptation notes say this image alone carries the novel's cut last lines ('I turned back toward the camp. There was still work to do.'). In the art he stands still with his back to us and his head turned toward the beach and sea, as if still looking out. The fires are behind him to the left.",
+   "evidence": "page-09.png bottom strip: Nagoji at about x 560-760 (original pixels), seen from behind with his face in profile toward the right, where the beach and surf are. Feet planted, no stride. The tents and fires are at the left edge behind his shoulder.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 9, panel 9.5 (bottom strip, original pixels about 150-1690 x 2250-2540; I cropped and zoomed it). Nagoji is seen from behind, with his torso squared away from the camera. His head is turned in profile to the right, toward the beach and the surf. The tents, bonfires and soldiers are behind him on the left, and he is not oriented toward them. There is no sign of motion. His legs are cut off at the thigh by the panel edge, so no stride shows, and his arms hang at rest with the sword at his hip. The reviewer said his feet are planted, but the feet are not visible at all. That does not change the finding.\n\nScript 9.5 says: \"Nagoji has turned from the sea and is walking back toward the fires of the camp.\" Adaptation note line 300 says the novel's cut last lines (\"I turned back toward the camp. There was still work to do.\") \"are carried by the figure walking back to the fires in 9.5\". Nothing in the r2 review changes or CONTINUITY overrides that staging. The r2 change to 9.5 only cut the lettered line, which makes the image the only carrier of that beat.\n\nAs drawn, the panel is a man still looking out to sea. That repeats the 9.2 composition (Nagoji from behind, gazing at the dark water) instead of giving the turn back toward duty. At print size it plainly reads as looking out, not returning, so the problem is not too slight to matter.\n\nI rate it major rather than blocker. The panel, the caption and the sand-line ending are all present, the caption still reads coherently over the image, and the failure is confined to the figure's pose and direction. It needs a redraw: Nagoji's back to the sea, mid-stride toward the fires, with the empty beach behind him."
+   }
+  },
+  {
+   "page": 5,
+   "panel": "5.4",
+   "severity": "major",
+   "description": "The silent beat is turned around. The script asks for Ramayyan's knuckles to whiten while his face 'has not changed at all'. The art gives him a deep, visible scowl. The prop is also wrong: instead of the single sealed ola he is opening (5.2, 5.3), he grips a thick palm-leaf bundle still tied with cord. And he sits at a table, though he stands by a lamp in 5.3 and 5.5.",
+   "evidence": "page-05.png bottom-left panel: furrowed brow and down-turned mouth at top of frame. A thick bundle with a cord tie and no wax seal. He sits at a wooden table with the coin tray and stylus.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I confirmed all three points by zooming into page-05.png, panel 5.4 (bottom-left), but they matter less than the reviewer says, so I rate this minor rather than major. (1) Face: the brows are knitted and the mouth turns down a little. That is a restrained, grim look, close to the 'determined' expression on the approved sheet (03-ramayyan-dalawa-v15.png), not a deep scowl. It also matches his face in 5.5, so his face does not change from panel to panel. The script wanted a blank face with only the hands giving him away, and that contrast is weaker here, but the main beat still lands: the knuckles are clearly clenched and white on the leaf. (2) Prop: he holds a thick palm-leaf bundle tied with cord and no wax seal. It is the ledger prop from his character sheet. This conflicts with 5.3, where he is breaking the seal, and 5.5, where he holds a single opened leaf. However, the 5.2 art already draws the message as a stacked bundle, so a reader will take it for the same message. (3) Staging: his forearms rest on a table at chest height, with the coin tray and stylus in front of him, so he reads as seated, while 5.3 and 5.5 show him standing. This is a real continuity slip, but it sits inside a tight close-up. Identity is correct: thin, sharp features, curly black hair at the sides, plain white cloth, and the receding crown is simply cut off by the top of the frame. Fix on a redraw: an untied single leaf, a standing pose with no desk, and a neutral face."
+   }
+  },
+  {
+   "page": 4,
+   "panel": "4.2",
+   "severity": "major",
+   "description": "Dhanaji's second line ('We did not fight them in the open. We let the land fight for us.') is set one word per line in a tall column that sits on Nagoji's torso. Its tail points at the horse's head, not clearly at Dhanaji, so readers will likely give Nagoji the line that answers Dhanaji's own complaint.",
+   "evidence": "page-04.png top-right panel: narrow balloon at about x 1450-1610, y 745-1390 (original pixels) covering Nagoji's chest and legs. The tail points left to the horse's eye near (1340,815). Dhanaji sits at the far left, wiping his eyes.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I'm confirming the lettering problem but lowering it to minor, because the misattribution claim doesn't hold up. On page 4, panel 4.2, the second Dhanaji balloon is set one or two words per line (\"We / did / not / fight / them / in the / open. ...\"). That makes a tall, thin column at about x 1440-1610, y 740-1390 in the original pixels, and it covers Nagoji's chest, waist and legs. It looks awkward and is worth re-lettering as a wider balloon nearer Dhanaji. It does not hide either of the bridle hands the script asks for. The tail does not point at Nagoji. It leaves the balloon going left and slightly up, away from him, and its tip at about (1335,817) sits on the horse's ear. That is roughly 75px below Dhanaji's fingertips; his arm is stretched out over the horse's mane. Carried on, the tail's line runs up Dhanaji's arm toward his face at about (1030,735). Nagoji's mouth is closed, and his head sits above the balloon with no tail going to it. The caption \"Dhanaji admitted it.\" and Dhanaji's first balloon, whose tail correctly reaches his bearded face, set him up as the speaker, and the line simply continues his own thought. Taken together, these cues don't make it likely that readers give the line to Nagoji. What remains is a polish issue: the column is ugly, the balloon sits on the wrong character's body, and the tail ends short of Dhanaji. It is not a wrong speaker tail."
+   }
+  },
+  {
+   "page": 4,
+   "panel": "4.1",
+   "severity": "major",
+   "description": "The script's 'Wide action' opening is a small half-width panel with an empty block of page above it, so the skirmish loses its scale. Dhanaji, who should be at Nagoji's shoulder with talwar drawn, is mostly hidden behind the caption box: only his white turban and one shoulder show.",
+   "evidence": "page-04.png: blank cream area at about x 150-915, y 360-615 (original pixels) above panel 4.1. In 4.1, Dhanaji's head at about (465,830). The 'We spoke of it afterward...' caption covers his body and the middle of the action.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "The problem is real but smaller than reported, so I'm confirming it as minor, not major. On page-04.png, panel 4.1 is a landscape half-width panel at about x 150-917, y 618-1186 in original pixels. The layout centres it in a column cell as tall as the right-hand 4.2, so there are blank cream blocks of about 767x260 px both above it (y 360-618) and below it (y 1186-1446). That is roughly 2.5 x 0.9 inches each at print size. The \"We spoke of it afterward...\" caption sits over Dhanaji, who stands beside Nagoji's horse. It covers everything below his shoulders, so his drawn talwar, which the script asks for, never shows. Three reasons this is not major. First, Dhanaji is still recognisable: his face, short beard, white pagdi and indigo tunic at the shoulder are all clear, and he matches the cast override (dhanaji, nagoji, kayal). Second, the beat reads completely: Nagoji is mounted with his talwar out, the Nair musketmen kneel with bare heads, topknots and white mundu, and Chanda Sahib's riders in quilted coats and dark turbans wheel away across the dusty scrub. The caption covers only the left-middle of the panel, not the action, which is mostly on the right. Third, \"Wide action\" in this script means a wide shot, which the panel gives. When the script wants panel width it says so, as with \"Full width\" for 4.5, so a half-width panel does not break the script. What is left is polish: move the caption off Dhanaji so his talwar shows, and enlarge or reflow 4.1 to fill the empty cream space."
+   }
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "severity": "major",
+   "description": "Reading order is reversed. Varma's question 'And while they extract?' sits at the far right while Nagoji's answer sits at the top-left edge, where the eye enters the panel. Many readers will read the answer before the question. The ola business also fails: Ramayyan already holds a bundle of his own and is tying it, while Varma holds out a second bundle, so the hand-back and tuck into his cloth never happen.",
+   "evidence": "page-08.png top panel: Varma balloon at about x 1140-1490, y 735-860. Nagoji balloon at about x 150-680, y 860-985. Two separate tied bundles, one in Ramayyan's hands and one in Varma's outstretched hand, around (900-1100, 1000-1060).",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "Downgrade from major to minor. Most of the claim does not hold up, and what is left is staging polish. Reading order: the reviewer's coordinates are right, but the art doesn't support the conclusion. Varma's balloon (original px about y 737-860) sits wholly above Nagoji's (about y 862-985), with no vertical overlap. Varma speaks first but stands on the right, and putting his balloon higher is the standard way letterers handle that. A reader scanning the top band of the panel reaches 'And while they extract?' first. Even a reader who starts on the left meets an answer that echoes the question's words and self-corrects. Ramayyan's balloon comes last and sits lowest, so the order holds. The ola part is partly true. A crop at (700-1300, 850-1250) shows two separate tied bundles. Ramayyan is binding a squarer bundle of his own with a stylus and looks down at it. Varma holds out a second, longer bundle toward him. The tuck into the white cloth from script 8.1 never happens, and Ramayyan's hands are busy, so he isn't really receiving. Still, the hand-back reads plainly: the king's outstretched arm offers a bundle to the minister. More ola bundles are stacked on the table, so a second bundle in Ramayyan's hands is plausible, not confusing. No beat or dialogue is lost. At print size this is a small staging mismatch, worth fixing on a redraw (one bundle, Ramayyan reaching for it or tucking it away), not a major error."
+   }
+  }
+ ],
+ "refuted": [
+  {
+   "page": 4,
+   "panel": "4.2",
+   "lens": "identity",
+   "description": "Dhanaji's second line, 'We did not fight them in the open. We let the land fight for us.', is in a narrow vertical balloon laid over Nagoji's body. Its short tail ends at the horse's head between the two men, so readers will likely give Dhanaji's line to Nagoji. The script gives both lines to Dhanaji, after the caption 'Dhanaji admitted it.'",
+   "reason": "I cropped panel 4.2 on page 4 at full resolution (page px about 920-1700 x 355-1445). The right-hand balloon does sit over Nagoji's torso and legs, but its tail points left, away from Nagoji and toward Dhanaji. The tip lands at the horse's ear at about page (1335, 817), roughly 80 px below Dhanaji's outstretched gesturing hand at about (1350, 735). Nagoji's head is above the balloon at about (1540, 555) and his mouth is closed, so a tail aimed at him would have to point up and right, and this one points the opposite way. The balloon also comes second in reading order, right after Dhanaji's first balloon, whose tail reaches up to his face, and under the caption 'Dhanaji admitted it.' Readers will follow the tail direction, the gesture and that sequence, so they will read this as Dhanaji continuing, which matches the script. At print size this is not a likely misattribution. All that is left is optional polish, such as running the tail a little further to Dhanaji's hand or using a wider balloon instead of the one-word-per-line column, and neither is a major problem."
+  },
+  {
+   "page": 6,
+   "panel": "6.1, 6.3, 6.4",
+   "lens": "continuity",
+   "description": "The ola keeps changing form across the page. In 6.1 Ramayyan hands Varma a thick cord-bound bundle, in 6.3 Varma reads a single long leaf, and in 6.4 he holds a thick stack of leaves again.",
+   "reason": "The reviewer describes the art correctly, but it is not a continuity error. Zoomed crops of page 6 show a cord-bound stack of palm leaves in 6.1, one long leaf in Varma's hands in 6.3, and an untied stack of matching width in his lap in 6.4. That is how a multi-leaf palm-leaf ola is handled: it is tied for carrying, untied and read one leaf at a time, and the loose stack is held after. Page 5 already shows this pattern. In 5.2 and 5.4 the ola is a bound bundle; in 5.5 Ramayyan reads a single leaf from it. So the reader has already seen how this object behaves before page 6. The script does not fix the form: it says 'hand him the leaf' (6.1) and 'reading the leaf' (6.3), and in 5.2 it calls the ola 'bound with cord', which fits a bundle. In 6.3 the rest of the stack could be resting in his lap below the panel's bottom edge. The leaf length and the stack width match across the three panels, so it reads as one object being opened and read. At print size this is natural handling, not a changing prop."
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "lens": "continuity",
+   "description": "Two documents appear in the hand-back beat. Ramayyan already holds a cord-bound palm-leaf bundle and a stylus at his chest while Varma reaches out with a second bound bundle. The script beat is that Ramayyan takes the one ola back and tucks it away, but the panel reads as two separate objects.",
+   "reason": "I'm refuting this. The art does show two bound palm-leaf bundles in page 8, panel 8.1: in my zoomed crop, Ramayyan holds a stylus and a bound bundle against his cloth, and Varma holds out a second bundle a short gap away. That does not make it a defect, for two reasons. First, the continuity bible's base line for Ramayyan (CONTINUITY.md line 91) lists 'palm-leaf bundles and stylus' as his standing props, and script 2.1 also gives him a bundle and stylus, so his own bundle in hand is allowed. Second, the beat the script needs, Varma on the dais handing the ola back to Ramayyan, reads clearly. The king's arm extends the bound ola straight to the minister's hands, and it matches the ola Varma held in 7.2. The panel catches the moment just before Ramayyan takes it, so the 'tucks it into the fold' step is shown as about to happen rather than done. Nothing in the story depends on how many olas there are, and the reader is not misled about who passes what to whom. The two bundles also nearly meet at the centre of the panel, so at print size they read as one passing gesture. At most this is a small polish point: Ramayyan could hold only the stylus, so his tucking motion isn't confused with the incoming ola. It is not a major error."
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "lens": "lettering",
+   "description": "The balloons can be read in the wrong order. Varma's question is at the far right of the panel, and Nagoji's answer is at the far left only slightly lower. A reader entering the panel top left reads the answer, 'While they extract, he cannot ride south.', before the question, 'And while they extract?'.",
+   "reason": "I refute this. I cropped r3/page-08.png at full resolution (1838x2775). The reviewer's coordinates are right, but they do not show a reading-order fault. Varma's balloon runs from y=735 to 860. Nagoji's balloon starts at y=860, exactly where Varma's ends, so the two never share any height. Varma's balloon is entirely above Nagoji's, a full balloon height higher (about 10 mm at print size, where the page is 6.1 in wide). Reading top to bottom and left to right, the top strip of the panel holds no balloon except Varma's. At top left there is only Nagoji's face and the tip of his tail. The path through the panel therefore runs Varma (top right), then Nagoji (back left, one step down), then Ramayyan (lower centre). That is the order the script gives (8.1: Varma, Nagoji, Ramayyan). The text also guards the order. Nagoji's line repeats Varma's words, \"While they extract, he cannot ride south.\", so it plainly answers \"And while they extract?\". A reader who looked left first would sort the pair out at once. Pulling Nagoji's balloon a little lower, or Varma's a little higher, would make the stagger stronger, but that is optional polish. Nothing here is wrong enough to call major."
+  },
+  {
+   "page": 8,
+   "panel": "8.2",
+   "lens": "fidelity",
+   "description": "Varma faces the camera with his back to the open side of the hall and the sea, so the script's turn ('He has already turned toward the open side of the hall and the sea beyond it') is reversed. The chapter's pivot toward the Dutch is lost. The second balloon's tail also lands on the ships in the sea, about 200 px right of Varma, instead of on him.",
+   "reason": "I'm refuting this as a major problem. A zoomed crop of page-08.png, panel 8.2 (roughly x 650-1250, y 1930-2350 at full resolution), shows the following.\n\n(1) Varma's chest is toward the camera, but his head is clearly turned in three-quarter view toward the right of the frame. His eyes look straight at the Dutch ships. Those ships sit centred in the open bay of the hall, between the pillars, in the right half of the panel. He is standing with the spear while the chieftains rise around him and twist toward him. On the 2D page his gaze carries the reader's eye to the ships, so the pivot to the Dutch still reads. This is the usual comics habit of turning a figure toward the camera, not a reversed beat. The script's 'already turned toward the open side' is staging direction. The bible and the cast overrides (page-08-panel-02: varma only) set no body orientation. Nothing that the script calls the beat is missing: Varma rising, the spear, the chieftains getting up, the sea and the ships in view.\n\n(2) The tail of the second balloon does not point at the ships. It runs up and to the left, and its line extends straight to Varma's head and shoulder. The tip stops in open sky at about (1020,2172), just above the leftmost mast. That is about 100 px (about 0.35 in at print size) right of Varma's left arm (screen right). He is the only speaker in the panel, both balloons are his, and no other figure lies along that line. So the speaker cannot be misread.\n\nWhat's left is minor polish: lengthening that tail by about 100 px so it ends next to Varma would tidy it. If someone wants the script followed literally, Varma's back or profile toward the sea would be a nice-to-have, but it doesn't need a redraw before publication."
+  }
+ ],
+ "minors": [
+  {
+   "page": 8,
+   "panel": "8.1",
+   "severity": "minor",
+   "description": "Varma has drifted from the varma-v1 sheet. His hair is loose and swept back with no knot, and his face is heavier and scowling. A dark tuft-like shadow directly under the lower lip reads as a small soul patch, while the sheet shows a clean chin. Nagoji at the left edge has the same dark under-lip smudge, which goes against his clean-shaven chin rule.",
+   "evidence": "Varma's profile at the right edge (about x1500-1690, y650-1100): at 3x zoom there is a distinct dark patch below the lower lip. Nagoji at the left edge (about x150-280, y610-710) shows a similar dark mark under the lip.",
+   "lens": "identity"
+  },
+  {
+   "page": 7,
+   "panel": "7.1, 7.3",
+   "severity": "minor",
+   "description": "Nagoji's chin is not clean-shaven in the close-ups. In 7.1, stubble texture covers the chin and jaw. In 7.3, a dark tuft-like shadow sits right under the lower lip, plus a dark mole on the chin. The bible allows light stubble only in captivity, and the commander-period chin should be clean.",
+   "evidence": "7.1 big head (about x700-890, y560-690 in the 1838px page): stippled stubble across the chin and jawline at 4x. 7.3 head (about x960-1050, y1950-2040): dark smudge below the lower lip and a dark dot on the chin at 8x.",
+   "lens": "identity"
+  },
+  {
+   "page": 9,
+   "panel": "9.4",
+   "severity": "minor",
+   "description": "The full close-up of Nagoji shows clear stubble over the chin and jaw. The bible says clean-shaven chin, with light stubble only in captivity. This is the most prominent face in the chapter, so the stubble shows here more than anywhere else.",
+   "evidence": "9.4 face (about x670-890, y2020-2170): at 4x zoom there is cross-hatched stubble covering the chin and lower jaw below the moustache.",
+   "lens": "identity"
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "severity": "minor",
+   "description": "Nagoji wears hanging gold drop earrings in BOTH ears instead of the single small flush gold stud required by the bible and by the author's 2026-10-02 decision (stud, not the sheet's drop).",
+   "evidence": "Small Nagoji by the far pillar (about x1100-1220, y2280-2540): at 8x zoom, gold drops hang below both earlobes.",
+   "lens": "identity"
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "minor",
+   "description": "Nagoji's earring is a round gold bead hanging below the lobe, not the small flush stud.",
+   "evidence": "Nagoji standing centre-top of 9.1 (about x750-890, y375-530): at 4x zoom a gold ball hangs below the earlobe. Compare the correct flush stud in 2.5, 7.1 and 9.4.",
+   "lens": "identity"
+  },
+  {
+   "page": 4,
+   "panel": "4.2",
+   "severity": "minor",
+   "description": "Nagoji's earring is drawn as a small open hoop, not the flush gold stud.",
+   "evidence": "Nagoji's head, upper right of 4.2 (about x1400-1600, y435-585): at 3x zoom a thin gold ring hangs from the lobe.",
+   "lens": "identity"
+  },
+  {
+   "page": 6,
+   "panel": "6.3",
+   "severity": "minor",
+   "description": "Varma's forehead mark changes from panel to panel within one continuous scene. He has a red-and-white Vaishnavite namam in 6.3 and 7.2, a small red dot in 8.2, and a bare forehead in 5.5, 6.1, 6.4 and 8.1. It should be the same throughout the war hall.",
+   "evidence": "6.3 Varma face (about x920-1140, y1100-1250): a vertical white U with a red centre line. 7.2 shows the same namam. 8.2 standing Varma shows only a red dot. 5.5, 6.1 and 6.4 show none.",
+   "lens": "identity"
+  },
+  {
+   "page": 9,
+   "panel": "9.3",
+   "severity": "minor",
+   "description": "In this vision panel, where Nagoji must not appear, the right-foreground Maratha officer is seen from behind in an orange-rust turban, with long dark hair and a white tunic, next to a standing officer with an orange-brown waist sash. Together they suggest Nagoji's rust-red turban and red sash, so readers may think Nagoji is at the captive's tent. The bible wants background Maratha riders in white or cream pagdis, never confusable with Nagoji's red.",
+   "evidence": "Lower right of 9.3 (about x1290-1530, y1430-1830): an orange turban with a long braid hanging down a white tunic. The standing officer above has an orange-brown sash at the waist.",
+   "lens": "identity"
+  },
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "minor",
+   "description": "The tail of Nagoji's 'How many times?' balloon runs down into his face, with its tip on the bridge of his nose between the eyes. The balloon also covers the crown of his turban, so his face is partly hidden in the two-shot.",
+   "evidence": "Upper left of 3.1 (about x150-420, y440-700): at 2x zoom the tail tip ends between Nagoji's eyes.",
+   "lens": "identity"
+  },
+  {
+   "page": 6,
+   "panel": "6.1, 6.3, 6.4, 6.5",
+   "severity": "minor",
+   "description": "Varma's hair, forehead mark and seat drift from panel to panel. In 6.1 his knot sits high on the crown. In 6.5 his hair is a shoulder-length mass of loose curls with a crown bun, which reads close to Nagoji's loose curly hair. Only 6.3 carries the Vaishnavite U-mark on his brow. In 6.4 he sits cross-legged on a bare platform instead of the red-cushioned seat he uses in 6.3.",
+   "evidence": "The 6.1 crop shows a bun on top of the head. In the 6.5 over-the-shoulder view, long curls fall to his shoulder blades with a bun on top. In 6.3 a red-and-white U tilak is on his brow; 6.1 and 6.5 have none. In 6.4 he sits cross-legged on a wooden platform, while 6.3 shows a red cushion behind him.",
+   "lens": "continuity"
+  },
+  {
+   "page": 8,
+   "panel": "8.1, 8.2",
+   "severity": "minor",
+   "description": "Varma's hair and brow mark do not match 7.2. In 7.2 the knot sits behind his left ear and he wears the U tilak. In 8.1 his hair hangs loose at the nape with no knot visible. In 8.2 the knot sits behind his RIGHT ear and his brow carries a single red dot instead of the U-mark.",
+   "evidence": "In the 8.2 crop Varma faces three-quarter right with his right ear and earring visible and the bun above and behind that ear, and a round red dot on his forehead. The 8.1 crop shows loose curls at the nape and no mark.",
+   "lens": "continuity"
+  },
+  {
+   "page": 5,
+   "panel": "5.1 (also 3.4, 4.5, 5.3, 5.4, 6.4, 9.1, 9.5)",
+   "severity": "minor",
+   "description": "Every flag over Travancore's own lines, fort and camp is plain white or cream cloth. The bible defines the Travancore standard as a silver conch on red. A plain white flag over a fort at war also reads as a truce flag.",
+   "evidence": "5.1 has a large plain white flag on a pole at the right edge of the camp. 4.5 has a white flag on the fort tower. 3.4 has pale flags at both ends of the Aramboli palisade. 5.3 and 5.4 show white flags on the fort beyond the hall, 6.4 a white flag at the right, 9.1 a white flag at top right, and 9.5 two small white flags over the camp. CONTINUITY.md line 175 reads: 'the Travancore standard is a silver conch on red'.",
+   "lens": "continuity"
+  },
+  {
+   "page": 5,
+   "panel": "5.1",
+   "severity": "minor",
+   "description": "The dawn arrival is drawn with the sun sitting on the sea horizon. Travancore's coast faces west and south-west, so the sun cannot rise out of the sea there. The panel reads as sunset, which contradicts the next caption, 'He had ridden through the night'.",
+   "evidence": "At upper left of 5.1 an orange sun disc sits on the sea horizon behind the boats, with the sky glowing orange around it. The script for 5.1 specifies 'Dawn at the coastal camp'.",
+   "lens": "continuity"
+  },
+  {
+   "page": 7,
+   "panel": "7.2",
+   "severity": "minor",
+   "description": "Two set inconsistencies in the war hall. Varma's gold-fitted spear stands at his LEFT side, but in 5.3 it leans at his right as the bible requires. A large deep-blue banner hangs at the right of the frame, where 7.1 shows a red hanging; in a scene about the Dutch, VOC blue reads as a Dutch flag.",
+   "evidence": "In the 7.2 crop the spear with gold fittings rises at the viewer's right of Varma, which is his left side. In 5.3 the spear stands at the viewer's left of his seat. A dark-blue cloth banner fills the upper right corner of 7.2. CONTINUITY.md line 84 reads: 'Spear at his right hand by the low dais'.",
+   "lens": "continuity"
+  },
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "minor",
+   "description": "The stone changes size between panels. In 2.2 Ramayyan turns a small dark pebble; in 3.1 he holds a pale grey rock the size of an egg with the stylus resting on it, as if writing on it. In 3.2 the thrown stone is small again.",
+   "evidence": "The 2.2 crop shows a dark stone hidden between two fingertips. The 3.1 crop shows a smooth grey rock filling his palm, with the stylus point laid on top of it.",
+   "lens": "continuity"
+  },
+  {
+   "page": 3,
+   "panel": "3.2",
+   "severity": "minor",
+   "description": "Nagoji's boots are set directly under him on the step, in line with his right leg, so in this near-silhouette they read as a boot worn on his right foot while his left foot is bare. In 2.1 they stood apart on a lower step.",
+   "evidence": "In the 3.2 crop his left foot is bare on the step, and the pair of brown boots stands just below his right knee where his right foot would be. The CONTINUITY row for chapter 12, pages 2 and 3, reads: 'barefoot ... boots together below the shrine steps'.",
+   "lens": "continuity"
+  },
+  {
+   "page": 1,
+   "panel": "1.4",
+   "severity": "minor",
+   "description": "Chanda Sahib's dress does not carry over from 1.3. In 1.3 he wears a gold-shot cream turban with a dark plume aigrette and a white jama with gold trim, and he is backlit. In 1.4 he wears a plain cream wrapped turban with no aigrette and a beige textured coat, and he is fully lit rather than the dark foreground silhouette the script asks for. In 1.3 he is also of moderate build, not the 'heavy' man in the bible.",
+   "evidence": "The 1.3 crop shows a turban with a gold band and a dark plume, and a white coat with gold edging. The 1.4 crop shows a plain cream turban with no jewel or plume and a beige shoulder, evenly lit.",
+   "lens": "continuity"
+  },
+  {
+   "page": 4,
+   "panel": "4.1 (recurs 5.3, 5.5, 6.2, 7.3, 8.2, 9.1)",
+   "severity": "minor",
+   "description": "Throughout the chapter the Nair musketmen, chiefs and soldiers wear their hair in a bun at the crown or back of the head, not the front topknot (kudumi) the script asks for. In 5.5 some chiefs at the left have loose hair and full beards.",
+   "evidence": "In 4.1 the kneeling musketmen in the foreground have round buns at the back of the head. In 5.3 the foreground chief's bun sits on the crown, and the 5.5 background chiefs at left wear loose hair and beards. Script 4.1, 5.3 and 6.2 read: 'bare-headed with a front topknot'.",
+   "lens": "continuity"
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "minor",
+   "description": "A background figure in the camp reads as a man in a modern jacket. He wears a dark coat with lapels open over a white collared shirt, which breaks the 1740s look. The script calls for only Nair soldiers and a few Deccan riders in white pagdis at the fires.",
+   "evidence": "Far left of panel 9.1, behind the spears and in front of the tent canvas (about x 150-230, y 540-620 in the render): a bearded man in a dark lapelled coat with an open white shirt collar. Zoomed, he reads like a blazer-wearing modern figure, not any of the camp's period types.",
+   "lens": "rules"
+  },
+  {
+   "page": 7,
+   "panel": "7.2",
+   "severity": "minor",
+   "description": "A large plain banner in deep VOC blue hangs from a brass standard inside Varma's own war hall. It carries no lettering, so it does not break the no-text rule. But the bible makes blue the Dutch colour and the Travancore standard a silver conch on red, so in this chapter (\"The Dutch are the enemy in front of us\") the banner can read as Dutch colours in the king's hall.",
+   "evidence": "Right edge of panel 7.2 (about x 1530-1690, y 1140-1560 in the render): a tall, solid dark-blue banner hanging from a crossbar on a brass pole beside a Nair guard. Elsewhere in the hall (6.2, 6.5, 7.1) the banners are cream or red.",
+   "lens": "rules"
+  },
+  {
+   "page": 4,
+   "panel": "4.1",
+   "severity": "minor",
+   "description": "This is outside the standing-rules lens but plainly visible: the page 4 grid leaves a large empty cream block above panel 4.1, and the left column does not line up with 4.2, so the page reads as unfinished.",
+   "evidence": "Page 4: panel 4.1 starts about a third of the way down the page (top edge at about y 615 in the render). The area from the title down to that point in the left column (about x 150-915, y 360-615) is bare paper beside the full-height panel 4.2.",
+   "lens": "rules"
+  },
+  {
+   "page": 4,
+   "panel": "4.1",
+   "severity": "minor",
+   "description": "The narrative caption sits on Dhanaji and the Nair line. Only his turban and face show above it, and his drawn talwar and body are hidden. There is open sky and scrub at upper right that could carry the caption.",
+   "evidence": "The caption 'We spoke of it afterward...' is about x=275 to 557, y=878 to 1092 (original px). Dhanaji's white pagdi and face peek out just above it at about x=450, y=905.",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.2 to 9.4 (page grid)",
+   "severity": "minor",
+   "description": "The three middle rows are each inset by a different amount between the full-width 9.1 and 9.5, which gives ragged left and right edges and very tight gutters. The page looks unfinished next to Chapter 1.",
+   "evidence": "Row extents (original px): 9.1 x=148 to 1688; 9.2 x=281 to 1556; 9.3 x=307 to 1529; 9.4 x=249 to 1588; 9.5 x=148 to 1688. The gutters between rows are about 5 px.",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.1 / 6.2 / 6.3 (page grid)",
+   "severity": "minor",
+   "description": "In the first row the panel edges do not line up: 6.2 is shorter than 6.1 at both top and bottom. The next row, 6.3, is inset from the live area. Pages 3 (3.4 against 3.5) and 4 (4.3 against 4.4, and the inset 4.5) have the same mismatch.",
+   "evidence": "Page 6: 6.1 runs y=371 to 1077, while 6.2 runs about y=455 to 992 (original px); 6.3 runs x=294 to 1543. Page 3: 3.5's top and bottom are about 45 px inside 3.4's. Page 4: 4.3 runs about y=1449 to 2200 and 4.4 about y=1485 to 2165; 4.5 runs x=286 to 1550.",
+   "lens": "lettering"
+  },
+  {
+   "page": 8,
+   "panel": "page grid",
+   "severity": "minor",
+   "description": "Page 8 breaks the chapter's margins. 8.1 starts lower than the first panel on every other page, and the gutter between 8.1 and 8.2 is about 12 times the chapter's usual gutter.",
+   "evidence": "8.1's top border is at y=404 (original px), against y=358 on pages 1 to 7 and 9. The 8.1 bottom is at y=1867 and the 8.2 top at y=1931, a 64 px gutter, against about 5 px elsewhere.",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.4",
+   "severity": "minor",
+   "description": "Varma's last line is squeezed into a tall, narrow column of one or two words per line, which looks awkward next to the wide balloons in the same panel.",
+   "evidence": "'I / will / worry / about / debts / when the / creditors / can / reach my / door.' is 10 lines in a balloon about x=1365 to 1585, y=1500 to 2020 (original px), at the right edge.",
+   "lens": "lettering"
+  },
+  {
+   "page": 2,
+   "panel": "2.4",
+   "severity": "minor",
+   "description": "The tail of Nagoji's 'And he came?' stops on the pillar well short of Nagoji. The other two balloons are jammed flush against the right and bottom borders.",
+   "evidence": "The 'And he came?' tail tip is at about x=575, y=1820 (original px), on the pillar. Nagoji's face is at about x=740, y=1845. 'He had no choice...' meets the right border at about x=1610, and 'Fifty thousand rupees...' meets the bottom border at about y=2132.",
+   "lens": "lettering"
+  },
+  {
+   "page": 2,
+   "panel": "2.5",
+   "severity": "minor",
+   "description": "The first caption sits on Nagoji's torso even though he is the panel's subject. The second caption is jammed into the bottom-right corner touching both borders, where Chapter 1 captions sit with a margin.",
+   "evidence": "Caption 1 spans about x=725 to 1285, y=2250 to 2415 (original px), directly under Nagoji's face at about y=2190. Caption 2 spans about x=1330 to 1684, y=2328 to 2536, flush with the right border (x=1688) and the bottom border (y=2542).",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.1",
+   "severity": "minor",
+   "description": "The 'Captured...' balloon covers Varma from the shoulders down, so the scripted beat of Varma leaning forward from his seat cannot be seen. Because the balloon sits under Varma, its short tail toward Ramayyan's hands is easy to misread.",
+   "evidence": "The balloon is about x=470 to 865, y=760 to 1050 (original px), over Varma's torso and seat. Its tail tip is at about x=520, y=715, by the pillar near Ramayyan's outstretched hands.",
+   "lens": "lettering"
+  },
+  {
+   "page": 8,
+   "panel": "8.2",
+   "severity": "minor",
+   "description": "The tail of Varma's second balloon points into the empty gap toward the sea, not at Varma.",
+   "evidence": "The tail tip of 'Let the Marathas deal with the shadow...' is at about x=1020, y=2170 (original px), in open sky and sea right of the pillar. Varma's head is at about x=820, y=2030.",
+   "lens": "lettering"
+  },
+  {
+   "page": 4,
+   "panel": "4.4",
+   "severity": "minor",
+   "description": "The second caption covers the middle of the Maratha cavalry column, which is the vision the panel is built around.",
+   "evidence": "The caption 'Raghuji Bhonsle's men were moving south...' is about x=1175 to 1500, y=1680 to 1955 (original px). It covers the riders and pennants between the visible riders at upper left and upper right.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.4",
+   "severity": "minor",
+   "description": "The over-the-shoulder commander wears a plain cream turban with no jewelled aigrette, though he has a plumed aigrette in 1.3. The adaptation notes rely on the missing jewel in 9.3 to mark his fall, and this weakens that payoff. He is also lit rather than the dark silhouette the script asks for.",
+   "evidence": "page-01.png bottom-left panel: plain wound cream turban at about (240,2040) with no ornament. Compare 1.3, where the turban carries a dark plume at about (1490,975).",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.5",
+   "severity": "minor",
+   "description": "The script calls for a narrow full-width strip to close the page on Varma, unbowed. It is a half-width panel beside 1.4, and the caption covers much of his torso.",
+   "evidence": "page-01.png bottom row: 1.4 and 1.5 sit side by side, with 1.5 at about x 920-1690.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 2,
+   "panel": "2.5",
+   "severity": "minor",
+   "description": "The Maratha memory is not set apart from the present: no stain, bleed or tonal shift. Nagoji looks straight at the riders, so they read as riding past the Travancore shrine at sunset. His turban is also cropped by the top panel border.",
+   "evidence": "page-02.png bottom strip: the riders and farmer at left share the sunset lighting and continuous landscape with the shrine at right. Nagoji's gaze is aimed at them, and the top of his turban is cut at the border at about (1150,2145).",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "minor",
+   "description": "Nagoji, the asker, is almost entirely covered by Ramayyan's large balloon, and the 'How many times?' tail lands on his face. The tail of Ramayyan's balloon is a barely visible notch.",
+   "evidence": "page-03.png top-left panel: the 'Every year since...' balloon covers Nagoji from chin to feet. Its tail is a sliver at about (585,830).",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "3.2",
+   "severity": "minor",
+   "description": "The boots appear upright on the step directly under Nagoji's knees, so he seems to be wearing them. That contradicts his bare feet in 3.1 and the script's boots set on the ground below the steps.",
+   "evidence": "page-03.png top-right panel: brown boots at about (1110-1170, 950-1040) aligned under his left leg, with his bare right foot beside them.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "3.4",
+   "severity": "minor",
+   "description": "The script asks for a wide panel with generous sky. It is a half-width panel crowded by three balloons. The final line 'You will see them closer.' is set one word per line in a tall column, and Nagoji's 'I have seen them' sits left of and below Ramayyan's opening line, so the reading order is ambiguous.",
+   "evidence": "page-03.png bottom-left panel: narrow 'You / will / see / them / closer.' balloon at about x 690-870, y 2255-2490. 'I have seen them' at left, y about 2055. 'The Maharaja understood...' at centre-top, y about 1890.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 4,
+   "panel": "4.5",
+   "severity": "minor",
+   "description": "After pinching out the lamp, Nagoji turns his head down toward the yard and appears to watch Ramayyan and Dhanaji. The script has him stay facing the black horizon while they are unaware.",
+   "evidence": "page-04.png bottom strip: Nagoji's profile at about (1140,2270) faces left and down toward the lit doorway where the two men stand, at about (440-520, 2440-2530).",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.1",
+   "severity": "minor",
+   "description": "The 'dawn' sun sits on the sea horizon. On the west-facing Travancore coast that reads as sunset, which confuses the night ride. The courier also comes in from the beach side, not off a northeast road.",
+   "evidence": "page-05.png top panel: sun disc on the sea horizon at about (380,665). The rider approaches with the sea and beached boats directly behind him.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.3",
+   "severity": "minor",
+   "description": "Varma wears loose curly hair with no side knot, against the script ('his hair in a side knot above his left ear'). Two panels later (5.5) in the same scene he has a knot at the crown.",
+   "evidence": "page-05.png middle-right panel: Varma on the dais at about (1170,1530) with loose shoulder-length curls. In 5.5 at about (1600,2160) the hair is gathered in a top-back knot.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.1",
+   "severity": "minor",
+   "description": "Ramayyan hands Varma a thick tied bundle rather than the single sealed ola, and the 'Captured...' balloon covers Varma, so his lean forward does not read. The balloon's tail ends on the pillar between the two men, which leaves the speaker ambiguous.",
+   "evidence": "page-06.png top-left panel: tied bundle in Ramayyan's hands at about (470,710). The balloon covers Varma's torso at about x 470-870, y 760-1050. The tail tip is at about (525,705) on the pillar.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.2",
+   "severity": "minor",
+   "description": "The script has every chief's head turned over his shoulder toward Nagoji at the back. The two largest foreground chiefs look toward the camera instead, which weakens the beat.",
+   "evidence": "page-06.png top-right panel: the bearded chief and the moustached chief at left foreground, at about (1010-1090, 640-760), face the viewer and the right, not the back of the hall.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.4",
+   "severity": "minor",
+   "description": "Varma's closing line 'I will worry about debts...' is a narrow column of one or two words per line. It sits higher than his preceding 'Let them want...', so the order of Varma's two lines is ambiguous.",
+   "evidence": "page-06.png fourth panel: 'I will worry' balloon at about x 1370-1590 with top at y about 1565. 'Let them want' balloon at about x 900-1150 with top at y about 1690.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 9,
+   "panel": "9.3",
+   "severity": "minor",
+   "description": "The script asks for a vision bleeding across the night sky above the sea. The art is a solid, fully framed tent interior with no sky or sea, so it reads as a hard cut to another location rather than Nagoji's imagining.",
+   "evidence": "page-09.png third panel: an opaque tent interior fills the frame edge to edge. Only a small patch of dusk sky shows at the top-left tent door. No sea, no fade or bleed.",
+   "lens": "fidelity"
+  }
+ ]
+}

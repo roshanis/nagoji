@@ -34,9 +34,12 @@ BALLOON_RADIUS_RATIO=.45    # corner radius of a drawn balloon, as a share of it
 BALLOON_MIN_RATIO=.40       # a reserve's "corner" may reduce it to this and still read as a balloon
 BALLOON_MAX_RATIO=.5        # a full pill
 TAIL_HALF_BASE_PT=6.0
-TAIL_REACH=.6               # a tail runs about this share of the way to the speaker's mouth
 TAIL_MIN_PT=8.0
-TAIL_MAX_PT=28.0
+TAIL_HEAD_GAP_PT=3.0        # a tail to a known head stops this far outside the head's circle
+TAIL_GAP_MIN_PT=4.0         # with no head, a tail stops 12 percent of the way short of the mouth, within these bounds
+TAIL_GAP_MAX_PT=12.0
+TAIL_SHORT_REACH=.6         # a reserve marked "tail_short" gets the legacy short tail: about this share of the way to the mouth,
+TAIL_SHORT_MAX_PT=28.0      # within TAIL_MIN_PT and this, and 90 percent at most
 TAIL_INSIDE_PT=3.0          # the tail's base runs this far inside the balloon, under its fill
 EDGE_TOLERANCE_PT=.5        # a tail target this close to the panel edge, or beyond it, is off panel
 
@@ -90,13 +93,13 @@ def canonical_text(text):
 
 
 def _reserve_style(reserve):
-    if 'style' in reserve and reserve['style'] != 'unreadable':
+    if 'style' in reserve and reserve['style'] not in ('unreadable', 'inscribed'):
         raise ValueError(f"Unknown reserve style: {reserve['style']!r}")
     return reserve.get('style')
 
 
 def _reserve_draw(reserve):
-    """Validate the optional "draw" and "tail" fields; return the draw kind or None."""
+    """Validate the optional "draw", "tail", "tail_head" and "tail_short" fields; return the draw kind or None."""
     if 'draw' in reserve and reserve['draw'] not in ('caption', 'speech'):
         raise ValueError(f"Unknown reserve draw: {reserve['draw']!r}")
     if 'tail' in reserve:
@@ -106,6 +109,18 @@ def _reserve_draw(reserve):
         if not (isinstance(tail, (list, tuple)) and len(tail) == 2 and all(
                 isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) for v in tail)):
             raise ValueError('A reserve tail must be [x, y] in source pixels')
+    if 'tail_head' in reserve:
+        head = reserve['tail_head']
+        if 'tail' not in reserve:
+            raise ValueError('A reserve tail_head needs a "tail"')
+        if not (isinstance(head, (list, tuple)) and len(head) == 3 and all(
+                isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) for v in head) and head[2] > 0):
+            raise ValueError('A reserve tail_head must be [x, y, r] in source pixels with r > 0')
+    if 'tail_short' in reserve:
+        if 'tail' not in reserve:
+            raise ValueError('A reserve tail_short needs a "tail"')
+        if not isinstance(reserve['tail_short'], bool):
+            raise ValueError('A reserve tail_short must be true or false')
     if 'corner' in reserve:
         corner = reserve['corner']
         if reserve.get('draw') != 'speech':
@@ -132,8 +147,30 @@ def drawn_text_inset(draw, width_pt, height_pt, corner=None):
     return DRAW_PAD_PT
 
 
-def _tail_plan(rect, radius, target, clip):
-    """A tapered tail from the balloon edge nearest the speaker's mouth, stopping short of it."""
+def _head_entry(base, target, head):
+    """Distance along the ray from `base` toward `target` to where it first enters the head circle, or None."""
+    hx, hy, hr = head
+    dx, dy = target[0] - base[0], target[1] - base[1]
+    length = math.hypot(dx, dy)
+    ux, uy = dx / length, dy / length
+    ox, oy = base[0] - hx, base[1] - hy
+    b, c = ox * ux + oy * uy, ox * ox + oy * oy - hr * hr
+    if c <= 0:
+        return None                 # the tail starts inside the head
+    disc = b * b - c
+    if disc < 0 or b >= 0:
+        return None                 # the ray misses the head, or the head lies behind it
+    return -b - math.sqrt(disc)
+
+
+def _tail_plan(rect, radius, target, clip, head=None, short=False):
+    """A tapered tail from the balloon edge nearest the speaker's mouth, stopping just outside the speaker's head.
+
+    `head` is the speaker's head circle [x, y, r]: the tail's tip stops TAIL_HEAD_GAP_PT outside it. With no head
+    (or none the tail's ray enters) it stops 12 percent of the way short of the mouth, within 4 to 12 pt. With `short`
+    (a reserve's "tail_short") it is the legacy short tail instead and `head` is ignored: TAIL_SHORT_REACH of the way to
+    the mouth, within TAIL_MIN_PT and TAIL_SHORT_MAX_PT, 90 percent at most. A speaker off the panel gets a tail to the border either way.
+    """
     x, y, w, h = rect
     tx, ty = target
     off_panel = False
@@ -161,7 +198,12 @@ def _tail_plan(rect, radius, target, clip):
     base = min(max(along, lo), hi) if lo <= hi else (low + high) / 2
     du = along - base
     distance = math.hypot(du, outward)
-    length = min(min(max(TAIL_REACH * distance, TAIL_MIN_PT), TAIL_MAX_PT), .9 * distance)
+    if short:
+        length = min(min(max(TAIL_SHORT_REACH * distance, TAIL_MIN_PT), TAIL_SHORT_MAX_PT), .9 * distance)
+    else:
+        entry = _head_entry(point(base, 0), (tx, ty), head) if head is not None else None
+        length = distance - min(max(.12 * distance, TAIL_GAP_MIN_PT), TAIL_GAP_MAX_PT) if entry is None else entry - TAIL_HEAD_GAP_PT
+        length = min(max(length, TAIL_MIN_PT), max(.9 * distance, distance - TAIL_GAP_MAX_PT))   # short of the mouth by 10 percent at least, 12 pt at most
     if off_panel:
         length = distance          # a speaker off the panel: the tail runs to the border, so it reads as pointing out
     tip_u, tip_n = base + du * length / distance, outward * length / distance
@@ -180,23 +222,28 @@ def _tail_plan(rect, radius, target, clip):
             'triangle_pt': [list(point(u, n)) for u, n in corners], 'patch_pt': patch}
 
 
-def _drawn_shape(draw, rect_pt, target_pt=None, clip_pt=None, corner=None):
-    """Geometry, in page points, of a drawn caption or balloon and of its text area."""
+def _drawn_shape(draw, rect_pt, target_pt=None, clip_pt=None, corner=None, head_pt=None, short_tail=False):
+    """Geometry, in page points, of a drawn caption or balloon and of its text area (`head_pt`, `short_tail`: see _tail_plan)."""
     x, y, w, h = [float(v) for v in rect_pt]
     inset = drawn_text_inset(draw, w, h, corner)
     radius = _balloon_radius(w, h, corner) if draw == 'speech' else 0.0
     return {'draw': draw, 'rect_pt': [x, y, w, h], 'radius_pt': radius,
             'corner': (BALLOON_RADIUS_RATIO if corner is None else corner) if draw == 'speech' else None,
             'text_rect_pt': [x + inset, y + inset, max(0.0, w - 2 * inset), max(0.0, h - 2 * inset)],
-            'tail': _tail_plan([x, y, w, h], radius, target_pt, clip_pt)
+            'tail': _tail_plan([x, y, w, h], radius, target_pt, clip_pt, head_pt, short_tail)
             if draw == 'speech' and target_pt is not None else None}
 
 
-def _draw_shape(canvas, shape):
-    """White fill and 0.8 pt black stroke. A tail is drawn first, then the balloon over its base."""
+def _draw_shape(canvas, shape, style=None):
+    """Draw outlined white boxes, or a translucent wash for inscribed captions."""
     x, y, w, h = shape['rect_pt']
     canvas.saveState()
-    canvas.setFillColorRGB(1, 1, 1)
+    inscribed = style == 'inscribed' and shape['draw'] == 'caption'
+    if inscribed:
+        canvas.setFillColorRGB(.95, .91, .80)
+        canvas.setFillAlpha(.72)
+    else:
+        canvas.setFillColorRGB(1, 1, 1)
     canvas.setStrokeColorRGB(0, 0, 0)
     canvas.setLineWidth(DRAW_STROKE_PT)
     canvas.setLineJoin(1)
@@ -211,7 +258,7 @@ def _draw_shape(canvas, shape):
     if shape['draw'] == 'speech':
         canvas.roundRect(x, y, w, h, shape['radius_pt'], stroke=1, fill=1)
     else:
-        canvas.rect(x, y, w, h, stroke=1, fill=1)
+        canvas.rect(x, y, w, h, stroke=0 if inscribed else 1, fill=1)
     if tail and tail['patch_pt']:
         # Cover the balloon's outline across the tail's mouth so the tail joins it seamlessly.
         path = canvas.beginPath()
@@ -481,7 +528,11 @@ def copy_fit_measurements(rows, script, geometry, v14, reject_failures=True):
                                      f"{row['id']} {reserve['rect']}")
                 target = (_source_to_page(reserve["tail"][0], reserve["tail"][1], (row["width"], row["height"]), measured)
                           if "tail" in reserve else None)
-                shape = _drawn_shape(draw, [left, bottom, width, height], target, clip, reserve.get("corner"))
+                head = None
+                if "tail_head" in reserve:
+                    hx, hy = _source_to_page(reserve["tail_head"][0], reserve["tail_head"][1], (row["width"], row["height"]), measured)
+                    head = [hx, hy, reserve["tail_head"][2] * measured["matrix"][0] / row["width"]]
+                shape = _drawn_shape(draw, [left, bottom, width, height], target, clip, reserve.get("corner"), head, reserve.get("tail_short", False))
                 left, bottom, width, height = shape["text_rect_pt"]
             style = _reserve_style(reserve)
             styled = style == 'unreadable' or any(
@@ -607,6 +658,9 @@ def scaled_row(row, width, height):
         reserve['rect'] = rect(reserve['rect'])
         if 'tail' in reserve:
             reserve['tail'] = rect(reserve['tail'])
+        if 'tail_head' in reserve:
+            x, y, radius = reserve['tail_head']
+            reserve['tail_head'] = [*rect([x, y]), round(radius*(sx+sy)/2, 1)]
     if row.get('sound_origin'):
         result['sound_origin'] = rect(row['sound_origin'])
     if row.get('ledger_rect'):
@@ -745,6 +799,8 @@ def compose(rows,script,geometry,output_path,*,first_folio=1,chapter=1):
     copy_by_frame={}
     for m in measurements:copy_by_frame.setdefault(m['frame_id'],[]).append(m)
     row_map={r['id']:r for r in rows}
+    reserve_styles={(row['id'],tuple(reserve['copy_indices'])):_reserve_style(reserve)
+                    for row in rows for reserve in row.get('reserves',[])}
     if output_path.exists():raise FileExistsError(output_path)
     output_path.parent.mkdir(parents=True,exist_ok=True)
     c=_new_canvas(str(output_path))
@@ -763,10 +819,11 @@ def compose(rows,script,geometry,output_path,*,first_folio=1,chapter=1):
             a,_,_,d,e,f=m['matrix']
             c.drawImage(ImageReader(row['path']),e,f,width=a,height=d,mask='auto')
             c.restoreState()
-            drawn=[x['drawn'] for x in copy_by_frame.get(row['id'],[]) if 'drawn' in x]
+            drawn=[x for x in copy_by_frame.get(row['id'],[]) if 'drawn' in x]
             if drawn:
                 c.saveState();p=c.beginPath();p.rect(*clip);c.clipPath(p,stroke=0,fill=0)
-                for shape in drawn:_draw_shape(c,shape)
+                for item in drawn:
+                    _draw_shape(c,item['drawn'],reserve_styles[(row['id'],tuple(item['copy_indices']))])
                 c.restoreState()
             c.setStrokeColor(black);c.setLineWidth(.75);c.rect(*clip,stroke=1,fill=0)
             _draw_sound_symbols(c,row,m)
@@ -789,6 +846,8 @@ def compose(rows,script,geometry,output_path,*,first_folio=1,chapter=1):
             for m in copy_by_frame.get(panel['id'],[]):
                 x,y,w,h=m['rect_pt']
                 c.setFillColor(black);c.setFont('Chapter01DIN',DIN_SIZE_PT)
+                if reserve_styles[(panel['id'],tuple(m['copy_indices']))]=='inscribed':
+                    c.setFillColorRGB(.23,.15,.08)
                 # Lettering in a drawn shape is centred; a painted reserve keeps its left edge.
                 centred='drawn' in m
                 if 'lettering_lines' in m:
@@ -809,19 +868,19 @@ def verify_page_chunks(text,chunks,styles=None):
         raise ValueError('Chunk styles must match chunk count')
     expected = []
     for chunk,style in zip(chunks,styles):
-        if style not in (None, 'unreadable'):
+        if style not in (None, 'unreadable', 'inscribed'):
             raise ValueError(f'Unknown reserve style: {style!r}')
         value = (''.join(value if italic else ' ' for value,italic in _lettering_runs(chunk))
                  if style == 'unreadable' else canonical_text(chunk))
         # A wholly unreadable chunk contributes paths but no extractable words.
-        if value.strip() or style is None:
+        if value.strip() or style != 'unreadable':
             expected.append(value)
     norm=lambda v:re.sub(r'\s+',' ',v).strip()
     text=norm(text)
-    from collections import Counter
-    counts=Counter(norm(x) for x in expected)
-    for chunk,count in counts.items():
-        if text.count(chunk)!=count:raise ValueError(f'Missing or duplicate script chunk: {chunk}')
+    normed=[norm(x) for x in expected]
+    for chunk in set(normed):
+        # a chunk also occurs inside any longer chunk that contains it ("They are done." in "Yes. They are done.")
+        if text.count(chunk)!=sum(x.count(chunk) for x in normed):raise ValueError(f'Missing or duplicate script chunk: {chunk}')
     cursor=0
     for chunk in expected:
         chunk=norm(chunk);found=text.find(chunk,cursor)
@@ -830,11 +889,21 @@ def verify_page_chunks(text,chunks,styles=None):
     return len(chunks)
 
 
+PDF_STREAM_MAX_BYTES=400_000_000   # a panel alone on a page, upscaled for 300 PPI, embeds more than pypdf's 75 MB default
+
+
+def _pdf_reader(pdf):
+    """A pypdf reader that may decompress image streams up to PDF_STREAM_MAX_BYTES."""
+    from pypdf import PdfReader
+    import pypdf.filters
+    pypdf.filters.ZLIB_MAX_OUTPUT_LENGTH=max(pypdf.filters.ZLIB_MAX_OUTPUT_LENGTH,PDF_STREAM_MAX_BYTES)
+    return PdfReader(pdf)
+
+
 def verify_pdf(pdf,rows,script,placements,first_folio=1):
     """Audit every embedded placement from PDF transformation matrices."""
-    from pypdf import PdfReader
     from PIL import Image
-    reader=PdfReader(pdf)
+    reader=_pdf_reader(pdf)
     if len(reader.pages)!=len(script['pages']):raise ValueError('PDF page count differs')
     row_map={r['id']:r for r in rows}
     validate_copy_runs(script,rows)

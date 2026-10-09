@@ -312,7 +312,7 @@ Six panels, one of them an inset. Afterward, then dawn. Both stay dressed as on 
 
 Five panels. Tiruvattar. Varma settles his debt with the god.
 
-Time and palette: pages 10 to 21 still come before the grave on page 1. They start in the weeks after Colachel and run forward toward that present; they are not the present. Keep a thin warm wash on pages 10 to 13 and let it fade to the full palette by page 16. Nagoji's grey is the clock: none from 10.1 to 14.3, faint from 14.4, clear on pages 20 and 21. Every panel where his face reads states it.
+Time and palette: pages 10 to 23 still come before the grave on page 1. They start in the weeks after Colachel and run forward toward that present; they are not the present. Keep a thin warm wash on pages 10 to 13 and let it fade to the full palette by page 17. Nagoji's grey is the clock: none from 10.1 to 15.1, faint from 15.2, clear on pages 22 and 23. Every panel where his face reads states it.
 
 **10.1** Wide. The Adi Kesava Perumal temple at Tiruvattar: a clear river running over black stone, wet moss on the steps, rows of ghee lamps. A small royal party at the river steps, Varma at its head in a plain white cloth. Nagoji among them in his commander's dress but barefoot, his boots left with the horses (rust-red turban, cream tunic, red sash; thick moustache, clean chin; no grey at the temples yet).
 
@@ -444,7 +444,7 @@ Five panels. The king's shape on the work, and the coats.
 
 ## PAGE 14
 
-Five panels. The parade, and Revathi's question.
+Two panels. The parade, and Revathi's question.
 
 **14.1** Lannoy (white coat and mundu), unruffled, gesturing at the infantry: bare-chested, dhotis hitched, muskets on their shoulders. Nagoji beside him, unconvinced (rust-red turban, clean chin, no grey yet).
 
@@ -458,11 +458,17 @@ Five panels. The parade, and Revathi's question.
 
 > CAPTION: For a few breaths, from a distance, the line might almost have been one of the neat formations I had once ridden against.
 
-**14.3** The order to fall out. Coats shrugged open, hats pushed back, dhotis loosened, men grinning up at Nagoji in his foreign cloth.
+---
+
+## PAGE 15
+
+Three panels, continuing page 14.
+
+**15.1** The order to fall out. Coats shrugged open, hats pushed back, dhotis loosened, men grinning up at Nagoji in his foreign cloth.
 
 > CAPTION: The cloth was only another tool. The men inside it were still ours.
 
-**14.4** Velinadu, a muster field. A mixed unit of Nair and Madurai infantry firing in turn, in their own white mundus, bare-chested, no coats, under the red banner with the silver conch. Revathi (deep indigo sari with gold, jasmine, flat-coin necklace, no tali) stands with Nagoji (rust-red turban, red sash, clean chin, faint first grey at the temples) at a proper public distance, her eyes on the formations and flags, not on him.
+**15.2** Velinadu, a muster field. A mixed unit of Nair and Madurai infantry firing in turn, in their own white mundus, bare-chested, no coats, under the red banner with the silver conch. Revathi (deep indigo sari with gold, jasmine, flat-coin necklace, no tali) stands with Nagoji (rust-red turban, red sash, clean chin, faint first grey at the temples) at a proper public distance, her eyes on the formations and flags, not on him.
 
 > CAPTION: Travancore's shape changed under this work. Not everyone liked it.
 
@@ -470,7 +476,7 @@ Five panels. The parade, and Revathi's question.
 
 > NAGOJI: Habit. Fear. Pride.
 
-**14.5** Revathi, close, gun smoke drifting behind her.
+**15.3** Revathi, close, gun smoke drifting behind her.
 
 > REVATHI: Habit breaks. Fear changes its object.
 
@@ -478,33 +484,33 @@ Five panels. The parade, and Revathi's question.
 
 ---
 
-## PAGE 15
+## PAGE 16
 
 Six panels, one of them an inset. What he is building, what he left behind, and the last easy moment between two friends.
 
-**15.1** A line of young recruits bringing their muskets to their shoulders in one smooth movement.
+**16.1** A line of young recruits bringing their muskets to their shoulders in one smooth movement.
 
 > CAPTION: She was not wrong. But I could not deny the power of what we were building.
 
 > CAPTION: A state that could kill Europeans.
 
-**15.2** Nagoji watching them, his face giving nothing away: thick curled moustache, clean-shaven chin, faint first grey at the temples.
+**16.2** Nagoji watching them, his face giving nothing away: thick curled moustache, clean-shaven chin, faint first grey at the temples.
 
 > CAPTION: A state that could, in time, kill men who looked like me, if the map shifted.
 
-**15.3** Inset in the corner of 15.2, a memory in dry Deccan colours: a village near Nashik, black soil, a man walking a field, an old couple with white hair in a doorway.
+**16.3** Inset in the corner of 16.2, a memory in dry Deccan colours: a village near Nashik, black soil, a man walking a field, an old couple with white hair in a doorway.
 
 > CAPTION: In quieter moments I thought of my village near Nashik.
 
 > CAPTION: Of Deccan forts that may or may not have heard of a small southern battle called Colachel.
 
-**15.4** Night. Musketeers practising loading drill by lamplight below. Nagoji (rust-red turban, clean chin, faint grey) and Dhanaji (white turban, indigo-dyed tunic, short black beard, stockier) watching from a low wall.
+**16.4** Night. Musketeers practising loading drill by lamplight below. Nagoji (rust-red turban, clean chin, faint grey) and Dhanaji (white turban, indigo-dyed tunic, short black beard, stockier) watching from a low wall.
 
 > DHANAJI: You could go back. You have earned the right. The king would not stop you.
 
 > NAGOJI: And then what? They will either treat me as a curiosity or try to use me against this land.
 
-**15.5** Closer. Dhanaji squinting at him. Nagoji's eyes stay on the lamps (clean chin, faint grey at the temples).
+**16.5** Closer. Dhanaji squinting at him. Nagoji's eyes stay on the lamps (clean chin, faint grey at the temples).
 
 > NAGOJI: Either way, I will find myself in another man's web. At least here I know the strands.
 
@@ -512,7 +518,7 @@ Six panels, one of them an inset. What he is building, what he left behind, and 
 
 > NAGOJI: I speak as if I have counted. And found fewer deaths in this column than in the others.
 
-**15.6** Narrow bottom strip. Dhanaji laughing, shaking his head (white turban, indigo tunic). Nagoji, the corner of his mouth lifting (rust-red turban, clean chin, faint grey).
+**16.6** Narrow bottom strip. Dhanaji laughing, shaking his head (white turban, indigo tunic). Nagoji, the corner of his mouth lifting (rust-red turban, clean chin, faint grey).
 
 > DHANAJI: Always counting.
 
@@ -520,11 +526,11 @@ Six panels, one of them an inset. What he is building, what he left behind, and 
 
 ---
 
-## PAGE 16
+## PAGE 17
 
-Five panels. Lannoy on the bastion. The question that has waited months.
+Three panels. Lannoy on the bastion. The question that has waited months.
 
-**16.1** Wide. Dusk. A bastion above the inlet, the sky the colour of old pewter; far below, Marakkar boats moving on the water like dark insects. Two men alone on the parapet, readable in silhouette: Nagoji's rust-red turban and sash, Lannoy's bare pale head and white coat.
+**17.1** Wide. Dusk. A bastion above the inlet, the sky the colour of old pewter; far below, Marakkar boats moving on the water like dark insects. Two men alone on the parapet, readable in silhouette: Nagoji's rust-red turban and sash, Lannoy's bare pale head and white coat.
 
 > NAGOJI: Why did you cross? Before the battle ended. Before you knew we would win.
 
@@ -532,11 +538,11 @@ Five panels. Lannoy on the bastion. The question that has waited months.
 
 > NAGOJI: You walked away from your own men.
 
-**16.2** Lannoy (tall, pale hair, long nose, white cotton coat over a white mundu, not a blue coat), silent, looking at the water. Hold on him long enough that the silence registers.
+**17.2** Lannoy (tall, pale hair, long nose, white cotton coat over a white mundu, not a blue coat), silent, looking at the water. Hold on him long enough that the silence registers.
 
 > *No text.*
 
-**16.3** Two-shot at the parapet. Lannoy turning to Nagoji; Nagoji shaking his head (clean chin, faint grey). Lannoy's thin smile.
+**17.3** Two-shot at the parapet. Lannoy turning to Nagoji; Nagoji shaking his head (clean chin, faint grey). Lannoy's thin smile.
 
 > LANNOY: Arras. Do you know it?
 
@@ -544,13 +550,19 @@ Five panels. Lannoy on the bastion. The question that has waited months.
 
 > LANNOY: They tolerated me because I could build walls and aim cannon. They never trusted me.
 
-**16.4** Nagoji, forearms on the parapet (clean chin, faint grey at the temples). Lannoy beside him, eyes on the water.
+---
+
+## PAGE 18
+
+Two panels, continuing page 17.
+
+**18.1** Nagoji, forearms on the parapet (clean chin, faint grey at the temples). Lannoy beside him, eyes on the water.
 
 > NAGOJI: That alone would not make a man desert.
 
 > LANNOY: No. But seventeen years of watching the Company grind men into numbers does.
 
-**16.5** Memory panel: a VOC garrison yard in Ceylon in fever-grey light. Thin soldiers in faded, patched blue Company coats, some bare-headed, chewing biscuit. A whitewashed Dutch colonial fort wall with red-tiled roofs and palms beyond. In a lit doorway, officers in better blue coats and wigs at their wine. No red coats.
+**18.2** Memory panel: a VOC garrison yard in Ceylon in fever-grey light. Thin soldiers in faded, patched blue Company coats, some bare-headed, chewing biscuit. A whitewashed Dutch colonial fort wall with red-tiled roofs and palms beyond. In a lit doorway, officers in better blue coats and wigs at their wine. No red coats.
 
 > LANNOY (off): The Company paid them late or not at all. The officers drank wine while the soldiers ate weevils.
 
@@ -558,29 +570,29 @@ Five panels. Lannoy on the bastion. The question that has waited months.
 
 ---
 
-## PAGE 17
+## PAGE 19
 
 Five panels. What he chose, and why. Two memory panels break up the parapet talk.
 
-**17.1** Lannoy (white coat and mundu, pale hair), face to the sea, picking a chip of stone off the parapet and turning it in his fingers. Nagoji at the edge of frame.
+**19.1** Lannoy (white coat and mundu, pale hair), face to the sea, picking a chip of stone off the parapet and turning it in his fingers. Nagoji at the edge of frame.
 
 > LANNOY: Then they sent me here. To take a beach and wait for reinforcements that were never coming.
 
 > LANNOY: We were a gesture, not an army. A message written in men's lives.
 
-**17.2** The stone arcing out over the dark water, Lannoy's arm still extended. Nagoji beside him, watching it fall.
+**19.2** The stone arcing out over the dark water, Lannoy's arm still extended. Nagoji beside him, watching it fall.
 
 > LANNOY: I decided I was tired of being a number in someone else's ledger.
 
 > LANNOY: I am forty-three. No wife, no children, no land waiting in Europe.
 
-**17.3** Memory, in the cold grey light of a northern schoolroom: a pale-haired Flemish boy of about ten at a wooden desk, drawing a star-shaped fortress with ruler and compasses. The drawing is all lines and angles, with no people anywhere in it and no writing on the paper.
+**19.3** Memory, in the cold grey light of a northern schoolroom: a pale-haired Flemish boy of about ten at a wooden desk, drawing a star-shaped fortress with ruler and compasses. The drawing is all lines and angles, with no people anywhere in it and no writing on the paper.
 
 > LANNOY (off): When I was a boy, I dreamed of building fortresses on foreign shores.
 
 > LANNOY (off): None of us drew the people who would live behind those walls.
 
-**17.4** Two-shot, the last light between them. Lannoy turned to face Nagoji (clean chin, faint grey), one hand opened toward the fort beneath their feet.
+**19.4** Two-shot, the last light between them. Lannoy turned to face Nagoji (clean chin, faint grey), one hand opened toward the fort beneath their feet.
 
 > LANNOY: Now I build walls for a king who once tried to kill me. But at least I build.
 
@@ -588,7 +600,7 @@ Five panels. What he chose, and why. Two memory panels break up the parapet talk
 
 > LANNOY: Yes. But he pays me. On time. In my hand.
 
-**17.5** Memory: a dim Flemish church. An old woman in a dark shawl lighting a candle at a side altar, a rack of small flames before her.
+**19.5** Memory: a dim Flemish church. An old woman in a dark shawl lighting a candle at a side altar, a rack of small flames before her.
 
 > LANNOY (off): My mother lights candles for a son who is either dead or damned, depending on which story the priests tell that week.
 
@@ -596,11 +608,11 @@ Five panels. What he chose, and why. Two memory panels break up the parapet talk
 
 ---
 
-## PAGE 18
+## PAGE 20
 
 Five panels, one of them an inset. The answer, and then someone else's answer.
 
-**18.1** Two-shot on the parapet in the last light: Lannoy (white coat and mundu) turning back from the water to Nagoji (clean chin, faint grey at the temples), who answers him straight. Leave the lower corner clear for the 18.2 inset.
+**20.1** Two-shot on the parapet in the last light: Lannoy (white coat and mundu) turning back from the water to Nagoji (clean chin, faint grey at the temples), who answers him straight. Leave the lower corner clear for the 20.2 inset.
 
 > LANNOY: Do you ever regret staying?
 
@@ -610,21 +622,21 @@ Five panels, one of them an inset. The answer, and then someone else's answer.
 
 > LANNOY: That is something.
 
-**18.2** Inset in the lower corner of 18.1, in cold storm colours: a hand slipping from a straight, taut ship's line, wet and fraying, into black water. The line runs out of frame, with no loop and no knot.
+**20.2** Inset in the lower corner of 20.1, in cold storm colours: a hand slipping from a straight, taut ship's line, wet and fraying, into black water. The line runs out of frame, with no loop and no knot.
 
 > *No text.*
 
-**18.3** Wide. Udayagiri at dusk, weeks later: the new rampart line, the two men walking it and arguing, Lannoy (white coat) pointing along an angle of wall, Nagoji (rust-red turban) beside him. Beyond the outer ditch, scrub and rock, and in it one tiny muzzle flash.
+**20.3** Wide. Udayagiri at dusk, weeks later: the new rampart line, the two men walking it and arguing, Lannoy (white coat) pointing along an angle of wall, Nagoji (rust-red turban) beside him. Beyond the outer ditch, scrub and rock, and in it one tiny muzzle flash.
 
 > CAPTION: A few weeks later, at Udayagiri, someone tried to answer those questions for us.
 
 > CAPTION: The flat, hard snap of powder close to hand. Not a practice shot.
 
-**18.4** Tight. A loose strand of Lannoy's pale hair lifting at his ear as something passes. His eyes have not yet understood.
+**20.4** Tight. A loose strand of Lannoy's pale hair lifting at his ear as something passes. His eyes have not yet understood.
 
 > *No text.*
 
-**18.5** Nagoji dragging Lannoy down behind the lip of the bastion. A spray of stone chips bursting from the parapet near Nagoji's knee.
+**20.5** Nagoji dragging Lannoy down behind the lip of the bastion. A spray of stone chips bursting from the parapet near Nagoji's knee.
 
 > NAGOJI: Down!
 
@@ -632,19 +644,19 @@ Five panels, one of them an inset. The answer, and then someone else's answer.
 
 ---
 
-## PAGE 19
+## PAGE 21
 
 Five panels. The empty scrub, the report, and the king's answer.
 
-**19.1** Below the wall: sentries shouting and scattering, muskets snatched up, dogs barking, a man blowing a whistle, torches running for the ditch. The scrub beyond is already empty.
+**21.1** Below the wall: sentries shouting and scattering, muskets snatched up, dogs barking, a man blowing a whistle, torches running for the ditch. The scrub beyond is already empty.
 
 > CAPTION: Somewhere in the gathering dark, feet pounded briefly, then faded.
 
-**19.2** The far bank by torchlight, trampled grass. A Nair sentry's open palm holding three torn twists of cartridge paper, bitten open at one end, with a few grains of black powder. No metal casings, no brass.
+**21.2** The far bank by torchlight, trampled grass. A Nair sentry's open palm holding three torn twists of cartridge paper, bitten open at one end, with a few grains of black powder. No metal casings, no brass.
 
 > CAPTION: One more mark in the tally of storms we now lived under. Not all of them came from the sea.
 
-**19.3** The guardroom, lamplight. Ramayyan (thin, sharp fine features, receding hair, plain white cloth) with his palm leaves. Lannoy (white coat and mundu) apart, turning the chipped piece of parapet stone in his hands. Nagoji by the door.
+**21.3** The guardroom, lamplight. Ramayyan (thin, sharp fine features, receding hair, plain white cloth) with his palm leaves. Lannoy (white coat and mundu) apart, turning the chipped piece of parapet stone in his hands. Nagoji by the door.
 
 > RAMAYYAN: Not our men. Dutch agents, perhaps. Or some Kochi fool who thinks the Company will pat his head.
 
@@ -652,13 +664,13 @@ Five panels. The empty scrub, the report, and the king's answer.
 
 > LANNOY: They will try again, in other ways.
 
-**19.4** Morning. Marthanda Varma, bare-headed, his hair in a side knot above his left ear, no turban, no crest, eyes flat, addressing two Nair soldiers of his own household: bare-chested, forward-tied Kerala topknots, white mundus, a long Nair sword and a small round shield each, scarred forearms, no priestly marks, no sacred thread. Nagoji (rust-red turban, clean chin, faint grey) and Lannoy (white coat and mundu) stand before him.
+**21.4** Morning. Marthanda Varma, bare-headed, his hair in a side knot above his left ear, no turban, no crest, eyes flat, addressing two Nair soldiers of his own household: bare-chested, forward-tied Kerala topknots, white mundus, a long Nair sword and a small round shield each, scarred forearms, no priestly marks, no sacred thread. Nagoji (rust-red turban, clean chin, faint grey) and Lannoy (white coat and mundu) stand before him.
 
 > VARMA: You will walk with Kappittan Lannoy. You will walk with Sawant.
 
 > VARMA: Wherever they go, you are their shadow.
 
-**19.5** The two Nair guards (topknots, white mundus, swords and round shields) falling in a few paces behind Nagoji and Lannoy as they leave the hall.
+**21.5** The two Nair guards (topknots, white mundus, swords and round shields) falling in a few paces behind Nagoji and Lannoy as they leave the hall.
 
 > CAPTION: It was protection, yes. It was also a reminder.
 
@@ -666,25 +678,25 @@ Five panels. The empty scrub, the report, and the king's answer.
 
 ---
 
-## PAGE 20
+## PAGE 22
 
-Four panels, one of them an inset. The suspicion he refuses. Pages 20 and 21 are one continuous evening on the walls at Udayagiri, from dusk to the last light.
+Four panels, one of them an inset. The suspicion he refuses. Pages 22 and 23 are one continuous evening on the walls at Udayagiri, from dusk to the last light.
 
-**20.1** Wide. Dusk on a wall walk at Udayagiri. Nagoji apart at the parapet (rust-red turban, red sash, clean chin, first grey at the temples); one of the two Nair shadows standing a few paces off, silent (topknot, white mundu, sword and round shield).
+**22.1** Wide. Dusk on a wall walk at Udayagiri. Nagoji apart at the parapet (rust-red turban, red sash, clean chin, first grey at the temples); one of the two Nair shadows standing a few paces off, silent (topknot, white mundu, sword and round shield).
 
 > CAPTION: For a little while, another thought gnawed at me.
 
 > CAPTION: Revathi had spoken more than once of how dangerous it was to let a foreign officer build teeth into this coast.
 
-**20.2** Closer. Nagoji at the parapet, facing inland toward the dark line of the hills, one hand resting on the stone (clean chin, first grey at the temples).
+**22.2** Closer. Nagoji at the parapet, facing inland toward the dark line of the hills, one hand resting on the stone (clean chin, first grey at the temples).
 
 > CAPTION: It would not have been hard for someone who shared her hatred of European arrogance to whisper a path to a hired musket.
 
-**20.3** Inset in the corner of 20.2, a memory: Revathi (deep indigo sari with gold, jasmine, flat-coin necklace, no tali) standing in her hall at Velinadu, speaking openly before a room of listeners.
+**22.3** Inset in the corner of 22.2, a memory: Revathi (deep indigo sari with gold, jasmine, flat-coin necklace, no tali) standing in her hall at Velinadu, speaking openly before a room of listeners.
 
 > CAPTION: The idea tasted wrong even as it formed. If she wanted De Lannoy gone, she would say it in a hall where everyone could hear.
 
-**20.4** Nagoji turning his back on the hills, his hand coming off the parapet; behind him the Nair shadow shifts his weight. Clean chin, first grey at the temples.
+**22.4** Nagoji turning his back on the hills, his hand coming off the parapet; behind him the Nair shadow shifts his weight. Clean chin, first grey at the temples.
 
 > CAPTION: She had never been a woman who hid behind bush and ditch.
 
@@ -694,11 +706,11 @@ Four panels, one of them an inset. The suspicion he refuses. Pages 20 and 21 are
 
 ---
 
-## PAGE 21
+## PAGE 23
 
 Three panels. The wall at the last light, and the close.
 
-**21.1** The bastion. A test cannon booms from a lower battery; smoke rolls over the water and birds burst from the trees along it. Lannoy (tall, pale hair, white cotton coat over a white mundu, not a blue coat) beside Nagoji (rust-red turban, clean chin, first grey at the temples); the two Nair shadows a few paces back.
+**23.1** The bastion. A test cannon booms from a lower battery; smoke rolls over the water and birds burst from the trees along it. Lannoy (tall, pale hair, white cotton coat over a white mundu, not a blue coat) beside Nagoji (rust-red turban, clean chin, first grey at the temples); the two Nair shadows a few paces back.
 
 > LANNOY: They will come back. My old masters. They do not like being told no.
 
@@ -706,7 +718,7 @@ Three panels. The wall at the last light, and the close.
 
 > LANNOY: And guns. And horse. And men who know how to move on sand.
 
-**21.2** Wide, the last light. Nagoji and Lannoy on the southern wall, small against the sky, the two Nair shadows a few paces behind them.
+**23.2** Wide, the last light. Nagoji and Lannoy on the southern wall, small against the sky, the two Nair shadows a few paces behind them.
 
 > CAPTION: Two foreigners, bound to a king who trusted us enough to let us build his teeth, and distrusted us enough never to look away for long.
 
@@ -714,7 +726,7 @@ Three panels. The wall at the last light, and the close.
 
 > CAPTION (separate, weighted): So was I.
 
-**21.3** Bottom strip, full width, low and close: the bare feet, dhotis and shouldered muskets of a new unit moving past in neat order.
+**23.3** Bottom strip, full width, low and close: the bare feet, dhotis and shouldered muskets of a new unit moving past in neat order.
 
 > CAPTION: Somewhere, in some future battle, a Dutchman or a Portuguese or a Mysorean would stand, baffled, as men from this small kingdom refused to die in the patterns their manuals predicted.
 
@@ -724,21 +736,21 @@ Three panels. The wall at the last light, and the close.
 
 ## Adaptation notes
 
-- **Page budget.** 21 pages against a target of 19, inside the 15 to 23 range. Seven pages (3 to 9) go to Revathi, because the romance is the chapter's emotional core and the change in Nagoji ("a man who wanted one") drives later chapters. Megha's death gets two pages as the frame. The fortification, drill and levy exposition, about half the chapter's words, is held to six pages (10 to 15). The Lannoy confession and the Udayagiri shots take pages 16 to 19. The suspicion Nagoji refuses gets page 20, and the novel's own close gets page 21.
-- **Time and palette.** The novel opens four monsoons on, at Megha's grave, then drops back to the weeks after Colachel. Pages 3 to 9 are the flashback in a warm palette. Pages 10 to 21 also come before the grave: they run forward from Tiruvattar toward the page 1 present, with the warm wash thinning on pages 10 to 13 and gone by page 16. Nagoji's grey is the visual clock (none to 14.3, faint from 14.4, clear on pages 20 and 21), and two of the novel's own lines mark the passing time: "Travancore's shape changed under this work" (14.4) and "The question had sat between us for months" (16.1).
+- **Page budget.** 21 pages against a target of 19, inside the 15 to 23 range. Seven pages (3 to 9) go to Revathi, because the romance is the chapter's emotional core and the change in Nagoji ("a man who wanted one") drives later chapters. Megha's death gets two pages as the frame. The fortification, drill and levy exposition, about half the chapter's words, is held to six pages (10 to 15). The Lannoy confession and the Udayagiri shots take pages 17 to 21. The suspicion Nagoji refuses gets page 22, and the novel's own close gets page 23.
+- **Time and palette.** The novel opens four monsoons on, at Megha's grave, then drops back to the weeks after Colachel. Pages 3 to 9 are the flashback in a warm palette. Pages 10 to 23 also come before the grave: they run forward from Tiruvattar toward the page 1 present, with the warm wash thinning on pages 10 to 13 and gone by page 17. Nagoji's grey is the visual clock (none to 15.1, faint from 15.2, clear on pages 22 and 23), and two of the novel's own lines mark the passing time: "Travancore's shape changed under this work" (15.2) and "The question had sat between us for months" (17.1).
 - **Cut: Lannoy's second audience** ("I will serve. Under your conditions." / "We will see what kind."). Chapter 15 already dramatizes his acceptance and his first morning as a Travancore officer, so restaging it here would repeat a scene. 11.1 stages him as an officer beside the pay table.
-- **Cut: the Zeeland sergeant's speech.** The Company's unpaid wages and the weevils line come back in Lannoy's confession (16.5), so the comic gives them once, to the character who matters. The deserters are reduced to one caption and one image (11.1).
+- **Cut: the Zeeland sergeant's speech.** The Company's unpaid wages and the weevils line come back in Lannoy's confession (18.2), so the comic gives them once, to the character who matters. The deserters are reduced to one caption and one image (11.1).
 - **Cut: drill detail.** The friendly-fire exchange about the Low Countries, the thumb and recoil correction, and the lesson on aiming at belts. The two "Again" calls and the deep-blocks argument, now with its "Shock matters" / "So does survival" pivot, carry the partnership.
 - **Cut: Ramayyan's "Learn to share walls" mediation and the king's silent drill inspections.** Both are charming, but there was no room. Ramayyan is carried by the pay caption and the shooting report.
-- **Cut: Padmini's speech to her reluctant kinsman, and the paragraph on chiefs' retainers being folded into company units.** The parade, the 14.4 caption and Revathi's critique carry the social change.
-- **Cut: Lannoy's captain in Amsterdam, "My brothers have forgotten my face", and "the admission hung between us".** The boyhood line ("None of us drew the people who would live behind those walls") is restored in their place at 17.3.
-- **Cut for space:** "The word would have been too small for what moved between us" (8.6), "The first time I looked down from one of those walls" (11.2, which the art shows), "Of the storm" (18.1), "if De Lannoy dies" (19.3) and "Velinadu had eyes and ears in more places than I could count" (page 20).
-- **Adjusted:** Padmini's reported warning becomes the balloon "Do not bleed on my courtyard." Varma's glance moves to the line "This army is not only for white men". The novel has it land "when he said Tamil", a word his speech never uses. "We did not speak of love" now comes before the shadows meet (8.5), and "She had never been a woman who hid behind bush and ditch" comes after the hall line (20.4). The 11.3 inset caption compresses the novel's "built not to impress riders like me, but to swallow cannon shot". Long speeches are trimmed, but the key phrases stay verbatim.
+- **Cut: Padmini's speech to her reluctant kinsman, and the paragraph on chiefs' retainers being folded into company units.** The parade, the 15.2 caption and Revathi's critique carry the social change.
+- **Cut: Lannoy's captain in Amsterdam, "My brothers have forgotten my face", and "the admission hung between us".** The boyhood line ("None of us drew the people who would live behind those walls") is restored in their place at 19.3.
+- **Cut for space:** "The word would have been too small for what moved between us" (8.6), "The first time I looked down from one of those walls" (11.2, which the art shows), "Of the storm" (20.1), "if De Lannoy dies" (21.3) and "Velinadu had eyes and ears in more places than I could count" (page 22).
+- **Adjusted:** Padmini's reported warning becomes the balloon "Do not bleed on my courtyard." Varma's glance moves to the line "This army is not only for white men". The novel has it land "when he said Tamil", a word his speech never uses. "We did not speak of love" now comes before the shadows meet (8.5), and "She had never been a woman who hid behind bush and ditch" comes after the hall line (22.4). The 11.3 inset caption compresses the novel's "built not to impress riders like me, but to swallow cannon shot". Long speeches are trimmed, but the key phrases stay verbatim.
 - **Staging choices:** the intimacy is implied through the flint and lamp, her unpinned hair, two shadows meeting on the wall and a burnt-out lamp at dawn. Both stay dressed on pages 8 and 9: afterward they lie side by side on the mat, she in her sari with the pallu over her shoulder, he in dhoti, rib binding and shoulder cloth. There is no nudity. The Udayagiri shots are shown through a lifted strand of hair and chipped stone, and nobody is hit. Revathi's husband falls at a distance in the memory.
-- **Continuity.** Nagoji is on the commander sheet with the V13 lock (thick curled moustache, clean-shaven chin, gold ear stud) on pages 1, 2 and 10 to 21. On pages 3 to 9 he is off the sheet and convalescent: bare-chested with bound ribs by day (3.1), dhoti, rib binding and a cream shoulder cloth at night (5.1 to 9.6), no turban, hair loose, no sacred thread. The brand is on his LEFT forearm. He is barefoot at the Tiruvattar steps (10.1). He wears the blue Travancore drill coat only on parade (14.2). Lannoy is in a white cotton coat over a white mundu in every panel, never the blue coat; only the 13.4 pile and the 16.5 memory are blue. Dhanaji uses the look locked by the author on 2026-09-26 (white pagdi, indigo quilted tunic, short black beard, no sash, stockier than Nagoji). The two Nair shadows are fixed at 19.4 and carried through 21.2. Revathi wears no tali (she is a widow until Chapter 20). At Tiruvattar Varma wears a plain white cloth with a narrow shoulder dressing and no crest, including the ride back; he is in court dress elsewhere. The V13 temple priest face is used only for the Chief Priest at 10.3. The Travancore blue-coat infantry keep dhotis, bare feet and the silver conch on red (as in Chapters 22 and 28), and the Velinadu muster wears its own mundus with no coats. Horses: Kayal, the bay mare who carried him through Colachel, at 10.4; Megha, the grey with the black mane, at 12.2 and 14.2, so his death on page 1 has been seen alive. The grave is dug with a Kerala mammatty. The spent cartridges are torn paper twists, not casings. The 18.2 line is taut, with no loop.
+- **Continuity.** Nagoji is on the commander sheet with the V13 lock (thick curled moustache, clean-shaven chin, gold ear stud) on pages 1, 2 and 10 to 23. On pages 3 to 9 he is off the sheet and convalescent: bare-chested with bound ribs by day (3.1), dhoti, rib binding and a cream shoulder cloth at night (5.1 to 9.6), no turban, hair loose, no sacred thread. The brand is on his LEFT forearm. He is barefoot at the Tiruvattar steps (10.1). He wears the blue Travancore drill coat only on parade (14.2). Lannoy is in a white cotton coat over a white mundu in every panel, never the blue coat; only the 13.4 pile and the 18.2 memory are blue. Dhanaji uses the look locked by the author on 2026-09-26 (white pagdi, indigo quilted tunic, short black beard, no sash, stockier than Nagoji). The two Nair shadows are fixed at 21.4 and carried through 23.2. Revathi wears no tali (she is a widow until Chapter 20). At Tiruvattar Varma wears a plain white cloth with a narrow shoulder dressing and no crest, including the ride back; he is in court dress elsewhere. The V13 temple priest face is used only for the Chief Priest at 10.3. The Travancore blue-coat infantry keep dhotis, bare feet and the silver conch on red (as in Chapters 22 and 28), and the Velinadu muster wears its own mundus with no coats. Horses: Kayal, the bay mare who carried him through Colachel, at 10.4; Megha, the grey with the black mane, at 12.2 and 14.2, so his death on page 1 has been seen alive. The grave is dug with a Kerala mammatty. The spent cartridges are torn paper twists, not casings. The 20.2 line is taut, with no loop.
 - **Flags for the author.** (1) CONTINUITY.md still has no fixed look for Dhanaji or Megha, and none for Varma's Colachel dressing. Dhanaji's look was locked by the author on 2026-09-26: white pagdi, indigo quilted tunic, short black beard, no sash. Suggested bible line for Megha: "grey horse with a black mane, ch16 only". (2) The pipeline injects the CONTINUITY ch7 to 16 commander row (turban, boots) into every Nagoji prompt, including the convalescent pages 3 to 9 and barefoot 10.1. The panel text says "off the commander sheet", but check those prompts before generation.
-- **Print.** Every placed frame must reach at least 300 effective PPI at its printed size (author instruction; CONTINUITY.md). Art sits in the 369 pt (5.125 in) art column, so a frame placed at full art width needs at least 1538 px across its visible crop. A 1536 px generation falls just short (299.7 PPI), and taller frames need proportionally more height. Upscale 2x with `~/AI/upscalers/upscale2x.py` wherever a frame falls short, or regenerate if the art is soft. The frames most at risk are the large and full-width ones: 1.1, 2.3, 8.6, 9.5, 11.2, 14.2, 18.3, 21.2 and 21.3. Confirm an `effective_ppi` of 300 or more for every frame in `DPI-REPORT.json` before sign-off.
-- **Layout.** The pipeline makes one frame per numbered panel, so the insets (5.2, 8.2, 9.2, 11.3, 15.3, 18.2, 20.3) are separate frames. Give them a narrow cell beside their parent panel with a `page_rows` override rather than a full row, and hold them to the same 300 PPI floor at their own placed size.
+- **Print.** Every placed frame must reach at least 300 effective PPI at its printed size (author instruction; CONTINUITY.md). Art sits in the 369 pt (5.125 in) art column, so a frame placed at full art width needs at least 1538 px across its visible crop. A 1536 px generation falls just short (299.7 PPI), and taller frames need proportionally more height. Upscale 2x with `~/AI/upscalers/upscale2x.py` wherever a frame falls short, or regenerate if the art is soft. The frames most at risk are the large and full-width ones: 1.1, 2.3, 8.6, 9.5, 11.2, 14.2, 20.3, 23.2 and 23.3. Confirm an `effective_ppi` of 300 or more for every frame in `DPI-REPORT.json` before sign-off.
+- **Layout.** The pipeline makes one frame per numbered panel, so the insets (5.2, 8.2, 9.2, 11.3, 16.3, 20.2, 22.3) are separate frames. Give them a narrow cell beside their parent panel with a `page_rows` override rather than a full row, and hold them to the same 300 PPI floor at their own placed size.
 - **Cast overrides for `prepare`.** The pipeline infers cast from names and first-person words in each panel's description and copy, so pass these with `--cast-overrides`: `{"page-03-panel-01": ["nagoji"], "page-04-panel-03": ["nagoji", "revathi"], "page-05-panel-04": ["nagoji", "revathi"], "page-05-panel-05": ["nagoji", "revathi"], "page-06-panel-02": ["revathi"], "page-06-panel-03": ["revathi"], "page-07-panel-02": ["revathi"], "page-07-panel-04": ["nagoji", "revathi"], "page-09-panel-01": ["nagoji", "revathi"], "page-09-panel-05": ["nagoji"], "page-10-panel-03": ["temple_priest", "varma"], "page-11-panel-03": [], "page-11-panel-05": ["eustachius"], "page-15-panel-01": [], "page-15-panel-03": [], "page-16-panel-05": [], "page-17-panel-03": [], "page-17-panel-04": ["eustachius", "nagoji"], "page-17-panel-05": [], "page-18-panel-01": ["eustachius", "nagoji"], "page-19-panel-02": [], "page-20-panel-01": ["nagoji"], "page-20-panel-03": ["revathi"]}`. These remove names that are spoken but not in the frame (Padmini, Keshavrao, Ramayyan, Varma, Revathi, De Lannoy) and Nagoji wherever a first-person line from another speaker, or his own caption over a frame he is not in, would attach his sheet. 10.3 also adds the V13 temple priest sheet, which no alias would infer.
 - **Review changes (r1 to r2).**
   - 1.1 to 2.5: Nagoji's face lock and first grey stated in every panel that shows him; brand on the LEFT forearm (1.2); spade replaced by a Kerala mammatty (1.4, 1.5); Dhanaji given the Chapter 14 lock (2.1); 2.3 reshot three-quarter from the side, with Dhanaji's counting hand against the sky.
@@ -749,12 +761,12 @@ Three panels. The wall at the last light, and the close.
   - 11.1: Lannoy stands as an officer beside the pay table, not in the queue. 11.2 and 11.3: the inset caption now gives the contrast the art cannot show, and 11.2 is trimmed.
   - 12.2 and 14.2: Nagoji on Megha. 12.4: "Shock matters" / "So does survival" restored.
   - 13.4: caption cut, panel wordless; Lannoy stays in white. Lannoy's white coat and mundu restated in every panel he appears in.
-  - 14.2 and 14.4: the silver conch on red named; the Velinadu muster in mundus with no coats; time caption added at 14.4.
-  - Page 15: 15.3 caption no longer lists the picture; it becomes an inset; Nagoji's curiosity-or-weapon answer restored; new 15.6 carries "Always counting" / "It is what I know how to do".
-  - Page 16: silhouette cues and a "months" time caption at 16.1; 16.2 wordless; "Arras" moved to the 16.3 two-shot; 16.5 made an unmistakable VOC garrison.
-  - Page 17: the duplicate ledger balloon cut; the boyhood line restored as a 17.3 schoolroom memory; the mother's candles become a 17.5 church memory.
-  - Page 18: 18.1 and 18.3 merged into one two-shot; the Keshavrao inset is wordless, with a taut line and no loop; the caption names without describing; the shooting gets a full wide (18.3).
-  - Page 19: cartridge paper twists, no casings; 19.3 trimmed; the Nair shadows' look fixed.
-  - Page 20: set at dusk; the musket suspicion and "bush and ditch" restored verbatim; 20.2 and 20.4 given drawable beats; the Nair shadow placed "apart".
-  - Page 21 (new): the cannon exchange with the shadows present, "So was I", and the novel's close with "That was enough for now."
+  - 14.2 and 15.2: the silver conch on red named; the Velinadu muster in mundus with no coats; time caption added at 15.2.
+  - Page 16: 16.3 caption no longer lists the picture; it becomes an inset; Nagoji's curiosity-or-weapon answer restored; new 16.6 carries "Always counting" / "It is what I know how to do".
+  - Page 17: silhouette cues and a "months" time caption at 17.1; 17.2 wordless; "Arras" moved to the 17.3 two-shot; 18.2 made an unmistakable VOC garrison.
+  - Page 19: the duplicate ledger balloon cut; the boyhood line restored as a 19.3 schoolroom memory; the mother's candles become a 19.5 church memory.
+  - Page 20: 20.1 and 20.3 merged into one two-shot; the Keshavrao inset is wordless, with a taut line and no loop; the caption names without describing; the shooting gets a full wide (20.3).
+  - Page 21: cartridge paper twists, no casings; 21.3 trimmed; the Nair shadows' look fixed.
+  - Page 22: set at dusk; the musket suspicion and "bush and ditch" restored verbatim; 22.2 and 22.4 given drawable beats; the Nair shadow placed "apart".
+  - Page 23 (new): the cannon exchange with the shadows present, "So was I", and the novel's close with "That was enough for now."
   - Notes: Continuity, Flags, Print, Layout and Cast overrides bullets rewritten or added.

@@ -364,9 +364,12 @@ optional fields; without them a page is byte for byte what it was:
 - `"draw": "caption"` draws a white rectangle with a 0.8 pt black stroke at `rect`.
   `"draw": "speech"` draws a white rounded shape (corner radius 45 percent of the shorter
   side) with the same stroke. `tail` is `[x, y]` in source pixels, the speaker's mouth. It
-  adds a tapered tail from the nearest edge, 8 to 28 pt long, stopping about 60 percent of
-  the way to the mouth, stroked and filled first and then covered by the balloon so no
-  outline crosses its base. A target inside the balloon is refused, except one on the panel
+  adds a tapered tail from the nearest edge, stroked and filled first and then covered by the balloon so no
+  outline crosses its base. With `tail_head` (`[x, y, r]`, the speaker's head circle in source pixels, written by
+  `auto-geometry --draw` for an on-frame speaker) the tail stops 3 pt outside the head; with none, or where the tail's line
+  misses it, it stops 12 percent of the way short of the mouth (4 to 12 pt), and never shorter than 8 pt or past 90 percent of
+  the way. `tail_short: true` (only with a `tail`; written by the planner for a balloon only the old tail could place, see
+  below) draws the legacy short tail instead, ignoring the head: about 60 percent of the way, 8 to 28 pt. A target inside the balloon is refused, except one on the panel
   edge (an off-frame speaker) inside a balloon that touches that edge, which draws no tail. A tail to an off-frame
   speaker (a mouth point within 0.5 pt of the panel edge, or beyond it) runs all the way to the border, so it reads
   as pointing out of the panel rather than at whoever stands between the balloon and the edge; the planner checks
@@ -411,8 +414,8 @@ the compositor draws it (as wide as its base where it starts, tapering to its ti
 mouth, never crosses another balloon (a later chunk's painted region stands for its balloon), no balloon sits across
 another's tail, and, when the speaker is in the frame, the path
 never enters a face zone that is not the speaker's own (the zone nearest the mouth, and any that holds the mouth or
-overlaps it). Readers also credit a balloon to whoever its drawn tail's tip lands nearest, and the tip stops well short
-of the mouth (the wedge runs 60 percent of the way, between 8 and 28 pt), so the tip is never nearer to another face
+overlaps it). Readers also credit a balloon to whoever its drawn tail's tip lands nearest, and the tip stops just outside
+the speaker's head (the head circle every on-frame tail point implies, see `tail_head`), so the tip is never nearer to another face
 zone than to the speaker's own (distances to each zone's edge, 0 inside it). Nor does the tip land on another figure's
 body: a face zone stands for a person, whose body is taken as the column two face radii either side of the face, from
 its bottom down to eight radii below its centre (`BODY_HALF_WIDTH`, `BODY_DEPTH`). A tip there reads as theirs even
@@ -426,6 +429,13 @@ time, the nearest first, and only then for every chunk). Boxes also read in scri
 a reader takes them. A strict rule is tried first: tops within a quarter of the shorter box's height are level, and a level later box lies to the right; otherwise the later box starts lower, and if it sits to the LEFT it must start below the earlier box (overlapping it by at most a tenth of the shorter height), because a box at the left inside another's band is read first by some readers and second by others. The planner places boxes as high as a rule allows, so a looser threshold is always met right at its edge. Only when no placement meets the strict rule is the lenient one used (tops within 0.4 of the shorter height, or a later box starting lower by less than two thirds of it, or a later box starting lower with at least half of the shorter height inside the earlier box's band, are level; otherwise it starts lower). The band test catches a short box beside a tall one: chapter 2 r2, 5.3, put a one-line reply at the left, 135 px below the top of a three-line balloon but inside its band, and readers took the reply first. Placement is greedy, so an early chunk can take the quiet bottom of the frame and strand the rest; each rule is tried at the usual top preference (`TOP_WEIGHT`, 0.35) and then at stronger ones (`TOP_RETRY`). Greedy placement never revisits a chunk, so when every attempt fails because an earlier chunk's box stops a later one (a tail would cross it, or the later box would read before it), the panel is re-placed with that box barred from the spot it took, up to `REPAIR_ROUNDS` (4) times; a panel that placed without repair is placed exactly as before. A chunk that cannot meet these fails naming the chunk and what is in the way ("its
 tail would cross chunk 1's balloon", "its tail would cross a face (Duarte)", "its tail tip would point at another figure
 (Duarte)", "its box would read before chunk 0's").
+
+A chunk that no position of any wrap lets through with that long tail is tried again with the legacy short tail (60 percent of
+the way, 28 pt at most), and, if that places it, the reserve gets `tail_short: true` and the chunk is listed as `short_tail` in the
+report; later chunks are checked against the tail each earlier chunk was placed with. If the greedy order still strands a
+chunk, the planner as it was before tails knew heads is the last resort (every balloon with the short tail), and the long tail goes
+back on each balloon whose long tail reads right in that layout. Where neither places the panel the error is the long
+tail's, as ever.
 
 Two more wishes are soft: a chunk meets them where any position of any wrap allows, and is placed without them, as it
 always was, where none does. A balloon for a voice off frame keeps at least 8 pt plus the 0.8 pt stroke between its box

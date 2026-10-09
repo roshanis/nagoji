@@ -1,0 +1,2437 @@
+{
+  "summary": "Select candidates and mark face and keep zones for a sibling package with an explicit frames path",
+  "agentCount": 32,
+  "logs": [
+    "▸ running dynamic workflow v15-select-drawn",
+    "[v15-select-drawn] chapter 21: 23 picked, 15 need regeneration, 0 without a decision",
+    "▸ v15-select-drawn done",
+    "▸ running dynamic workflow v15-keep",
+    "▸ running dynamic workflow v15-faces2",
+    "[v15-keep] chapter 21: keep regions for 23 frames; beat missing from the art in 1: page-05-panel-05",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 21: face zones for 23 frames, 39 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 21,
+        "decisions": [
+          {
+            "id": "page-01-panel-01",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Only candidate v01 fails the continuity bible. Nagoji's face is right: topknot, grey temples, thick curled moustache, clean-shaven chin and gold ear stud. The setting is also good: laterite courtyard, squall, men dragging oiled cloth over barrels. But the Goa brand on his left wrist is drawn as a crisp dark-ink ring with a cross inside it. It reads as a tattoo or a cross symbol, while the bible requires a pale puckered patch of raised ridges with no letters and not a cross. He also has a fresh red cut on his left upper arm that is not in the bible, and the long forearm scar is reddish rather than white. Minor: the plan board sits on a raised wooden frame instead of lying in the mud.",
+            "correction": "Keep the composition, courtyard, squall, workers, barrels and Nagoji's face, topknot, grey temples, curled moustache, clean-shaven chin, gold ear stud, cream mundu, shoulder cloth and silver chain exactly as they are. Fix his LEFT forearm: the old Goa brand on the inner forearm a hand's width above the wrist is a faint, pale, slightly raised and puckered patch of healed burn scar, lighter than the surrounding skin, with soft blurred edges. It has no dark outline, no ring or circle, no cross, and no symbol, letter or numeral, so it must never look like a tattoo or a stamp. Beside it, the only other mark is one long, thin WHITE healed scar running from the wrist toward the elbow. No other marks anywhere on his arms or body: no red cuts, no fresh wounds, no tattoos. The abandoned plan board lies flat in the mud, spotted with rain, not on a stand."
+          },
+          {
+            "id": "page-01-panel-02",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Only candidate v01 shows the wrong beat. Nagoji is stepping OUT of a tall dark doorway toward the camera and the rainy courtyard, so the darkness is behind him and the rain is ahead. The script has him ducking INTO a low doorway, with rain behind him and darkness ahead. The lintel is well above his head, so he is not really ducking. His left arm also breaks the bible: a dark rosette tattoo on the upper arm, and the brand drawn as a dark inked ring with a glyph inside, which reads as a tattoo or pseudo-letter rather than a pale puckered burn patch. The cloth hood, visible topknot bump, curled moustache, clean-shaven chin and ear stud are all correct.",
+            "correction": "Keep Nagoji's look exactly as drawn: the loose fold of cream shoulder cloth held over his head with one hand like a rain hood, not wrapped or tied, with the bump of the topknot visible beneath it. Also keep the grey temples, thick curled moustache, clean-shaven chin, small gold ear stud, cream mundu and silver chain. Keep the rain, laterite walls and workers in the courtyard. Reverse the action: the camera is in the courtyard behind and beside him, and he is going INTO a LOW doorway in an inner laterite wall. The lintel is lower than his head, so he bends at the waist and ducks under it. His body leans forward into the black interior, and his face is in profile or three-quarter, turned toward the darkness ahead. Rain sheets off the tiled eaves directly above and behind him. The doorway ahead is unlit black. On his LEFT forearm the only marks are the old brand and the scar. The brand is a faint, pale, slightly raised and puckered patch of healed burn scar, lighter than the skin, with no dark outline, no ring, no cross and no symbol or letter. The scar is one long, thin WHITE healed line from wrist toward elbow. No tattoos, rosettes or other marks anywhere on his arms."
+          },
+          {
+            "id": "page-01-panel-03",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.583,
+                "y": 0.356
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.581,
+                "y": 0.305,
+                "r": 0.085
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. Ramayyan matches his sheet: thin face, receding hairline with curly side hair, plain white cloth, no chain. He sits cross-legged at a low table with a stylus, looking up calmly, framed by the door posts. The clay tags carry only abstract dots and bars, and the oil lamp is a brass bowl with an open wick. Minor: no visible ink stains on his fingers. For the RAMAYYAN balloon, use the plain grey wall beside the high window, upper centre and right (about x 0.60-0.68, y 0.05-0.30), or over the upper shelves. If panel 4 is regenerated, match this panel's very low table, unbarred slit window and brass bowl lamp.",
+            "correction": ""
+          },
+          {
+            "id": "page-01-panel-04",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Only candidate v01 fails on anatomy and continuity. Ramayyan's raised hand, the key gesture toward the shelves, shows only three spread fingers and no clear thumb. Each finger is blackened solid from the tip to the middle joint, so they read as black caps or gloves rather than ink stains. Nagoji's left forearm again carries the brand as a dark inked ring with a glyph inside, a tattoo or pseudo-letter rather than a pale puckered burn patch. Panel 3 continuity is also off: the table stands chest-high to the seated Ramayyan instead of low, the window is barred instead of a plain slit, and the lamp differs. The screen direction is correct (Nagoji left at the door, wet and dripping; Ramayyan right). Nagoji's face is correct (topknot, grey temple, curled moustache, clean-shaven chin, ear stud), and so is Ramayyan's.",
+            "correction": "Keep the two-shot: Nagoji stays in the near foreground at frame left, just inside the open door with rain beyond it, water dripping from his hair and cloth onto the swept floor. Keep his face, topknot, grey temples, thick curled moustache, clean-shaven chin, gold ear stud, cream mundu, shoulder cloth and silver chain as drawn. Ramayyan sits cross-legged at frame right. Match panel 3's room: a very LOW wooden table no higher than his knees, a single plain narrow unbarred slit window high in the back wall giving grey light, and a small brass bowl oil lamp with an open wick on the table. Ramayyan lifts his right hand toward the shelves, palm open and turned slightly up, like a man showing a guest his trees. Draw a complete, anatomically correct hand with five digits: a visible thumb and four relaxed, gently spread fingers. The ink stains are only small dark smudges on the fingertips and the side of the index and middle fingers. No finger is blackened along its length. On Nagoji's LEFT forearm, the brand is a faint, pale, slightly raised and puckered patch of healed burn scar, lighter than the skin, with no dark outline, no ring, no cross and no symbol or letter. The only other mark is one long, thin WHITE healed scar from wrist toward elbow. Leave the plain wall around the window and the upper shelves free of important detail for three speech balloons."
+          },
+          {
+            "id": "page-02-panel-01",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.747,
+                "y": 0.273
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.713,
+                "y": 0.176,
+                "r": 0.155
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Nagoji matches the ch21 look: topknot, grey at the temples, thick curled moustache, clean-shaven chin with skin texture only, gold ear stud, cream mundu with shoulder cloth, silver chain, no knife, coat or bandages. He moves along the same lamp-lit archive aisle with its barred rain window. His left palm rests on the shelf bundles, though the script says he turns sideways so he will not brush them. It still reads as him moving through the shelves. The foreground clay tags carry slot and dot tally marks, which count as abstract marks. Lettering space: the low-detail grey wall left of his face (about x 0.40-0.62, y 0.15-0.45) for NAGOJI, and the top-left or bottom-left corner over the tags and bundles for the CAPTION.",
+            "correction": ""
+          },
+          {
+            "id": "page-02-panel-02",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.715,
+                "y": 0.297
+              },
+              {
+                "copy_index": 1,
+                "x": 0.715,
+                "y": 0.297
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.729,
+                "y": 0.21,
+                "r": 0.13
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor acting deviation. Ramayyan looks down at the bundle, where the script says he does not look at his hands. The beat still reads: he sits at frame right and pulls the string loose with practised ease. He matches his sheet: thin face, receding hairline with curly sides, plain white cloth, ink-stained fingers, no chain. The lamp, low table and barred rain window match the room in 2.1 and 2.5. Lettering space: the plain wall and window shaft at top centre (about x 0.25-0.48, y 0.0-0.4) for the first line, and the shelves at top left for the second.",
+            "correction": ""
+          },
+          {
+            "id": "page-02-panel-03",
+            "pick": "v01",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Minor. The insert shows hands only and no faces. The lamp-lit leaf is held flat and square to camera and has exactly four empty bands with no marks, so the four LEAF lines can be lettered straight onto them. The ink-stained thumb sits in the left binding margin beside the second band rather than the first. It does not cover any band. The leaf fills about 82 percent of the frame width. The hands are anatomically sound and the white sleeves match Ramayyan's cloth.",
+            "correction": ""
+          },
+          {
+            "id": "page-02-panel-04",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The only candidate breaks the script and the LEAF lock. The script calls for the same leaf in the same framing as 2.3, with the camera slid down the leaf. Instead the leaf lies on the table in low-angle perspective and Ramayyan's chest and draped cloth fill the top right. His right hand is writing with a stylus, an action the script does not call for. The stylus tip rests inside the first band, where the long Loyalties line has to be lettered, which breaks the rule that nothing sits over a band. The hand positions also break continuity with 2.3, where both hands hold the leaf up.",
+            "correction": "Match panel 2.3's framing exactly, keeping the same lamp-lit archive, Ramayyan's ink-stained hands and his white sleeves at the bottom corners. This is the same palm leaf of the same bundle, still held up in both of Ramayyan's hands, flat and square to camera with its face parallel to the picture plane. It does not lie on the table and has no perspective foreshortening, and it fills the full width of the frame. The camera has only slid down the leaf: the upper part runs off the top edge of the frame, and only the lower part is visible, showing exactly two empty horizontal bands, the leaf's bottom edge and the binding cord through the holes on the left. There is no stylus, pen or writing, no marks, and nothing on or over either band. The ink-stained left thumb rests in the left margin beside the lower band, and the right hand grips the right end of the leaf at the same height. Show only hands and forearm sleeves, with no chest, torso or face."
+          },
+          {
+            "id": "page-02-panel-05",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.285,
+                "y": 0.214
+              },
+              {
+                "copy_index": 1,
+                "x": 0.738,
+                "y": 0.478
+              },
+              {
+                "copy_index": 2,
+                "x": 0.738,
+                "y": 0.478
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.254,
+                "y": 0.127,
+                "r": 0.125
+              },
+              {
+                "x": 0.765,
+                "y": 0.425,
+                "r": 0.095
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. The screen direction is right: Nagoji stands at frame left mid-cough with his fist at his mouth, and Ramayyan sits calm at frame right, watching him. Both match their sheets and the ch21 row: topknot, grey temples, curled moustache, ear stud, silver chain, cream mundu and shoulder cloth, no knife, coat or bandages. There is faint stubble shading at Nagoji's jaw. The brand on his raised left forearm is drawn as a small, fairly crisp spoked wheel near the elbow rather than a blurred puckered patch near the wrist. It has no letters and no cross, and the white scar sits beside it. Ramayyan holds a closed bundle and a stylus in his lap rather than an open leaf. Lettering space: the dark wall and window area at upper centre and right (about x 0.52-0.82, y 0.0-0.33) and the shelves at top right for both RAMAYYAN lines, and the shelves at top centre-left beside Nagoji's head for NAGOJI.",
+            "correction": ""
+          },
+          {
+            "id": "page-03-panel-01",
+            "pick": "v01",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.143,
+                "y": 0.076,
+                "r": 0.09
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. The leaf fills about two-thirds of the frame width, not the full width. The white cloth at top right is Ramayyan's shoulder and reads a little like a draped bundle. Otherwise clean: the ghosted Padmini bleeds in at the left with a stain-like edge and matches her sheet (coiled black hair, gold stud and necklace, cream sari with gold border, no blouse, walking stick). The leaf has empty ruled bands for both LEAF lines, the ink-stained fingers sit at the right edge, the clay tags carry only faint abstract marks, and there is dark table space at the bottom for the caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-03-panel-02",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The framing breaks the script. 3.2 calls for the same hands-only insert as 3.1, but v01 shows Ramayyan's full face and torso holding the leaf upright in mid-air. Page 3 keeps his face off-panel. His left thumb also rests over the upper band; the chapter's art lock says fingers sit in the margin beside a band, never over it. The ghosted Revathi at right is good: indigo and gold sari, jasmine braid, jhumkas, flat-coin necklace with tali, sandalwood line. No grey threads show in her hair.",
+            "correction": "Reframe as a hands-only insert that matches the previous panel. No head, face, shoulders or chest of Ramayyan anywhere in the frame. The palm leaf lies flat on the same dark wooden table, with the clay oil lamp and ink pot nearby, seen from above and square to camera. It fills the full width of the frame and has exactly two empty bands of bare leaf separated by single thin ruled lines: no outlined or framed boxes, no marks. Only Ramayyan's ink-stained hand enters from the bottom left, with one fingertip resting in the left margin beside the upper band, never over a band. Keep the ghosted Revathi Bayi exactly as drawn, bleeding in at the right edge with a stain-like ink border: indigo sari with gold zari border, jasmine in her black braid, gold jhumka earrings, flat-coin necklace with tali, sandalwood line at the hairline. Add a few fine grey threads at her temple."
+          },
+          {
+            "id": "page-03-panel-03",
+            "pick": "v01",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Clean. The leaf lies flat on the table, square to camera, with exactly three empty bands for the three LEAF lines. The lamp at right rakes across the leaf. Ramayyan's ink-stained hand (five sound digits, white sleeve, no face) rests at the left edge beside the binding. The clay tags are blank. No ghosted face. The archive room matches the neighbouring panels.",
+            "correction": ""
+          },
+          {
+            "id": "page-03-panel-04",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The two text bands are drawn as outlined cartouche boxes with notched corners. The chapter's art lock forbids this (bands are bare text reserves, no outlined boxes). It also means this 'same leaf' no longer matches the plain ruled leaf with the stick binding in 3.3. The top-left clay tag carries a crisp, character-like branched glyph rather than an abstract impressed mark. What works and should be kept: the extreme close, the ink-stained fingertip in the left margin beside the upper band, and the two short ink strokes under the right-hand third of the lower band.",
+            "correction": "Draw the two text bands exactly like the leaf in the previous panel: plain strips of bare palm leaf separated by single thin ruled lines running the full width. No outlined, framed, bordered or notch-cornered boxes or cartouches around the bands. Keep everything else as drawn: the extreme close-up filling the width of the frame, square to camera, with a stick binding through the leaf's holes as before; Ramayyan's ink-stained index fingertip resting in the left margin beside the upper band, not over it; and exactly two short ink strokes under the right-hand third of the lower band only. Show only one oil lamp. Any clay tags visible on the background shelves must be blank or carry only simple dots or short straight dashes, never a cross-shaped, branched or character-like sign."
+          },
+          {
+            "id": "page-03-panel-05",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Wrong framing. The script asks for a close on Nagoji's face, with only Ramayyan's ink-stained hand at the bottom laying the leaf face down. v01 is a medium two-shot with Ramayyan's full face and body, and he holds a second bundle. Nagoji's raised left forearm shows the Goa brand as a crisp dark tattoo of a cross-and-letter symbol. The bible requires a pale puckered patch blurred past reading, not a cross, with no letters. His topknot is only half-up, with long curls falling to his shoulders. What works: the moustache, clean chin, gold stud, grey temples, silver chain and the white forearm scar.",
+            "correction": "Reframe as a close-up on Nagoji's face alone, head and shoulders filling the upper two-thirds of the frame, his eyes cast down on the leaf below. Ramayyan's face and body must NOT appear. Only his ink-stained hand and wrist, in a plain white cloth sleeve, enter at the bottom edge, laying the single palm leaf face down on the dark wooden table. Nagoji, Ananthan Pillai look: Kerala topknot tied high on the crown with the hair gathered up into it, not hanging loose to the shoulders; first grey at the temples; thick curled moustache; clean-shaven chin; small gold ear stud; silver chain of office; cream shoulder cloth; no knife, no coat, no bandages. Keep both forearms out of frame so no brand shows. If the left forearm does show, the brand is only a pale puckered patch of raised ridges blurred past reading, never a dark tattoo, symbol, cross or letter. Leave plain dark shelf or wall space across the top of the frame for two captions, clear of his face."
+          },
+          {
+            "id": "page-04-panel-01",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 1,
+                "x": 0.612,
+                "y": 0.443
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.179,
+                "y": 0.098,
+                "r": 0.11
+              },
+              {
+                "x": 0.651,
+                "y": 0.313,
+                "r": 0.18
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor issues, still acceptable. The script implies a finger-on-leaf insert with Ramayyan off panel. Instead he is drawn in a medium shot, face visible, holding the blank leaf up square to camera with his ink-stained fingertip at its left margin. Because he is visible, his line should be lettered as a normal on-panel balloon with its tail pointing to his mouth. His face sits directly above the leaf, so the balloon should go above his head, at top centre over the window, wall and smoke edge, not just above the leaf. The leaf has a single empty band with grain only and no marks. De Lannoy's ghost matches his sheet and the ch16-23 row (pale hair tied back with a black ribbon, white stand-collar tunic-coat, white mundu), but he looks more like he is reading the letter by the flame than burning it. His letter carries faint ruled scribble lines with no letterforms. This is a minor pseudo-writing fault, like the accepted ch12 5.5 leaf. The setting matches the archive room: high barred window, clay lamp with an open wick, ink pot and stylus.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-02",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.283,
+                "y": 0.35
+              },
+              {
+                "copy_index": 1,
+                "x": 0.716,
+                "y": 0.236
+              },
+              {
+                "copy_index": 2,
+                "x": 0.283,
+                "y": 0.35
+              },
+              {
+                "copy_index": 3,
+                "x": 0.716,
+                "y": 0.236
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.253,
+                "y": 0.29,
+                "r": 0.15
+              },
+              {
+                "x": 0.754,
+                "y": 0.156,
+                "r": 0.125
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Clean on the beat. Nagoji sits at frame left in the ch21 look: topknot, grey at the temples, thick curled moustache, clean-shaven chin with only light ink stipple, small flush gold stud, silver chain, cream mundu and shoulder cloth, and no knife, bandages or coat. He wears a half smile that does not reach his eyes. Ramayyan stands at frame right, rising from the low table with one hand on the bundles and one on his knee, and matches his sheet. One minor fault: the brand on Nagoji's left forearm is a small circle with crossed spokes, a wheel-like symbol rather than blurred burned letters. It is tiny at print size, and the long white scar is correct. Ramayyan's head is close to the top edge, so put his long line at top centre over the window and wall, his 'Yes.' at top right over the shelves, and Nagoji's two lines over the shelves at upper left.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-03",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0,
+                "y": 0.4
+              },
+              {
+                "copy_index": 1,
+                "x": 0.685,
+                "y": 0.258
+              },
+              {
+                "copy_index": 2,
+                "x": 0.685,
+                "y": 0.258
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.665,
+                "y": 0.177,
+                "r": 0.11
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Clean. Ramayyan stands alone at frame right, matching his sheet: thin clean-shaven face, receding hairline, plain white cloth, ink-stained fingers. His hand rests on a shelved bundle, a slight sadness shows at the mouth, and he holds a stylus and bundle in the other hand. The clay tags carry double-stroke impressed marks, matching the abstract marks in 1.3, with no script. The plain wall under the high rain-streaked window at upper left leaves ample space for all three balloons, and Nagoji's off-panel tail goes to the left edge. One small spatial oddity: the low table is visible at left with no one at it, even though Nagoji sat beside it in 4.2.",
+            "correction": ""
+          },
+          {
+            "id": "page-04-panel-04",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.367,
+                "y": 0.28
+              },
+              {
+                "copy_index": 1,
+                "x": 0.661,
+                "y": 0.236
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.298,
+                "y": 0.187,
+                "r": 0.145
+              },
+              {
+                "x": 0.674,
+                "y": 0.161,
+                "r": 0.11
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable with minor continuity faults. On Nagoji, the long forearm scar is pinkish rather than white. A long scar appears on his RIGHT forearm (the arm reaching to the lamp), and the left forearm carries a shorter scar plus a star-shaped brand, so the scar is partly doubled onto the wrong arm. A local paint fix would remove the right-forearm scar. His mundu and shoulder cloth have gold border stripes, unlike the plain mundu in 4.2, though 6.1 also shows a gold border. His jaw shows light stipple stubble, but the chin reads clean-shaven, and the moustache, gold stud, topknot, grey temples and silver chain are all correct. Ramayyan sits at a low shelf at frame right, lifting the cover board off a bundle. He looks down into it rather than angling it toward Nagoji, but the beat reads. The inset at lower right is as scripted: a flat leaf with the board's shadow across its top margin, two empty bands below, and his thumb on the descending board. Letter the two LEAF lines in the middle and bottom bands. The shadow edges into the right end of the upper band, so keep that line left-weighted. Put Nagoji's balloon at upper left, over the window wall or between the heads, and Ramayyan's at upper right over the shelves.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-01",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.3,
+                "y": 0.202
+              },
+              {
+                "copy_index": 1,
+                "x": 0.788,
+                "y": 0.303
+              },
+              {
+                "copy_index": 2,
+                "x": 0.788,
+                "y": 0.303
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.277,
+                "y": 0.166,
+                "r": 0.16
+              },
+              {
+                "x": 0.798,
+                "y": 0.254,
+                "r": 0.117
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. Nagoji is at frame left, standing with his arms crossed and looking away. He has the topknot with grey at the temples, a thick curled moustache, a clean chin (faint shadow only), a gold stud, the silver chain, a plain cream mundu and shoulder cloth, and no knife or coat. Ramayyan is at frame right, composed, hands folded, fingers ink-stained, no chain. The archive room shows rain at the high window and a steady lamp. Minor flag for retouch: the brand on the crossed LEFT forearm is drawn as a small crisp reddish looped mark near the elbow on the outer forearm, not a pale puckered patch above the wrist. At print size it reads as a small mark rather than a letter, but a retoucher could soften it into a pale ridge patch. The shelves over the upper middle and the grey wall above Ramayyan leave room for all three balloons.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-02",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v01 breaks staging continuity with 5.1. Nagoji sits cross-legged on the floor, leaning back on the low table with a hand resting on his knee, a moment after 5.1 shows both men standing among the shelves. The relaxed seated pose also undercuts the beat 'turning to face him, hard'. His shoulder cloth and mundu now carry a gold-and-green border stripe, but they are plain cream in 5.1. Visible stubble shades his chin and jaw. The brand on his left forearm is drawn as a crisp inked emblem (a triangle or 'A' inside a loop), which reads as a tattoo or pseudo-letter, not a pale puckered scar.",
+            "correction": "Nagoji is STANDING, exactly as in the previous panel where both men stand among the shelves: a waist-up or three-quarter standing figure at frame left of centre, his body and head turning from the shelves toward frame right, where the off-panel Ramayyan stands. His shoulders are squared, his jaw set, brows drawn down, his mouth hard and unsmiling. He is not seated, not on the floor, not leaning on the table, and there is no relaxed hand on his knee. His mundu and shoulder cloth are plain cream with no gold or coloured border stripe, matching panel 5.1. His chin and jaw are smoothly clean-shaven with no stubble shading. Keep the inner LEFT forearm turned away from camera. If any of it shows, the brand is only a pale, puckered patch of raised ridges a hand's width above the wrist, never an inked symbol, emblem, letter or tattoo. Keep everything else that worked: the archive room with string-tied palm-leaf bundles and clay tags, the high barred window with rain beyond it, the warm small lamp, the topknot with first grey at the temples, the tiny gold ear stud and the silver chain. Leave the upper part of the frame over the shelves clear for two balloons."
+          },
+          {
+            "id": "page-05-panel-03",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.1,
+                "y": 1
+              },
+              {
+                "copy_index": 1,
+                "x": 0.1,
+                "y": 1
+              },
+              {
+                "copy_index": 2,
+                "x": 0.1,
+                "y": 1
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.656,
+                "y": 0.189,
+                "r": 0.1
+              },
+              {
+                "x": 0.782,
+                "y": 0.276,
+                "r": 0.076
+              },
+              {
+                "x": 0.456,
+                "y": 0.373,
+                "r": 0.18
+              },
+              {
+                "x": 0.849,
+                "y": 0.3,
+                "r": 0.055
+              },
+              {
+                "x": 0.117,
+                "y": 0.193,
+                "r": 0.062
+              },
+              {
+                "x": 0.204,
+                "y": 0.325,
+                "r": 0.05
+              },
+              {
+                "x": 0.046,
+                "y": 0.304,
+                "r": 0.045
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. The panel is a POV through a carved wooden jali screen. The sardar wears a pagadi, a silk angarkha and shawl and strings of pearls, with a ringed hand raised. The Brahmin astrologer in dhoti and uparna holds a leaf with only a blank ruled kundali grid, no numerals. The kneeling captain has a saffron pagadi, a grey-flecked beard, a bowed head and a sword sheathed at his hip, and only an executioner's shadow falls across his back. There is no blood and no text, and the carpet border is ornament only. Background guards wear cream angarkhas and pagdis. Minor points: the background saffron flag is a plain pennant rather than clearly swallow-tailed, and the stain-edged flashback border is not painted. The dark screen vignettes the frame, so the stain edge can be added at layout. The narrator speaks off-panel from the archive, so the tails go to the lower left edge. Clear floor centre-right, the top-left sky and pillars, and the lattice wall give room for all three lines.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-04",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.721,
+                "y": 0.267
+              },
+              {
+                "copy_index": 1,
+                "x": 0.721,
+                "y": 0.267
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.674,
+                "y": 0.195,
+                "r": 0.127
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. Ramayyan stands right of centre, head inclined, eyes lowered to the shelf his ink-stained hand rests on, a bundle in his other hand. He matches his sheet (thin face, receding hair, plain white cloth, no chain). Both hands are sound. He is back in the same archive room, with the barred rainy window and the low table. Minor: the lamp is a clay bowl here, where 5.1 and 5.2 show a brass one (both are allowed by the bible, and 5.5 also uses clay). Some clay tags carry simple 'II'-like impressed strokes, which count as abstract marks. The grey corridor wall and the upper-left shelves leave room for both balloons.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-05",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.573,
+                "y": 0.295
+              },
+              {
+                "copy_index": 1,
+                "x": 0.573,
+                "y": 0.295
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.578,
+                "y": 0.215,
+                "r": 0.122
+              },
+              {
+                "x": 0.778,
+                "y": 0.088,
+                "r": 0.088
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. Ramayyan has one ink-stained palm flat against a shelf of bundles (hand sound). His sharpened gaze is turned toward frame left, where Nagoji is off-panel, and he matches his sheet. Revathi bleeds in at the right in a blue stain, matching her sheet: indigo-and-gold sari, jasmine braid, gold armlets and bell earrings, a gold necklace with a pendant for the tali, a sandal line and grey at the parting. She raises one palm-out hand against a red-sealed letter held out from beyond the frame by a hand in a dark European cuff. The seal is a plain blob with no lettering. Minor: Ramayyan sits centre-right rather than hard frame right, because Revathi's bleed takes the right edge. The grey wall and window area at upper left and the shelves above his head leave room for both balloons.",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-01",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.7,
+                "y": 0.363
+              },
+              {
+                "copy_index": 1,
+                "x": 0.375,
+                "y": 0.321
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.286,
+                "y": 0.256,
+                "r": 0.165
+              },
+              {
+                "x": 0.76,
+                "y": 0.322,
+                "r": 0.135
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Both men are on sheet: Nagoji has the topknot, the curled moustache, a clean chin with only faint shading, the gold stud, the silver chain and grey at the temples. Ramayyan is bald-crowned with curly sides, clean-shaven, in white cloth with ink-stained fingers and no chain. Nagoji's brand and white scar are on the correct (left) forearm but sit near the elbow, not a hand's width above the wrist. Ramayyan sits fairly upright, not leaning hard over the table. The table has an extra bench section at the right edge. Lettering space: the dark back wall under and around the high window in the centre, and the shelves above Nagoji at top left. No text in the art; the tags are blank.",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-02",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.548,
+                "y": 0.356
+              },
+              {
+                "copy_index": 1,
+                "x": 0.548,
+                "y": 0.356
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.546,
+                "y": 0.272,
+                "r": 0.12
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Ramayyan's eyes are cast down toward the bundle, so the script's 'knotting the string without looking' is softened. The retying action itself is clear, and the hands are sound and ink-stained. He is on sheet, with the same room, lamp and rainy high window. Lettering space: the plain dark wall right of centre, under and beside the window.",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-03",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.747,
+                "y": 0.372
+              },
+              {
+                "copy_index": 1,
+                "x": 0.747,
+                "y": 0.372
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.142,
+                "y": 0.313,
+                "r": 0.09
+              },
+              {
+                "x": 0.708,
+                "y": 0.332,
+                "r": 0.075
+              }
+            ],
+            "backup_faces": [],
+            "issues": "There is a small white scar on Nagoji's near (right) upper arm; the bible puts the scar only on the inner left forearm. It is tiny at this scale. The table reads longer than the low table in 6.1. Otherwise the beat is right: a high angle, Ramayyan standing and sliding the bundle into the wall of tagged bundles, and Nagoji small beside the table, with topknot, moustache, clean chin, stud and chain. Lettering space: the open floor between Nagoji and the table and shelves for the two Ramayyan balloons, and the upper-left wall by the window for the caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-04",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.233,
+                "y": 0.192
+              },
+              {
+                "copy_index": 1,
+                "x": 0.724,
+                "y": 0.314
+              },
+              {
+                "copy_index": 2,
+                "x": 0.724,
+                "y": 0.314
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.182,
+                "y": 0.156,
+                "r": 0.146
+              },
+              {
+                "x": 0.76,
+                "y": 0.278,
+                "r": 0.13
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Nagoji is standing at the left with his arms folded, on sheet with a clean chin and the stud. His brand shows faintly on the left forearm near the elbow, as a blank ring with no letters. Ramayyan is at the right, turned back from the shelf toward him with the bundle still in hand. His fingertips are very heavily blackened with ink. Lettering space: the wall and upper shelves between the two heads, around the high window, top centre.",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-05",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.66,
+                "y": 0.236
+              },
+              {
+                "copy_index": 1,
+                "x": 0,
+                "y": 0.2
+              },
+              {
+                "copy_index": 2,
+                "x": 0.879,
+                "y": 0.84
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.685,
+                "y": 0.171,
+                "r": 0.117
+              },
+              {
+                "x": 0.872,
+                "y": 0.742,
+                "r": 0.205
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Ramayyan is seated at the table with a stylus again, after standing at the shelf in 6.4, which is a posture jump. A soft-focus cream-clothed shoulder of the other man intrudes at frame left, so he is not fully off-panel; it reads as an over-the-shoulder view of Nagoji, with no face. The inset smile reads gentle and wistful more than a sad twist, though the eye lines show weariness. The inset slightly clips the end of the bundle. Lettering space: the back wall and window column at top left for Ramayyan's long line, the shelves and soft shoulder at the upper left edge for Nagoji's off-panel line, and the cream cloth at the lower left of the inset for the inset line, clear of the face.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-01",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.278,
+                "y": 0.202
+              },
+              {
+                "copy_index": 1,
+                "x": 0.742,
+                "y": 0.504
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.26,
+                "y": 0.15,
+                "r": 0.14
+              },
+              {
+                "x": 0.758,
+                "y": 0.468,
+                "r": 0.08
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: the Goa brand on Nagoji's left forearm is a small reddish circular stamp with a mark inside, not a pale puckered patch. It is tiny at print size and not legible. The grey at his temples is a little heavier than 'first grey'. Ramayyan sits mid-size at frame right rather than small among the shelves. Otherwise clean: Nagoji at the door at frame left looking back, with topknot, thick curled moustache, clean chin, gold stud, silver chain and cream mundu with shoulder cloth. Ramayyan matches his sheet with ink-stained fingers and no chain. Pale drizzle light comes through the high window. The bundle tags are blank. Lettering can sit on the plain back wall around the window and above Ramayyan's head.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-02",
+            "pick": "v01",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.322,
+                "y": 0.238
+              },
+              {
+                "copy_index": 1,
+                "x": 0.762,
+                "y": 0.327
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.27,
+                "y": 0.15,
+                "r": 0.15
+              },
+              {
+                "x": 0.82,
+                "y": 0.25,
+                "r": 0.12
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: the lamp sits on a standing-height table, while 7.1 and 7.4 show the low floor table. The brand is again a small dark circular stamp rather than a pale puckered patch, not legible at print size. The tags carry very faint scratch marks that do not show at page scale. Two-shot is correct: Nagoji at frame left squaring up, Ramayyan at frame right unmoved with ink-stained fingers and no chain. The plain grey back wall between them (x 0.43 to 0.65, y 0.03 to 0.40) takes both balloons.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-03",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The beat is wrong and there is pseudo-text. The script asks for a tight shot on Ramayyan with only Nagoji's wrist and hand at the lower-left edge and no face. v01 shows Nagoji's head in profile (moustache, ear stud, hair), his chain and his whole arm across the left half, and Ramayyan is not tight. The brand is drawn as a crisp dark letter-like glyph resembling the Greek letter phi. That reads as a legible letter or cross, which the bible forbids, and counts as painted pseudo-text.",
+            "correction": "Frame this as a tight close-up on Ramayyan alone. His head and shoulders fill the right two-thirds of the frame, eyes lowered toward the lower-left corner. Nagoji's head, face, ear, moustache, hair, chest and chain must NOT appear anywhere in the frame. The only part of him in frame is his bare left wrist and hand entering from the lower-left edge, palm up, with a sliver of cream shoulder cloth at the very edge. On the inner side of that left forearm, a hand's width above the wrist, the Goa brand is a pale, puckered patch of raised scar ridges with soft irregular edges, blurred past reading, only lighter than the surrounding skin. It has no letter, no symbol, no circle, no cross, no Greek letter and no dark ink line. A long, thin, smooth white scar runs from the wrist toward the elbow beside it. Keep the archive room as drawn: shelves of tagged palm-leaf bundles, the high barred window with soft pale drizzle light and the small brass lamp. Keep Ramayyan's look: thin face, receding hairline, curly hair at the back, plain white cloth, ink-stained fingers, no chain. Leave the dim upper-left back wall plain and low-detail for two speech balloons."
+          },
+          {
+            "id": "page-07-panel-04",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Ramayyan's hand on the bundles is the key action, and it shows only four fingers with no thumb. There is pseudo-text: a faint column of glyph-like characters is printed down Nagoji's cream shoulder cloth at about x 0.20 to 0.25, y 0.50 to 0.58. Smaller points: the forearm scar is drawn as a stitched, barbed line rather than a thin smooth white scar, and Nagoji is as sharply rendered as Ramayyan rather than soft. Composition, setting, low table and lamp, and both costumes are otherwise right.",
+            "correction": "Keep this composition exactly: Ramayyan at frame right with his back to Nagoji, the low table and lamp, the high window, and Nagoji standing in the background at frame left with his hands behind his back. Draw Ramayyan's raised right hand pressed flat against the bundles with all five digits clearly visible. The thumb lies flat on the bundles, spread out to the left of the index finger, with the four ink-tipped fingers above it. Nagoji's cream shoulder cloth and mundu are plain undyed cotton with no printed pattern and no glyphs, characters, letters or border writing anywhere on the cloth. The forearm scar is a single long, thin, smooth white line, not stitched, branched or barbed. Render Nagoji slightly softer and less detailed than Ramayyan so he reads as background. Keep the grey back wall between them plain and low-detail for three speech balloons."
+          },
+          {
+            "id": "page-07-panel-05",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Varma breaks the script and the bible row for chapter 21. The row asks for a festival memory with Varma younger than at the dedication and dark hair bound back. Here his hair is heavily streaked with grey and tied in a high knot. With his curled moustache, that makes him read like Nagoji's own chapter 21 look (topknot, grey at the temples), when the script says the narrator is not in frame. The assassin, the lean man with the dark shoulder cloth, stands far across the courtyard instead of two steps from the king, and he is fully lit rather than in silhouette. Smaller point: Varma's mundu has a gold border where the script asks for a plain one. The setting is otherwise good: lamps, women setting lamps, small priests, the bowed crowd, stain-edged borders, and a clear sky band for captions.",
+            "correction": "Marthanda Varma must read as a young man in his early thirties, clearly younger than at the later dedication. His hair is entirely jet black with NO grey or silver streaks anywhere, bound back in a plain low knot at the nape. His face is exactly as on the varma-v1 sheet: long face, high cheekbones, upturned curled moustache, no beard. He wears no crown, is bare-chested in a plain cream mundu with no gold border, and sweeps the stones with the broom. He must not resemble Nagoji: no topknot high on the crown, no grey at the temples. Move the lone lean man in the plain mundu with the dark cloth knotted over one shoulder so he stands upright just two paces from the king, nearer than anyone else in the crowd. Back-light him with the lamp glow behind so he reads as a dark silhouette, face in shadow, against the lit, bowed backs around him. Keep everything else: the lamp-lined inner stones at dusk, the women setting rows of oil lamps along the walls, the small faceless priests far back, the bowed crowd ring, the stain-edged borders and warm lamp palette, and the clear dusk sky band across the top for two caption boxes."
+          },
+          {
+            "id": "page-08-panel-01",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v01 gets the grapple backwards and puts the brand on the wrong man. The branded forearm is attached to the bare figure at frame right, the king's position, so it reads as the king grabbing the knife hand. The script wants a separate defender's forearm entering from the frame edge with no torso. The knife man at left wears a cream gold-bordered shoulder cloth and a heavy silver chain, so he looks like Nagoji in his ch21 chain of office. He should look like the 7.5 assassin: plain mundu, dark cloth over one shoulder. The brand is a crisp dark spiral tattoo. The bible wants a pale, puckered patch of raised ridges blurred past reading, not a symbol. Both men also show large headless torsos instead of one action held in hands.",
+            "correction": "Redraw as a tight close-up that holds only hands, forearms and the knife, with no chests, torsos or faces. The assassin's bare right forearm and hand enter from the LEFT frame edge. He wears no chain or jewellery, and only the edge of a dark shoulder cloth shows at the frame edge. His hand grips a short plain dagger whose point drives toward the edge of the king's bare side and plain white mundu waist at frame right. The king's own arms stay raised and away and touch nothing. The defender is a SEPARATE bare LEFT forearm and hand entering from the BOTTOM frame edge, not attached to the king or to any visible body, and its hand clamps the assassin's knife wrist from below. On the inner side of that defender's forearm, a hand's width above the wrist, the Goa brand is a pale, puckered patch of raised scar ridges blurred past reading, with a long thin white scar beside it running toward the elbow. It has no ink, no tattoo, no spiral, no emblem and no cross. Nobody in the frame wears a silver chain. Keep this version's stain-edged parchment memory border, the warm lamp palette, the lamp-lit temple courtyard and crowd behind, and the wet stone floor."
+          },
+          {
+            "id": "page-08-panel-02",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v01 has everything the script asks for: high, distant aftermath, two cloth-covered forms, broken pots, flowers, spilled oil (not blood), the dropped knife, the broom in the oil, kneeling Nair guards with shields and curved swords, Varma sitting up with a hand to his head, a third man's back vanishing into the crowd at upper right, and clear night sky at the top for the caption. But the frame has clean edges with none of the stain-edged memory border that the script requires for 8.2 and that 7.5 and 8.1 both carry. On this page 8.3 returns to clean borders to mark the present, so 8.2 would read as the present. Varma also shows grey streaks in his hair, against the ch21 bible row (younger, dark hair) and the must-match line (never the sheet's grey). He also wears gold necklaces and a gold-bordered mundu instead of the plain mundu. Minor: the guards' topknots sit on the crown, not forward.",
+            "correction": "Keep this composition exactly: the high, distant aftermath, the two cloth-covered forms, broken clay pots, scattered flowers, golden spilled oil, the dropped knife, the broom in the oil, the kneeling Nair guards with round shields and curved swords, Varma sitting up at centre with one hand to his head, the bare-backed third man vanishing into the crowd at upper right, and the open night sky across the top for the caption. Paint the same irregular, burnt, stain-edged parchment memory border used on the festival panels around all four edges of the picture. This border is an intended memory effect, not a panel border line. Draw Marthanda Varma with jet-black hair bound back, with no grey or silver streaks anywhere, wearing a plain cream mundu with no gold border and no necklaces, as in his younger festival look."
+          },
+          {
+            "id": "page-08-panel-03",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The composition works: Nagoji reclining under the jackfruit tree on the stone platform, eyes open, the hanging raindrop, a big clear starry sky for the three captions, the dry courtyard. But the brand is drawn as a pale CROSS-shaped scar on the back of his left wrist. The bible forbids a cross and puts the brand on the inner forearm as a blurred puckered patch. The ear ornament is a gold ball hanging below the lobe, not a flush stud. His chin and jaw also carry visible stubble shading.",
+            "correction": "Keep this composition exactly: Nagoji reclining on his back against the jackfruit trunk on the stone platform, his right arm behind his head, eyes open looking up, the single raindrop hanging from a leaf, the clear starry sky across the upper right for captions, and the dry courtyard and tiled buildings. His LEFT forearm rests across his stomach turned inner-side down, so neither the brand nor the scar is visible. There is no mark of any kind on the back of his hand, wrist or forearm, and never a cross shape. His ear carries only a tiny flush gold stud on the lobe with nothing hanging below it. His chin and jaw are smooth and clean-shaven with no stubble shading, under the thick curled moustache. Keep the silver chain, the cream mundu and shoulder cloth, and the Kerala topknot with only the first grey at the temples."
+          },
+          {
+            "id": "page-08-panel-04",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The split works well: cold grey left half with the dark-cuffed clerk's hand, quill and blank ruled ledger, warm lamp-lit right half with Ramayyan's ink-stained fingers, stylus and palm leaf, no faces and no painted text. There is room for the LEDGER line on the ruled page, for the LEAF line on the leaf left of the stylus, and for captions on the grey wall at top left and the plain table areas. But the clerk's quill ends in a black steel dip-pen nib with a metal collar. That is a 19th-century object in a 1738 Goa ledger, and it sits right where the LEDGER entry is lettered. Minor: the leaf shows several bands rather than one, and Ramayyan's resting left fingertips lie on the leaf rather than beside it.",
+            "correction": "Keep everything in this split panel: the cold grey left half with the dark-cuffed, lace-edged clerk's hand, the ruled ledger page with its blank lines, the pewter inkpot and the seal; the warm right half with Ramayyan's ink-stained fingers holding the stylus, the palm-leaf bundle, the brass open-wick lamp and the ink cup; and the quiet grey wall at top left and the plain table surfaces. Change only the pen: the clerk writes with a plain goose-feather quill whose own hollow shaft is cut to a point at the tip, a translucent horn colour darkened only by wet ink at the very point. Draw NO metal nib, no nib holder, no ferrule, collar or band. Ramayyan's resting left fingertips sit on the table beside the right end of the leaf, not on it, so the leaf's top band is bare from end to end."
+          },
+          {
+            "id": "page-08-panel-05",
+            "pick": "v01",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.428,
+                "y": 0.703,
+                "r": 0.03
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Acceptable. It matches the script: a high pull-back over the courtyard, the jackfruit tree, Nagoji small and reclining on the stone platform, consistent with his pose in 8.3. He has his topknot, moustache, clean chin, cream mundu and shoulder cloth, and a faint silver chain. Stars overhead, and a storm bank with silent lightning glowing over the sea on the far right horizon. Caveats for the letterer: the clear sky is only a narrow strip above the palms (about x 0.50 to 0.78, y 0 to 0.15) because the canopy fills the top centre. The four captions will need to stack there and spill onto the dark treeline and the open courtyard ground at lower right (about x 0.56 to 0.72, y 0.62 to 0.95), keeping clear of the storm glow at upper right and of Nagoji. Minor: one lamp-lit verandah at left makes the estate less than fully dark, and a tiny pale mark on his upper arm is invisible at print size.",
+            "correction": ""
+          }
+        ],
+        "missing": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 21,
+        "result": {
+          "chapter": 21,
+          "panels": [
+            {
+              "id": "page-01-panel-03",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.586,
+                  "y": 0.341,
+                  "r": 0.042,
+                  "who": "scribe in white, seated at low desk, three-quarter view, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-02-panel-01",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.738,
+                  "y": 0.259,
+                  "r": 0.071,
+                  "who": "Nagoji, three-quarter profile looking right, centre-right"
+                }
+              ]
+            },
+            {
+              "id": "page-02-panel-02",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.721,
+                  "y": 0.277,
+                  "r": 0.058,
+                  "who": "balding scribe, looking down at bundle, right"
+                }
+              ]
+            },
+            {
+              "id": "page-02-panel-03",
+              "version": "v01",
+              "faces": []
+            },
+            {
+              "id": "page-02-panel-05",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.277,
+                  "y": 0.205,
+                  "r": 0.063,
+                  "who": "Nagoji, fist to mouth, standing left"
+                },
+                {
+                  "x": 0.748,
+                  "y": 0.457,
+                  "r": 0.054,
+                  "who": "balding scribe, seated at desk, three-quarter looking left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-03-panel-01",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.1755,
+                  "y": 0.0915,
+                  "r": 0.035,
+                  "who": "grey-haired woman with staff, profile facing right, top left inset"
+                }
+              ]
+            },
+            {
+              "id": "page-03-panel-03",
+              "version": "v01",
+              "faces": []
+            },
+            {
+              "id": "page-04-panel-01",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.146,
+                  "y": 0.143,
+                  "r": 0.04,
+                  "who": "blond European in white coat, profile, upper left"
+                },
+                {
+                  "x": 0.626,
+                  "y": 0.401,
+                  "r": 0.088,
+                  "who": "balding scribe, three-quarter, centre right"
+                }
+              ]
+            },
+            {
+              "id": "page-04-panel-02",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.27,
+                  "y": 0.333,
+                  "r": 0.058,
+                  "who": "moustached man with topknot, three-quarter, left"
+                },
+                {
+                  "x": 0.72,
+                  "y": 0.21,
+                  "r": 0.055,
+                  "who": "balding scribe, three-quarter, right"
+                }
+              ]
+            },
+            {
+              "id": "page-04-panel-03",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.684,
+                  "y": 0.232,
+                  "r": 0.054,
+                  "who": "balding scribe, three-quarter looking down, right"
+                }
+              ]
+            },
+            {
+              "id": "page-04-panel-04",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.349,
+                  "y": 0.256,
+                  "r": 0.054,
+                  "who": "moustached man with topknot, three-quarter, chin on hand, left"
+                },
+                {
+                  "x": 0.65,
+                  "y": 0.226,
+                  "r": 0.046,
+                  "who": "balding scribe, three-quarter looking down, centre right"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-01",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.292,
+                  "y": 0.196,
+                  "r": 0.058,
+                  "who": "moustached man with topknot, three-quarter, arms crossed, left"
+                },
+                {
+                  "x": 0.797,
+                  "y": 0.283,
+                  "r": 0.052,
+                  "who": "balding archivist in white, three-quarter, right"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-03",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.4857,
+                  "y": 0.466,
+                  "r": 0.06,
+                  "who": "kneeling grey-bearded man in orange turban, head bowed, profile, centre"
+                },
+                {
+                  "x": 0.648,
+                  "y": 0.243,
+                  "r": 0.05,
+                  "who": "seated ruler in white turban, hand raised, centre-right"
+                },
+                {
+                  "x": 0.781,
+                  "y": 0.305,
+                  "r": 0.04,
+                  "who": "shaven priest reading chart, eyes down, right"
+                },
+                {
+                  "x": 0.1166,
+                  "y": 0.228,
+                  "r": 0.03,
+                  "who": "turbaned spear guard, background left"
+                },
+                {
+                  "x": 0.204,
+                  "y": 0.336,
+                  "r": 0.027,
+                  "who": "turbaned spear guard by pillar, background left-centre"
+                },
+                {
+                  "x": 0.045,
+                  "y": 0.312,
+                  "r": 0.022,
+                  "who": "moustached guard seen through lattice, far left"
+                },
+                {
+                  "x": 0.8486,
+                  "y": 0.319,
+                  "r": 0.026,
+                  "who": "turbaned guard, background right"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-04",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.709,
+                  "y": 0.246,
+                  "r": 0.053,
+                  "who": "balding archivist in white, three-quarter looking down, right"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-05",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.568,
+                  "y": 0.27,
+                  "r": 0.06,
+                  "who": "balding archivist in white, looking back over shoulder, centre"
+                },
+                {
+                  "x": 0.811,
+                  "y": 0.126,
+                  "r": 0.045,
+                  "who": "woman in blue sari with jasmine braid (inset vision), upper right"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-01",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.371,
+                  "y": 0.296,
+                  "r": 0.053,
+                  "who": "Nagoji, three-quarter profile facing right, chin on fist, left"
+                },
+                {
+                  "x": 0.705,
+                  "y": 0.356,
+                  "r": 0.048,
+                  "who": "balding scribe, profile facing left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-02",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.556,
+                  "y": 0.331,
+                  "r": 0.049,
+                  "who": "balding scribe, looking down at bundle, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-03",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.17,
+                  "y": 0.342,
+                  "r": 0.035,
+                  "who": "Nagoji, three-quarter view looking up, left"
+                },
+                {
+                  "x": 0.737,
+                  "y": 0.363,
+                  "r": 0.033,
+                  "who": "balding scribe at shelves, three-quarter view, right"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-04",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.219,
+                  "y": 0.175,
+                  "r": 0.054,
+                  "who": "Nagoji, three-quarter profile facing right, arms crossed, left"
+                },
+                {
+                  "x": 0.736,
+                  "y": 0.288,
+                  "r": 0.057,
+                  "who": "balding scribe, glancing sideways, right"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-05",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.669,
+                  "y": 0.212,
+                  "r": 0.058,
+                  "who": "balding scribe, seated, three-quarter view, upper right"
+                },
+                {
+                  "x": 0.879,
+                  "y": 0.786,
+                  "r": 0.112,
+                  "who": "balding scribe close-up inset, smiling, lower right"
+                }
+              ]
+            },
+            {
+              "id": "page-07-panel-01",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.282,
+                  "y": 0.187,
+                  "r": 0.051,
+                  "who": "Nagoji, three-quarter right, standing at left by door"
+                },
+                {
+                  "x": 0.749,
+                  "y": 0.494,
+                  "r": 0.042,
+                  "who": "balding scribe seated cross-legged at right, three-quarter left"
+                }
+              ]
+            },
+            {
+              "id": "page-07-panel-02",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.312,
+                  "y": 0.218,
+                  "r": 0.061,
+                  "who": "Nagoji, three-quarter right, left"
+                },
+                {
+                  "x": 0.774,
+                  "y": 0.305,
+                  "r": 0.058,
+                  "who": "balding scribe with palm-leaf bundle, three-quarter left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-05",
+              "version": "v01",
+              "faces": [
+                {
+                  "x": 0.4315,
+                  "y": 0.705,
+                  "r": 0.018,
+                  "who": "Nagoji, reclining against jackfruit tree trunk, three-quarter view, centre-left"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 21,
+        "result": {
+          "chapter": 21,
+          "panels": [
+            {
+              "id": "1.3",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.5,
+                  "y0": 0.46,
+                  "x1": 0.63,
+                  "y1": 0.63,
+                  "what": "Ramayyan's hand holding the stylus over a palm-leaf bundle"
+                },
+                {
+                  "x0": 0.35,
+                  "y0": 0.62,
+                  "x1": 0.42,
+                  "y1": 0.72,
+                  "what": "small coconut-oil lamp burning on the low table"
+                },
+                {
+                  "x0": 0.2,
+                  "y0": 0.3,
+                  "x1": 0.32,
+                  "y1": 0.45,
+                  "what": "string-tied palm-leaf bundles on the shelves with clay tags bearing abstract marks"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "2.1",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0,
+                  "y0": 0.36,
+                  "x1": 0.3,
+                  "y1": 0.74,
+                  "what": "foreground row of clay tags with abstract impressed marks on their strings"
+                },
+                {
+                  "x0": 0.48,
+                  "y0": 0.28,
+                  "x1": 0.91,
+                  "y1": 0.72,
+                  "what": "Nagoji's body turned sideways between the shelves, hand held near the bundles"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "2.2",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.53,
+                  "y0": 0.41,
+                  "x1": 0.8,
+                  "y1": 0.7,
+                  "what": "Ramayyan's hands pulling the string loose from the bundle, ink-stained fingers on the bundle"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "2.3",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.1,
+                  "y0": 0.225,
+                  "x1": 0.875,
+                  "y1": 0.66,
+                  "what": "leaf flat to camera with its four empty text bands and the ink-stained thumb in the left margin (note: the thumb sits beside band 2, not band 1)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "2.5",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.25,
+                  "y0": 0.17,
+                  "x1": 0.35,
+                  "y1": 0.3,
+                  "what": "Nagoji's fist at his mouth, mid-cough"
+                },
+                {
+                  "x0": 0.66,
+                  "y0": 0.68,
+                  "x1": 0.89,
+                  "y1": 0.83,
+                  "what": "leaf held open in Ramayyan's lap"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "3.1",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.035,
+                  "y0": 0.01,
+                  "x1": 0.235,
+                  "y1": 0.59,
+                  "what": "Padmini Amma ghosted at left edge, stain-like edge, sari and walking stick planted beside her"
+                },
+                {
+                  "x0": 0.207,
+                  "y0": 0.35,
+                  "x1": 0.892,
+                  "y1": 0.73,
+                  "what": "blank leaf, square to camera, with its two empty ruled bands for the LEAF lettering"
+                },
+                {
+                  "x0": 0.815,
+                  "y0": 0.37,
+                  "x1": 1,
+                  "y1": 0.7,
+                  "what": "Ramayyan's ink-stained fingers resting at the leaf's right edge, ready to turn it"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "3.3",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.1,
+                  "y0": 0.475,
+                  "x1": 0.95,
+                  "y1": 0.73,
+                  "what": "blank leaf flat on table, square to camera, three empty horizontal bands, raked by lamplight"
+                },
+                {
+                  "x0": 0,
+                  "y0": 0.34,
+                  "x1": 0.245,
+                  "y1": 0.6,
+                  "what": "Ramayyan's ink-stained hand resting still at the leaf's left edge"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-04-panel-01",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.36,
+                  "y0": 0.52,
+                  "x1": 0.89,
+                  "y1": 0.68,
+                  "what": "Ramayyan's ink-stained fingertip in the left margin of the flat one-band Lannoy leaf"
+                },
+                {
+                  "x0": 0,
+                  "y0": 0.18,
+                  "x1": 0.13,
+                  "y1": 0.38,
+                  "what": "ghosted De Lannoy's hands holding the folded letter at the candle flame"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-04-panel-02",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.86,
+                  "y0": 0.56,
+                  "x1": 0.94,
+                  "y1": 0.69,
+                  "what": "Ramayyan's hand pushing on his knee as he rises"
+                },
+                {
+                  "x0": 0.6,
+                  "y0": 0.7,
+                  "x1": 0.69,
+                  "y1": 0.81,
+                  "what": "Ramayyan's other hand pushing off the table bundles"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-04-panel-03",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.85,
+                  "y0": 0.25,
+                  "x1": 0.97,
+                  "y1": 0.43,
+                  "what": "Ramayyan's hand resting on the far shelf bundle with its clay tag of impressed marks"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-04-panel-04",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.63,
+                  "y0": 0.578,
+                  "x1": 1,
+                  "y1": 1,
+                  "what": "inset: exposed two-band leaf with the cover board swinging down, Ramayyan's thumb on it, shadow across the top margin"
+                },
+                {
+                  "x0": 0.53,
+                  "y0": 0.31,
+                  "x1": 0.72,
+                  "y1": 0.53,
+                  "what": "Ramayyan's hands lifting the wooden cover board off the drawn bundle"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-05-panel-01",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.73,
+                  "y0": 0.77,
+                  "x1": 0.83,
+                  "y1": 0.88,
+                  "what": "Ramayyan's hands folded at his waist (scripted composed pose)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-05-panel-03",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.31,
+                  "y0": 0.26,
+                  "x1": 0.41,
+                  "y1": 0.8,
+                  "what": "Executioner's raised-arm shadow across the kneeling captain's back, plus his still-sheathed sword hilt at the hip"
+                },
+                {
+                  "x0": 0.56,
+                  "y0": 0.17,
+                  "x1": 0.605,
+                  "y1": 0.33,
+                  "what": "Sardar's ringed hand raised in judgement"
+                },
+                {
+                  "x0": 0.735,
+                  "y0": 0.39,
+                  "x1": 0.805,
+                  "y1": 0.555,
+                  "what": "Astrologer's horoscope leaf with blank kundali grid"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-05-panel-04",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.84,
+                  "y0": 0.37,
+                  "x1": 0.95,
+                  "y1": 0.5,
+                  "what": "Hand on the tagged shelf bundles his eyes are fixed on (gaze target)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-05-panel-05",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.45,
+                  "y0": 0.46,
+                  "x1": 0.54,
+                  "y1": 0.67,
+                  "what": "Ramayyan's palm laid flat against the shelf of bundles"
+                },
+                {
+                  "x0": 0.84,
+                  "y0": 0.15,
+                  "x1": 1,
+                  "y1": 0.4,
+                  "what": "Revathi's raised palm refusing the wax-sealed letter held by a hand in a dark European cuff"
+                }
+              ],
+              "beat_present": false,
+              "missing": "Ramayyan's eyes are cut sideways toward frame right, at the Revathi vignette and the Dutch hand. They should be lifted toward Nagoji, off-panel at frame left, so the page's closing beat, his sharpening gaze turning on Nagoji, is not drawn. A crop cannot fix the direction of his gaze."
+            },
+            {
+              "id": "6.1",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.5,
+                  "y0": 0.56,
+                  "x1": 0.58,
+                  "y1": 0.72,
+                  "what": "lamp flame on the low table between the two men"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "6.2",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.42,
+                  "y0": 0.55,
+                  "x1": 0.64,
+                  "y1": 0.71,
+                  "what": "ink-stained hands knotting the string around the bundle (note: he watches his hands, while the script says he knots it without looking)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "6.3",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.84,
+                  "y0": 0.27,
+                  "x1": 0.97,
+                  "y1": 0.4,
+                  "what": "Ramayyan's hand sliding the bundle back into its shelf slot"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "6.4",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.11,
+                  "y0": 0.42,
+                  "x1": 0.36,
+                  "y1": 0.61,
+                  "what": "Nagoji's folded arms"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "6.5",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.7,
+                  "y0": 0.585,
+                  "x1": 1,
+                  "y1": 1,
+                  "what": "inset, lower right: Ramayyan's tired, sad smile (keep the whole inset with its border)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "7.1",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.06,
+                  "y0": 0.38,
+                  "x1": 0.12,
+                  "y1": 0.5,
+                  "what": "Nagoji's hand on the door edge (he is at the door, ready to leave)"
+                },
+                {
+                  "x0": 0.63,
+                  "y0": 0.42,
+                  "x1": 0.9,
+                  "y1": 0.82,
+                  "what": "Ramayyan seated small at frame right among his shelves"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "7.2",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.73,
+                  "y0": 0.59,
+                  "x1": 0.91,
+                  "y1": 0.82,
+                  "what": "Ramayyan's ink-stained fingers on stylus and leaf bundle"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "8.5",
+              "version": "v01",
+              "keep": [
+                {
+                  "x0": 0.39,
+                  "x1": 0.51,
+                  "y0": 0.62,
+                  "y1": 0.86,
+                  "what": "Nagoji lying small on the stone platform at the jackfruit trunk"
+                },
+                {
+                  "x0": 0.81,
+                  "x1": 0.98,
+                  "y0": 0.09,
+                  "y1": 0.25,
+                  "what": "far cloud bank over the sea glowing with silent lightning (the next storm)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-select-drawn",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch21 p1",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a887785a2c0bc3a7c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407548011,
+      "queuedAt": 1791407547992,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 1 of Chapter 21 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791407705832,
+      "tokens": 105176,
+      "toolCalls": 35,
+      "durationMs": 157821,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-01-panel-01\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"Only candidate v01 fails the continuity bible. Nagoji's face is right: topknot, grey temples, thick curled moustache, clean-shaven chin and gold ear stud. The setting is also good: laterite courtyard, squall, men dragging oiled cloth over barrels. But the Goa brand o…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch21 p2",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a2bfa7854c3172aff",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407548011,
+      "queuedAt": 1791407547992,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 2 of Chapter 21 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791407734996,
+      "tokens": 106339,
+      "toolCalls": 21,
+      "durationMs": 186367,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-02-panel-01\",\"pick\":\"v01\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.747,\"y\":0.273}],\"backup_tails\":[],\"faces\":[{\"x\":0.713,\"y\":0.176,\"r\":0.155}],\"backup_faces\":[],\"issues\":\"Minor only. Nagoji matches the ch21 look: topknot, grey at the temples, thick curled moustache, clean-shaven chin with skin texture only, gold ear stud, cream mundu with shoulder cloth, silver chain,…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "select ch21 p3",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a69491adcec10be00",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407548011,
+      "queuedAt": 1791407547992,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 3 of Chapter 21 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791407755154,
+      "tokens": 116377,
+      "toolCalls": 40,
+      "durationMs": 206524,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-03-panel-01\",\"pick\":\"v01\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.143,\"y\":0.076,\"r\":0.09}],\"backup_faces\":[],\"issues\":\"Minor only. The leaf fills about two-thirds of the frame width, not the full width. The white cloth at top right is Ramayyan's shoulder and reads a little like a draped bundle. Otherwise clean: the ghosted Padmini bleeds in at the left …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "select ch21 p4",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "aa5f6855a394b6f5c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407548011,
+      "queuedAt": 1791407547993,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 4 of Chapter 21 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791407890629,
+      "tokens": 149292,
+      "toolCalls": 46,
+      "durationMs": 341999,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-04-panel-01\",\"pick\":\"v01\",\"backup\":null,\"tails\":[{\"copy_index\":1,\"x\":0.612,\"y\":0.443}],\"backup_tails\":[],\"faces\":[{\"x\":0.179,\"y\":0.098,\"r\":0.11},{\"x\":0.651,\"y\":0.313,\"r\":0.18}],\"backup_faces\":[],\"issues\":\"Minor issues, still acceptable. The script implies a finger-on-leaf insert with Ramayyan off panel. Instead he is drawn in a medium shot, face visible, holding the blank…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "select ch21 p5",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a22f858f4f74fd7c3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407548011,
+      "queuedAt": 1791407547993,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 5 of Chapter 21 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791407758362,
+      "tokens": 124452,
+      "toolCalls": 42,
+      "durationMs": 209732,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-05-panel-01\",\"pick\":\"v01\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.3,\"y\":0.202},{\"copy_index\":1,\"x\":0.788,\"y\":0.303},{\"copy_index\":2,\"x\":0.788,\"y\":0.303}],\"backup_tails\":[],\"faces\":[{\"x\":0.277,\"y\":0.166,\"r\":0.16},{\"x\":0.798,\"y\":0.254,\"r\":0.117}],\"backup_faces\":[],\"issues\":\"Acceptable. Nagoji is at frame left, standing with his arms crossed and looking away. He has the…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "select ch21 p6",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a59bea36e7f525ae0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407548011,
+      "queuedAt": 1791407547993,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 6 of Chapter 21 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791407780607,
+      "tokens": 133545,
+      "toolCalls": 42,
+      "durationMs": 231977,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-06-panel-01\",\"pick\":\"v01\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.7,\"y\":0.363},{\"copy_index\":1,\"x\":0.375,\"y\":0.321}],\"backup_tails\":[],\"faces\":[{\"x\":0.286,\"y\":0.256,\"r\":0.165},{\"x\":0.76,\"y\":0.322,\"r\":0.135}],\"backup_faces\":[],\"issues\":\"Minor only. Both men are on sheet: Nagoji has the topknot, the curled moustache, a clean chin with only faint shading, the gold stud,…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "select ch21 p7",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a2ecd9a3a594500a2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407548011,
+      "queuedAt": 1791407547993,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 7 of Chapter 21 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791407748626,
+      "tokens": 119069,
+      "toolCalls": 38,
+      "durationMs": 199996,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-07-panel-01\",\"pick\":\"v01\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.278,\"y\":0.202},{\"copy_index\":1,\"x\":0.742,\"y\":0.504}],\"backup_tails\":[],\"faces\":[{\"x\":0.26,\"y\":0.15,\"r\":0.14},{\"x\":0.758,\"y\":0.468,\"r\":0.08}],\"backup_faces\":[],\"issues\":\"Minor only: the Goa brand on Nagoji's left forearm is a small reddish circular stamp with a mark inside, not a pale puckered patch. It…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "select ch21 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a13fe339dca9d9be7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407548011,
+      "queuedAt": 1791407547993,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 8 of Chapter 21 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791407874352,
+      "tokens": 152593,
+      "toolCalls": 56,
+      "durationMs": 325722,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-08-panel-01\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v01 gets the grapple backwards and puts the brand on the wrong man. The branded forearm is attached to the bare figure at frame right, the king's position, so it reads as the king grabbing the knife hand. The script wants a separate defender's forearm entering from t…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "keep ch21 p1",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a46949c2a30670599",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890650,
+      "queuedAt": 1791407890639,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 1 of chapter 21 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-21-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407916922,
+      "tokens": 63195,
+      "toolCalls": 7,
+      "durationMs": 26270,
+      "resultPreview": "{\"panels\":[{\"id\":\"1.3\",\"version\":\"v01\",\"keep\":[{\"x0\":0.5,\"y0\":0.46,\"x1\":0.63,\"y1\":0.63,\"what\":\"Ramayyan's hand holding the stylus over a palm-leaf bundle\"},{\"x0\":0.35,\"y0\":0.62,\"x1\":0.42,\"y1\":0.72,\"what\":\"small coconut-oil lamp burning on the low table\"},{\"x0\":0.2,\"y0\":0.3,\"x1\":0.32,\"y1\":0.45,\"what\":\"string-tied palm-leaf bundles on the shelves with clay tags bearing abstract marks\"}],\"beat_presen…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "keep ch21 p2",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a78782917da0e3ec4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890650,
+      "queuedAt": 1791407890639,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 2 of chapter 21 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-21-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407991588,
+      "tokens": 84917,
+      "toolCalls": 16,
+      "durationMs": 100937,
+      "resultPreview": "{\"panels\":[{\"id\":\"2.1\",\"version\":\"v01\",\"keep\":[{\"x0\":0,\"y0\":0.36,\"x1\":0.3,\"y1\":0.74,\"what\":\"foreground row of clay tags with abstract impressed marks on their strings\"},{\"x0\":0.48,\"y0\":0.28,\"x1\":0.91,\"y1\":0.72,\"what\":\"Nagoji's body turned sideways between the shelves, hand held near the bundles\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"2.2\",\"version\":\"v01\",\"keep\":[{\"x0\":0.53,\"y0\":0.41,\"x1\":0.8,\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "keep ch21 p3",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a0974b22812532983",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890650,
+      "queuedAt": 1791407890639,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 3 of chapter 21 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-21-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407932887,
+      "tokens": 66065,
+      "toolCalls": 8,
+      "durationMs": 42236,
+      "resultPreview": "{\"panels\":[{\"id\":\"3.1\",\"version\":\"v01\",\"keep\":[{\"x0\":0.035,\"y0\":0.01,\"x1\":0.235,\"y1\":0.59,\"what\":\"Padmini Amma ghosted at left edge, stain-like edge, sari and walking stick planted beside her\"},{\"x0\":0.207,\"y0\":0.35,\"x1\":0.892,\"y1\":0.73,\"what\":\"blank leaf, square to camera, with its two empty ruled bands for the LEAF lettering\"},{\"x0\":0.815,\"y0\":0.37,\"x1\":1,\"y1\":0.7,\"what\":\"Ramayyan's ink-stained …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "keep ch21 p4",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a92bb5fa78ad516d4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890650,
+      "queuedAt": 1791407890639,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 4 of chapter 21 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-21-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407976863,
+      "tokens": 80939,
+      "toolCalls": 15,
+      "durationMs": 86212,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-01\",\"version\":\"v01\",\"keep\":[{\"x0\":0.36,\"y0\":0.52,\"x1\":0.89,\"y1\":0.68,\"what\":\"Ramayyan's ink-stained fingertip in the left margin of the flat one-band Lannoy leaf\"},{\"x0\":0,\"y0\":0.18,\"x1\":0.13,\"y1\":0.38,\"what\":\"ghosted De Lannoy's hands holding the folded letter at the candle flame\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"page-04-panel-02\",\"version\":\"v01\",\"keep\":[…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "keep ch21 p5",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "aa8c4d8fb0ac891eb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890650,
+      "queuedAt": 1791407890639,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 5 of chapter 21 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-21-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407981421,
+      "tokens": 80241,
+      "toolCalls": 14,
+      "durationMs": 90770,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-01\",\"version\":\"v01\",\"keep\":[{\"x0\":0.73,\"y0\":0.77,\"x1\":0.83,\"y1\":0.88,\"what\":\"Ramayyan's hands folded at his waist (scripted composed pose)\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"page-05-panel-03\",\"version\":\"v01\",\"keep\":[{\"x0\":0.31,\"y0\":0.26,\"x1\":0.41,\"y1\":0.8,\"what\":\"Executioner's raised-arm shadow across the kneeling captain's back, plus his still-sheathed swo…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "keep ch21 p6",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a1cd61f56ac147193",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890650,
+      "queuedAt": 1791407890639,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 6 of chapter 21 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-21-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407958617,
+      "tokens": 81992,
+      "toolCalls": 13,
+      "durationMs": 67966,
+      "resultPreview": "{\"panels\":[{\"id\":\"6.1\",\"version\":\"v01\",\"keep\":[{\"x0\":0.5,\"y0\":0.56,\"x1\":0.58,\"y1\":0.72,\"what\":\"lamp flame on the low table between the two men\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"6.2\",\"version\":\"v01\",\"keep\":[{\"x0\":0.42,\"y0\":0.55,\"x1\":0.64,\"y1\":0.71,\"what\":\"ink-stained hands knotting the string around the bundle (note: he watches his hands, while the script says he knots it without looking)…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "keep ch21 p7",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a957b4976f93660d2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890650,
+      "queuedAt": 1791407890639,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 7 of chapter 21 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-21-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407939885,
+      "tokens": 66624,
+      "toolCalls": 8,
+      "durationMs": 49234,
+      "resultPreview": "{\"panels\":[{\"id\":\"7.1\",\"version\":\"v01\",\"keep\":[{\"x0\":0.06,\"y0\":0.38,\"x1\":0.12,\"y1\":0.5,\"what\":\"Nagoji's hand on the door edge (he is at the door, ready to leave)\"},{\"x0\":0.63,\"y0\":0.42,\"x1\":0.9,\"y1\":0.82,\"what\":\"Ramayyan seated small at frame right among his shelves\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"7.2\",\"version\":\"v01\",\"keep\":[{\"x0\":0.73,\"y0\":0.59,\"x1\":0.91,\"y1\":0.82,\"what\":\"Ramayyan's …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "keep ch21 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a385431a84916f0b6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890650,
+      "queuedAt": 1791407890639,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 8 of chapter 21 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-21-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407916922,
+      "tokens": 73518,
+      "toolCalls": 8,
+      "durationMs": 26271,
+      "resultPreview": "{\"panels\":[{\"id\":\"8.5\",\"version\":\"v01\",\"keep\":[{\"x0\":0.39,\"x1\":0.51,\"y0\":0.62,\"y1\":0.86,\"what\":\"Nagoji lying small on the stone platform at the jackfruit trunk\"},{\"x0\":0.81,\"x1\":0.98,\"y0\":0.09,\"y1\":0.25,\"what\":\"far cloud bank over the sea glowing with silent lightning (the next storm)\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 5,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "mark ch21 p1",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aa3ce40da20998016",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890694,
+      "queuedAt": 1791407890681,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407912737,
+      "tokens": 64597,
+      "toolCalls": 8,
+      "durationMs": 22043,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-01-panel-03\",\"version\":\"v01\",\"faces\":[{\"x\":0.586,\"y\":0.341,\"r\":0.043,\"who\":\"scribe in white, seated at low desk, three-quarter view, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "mark ch21 p2",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a78012fc5e60130c4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890694,
+      "queuedAt": 1791407890682,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407930949,
+      "tokens": 82117,
+      "toolCalls": 14,
+      "durationMs": 40255,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.728,\"y\":0.25,\"r\":0.08,\"who\":\"Nagoji, three-quarter profile looking right, centre-right\"}]},{\"id\":\"page-02-panel-02\",\"version\":\"v01\",\"faces\":[{\"x\":0.723,\"y\":0.285,\"r\":0.075,\"who\":\"balding scribe, looking down at bundle, right\"}]},{\"id\":\"page-02-panel-03\",\"version\":\"v01\",\"faces\":[]},{\"id\":\"page-02-panel-05\",\"version\":\"v01\",\"faces\":[…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "mark ch21 p3",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "af9b10c5c33cf46ec",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890694,
+      "queuedAt": 1791407890682,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407927034,
+      "tokens": 68473,
+      "toolCalls": 13,
+      "durationMs": 36339,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.1745,\"y\":0.0908,\"r\":0.036,\"who\":\"grey-haired woman with staff, three-quarter profile facing right, top left inset\"}]},{\"id\":\"page-03-panel-03\",\"version\":\"v01\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "mark ch21 p4",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ae9fa973e3f18a28b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890694,
+      "queuedAt": 1791407890682,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407985755,
+      "tokens": 88201,
+      "toolCalls": 30,
+      "durationMs": 95061,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.147,\"y\":0.143,\"r\":0.041,\"who\":\"blond European in white coat, profile, upper left\"},{\"x\":0.627,\"y\":0.397,\"r\":0.079,\"who\":\"balding scribe, three-quarter, centre right\"}]},{\"id\":\"page-04-panel-02\",\"version\":\"v01\",\"faces\":[{\"x\":0.268,\"y\":0.34,\"r\":0.058,\"who\":\"moustached man with topknot, three-quarter, left\"},{\"x\":0.72,\"y\":0.207,\"r\":0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "mark ch21 p5",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a4afb2f15779f58eb",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890694,
+      "queuedAt": 1791407890682,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407997248,
+      "tokens": 86733,
+      "toolCalls": 29,
+      "durationMs": 106554,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.293,\"y\":0.1904,\"r\":0.0605,\"who\":\"moustached man with topknot, three-quarter, arms crossed, left\"},{\"x\":0.7969,\"y\":0.2715,\"r\":0.0508,\"who\":\"balding archivist in white, three-quarter, right\"}]},{\"id\":\"page-05-panel-03\",\"version\":\"v01\",\"faces\":[{\"x\":0.4843,\"y\":0.4696,\"r\":0.0635,\"who\":\"kneeling grey-bearded man in orange turban, head …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "mark ch21 p6",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ac40757dae3538a35",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890694,
+      "queuedAt": 1791407890682,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791408034314,
+      "tokens": 94909,
+      "toolCalls": 37,
+      "durationMs": 143620,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.371,\"y\":0.296,\"r\":0.053,\"who\":\"Nagoji, three-quarter profile facing right, chin on fist, left\"},{\"x\":0.705,\"y\":0.356,\"r\":0.048,\"who\":\"balding scribe, profile facing left, right\"}]},{\"id\":\"page-06-panel-02\",\"version\":\"v01\",\"faces\":[{\"x\":0.556,\"y\":0.33,\"r\":0.05,\"who\":\"balding scribe, looking down at bundle, centre\"}]},{\"id\":\"page-06…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "mark ch21 p7",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a5f3c31d83c5b12d7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890694,
+      "queuedAt": 1791407890682,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407954028,
+      "tokens": 71000,
+      "toolCalls": 11,
+      "durationMs": 63333,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.283,\"y\":0.19,\"r\":0.049,\"who\":\"Nagoji, three-quarter right, standing at left by door\"},{\"x\":0.749,\"y\":0.499,\"r\":0.046,\"who\":\"balding scribe seated cross-legged at right, three-quarter left\"}]},{\"id\":\"page-07-panel-02\",\"version\":\"v01\",\"faces\":[{\"x\":0.31,\"y\":0.221,\"r\":0.06,\"who\":\"Nagoji, three-quarter right, left\"},{\"x\":0.774,\"y\":0.3…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "mark ch21 p8",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a75c9a6b586e4ff7a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407890694,
+      "queuedAt": 1791407890682,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407923728,
+      "tokens": 66212,
+      "toolCalls": 13,
+      "durationMs": 33033,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-05\",\"version\":\"v01\",\"faces\":[{\"x\":0.4315,\"y\":0.705,\"r\":0.018,\"who\":\"Nagoji, reclining against jackfruit tree trunk, three-quarter view, centre-left\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "check ch21 p1",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ab5238f5a4fab2ae3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407912744,
+      "queuedAt": 1791407912743,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407929828,
+      "tokens": 61314,
+      "toolCalls": 5,
+      "durationMs": 17084,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-01-panel-03\",\"version\":\"v01\",\"faces\":[{\"x\":0.586,\"y\":0.341,\"r\":0.042,\"who\":\"scribe in white, seated at low desk, three-quarter view, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 26,
+      "label": "check ch21 p8",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a37738b1b62f88997",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407923732,
+      "queuedAt": 1791407923731,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407946504,
+      "tokens": 62540,
+      "toolCalls": 8,
+      "durationMs": 22772,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-05\",\"version\":\"v01\",\"faces\":[{\"x\":0.4315,\"y\":0.705,\"r\":0.018,\"who\":\"Nagoji, reclining against jackfruit tree trunk, three-quarter view, centre-left\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 27,
+      "label": "check ch21 p3",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a32dea916fe18908f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407927035,
+      "queuedAt": 1791407927034,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407965133,
+      "tokens": 74526,
+      "toolCalls": 10,
+      "durationMs": 38098,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.1755,\"y\":0.0915,\"r\":0.035,\"who\":\"grey-haired woman with staff, profile facing right, top left inset\"}]},{\"id\":\"page-03-panel-03\",\"version\":\"v01\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 28,
+      "label": "check ch21 p2",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "abd92163029277f02",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407930951,
+      "queuedAt": 1791407930950,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791407975699,
+      "tokens": 72955,
+      "toolCalls": 15,
+      "durationMs": 44748,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.738,\"y\":0.259,\"r\":0.071,\"who\":\"Nagoji, three-quarter profile looking right, centre-right\"}]},{\"id\":\"page-02-panel-02\",\"version\":\"v01\",\"faces\":[{\"x\":0.721,\"y\":0.277,\"r\":0.058,\"who\":\"balding scribe, looking down at bundle, right\"}]},{\"id\":\"page-02-panel-03\",\"version\":\"v01\",\"faces\":[]},{\"id\":\"page-02-panel-05\",\"version\":\"v01\",\"faces\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 29,
+      "label": "check ch21 p7",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a72116930faf2efe2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407954038,
+      "queuedAt": 1791407954037,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791408022408,
+      "tokens": 72454,
+      "toolCalls": 14,
+      "durationMs": 68370,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.282,\"y\":0.187,\"r\":0.051,\"who\":\"Nagoji, three-quarter right, standing at left by door\"},{\"x\":0.749,\"y\":0.494,\"r\":0.042,\"who\":\"balding scribe seated cross-legged at right, three-quarter left\"}]},{\"id\":\"page-07-panel-02\",\"version\":\"v01\",\"faces\":[{\"x\":0.312,\"y\":0.218,\"r\":0.061,\"who\":\"Nagoji, three-quarter right, left\"},{\"x\":0.774,\"y\":…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 30,
+      "label": "check ch21 p4",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "afaab7c6c67ad5e62",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407985756,
+      "queuedAt": 1791407985755,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791408070583,
+      "tokens": 83713,
+      "toolCalls": 22,
+      "durationMs": 84827,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.146,\"y\":0.143,\"r\":0.04,\"who\":\"blond European in white coat, profile, upper left\"},{\"x\":0.626,\"y\":0.401,\"r\":0.088,\"who\":\"balding scribe, three-quarter, centre right\"}]},{\"id\":\"page-04-panel-02\",\"version\":\"v01\",\"faces\":[{\"x\":0.27,\"y\":0.333,\"r\":0.058,\"who\":\"moustached man with topknot, three-quarter, left\"},{\"x\":0.72,\"y\":0.21,\"r\":0.0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 31,
+      "label": "check ch21 p5",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ae58986cc11474231",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791407997249,
+      "queuedAt": 1791407997249,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791408085525,
+      "tokens": 85599,
+      "toolCalls": 30,
+      "durationMs": 88276,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.292,\"y\":0.196,\"r\":0.058,\"who\":\"moustached man with topknot, three-quarter, arms crossed, left\"},{\"x\":0.797,\"y\":0.283,\"r\":0.052,\"who\":\"balding archivist in white, three-quarter, right\"}]},{\"id\":\"page-05-panel-03\",\"version\":\"v01\",\"faces\":[{\"x\":0.4857,\"y\":0.466,\"r\":0.06,\"who\":\"kneeling grey-bearded man in orange turban, head bowed, p…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 32,
+      "label": "check ch21 p6",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a37cebfad08d60354",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791408034315,
+      "queuedAt": 1791408034314,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791408117868,
+      "tokens": 80392,
+      "toolCalls": 23,
+      "durationMs": 83553,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-01\",\"version\":\"v01\",\"faces\":[{\"x\":0.371,\"y\":0.296,\"r\":0.053,\"who\":\"Nagoji, three-quarter profile facing right, chin on fist, left\"},{\"x\":0.705,\"y\":0.356,\"r\":0.048,\"who\":\"balding scribe, profile facing left, right\"}]},{\"id\":\"page-06-panel-02\",\"version\":\"v01\",\"faces\":[{\"x\":0.556,\"y\":0.331,\"r\":0.049,\"who\":\"balding scribe, looking down at bundle, centre\"}]},{\"id\":\"page-…"
+    }
+  ],
+  "totalTokens": 2820069,
+  "totalToolCalls": 691
+}

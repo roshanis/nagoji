@@ -1,0 +1,214 @@
+{
+  "prompt_profile": "v2",
+  "chapter": 22,
+  "status": "draft",
+  "settings": {
+    "shrine_hill_foot": {
+      "label": "Foot of the shrine hill near the Travancore coast",
+      "scopes": [
+        "kerala",
+        "coast"
+      ],
+      "anchor": "A rocky hill a little inland from the Travancore coast, half swallowed by mango trees, with a narrow worn stone stair cutting up through the trees toward the low two-tiered tiled gateway of an old Shiva shrine near the crown. At its foot a small royal party waits without ceremony on bare red earth: a handful of Nair guards in white mundu holding flaming torches, a few horses and a stable boy.",
+      "absent": "No banners, elephants, palanquin, musicians or court crowd; no towering stepped stone gateway tower, castle, glass lanterns, European figures or red or blue coats.",
+      "time": "dusk going to night, flaring torchlight"
+    },
+    "shrine_stair": {
+      "label": "Stone stair up the shrine hill",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "A narrow, steep stone stair climbing through mango and wild jungle trees up the rocky hill, its worn steps wet and mossy, with bare grey rock showing between the leaves above. The climbers go barefoot, lit only by torchlight.",
+      "absent": "No railings, posts, lanterns, guards on the stair or towering gateway at its head.",
+      "time": "nightfall, trembling torchlight on wet stone"
+    },
+    "shrine_courtyard": {
+      "label": "Inner courtyard of the old hill shrine",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "A small walled temple courtyard of worn stone flags: a low stone-pillared mandapa leading to the dark sanctum doorway hung with wilting jasmine at screen LEFT, open-wick oil lamps in niches along a lime-washed wall peeling to bare laterite, a side-room door, and at screen RIGHT one old jackfruit tree whose thick roots heave up the flags. Inside the low sanctum a black stone lingam marked with ash shows only faintly; everyone in the courtyard is barefoot, and the head of the stone stair opens into one corner.",
+      "absent": "No tall stepped gateway tower, glass lamps, chairs, benches or crowd of worshippers, and no spear, sword or knife on Varma or Nagoji: the chaver's dagger is the only blade. The chaver and the temple assistant never take the old priest's face, and no blood or open wound is ever drawn.",
+      "time": "night, flickering niche lamps and torchlight"
+    },
+    "fort_room": {
+      "label": "Lamplit room off the Travancore fort courtyard",
+      "scopes": [
+        "kerala",
+        "court"
+      ],
+      "anchor": "A small room off the courtyard of a red laterite Travancore fort: lime-washed laterite walls, a dark timber ceiling under a tiled roof, woven floor mats on which the men sit, and a low wooden table holding one clay or brass open-wick lamp, palm leaves and drinking cups. An open timber doorway looks onto the torchlit courtyard, where horses stand picketed in a long line.",
+      "absent": "No chairs, benches, stools, beds, glass lamps or European furniture, and no armour, uniforms or blue or red coats. The court physician is an ordinary elderly man in plain white, never the old priest's face.",
+      "time": "night, one open-wick lamp and torchlight through the doorway",
+      "allow_terms": [
+        "fort"
+      ]
+    },
+    "fort_courtyard": {
+      "label": "Travancore fort courtyard by day",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The stone-flagged courtyard of the red laterite Travancore fort, with laterite walls, tiled roofs and a tiled gatehouse, and a line of horses picketed along one wall. Hard daylight throws short, sharp shadows across the flags.",
+      "absent": "No European soldiers, blue or red coats, cannon, glass lanterns or masonry castle towers, and no extra principals beyond the panel's cast.",
+      "time": "hard daylight",
+      "allow_terms": [
+        "fort"
+      ]
+    },
+    "coastal_track": {
+      "label": "Coastal track north toward the Kayamkulam frontier",
+      "scopes": [
+        "kerala",
+        "coast",
+        "travancore_camp"
+      ],
+      "anchor": "A sandy coastal track running north between leaning coconut palms and a grey, wind-whipped sea, under a heavy monsoon sky. The column rides beneath one red standard bearing a silver conch: its turbaned Maratha riders wear white or cream, the Madurai lancers white jama and white turbans, and the Maravar light horse ride smaller horses.",
+      "absent": "No ships, forts, European troops or red or blue coats, no rust-red turban or red sash on any rider, no green turban in the column and no writing on the standard.",
+      "time": "grey monsoon daylight under low heavy cloud"
+    },
+    "river_ford": {
+      "label": "River ford on the road north",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "A wide, slow river swollen brown with monsoon water between low banks of palms and dense green scrub, the far bank ahead and the column strung out across the ford with the water at the horses' knees. The current flows around every horse in one steady direction.",
+      "absent": "No bridge, boats, ships, buildings or forts on either bank, and no figures waiting on the far bank.",
+      "time": "dusk, the last gold light on the moving water"
+    }
+  },
+  "pages": {
+    "1": "shrine_hill_foot",
+    "2": "shrine_hill_foot",
+    "3": "shrine_hill_foot",
+    "4": "shrine_courtyard",
+    "5": "shrine_courtyard",
+    "6": "shrine_courtyard",
+    "7": "shrine_courtyard",
+    "8": "shrine_courtyard",
+    "9": "shrine_courtyard",
+    "10": "shrine_courtyard",
+    "11": "shrine_courtyard",
+    "12": "fort_room",
+    "13": "fort_room",
+    "14": "fort_room",
+    "15": "fort_courtyard"
+  },
+  "panels": {
+    "page-01-panel-01": {
+      "frame": "strip",
+      "distant": true,
+      "lettering_space": "Keep open dusk sky above the hilltop and the low gateway for the two captions, with the small party at the hill's foot left clear below."
+    },
+    "page-03-panel-03": {
+      "setting": "shrine_stair"
+    },
+    "page-03-panel-04": {
+      "setting": "shrine_courtyard",
+      "frame": "strip"
+    },
+    "page-03-panel-05": {
+      "setting": "shrine_courtyard"
+    },
+    "page-04-panel-02": {
+      "sheets": false
+    },
+    "page-04-panel-04": {
+      "frame": "strip"
+    },
+    "page-05-panel-01": {
+      "lettering_space": "Leave dark upper wall above the three figures for one broken balloon and two captions, clear of the raised plate and the boy's face."
+    },
+    "page-06-panel-04": {
+      "sheets": false
+    },
+    "page-08-panel-02": {
+      "sheets": false
+    },
+    "page-09-panel-02": {
+      "time": "night, lit low from the torch lying on the flags, so the shadows rise tall up the wall",
+      "lettering_space": "Keep two small flat patches inside the great shadow on the wall for two short captions, and a clear strip of floor low beside the hand for the third."
+    },
+    "page-09-panel-04": {
+      "sheets": false
+    },
+    "page-09-panel-05": {
+      "distant": true,
+      "time": "night: a few stars between black jackfruit leaves, the edge of a lamp's glow at the rim"
+    },
+    "page-10-panel-02": {
+      "frame": "strip"
+    },
+    "page-14-panel-03": {
+      "sheets": false
+    },
+    "page-15-panel-02": {
+      "setting": "coastal_track",
+      "frame": "strip",
+      "lettering_space": "Keep the heavy grey sky above the standard clear for one short and one long caption."
+    },
+    "page-15-panel-03": {
+      "setting": "river_ford",
+      "frame": "strip",
+      "distant": true,
+      "lettering_space": "Keep open dusk sky above the far bank for the first caption, and a calm band of water low in the frame, apart from it, for the closing caption."
+    }
+  },
+  "character_notes": {
+    "nagoji": "Thick curled moustache, clean-shaven chin and jaw with no beard or facial scar, and a tiny flush gold ear stud on the lobe with nothing hanging from it; the old brand and the long white scar sit on the inner LEFT forearm, a hand's width above the wrist, with no letters. Kerala topknot high on the crown with first grey at the temples, never the rust-red turban, sash or boots of his sheet; silver chain of office, and any bandage, sling or weapon only where the panel description names it.",
+    "varma": "Face, moustache and heavier build from his sheet, with black hair, never the grey of the sheet's older figure; bare-headed with his hair in a side knot above the LEFT ear, never a turban, crest, crown or spear in this chapter. One gold chain and pearl drop earrings with a cream mundu, bare-chested at the shrine, and a cream cloth over the injured right shoulder and a stitched brow only in the lamplit room.",
+    "prince": "A boy of about ten with his uncle's sharp cheekbones and wide, watchful eyes: bare-chested in a small clean white mundu, a thin gold chain and a small neat topknot.",
+    "ramayyan": "Thin sharp features and receding hair, plain unbordered white cloth, a palm-leaf bundle and stylus, no forehead marks or sacred thread; never the old priest's face.",
+    "temple_priest": "The face on the temple priest sheet belongs to the old priest alone, the elderly ritual priest at the sanctum lamps. The chaver, the temple assistant and the court physician each keep ordinary faces of their own, never his.",
+    "padmini": "In her fifties, thick black hair coiled at the nape with grey threading through it, simple gold and a long walking stick. Sari hitched for walking in the old Kerala drape with no stitched blouse.",
+    "kayal": "Bay mare with an ochre red-brown coat and black mane, tail and lower legs, no white markings, sized between a Madurai charger and a Maravar pony.",
+    "madurai_troop": "Knee-length white jama tunics, plain cloth waistbands, loose trousers and high-wrapped white or off-white turbans, never green, red or rust, on tall dark bay, dark brown or black horses with no greys."
+  },
+  "not_shown": {
+    "page-02-panel-01": [
+      "prince"
+    ],
+    "page-03-panel-05": [
+      "nagoji"
+    ],
+    "page-04-panel-03": [
+      "nagoji",
+      "prince"
+    ],
+    "page-05-panel-03": [
+      "prince"
+    ],
+    "page-05-panel-04": [
+      "nagoji",
+      "varma"
+    ],
+    "page-06-panel-01": [
+      "nagoji"
+    ],
+    "page-07-panel-05": [
+      "nagoji",
+      "varma"
+    ],
+    "page-10-panel-02": [
+      "nagoji",
+      "varma"
+    ],
+    "page-10-panel-04": [
+      "ramayyan"
+    ],
+    "page-12-panel-01": [
+      "prince"
+    ],
+    "page-12-panel-04": [
+      "prince"
+    ],
+    "page-12-panel-05": [
+      "nagoji"
+    ],
+    "page-13-panel-05": [
+      "varma"
+    ]
+  }
+}

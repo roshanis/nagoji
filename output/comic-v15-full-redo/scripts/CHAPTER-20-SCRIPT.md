@@ -6,16 +6,16 @@ Source: `book1_horse_servant/book3_chapter20_guest_in_velinadu.md`, 4,582 words,
 
 ### Looks for this chapter
 
-Attach `nagoji-v2.png` to every frame that shows Nagoji, and `temple-priest-v1.png` to the priest's frames on pages 11 and 12 only.
+Attach `nagoji-v2.png` to every frame that shows Nagoji, and `temple-priest-v1.png` to the priest's frames on pages 13 and 14 only.
 
-- **Nagoji (Ananthan Pillai)**: Kerala topknot, no turban, cream mundu with shoulder cloth, bare forearms, silver chain of office, small gold ear stud, thick curled moustache, CLEAN-SHAVEN CHIN, first grey at the temples, ridged nails, the Portuguese brand on his LEFT wrist. No forehead marks, no sacred thread. The ivory-handled conch knife is at his waist on pages 1 to 9 and in 10.1 and 10.2 only, and never again after that. Wedding (pages 11 to 13): a fresh, plain white mundu and shoulder cloth with NO gold border.
-- **Revathi**: a little younger than Nagoji; indigo sari with gold; jasmine in her braid; flat-coin necklace; gold armlets; sandalwood line at the front hairline; the same few grey threads from 1.2 to the end of the chapter. NO tali until it is tied on page 12 (she is still a widow). From 12.5 on she wears the tali: a small gold pendant on a yellow thread worn high at the throat, clearly separate from the longer flat-coin necklace. At the wedding: her heaviest gold border, and her braid coiled and pinned up at the back of her head with jasmine wound round it, so the nape is bare.
+- **Nagoji (Ananthan Pillai)**: Kerala topknot, no turban, cream mundu with shoulder cloth, bare forearms, silver chain of office, small gold ear stud, thick curled moustache, CLEAN-SHAVEN CHIN, first grey at the temples, ridged nails, the Portuguese brand on his LEFT wrist. No forehead marks, no sacred thread. The ivory-handled conch knife is at his waist on pages 1 to 10 and in 11.1 and 11.2 only, and never again after that. Wedding (pages 13 to 15): a fresh, plain white mundu and shoulder cloth with NO gold border.
+- **Revathi**: a little younger than Nagoji; indigo sari with gold; jasmine in her braid; flat-coin necklace; gold armlets; sandalwood line at the front hairline; the same few grey threads from 1.2 to the end of the chapter. NO tali until it is tied on page 14 (she is still a widow). From 14.5 on she wears the tali: a small gold pendant on a yellow thread worn high at the throat, clearly separate from the longer flat-coin necklace. At the wedding: her heaviest gold border, and her braid coiled and pinned up at the back of her head with jasmine wound round it, so the nape is bare.
 - **Padmini Amma**: fifties, thick black hair coiled at the nape, simple gold, cotton sari hitched for walking, long walking stick. Her finest white at the wedding.
 - **Dhanaji** (the chapter 14 lock): stockier and a little shorter than Nagoji, short black beard, white turban, long-sleeved indigo-dyed tunic to the knee, dusty from the road, cream trousers, riding boots, plain leather sword belt, NO sash, talwar, brown horse. Never a rust-red turban, never bare-headed, never a topknot.
 - **Ramayyan Dalawa**: thin, sharp fine features, receding hair, plain white cloth, palm-leaf bundles.
 - **De Lannoy**: tall, pale hair tied back, no wig, a plain WHITE cotton coat over a white mundu, sword hilt wrapped in local cloth. No blue anywhere.
 - **Ponnan**: broad-shouldered Maravar, curly hair worn loose (no topknot, no turban), thick moustache, clean chin, red shoulder cloth, white mundu hitched, short jacket.
-- **The priest** (V13 temple-priest face, pages 11 and 12 only): clean-shaven, curly hair in a low knot, ash lines and a red dot on the forehead, sacred thread across a bare chest, white mundu, gold-bordered shoulder cloth.
+- **The priest** (V13 temple-priest face, pages 13 and 14 only): clean-shaven, curly hair in a low knot, ash lines and a red dot on the forehead, sacred thread across a bare chest, white mundu, gold-bordered shoulder cloth.
 
 ---
 
@@ -199,7 +199,7 @@ Five panels. The harder thing: equality, in the light. She walks him on along th
 
 ## PAGE 6
 
-Five panels. The lineage question, and the answer that makes the marriage possible. Out on the courtyard steps at lamp-lighting: the evening lamps being lit, the sky going violet above the roofs.
+Two panels. The lineage question, and the answer that makes the marriage possible. Out on the courtyard steps at lamp-lighting: the evening lamps being lit, the sky going violet above the roofs.
 
 **6.1** Wide. From the courtyard steps she gestures at the house around them as the evening lamps are lit: grandmothers on a raised platform, young women at the grain, a girl touching a flame to a tall brass lamp, girls watching the kalari, a small child on a hip. Women everywhere at the centre of it.
 
@@ -211,15 +211,21 @@ Five panels. The lineage question, and the answer that makes the marriage possib
 
 > REVATHI: You will be the father, loved and honoured. But you will be a visitor in their heritage.
 
-**6.3** Close on Revathi, lamplit. This is the real question and she knows it.
+---
+
+## PAGE 7
+
+Three panels, continuing page 6.
+
+**7.1** Close on Revathi, lamplit. This is the real question and she knows it.
 
 > REVATHI: Can your pride accept that? Can you watch your son grow up belonging to a world where you are always, in some small way, a guest?
 
-**6.4** Nagoji looking down at the stone step under their feet. Hold on him.
+**7.2** Nagoji looking down at the stone step under their feet. Hold on him.
 
 > CAPTION: I thought of the pride of my ancestors, the patrilineal certainty of the Marathas.
 
-**6.5** Full width, bottom. He looks up at her. Quiet.
+**7.3** Full width, bottom. He looks up at her. Quiet.
 
 > NAGOJI: My pride died at Colachel. It was reborn as something else.
 
@@ -227,35 +233,35 @@ Five panels. The lineage question, and the answer that makes the marriage possib
 
 ---
 
-## PAGE 7
+## PAGE 8
 
 Five panels. Guest, servant, and the picture that undoes him. The outer stable rail, dusk deepening toward dark, a lantern hung on a post.
 
-**7.1** Nagoji leaning on the stable rail beside Kayal, his bay mare, speaking plainly.
+**8.1** Nagoji leaning on the stable rail beside Kayal, his bay mare, speaking plainly.
 
 > NAGOJI: I will always be a guest here.
 
 > NAGOJI: If you can spare me a corner of your house and a sliver of your heart, that is enough.
 
-**7.2** Revathi at the rail, lantern light on her face. Her eyes close, briefly.
+**8.2** Revathi at the rail, lantern light on her face. Her eyes close, briefly.
 
 > REVATHI: You already hold more than a sliver. But I have responsibilities.
 
 > REVATHI: You are an honoured guest here, and a guest under Padmanabha's sky. This land was never yours to own. Only to serve.
 
-**7.3** Nagoji spreads his empty hands. Kayal pushes her nose into his open palms, looking for something that is not there.
+**8.3** Nagoji spreads his empty hands. Kayal pushes her nose into his open palms, looking for something that is not there.
 
 > NAGOJI: My own house is a neem in the fort courtyard and a jackfruit in Padmini's yard.
 
 > NAGOJI: My only property is a horse that does not like cannon smoke.
 
-**7.4** Revathi smiles, genuinely this time. Behind them two small nieces run past the stable, bickering over something clutched in one girl's fist.
+**8.4** Revathi smiles, genuinely this time. Behind them two small nieces run past the stable, bickering over something clutched in one girl's fist.
 
 > REVATHI: Then you lose nothing you truly possess.
 
 > REVATHI: And gain nieces who will argue with you and sons who will pretend to listen.
 
-**7.5** Full width, bottom. Soft-edged, warm, a picture in his head: small bare feet running on the courtyard stones; a child's hand, sticky with fruit, tugging his toward the kalari; Revathi in the background with one finger raised, scolding him.
+**8.5** Full width, bottom. Soft-edged, warm, a picture in his head: small bare feet running on the courtyard stones; a child's hand, sticky with fruit, tugging his toward the kalari; Revathi in the background with one finger raised, scolding him.
 
 > CAPTION: The picture that rose in my mind undid me more than any flattery could have.
 
@@ -263,49 +269,49 @@ Five panels. Guest, servant, and the picture that undoes him. The outer stable r
 
 ---
 
-## PAGE 8
+## PAGE 9
 
 Five panels. Padmini's verdict, Ramayyan's ledger, and the decision. Back on the long verandah, under the carved beam where she met him. Night now: the full moon high over the courtyard.
 
-**8.1** Under the carved beam, the moon over the courtyard behind them. Nagoji, a little unsteady.
+**9.1** Under the carved beam, the moon over the courtyard behind them. Nagoji, a little unsteady.
 
 > NAGOJI: Padmini knows?
 
 > REVATHI: She was the one who told me to stop being proud and send for you.
 
-**8.2** Inset, soft-edged: Revathi's telling of a recent scene, within the last two months. Padmini's yard under the jackfruit tree. Padmini, stick planted, jabbing a finger at Revathi, who stands with her arms folded. Revathi exactly as she is in this chapter, NOT younger: indigo sari, flat-coin necklace, the same few grey threads, no tali.
+**9.2** Inset, soft-edged: Revathi's telling of a recent scene, within the last two months. Padmini's yard under the jackfruit tree. Padmini, stick planted, jabbing a finger at Revathi, who stands with her arms folded. Revathi exactly as she is in this chapter, NOT younger: indigo sari, flat-coin necklace, the same few grey threads, no tali.
 
 > REVATHI (off): She said, "If you must refuse him, do it with a full stomach, not an empty bed."
 
-**8.3** Nagoji laughing, head back. Revathi startled by the sound.
+**9.3** Nagoji laughing, head back. Revathi startled by the sound.
 
 > NAGOJI: And Ramayyan?
 
 > REVATHI: He has already written three lines about the possible outcomes. He will adjust the fourth when we tell him what we have decided.
 
-**8.4** Nagoji, serious again, the two of them close.
+**9.4** Nagoji, serious again, the two of them close.
 
 > NAGOJI: My name in the Deccan is already a ghost. If I marry you, I do not become lord of Velinadu. I become another story whispered in its corridors.
 
 > REVATHI: Yes. One more story. One more thread in the cloth. That is all any of us are.
 
-**8.5** Full width, bottom. He steps closer. Their faces in profile under the carved beam, the moon behind them.
+**9.5** Full width, bottom. He steps closer. Their faces in profile under the carved beam, the moon behind them.
 
 > NAGOJI: Then let it be written.
 
 ---
 
-## PAGE 9
+## PAGE 10
 
 Five panels. Terms of surrender, a touch, and the wedding day arrives with an old friend.
 
-**9.1** Revathi lets out a breath she has been holding.
+**10.1** Revathi lets out a breath she has been holding.
 
 > REVATHI: Do not expect wedding songs. We are too old for that nonsense.
 
 > NAGOJI: You are. I, on the other hand, am ageless.
 
-**9.2** She snorts and turns brisk, the commander again, counting points off on her fingers. He is trying not to grin.
+**10.2** She snorts and turns brisk, the commander again, counting points off on her fingers. He is trying not to grin.
 
 > REVATHI: You will sleep in the small room near the western verandah. Morning rites when you are here. Drills when you are not.
 
@@ -313,29 +319,29 @@ Five panels. Terms of surrender, a touch, and the wedding day arrives with an ol
 
 > NAGOJI: I make no promises about the cowries.
 
-**9.3** Insert, tight. Their hands at their sides, brushing. This time neither hand pretends.
+**10.3** Insert, tight. Their hands at their sides, brushing. This time neither hand pretends.
 
 > CAPTION: The same light touch as on that verandah after the Dutch bowed.
 
 > CAPTION: This time, neither of us pretended not to feel it.
 
-**9.4** Wide, full page width. The wedding day. The Velinadu courtyard being prepared: garlands being strung, brass vessels polished, *chenda* and *thimila* drummers tuning under the eaves. House elders. No courtiers.
+**10.4** Wide, full page width. The wedding day. The Velinadu courtyard being prepared: garlands being strung, brass vessels polished, *chenda* and *thimila* drummers tuning under the eaves. House elders. No courtiers.
 
 > CAPTION: The marriage itself was smaller than any court scribe would have wanted, and larger than either of us would admit mattered.
 
 > CAPTION: Only those who had carried these years with us.
 
-**9.5** The gate, morning. A rider swinging down from a brown horse, caked in road dust, grinning: Dhanaji (stockier and a little shorter than Nagoji, short black beard, white turban, long-sleeved indigo tunic to the knee, cream trousers, riding boots, plain leather sword belt, no sash, talwar). Nagoji turning toward him: bare-headed, topknot, cream mundu and shoulder cloth, the conch knife at his waist.
+**10.5** The gate, morning. A rider swinging down from a brown horse, caked in road dust, grinning: Dhanaji (stockier and a little shorter than Nagoji, short black beard, white turban, long-sleeved indigo tunic to the knee, cream trousers, riding boots, plain leather sword belt, no sash, talwar). Nagoji turning toward him: bare-headed, topknot, cream mundu and shoulder cloth, the conch knife at his waist.
 
 > CAPTION: Dhanaji. A grin I had not seen since we were young men racing horses on the Deccan plateau.
 
 ---
 
-## PAGE 10
+## PAGE 11
 
-Five panels (four and an inset). Dhanaji's leaving, and the knife. Dhanaji as in the looks block: white turban, long-sleeved indigo tunic, short black beard. Nagoji bare-headed with his topknot, cream mundu and shoulder cloth, bare forearms, thick moustache, clean chin. The knife is at Nagoji's waist in 10.1 and 10.2 only. From 10.3 on his waist is empty, with no knife and no sheath; the knife appears only in the hands in 10.3 and 10.4, and at Dhanaji's belt in 10.5.
+Two panels. Dhanaji's leaving, and the knife. Dhanaji as in the looks block: white turban, long-sleeved indigo tunic, short black beard. Nagoji bare-headed with his topknot, cream mundu and shoulder cloth, bare forearms, thick moustache, clean chin. The knife is at Nagoji's waist in 11.1 and 11.2 only. From 12.1 on his waist is empty, with no knife and no sheath; the knife appears only in the hands in 12.1 and 12.2, and at Dhanaji's belt in 12.3.
 
-**10.1** The forearm clasp in the courtyard, both men laughing. Dhanaji is already looking past Nagoji's shoulder at the garlands being strung and the brass being polished. The conch knife at Nagoji's waist.
+**11.1** The forearm clasp in the courtyard, both men laughing. Dhanaji is already looking past Nagoji's shoulder at the garlands being strung and the brass being polished. The conch knife at Nagoji's waist.
 
 > DHANAJI: You could have sent word earlier. I had to bribe three boatmen and outride a tax collector to get here.
 
@@ -345,25 +351,31 @@ Five panels (four and an inset). Dhanaji's leaving, and the knife. Dhanaji as in
 
 > NAGOJI: You never fell.
 
-**10.2** Dhanaji's grin gone. He looks at the floor, scuffing the toe of his riding boot against the stone. Nagoji watching him, the knife still at his waist.
+**11.2** Dhanaji's grin gone. He looks at the floor, scuffing the toe of his riding boot against the stone. Nagoji watching him, the knife still at his waist.
 
 > DHANAJI: I am going back. To the Deccan. I miss my parents. I miss the dry air.
 
 > DHANAJI: I am not of this place, Ananthan. I am homesick.
 
-**10.3** Inset, tight. Two hands that must read as two different men: Nagoji's RIGHT hand on a bare forearm, ridged nails, pressing the knife into Dhanaji's palm; Dhanaji's hand coming out of a dusty indigo sleeve cuff, fingers already pushing back. The knife: straight narrow blade, ivory handle, gold at guard and pommel, the conch stamped near the hilt.
+---
+
+## PAGE 12
+
+Three panels, continuing page 11.
+
+**12.1** Inset, tight. Two hands that must read as two different men: Nagoji's RIGHT hand on a bare forearm, ridged nails, pressing the knife into Dhanaji's palm; Dhanaji's hand coming out of a dusty indigo sleeve cuff, fingers already pushing back. The knife: straight narrow blade, ivory handle, gold at guard and pommel, the conch stamped near the hilt.
 
 > DHANAJI: No. I will not carry a foreign king's treasure. It suits you here.
 
 > NAGOJI: I am tying myself to this coast. Take it, Dhanaji.
 
-**10.4** Nagoji closing Dhanaji's fingers over the knife with both hands, the brand showing on his LEFT wrist. Above the hands, Dhanaji's face under the white turban, swallowing.
+**12.2** Nagoji closing Dhanaji's fingers over the knife with both hands, the brand showing on his LEFT wrist. Above the hands, Dhanaji's face under the white turban, swallowing.
 
 > NAGOJI: You are the one man who remembers the Deccan boy under my skin.
 
 > NAGOJI: If the gods cut you down, let your son come south with it. Let him find me by the conch and the gold. I will not turn him away.
 
-**10.5** Full width, bottom. Dhanaji slides the knife into his sword belt under the hem of his tunic, hiding the gold like contraband, his hand staying on it. Nagoji's waist bare of any knife.
+**12.3** Full width, bottom. Dhanaji slides the knife into his sword belt under the hem of his tunic, hiding the gold like contraband, his hand staying on it. Nagoji's waist bare of any knife.
 
 > DHANAJI: You swear that?
 
@@ -375,35 +387,35 @@ Five panels (four and an inset). Dhanaji's leaving, and the knife. Dhanaji as in
 
 ---
 
-## PAGE 11
+## PAGE 13
 
 Five panels. The ceremony. Slow down. Nagoji in a fresh, plain white mundu and shoulder cloth with NO gold border, chain of office, NO knife, no forehead marks, no sacred thread; thick moustache, clean chin, gold ear stud. Revathi in indigo with her heaviest gold border, flat-coin necklace, armlets, sandalwood line at the front hairline, her braid coiled and pinned up at the back of her head with jasmine wound round it, the nape bare; no tali yet. The officiant uses the V13 temple-priest face: clean-shaven, curly hair in a low knot, ash lines and a red dot on the forehead, sacred thread across a bare chest, gold-bordered shoulder cloth. The priest sits on the FAR side of the fire, facing the couple; Nagoji kneels at Revathi's right on the NEAR side. The two men must never merge.
 
-**11.1** Wide, full page width. The courtyard as the sun touches the tops of the coconut palms. Padmini large in the left foreground, just behind Revathi's shoulder, three-quarter view, looking at Nagoji: her finest white, jasmine in her coiled hair, stick planted, eyes bright. Mid-ground: the sacred fire; Revathi seated before it; Nagoji kneeling at her right; the priest across the fire, facing them. At the back of the courtyard, small and readable by costume only, left to right: De Lannoy (tall, pale hair tied back, white cotton coat over a white mundu, no blue anywhere); Ponnan and two of his men (curly hair loose, red shoulder cloths, short jackets); Dhanaji leaning on the far wall, arms crossed (white turban, indigo tunic).
+**13.1** Wide, full page width. The courtyard as the sun touches the tops of the coconut palms. Padmini large in the left foreground, just behind Revathi's shoulder, three-quarter view, looking at Nagoji: her finest white, jasmine in her coiled hair, stick planted, eyes bright. Mid-ground: the sacred fire; Revathi seated before it; Nagoji kneeling at her right; the priest across the fire, facing them. At the back of the courtyard, small and readable by costume only, left to right: De Lannoy (tall, pale hair tied back, white cotton coat over a white mundu, no blue anywhere); Ponnan and two of his men (curly hair loose, red shoulder cloths, short jackets); Dhanaji leaning on the far wall, arms crossed (white turban, indigo tunic).
 
 > CAPTION: When Padmini looked at me, I saw not just approval but something like completion.
 
 > CAPTION: As if a circle she had been drawing for years had finally closed.
 
-**11.2** The priest, across the fire from the couple, holding up the *tali*: a small gold pendant on a yellow thread, water and ash still on his fingers. Temple-priest face as in the page note. In the near foreground, the edge of Nagoji's plain white shoulder cloth and his moustached profile, so the two men read as two.
+**13.2** The priest, across the fire from the couple, holding up the *tali*: a small gold pendant on a yellow thread, water and ash still on his fingers. Temple-priest face as in the page note. In the near foreground, the edge of Nagoji's plain white shoulder cloth and his moustached profile, so the two men read as two.
 
 > PRIEST: Take it. Tie it, and she is yours. She ties her thread to you, and you are hers.
 
 > PRIEST: Three knots for three lives. Past, present, and what is yet to come.
 
-**11.3** Revathi, looking not at the priest or the fire but straight at him.
+**13.3** Revathi, looking not at the priest or the fire but straight at him.
 
 > CAPTION: The same question she had asked on the verandah.
 
 > CAPTION: *Can you do this? Can you stay?*
 
-**11.4** Insert, tight. The *tali* lying in his cupped palms.
+**13.4** Insert, tight. The *tali* lying in his cupped palms.
 
 > CAPTION: I had held swords and reins and dying men.
 
 > CAPTION: I had never held anything that felt as heavy as this small piece of metal.
 
-**11.5** Full width, bottom. Revathi bows her head. Her braid is pinned up, so the nape of her neck is bare. On the nape, just below the back hairline, a small pale scar, drawn clearly.
+**13.5** Full width, bottom. Revathi bows her head. Her braid is pinned up, so the nape of her neck is bare. On the nape, just below the back hairline, a small pale scar, drawn clearly.
 
 > CAPTION: Something I had never noticed in all our nights in the cellar. A story I did not yet know.
 
@@ -411,31 +423,31 @@ Five panels. The ceremony. Slow down. Nagoji in a fresh, plain white mundu and s
 
 ---
 
-## PAGE 12
+## PAGE 14
 
 Five panels. Three knots. The priest's lines are off-panel balloons; keep the camera on hands and faces.
 
-**12.1** His hands bringing the yellow thread around her neck. They are trembling; draw it.
+**14.1** His hands bringing the yellow thread around her neck. They are trembling; draw it.
 
 > CAPTION: I had charged Dutch squares without flinching.
 
 > PRIEST (off): For the past. For all that brought you to this moment.
 
-**12.2** Narrow strip, three images bleeding into each other like stains: a hand going under a black storm wave; the brand on his LEFT wrist; a brass lamp on the floor of a low cellar.
+**14.2** Narrow strip, three images bleeding into each other like stains: a hand going under a black storm wave; the brand on his LEFT wrist; a brass lamp on the floor of a low cellar.
 
 > *No text.*
 
-**12.3** The second knot. Revathi reaches up, not to adjust the thread, but to press his hand briefly.
+**14.3** The second knot. Revathi reaches up, not to adjust the thread, but to press his hand briefly.
 
 > PRIEST (off): For the present. For what you are to each other now.
 
 > CAPTION: Telling me without words that this was real. That I was not dreaming in some fever after Colachel.
 
-**12.4** Tight. The third knot pulled tight, his fingers, the yellow thread, the gold.
+**14.4** Tight. The third knot pulled tight, his fingers, the yellow thread, the gold.
 
 > PRIEST (off): For what is yet to come. For children and grandchildren. For the thread that continues after you are both dust.
 
-**12.5** Full width, bottom. Revathi lifts her head and looks at him. Her eyes are wet. The *tali* at her throat from this panel on, in every panel for the rest of the book: a small gold pendant on its yellow thread, worn high at the throat, clearly separate from the longer flat-coin necklace.
+**14.5** Full width, bottom. Revathi lifts her head and looks at him. Her eyes are wet. The *tali* at her throat from this panel on, in every panel for the rest of the book: a small gold pendant on its yellow thread, worn high at the throat, clearly separate from the longer flat-coin necklace.
 
 > PRIEST (off): It is done.
 
@@ -445,11 +457,11 @@ Five panels. Three knots. The priest's lines are off-panel balloons; keep the ca
 
 ---
 
-## PAGE 13
+## PAGE 15
 
 Five panels. The noise returns, then a whisper, then the feast, and for a moment he belongs.
 
-**13.1** Wide. The drums louder, triumphant. Women ululating. Dhanaji (white turban, indigo tunic) whooping with a fist in the air like a boy at a horse fair. At the centre the couple sit still, looking only at each other, the *tali* at her throat.
+**15.1** Wide. The drums louder, triumphant. Women ululating. Dhanaji (white turban, indigo tunic) whooping with a fist in the air like a boy at a horse fair. At the centre the couple sit still, looking only at each other, the *tali* at her throat.
 
 > CAPTION: I heard none of it.
 
@@ -457,7 +469,7 @@ Five panels. The noise returns, then a whisper, then the feast, and for a moment
 
 > CAPTION: For a moment the world was only the two of us and the thin gold thread that now bound us.
 
-**13.2** Close, two heads bent together.
+**15.2** Close, two heads bent together.
 
 > REVATHI: You did not drop it.
 
@@ -465,13 +477,13 @@ Five panels. The noise returns, then a whisper, then the feast, and for a moment
 
 > REVATHI: I know. I felt your hands shaking. The great cavalry commander, terrified of a piece of string.
 
-**13.3** Nagoji, honest. Revathi with the private smile.
+**15.3** Nagoji, honest. Revathi with the private smile.
 
 > NAGOJI: The string is easy. It is what it means that terrifies me.
 
 > REVATHI: Good. Stay terrified. It will keep you honest.
 
-**13.4** Wide, full page width. The feast: banana leaves lining the courtyard floor, rice in small mountains, curries around them, *pappadam*, pickled mango, and brass vessels of *avial* arriving in steam. Fixed seating: Nagoji cross-legged at his leaf, Revathi on his right (tali visible), Padmini on his left, leaning toward him. Across the row of leaves, Ramayyan (thin, receding hair, plain white) methodically mixing his rice with his fingers, not looking up.
+**15.4** Wide, full page width. The feast: banana leaves lining the courtyard floor, rice in small mountains, curries around them, *pappadam*, pickled mango, and brass vessels of *avial* arriving in steam. Fixed seating: Nagoji cross-legged at his leaf, Revathi on his right (tali visible), Padmini on his left, leaning toward him. Across the row of leaves, Ramayyan (thin, receding hair, plain white) methodically mixing his rice with his fingers, not looking up.
 
 > PADMINI: Ramayyan invented this. During a siege, when we had many vegetables and little else.
 
@@ -481,7 +493,7 @@ Five panels. The noise returns, then a whisper, then the feast, and for a moment
 
 > RAMAYYAN: I solved a logistics problem. The cooks merely executed.
 
-**13.5** Full width, bottom. Close on Nagoji's right hand at his leaf, mixing rice and curry into a small ball, coconut oil slick on his palm. Beside him, Revathi laughing, unguarded, the *tali* at her throat.
+**15.5** Full width, bottom. Close on Nagoji's right hand at his leaf, mixing rice and curry into a small ball, coconut oil slick on his palm. Beside him, Revathi laughing, unguarded, the *tali* at her throat.
 
 > CAPTION: For a moment I forgot that I was a Maratha in a Nair house, a sword in a land of pepper.
 
@@ -489,33 +501,33 @@ Five panels. The noise returns, then a whisper, then the feast, and for a moment
 
 ---
 
-## PAGE 14
+## PAGE 16
 
 Five panels. Night on the western verandah. What she is really afraid of. Both still in their wedding clothes, the *tali* at her throat.
 
-**14.1** Wide. The western verandah at night. Revathi sitting with her back against a pillar, watching the courtyard; Nagoji beside her. Behind them, through an open door, the house shrine, wordless: a small bronze Bhagavathi in a wall niche and a tiered brass lamp, its flames burning steady. No temple, no large idol.
+**16.1** Wide. The western verandah at night. Revathi sitting with her back against a pillar, watching the courtyard; Nagoji beside her. Behind them, through an open door, the house shrine, wordless: a small bronze Bhagavathi in a wall niche and a tiered brass lamp, its flames burning steady. No temple, no large idol.
 
 > REVATHI: Do you feel married?
 
 > NAGOJI: I feel like a guest who has been told he may stay past sunset.
 
-**14.2** Revathi, turning to him.
+**16.2** Revathi, turning to him.
 
 > REVATHI: Good. Never forget you are that. When you ride out, you carry my name now.
 
 > REVATHI: You carry the children we may have. Do not make them spit when they say "Ananthan Pillai."
 
-**14.3** Her profile. Below, in the courtyard, a single lamp flame gutters and steadies.
+**16.3** Her profile. Below, in the courtyard, a single lamp flame gutters and steadies.
 
 > REVATHI: My mother died when I was young. Sometimes I try to remember her face and find only the lines other people drew for me.
 
-**14.4** Nagoji takes her hand. She lets him, still looking out at the courtyard.
+**16.4** Nagoji takes her hand. She lets him, still looking out at the courtyard.
 
 > REVATHI: I do not want our children to know me only as a name in Ramayyan's leaves.
 
 > REVATHI: They will know me as the woman who sent their father to the marches. Do not let them hate me for that.
 
-**14.5** Full width, bottom. She is already rising, her hand held out to him. He is still seated, looking up at her.
+**16.5** Full width, bottom. She is already rising, her hand held out to him. He is still seated, looking up at her.
 
 > NAGOJI: If they must hate anyone, let it be me. I will tell them it was my choice to ride. Yours to keep the roof over their heads.
 
@@ -523,49 +535,49 @@ Five panels. Night on the western verandah. What she is really afraid of. Both s
 
 ---
 
-## PAGE 15
+## PAGE 17
 
 Five panels. Her room, not the cellar. Tasteful throughout: a door, jewellery, hair, hands, a face.
 
-**15.1** Wide. A heavy carved teak door pushed open. Inside, a single lamp. A low bed spread with white cloth and strewn with jasmine.
+**17.1** Wide. A heavy carved teak door pushed open. Inside, a single lamp. A low bed spread with white cloth and strewn with jasmine.
 
 > REVATHI: No cellar tonight. No hiding. You are my husband now. This is your room as much as mine.
 
-**15.2** Revathi taking off her jewellery, the heavy gold at her ears, the bangles, setting each piece on a wooden stand. The *tali* stays. Nagoji hovering near the door.
+**17.2** Revathi taking off her jewellery, the heavy gold at her ears, the bangles, setting each piece on a wooden stand. The *tali* stays. Nagoji hovering near the door.
 
 > NAGOJI: It does not feel like mine.
 
 > REVATHI: It will. Give it time.
 
-**15.3** Her back to him, then half turned.
+**17.3** Her back to him, then half turned.
 
 > REVATHI: In the cellar, we were thieves. Stealing hours.
 
 > REVATHI: Tonight we are not thieves. There is nothing to hide from.
 
-**15.4** She reaches up and pulls the pins from the braid coiled at the back of her head. The braid drops and she loosens it; her hair falls, darker than the shadows behind her.
+**17.4** She reaches up and pulls the pins from the braid coiled at the back of her head. The braid drops and she loosens it; her hair falls, darker than the shadows behind her.
 
 > REVATHI: I find I do not know how to do this without hiding. I have been a widow so long that secrecy became a skin.
 
 > REVATHI: Help me shed it.
 
-**15.5** Full width, bottom. He crosses to her and takes her face in both hands. His hands are steady now. The lamp behind them.
+**17.5** Full width, bottom. He crosses to her and takes her face in both hands. His hands are steady now. The lamp behind them.
 
 > NAGOJI: We learn together.
 
 ---
 
-## PAGE 16
+## PAGE 18
 
 Five panels. The lamp goes out. What is said in the dark. Morning.
 
-**16.1** Tight. The lamp flame guttering out on its stand. Jasmine scattered on white cloth.
+**18.1** Tight. The lamp flame guttering out on its stand. Jasmine scattered on white cloth.
 
 > CAPTION: I learned the scar at her hairline. A fall from a mango tree, when she was seven.
 
 > CAPTION: I learned the way she said my real name, *Nagoji*, when she forgot to be careful.
 
-**16.2** Later. Moonlight through a window lattice. Their faces close on the pillow, the white cloth drawn up over both of them to the shoulders, the *tali* at her throat. Her fingertip at the grey on his temple.
+**18.2** Later. Moonlight through a window lattice. Their faces close on the pillow, the white cloth drawn up over both of them to the shoulders, the *tali* at her throat. Her fingertip at the grey on his temple.
 
 > REVATHI: You are older.
 
@@ -575,7 +587,7 @@ Five panels. The lamp goes out. What is said in the dark. Morning.
 
 > NAGOJI: Survival is its own earning.
 
-**16.3** Her head resting on the white cloth over his chest; the cloth stays up to the shoulders and his ribs stay covered. He is already half rising out of old habit; her arm tightens across him.
+**18.3** Her head resting on the white cloth over his chest; the cloth stays up to the shoulders and his ribs stay covered. He is already half rising out of old habit; her arm tightens across him.
 
 > NAGOJI: I should go. Before the servants...
 
@@ -585,7 +597,7 @@ Five panels. The lamp goes out. What is said in the dark. Morning.
 
 > CAPTION: I could stay.
 
-**16.4** Cut away from the bed. The moonlit window lattice; on the sill below it, the cold lamp and a few fallen jasmine flowers. No figures. The three balloons come out of the dark, their tails running off panel toward the bed.
+**18.4** Cut away from the bed. The moonlit window lattice; on the sill below it, the cold lamp and a few fallen jasmine flowers. No figures. The three balloons come out of the dark, their tails running off panel toward the bed.
 
 > NAGOJI (off): It will take time to stop feeling like a thief.
 
@@ -593,7 +605,7 @@ Five panels. The lamp goes out. What is said in the dark. Morning.
 
 > NAGOJI (off): Company. Yes. I think I can do that.
 
-**16.5** Full width, bottom. Dawn light through the lattice. Revathi asleep beside him, the *tali* at her throat, the white cloth to their shoulders. Nagoji asleep on, one hand open and loose near hers, nowhere near a weapon. The waking house is shown, not heard: in the strip of light under the teak door, the shadows of passing feet; through the lattice, small figures of children in the courtyard.
+**18.5** Full width, bottom. Dawn light through the lattice. Revathi asleep beside him, the *tali* at her throat, the white cloth to their shoulders. Nagoji asleep on, one hand open and loose near hers, nowhere near a weapon. The waking house is shown, not heard: in the strip of light under the teak door, the shadows of passing feet; through the lattice, small figures of children in the courtyard.
 
 > CAPTION: For the first time, I did not wake at the sound of footsteps. For the first time, I did not reach for a weapon.
 
@@ -601,29 +613,29 @@ Five panels. The lamp goes out. What is said in the dark. Morning.
 
 ---
 
-## PAGE 17
+## PAGE 19
 
 Four panels. Coda. Hold the chapter's last lines verbatim.
 
-**17.1** Wide, full page width, high angle. Velinadu in the morning: kitchen smoke rising, courtyards filling, the kalari waking. Beyond the walls, the road running away through the palms.
+**19.1** Wide, full page width, high angle. Velinadu in the morning: kitchen smoke rising, courtyards filling, the kalari waking. Beyond the walls, the road running away through the palms.
 
 > CAPTION: For the first time since Goa, since the dungeon, since the storm, I felt something like rest.
 
 > CAPTION: Not peace.
 
-**17.2** Nagoji on the western verandah in morning light, looking out past the walls. No knife at his waist.
+**19.2** Nagoji on the western verandah in morning light, looking out past the walls. No knife at his waist.
 
 > CAPTION: The world beyond Velinadu still boiled. Mysore still watched. The British and the French still bartered with Arcot. The Dutch still counted their losses.
 
 > CAPTION: Travancore still balanced on knives.
 
-**17.3** Revathi comes to stand beside him, the *tali* at her throat, separate from the flat-coin necklace. Her hand finds his without either of them looking down.
+**19.3** Revathi comes to stand beside him, the *tali* at her throat, separate from the flat-coin necklace. Her hand finds his without either of them looking down.
 
 > CAPTION: But here, in this house where pepper and politics and old love all shared the same air, I was no longer only a sword.
 
 > CAPTION (separate): I was also a husband.
 
-**17.4** Full width, bottom. Soft-edged, a picture of what is to come: children running these stones, one small rider on a pony in the kalari yard, learning to sit a horse.
+**19.4** Full width, bottom. Soft-edged, a picture of what is to come: children running these stones, one small rider on a pony in the kalari yard, learning to sit a horse.
 
 > CAPTION: And, in time, a father whose children ran these stones and called this place home, even as they learned to ride under a king whose kingdom we had both helped, and hindered, and loved into being.
 
@@ -631,40 +643,40 @@ Four panels. Coda. Hold the chapter's last lines verbatim.
 
 ## Adaptation notes
 
-- **Page count** is 17 against a target of 15, inside the 12 to 18 range. The extra pages go to the Velinadu proposal (pages 3 to 9) and the tali ceremony (pages 11 and 12), the two scenes the chapter exists for. The festival courtship, the two-month delay and the green-cloth summons are compressed into two pages. The review restored several novel lines (see Review changes), so no page was dropped.
+- **Page count** is 17 against a target of 15, inside the 12 to 18 range. The extra pages go to the Velinadu proposal (pages 3 to 10) and the tali ceremony (pages 13 and 14), the two scenes the chapter exists for. The festival courtship, the two-month delay and the green-cloth summons are compressed into two pages. The review restored several novel lines (see Review changes), so no page was dropped.
 - **The "small things"** (canal rights, horse breeds) sit over the reading panel 1.1, and the invitation over the festival wide 1.2. "It began with small things" is cut; the novel's "before fire ever touched Padmini's upper fields" is kept as a plant.
 - **The festival days** keep the prasadam touch, the marches exchange and the hawks-on-a-thermal line verbatim. The kingdom talk (the Dutch, grumbling chiefs) is cut.
 - **"I told myself a dozen reasons"** is condensed into one caption on 2.3.
 - **Velinadu's changes** (thicker walls, muskets at the gates, children) and the verandah's household sounds are carried by the art in 3.1 and 3.5, not by captions, per the no-description rule.
-- **The proposal moves through the house** so five pages of talk do not sit at one pillar: the pillar in late-afternoon light (page 4), the council room in gold light (page 5), the courtyard steps at lamp-lighting (page 6), the outer stable rail at dusk (page 7), and back under the carved beam by moonlight (pages 8 and 9). The novel sets the whole talk on the verandah; the lines are unchanged, only the walking is added.
+- **The proposal moves through the house** so five pages of talk do not sit at one pillar: the pillar in late-afternoon light (page 4), the council room in gold light (page 5), the courtyard steps at lamp-lighting (page 6), the outer stable rail at dusk (page 8), and back under the carved beam by moonlight (pages 9 and 10). The novel sets the whole talk on the verandah; the lines are unchanged, only the walking is added.
 - **Revathi's proposal speeches** are trimmed for balloon length ("They promise that the weight of this house will not rest solely on my shoulders" and "To this land. To these people" are cut), but her key lines stay verbatim: safety bores me, afraid of you, three paces behind, not in the shadows, you will not rule, a guest in their heritage, "But I have responsibilities", never yours to own.
-- **Nagoji's "My house will always be Padmini Amma's courtyard and whatever barracks..."** is cut; the neem and jackfruit line on 7.3 already makes the point.
+- **Nagoji's "My house will always be Padmini Amma's courtyard and whatever barracks..."** is cut; the neem and jackfruit line on 8.3 already makes the point.
 - **Padmini's advice** is shown as a soft inset of a recent scene, with Revathi drawn as she is now, but lettered as Revathi's off-panel balloon, so the POV stays with what Nagoji hears.
-- **"Years ago"** is dropped from the verandah-touch caption (9.3). The chapter opens "some months after Colachel", and the Dutch bowed after Colachel, so "years" contradicts the novel's own timeline.
-- **Dhanaji's scene** keeps the knife, "Take it, Dhanaji", the oath and "I stole it / you earned it" verbatim. Cut: "She does not believe in anything that wastes time", "The food is too wet, the customs too strange", and the closing "Stay for the feast / embarrassing stories" exchange. In "If the gods cut you down here", "here" is dropped, because Dhanaji is going home to the Deccan and the word made the line confusing. Per CONTINUITY.md, the conch knife leaves Nagoji's waist at 10.3 and never returns.
-- **The wedding guests** are staged in the art of 11.1 by costume, left to right: De Lannoy, Ponnan with two men, Dhanaji at the wall. Lannoy's captain and Ramayyan mouthing at his pillar are left out of the frame so the image model can hold the likenesses; Ramayyan's first full appearance is the feast (13.4).
+- **"Years ago"** is dropped from the verandah-touch caption (10.3). The chapter opens "some months after Colachel", and the Dutch bowed after Colachel, so "years" contradicts the novel's own timeline.
+- **Dhanaji's scene** keeps the knife, "Take it, Dhanaji", the oath and "I stole it / you earned it" verbatim. Cut: "She does not believe in anything that wastes time", "The food is too wet, the customs too strange", and the closing "Stay for the feast / embarrassing stories" exchange. In "If the gods cut you down here", "here" is dropped, because Dhanaji is going home to the Deccan and the word made the line confusing. Per CONTINUITY.md, the conch knife leaves Nagoji's waist at 12.1 and never returns.
+- **The wedding guests** are staged in the art of 13.1 by costume, left to right: De Lannoy, Ponnan with two men, Dhanaji at the wall. Lannoy's captain and Ramayyan mouthing at his pillar are left out of the frame so the image model can hold the likenesses; Ramayyan's first full appearance is the feast (15.4).
 - **The Sanskrit chanting** and the blessing with water and ash are in the art. The priest's knot blessings become off-panel balloons.
-- **"I thought of Keshavrao drowning. Of the brand on my wrist. Of the cellar"** becomes the wordless memory strip 12.2.
-- **The feast menu** (sambar, rasam, pappadam, pickle, chutney) and the avial's preparation are carried in the art of 13.4. Cut: Ramayyan's claim that Sambhaji invented sambar, "Some things are worth recording", and Padmini's "It worked better than prayer usually does". The eating-with-fingers passage is kept and closes the page (13.5), as his first moment of belonging.
-- **The circle before the goddess:** the lamp-leaning caption is cut, because the chapter already uses a guttering flame (14.3) and a lamp going out (16.1). The house shrine stays, wordless, behind the verandah in 14.1.
+- **"I thought of Keshavrao drowning. Of the brand on my wrist. Of the cellar"** becomes the wordless memory strip 14.2.
+- **The feast menu** (sambar, rasam, pappadam, pickle, chutney) and the avial's preparation are carried in the art of 15.4. Cut: Ramayyan's claim that Sambhaji invented sambar, "Some things are worth recording", and Padmini's "It worked better than prayer usually does". The eating-with-fingers passage is kept and closes the page (15.5), as his first moment of belonging.
+- **The circle before the goddess:** the lamp-leaning caption is cut, because the chapter already uses a guttering flame (16.3) and a lamp going out (18.1). The house shrine stays, wordless, behind the verandah in 16.1.
 - **Western verandah:** "a name on land records" is shortened to "a name in Ramayyan's leaves". Cut for space: Nagoji's "the woman who kept their house standing" and the "Half will call me fool / All will call you loud" exchange. His promise, "I will tell them it was my choice to ride. Yours to keep the roof over their heads", is kept, and Revathi answers it with "Come."
-- **The wedding night** is implied only: the door, jewellery coming off with the tali left on, the pinned braid let down, his hands on her face, the lamp going out, then a cut away to the window while they talk in the dark. Removed: the ticklish spot, the brand kissed, the Colachel scars on his ribs, and "just sounds, just breath". Kept: the mango-tree scar (it pays off the "story I did not yet know" on 11.5) and the way she says *Nagoji* when she forgets to be careful (it pays off her test on 3.2). "No urgency. No fear of footsteps overhead" is cut, because 15.3 and 16.5 carry the same contrast. "You are older" comes after the lamp goes out, so that dialogue happens in the dark.
+- **The wedding night** is implied only: the door, jewellery coming off with the tali left on, the pinned braid let down, his hands on her face, the lamp going out, then a cut away to the window while they talk in the dark. Removed: the ticklish spot, the brand kissed, the Colachel scars on his ribs, and "just sounds, just breath". Kept: the mango-tree scar (it pays off the "story I did not yet know" on 13.5) and the way she says *Nagoji* when she forgets to be careful (it pays off her test on 3.2). "No urgency. No fear of footsteps overhead" is cut, because 17.3 and 18.5 carry the same contrast. "You are older" comes after the lamp goes out, so that dialogue happens in the dark.
 - **Verbatim lines kept:** "circling each other like two hawks who had spotted the same thermal", "Come to Velinadu... Not before", the green-cloth message, "Depends on the dream", "Because safety bores me. But fear does not", "My pride died at Colachel", "the root over the branch", "a horse that does not like cannon smoke", "One more thread in the cloth", "Then let it be written", the cowries, "Let him find me by the conch and the gold", "I was looking at my wife, my *wife*", "Stay terrified. It will keep you honest", "I solved a logistics problem", "a Maratha in a Nair house, a sword in a land of pepper", "Help me shed it", "We learn together", "I did not have to leave. I could stay", "haunted people can keep each other company", "For the first time, I was home", and the chapter's closing paragraph.
 - **For the orchestrator (CONTINUITY.md):** Dhanaji's look was locked by the author on 2026-09-26: white pagdi, indigo quilted tunic, short black beard, no sash.
 
 ### Review changes
 
-- Page 1: the letters caption now sits over the reading panel (1.1) and the invitation over the festival wide (1.2). In 1.3 both hands reaching for the prasadam are right hands, with his brand kept off the insert. Revathi's look is fixed: the same few grey threads all chapter, and no tali before page 12.
+- Page 1: the letters caption now sits over the reading panel (1.1) and the invitation over the festival wide (1.2). In 1.3 both hands reaching for the prasadam are right hands, with his brand kept off the insert. Revathi's look is fixed: the same few grey threads all chapter, and no tali before page 14.
 - A looks block at the head of the script fixes Nagoji, Revathi (before and after the tali), Padmini, Dhanaji, Ramayyan, De Lannoy, Ponnan and the priest.
 - 3.2: "more grey than at the festival" becomes "the same few grey threads as at the festival".
-- Pages 4 to 8 move through the house as the light changes (the pillar, the council room with the guard in 5.2 and the silhouette in 5.5, the lamp-lit courtyard steps, the stable rail with Kayal and the bickering nieces, then back under the carved beam by moonlight for 8.1 to 8.5).
-- 7.2: "But I have responsibilities" and "an honoured guest here" are restored.
-- 8.2: Padmini's advice is a recent scene, with Revathi drawn as she is now and not younger.
-- Page 9: the outer-stable rule is cut from 9.2, "No trumpets. Only drums" is cut from 9.4, and the 9.5 caption now opens with "Dhanaji." He has a fixed look from his first panel.
-- Page 10: five panels. The clasp and "last of us to fall" are merged into 10.1. "I am tying myself to this coast. Take it, Dhanaji" moves into the inset, and "You swear that?" goes to the last panel. The two men's hands are told apart, the brand is on his LEFT wrist, and the knife's position is locked panel by panel.
-- Page 11: the priest and Nagoji are set apart by face, marks, cloth border and side of the fire. 11.1 is restaged with Padmini large in the foreground and three guests readable by costume. Lannoy's captain is gone, and Lannoy wears the white cotton coat. Revathi's braid is pinned up so the nape scar can show.
-- 12.2: the brand is on his LEFT wrist. 12.5: the tali is described separately from the flat-coin necklace.
-- Page 13: "I was looking at my wife. My *wife*" and the gold-thread line are restored in 13.1. The feast is one wide panel with fixed seating, and the page now ends on Nagoji eating with his fingers and the "hungry man at a wedding feast" caption.
-- Page 14: five panels. The lamp-leaning inset is cut, and the shrine is wordless in the background. "You carry the children we may have" restores the antecedent for "them", and the Ramayyan's leaves line bridges from the mother lines. Nagoji takes her hand in 14.4, and his promise to take the blame closes on "Come."
-- 15.1: the caption that repeated "No cellar tonight" is cut. 15.4: she pulls the pins and lets the braid down.
-- Page 16: 16.1 adds her saying *Nagoji* when she forgets to be careful. In 16.2 and 16.3 the cloth stays up to the shoulders. 16.3 adds "I did not have to leave." / "I could stay." 16.4 cuts away to the window lattice with the voices off panel. In 16.5 Revathi sleeps beside him, and the morning is shown by shadows under the door and children through the lattice.
+- Pages 4 to 9 move through the house as the light changes (the pillar, the council room with the guard in 5.2 and the silhouette in 5.5, the lamp-lit courtyard steps, the stable rail with Kayal and the bickering nieces, then back under the carved beam by moonlight for 9.1 to 9.5).
+- 8.2: "But I have responsibilities" and "an honoured guest here" are restored.
+- 9.2: Padmini's advice is a recent scene, with Revathi drawn as she is now and not younger.
+- Page 10: the outer-stable rule is cut from 10.2, "No trumpets. Only drums" is cut from 10.4, and the 10.5 caption now opens with "Dhanaji." He has a fixed look from his first panel.
+- Page 11: five panels. The clasp and "last of us to fall" are merged into 11.1. "I am tying myself to this coast. Take it, Dhanaji" moves into the inset, and "You swear that?" goes to the last panel. The two men's hands are told apart, the brand is on his LEFT wrist, and the knife's position is locked panel by panel.
+- Page 13: the priest and Nagoji are set apart by face, marks, cloth border and side of the fire. 13.1 is restaged with Padmini large in the foreground and three guests readable by costume. Lannoy's captain is gone, and Lannoy wears the white cotton coat. Revathi's braid is pinned up so the nape scar can show.
+- 14.2: the brand is on his LEFT wrist. 14.5: the tali is described separately from the flat-coin necklace.
+- Page 15: "I was looking at my wife. My *wife*" and the gold-thread line are restored in 15.1. The feast is one wide panel with fixed seating, and the page now ends on Nagoji eating with his fingers and the "hungry man at a wedding feast" caption.
+- Page 16: five panels. The lamp-leaning inset is cut, and the shrine is wordless in the background. "You carry the children we may have" restores the antecedent for "them", and the Ramayyan's leaves line bridges from the mother lines. Nagoji takes her hand in 16.4, and his promise to take the blame closes on "Come."
+- 17.1: the caption that repeated "No cellar tonight" is cut. 17.4: she pulls the pins and lets the braid down.
+- Page 18: 18.1 adds her saying *Nagoji* when she forgets to be careful. In 18.2 and 18.3 the cloth stays up to the shoulders. 18.3 adds "I did not have to leave." / "I could stay." 18.4 cuts away to the window lattice with the voices off panel. In 18.5 Revathi sleeps beside him, and the morning is shown by shadows under the door and children through the lattice.

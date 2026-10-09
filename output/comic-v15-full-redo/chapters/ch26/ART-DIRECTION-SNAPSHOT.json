@@ -1,0 +1,256 @@
+{
+  "prompt_profile": "v2",
+  "chapter": 26,
+  "status": "draft",
+  "settings": {
+    "fort_wall": {
+      "label": "Travancore fort wall above the dry country",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The red laterite parapet walk of a Travancore fort, worn coping stones and a sloping tiled gatehouse roof behind, looking north over parched scrub and low hills to a dark green belt of pepper country and coconut palms. Once the strip has burned, it shows far off as a dark line across that green.",
+      "absent": "No European bastions, flags or ships in the view, no glass lanterns, and no red or blue coats on the Nair sentries in white mundu with crossed leather belts.",
+      "time": "evening, low red-gold light",
+      "allow_terms": [
+        "european"
+      ]
+    },
+    "war_hall": {
+      "label": "War hall in the Travancore fort",
+      "scopes": [
+        "kerala",
+        "court",
+        "travancore_camp"
+      ],
+      "anchor": "A long, low hall on a laterite base with carved timber pillars, a sloping tiled roof, a main doorway, a side doorway and narrow window slits; Varma's low platform stands at the far end with his spear beside it. In the middle a map table is heaped with palm-leaf bundles around a hand-painted cloth map of the canal country drawn in plain ink lines, and everyone else stands or sits on the floor.",
+      "absent": "No throne, crown, European chairs, benches or glass lamps, and no lettering, labels or numerals on the cloth map or the palm leaves.",
+      "time": "midday daylight through the doorways and window slits",
+      "allow_terms": [
+        "european"
+      ]
+    },
+    "field_road": {
+      "label": "Dry red road to Padmini's upper fields",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "A dry red earth road through scrub and scattered palms toward the pepper country, the Travancore riders in white mundu with crossed leather belts under a red standard with a silver conch. Ahead, dark greasy columns of smoke rise beyond the green and sparks drift around the horses.",
+      "absent": "No European riders, red or blue coats, lettered standard or marked saddle cloths, and no bodies.",
+      "time": "hot dry-season day under a smoke-stained sky",
+      "allow_terms": [
+        "european"
+      ]
+    },
+    "pepper_strip": {
+      "label": "Padmini's upper pepper fields along the canal",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "Dense green walls of pepper vines climbing rough-barked support posts in ordered lines on both sides of a narrow earth path, green fruit clusters hanging like beads, a canal alongside with low loaded boats, and small stone and carved-wood shrines half swallowed by leaves on the low ridge above. Fire, smoke and blackened ground appear only where the panel describes them.",
+      "absent": "No blue or red coats on anyone, no cross-belts on the raiders, no writing on their plain faded green banner, no wire trellises, Europeans or ships, and no bodies, wounds or blood.",
+      "time": "hot dry-season day, smoke drifting across the sun",
+      "allow_terms": [
+        "european"
+      ]
+    },
+    "burned_strip": {
+      "label": "The burned strip in Padmini's upper fields",
+      "scopes": [
+        "kerala",
+        "travancore_camp"
+      ],
+      "anchor": "The same canal-side pepper country after the burn: a blackened zig zag corridor of charred, fallen support posts and scorched earth cuts through the green, with untouched pepper vines still standing on both sides and the canal beside it.",
+      "absent": "No bodies, wounds or blood, no blue or red coats, no writing on the scorched plain faded green banner, no wire trellises, Europeans or ships, and no fresh flames on the standing vines.",
+      "time": "late afternoon, hot wind thinning the smoke"
+    },
+    "canal_bank": {
+      "label": "Canal bank at dusk",
+      "scopes": [
+        "kerala",
+        "coast"
+      ],
+      "anchor": "A quiet Travancore canal bank under coconut palms, bales of cloth stacked beside a moored low country boat on dark, still water. Ibrahim stands in three-quarter view showing his anatomical LEFT side, talking with an unnamed man seen from behind in shadow.",
+      "absent": "No ocean-going ship, foreign warehouses or bastions, European figures or glass lanterns, and no recognisable principal in the shadowed man.",
+      "time": "dusk, the last grey light on the water"
+    }
+  },
+  "pages": {
+    "1": "war_hall",
+    "2": "war_hall",
+    "3": "war_hall",
+    "4": "war_hall",
+    "5": "pepper_strip",
+    "6": "pepper_strip",
+    "7": "war_hall",
+    "8": "war_hall",
+    "9": "fort_wall",
+    "10": "fort_wall",
+    "11": "war_hall"
+  },
+  "panels": {
+    "page-01-panel-01": {
+      "setting": "fort_wall",
+      "time": "midday in the dry season, hard white glare",
+      "frame": "strip",
+      "lettering_space": "Keep the pale sky above the far hills clear for two captions, with the thin smoke line still visible beneath them."
+    },
+    "page-01-panel-02": {
+      "setting": "fort_wall",
+      "time": "early afternoon, the same hard glare",
+      "frame": "strip"
+    },
+    "page-02-panel-02": {
+      "setting": "pepper_strip",
+      "time": "hazy midday, two faint smoke trails converging",
+      "distant": true,
+      "bleed": "Imagined, not seen: the strip as Nagoji pictures it from above, painted like a map coming alive with softened edges, and no hall, table or figure drawn into it.",
+      "lettering_space": "Leave the upper sky band clear for one off-panel speech and one caption."
+    },
+    "page-04-panel-04": {
+      "frame": "strip",
+      "lettering_space": "Leave the dim upper hall between the pillars clear for three speeches, above Padmini's head and the striking stick."
+    },
+    "page-05-panel-01": {
+      "setting": "field_road"
+    },
+    "page-05-panel-02": {
+      "frame": "strip",
+      "distant": true
+    },
+    "page-05-panel-04": {
+      "bleed": "Padmini's and Revathi's faces appear only as translucent, smoke-textured stains in the smoke above Nagoji, never as standing figures or a framed flashback. Nagoji, the soldier and the untouched vine line stay solid and present."
+    },
+    "page-07-panel-01": {
+      "setting": "burned_strip",
+      "distant": true,
+      "lettering_space": "Leave the hazy sky above the far survivors clear for two captions."
+    },
+    "page-07-panel-02": {
+      "time": "night, open-wick clay and brass oil lamps"
+    },
+    "page-07-panel-03": {
+      "time": "night, open-wick clay and brass oil lamps"
+    },
+    "page-07-panel-04": {
+      "time": "night, open-wick clay and brass oil lamps"
+    },
+    "page-07-panel-05": {
+      "time": "night, open-wick clay and brass oil lamps",
+      "frame": "strip"
+    },
+    "page-08-panel-01": {
+      "time": "night, open-wick clay and brass oil lamps"
+    },
+    "page-08-panel-02": {
+      "time": "night, open-wick clay and brass oil lamps"
+    },
+    "page-08-panel-03": {
+      "time": "night, open-wick clay and brass oil lamps"
+    },
+    "page-08-panel-04": {
+      "time": "night, open-wick clay and brass oil lamps",
+      "frame": "strip",
+      "lettering_space": "Leave the dark lintel and upper wall clear for three speeches, away from Padmini's back and Nagoji's small lamplit figure."
+    },
+    "page-09-panel-05": {
+      "time": "the last light of evening on her face",
+      "frame": "strip",
+      "lettering_space": "Leave the open evening sky above the parapet clear for three speeches."
+    },
+    "page-10-panel-05": {
+      "time": "evening, the sky reddening over the walls",
+      "frame": "strip"
+    },
+    "page-11-panel-01": {
+      "setting": "burned_strip",
+      "time": "sunset under a red sky",
+      "distant": true,
+      "lettering_space": "Leave the red sky above the scorched posts clear for two captions."
+    },
+    "page-11-panel-02": {
+      "setting": "canal_bank",
+      "lettering_space": "Leave the dusk sky over the canal clear for two long captions, away from Ibrahim's scarred cheek."
+    },
+    "page-11-panel-05": {
+      "frame": "strip",
+      "sheets": false
+    }
+  },
+  "character_notes": {
+    "nagoji": "Thick curled moustache; clean-shaven chin and jaw, smooth skin, no beard or facial scar. A tiny flush gold ear stud on the lobe with nothing hanging from it, Kerala topknot with grey at the temples and no turban, and the white coat, red waistcoat, brass buttons, knee breeches, riding boots and silver chain of office, never a mundu in this chapter.",
+    "padmini": "Older and lined but upright, with grey threading through her thick black hair coiled at the nape; in this chapter that grey is wanted, overriding any line that calls her hair only black. Simple gold, a cream sari with a narrow gold border hitched for walking in the old Kerala drape with no stitched blouse, and her long walking stick.",
+    "ramayyan": "Thin sharp features and receding hair, plain unbordered white cloth, palm-leaf bundles and stylus, no forehead marks or sacred thread; never a priest's face.",
+    "varma": "Face, moustache and build from his sheet, with black hair, never the grey of the sheet's later figure. In the war hall he is bare-headed with his hair in a side knot above the LEFT ear, bare-chested in a cream mundu with gold border and gold necklaces, no turban, crest or headband, whatever the sheet shows.",
+    "revathi": "A little younger than Nagoji, with grey threading her hair; deep indigo sari with gold, jasmine in her braid, the tali at her throat, flat-coin necklace, gold armlets and a sandalwood line at the hairline.",
+    "ponnan": "Broad-shouldered Maravar with loose curly hair uncovered and no topknot, thick moustache and clean chin; red shoulder cloth over a short jacket, white mundu hitched above bare knees and a spear. He rides a smaller, lighter Maravar horse a head lower than Kayal and never shares Nagoji's coat or topknot.",
+    "kayal": "Bay mare with an ochre red-brown coat and black mane, tail and lower legs, no white markings; never grey or black.",
+    "ibrahim": "Stocky, broad-chested coastal Muslim broker, white turban, short grey-flecked beard, short coat over a vest with bulging pockets. A thin pale scar runs from the anatomical LEFT ear to the jaw and nothing marks the forehead."
+  },
+  "not_shown": {
+    "page-01-panel-04": [
+      "padmini"
+    ],
+    "page-02-panel-01": [
+      "kollamkara"
+    ],
+    "page-02-panel-02": [
+      "nagoji",
+      "varma"
+    ],
+    "page-03-panel-04": [
+      "nagoji"
+    ],
+    "page-04-panel-01": [
+      "nagoji",
+      "padmini"
+    ],
+    "page-04-panel-02": [
+      "varma"
+    ],
+    "page-05-panel-02": [
+      "kollamkara"
+    ],
+    "page-05-panel-04": [
+      "varma"
+    ],
+    "page-06-panel-03": [
+      "nagoji"
+    ],
+    "page-07-panel-01": [
+      "nagoji"
+    ],
+    "page-07-panel-03": [
+      "nagoji"
+    ],
+    "page-08-panel-01": [
+      "nagoji"
+    ],
+    "page-08-panel-03": [
+      "kollamkara"
+    ],
+    "page-08-panel-04": [
+      "varma"
+    ],
+    "page-09-panel-02": [
+      "varma",
+      "ramayyan",
+      "padmini"
+    ],
+    "page-10-panel-01": [
+      "nagoji"
+    ],
+    "page-10-panel-03": [
+      "varma"
+    ],
+    "page-11-panel-02": [
+      "ramayyan",
+      "kollamkara"
+    ],
+    "page-11-panel-05": [
+      "ibrahim"
+    ]
+  }
+}

@@ -1,0 +1,545 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 13,
+  "logs": [
+    "chapter 7: 3 picked, 2 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 7: keep regions for 3 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 7: face zones for 3 frames, 4 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 7,
+        "decisions": [
+          {
+            "id": "page-07-panel-01",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.685,
+                "y": 0.303
+              },
+              {
+                "copy_index": 1,
+                "x": 0.277,
+                "y": 0.232
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.25,
+                "y": 0.157,
+                "r": 0.12
+              },
+              {
+                "x": 0.716,
+                "y": 0.225,
+                "r": 0.14
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: Raza Khan traces the sand map with a fingertip instead of only studying it, and the map is a simple loop-and-line, not obviously half-erased. Nagoji has faint shading on his jaw but his chin reads clean-shaven. Otherwise clean. Nagoji has his thick curled moustache, gold ear stud, rust-red turban, cream tunic and red sash, with forearms on his knees. Raza matches his sheet: green turban and drape, crossed scar on the visible anatomical left cheek, pointed moustache, goatee. The beach, rocks and surf match 6.5 and 7.2. No text, the hands are sound, and there is clear sky at upper centre and upper left for both lines.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-04",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "The cast and the beat are right: Varma standing bare-headed with namam lines, pearl earring and the cream-and-gold cloth; Ramayyan on his stool writing on a palm leaf; Nagoji swinging down from the dappled grey with sand-caked boots, clean chin, curled moustache and ear stud. The upper-right sky is clear for the lettering. But the background in the middle of the frame shows a European-looking town on the bay below the bluff: a baroque church tower with a cupola, a large multi-storey palace or fort block, and two sailing boats. It reads as Portuguese Goa, not the empty Travancore training beach. The same bluff in 8.1, 8.2 and 8.3 shows only palms, laterite slope, sand and open sea, and 8.4 needs the sea empty of ships. Smaller point: Varma's bun is loose and wavy, not the smooth tight knot on the sheet.",
+            "correction": "Keep this composition exactly: Marthanda Varma standing at the left edge of the plain cream awning, bare-headed and bare-chested, with a cream-and-gold cloth over one shoulder, gold necklaces, pearl earrings and Vaishnavite forehead lines. Ramayyan sits on his wooden stool in the middle, writing on a palm leaf. On the right Nagoji swings down from the dappled grey, with sand caked on his boots and trousers. Keep the open sky in the upper right clear for lettering. Change only the background: it must be the same view as the other bluff panels. Show the red laterite edge of the bluff dropping to a long, empty strip of shining wet sand at the water's edge, the open Arabian Sea, coconut palms along the shore and a low green headland in the far distance. Do not draw any town, building, church, tower, cupola, fort, palace, rooftop or wall anywhere in the landscape, and no boats, sails or ships on the water. Varma's black hair is smooth and pulled tightly back into one neat bun on the left side of his head, with no loose waves or curls."
+          },
+          {
+            "id": "page-08-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.592,
+                "y": 0.493
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.658,
+                "y": 0.332,
+                "r": 0.39
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. There is a tiny red cross-shaped stroke inside the white namam above the red centre drop. It is not lettering and is barely visible at print size. The moustache is slightly fuller than the bible's 'thin, waxed' wording but matches the V15 sheet's front view. He glances sideways toward frame right rather than looking square into the lens, which still reads as looking at Nagoji off panel. Everything else matches the sheet and the beach/field row: bare head, sleek black hair in a knot on his left side, no turban or crest, namam with red centre, pearl drop earrings, clean-shaven chin, gold necklaces at the bottom of the frame, and the cream-and-gold cloth over one shoulder. The open sky fits the bluff in 8.2 and 8.4. The whole upper left is clear sky with room for the VARMA balloon. There is no text, no painted balloon and no anachronism.",
+            "correction": ""
+          },
+          {
+            "id": "page-09-panel-02",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v02 is the only candidate. Most of it works. Nagoji is seen from behind at three-quarter, riding the dappled grey down the rocky slope with his head turned in profile. He matches the commander sheet: rust-red turban, long curls, thick curled moustache, clean-shaven chin, a tiny gold bead at the lobe, cream tunic, red sash, cream trousers, boots and talwar. The troop on the wet sand is now a properly interleaved mixed line: Madurai riders in white turbans and tunics with plain lances on dark horses, and bare-headed Maravar men in dark vests on dun ponies. The tide comes in and the upper-right sky is clear for both captions. There is no text, gore or anatomy failure. It is rejected for setting drift. The far headland carries two crenellated stone forts with square towers (centre, about x 0.52-0.74, y 0.22-0.32). The script's beach is pinned only by a low laterite bluff with coconut palms. Neighbouring panels 8.2 and 9.1 show the same coast with no fort, so a fortress would appear only in this panel. This chapter has repeatedly rejected panels for forts on the headland. Minor notes: the Maravar ponies are not visibly smaller than the Madurai horses; the Madurai tunics are short rather than knee-length jamas; and the riders sit stiffly in parade formation rather than catching their breath.",
+            "correction": "Keep this composition and everything that worked. Nagoji stays at the left, seen from behind at three-quarter, riding the dappled grey down the rocky laterite slope with his head turned in right profile. He has a rust-red turban, long black curls, a thick curled moustache, a clean-shaven chin and a small flush gold stud on the earlobe (a stud, not a hanging drop), plus a cream tunic, broad red sash, cream trousers, boots and talwar. Keep the one interleaved line of riders on the wet sand: Madurai riders in white turbans and white jamas with plain bamboo lances on tall dark bay, brown and black horses, alternating with bare-headed Maravar riders in short jackets. Keep the incoming tide and the large open sky at upper right for the lettering. Change these things only. Remove both stone forts from the far headland: no crenellated walls, square towers, castle, ruins, buildings or structures of any kind on the far shore. The coast across the water is only a low laterite bluff crowned with coconut palms running out into the sea, the same coast as the neighbouring panels. Make the Maravar ponies visibly smaller than the Madurai horses, with their riders sitting about a head lower than the Madurai riders. Let the riders slouch a little and breathe hard, with horses' heads lowered, as if they have just finished hard riding."
+          },
+          {
+            "id": "page-10-panel-03",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.605,
+                "y": 0.236,
+                "r": 0.165
+              }
+            ],
+            "backup_faces": [],
+            "issues": "v02 is acceptable. It is set on the beach picket line at sunset: rail fence, coconut palms, the sea, a plain headland and a cook fire. That matches the chosen 10.1, 10.2, 10.4 and 10.5. It also fixes the daylight fort that got v01 rejected (v01 is not offered in this round). The beat is right. Kayal's muzzle presses into Nagoji's chest, his near hand rests on her upper neck under the black mane, and his eyes are closed with his face against her forehead. Nagoji is on model: rust-red turban, curls at the nape, thick curled moustache, cream tunic with sleeves rolled, broad red sash and talwar. The inner left forearm faces the horse, so the brand is correctly not shown. Kayal matches her sheet: ochre red-brown bay, black mane, no white markings, ochre quilted pad and brass-fitted bridle. The hand and arm anatomy are sound. There is no text, pseudo-text, gore or anachronism. Note 1: his ear ornament is a small hanging gold drop, not the flush stud the bible asks for. This is the known ch1-8 deviation from the nagoji-v2 reference, it matches the drop in 10.2 and 10.4, and it goes on the author's deviation list. It is not a reason to reject. Note 2: faint stubble shading on the chin and jaw, within the light-stubble tolerance and invisible at print size. For lettering, the open sunset sky across the top centre (above the horse's ears, between the palms, about x 0.30-0.80, y 0.02-0.14) and the upper right sky (about x 0.70-0.95, y 0.12-0.30) take both captions clear of the faces and hands.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 7,
+        "result": {
+          "chapter": 7,
+          "panels": [
+            {
+              "id": "page-07-panel-01",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.277,
+                  "y": 0.215,
+                  "r": 0.047,
+                  "who": "red-turbaned man with moustache and earring, three-quarter, left"
+                },
+                {
+                  "x": 0.687,
+                  "y": 0.295,
+                  "r": 0.059,
+                  "who": "green-turbaned scarred man with goatee, profile, right"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.601,
+                  "y": 0.455,
+                  "r": 0.19,
+                  "who": "Moustached man with tilak and hair bun, three-quarter view, centre-right"
+                }
+              ]
+            },
+            {
+              "id": "page-10-panel-03",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.553,
+                  "y": 0.254,
+                  "r": 0.066,
+                  "who": "turbaned man with moustache, three-quarter profile, eyes closed, cheek against horse, centre"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 7,
+        "result": {
+          "chapter": 7,
+          "panels": [
+            {
+              "id": "7.1",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.34,
+                  "x1": 0.64,
+                  "y0": 0.66,
+                  "y1": 0.91,
+                  "what": "the half-erased sand map (straight Dutch line and curved flank grooves) with Raza Khan's pointing hand over it, the thing he is studying"
+                },
+                {
+                  "x0": 0.18,
+                  "x1": 0.32,
+                  "y0": 0.43,
+                  "y1": 0.58,
+                  "what": "Nagoji's forearms resting on his knees, the scripted pose across from Raza"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "8.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.8,
+                  "y0": 0.135,
+                  "x1": 0.885,
+                  "y1": 0.315,
+                  "what": "hair bun on his left (no turban, no crest identifier)"
+                },
+                {
+                  "x0": 0.59,
+                  "y0": 0.15,
+                  "x1": 0.635,
+                  "y1": 0.31,
+                  "what": "Vaishnavite forehead lines"
+                },
+                {
+                  "x0": 0.42,
+                  "y0": 0.63,
+                  "x1": 0.76,
+                  "y1": 0.8,
+                  "what": "gold necklaces at bottom of frame"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "10.3",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.32,
+                  "y0": 0.42,
+                  "x1": 0.57,
+                  "y1": 0.66,
+                  "what": "Nagoji's hand resting on Kayal's neck/jaw under the black mane, and her muzzle pressed into his chest"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch7 p7",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a03720cac96a0d022",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512937963,
+      "queuedAt": 1791512937950,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 7 of Chapter 7 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r6-ch07/page-07.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label, …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513158614,
+      "tokens": 120643,
+      "toolCalls": 31,
+      "durationMs": 220651,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-07-panel-01\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.685,\"y\":0.303},{\"copy_index\":1,\"x\":0.277,\"y\":0.232}],\"backup_tails\":[],\"faces\":[{\"x\":0.25,\"y\":0.157,\"r\":0.12},{\"x\":0.716,\"y\":0.225,\"r\":0.14}],\"backup_faces\":[],\"issues\":\"Minor only: Raza Khan traces the sand map with a fingertip instead of only studying it, and the map is a simple loop-and-line, not ob…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch7 p8",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a40fba1963843912d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512937963,
+      "queuedAt": 1791512937950,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 8 of Chapter 7 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r6-ch07/page-08.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label, …",
+      "promptFramed": true,
+      "lastProgressAt": 1791512986215,
+      "tokens": 71688,
+      "toolCalls": 10,
+      "durationMs": 47730,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-08-panel-05\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.592,\"y\":0.493}],\"backup_tails\":[],\"faces\":[{\"x\":0.658,\"y\":0.332,\"r\":0.39}],\"backup_faces\":[],\"issues\":\"Minor only. There is a tiny red cross-shaped stroke inside the white namam above the red centre drop. It is not lettering and is barely visible at print size. The moustache is slightly fuller than the…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "select ch7 p9",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a945bf1c8aeb77a9d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512937963,
+      "queuedAt": 1791512937951,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 9 of Chapter 7 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r6-ch07/page-09.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label, …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513130464,
+      "tokens": 106104,
+      "toolCalls": 34,
+      "durationMs": 191979,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-09-panel-02\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v02 is the only candidate. Most of it works. Nagoji is seen from behind at three-quarter, riding the dappled grey down the rocky slope with his head turned in profile. He matches the commander sheet: rust-red turban, long curls, thick curled moustache, clean-shaven c…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "select ch7 p10",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a0ed9b371be6a9b73",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791512937963,
+      "queuedAt": 1791512937951,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 10 of Chapter 7 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r6-ch07/page-10.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791513117966,
+      "tokens": 102076,
+      "toolCalls": 30,
+      "durationMs": 179480,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-10-panel-03\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.605,\"y\":0.236,\"r\":0.165}],\"backup_faces\":[],\"issues\":\"v02 is acceptable. It is set on the beach picket line at sunset: rail fence, coconut palms, the sea, a plain headland and a cook fire. That matches the chosen 10.1, 10.2, 10.4 and 10.5. It also fixes the daylight fort that got v01 reje…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "mark ch7 p7",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aba2f8c87a491990b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513158629,
+      "queuedAt": 1791513158622,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513191888,
+      "tokens": 63730,
+      "toolCalls": 8,
+      "durationMs": 33259,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.28,\"y\":0.217,\"r\":0.044,\"who\":\"red-turbaned man with moustache and earring, three-quarter, left\"},{\"x\":0.687,\"y\":0.295,\"r\":0.059,\"who\":\"green-turbaned scarred man with goatee, profile, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "mark ch7 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ad2def3e6170c84fc",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513158629,
+      "queuedAt": 1791513158622,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513189439,
+      "tokens": 64796,
+      "toolCalls": 6,
+      "durationMs": 30809,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.601,\"y\":0.455,\"r\":0.19,\"who\":\"Moustached man with tilak and hair bun, three-quarter view, centre-right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "mark ch7 p10",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a42d0a3b3a2b8e54b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513158629,
+      "queuedAt": 1791513158622,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513214874,
+      "tokens": 64105,
+      "toolCalls": 10,
+      "durationMs": 56244,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.553,\"y\":0.254,\"r\":0.068,\"who\":\"turbaned man with moustache, three-quarter profile, eyes closed, cheek against horse, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "keep ch7 p7",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "aec369cd443d6e5d7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513158645,
+      "queuedAt": 1791513158637,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 7 of chapter 7 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-07-SCRIPT.md (…",
+      "promptFramed": true,
+      "lastProgressAt": 1791513188308,
+      "tokens": 63033,
+      "toolCalls": 7,
+      "durationMs": 29663,
+      "resultPreview": "{\"panels\":[{\"id\":\"7.1\",\"version\":\"v02\",\"keep\":[{\"x0\":0.34,\"x1\":0.64,\"y0\":0.66,\"y1\":0.91,\"what\":\"the half-erased sand map (straight Dutch line and curved flank grooves) with Raza Khan's pointing hand over it, the thing he is studying\"},{\"x0\":0.18,\"x1\":0.32,\"y0\":0.43,\"y1\":0.58,\"what\":\"Nagoji's forearms resting on his knees, the scripted pose across from Raza\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "keep ch7 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a670fac4f304f52a3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513158645,
+      "queuedAt": 1791513158637,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 8 of chapter 7 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-07-SCRIPT.md (…",
+      "promptFramed": true,
+      "lastProgressAt": 1791513190345,
+      "tokens": 63809,
+      "toolCalls": 8,
+      "durationMs": 31700,
+      "resultPreview": "{\"panels\":[{\"id\":\"8.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0.8,\"y0\":0.135,\"x1\":0.885,\"y1\":0.315,\"what\":\"hair bun on his left (no turban, no crest identifier)\"},{\"x0\":0.59,\"y0\":0.15,\"x1\":0.635,\"y1\":0.31,\"what\":\"Vaishnavite forehead lines\"},{\"x0\":0.42,\"y0\":0.63,\"x1\":0.76,\"y1\":0.8,\"what\":\"gold necklaces at bottom of frame\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "keep ch7 p10",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "af255109b7cd885c7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513158645,
+      "queuedAt": 1791513158637,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 10 of chapter 7 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-07-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513183716,
+      "tokens": 61829,
+      "toolCalls": 6,
+      "durationMs": 25071,
+      "resultPreview": "{\"panels\":[{\"id\":\"10.3\",\"version\":\"v02\",\"keep\":[{\"x0\":0.32,\"y0\":0.42,\"x1\":0.57,\"y1\":0.66,\"what\":\"Nagoji's hand resting on Kayal's neck/jaw under the black mane, and her muzzle pressed into his chest\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "check ch7 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a875baa2dcaa7ac83",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513189441,
+      "queuedAt": 1791513189440,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513208918,
+      "tokens": 62295,
+      "toolCalls": 5,
+      "durationMs": 19477,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.601,\"y\":0.455,\"r\":0.19,\"who\":\"Moustached man with tilak and hair bun, three-quarter view, centre-right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "check ch7 p7",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a05281917b7169d28",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513191890,
+      "queuedAt": 1791513191889,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513222815,
+      "tokens": 63669,
+      "toolCalls": 8,
+      "durationMs": 30925,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-01\",\"version\":\"v02\",\"faces\":[{\"x\":0.277,\"y\":0.215,\"r\":0.047,\"who\":\"red-turbaned man with moustache and earring, three-quarter, left\"},{\"x\":0.687,\"y\":0.295,\"r\":0.059,\"who\":\"green-turbaned scarred man with goatee, profile, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "check ch7 p10",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "af7618ef3d74dd08d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791513214876,
+      "queuedAt": 1791513214875,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791513232761,
+      "tokens": 60801,
+      "toolCalls": 5,
+      "durationMs": 17884,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-03\",\"version\":\"v02\",\"faces\":[{\"x\":0.553,\"y\":0.254,\"r\":0.066,\"who\":\"turbaned man with moustache, three-quarter profile, eyes closed, cheek against horse, centre\"}]}]}"
+    }
+  ],
+  "totalTokens": 968578,
+  "totalToolCalls": 168
+}

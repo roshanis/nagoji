@@ -12,6 +12,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import script_pipeline as p
 
+REAL_CONCEPT_SHEETS = p._concept_sheets
+
 
 CONTINUITY = """# continuity
 
@@ -187,13 +189,23 @@ Continuation of the same shot.
         continuity = p.load_continuity(Path(__file__).resolve().parents[3] / "output/comic-v15-full-redo/CONTINUITY.md")
         look = p._nagoji_look(continuity, 1)
         self.assertIn("CLEAN-SHAVEN CHIN", look)
-        self.assertIn("thick curled moustache", look)
-        self.assertIn("small gold ear stud", look)
+        self.assertIn("THICK, bushy curled handlebar moustache", look)
+        self.assertIn("one tiny flat gold stud flush on the earlobe", look)
+        self.assertIn("no pearls", look)
         self.assertIn("captivity sheet", look.lower())
         self.assertIn("No facial scar", look)
         self.assertIn("No forehead marks", look)
         self.assertIn("captivity only", look)
         self.assertIn("grey-streaked", p._nagoji_look(continuity, 28))
+
+    def test_varma_markers_keep_him_apart_from_nagoji(self):
+        """Author approved 2026-10-08: review-sheets/SHEETS-AND-FIXES-PROPOSAL-2026-10-08.html."""
+        continuity = p.load_continuity()
+        look = p._character_look(continuity, "varma", 12)
+        for marker in ("THIN, neatly waxed moustache", "never grey before the ch28 dedication", "Vaishnavite namam",
+                       "pearl drop hanging from each earlobe", "knot on the left side of his head"):
+            self.assertIn(marker, look)
+        self.assertNotIn("bushy", look)
 
     def test_parenthetical_principal_labels_keep_dedicated_looks(self):
         continuity = p.load_continuity()
@@ -384,6 +396,122 @@ class ApprovedSheetTests(unittest.TestCase):
             p._references(["nagoji"])
 
 
+class SpannedSheetTests(unittest.TestCase):
+    """A sheet approved for part of the story replaces the V13 sheet only inside its spans."""
+    FILES = {"nagoji_commander": ("21-nagoji-commander-v15.png", "nagoji", [["5.3", "17.10"]]),
+             "nagoji_ananthan_pillai": ("22-nagoji-ananthan-pillai-v15.png", "nagoji",
+                                        [["17.11", "28.12"], ["28.13.2", "28.99"]]),
+             "varma_v15": ("23-marthanda-varma-v15.png", "varma", [["1.1", "27.99"]])}
+
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.dir = Path(tmp.name)
+        self.entries = {}
+        for key, (filename, character, spans) in self.FILES.items():
+            (self.dir / filename).write_bytes(key.encode())
+            self.entries[key] = {"file": filename, "sha256": p.sha256(self.dir / filename),
+                                 "character": character, "spans": spans}
+        patcher = patch.object(p, "APPROVED_SHEETS", self.dir / "APPROVED-SHEETS.json")
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        self.write()
+
+    def write(self):
+        p.APPROVED_SHEETS.write_text(json.dumps(self.entries))
+
+    def name(self, character, chapter, page, panel):
+        return p._concept_sheets(chapter, page, panel)[character].name
+
+    def test_commander_sheet_covers_chapter_5_page_3_to_chapter_17_page_10(self):
+        for position in ((5, 3, 1), (5, 3, 6), (9, 4, 2), (17, 10, 1), (17, 10, 9)):
+            with self.subTest(position=position):
+                self.assertEqual(self.name("nagoji", *position), "21-nagoji-commander-v15.png")
+        for position in ((1, 1, 1), (4, 12, 3), (5, 2, 1), (5, 2, 9)):
+            with self.subTest(position=position):
+                self.assertEqual(self.name("nagoji", *position), "nagoji-v2.png")
+
+    def test_ananthan_pillai_sheet_skips_only_chapter_28_page_13_panel_1(self):
+        for position in ((17, 11, 1), (20, 3, 2), (28, 12, 9), (28, 13, 2), (28, 13, 3), (28, 14, 1)):
+            with self.subTest(position=position):
+                self.assertEqual(self.name("nagoji", *position), "22-nagoji-ananthan-pillai-v15.png")
+        self.assertEqual(self.name("nagoji", 28, 13, 1), "nagoji-v2.png")
+
+    def test_varma_sheet_covers_chapters_1_to_27_and_chapter_28_keeps_v13(self):
+        for position in ((1, 1, 1), (14, 6, 2), (27, 15, 3)):
+            with self.subTest(position=position):
+                self.assertEqual(self.name("varma", *position), "23-marthanda-varma-v15.png")
+        for position in ((28, 1, 1), (28, 13, 2)):
+            with self.subTest(position=position):
+                self.assertEqual(self.name("varma", *position), "varma-v1.png")
+
+    def test_other_characters_are_unaffected_by_spans(self):
+        self.assertEqual(self.name("temple_priest", 17, 10, 1), "temple-priest-v1.png")
+        self.assertNotIn("nagoji_commander", p._concept_sheets(17, 10, 1))
+
+    def test_without_a_position_spanned_sheets_are_ignored(self):
+        sheets = p._concept_sheets()
+        self.assertEqual((sheets["nagoji"].name, sheets["varma"].name), ("nagoji-v2.png", "varma-v1.png"))
+        self.assertEqual([Path(x).name for x in p._references(["nagoji", "varma"])], ["nagoji-v2.png", "varma-v1.png"])
+        for partial in ({"chapter": 5}, {"chapter": 5, "page": 3}, {"page": 3, "panel": 1}):
+            with self.subTest(partial=partial), self.assertRaises(ValueError):
+                p._concept_sheets(**partial)
+
+    def test_references_follow_the_panel_position(self):
+        names = lambda *position: [Path(x).name for x in p._references(["nagoji", "varma", "kayal"], "", *position)]
+        self.assertEqual(names(5, 3, 1), ["21-nagoji-commander-v15.png", "23-marthanda-varma-v15.png"])
+        self.assertEqual(names(17, 11, 1), ["22-nagoji-ananthan-pillai-v15.png", "23-marthanda-varma-v15.png"])
+        self.assertEqual(names(28, 13, 1), ["nagoji-v2.png", "varma-v1.png"])
+        self.assertEqual([Path(x).name for x in p._references(["nagoji"], chapter=5, page=3, panel=1)],
+                         ["21-nagoji-commander-v15.png"])
+
+    def test_entry_without_character_serves_its_own_key(self):
+        self.entries = {"varma": {key: value for key, value in self.entries["varma_v15"].items() if key != "character"}}
+        self.entries["varma"]["spans"] = [["2.1", "2.9"]]
+        self.write()
+        self.assertEqual(self.name("varma", 2, 5, 1), "23-marthanda-varma-v15.png")
+        self.assertEqual(self.name("varma", 3, 1, 1), "varma-v1.png")
+
+    def test_overlapping_spans_for_one_character_name_both_entries(self):
+        for end, start in (("17.11", "17.11"), ("17.10.3", "17.10.3"), ("20.1", "17.11")):
+            self.entries["nagoji_commander"]["spans"] = [["5.3", end]]
+            self.entries["nagoji_ananthan_pillai"]["spans"] = [[start, "28.12"]]
+            self.write()
+            with self.subTest(end=end, start=start), self.assertRaisesRegex(ValueError, "nagoji_commander.*nagoji_ananthan_pillai"):
+                p._concept_sheets()
+
+    def test_adjacent_spans_and_other_characters_do_not_overlap(self):
+        self.entries["nagoji_commander"]["spans"] = [["5.3", "17.10.2"]]
+        self.entries["nagoji_ananthan_pillai"]["spans"] = [["17.10.3", "28.12"]]
+        self.write()
+        self.assertEqual(self.name("nagoji", 17, 10, 2), "21-nagoji-commander-v15.png")
+        self.assertEqual(self.name("nagoji", 17, 10, 3), "22-nagoji-ananthan-pillai-v15.png")
+
+    def test_a_v13_character_without_spans_keeps_its_v13_sheet(self):
+        del self.entries["nagoji_commander"]["spans"]
+        self.write()
+        with self.assertRaisesRegex(ValueError, "keeps its V13 sheet"):
+            p._concept_sheets()
+        self.entries["nagoji_commander"]["spans"] = []
+        self.write()
+        with self.assertRaisesRegex(ValueError, "keeps its V13 sheet"):
+            p._concept_sheets()
+
+    def test_every_approved_file_is_hashed_even_outside_its_span(self):
+        self.entries["varma_v15"]["sha256"] = "0" * 64
+        self.write()
+        for args in ((), (28, 13, 1), (5, 3, 1)):
+            with self.subTest(args=args), self.assertRaisesRegex(ValueError, "changed since approval"):
+                p._concept_sheets(*args)
+
+    def test_malformed_spans_are_refused(self):
+        for spans in ("5.3-17.10", [["5.3"]], [["x", "1.1"]], [["5", "6"]], [["17.10", "5.3"]], [["5.3", "17.10", "18.1"]], [[5, 6]]):
+            self.entries["nagoji_commander"]["spans"] = spans
+            self.write()
+            with self.subTest(spans=spans), self.assertRaisesRegex(ValueError, "nagoji_commander"):
+                p._concept_sheets()
+
+
 class CastOverrideValidationTests(SheetFixtureCase):
     """Chapters after the pilot are prepared only from a complete, well-formed cast file,
     because a missing panel silently falls back to name inference."""
@@ -498,6 +626,9 @@ def v2_direction():
             "character_notes": {"padmini": "Her hair is BLACK with no grey."}, "not_shown": {}}
 
 
+PRE_SHEETS_BIBLE = Path(__file__).resolve().parent / "review" / "CONTINUITY-pre-sheets-2026-10-08.md"
+
+
 class V1FreezeTests(unittest.TestCase):
     def check_freeze(self, live=False, packages=((5, 40), (6, 49), (7, 56), (8, 57)), total=202):
         chapters = p.V15 / "chapters"
@@ -513,7 +644,7 @@ class V1FreezeTests(unittest.TestCase):
             panels = {x["id"]: x for page in source["pages"].values() for x in page["panels"]}
             self.assertEqual(len(job["jobs"]), expected)
             self.assertEqual(set(panels), {x["id"] for x in job["jobs"]})
-            bible = p.load_continuity(p.CONTINUITY if live else out / "CONTINUITY-SNAPSHOT.md")
+            bible = p.load_continuity(PRE_SHEETS_BIBLE if live else out / "CONTINUITY-SNAPSHOT.md")
             for item in job["jobs"]:
                 with self.subTest(chapter=chapter, panel=item["id"]):
                     # Resolve within this worktree, never against the recorded original checkout.
@@ -529,8 +660,10 @@ class V1FreezeTests(unittest.TestCase):
         self.check_freeze()
 
     def test_v1_prompts_against_live_bible_are_byte_identical(self):
-        """Chapter 8 is pinned to its own snapshot: the approved v2 Padmini line changes 29 of its v1 prompts."""
-        self.check_freeze(live=True, packages=((5, 40), (6, 49), (7, 56)), total=145)
+        """Chapter 8 is pinned to its own snapshot (the approved v2 Padmini line changes 29 of its v1 prompts), chapter 7 too (the
+        approved Kayal line adds her ch9 to ch12 service and changes 13 of its v1 prompts), and chapters 5 and 6 to the bible archived
+        just before the approved 2026-10-08 Nagoji and Varma lines, which change their v1 prompts."""
+        self.check_freeze(live=True, packages=((5, 40), (6, 49)), total=89)
 
     def test_v1_freeze_fails_for_incomplete_existing_packages(self):
         with tempfile.TemporaryDirectory() as tmp, patch.object(p, "V15", Path(tmp)):
@@ -762,6 +895,74 @@ class PromptV2Tests(unittest.TestCase):
                           cast_overrides_path=self.cast_path,art_direction_path=self.direction_path)
         self.assertFalse((self.root/'out').exists())
 
+    def spanned_sheets(self, spans):
+        """Real sheet resolution over the fixture sheets, with a commander sheet approved for the given spans."""
+        (self.root / '21-nagoji-commander-v15.png').write_bytes(b'commander fixture sheet')
+        entry = {'file': '21-nagoji-commander-v15.png', 'sha256': p.sha256(self.root / '21-nagoji-commander-v15.png'),
+                 'character': 'nagoji', 'spans': spans}
+        (self.root / 'APPROVED-SHEETS.json').write_text(json.dumps({'nagoji_commander': entry}))
+        for name, value in (('APPROVED_SHEETS', self.root / 'APPROVED-SHEETS.json'), ('CONCEPT_ROOT', self.root),
+                            ('_concept_sheets', REAL_CONCEPT_SHEETS)):
+            patcher = patch.object(p, name, value)
+            patcher.start(); self.addCleanup(patcher.stop)
+
+    def prepared_jobs(self):
+        job = json.loads((self.root / 'out/IMAGEGEN-JOBS.json').read_text())
+        return {(item['page'], item['panel']): item for item in job['jobs']}
+
+    def test_v2_jobs_attach_the_sheet_that_covers_the_panel(self):
+        self.spanned_sheets([['9.3', '9.4.2']])
+        self.prepare()
+        jobs = self.prepared_jobs()
+        for (page, panel), item in jobs.items():
+            covered = (page, panel) >= (3, 1) and (page, panel) <= (4, 2)
+            self.assertEqual([Path(x).name for x in item['reference_images']],
+                             ['21-nagoji-commander-v15.png' if covered else 'nagoji-v2.png'], (page, panel))
+            self.assertEqual(item['sheet_keys'], ['nagoji'])
+            self.assertEqual(list(item['reference_image_sha256']), item['reference_images'])
+            self.assertEqual(item['image_gen']['args']['referenced_image_paths'], item['reference_images'])
+        self.assertEqual(p.audit_prompts(self.root / 'out/IMAGEGEN-JOBS.json')['sheet_order_matches'], 55)
+
+    def test_v2_caveat_is_attached_only_to_panels_on_the_caveats_own_sheet(self):
+        self.spanned_sheets([['9.3', '9.4.2']])
+        self.prepare()
+        for (page, panel), item in self.prepared_jobs().items():
+            covered = (page, panel) >= (3, 1) and (page, panel) <= (4, 2)
+            prompt = Path(item['prompt_path']).read_text()
+            self.assertIn('REFERENCE SHEETS: 1 attached image(s)', prompt)
+            self.assertEqual('not the hanging drop' in prompt, not covered, (page, panel))
+            self.assertEqual('hilltop fort' in prompt, not covered, (page, panel))
+
+    def test_v2_stale_caveat_hash_is_refused_only_for_panels_on_the_caveats_own_sheet(self):
+        self.direction_path.write_text(json.dumps(self.direction))
+        stale = copy.deepcopy(p.SHEET_CAVEATS)
+        stale['nagoji']['sha256'] = 'f' * 64
+        def run():
+            with patch.object(p, 'SHEET_CAVEATS', stale):
+                p.prepare(9, self.root / 'out', scripts_dir=self.scripts, continuity_path=self.bible,
+                          cast_overrides_path=self.cast_path, art_direction_path=self.direction_path)
+        self.spanned_sheets([['9.3', '9.4']])
+        with self.assertRaisesRegex(ValueError, 'caveat'):
+            run()
+        self.assertFalse((self.root / 'out').exists())
+        self.spanned_sheets([['9.1', '9.99']])
+        run()
+        jobs = self.prepared_jobs()
+        self.assertEqual({Path(x).name for item in jobs.values() for x in item['reference_images']},
+                         {'21-nagoji-commander-v15.png'})
+        self.assertNotIn('not the hanging drop', Path(jobs[(1, 1)]['prompt_path']).read_text())
+
+    def test_v1_jobs_attach_the_sheet_that_covers_the_panel(self):
+        self.spanned_sheets([['8.2', '8.3.1']])
+        (self.scripts / 'CHAPTER-08-SCRIPT.md').write_text(self.script_path.read_text())
+        p.prepare(8, self.root / 'out', scripts_dir=self.scripts, continuity_path=self.bible, cast_overrides_path=self.cast_path)
+        for (page, panel), item in self.prepared_jobs().items():
+            covered = (2, 1) <= (page, panel) <= (3, 1)
+            self.assertEqual([Path(x).name for x in item['reference_images']],
+                             ['21-nagoji-commander-v15.png' if covered else 'nagoji-v2.png'], (page, panel))
+            self.assertEqual(item['image_gen']['args']['referenced_image_paths'], item['reference_images'])
+            self.assertEqual(list(item['reference_image_sha256']), item['reference_images'])
+
     def test_v2_setting_paragraph_is_last_and_place_is_in_the_header(self):
         prompt=self.prompt(); end=prompt.split('\n\n')[-1]
         self.assertTrue(end.startswith('SETTING (this panel):'))
@@ -982,7 +1183,7 @@ class Chapter9V2AcceptanceTests(unittest.TestCase):
     def test_live_bible_carries_the_approved_v2_edits(self):
         """Author approved 2026-10-02: review-sheets/CONTINUITY-PROMPT-V2-REVIEW.html, plus Padmini grey from ch16."""
         bible=p.load_continuity(p.CONTINUITY)
-        for text in ('| 9 @1-2.3 |','| 9 @11- |','| 10 @1-1.3 |','| 13-15 |','## Scoped art rules (prompt profile v2)'):
+        for text in ('| 9 @1-2.3 |','| 9 @14- |','| 10 @1-1.3 |','| 13-15 |','## Scoped art rules (prompt profile v2)'):   # 9 @11- became @14- in the 2026-10-07 split
             self.assertIn(text,bible['raw'])
         self.assertNotIn('| 9-15 |',bible['raw'])
         for chapter in (9,15):
@@ -1023,13 +1224,13 @@ class Chapter9V2AcceptanceTests(unittest.TestCase):
                 self.assertIn('No blood or gore',prompt)
                 self.assertNotIn('stubble',prompt)
                 if 'padmini' in item['cast']: self.assertIn('BLACK with no grey',prompt)
-                if item['id'] in ('page-05-panel-02','page-08-panel-02'):
+                if item['id'] in ('page-07-panel-02','page-11-panel-02'):   # 5.2 and 8.2 before the 2026-10-07 page splits
                     self.assertEqual(item['reference_images'],[])
-                if item['id'] in ('page-06-panel-03','page-10-panel-04'):
+                if item['id'] in ('page-08-panel-03','page-13-panel-04'):
                     self.assertIn('FRAME SHAPE: a tall',prompt)
-                if item['id'] in ('page-05-panel-04','page-07-panel-05','page-10-panel-03'):
+                if item['id'] in ('page-07-panel-04','page-10-panel-05','page-13-panel-03'):
                     self.assertIn('MEMORY BLEED:',prompt)
-                if item['id'] in ('page-10-panel-03','page-10-panel-04'):
+                if item['id'] in ('page-13-panel-03','page-13-panel-04'):
                     self.assertIn('Light: late afternoon',prompt)
                 if 'SETTING (this panel): Velinadu Kovilakam' in prompt:
                     self.assertIn('Any banners are plain cloth with no emblem.',prompt)

@@ -2,7 +2,7 @@
 
 ## Chapter 8: Padmini Amma's Estate
 
-Source: `book1_horse_servant/book2_chapter08_padmini_ammas_estate.md` (3,427 words), adapted at 12 pages, 57 panels. Revised after three blind reviews (r2; the pre-review draft is `script-reviews/CHAPTER-08-SCRIPT-r1.md`).
+Source: `book1_horse_servant/book2_chapter08_padmini_ammas_estate.md` (3,427 words), adapted at 15 pages, 57 panels. Revised after three blind reviews (r2; the pre-review draft is `script-reviews/CHAPTER-08-SCRIPT-r1.md`).
 
 ---
 
@@ -220,7 +220,13 @@ Four panels and an inset. The jackfruit tree. Women who do not vanish, and a que
 
 > CAPTION: Here they flowed through the centre, talking, laughing, listening in.
 
-**7.3** Padmini Amma and Nagoji on the platform, the young women gone. She bites into a slice of jackfruit as she speaks, the juice shining on her fingers, a cloth ready in her other hand. Nagoji answering, level.
+---
+
+## PAGE 8
+
+Three panels, continuing page 7.
+
+**8.1** Padmini Amma and Nagoji on the platform, the young women gone. She bites into a slice of jackfruit as she speaks, the juice shining on her fingers, a cloth ready in her other hand. Nagoji answering, level.
 
 > PADMINI: The king has not yet decided whether you are a spear for his hand or a knife that might cut it.
 
@@ -228,7 +234,7 @@ Four panels and an inset. The jackfruit tree. Women who do not vanish, and a que
 
 > PADMINI: He is honest, then. Good.
 
-**7.4** Nagoji, close. The question has found him somewhere unguarded.
+**8.2** Nagoji, close. The question has found him somewhere unguarded.
 
 > PADMINI (off): You have a family. Back in your hills.
 
@@ -238,17 +244,17 @@ Four panels and an inset. The jackfruit tree. Women who do not vanish, and a que
 
 > NAGOJI: Parents. A younger brother. Some fields that do not know whether I am alive.
 
-**7.5** Small inset, bottom right. Padmini Amma wiping her fingers on the cloth, eyes on him, casual.
+**8.3** Small inset, bottom right. Padmini Amma wiping her fingers on the cloth, eyes on him, casual.
 
 > PADMINI: And a wife?
 
 ---
 
-## PAGE 8
+## PAGE 9
 
 Five panels. He answers like a Deccan soldier. She answers like a landowner.
 
-**8.1** Nagoji, caught off guard, a brass tumbler of water stopped halfway to his mouth.
+**9.1** Nagoji, caught off guard, a brass tumbler of water stopped halfway to his mouth.
 
 > NAGOJI: No.
 
@@ -256,35 +262,35 @@ Five panels. He answers like a Deccan soldier. She answers like a landowner.
 
 > CAPTION: In the Deccan, such a question from a woman I had just met would have been unthinkable.
 
-**8.2** Nagoji looking out past the tree, somewhere north. Behind his head, bleeding into the panel edge like a stain rather than a clean flashback frame, desaturated: a column of Maratha horsemen riding at dawn across open country toward a whitewashed Portuguese fort wall with low bastions, a plain saffron pennant at its head, the riders small and distant. No devices on the pennant, no text.
+**9.2** Nagoji looking out past the tree, somewhere north. Behind his head, bleeding into the panel edge like a stain rather than a clean flashback frame, desaturated: a column of Maratha horsemen riding at dawn across open country toward a whitewashed Portuguese fort wall with low bastions, a plain saffron pennant at its head, the riders small and distant. No devices on the pennant, no text.
 
 > NAGOJI: I rode where the Peshwa's orders sent me.
 
 > NAGOJI: I did not think it fair to ask a woman to wait for a man who might ride into Portuguese guns one morning and never ride back.
 
-**8.3** Padmini Amma, dry as dust, prying a seed out of a jackfruit bulb with her thumb and flicking it off the edge of the platform.
+**9.3** Padmini Amma, dry as dust, prying a seed out of a jackfruit bulb with her thumb and flicking it off the edge of the platform.
 
 > PADMINI: You assume she would wait.
 
 > PADMINI: Here, if a man does not return, the house continues. Perhaps your hills should learn from that.
 
-**8.4** Wide and high, looking down into the inner courtyard. Nagoji on the platform, head tipped back in one short, surprised laugh, and the sound sends crows flapping up out of the jackfruit tree. Padmini Amma beside him, unmoved. At a far doorway, a woman of the house (plain off-white cotton mundu and upper cloth) turns to look.
+**9.4** Wide and high, looking down into the inner courtyard. Nagoji on the platform, head tipped back in one short, surprised laugh, and the sound sends crows flapping up out of the jackfruit tree. Padmini Amma beside him, unmoved. At a far doorway, a woman of the house (plain off-white cotton mundu and upper cloth) turns to look.
 
 > NAGOJI: You speak freely, Amma.
 
 > PADMINI: I own this land. Why should I not?
 
-**8.5** Padmini Amma, close, studying him. A decision made behind her eyes.
+**9.5** Padmini Amma, close, studying him. A decision made behind her eyes.
 
 > PADMINI: You will hear a word here. *Sambandham.*
 
 ---
 
-## PAGE 9
+## PAGE 10
 
-Five panels. The law of the house, cut to the bone. It plays as argument, not lecture: every panel gives her a gesture.
+Two panels. The law of the house, cut to the bone. It plays as argument, not lecture: every panel gives her a gesture.
 
-**9.1** Tall panel, about a third of the page. Padmini Amma and Nagoji (rust-red turban, barefoot) seated facing each other on the stone platform under the jackfruit tree. Padmini's stick draws a line on the stone between them: her side, his side. She is mid-gesture, not lecturing.
+**10.1** Tall panel, about a third of the page. Padmini Amma and Nagoji (rust-red turban, barefoot) seated facing each other on the stone platform under the jackfruit tree. Padmini's stick draws a line on the stone between them: her side, his side. She is mid-gesture, not lecturing.
 
 > PADMINI: An equal bond. Not ownership. Not conquest.
 
@@ -292,7 +298,7 @@ Five panels. The law of the house, cut to the bone. It plays as argument, not le
 
 > PADMINI: He does not own the house. He does not own the land. He does not own her.
 
-**9.2** Over the low wall again: the kalari youths, sweat-shining, sticks crossed. Padmini Amma's stick points toward them past Nagoji's shoulder; Nagoji in the foreground, turned to look.
+**10.2** Over the low wall again: the kalari youths, sweat-shining, sticks crossed. Padmini Amma's stick points toward them past Nagoji's shoulder; Nagoji in the foreground, turned to look.
 
 > NAGOJI: And the children?
 
@@ -300,7 +306,13 @@ Five panels. The law of the house, cut to the bone. It plays as argument, not le
 
 > PADMINI: But he is a guest in the house where his children grow.
 
-**9.3** Nagoji, searching for a word in a language he only half has, one hand turning in the air. Padmini Amma at the edge of frame, her stick lifted to cut him off.
+---
+
+## PAGE 11
+
+Three panels, continuing page 10.
+
+**11.1** Nagoji, searching for a word in a language he only half has, one hand turning in the air. Padmini Amma at the edge of frame, her stick lifted to cut him off.
 
 > NAGOJI: It sounds... complicated.
 
@@ -308,11 +320,11 @@ Five panels. The law of the house, cut to the bone. It plays as argument, not le
 
 > PADMINI: In your system, his wife and children are ruined. In ours, they are exactly where they were before.
 
-**9.4** Close on Padmini Amma, leaning toward him, smiling, showing teeth.
+**11.2** Close on Padmini Amma, leaning toward him, smiling, showing teeth.
 
 > PADMINI: We do not pretend men are reliable, Sawant. We plan for their failures.
 
-**9.5** Two-shot on the platform. Nagoji leaning in, pushing back. Padmini Amma's smile gone, her face flat, her stick planted upright beside her.
+**11.3** Two-shot on the platform. Nagoji leaning in, pushing back. Padmini Amma's smile gone, her face flat, her stick planted upright beside her.
 
 > NAGOJI: And if a woman wishes to leave? To follow her husband to his house?
 
@@ -320,23 +332,23 @@ Five panels. The law of the house, cut to the bone. It plays as argument, not le
 
 ---
 
-## PAGE 10
+## PAGE 12
 
 Five panels. The terms of his billet, the warning, and a name.
 
-**10.1** Over Padmini Amma's shoulder as she sits back against the trunk of the jackfruit tree, through a gap in the far wall to the green paddy beyond, where two boys of the house are leading Nagoji's plain grey gelding and the other horses of his party out to graze. Nagoji at the edge of frame, following her look.
+**12.1** Over Padmini Amma's shoulder as she sits back against the trunk of the jackfruit tree, through a gap in the far wall to the green paddy beyond, where two boys of the house are leading Nagoji's plain grey gelding and the other horses of his party out to graze. Nagoji at the edge of frame, following her look.
 
 > PADMINI: Your horses will graze in our fields. You will ride from this gate when the king calls.
 
 > PADMINI: That makes you part of this house's story, whether you like it or not.
 
-**10.2** Close on Padmini Amma, leaning forward, her voice gone flat and hard, and the camera comes in with her. Nagoji's face at the edge of frame. Soft in the background, a young woman of the house (plain off-white cotton mundu and upper cloth) crosses the courtyard with a water pot on her hip.
+**12.2** Close on Padmini Amma, leaning forward, her voice gone flat and hard, and the camera comes in with her. Nagoji's face at the edge of frame. Soft in the background, a young woman of the house (plain off-white cotton mundu and upper cloth) crosses the courtyard with a water pot on her hip.
 
 > PADMINI: And tell your men to stay away from the girls in the house.
 
 > PADMINI: If they try anything, we will carve them from navel to feet. Do not test us on this.
 
-**10.3** Nagoji, not smiling now, his eyes moving past her through the passage to the outer yard, where Ibrahim (white turban, short grey-flecked beard, short coat) stands with a steward beside a baggage cart and two riders of Nagoji's column are unloading saddlebags.
+**12.3** Nagoji, not smiling now, his eyes moving past her through the passage to the outer yard, where Ibrahim (white turban, short grey-flecked beard, short coat) stands with a steward beside a baggage cart and two riders of Nagoji's column are unloading saddlebags.
 
 > NAGOJI: Houses have long memories.
 
@@ -344,7 +356,7 @@ Five panels. The terms of his billet, the warning, and a name.
 
 > PADMINI (off): You will meet one of those tongues soon.
 
-**10.4** Padmini Amma easing back against the trunk, almost amused again. Only Padmini Amma in frame.
+**12.4** Padmini Amma easing back against the trunk, almost amused again. Only Padmini Amma in frame.
 
 > PADMINI: A princess of our Velinadu kin. Revathi Bayi.
 
@@ -352,7 +364,7 @@ Five panels. The terms of his billet, the warning, and a name.
 
 > PADMINI: If you truly want to understand this kingdom, listen to her as carefully as you listen to Ramayyan.
 
-**10.5** Two-shot under the jackfruit tree: Nagoji and Padmini Amma on the stone platform. On her answer she lays her stick across her knees, and her expression shifts, just enough to be seen.
+**12.5** Two-shot under the jackfruit tree: Nagoji and Padmini Amma on the stone platform. On her answer she lays her stick across her knees, and her expression shifts, just enough to be seen.
 
 > CAPTION: I had heard the name on the road south. A sharp-tongued royal woman who refused to act grateful when Europeans bowed.
 
@@ -362,11 +374,11 @@ Five panels. The terms of his billet, the warning, and a name.
 
 ---
 
-## PAGE 11
+## PAGE 13
 
-Four panels. Many crowns, and two days. The memory and the crowns get the most room; the page ends on her parting shot.
+Two panels. Many crowns, and two days. The memory and the crowns get the most room; the page ends on her parting shot.
 
-**11.1** Large, a third of the page. Padmini Amma in the foreground, speaking to someone off panel. Behind her, bleeding into the panel edge like a stain rather than a clean flashback frame, desaturated and dissolving into her background: Marthanda Varma in the coastal hall, on his low wooden platform. Tall, bare-chested, one cream-and-gold cloth over the shoulder, gold necklaces, a cream-and-gold turban with its jewelled peacock-feather crest, Vaishnavite lines on his forehead, no crown, a spear at his shoulder, a map open on the mat before him, a sword within reach.
+**13.1** Large, a third of the page. Padmini Amma in the foreground, speaking to someone off panel. Behind her, bleeding into the panel edge like a stain rather than a clean flashback frame, desaturated and dissolving into her background: Marthanda Varma in the coastal hall, on his low wooden platform. Tall, bare-chested, one cream-and-gold cloth over the shoulder, gold necklaces, a cream-and-gold turban with its jewelled peacock-feather crest, Vaishnavite lines on his forehead, no crown, a spear at his shoulder, a map open on the mat before him, a sword within reach.
 
 > CAPTION: In my world, such a man expected his nobles to fall in line or fall in the field.
 
@@ -374,13 +386,19 @@ Four panels. Many crowns, and two days. The memory and the crowns get the most r
 
 > PADMINI: He allows what he cannot easily stop. The Velinadu line is old. Older than his throne.
 
-**11.2** Close on Padmini Amma, her stick held upright before her like a measuring rod, the jackfruit leaves dark behind her. Only Padmini Amma in frame.
+**13.2** Close on Padmini Amma, her stick held upright before her like a measuring rod, the jackfruit leaves dark behind her. Only Padmini Amma in frame.
 
 > PADMINI: The old Eight Houses on the marches once thought themselves kings too, until he broke them.
 
 > PADMINI: You outsiders see one crown. We see many, layered on the same land. Sometimes they sit well together. Sometimes they cut.
 
-**11.3** Full width. Nagoji and Padmini Amma on the platform. Beyond the low wall, the kalari rises and falls: the tops of sticks, a youth caught mid-leap. Padmini Amma getting to her feet, using the stick more as a symbol than as a support. Nagoji still seated, looking up at her.
+---
+
+## PAGE 14
+
+Two panels, continuing page 13.
+
+**14.1** Full width. Nagoji and Padmini Amma on the platform. Beyond the low wall, the kalari rises and falls: the tops of sticks, a youth caught mid-leap. Padmini Amma getting to her feet, using the stick more as a symbol than as a support. Nagoji still seated, looking up at her.
 
 > NAGOJI: When do we go to Velinadu?
 
@@ -388,7 +406,7 @@ Four panels. Many crowns, and two days. The memory and the crowns get the most r
 
 > PADMINI: That will confuse people. Confusion is useful.
 
-**11.4** Padmini Amma standing over him, already turning to go, speaking over her shoulder. Nagoji seated on the platform, his bare feet on the stone in the foreground.
+**14.2** Padmini Amma standing over him, already turning to go, speaking over her shoulder. Nagoji seated on the platform, his bare feet on the stone in the foreground.
 
 > PADMINI: Wash the salt from your skin.
 
@@ -396,27 +414,27 @@ Four panels. Many crowns, and two days. The memory and the crowns get the most r
 
 ---
 
-## PAGE 12
+## PAGE 15
 
 Four panels. The house goes back to its work, and a man is left alone with the sound of it.
 
-**12.1** Wide. Padmini Amma walking away across the main courtyard. The women of the house (plain off-white cotton mundu and upper cloth) part for her without being told and close again behind her; men with account books step aside, then go back to their counting. At the edge of frame, a young girl carrying firewood has paused mid-step to look back toward the jackfruit courtyard, eyes bright.
+**15.1** Wide. Padmini Amma walking away across the main courtyard. The women of the house (plain off-white cotton mundu and upper cloth) part for her without being told and close again behind her; men with account books step aside, then go back to their counting. At the edge of frame, a young girl carrying firewood has paused mid-step to look back toward the jackfruit courtyard, eyes bright.
 
 > *No text.*
 
-**12.2** Wide, high angle, looking down through the jackfruit leaves. Nagoji alone on the stone platform, small in the frame, barefoot, eyes closed. Listening.
+**15.2** Wide, high angle, looking down through the jackfruit leaves. Nagoji alone on the stone platform, small in the frame, barefoot, eyes closed. Listening.
 
 > CAPTION: In Goa, power had been simple. It carried a crucifix and a gun.
 
 > CAPTION: Here it sounded like pepper being sifted, like a woman's stick tapping stone.
 
-**12.3** Tight, under the jackfruit tree. An older boy astride a low branch drops a sticky golden bulb of jackfruit into a small child's cupped, waiting hands below. Hands and fruit only; no faces.
+**15.3** Tight, under the jackfruit tree. An older boy astride a low branch drops a sticky golden bulb of jackfruit into a small child's cupped, waiting hands below. Hands and fruit only; no faces.
 
 > CAPTION: The king had given me horses and wet sand. Padmini Amma offered something less obvious and perhaps more dangerous.
 
 > CAPTION: A house that remembered. A house whose women spoke.
 
-**12.4** Bottom strip. Nagoji's face, close, eyes open again, a rueful half smile. Rust-red turban, thick curled moustache, CLEAN-SHAVEN CHIN.
+**15.4** Bottom strip. Nagoji's face, close, eyes open again, a rueful half smile. Rust-red turban, thick curled moustache, CLEAN-SHAVEN CHIN.
 
 > CAPTION: I had faced Portuguese interrogations and Arabian Sea storms. Somehow, this felt like the more delicate task.
 
@@ -427,28 +445,28 @@ Four panels. The house goes back to its work, and a man is left alone with the s
 - **Page count.** 12 pages and 57 panels, inside the 9 to 13 range (target 11), at about 285 novel words a page. The twelfth page comes from restoring Padmini's reasons (the Velinadu line, the Eight Houses) and the thesis line, which pushed the close past five panels. Splitting the end into a dialogue page (11) and a quiet page (12) keeps every page at five frames or fewer.
 - **Beach and inland wars compressed to one page.** The novel's months on the sand and its three inland skirmishes (the pepper hill, the noble house, the chavers on the bund) become one drill panel, one curry inset and one charge on a bund. The page exists to set up Ramayyan's "blood, not only in sand" line. The charge stops before contact and shows the aftermath by absence (the riderless horse, bandaged forearms), with no gore. The column is the mixed Madurai and Maravar cavalry of Chapter 7.
 - **Ramayyan trimmed.** Kept "They are... particular about who sleeps under their roof", which gives the caste question its stake. Cut the "Yes" exchange, the stables line, and the pepper, salary, Muscat, Aden and *varahan* passage. Padmini's "Whose pepper pays for their powder?" (5.5) makes the economic point in her own voice, and the pollution line is a sharper page turn than the salary line.
-- **Hands and brand follow CONTINUITY.md, not the novel.** The novel still has linen-wrapped hands. The bible puts Nagoji in the commander look for chapters 7 to 16 with nails healed but ridged, so 4.4 draws ridged nails and the brand: a pale puckered patch of raised ridges blurred past reading, no letters or numerals, on the left forearm just above the wrist, matching Chapter 7 (2.3), Chapter 9 (5.2) and Chapter 10 (9.4). Flag for the author: CONTINUITY.md's chapter 4 row still says "upper arm", and Chapter 4's script proposed the left upper arm; reconcile before generation.
+- **Hands and brand follow CONTINUITY.md, not the novel.** The novel still has linen-wrapped hands. The bible puts Nagoji in the commander look for chapters 7 to 16 with nails healed but ridged, so 4.4 draws ridged nails and the brand: a pale puckered patch of raised ridges blurred past reading, no letters or numerals, on the left forearm just above the wrist, matching Chapter 7 (2.3), Chapter 9 (5.2) and Chapter 10 (11.2). Flag for the author: CONTINUITY.md's chapter 4 row still says "upper arm", and Chapter 4's script proposed the left upper arm; reconcile before generation.
 - **"matrilineal line" became "the mother's line"** in Ibrahim's balloon (3.2). "Matrilineal" is a modern anthropological word and would be anachronistic in 1740s speech.
-- **Sambandham cut to its bones.** Page 8 ends on the word itself; the definition opens page 9. Cut the Sanskrit etymology (*sama* and *bandham*), the passage about fathers who ride for other lords, the "into the streets" follow-up to "Then she is a fool", the claim that the law, temples and kings uphold it, and the comparison with the Brahmins, Namboothiris and Syrian Christians. "Her *tharavadu*" stays because Chapters 13 and 17 to 19 use the word.
+- **Sambandham cut to its bones.** Page 9 ends on the word itself; the definition opens page 10. Cut the Sanskrit etymology (*sama* and *bandham*), the passage about fathers who ride for other lords, the "into the streets" follow-up to "Then she is a fool", the claim that the law, temples and kings uphold it, and the comparison with the Brahmins, Namboothiris and Syrian Christians. "Her *tharavadu*" stays because Chapters 13 and 17 to 19 use the word.
 - **Many crowns restored.** "The Velinadu line is old. Older than his throne" plants Revathi's "those of us whose names are older than his" in Chapter 9. The Eight Houses line is the novel's first sign that Varma breaks old houses, which Chapters 10, 17, 21 and 22 pay off.
-- **Small texture cuts.** Cut the old man tracing a cloth map, Ramayyan's "Go then... The cart is waiting", "Rest now", "Tomorrow we walk the fields", Pune from the closing comparison of powers, the "female tongues / Dutch drill manuals" line, and "Two days to learn how not to offend a princess" (it repeats 11.3 and 11.4). Goa stays because it calls back to Chapter 1.
-- **Plants and rhymes.** The wooden panel by the granary (3.4) gets its own silent inset and stays unexplained, as in the novel; it pays off as the cellar room in Chapters 16 and 17. Padmini catching his smile in 6.1 sets up the warning in 10.2, the girl with the water pot in 10.2 gives that warning a target, and the girl with firewood in 12.1 keeps the thread alive. Nagoji's bare feet in 11.4 sit under Padmini's "Deccan boot" line. Panel 5.1 echoes Chapter 1, panel 3.3, because his answer echoes his line to Duarte; the echo lives in the wording only. Do not attach any Chapter 1 frame as a layout or reference image until the Chapter 1 pilot fix has removed the beard.
-- **Revathi is named but not shown.** Her face is saved for her own entrance in the next chapter. Varma appears only as a memory bleed (11.1), in his Chapter 6 coastal-hall look.
+- **Small texture cuts.** Cut the old man tracing a cloth map, Ramayyan's "Go then... The cart is waiting", "Rest now", "Tomorrow we walk the fields", Pune from the closing comparison of powers, the "female tongues / Dutch drill manuals" line, and "Two days to learn how not to offend a princess" (it repeats 14.1 and 14.2). Goa stays because it calls back to Chapter 1.
+- **Plants and rhymes.** The wooden panel by the granary (3.4) gets its own silent inset and stays unexplained, as in the novel; it pays off as the cellar room in Chapters 16 and 17. Padmini catching his smile in 6.1 sets up the warning in 12.2, the girl with the water pot in 12.2 gives that warning a target, and the girl with firewood in 15.1 keeps the thread alive. Nagoji's bare feet in 14.2 sit under Padmini's "Deccan boot" line. Panel 5.1 echoes Chapter 1, panel 3.3, because his answer echoes his line to Duarte; the echo lives in the wording only. Do not attach any Chapter 1 frame as a layout or reference image until the Chapter 1 pilot fix has removed the beard.
+- **Revathi is named but not shown.** Her face is saved for her own entrance in the next chapter. Varma appears only as a memory bleed (13.1), in his Chapter 6 coastal-hall look.
 - **Continuity locks written into every panel, because each panel is prompted on its own.** Nagoji rides a plain grey gelding (his Chapter 7 daytime mount; Kayal is a bay mare and is not in this chapter). Ibrahim rides a sturdy brown pony and wears the white turban and short grey-flecked beard from Chapter 4, 6.5. Nagoji leaves his boots at the pavilion step (2.1) and at the verandah step (5.4) and is barefoot inside the house, matching Chapter 9. Household women wear plain off-white cotton mundu and an upper cloth, with no stitched blouse and none of Revathi's markers. Padmini's cotton sari is the old Kerala drape with no stitched blouse.
 - **Flags for CONTINUITY.md (author edit; the file is shared and hash-locked into the Chapter 1 package).** (1) Ibrahim's entry is written `- **Ibrahim Marakkar** ("kapitan"):`, so the pipeline does not read it as its own block and injects no look for him; it becomes part of Keshavrao's block. Fix the bold markup and add "white turban, short grey-flecked beard". Until then, every Ibrahim panel here carries his full description. (2) Add "no stitched blouse" to Padmini's entry. (3) Add Nagoji's grey gelding and Kayal (bay mare) so mounts stay fixed.
-- **Cast overrides for preparation** (pass with `--cast-overrides`): `{"page-02-panel-02": ["nagoji", "ramayyan"], "page-02-panel-05": ["ramayyan"], "page-03-panel-01": ["ibrahim", "nagoji"], "page-04-panel-05": ["padmini"], "page-06-panel-02": ["padmini"], "page-09-panel-04": ["padmini"], "page-10-panel-04": ["padmini"], "page-11-panel-01": ["padmini", "varma"], "page-11-panel-02": ["padmini"], "page-12-panel-03": []}`. In each, a name or a first-person word in the lettering would otherwise attach an absent principal (Padmini to Ramayyan's pavilion and the house exterior, Revathi and Ramayyan to 10.4, Nagoji to Padmini's close-ups and the Varma bleed). Every other panel's inferred cast was checked against the pipeline and is correct.
+- **Cast overrides for preparation** (pass with `--cast-overrides`): `{"page-02-panel-02": ["nagoji", "ramayyan"], "page-02-panel-05": ["ramayyan"], "page-03-panel-01": ["ibrahim", "nagoji"], "page-04-panel-05": ["padmini"], "page-06-panel-02": ["padmini"], "page-09-panel-04": ["padmini"], "page-10-panel-04": ["padmini"], "page-11-panel-01": ["padmini", "varma"], "page-11-panel-02": ["padmini"], "page-12-panel-03": []}`. In each, a name or a first-person word in the lettering would otherwise attach an absent principal (Padmini to Ramayyan's pavilion and the house exterior, Revathi and Ramayyan to 12.4, Nagoji to Padmini's close-ups and the Varma bleed). Every other panel's inferred cast was checked against the pipeline and is correct.
 - **Verbatim lines kept** include "His gaze was like a clerk's scale...", "They are... particular about who sleeps under their roof", "We do not plough", "The sea spits out strange things", "Enough to know when I am being measured", "understanding an estate is as important as understanding a charge", "The men come and go. The name stays here", "a spear for his hand or a knife that might cut it", "The word tasted heavier than jackfruit", "I own this land. Why should I not?", "carve them from navel to feet", "Houses have long memories / And longer tongues", "She supports Travancore", "In my world, such a man expected his nobles to fall in line or fall in the field", "Confusion is useful", "The king had given me horses and wet sand...", and the chapter's closing line.
-- **Print resolution, 300 PPI or more.** Every placed frame must reach at least 300 effective PPI at its printed size, measured at placement after aspect-fit and crop, not from the file's DPI tag. The art width is 369 pt (5.125 in), so a full-width strip needs at least 1,538 px of visible width; a native 1,536 px frame reaches only 299.7 PPI. Every stacked panel in this chapter is full width (all but the insets 1.2, 3.4 and 7.5), so generate each at the widest landscape size available and run it through the 2x Real-ESRGAN upscale (`~/AI/upscalers/upscale2x.py`) before placement, then confirm effective PPI after the crop. Any inset below 300 PPI is upscaled 2x or regenerated, per CONTINUITY.md.
+- **Print resolution, 300 PPI or more.** Every placed frame must reach at least 300 effective PPI at its printed size, measured at placement after aspect-fit and crop, not from the file's DPI tag. The art width is 369 pt (5.125 in), so a full-width strip needs at least 1,538 px of visible width; a native 1,536 px frame reaches only 299.7 PPI. Every stacked panel in this chapter is full width (all but the insets 1.2, 3.4 and 8.3), so generate each at the widest landscape size available and run it through the 2x Real-ESRGAN upscale (`~/AI/upscalers/upscale2x.py`) before placement, then confirm effective PPI after the crop. Any inset below 300 PPI is upscaled 2x or regenerated, per CONTINUITY.md.
 
 ### Review changes
 
-- Restored Padmini's reasons in two new panels (11.1, 11.2): the Varma memory with "In my world, such a man expected his nobles to fall in line or fall in the field", "The Velinadu line is old. Older than his throne", and the Eight Houses.
-- Restored Revathi's weight: "listen to her as carefully as you listen to Ramayyan" (10.4), and "sharp-tongued" in the caption, now in 10.5.
-- Restored the thesis line "The king had given me horses and wet sand..." and "power had been simple" (12.2, 12.3). Cut "Two days to learn how not to offend a princess".
-- Restored "understanding an estate is as important as understanding a charge" (5.4), "They are... particular about who sleeps under their roof" (2.3), "questions of blood and birth" (2.4), the novel's shadows image (7.2) and "The word tasted heavier than jackfruit" (7.4).
-- Split the close into pages 11 and 12, so the chapter is now 12 pages; no page has more than five frames.
-- Page 7 now has four panels and an inset (7.3 and 7.4 merged). Page 8 ends on "*Sambandham*", and the definition opens 9.1.
-- Gave the talking heads something to stage: the Maratha column bleed (8.2), the tumbler (8.1), the jackfruit seed (8.3), crows and a watching woman (8.4), grazing horses (10.1), the water pot (10.2), Ibrahim and the baggage cart (10.3), the stick across her knees (10.5), and page 9's gestures written into each panel.
+- Restored Padmini's reasons in two new panels (13.1, 13.2): the Varma memory with "In my world, such a man expected his nobles to fall in line or fall in the field", "The Velinadu line is old. Older than his throne", and the Eight Houses.
+- Restored Revathi's weight: "listen to her as carefully as you listen to Ramayyan" (12.4), and "sharp-tongued" in the caption, now in 12.5.
+- Restored the thesis line "The king had given me horses and wet sand..." and "power had been simple" (15.2, 15.3). Cut "Two days to learn how not to offend a princess".
+- Restored "understanding an estate is as important as understanding a charge" (5.4), "They are... particular about who sleeps under their roof" (2.3), "questions of blood and birth" (2.4), the novel's shadows image (7.2) and "The word tasted heavier than jackfruit" (8.2).
+- Split the close into two pages (then pages 11 and 12), so the chapter was 12 pages; no page has more than five frames. Pages 7, 9 and 11 of that numbering were split on 2026-10-07 so that their lettering fits without covering the art; the chapter is now 15 pages.
+- Page 7 (now pages 7 and 8) has four panels and an inset (8.1 and 8.2 merged). Page 9 ends on "*Sambandham*", and the definition opens 10.1.
+- Gave the talking heads something to stage: the Maratha column bleed (9.2), the tumbler (9.1), the jackfruit seed (9.3), crows and a watching woman (9.4), grazing horses (12.1), the water pot (12.2), Ibrahim and the baggage cart (12.3), the stick across her knees (12.5), and page 10's gestures written into each panel.
 - Restaged 6.1 from behind Nagoji so the caption carries the smile, and 6.5 as a horizontal low angle.
 - Cut captions that repeated the art: 3.3 now runs silent, and the 4.3 caption keeps only the Patil comparison.
 - 1.5 now has Nagoji reined in beside Ramayyan, so the line is plainly spoken to him.

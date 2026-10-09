@@ -1,0 +1,224 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 4,
+  "logs": [
+    "chapter 27: 1 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 27: keep regions for 1 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 27: face zones for 1 frames, 2 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 27,
+        "decisions": [
+          {
+            "id": "page-02-panel-04",
+            "pick": "v04",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.319,
+                "y": 0.408
+              },
+              {
+                "copy_index": 1,
+                "x": 0.739,
+                "y": 0.205
+              },
+              {
+                "copy_index": 2,
+                "x": 0.319,
+                "y": 0.408
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.272,
+                "y": 0.383,
+                "r": 0.095
+              },
+              {
+                "x": 0.785,
+                "y": 0.142,
+                "r": 0.11
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Nagoji's grey streak at the temple is a little heavier than 'first grey', and his ear stud has a tiny bead under it, but it stays flush and small. His left sleeve is rolled, so the forearm scar shows on the outer arm. Varma's knot sits at the back of his head, not clearly above the left ear, which matches the sheet's profile and back views. Otherwise clean: Varma is seated, bare-headed and bare-chested in cream and gold with the namam and pearl earrings, looking up at Nagoji with an open hand on the map. Nagoji is in uniform (white coat, red waistcoat, brass buttons, silver chain, topknot, thick moustache, clean-shaven chin, gold stud). The map has no writing, the hall has laterite walls, timber pillars, open shutters and brass oil lamps, the hands are sound, and the roof and wall in the upper left and upper centre leave room for the three balloons.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 27,
+        "result": {
+          "chapter": 27,
+          "panels": [
+            {
+              "id": "page-02-panel-04",
+              "version": "v04",
+              "faces": [
+                {
+                  "x": 0.309,
+                  "y": 0.396,
+                  "r": 0.046,
+                  "who": "seated man with tilak and moustache, three-quarter profile facing right, left"
+                },
+                {
+                  "x": 0.749,
+                  "y": 0.181,
+                  "r": 0.05,
+                  "who": "standing grey-streaked man in white coat, profile facing left, right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 27,
+        "result": {
+          "chapter": 27,
+          "panels": [
+            {
+              "id": "2.4",
+              "version": "v04",
+              "keep": [
+                {
+                  "x0": 0.45,
+                  "y0": 0.66,
+                  "x1": 0.57,
+                  "y1": 0.8,
+                  "what": "Varma's open right hand passing over the map, with the coloured territories under it"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch27 p2",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "aae3467e1e4307de6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511755757,
+      "queuedAt": 1791511755751,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 2 of Chapter 27 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r4-ch27/page-02.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511799084,
+      "tokens": 75302,
+      "toolCalls": 12,
+      "durationMs": 43327,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-02-panel-04\",\"pick\":\"v04\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.319,\"y\":0.408},{\"copy_index\":1,\"x\":0.739,\"y\":0.205},{\"copy_index\":2,\"x\":0.319,\"y\":0.408}],\"backup_tails\":[],\"faces\":[{\"x\":0.272,\"y\":0.383,\"r\":0.095},{\"x\":0.785,\"y\":0.142,\"r\":0.11}],\"backup_faces\":[],\"issues\":\"Minor only. Nagoji's grey streak at the temple is a little heavier than 'first grey', and his …"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "mark ch27 p2",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aa98ff135f74bebbc",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511799100,
+      "queuedAt": 1791511799093,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791511831936,
+      "tokens": 67086,
+      "toolCalls": 11,
+      "durationMs": 32836,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-04\",\"version\":\"v04\",\"faces\":[{\"x\":0.309,\"y\":0.396,\"r\":0.046,\"who\":\"seated man with tilak and moustache, three-quarter profile facing right, left\"},{\"x\":0.749,\"y\":0.181,\"r\":0.05,\"who\":\"standing grey-streaked man in white coat, profile facing left, right\"}]}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "keep ch27 p2",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a9a7f6ab620519310",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511799112,
+      "queuedAt": 1791511799107,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 2 of chapter 27 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-27-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791511815601,
+      "tokens": 63675,
+      "toolCalls": 7,
+      "durationMs": 16489,
+      "resultPreview": "{\"panels\":[{\"id\":\"2.4\",\"version\":\"v04\",\"keep\":[{\"x0\":0.45,\"y0\":0.66,\"x1\":0.57,\"y1\":0.8,\"what\":\"Varma's open right hand passing over the map, with the coloured territories under it\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "check ch27 p2",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ad3a0d7e824065074",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511831938,
+      "queuedAt": 1791511831937,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791511852327,
+      "tokens": 61616,
+      "toolCalls": 6,
+      "durationMs": 20389,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-04\",\"version\":\"v04\",\"faces\":[{\"x\":0.309,\"y\":0.396,\"r\":0.046,\"who\":\"seated man with tilak and moustache, three-quarter profile facing right, left\"},{\"x\":0.749,\"y\":0.181,\"r\":0.05,\"who\":\"standing grey-streaked man in white coat, profile facing left, right\"}]}]}"
+    }
+  ],
+  "totalTokens": 267679,
+  "totalToolCalls": 36
+}

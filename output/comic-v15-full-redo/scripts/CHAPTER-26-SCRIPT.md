@@ -248,7 +248,7 @@ Five panels. Aftermath, and then Padmini walks into the hall having walked the l
 
 ## PAGE 8
 
-Four panels. Padmini's reckoning, and her exit. The king's promise is given and weighed.
+One panels. Padmini's reckoning, and her exit. The king's promise is given and weighed.
 
 **8.1** Padmini, eyes hard and unblinking. She rubs a smear of soot from her sari between finger and thumb and lets it fall onto the cloth map, onto the canal where Nagoji traced the strip on page 3 (ink lines only, no lettering or labels).
 
@@ -258,13 +258,19 @@ Four panels. Padmini's reckoning, and her exit. The king's promise is given and 
 
 > PADMINI (after a breath, a separate balloon): I do not say you were wrong.
 
-**8.2** Reverse angle, over Padmini's shoulder onto Nagoji's face as he takes it. Her voice drops; this is harder for her than the anger.
+---
+
+## PAGE 9
+
+Three panels, continuing page 8.
+
+**9.1** Reverse angle, over Padmini's shoulder onto Nagoji's face as he takes it. Her voice drops; this is harder for her than the anger.
 
 > PADMINI: If I thought there had been another way, I would be screaming now, not speaking.
 
 > PADMINI: But do not expect me to thank you. There are wounds that are necessary and wounds that are kind. This was the first, not the second.
 
-**8.3** Varma on his platform, face unreadable. Padmini half-turned toward him, leaning on her stick.
+**9.2** Varma on his platform, face unreadable. Padmini half-turned toward him, leaning on her stick.
 
 > VARMA: You have my word that the state will help replant.
 
@@ -272,7 +278,7 @@ Four panels. Padmini's reckoning, and her exit. The king's promise is given and 
 
 > PADMINI: But perhaps it will keep some of my boys from having to sell their swords to men like Kollamkara when the hunger comes.
 
-**8.4** Full width, bottom. Padmini at the doorway with her back to the hall, paused, not looking round. Nagoji small in the lamplight behind her.
+**9.3** Full width, bottom. Padmini at the doorway with her back to the hall, paused, not looking round. Nagoji small in the lamplight behind her.
 
 > PADMINI: You have chosen your side firmly now, Pillai.
 
@@ -282,33 +288,33 @@ Four panels. Padmini's reckoning, and her exit. The king's promise is given and 
 
 ---
 
-## PAGE 9
+## PAGE 10
 
 Five panels. Revathi on the wall. Her anger is private, which makes it sharper.
 
-**9.1** Wide. The fort wall at evening, a few days later. Far off, the blackened strip still visible as a dark line across the green. Nagoji alone at the parapet (Kerala topknot, NO turban, grey at the temples, clean-shaven chin, thick curled moustache, small gold ear stud; white European-cut coat, red waistcoat, brass buttons, knee breeches, European boots, silver chain of office; NOT a mundu). Revathi Bayi (a little younger than Nagoji; deep indigo sari with gold, jasmine in her braid, grey threading her hair, tali at her throat, flat-coin necklace, gold armlets, sandalwood line at the hairline) coming along the wall walk toward him.
+**10.1** Wide. The fort wall at evening, a few days later. Far off, the blackened strip still visible as a dark line across the green. Nagoji alone at the parapet (Kerala topknot, NO turban, grey at the temples, clean-shaven chin, thick curled moustache, small gold ear stud; white European-cut coat, red waistcoat, brass buttons, knee breeches, European boots, silver chain of office; NOT a mundu). Revathi Bayi (a little younger than Nagoji; deep indigo sari with gold, jasmine in her braid, grey threading her hair, tali at her throat, flat-coin necklace, gold armlets, sandalwood line at the hairline) coming along the wall walk toward him.
 
 > CAPTION: Revathi's anger arrived a few evenings later, as I had known it would.
 
 > REVATHI: You carved your own mark into this land.
 
-**9.2** Nagoji turning to her. She has not stopped walking.
+**10.2** Nagoji turning to her. She has not stopped walking.
 
 > NAGOJI: We carved it together. The king, Ramayyan, Padmini. I merely held the first torch.
 
 > REVATHI: Men like you always say that. You hide behind councils and shared decisions when the fire is yours.
 
-**9.3** Revathi leaning on the parapet beside Nagoji, staring north at the strip. Neither looks at the other.
+**10.3** Revathi leaning on the parapet beside Nagoji, staring north at the strip. Neither looks at the other.
 
 > REVATHI: If a Dutchman had done what you did, you would have called him monster.
 
 > REVATHI: Because you did it for a king you respect, you call it necessity.
 
-**9.4** Small panel. Nagoji, turned toward her profile.
+**10.4** Small panel. Nagoji, turned toward her profile.
 
 > NAGOJI: You think there was another choice?
 
-**9.5** Full width, bottom. Revathi still facing the horizon after a long silence, the last light on her face. Nagoji at the edge of frame, watching her.
+**10.5** Full width, bottom. Revathi still facing the horizon after a long silence, the last light on her face. Nagoji at the edge of frame, watching her.
 
 > REVATHI: No.
 
@@ -318,57 +324,63 @@ Five panels. Revathi on the wall. Her anger is private, which makes it sharper.
 
 ---
 
-## PAGE 10
+## PAGE 11
 
-Five panels. Love named as danger, the terms of the marriage, and her walk away.
+Two panels. Love named as danger, the terms of the marriage, and her walk away.
 
-**10.1** Revathi straightening from the parapet and facing him fully.
+**11.1** Revathi straightening from the parapet and facing him fully.
 
 > REVATHI: This does not make you evil. It makes you dangerous.
 
 > REVATHI: To love you, as I do, is to love a man whose first instinct is to save the larger pattern, not the smaller square.
 
-**10.2** Two-shot, Revathi and Nagoji. Her gaze flicks toward the blackened strip, then back to him.
+**11.2** Two-shot, Revathi and Nagoji. Her gaze flicks toward the blackened strip, then back to him.
 
 > REVATHI: You once asked only for a corner of my house and a sliver of my heart. Today you carved a wound across my land instead.
 
 > NAGOJI: You knew that before we stood before the goddess.
 
-**10.3** Revathi stepping away from the parapet, answering over her shoulder without stopping. Nagoji stays where he is.
+---
+
+## PAGE 12
+
+Three panels, continuing page 11.
+
+**12.1** Revathi stepping away from the parapet, answering over her shoulder without stopping. Nagoji stays where he is.
 
 > REVATHI: Of course. I married you with my eyes open.
 
 > REVATHI: I knew there would be days when you stood on the wall beside the king instead of on my verandah. I did not expect to like it when those days came.
 
-**10.4** Seen past Nagoji's shoulder at the parapet: Revathi, a few paces off along the wall walk, turns back halfway, her face in the last light, one hand at the tali.
+**12.2** Seen past Nagoji's shoulder at the parapet: Revathi, a few paces off along the wall walk, turns back halfway, her face in the last light, one hand at the tali.
 
 > REVATHI: We will work together when it suits the land. We will stand in the same halls. We will share this house in name and in law.
 
 > REVATHI: But do not ask me to pretend this scar is not also your work.
 
-**10.5** Full width, bottom. Revathi walking away along the wall walk, her back straight, already small. Nagoji alone and small at the parapet, the evening sky reddening over the walls.
+**12.3** Full width, bottom. Revathi walking away along the wall walk, her back straight, already small. Nagoji alone and small at the parapet, the evening sky reddening over the walls.
 
 > *No text.*
 
 ---
 
-## PAGE 11
+## PAGE 13
 
 Five panels. The scar at sunset, and Ramayyan keeping accounts.
 
-**11.1** Wide, long lens, sunset. No figures. The burned strip across the green: scorched posts standing as jagged black silhouettes against a red sky, the dark vein of ash running between untouched pepper on both sides.
+**13.1** Wide, long lens, sunset. No figures. The burned strip across the green: scorched posts standing as jagged black silhouettes against a red sky, the dark vein of ash running between untouched pepper on both sides.
 
 > CAPTION: The fire in the pepper fields had done more than deny cover to raiders.
 
 > CAPTION: It had burned away the illusion that love could soften the choices ahead.
 
-**11.2** A canal bank at dusk. Bales of cloth stacked by a moored boat. Ibrahim Marakkar (a stocky, broad-chested coastal Muslim broker; short coat over a vest with bulging pockets; scar from his LEFT ear to the jaw) in three-quarter view showing his anatomical left side, the scar clearly visible, talking quietly with a man seen from behind, in shadow.
+**13.2** A canal bank at dusk. Bales of cloth stacked by a moored boat. Ibrahim Marakkar (a stocky, broad-chested coastal Muslim broker; short coat over a vest with bulging pockets; scar from his LEFT ear to the jaw) in three-quarter view showing his anatomical left side, the scar clearly visible, talking quietly with a man seen from behind, in shadow.
 
 > CAPTION: Later, when Ramayyan sifted rumours, Ibrahim Marakkar's name floated more than once to the surface.
 
 > CAPTION: Whether he had helped Kollamkara reach Dutch guns or had nudged those same whispers toward the fort first was never entirely clear.
 
-**11.3** The war hall by day. Ramayyan (thin, sharp fine features, receding hair, plain white cloth) at his palm leaves, not looking up, stylus moving. Nagoji standing across the table (Kerala topknot, NO turban, grey at the temples, clean-shaven chin, thick curled moustache, small gold ear stud; white European-cut coat, red waistcoat, brass buttons, knee breeches, European boots, silver chain of office; NOT a mundu).
+**13.3** The war hall by day. Ramayyan (thin, sharp fine features, receding hair, plain white cloth) at his palm leaves, not looking up, stylus moving. Nagoji standing across the table (Kerala topknot, NO turban, grey at the temples, clean-shaven chin, thick curled moustache, small gold ear stud; white European-cut coat, red waistcoat, brass buttons, knee breeches, European boots, silver chain of office; NOT a mundu).
 
 > CAPTION: I asked Ramayyan about it once, months after the ash had cooled.
 
@@ -376,13 +388,13 @@ Five panels. The scar at sunset, and Ramayyan keeping accounts.
 
 > RAMAYYAN: Do not trouble yourself with his accounts. I keep them for him.
 
-**11.4** Two-shot across the table. Nagoji leaning in. Ramayyan still does not look up.
+**13.4** Two-shot across the table. Nagoji leaning in. Ramayyan still does not look up.
 
 > NAGOJI: And if he betrayed us?
 
 > RAMAYYAN: Then I would know. And he would know that I know. That is usually enough.
 
-**11.5** Full width, bottom. Tight on Ramayyan's hand turning a palm leaf, stylus already moving to the next line. A small brass dish of dried black peppercorns weighs down the stack of finished leaves.
+**13.5** Full width, bottom. Tight on Ramayyan's hand turning a palm leaf, stylus already moving to the next line. A small brass dish of dried black peppercorns weighs down the stack of finished leaves.
 
 > CAPTION: Men like Ibrahim rarely walked in straight lines.
 
@@ -398,21 +410,21 @@ Five panels. The scar at sunset, and Ramayyan keeping accounts.
 - **The torch sequence is split across a page turn**: "For a heartbeat, nothing happened" closes page 5 and the flame catches, wordless, at the top of page 6.
 - **The Padmini and Revathi memories** at the vine line are a stain in the smoke (5.4), matching the Kanka device from chapter 1, with Revathi's remembered words as the only caption.
 - **Violence is staged, not shown.** The burned and drowned raiders are cut under the no-gore rule; the aftermath is a dropped musket, a scorched banner and distant survivors, one wading out of the canal (7.1). "Blackened beyond recognition" and the bodies in the canal do not appear. The killing is carried by sound in the 6.5 caption, not by image.
-- **Captions cut as art duplication:** "Then the line thickened. Broke. Reappeared in two places at once" (1.2 is wordless), "Her stick stopped tapping" (1.4), the ridge description, "Then the flame caught" (6.1), "We left gaps" (6.2), "The fire responded with its own logic" (6.3), "We pulled who we could back. We lost others in the smoke" (6.5), "By late afternoon, the corridor no longer existed" (7.1), "She walked into the hall without ceremony" (7.2), "She walked away, her back straight" (10.5), "As the sun set, its last light turned the scorched posts into jagged silhouettes" (11.1) and "tied to bales of cloth and quiet conversations on canal banks" (11.2).
-- **Dialogue trimmed:** Padmini's "My vines. The king's vines..." (the pepper theme is carried instead by the chapter's closing caption), Varma's "will support your house through the years it takes for those vines to bear fruit again", Revathi's Velinadu reminiscence about keeping the land free of foreign flags (its point survives in her Dutchman line), her "We will speak the same anger at the same foreigners", and Ramayyan's "Ibrahim has traded on this coast longer than you have been alive. He will trade here after we are both dust." The narration "The blackened strip in the distance did not care about our hearts" and "In its place, another truth rose, harder edged" are left to the art of 10.5 and 11.1.
-- **The Ibrahim coda has its own page** (11), opened by the scar at sunset. The suspicion is stated in the novel's own words (11.2), so Nagoji's "And if he betrayed us?" has a target, and the chapter closes on the novel's last line about the pepper.
-- **Continuity:** Nagoji is Ananthan Pillai in the ch24 onward uniform (white European-cut coat, red waistcoat, brass buttons, knee breeches, European boots, silver chain of office), Kerala topknot, no turban, clean-shaven chin, grey at the temples, restated at the first Nagoji panel of every scene (1.1, 1.3, 5.1, 5.4, 6.1, 7.2, 9.1, 11.3) because the CONTINUITY.md row for ch17-27 also lists the mundu. His horse is unnamed in the text but drawn as Kayal, the ochre-bay mare of ch14, ch20, ch22 and ch24. Ponnan is separated from Nagoji as in ch14 (bare curly hair, red shoulder cloth over a short jacket, bare knees, smaller horse, a head lower). Travancore men wear white mundu with crossed leather belts under the red standard with the silver conch; the raiders wear dark indigo or earth-brown cloth with head cloths and no cross-belts, never blue coats, and their banner is plain faded green with no writing. Every map is ink lines only, with no lettering. Padmini is older, with grey through her hair, matching ch25; she dies in chapter 27, so this is her last confrontation and it is given two pages. Revathi wears her tali and grey threading. Ibrahim's scar is on his LEFT side and the camera is placed to show it.
-- **Cast overrides for preparation** (pass with `--cast-overrides`): `{"page-01-panel-04": [], "page-02-panel-01": ["ramayyan"], "page-02-panel-02": [], "page-05-panel-04": ["nagoji"], "page-06-panel-03": [], "page-07-panel-01": [], "page-08-panel-01": ["padmini"], "page-08-panel-03": ["padmini", "varma"], "page-09-panel-02": ["nagoji", "revathi"], "page-11-panel-01": [], "page-11-panel-02": ["ibrahim"], "page-11-panel-05": ["ramayyan"]}`. 1.4 shows only the stick's foot; 2.2 is a figureless map view; in 5.4 Padmini and Revathi are smoke-textured memory faces described in the shot, not figures; 9.2's copy names Ramayyan and Padmini, who are not there; 11.5's copy names Ibrahim, who is not there; the others would otherwise pick up Nagoji from first-person copy. Every other panel's inferred cast is correct.
+- **Captions cut as art duplication:** "Then the line thickened. Broke. Reappeared in two places at once" (1.2 is wordless), "Her stick stopped tapping" (1.4), the ridge description, "Then the flame caught" (6.1), "We left gaps" (6.2), "The fire responded with its own logic" (6.3), "We pulled who we could back. We lost others in the smoke" (6.5), "By late afternoon, the corridor no longer existed" (7.1), "She walked into the hall without ceremony" (7.2), "She walked away, her back straight" (12.3), "As the sun set, its last light turned the scorched posts into jagged silhouettes" (13.1) and "tied to bales of cloth and quiet conversations on canal banks" (13.2).
+- **Dialogue trimmed:** Padmini's "My vines. The king's vines..." (the pepper theme is carried instead by the chapter's closing caption), Varma's "will support your house through the years it takes for those vines to bear fruit again", Revathi's Velinadu reminiscence about keeping the land free of foreign flags (its point survives in her Dutchman line), her "We will speak the same anger at the same foreigners", and Ramayyan's "Ibrahim has traded on this coast longer than you have been alive. He will trade here after we are both dust." The narration "The blackened strip in the distance did not care about our hearts" and "In its place, another truth rose, harder edged" are left to the art of 12.3 and 13.1.
+- **The Ibrahim coda has its own page** (11), opened by the scar at sunset. The suspicion is stated in the novel's own words (13.2), so Nagoji's "And if he betrayed us?" has a target, and the chapter closes on the novel's last line about the pepper.
+- **Continuity:** Nagoji is Ananthan Pillai in the ch24 onward uniform (white European-cut coat, red waistcoat, brass buttons, knee breeches, European boots, silver chain of office), Kerala topknot, no turban, clean-shaven chin, grey at the temples, restated at the first Nagoji panel of every scene (1.1, 1.3, 5.1, 5.4, 6.1, 7.2, 10.1, 13.3) because the CONTINUITY.md row for ch17-27 also lists the mundu. His horse is unnamed in the text but drawn as Kayal, the ochre-bay mare of ch14, ch20, ch22 and ch24. Ponnan is separated from Nagoji as in ch14 (bare curly hair, red shoulder cloth over a short jacket, bare knees, smaller horse, a head lower). Travancore men wear white mundu with crossed leather belts under the red standard with the silver conch; the raiders wear dark indigo or earth-brown cloth with head cloths and no cross-belts, never blue coats, and their banner is plain faded green with no writing. Every map is ink lines only, with no lettering. Padmini is older, with grey through her hair, matching ch25; she dies in chapter 27, so this is her last confrontation and it is given two pages. Revathi wears her tali and grey threading. Ibrahim's scar is on his LEFT side and the camera is placed to show it.
+- **Cast overrides for preparation** (pass with `--cast-overrides`): `{"page-01-panel-04": [], "page-02-panel-01": ["ramayyan"], "page-02-panel-02": [], "page-05-panel-04": ["nagoji"], "page-06-panel-03": [], "page-07-panel-01": [], "page-08-panel-01": ["padmini"], "page-08-panel-03": ["padmini", "varma"], "page-09-panel-02": ["nagoji", "revathi"], "page-11-panel-01": [], "page-11-panel-02": ["ibrahim"], "page-11-panel-05": ["ramayyan"]}`. 1.4 shows only the stick's foot; 2.2 is a figureless map view; in 5.4 Padmini and Revathi are smoke-textured memory faces described in the shot, not figures; 10.2's copy names Ramayyan and Padmini, who are not there; 13.5's copy names Ibrahim, who is not there; the others would otherwise pick up Nagoji from first-person copy. Every other panel's inferred cast is correct.
 - **Verbatim lines kept:** "Old men fight their wars in land they have never walked," "Two fronts. Exactly what Ramayyan had feared," "Someone has been counting our drills as carefully as we count their gossip," "Burn it," "Today, to them, they are a shield. Tomorrow, if they live, they are coin," "You know. You do not feel," "Pepper is not rice," Padmini's consent speech, "I will not ask another to light the first torch," "We hit their shield," "Enough, I hoped, to deny full cover without turning the land into a charcoal scar with no hope," "This was a cruel way to fight," "It was ugly and hot and filled with the sounds of men and plants dying together," "For years, men will ask what happened there," "I do not know which ash is heavier," "ash tastes the same in my mouth," "I would be screaming now, not speaking," "wounds that are necessary and wounds that are kind," the verandah line, "the only choices left are between a slow death and a quick burn," "It makes you dangerous," "the larger pattern, not the smaller square," the corner and sliver callback to chapter 20, Revathi's "I married you with my eyes open" reply with its verandah echo, "We will share this house in name and in law," "Some men are most useful when both sides believe they are theirs," "Then I would know. And he would know that I know," and the closing pepper line.
-- **Page count** is 11 against a target of 9, at the top of the 7 to 11 range. That is about 237 novel words per page, close to the Chapter 1 pilot's 244. The added pages go to the two private reckonings (Padmini on pages 7 and 8, Revathi on pages 9 and 10), which are the chapter's reason for existing, and to a coda page that can hold the Ibrahim ambiguity and the pepper line without crowding.
+- **Page count** is 11 against a target of 9, at the top of the 7 to 11 range. That is about 237 novel words per page, close to the Chapter 1 pilot's 244. The added pages go to the two private reckonings (Padmini on pages 7 and 8, Revathi on pages 10 and 11), which are the chapter's reason for existing, and to a coda page that can hold the Ibrahim ambiguity and the pepper line without crowding.
 
 ### Review changes
 
-- Page 10 restructured: Revathi's "eyes open" reply is restored whole with its verandah echo (10.3), and her terms keep "work together", "the same halls" and "in name and in law" before the scar line (10.4), so the scene no longer reads as a separation. 10.5 is her walk away, wordless.
-- New page 11: the scar at sunset as a long-lens shot with no figures (resolving the 10.4 scale conflict), the Ibrahim suspicion in the novel's words, Ramayyan's "Some men are most useful..." and "I keep them for him", and the closing pepper line.
-- 9.5 restores "Sometimes, the only choices left are between a slow death and a quick burn."
+- Page 11 restructured: Revathi's "eyes open" reply is restored whole with its verandah echo (12.1), and her terms keep "work together", "the same halls" and "in name and in law" before the scar line (12.2), so the scene no longer reads as a separation. 12.3 is her walk away, wordless.
+- New page 13: the scar at sunset as a long-lens shot with no figures (resolving the 12.2 scale conflict), the Ibrahim suspicion in the novel's words, Ramayyan's "Some men are most useful..." and "I keep them for him", and the closing pepper line.
+- 10.5 restores "Sometimes, the only choices left are between a slow death and a quick burn."
 - Page 7: 7.2 and 7.3 merged into one night-hall wide (Varma on his platform, Padmini in the doorway, heads turning) to make room for Padmini's "For years, men will ask..." and Nagoji's failed "We stopped them" before his confession. 7.1 captions put back in the novel's order.
-- Page 8: soot falling onto the map as a physical callback (8.1), a reverse angle on Nagoji (8.2), "I would be screaming now, not speaking" restored, and Varma's promise trimmed.
+- Page 8: soot falling onto the map as a physical callback (8.1), a reverse angle on Nagoji (9.1), "I would be screaming now, not speaking" restored, and Varma's promise trimmed.
 - Page 6: 6.1 cut to one tier; 6.2 second caption cut; 6.3 now carries "Enough, I hoped..." against the fire jumping the gap; 6.5 reduced to one action with the "men and plants dying together" caption.
 - 2.1 opens on "Two fronts. Exactly what Ramayyan had feared."; 2.2 letters Varma before the map caption.
 - 1.3: Nagoji already in the room, trailing guard cut, one entrance. 4.1: Varma's spear on the map. 4.4: Padmini's stick strikes the floor on "Do it." 5.4: no fires on the vine line before his torch.

@@ -10206,3 +10206,1631 @@ Proposal-only bible changes: 10 @9.4 palm-up LEFT forearm and no wrist iron; sev
 
 Fresh dry-run audits: Chapter 10 panel_count 45, setting_last 45, draw_no_once 45, sheet_order_matches 45, copy_leaks 0, foreign_terms 0; Chapter 11 panel_count 102, setting_last 102, draw_no_once 102, sheet_order_matches 102, copy_leaks 0, foreign_terms 0; Chapter 12 panel_count 40, setting_last 40, draw_no_once 40, sheet_order_matches 40, copy_leaks 0, foreign_terms 0. Separate footwear matches/checks are 30/30, 35/35 and 20/20, since the built-in footwear audit only covers Chapter 9. Approved Kayal sheet/cast matches are 3/3, 9/9 and 2/2. Full prompt re-reads covered all 29, 98 and 27 touched panels, 154 total. Ancillary audit diagnostics: rules_under_10_percent 41/45, 99/102 and 40/40; max_rules_percent 12.7301, 12.8232 and 9.6597; median_length 3409, 3547.5 and 3440.5 versus v1 3503, 3162 and 3328.5. These do not change the requested target passes. Scratch packages: /private/tmp/claude-501/ch10-12-direction-review-20261002T221412Z-34jsz162/ch10-a; /private/tmp/claude-501/ch10-12-direction-review-20261002T221412Z-34jsz162/ch11-a; /private/tmp/claude-501/ch10-12-direction-review-20261002T221412Z-34jsz162/ch12-a. Input backups and audit summary are retained in the scratch parent. No image generation, builds or git commands were run.
 ### Recommendations / Next steps: Author to resolve the frozen script wording at 10.8.4 and 11.21.3 before production; the proposal remains unpromoted and all art-direction sidecars remain draft.
+
+## [AGENT: Codex] [2026-10-02T22:58:07Z]
+### Action: Generated and captured all 9 Chapter 9 LEAN-BATCH-61 entries in manifest order, including 3 region composites.
+### Files changed: output/comic-v15-full-redo/chapters/ch09/frames/page-07-panel-05-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-07-panel-05-v03.json; output/comic-v15-full-redo/chapters/ch09/frames/page-10-panel-05-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-10-panel-05-v03.json; output/comic-v15-full-redo/chapters/ch09/frames/page-05-panel-03-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-05-panel-03-v03.json; output/comic-v15-full-redo/chapters/ch09/frames/page-01-panel-02-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-01-panel-02-v03.json; output/comic-v15-full-redo/chapters/ch09/frames/page-08-panel-02-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-08-panel-02-v03.json; output/comic-v15-full-redo/chapters/ch09/frames/page-10-panel-04-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-10-panel-04-v03.json; output/comic-v15-full-redo/chapters/ch09/frames/page-11-panel-01-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-11-panel-01-v03.json; output/comic-v15-full-redo/chapters/ch09/frames/page-11-panel-03-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-11-panel-03-v03.json; output/comic-v15-full-redo/chapters/ch09/frames/page-11-panel-04-v03.png; output/comic-v15-full-redo/chapters/ch09/candidates/page-11-panel-04-v03.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-61.json; agents-build-log.md (one append); /private/tmp/claude-501/ch09-fix-r2/ (crops, generated edit outputs, aligned crops, masks, composites and retained first-paste files); /Users/roshanvenugopal/.codex/generated_images/01a0fec4-3c9e-72e3-8115-21e8f543b0fa/ (9 original imagegen PNGs)
+### Diff summary: 9 entries confirmed with json.load; 9 captured at v03, 0 entry errors; 9 built-in imagegen calls with verbatim prompts and exactly the specified ordered references or sole upscaled crop. 0 moderation refusals, 0 generation retries, 0 capture retries. Region crop boxes: page-07-panel-05 [505,115,670,280], page-10-panel-05 [548,110,620,182], page-05-panel-03 [525,20,675,170]. Crops were 165, 72 and 150 px square and were enlarged to 1024 px with LANCZOS. Tool deviation: all 3 region calls returned full panels instead of edited squares; recovered and aligned their corresponding feature regions before resizing and pasting. Recovered output boxes: page-07-panel-05 [891,1,1574,684], page-10-panel-05 [481,174,579,272], page-05-panel-03 [397,128,742,473]. Masks used feathered white squares on black. One paste retry on page-07-panel-05 corrected preview-versus-native output coordinates and widened the Gaussian feather from 13.2 to 19.8 px; first composite, mask and aligned crop retained. Other feathers: 5.76 and 12 px. Required full-size feature and seam checks completed for the 3 composites. All 3 preserve decoded pixel bytes outside the crop exactly. Candidate paths, source/frame hashes, prompt hashes and log counts verified.
+### Recommendations / Next steps: Capture complete; candidate visual_review remains pending; no selection, builds, git commands or chapter 10 to 12 work performed.
+
+## [AGENT: Codex] [2026-10-02T23:06:09Z]
+### Action: Generated and captured two independent candidates for Chapter 6 page-09-panel-05 from LEAN-BATCH-62.
+### Files changed: output/comic-v15-full-redo/chapters/ch06/frames/page-09-panel-05-v03.png; output/comic-v15-full-redo/chapters/ch06/candidates/page-09-panel-05-v03.json; output/comic-v15-full-redo/chapters/ch06/frames/page-09-panel-05-v04.png; output/comic-v15-full-redo/chapters/ch06/candidates/page-09-panel-05-v04.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-62.json; agents-build-log.md (one append); /Users/roshanvenugopal/.codex/generated_images/01a0feda-d196-7930-b87c-191ec2cdadd0/exec-dddea990-bafb-4927-8eca-4598026b0222.png; /Users/roshanvenugopal/.codex/generated_images/01a0feda-d196-7930-b87c-191ec2cdadd0/exec-5364fcdb-0ea2-475a-878a-aa17802a0e84.png
+### Diff summary: 1 manifest entry loaded with json.load; 2 built-in imagegen calls with the verbatim prompt and exactly 3 ordered references; 2 captures at v03 and v04; 0 errors; 0 moderation refusals; 0 generation retries; 0 capture retries.
+### Recommendations / Next steps: Both candidates remain pending visual review; no review, selection, builds, git commands or Chapter 10 to 12 work performed.
+
+
+## [AGENT: Codex] [2026-10-02T23:57:38Z]
+### Action: Generated and captured both Chapter 5 LEAN-BATCH-63 entries in manifest order, with the outpaint continuity failure recorded.
+### Files changed: output/comic-v15-full-redo/chapters/ch05-split/frames/page-09-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch05-split/candidates/page-09-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch05-split/frames/page-05-panel-03-v02.png; output/comic-v15-full-redo/chapters/ch05-split/candidates/page-05-panel-03-v02.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-63.json; agents-build-log.md (one append); /private/tmp/claude-501/ch05-fix-s1/page-09-panel-02-canvas.png; /private/tmp/claude-501/ch05-fix-s1/page-09-panel-02-feather24.png; /private/tmp/claude-501/ch05-fix-s1/page-09-panel-02-outpaint.png; /private/tmp/claude-501/ch05-fix-s1/page-09-panel-02-raw.png; /private/tmp/claude-501/ch05-fix-s1/page-09-panel-02-resized.png; /Users/roshanvenugopal/.codex/generated_images/01a0ff07-1ea1-7a92-8b64-ed118941e7de/exec-48f5bd86-da6b-47c2-9ba9-d8e334ffaa9d.png; /Users/roshanvenugopal/.codex/generated_images/01a0ff07-1ea1-7a92-8b64-ed118941e7de/exec-455c2de3-a800-40be-8e17-b68836121a4e.png
+### Diff summary: 2 entries, 2 built-in imagegen calls with verbatim prompts and one attachment each, 2 captures at v02, 0 generation or capture errors, 0 moderation refusals, 0 generation retries, 0 capture retries, and 1 paste retry from 24 to 48 px feather. Outpaint raw result was 1456 x 1080 and was resized to 2172 x 1610; original 2172 x 724 art sits at x=0, y=600, with 600 px above and 286 px below. Canvas, raw output, resized output and first 24 px composite retained. Final original interior x=48 to 2123 and y=648 to 1275 is pixel-identical; no additions occur in that solid-mask interior. Required continuation check failed: extra moon, roof mismatch and duplicated mat/body detail remain outside or at the blended edge after the wider feather. Both candidate hashes, prompt hashes, original source hashes, dimensions and pending visual-review status verified.
+### Recommendations / Next steps: Both captures are recorded; outpaint continuity requires a later correction. No general review, selection, builds, prompt edits or git commands performed.
+
+## [AGENT: Codex] [2026-10-03T00:15:24Z]
+### Action: Generated and captured all 85 new images in LEAN-BATCH-53, LEAN-BATCH-54, LEAN-BATCH-55 and LEAN-BATCH-56 in manifest order.
+### Files changed: output/comic-v15-full-redo/chapters/ch10/frames/ (45 new v01 PNGs); output/comic-v15-full-redo/chapters/ch10/candidates/ (45 new v01 JSON records); output/comic-v15-full-redo/chapters/ch12/frames/ (40 new v01 PNGs); output/comic-v15-full-redo/chapters/ch12/candidates/ (40 new v01 JSON records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-53.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-54.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-55.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-56.json; /Users/roshanvenugopal/.codex/generated_images/01a0febb-9fcb-7311-a554-679ce9fd2dd6/ (85 generated source PNGs); agents-build-log.md (one append).
+### Diff summary: LEAN-BATCH-53: 25/25 captured; LEAN-BATCH-54: 20/20 captured; LEAN-BATCH-55: 20/20 captured; LEAN-BATCH-56: 20/20 captured; 85 built-in imagegen calls with verbatim prompts and exact ordered references; 85 v01 captures; 0 errors; 0 moderation refusals; 0 generation retries; 0 moderation retries; 0 capture retries; 0 helper retries. All four logs reconciled with manifest order and existing capture artifacts. One default orientation mismatch: LEAN-BATCH-55 page-01-panel-02 is portrait at 1024 x 1536 instead of default landscape; its prompt has no explicit FRAME SHAPE line. All explicit FRAME SHAPE orientation requests matched.
+### Recommendations / Next steps: Generation and capture complete; visual review remains pending.
+
+
+## [AGENT: Codex] [2026-10-03T00:39:33Z]
+### Action: Generated and captured all 102 new Chapter 11 images in LEAN-BATCH-57, LEAN-BATCH-58, LEAN-BATCH-59 and LEAN-BATCH-60 in manifest order.
+### Files changed: output/comic-v15-full-redo/chapters/ch11/frames/ (102 new v01 PNGs); output/comic-v15-full-redo/chapters/ch11/candidates/ (102 new v01 JSON records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-57.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-58.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-59.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-60.json; /Users/roshanvenugopal/.codex/generated_images/01a0febc-6854-74d1-a01c-c3f971be69be/ (102 generated source PNGs); agents-build-log.md (one append).
+### Diff summary: LEAN-BATCH-57: 24/24 captured; LEAN-BATCH-58: 24/24 captured; LEAN-BATCH-59: 24/24 captured; LEAN-BATCH-60: 30/30 captured. 103 built-in imagegen calls including one rate-limit retry after a one-minute wait; verbatim prompts and exact ordered references; 102 v01 captures; 0 final errors; 0 moderation refusals or retries; 0 capture or helper retries. All four logs reconciled with manifest count and order, candidate records, prompt hashes, ordered reference metadata, existing source and captured PNGs, dimensions, and pending visual-review status. All explicit FRAME SHAPE requests matched: batch 57 page-01-panel-01 at 2169 x 725 and batch 60 page-21-panel-05 at 2172 x 724. Default orientation mismatches: batch 57 page-01-panel-02 and page-02-panel-01, and batch 60 page-18-panel-03 are portrait at 1024 x 1536. Other landscape ratios differing materially from default 3:2: batch 57 page-02-panel-03 and page-03-panel-03 at 1374 x 1145; batch 58 page-09-panel-03 at 1855 x 848; batch 60 page-17-panel-03 at 1312 x 1199 and page-18-panel-02 at 1370 x 1148.
+### Recommendations / Next steps: Generation and capture complete; visual review remains pending. No review, selection, builds, git commands, deletion, or Chapter 10 or 12 file changes performed.
+
+## [AGENT: Codex] [2026-10-03T00:58:07Z]
+### Action: Generated and captured all 14 Chapter 12 LEAN-BATCH-65 entries in manifest order, including 3 earlobe region composites.
+### Files changed: output/comic-v15-full-redo/chapters/ch12/frames/page-08-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-08-panel-01-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-08-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-08-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-08-panel-05-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-08-panel-05-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-01-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-01-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-02-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-02-panel-01-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-02-panel-05-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-02-panel-05-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-03-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-03-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-03-panel-03-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-03-panel-03-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-04-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-04-panel-01-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-04-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-04-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-05-panel-03-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-05-panel-03-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-07-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-07-panel-01-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-07-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-07-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-07-panel-05-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-07-panel-05-v02.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-65.json; agents-build-log.md (one append); /private/tmp/claude-501/ch12-fix-r1/ (source crops, 1024 px crops, raw outputs, recovered crops, masks, composites and retained first-paste files); /Users/roshanvenugopal/.codex/generated_images/01a0ff2c-6d92-79a1-91a6-852e0fff1168/ (14 original imagegen PNGs)
+### Diff summary: Confirmed 14 entries with json.load: 11 generate and 3 region edit. 14 built-in imagegen calls with verbatim prompt_file text, exact ordered generation references and only the corresponding 1024 px crop for each edit. 14 captures at v02; 0 final entry failures, 0 moderation refusals, 0 generation retries and 0 moderation retries. One mechanical capture error on page-07-panel-05: exit 127, Python executable path omitted codex-runtimes. Corrected to the supplied executable and the one capture retry succeeded. One output orientation deviation: page-01-panel-02 returned portrait 1145 x 1374 despite the default landscape request; captured unchanged. All 3 region calls returned full scenes instead of crops. Source crop boxes: page-08-panel-01 [734,163,772,201], page-08-panel-02 [469,151,499,181], page-08-panel-05 [582,84,616,118], sized 38, 30 and 34 px square and upscaled to 1024 px with LANCZOS. Recovered raw-output boxes: page-08-panel-01 [861,198,899,236], mirrored to align the opposite-facing ear; page-08-panel-02 initial [368,260,398,290], tightened to [372,262,394,284] to exclude a dark facial edge; page-08-panel-05 [630,99,664,133]. The region_crops lists contain the source box first, followed by the raw-output recovery boxes in attempt order. Solid-centre cosine feather masks used 4, 3 and 3.4 px initially. Two paste retries widened page-08-panel-02 to 5 px and page-08-panel-05 to 7.5 px; first pastes and masks retained. Required full-size region checks: all 3 hanging drops are gone, replacement ornaments sit on the lobes, and no hard paste seams remain after feathering. Page-08-panel-02 ornament has a ring-like centre rather than a solid dot. Decoded pixel bytes outside each source crop are identical to the source. All 14 capture files, candidate paths, hashes and prompt hashes reconciled.
+### Recommendations / Next steps: Capture complete; general visual_review remains pending. No selection, builds, git commands or Chapter 10 or 11 changes performed.
+
+## [AGENT: Claude] [2026-10-03T01:09Z]
+### Action: Author away (go-ahead on recommendations). Ch5 page split built; ch6 throne-to-mat redraws and fixes built; ch9 to ch12 generated on prompt v2 with selection, corrections and zones; ch10 to 12 bible applied after independent review
+### Files changed: CONTINUITY.md (ch10-12 span rows; backup pipeline/review/CONTINUITY-pre-ch10-12-2026-10-02.md); scripts/CHAPTER-05-SCRIPT.md (page 8 split; 9.2 about half the page), CHAPTER-05-CAST-OVERRIDES.json, CHAPTER-06-SCRIPT.md (9.4 full width), CHAPTER-09-SCRIPT.md (9.2 seated, 1.5 riders' point of view), CHAPTER-09/10/11/12-ART-DIRECTION.json, CHAPTER-10/11/12-CAST-OVERRIDES.json, CHAPTER-10-SCRIPT.md (8.4 sword in sash), CHAPTER-11-SCRIPT.md (21.3 inner left forearm); pipeline run_chapter.py (import-frame; capture accepts v2 corrections set in before the final SETTING paragraph) with tests; packages chapters/ch05-split, ch09, ch10, ch11, ch12 (prepared, generated, selected); review-sheets: author list (now 46 items), trim sheet, ch10-12 applied review page
+### Diff summary: ch5-split r2 built (9 pages, all fit, 309.6 ppi; 9.2 outpainted and retouched, 5.3 gaze edit, 5.5 and 7.3 face zones). ch6 r6 built (mat in all throne panels except 9.5, which keeps the throne until the author trims Ramayyan's 9.5 lines; 2.4 crop and 5.4 tail fixed). Ch9: 53 of 53 picked after two correction rounds (ear drops, arm side and two others accepted with faults). Ch10 20 of 45, ch11 65 of 102, ch12 37 of 40 picked so far; correction batches 64, 66, 67 running. Ear drop from the nagoji-v2 sheet is the main rejection cause; region edits on a tight ear crop fix most. Suite 536 OK (2 skipped).
+### Recommendations / Next steps: finish ch10 to 12 correction rounds (one more, then accept with faults), build ch9 to ch12, review, commit data; author decisions pending: trims (ch7 p12, ch8 p11, ch6 9.5), ch9 11.3/11.4 flop, ch9 horse.
+
+
+## [AGENT: Codex] [2026-10-03T01:18:16Z]
+### Action: Generated and captured all 3 Chapter 12 LEAN-BATCH-67 entries in manifest order, including 2 earlobe region composites.
+### Files changed: output/comic-v15-full-redo/chapters/ch12/frames/page-04-panel-01-v03.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-04-panel-01-v03.json; output/comic-v15-full-redo/chapters/ch12/frames/page-05-panel-03-v03.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-05-panel-03-v03.json; output/comic-v15-full-redo/chapters/ch12/frames/page-02-panel-05-v03.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-02-panel-05-v03.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-67.json; /private/tmp/claude-501/ch12-fix-r2/ (source crops, upscaled crops, recovered patches, masks, retained paste attempts, composites and local seam-check images); /Users/roshanvenugopal/.codex/generated_images/01a0ff4d-f353-77b1-a6da-e81a58453814/ (3 original imagegen PNGs); agents-build-log.md (one append)
+### Diff summary: 3 built-in imagegen calls with verbatim prompts; 2 edits attached only their own 1024 x 1024 LANCZOS crop; 1 generation attached the single listed reference. 3 v03 captures; 0 execution errors; 0 moderation refusals or retries; 0 generation retries; 0 capture retries. Both edit calls returned full scenes, with matching ear regions recovered before compositing. Source boxes: page-04-panel-01 [289,105,317,133], page-05-panel-03 [1301,89,1329,117], each 28 x 28. Recovered output boxes: page-04-panel-01 [451,301,488,338], page-05-panel-03 [96,189,136,229]. Two paste retries widened solid-centre cosine feathering from 2.8 to 6 pixels; initial pastes and masks retained. Pixel bytes outside both crop rectangles are identical to their sources. Required local drop checks: page-04-panel-01 hanging ball gone; page-05-panel-03 hanging hoop remains, so removal is incomplete. No hard paste seams remain after the wider feather. page-02-panel-05 generated at 2172 x 724, exactly 3:1. All candidate files, image hashes, prompt hashes and pending visual-review metadata reconciled.
+### Recommendations / Next steps: Captures are logged; page-05-panel-03 still needs drop removal. General visual review remains pending; no selection, builds, git commands or deletions performed.
+
+## [AGENT: Codex] [2026-10-03T01:24:01Z]
+### Action: Generated and captured all 25 Chapter 10 LEAN-BATCH-64 entries in manifest order, including 9 earlobe region composites.
+### Files changed: output/comic-v15-full-redo/chapters/ch10/frames/ (25 new v02 PNGs); output/comic-v15-full-redo/chapters/ch10/candidates/ (25 new v02 JSON records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-64.json; /private/tmp/claude-501/ch10-fix-r1/ (97 PNGs: source crops, upscaled crops, raw outputs, recovered patches, masks, retained initial pastes, composites and crop magnifications); /Users/roshanvenugopal/.codex/generated_images/01a0ff2b-e0d0-7200-91b1-48fafc2bf20c/ (27 original generated PNGs); agents-build-log.md (one append).
+### Diff summary: json.load confirmed 25 entries: 15 generate, 1 full-image edit and 9 region edits. All 25 captured at v02, with 0 execution errors, 0 moderation refusals, 0 moderation retries, 0 generation retries and 0 capture retries. Made 27 built-in imagegen calls with prompts exactly as read: 15 generations with exactly the ordered manifest references, 1 full-image edit with only edit_source, and 11 separate ear edits with only their own 1024 x 1024 LANCZOS crop. Page-07-panel-04 used 3 crops, one per band. Ten ear calls returned full scenes; their corresponding ear areas were recovered, resized and pasted into the original source. One returned an edited crop directly. All source crop boxes are recorded in the generation log. Initial solid-centre cosine masks feathered over 10 percent of the square width. Eight composites were repasted with 20 percent feather after initial seams, covering 10 ear patches; initial composites, masks and patches were retained. One unused page-06-panel-03 preparation crop missed the ear and was corrected before imagegen; both unused crop files were retained. Required local full-size checks performed. Drop remains on page-01-panel-02 and page-04-panel-01, and an elongated gold ornament remains in the left band of page-07-panel-04. The middle and right montage bands have no separate drop, with the right stud indistinct. No drop remains on page-01-panel-05, page-03-panel-02, page-06-panel-01, page-06-panel-03, page-07-panel-05 or page-09-panel-03. Ear shape, adjacent hair and local skin tone vary within some recovered crop boxes; wider feathering reduces their boundaries without further generation. All 9 composites preserve decoded pixel bytes outside their crop boxes exactly. Verified all 25 candidate image hashes, prompt hashes, captured file bytes and pending visual_review metadata. Orientation deviation: page-09-panel-04 returned 1024 x 1536 portrait despite the landscape default and no FRAME SHAPE line; retained without regeneration. All other captures are 1536 x 1024.
+### Recommendations / Next steps: Captures are complete; retain the 3 incomplete ear corrections and the portrait deviation for later handling. General visual review remains pending; no selection, builds, git commands or deletions performed.
+
+## [AGENT: Codex] [2026-10-03T01:42:46Z]
+### Action: Generated and captured all 37 Chapter 11 LEAN-BATCH-66 entries in manifest order, including one earlobe region composite.
+### Files changed: output/comic-v15-full-redo/chapters/ch11/frames/ (37 new v02 PNGs); output/comic-v15-full-redo/chapters/ch11/candidates/ (37 new v02 JSON records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-66.json; /private/tmp/claude-501/ch11-fix-r1/page-04-panel-01-crop.png; /private/tmp/claude-501/ch11-fix-r1/page-04-panel-01-crop-1024.png; /private/tmp/claude-501/ch11-fix-r1/page-04-panel-01-mask.png; /private/tmp/claude-501/ch11-fix-r1/page-04-panel-01-composite.png; /Users/roshanvenugopal/.codex/generated_images/01a0ff44-dac9-7590-8e08-69754553d1f3/ (37 original imagegen PNGs); agents-build-log.md (one append).
+### Diff summary: json.load confirmed 37 entries: 36 generate and 1 region edit. Made 37 built-in imagegen calls with verbatim prompt_file text, exactly the ordered manifest references for generation and only the upscaled ear crop for the edit. All 37 captured at v02; 0 final entry failures, 0 generation errors, 0 moderation refusals, 0 rate limits, 0 generation retries, 0 moderation retries, 0 capture errors, 0 capture retries and 0 paste retries. Source crop [595,204,633,242] is 38 x 38 pixels, excludes the eye, eyebrow, moustache and mouth, and was upscaled to 1024 x 1024 with LANCZOS. The edit returned a crop directly, with no scene recovery needed; raw output is /Users/roshanvenugopal/.codex/generated_images/01a0ff44-dac9-7590-8e08-69754553d1f3/exec-207fb69a-6e68-48cf-8809-d1fc475da694.png. Resized with LANCZOS and pasted through a solid-centre cosine mask with 3.8 pixel feather. Required composite seam check found no hard seam; the hanging bead is removed and a small gold stud remains on the lobe. All decoded pixel bytes outside the crop are identical to the source. Four aspect-ratio deviations retained without regeneration: page-02-panel-01 1145 x 1374; page-13-panel-02 1374 x 1145; page-18-panel-02 1254 x 1254; page-21-panel-03 1312 x 1199. The specified final strip page-21-panel-05 is 2172 x 724; other captures are 1536 x 1024. All 37 candidate paths, image hashes, generated-file bytes and prompt hashes reconciled; all visual_review fields remain pending.
+### Recommendations / Next steps: Capture complete; retain the four aspect-ratio deviations for later handling. No general visual review, selection, builds, git commands, deletions or Chapter 10 or 12 changes performed.
+
+## [AGENT: Codex] [2026-10-03T02:01:06Z]
+### Action: Generated and captured all 8 Chapter 10 LEAN-BATCH-68 entries in manifest order, including 4 ear composites and 1 forehead composite.
+### Files changed: output/comic-v15-full-redo/chapters/ch10/frames/ (8 new v03 PNGs); output/comic-v15-full-redo/chapters/ch10/candidates/ (8 new v03 JSON records); output/comic-v15-full-redo/chapters/ch10/prompts/page-09-panel-04-fix-r2-moderated.txt; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-68.json; /private/tmp/claude-501/ch10-fix-r2/ (47 PNGs: crops, upscaled crops, masks, retained paste attempts, composites and local seam-check images); /Users/roshanvenugopal/.codex/generated_images/01a0ff69-e47b-70a2-ba7c-1165de6a0326/ (8 original generated PNGs); agents-build-log.md (one append).
+### Diff summary: json.load confirmed 8 entries: 1 generate, 2 full-image edits and 5 region edits. 9 built-in imagegen calls: 8 initial calls with verbatim prompts and exactly the requested attachments, followed by 1 authorized moderated retry for page-09-panel-04 after an HTTP 400 moderation_blocked output-stage self-harm refusal, request ID 9ab31d83-4eca-4fe7-aef9-02d0e337a9a1. The moderated prompt starts with the complete prepared prompt and ends with its exact SETTING paragraph; capture used --moderated. All 8 captured as v03 at 1536 x 1024 RGB; 0 terminal failures, 0 rate limits, 0 capture errors or retries. Region crops were upscaled with LANCZOS to 1024 x 1024 for ears and 1088 x 1024 for the forehead; all 5 calls returned full scenes. Recovered output boxes: page-01-panel-02 [381,173,413,205]; page-03-panel-01 [979,330,1001,352]; page-05-panel-02 [785,243,825,283]; page-08-panel-04 [139,398,163,422]; page-08-panel-05 [440,259,474,291]. Recovered ear patches for page-03-panel-01 and page-05-panel-02 were mirrored horizontally to match source orientation. Five paste retries widened solid-centre cosine feathering from 10 to 25 percent, retaining every initial paste. All 5 composites preserve decoded pixel bytes outside their logged source crop boxes exactly; Varma is outside the forehead crop and unchanged. Candidate image hashes, prompt hashes, captured file bytes and pending visual_review metadata verified.
+### Recommendations / Next steps: Generation and capture are complete; visual review remains pending. No selection, builds, git commands, deletions or overwrites performed.
+
+
+## [AGENT: Codex] [2026-10-03T02:21:11Z]
+### Action: Generated and captured all 13 Chapter 11 LEAN-BATCH-69 entries in manifest order, including 4 earlobe region composites.
+### Files changed: output/comic-v15-full-redo/chapters/ch11/frames/ (13 new v03 PNGs); output/comic-v15-full-redo/chapters/ch11/candidates/ (13 new v03 JSON records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-69.json; /private/tmp/claude-501/ch11-fix-r2/ (source crops, 1024 px crops, recovered patches, masks, retained initial and widened paste attempts, local seam-check images and 4 final composites); /Users/roshanvenugopal/.codex/generated_images/01a0ff79-62cf-7af0-bedc-2516e3ab635d/ (13 original imagegen PNGs); agents-build-log.md (one append).
+### Diff summary: json.load confirmed 13 entries: 1 generate, 8 full-image edits and 4 ear region edits. Made 13 built-in imagegen calls with verbatim prompt_file text. Generation attached no references, full-image edits attached only edit_source, and each region edit attached only its 1024 x 1024 LANCZOS crop. All 13 captured at v03; 0 execution errors, 0 failed captures, 0 moderation refusals, 0 rate limits, 0 generation retries, 0 moderation retries and 0 capture retries. All 4 region calls returned full scenes; corresponding ear regions were recovered and resized before compositing. Source boxes: page-02-panel-05 [430,202,462,234], page-12-panel-05 [330,111,352,133], page-18-panel-01 [526,148,552,174], page-19-panel-03 [1032,165,1064,197]. Raw-output recovery boxes in the same order: [897,342,939,384], [578,178,604,204], [444,292,470,318], [677,342,709,374]. The first two recovered patches were mirrored to match the source-facing direction. Page-12-panel-05 changes only the far-ear box; its near ear is unchanged. Solid-centre cosine masks initially feathered 10 percent of crop width. Four paste retries widened the feather to 8, 6.6, 6.5 and 8 pixels respectively after local seam checks; initial paste attempts retained. The widened pastes reduce the hard boundaries, with local ear, hair and skin appearance varying within the crop. Decoded pixel bytes outside all 4 crop rectangles are identical to their sources. All 12 edit captures are 1536 x 1024. One aspect-ratio deviation: page-21-panel-03 generated at 1024 x 1536 portrait instead of approximately 3:2 landscape, retained unchanged under the one-call limit and recorded in its error field. All 13 candidate records, image hashes, captured file bytes and verbatim prompt hashes reconciled; visual_review remains pending.
+### Recommendations / Next steps: Generation and capture are complete; retain the page-21-panel-03 aspect-ratio deviation for later handling. No general visual review, selection, builds, git commands, deletions or Chapter 10 changes performed.
+
+## [AGENT: Codex] [2026-10-03T03:13:05Z]
+### Action: Parallelised probed structure fitting by page in the specified worktree and completed tests-first and real chapter 6 equivalence verification.
+### Files changed: /private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/run_chapter.py; /private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/layout_fit.py; /private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py; /private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/README.md; /private/tmp/claude-501/fit-par/ (retained originals, test logs, benchmark harness, layouts, reports, timings, input hashes, comparison, diffs and handoff); /Users/roshanvenugopal/Documents/github/nagoji/agents-build-log.md (one append).
+### Diff summary: Added a module-level spawn worker with explicit UNPAINTED state, ordered page assembly, summed planner calls and scoped --jobs CLI defaulting to CPU count minus two (at least one); jobs <= 1 preserves the in-process path. Three new tests confirmed failing before implementation, then passed: multi-page serial/parallel report equality in painted and unpainted modes, worker AutoGeometryError propagation, and CLI scope refusal. Full suite: 539 tests in 148.786 seconds, OK with 2 skipped. Syntax, added-text checks and independent review passed. Real chapter 6 layouts are byte-identical (SHA256 28fe15e4b3c66b12caeacdc7e198eddc545e6b6a10f139414917dc884ddf0254); all 10 page_rows match existing LAYOUT-fitted-s7.json. Reports differ only at layout_out: /private/tmp/claude-501/fit-par/ch06-serial.json versus /private/tmp/claude-501/fit-par/ch06-parallel.json; after that path normalization they are byte-identical. Both runs made 2565 planner calls and exited 0 with empty stderr; all 245 input hashes are unchanged. Wall times: serial --jobs 1 2769.651713 seconds; parallel --jobs 8 850.327082 seconds; 3.2572x speedup. The saved wrapper executes worktree code with the main-tree V15 input root to satisfy existing package validation; outputs are confined to fit-par.
+### Recommendations / Next steps: Ready for worktree review; no git commands, commits, deletions or main-tree pipeline edits were performed.
+
+## [AGENT: Claude] [2026-10-04T21:17Z]
+### Action: Phase 2 started on the author GO (parts that do not need the touchstones): Codex builds tools/gate.py test-first; Sonnet drafts STYLE_SHEET_P.md and VOICE_BIBLE_P.md in parallel; Claude verifies each
+### Files changed: book0_prequel/review/prompts/gate_codex_build.md (new); agents-build-log.md append only.
+### Diff summary: gate spec fixed from PLAN 7.3: 21 checks, limits in tools/gate_limits.json, K15 list in tools/gate_k15.txt, waivers in notes/gate_waivers.json, versioned reports in review/scanner/, exit 0/1/2; scenes split at a line \"* * *\"; chapters manuscript/chNN_slug.md, prologue ch00.
+### Recommendations / Next steps: verify Codex writes only the four tool files; run the suite; reviewer pass; then fold the two drafts after checking them against the plan.
+
+## [AGENT: Claude] [2026-10-04T21:34Z]
+### Action: tools/gate.py built by Codex (codex exec -m gpt-6-astra, workspace-write; the config default gpt-6.1-sol is rejected for this account, so the model is passed per call) test-first; verified by Claude; sent to the reviewer agent
+### Files changed: book0_prequel/tools/gate.py, test_gate.py, gate_limits.json, gate_k15.txt (new, by Codex; marker check shows no other file touched); book0_prequel/review/codex/gate_build_codex.md and .log; agents-build-log.md append only.
+### Diff summary: 21 checks from PLAN 7.3; limits in JSON; K15 regex list; waivers (approved_by author, reason required); versioned reports chNN_vK.md/.json plus scanner .scan.json/.scan.md in review/scanner; exit 0/1/2. Tests: first run 58 errors (no gate.py); final 88 passed (71 gate + 17 md_to_html). Claude re-ran the suite (88 OK) and measured gate.py statement coverage at 98.7% with stdlib trace; a scratch trial on a copied chapter matched the scanner counts (corrections 3 narration + 2 dialogue = 5; one-sentence share 36.1; kickers 3).
+### Recommendations / Next steps: reviewer findings to fix (known: empty report left if the scanner fails; python3 vs sys.executable); then wire the gate into the drafting loop in Phase 3.
+
+## [AGENT: Codex] [2026-10-04T21:40:21Z]
+### Action: Restored page-parallel probed structure fitting in the specified worktree using tests first and verified chapter 6 equivalence.
+### Files changed: /private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/layout_fit.py; /private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/run_chapter.py; /private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/test_run_chapter.py; /private/tmp/claude-501/nagoji-v15-claude-worktree/output/comic-v15-full-redo/pipeline/README.md; /private/tmp/claude-501/fit-par2/ (backups, historical test fixtures, fixture loader, test logs, verification wrapper, layout, report, hashes, timing and comparison); /Users/roshanvenugopal/Documents/github/nagoji/agents-build-log.md (one append).
+### Diff summary: Added a module-level spawn worker with explicit UNPAINTED, a page-local SlotProbe, ordered shared assembly and summed planner calls; jobs <= 1 retains the serial path. Scoped --jobs to fit-layout --structures --probe with CPU count minus two default, at least one. Three new tests were observed failing before implementation and then passed: serial/parallel page_rows and report equality in painted and unpainted modes including planner calls, worker AutoGeometryError propagation, and CLI scope/default checks. Final targeted run: 3 tests in 7.090 seconds, OK. Full suite: 539 tests in 182.348 seconds, OK with 2 skipped. The recreated worktree lacked three historical compositor fixtures; byte-preserved main-tree copies and a scratch-only loader supplied those exact paths for the passing unchanged suite. Syntax, added-text checks and independent review passed. Chapter 6 --jobs 10: all 10 page_rows and page order exactly match LAYOUT-fitted-s7.json; SHA256 equals 28fe15e4b3c66b12caeacdc7e198eddc545e6b6a10f139414917dc884ddf0254; planner_calls 2565; wall time 1056.884627 seconds. Exit 0, empty stderr, all 383 input hashes unchanged. All four source fingerprints still match the tested files.
+### Recommendations / Next steps: Review the four worktree files; use the saved fixture loader for full-suite reruns until the three historical test fixtures are restored.
+
+## [AGENT: Claude] [2026-10-04T22:15Z]
+### Action: Code review of book0_prequel/tools/gate.py, test_gate.py, gate_limits.json, gate_k15.txt against the spec in gate_codex_build.md and PLAN.md section 7.3. Reviewer pass only; no files changed.
+### Files changed: agents-build-log.md (append only)
+### Diff summary: 21 checks verified correct against spec; two pre-noted issues confirmed; four minor test gaps found; no blockers; verdict APPROVED WITH CHANGES.
+### Recommendations / Next steps:
+1. Fix the orphan-file issue (gate.py:431): wrap report.open("x") in a try/finally that unlinks the empty file if the scanner fails before report.write(). Then update test_scanner_failure_never_returns_pass to assert ch14_v1.md is also absent.
+2. Replace "python3" with sys.executable at gate.py:432 (sys already imported).
+3. Add two missing test cases (ending_k15 in pure-narration last paragraph; one_sentence_share with zero narration paragraphs).
+
+## [AGENT: Claude] [2026-10-04T21:54Z]
+### Action: Reviewer findings on tools/gate.py fixed by Claude, test-first
+### Files changed: book0_prequel/tools/gate.py (scanner launched with sys.executable; a failed run removes the files it created so the version number is reused), test_gate.py (4 new tests: no orphan report on scanner failure or missing scanner output, version reuse after a failed run, sys.executable, ending_k15 in a pure-narration last paragraph, one_sentence_share in an all-dialogue chapter; the pinned interpreter in test_exact_scanner_subprocess_once updated); agents-build-log.md append only.
+### Diff summary: red: 4 failures as expected; green: 92 tests OK (75 gate + 17 md_to_html); gate.py statement coverage 98.7%.
+### Recommendations / Next steps: gate ready for the Phase 3 loop.
+
+## [AGENT: Claude] [2026-10-04T22:01Z]
+### Action: STYLE_SHEET_P.md (Sonnet, 5,924 words) and VOICE_BIBLE_P.md (Sonnet, 6,754 words) drafted and checked by Claude; HTML rendered for the author; de Lannoy findings verified and added
+### Files changed: book0_prequel/STYLE_SHEET_P.md and .html, VOICE_BIBLE_P.md and .html (new); research/fact_table.md (F-057 revised: 11:30 pm arrival on horseback; F-110 the king rode by 1739; F-121 illness from 1747, two servants, convinced he is punished; F-122 chaver and the rice of accession; F-123 the penance reading); PLAN.md (Chs 14, 19, 22, 29, 30; review log) and PLAN.html; agents-build-log.md append only.
+### Diff summary: Both drafts: 0 seven-word phrases shared with 70 to 71 earlier-book files; 0 dashes; limits table identical to PLAN 7.3; K15 and K16 verbatim. Style sheet leaves AD-1 to AD-9 for the author. Voice bible marks thin points (telling room, his manner of speech, languages, address to the heir, food rules).
+### Recommendations / Next steps: author reviews both drafts and the nine ADs; touchstones; accession line signature; then cards for the prologue, Part One and Chs 14 and 29 (Phase 2 remainder).
+
+## [AGENT: Codex] [2026-10-05T16:04:51Z]
+### Action: Generated and captured LEAN-BATCH-70 and LEAN-BATCH-71 in manifest order with verbatim prompts and only the specified image inputs.
+### Files changed: output/comic-v15-full-redo/chapters/ch09-split/frames/page-01-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-01-panel-01-v02.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-01-panel-02-v03.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-01-panel-02-v03.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-01-panel-03-v02.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-01-panel-03-v02.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-02-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-02-panel-01-v02.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-02-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-02-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-02-panel-04-v02.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-02-panel-04-v02.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-09-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-09-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-12-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-12-panel-01-v02.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-04-panel-03-v02.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-04-panel-03-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-06-panel-04-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-06-panel-04-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-02-panel-02-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-02-panel-02-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-05-panel-05-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-05-panel-05-v02.json; output/comic-v15-full-redo/chapters/ch12/frames/page-05-panel-03-v04.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-05-panel-03-v04.json; output/comic-v15-full-redo/chapters/ch12/frames/page-08-panel-05-v03.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-08-panel-05-v03.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-70.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-71.json; agents-build-log.md (one append).
+### Diff summary: json.load confirmed 9 Chapter 9 edits in sibling package chapters/ch09-split and 5 Chapter 12 entries in chapters/ch12 (3 edits, 2 generates). Exactly 14 built-in imagegen calls produced 14 captures: Batch 70 has 9 captured; Batch 71 has 4 captured and 1 captured_with_issues. All 12 edit dimensions match their source dimensions. Chapter 12 page-05-panel-03 is 1536x1024; page-08-panel-05-v03 returned 2172x724 instead of the requested 1536x1024 and is preserved unchanged, with the size mismatch recorded in its error field. Zero moderation refusals, zero rate limits, zero capture failures, zero imagegen retries, zero capture retries. One in-memory orchestration helper SyntaxError about top-level await was corrected before any affected capture ran; no extra imagegen call or file write resulted. Both JSON logs contain one object per entry and reconcile to all candidate records, generated file bytes, image hashes and verbatim prompt hashes. All candidates retain visual_review: pending. No visual review, selection, builds, git commands or deletions performed.
+### Recommendations / Next steps: Generation and capture are complete; retain the page-08-panel-05 size deviation for later authorized handling and leave every candidate pending visual review.
+
+## [AGENT: Codex] [2026-10-05T16:23:55Z]
+### Action: Generated and captured LEAN-BATCH-72 and LEAN-BATCH-73 with verbatim prompts, including one horse-face region composite.
+### Files changed: output/comic-v15-full-redo/chapters/ch12/frames/page-05-panel-03-v05.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-05-panel-03-v05.json; output/comic-v15-full-redo/chapters/ch12/frames/page-08-panel-05-v04.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-08-panel-05-v04.json; output/comic-v15-full-redo/chapters/ch09-split/frames/page-01-panel-02-v04.png; output/comic-v15-full-redo/chapters/ch09-split/candidates/page-01-panel-02-v04.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-72.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-73.json; /private/tmp/claude-501/fixrv2/page-01-panel-02-horse-face-source-crop.png; /private/tmp/claude-501/fixrv2/page-01-panel-02-horse-face-crop-1024.png; /private/tmp/claude-501/fixrv2/page-01-panel-02-composite.png; /Users/roshanvenugopal/.codex/generated_images/01a10cd9-5254-78b3-991d-4a62e272d797/exec-de878cdc-c7ae-4b77-9c98-fa607da35367.png; /Users/roshanvenugopal/.codex/generated_images/01a10cd9-5254-78b3-991d-4a62e272d797/exec-12ea1a9d-86ae-46c8-bc87-3370cebf4267.png; /Users/roshanvenugopal/.codex/generated_images/01a10cd9-5254-78b3-991d-4a62e272d797/exec-e5be3cfa-ccf0-44f2-a9d7-3be456572c63.png; agents-build-log.md (one append).
+### Diff summary: 3 entries, 3 built-in imagegen calls, 3 captures. Batch 72: Chapter 12 page-05-panel-03 v05 at 1536x1024 and page-08-panel-05 v04 at 2172x724, both retaining their source shape and attaching only edit_source. Batch 73: Chapter 9 page-01-panel-02 v04 at 1536x1024 in sibling package chapters/ch09-split. The horse-head source crop [440,298,790,648] excludes all rider faces, is 350x350, and was upscaled with LANCZOS to 1024x1024 as the sole imagegen attachment. Imagegen returned a 1254x1254 crop, with no full-scene recovery needed. Resized to 350x350 with LANCZOS and pasted through a solid-centre cosine mask with 35 px feather, 10 percent of the crop width. Every decoded pixel byte outside the crop is unchanged. Zero execution errors, moderation refusals, rate limits, capture failures, generation retries or capture retries. Both JSON lists reconcile to their candidates, generated bytes, image hashes, prompt hashes and source dimensions. All 3 candidates retain visual_review: pending. No review, selection, builds, git commands, deletions or overwrites performed.
+### Recommendations / Next steps: Generation, compositing and capture are complete; leave all three candidates pending visual review.
+
+## [AGENT: Codex] [2026-10-05T22:13:05Z]
+### Action: Added opt-in keep-zone coverage limits to layout probing and coverage audit output to drawn geometry.
+### Files changed: worktree pipeline/run_chapter.py; worktree pipeline/test_run_chapter.py; worktree pipeline/README.md; worktree pipeline/keep-max-audit-20261005T220636Z/ (backups, test logs and verification); agents-build-log.md (one append).
+### Diff summary: Added pure keep_coverage, optional keep_max through serial and parallel probes, scoped --keep-max validation and metadata, and auto-geometry --draw keep_coverage. Ten new tests cover intersections, clipping, rejection, defaults, CLI, audit output and serial/parallel equality. Tests failed before implementation and passed afterward. Full suite: 549 run, 547 passed, 2 skipped, zero failures or errors in 140.236s. Default ratio, probe and structures outputs match the saved baseline. Placement is unchanged. The suite used the permitted executor with real process pools; outside-sandbox execution was unavailable under session policy. No git commands or commits.
+### Recommendations / Next steps: Use --keep-max with --probe for coverage limits; rerun the same suite outside the sandbox if that execution boundary remains required.
+
+## [AGENT: Codex] [2026-10-05T22:58:32Z]
+### Action: Outpainted, composited and captured LEAN-BATCH-74 and LEAN-BATCH-75 in manifest order with verbatim prompts and only each prepared canvas attached.
+### Files changed: output/comic-v15-full-redo/chapters/ch10/frames/page-06-panel-03-v03.png; output/comic-v15-full-redo/chapters/ch10/candidates/page-06-panel-03-v03.json; /private/tmp/claude-501/outpaint-k1/page-06-panel-03-canvas.png; /private/tmp/claude-501/outpaint-k1/page-06-panel-03.png; /Users/roshanvenugopal/.codex/generated_images/01a10e42-3995-73a0-a15e-7719e949aadd/exec-fb71ea27-b1b4-4fbb-a13a-92d824a2c928.png; output/comic-v15-full-redo/chapters/ch10/frames/page-08-panel-05-v04.png; output/comic-v15-full-redo/chapters/ch10/candidates/page-08-panel-05-v04.json; /private/tmp/claude-501/outpaint-k1/page-08-panel-05-canvas.png; /private/tmp/claude-501/outpaint-k1/page-08-panel-05.png; /Users/roshanvenugopal/.codex/generated_images/01a10e42-3995-73a0-a15e-7719e949aadd/exec-53f3f3c0-a89e-41c7-ad10-18585234978c.png; output/comic-v15-full-redo/chapters/ch12/frames/page-06-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch12/candidates/page-06-panel-01-v02.json; /private/tmp/claude-501/outpaint-k1/page-06-panel-01-canvas.png; /private/tmp/claude-501/outpaint-k1/page-06-panel-01.png; /Users/roshanvenugopal/.codex/generated_images/01a10e42-3995-73a0-a15e-7719e949aadd/exec-2bcbd852-3ea9-43e7-a452-af642db5b661.png; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-74.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-75.json; agents-build-log.md (one append).
+### Diff summary: 3 entries, 3 built-in imagegen calls, 3 captures. Batch 74: Chapter 10 page-06-panel-03 v03 and page-08-panel-05 v04. Batch 75: Chapter 12 page-06-panel-01 v02. Each RGB source is 1536x1024, pasted at (0,320) on a 1536x1344 mid-grey canvas. All 3 tool outputs were 1341x1173 and were resized with LANCZOS to 1536x1344. Original art was restored through a mask solid inside and cosine-feathered only over its top 24 pixels. For all 3 saved composites and captured frames, decoded pixels at y >= 344 exactly equal original pixels at source y >= 24; maximum pixel difference is 0. All final images are RGB 1536x1344. Both generation logs are JSON lists, with 2 and 1 entries, and reconcile to candidate records, image bytes, image hashes, exact prompt hashes and dimensions. All 11 tracked input hashes are unchanged. Zero errors, moderation refusals, rate limits, capture failures, generation retries or capture retries. All candidates retain visual_review: pending. No review, selection, builds, git commands, deletions or overwrites performed.
+### Recommendations / Next steps: Outpainting, compositing and capture are complete; leave all three candidates pending visual review.
+
+## [AGENT: Claude] [2026-10-07T14:08Z]
+### Action: V15 page splits for chapters 9, 10 and 11 (approved policy: tighten keep zones, then split pages that still cannot letter under the 0.34 keep tolerance); chapter 12 r3 built; chapters 13 to 28 art direction collected, 10 chapters prepared and handed to Codex for first-pass generation.
+### Files changed: output/comic-v15-full-redo/scripts/CHAPTER-09/10/11-{SCRIPT.md,ART-DIRECTION.json,CAST-OVERRIDES.json} (backups *.backup-pre-ch9-split-2026-10-07, *.backup-pre-ch10-split2-2026-10-07, *.backup-pre-ch11-split-2026-10-07); CONTINUITY.md page anchors for ch9, ch10 and ch11 only (backups pipeline/review/CONTINUITY-pre-ch9-split-2026-10-07.md, -pre-ch10-split2-, -pre-ch11-split-); new packages chapters/ch09-split2, ch10-split2, ch11-split (frames imported, decisions/FACES/KEEP re-keyed); frozen sources chapters/ch10-split/SCRIPT-SOURCE.md and chapters/ch11/SCRIPT-SOURCE.md; chapters/ch10-split/review/KEEP-s2.json and review-sheets/TIGHTEN-KEEP-ch10-2026-10-07.json; chapters/ch12-split/pdf/...-Chapter-12-r3.pdf; packages chapters/ch13, ch14, ch16, ch18, ch19, ch21, ch23, ch25, ch26, ch27 (prepare --allow-draft); review-sheets/LEAN-BATCH-76..90.json; review-sheets/CONTINUITY-PROPOSAL-span-rows-ch15-28-2026-10-07.{md,html}.
+### Diff summary: Splits (original numbering): ch9 pages 2 at 2.4, 7 at 7.4, 12 at 12.3 (12 to 15 pages); ch10 pages 2 at 2.4, 3 at 3.4, 4 at 4.3 (10 to 13 pages); ch11 pages 10 at 10.4, 11 at 11.4 (21 to 23 pages). Lettering identical in every split (checked panel by panel); descriptions differ only by renumbered panel labels; end-matter notes fixed by hand where the renumbering read wrong (ch9 page-count and page-turn notes, ch11 page-count and Portuguese notes). CONTINUITY changes are mechanical anchor renumbering only. Chapter 9 pages 6 and 8 and chapter 11 page 13 fit without splitting after the solver tried more height spreads and a 1 pt refinement. ch12 r3: 9 pages, min 315 PPI, all keep overlaps within 0.34. Six chapters (15, 17, 20, 22, 24, 28) are blocked by CONTINUITY rows the prompt linter rejects; span-row proposal written and tested on a scratch copy (all six prepare); not applied, needs author approval.
+### Recommendations / Next steps: Build and review ch9 r1, ch10, ch11; re-solve and rebuild ch5 and ch6 under the keep tolerance (both cover key art up to 100 percent); solve ch7 and ch8; review Codex first-pass art for the ten new chapters; final folios once all splits are known.
+
+## [AGENT: Codex] [2026-10-07T14:22:44Z]
+### Action: Region-edited, composited and captured LEAN-BATCH-91 for Chapter 12 in chapters/ch12-split2.
+### Files changed: output/comic-v15-full-redo/chapters/ch12-split2/frames/page-02-panel-01-v02.png; output/comic-v15-full-redo/chapters/ch12-split2/candidates/page-02-panel-01-v02.json; /private/tmp/claude-501/fixrv3/page-02-panel-01-crop-1024.png; /private/tmp/claude-501/fixrv3/page-02-panel-01-composite.png; /Users/roshanvenugopal/.codex/generated_images/01a116b7-a9d1-7f60-af85-43c62ca4ccb4/exec-7ea51b47-edfa-446a-a29f-d1f6f5b18aa7.png; output/comic-v15-full-redo/chapters/ch12-split2/frames/page-07-panel-04-v02.png; output/comic-v15-full-redo/chapters/ch12-split2/candidates/page-07-panel-04-v02.json; /private/tmp/claude-501/fixrv3/page-07-panel-04-crop-2048.png; /private/tmp/claude-501/fixrv3/page-07-panel-04-composite.png; /Users/roshanvenugopal/.codex/generated_images/01a116b7-a9d1-7f60-af85-43c62ca4ccb4/exec-e7eee609-2886-44ce-9449-b79be8fe74d3.png; output/comic-v15-full-redo/chapters/ch12-split2/frames/page-08-panel-05-v02.png; output/comic-v15-full-redo/chapters/ch12-split2/candidates/page-08-panel-05-v02.json; /private/tmp/claude-501/fixrv3/page-08-panel-05-crop-1024.png; /private/tmp/claude-501/fixrv3/page-08-panel-05-composite.png; /Users/roshanvenugopal/.codex/generated_images/01a116b7-a9d1-7f60-af85-43c62ca4ccb4/exec-1efe8063-53b4-474a-81cd-2f104fb66503.png; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-91.json; agents-build-log.md (one append).
+### Diff summary: 3 entries processed in manifest order, 3 built-in imagegen calls, 3 composites and 3 v02 captures. Verbatim prompt text and only the designated upscaled crop were sent for each call. Source crop boxes: page-02-panel-01 [156,740,394,986], page-07-panel-04 [0,460,1536,1024], page-08-panel-05 [0,0,432,472]. LANCZOS input sizes: 991x1024, 2048x752, 937x1024. The boots and hair calls returned full scenes. Boots recovered from [594,633,1018,1024] and resized to the 238x246 source crop with a 24 px cosine feather. Hair recovered from [150,310,668,974], aligned to source head box [78,14,384,390] within the original 432x472 crop, using a 31 px alignment feather and 43 px outer feather. The hands call returned the crop directly, resized to 1536x564 with a 56 px top feather. Masks stay solid at source canvas edges, where there is no adjoining protected art. All final images are RGB 1536x1024. Maximum decoded pixel difference outside each specified source crop is 0, verified for both saved composites and captured frames. Source and prompt hashes remain unchanged; log entries reconcile with candidate hashes and prompt paths. Zero generation errors, moderation refusals, rate limits, capture failures, generation retries or capture retries. Two read-only path lookups found missing paths during setup: the not-yet-created scratch directory and a guessed provenance.py path; neither affected generation or capture. All candidates retain visual_review: pending. No review, selection, builds, git commands, deletions or overwrites performed.
+### Recommendations / Next steps: Leave all three new candidates pending visual review.
+
+## [AGENT: Codex] [2026-10-07T14:57:05Z]
+### Action: Generated and captured all 44 LEAN-BATCH-90 entries for Chapter 27 in manifest order. Codex task id: 01a116aa-5e74-7183-8c31-5212a891d1bb.
+### Files changed: output/comic-v15-full-redo/chapters/ch27/frames/ (44 new PNG files); output/comic-v15-full-redo/chapters/ch27/candidates/ (44 new candidate records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-90.json; agents-build-log.md (one append).
+### Diff summary: 44 built-in imagegen calls using verbatim prompt files and every listed reference in order; 44 successful captures; 0 errors; 0 rate limits; 0 retries. Generation log contains one object per manifest entry. No review, judging, regeneration for quality, measurement, selection, builds, separate provenance ledgers, script edits, git commands or deletions.
+### Recommendations / Next steps: Generation and capture complete. Review remains with the orchestrator.
+
+
+## [AGENT: Codex] [2026-10-07T15:02:53Z]
+### Action: Generated and captured LEAN-BATCH-87, then LEAN-BATCH-88, for Chapter 25 in manifest order using built-in imagegen, exact prompt files and the specified references in order.
+### Files changed: output/comic-v15-full-redo/chapters/ch25/frames/ (63 new candidate images); output/comic-v15-full-redo/chapters/ch25/candidates/ (63 capture records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-87.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-88.json; agents-build-log.md (this one append).
+### Diff summary: Batch 87: 32 captured, 0 errors. Batch 88: 31 captured, 0 errors. One imagegen call per entry, 63 calls total. No retries, quality review, selection or build performed.
+### Recommendations / Next steps: Review is handled elsewhere; captured candidates remain pending review.
+
+## [AGENT: Codex] [2026-10-07T15:14:53Z]
+### Action: Generated and captured LEAN-BATCH-89 in manifest order using built-in imagegen with verbatim prompts and each entry's reference images in the supplied order.
+### Files changed: output/comic-v15-full-redo/chapters/ch26/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-89.json; agents-build-log.md (one append).
+### Diff summary: 53 entries, 53 imagegen calls, 53 captured, 0 errors. No retries. Each result was captured with the supplied prompt path. No review, selection or builds.
+### Recommendations / Next steps: Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T15:47:43Z]
+### Action: Generated and captured LEAN-BATCH-76 followed by LEAN-BATCH-77 in manifest order, with verbatim prompts and each entry's references in order.
+### Files changed: output/comic-v15-full-redo/chapters/ch13/frames/ (79 new candidates); output/comic-v15-full-redo/chapters/ch13/candidates/ (79 new capture records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-76.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-77.json; agents-build-log.md (one append).
+### Diff summary: Batch 76: 40 captured, 0 errors; Batch 77: 39 captured, 0 errors. Exactly 79 built-in imagegen calls and 79 successful captures. No rate limits, refusals, retries or capture errors.
+### Recommendations / Next steps: Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T15:50:38Z]
+### Action: Generated and captured LEAN-BATCH-78 followed by LEAN-BATCH-84 in manifest order with verbatim prompts and ordered references.
+### Files changed: output/comic-v15-full-redo/chapters/ch14/frames/; output/comic-v15-full-redo/chapters/ch14/candidates/; output/comic-v15-full-redo/chapters/ch21/frames/; output/comic-v15-full-redo/chapters/ch21/candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-78.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-84.json; agents-build-log.md (one append).
+### Diff summary: Batch 78: 50 captured, 0 errored. Batch 84: 38 captured, 0 errored. Imagegen rate-limit retries: 0. Per-entry errors are recorded in the generation logs. No review, selection, builds, prompt rewrites, deletions or git commands.
+### Recommendations / Next steps: Review is handled elsewhere. The orchestrator handles recorded errors.
+
+## [AGENT: Codex] [2026-10-07T16:21:25Z]
+### Action: Generated and captured LEAN-BATCH-85 followed by LEAN-BATCH-86 for Chapter 23 in manifest order, using each exact prompt and its listed references in order.
+### Files changed: output/comic-v15-full-redo/chapters/ch23/frames/ (90 new images); output/comic-v15-full-redo/chapters/ch23/candidates/ (90 capture records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-85.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-86.json; agents-build-log.md (one append).
+### Diff summary: Batch 85: 45 captured, 0 errors. Batch 86: 45 captured, 0 errors. 90 built-in imagegen calls and 90 successful captures. No retries, prompt changes, reviews, selections or builds. Generation logs contain one outcome per manifest entry.
+### Recommendations / Next steps: Review is handled elsewhere; all captured candidates remain pending review.
+
+## [AGENT: Codex] [2026-10-07T16:26:17Z]
+### Action:
+Generated and captured LEAN-BATCH-79 followed by LEAN-BATCH-80 for Chapter 16 in manifest order, using built-in imagegen with verbatim prompts and ordered manifest references. Codex task id: 01a116a9-8a0e-7560-92ba-c3feda49b7bb.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch16/frames/: 104 captured images.
+- output/comic-v15-full-redo/chapters/ch16/candidates/: 104 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-79.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-80.json
+- agents-build-log.md: this append-only entry.
+### Diff summary:
+Batch 79: 52 captured, 0 errors. Batch 80: 52 captured, 0 errors. Total: 104 imagegen calls, 0 rate limits. Generation and capture only; no review, quality regeneration, selection, or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T16:31:44Z]
+### Action: Generated and captured LEAN-BATCH-81, LEAN-BATCH-82 and LEAN-BATCH-83 in list order using verbatim prompts and supplied references.
+### Files changed: output/comic-v15-full-redo/chapters/ch18/frames/ and candidates/; output/comic-v15-full-redo/chapters/ch19/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-81.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-82.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-83.json; agents-build-log.md (one append).
+### Diff summary: Batch 81: 50 captured, 0 errors. Batch 82: 29 captured, 0 errors. Batch 83: 28 captured, 0 errors. Built-in imagegen calls: 107. Rate-limit retries: 0.
+### Recommendations / Next steps: Review is handled elsewhere.
+
+## [AGENT: Claude] [2026-10-07T21:24Z]
+### Action: Applied the author-approved CONTINUITY span rows for chapters 15, 17, 20, 22, 24 and 28; prepared those six packages and sent them to Codex (batches 92 to 104); bars-aware page solver adopted; more page splits (ch5 p7, ch6 p3 and p4, ch8 p7, p9 and p11; ch12 p2 and p4; ch11 p15); first-round selection of ten new chapters started.
+### Files changed: output/comic-v15-full-redo/CONTINUITY.md (7 rows replaced by 23 span rows exactly as approved; backup pipeline/review/CONTINUITY-pre-span-rows-ch15-28-2026-10-07.md; ch11 and ch12 anchor renumbering with backups -pre-ch11-split2-, -pre-ch12-split2-); review-sheets/CONTINUITY-PROPOSAL-span-rows-ch15-28-2026-10-07.{md,html} (status APPROVED); scripts/CHAPTER-05/06/08/11/12 script and cast files (backups *.backup-pre-split-2026-10-07, *.backup-pre-ch11-split2-2026-10-07, *.backup-pre-ch12-split2-2026-10-07); new packages chapters/ch05-split2, ch06-split, ch08-split, ch11-split2, ch12-split2, ch15, ch17, ch20, ch22, ch24, ch28; tightened keep files ch05-split KEEP-s3, ch06 KEEP-c9, ch07 KEEP-c5, ch08 KEEP-c4 (review-sheets/TIGHTEN-KEEP-ch05-ch08-2026-10-07.json); builds ch9 r2, ch10 r1, ch11 r1 (split2), ch7 r4 and ch12 r4 in progress; first-round selection files chapters/ch19, ch21, ch27/review (LEAN-SELECTION-drawn-r1, FACES-v1, KEEP-c1, REJECTED-r1) and fix batches LEAN-BATCH-105..107.
+### Diff summary: The review of ch12 r3 found panels drawn narrower than their slot with empty paper beside them; cause: row heights outside the shapes the cover crop can reach. New scratchpad solve_bars.py keeps every slot inside the crop's reachable aspect range (fill 0.98 first, stepping down only when a page cannot do better) and pages whose worst fill stays under 0.7 are split. All splits keep lettering identical (checked per panel); only end-matter notes were hand-corrected. Ch12 region fixes: 2.1 boots accepted after removing stray feet the edit added (original step restored, v03), 7.4 single sealed ola accepted (v02), 8.5 Varma knot rejected (v02 wrong side, loose hair). First-round selection acceptance: ch21 23/38, ch27 28/44, ch19 31/57; the main rejection is Nagoji's brand drawn as a dark inked ring.
+### Recommendations / Next steps: Build and review ch5, ch6, ch8 split packages; review ch7 r4 and ch12 r4; second-round selection for the regenerated panels; prompt-level fix for the brand look before more generation.
+
+## [AGENT: Codex] [2026-10-07T21:56:21Z]
+### Action: Region-edited, feather-composited and captured all seven LEAN-BATCH-111 entries for Chapter 10 in manifest order.
+### Files changed: output/comic-v15-full-redo/chapters/ch10-split2/frames/ (7 new v02 PNG files); output/comic-v15-full-redo/chapters/ch10-split2/candidates/ (7 new v02 JSON records); /private/tmp/claude-501/fixrv1-ch10/ (7 input crops and 7 composites); /Users/roshanvenugopal/.codex/generated_images/01a11845-6080-7ed0-bf02-67074f55484d/ (7 raw tool outputs); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-111.json; agents-build-log.md (this one append). Frame ids: page-02-panel-02, page-03-panel-02, page-04-panel-02, page-05-panel-01, page-05-panel-02, page-09-panel-02, page-13-panel-03.
+### Diff summary: 7 entries, 7 built-in imagegen calls with verbatim prompt text and only the designated crop attached, 7 v02 captures. Six tool outputs were full scenes and their matching regions were recovered; page-05-panel-01 returned its crop directly. Six captures have recorded artifact issues: page-02-panel-02 has head/body discontinuities; page-03-panel-02 has duplicate head fragments and seams; page-04-panel-02 has a soft cloth boundary mismatch; page-05-panel-02 has a maroon remnant and awning/sack seam; page-09-panel-02 has a rectangular sky/foliage colour transition; page-13-panel-03 has a faint sky/foliage seam. No regeneration or artifact repair followed these checks. All composites and captured frames are RGB 1536x1024. Maximum decoded pixel difference outside every logged crop is 0 for both composites and captures. All protected face/hair masks also have maximum pixel difference 0. All 7 source hashes and 7 prompt hashes remain unchanged. Candidate bytes, hashes, prompt paths, dimensions and pending status reconcile. Operational errors: 0. Rate limits: 0. Moderation refusals: 0. Generation retries: 0. Capture retries: 0. No review, selection, builds, git commands, deletions, overwrites or code/configuration changes.
+### Recommendations / Next steps: Leave all seven candidates pending visual review; the recorded artifact issues remain unresolved.
+
+## [AGENT: Codex] [2026-10-07T21:58:36Z]
+### Action:
+Generated three region edits and captured two LEAN-BATCH-118 Chapter 5 composites using verbatim prompts and crop-only attachments.
+### Files changed:
+- /private/tmp/claude-501/fixr4-ch05/: three upscaled crop inputs and two composites.
+- output/comic-v15-full-redo/chapters/ch05-split2/frames/: page-03-panel-04-v03.png and page-06-panel-01-v03.png.
+- output/comic-v15-full-redo/chapters/ch05-split2/candidates/: corresponding v03 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-118.json.
+- agents-build-log.md: this single append.
+### Diff summary:
+Both entries captured_with_issues, with no tool or capture errors. Maximum pixel difference outside crops is 0 for each saved composite. Cart crop (300,335,1270,920); guard crops (1045,374,1220,490) and (1400,356,1560,482). Cart wheel/rail ghosting and guard waist/shield/neckline seams noted. No apparent added figures or duplicated limbs in composites. No retries, prompt rewrites, git commands, selection or builds.
+### Recommendations / Next steps:
+Visual review remains pending and is handled elsewhere. See generation log for input and output crop coordinates and provenance.
+
+## [AGENT: Codex] [2026-10-07T22:00:21Z]
+### Action:
+Region-edited, feather-composited and captured both LEAN-BATCH-119 entries for Chapter 6, package ch06-split, in manifest order.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch06-split/frames/page-07-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch06-split/frames/page-04-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch06-split/candidates/page-07-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch06-split/candidates/page-04-panel-02-v02.json
+- /private/tmp/claude-501/fixr8-ch06/: three crop files, including one unused retained crop, and two composites.
+- /Users/roshanvenugopal/.codex/generated_images/01a1185f-012b-7e01-b646-4d918f36a0c9/: two raw built-in imagegen outputs.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-119.json
+- agents-build-log.md: this one append.
+### Diff summary:
+Two calls used verbatim prompts and only the designated upscaled crop. Both returned cropped regions. Both v02 captures are RGB 1536x1024 and remain pending. Crop boxes (left, top, right, bottom exclusive): page-07-panel-01 (240,685,530,805); page-04-panel-02 (445,270,1150,710). Maximum decoded pixel difference outside each crop is 0 for both saved composites and captured frames. Candidate hashes, prompt hashes and byte-for-byte copy identity verified. page-07-panel-01 status captured. page-04-panel-02 status captured_with_issues: hand texture and wall/frieze sharpness changed within the crop, with a soft sharpness transition near its lower boundary. No observed stray limbs or duplicated figures in the limited artifact check. No operational errors, rate limits, moderation refusals or retries. No review, selection, builds, git commands, deletions or code/configuration edits.
+### Recommendations / Next steps:
+Leave candidates pending review elsewhere; the recorded wall-crop artifact remains unresolved.
+
+## [AGENT: Codex] [2026-10-07T22:03:44Z]
+### Action:
+Generated and captured LEAN-BATCH-110 for Chapter 18 in manifest order using built-in imagegen, verbatim prompts and every listed reference in order. Codex task id: 01a11844-4703-7922-a184-01332a53c8ae.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch18/frames/: 16 new captured images.
+- output/comic-v15-full-redo/chapters/ch18/candidates/: 16 new capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-110.json
+- agents-build-log.md: this one append-only entry.
+### Diff summary:
+16 captured, 0 errors. 16 built-in imagegen calls; 0 rate-limit retries. Generation and capture only. No prompt changes, reviews, quality regeneration, selection or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T22:06:20Z]
+### Action: Completed LEAN-BATCH-117 Chapter 11 region edits, feathered compositing and capture only.
+### Files changed: /private/tmp/claude-501/fixrv1-ch11/ (11 crop inputs and 9 composites); output/comic-v15-full-redo/chapters/ch11-split2/frames/ (9 new v02 frames); output/comic-v15-full-redo/chapters/ch11-split2/candidates/ (9 new records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-117.json; agents-build-log.md (one append). Built-in raw outputs retained in the tool output directory.
+### Diff summary: 9 entries, 11 single-crop imagegen calls with verbatim prompts, 9 successful captures, 0 tool or capture errors, 0 retries. 8 captured_with_issues and 1 captured. Nine expanded outputs required region recovery. Visible compositing defects and the retained page-17-panel-05 forehead dot are recorded per entry. Saved composites and captures verified pixel-identical outside each declared crop union, maximum difference 0 for all 9. No prompt edits, selection, builds, deletions or git commands.
+### Recommendations / Next steps: Candidates remain pending review; hand off the recorded defects without regenerating or selecting candidates.
+
+## [AGENT: Codex] [2026-10-07T22:11:17Z]
+### Action:
+Generated and captured LEAN-BATCH-115 for Chapter 14 in manifest order using built-in imagegen, verbatim prompts and the listed references in order.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch14/frames/: 18 new candidate images.
+- output/comic-v15-full-redo/chapters/ch14/candidates/: 18 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-115.json
+- agents-build-log.md: this single append-only entry.
+### Diff summary:
+18 entries, 18 imagegen calls, 18 captured, 0 errors, 0 rate-limit retries. Candidate paths and prompt/image hashes verified. No reviews, quality regeneration, selection or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere. Captured candidates remain pending review.
+
+## [AGENT: Codex] [2026-10-07T22:17:21Z]
+### Action:
+Generated and captured LEAN-BATCH-104 in manifest order using built-in imagegen with verbatim prompts and all listed references in order. Codex task id: 01a11835-1923-7cd0-a02d-39152ad9dfe8.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch28/frames/: 32 new images.
+- output/comic-v15-full-redo/chapters/ch28/candidates/: 32 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-104.json
+- agents-build-log.md: this append-only entry.
+### Diff summary:
+32 captured, 0 errors. 32 built-in imagegen calls, 0 rate-limit retries. Generation and capture only; no review, selection, or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Claude] [2026-10-07T22:45Z]
+### Action: V15 fix-and-rebuild pass for chapters 5, 6, 9, 10, 11; round-2 selection started for 14, 18, 21, 26 (paused at usage limit)
+### Files changed: output/comic-v15-full-redo/chapters/{ch05-split2,ch06-split,ch09-split2,ch10-split2,ch11-split2}/review/LEAN-SELECTION-drawn-split-r2.json, FACES-s2.json, KEEP-s2.json (new); ch11-split2 frames page-11-panel-02, page-17-panel-05, page-18-panel-03, page-19-panel-01 v03 (new); review-sheets/HAND-RETOUCH-2026-10-07.json (new); review-sheets/ch14-r2, ch18-r2, ch21-r2, ch26-r2 contact sheets (new)
+### Diff summary: Accepted region fixes from batches 111, 112, 117, 118, 119. Four ch11 faults and the ch10 9.2 sky seam were fixed by scripted pixel retouch, not by the generator; the candidate records say "generated", so HAND-RETOUCH-2026-10-07.json records the true provenance. Built ch05 r4 (folio 32, min 333 PPI) and ch06 r8 (folio 42, min 308 PPI). ch09 r3, ch10 r2, ch11 r3 builds were still running at the time of this entry.
+### Recommendations / Next steps: Check build logs /tmp/claude-501/build-ch09-r3.log, build-ch10-r2.log, build-ch11-r3.log. Resume the stopped workflows (round-2 selection for ch14/18/21/26; reviews of ch07 r5 and ch08 r5) with resumeFromRunId wf_2b312f1d-c4c, wf_288f32ef-5af, wf_85ebebd0-f5a, wf_af066a76-e40, wf_ca119323-1a0, wf_3bfb2831-a16. Then merge round 2 (merge_round.py), add the accepted faults to the author list, and select ch15/17/20/22/24/28 once their batches finish. ch12 8.5 Varma side knot has one fix attempt left.
+
+## [AGENT: Codex] [2026-10-07T22:26:39Z]
+### Action:
+Generated and captured LEAN-BATCH-114 part 2, entries 27 to 51, in manifest order with verbatim prompts and ordered references.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch16/frames/ (25 new candidates); output/comic-v15-full-redo/chapters/ch16/candidates/ (25 new records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-114-part2.json; agents-build-log.md (one append).
+### Diff summary:
+25 captured, 0 errors. 25 built-in imagegen calls; 0 rate-limit retries. No reviews, quality regenerations, selections or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere. Captured candidates remain pending review.
+
+## [AGENT: Codex] [2026-10-07T22:26:53Z]
+### Action:
+Generated LEAN-BATCH-95 in manifest order using built-in imagegen with verbatim prompts and each entry's reference images in the supplied order; captured every successful result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch17/frames/: 31 new images.
+- output/comic-v15-full-redo/chapters/ch17/candidates/: 31 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-95.json
+- agents-build-log.md: this single append-only entry.
+### Diff summary:
+32 entries, 32 imagegen calls, 31 captured, 1 error. Rate-limit retries: 0. page-09-panel-06 returned moderation_blocked; its full error text is in the generation log. No prompt rewrites, quality retries, reviews, selection or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere. The orchestrator handles the recorded refusal.
+
+## [AGENT: Codex] [2026-10-07T22:27:19Z]
+### Action:
+Generated and captured LEAN-BATCH-97 for Chapter 20 in manifest order, using built-in imagegen with verbatim prompts and all listed references in order. Codex task id: 01a11834-4a7d-7ef1-a14e-f9553c1f3335.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch20/frames/: 41 new captured images.
+- output/comic-v15-full-redo/chapters/ch20/candidates/: 41 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-97.json
+- agents-build-log.md: this append-only entry.
+### Diff summary:
+42 entries processed: 41 captured, 1 error. Built-in imagegen calls: 42. Rate-limit retries: 0. Entry page-11-panel-01 failed with: `referenced_image_paths` must contain at most 5 paths. Its 7 references were submitted unchanged. No review, selection, quality regeneration or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere. The orchestrator handles the recorded error.
+
+## [AGENT: Codex] [2026-10-07T22:27:36Z]
+### Action:
+Generated and captured LEAN-BATCH-92 for Chapter 15 in manifest order using built-in imagegen, verbatim prompts and ordered manifest references.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch15/frames/: 35 captured images.
+- output/comic-v15-full-redo/chapters/ch15/candidates/: 35 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-92.json
+- agents-build-log.md: this single append-only entry.
+### Diff summary:
+35 entries processed: 35 captured, 0 errors. 35 imagegen calls; 0 rate-limit retries. Generation and capture only.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T22:27:53Z]
+### Action: Generated and captured LEAN-BATCH-93 for Chapter 15 in manifest order using built-in imagegen, verbatim prompts and each entry's references in the supplied order.
+### Files changed: output/comic-v15-full-redo/chapters/ch15/frames/ (34 images); output/comic-v15-full-redo/chapters/ch15/candidates/ (34 capture records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-93.json; agents-build-log.md (one append).
+### Diff summary: 34 entries, 34 imagegen calls, 34 captured, 0 errors, 0 rate-limit retries. Each result was captured with the supplied prompt path. No review, selection or builds.
+### Recommendations / Next steps: Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T22:30:55Z]
+### Action:
+Generated and captured LEAN-BATCH-99 for Chapter 22 in manifest order using built-in imagegen with verbatim prompts and ordered references.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch22/frames/: 33 new captured images.
+- output/comic-v15-full-redo/chapters/ch22/candidates/: 33 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-99.json
+- agents-build-log.md: this append-only entry.
+### Diff summary:
+33 entries processed: 33 captured, 0 errors. Built-in imagegen calls: 33. Rate-limit retries: 0. No prompt rewrites, reviews, quality regeneration, selection, builds, deletions or git commands.
+### Recommendations / Next steps:
+Review is handled elsewhere. The orchestrator handles recorded errors.
+
+## [AGENT: Codex] [2026-10-07T22:32:13Z]
+### Action:
+Processed only LEAN-BATCH-114 entries 1 to 26 for Chapter 16 in manifest order using built-in imagegen, verbatim prompts and ordered references. Codex task id: 01a11847-8a6b-7643-ba41-9391ae53e20c.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch16/frames/: 26 new captured images.
+- output/comic-v15-full-redo/chapters/ch16/candidates/: 26 new candidate records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-114-part1.json
+- agents-build-log.md: this single append.
+### Diff summary:
+26 captured, 0 errors. Imagegen calls: 26. Rate-limit retries: 0. Generation and capture only. No review, quality regeneration, selection, build, prompt changes, script changes or deletions.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+
+## [AGENT: Codex] [2026-10-07T22:33:24Z]
+### Action:
+Completed LEAN-BATCH-112 followed by LEAN-BATCH-113 in manifest order using built-in imagegen with verbatim prompts. Batch 112 was one bounded forearm edit; Batch 113 was 29 fresh generations with all listed references in order.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch09-split2/frames/page-14-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch09-split2/candidates/page-14-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/: 29 new v02 images.
+- output/comic-v15-full-redo/chapters/ch13/candidates/: 29 new v02 records.
+- /private/tmp/claude-501/fixrv3-ch09/page-14-panel-02-crop-1024.png
+- /private/tmp/claude-501/fixrv3-ch09/page-14-panel-02-composite.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-112.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-113.json
+- agents-build-log.md: this single append.
+### Diff summary:
+Batch 112: 1 captured, 0 errors. Source crop [56,512,1024,1024], size 968x512, LANCZOS upscale to 1024x542, only that crop attached. The generated crop was resized with LANCZOS and pasted through a solid-centre mask with a 51 px cosine feather; the bottom edge stays solid at the original canvas boundary. Maximum decoded pixel difference outside the crop is 0 for both the saved composite and captured frame. Source hash is unchanged. No stray duplicated limb or obvious seam observed in the requested region check.
+Batch 113: 29 captured, 0 errors. Total built-in imagegen calls: 30. Rate limits, refusals, generation retries and capture failures: 0. Both logs reconcile with the manifests, candidate records and saved frame hashes. Existing v01 artifacts are preserved. All candidates retain visual_review: pending. No Chapter 13 quality review, regeneration, selection, builds, script edits, prompt rewrites, deletions or git commands.
+### Recommendations / Next steps:
+Review is handled elsewhere; the captured candidates remain pending review.
+
+## [AGENT: Codex] [2026-10-07T22:34:43Z]
+### Action: Generated and captured LEAN-BATCH-98 in manifest order using built-in imagegen, verbatim prompts and the specified references in order. Codex task id: 01a11834-7314-79e0-acf9-b2db8308eaf6.
+### Files changed: output/comic-v15-full-redo/chapters/ch22/frames/ (33 new images); output/comic-v15-full-redo/chapters/ch22/candidates/ (33 capture records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-98.json; agents-build-log.md (this one append).
+### Diff summary: 34 entries, 34 imagegen calls, 33 captured, 1 error, 0 rate-limit retries. page-05-panel-04 returned moderation_blocked; exact error text recorded. No prompt rewrites, quality retries, reviews, selection or builds.
+### Recommendations / Next steps: Review is handled elsewhere. The orchestrator handles the refusal.
+
+## [AGENT: Codex] [2026-10-07T22:35:13Z]
+### Action: Generated and captured LEAN-BATCH-103 for Chapter 28 in manifest order using built-in imagegen with verbatim prompt files and all listed references in order.
+### Files changed: output/comic-v15-full-redo/chapters/ch28/frames/ (32 new images); output/comic-v15-full-redo/chapters/ch28/candidates/ (32 capture records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-103.json; agents-build-log.md (one append).
+### Diff summary: 32 entries; 32 built-in imagegen calls; 32 captured; 0 errors; 0 rate-limit retries. One generation-log object per manifest entry. No review, judging, quality regeneration, measurement, selection, builds, separate provenance ledgers, script edits, git commands or deletions.
+### Recommendations / Next steps: Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T22:42:43Z]
+### Action:
+Generated and captured entries 1 to 27 of LEAN-BATCH-116 for Chapter 23 in manifest order, using verbatim prompts and ordered references. Codex task id: 01a11855-1d72-7fe2-8e0e-9b89d1247754.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch23/frames/: 27 new images.
+- output/comic-v15-full-redo/chapters/ch23/candidates/: 27 new candidate records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-116-part1.json
+- agents-build-log.md: this append-only entry.
+### Diff summary:
+27 captured, 0 entry errors. 27 built-in imagegen calls, no rate-limit retries. A preflight JSON parse failed with SyntaxError: Unexpected token 'W' due to a warning prefix; corrected parsing before generation. No review, quality regeneration, selection or build.
+### Recommendations / Next steps:
+Review is handled elsewhere. Entries 28 to 53 are outside this task.
+
+
+## [AGENT: Codex] [2026-10-07T22:43:12Z]
+### Action:
+Generated and captured only entries 28 to 53 of LEAN-BATCH-116 for Chapter 23, in order, using built-in imagegen with verbatim prompts and ordered references.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch23/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-116-part2.json; agents-build-log.md (one append).
+### Diff summary:
+26 imagegen calls, 26 captured, 0 entry errors, 0 rate-limit retries. A preliminary combined prompt-read output was truncated and could not be parsed; individual prompt reads succeeded before generation. No prompt changes, review, selection, builds, deletions or git commands.
+### Recommendations / Next steps:
+Captured candidates remain pending review.
+
+## [AGENT: Codex] [2026-10-07T22:47:04Z]
+### Action:
+Generated and captured LEAN-BATCH-96 for Chapter 20 in manifest order using built-in imagegen, verbatim prompts and all listed references in order. Codex task id: 01a11834-3c12-74d1-97ad-bd84b3636213.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch20/frames/: 42 new captured images.
+- output/comic-v15-full-redo/chapters/ch20/candidates/: 42 new capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-96.json
+- agents-build-log.md: this single append.
+### Diff summary:
+42 entries processed: 42 captured, 0 errors. 42 built-in imagegen calls; 0 rate-limit retries. No prompt changes, reviews, selections or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T22:51:19Z]
+### Action: Generated and captured all 47 LEAN-BATCH-102 entries for Chapter 24 in manifest order using built-in imagegen, verbatim prompts and ordered references.
+### Files changed: output/comic-v15-full-redo/chapters/ch24/frames/; output/comic-v15-full-redo/chapters/ch24/candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-102.json; agents-build-log.md (one append).
+### Diff summary: 47 captured, 0 errors. 47 imagegen calls and 47 successful captures. Rate-limit retries: 0. Generation and capture only.
+### Recommendations / Next steps: Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T22:54:11Z]
+### Action: Generated and captured LEAN-BATCH-108 followed by LEAN-BATCH-109 in manifest order using built-in imagegen, exact prompt files and all listed references in order.
+### Files changed: output/comic-v15-full-redo/chapters/ch26/frames/ and candidates/ (24 new images and records); output/comic-v15-full-redo/chapters/ch25/frames/ and candidates/ (27 new images and records); output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-108.json; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-109.json; agents-build-log.md (this one append).
+### Diff summary: Batch 108: 24 captured, 0 entry errors. Batch 109: 27 captured, 0 entry errors. Exactly 51 built-in imagegen calls and 51 successful captures. No rate limits, refusals, generation retries or capture failures. Read-only setup encountered a no-match exit 1 from the nested AGENTS.md search and a truncated combined prompt-loading result that produced SyntaxError: Unexpected token '…', not valid JSON. Setup was corrected before generation by reading prompt files separately. No prompts rewritten, reviews, judging, quality regeneration, measurements, selection, builds, script edits, git commands or deletions.
+### Recommendations / Next steps: Review is handled elsewhere; captured candidates remain pending review.
+
+## [AGENT: Codex] [2026-10-07T22:58:03Z]
+### Action:
+Generated and captured LEAN-BATCH-101 for Chapter 24 in manifest order using built-in imagegen with verbatim prompts and ordered references.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch24/frames/; output/comic-v15-full-redo/chapters/ch24/candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-101.json; agents-build-log.md (one append).
+### Diff summary:
+49 captured, 0 errors. 49 built-in imagegen calls and 49 successful captures. Rate-limit retries: 0. Generation log contains one outcome per entry.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T22:58:45Z]
+### Action: Generated and captured LEAN-BATCH-100 for Chapter 24 in manifest order using built-in imagegen with verbatim prompts and references in their supplied order.
+### Files changed: output/comic-v15-full-redo/chapters/ch24/frames/; output/comic-v15-full-redo/chapters/ch24/candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-100.json; agents-build-log.md (one append).
+### Diff summary: 49 entries, 49 captured, 0 errors. 49 built-in imagegen calls, 0 rate-limit retries. No reviews, selections or builds.
+### Recommendations / Next steps: Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-07T23:09:43Z]
+### Action:
+Generated and captured LEAN-BATCH-105, LEAN-BATCH-106 and LEAN-BATCH-107 in list and entry order using built-in imagegen, verbatim prompt files and ordered manifest references. Codex task id: 01a1183f-77e1-7042-a6de-360b4bb5976d.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch21/frames/ and candidates/: 15 images and 15 capture records.
+- output/comic-v15-full-redo/chapters/ch27/frames/ and candidates/: 16 images and 16 capture records.
+- output/comic-v15-full-redo/chapters/ch19/frames/ and candidates/: 26 images and 26 capture records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-105.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-106.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-107.json
+- agents-build-log.md: this single append-only entry.
+### Diff summary:
+Batch 105: 15 captured, 0 errors. Batch 106: 16 captured, 0 errors. Batch 107: 26 captured, 0 errors. Total: 57 built-in imagegen calls, 57 successful captures, 0 rate-limit retries. Generation and capture only.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-08T14:39:26Z]
+### Action:
+Ran LEAN-BATCH-123 with one built-in imagegen edit using the verbatim prompt and only edit_source attached, then captured the result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch12-split2/frames/page-08-panel-05-v03.png
+- output/comic-v15-full-redo/chapters/ch12-split2/candidates/page-08-panel-05-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-123.json
+- agents-build-log.md (one append)
+### Diff summary:
+1 captured, 0 errors, 0 retries.
+### Recommendations / Next steps:
+Stopped as requested. No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-08T14:45:23Z]
+### Action:
+Generated and captured LEAN-BATCH-120 in manifest order using built-in imagegen, verbatim prompts and ordered references. Codex task id: 01a11bec-edfb-7520-abf7-dc217fe96bab.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch17/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-120.json; agents-build-log.md (one append).
+### Diff summary:
+7 imagegen calls, 7 captured, 0 errors, 0 retries. Generation and capture only.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-08T14:47:45Z]
+### Action:
+Generated and captured LEAN-BATCH-122 in manifest order using built-in imagegen, verbatim prompts and ordered references.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch17/frames/ and candidates/; output/comic-v15-full-redo/chapters/ch20/frames/ and candidates/; output/comic-v15-full-redo/chapters/ch22/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-122.json; agents-build-log.md (one append).
+### Diff summary:
+7 entries captured, 0 errors. 7 imagegen calls. Both moderated entries captured with --moderated. No reviews, quality retries, selections or builds.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-08T14:49:53Z]
+### Action:
+Generated and captured LEAN-BATCH-121 in manifest order using built-in imagegen, verbatim prompts and ordered references. Codex task id: 01a11bed-5e01-7bd0-b0a4-f41f390d5867.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch17/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-121.json; agents-build-log.md (one append).
+### Diff summary:
+7 captured, 0 errors. 7 imagegen calls, 7 successful captures, 0 retries. Generation and capture only.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-08T14:51:50Z]
+### Action:
+Ran LEAN-BATCH-124 in manifest order using built-in imagegen with verbatim prompts and specified inputs, then captured each result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-02-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-02-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-09-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-09-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-13-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-13-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-14-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-14-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-15-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-15-panel-01-v02.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-124.json
+- agents-build-log.md (one append)
+### Diff summary:
+5 captured, 0 errors, 0 retries. Three edits and two generations.
+### Recommendations / Next steps:
+Stopped as requested. No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-08T15:00:59Z]
+### Action:
+Ran LEAN-BATCH-139 with one built-in imagegen edit using the verbatim prompt and specified edit source, then captured the result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-14-panel-01-v03.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-14-panel-01-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-139.json
+- agents-build-log.md (one append)
+### Diff summary:
+1 captured, 0 errors, 0 retries.
+### Recommendations / Next steps:
+Stopped as requested. No review, selection or build performed.
+
+## [AGENT: Claude] [2026-10-08T17:30Z]
+### Action: V15 selection rounds for chapters 13 to 28, last-attempt fixes, chapter 7 and 8 reviews, chapter 12 r6 build (paused at usage limit)
+### Files changed: output/comic-v15-full-redo/chapters/ch13,14,16,18,19,21,25,26,27/review/LEAN-SELECTION-drawn-r2.json, FACES-v2.json, KEEP-c2.json; ch17, ch20, ch22 review/LEAN-SELECTION-drawn-r1.json, FACES-v1.json, KEEP-c1.json, REJECTED-r1.json; ch12-split2 review r3/s3 decisions; review-sheets/SELECT-ZONES-*-2026-10-08.json, REVIEW-ch07-r5-2026-10-08.json, REVIEW-ch08-split-r5-2026-10-08.json; LEAN-BATCH-120 to 140 (Codex jobs); ch17 and ch22 prompts *-moderated-r1.txt (softened after safety refusals)
+### Diff summary: Built ch09 r3, ch10 r2, ch11 r3, ch12 r6 (all 305+ PPI). Second-round picks merged for ch13 (75/79), ch14 (49/50), ch16 (91/104), ch18 (48/50), ch19 (55/57), ch21 (36/38), ch25 (62/63), ch26 (52/53), ch27 (42/44); first round saved for ch17, ch20 (45/83), ch22 (27/66). Last-attempt edits and regenerations sent to Codex for all rejects; ch07 (4) and ch08 (6) review fixes sent. ch14 KEEP-c2 had three versions written as full frame stems; normalised.
+### Recommendations / Next steps: Resume stopped selection workflows: ch15 wf_00baf588-08a, ch23 wf_bcf8130b-686, ch24 wf_d10e50c1-93e, ch28 wf_2494c2e2-9cb (script scratchpad/v15-select-zones-file.js). Then collect rejects (scratchpad/collect_rejects.py), round-2 select the regenerated panels, mark zones for regenerated ch8 14.1/15.1 and ch7 panels, lay out (solve_build.sh) and build chapters 13 to 28, and review. Compositor tail reach (wrong-speaker tails) and Varma drawn as Nagoji remain the main recurring faults for the author.
+
+## [AGENT: Codex] [2026-10-08T15:08:49Z]
+### Action:
+Generated and captured LEAN-BATCH-127 in manifest order using built-in imagegen, verbatim prompts and ordered references.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch20/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-127.json; agents-build-log.md (one append).
+### Diff summary:
+12 entries captured, 0 errors. 12 imagegen calls, 0 retries.
+### Recommendations / Next steps:
+No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-08T15:12:36Z]
+### Action:
+Generated and captured LEAN-BATCH-128, LEAN-BATCH-129, LEAN-BATCH-130 and LEAN-BATCH-131 in order using built-in imagegen with verbatim prompts and ordered references.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch13, ch18, ch25 and ch26 frames/ and candidates/; review-sheets/GENERATION-LOG-LEAN-BATCH-128.json through GENERATION-LOG-LEAN-BATCH-131.json; agents-build-log.md (one append).
+### Diff summary:
+8 imagegen calls, 8 captures, 0 errors, 0 retries. Four generation logs written.
+### Recommendations / Next steps:
+No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-08T15:13:31Z]
+### Action:
+Ran LEAN-BATCH-135, 136, 137 and 138 in order with built-in imagegen edits using verbatim prompts and only each specified edit source. Codex task id: 01a11c04-6bfd-7183-92c9-1a76dc6f41fe.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch14, ch19, ch21 and ch27 frames and candidates; review-sheets/GENERATION-LOG-LEAN-BATCH-135.json, GENERATION-LOG-LEAN-BATCH-136.json, GENERATION-LOG-LEAN-BATCH-137.json and GENERATION-LOG-LEAN-BATCH-138.json; agents-build-log.md (one append).
+### Diff summary:
+7 edits captured, 0 errors, 0 retries. No review, selection or build.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-08T15:18:56Z]
+### Action:
+Generated and captured LEAN-BATCH-125 in manifest order using built-in imagegen, verbatim prompts and ordered references.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch20/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-125.json; agents-build-log.md (one append).
+### Diff summary:
+13 imagegen calls, 13 captured, 0 errors, 0 retries. Generation and capture only.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-08T15:19:19Z]
+### Action:
+Generated and captured LEAN-BATCH-126 in manifest order using built-in imagegen, verbatim prompts and ordered references.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch20/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-126.json; agents-build-log.md (one append).
+### Diff summary:
+13 imagegen calls, 13 captured, 0 errors, 0 retries. Generation and capture only.
+### Recommendations / Next steps:
+No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-08T15:31:39Z]
+### Action:
+Ran LEAN-BATCH-140 in manifest order with built-in imagegen edits, verbatim prompts and only each specified edit source, then captured each result.
+### Files changed:
+output/comic-v15-full-redo/chapters/ch16/frames/ and candidates/; output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-140.json; agents-build-log.md (one append).
+### Diff summary:
+13 captured, 0 entry errors. 13 imagegen calls, 0 retries. An initial in-memory prompt-loading parse failed because tool output was truncated; prompts were then read individually before generation. No review, selection or build performed.
+### Recommendations / Next steps:
+Review is handled elsewhere.
+
+## [AGENT: Codex] [2026-10-08T15:46:33Z]
+### Action:
+Generated and captured LEAN-BATCH-134 in manifest order with built-in imagegen, verbatim prompts and listed references.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-07-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-07-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-08-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-08-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-08-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-08-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-08-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-08-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-08-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-08-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-09-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-09-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-09-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-09-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-09-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-09-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-09-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-09-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-10-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-10-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-10-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-10-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-10-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-10-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-11-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-11-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-11-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-11-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-12-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-12-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-12-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-12-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-13-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-13-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-13-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-13-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-14-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-14-panel-03-v02.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-134.json
+- agents-build-log.md (one append)
+### Diff summary:
+19 captured, 0 generation or capture errors, 0 retries. An initial combined prompt-read output exceeded the tool output limit; prompts were then read individually without changes.
+### Recommendations / Next steps:
+Stopped after generation and capture. No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-08T15:53:38Z]
+### Action:
+Ran LEAN-BATCH-132, then the 20 original LEAN-BATCH-133 entries using built-in imagegen and captured all results with supplied prompts and image inputs.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch07/candidates/page-07-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch07/frames/page-07-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch07/candidates/page-07-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch07/frames/page-07-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch07/candidates/page-09-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch07/frames/page-09-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch07/candidates/page-10-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch07/frames/page-10-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-01-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-01-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-01-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-01-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-03-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-03-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-03-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-03-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-03-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-03-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-03-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-03-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-03-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-03-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-05-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-05-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-04-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-04-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-04-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-04-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-04-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-04-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-05-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-05-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-05-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-05-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-06-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-06-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-06-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-06-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-06-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-06-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-06-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-06-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-07-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-07-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-07-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-07-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22/candidates/page-07-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22/frames/page-07-panel-04-v02.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-132.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-133.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 132: 4 captured. Batch 133: 20 captured. No imagegen or capture errors and no imagegen retries. No review, selection or build performed.
+Execution deviation: Batch 133 initially contained 20 entries, but contained 17 when prompts were loaded. The three page-04 entries were absent from the later list. They were recovered from the initial manifest and processed immediately after page-05-panel-01, before page-05-panel-03. The generation log preserves actual execution order.
+Setup error recovered before image generation: SyntaxError: Unexpected token 'W', "Warning: t"... is not valid JSON
+### Recommendations / Next steps:
+Visual review remains pending. Stopped after capture and logging as requested.
+
+## [AGENT: Codex] [2026-10-08T19:39:55Z]
+### Action:
+Executed SHEET-BATCH-23-marthanda-varma-v15 in order using built-in imagegen edits.
+### Files changed:
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/23-marthanda-varma-v15-c1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/23-marthanda-varma-v15-c2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-23-marthanda-varma-v15.json
+- agents-build-log.md (one append)
+### Diff summary:
+Saved two candidates, one call per entry, with the exact supplied prompt and sole edit source. Recorded SHA-256 values. No errors or retries. No quality review performed.
+### Recommendations / Next steps:
+No further action taken. Task id: 01a11d03-2a32-7bc0-92f6-2b8c7e812146.
+
+## [AGENT: Codex] [2026-10-08T19:39:56Z]
+### Action:
+Ran SHEET-BATCH-22-nagoji-ananthan-pillai-v15 in order with one built-in imagegen edit per entry and verbatim prompts. Task id: 01a11d02-e51b-75d3-8218-09c50999a856.
+### Files changed:
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/22-nagoji-ananthan-pillai-v15-c1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/22-nagoji-ananthan-pillai-v15-c2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-22-nagoji-ananthan-pillai-v15.json
+- agents-build-log.md (one append)
+### Diff summary:
+Saved two candidates and their SHA256 values. No generation errors or retries. Setup lookup error: rg was unavailable (exit 127); no entry was affected. No quality review performed.
+### Recommendations / Next steps:
+No further action taken.
+
+## [AGENT: Codex] [2026-10-08T19:44:48Z]
+### Action:
+Ran SHEET-BATCH-21-nagoji-commander-v15 in order using two built-in imagegen edits with the verbatim prompt and designated original source.
+### Files changed:
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/21-nagoji-commander-v15-c1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/21-nagoji-commander-v15-c2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-21-nagoji-commander-v15.json
+- agents-build-log.md (one append)
+### Diff summary:
+Saved two candidates without overwriting existing files. Recorded SHA-256 hashes. No errors, retries or quality review.
+### Recommendations / Next steps:
+No further action performed.
+
+## [AGENT: Codex] [2026-10-08T19:58:52Z]
+### Action:
+Ran SHEET-BATCH-22-nagoji-ananthan-pillai-v15-fix1 in order with two built-in imagegen edits using the verbatim prompt and designated source.
+### Files changed:
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/22-nagoji-ananthan-pillai-v15-f1-1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/22-nagoji-ananthan-pillai-v15-f1-2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-22-nagoji-ananthan-pillai-v15-fix1.json
+- agents-build-log.md (one append)
+### Diff summary:
+Saved two 1536x1024 images without overwriting. Recorded SHA256 hashes. No errors, retries or quality review.
+### Recommendations / Next steps:
+No further action performed.
+
+## [AGENT: Codex] [2026-10-08T19:59:06Z]
+### Action:
+Ran SHEET-BATCH-21-nagoji-commander-v15-fix1 in order with one built-in imagegen edit per entry, verbatim prompts and the designated source.
+### Files changed:
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/21-nagoji-commander-v15-f1-1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/21-nagoji-commander-v15-f1-2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-21-nagoji-commander-v15-fix1.json
+- agents-build-log.md (one append)
+### Diff summary:
+Saved two 1536x1024 images without overwriting. Recorded SHA256 hashes. No generation errors, retries or quality review. Setup lookup: rg unavailable; no entry affected.
+### Recommendations / Next steps:
+No further action taken.
+
+## [AGENT: Codex] [2026-10-08T19:59:17Z]
+### Action:
+Ran SHEET-BATCH-23-marthanda-varma-v15-fix1 in order with one built-in imagegen edit per entry, exact prompts and the designated edit source.
+### Files changed:
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/23-marthanda-varma-v15-f1-1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/23-marthanda-varma-v15-f1-2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-23-marthanda-varma-v15-fix1.json
+- agents-build-log.md (one append)
+### Diff summary:
+Saved two 1536x1024 images without overwriting existing files and recorded SHA256 hashes. No errors, retries or quality review.
+### Recommendations / Next steps:
+No further action performed.
+
+## [AGENT: Codex] [2026-10-08T20:19:51Z]
+### Action:
+Ran fix2 job lists 23, 22 and 21 in order, with one built-in imagegen edit per entry, verbatim prompts and the designated edit source.
+### Files changed:
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/23-marthanda-varma-v15-f2-1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/23-marthanda-varma-v15-f2-2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-23-marthanda-varma-v15-fix2.json
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/22-nagoji-ananthan-pillai-v15-f2-1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/22-nagoji-ananthan-pillai-v15-f2-2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-22-nagoji-ananthan-pillai-v15-fix2.json
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/21-nagoji-commander-v15-f2-1.png
+- output/comic-v15-full-redo/concepts/candidates-2026-10-08/21-nagoji-commander-v15-f2-2.png
+- output/comic-v15-full-redo/review-sheets/SHEET-LOG-21-nagoji-commander-v15-fix2.json
+- agents-build-log.md (one append)
+### Diff summary:
+Saved six 1536x1024 images without overwriting and wrote three logs with SHA256 hashes. No generation errors, retries or quality review. Setup lookup: rg unavailable; no entry affected.
+### Recommendations / Next steps:
+No further action performed.
+
+## [AGENT: Codex] [2026-10-09T01:26:22Z]
+### Action:
+Ran LEAN-BATCH-151 in order with one built-in imagegen edit per entry using verbatim prompts and only each designated edit source. Task id: 01a11e2f-6f02-7f73-833d-465c65e56506.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch23/frames/: 10 new candidate images
+- output/comic-v15-full-redo/chapters/ch23/candidates/: 10 new candidate records
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-151.json
+- agents-build-log.md (one append)
+### Diff summary:
+10 captured, 0 errors, 0 retries. No review, selection or build performed.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Codex] [2026-10-09T01:30:30Z]
+### Action:
+Ran LEAN-BATCH-153 in order using built-in imagegen with verbatim prompts: three edits and one generation, one call per entry. Captured all four results.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch20/frames/page-07-panel-03-v03.png
+- output/comic-v15-full-redo/chapters/ch20/candidates/page-07-panel-03-v03.json
+- output/comic-v15-full-redo/chapters/ch20/frames/page-07-panel-04-v03.png
+- output/comic-v15-full-redo/chapters/ch20/candidates/page-07-panel-04-v03.json
+- output/comic-v15-full-redo/chapters/ch20/frames/page-12-panel-04-v03.png
+- output/comic-v15-full-redo/chapters/ch20/candidates/page-12-panel-04-v03.json
+- output/comic-v15-full-redo/chapters/ch20/frames/page-13-panel-04-v03.png
+- output/comic-v15-full-redo/chapters/ch20/candidates/page-13-panel-04-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-153.json
+- agents-build-log.md (one append)
+### Diff summary:
+Added four v03 frame images and candidate records and the four-entry generation log. No errors or retries. No quality review, selection or build performed.
+### Recommendations / Next steps:
+No further action taken.
+
+## [AGENT: Codex] [2026-10-09T01:46:41Z]
+### Action:
+Ran LEAN-BATCH-143 then LEAN-BATCH-144 in manifest order with built-in imagegen, verbatim prompts and all listed references in order. Captured each returned image.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch15/frames/ and candidates/: 11 new frame and candidate pairs
+- output/comic-v15-full-redo/chapters/ch17/frames/ and candidates/: 13 new frame and candidate pairs
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-143.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-144.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 143: 11 captured, 0 errors. Batch 144: 13 captured, 2 errors. Chapter 17 page-03-panel-04 and page-07-panel-02 each returned: `referenced_image_paths` must contain at most 5 paths. No retries, prompt changes, quality review, selection or builds.
+### Recommendations / Next steps:
+No further action performed.
+
+## [AGENT: Codex] [2026-10-09T01:53:57Z]
+### Action:
+Ran LEAN-BATCH-141 then LEAN-BATCH-142 in manifest order using built-in imagegen, exact prompts and references in the supplied order. Captured every result with run_chapter.py capture.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch15/frames/ (26 new candidates)
+- output/comic-v15-full-redo/chapters/ch15/candidates/ (26 new records)
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-141.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-142.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 141: 13 captured, 0 entry errors. Batch 142: 13 captured, 0 entry errors. One imagegen call per entry, no retries. No quality review, selection or build. Setup errors: zsh:1: command not found: rg; initial manifest JSON parsing encountered a warning prefix and was reread successfully. No entry was affected.
+### Recommendations / Next steps:
+No further action performed. Visual review remains pending.
+
+## [AGENT: Codex] [2026-10-09T01:55:10Z]
+### Action:
+Ran LEAN-BATCH-145 followed by LEAN-BATCH-146 in manifest order with built-in imagegen, verbatim prompts and all specified references in order. Captured each result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch17/frames/ and candidates/: 14 new images and 14 new candidate records
+- output/comic-v15-full-redo/chapters/ch24/frames/ and candidates/: 14 new images and 14 new candidate records
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-145.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-146.json
+- agents-build-log.md (this single append)
+### Diff summary:
+28 imagegen calls, 28 captures, 0 entry errors and 0 retries. Both generation logs contain 14 entries. No reviews, selection or builds. Setup-only combined prompt read exceeded output capacity and JSON parsing failed: SyntaxError: Unexpected token 'W', "Warning: t"... is not valid JSON. Prompts were then read individually before each call; no entry was affected.
+### Recommendations / Next steps:
+No further action performed. Captures retain visual_review: pending.
+
+## [AGENT: Codex] [2026-10-09T01:56:47Z]
+### Action:
+Ran LEAN-BATCH-149 followed by LEAN-BATCH-150 in manifest order using built-in imagegen, verbatim prompts and ordered references; captured each result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch24/frames/ and candidates/ (11 each)
+- output/comic-v15-full-redo/chapters/ch28/frames/ and candidates/ (16 each)
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-149.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-150.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 149: 11 captured, 0 errors.
+Batch 150: 16 captured, 0 errors.
+27 imagegen calls, no generation retries. Setup parsing error: SyntaxError: Unexpected token W while parsing command output with a Warning prefix; recovered before generation, no entry affected.
+### Recommendations / Next steps:
+No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-09T02:00:59Z]
+### Action:
+Ran LEAN-BATCH-147 then LEAN-BATCH-148 in manifest order with built-in imagegen and verbatim prompts, attaching all listed references in order. Captured each result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch24/frames/: 28 new candidate images.
+- output/comic-v15-full-redo/chapters/ch24/candidates/: 28 new candidate records.
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-147.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-148.json
+- agents-build-log.md: this single appended entry.
+### Diff summary:
+Batch 147: 14 captured, 0 entry errors. Batch 148: 14 captured, 0 entry errors. No retries, quality reviews, selections or builds. Setup read aggregation failed with SyntaxError: Unexpected token 'W', "Warning: t"... is not valid JSON; manifests and prompts were subsequently read individually, with no entry affected.
+### Recommendations / Next steps:
+No further action performed.
+
+## [AGENT: Codex] [2026-10-09T02:03:17Z]
+### Action:
+Ran LEAN-BATCH-181 then LEAN-BATCH-182 in order with built-in imagegen and verbatim prompts. One call per entry, using the listed edit source or references in order, followed by capture.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch27/frames/page-02-panel-04-v04.png
+- output/comic-v15-full-redo/chapters/ch27/candidates/page-02-panel-04-v04.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-03-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-03-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-07-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-07-panel-02-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-181.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-182.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 181: 1 captured, 0 entry errors. Batch 182: 2 captured, 0 entry errors. No retries, review, selection or builds. Setup error: zsh:1: command not found: rg. Used grep for the read-only lookup. Capture records retain pipeline-derived reference metadata; actual imagegen attachments followed the manifests exactly.
+### Recommendations / Next steps:
+No further action taken.
+
+## [AGENT: Codex] [2026-10-09T02:05:54Z]
+### Action:
+Ran LEAN-BATCH-183 with one built-in imagegen edit using the verbatim prompt and specified edit source, then captured the result. Task id: 01a11e65-f879-7e02-b8da-3fd87ee6b9c1.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch12-split2/frames/page-07-panel-03-v03.png
+- output/comic-v15-full-redo/chapters/ch12-split2/candidates/page-07-panel-03-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-183.json
+- agents-build-log.md (this single append)
+### Diff summary:
+1 captured, 0 errors. No retries, review, selection or build.
+### Recommendations / Next steps:
+Visual review remains pending.
+
+## [AGENT: Codex] [2026-10-09T02:06:58Z]
+### Action:
+Ran LEAN-BATCH-152 in manifest order with built-in imagegen: 14 generations and 5 edits, with verbatim prompts and designated inputs. Captured all 19 results.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch22/frames/ (19 new candidates)
+- output/comic-v15-full-redo/chapters/ch22/candidates/ (19 new records)
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-152.json
+- agents-build-log.md (one append)
+### Diff summary:
+19 captured, 0 entry errors, 0 imagegen retries. Setup encountered a truncated JSON read and a helper scope ReferenceError; both were corrected before further image calls. No reviews, selections or builds.
+### Recommendations / Next steps:
+No further action performed.
+
+## [AGENT: Codex] [2026-10-09T02:07:23Z]
+### Action:
+Ran LEAN-BATCH-156 then LEAN-BATCH-157 in manifest order using built-in imagegen and verbatim prompts, with only each designated edit source or ordered references. Captured every result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch07/frames/: 17 new images
+- output/comic-v15-full-redo/chapters/ch07/candidates/: 17 new candidate records
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-156.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-157.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 156: 15 captured, 0 entry errors. Batch 157: 2 captured, 0 entry errors. Exactly one imagegen call per entry, no retries. No quality review, selection or build. Setup errors recovered before image calls: JSON parsing failed on truncated combined prompt output; SyntaxError: await is only valid in async functions and the top level bodies of modules. Corrected a trailing literal newline escape in the new batch 156 log. Both logs parse and all recorded candidate paths exist.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Codex] [2026-10-09T02:12:02Z]
+### Action:
+Ran LEAN-BATCH-187 in order with built-in imagegen, one call per entry, verbatim prompts and designated inputs. Task id: 01a11e6b-4308-7be3-ae73-e095807dd1f0.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch28/frames/page-04-panel-04-v03.png
+- output/comic-v15-full-redo/chapters/ch28/candidates/page-04-panel-04-v03.json
+- output/comic-v15-full-redo/chapters/ch28/frames/page-11-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch28/candidates/page-11-panel-02-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-187.json
+- agents-build-log.md (one append)
+### Diff summary:
+2 captured, 0 entry errors, no retries. No review, selection or build.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Codex] [2026-10-09T02:12:16Z]
+### Action:
+Ran LEAN-BATCH-161, LEAN-BATCH-162 and LEAN-BATCH-163 in order with built-in imagegen, one edit call per entry using the verbatim prompt and specified edit source. Captured all 17 results. Codex task id: 01a11e52-2e2d-7023-b992-56d90ce711ce.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-03-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch11-split2/frames/page-03-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-19-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch11-split2/frames/page-19-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-24-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch11-split2/frames/page-24-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch12-split2/candidates/page-07-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch12-split2/frames/page-07-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch12-split2/candidates/page-10-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch12-split2/frames/page-10-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch12-split2/candidates/page-11-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch12-split2/frames/page-11-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-02-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-02-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-04-panel-01-v03.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-04-panel-01-v03.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-04-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-04-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-06-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-06-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-08-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-08-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-08-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-08-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-08-panel-05-v03.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-08-panel-05-v03.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-08-panel-06-v03.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-08-panel-06-v03.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-11-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-11-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-14-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-14-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch13/candidates/page-15-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch13/frames/page-15-panel-04-v02.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-161.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-162.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-163.json
+- agents-build-log.md (one append)
+### Diff summary:
+Added 17 frame images, 17 candidate records and three generation logs. All entries captured, with no imagegen or capture errors and no retries. Initial bulk prompt-read output was truncated and JSON parsing reported: SyntaxError: Unexpected token 'W', "Warning: t"... is not valid JSON. No imagegen calls had occurred; prompts were subsequently read individually. No review, selection or build performed.
+### Recommendations / Next steps:
+No further action taken.
+
+## [AGENT: Codex] [2026-10-09T02:15:49Z]
+### Action:
+Ran LEAN-BATCH-158, LEAN-BATCH-159 and LEAN-BATCH-160 in order using built-in imagegen with verbatim prompts and specified inputs. One call per entry, 18 captures.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-01-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-01-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-03-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-03-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-04-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-04-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-05-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-05-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-06-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-06-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-06-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-06-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-07-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-07-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-07-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-07-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-08-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-08-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-09-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-09-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-10-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-10-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-11-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-11-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-12-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-12-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-12-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-12-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-12-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-12-panel-03-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-158.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-12-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-12-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch08-split/frames/page-14-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch08-split/candidates/page-14-panel-02-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-159.json
+- output/comic-v15-full-redo/chapters/ch09-split2/frames/page-15-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch09-split2/candidates/page-15-panel-02-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-160.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 158: 15 captured. Batch 159: 2 captured. Batch 160: 1 captured. No imagegen or capture errors and no imagegen retries. Two orchestration errors before the affected calls were corrected: SyntaxError: Unexpected token W while parsing warning-prefixed JSON; SyntaxError: await is only valid in async functions and the top level bodies of modules. No prompt changes.
+### Recommendations / Next steps:
+No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-09T02:16:19Z]
+### Action:
+Ran LEAN-BATCH-188 in manifest order using built-in imagegen, one edit per entry with verbatim prompts and only the designated edit source. Captured both results.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch17/frames/page-03-panel-04-v03.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-03-panel-04-v03.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-07-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-07-panel-02-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-188.json
+- agents-build-log.md (one append)
+### Diff summary:
+2 captured, 0 errors, 0 retries.
+### Recommendations / Next steps:
+No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-09T02:22:31Z]
+### Action:
+Ran LEAN-BATCH-184 then LEAN-BATCH-186 in manifest order using built-in imagegen with unchanged prompts and designated inputs. Captured each result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-09-panel-05-v03.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch17/frames/page-09-panel-05-v03.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/candidates/page-04-panel-04-v03.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/frames/page-04-panel-04-v03.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/candidates/page-05-panel-03-v03.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/frames/page-05-panel-03-v03.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/candidates/page-07-panel-04-v03.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/frames/page-07-panel-04-v03.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/candidates/page-08-panel-03-v03.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/frames/page-08-panel-03-v03.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/candidates/page-25-panel-04-v03.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24/frames/page-25-panel-04-v03.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-184.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-186.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 184: 1 captured, 0 errors. Batch 186: 5 captured, 0 errors. Six distinct imagegen outputs, no retries. Capture records retain pipeline-derived reference metadata; actual attachments followed the manifests. No review, selection or build.
+### Recommendations / Next steps:
+No further action taken.
+
+## [AGENT: Codex] [2026-10-09T02:22:41Z]
+### Action:
+Ran LEAN-BATCH-189 in manifest order using built-in imagegen with verbatim prompts, one generation and one edit. Captured both results.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch24/frames/page-22-panel-03-v03.png
+- output/comic-v15-full-redo/chapters/ch24/candidates/page-22-panel-03-v03.json
+- output/comic-v15-full-redo/chapters/ch24/frames/page-24-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch24/candidates/page-24-panel-02-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-189.json
+- agents-build-log.md (one append)
+### Diff summary:
+2 captured, 0 errors, 0 retries.
+### Recommendations / Next steps:
+No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-09T02:24:25Z]
+### Action:
+Ran LEAN-BATCH-174 then LEAN-BATCH-175 in manifest order with verbatim prompts and one built-in imagegen edit call per entry. Captured every returned image.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-03-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-03-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-04-panel-02-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-04-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-08-panel-03-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-08-panel-03-v03.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-11-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-11-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-12-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-12-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-12-panel-02-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-12-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-13-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-13-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-13-panel-02-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-13-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-13-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-13-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-14-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-14-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-14-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-14-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-15-panel-01-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-15-panel-01-v03.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-15-panel-05-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-15-panel-05-v03.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-16-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-16-panel-01-v02.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-174.json
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-16-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-16-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-16-panel-04-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-16-panel-04-v03.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-17-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-17-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-17-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-17-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-17-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-17-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-17-panel-05-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-17-panel-05-v03.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-18-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-18-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch23/candidates/page-18-panel-03-v03.json
+- output/comic-v15-full-redo/chapters/ch23/frames/page-18-panel-03-v03.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-175.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 174: 14 captured, 1 moderation_blocked error. Batch 175: 8 captured, 0 errors. No imagegen retries. An initial in-memory manifest parse failed with SyntaxError: Unexpected token W because a shell warning preceded JSON; manifest loading recovered before generation. No review, selection or build performed.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Codex] [2026-10-09T02:28:20Z]
+### Action:
+Ran LEAN-BATCH-164, LEAN-BATCH-165 and LEAN-BATCH-166 in manifest order with built-in imagegen, verbatim prompts and only the specified inputs. Captured all 23 results.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch14/frames/ and candidates/: 6 new images and records
+- output/comic-v15-full-redo/chapters/ch15/frames/ and candidates/: 2 new images and records
+- output/comic-v15-full-redo/chapters/ch16/frames/ and candidates/: 15 new images and records
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-164.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-165.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-166.json
+- agents-build-log.md (one append)
+### Diff summary:
+23 captured, 0 entry errors, 0 imagegen retries. No quality review, selection or build. Setup orchestration errors before capture: SyntaxError: Unexpected token 'W', "Warning: t"... is not valid JSON; SyntaxError: await is only valid in async functions and the top level bodies of modules. Both corrected without repeating imagegen or affecting entries.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Codex] [2026-10-09T02:30:18Z]
+### Action:
+Ran LEAN-BATCH-171, LEAN-BATCH-172 and LEAN-BATCH-173 in order using built-in imagegen, one edit per entry with its verbatim prompt and designated edit source. Captured all 21 results.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch20/frames/ and candidates/: 3 new images and records
+- output/comic-v15-full-redo/chapters/ch21/frames/ and candidates/: 9 new images and records
+- output/comic-v15-full-redo/chapters/ch22/frames/ and candidates/: 9 new images and records
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-171.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-172.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-173.json
+- agents-build-log.md (one append)
+### Diff summary:
+21 captured, 0 entry errors, 0 generation retries. Setup orchestration errors: SyntaxError: Unexpected token 'W' while parsing truncated output; SyntaxError: await is only valid in async functions and the top level bodies of modules. Both occurred before their dependent operations and affected no entry. No quality review, selection or build performed.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Claude] [2026-10-09T02:30Z]
+### Action: Head-aware speech tails verified and chapters 1 to 4 rebuilt lettering-only; V15 selection, identity-fix and retouch rounds continued
+### Files changed: output/comic-v15-full-redo/pipeline/{reserves.py, compositor.py, run_chapter.py, test_reserves.py, test_compositor.py, test_run_chapter.py, README.md, golden_ch04_drawn_planner-v2.json} (backups *.backup-pre-2026-10-08); chapters/ch01-v2, ch02, ch03, ch04 (new SELECTION-INPUT-*t-b, geometry-*t-b, pdf r15, r5, r11, r15; old PDFs kept); review-sheets/HAND-RETOUCH-2026-10-08.json; review-sheets/SELECT-ZONES-*-2026-10-08.json; review-sheets/IDVERIFY-1/2-2026-10-08.json; LEAN-BATCH-181 to 189; new decision rounds in ch07, ch11 to ch28 packages
+### Diff summary: Tails now stop 3 pt outside the speaker's head (tail_head); the placer mirrors that and falls back per chunk to the legacy short tail (tail_short) only where the long tail cannot place, with a last-resort legacy pass. Full suite 599 tests OK outside the sandbox (4 multiprocessing tests need it off); 5 differential fuzz runs (about 950 panels) show no regressions. Ch1 to 4 rebuilt on unchanged layouts: 129 tails, 110 head-aware, 0 short fallbacks, minimum 307 ppi. Identity fixes: round 1 and 2 verified (39 accepted, 29 retried); persistent ear beads and brand emblems removed by scripted pixel retouch (recorded with provenance); Varma knot set at the back accepted as a note (the V15 sheet draws it there). Forced picks past the stopping rule for ch13 2.5, ch16 7.3/13.5/19.3, ch22 (7 panels), each with faults listed.
+### Recommendations / Next steps: finish identity verification rounds 3 and 4, chapter 7/8 selections, the last fix batches (185, 186, 188, 189); rebuild ch5 to 12 lettering-only on the post-identity rounds; lay out and build ch13 to 28; author fault list and HTML report.
+
+## [AGENT: Codex] [2026-10-09T02:35:39Z]
+### Action:
+Processed LEAN-BATCH-154 and LEAN-BATCH-155 with one built-in imagegen call per entry and capture attempts. Task id: 01a11e51-dc7d-72a3-adfe-b2f7b2ac9df9.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch05-split2/frames/ and candidates/: 13 new images and records
+- output/comic-v15-full-redo/chapters/ch06-split/frames/ and candidates/: 13 new images and records
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-154.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-155.json
+- agents-build-log.md (one append)
+### Diff summary:
+Batch 154: 13 captured, 1 error. Batch 155: 13 captured, 0 errors. Chapter 5 page-04-panel-05 capture rejected: --prompt must begin with the prepared prompt. No retry, review, selection or build performed. Queue-loading deviation: in-memory combined prompt data omitted entries and mislabelled a batch; Chapter 6 page-03-panel-03 ran early, after Chapter 5 page-04-panel-05. Reloaded manifests and read remaining prompts individually, then processed all remaining entries without repeating imagegen calls. Initial setup JSON parse failed on a warning prefix and was corrected before generation. Generated output from the failed capture remains in the task imagegen directory.
+### Recommendations / Next steps:
+No further action taken. The failed capture and queue-order deviation are recorded for the requester.
+
+## [AGENT: Codex] [2026-10-09T02:36:03Z]
+### Action:
+Ran LEAN-BATCH-185 in manifest order with 12 built-in imagegen edits using verbatim prompts and specified edit sources. Captured all 12 results.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch15/frames/ (12 new v03 images)
+- output/comic-v15-full-redo/chapters/ch15/candidates/ (12 new v03 records)
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-185.json
+- agents-build-log.md (one append)
+### Diff summary:
+12 captured, 0 entry errors, 0 retries. Setup lookup error: zsh:1: command not found: rg. First imagegen response text was unintentionally printed and truncated; subsequent responses emitted only path metadata. Each capture uses a distinct generated artifact. No review, selection or build.
+### Recommendations / Next steps:
+Visual review remains pending.
+
+## [AGENT: Codex] [2026-10-09T02:36:34Z]
+### Action:
+Ran LEAN-BATCH-176 through LEAN-BATCH-180 in order with built-in imagegen, one edit call per entry using the verbatim prompt and specified source. Codex task id: 01a11e52-f97d-7f11-be60-2be3bf9b7999.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch24/candidates/page-01-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch24/frames/page-01-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch24/candidates/page-07-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch24/frames/page-07-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch24/candidates/page-07-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch24/frames/page-07-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch24/candidates/page-21-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch24/frames/page-21-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch24/candidates/page-21-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch24/frames/page-21-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch24/candidates/page-26-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch24/frames/page-26-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-01-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-01-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-02-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-02-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-03-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-03-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-06-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-06-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-06-panel-05-v03.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-06-panel-05-v03.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-07-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-07-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-09-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-09-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-11-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-11-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch25/candidates/page-12-panel-02-v03.json
+- output/comic-v15-full-redo/chapters/ch25/frames/page-12-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch26/candidates/page-01-panel-05-v03.json
+- output/comic-v15-full-redo/chapters/ch26/frames/page-01-panel-05-v03.png
+- output/comic-v15-full-redo/chapters/ch26/candidates/page-03-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch26/frames/page-03-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch26/candidates/page-04-panel-01-v03.json
+- output/comic-v15-full-redo/chapters/ch26/frames/page-04-panel-01-v03.png
+- output/comic-v15-full-redo/chapters/ch26/candidates/page-06-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch26/frames/page-06-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch26/candidates/page-06-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch26/frames/page-06-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch26/candidates/page-10-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch26/frames/page-10-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch26/candidates/page-11-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch26/frames/page-11-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch27/candidates/page-02-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch27/frames/page-02-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch27/candidates/page-03-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch27/frames/page-03-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch27/candidates/page-04-panel-02-v03.json
+- output/comic-v15-full-redo/chapters/ch27/frames/page-04-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch27/candidates/page-04-panel-03-v03.json
+- output/comic-v15-full-redo/chapters/ch27/frames/page-04-panel-03-v03.png
+- output/comic-v15-full-redo/chapters/ch27/candidates/page-07-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch27/frames/page-07-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch27/candidates/page-07-panel-03-v03.json
+- output/comic-v15-full-redo/chapters/ch27/frames/page-07-panel-03-v03.png
+- output/comic-v15-full-redo/chapters/ch28/candidates/page-13-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch28/frames/page-13-panel-01-v02.png
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-176.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-177.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-178.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-179.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-180.json
+- agents-build-log.md (one append)
+### Diff summary:
+29 captured, 0 entry errors, 0 imagegen retries. Five generation logs written. Initial orchestration preparation encountered output truncation and an async evaluation syntax error before the affected imagegen calls; no imagegen call was repeated. No review, selection or build performed.
+### Recommendations / Next steps:
+No further action taken.
+
+## [AGENT: Codex] [2026-10-09T02:38:51Z]
+### Action:
+Ran LEAN-BATCH-190 in order, one built-in imagegen edit per entry with verbatim prompts and designated edit sources, then captured each result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch07/frames/page-07-panel-04-v03.png
+- output/comic-v15-full-redo/chapters/ch07/frames/page-09-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch07/candidates/page-07-panel-04-v03.json
+- output/comic-v15-full-redo/chapters/ch07/candidates/page-09-panel-02-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-190.json
+- agents-build-log.md (one append)
+### Diff summary:
+2 captured, 0 errors, 0 retries. Distinct generated artifacts and saved hashes confirmed. No quality review, selection or build.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Codex] [2026-10-09T02:43:31Z]
+### Action:
+Ran LEAN-BATCH-167, 168, 169 and 170 in order with built-in imagegen and verbatim prompts. Captured all 25 results.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch16/frames/page-18-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch16/candidates/page-18-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch16/frames/page-19-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch16/candidates/page-19-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch16/frames/page-20-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch16/candidates/page-20-panel-02-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-167.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-02-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-02-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-04-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-04-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-04-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-04-panel-02-v02.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-09-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-09-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-10-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-10-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-10-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-10-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-12-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-12-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch17/frames/page-12-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch17/candidates/page-12-panel-05-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-168.json
+- output/comic-v15-full-redo/chapters/ch18/frames/page-01-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch18/candidates/page-01-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch18/frames/page-06-panel-01-v03.png
+- output/comic-v15-full-redo/chapters/ch18/candidates/page-06-panel-01-v03.json
+- output/comic-v15-full-redo/chapters/ch18/frames/page-08-panel-04-v03.png
+- output/comic-v15-full-redo/chapters/ch18/candidates/page-08-panel-04-v03.json
+- output/comic-v15-full-redo/chapters/ch18/frames/page-08-panel-05-v03.png
+- output/comic-v15-full-redo/chapters/ch18/candidates/page-08-panel-05-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-169.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-01-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-01-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-04-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-04-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-05-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-05-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-06-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-06-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-06-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-06-panel-02-v03.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-07-panel-03-v03.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-07-panel-03-v03.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-08-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-08-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-11-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-11-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-12-panel-01-v03.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-12-panel-01-v03.json
+- output/comic-v15-full-redo/chapters/ch19/frames/page-12-panel-02-v02.png
+- output/comic-v15-full-redo/chapters/ch19/candidates/page-12-panel-02-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-170.json
+- agents-build-log.md (one append)
+### Diff summary:
+25 captured, 0 entry errors, 0 imagegen retries. Batch totals: 167: 3; 168: 8; 169: 4; 170: 10. No review, selection or build performed. Two orchestration errors occurred before affected operations ran: SyntaxError: Unexpected token W while parsing truncated bulk prompt output; SyntaxError: await is only valid in async functions and the top level bodies of modules. Prompts were then read individually and the capture helper invoked in an async function. No duplicate imagegen or capture calls resulted.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Claude] [2026-10-09T02:57Z]
+### Action: Checkpoint at usage limit. Identity verification rounds 1 to 3 applied with retouches; forced picks merged for ch17, ch22, ch24, ch28; ch1 to 4 rebuilt; ch5 and ch8 to 12 lettering rebuilds and ch20/ch25 layout builds running
+### Files changed: review-sheets/HAND-RETOUCH-2026-10-08.json (about 70 scripted retouches, each with source version and sha256); review-sheets/IDVERIFY-1/2/3-2026-10-08.json; review-sheets/SELECT-ZONES-*-2026-10-08.json; new decision rounds in ch05-split2, ch07, ch08-split, ch09-split2, ch11 to ch28 packages
+### Diff summary: Picks complete in every chapter except ch15 and ch07 (forced rounds running). Identity: verify round 4 (ch06, ch16, ch19, ch22, ch27, ch28) running. Running jobs at checkpoint: workflows wrkr4w2fn (ch15), w2m7pp874 (ch07), weo2vi8or (identity round 4); builds b3d7d180f (ch20 then ch25 solve and build), b8ntnm16h (ch8 to 12 lettering), b58bp11yo (ch5 lettering). Session notes and merge commands: scratchpad r3-workflows.txt.
+### Recommendations / Next steps: merge ch15 and ch07 forced rounds (merge_latest.py ID PKG rG); apply identity round 4 (apply_identity.py) and retouch leftover ear beads and brand emblems; rebuild ch6 and ch7 lettering; solve_build ch13 to 28 (folios in scratchpad folios-13-28.txt); author fault list and HTML report; commit to the PR branch.
+
+## [AGENT: Codex] [2026-10-09T19:27:39Z]
+### Action:
+Processed LEAN-BATCH-191, LEAN-BATCH-192 and LEAN-BATCH-193 in manifest order using five built-in imagegen edit calls and five captures. Each call used its verbatim prompt, edit source first and king sheet second.
+### Files changed:
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/frames/page-12-panel-05-v03.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/candidates/page-12-panel-05-v03.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/frames/page-03-panel-05-v02.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-03-panel-05-v02.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/frames/page-04-panel-05-v02.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-04-panel-05-v02.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/frames/page-17-panel-02-v02.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/candidates/page-17-panel-02-v02.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch16-split/frames/page-13-panel-03-v02.png
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch16-split/candidates/page-13-panel-03-v02.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-191.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-192.json
+- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-193.json
+- /Users/roshanvenugopal/Documents/github/nagoji/agents-build-log.md (one append)
+### Diff summary:
+5 captured; 0 generation or capture errors; 0 retries. Chapter 10 page-12-panel-05: source size 1536x1344, returned size 1341x1173; captured unchanged. Preflight ls reported the three generation log paths did not exist; new logs were created without overwriting. No review, selection or build performed.
+### Recommendations / Next steps:
+None performed.
+
+## [AGENT: Claude] [2026-10-09T19:32Z]
+### Action: Tails and identity review of the 18 built chapters, root fix for crossing tails, Varma redraws, data fixes, ch17 split
+### Files changed:
+- output/comic-v15-full-redo/pipeline/reserves.py (backup reserves.py.backup-pre-uncross-2026-10-09): tails_cross, crossed_tails, place_boxes(uncross=...)
+- output/comic-v15-full-redo/pipeline/run_chapter.py (backup run_chapter.py.backup-pre-uncross-2026-10-09): drawn_geometry(uncross=...), auto-geometry passes uncross=True
+- output/comic-v15-full-redo/pipeline/test_reserves.py (TailPairTests, 5 tests), test_run_chapter.py (1 test)
+- output/comic-v15-full-redo/pipeline/review/TAIL-IDENTITY-REVIEW-2026-10-09.json, tail-sheets-2026-10-09/ (126 sheets), session-tools-2026-10-09/ (tail_sheets.py, scan_crossings.py, proto_geom.py, geom_preview.py, v15-tail-identity-review.js, rebuild-uncross-5-13.sh)
+- review-sheets/LEAN-BATCH-191..193.json (Varma edits, run by Codex), new decision rounds: ch06-split split-r4/FACES-s4/KEEP-s4, ch10-split2 split-r3, ch11-split2 split-r4, ch16-split split-r2, ch20-split2 split-r2, ch19 r6/FACES-v6/KEEP-c6, ch22 r8/FACES-v8/KEEP-c8
+- CONTINUITY.md ch17 anchors (backup pipeline/review/CONTINUITY-pre-anchors-ch17-2026-10-09.md): @1-8.3 to @1-10.3, @8.4-9.4 to @10.4-12.1, @9.5-9 to @12.2-12, @10.1-10 to @13.1-13, @11- to @14-
+- concepts/APPROVED-SHEETS.json spans (backup pipeline/review/APPROVED-SHEETS-pre-ch17-split-2026-10-09.json): Nagoji commander 5.3-17.10 to 5.3-17.13; Ananthan Pillai 17.11 to 17.14 (renumbering only, same approval as the anchors)
+- scripts/CHAPTER-17-* (split 6:3 7:3 9:4, 13 to 16 pages; backups .backup-pre-ch17-split-2026-10-09); chapters/ch17-split prepared and imported
+### Diff summary:
+- Review (8 readers over 1,308 balloons on tail check sheets): 16 findings. Confirmed: Varma drawn with Nagoji's heavy curled moustache and curly hair in ch10 12.5, ch11 3.5, 4.5, 17.2, ch16 13.3 (redrawn by Codex edits with the Varma sheet attached; picks made); crossing tails ch13 5.2, 17.1, 20.3, ch11 2.5; ch6 11.5 tail across Varma's chin (his face zone widened); ch20 14.3 off-panel priest tail landed on a woman in the crowd (tail point moved to the edge).
+- Placer: with uncross, a layout whose tails cross for two speakers is searched again with a no-crossing rule, taken only if it covers no new keep zone; non-crossing panels are byte-identical; only auto-geometry uses it (fit probes do not). TDD: 6 new tests failed first, then passed; full suite 603 of 607 in the sandbox (4 sandbox semaphore errors), rerun outside the sandbox pending.
+- scan_crossings.py: 16 crossing panels in 9 built chapters (5, 8, 10, 11, 12, 13, 18, 20, 25). Lettering rebuild of ch5-13 running (tag u1-b); ch18, 20, 25 follow with the folio pass.
+- ch19 5.3 had no placing height (both tails aimed at the top edge through a chin-sliver face zone): zone dropped, re-solving as s3. ch22 solve failed on a face zone centred off the frame (3.4): fixed, re-solving as s3.
+### Recommendations / Next steps:
+Builds for ch15, 17, 19, 21-28; folio pass; tails review of the remaining chapters; fault list and HTML report; commit to claude/v15-comic-ch1-8.
+
+## [AGENT: Codex] [2026-10-09T19:45:54Z]
+### Action:
+Implemented inscribed lettering with tests first for LEAF and LEDGER chunks.
+### Files changed:
+- output/comic-v15-full-redo/pipeline/run_chapter.py
+- output/comic-v15-full-redo/pipeline/compositor.py
+- output/comic-v15-full-redo/pipeline/test_run_chapter.py
+- output/comic-v15-full-redo/pipeline/test_compositor.py
+- Created run_chapter.py.backup-pre-inscribed-2026-10-09 and compositor.py.backup-pre-inscribed-2026-10-09 in the pipeline directory using exclusive creation.
+- agents-build-log.md (this append only).
+### Diff summary:
+- LEAF and LEDGER base names use caption geometry with no tail and default to inscribed unless an explicit style is present.
+- Inscribed uses canonical text and unchanged fit metrics; drawn captions have no outline, RGB (.95, .91, .80) wash at .72 fill alpha, and RGB (.23, .15, .08) text.
+- TDD: 6 new tests ran before implementation; 5 test methods failed with 11 subtest failures and 3 errors, while baseline byte equivalence passed. After implementation, 59 targeted tests passed.
+- Full suite: 613 tests passed in 337.042 seconds across test_reserves, test_run_chapter, test_compositor, test_layout_fit, test_script_pipeline, test_review_sheets. Used the requested Python with PYTHONDONTWRITEBYTECODE=1 from the pipeline directory. The session runner completed all tests including multiprocessing; no permission override was available or used.
+- Ordinary captions, speech balloons, and unreadable rendering matched pre-change PDF bytes. Four changed Python files parse, and additions contain no em or en dashes. No git commands or changes to protected project content.
+### Recommendations / Next steps:
+No further code changes required for this task.
+
+## [AGENT: Codex] [2026-10-09T20:13:01Z]
+### Action:
+Ran LEAN-BATCH-194 with one built-in imagegen call using the verbatim prompt and no references. Capture failed.
+### Files changed:
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-194.json
+- agents-build-log.md (this append only)
+### Diff summary:
+- Recorded capture error with null candidate_record.
+- Generated artifact: /Users/roshanvenugopal/.codex/generated_images/01a1224a-a4c0-7a51-82af-e081ea726e57/exec-e1c996cd-5cba-440d-8598-ac13d7f160dd.png
+- ValueError: --prompt must begin with the prepared prompt /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch21/prompts/page-05-panel-03.txt; a correction can only be appended or set in before its final SETTING paragraph
+### Recommendations / Next steps:
+Stopped as requested. No retry, prompt rewrite, review, selection or build.
+
+## [AGENT: Codex] [2026-10-09T20:16:05Z]
+### Action:
+Generated and captured LEAN-BATCH-195 using one built-in imagegen call with the exact prompt and no references.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch21/frames/page-05-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch21/candidates/page-05-panel-03-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-195.json
+- agents-build-log.md (this append only)
+### Diff summary:
+- Captured one 1536x1024 candidate; visual_review remains pending. No errors or retries.
+### Recommendations / Next steps:
+Stopped as requested. No review, selection or build.
+
+## [AGENT: Codex] [2026-10-09T21:05:25Z]
+### Action:
+Implemented write zones for inscribed lettering with tests first.
+### Files changed:
+- output/comic-v15-full-redo/pipeline/reserves.py
+- output/comic-v15-full-redo/pipeline/run_chapter.py
+- output/comic-v15-full-redo/pipeline/test_reserves.py
+- output/comic-v15-full-redo/pipeline/test_run_chapter.py
+- output/comic-v15-full-redo/pipeline/reserves.py.backup-pre-writezone-2026-10-09 (new exclusive backup)
+- output/comic-v15-full-redo/pipeline/run_chapter.py.backup-pre-writezone-2026-10-09 (new exclusive backup)
+- agents-build-log.md (this append only)
+### Diff summary:
+- role inscribe entries parse separately from keep zones. Inscribed boxes must fit wholly within one write rectangle across painted placement, quiet search, and retries. Ordinary copy avoids write zones by the existing soft rule.
+- Quiet search seeds positions within small fractional zones. Reading order remains enforced; impossible placements name the chunk.
+- Crops hold write zones. Auto geometry, frame rows, fit probes, and ratio fitting receive the same constraints.
+- TDD initial run: 20 tests, 3 failures and 10 errors before implementation. Added 13 tests total. Focused suite: 85 passed. Full suite: 627 passed in 234.648 seconds across test_reserves, test_run_chapter, test_compositor, test_layout_fit, test_script_pipeline, test_review_sheets.
+- Used the requested Python with PYTHONDONTWRITEBYTECODE=1 from the pipeline directory. The full suite ran through the permitted session runner; outside-sandbox execution was unavailable, and no permission override was used.
+- No-write geometry and inside=None placement matched the saved implementations. All four Python files parse; added code and tests contain no em or en dashes. No git commands or edits to protected project content.
+### Recommendations / Next steps:
+Implementation and available checks pass. If an explicitly unsandboxed run is required, repeat the same six-module unittest command in a local terminal.
+
+## [AGENT: Codex] [2026-10-09T21:07:30Z]
+### Action:
+Executed LEAN-BATCH-199 with one built-in imagegen edit and captured the result.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch28-split/frames/page-10-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch28-split/candidates/page-10-panel-01-v02.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-199.json
+- agents-build-log.md (one append)
+### Diff summary:
+Captured one 1536x1024 candidate using the verbatim prompt, edit source first and specified reference second. Capture metadata lists prepared model references; actual imagegen attachments were page-10-panel-01-v01.png and page-10-panel-02-v01.png. No errors or retries.
+### Recommendations / Next steps:
+Stopped as requested. Visual review remains pending. No review, selection or build performed.
+
+## [AGENT: Codex] [2026-10-09T21:17:01Z]
+### Action:
+Ran LEAN-BATCH-196, LEAN-BATCH-197 and LEAN-BATCH-198 in order using eight built-in imagegen edits with verbatim prompts, edit source first and king sheet second.
+### Files changed:
+- output/comic-v15-full-redo/chapters/ch15-split/frames/page-10-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch15-split/candidates/page-10-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22-split/frames/page-10-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22-split/candidates/page-10-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22-split/frames/page-11-panel-04-v02.png
+- output/comic-v15-full-redo/chapters/ch22-split/candidates/page-11-panel-04-v02.json
+- output/comic-v15-full-redo/chapters/ch22-split/frames/page-11-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch22-split/candidates/page-11-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch22-split/frames/page-13-panel-01-v02.png
+- output/comic-v15-full-redo/chapters/ch22-split/candidates/page-13-panel-01-v02.json
+- output/comic-v15-full-redo/chapters/ch22-split/frames/page-13-panel-03-v02.png
+- output/comic-v15-full-redo/chapters/ch22-split/candidates/page-13-panel-03-v02.json
+- output/comic-v15-full-redo/chapters/ch23-split/frames/page-01-panel-05-v02.png
+- output/comic-v15-full-redo/chapters/ch23-split/candidates/page-01-panel-05-v02.json
+- output/comic-v15-full-redo/chapters/ch23-split/frames/page-22-panel-02-v03.png
+- output/comic-v15-full-redo/chapters/ch23-split/candidates/page-22-panel-02-v03.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-196.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-197.json
+- output/comic-v15-full-redo/review-sheets/GENERATION-LOG-LEAN-BATCH-198.json
+- agents-build-log.md (this append only)
+### Diff summary:
+Captured all eight results as new v02 candidates. Eight distinct generated artifacts, no retries or errors. Visual review remains pending.
+### Recommendations / Next steps:
+No review, selection or build performed.
+- Version clarification: seven candidates are v02; chapter 23 page-22-panel-02 is v03 because an earlier version already existed.
+
+## [AGENT: Claude] [2026-10-09T21:41Z]
+### Action: Finished the V15 book build: all 28 chapters at final folios, two more tails-and-identity reviews, Varma redraws, ch21 inscriptions, final report
+### Files changed:
+- output/comic-v15-full-redo/chapters/* (new split packages ch17-split, ch21-split, ch21-split2, ch22-split, ch23-split, ch24-split, ch26-split, ch28-split; new decision rounds; final builds as listed in pipeline/review/V15-FINAL-BUILDS-2026-10-09.json)
+- output/comic-v15-full-redo/scripts/CHAPTER-{17,21,22,23,24,26,28}-* (splits; backups .backup-pre-chNN-split-2026-10-09)
+- output/comic-v15-full-redo/CONTINUITY.md anchors for ch22, ch24, ch28 (backups pipeline/review/CONTINUITY-pre-anchors-chNN-2026-10-09.md); concepts/APPROVED-SHEETS.json spans 28.12 to 28.14 and 28.13.2 to 28.15.2 (backup pipeline/review/APPROVED-SHEETS-pre-ch28-split-2026-10-09.json)
+- output/comic-v15-full-redo/pipeline/compositor.py (_pdf_reader raises pypdf's stream limit; test LargeImageStreamTests); Codex: inscribed style (run_chapter, compositor) and write zones (reserves, run_chapter), reviewed and re-tested
+- output/comic-v15-full-redo/pipeline/review/V15-FINAL-REPORT-2026-10-09.{md,html,json}, TAIL-IDENTITY-REVIEW-{B,C,D,E}-*.json, tail-sheets-2026-10-09{b,c,d,e}/, session-tools-2026-10-09/ (final_report.py, folios.py, probe_panel.py, lean_assemble.py role passthrough, rebuild and folio scripts)
+- review-sheets/LEAN-BATCH-194..199 (+ generation logs by Codex), AUTHOR-LIST-accepted-faults-2026-10-09.json
+### Diff summary:
+- 415 pages, 1709 placed images, minimum 300.6 PPI; folios run on without a gap; every chapter matches its script's page count.
+- Reviews B to E (chapters 15, 17, 19, 21 to 28): 9 more Varma panels read like Nagoji and were redrawn (ch15 10.1; ch22 10.4, 11.4, 11.5, 13.1, 13.3; ch23 1.5, 22.2; ch28 10.1), 14 in all today; ch24, 26, 27 clean.
+- ch21: 5.3 regenerated as a 3:2 frame (LEAN-BATCH-195); LEAF and LEDGER lines lettered on the leaves' blank bands (write zones, all 20 inside); split to 13 pages.
+- ch19 5.3, ch22 3.4, ch27 7.3 zone fixes; ch26 verification fixed (75.5 MB full-page image).
+- 18 crossing tails remain, each with no other layout in its panel (listed in the report). Tests: 627 pass.
+### Recommendations / Next steps:
+Author: the decisions listed in V15-FINAL-REPORT-2026-10-09.html ("(off)" narration tags, spreads, forced crossings, ch21 inscription look).

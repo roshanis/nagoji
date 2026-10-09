@@ -9,8 +9,8 @@ Source: `book1_horse_servant/book4_chapter28_servant_of_padmanabha.md`, 3,497 wo
 CONTINUITY.md's ch28 row covers only the epilogue, so every look below is restated inside each panel that shows the figure. Page-header text does not reach the image model; the panel text does.
 
 - **Nagoji, temple (pages 1 to 5):** Kerala topknot, NO turban, grey at the temples, bare chest, cream mundu, shoulder cloth, silver chain of office, no forehead marks, no sacred thread; thick curled moustache, clean-shaven chin, small gold ear stud.
-- **Nagoji, fort (pages 6 to 11):** white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at the temples, silver chain; thick curled moustache, clean-shaven chin, small gold ear stud.
-- **Nagoji, later life (page 12, 13.4):** nagoji-v2 later-life sheet: grey-streaked hair in a topknot, white mundu with a gold border, its end draped over one shoulder, no coat, NO turban; thick curled moustache, clean-shaven chin, small gold ear stud.
+- **Nagoji, fort (pages 6 to 13):** white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at the temples, silver chain; thick curled moustache, clean-shaven chin, small gold ear stud.
+- **Nagoji, later life (page 14, 15.4):** nagoji-v2 later-life sheet: grey-streaked hair in a topknot, white mundu with a gold border, its end draped over one shoulder, no coat, NO turban; thick curled moustache, clean-shaven chin, small gold ear stud.
 - **Varma, dedication:** aged varma-v1 face, grey hair in a low knot, plain white mundu, bare torso, sacred thread across his chest, no jewels, no headwear.
 - **The whispering chief:** heavy-set older Nair chief, shaven head with a small front tuft, heavy gold ear-rings, red-bordered shoulder cloth, grey stubble, no thick moustache.
 - **The temple attendant (1.4, 4.3, 4.4, 5.3):** young and slight, bare-chested, plain short mundu, hair in a small knot at the crown. Not a priest.
@@ -189,7 +189,7 @@ Five panels. The circuit, the name, and the irony under it. Give 5.1 half the pa
 
 ## PAGE 6
 
-Five panels. Revathi comes to the fort. Keep the two of them apart in every frame until the last line of page 7. Nagoji in uniform from here to page 11: white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at temples, clean-shaven chin, thick moustache, gold ear stud.
+Five panels. Revathi comes to the fort. Keep the two of them apart in every frame until the last line of page 7. Nagoji in uniform from here to page 13: white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at temples, clean-shaven chin, thick moustache, gold ear stud.
 
 **6.1** Wide. A fort courtyard in early evening. Above the gate, the Travancore banner, a silver conch on red, lifting in the wind. Revathi Bayi stands alone on the flagstones looking up at it: deep indigo sari with gold, grey threading her black hair, jasmine in her braid, the tali on its yellow thread, flat-coin necklace, gold armlets, sandalwood line at the hairline. Behind her, in a doorway, Nagoji in uniform: white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at the temples, silver chain, sword at his hip; thick curled moustache, clean-shaven chin, small gold ear stud.
 
@@ -307,7 +307,7 @@ Five panels. The treaty in one panel, then the rampart. End on Nagoji's question
 
 ## PAGE 9
 
-Five panels. The king breaks. Use the stain technique from Chapter 1, 6.5, for the memory in 9.3.
+Two panels. The king breaks. Use the stain technique from Chapter 1, 6.5, for the memory in 10.1.
 
 **9.1** Over Varma's shoulder (grey low knot, sacred thread, shoulder cloth) toward the dark: far off, the small lamps of distant forts on the hills. He is looking back out over the dark as he speaks.
 
@@ -323,17 +323,23 @@ Five panels. The king breaks. Use the stain technique from Chapter 1, 6.5, for t
 
 > VARMA: Every name. Every claim I denied. Every law I bent or broke.
 
-**9.3** Varma's face, close, his voice cracking. Behind him, bleeding into the panel edge like a stain rather than a clean flashback frame: the same memory as the Chapter 27 stain (7.4), a sunlit courtyard long ago and young Savitri of Kottarakkara, a girl in her teens, her head thrown back in laughter. Her face is Savitri's Chapter 27 face made young. She wears a cream cloth with a red-and-gold border and simple gold at her ears and throat. NOT Revathi: no indigo, no jasmine braid, no tali, no flat-coin necklace.
+---
+
+## PAGE 10
+
+Three panels, continuing page 9.
+
+**10.1** Varma's face, close, his voice cracking. Behind him, bleeding into the panel edge like a stain rather than a clean flashback frame: the same memory as the Chapter 27 stain (7.4), a sunlit courtyard long ago and young Savitri of Kottarakkara, a girl in her teens, her head thrown back in laughter. Her face is Savitri's Chapter 27 face made young. She wears a cream cloth with a red-and-gold border and simple gold at her ears and throat. NOT Revathi: no indigo, no jasmine braid, no tali, no flat-coin necklace.
 
 > VARMA: I remember her laugh. From when we were young.
 
-**9.4** Varma in profile against the night sky (grey low knot, sacred thread across his chest), his grip on the parapet loosening, one hand lying open on the wet stone. Nagoji small and out of focus behind him (white coat, topknot).
+**10.2** Varma in profile against the night sky (grey low knot, sacred thread across his chest), his grip on the parapet loosening, one hand lying open on the wet stone. Nagoji small and out of focus behind him (white coat, topknot).
 
 > VARMA: And I remember the moment, in that tent, when I looked in her eyes and saw that she would never laugh again.
 
 > VARMA: I did that. For this.
 
-**9.5** Full width, bottom. Wide over the rampart: the king's arm opening out toward the dark kingdom below, the lamps of forts on the far hills, the pale line of a road, the ordered cookfires of an army camp. Two small figures on the wall: Varma bare-chested in white, Nagoji in the white coat.
+**10.3** Full width, bottom. Wide over the rampart: the king's arm opening out toward the dark kingdom below, the lamps of forts on the far hills, the pale line of a road, the ordered cookfires of an army camp. Two small figures on the wall: Varma bare-chested in white, Nagoji in the white coat.
 
 > VARMA: For this.
 
@@ -343,35 +349,41 @@ Five panels. The king breaks. Use the stain technique from Chapter 1, 6.5, for t
 
 ---
 
-## PAGE 10
+## PAGE 11
 
-Five panels. The chapel. Three men from three enemy peoples under one banner. End on Duarte's hand beginning to rise. In every three-shot, left to right: De Lannoy, Nagoji, Duarte. Nagoji in uniform: white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at temples, clean-shaven chin, thick moustache, gold ear stud.
+Three panels. The chapel. Three men from three enemy peoples under one banner. End on Duarte's hand beginning to rise. In every three-shot, left to right: De Lannoy, Nagoji, Duarte. Nagoji in uniform: white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at temples, clean-shaven chin, thick moustache, gold ear stud.
 
-**10.1** Wide. Evening, a quiet corner of Udayagiri Fort. A small chapel of local stone with a simple wooden cross above its door. Through the open door: De Lannoy (tall, pale grey hair, clean-shaven, a worn white Travancore coat over a plain buff waistcoat, no red waistcoat) kneeling in the front pew with his head bowed; Father Duarte at a small altar, hands raised (thin, white-haired, scholar's stoop, plain black cassock with a small cross, NO white Roman collar tab, no stole or chasuble). Nagoji in uniform (white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at the temples, thick curled moustache, clean-shaven chin) waits outside by the doorpost.
+**11.1** Wide. Evening, a quiet corner of Udayagiri Fort. A small chapel of local stone with a simple wooden cross above its door. Through the open door: De Lannoy (tall, pale grey hair, clean-shaven, a worn white Travancore coat over a plain buff waistcoat, no red waistcoat) kneeling in the front pew with his head bowed; Father Duarte at a small altar, hands raised (thin, white-haired, scholar's stoop, plain black cassock with a small cross, NO white Roman collar tab, no stole or chasuble). Nagoji in uniform (white European-cut coat, red waistcoat, brass buttons, Kerala topknot, NO turban, grey at the temples, thick curled moustache, clean-shaven chin) waits outside by the doorpost.
 
 > CAPTION: Udayagiri Fort. The Dutch had sailed away with their diminished pride.
 
 > CAPTION: Latin words that meant nothing to me, and everything to De Lannoy.
 
-**10.2** De Lannoy (tall, pale grey hair, worn white coat, buff waistcoat) stepping out into the evening light, a peace in his face rarely seen in the war halls. Nagoji (white coat, red waistcoat, topknot, NO turban) at the doorpost, facing him.
+**11.2** De Lannoy (tall, pale grey hair, worn white coat, buff waistcoat) stepping out into the evening light, a peace in his face rarely seen in the war halls. Nagoji (white coat, red waistcoat, topknot, NO turban) at the doorpost, facing him.
 
 > DE LANNOY: Pillai. You do not usually visit this part of the fort.
 
 > NAGOJI: I do not usually find two Europeans praying to their god in a kingdom that just surrendered itself to ours.
 
-**10.3** Duarte in the doorway behind De Lannoy: the scholar's stoop, the ink-stained fingers, white hair, plain black cassock with a small cross, NO white Roman collar tab.
+**11.3** Duarte in the doorway behind De Lannoy: the scholar's stoop, the ink-stained fingers, white hair, plain black cassock with a small cross, NO white Roman collar tab.
 
 > CAPTION: Father Duarte. I remembered those eyes from the dungeon. Now they held less guilt than acceptance.
 
 > DUARTE: The Maharaja permits us this small space. We ask nothing of him but the right to serve.
 
-**10.4** De Lannoy (worn white coat, buff waistcoat, pale grey hair) lays his palm flat on the chapel's stone doorframe as he speaks, the walls of the fort he designed rising behind him.
+---
+
+## PAGE 12
+
+Two panels, continuing page 11.
+
+**12.1** De Lannoy (worn white coat, buff waistcoat, pale grey hair) lays his palm flat on the chapel's stone doorframe as he speaks, the walls of the fort he designed rising behind him.
 
 > DE LANNOY: And to pray. A man needs something beyond walls and accounts.
 
 > DE LANNOY: Otherwise the walls become a prison and the accounts become chains.
 
-**10.5** Full width, bottom. The three of them at the foot of the fort wall in the low evening light, the chapel door behind them. Left to right: De Lannoy (worn white coat, buff waistcoat, tall, pale grey hair, clean-shaven), Nagoji (white coat, red waistcoat, brass buttons, topknot, NO turban, thick moustache), Duarte (white hair, plain black cassock, small cross, NO white Roman collar tab). As De Lannoy answers, Duarte steps forward out of the group toward Nagoji, his callused, ink-stained right hand just starting to lift.
+**12.2** Full width, bottom. The three of them at the foot of the fort wall in the low evening light, the chapel door behind them. Left to right: De Lannoy (worn white coat, buff waistcoat, tall, pale grey hair, clean-shaven), Nagoji (white coat, red waistcoat, brass buttons, topknot, NO turban, thick moustache), Duarte (white hair, plain black cassock, small cross, NO white Roman collar tab). As De Lannoy answers, Duarte steps forward out of the group toward Nagoji, his callused, ink-stained right hand just starting to lift.
 
 > NAGOJI: A Maratha cavalryman, a Dutch artillerist, a Portuguese priest.
 
@@ -381,31 +393,31 @@ Five panels. The chapel. Three men from three enemy peoples under one banner. En
 
 ---
 
-## PAGE 11
+## PAGE 13
 
-Five panels. Duarte's blessing pays off his hesitation in Chapter 1 (8.1 and 8.2). Hold 11.1 the way that page held his nod. Left to right as on page 10: De Lannoy, Nagoji, Duarte.
+Five panels. Duarte's blessing pays off his hesitation in Chapter 1 (8.1 and 8.2). Hold 13.1 the way that page held his nod. Left to right as on page 11: De Lannoy, Nagoji, Duarte.
 
-**11.1** Duarte's right hand, callused and ink-stained, stopped in the air between him and Nagoji, the black cassock sleeve fallen back from the wrist. Hold it. Nagoji (white coat, red waistcoat, topknot, NO turban) watching the hand. Duarte (white hair, plain black cassock, small cross, NO white Roman collar tab).
+**13.1** Duarte's right hand, callused and ink-stained, stopped in the air between him and Nagoji, the black cassock sleeve fallen back from the wrist. Hold it. Nagoji (white coat, red waistcoat, topknot, NO turban) watching the hand. Duarte (white hair, plain black cassock, small cross, NO white Roman collar tab).
 
 > *No text.*
 
-**11.2** The hand completes the motion: a sign of the cross in Nagoji's direction, quick but deliberate. Duarte (white hair, plain black cassock, small cross, NO white Roman collar tab).
+**13.2** The hand completes the motion: a sign of the cross in Nagoji's direction, quick but deliberate. Duarte (white hair, plain black cassock, small cross, NO white Roman collar tab).
 
 > DUARTE: I do not do this to convert you. It is the only blessing I know how to give.
 
 > DUARTE: And you have earned a blessing, Ananthan Pillai. Whatever you believe.
 
-**11.3** A lighter beat. De Lannoy (worn white coat, buff waistcoat) half-smiling; Duarte (white hair, plain black cassock, NO white Roman collar tab) with the ghost of a smile.
+**13.3** A lighter beat. De Lannoy (worn white coat, buff waistcoat) half-smiling; Duarte (white hair, plain black cassock, NO white Roman collar tab) with the ghost of a smile.
 
 > DE LANNOY: Even Ramayyan visited once. He spent the whole time examining the stonework rather than the altar.
 
 > DUARTE: He said the mortar was acceptable. High praise, from him.
 
-**11.4** De Lannoy (tall, pale grey hair, worn white coat) looking back through the open chapel door at the floor before the altar. Quiet.
+**13.4** De Lannoy (tall, pale grey hair, worn white coat) looking back through the open chapel door at the floor before the altar. Quiet.
 
 > DE LANNOY: When I die, I have asked to be buried here. In this fort I helped design. Under a stone that says I served Travancore.
 
-**11.5** Full width, bottom. De Lannoy at left, his right hand gripping Nagoji's forearm; Nagoji at centre (white coat, red waistcoat, brass buttons, topknot, NO turban, thick moustache, clean-shaven chin); Duarte at right beside them (white hair, plain black cassock, small cross, NO white Roman collar tab). The fort wall behind, the evening sky above it.
+**13.5** Full width, bottom. De Lannoy at left, his right hand gripping Nagoji's forearm; Nagoji at centre (white coat, red waistcoat, brass buttons, topknot, NO turban, thick moustache, clean-shaven chin); Duarte at right beside them (white hair, plain black cassock, small cross, NO white Roman collar tab). The fort wall behind, the evening sky above it.
 
 > DE LANNOY: We are all servants now. You serve Padmanabha through the king. I serve Padmanabha through the walls.
 
@@ -415,21 +427,21 @@ Five panels. Duarte's blessing pays off his hesitation in Chapter 1 (8.1 and 8.2
 
 ---
 
-## PAGE 12
+## PAGE 14
 
-Five panels. Years later. Nagoji in his later-life look for the rest of the book, except the memories in 13.1 and 13.2: grey-streaked hair in a topknot, white mundu with a gold border, its end draped over one shoulder, no coat, NO turban.
+Five panels. Years later. Nagoji in his later-life look for the rest of the book, except the memories in 15.1 and 15.2: grey-streaked hair in a topknot, white mundu with a gold border, its end draped over one shoulder, no coat, NO turban.
 
-**12.1** Wide. A star-fort rampart at dusk, monsoon clouds building over the sea. Nagoji old now, on the nagoji-v2 later-life sheet: grey-streaked hair in a topknot, white mundu with a gold border, its end draped over one shoulder, no coat, NO turban, the same thick curled moustache and clean-shaven chin, small gold ear stud, leaning on the parapet. Beside him a young Travancore officer: about twenty, round-faced, slighter than Nagoji, clean-shaven with no moustache, no ear stud, hair in a small Nair tuft at the crown, in a white European-cut coat and red waistcoat. The officer is NOT Nagoji: do not use the Nagoji reference for him.
+**14.1** Wide. A star-fort rampart at dusk, monsoon clouds building over the sea. Nagoji old now, on the nagoji-v2 later-life sheet: grey-streaked hair in a topknot, white mundu with a gold border, its end draped over one shoulder, no coat, NO turban, the same thick curled moustache and clean-shaven chin, small gold ear stud, leaning on the parapet. Beside him a young Travancore officer: about twenty, round-faced, slighter than Nagoji, clean-shaven with no moustache, no ear stud, hair in a small Nair tuft at the crown, in a white European-cut coat and red waistcoat. The officer is NOT Nagoji: do not use the Nagoji reference for him.
 
 > CAPTION: Years later, when my joints ached with old battles.
 
 > OFFICER: What was Travancore like, before it was Travancore?
 
-**12.2** Inset. Remembered: the map on the war-hall table, a painted map of the south of the peninsula with the sea to the left. Colour regions: red inland to the north (Mysore), black far to the north (the Nizam), brown to the east (Arcot), small blue marks at the coastal forts (the Europeans), and many small pale patches crowded along the south-west coast. No place names, labels or lettering anywhere on the map.
+**14.2** Inset. Remembered: the map on the war-hall table, a painted map of the south of the peninsula with the sea to the left. Colour regions: red inland to the north (Mysore), black far to the north (the Nizam), brown to the east (Arcot), small blue marks at the coastal forts (the Europeans), and many small pale patches crowded along the south-west coast. No place names, labels or lettering anywhere on the map.
 
 > CAPTION: Red for Mysore. Black for the Nizam. Brown for Arcot. Blue for the Europeans.
 
-**12.3** Nagoji (later-life: grey-streaked topknot, white gold-bordered mundu over one shoulder, NO turban, thick moustache, clean-shaven chin), turned toward the young officer (round face, no moustache, small Nair tuft, white coat).
+**14.3** Nagoji (later-life: grey-streaked topknot, white gold-bordered mundu over one shoulder, NO turban, thick moustache, clean-shaven chin), turned toward the young officer (round face, no moustache, small Nair tuft, white coat).
 
 > NAGOJI: It was smaller. And more divided. And more free, in some ways.
 
@@ -437,13 +449,13 @@ Five panels. Years later. Nagoji in his later-life look for the rest of the book
 
 > OFFICER: Do you miss it?
 
-**12.4** Large panel. What the wall looks down on, in three layers. Foreground, the yard below: Nair musketeers drilling by volley in white Travancore coats over white mundus, cross-belts, long muskets, a red standard with a silver conch above them; NOT red coats, NOT blue coats, no tricorns. Middle distance: a shore battery, its guns trained on the sea. Beyond: horsemen riding through the surf without flinching, and past them Marakkar coastal craft (Malabar pattamars with lateen sails, not European galleons) with the red silver-conch flag at the masthead. No lettering on any flag.
+**14.4** Large panel. What the wall looks down on, in three layers. Foreground, the yard below: Nair musketeers drilling by volley in white Travancore coats over white mundus, cross-belts, long muskets, a red standard with a silver conch above them; NOT red coats, NOT blue coats, no tricorns. Middle distance: a shore battery, its guns trained on the sea. Beyond: horsemen riding through the surf without flinching, and past them Marakkar coastal craft (Malabar pattamars with lateen sails, not European galleons) with the red silver-conch flag at the masthead. No lettering on any flag.
 
 > CAPTION: When I first washed ashore, the king borrowed lancers from Madurai and begged muskets from English factors. His horses feared the sand.
 
 > CAPTION: Now there were fifty thousand men under arms. All of it paid for in pepper and blood.
 
-**12.5** Nagoji close in the foreground (later-life: grey-streaked topknot, white gold-bordered mundu over one shoulder, NO turban, thick moustache, clean-shaven chin), old eyes on the young man. The officer at the edge of frame (round face, no moustache, small tuft, white coat), polite and blank.
+**14.5** Nagoji close in the foreground (later-life: grey-streaked topknot, white gold-bordered mundu over one shoulder, NO turban, thick moustache, clean-shaven chin), old eyes on the young man. The officer at the edge of frame (round face, no moustache, small tuft, white coat), polite and blank.
 
 > NAGOJI: I miss what it cost.
 
@@ -451,11 +463,11 @@ Five panels. Years later. Nagoji in his later-life look for the rest of the book
 
 ---
 
-## PAGE 13
+## PAGE 15
 
-Four panels. The last page of the book. Two memories, the rain on two women, and the rain on him. Give 13.4 the bottom half. Nagoji appears at three ages on this page, so his look is spelled out in each panel.
+Four panels. The last page of the book. Two memories, the rain on two women, and the rain on him. Give 15.4 the bottom half. Nagoji appears at three ages on this page, so his look is spelled out in each panel.
 
-**13.1** Faded, bleeding in from the panel edge like old ink: the Goa interrogation room from Chapter 1, framed low so the ceiling is out of frame. No nooses: if a rope shows at all, it hangs from an iron ring for binding wrists. Young Nagoji on the captivity sheet: torn ochre sleeveless tunic, cream dhoti, bandaged hands and wrists, ankle irons, barefoot, black hair loose with no grey, no topknot, no turban, light stubble at most; seated on the stool, wrists bound to its legs. The younger Duarte standing before him: dark-haired, thin, scholar's stoop, plain black cassock with a small cross, NO white Roman collar tab.
+**15.1** Faded, bleeding in from the panel edge like old ink: the Goa interrogation room from Chapter 1, framed low so the ceiling is out of frame. No nooses: if a rope shows at all, it hangs from an iron ring for binding wrists. Young Nagoji on the captivity sheet: torn ochre sleeveless tunic, cream dhoti, bandaged hands and wrists, ankle irons, barefoot, black hair loose with no grey, no topknot, no turban, light stubble at most; seated on the stool, wrists bound to its legs. The younger Duarte standing before him: dark-haired, thin, scholar's stoop, plain black cassock with a small cross, NO white Roman collar tab.
 
 > NAGOJI (faded): He seems to favour whoever has the better powder.
 
@@ -463,7 +475,7 @@ Four panels. The last page of the book. Two memories, the rain on two women, and
 
 > CAPTION: Just not the kind the priest was selling.
 
-**13.2** Memory, lamplit. Revathi's western verandah on a wet night, years back, in their married years. Revathi: deep indigo sari with gold, jasmine in her braid, grey threading in her black hair, the tali, flat-coin necklace, gold armlets; turning away toward a small girl, a niece and not Nagoji's child, running on the wet stone, one hand raised to scold. Nagoji behind her: Kerala topknot, NO turban, grey at the temples, cream mundu, shoulder cloth, silver chain, no knife at the waist, thick curled moustache, clean-shaven chin; mouth closed.
+**15.2** Memory, lamplit. Revathi's western verandah on a wet night, years back, in their married years. Revathi: deep indigo sari with gold, jasmine in her braid, grey threading in her black hair, the tali, flat-coin necklace, gold armlets; turning away toward a small girl, a niece and not Nagoji's child, running on the wet stone, one hand raised to scold. Nagoji behind her: Kerala topknot, NO turban, grey at the temples, cream mundu, shoulder cloth, silver chain, no knife at the waist, thick curled moustache, clean-shaven chin; mouth closed.
 
 > CAPTION: One night on her western verandah, long before Savitri's banners rose, I almost told her I would lay down my marches if she asked.
 
@@ -471,7 +483,7 @@ Four panels. The last page of the book. Two memories, the rain on two women, and
 
 > CAPTION: Perhaps that mercy was hers, not mine.
 
-**13.3** Wide, split down the middle, the same rain falling across both halves. Left: a small garden in Kochi, Savitri elderly, in white, lines of care, among her plants; no jasmine, no indigo. Right: a Velinadu courtyard, Revathi elderly on the verandah: grey hair still braided with jasmine, deep indigo sari with gold, tali, flat-coin necklace, gold armlets; children running laughing through the wet corridors. Keep the left and right order: Kochi left, Velinadu right.
+**15.3** Wide, split down the middle, the same rain falling across both halves. Left: a small garden in Kochi, Savitri elderly, in white, lines of care, among her plants; no jasmine, no indigo. Right: a Velinadu courtyard, Revathi elderly on the verandah: grey hair still braided with jasmine, deep indigo sari with gold, tali, flat-coin necklace, gold armlets; children running laughing through the wet corridors. Keep the left and right order: Kochi left, Velinadu right.
 
 > CAPTION: The monsoon came that year, as it always did.
 
@@ -481,7 +493,7 @@ Four panels. The last page of the book. Two memories, the rain on two women, and
 
 > CAPTION (right half): She remembered. The children in the rain carried my blood and hers.
 
-**13.4** Large, bottom half of the page. Nagoji alone on the fort wall in the rain, face lifted to it, eyes closed: later-life sheet, grey-streaked hair in a topknot, white mundu with a gold border, its end draped over one shoulder, thick curled moustache, clean-shaven chin, small gold ear stud, no coat, NO turban. Beyond and below him the whole kingdom under the same rain: forts, roads, fields, the grey sea.
+**15.4** Large, bottom half of the page. Nagoji alone on the fort wall in the rain, face lifted to it, eyes closed: later-life sheet, grey-streaked hair in a topknot, white mundu with a gold border, its end draped over one shoulder, thick curled moustache, clean-shaven chin, small gold ear stud, no coat, NO turban. Beyond and below him the whole kingdom under the same rain: forts, roads, fields, the grey sea.
 
 > CAPTION: Here I stood guard over what we had built from the ashes of what they had lost.
 
@@ -505,32 +517,32 @@ Four panels. The last page of the book. Two memories, the rain on two women, and
 - **The sweep.** The broom is a Kerala broom of coconut-leaf ribs with no pole, so the king works bent low or on his knees, which is the novel's "a king on his knees with a broom" (5.2). "Not a token gesture" and the step-by-step route are carried by the large circuit panel (5.1) rather than captions. "No one spoke. No one moved" is cut as art duplication. The nobles' murmur is drawn in 4.3, so "The murmuring died" in 4.5 answers something on the page.
 - **Revathi's scene** is kept at two full pages. Cut: "She did not speak to me at first" (shown by 6.1 and 6.2), "I did not answer" (shown by the silent panel 6.3), and "We will stand in the same halls. We will sign the same treaties", which the next line covers. "This woman I might have loved in another life" is cut: they have been married since Chapter 20 and her tali is in the frame, so on the page the line would read as a contradiction. The rest of that sentence, "another world where kings did not have to break houses to build kingdoms", is kept as Nagoji's caption on 7.5.
 - **The treaty** is one panel (8.1). "Reciprocate friendship", the arms sales, and Ramayyan's "real treaty" callback are cut for space; Ramayyan is drawn at the table instead. "They had sold their allies to save their trade" is kept, because it ties the Dutch peace to Savitri's ruin. "They signed" is left to the quill.
-- **The rampart** keeps Varma's speeches nearly whole. Trimmed: the envoys' business ("Asking about trade routes", "talking about shared interests") and "have begun building" (now "build"). "Every house I absorbed, every chief I bent, every woman I exiled" is kept verbatim on 8.5, so the king condemns himself before Nagoji asks the cost. The young Savitri laughing is added as a stain image (9.3), matching the Chapter 27 stain, to give "I remember her laugh" a face.
+- **The rampart** keeps Varma's speeches nearly whole. Trimmed: the envoys' business ("Asking about trade routes", "talking about shared interests") and "have begun building" (now "build"). "Every house I absorbed, every chief I bent, every woman I exiled" is kept verbatim on 8.5, so the king condemns himself before Nagoji asks the cost. The young Savitri laughing is added as a stain image (10.1), matching the Chapter 27 stain, to give "I remember her laugh" a face.
 - **The chapel** cuts the "What words?" exchange together with Duarte's "And I will say the words over you", "the words are the same in any language", "I know you have your own gods, or none", "That sounds like Ramayyan", the chapel's Syrian Christian visitors, "three men who had come to this coast by different storms", Duarte's clause in "We are all servants now", and Ramayyan's "This kingdom uses what it finds". Kept: the Ramayyan mortar joke with its punchline (it answers "checking the mortar" in 4.1), De Lannoy's burial wish (he is in fact buried at Udayagiri), and "You serve Padmanabha through the king. I serve Padmanabha through the walls", which carries the chapter title into the chapel.
-- **Duarte's raised hand** begins to lift at the foot of page 10 and is held, wordless, in 11.1, so the blessing pays off his hesitation and nod in Chapter 1.
-- **The epilogue.** "A hundred small kingdoms that were now one" and the army catalogue are folded into one large panel (12.4) with two captions and three layers of art; the separate line of star forts is dropped because the fort they stand on already reads as one. The officer's question, reported in the novel, is made a balloon. "Fool or a necessary storm" and the children arguing in the Velinadu house are cut so the last page can breathe. "I lifted my face to the rain" is the art of 13.4, not a caption. "On these walls" is left to the art of 13.4; "Here" is kept so it answers the Kochi and Velinadu tags of 13.3.
-- **The dungeon callback (13.1)** quotes Nagoji's own Chapter 1 line, "He seems to favour whoever has the better powder", the line the Chapter 1 script kept verbatim to pay off here.
+- **Duarte's raised hand** begins to lift at the foot of page 11 and is held, wordless, in 13.1, so the blessing pays off his hesitation and nod in Chapter 1.
+- **The epilogue.** "A hundred small kingdoms that were now one" and the army catalogue are folded into one large panel (14.4) with two captions and three layers of art; the separate line of star forts is dropped because the fort they stand on already reads as one. The officer's question, reported in the novel, is made a balloon. "Fool or a necessary storm" and the children arguing in the Velinadu house are cut so the last page can breathe. "I lifted my face to the rain" is the art of 15.4, not a caption. "On these walls" is left to the art of 15.4; "Here" is kept so it answers the Kochi and Velinadu tags of 15.3.
+- **The dungeon callback (15.1)** quotes Nagoji's own Chapter 1 line, "He seems to favour whoever has the better powder", the line the Chapter 1 script kept verbatim to pay off here.
 - **Verbatim lines kept:** "Not for war council. Not for treaty"; "All had learned to bow"; Varma's vow; both of the chief's whispers; "He had built walls of stone and armies of men..."; "There was no triumph in his gaze"; "And god's servant still held the sword"; all of Revathi's major lines, including "Closed is not the same as open" and "To remember"; "They had sold their allies to save their trade"; "Every house I absorbed, every chief I bent, every woman I exiled"; "more than pepper and prayers"; "I remember her laugh"; "For this"; Duarte's blessing; "You serve Padmanabha through the king. I serve Padmanabha through the walls"; "It is a strange household. But it holds"; "I miss what it cost"; "He did not know what had been burned to make it"; "long before Savitri's banners rose"; "That was the price. That was always the price"; and the book's last three lines.
-- **Page count** is 13 against a target of 12, inside the 10 to 14 range. The extra page goes to the finale (pages 12 and 13), because this is the last chapter of the book. The exposition before and around the ceremony is compressed to pay for it.
+- **Page count** is 13 against a target of 12, inside the 10 to 14 range. The extra page goes to the finale (pages 14 and 15), because this is the last chapter of the book. The exposition before and around the ceremony is compressed to pay for it.
 - **For the orchestrator (not edited here, because CONTINUITY.md is shared across parallel chapter revisions):** add "sacred thread across his chest" to Varma's ch28 dedication line, and note that ch28's pre-epilogue scenes use the ch17-27 temple dress and the ch24+ uniform, not the later-life sheet.
-- **Print, 300 PPI or more on every placed image.** Every panel and inset, not only the large ones, must reach at least 300 effective PPI at its placed size, measured after aspect-fit and crop, not from the file's DPI tag. The page is 6.125 x 9.25 in (6 x 9 in trim plus 0.125 in bleed) and the pipeline places art in a 369 pt (5.125 in) column over a 523.5 pt story height. A full-width panel therefore needs at least 1,538 px of visible width; a half-page panel (5.1, 13.4) at least 1,538 x 1,087 px; a full story-height panel 1,538 x 2,181 px; and any panel extended into the outside bleed 1,838 px across. An inset (4.4, 12.2) needs 300 PPI at its own placed size. A native 1,536 px frame reaches only 299.7 PPI at full width, so generate at the placed aspect ratio and run any frame below 300 PPI through the 2x upscaler (`~/AI/upscalers/upscale2x.py`) before placement, or regenerate it, per CONTINUITY.md. The large panels (1.1, 2.3, 5.1, 9.5, 12.4, 13.4) are the most at risk.
+- **Print, 300 PPI or more on every placed image.** Every panel and inset, not only the large ones, must reach at least 300 effective PPI at its placed size, measured after aspect-fit and crop, not from the file's DPI tag. The page is 6.125 x 9.25 in (6 x 9 in trim plus 0.125 in bleed) and the pipeline places art in a 369 pt (5.125 in) column over a 523.5 pt story height. A full-width panel therefore needs at least 1,538 px of visible width; a half-page panel (5.1, 15.4) at least 1,538 x 1,087 px; a full story-height panel 1,538 x 2,181 px; and any panel extended into the outside bleed 1,838 px across. An inset (4.4, 14.2) needs 300 PPI at its own placed size. A native 1,536 px frame reaches only 299.7 PPI at full width, so generate at the placed aspect ratio and run any frame below 300 PPI through the 2x upscaler (`~/AI/upscalers/upscale2x.py`) before placement, or regenerate it, per CONTINUITY.md. The large panels (1.1, 2.3, 5.1, 10.3, 14.4, 15.4) are the most at risk.
 
 ### Review changes
 
 - 8.4/8.5: Varma's "Every house I absorbed, every chief I bent, every woman I exiled" restored verbatim on 8.5 before "And the cost?"; the rampart note corrected.
-- 11.5: "You serve Padmanabha through the king. I serve Padmanabha through the walls" restored; Duarte's "And I will say the words over you" cut from 11.4 to make room.
-- 10.5: "Now we stand under the same banner" restored. 11.3: the "rather than the altar" punchline restored.
+- 13.5: "You serve Padmanabha through the king. I serve Padmanabha through the walls" restored; Duarte's "And I will say the words over you" cut from 13.4 to make room.
+- 12.2: "Now we stand under the same banner" restored. 13.3: the "rather than the altar" punchline restored.
 - 5.4: "There was no triumph in his gaze" restored. 1.1: "Some had lost kinsmen. Some had lost lands. All had learned to bow." added.
 - 8.1: "They had sold their allies to save their trade" added; "It silenced the threats inside the house" and "They signed" cut.
 - 7.5: Nagoji's "Another world, where kings did not have to break houses to build kingdoms" added.
-- 12.5: the officer is in frame; "He did not understand" cut; "He did not know what had been burned to make it" restored.
-- 13.2: "long before Savitri's banners rose" restored. 13.4: "Here I stood guard over what we had built from the ashes of what they had lost" restored.
-- 13.3: captions no longer narrate the split; "Kochi." and "Velinadu." tags plus one interiority caption.
-- Page 10 trimmed and restaged: names lettered for De Lannoy (10.1) and Duarte (10.3); De Lannoy's palm on the doorframe (10.4); the page ends on Duarte's hand beginning to lift (10.5), held in 11.1.
+- 14.5: the officer is in frame; "He did not understand" cut; "He did not know what had been burned to make it" restored.
+- 15.2: "long before Savitri's banners rose" restored. 15.4: "Here I stood guard over what we had built from the ashes of what they had lost" restored.
+- 15.3: captions no longer narrate the split; "Kochi." and "Velinadu." tags plus one interiority caption.
+- Page 11 trimmed and restaged: names lettered for De Lannoy (11.1) and Duarte (11.3); De Lannoy's palm on the doorframe (12.1); the page ends on Duarte's hand beginning to lift (12.2), held in 13.1.
 - 2.3 is now a full-width dark strip; 2.5 "Steel touching stone" cut; 4.5 lamp-hiss repeat cut and the murmur drawn in 4.3.
 - 5.2 and 5.5 restaged: the king on his knees with the broom as the chief watches; the king standing, unbowed, the sword behind him.
-- 9.1 and 9.4 given drawable staging; 9.3 names young Savitri, matched to the Chapter 27 stain and set apart from Revathi.
-- 12.4 cut to 39 words and three layers; Nair musketeers in white, Malabar craft under the conch flag.
+- 9.1 and 10.2 given drawable staging; 10.1 names young Savitri, matched to the Chapter 27 stain and set apart from Revathi.
+- 14.4 cut to 39 words and three layers; Nair musketeers in white, Malabar craft under the conch flag.
 - Look lines added and restated in every panel for Nagoji (temple, uniform, later life, captivity), Varma (sacred thread), the whispering chief, the attendant and herald (not priests), De Lannoy, Duarte (no collar tab), the young officer (not Nagoji), old Revathi and old Savitri; the three-shots fixed left to right.
-- 4.3, 4.4, 4.5, 5.1: Kerala coconut-rib broom with no pole. 8.1: 1750s VOC dress. 12.2: map with no lettering and defined regions. 13.1: no nooses, captivity sheet, young Duarte without collar tab. 11.4: De Lannoy looks back through the chapel door.
+- 4.3, 4.4, 4.5, 5.1: Kerala coconut-rib broom with no pole. 8.1: 1750s VOC dress. 14.2: map with no lettering and defined regions. 15.1: no nooses, captivity sheet, young Duarte without collar tab. 13.4: De Lannoy looks back through the chapel door.
 - Print note rewritten: every panel and inset at 300 PPI or more, with pixel minimums from the pipeline's page geometry.

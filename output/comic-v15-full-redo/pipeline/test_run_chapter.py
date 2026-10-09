@@ -921,6 +921,108 @@ class DrawnAutoGeometryTests(PackageCase):
 
     SCRIPT_TEXT = LONG_SCRIPT
 
+    def test_write_zone_parsing_and_validation(self):
+        write = {'x0': .1, 'y0': .2, 'x1': .4, 'y1': .6, 'role': 'inscribe'}
+        keep = dict(write, role='prop')
+        self.assertEqual(r.parse_keep([write, keep], 1000, 500), [[100, 100, 400, 300]])
+        self.assertEqual(r.parse_write_zones([write, keep], 1000, 500), [[100, 100, 400, 300]])
+        self.assertEqual(r.parse_write_zones(None, 1000, 500), [])
+        for bad in ({}, [dict(write, x0=True)], [dict(write, x1=.05)]):
+            with self.subTest(bad=bad), self.assertRaises(r.AutoGeometryError):
+                r.parse_write_zones(bad, 1000, 500)
+
+    def test_write_zones_hold_leaf_chunks_and_other_copy_keeps_off(self):
+        frame = self.generated('write.png', boxes=[], size=BIG)
+        copy = [{'speaker': who, 'text': 'A record.'} for who in ('LEAF', 'LEDGER', 'CAPTION')]
+        zones = [[200, 200, 900, 380], [1200, 200, 1900, 380]]
+        plan = r.drawn_geometry(frame, copy, {'rect_pt': [36, 300, 369, 153.75]}, [None]*3,
+                                write=zones, unpainted=True)
+        for reserve in plan['reserves'][:2]:
+            self.assertTrue(any(CoverCropGeometryTests.inside(reserve['rect'], z) for z in zones))
+        self.assertEqual(r.keep_coverage([plan['reserves'][2]['rect']], zones, plan['visible_rect']), [0, 0])
+        for zone in zones:
+            self.assertTrue(CoverCropGeometryTests.inside(zone, plan['visible_rect']))
+        with self.assertRaisesRegex(r.AutoGeometryError, 'chunk 0'):
+            r.drawn_geometry(frame, copy[:1], {'rect_pt': [36, 300, 369, 153.75]}, [None],
+                             write=[[200, 200, 205, 205]], unpainted=True)
+
+    def test_write_none_matches_saved_implementation(self):
+        import types
+        baseline = types.ModuleType('before_write_zones')
+        baseline.__file__ = r.__file__
+        source = Path(r.__file__ + '.backup-pre-writezone-2026-10-09').read_text()
+        exec(compile(source, baseline.__file__, 'exec'), baseline.__dict__)
+        frame = self.generated('baseline.png', boxes=[], size=BIG)
+        copy = [{'speaker': 'LEAF', 'text': 'A record.'}, {'speaker': 'CAPTION', 'text': 'Morning.'}]
+        args = (frame, copy, {'rect_pt': [36, 300, 369, 153.75]}, [None, None])
+        import reserves as rv
+        import sys
+        old_reserves = types.ModuleType('reserves')
+        old_reserves.__file__ = rv.__file__
+        source = Path(rv.__file__ + '.backup-pre-writezone-2026-10-09').read_text()
+        exec(compile(source, old_reserves.__file__, 'exec'), old_reserves.__dict__)
+        with mock.patch.dict(sys.modules, {'reserves': old_reserves}):
+            expected = baseline.drawn_geometry(*args, unpainted=True)
+        self.assertEqual(json.dumps(r.drawn_geometry(*args, unpainted=True, write=None)), json.dumps(expected))
+
+    def test_write_zones_are_kept_whole_by_crops_including_silent_panels(self):
+        frame = self.generated('crop-write.png', boxes=[], size=(1200, 600))
+        zone = [20, 120, 1180, 300]
+        slot = {'rect_pt': [36, 300, 300, 300]}
+        for copy in ([], [{'speaker': 'LEAF', 'text': 'A record.'}]):
+            with self.subTest(copy=copy):
+                plain = r.drawn_geometry(frame, copy, slot, [None]*len(copy), unpainted=True)
+                plan = r.drawn_geometry(frame, copy, slot, [None]*len(copy), write=[zone], unpainted=True)
+                self.assertFalse(CoverCropGeometryTests.inside(zone, plain['visible_rect']))
+                self.assertTrue(CoverCropGeometryTests.inside(zone, plan['visible_rect']))
+
+    def test_auto_draw_reads_write_zones_from_keep_file(self):
+        script = self.SCRIPT_TEXT.replace('CAPTION', 'LEAF')
+        self.script.write_text(script)
+        jobs = json.loads((self.pkg / 'IMAGEGEN-JOBS.json').read_text())
+        jobs['script']['sha256'] = sha(self.script)
+        (self.pkg / 'IMAGEGEN-JOBS.json').write_text(json.dumps(jobs))
+        candidate = self.candidate(boxes=[])
+        keep = self.write_tails([{'x0': .05, 'y0': .05, 'x1': .8, 'y1': .6, 'role': 'inscribe'}], 'keep.json')
+        out, _ = self.draw(candidate, self.write_tails({'1': [.5, .95]}), 'write.json', '--keep', keep, '--unpainted')
+        reserve = json.loads(out.read_text())['reserves'][0]
+        self.assertEqual(reserve['style'], 'inscribed')
+        self.assertTrue(CoverCropGeometryTests.inside(reserve['rect'], [120, 50, 1920, 600]))
+
+    def test_inscribed_speakers_and_tail_contract(self):
+        for speaker in ('LEAF', 'LEAF (in the inset)', 'LEAF (lettered on the right leaf)',
+                        'LEDGER (lettered on the left page)', ' ledger '):
+            with self.subTest(speaker=speaker):
+                self.assertEqual(r._draw_kind(speaker), 'caption')
+                copy = [{'speaker': speaker, 'text': 'A record.'}]
+                self.assertEqual(r.parse_tails(None, copy, 100, 100), [None])
+                with self.assertRaisesRegex(r.AutoGeometryError, 'caption and takes no tail'):
+                    r.parse_tails({'0': [.5, .5]}, copy, 100, 100)
+        self.assertEqual(r._draw_kind('NAGOJI'), 'speech')
+        self.assertEqual(r._draw_kind('LEAFLET'), 'speech')
+        self.assertEqual(r._draw_kind('CAPTION'), 'caption')
+
+    def test_inscribed_style_parsing(self):
+        copy = [{'speaker': 'LEAF', 'text': 'A record.'}]
+        self.assertEqual(r.parse_styles({'0': 'inscribed'}, copy), ['inscribed'])
+        with self.assertRaisesRegex(r.AutoGeometryError, 'unknown style'):
+            r.parse_styles({'0': 'unknown'}, copy)
+
+    def test_inscribed_geometry_defaults_and_explicit_override(self):
+        frame = self.generated('inscribed.png', boxes=[], size=BIG)
+        slot = {'rect_pt': [36, 300, 369, 153.75]}
+        for speaker in ('LEAF', 'LEDGER (lettered on the left page)'):
+            copy = [{'speaker': speaker, 'text': 'A record.'},
+                    {'speaker': 'CAPTION', 'text': 'The morning.'}]
+            for styles in (None, [None, None], ['unreadable', None]):
+                with self.subTest(speaker=speaker, styles=styles):
+                    plan = r.drawn_geometry(frame, copy, slot, [None, None], styles=styles, unpainted=True)
+                    first, second = plan['reserves']
+                    self.assertEqual(first['draw'], 'caption')
+                    self.assertEqual(first['style'], 'unreadable' if styles and styles[0] else 'inscribed')
+                    self.assertNotIn('tail', first)
+                    self.assertNotIn('style', second)
+
     def candidate(self, boxes=PAINTED, name='big.png', panel=PANEL):
         self.capture(self.generated(name, boxes=boxes, size=BIG), panel)
         return str(self.candidate_path(panel))
@@ -940,6 +1042,24 @@ class DrawnAutoGeometryTests(PackageCase):
         with self.assertRaises(SystemExit) as caught:
             self.run_cli('auto-geometry', *argv)
         return str(caught.exception.code)
+
+    def test_auto_geometry_asks_the_planner_to_keep_two_speakers_tails_apart_and_the_fit_probe_does_not(self):
+        # Keeping tails from crossing can re-run the whole search; the final geometry pays for it, the many fit probes do not
+        # (they never change whether a panel places: the planner keeps its first layout when no other avoids the X).
+        import reserves as rv
+        candidate = self.candidate()
+        with mock.patch.object(rv, 'place_boxes', wraps=rv.place_boxes) as spy:
+            self.draw(candidate, self.write_tails({'1': [0.5, 0.95]}))
+        self.assertIs(spy.call_args.kwargs['uncross'], True)
+        record = json.loads(Path(candidate).read_text())
+        script = r.lettered_script(Path(r.load_job(self.pkg)['script']['path']))
+        panel = {p['id']: p for page in script['pages'].values() for p in page['panels']}[record['id']]
+        row = {'id': record['id'], 'path': record['path'], 'width': record['width'], 'height': record['height']}
+        slot = {'id': record['id'], 'rect_pt': [36, 56.25, 369, 300]}
+        with mock.patch.object(rv, 'place_boxes', wraps=rv.place_boxes) as spy:
+            r.drawn_fits(row, panel, slot, [None, (record['width'] * .5, record['height'] * .95)], [], script)
+        self.assertTrue(spy.called)
+        self.assertIs(spy.call_args.kwargs['uncross'], False)
 
     def test_styles_size_their_chunk_for_its_lettering_and_are_written_into_the_geometry(self):
         # A styled chunk wraps differently (unreadable strokes), so its box must be sized for the style the
@@ -1163,6 +1283,7 @@ class DrawnAutoGeometryTests(PackageCase):
         tails = self.write_tails({'1': [.5, .95]})
         _, plain = self.draw(candidate, tails, 'plain.json')
         self.assertEqual((plain['keep_overlaps'], plain['edge_voice_no_tail']), ({}, []))
+        self.assertEqual(plain['short_tail'], [])                             # the chunks only the legacy short tail could place
         zone = self.write_tails([{'x0': .04, 'y0': .05, 'x1': .35, 'y1': .22, 'what': 'the ledger'}], 'ledger.json')   # under painted box 0
         _, result = self.draw(candidate, tails, 'ledger-kept.json', '--keep', zone)
         self.assertEqual(result['keep_overlaps'], {'0': [0]})                # the caption must hide its painted box, and says so
@@ -1279,6 +1400,17 @@ class TailParsingTests(unittest.TestCase):
     def test_missing_speech_tail_names_the_chunk(self):
         with self.assertRaisesRegex(r.AutoGeometryError, 'chunk 2'):
             r.parse_tails({'1': [.5, .5]}, self.COPY, 1200, 1000)
+
+    def test_voice_over_and_memory_speech_is_tailless(self):
+        # ch13 lettering note: speech tagged "(voice-over)" or "(memory)" is a tailless box in the speaker's balloon
+        # style, never an off-panel balloon with a tail; a tail given for it is dropped.
+        copy = [{'speaker': 'NAGOJI (voice-over)', 'text': 'And the sea?'}, {'speaker': 'RAMAYYAN (memory)', 'text': 'Twelve.'},
+                {'speaker': 'VARMA', 'text': 'Now.'}]
+        self.assertEqual(r.parse_tails({'2': [.5, .5]}, copy, 1200, 1000), [None, None, (600.0, 500.0)])
+        self.assertEqual(r.parse_tails({'0': [1, .3], '1': [.2, .2], '2': [.5, .5]}, copy, 1200, 1000), [None, None, (600.0, 500.0)])
+        self.assertEqual(r._draw_kind('NAGOJI (voice-over)'), 'speech')
+        with self.assertRaisesRegex(r.AutoGeometryError, 'chunk 2'):
+            r.parse_tails({}, copy, 1200, 1000)
 
 
 class RealChapterFourFrameTests(unittest.TestCase):
@@ -1800,6 +1932,88 @@ class CoverCropGeometryTests(unittest.TestCase):
         plan = self.plan([self.PAINTED], self.COPY, [(0.0, 500.0)], [self.FACE])
         self.assertEqual(plan['reserves'][0]['tail'], [0, 500])
 
+    def test_a_tail_point_inside_a_face_writes_that_face_as_the_tail_head(self):
+        plan = self.plan([self.PAINTED], self.COPY, [(400.0, 740.0)], [self.FACE])             # the mouth is inside the face
+        reserve = plan['reserves'][0]
+        self.assertEqual(reserve['tail'], [400, 740])
+        self.assertEqual(reserve['tail_head'], [400, 700, 80.0])
+        self.assertEqual(plan['head_zones'], [])                                               # the face stands in for a zone
+        plan = self.plan([self.PAINTED], self.COPY, [(400.0, 740.0)], [(400.4, 700.6, 80.26, 'Nagoji')])
+        self.assertEqual(plan['reserves'][0]['tail_head'], [400, 701, 80.3])                   # rounded like the tail, r to 0.1
+        self.assertTrue(all(isinstance(v, int) for v in plan['reserves'][0]['tail_head'][:2]))
+
+    def test_a_chunk_the_planner_placed_with_the_short_tail_gets_tail_short_and_the_others_do_not(self):
+        import compositor as c
+        import reserves as rv
+        real = rv.place_boxes
+
+        def flagged(*args, **kwargs):
+            plan = real(*args, **kwargs)
+            return {**plan, 'short_tail': [True] * len(plan['boxes'])}
+
+        copy = self.COPY + [{'speaker': 'CAPTION', 'text': 'Look at his hands.'}, {'speaker': 'RAMAYYAN', 'text': 'Easy now.'}]
+        faces = [self.FACE, (1100.0, 800.0, 70.0, 'Ramayyan')]
+        boxes, tails = [self.PAINTED, (150, 80, 450, 200), (700, 60, 1000, 160)], [(400.0, 740.0), None, (1100.0, 830.0)]
+        with mock.patch.object(rv, 'place_boxes', flagged):
+            plan = self.plan(boxes, copy, tails, faces)
+        speech, caption, other = plan['reserves']
+        self.assertIs(speech['tail_short'], True)
+        self.assertIs(other['tail_short'], True)
+        self.assertNotIn('tail_short', caption)                                   # a caption has no tail to shorten
+        self.assertEqual((speech['tail'], speech['tail_head']), ([400, 740], [400, 700, 80.0]))   # the rest of the reserve is as it was
+        self.assertEqual(plan['short_tail'], [0, 2])
+        c._reserve_draw(speech)                                                   # and the compositor accepts the field
+        with mock.patch.object(rv, 'place_boxes', lambda *a, **k: {**real(*a, **k), 'short_tail': [False, False, True]}):
+            plan = self.plan(boxes, copy, tails, faces)
+        self.assertNotIn('tail_short', plan['reserves'][0])                       # not marked False either: absent
+        self.assertIs(plan['reserves'][2]['tail_short'], True)
+        self.assertEqual(plan['short_tail'], [2])
+        plain = self.plan(boxes, copy, tails, faces)
+        self.assertTrue(all('tail_short' not in reserve for reserve in plain['reserves']))     # nothing needed it here
+        self.assertEqual(plain['short_tail'], [])
+        self.assertEqual(r.drawn_geometry(self.frame([]), [], self.SLOT, [], [])['short_tail'], [])
+
+    def test_the_nearest_centre_wins_when_several_faces_contain_the_tail_point(self):
+        import math
+        faces = [(400.0, 700.0, 80.0, 'first'), (430.0, 730.0, 90.0, 'nearer')]
+        tail = (440.0, 735.0)
+        self.assertTrue(all(math.hypot(tail[0] - x, tail[1] - y) < radius for x, y, radius, _ in faces))
+        self.assertEqual(self.plan([self.PAINTED], self.COPY, [tail], faces)['reserves'][0]['tail_head'], [430, 730, 90.0])
+        self.assertEqual(self.plan([self.PAINTED], self.COPY, [tail], faces[::-1])['reserves'][0]['tail_head'], [430, 730, 90.0])
+
+    def test_a_tail_point_in_no_face_gets_the_head_zone_it_implies(self):
+        plan = self.plan([(100, 40, 500, 120)], self.COPY, [(1200.0, 960.0)])                  # no faces: the implied head
+        self.assertEqual(plan['head_zones'], ["head of chunk 0's speaker"])
+        self.assertEqual(plan['reserves'][0]['tail_head'], [1200, 914, 92.2])                  # 0.09 of 1024, half above the mouth
+        other = self.plan([self.PAINTED], self.COPY, [(400.0, 900.0)], [self.FACE])            # a face that does not hold the mouth
+        self.assertEqual(other['head_zones'], ["head of chunk 0's speaker"])
+        self.assertEqual(other['reserves'][0]['tail_head'], [400, 854, 92.2])
+
+    def test_a_face_that_contains_the_tail_point_is_preferred_to_another_chunks_implied_head(self):
+        copy = self.COPY + [{'speaker': 'RAMAYYAN', 'text': 'Easy now.'}]
+        plan = self.plan([self.PAINTED, (150, 80, 450, 200)], copy, [(400.0, 740.0), (400.0, 800.0)], [self.FACE])
+        self.assertEqual(plan['head_zones'], ["head of chunk 1's speaker"])                     # its zone also holds the first mouth
+        self.assertEqual([reserve['tail_head'] for reserve in plan['reserves']], [[400, 700, 80.0], [400, 754, 92.2]])
+
+    def test_an_off_frame_tail_point_gets_no_tail_head(self):
+        for tail in ((768.0, 0.0), (768.0, 1023.0), (0.0, 500.0), (1536.0, 300.0)):
+            with self.subTest(tail=tail):
+                reserve = self.plan([self.PAINTED], self.COPY, [tail], [self.FACE])['reserves'][0]
+                self.assertIn('tail', reserve)
+                self.assertNotIn('tail_head', reserve)
+
+    def test_a_caption_has_no_tail_and_no_tail_head(self):
+        copy = [{'speaker': 'CAPTION', 'text': 'Look at his hands.'}]
+        reserve = self.plan([self.PAINTED], copy, [None], [self.FACE])['reserves'][0]
+        self.assertNotIn('tail', reserve)
+        self.assertNotIn('tail_head', reserve)
+
+    def test_every_speech_chunk_gets_the_head_of_its_own_speaker(self):
+        copy = self.COPY + [{'speaker': 'RAMAYYAN', 'text': 'Easy now.'}]
+        faces = [self.FACE, (1100.0, 800.0, 70.0, 'Ramayyan')]
+        plan = self.plan([self.PAINTED, (150, 80, 450, 200)], copy, [(400.0, 740.0), (1100.0, 830.0)], faces)
+        self.assertEqual([reserve['tail_head'] for reserve in plan['reserves']], [[400, 700, 80.0], [1100, 800, 70.0]])
+
     def test_a_tall_slot_crops_the_width_and_moves_off_frame_points_onto_the_crop_s_sides(self):
         import reserves as rv
         slot = {'id': 'page-01-panel-01', 'rect_pt': [36, 56.25, 369, 300]}               # aspect 1.23: the art is wider
@@ -1850,11 +2064,18 @@ class TailReadingGeometryTests(unittest.TestCase):
         quiet_frame(size=self.SIZE, busy=()).save(path)
         return path
 
-    def test_the_planner_passes_the_panels_scale_in_points_per_source_pixel(self):
+    def test_the_planner_passes_the_panels_scale_in_points_per_source_pixel_and_the_heads_its_tails_end_at(self):
         import reserves as rv
+        tails = [(300.0, 700.0), (200.0, 120.0)]
         with mock.patch.object(rv, 'place_boxes', wraps=rv.place_boxes) as spy:
-            r.drawn_geometry(self.frame(), self.COPY, self.SLOT, [(300.0, 700.0), (200.0, 120.0)], [])
+            plan = r.drawn_geometry(self.frame(), self.COPY, self.SLOT, tails, [])
         self.assertAlmostEqual(spy.call_args.kwargs['scale'], self.SCALE, places=6)
+        # The zones it was given include each speaker's implied head, so it plans every tail to the head the compositor
+        # will stop it at: the same circle the reserve carries as its tail_head.
+        faces = spy.call_args.kwargs['faces']
+        self.assertEqual([face[3] for face in faces], ["head of chunk 0's speaker", "head of chunk 1's speaker"])
+        for tail, reserve in zip(tails, plan['reserves']):
+            self.assertEqual(list(rv.speaker_head(tail, faces)), reserve['tail_head'])
 
     def test_a_tail_does_not_run_through_the_other_balloon(self):
         import reserves as rv
@@ -1867,7 +2088,8 @@ class TailReadingGeometryTests(unittest.TestCase):
         boxes = [reserve['rect'] for reserve in plan['reserves']]
         for index, reserve in enumerate(plan['reserves']):
             ratio = reserve.get('corner', .45)
-            (bx, by), (tx, ty), half, _ = rv.tail_wedge(boxes[index], ratio, tails[index], plan['visible_rect'], self.SCALE)
+            (bx, by), (tx, ty), half, _ = rv.tail_wedge(boxes[index], ratio, tails[index], plan['visible_rect'], self.SCALE,
+                                                        tuple(reserve['tail_head']), 'tail_short' in reserve)
             other = boxes[1 - index]
             self.assertFalse(line_hits((bx, by), (tx, ty), other, half * .5), (index, boxes))
             centre = ((boxes[index][0] + boxes[index][2]) / 2, (boxes[index][1] + boxes[index][3]) / 2)
@@ -2221,21 +2443,64 @@ class RealTallCoverTests(unittest.TestCase):
         self.assertIsNotNone(plan)
         self.assertTrue(fits)
 
-    def test_every_placement_the_fit_check_passed_before_is_unchanged(self):
-        # The golden holds the planner's output with the cover crop (its visible_rects are crops); the one from before
-        # the crop is in review/ as golden_ch04_drawn_planner.json.backup-pre-cover-crop.
-        golden = json.loads((Path(__file__).resolve().parent / 'golden_ch04_drawn_planner.json').read_text())
-        checked = 0
-        for name, layout in golden['layouts'].items():
-            geometry = __import__('compositor').geometry_for_script(self.script, layout)
-            for stem, before in golden['placements'][name].items():
+    def golden_placements(self, name, legacy=False):
+        """(layout, pick, planner output, golden entry) for every pick of a golden file.
+
+        With `legacy` the planner runs its last-resort pass for every panel (reserves.place_boxes: each balloon with the
+        short tail, as before tails knew their speaker's head) instead of the long tails first.
+        """
+        import compositor as c
+        import reserves as rv
+        golden = json.loads((Path(__file__).resolve().parent / name).read_text())
+        cascade = rv._cascade
+        forced = lambda image_path, found, options, targets, kwargs: cascade(image_path, found, options, targets, dict(kwargs, legacy=True))
+        for layout_name, layout in json.loads((Path(__file__).resolve().parent / 'golden_ch04_drawn_planner.json').read_text())['layouts'].items():
+            geometry = c.geometry_for_script(self.script, layout)
+            for stem, before in golden['placements'][layout_name].items():
                 panel, frame, row, tails, faces = self.inputs(stem)
                 slot = next(p for p in geometry['pages'][str(panel['page'])] if p['id'] == panel['id'])
-                with self.subTest(layout=name, pick=stem):
+                with mock.patch.object(rv, '_cascade', forced) if legacy else contextlib.nullcontext():
                     plan = r.drawn_geometry(frame, panel['copy'], slot, tails, faces)
-                    self.assertEqual({'visible_rect': plan['visible_rect'], 'reserves': plan['reserves']}, before)
-                    checked += 1
+                yield layout_name, stem, plan, before
+
+    def test_every_placement_the_fit_check_passed_before_is_unchanged_in_the_planners_legacy_pass(self):
+        # The golden holds the planner's output with the cover crop (its visible_rects are crops); the one from before
+        # the crop is in review/ as golden_ch04_drawn_planner.json.backup-pre-cover-crop. It was made with the short tail,
+        # which the planner no longer draws first (head-aware tails, 2026-10-08, moved 8 of its 66 placements: see
+        # golden_ch04_drawn_planner-v2.json). It is not edited: the legacy pass (the planner's last resort, every balloon with
+        # the short tail) must still reproduce every one of its placements, so nothing else about placement has changed.
+        import math
+        checked = 0
+        for name, stem, plan, before in self.golden_placements('golden_ch04_drawn_planner.json', legacy=True):
+            with self.subTest(layout=name, pick=stem):
+                for index, reserve in enumerate(plan['reserves']):
+                    head = reserve.pop('tail_head', None)           # added after the golden: placement is what it pins
+                    short = reserve.pop('tail_short', False)
+                    if head:
+                        self.assertLessEqual(math.hypot(reserve['tail'][0] - head[0], reserve['tail'][1] - head[1]), head[2] + 1)
+                        self.assertTrue(short)                      # and the compositor draws the short tail for it
+                self.assertEqual({'visible_rect': plan['visible_rect'], 'reserves': plan['reserves']}, before)
+                checked += 1
         self.assertGreaterEqual(checked, 60)
+
+    def test_every_placement_the_fit_check_passes_is_the_one_golden_v2_holds(self):
+        # The same 66 picks from the planner as it is (head-aware tails, the short-tail fallback), reserves whole
+        # (tail_head and tail_short included): 58 as in the golden above, 8 moved by the longer tails, all still fitting.
+        import math
+        checked = moved = 0
+        old = json.loads((Path(__file__).resolve().parent / 'golden_ch04_drawn_planner.json').read_text())['placements']
+        bare = lambda reserves: [{k: v for k, v in reserve.items() if k not in ('tail_head', 'tail_short')} for reserve in reserves]
+        for name, stem, plan, before in self.golden_placements('golden_ch04_drawn_planner-v2.json'):
+            with self.subTest(layout=name, pick=stem):
+                self.assertEqual({'visible_rect': plan['visible_rect'], 'reserves': plan['reserves']}, before)
+                for reserve in plan['reserves']:
+                    head = reserve.get('tail_head')
+                    if head:
+                        self.assertLessEqual(math.hypot(reserve['tail'][0] - head[0], reserve['tail'][1] - head[1]), head[2] + 1)
+                self.assertEqual(plan['short_tail'], [i for i, reserve in enumerate(plan['reserves']) if reserve.get('tail_short')])
+                checked += 1
+                moved += (bare(before['reserves']), before['visible_rect']) != (old[name][stem]['reserves'], old[name][stem]['visible_rect'])
+        self.assertEqual((checked, moved), (66, 8))
 
     def test_the_fix_recovers_the_broken_picks_under_the_ratio_only_layout_without_losing_others(self):
         import compositor as c
@@ -2290,6 +2555,24 @@ class RepairPlacementTests(unittest.TestCase):
         for i in range(4):
             for j in range(i):
                 self.assertTrue(rv._reads_after(boxes[j], boxes[i]), (j, i, boxes))
+        # With head-aware tails (2026-10-08) the greedy order alone no longer finds a layout: the officer's second line
+        # (chunk 3) is left with a tail that would cross the sailor's balloon (chunk 0), with the long tail and with the
+        # short one, and the repair rounds do not get out of it. The planner's last resort, every balloon with the short
+        # tail as it always was, places the panel; then the long tail goes back on each balloon whose tail reads right in
+        # that layout, and all three do: no chunk is left with the short tail.
+        self.assertEqual(plan['short_tail'], [])
+        self.assertTrue(all('tail_short' not in x and 'tail_head' in x for x in plan['reserves'] if 'tail' in x))
+        import compositor as c
+        slot = {'id': pid, 'rect_pt': [36, 56.25, 369, 194]}
+        clip, _ = c.fit_clip_contain({'width': 1536, 'height': 1024, 'visible_rect': plan['visible_rect']}, slot)
+        scale = c.measure([1536, 1024], plan['visible_rect'], clip)['matrix'][0] / 1536
+        for x in plan['reserves']:                                      # and every tail, as it is drawn, crosses no other balloon
+            if 'tail' in x:
+                wedge = rv.tail_wedge(x['rect'], x.get('corner', c.BALLOON_RADIUS_RATIO), x['tail'], plan['visible_rect'], scale,
+                                      tuple(x['tail_head']), 'tail_short' in x)
+                for y in plan['reserves']:
+                    if y is not x:
+                        self.assertFalse(rv.tail_crosses(wedge, y['rect']), (x['copy_indices'], y['copy_indices']))
 
 
 class FitLayoutCommandTests(PackageCase):
@@ -2505,6 +2788,29 @@ class FitLayoutCommandTests(PackageCase):
         for call in fit.call_args_list:
             self.assertEqual(call.kwargs['keep'], {PANEL: [[.125, .625, .25, .875]]})
             self.assertEqual(list(call.kwargs['painted']), [PANEL])
+
+    def test_fit_inputs_and_probes_pass_write_zones(self):
+        folder = self.probe_folder()
+        (folder / f'{PANEL}-v01-keep.json').write_text(json.dumps([
+            {'x0': .125, 'y0': .625, 'x1': .25, 'y1': .875, 'role': 'inscribe'}]))
+        inputs = r.fit_inputs(self.pkg, self.manifest(), None, folder)
+        self.assertEqual(inputs['keep'], {})
+        self.assertEqual(inputs['frames'][PANEL]['write'], [[300, 625, 600, 875]])
+        self.assertEqual(r._fit_keep(inputs), {PANEL: [[.125, .625, .25, .875]]})
+        seen = []
+        def placed(row, *args, **kwargs):
+            seen.append(row.get('write'))
+            return True
+        with mock.patch.object(r, 'drawn_fits', side_effect=placed):
+            self.fit('--faces-dir', str(folder), '--probe')
+        self.assertTrue(seen)
+        self.assertTrue(all(z == [[300, 625, 600, 875]] for z in seen))
+
+    def test_drawn_fits_passes_write_to_geometry(self):
+        row = {'path': 'unused.png', 'write': [[10, 20, 300, 400]]}
+        with mock.patch.object(r, 'drawn_geometry', side_effect=r.AutoGeometryError('stop')) as spy:
+            self.assertFalse(r.drawn_fits(row, {'page': 1, 'copy': []}, {}, [], [], {}))
+        self.assertEqual(spy.call_args.kwargs['write'], row['write'])
 
     def test_drawn_fits_gives_the_planner_the_rows_keep_zones(self):
         import script_pipeline as s

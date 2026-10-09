@@ -1,0 +1,432 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 4,
+  "logs": [
+    "chapter 23: 1 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 23: keep regions for 1 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 23: face zones for 1 frames, 23 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 23,
+        "decisions": [
+          {
+            "id": "page-06-panel-01",
+            "pick": "v04",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.641,
+                "y": 0.402
+              },
+              {
+                "copy_index": 1,
+                "x": 0.223,
+                "y": 0.142
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.19,
+                "y": 0.103,
+                "r": 0.08
+              },
+              {
+                "x": 0.667,
+                "y": 0.386,
+                "r": 0.08
+              },
+              {
+                "x": 0.443,
+                "y": 0.508,
+                "r": 0.045
+              },
+              {
+                "x": 0.368,
+                "y": 0.552,
+                "r": 0.038
+              },
+              {
+                "x": 0.333,
+                "y": 0.571,
+                "r": 0.03
+              },
+              {
+                "x": 0.518,
+                "y": 0.571,
+                "r": 0.035
+              },
+              {
+                "x": 0.785,
+                "y": 0.483,
+                "r": 0.035
+              },
+              {
+                "x": 0.84,
+                "y": 0.503,
+                "r": 0.045
+              },
+              {
+                "x": 0.944,
+                "y": 0.444,
+                "r": 0.055
+              },
+              {
+                "x": 0.879,
+                "y": 0.532,
+                "r": 0.025
+              },
+              {
+                "x": 0.029,
+                "y": 0.078,
+                "r": 0.02
+              },
+              {
+                "x": 0.077,
+                "y": 0.083,
+                "r": 0.02
+              },
+              {
+                "x": 0.027,
+                "y": 0.22,
+                "r": 0.02
+              },
+              {
+                "x": 0.387,
+                "y": 0.283,
+                "r": 0.018
+              },
+              {
+                "x": 0.417,
+                "y": 0.327,
+                "r": 0.018
+              },
+              {
+                "x": 0.82,
+                "y": 0.273,
+                "r": 0.018
+              },
+              {
+                "x": 0.902,
+                "y": 0.225,
+                "r": 0.018
+              },
+              {
+                "x": 0.954,
+                "y": 0.161,
+                "r": 0.02
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: some of the raja's spearmen wear orange turbans and one has a rust-orange waistband (saffron, not Ponnan's red); Nagoji's chain of office is drawn as a silver coin necklace rather than a plain chain. Nagoji matches the sheet and chapter row (topknot, grey temples, thick curled moustache, clean-shaven chin, small gold stud, no turban or sash); Kayal is a bay with black mane and lower legs; the raja is bare-chested in gold-edged sash, ear hoops, neck chains, sword at sash, hand on the stool as he pushes up. Setting and lighting match the page 5 frames. Open sky between the two green banners (upper centre) takes both balloons. No text, gore or anachronism.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 23,
+        "result": {
+          "chapter": 23,
+          "panels": [
+            {
+              "id": "page-06-panel-01",
+              "version": "v04",
+              "faces": [
+                {
+                  "x": 0.218,
+                  "y": 0.125,
+                  "r": 0.029,
+                  "who": "grey-streaked rider on horse, profile facing right, upper left"
+                },
+                {
+                  "x": 0.6426,
+                  "y": 0.385,
+                  "r": 0.034,
+                  "who": "heavy seated chief with moustache and gold earring, three-quarter looking up-left, centre right"
+                },
+                {
+                  "x": 0.449,
+                  "y": 0.517,
+                  "r": 0.022,
+                  "who": "green-turbaned spearman, centre"
+                },
+                {
+                  "x": 0.37,
+                  "y": 0.559,
+                  "r": 0.017,
+                  "who": "blue-turbaned bearded spearman, left of centre"
+                },
+                {
+                  "x": 0.336,
+                  "y": 0.582,
+                  "r": 0.016,
+                  "who": "saffron-turbaned spearman behind, left of centre"
+                },
+                {
+                  "x": 0.343,
+                  "y": 0.547,
+                  "r": 0.009,
+                  "who": "blue-turbaned soldier behind saffron turban, eyes only, left of centre"
+                },
+                {
+                  "x": 0.519,
+                  "y": 0.585,
+                  "r": 0.016,
+                  "who": "dark-turbaned moustached spearman, centre"
+                },
+                {
+                  "x": 0.494,
+                  "y": 0.603,
+                  "r": 0.009,
+                  "who": "faint blue-turbaned background soldier left of dark-turbaned spearman, centre"
+                },
+                {
+                  "x": 0.55,
+                  "y": 0.612,
+                  "r": 0.01,
+                  "who": "background soldier half hidden behind arm, centre"
+                },
+                {
+                  "x": 0.591,
+                  "y": 0.614,
+                  "r": 0.011,
+                  "who": "background saffron-turbaned soldier beside seated chief's knee"
+                },
+                {
+                  "x": 0.9375,
+                  "y": 0.473,
+                  "r": 0.025,
+                  "who": "blue-turbaned bearded spearman, far right foreground"
+                },
+                {
+                  "x": 0.838,
+                  "y": 0.515,
+                  "r": 0.022,
+                  "who": "saffron-turbaned bearded spearman, right"
+                },
+                {
+                  "x": 0.7845,
+                  "y": 0.498,
+                  "r": 0.016,
+                  "who": "green-turbaned spearman partly hidden by chief's arm, right"
+                },
+                {
+                  "x": 0.8095,
+                  "y": 0.548,
+                  "r": 0.011,
+                  "who": "blue-turbaned bearded soldier half hidden behind spear, right"
+                },
+                {
+                  "x": 0.8815,
+                  "y": 0.549,
+                  "r": 0.01,
+                  "who": "background saffron-turbaned soldier, right"
+                },
+                {
+                  "x": 0.0326,
+                  "y": 0.076,
+                  "r": 0.008,
+                  "who": "rifleman on slope, top-left corner"
+                },
+                {
+                  "x": 0.078,
+                  "y": 0.078,
+                  "r": 0.01,
+                  "who": "brown-turbaned rifleman on slope, top left"
+                },
+                {
+                  "x": 0.0286,
+                  "y": 0.222,
+                  "r": 0.011,
+                  "who": "bearded rifleman on slope at left edge"
+                },
+                {
+                  "x": 0.389,
+                  "y": 0.279,
+                  "r": 0.008,
+                  "who": "rifleman on far slope, centre left"
+                },
+                {
+                  "x": 0.419,
+                  "y": 0.324,
+                  "r": 0.008,
+                  "who": "bearded man crouched on slope below rifleman, by flag poles, centre left"
+                },
+                {
+                  "x": 0.954,
+                  "y": 0.163,
+                  "r": 0.01,
+                  "who": "rifleman on slope, top right"
+                },
+                {
+                  "x": 0.897,
+                  "y": 0.2285,
+                  "r": 0.01,
+                  "who": "dark-turbaned rifleman on slope, upper right"
+                },
+                {
+                  "x": 0.82,
+                  "y": 0.2715,
+                  "r": 0.009,
+                  "who": "rifleman on slope below flag, right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 23,
+        "result": {
+          "chapter": 23,
+          "panels": [
+            {
+              "id": "6.1",
+              "version": "v04",
+              "keep": [
+                {
+                  "x0": 0.52,
+                  "y0": 0.67,
+                  "x1": 0.63,
+                  "y1": 0.95,
+                  "what": "raja's hand braced on the stool edge as he pushes himself up from it"
+                },
+                {
+                  "x0": 0.04,
+                  "y0": 0.2,
+                  "x1": 0.32,
+                  "y1": 0.64,
+                  "what": "Nagoji seated in the saddle on the horse, watching"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch23 p6",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a3f078a78a590cde2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511257679,
+      "queuedAt": 1791511257673,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 6 of Chapter 23 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r5-ch23/page-06.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791511332795,
+      "tokens": 82976,
+      "toolCalls": 20,
+      "durationMs": 75115,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-06-panel-01\",\"pick\":\"v04\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.641,\"y\":0.402},{\"copy_index\":1,\"x\":0.223,\"y\":0.142}],\"backup_tails\":[],\"faces\":[{\"x\":0.19,\"y\":0.103,\"r\":0.08},{\"x\":0.667,\"y\":0.386,\"r\":0.08},{\"x\":0.443,\"y\":0.508,\"r\":0.045},{\"x\":0.368,\"y\":0.552,\"r\":0.038},{\"x\":0.333,\"y\":0.571,\"r\":0.03},{\"x\":0.518,\"y\":0.571,\"r\":0.035},{\"x\":0.785,\"y\":0.483,\"r\":0.035},{\"x…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "mark ch23 p6",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a2729825bd7f814d6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511332806,
+      "queuedAt": 1791511332802,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791511473358,
+      "tokens": 84430,
+      "toolCalls": 34,
+      "durationMs": 140552,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-01\",\"version\":\"v04\",\"faces\":[{\"x\":0.218,\"y\":0.125,\"r\":0.029,\"who\":\"grey-streaked rider on horse, profile facing right, upper left\"},{\"x\":0.6426,\"y\":0.385,\"r\":0.034,\"who\":\"heavy seated chief with moustache and gold earring, three-quarter looking up-left, centre right\"},{\"x\":0.449,\"y\":0.517,\"r\":0.024,\"who\":\"green-turbaned spearman, centre\"},{\"x\":0.37,\"y\":0.559,\"r\":0.0…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "keep ch23 p6",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a86911b7ad9573430",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511332814,
+      "queuedAt": 1791511332810,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 6 of chapter 23 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-23-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791511354565,
+      "tokens": 62128,
+      "toolCalls": 6,
+      "durationMs": 21751,
+      "resultPreview": "{\"panels\":[{\"id\":\"6.1\",\"version\":\"v04\",\"keep\":[{\"x0\":0.52,\"y0\":0.67,\"x1\":0.63,\"y1\":0.95,\"what\":\"raja's hand braced on the stool edge as he pushes himself up from it\"},{\"x0\":0.04,\"y0\":0.2,\"x1\":0.32,\"y1\":0.64,\"what\":\"Nagoji seated in the saddle on the horse, watching\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "check ch23 p6",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ab4f47ca54785bc22",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791511473362,
+      "queuedAt": 1791511473360,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791511586220,
+      "tokens": 81213,
+      "toolCalls": 26,
+      "durationMs": 112857,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-01\",\"version\":\"v04\",\"faces\":[{\"x\":0.218,\"y\":0.125,\"r\":0.029,\"who\":\"grey-streaked rider on horse, profile facing right, upper left\"},{\"x\":0.6426,\"y\":0.385,\"r\":0.034,\"who\":\"heavy seated chief with moustache and gold earring, three-quarter looking up-left, centre right\"},{\"x\":0.449,\"y\":0.517,\"r\":0.022,\"who\":\"green-turbaned spearman, centre\"},{\"x\":0.37,\"y\":0.559,\"r\":0.0…"
+    }
+  ],
+  "totalTokens": 310747,
+  "totalToolCalls": 86
+}

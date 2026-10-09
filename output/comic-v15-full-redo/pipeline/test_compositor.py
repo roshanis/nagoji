@@ -79,6 +79,14 @@ class PrintContractTests(unittest.TestCase):
                      'One exact sentence. One exact sentence. Another exact sentence.']:
             with self.assertRaises(ValueError): verify_page_chunks(text,chunks)
 
+    def test_a_chunk_repeated_inside_a_longer_chunk_is_not_a_duplicate(self):
+        # ch14 page 9: "They are done." then "Yes. They are done." on the same page
+        chunks = ['They are done.', 'Yes. They are done.']
+        self.assertEqual(verify_page_chunks('They are done. Yes. They are done.', chunks), 2)
+        for text in ['Yes. They are done.', 'They are done. They are done. Yes. They are done.',
+                     'Yes. They are done. They are done.']:
+            with self.assertRaises(ValueError): verify_page_chunks(text, chunks)
+
     def test_actual_pdf_xobject_matrix_including_rotation(self):
         from io import BytesIO
         from PIL import Image
@@ -376,6 +384,59 @@ class DrawnReserveTests(unittest.TestCase):
         from pypdf.generic import ContentStream
         return [(args, op) for args, op in ContentStream(reader.pages[0].get_contents(), reader).operations]
 
+    def test_inscribed_size_fit_and_canonical_verification(self):
+        import compositor as c
+        for text in ('A record of the land.', 'A record of *bhau*.'):
+            for width in (50, 150):
+                self.assertEqual(c.drawn_box_size(text, 'caption', width, style='inscribed'),
+                                 c.drawn_box_size(text, 'caption', width))
+            self.assertEqual(self.measure(*drawn_fixture(self.directory, text, CAPTION, style='inscribed')),
+                             self.measure(*drawn_fixture(self.directory, text, CAPTION)))
+            self.assertEqual(c.verify_page_chunks(c.canonical_text(text), [text], ['inscribed']), 1)
+            with self.assertRaisesRegex(ValueError, 'Missing or duplicate'):
+                c.verify_page_chunks('bhau', [text], ['inscribed'])
+        with self.assertRaisesRegex(ValueError, 'Unknown reserve style'):
+            c.verify_page_chunks('A record.', ['A record.'], ['unknown'])
+
+    def test_inscribed_caption_pdf_wash_no_stroke_and_sepia_ink(self):
+        import compositor as c
+        text = 'A record of *bhau*.'
+        rows, script, geometry, result, path, reader = self.compose(text, CAPTION, style='inscribed')
+        shape = result['copy_fit_measurements'][0]['drawn']
+        operations = self.operations(reader)
+        rectangles = [i for i, (args, op) in enumerate(operations) if op == b're' and
+                      all(abs(float(a) - b) < .01 for a, b in zip(args, shape['rect_pt']))]
+        self.assertEqual(len(rectangles), 1)
+        index = rectangles[0]
+        self.assertIn(operations[index + 1][1], (b'f', b'f*'))
+        fills = [tuple(float(a) for a in args) for args, op in operations[:index] if op == b'rg']
+        self.assertEqual(fills[-1], (.95, .91, .80))
+        states = reader.pages[0]['/Resources']['/ExtGState']
+        active = [args[0] for args, op in operations[:index] if op == b'gs']
+        self.assertAlmostEqual(float(states[active[-1]]['/ca']), .72)
+        ink = None
+        for args, op in operations[index + 1:]:
+            if op == b'rg': ink = tuple(float(a) for a in args)
+            if op == b'Tj' and any(word in str(args) for word in ('record', 'bhau')):
+                self.assertEqual(ink, (.23, .15, .08))
+        self.assertEqual(c.verify_pdf(path, rows, script, result['placements'])['script_chunks_verified'], 1)
+
+    def test_existing_styles_remain_byte_identical_to_pre_inscribed_backup(self):
+        import compositor as c
+        from importlib.machinery import SourceFileLoader
+        from importlib.util import module_from_spec, spec_from_loader
+        from pathlib import Path
+        loader = SourceFileLoader('pre_inscribed_compositor', str(Path(c.__file__).with_name(
+            'compositor.py.backup-pre-inscribed-2026-10-09')))
+        old = module_from_spec(spec_from_loader(loader.name, loader))
+        loader.exec_module(old)
+        for index, (reserve, style) in enumerate((reserve, style) for reserve in (CAPTION, SPEECH)
+                                                for style in (None, 'unreadable')):
+            rows, script, geometry = drawn_fixture(self.directory, 'A record of *bhau*.', reserve, style=style)
+            before, after = self.directory / f'old-{index}.pdf', self.directory / f'new-{index}.pdf'
+            self.assertEqual(old.compose(rows, script, geometry, before), c.compose(rows, script, geometry, after))
+            self.assertEqual(before.read_bytes(), after.read_bytes())
+
     def test_drawn_caption_emits_white_rectangle_with_a_point_eight_stroke_and_text_verifies(self):
         import compositor as c
         text = 'When the sea finally spat me out.'
@@ -431,26 +492,91 @@ class DrawnReserveTests(unittest.TestCase):
                 self.assertLess(math.dist(tip, target), math.dist(centre, target))
                 self.assertGreater(math.dist(tip, target), 0.5)              # stops short
                 self.assertGreaterEqual(tail['length_pt'], 8 - 1e-6)
-                self.assertLessEqual(tail['length_pt'], 28 + 1e-6)
                 # The tip is outside the balloon and inside the panel clip.
                 outside = (tip[0] < rect[0] or tip[0] > rect[0] + rect[2] or
                            tip[1] < rect[1] or tip[1] > rect[1] + rect[3])
                 self.assertTrue(outside)
                 self.assertTrue(clip[0] <= tip[0] <= clip[0] + clip[2] and clip[1] <= tip[1] <= clip[1] + clip[3])
 
-    def test_tail_length_is_about_sixty_percent_of_the_way_clamped(self):
+    def test_tail_without_a_head_stops_a_gap_short_of_the_target_that_grows_with_the_distance(self):
+        import compositor as c
+        import math
+        rect, clip = [100.0, 200.0, 180.0, 40.0], [0.0, 0.0, 600.0, 600.0]      # the base sits straight above the target
+        for y, gap in ((20.0, 12.0), (150.0, 6.0), (175.0, 4.0)):                # 180, 50 and 25 pt away: 12 pt cap, 12 percent, 4 pt floor
+            with self.subTest(distance=200.0 - y):
+                tail = c._drawn_shape('speech', rect, [190.0, y], clip)['tail']
+                self.assertAlmostEqual(math.dist(tail['tip_pt'], [190.0, y]), gap, places=3)
+                self.assertAlmostEqual(tail['length_pt'], 200.0 - y - gap, places=3)
+        near = c._drawn_shape('speech', rect, [190.0, 190.0], clip)['tail']      # 10 pt away: the 8 pt minimum, below 9 pt
+        self.assertAlmostEqual(near['length_pt'], c.TAIL_MIN_PT, places=3)
+        tiny = c._drawn_shape('speech', rect, [190.0, 196.0], clip)['tail']      # 4 pt away: held to 90 percent of it
+        self.assertAlmostEqual(tiny['length_pt'], 3.6, places=3)
+        self.assertFalse(hasattr(c, 'TAIL_REACH') or hasattr(c, 'TAIL_MAX_PT'))
+
+    def test_tail_with_a_head_stops_three_points_outside_it(self):
         import compositor as c
         import math
         rect, clip = [100.0, 200.0, 180.0, 40.0], [0.0, 0.0, 600.0, 600.0]
-        near = c._drawn_shape('speech', rect, [190.0, 190.0], clip)['tail']      # 10 pt away: clamped up, then held short
-        far = c._drawn_shape('speech', rect, [190.0, 20.0], clip)['tail']        # 180 pt away: clamped down to 28
-        mid = c._drawn_shape('speech', rect, [190.0, 150.0], clip)['tail']       # 50 pt away: 30 -> 28
-        self.assertAlmostEqual(far['length_pt'], 28.0, places=3)
-        self.assertAlmostEqual(mid['length_pt'], 28.0, places=3)
-        self.assertLess(near['length_pt'], 10.0)
-        self.assertGreater(near['length_pt'], 0)
-        between = c._drawn_shape('speech', rect, [190.0, 175.0], clip)['tail']   # 25 pt away: 15 pt
-        self.assertAlmostEqual(between['length_pt'], 15.0, places=3)
+        cases = (([190.0, 120.0], [190.0, 120.0, 30.0]),        # a head round the mouth, straight below the balloon
+                 ([190.0, 120.0], [190.0, 140.0, 30.0]),        # a head centred above the mouth
+                 ([60.0, 120.0], [60.0, 120.0, 30.0]),          # the base is held on the straight edge, so the tail slants
+                 ([190.0, 100.0], [190.0, 100.0, 8.0]))         # a small head
+        for target, head in cases:
+            with self.subTest(target=target, head=head):
+                tail = c._drawn_shape('speech', rect, target, clip, head_pt=head)['tail']
+                gap = math.dist(tail['tip_pt'], head[:2]) - head[2]
+                self.assertAlmostEqual(gap, c.TAIL_HEAD_GAP_PT, delta=.01)
+                self.assertGreater(math.dist(tail['tip_pt'], head[:2]), head[2])        # never inside the head
+        # The 3 pt is measured along the tail's own line, so a tail that meets the circle aslant stops a little under 3 pt from it.
+        tail = c._drawn_shape('speech', rect, [300.0, 60.0], clip, head_pt=[305.0, 80.0, 25.0])['tail']
+        gap = math.dist(tail['tip_pt'], [305.0, 80.0]) - 25.0
+        self.assertTrue(2.0 < gap <= c.TAIL_HEAD_GAP_PT + 1e-9)
+        # Along the ray: from (190, 200) down to a head of radius 30 centred on (190, 120), the tip is at y = 153.
+        tail = c._drawn_shape('speech', rect, [190.0, 120.0], clip, head_pt=[190.0, 120.0, 30.0])['tail']
+        self.assertAlmostEqual(tail['tip_pt'][1], 153.0, places=3)
+        self.assertAlmostEqual(tail['length_pt'], 47.0, places=3)
+        # The mouth 2 pt inside the head's rim: the tail still stops 10 percent of the way short (72 of 80 pt), 6 pt outside it.
+        tail = c._drawn_shape('speech', rect, [190.0, 120.0], clip, head_pt=[190.0, 100.0, 22.0])['tail']
+        self.assertAlmostEqual(tail['length_pt'], 72.0, places=3)
+        self.assertAlmostEqual(math.dist(tail['tip_pt'], [190.0, 100.0]) - 22.0, 6.0, places=3)
+
+    def test_the_head_rule_falls_back_to_the_bare_gap_when_the_balloon_is_in_the_head_or_the_ray_misses_it(self):
+        import compositor as c
+        import math
+        rect, clip = [100.0, 200.0, 180.0, 40.0], [0.0, 0.0, 600.0, 600.0]
+        bare = c._drawn_shape('speech', rect, [190.0, 120.0], clip)['tail']
+        around = c._drawn_shape('speech', rect, [190.0, 120.0], clip, head_pt=[190.0, 200.0, 90.0])['tail']   # the base is inside
+        self.assertEqual(around['tip_pt'], bare['tip_pt'])
+        missed = c._drawn_shape('speech', rect, [190.0, 120.0], clip, head_pt=[500.0, 120.0, 30.0])['tail']   # the ray never meets it
+        self.assertEqual(missed['tip_pt'], bare['tip_pt'])
+        behind = c._drawn_shape('speech', rect, [190.0, 120.0], clip, head_pt=[190.0, 300.0, 20.0])['tail']   # it lies behind the base
+        self.assertEqual(behind['tip_pt'], bare['tip_pt'])
+        edge = c._drawn_shape('speech', rect, [190.0, 0.0], clip, head_pt=[190.0, 20.0, 30.0])['tail']        # off panel: to the border
+        self.assertLess(math.dist(edge['tip_pt'], edge['target_pt']), .01)
+
+    def test_the_short_tail_is_the_legacy_length_rule_and_ignores_the_head(self):
+        import compositor as c
+        import math
+        rect, clip = [100.0, 200.0, 180.0, 40.0], [0.0, 0.0, 600.0, 600.0]      # the base sits straight above the target
+        # 180, 50, 25, 10 and 4 pt away: 60 percent of it, within 8 and 28 pt, and not past 90 percent of it
+        for y, length in ((20.0, 28.0), (150.0, 28.0), (175.0, 15.0), (190.0, 8.0), (196.0, 3.6)):
+            with self.subTest(distance=200.0 - y):
+                tail = c._drawn_shape('speech', rect, [190.0, y], clip, short_tail=True)['tail']
+                self.assertAlmostEqual(tail['length_pt'], length, places=3)
+                self.assertAlmostEqual(tail['tip_pt'][1], 200.0 - length, places=3)
+                headed = c._drawn_shape('speech', rect, [190.0, y], clip, head_pt=[190.0, y, 30.0], short_tail=True)['tail']
+                self.assertEqual(headed, tail)                                  # the head is ignored
+        self.assertEqual((c.TAIL_SHORT_REACH, c.TAIL_SHORT_MAX_PT), (.6, 28.0))
+        headed = c._drawn_shape('speech', rect, [190.0, 120.0], clip, head_pt=[190.0, 120.0, 30.0])['tail']
+        self.assertAlmostEqual(headed['length_pt'], 47.0, places=3)             # the head-aware tail, which is the default,
+        self.assertEqual(c._drawn_shape('speech', rect, [190.0, 120.0], clip, head_pt=[190.0, 120.0, 30.0], short_tail=False)['tail'], headed)
+        short = c._drawn_shape('speech', rect, [190.0, 120.0], clip, head_pt=[190.0, 120.0, 30.0], short_tail=True)['tail']
+        self.assertAlmostEqual(short['length_pt'], 28.0, places=3)              # ... is not the short one
+        self.assertEqual(short['base_pt'], headed['base_pt'])                   # same base, same width
+        edge = c._drawn_shape('speech', rect, [190.0, 0.0], clip, head_pt=[190.0, 20.0, 30.0], short_tail=True)['tail']
+        self.assertLess(math.dist(edge['tip_pt'], edge['target_pt']), .01)      # off panel: to the border, as before
+        touching = c._drawn_shape('speech', [100.0, 0.0, 180.0, 40.0], [190.0, 0.0], clip, short_tail=True)['tail']
+        self.assertIsNone(touching)                                             # and no tail where there is no room
 
     def test_text_area_is_the_padded_interior_and_the_fit_check_uses_it(self):
         import compositor as c
@@ -543,6 +669,97 @@ class DrawnReserveTests(unittest.TestCase):
             'Plain.', {k: v for k, v in SPEECH.items() if k != 'tail'})
         self.assertIsNone(result['copy_fit_measurements'][0]['drawn']['tail'])
 
+    def test_invalid_tail_head_fields_are_rejected(self):
+        import compositor as c
+        rows, script, geometry = drawn_fixture(self.directory, 'Plain.', dict(SPEECH, tail_head=[750, 700, 80]))
+        reserve = rows[0]['reserves'][0]
+        c.validate_copy_runs(script, rows)                                  # a well formed head circle is accepted
+        self.measure(rows, script, geometry)
+        for good in ([750.5, 700.5, 80.5], (750, 700, 80)):
+            reserve['tail_head'] = good
+            with self.subTest(tail_head=good):
+                c.validate_copy_runs(script, rows)
+        for bad in ([1, 2], [1, 2, 3, 4], ['a', 2, 3], [float('nan'), 1, 3], [1, float('inf'), 3], [1, 2, float('inf')],
+                    [1, 2, 0], [1, 2, -5], [True, 2, 3], 'abc', 5, None, {'x': 1}):
+            reserve['tail_head'] = bad
+            with self.subTest(tail_head=bad):
+                with self.assertRaisesRegex(ValueError, 'tail_head'):
+                    c.validate_copy_runs(script, rows)
+                with self.assertRaisesRegex(ValueError, 'tail_head'):
+                    self.measure(rows, script, geometry)
+        del reserve['tail']                                                 # a head without a tail to stop at it
+        reserve['tail_head'] = [750, 700, 80]
+        with self.assertRaisesRegex(ValueError, 'tail_head'):
+            c.validate_copy_runs(script, rows)
+        rows, script, geometry = drawn_fixture(self.directory, 'Plain.', dict(CAPTION, tail_head=[750, 700, 80]))
+        with self.assertRaisesRegex(ValueError, 'tail_head'):
+            c.validate_copy_runs(script, rows)
+
+    def test_invalid_tail_short_fields_are_rejected(self):
+        import compositor as c
+        rows, script, geometry = drawn_fixture(self.directory, 'Plain.', dict(SPEECH, tail_short=True))
+        reserve = rows[0]['reserves'][0]
+        c.validate_copy_runs(script, rows)                                  # a flag is accepted, with or without a head
+        self.measure(rows, script, geometry)
+        reserve['tail_head'] = [750, 700, 80]
+        c.validate_copy_runs(script, rows)
+        reserve['tail_short'] = False
+        c.validate_copy_runs(script, rows)
+        self.measure(rows, script, geometry)
+        for bad in (1, 0, 'true', 'yes', None, [True], {'short': True}, 1.0):
+            reserve['tail_short'] = bad
+            with self.subTest(tail_short=bad):
+                with self.assertRaisesRegex(ValueError, 'tail_short'):
+                    c.validate_copy_runs(script, rows)
+                with self.assertRaisesRegex(ValueError, 'tail_short'):
+                    self.measure(rows, script, geometry)
+        del reserve['tail'], reserve['tail_head']                           # a short tail without a tail
+        reserve['tail_short'] = True
+        with self.assertRaisesRegex(ValueError, 'tail_short'):
+            c.validate_copy_runs(script, rows)
+        rows, script, geometry = drawn_fixture(self.directory, 'Plain.', dict(CAPTION, tail_short=True))
+        with self.assertRaisesRegex(ValueError, 'tail_short'):
+            c.validate_copy_runs(script, rows)
+
+    def test_the_drawn_tail_stops_three_points_outside_its_tail_head(self):
+        import compositor as c
+        import math
+        head = [750, 700, 80]                       # the speaker's head in source pixels, round the mouth at [750, 760]
+        rows, script, geometry, result, path, reader = self.compose('Look at his hands...', dict(SPEECH, tail_head=head))
+        shape = result['copy_fit_measurements'][0]['drawn']
+        tail = shape['tail']
+        pt = 369 / 1600                             # the fixture's points per source pixel
+        centre = (36 + head[0] * pt, 300 + 184.5 - head[1] * pt)
+        radius = head[2] * pt
+        self.assertAlmostEqual(math.dist(tail['tip_pt'], centre) - radius, 3.0, delta=.01)
+        x, y, w, h = shape['rect_pt']
+        self.assertAlmostEqual(tail['length_pt'], y - (centre[1] + radius) - 3.0, delta=.01)    # straight down from the balloon
+        bare = self.measure(*drawn_fixture(self.directory, 'Look at his hands...', SPEECH))[0]['drawn']['tail']
+        self.assertGreater(bare['length_pt'], tail['length_pt'])                                # the bare tail runs into the head
+        lines = [tuple(float(a) for a in args) for args, op in self.operations(reader) if op == b'l']
+        self.assertTrue(any(abs(l[0] - tail['tip_pt'][0]) < .01 and abs(l[1] - tail['tip_pt'][1]) < .01 for l in lines))
+        self.assertEqual(c.verify_pdf(path, rows, script, result['placements'])['script_chunks_verified'], 1)
+
+    def test_a_reserve_marked_tail_short_draws_the_legacy_short_tail_even_with_a_tail_head(self):
+        import compositor as c
+        head = [750, 700, 80]                       # round the mouth at [750, 760]: the head-aware tail stops 3 pt outside it
+        long = self.measure(*drawn_fixture(self.directory, 'Look at his hands...', dict(SPEECH, tail_head=head)))[0]['drawn']['tail']
+        bare = self.measure(*drawn_fixture(self.directory, 'Look at his hands...', SPEECH))[0]['drawn']['tail']
+        rows, script, geometry, result, path, reader = self.compose('Look at his hands...', dict(SPEECH, tail_head=head, tail_short=True))
+        shape = result['copy_fit_measurements'][0]['drawn']
+        tail = shape['tail']
+        self.assertAlmostEqual(tail['length_pt'], 28.0, places=3)                   # the balloon is 83 pt from the mouth: the 28 pt cap
+        self.assertGreater(long['length_pt'], tail['length_pt'])
+        self.assertGreater(bare['length_pt'], long['length_pt'])
+        self.assertEqual(tail['base_pt'], long['base_pt'])
+        only = self.measure(*drawn_fixture(self.directory, 'Look at his hands...', dict(SPEECH, tail_short=True)))[0]['drawn']['tail']
+        self.assertEqual(only, tail)                                                # a head makes no difference to it
+        off = self.measure(*drawn_fixture(self.directory, 'Look at his hands...', dict(SPEECH, tail_head=head, tail_short=False)))[0]['drawn']['tail']
+        self.assertEqual(off, long)                                                 # false is the head-aware tail
+        lines = [tuple(float(a) for a in args) for args, op in self.operations(reader) if op == b'l']
+        self.assertTrue(any(abs(l[0] - tail['tip_pt'][0]) < .01 and abs(l[1] - tail['tip_pt'][1]) < .01 for l in lines))
+        self.assertEqual(c.verify_pdf(path, rows, script, result['placements'])['script_chunks_verified'], 1)
+
     def test_italic_and_unreadable_lettering_work_inside_drawn_reserves(self):
         import compositor as c
         marked = 'Easy, *bhau*. You are on land now.'
@@ -584,6 +801,29 @@ class DrawnReserveTests(unittest.TestCase):
         self.assertEqual(reserve['draw'], 'speech')
         self.assertEqual(reserve['rect'], [1000, 360, 2600, 800])
         self.assertEqual(rows[0]['reserves'][0]['tail'], [750, 760])
+
+    def test_scaling_a_row_scales_the_tail_head_and_leaves_the_source_row_alone(self):
+        import compositor as c
+        rows, script, geometry = drawn_fixture(self.directory, 'Plain.', dict(SPEECH, tail_head=[750, 700, 60.4]))
+        reserve = c.scaled_row(rows[0], 3200, 1600)['reserves'][0]
+        self.assertEqual(reserve['tail_head'], [1500, 1400, 120.8])
+        self.assertEqual(reserve['tail'], [1500, 1520])
+        self.assertEqual(c.scaled_row(rows[0], 800, 400)['reserves'][0]['tail_head'], [375, 350, 30.2])
+        self.assertEqual(rows[0]['reserves'][0]['tail_head'], [750, 700, 60.4])
+        plain = c.scaled_row(drawn_fixture(self.directory, 'Plain.', SPEECH)[0][0], 3200, 1600)
+        self.assertNotIn('tail_head', plain['reserves'][0])
+
+    def test_scaling_a_row_keeps_tail_short_and_leaves_the_source_row_alone(self):
+        import compositor as c
+        rows, script, geometry = drawn_fixture(self.directory, 'Plain.', dict(SPEECH, tail_head=[750, 700, 60.4], tail_short=True))
+        reserve = c.scaled_row(rows[0], 3200, 1600)['reserves'][0]
+        self.assertIs(reserve['tail_short'], True)
+        self.assertEqual(reserve['tail'], [1500, 1520])
+        self.assertEqual(reserve['tail_head'], [1500, 1400, 120.8])
+        self.assertIs(c.scaled_row(rows[0], 800, 400)['reserves'][0]['tail_short'], True)
+        self.assertIs(rows[0]['reserves'][0]['tail_short'], True)
+        plain = c.scaled_row(drawn_fixture(self.directory, 'Plain.', SPEECH)[0][0], 3200, 1600)
+        self.assertNotIn('tail_short', plain['reserves'][0])
 
     def test_a_tail_target_on_the_frame_edge_draws_no_tail_when_the_balloon_touches_that_edge(self):
         import compositor as c
@@ -745,7 +985,9 @@ class DrawnReserveTests(unittest.TestCase):
         loader = SourceFileLoader('pre_edge_bleed_compositor', str(backup))
         old = module_from_spec(spec_from_loader(loader.name, loader))
         loader.exec_module(old)
-        for index, reserve in enumerate((SPEECH, CAPTION, dict(SPEECH, corner=.40), dict(SPEECH, rect=[0, 0, 900, 240]))):
+        # Tails are left out: their length rule changed on purpose (see the tests of the head rule), their shapes did not.
+        plain = {k: v for k, v in SPEECH.items() if k != 'tail'}
+        for index, reserve in enumerate((plain, CAPTION, dict(plain, corner=.40), dict(plain, rect=[0, 0, 900, 240]))):
             with self.subTest(reserve=reserve):
                 rows, script, geometry = drawn_fixture(self.directory, 'Look at his hands.', reserve)
                 before, after = self.directory / f'pre{index}.pdf', self.directory / f'post{index}.pdf'
@@ -767,3 +1009,24 @@ class DrawnReserveTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class LargeImageStreamTests(unittest.TestCase):
+    def test_the_pdf_reader_decompresses_a_full_page_image_past_pypdfs_default_limit(self):
+        # A panel alone on a page, upscaled for 300 PPI, can embed a 6144 x 4096 image: 75.5 MB raw, past pypdf's
+        # 75 MB decompression default, which made verification fail on a correct PDF.
+        import tempfile
+        from pathlib import Path
+        from PIL import Image
+        from reportlab.pdfgen import canvas
+        from reportlab.lib.utils import ImageReader
+        import compositor as c
+        with tempfile.TemporaryDirectory() as folder:
+            pdf = Path(folder) / 'big.pdf'
+            pen = canvas.Canvas(str(pdf), pagesize=(441, 666))
+            pen.drawImage(ImageReader(Image.new('RGB', (6144, 4096), (200, 180, 150))), 36, 56, 369, 246)
+            pen.showPage(); pen.save()
+            reader = c._pdf_reader(pdf)
+            images = [o.get_object() for o in reader.pages[0]['/Resources']['/XObject'].values()]
+            data = [x for x in images if x.get('/Subtype') == '/Image'][0].get_data()
+            self.assertEqual(len(data), 6144 * 4096 * 3)

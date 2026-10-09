@@ -1,0 +1,40 @@
+== ch24-split first pass s1-a
+ "selected": 123,
+ "regenerate": 22,
+== ch24-split solve 34 pages
+layout ok; fills {'1': 0.98, '2': 0.98, '3': 0.98, '4': 0.75, '5': 0.98, '6': 0.7, '7': 0.95, '8': 0.98, '9': 0.9, '10': 0.98, '11': 0.95, '12': 0.98, '13': 0.98, '14': 0.98, '15': 0.98, '16': 0.98, '17': 0.55, '18': 0.98, '19': 0.98, '20': 0.98, '21': 0.98, '22': 0.95, '23': 0.95, '24': 0.98, '25': 0.98, '26': 0.98, '27': 0.65, '28': 0.9, '29': 0.98, '30': 0.98, '31': 0.98, '32': 0.98, '33': 0.9, '34': 0.5}
+== ch24-split assemble s1-b
+ "selected": 145,
+ "regenerate": 0,
+== ch24-split build r1
+{
+  "pdf": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch24-split/pdf/Horse-of-the-Servant-V15-Chapter-24-r1.pdf",
+  "sha256": "1210e5f1f64e04d1f30aa139665625d44beb1653857fd1d52797031e9daf9f86",
+  "minimum_ppi": 308.0000300781279,
+  "median_ppi": 465.1608832807571,
+  "script_chunks": 280
+}
+10 keep-zone overlaps >= 10%
+   ('page-02-panel-05-v01', 1, 0, 0.24)
+   ('page-06-panel-04-v01', 1, 1, 0.2)
+   ('page-07-panel-01-v01', 0, 1, 0.1)
+   ('page-08-panel-02-v01', 1, 1, 0.26)
+   ('page-28-panel-01-v01', 0, 3, 0.32)
+   ('page-28-panel-02-v01', 1, 1, 0.22)
+   ('page-29-panel-01-v01', 0, 1, 0.24)
+   ('page-30-panel-02-v01', 0, 1, 0.15)
+   ('page-30-panel-05-v01', 1, 2, 0.21)
+   ('page-33-panel-03-v01', 0, 1, 0.34)
+page 34 page-34-panel-03: art fills 53% of the slot, shorter than its slot
+page 17 page-17-panel-04: art fills 58% of the slot, shorter than its slot
+page 27 page-27-panel-01: art fills 66% of the slot, narrower than its slot
+page 27 page-27-panel-02: art fills 69% of the slot, narrower than its slot
+page 6 page-06-panel-05: art fills 70% of the slot, narrower than its slot
+page 6 page-06-panel-01: art fills 73% of the slot, narrower than its slot
+page 4 page-04-panel-03: art fills 77% of the slot, narrower than its slot
+page 17 page-17-panel-03: art fills 78% of the slot, shorter than its slot
+page 4 page-04-panel-02: art fills 78% of the slot, narrower than its slot
+page 27 page-27-panel-04: art fills 82% of the slot, narrower than its slot
+page 27 page-27-panel-03: art fills 87% of the slot, narrower than its slot
+11 panels with bars
+== ch24-split done

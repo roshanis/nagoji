@@ -1,0 +1,100 @@
+[
+  {
+    "chapter": 5,
+    "id": "page-01-panel-01",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-01-panel-01-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-01-panel-02",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-01-panel-02-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-01-panel-03",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-01-panel-03-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-01-panel-05",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-01-panel-05-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-02-panel-03",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-02-panel-03-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-02-panel-04",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-02-panel-04-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-02-panel-05",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-02-panel-05-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-03-panel-03",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-03-panel-03-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-04-panel-04",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-04-panel-04-v03.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-04-panel-05",
+    "status": "error",
+    "candidate_record": null,
+    "error": "Traceback (most recent call last):\n  File \"/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py\", line 1192, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py\", line 1129, in main\n    raise ValueError(f'--prompt must begin with the prepared prompt {item[\"prompt_path\"]}; a correction can only be appended'\nValueError: --prompt must begin with the prepared prompt /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/prompts/page-04-panel-05.txt; a correction can only be appended\n"
+  },
+  {
+    "chapter": 5,
+    "id": "page-07-panel-01",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-07-panel-01-v03.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-07-panel-03",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-07-panel-03-v03.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-08-panel-01",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-08-panel-01-v03.json",
+    "error": null
+  },
+  {
+    "chapter": 5,
+    "id": "page-10-panel-01",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split2/candidates/page-10-panel-01-v03.json",
+    "error": null
+  }
+]

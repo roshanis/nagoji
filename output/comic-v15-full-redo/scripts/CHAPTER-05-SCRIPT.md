@@ -232,7 +232,7 @@ Cast for pages 6-8. The Travancore men are Nair. Guards: short white cotton jack
 
 ## PAGE 7
 
-Five panels. Name, rank, and the question that decides everything.
+Three panels. Name, rank, and the question that decides everything.
 
 **7.1** Nagoji standing at the edge of the mat, upright despite everything, answering the platform. Ibrahim (turban, grey-flecked beard, faint ash) a half step behind at his shoulder.
 
@@ -256,13 +256,19 @@ Five panels. Name, rank, and the question that decides everything.
 
 > NAGOJI: Some.
 
-**7.4** The official seated and raised on his platform at screen right, tapping the edge of his palm leaf with the stylus. At screen left, below him, Nagoji standing, and Ibrahim (white turban, grey-flecked beard, faint ash) at Nagoji's shoulder, echoing the words low in Konkani.
+---
+
+## PAGE 8
+
+Two panels, continuing page 7.
+
+**8.1** The official seated and raised on his platform at screen right, tapping the edge of his palm leaf with the stylus. At screen left, below him, Nagoji standing, and Ibrahim (white turban, grey-flecked beard, faint ash) at Nagoji's shoulder, echoing the words low in Konkani.
 
 > OFFICIAL (Malayalam): Our king sharpens his sword for the Dutch now. And for those local chiefs who think they can hide behind European flags.
 
 > OFFICIAL (Malayalam): He has horse from Madurai, musketeers of his own, ships that slip between the foreign hulls at night.
 
-**7.5** Close on the official, patient, waiting, the stylus still. Set the caption at the top of the panel; the question is the last thing lettered on the page.
+**8.2** Close on the official, patient, waiting, the stylus still. Set the caption at the top of the panel; the question is the last thing lettered on the page.
 
 > CAPTION: Then came the question that would decide whether I was given a place in this new game, or quietly dropped into some ditch.
 
@@ -272,11 +278,11 @@ Five panels. Name, rank, and the question that decides everything.
 
 ---
 
-## PAGE 8
+## PAGE 9
 
-Three panels. The answer and the silence. 8.2 and 8.3 may share one tier, side by side.
+Three panels. The answer and the silence. 9.2 and 9.3 may share one tier, side by side.
 
-**8.1** Reverse wide from behind the official's platform, looking down the hall: the official's bare shoulder, topknot and palm leaves dark in the near foreground; beyond, the seated men turned on their mats toward Nagoji, who stands small and upright at the edge of the central mat. Ibrahim (turban, grey-flecked beard, faint ash) at his shoulder, leaning in to translate. Nagoji's eyes are not on Ibrahim; they are on the official. Rafters and hanging lamps above leave room for the balloons.
+**9.1** Reverse wide from behind the official's platform, looking down the hall: the official's bare shoulder, topknot and palm leaves dark in the near foreground; beyond, the seated men turned on their mats toward Nagoji, who stands small and upright at the edge of the central mat. Ibrahim (turban, grey-flecked beard, faint ash) at his shoulder, leaning in to translate. Nagoji's eyes are not on Ibrahim; they are on the official. Rafters and hanging lamps above leave room for the balloons.
 
 > NAGOJI: Your king knows his own land. He knows these hills, these backwaters, which chiefs will bend and which must be broken.
 
@@ -284,21 +290,21 @@ Three panels. The answer and the silence. 8.2 and 8.3 may share one tier, side b
 
 > NAGOJI: I know how men like them think when they stand on foreign soil and believe God and powder have made them superior.
 
-**8.2** Close on Nagoji's eyes, flat and certain.
+**9.2** Close on Nagoji's eyes, flat and certain.
 
 > NAGOJI: I know what a horse can do to a musket line when the man in the saddle has stopped being impressed by white skin.
 
-**8.3** Narrow, side-on across the hall. Silence. The seated men motionless. The official's stylus lifted off the leaf; at the corner of his mouth, the slight smile just starting.
+**9.3** Narrow, side-on across the hall. Silence. The seated men motionless. The official's stylus lifted off the leaf; at the corner of his mouth, the slight smile just starting.
 
 > *No text.*
 
 ---
 
-## PAGE 9
+## PAGE 10
 
-Two panels. The bow, and the road pointing south. 9.2 is the tallest tier.
+Two panels. The bow, and the road pointing south. 10.2 is the tallest tier.
 
-**9.1** The official in the mid-ground at a readable size, on his platform, the slight smile, the stylus resting. Nagoji in the foreground, lowering his head in a measured bow, not deep. Ibrahim (turban, faint ash) a step behind him. The official's balloons sit high beside the official; the captions sit in the foreground space around Nagoji's lowered head.
+**10.1** The official in the mid-ground at a readable size, on his platform, the slight smile, the stylus resting. Nagoji in the foreground, lowering his head in a measured bow, not deep. Ibrahim (turban, faint ash) a step behind him. The official's balloons sit high beside the official; the captions sit in the foreground space around Nagoji's lowered head.
 
 > OFFICIAL (Malayalam): You speak well for someone who almost fed the fish.
 
@@ -308,7 +314,7 @@ Two panels. The bow, and the road pointing south. 9.2 is the tallest tier.
 
 > CAPTION: but as a man who understands that some battles begin with a lowered gaze and a measured tone.
 
-**9.2** Full width, bottom, the tallest tier, about half the page. Night, moonlight the only light. Camera slightly high inside the compound. In the lower foreground, Nagoji asleep on a mat under the eaves, one bandaged hand lying loosely curled on the mat, as if around reins. Beyond him the red stone wall, and over the top of it, pepper vines on their support trees and the pale road running away south into the dark. The captions sit in the moonlit sky.
+**10.2** Full width, bottom, the tallest tier, about half the page. Night, moonlight the only light. Camera slightly high inside the compound. In the lower foreground, Nagoji asleep on a mat under the eaves, one bandaged hand lying loosely curled on the mat, as if around reins. Beyond him the red stone wall, and over the top of it, pepper vines on their support trees and the pale road running away south into the dark. The captions sit in the moonlit sky.
 
 > CAPTION: Somewhere to the south a king I had not yet met considered maps covered in salt stains and ink.
 
@@ -322,27 +328,27 @@ Two panels. The bow, and the road pointing south. 9.2 is the tallest tier.
 
 ## Adaptation notes
 
-- **Page budget.** 9 pages, one over the 6-8 range, 40 panels (the author split the last page on 2026-10-02: its lettering did not fit one page). The hall interview is the chapter's drama, so it gets three pages (6 to 8). The travel (village, pepper path, cart, road, shrine, hills) is compressed into pages 3 to 5. Page 8 is the densest page because the answer, the bow and the closing night are all verbatim; give 8.5 the tallest tier.
+- **Page budget.** 10 pages, two over the 6-8 range, 40 panels (the author split the last page on 2026-10-02 because its lettering did not fit one page, and page 7 was split on 2026-10-07 so that its lettering fits without covering the art). The hall interview is the chapter's drama, so it gets pages 6 to 10. The travel (village, pepper path, cart, road, shrine, hills) is compressed into pages 3 to 5. Page 9 is the densest page because the answer and the silence are verbatim; the bow and the closing night have page 10, where 10.2 is the tallest tier.
 - **Lettering convention.** Konkani between Ibrahim and Nagoji is lettered as plain English. Lines tagged (Malayalam) get a distinct treatment (for example angle brackets). Nagoji hears them through Ibrahim, whose translations are not repeated in balloons.
 - **Cut for length.** Ibrahim's "whose boats pull the pepper your people crave" and "they will already know more about you than you think"; "after a Portuguese ship broke"; Nagoji's "Pepper, cloth, horses from beyond the sea" list; the "fewer coins and perhaps fewer fingers" warning; the official's "Rest tonight". The village-life, bazaar and hall descriptions become staging only.
 - **Reordered.** On page 5 the shrine comes before the climb into the hills (the novel has it after), so the page ends on the watcher and "one whose arrival has been announced", which hands off to "This is the man I sent word about" at the gate.
 - **Staging added.** The watcher at the tree line (5.5) makes "men who answer only to the king" visible. The palm-leaf insert (7.2) and the "number" caption (7.1) echo the Chapter 1 ledger, so the name taken in Goa is given back here. The silent mare panel (2.4) repeats Chapter 1, 6.5 exactly, so "horse" lands on the same wound. The carter and the cart lantern are added for drawability. The closing panel keeps the hooves in the caption and the reins in his sleeping hand.
 - **Plants.** Ibrahim's flicker of calculation (1.5) is a silent beat carried by the art alone; it pays off when his divided loyalties surface in Chapters 11 and 26, so the artist must sell the look. "The question is always to whom" (4.2) is a spoken plant for the same thread. The maps caption (8.5) plants the rolled map in front of Varma in Chapter 6. The bow (8.4) is echoed in Chapter 6, 3.1 ("not as deeply as a subject would").
 - **Continuity.** Nagoji: pages 1-2 bare-chested in the cream captivity dhoti (explicit override of the bible's Chapter 5-6 row), then from page 3 the collarless cream tunic-shirt over a village dhoti, hair tied back. Clean chin, thick moustache, gold ear stud. The brand is a pale puckered patch of raised ridges on the inner side of his LEFT forearm, a hand's width above the wrist, not a cross. Ibrahim: white turban, short grey-flecked beard, scar on his LEFT side, pale vest over a white mundu, no coat until Chapter 6; ash on his forehead from 5.3 to the end of the chapter. The coastal official is unnamed and must be drawn distinctly from the diwan who first appears in Chapter 6: topknot, bare torso, clean chin, heavier and older. The official's description deliberately does not name the diwan, because the pipeline adds any character named in a panel description to that panel's cast.
-- **Pipeline cast overrides.** The cast inference will add Nagoji to 1.4, 7.2 and 7.5 because of first-person narration or his off-panel line; he is not in frame in those panels, so pass a cast override (Ibrahim only for 1.4; no principals for 7.2 and 7.5).
+- **Pipeline cast overrides.** The cast inference will add Nagoji to 1.4, 7.2 and 8.2 because of first-person narration or his off-panel line; he is not in frame in those panels, so pass a cast override (Ibrahim only for 1.4; no principals for 7.2 and 8.2).
 - **Page turns.** Only the turn after page 7 is marked (question, turn, answer). This assumes the chapter opens on a recto, which makes pages 6 and 7 a facing spread ("Name." across the gutter from "Nagoji Sawant."). Confirm the side at assembly.
 - **Print.** Every frame for this chapter must reach at least 300 PPI at its placed size; upscale 2x or regenerate anything below that (CONTINUITY.md standing rule).
 
 ### Review changes (r1 to r2)
 
 - Restored the raiding admission (4.4) and "Your masters. Not you." (4.5), so "I serve, as all men serve" answers a challenge; page 4 now ends on the fort line and "Our fortresses are both. You will see." gets its own quiet panel (5.1). The 4.3 inset is folded into 4.2.
-- 9.1 bow caption is the novel's full sentence, verbatim, across two boxes.
+- 10.1 bow caption is the novel's full sentence, verbatim, across two boxes.
 - Added "He will want to hear what you have seen" to 1.4.
-- 9.2 uses the novel's maps and road sentences verbatim, restoring "south" and the maps plant.
-- Verbatim fixes: 4.1 "both eyes and more teeth than one would expect from the Viceroy's dungeons"; 7.4 "those local chiefs who think they can hide behind European flags"; 8.1 "He knows these hills".
-- Added a silent beat (8.3) for the novel's pause before the smile; the official's lines follow in 9.1.
-- 7.5 stakes caption moved above the question, so the question is the last thing lettered before the turn.
-- Page 8 reframed: reverse wide down the hall (8.1), close on the eyes (8.2), silent side-on (8.3), in place of three push-ins on one face.
+- 10.2 uses the novel's maps and road sentences verbatim, restoring "south" and the maps plant.
+- Verbatim fixes: 4.1 "both eyes and more teeth than one would expect from the Viceroy's dungeons"; 8.1 "those local chiefs who think they can hide behind European flags"; 9.1 "He knows these hills".
+- Added a silent beat (9.3) for the novel's pause before the smile; the official's lines follow in 10.1.
+- 8.2 stakes caption moved above the question, so the question is the last thing lettered before the turn.
+- Page 9 reframed: reverse wide down the hall (9.1), close on the eyes (9.2), silent side-on (9.3), in place of three push-ins on one face.
 - Cut "A calculation. A road not taken." from 1.5; the flicker is wordless, as with Duarte in Chapter 1. Corrected the note that called 4.2 a silent beat.
 - 2.4 is now the exact Chapter 1 echo with no text.
 - Page 5 reordered to end on the watcher and "announced".
@@ -350,7 +356,7 @@ Two panels. The bow, and the road pointing south. 9.2 is the tallest tier.
 - 2.1 and 2.3: Ibrahim is still crouched, then rises; no re-entry.
 - 1.3 and 7.3 give one eyeline target each.
 - Ibrahim locked to his Chapter 4 look (white turban, grey-flecked beard, pale vest, LEFT scar) with a tag in every panel; 1.4 fixes the scar side against mirroring.
-- The official redrawn as a Nair official (topknot, bare torso, clean chin, no thread or marks), placed at screen right with Ibrahim at screen left in 7.4.
+- The official redrawn as a Nair official (topknot, bare torso, clean chin, no thread or marks), placed at screen right with Ibrahim at screen left in 8.1.
 - Brand fixed as a pale ridged patch on the inner LEFT forearm, a hand's width above the wrist, not a cross (1.1, 1.3, 7.3).
 - Cream shirt specified as a collarless pullover homespun tunic-shirt.
 - Guards, watcher and hall men drawn as Nair men; 6.2 keeps Nagoji on the sacks.

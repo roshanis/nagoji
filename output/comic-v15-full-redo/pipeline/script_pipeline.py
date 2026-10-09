@@ -10,6 +10,7 @@ import hashlib
 import json
 import re
 import statistics
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -290,23 +291,59 @@ def infer_cast(panel: dict[str, Any], chapter: int, overrides: dict[str, Any] | 
     return sorted(set(cast))
 
 
-def _concept_sheets() -> dict[str, Path]:
-    """V13 sheets plus the V15 sheets the author approved, verified byte-for-byte."""
+_SPAN_POINT = re.compile(r"^(\d+)\.(\d+)(?:\.(\d+))?$")
+
+
+def _sheet_span_bounds(spans: Any, where: str) -> list[tuple[tuple[int, int, int], tuple[int, int, int]]]:
+    """Inclusive (chapter, page, panel) bounds of "chapter.page[.panel]" pairs: a start without a panel begins at
+    panel 1, an end without a panel takes every panel on that page."""
+    bounds = []
+    for span in spans:
+        points = [_SPAN_POINT.match(x) if isinstance(x, str) else None for x in span] if isinstance(span, list) else []
+        if len(points) != 2 or not all(points):
+            raise ValueError(f'{where}: span {span!r} must be ["chapter.page[.panel]", "chapter.page[.panel]"]')
+        (c1, p1, n1), (c2, p2, n2) = (point.groups() for point in points)
+        low, high = (int(c1), int(p1), int(n1 or 1)), (int(c2), int(p2), int(n2 or sys.maxsize))
+        if low > high:
+            raise ValueError(f"{where}: span {span!r} ends before it starts")
+        bounds.append((low, high))
+    return bounds
+
+
+def _concept_sheets(chapter: int | None = None, page: int | None = None, panel: int | None = None) -> dict[str, Path]:
+    """V13 sheets plus the V15 sheets the author approved, verified byte-for-byte.
+
+    An approved entry serves its "character" (default: its key). One with "spans" replaces that character's
+    sheet only for panels inside them, so it applies only when chapter, page and panel are all given."""
+    position = (chapter, page, panel)
+    if None in position and position != (None, None, None):
+        raise ValueError("chapter, page and panel must be given together")
     sheets = {key: CONCEPT_ROOT / name for key, name in CONCEPTS.items()}
     if not APPROVED_SHEETS.is_file():
         return sheets
+    claims: dict[str, list] = {}
     for key, entry in json.loads(APPROVED_SHEETS.read_text(encoding="utf-8")).items():
-        if key in CONCEPTS:
-            raise ValueError(f"{key} keeps its V13 sheet; remove it from {APPROVED_SHEETS.name}")
-        path = APPROVED_SHEETS.parent / entry["file"]
+        character, path = entry.get("character", key), APPROVED_SHEETS.parent / entry["file"]
+        bounds = _sheet_span_bounds(entry.get("spans") or [], key)
+        if not bounds and character in CONCEPTS:
+            raise ValueError(f"{character} keeps its V13 sheet; give {key} spans or remove it from {APPROVED_SHEETS.name}")
+        for other, other_bounds, _ in claims.get(character, []):
+            if (not bounds and not other_bounds) or any(low <= other_high and other_low <= high
+                                                         for low, high in bounds for other_low, other_high in other_bounds):
+                raise ValueError(f"{other} and {key} overlap in what they cover for {character}")
         if sha256(path) != entry["sha256"]:
             raise ValueError(f"Approved sheet changed since approval: {path}")
-        sheets[key] = path
+        claims.setdefault(character, []).append((key, bounds, path))
+    for character, claimed in claims.items():
+        for _, bounds, path in sorted(claimed, key=lambda item: bool(item[1])):
+            if not bounds or (None not in position and any(low <= position <= high for low, high in bounds)):
+                sheets[character] = path
     return sheets
 
 
-def _references(cast: list[str], description: str = "") -> list[str]:
-    sheets = _concept_sheets()
+def _references(cast: list[str], description: str = "", chapter: int | None = None,
+                page: int | None = None, panel: int | None = None) -> list[str]:
+    sheets = _concept_sheets(chapter=chapter, page=page, panel=panel)
     return [str(sheets[key].resolve()) for key in cast if key in sheets]
 
 
@@ -734,7 +771,7 @@ def _frame_v2(panel, resolved):
     return ''
 
 
-def assemble_prompt_v2(panel, chapter, continuity, cast, direction, sheet_keys):
+def assemble_prompt_v2(panel, chapter, continuity, cast, direction, sheet_keys, caveat_keys=None):
     resolved = _panel_direction(direction, panel)
     setting = direction['settings'][resolved['setting']]
     parts = [f"V15 graphic novel panel {panel['id']} for chapter {chapter}. Drawn in the book's inked graphic-novel style: "
@@ -772,7 +809,7 @@ def assemble_prompt_v2(panel, chapter, continuity, cast, direction, sheet_keys):
                 line += ' For Nagoji use only the later-life figure.'
             else:
                 line += ' For Nagoji take only the face and build from the sheet; his costume comes from the text.'
-        for key in sheet_keys:
+        for key in sheet_keys if caveat_keys is None else caveat_keys:
             if key in SHEET_CAVEATS:
                 line += ' ' + SHEET_CAVEATS[key]['text']
         parts.append(line)
@@ -838,7 +875,7 @@ def prepare(chapter: int, out_dir: Path, *, scripts_dir: Path = SCRIPTS,
     for page in script["pages"].values():
         for panel in page["panels"]:
             cast = infer_cast(panel, chapter, overrides)
-            refs = _references(cast, panel["description"])
+            refs = _references(cast, panel["description"], chapter=chapter, page=panel["page"], panel=panel["panel"])
             prompt = assemble_prompt(panel, chapter, continuity, cast)
             prompt_path = prompts_dir / f"{panel['id']}.txt"
             _safe_write(prompt_path, prompt + "\n")
@@ -880,7 +917,7 @@ def _prepare_v2(chapter, out_dir, scripts_dir, continuity_path, cast_overrides_p
     _validate_spans(continuity, script, chapter)
     # The untouched live bible is the pre-v2 A/B source, even when preparing with a proposal.
     baseline = load_continuity(CONTINUITY)
-    sheets = _concept_sheets()
+    base_sheets = _concept_sheets()
     lock_hash = sha256(LOCK_PATH)
     snapshot_path = out_dir / 'SCRIPT-SNAPSHOT.json'
     snapshot = {'source': script, 'captured_sha256': script['sha256'], 'drift_policy': 'refuse if source hash changes'}
@@ -891,13 +928,18 @@ def _prepare_v2(chapter, out_dir, scripts_dir, continuity_path, cast_overrides_p
     for panel in panels:
         cast = casts[panel['id']]
         resolved = _panel_direction(direction, panel)
+        sheets = _concept_sheets(chapter=chapter, page=panel['page'], panel=panel['panel'])
         sheet_keys = [key for key in cast if key in sheets] if resolved.get('sheets', True) else []
         refs = [str(sheets[key].resolve()) for key in sheet_keys]
         refs_hashes = _reference_hashes(refs)
+        caveat_keys = []
+        # A caveat describes the sheet that serves the character everywhere else; a spanned sheet carries none.
         for key, ref in zip(sheet_keys, refs):
-            if key in SHEET_CAVEATS and refs_hashes[ref] != SHEET_CAVEATS[key]['sha256']:
-                raise ValueError(f'{panel["id"]}: {key} sheet caveat hash is stale; review the caveat')
-        prompt = assemble_prompt_v2(panel, chapter, continuity, cast, direction, sheet_keys)
+            if key in SHEET_CAVEATS and sheets[key] == base_sheets.get(key):
+                if refs_hashes[ref] != SHEET_CAVEATS[key]['sha256']:
+                    raise ValueError(f'{panel["id"]}: {key} sheet caveat hash is stale; review the caveat')
+                caveat_keys.append(key)
+        prompt = assemble_prompt_v2(panel, chapter, continuity, cast, direction, sheet_keys, caveat_keys)
         prompt_path = out_dir / 'prompts' / f'{panel["id"]}.txt'
         writes.append((prompt_path, prompt + '\n'))
         jobs.append({'id': panel['id'], 'page': panel['page'], 'panel': panel['panel'], 'cast': cast,
@@ -1026,10 +1068,9 @@ def audit_prompts(job_json_path):
         order_ok = order_ok and (not refs if not sheet_keys else len(refs) == 1 and
                                 refs[0].startswith(f'REFERENCE SHEETS: {len(sheet_keys)} attached image(s), in this order: {order}.'))
         # Check each path against its stable sheet filename, so swapping paths is detectable.
-        approved = json.loads(APPROVED_SHEETS.read_text()) if APPROVED_SHEETS.is_file() else {}
+        serving = _concept_sheets(chapter=job['chapter'], page=panel['page'], panel=panel['panel'])
         for key, ref in zip(sheet_keys, expected_paths):
-            filename = CONCEPTS.get(key) or approved.get(key, {}).get('file')
-            if filename and Path(ref).name != filename:
+            if key in serving and Path(ref).name != serving[key].name:
                 order_ok = False
         counts['sheet_order_matches'] += bool(order_ok)
         rules = '\n\n'.join(section for section in prompt.split('\n\n') if section.startswith('ART RULES:'))

@@ -382,6 +382,55 @@ class PlaceBoxesTests(Tmp):
     def found(self, image, name='p.png', count=4):
         return rv.find_regions(save(image, self.dir, name), count), self.dir / name
 
+    def test_inside_finds_a_small_zone_even_with_quieter_space_elsewhere(self):
+        image = Image.new('RGB', (600, 400), (70, 70, 70))
+        zone = [313.2, 217.2, 415.8, 260.8]
+        ImageDraw.Draw(image).rectangle([313, 217, 416, 261], fill=(170, 170, 170))
+        found, path = self.found(image, count=0)
+        plain = rv.place_boxes(path, found, [[(100, 40)]])
+        box = rv.place_boxes(path, found, [[(100, 40)]], inside=[[zone]])['boxes'][0]
+        self.assertNotEqual(box, plain['boxes'][0])
+        self.assertTrue(zone[0] <= box[0] and zone[1] <= box[1] and box[2] <= zone[2] and box[3] <= zone[3])
+
+    def test_inside_cannot_use_union_or_escape_on_retries(self):
+        found, path = self.found(frame(), count=0)
+        for zones in ([], [[100, 100, 120, 120]], [[100, 100, 150, 150], [150, 100, 200, 150]]):
+            with self.subTest(zones=zones), self.assertRaisesRegex(rv.PlacementError, 'chunk 0'):
+                rv.place_boxes(path, found, [[(100, 40)]], inside=[zones], uncross=True)
+
+    def test_inside_applies_to_painted_boxes(self):
+        found, path = self.found(frame(boxes=[(100, 100, 400, 200)]))
+        zone = [50, 50, 450, 250]
+        box = rv.place_boxes(path, found, [[(300, 60)]], inside=[[zone]])['boxes'][0]
+        self.assertTrue(zone[0] <= box[0] and zone[1] <= box[1] and box[2] <= zone[2] and box[3] <= zone[3])
+        with self.assertRaisesRegex(rv.PlacementError, 'chunk 0'):
+            rv.place_boxes(path, found, [[(300, 60)]], inside=[[[700, 300, 1100, 500]]])
+
+    def test_inside_none_preserves_result(self):
+        found, path = self.found(frame(boxes=[(100, 100, 400, 200)]))
+        import types
+        baseline = types.ModuleType('before_write_reserves')
+        baseline.__file__ = rv.__file__
+        source = Path(rv.__file__ + '.backup-pre-writezone-2026-10-09').read_text()
+        exec(compile(source, baseline.__file__, 'exec'), baseline.__dict__)
+        expected = baseline.place_boxes(path, found, [[(300, 60)]])
+        self.assertEqual(json.dumps(expected), json.dumps(rv.place_boxes(path, found, [[(300, 60)]], inside=None)))
+        self.assertEqual(expected, rv.place_boxes(path, found, [[(300, 60)]]))
+
+    def test_inside_none_entry_does_not_constrain_other_chunks(self):
+        found, path = self.found(frame(), count=0)
+        zone = [100, 100, 200, 140]
+        plan = rv.place_boxes(path, found, [[(100, 40)], [(100, 40)]], inside=[[zone], None], keep=[zone])
+        self.assertEqual(plan['boxes'][0], zone)
+        self.assertTrue(rv._reads_after(plan['boxes'][0], plan['boxes'][1], False))
+        self.assertEqual(plan['keep_overlaps'], {})
+
+    def test_inside_still_requires_script_order(self):
+        found, path = self.found(frame(), count=0)
+        with self.assertRaisesRegex(rv.PlacementError, 'chunk 1'):
+            rv.place_boxes(path, found, [[(100, 40)], [(100, 40)]],
+                           inside=[[[800, 450, 1000, 550]], [[100, 50, 300, 150]]])
+
     def test_box_covers_the_painted_region_and_eight_more_pixels(self):
         found, path = self.found(frame(boxes=[(100, 100, 700, 260)]))
         bbox = found['regions'][0]['bbox']
@@ -635,6 +684,68 @@ class TailCrossTests(Tmp):
                     hits.append((i, j))
         return hits
 
+    def test_the_wedge_follows_the_compositors_tail_to_a_known_head(self):
+        """With the speaker's head circle known, the planner's wedge stops where the compositor's tail does."""
+        import compositor as c
+        for scale in (.3, 1.0):
+            for box, target, head in (([432, 100, 732, 200], (600, 420), (600, 440, 60)), ([100, 300, 260, 360], (900, 330), (880, 330, 90)),
+                                      ([0, 0, 300, 100], (150, 400), (150, 380, 50))):
+                with self.subTest(scale=scale, box=box, target=target):
+                    wedge = rv.tail_wedge(box, .45, target, self.BOUNDS, scale, head=head)
+                    x0, y0, x1, y1 = [v * scale for v in box]
+                    tail = c._drawn_shape('speech', [x0, y0, x1 - x0, y1 - y0], [v * scale for v in target],
+                                          [v * scale for v in (0, 0, 1200, 600)], .45, head_pt=[v * scale for v in head])['tail']
+                    self.assertAlmostEqual(wedge[3] * scale, tail['length_pt'], places=6)
+                    tip = rv._tail_parts(wedge)[1]
+                    self.assertGreater(math.hypot(tip[0] - head[0], tip[1] - head[1]), head[2])    # never inside the head
+
+    def test_the_short_wedge_follows_the_compositors_short_tail(self):
+        """With "tail_short" the compositor draws the legacy tail; the planner's short wedge ends where it does, head or no head."""
+        import compositor as c
+        self.assertEqual((rv.WEDGE_SHORT_REACH, rv.WEDGE_SHORT_MAX_PT), (c.TAIL_SHORT_REACH, c.TAIL_SHORT_MAX_PT))
+        self.assertEqual(rv.WEDGE_MIN_PT, c.TAIL_MIN_PT)
+        for scale in (.3, 1.0):
+            for box, target, head in (([432, 100, 732, 200], (600, 420), (600, 440, 60)), ([100, 300, 260, 360], (900, 330), None),
+                                      ([0, 0, 300, 100], (150, 400), (150, 380, 50)), ([432, 100, 732, 200], (600, 210), (600, 215, 30)),
+                                      ([432, 100, 732, 200], (600, 599), None)):
+                with self.subTest(scale=scale, box=box, target=target):
+                    x0, y0, x1, y1 = [v * scale for v in box]
+                    tail = c._drawn_shape('speech', [x0, y0, x1 - x0, y1 - y0], [v * scale for v in target],
+                                          [v * scale for v in (0, 0, 1200, 600)], .45, head_pt=None if head is None else [v * scale for v in head],
+                                          short_tail=True)['tail']
+                    wedge = rv.tail_wedge(box, .45, target, self.BOUNDS, scale, head=head, short=True)
+                    self.assertAlmostEqual(wedge[3] * scale, tail['length_pt'], places=6)
+                    tip = rv._tail_parts(wedge)[1]
+                    self.assertAlmostEqual(tip[0] * scale, tail['tip_pt'][0], places=6)
+                    self.assertAlmostEqual(tip[1] * scale, tail['tip_pt'][1], places=6)
+
+    def test_the_speaker_head_is_picked_as_the_placement_step_picks_it(self):
+        faces = [(500, 300, 80, 'face 1'), (520, 300, 120, 'face 2'), (500, 300, 150, "head of chunk 0's speaker")]
+        self.assertEqual(rv.speaker_head((510, 305), faces), (500, 300, 80))          # nearest-centre face, before any head zone
+        self.assertEqual(rv.speaker_head((500, 430), faces), (500, 300, 150))         # only a head zone holds it
+        self.assertIsNone(rv.speaker_head((900, 50), faces))
+        self.assertIsNone(rv.speaker_head(None, faces))
+
+    def test_a_short_wedge_is_the_legacy_tail_and_ignores_the_head(self):
+        """short=True: the tail as drawn before heads were known, 60 percent of the way within 8 to 28 pt and 90 percent at most."""
+        scale = .3
+        box = [432, 100, 732, 200]                                # the base is at (600, 200), straight above the mouth
+        for distance, length in ((20, 18.0), (40, 8 / scale), (100, 60.0), (220, 28 / scale)):   # 90 percent, the 8 pt floor, 60 percent, the 28 pt cap
+            with self.subTest(distance=distance):
+                wedge = rv.tail_wedge(box, .45, (600, 200 + distance), self.BOUNDS, scale, short=True)
+                self.assertAlmostEqual(wedge[3], length, places=6)
+        self.assertEqual((rv.WEDGE_SHORT_REACH, rv.WEDGE_SHORT_MAX_PT), (.6, 28.0))
+        target, head = (600, 420), (600, 440, 60)
+        long_wedge = rv.tail_wedge(box, .45, target, self.BOUNDS, scale, head=head)
+        short = rv.tail_wedge(box, .45, target, self.BOUNDS, scale, head=head, short=True)
+        self.assertGreater(long_wedge[3], short[3])                                  # the head-aware tail runs to the head
+        self.assertEqual(short, rv.tail_wedge(box, .45, target, self.BOUNDS, scale, short=True))   # the head makes no difference
+        self.assertEqual(short[:3], long_wedge[:3])                                  # base, mouth and width are the same
+        self.assertEqual(rv.tail_wedge(box, .45, target, self.BOUNDS, scale), rv.tail_wedge(box, .45, target, self.BOUNDS, scale, short=False))
+        off = rv.tail_wedge(box, .45, (600, 600), self.BOUNDS, scale, short=True)    # a voice off the frame: all the way to the edge
+        self.assertAlmostEqual(off[3], math.hypot(off[1][0] - off[0][0], off[1][1] - off[0][1]), places=6)
+        self.assertIsNone(rv.tail_wedge(box, .45, (600, 150), self.BOUNDS, scale, short=True))   # the mouth inside the box
+
     def test_the_wedge_follows_the_compositors_tail(self):
         import compositor as c
         for scale in (.3, 1.0):
@@ -763,6 +874,279 @@ class TailCrossTests(Tmp):
         self.assertEqual(self.crossings(bare, targets, 1.0), [])                        # an omitted scale is one point per pixel
 
 
+def x_tails(result, targets, bounds, scale):
+    """Independent check: (i, j) pairs of different speakers whose tails, each a straight line from its wedge's base to its
+    mouth, meet (sampled every pixel along both lines)."""
+    wedges = [None if t is None or result['corner'][i] is None else rv.tail_wedge(result['boxes'][i], result['corner'][i], t, bounds, scale)
+              for i, t in enumerate(targets)]
+    pairs = []
+    for i, j in itertools.combinations(range(len(targets)), 2):
+        if wedges[i] is None or wedges[j] is None or targets[i] == targets[j]:
+            continue
+        (a, b), (c, d) = wedges[i][:2], wedges[j][:2]
+        steps = int(max(abs(b[0] - a[0]), abs(b[1] - a[1]))) + 1
+        line = [(a[0] + (b[0] - a[0]) * k / steps, a[1] + (b[1] - a[1]) * k / steps) for k in range(steps + 1)]
+        if any(rv._segment_gap(p, c, d) < .75 for p in line[2:-2]):
+            pairs.append((i, j))
+    return pairs
+
+
+class TailPairTests(Tmp):
+    """With `uncross`, two speakers' tails are not left crossing each other where another layout keeps them apart."""
+
+    SCALE, R, BOUNDS = .3, (.45, .4), [0, 0, 1200, 600]
+    OPTIONS = [[(300, 100), (210, 140)], [(300, 100), (210, 140)]]
+    # Speaker A (chunk 0) stands right, speaker B (chunk 1) left. The greedy planner puts A's balloon at the top centre and B's,
+    # which must read after it, at the top right: the two tails cross in an X.
+    TARGETS = [(850, 350), (150, 350)]
+    FACES = [(850, 330, 60, 'A'), (150, 330, 60, 'B')]
+
+    def setUp(self):
+        super().setUp()
+        self.path = save(quiet_frame(busy=()), self.dir, 'q.png')
+        self.found = rv.find_regions(self.path, 0)
+
+    def place(self, targets=None, uncross=True, **extra):
+        return rv.place_boxes(self.path, self.found, self.OPTIONS, targets or self.TARGETS, rounded=[self.R, self.R],
+                              scale=self.SCALE, tail_margin=12, faces=self.FACES, uncross=uncross, **extra)
+
+    def test_tails_cross_finds_an_x_and_nothing_else(self):
+        wedge = lambda base, mouth: (base, mouth, 5.0, 50.0)
+        self.assertTrue(rv.tails_cross(wedge((0, 0), (100, 100)), wedge((100, 0), (0, 100))))
+        self.assertFalse(rv.tails_cross(wedge((0, 0), (100, 100)), wedge((200, 0), (300, 100))))      # side by side
+        self.assertFalse(rv.tails_cross(wedge((0, 0), (100, 100)), wedge((0, 50), (100, 150))))       # parallel
+        self.assertFalse(rv.tails_cross(wedge((0, 0), (100, 100)), wedge((200, 0), (100, 100))))      # one mouth, two tails
+
+    def test_crossing_tails_are_replaced_by_a_layout_that_keeps_them_apart(self):
+        plain = self.place(uncross=False)
+        self.assertEqual(x_tails(plain, self.TARGETS, self.BOUNDS, self.SCALE), [(0, 1)])      # the X the planner used to draw
+        result = self.place()
+        self.assertEqual(x_tails(result, self.TARGETS, self.BOUNDS, self.SCALE), [])
+        self.assertTrue(separate(*result['boxes']))
+        self.assertTrue(rv._reads_after(result['boxes'][0], result['boxes'][1]))             # still in script order
+        for box in result['boxes']:
+            self.assertTrue(box[0] >= 0 and box[1] >= 0 and box[2] <= 1200 and box[3] <= 600)
+
+    def test_a_panel_whose_tails_do_not_cross_is_placed_exactly_as_before(self):
+        targets = list(reversed(self.TARGETS))          # the left speaker first: the plain layout has no X
+        plain = self.place(targets, uncross=False)
+        self.assertEqual(x_tails(plain, targets, self.BOUNDS, self.SCALE), [])
+        self.assertEqual(self.place(targets), plain)
+        self.assertEqual(rv.place_boxes(self.path, self.found, self.OPTIONS, self.TARGETS, rounded=[self.R, self.R], scale=self.SCALE,
+                                        tail_margin=12, faces=self.FACES), self.place(uncross=False))   # off by default
+
+    def test_where_every_layout_crosses_the_plain_one_is_kept(self):
+        # Both balloons are painted in place, the right speaker's on the left: nothing can move, so the X stays.
+        path = save(frame(boxes=[(100, 420, 400, 520), (700, 420, 1000, 520)]), self.dir, 'p.png')
+        found = rv.find_regions(path, 2)
+        targets, faces = [(900, 200), (300, 200)], [(900, 180, 60, 'A'), (300, 180, 60, 'B')]
+        kwargs = dict(rounded=[self.R, self.R], scale=self.SCALE, tail_margin=12, faces=faces)
+        plain = rv.place_boxes(path, found, [[(300, 100)], [(300, 100)]], targets, **kwargs)
+        self.assertEqual(x_tails(plain, targets, self.BOUNDS, self.SCALE), [(0, 1)])
+        self.assertEqual(rv.place_boxes(path, found, [[(300, 100)], [(300, 100)]], targets, uncross=True, **kwargs), plain)
+
+    def test_a_layout_that_uncrosses_only_by_covering_a_keep_zone_is_not_taken(self):
+        keep = [[0, 110, 700, 600]]                      # the art the uncrossed layout would put B's balloon on
+        plain = self.place(uncross=False, keep=keep)
+        result = self.place(keep=keep)
+        for chunk, zones in result['keep_overlaps'].items():
+            self.assertLessEqual(set(zones), set(plain['keep_overlaps'].get(chunk, [])))
+        self.assertEqual(result['edge_voice_no_tail'], plain['edge_voice_no_tail'])
+
+
+class ShortTailFallbackTests(Tmp):
+    """A chunk the head-aware (long) tail cannot place is retried with the legacy short tail, and only then; see place_boxes."""
+
+    R = (.45, .4)
+    SCALE = .3
+    BOUNDS = [0, 0, 1200, 600]
+    MOUTH = (900, 290)
+
+    def painted(self, boxes, name='s.png'):
+        path = save(frame(boxes=boxes), self.dir, name)
+        return rv.find_regions(path, len(boxes)), path
+
+    def cross_panel(self, second):
+        """Chunk 0, a pinned balloon at the left with its mouth far to the right along y = 290; chunk 1, painted, to its right
+        and below the tail's line (second = its painted box). Chunk 1 has no tail."""
+        found, path = self.painted([(50, 250, 350, 330), second])
+        return rv.place_boxes(path, found, [[(300, 70)], [(200, 60)]], [self.MOUTH, None], rounded=[self.R, None],
+                              scale=self.SCALE, tail_margin=12)
+
+    def test_a_chunk_whose_long_tail_would_cross_another_balloon_is_placed_with_the_short_tail(self):
+        # Chunk 1's balloon is 6 px below the tail's line: the long tail (about 500 px) is still 8 px either side of the
+        # line there and tapers across it; the short tail (28 pt, 93 px) ends well before it, and past its tip the path is a line.
+        result = self.cross_panel((600, 300, 800, 380))
+        self.assertEqual(result['short_tail'], [True, False])
+        first, second = result['boxes']
+        wedge = rv.tail_wedge(first, result['corner'][0], self.MOUTH, self.BOUNDS, self.SCALE, short=True)
+        self.assertFalse(rv.tail_crosses(wedge, second))                                  # the tail as it will be drawn: clear
+        self.assertTrue(rv.tail_crosses(rv.tail_wedge(first, result['corner'][0], self.MOUTH, self.BOUNDS, self.SCALE), second))   # long: not
+        self.assertTrue(separate(first, second))
+        self.assertEqual(result['choice'], [0, 0])
+        self.assertAlmostEqual(wedge[3], 28 / self.SCALE, places=6)
+
+    def test_a_chunk_that_places_with_the_long_tail_never_gets_the_short_one(self):
+        found, path = self.painted([(50, 250, 350, 330)])
+        result = rv.place_boxes(path, found, [[(300, 70)]], [self.MOUTH], rounded=[self.R], scale=self.SCALE, tail_margin=12)
+        self.assertEqual(result['short_tail'], [False])                                   # nothing in the way: the long tail
+        quiet = save(quiet_frame(busy=()), self.dir, 'q.png')
+        nothing = rv.find_regions(quiet, 0)
+        mixed = rv.place_boxes(quiet, nothing, [[(300, 100)]] * 3, [(600, 300), None, (300, 450)], rounded=[self.R, None, None],
+                               scale=self.SCALE, tail_margin=12)
+        self.assertEqual(mixed['short_tail'], [False, False, False])                      # one flag per chunk, captions and tail-less included
+        self.assertEqual(rv.place_boxes(quiet, nothing, [[(300, 100)]], [(600, 300)])['short_tail'], [False])    # no rounded: no tails
+
+    def test_a_chunk_neither_tail_can_place_fails_as_it_always_did_naming_the_balloon_it_would_cross(self):
+        # Chunk 1's balloon lies on the tail's line itself: the short tail is blocked as well, so the chunk fails as it always did.
+        with self.assertRaises(rv.PlacementError) as caught:
+            self.cross_panel((600, 250, 800, 330))
+        message = str(caught.exception)
+        self.assertEqual(caught.exception.chunk, 0)
+        self.assertIn("chunk 0: its tail would cross chunk 1's balloon (over its painted region)", message)
+        self.assertIn('size(s) tried', message)
+
+    def test_later_chunks_are_checked_against_the_tail_an_earlier_chunk_was_placed_with(self):
+        # Chunk 0 falls back on the short tail because its long tail would cross chunk 1's painted balloon. Chunk 1 is placed
+        # after it, where only the long tail would reach: its box is checked against the short tail chunk 0 was placed with
+        # and is not refused for a tail chunk 0 does not have.
+        result = self.cross_panel((600, 300, 800, 380))
+        self.assertEqual(len(result['boxes']), 2)
+        self.assertEqual(result['short_tail'][1], False)
+        # And a later chunk's own tail is not read as short because an earlier chunk's is.
+        found, path = self.painted([(50, 250, 350, 330), (600, 300, 800, 380)])
+        both = rv.place_boxes(path, found, [[(300, 70)], [(200, 60)]], [self.MOUTH, (1100, 500)], rounded=[self.R, self.R],
+                              scale=self.SCALE, tail_margin=12)
+        self.assertEqual(both['short_tail'], [True, False])
+
+    TIP = ((50, 250, 250, 330), (500, 300))             # a pinned balloon at the left, its speaker K at the right
+
+    def tip_panel(self, v):
+        (box, mouth), faces = self.TIP, [(500, 300, 40, 'K'), v]
+        found, path = self.painted([box], 't.png')
+        return rv.place_boxes(path, found, [[(200, 70)]], [mouth], faces=faces, rounded=[self.R], scale=self.SCALE, tail_margin=12)
+
+    def test_a_tip_that_would_land_on_another_figures_body_falls_back_to_the_short_tail_that_stops_short_of_it(self):
+        # K stands in front of V, whose body (face radii either side, down from the face) holds the point just outside K's
+        # head, where the long tail ends. The short tail ends 93 px out, left of V's body and nearer K than V.
+        v = (500, 100, 60, 'V')
+        result = self.tip_panel(v)
+        self.assertEqual(result['short_tail'], [True])
+        box, corner = result['boxes'][0], result['corner'][0]
+        short_tip = tip_of(rv.tail_wedge(box, corner, self.TIP[1], self.BOUNDS, self.SCALE, short=True))
+        long_tip = tip_of(rv.tail_wedge(box, corner, self.TIP[1], self.BOUNDS, self.SCALE, head=(500, 300, 40.0)))
+        self.assertFalse(rv._on_body(short_tip, v))
+        self.assertTrue(rv._on_body(long_tip, v))
+
+    def test_a_tip_that_lands_on_another_figures_body_with_either_tail_still_fails_naming_it(self):
+        with self.assertRaises(rv.PlacementError) as caught:
+            self.tip_panel((400, 100, 60, 'V'))                  # V's body reaches the short tip too
+        self.assertEqual(caught.exception.chunk, 0)
+        self.assertIn('chunk 0: its tail tip would point at another figure (V)', str(caught.exception))
+
+    # Four free balloons in a quiet frame (a fixture found by random search): placed one at a time with the long tails, the
+    # greedy order strands the fourth and no repair round helps. The planner's last resort, every balloon with the short tail
+    # as it always was, places all four, and the long tail goes back on the three whose long tail reads right there.
+    CROWD = dict(targets=[(270, 90), (920, 260), (130, 350), (680, 460)],
+                 sizes=[[(400, 140)], [(400, 140)], [(600, 180)], [(500, 180)]],
+                 faces=[(270, 60, 45, 'F0'), (920, 230, 45, 'F1'), (130, 320, 70, 'F2'), (680, 430, 70, 'F3')])
+    LEGACY_BOXES = [[374, 0, 774, 140], [799, 0, 1199, 140], [220, 154, 820, 334], [0, 418, 500, 598]]
+
+    def crowd(self):
+        path = save(quiet_frame(busy=()), self.dir, 'crowd.png')
+        found = rv.find_regions(path, 0)
+        return rv.place_boxes(path, found, self.CROWD['sizes'], self.CROWD['targets'], rounded=[self.R] * 4, scale=self.SCALE,
+                              tail_margin=12, faces=self.CROWD['faces'])
+
+    def pinned(self, second, pins=None):
+        """place_boxes' pinned pass (_place_boxes with `pins`) over the cross panel: chunk 0's tail may be the long one or the short one."""
+        found, path = self.painted([(50, 250, 350, 330), second])
+        first = rv.place_boxes(path, found, [[(300, 70)], [(200, 60)]], [self.MOUTH, None], rounded=[self.R, None],
+                               scale=self.SCALE, tail_margin=12)
+        pins = pins or list(zip(first['boxes'], first['corner'], first['choice']))
+        return rv._place_boxes(path, found, [[(300, 70)], [(200, 60)]], [self.MOUTH, None], 12, [self.R, None], None, None,
+                               rv.FACE_MARGIN_PX, None, self.SCALE, None, near=[True, True], pins=pins)
+
+    def test_a_pinned_pass_keeps_every_chunk_where_it_is_and_gives_each_the_long_tail_where_it_reads_right(self):
+        clear = self.pinned((600, 420, 800, 500))                      # well off the tail's line: the long tail reads right
+        self.assertEqual(clear['short_tail'], [False, False])
+        beside = self.pinned((600, 300, 800, 380))                     # in the long tail's taper: only the short tail does
+        self.assertEqual(beside['short_tail'], [True, False])
+        # The pins are the places to check: the layout the cross panel placed, moved nowhere.
+        found, path = self.painted([(50, 250, 350, 330), (600, 300, 800, 380)])
+        placed = rv.place_boxes(path, found, [[(300, 70)], [(200, 60)]], [self.MOUTH, None], rounded=[self.R, None],
+                                scale=self.SCALE, tail_margin=12)
+        self.assertEqual(beside['boxes'], placed['boxes'])
+        self.assertEqual((beside['corner'], beside['choice']), (placed['corner'], placed['choice']))
+        # Chunk 1 pinned across the line a tail of either length runs to the mouth: chunk 0 stays where it was and chunk 1's
+        # box is across its tail with the long one and with the short one, so the pass fails there.
+        with self.assertRaises(rv.PlacementError) as caught:
+            self.pinned((600, 300, 800, 380), pins=[([50, 250, 360, 330], .45, 0), ([600, 260, 800, 320], None, 0)])
+        self.assertEqual(caught.exception.chunk, 1)
+        self.assertIn('chunk 1', str(caught.exception))
+
+    def test_the_last_resort_is_tried_only_for_a_panel_with_a_balloon_whose_tail_could_differ_and_reports_the_first_error(self):
+        found = {'visible_rect': [0, 0, 1200, 600], 'regions': []}
+        first, second = rv.PlacementError('chunk 1: first', 1), rv.PlacementError('chunk 2: second', 2)
+
+        def run(rounded, targets, outcomes):
+            with mock.patch.object(rv, '_cascade', side_effect=outcomes) as cascade:
+                try:
+                    rv.place_boxes('x.png', found, [[(100, 50)]] * 2, targets, rounded=rounded, scale=self.SCALE)
+                except rv.PlacementError as error:
+                    return error, cascade
+            self.fail('placed')
+
+        for name, rounded, targets in (('captions', [None, None], [(600, 300), (700, 300)]), ('no tails', [self.R, self.R], [None, None]),
+                                       ('voices off frame', [self.R, self.R], [(0, 100), (1200, 100)]),
+                                       ('no targets given', [self.R, self.R], None)):
+            with self.subTest(name):
+                error, cascade = run(rounded, targets, [first])
+                self.assertIs(error, first)
+                self.assertEqual(cascade.call_count, 1)                    # nothing for a second pass to change
+        error, cascade = run([self.R, None], [(600, 300), None], [first, second])
+        self.assertIs(error, first)                                      # the error of the long tails, not of the last resort
+        self.assertEqual(cascade.call_count, 2)
+        self.assertNotIn('legacy', cascade.call_args_list[0].args[4])
+        self.assertIs(cascade.call_args_list[1].args[4]['legacy'], True)
+
+    def test_the_last_resort_layout_is_pinned_and_returned_as_it_is_when_the_pinned_pass_cannot_keep_it(self):
+        found, first = {'visible_rect': [0, 0, 1200, 600], 'regions': []}, rv.PlacementError('chunk 1: first', 1)
+        legacy = {'boxes': [[0, 0, 100, 50], [200, 0, 300, 50]], 'corner': [.45, None], 'choice': [0, 1], 'short_tail': [True, False]}
+        upgraded = dict(legacy, short_tail=[False, False])
+        with mock.patch.object(rv, '_cascade', side_effect=[first, (legacy, False)]):
+            with mock.patch.object(rv, '_place_boxes', return_value=upgraded) as pinned:
+                result = rv.place_boxes('x.png', found, [[(100, 50)]] * 2, [(600, 300), None], rounded=[self.R, None], scale=self.SCALE)
+        self.assertIs(result, upgraded)
+        self.assertEqual(pinned.call_args.kwargs['pins'], [([0, 0, 100, 50], .45, 0), ([200, 0, 300, 50], None, 1)])
+        self.assertIs(pinned.call_args.kwargs['strict'], False)              # the reading rule the last resort placed it under
+        with mock.patch.object(rv, '_cascade', side_effect=[first, (legacy, True)]):
+            with mock.patch.object(rv, '_place_boxes', side_effect=rv.PlacementError('chunk 0: no', 0)):
+                self.assertIs(rv.place_boxes('x.png', found, [[(100, 50)]] * 2, [(600, 300), None], rounded=[self.R, None],
+                                             scale=self.SCALE), legacy)
+
+    def test_a_panel_the_greedy_order_cannot_place_with_long_tails_is_placed_by_the_last_resort(self):
+        result = self.crowd()
+        self.assertEqual(result['boxes'], self.LEGACY_BOXES)
+        self.assertEqual(len(result['short_tail']), 4)
+        self.assertEqual(result['short_tail'], [False, False, True, False])      # only the third keeps the short tail
+        path = self.dir / 'crowd.png'                                    # the long tails alone (no last resort) strand the fourth
+        kwargs = dict(tail_margin=12, rounded=[self.R] * 4, bleed=None, faces=self.CROWD['faces'], face_margin=rv.FACE_MARGIN_PX,
+                      widen=None, scale=self.SCALE, keep=None)
+        with self.assertRaises(rv.PlacementError) as caught:
+            rv._cascade(path, rv.find_regions(path, 0), self.CROWD['sizes'], self.CROWD['targets'], kwargs)
+        self.assertEqual(caught.exception.chunk, 3)
+        for i, short in enumerate(result['short_tail']):                 # and every tail reads right with the model it is flagged with
+            target, faces = self.CROWD['targets'][i], self.CROWD['faces']
+            wedge = rv.tail_wedge(result['boxes'][i], result['corner'][i], target, self.BOUNDS, self.SCALE, rv.speaker_head(target, faces), short)
+            for j, box in enumerate(result['boxes']):
+                if j != i:
+                    self.assertFalse(rv.tail_crosses(wedge, box), (i, j, short))
+            for face in faces:
+                if math.hypot(target[0] - face[0], target[1] - face[1]) > face[2]:
+                    self.assertFalse(rv.tail_meets_face(wedge, face), (i, face[3], short))
+
+
 def gap(box, point):
     """Distance from a point to a box, 0 inside it."""
     return math.hypot(max(box[0] - point[0], 0, point[0] - box[2]), max(box[1] - point[1], 0, point[1] - box[3]))
@@ -806,7 +1190,8 @@ class NearSpeakerTests(Tmp):
         self.assertLess(self.length(result, 0, self.B), 100)
         self.assertLess(self.length(result, 1, self.A), 100)
         for i, target in enumerate(targets):                                            # and no tail crosses the other face
-            wedge = rv.tail_wedge(result['boxes'][i], result['corner'][i], target, self.BOUNDS, self.SCALE)
+            wedge = rv.tail_wedge(result['boxes'][i], result['corner'][i], target, self.BOUNDS, self.SCALE,
+                                  rv.speaker_head(target, self.FACES), result['short_tail'][i])
             for face in self.FACES:
                 if math.hypot(target[0] - face[0], target[1] - face[1]) > face[2]:
                     self.assertFalse(rv.tail_meets_face(wedge, face), (i, face[3]))
@@ -834,7 +1219,8 @@ class NearSpeakerTests(Tmp):
         self.assertIn('its tail would cross a face (C)', message)
         # Without the face between them the same chunk is placed, and the speaker's own zone is never a problem.
         result = self.place([(900, 150)], [[(200, 60)]], faces=faces[:1], found=found, path=path)
-        wedge = rv.tail_wedge(result['boxes'][0], result['corner'][0], (900, 150), self.BOUNDS, self.SCALE)
+        wedge = rv.tail_wedge(result['boxes'][0], result['corner'][0], (900, 150), self.BOUNDS, self.SCALE,
+                              rv.speaker_head((900, 150), faces[:1]), result['short_tail'][0])
         self.assertTrue(rv.tail_meets_face(wedge, faces[0]))                           # it ends in its own speaker's zone
 
     def test_the_path_to_a_speaker_behind_another_face_is_rejected_and_other_wraps_are_tried(self):
@@ -846,8 +1232,15 @@ class NearSpeakerTests(Tmp):
         self.assertIn('chunk 0: its tail would cross a face (B)', str(caught.exception))
         result = self.place([target], [[(1100, 120), (300, 100)]], faces=faces)       # a narrower wrap finds room beside them
         self.assertEqual(result['choice'], [1])
-        wedge = rv.tail_wedge(result['boxes'][0], result['corner'][0], target, self.BOUNDS, self.SCALE)
+        # Beside A the long tail's tip, just outside A's head, would be on B's body (B's column runs down past A's mouth), so
+        # the narrower wrap is placed with the short tail, whose tip stops short of it.
+        self.assertEqual(result['short_tail'], [True])
+        wedge = rv.tail_wedge(result['boxes'][0], result['corner'][0], target, self.BOUNDS, self.SCALE,
+                              rv.speaker_head(target, faces), result['short_tail'][0])
         self.assertFalse(rv.tail_meets_face(wedge, faces[1]))
+        self.assertFalse(rv._on_body(tip_of(wedge), faces[1]))
+        long_wedge = rv.tail_wedge(result['boxes'][0], result['corner'][0], target, self.BOUNDS, self.SCALE, rv.speaker_head(target, faces))
+        self.assertTrue(rv._on_body(tip_of(long_wedge), faces[1]))
 
     def test_off_frame_speakers_go_near_their_edge_point_and_two_voices_keep_to_their_own_sides(self):
         # Two voices off the top edge, the first at the left and the second at the right (a real panel: "the first
@@ -1075,53 +1468,76 @@ class TipOnBodyTests(Tmp):
     face was nearer the tip than Varma's (high above it), so the face-distance rule passed; readers credited the king.
     A face zone stands for a figure: the body is taken as the column BODY_HALF_WIDTH face radii either side of the
     face and from its bottom down to BODY_DEPTH radii below its centre.
+
+    A tail that knows its speaker's head now ends just outside it, which keeps most tips off other bodies (that knee is
+    no longer reached). The rule still holds for a tip there on another body (a speaker standing in front of another
+    figure): a balloon pinned over its painted region falls back on the short tail, whose tip stops short of that body, and
+    fails, naming the figure, where the short tail's tip is on it too.
     """
 
     R = (.45, .4)
     SCALE = .3
     BOUNDS = [0, 0, 1200, 600]
     K = (820, 330, 40, 'K')                       # the speaker, at the right
-    V = (650, 40, 40, 'V')                        # a seated figure whose face is high and whose body runs down beside K
+    V = (740, 40, 40, 'V')                        # a seated figure whose face is high and whose body runs down in front of K's head
     MOUTH = (820, 345)
 
-    def place(self, region, size, faces=None):
+    def place(self, region, size, faces=None, mouth=None):
         path = save(frame(boxes=[region]), self.dir, 'b.png')
-        return rv.place_boxes(path, rv.find_regions(path, 1), [[size]], [self.MOUTH],
+        return rv.place_boxes(path, rv.find_regions(path, 1), [[size]], [mouth or self.MOUTH],
                               faces=[self.K, self.V] if faces is None else faces, scale=self.SCALE, tail_margin=12,
                               rounded=[self.R])
 
-    def tip(self, result):
-        return tip_of(rv.tail_wedge(result['boxes'][0], result['corner'][0], self.MOUTH, self.BOUNDS, self.SCALE))
+    def tip(self, result, short=None, faces=None, mouth=None):
+        """The tip of the tail the result is drawn with, or with the short tail (`short` True) or the long one (False)."""
+        faces, mouth = [self.K, self.V] if faces is None else faces, mouth or self.MOUTH
+        wedge = rv.tail_wedge(result['boxes'][0], result['corner'][0], mouth, self.BOUNDS, self.SCALE, rv.speaker_head(mouth, faces),
+                              result['short_tail'][0] if short is None else short)
+        return tip_of(wedge)
 
     def on_body(self, point, face):
         x, y, r, _ = face
         return (x - rv.BODY_HALF_WIDTH * r <= point[0] <= x + rv.BODY_HALF_WIDTH * r
                 and y + r <= point[1] <= y + rv.BODY_DEPTH * r)
 
-    def test_a_tip_on_another_figures_body_is_moved_off_it(self):
+    def test_a_tip_on_another_figures_body_is_moved_off_it_by_the_short_tail(self):
         region = (150, 280, 450, 360)
-        with mock.patch.object(rv, 'BODY_DEPTH', 0):                  # bodies ignored: what the planner did before
+        with mock.patch.object(rv, 'BODY_DEPTH', 0):                  # bodies ignored: what the planner did before the rule
             old = self.place(region, (420, 110))
-        tip = self.tip(old)
-        reach = lambda f: max(0.0, math.hypot(tip[0] - f[0], tip[1] - f[1]) - f[2])
-        self.assertLess(reach(self.K), reach(self.V))                 # the speaker's face is the nearer one
-        self.assertTrue(self.on_body(tip, self.V))                    # yet the tip lands on V
+        self.assertEqual(old['short_tail'], [False])
+        self.assertTrue(self.on_body(self.tip(old), self.V))          # the tip, just outside K's head, lands on V's body
+        self.assertFalse(self.on_body(self.tip(old), self.K))         # and not on his own
         result = self.place(region, (420, 110))
+        self.assertEqual(result['short_tail'], [True])                # the balloon is pinned over its region: its tail gives
         self.assertFalse(self.on_body(self.tip(result), self.V))
+        self.assertTrue(self.on_body(self.tip(result, short=False), self.V))
+        self.assertEqual(result['boxes'], old['boxes'])
         box = result['boxes'][0]
         self.assertTrue(box[0] <= region[0] and box[1] <= region[1] and box[2] >= region[2] and box[3] >= region[3])
 
     def test_a_pinned_balloon_whose_tip_must_land_on_another_body_fails_naming_them(self):
+        region = (300, 280, 600, 360)
         with self.assertRaises(rv.PlacementError) as caught:
-            self.place((230, 280, 530, 360), (300, 80))
+            self.place(region, (300, 80))
         self.assertIn("chunk 0: its tail tip would point at another figure (V)", str(caught.exception))
+        with mock.patch.object(rv, 'BODY_DEPTH', 0):
+            free = self.place(region, (300, 80))
+        self.assertTrue(self.on_body(self.tip(free, short=False), self.V))         # the long tail's tip is on V's body, and so is
+        self.assertTrue(self.on_body(self.tip(free, short=True), self.V))          # the short tail's: nothing to fall back on
 
     def test_a_tip_on_the_speakers_own_body_is_fine_where_the_bodies_overlap(self):
-        # K stands just in front of V: the column below V's face also holds K's body, so a tip there is K's as well.
-        k = (640, 330, 40, 'K')
-        self.MOUTH = (640, 345)
-        result = self.place((150, 280, 450, 360), (420, 110), faces=[k, self.V])
-        self.assertEqual(len(result['boxes']), 1)
+        # K stands just in front of V: the column below V's face also holds K's body, so the long tail's tip there is K's as well.
+        k, v, mouth = (820, 330, 40, 'K'), (780, 100, 40, 'V'), (820, 365)
+        region, size = (150, 420, 450, 500), (420, 100)
+        result = self.place(region, size, [k, v], mouth)
+        tip = self.tip(result, faces=[k, v], mouth=mouth)
+        self.assertTrue(self.on_body(tip, v) and self.on_body(tip, k))
+        self.assertEqual(result['short_tail'], [False])
+        # His mouth higher, the tip is on V's body alone (K's body begins at his chin): the balloon falls back on the short tail.
+        high = self.place(region, size, [k, v], (820, 345))
+        self.assertEqual(high['short_tail'], [True])
+        self.assertTrue(self.on_body(self.tip(high, short=False, faces=[k, v]), v))
+        self.assertFalse(self.on_body(self.tip(high, short=False, faces=[k, v]), k))
 
 
 class OffFrameVoiceFaceTests(Tmp):
@@ -1156,7 +1572,13 @@ class OffFrameVoiceFaceTests(Tmp):
 
 
 class TailTipTests(Tmp):
-    """A reader credits a balloon to whoever its drawn tail's tip lands nearest, so the tip never lands nearer another face."""
+    """A reader credits a balloon to whoever its drawn tail's tip lands nearest, so the tip never lands nearer another face.
+
+    A tail that knows its speaker's head ends just outside it, so with the long tail its tip is nearest its own speaker
+    (before, the short tail's tip stopped part way and could end at the man standing between). The rule is still
+    held, and has work to do, where the tip lands on another man's body (TipOnBodyTests) and for the short tail a
+    balloon falls back on, which is held to it too.
+    """
 
     R = (.45, .4)
     SCALE = .3
@@ -1180,40 +1602,55 @@ class TailTipTests(Tmp):
         with mock.patch.object(rv, 'RULES', tuple(kind for kind in rv.RULES if kind != 'tip')):
             return self.place(*args, **kwargs)
 
-    def tip_gaps(self, result, faces=None, target=None):
-        """Distance from the drawn tail's tip to each face zone's edge (0 inside), by name."""
-        wedge = rv.tail_wedge(result['boxes'][0], result['corner'][0], target or self.MOUTH, self.BOUNDS, self.SCALE)
+    def tip_gaps(self, result, faces=None, target=None, short=None):
+        """Distance from the drawn tail's tip to each face zone's edge (0 inside), by name: the tail the result is drawn
+        with (the long one that knows the head, or the short one it fell back on), or the short one (`short` True) or the long one."""
+        faces, target = self.FACES if faces is None else faces, target or self.MOUTH
+        wedge = rv.tail_wedge(result['boxes'][0], result['corner'][0], target, self.BOUNDS, self.SCALE, rv.speaker_head(target, faces),
+                              result['short_tail'][0] if short is None else short)
         tip = tip_of(wedge)
-        return {f[3]: max(0.0, math.hypot(tip[0] - f[0], tip[1] - f[1]) - f[2]) for f in faces or self.FACES}
+        return {f[3]: max(0.0, math.hypot(tip[0] - f[0], tip[1] - f[1]) - f[2]) for f in faces}
 
     def test_the_rule_is_one_more_placement_rule(self):
         self.assertIn('tip', rv.RULES)
         self.assertEqual(rv.RULES[-1], 'order')
 
-    def test_a_tail_that_would_end_at_another_mans_collar_is_not_placed_there(self):
+    def test_a_long_tail_that_reaches_its_own_speaker_leaves_the_balloon_where_it_was(self):
+        """Before, the short tail's tip stopped at Duarte, so the balloon slid toward Nagoji; the long tail now reaches his head."""
         old = self.lifted()
-        gaps = self.tip_gaps(old)
-        self.assertLess(gaps['Duarte'], gaps['Nagoji'])              # before: the short tail's tip stopped at Duarte
+        self.assertLess(self.tip_gaps(old, short=True)['Duarte'], self.tip_gaps(old, short=True)['Nagoji'])   # the short tail would end at Duarte
         result = self.place()
+        self.assertEqual(result['boxes'], old['boxes'])              # so nothing needs to move
+        self.assertEqual(result['short_tail'], [False])
         gaps = self.tip_gaps(result)
-        self.assertLessEqual(gaps['Nagoji'], gaps['Duarte'])         # now it ends nearer its own speaker
+        self.assertLessEqual(gaps['Nagoji'], gaps['Duarte'])         # the tip ends at its own speaker
         box, bbox = result['boxes'][0], self.found['regions'][0]['bbox']
         self.assertTrue(box[0] <= bbox[0] and box[1] <= bbox[1] and box[2] >= bbox[2] and box[3] >= bbox[3])   # still covers it
-        self.assertGreater(box[0], old['boxes'][0][0])               # it slid toward its speaker
         self.assertEqual(result['choice'], [0])
 
-    def test_narrower_wraps_are_tried_before_the_chunk_fails(self):
-        sizes = [[(150, 60), (300, 100)]]                             # the first is as small as the painted region: no room to slide
+    def test_the_first_wrap_now_places_where_it_failed_the_short_tails_rule(self):
+        """The first wrap is as small as the painted region (no room to slide): before, its short tail ended at Duarte and the
+        wider wrap had to take its place; the long tail reaches Nagoji, so the first wrap is placed."""
+        sizes = [[(150, 60), (300, 100)]]
         self.assertEqual(self.lifted(sizes)['choice'], [0])
         result = self.place(sizes)
-        self.assertEqual(result['choice'], [1])
+        self.assertEqual(result['choice'], [0])
+        self.assertEqual(result['short_tail'], [False])
         gaps = self.tip_gaps(result)
         self.assertLessEqual(gaps['Nagoji'], gaps['Duarte'])
 
-    def test_a_chunk_no_position_can_place_fails_naming_the_chunk_and_the_face(self):
-        self.assertEqual(len(self.lifted([[(150, 60)]])['boxes']), 1)    # it was placed, its tip at Duarte
+    def test_a_chunk_whose_tip_lands_on_another_mans_body_with_either_tail_fails_naming_the_chunk_and_the_man(self):
+        # Duarte stands behind Nagoji, his body running down the column the pinned balloon's tail points through: the long
+        # tail's tip, just outside Nagoji's head, is on it, and so is the short tail's, 93 px out. His own face is off the tail.
+        duarte = (500, 60, 60, 'Duarte')
+        faces = [self.FACES[0], duarte]
+        placed = self.lifted([[(150, 60)]], faces=faces)                    # without the rule it was placed, its tip on his body
+        self.assertTrue(rv._on_body(tip_of(rv.tail_wedge(placed['boxes'][0], placed['corner'][0], self.MOUTH, self.BOUNDS, self.SCALE,
+                                                           rv.speaker_head(self.MOUTH, faces))), duarte))
+        self.assertTrue(rv._on_body(tip_of(rv.tail_wedge(placed['boxes'][0], placed['corner'][0], self.MOUTH, self.BOUNDS, self.SCALE,
+                                                           short=True)), duarte))
         with self.assertRaises(rv.PlacementError) as caught:
-            self.place([[(150, 60)]])
+            self.place([[(150, 60)]], faces=faces)
         message = str(caught.exception)
         self.assertEqual(caught.exception.chunk, 0)
         self.assertIn('chunk 0', message)
@@ -1221,6 +1658,30 @@ class TailTipTests(Tmp):
         self.assertIn('Duarte', message)
         self.assertIn('size(s) tried', message)
         self.assertNotIn('cross', message)
+        with self.assertRaises(rv.PlacementError):                          # a wider wrap does not move the tip off his body
+            self.place([[(150, 60), (300, 100)]], faces=faces)
+
+    def test_the_short_tail_a_chunk_falls_back_on_is_held_to_the_rule_too(self):
+        # Chunk 1's painted balloon lies 4 px off chunk 0's tail line, where only the long tail (tapering to its tip) touches it:
+        # chunk 0 is placed with the short tail, which ends 93 px out. Duarte standing there makes that tip his, and it fails.
+        path = save(frame(boxes=[(150, 50, 300, 120), (450, 70, 570, 140)]), self.dir, 'two.png')
+        found = rv.find_regions(path, 2)
+
+        def run(faces, lift=False):
+            rules = tuple(kind for kind in rv.RULES if kind != 'tip') if lift else rv.RULES
+            with mock.patch.object(rv, 'RULES', rules):
+                return rv.place_boxes(path, found, [[(150, 60)], [(100, 40)]], [self.MOUTH, None], faces=faces, scale=self.SCALE,
+                                      tail_margin=12, rounded=[self.R, None])
+
+        alone = run(self.FACES[:1])
+        self.assertEqual(alone['short_tail'], [True, False])
+        with self.assertRaises(rv.PlacementError) as caught:
+            run(self.FACES)
+        self.assertEqual(caught.exception.chunk, 0)
+        self.assertEqual(run(self.FACES, lift=True)['short_tail'], [True, False])     # it is the tip rule that stops it
+        wedge = rv.tail_wedge(alone['boxes'][0], alone['corner'][0], self.MOUTH, self.BOUNDS, self.SCALE, short=True)
+        tip = tip_of(wedge)
+        self.assertLess(math.hypot(tip[0] - 380, tip[1] - 250) - 40, math.hypot(tip[0] - 660, tip[1] - 200) - 50)   # nearer Duarte
 
     def test_a_tip_that_reaches_the_speakers_own_face_first_is_accepted(self):
         faces = self.FACES[:1]                                        # nobody else to point at

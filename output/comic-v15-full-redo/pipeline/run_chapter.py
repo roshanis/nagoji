@@ -293,8 +293,17 @@ def import_frame(args,out):
     return result
 
 
+def _inscribed(speaker):
+    return speaker.split(' (',1)[0].strip().upper() in ('LEAF','LEDGER')
+
+
 def _draw_kind(speaker):
-    return 'caption' if speaker.strip().upper().startswith('CAPTION') else 'speech'
+    return 'caption' if speaker.strip().upper().startswith('CAPTION') or _inscribed(speaker) else 'speech'
+
+
+def _tailless(speaker):
+    """Speech tagged "(voice-over)" or "(memory)": a tailless box in the speaker's balloon style, never a tail."""
+    return bool(re.search(r'\((voice-over|memory)\)',speaker,re.I))
 
 
 def parse_styles(raw,copy):
@@ -306,7 +315,7 @@ def parse_styles(raw,copy):
         try:index=int(key)
         except ValueError:raise AutoGeometryError(f'--styles: {key!r} is not a copy index') from None
         if not 0<=index<len(copy):raise AutoGeometryError(f'--styles: copy index {index} is out of range (0 to {len(copy)-1})')
-        if style!='unreadable':raise AutoGeometryError(f'--styles: unknown style {style!r} for copy index {index}')
+        if style not in ('unreadable','inscribed'):raise AutoGeometryError(f'--styles: unknown style {style!r} for copy index {index}')
         styles[index]=style
     return styles
 
@@ -334,9 +343,10 @@ def parse_tails(raw,copy,width,height):
             raise AutoGeometryError(f'tail for chunk {index} must have fractions between 0 and 1')
         if _draw_kind(copy[index]['speaker'])=='caption':
             raise AutoGeometryError(f'chunk {index} is a caption and takes no tail')
+        if _tailless(copy[index]['speaker']):continue      # a voice-over or memory box: any tail given for it is dropped
         points[index]=(value[0]*width,value[1]*height)
     for index,chunk in enumerate(copy):
-        if _draw_kind(chunk['speaker'])=='speech' and points[index] is None:
+        if _draw_kind(chunk['speaker'])=='speech' and points[index] is None and not _tailless(chunk['speaker']):
             raise AutoGeometryError(f'chunk {index} is speech by {chunk["speaker"]!r} and needs a tail point in --tails '
                 '([x_frac, y_frac] of its speaker\'s mouth); the tool never guesses one')
     return points
@@ -346,10 +356,20 @@ def parse_keep(raw,width,height):
     """Keep zones as [x0, y0, x1, y1] rectangles in source pixels.
 
     `raw` is a list of {"x0": frac, "y0": frac, "x1": frac, "y1": frac}: story-critical areas (a gripping hand, a prop, a
-    brand) as fractions of the frame's width (x) and height (y). Other keys, such as "what", are ignored. The cover crop keeps
+    brand) as fractions of the frame's width (x) and height (y). Entries with role "inscribe" are write zones and are excluded.
+    Other keys, such as "what", are ignored. The cover crop keeps
     each zone whole, as it keeps faces; the placer keeps boxes off a zone where it can (reserves.place_boxes `keep`, a soft
     obstacle: a balloon that has no other place covers it, and the plan reports it in "keep_overlaps").
     """
+    return _parse_zones(raw,width,height,False)
+
+
+def parse_write_zones(raw,width,height):
+    """Entries with role inscribe, validated like keep zones, in source pixels."""
+    return _parse_zones(raw,width,height,True)
+
+
+def _parse_zones(raw,width,height,write):
     if raw is None:return []
     if not isinstance(raw,list):
         raise AutoGeometryError('--keep must hold a list of zones, each {"x0": frac, "y0": frac, "x1": frac, "y1": frac}')
@@ -360,7 +380,8 @@ def parse_keep(raw,width,height):
         if not numbers:raise AutoGeometryError(f'keep zone {index} must be {{"x0": frac, "y0": frac, "x1": frac, "y1": frac}}')
         if not(0<=entry['x0']<entry['x1']<=1 and 0<=entry['y0']<entry['y1']<=1):
             raise AutoGeometryError(f'keep zone {index}: fractions must be between 0 and 1, with x0 below x1 and y0 below y1')
-        zones.append([entry['x0']*width,entry['y0']*height,entry['x1']*width,entry['y1']*height])
+        if (entry.get('role')=='inscribe')==write:
+            zones.append([entry['x0']*width,entry['y0']*height,entry['x1']*width,entry['y1']*height])
     return zones
 
 
@@ -416,6 +437,17 @@ def head_zones(tails,faces,bounds,height):
         if any(math.hypot(point[0]-zone[0],point[1]-(zone[1]+.5*radius))<=.5*radius for zone in zones):continue   # same speaker
         zones.append((point[0],point[1]-.5*radius,radius,f"head of chunk {index}'s speaker"))
     return zones
+
+
+def _tail_head(point,faces,heads):
+    """The head circle a tail point sits in, as [x, y, r] in source pixels: the nearest face holding it, else the nearest implied head zone, else None."""
+    import math
+    for circles in (faces,heads):
+        held=[circle for circle in circles if math.hypot(point[0]-circle[0],point[1]-circle[1])<=circle[2]]
+        if held:
+            x,y,radius,_=min(held,key=lambda circle:math.hypot(point[0]-circle[0],point[1]-circle[1]))
+            return [round(x),round(y),round(radius,1)]
+    return None
 
 
 def _painted_extent(region):
@@ -478,7 +510,7 @@ def _widener(interior_pt,scale):
 UNPAINTED=False   # --unpainted: the chapter's art has no painted balloons, so drawn_geometry and fit_inputs find no painted regions
 
 
-def drawn_geometry(frame,copy,slot,tails,faces=None,styles=None,keep=None,unpainted=None):
+def drawn_geometry(frame,copy,slot,tails,faces=None,styles=None,keep=None,unpainted=None,uncross=False,*,write=None):
     """Boxes for the compositor to draw, one per chunk, sized for the text at the panel's placed size.
 
     Each box holds its wrapped text plus padding. Where a painted blank region exists in
@@ -504,7 +536,11 @@ def drawn_geometry(frame,copy,slot,tails,faces=None,styles=None,keep=None,unpain
     box, the distance to the nearest face. A balloon's tail reads as pointing at its own speaker: it never crosses another
     balloon or a face that is not the speaker's, a balloon with no painted region goes near its speaker, and the boxes read in
     script order (see reserves.place_boxes). When none of this works the chunk fails. A balloon's tail reads as pointing at
-    whoever its drawn tip lands nearest, so the tip never ends nearer another face than its speaker's.
+    whoever its drawn tip lands nearest, so the tip never ends nearer another face than its speaker's. A reserve with a tail
+    point on the frame also gets "tail_head": [x, y, r], the face (nearest centre, if several) or else the implied head zone
+    that holds the tail point, so the compositor stops the tail just outside the speaker's head; none for an edge point or a
+    point in no head. A balloon that only the legacy short tail could place (see reserves.place_boxes) also gets
+    "tail_short": true, which makes the compositor draw that tail (and ignore the head); "short_tail" lists those chunks.
 
     Two soft wishes are met where any position allows and dropped, as they always were, where none does. A balloon for a
     voice off frame (a tail point on the frame's edge) keeps TAIL_MIN_PT plus the stroke between it and that edge so the
@@ -520,19 +556,28 @@ def drawn_geometry(frame,copy,slot,tails,faces=None,styles=None,keep=None,unpain
     With `unpainted` (default: the module's UNPAINTED, set by --unpainted) the frame has no painted regions: art generated
     with no balloons can still hold a pale outlined area (open sky between a pillar and a roof), which is space for
     lettering, not a painted blank a balloon must cover.
+    With `write`, inscribed chunks must fit wholly in a single write rectangle; other chunks
+    keep off those rectangles by the usual soft rule. The cover crop holds every write zone.
+    With `uncross` the planner keeps two speakers' tails from crossing where it can (reserves.place_boxes); auto-geometry
+    asks for it, the fit probes (drawn_fits) do not, since it never changes whether a panel places.
     """
     import reserves as rv
     from math import ceil
+    styles=[style if style is not None else ('inscribed' if _inscribed(chunk['speaker']) else None)
+            for chunk,style in zip(copy,styles if styles is not None else [None]*len(copy))]
+    crop_zones=list(keep or [])+list(write or [])
+    inside=[write if _inscribed(chunk['speaker']) or style=='inscribed' else None
+            for chunk,style in zip(copy,styles)] if write else None
     unpainted=UNPAINTED if unpainted is None else unpainted
     aspect=slot['rect_pt'][2]/slot['rect_pt'][3]
     if not copy:
         base=rv.detect_reserves(frame,0,[]);art=base['visible_rect']
-        return {**base,'visible_rect':rv.cover_crop(art,aspect,_crop_keep(faces or [],[],[],[],art,keep or [])),'art_rect':art,
+        return {**base,'visible_rect':rv.cover_crop(art,aspect,_crop_keep(faces or [],[],[],[],art,crop_zones)),'art_rect':art,
                 'painted':[],'partly_covered':[],'bleeds':{},'face_clearance':{},'head_zones':[],'keep_overlaps':{},
-                'edge_voice_no_tail':[]}
+                'edge_voice_no_tail':[],'short_tail':[]}
     found=rv.find_regions(frame,0 if unpainted else len(copy))
     width,height=found['size'];art=found['visible_rect'];faces=list(faces or [])
-    crop=rv.cover_crop(art,aspect,_crop_keep(faces,head_zones(tails,faces,art,height),tails,found['regions'],art,keep or []))
+    crop=rv.cover_crop(art,aspect,_crop_keep(faces,head_zones(tails,faces,art,height),tails,found['regions'],art,crop_zones))
     tails=_pin_tails(tails,art,crop);found['visible_rect']=bounds=crop
     row={'width':width,'height':height,'visible_rect':bounds}
     clip,_=c.fit_clip_contain(row,slot)
@@ -557,7 +602,8 @@ def drawn_geometry(frame,copy,slot,tails,faces=None,styles=None,keep=None,unpain
     touch=ceil(6.0/scale)                 # a painted region within 6 pt of a frame edge touches it, for bleed
     heads=head_zones(tails,faces,bounds,height)
     try:plan=rv.place_boxes(frame,found,options,tails,tail_margin=margin,rounded=rounded,bleed=touch,
-                            faces=faces+heads,face_margin=ceil(1.5/scale),widen=widen,scale=scale,keep=keep)
+                            faces=faces+heads,face_margin=ceil(1.5/scale),widen=widen,scale=scale,keep=crop_zones if write else keep,
+                            uncross=uncross,inside=inside)
     except rv.PlacementError as error:raise AutoGeometryError(str(error)) from error
     reserves=[]
     for index,(chunk,box) in enumerate(zip(copy,plan['boxes'])):
@@ -572,6 +618,9 @@ def drawn_geometry(frame,copy,slot,tails,faces=None,styles=None,keep=None,unpain
                 raise AutoGeometryError(f'chunk {index}: its tail point lies inside its box, so the balloon would cover the '
                     'speaker\'s mouth; move the tail point outside the space the balloon needs')
             reserve['tail']=[round(tx),round(ty)]
+            head=None if rv.on_frame_edge((tx,ty),bounds) else _tail_head((tx,ty),faces,heads)
+            if head:reserve['tail_head']=head       # the compositor stops the tail just outside the speaker's head
+            if plan['short_tail'][index]:reserve['tail_short']=True     # only the legacy short tail placed this balloon
         reserves.append(reserve)
     return {'visible_rect':plan['visible_rect'],'art_rect':art,'reserves':reserves,'painted':plan['painted'],
             'partly_covered':[index for index,cut in enumerate(plan['partial']) if cut],
@@ -579,7 +628,7 @@ def drawn_geometry(frame,copy,slot,tails,faces=None,styles=None,keep=None,unpain
             'face_clearance':{index:{'px':round(gap,1),'pt':round(gap*scale,2),'face':name}
                               for index,near in enumerate(plan['face_clearance']) if near for gap,name in [near]},
             'head_zones':[zone[3] for zone in heads],'keep_overlaps':plan['keep_overlaps'],
-            'edge_voice_no_tail':plan['edge_voice_no_tail']}
+            'edge_voice_no_tail':plan['edge_voice_no_tail'],'short_tail':[index for index,reserve in enumerate(reserves) if reserve.get('tail_short')]}
 
 
 def auto_geometry(args,out):
@@ -607,7 +656,7 @@ def auto_geometry(args,out):
         layout=json.loads(layout_path.read_text()) if layout_path.exists() else {}
     geometry=c.geometry_for_script(script,layout.get('page_rows'))
     inset=args.inset if getattr(args,'inset',None) is not None else rv.INSET_PX
-    painted=partly=bleeds=clearance=heads=keeps=voices=None
+    painted=partly=bleeds=clearance=heads=keeps=voices=shorts=None
     coverage={}
     if getattr(args,'draw',False):
         if getattr(args,'inset',None) is not None:raise AutoGeometryError('--inset does not apply with --draw')
@@ -617,13 +666,14 @@ def auto_geometry(args,out):
         faces=parse_faces(json.loads(args.faces.read_text()) if getattr(args,'faces',None) else None,width,height)
         slot=next(p for p in geometry['pages'][str(panel['page'])] if p['id']==panel['id'])
         styles=parse_styles(json.loads(args.styles.read_text()) if getattr(args,'styles',None) else None,copy)
-        keep=parse_keep(json.loads(args.keep.read_text()) if getattr(args,'keep',None) else None,width,height)
-        try:plan=drawn_geometry(frame,copy,slot,parse_tails(raw,copy,width,height),faces,styles,keep)
+        raw_keep=json.loads(args.keep.read_text()) if getattr(args,'keep',None) else None
+        keep=parse_keep(raw_keep,width,height);write=parse_write_zones(raw_keep,width,height)
+        try:plan=drawn_geometry(frame,copy,slot,parse_tails(raw,copy,width,height),faces,styles,keep,uncross=True,write=write)
         except AutoGeometryError as error:raise AutoGeometryError(f'{panel["id"]}: {error}') from error
         found={'visible_rect':plan['visible_rect'],'art_rect':plan['art_rect'],'reserves':plan['reserves']}
         painted=plan['painted'];inset=None
         partly=plan['partly_covered'];bleeds=plan['bleeds'];clearance=plan['face_clearance'];heads=plan['head_zones']
-        keeps=plan['keep_overlaps'];voices=plan['edge_voice_no_tail']
+        keeps=plan['keep_overlaps'];voices=plan['edge_voice_no_tail'];shorts=plan['short_tail']
         coverage={'keep_coverage':keep_coverage([reserve['rect'] for reserve in plan['reserves']],keep,plan['visible_rect'])}
     else:
         if getattr(args,'tails',None):raise AutoGeometryError('--tails needs --draw')
@@ -647,7 +697,7 @@ def auto_geometry(args,out):
     return {'geometry_out':str(args.geometry_out),'panel':panel['id'],'frame':str(frame),
             'visible_rect':found['visible_rect'],'inset_px':inset,'reserves':found['reserves'],
             'draw':painted is not None,'painted':painted,'partly_covered':partly,'bleeds':bleeds,
-            'face_clearance':clearance,'head_zones':heads,'keep_overlaps':keeps,**coverage,'edge_voice_no_tail':voices,
+            'face_clearance':clearance,'head_zones':heads,'keep_overlaps':keeps,**coverage,'edge_voice_no_tail':voices,'short_tail':shorts,
             'tightest_ink_margin_pt':min((min(m['ink_margins_pt'].values()) for m in measurements),default=None),
             'minimum_light_fraction':pixels['minimum_light_fraction']}
 
@@ -685,6 +735,7 @@ def fit_inputs(out,manifest,decisions=None,faces_dir=None,face_scale=FACE_SCALE,
     for one slot as its visible_rect, so its "art_rect" is preferred when it has one. A face file
     `<frame stem>-faces.json` in `faces_dir` gives that panel's faces, with every radius multiplied
     by `face_scale`; a `<frame stem>-keep.json` there gives its keep zones (see parse_keep).
+    Its role inscribe entries are stored as source-pixel "write" rectangles on the frame row.
     With the parsed `script`, each panel that has copy also gets the painted regions the planner would keep in
     its crop (painted_keep of its frame for its number of chunks), since its balloons must hide them; a silent
     panel has none, and without a script none are measured. With `unpainted` (default: the module's UNPAINTED) no panel has any.
@@ -727,7 +778,12 @@ def fit_inputs(out,manifest,decisions=None,faces_dir=None,face_scale=FACE_SCALE,
         for panel_id,stem in stems.items():
             path=Path(faces_dir)/f'{stem}-keep.json'
             if path.is_file():
-                try:zones=parse_keep(json.loads(path.read_text()),1,1)
+                try:
+                    raw=json.loads(path.read_text())
+                    zones=parse_keep(raw,1,1)
+                    frame=frames[panel_id]
+                    write=parse_write_zones(raw,frame['width'],frame['height'])
+                    if write:frame['write']=write
                 except AutoGeometryError as error:raise LayoutFitError(f'{path}: {error}') from error
                 if zones:keep[panel_id]=zones
     painted={}
@@ -740,16 +796,27 @@ def fit_inputs(out,manifest,decisions=None,faces_dir=None,face_scale=FACE_SCALE,
     return {'frames':frames,'faces':faces,'painted':painted,'keep':keep,'sources':sources,'stems':stems}
 
 
+def _fit_keep(inputs):
+    """Crop constraints for the ratio fitter, including write zones from frame rows."""
+    keep=dict(inputs.get('keep') or {})
+    for panel_id,frame in inputs['frames'].items():
+        if frame.get('write'):
+            keep[panel_id]=list(keep.get(panel_id,[]))+[
+                [x0/frame['width'],y0/frame['height'],x1/frame['width'],y1/frame['height']]
+                for x0,y0,x1,y1 in frame['write']]
+    return keep
+
+
 def drawn_fits(row,panel,slot,tails,faces,script,keep_max=None):
     """Whether the drawn-balloon planner places `panel`'s copy in `slot` and the fit check passes.
 
     This is auto-geometry's own plan, fit measurement and pixel audit, without writing a file.
-    `row` holds the frame's id, path, width and height, and optionally "keep", the panel's keep zones in source pixels.
+    `row` holds the frame's id, path, width and height, and optionally "keep" and "write", zones in source pixels.
     With `keep_max`, no zone's visible area may be covered beyond that share by the placed boxes.
     """
     from types import SimpleNamespace
     geometry={'pages':{str(panel['page']):[slot]}}
-    try:plan=drawn_geometry(Path(row['path']),panel['copy'],slot,tails,faces,keep=row.get('keep'))
+    try:plan=drawn_geometry(Path(row['path']),panel['copy'],slot,tails,faces,keep=row.get('keep'),write=row.get('write'))
     except AutoGeometryError:return False
     if keep_max is not None and row.get('keep'):
         shares=keep_coverage([reserve['rect'] for reserve in plan['reserves']],row['keep'],plan['visible_rect'])
@@ -787,6 +854,7 @@ class SlotProbe:
             self.calls+=1
             panel=self.panels[panel_id];frame=self.frames[panel_id]
             row={'id':panel_id,'path':frame['path'],'width':frame['width'],'height':frame['height']}
+            if frame.get('write'):row['write']=frame['write']
             if panel_id in self.keep:row['keep']=[[x0*frame['width'],y0*frame['height'],x1*frame['width'],y1*frame['height']]
                                                   for x0,y0,x1,y1 in self.keep[panel_id]]
             tails=parse_tails(self.tails[panel_id],panel['copy'],frame['width'],frame['height'])
@@ -848,7 +916,7 @@ def probe_fit(lf,script,prior,inputs,tails_dir,margin,step_pt=PROBE_STEP_PT,prob
 
     for round_number in range(1,PROBE_ROUNDS+1):
         fitted=lf.fit_layout(script,prior,inputs['frames'],inputs['faces'],margin=margin,floors=floors,ceilings=ceilings,
-                             painted=inputs.get('painted'),keep=inputs.get('keep'),minimums=minimums)
+                             painted=inputs.get('painted'),keep=_fit_keep(inputs),minimums=minimums)
         failed=[(panel_id,row,chosen(fitted,page,row)) for page,row in rows for panel_id in row['panels']
                 if probe.probed(panel_id) and panel_id not in gave_up
                 and not probe.fits(panel_id,row['width_pt'],chosen(fitted,page,row))]
@@ -885,7 +953,7 @@ def _structure_page(page_no,page,prior,inputs,tails_dir,margin,unpainted,keep_ma
         return fitted,all(fitted['report']['probe']['verified'].values())
 
     fitted=lf.fit_structures(script,{page_no:prior},inputs['frames'],inputs['faces'],margin=margin,
-                             painted=inputs['painted'],keep=inputs['keep'],refine=refine)
+                             painted=inputs['painted'],keep=_fit_keep(inputs),refine=refine)
     return fitted['page_rows'][page_no],fitted['report']['pages'][page_no],probed,probe.calls
 
 
@@ -898,7 +966,7 @@ def structure_fit(lf,script,prior,inputs,tails_dir,margin,probing,jobs=1,keep_ma
     With probing and `jobs > 1`, pages run in spawned processes, capped at the number of pages, and results are
     assembled in script order. `jobs <= 1` keeps the in-process shared probe; without probing `jobs` has no effect.
     """
-    frames,faces,painted,keep=inputs['frames'],inputs['faces'],inputs['painted'],inputs['keep']
+    frames,faces,painted,keep=inputs['frames'],inputs['faces'],inputs['painted'],_fit_keep(inputs)
     if not probing:return lf.fit_structures(script,prior,frames,faces,margin=margin,painted=painted,keep=keep)
     if jobs>1:
         page_rows,pages,probed={},{},{};planner_calls=0
@@ -954,7 +1022,7 @@ def fit_layout_command(args,out):
     keep_max=getattr(args,'keep_max',None)
     if args.structures:fitted=structure_fit(lf,script,prior,inputs,args.faces_dir,margin,args.probe,jobs=args.jobs,keep_max=keep_max)
     elif args.probe:fitted=probe_fit(lf,script,prior,inputs,args.faces_dir,margin,keep_max=keep_max)
-    else:fitted=lf.fit_layout(script,prior,inputs['frames'],inputs['faces'],margin=margin,painted=inputs['painted'],keep=inputs['keep'])
+    else:fitted=lf.fit_layout(script,prior,inputs['frames'],inputs['faces'],margin=margin,painted=inputs['painted'],keep=_fit_keep(inputs))
     source={'layout':str(args.layout),'layout_sha256':c.sha256(args.layout),'manifest':str(args.manifest),
             'margin':margin,'face_scale':face_scale}
     if args.structures:source['structures']=True
