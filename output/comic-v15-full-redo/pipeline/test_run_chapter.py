@@ -386,6 +386,34 @@ class ImportFrameTests(PackageCase):
         self.script.write_text(SCRIPT.replace('PAGE 1', 'PAGE 9').replace('**1.', '**9.'), encoding='utf-8')
         self.assertEqual(self.import_frame()['id'], self.TARGET)
 
+    def revise_target(self, old, new):
+        job_path = self.pkg / 'IMAGEGEN-JOBS.json'
+        job = json.loads(job_path.read_text())
+        script = Path(job['script']['path'])
+        script.write_text(SCRIPT.replace('PAGE 1', 'PAGE 9').replace('**1.', '**9.').replace(old, new), encoding='utf-8')
+        job['script'] = r.s.parse_script(script)
+        job_path.write_text(json.dumps(job), encoding='utf-8')
+
+    def test_import_carries_an_accepted_delivery_change(self):
+        # Chapter 16: "(off)" became "(voice-over)" in the source package, then the chapter was split; the frame of
+        # that panel must import into the split package, whose script already has the new tag.
+        (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
+        self.script.write_text(SCRIPT.replace('> JOÃO: Up!', '> JOÃO (voice-over): Up!'), encoding='utf-8')
+        r.accept_script_revision(SimpleNamespace(reason='voice-over', allow_lettering=False, allow_delivery=True), self.source_pkg)
+        self.revise_target('> JOÃO: Up!', '> JOÃO (voice-over): Up!')
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+
+    def test_import_carries_a_delivery_change_with_new_text_in_one_revision(self):
+        (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
+        old, new = '> JOÃO: Up! Those marked go to the docks.', '> JOÃO (off): Up! To the docks.'
+        self.script.write_text(SCRIPT.replace(old, new), encoding='utf-8')
+        r.accept_script_revision(SimpleNamespace(reason='both', allow_lettering=True, allow_delivery=True), self.source_pkg)
+        self.revise_target(old, new)
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+        self.revise_target(old, '> JOÃO: Up! To the docks.')                 # the old tag no longer matches the source
+        with self.assertRaisesRegex(ValueError, 'Panel lettering differs'):
+            self.import_frame()
+
     def test_import_refuses_target_with_pre_revision_lettering(self):
         (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
         self.accept_source_lettering('Up! Now.')
@@ -533,6 +561,37 @@ class ScriptRevisionTests(PackageCase):
     def test_allow_lettering_applies_only_to_accept_script_revision(self):
         with self.assertRaises(SystemExit):
             self.run_cli('verify', '--revision', 'r1', '--allow-lettering')
+
+    def test_a_delivery_tag_change_needs_allow_delivery_and_is_logged(self):
+        # The author turned "(off)" narration over a flashback into "(voice-over)": the speaker is the same person, only
+        # how the line is lettered changes (a tailless box instead of a tail to the panel edge).
+        self.freeze()
+        self.script.write_text(self.SCRIPT_TEXT.replace('> JOÃO: Up!', '> JOÃO (voice-over): Up!'), encoding='utf-8')
+        message = self.fails('accept-script-revision', '--reason', 'author: voice-over')
+        self.assertIn('--allow-delivery', message)
+        self.assertFalse((self.pkg / 'SCRIPT-REVISIONS.json').exists())
+        result = self.run_cli('accept-script-revision', '--reason', 'author: voice-over', '--allow-delivery')
+        self.assertEqual(result['accepted'], sha(self.script))
+        entry = json.loads((self.pkg / 'SCRIPT-REVISIONS.json').read_text())[-1]
+        self.assertEqual(entry['delivery_changes'], [{'panel': PANEL, 'chunk': 1, 'before': 'JOÃO', 'after': 'JOÃO (voice-over)'}])
+        r.load_job(self.pkg)
+
+    def test_allow_delivery_never_accepts_a_different_speaker_or_new_text(self):
+        self.freeze()
+        for changed in (self.SCRIPT_TEXT.replace('> JOÃO: Up!', '> DUARTE: Up!'),                      # another person
+                        self.SCRIPT_TEXT.replace('> JOÃO: Up! Those marked', '> JOÃO (off): Up! All of you')):  # tag and text
+            with self.subTest(changed=changed[-80:]):
+                self.script.write_text(changed, encoding='utf-8')
+                self.fails('accept-script-revision', '--reason', 'x', '--allow-delivery')
+                self.assertFalse((self.pkg / 'SCRIPT-REVISIONS.json').exists())
+        # Text and tag together pass only with both flags.
+        self.script.write_text(self.SCRIPT_TEXT.replace('> JOÃO: Up! Those marked', '> JOÃO (off): Up! All of you'), encoding='utf-8')
+        result = self.run_cli('accept-script-revision', '--reason', 'x', '--allow-delivery', '--allow-lettering')
+        self.assertEqual(result['accepted'], sha(self.script))
+
+    def test_allow_delivery_applies_only_to_accept_script_revision(self):
+        with self.assertRaises(SystemExit):
+            self.run_cli('verify', '--revision', 'r1', '--allow-delivery')
 
     def test_it_needs_the_frozen_original_and_a_reason(self):
         self.script.write_text(self.SCRIPT_TEXT.replace('A silent beat.', 'A silent beat, rain.'), encoding='utf-8')
@@ -945,6 +1004,26 @@ class DrawnAutoGeometryTests(PackageCase):
         with self.assertRaisesRegex(r.AutoGeometryError, 'chunk 0'):
             r.drawn_geometry(frame, copy[:1], {'rect_pt': [36, 300, 369, 153.75]}, [None],
                              write=[[200, 200, 205, 205]], unpainted=True)
+
+    def test_a_write_zone_can_name_the_one_chunk_it_holds(self):
+        # Chapter 21: the LEDGER line goes on the ledger page at the left and the LEAF line on the palm leaf at the right;
+        # with two open zones the LEAF line landed on the ledger page under the LEDGER line.
+        write = {'x0': .1, 'y0': .2, 'x1': .4, 'y1': .6, 'role': 'inscribe', 'copy_index': 1}
+        self.assertEqual(r.parse_write_zones([write], 1000, 500), [[100, 100, 400, 300, 1]])
+        self.assertEqual(r.parse_keep([write], 1000, 500), [])
+        for bad in (dict(write, copy_index=-1), dict(write, copy_index=True), dict(write, copy_index='1')):
+            with self.subTest(bad=bad), self.assertRaises(r.AutoGeometryError):
+                r.parse_write_zones([bad], 1000, 500)
+        frame = self.generated('write-index.png', boxes=[], size=BIG)
+        copy = [{'speaker': 'LEDGER', 'text': 'A number.'}, {'speaker': 'LEAF', 'text': 'A name.'}]
+        left, right = [100, 150, 1100, 700], [1400, 150, 2200, 700]       # the left one has room for both lines
+        plan = r.drawn_geometry(frame, copy, {'rect_pt': [36, 300, 369, 153.75]}, [None, None],
+                                write=[left + [0], right + [1]], unpainted=True)
+        self.assertTrue(CoverCropGeometryTests.inside(plan['reserves'][0]['rect'], left))
+        self.assertTrue(CoverCropGeometryTests.inside(plan['reserves'][1]['rect'], right))
+        open_plan = r.drawn_geometry(frame, copy, {'rect_pt': [36, 300, 369, 153.75]}, [None, None],
+                                     write=[left, right], unpainted=True)                 # zones without a chunk hold any
+        self.assertTrue(all(any(CoverCropGeometryTests.inside(x['rect'], z) for z in (left, right)) for x in open_plan['reserves']))
 
     def test_write_none_matches_saved_implementation(self):
         import types

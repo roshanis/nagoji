@@ -1,6 +1,8 @@
 """Final V15 status report for the author: the build table (from each chapter's final build records), what changed on
 2026-10-09, and what is left for the author. Writes Markdown and a rendered HTML copy, and a JSON of the table.
-Usage (from output/comic-v15-full-redo): final_report.py FINAL.json OUT_STEM
+Usage (from output/comic-v15-full-redo): final_report.py FINAL.json OUT_STEM [IMPOSITION.json]
+With the imposition plan (imposition.py) the folio check follows its blank pages, and {{IMPOSITION}}, {{BLANKS}} and
+{{TURNS}} in the body are filled from it.
 FINAL.json: {"1": "ch01-v2:r15:d9t-b", ...}  package:revision:b-pass tag of each chapter's final build"""
 import html, json, math, re, sys
 from pathlib import Path
@@ -8,6 +10,8 @@ sys.path.insert(0, 'pipeline')
 import reserves as rv, compositor as c
 
 final, stem = json.loads(Path(sys.argv[1]).read_text()), Path(sys.argv[2])
+plan = json.loads(Path(sys.argv[3]).read_text()) if len(sys.argv) > 3 else None
+planned = {r['chapter']: r for r in plan['chapters']} if plan else {}
 
 
 def crossings(pkg, rev, btag):
@@ -41,7 +45,8 @@ for ch in range(1, 29):
            'crossing_tails': crossings(pkg, rev, btag)}
     rows.append(row)
 for a, b in zip(rows, rows[1:]):
-    if b['first_folio'] != a['last_folio'] + 1: problems.append(f"ch{b['chapter']} starts at {b['first_folio']}, not {a['last_folio'] + 1}")
+    want = planned[b['chapter']]['first_folio'] if plan else a['last_folio'] + 1
+    if b['first_folio'] != want: problems.append(f"ch{b['chapter']} starts at {b['first_folio']}, not {want}")
 for r in rows:
     if r['pages'] != r['script_pages']: problems.append(f"ch{r['chapter']}: {r['pages']} pages built, script has {r['script_pages']}")
     if r['min_ppi'] < 300: problems.append(f"ch{r['chapter']}: minimum {r['min_ppi']} PPI")
@@ -57,7 +62,14 @@ md = md.replace('{{TABLE}}', '\n'.join(table)).replace('{{TOTAL_PAGES}}', str(to
        .replace('{{TOTAL_IMAGES}}', str(sum(r['images'] for r in rows))) \
        .replace('{{MIN_PPI}}', str(min(r['min_ppi'] for r in rows))) \
        .replace('{{CROSSINGS}}', str(sum(len(r['crossing_tails']) for r in rows))) \
-       .replace('{{PROBLEMS}}', '; '.join(problems) or 'all pass. Folios run on without a gap, every chapter has its script\'s page count, and every image is at 300 PPI or more')
+       .replace('{{PROBLEMS}}', '; '.join(problems) or 'all pass. Folios follow the book plan, every chapter has its script\'s page count, and every image is at 300 PPI or more')
+if plan:
+    imp = ['| Ch | Opens on | Blank page before | Marked page turns (after page) | Landing |', '|---|---|---|---|---|']
+    for r in plan['chapters']:
+        imp.append(f"| {r['chapter']} | {r['side']}-hand page {r['first_folio']} | {'yes, folio ' + str(r['first_folio'] - 1) if r['blank_before'] else 'no'} | "
+                   f"{', '.join(m.replace('turn after ', '') for m in r['markers']) or 'none'} | {str(r['landing']) + ' of ' + str(len(r['markers'])) if r['markers'] else ''} |")
+    md = md.replace('{{IMPOSITION}}', '\n'.join(imp)).replace('{{BLANKS}}', ', '.join(map(str, plan['blanks']))) \
+           .replace('{{TURNS}}', f"{plan['landing']} of {plan['markers']}").replace('{{LAST_FOLIO}}', str(plan['last_folio']))
 Path(f'{stem}.md').write_text(md)
 
 

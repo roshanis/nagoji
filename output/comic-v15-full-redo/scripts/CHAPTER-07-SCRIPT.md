@@ -9,7 +9,7 @@ Source: `book1_horse_servant/book2_chapter07_horses_in_wet_sand.md`, 2,868 words
 - Every panel is prompted on its own, so each panel restates the costumes it needs. Never rely on an earlier panel's description.
 - Nagoji: take him from the full-length commander figure on the Nagoji sheet only. The sheet's face studies are bare-headed and must never replace the rust-red turban.
 - Varma: take only the face and moustache from the varma-v1 sheet. On this beach he wears no turban and no crest, per the author's occasion rule of 2026-09-27 (CONTINUITY.md).
-- The large panels (3.4, 4.1, 6.5, 7.3, 12.5) are generated at their placed aspect ratio, not the default widescreen, so they reach 300 effective PPI without a heavy crop. Any placed image still below 300 PPI is upscaled 2x before placement, as CONTINUITY.md requires.
+- The large panels (3.4, 4.1, 6.5, 8.1, 13.5) are generated at their placed aspect ratio, not the default widescreen, so they reach 300 effective PPI without a heavy crop. Any placed image still below 300 PPI is upscaled 2x before placement, as CONTINUITY.md requires.
 
 ---
 
@@ -197,7 +197,7 @@ Five panels. The doctrine, drawn in the sand. 6.1 and 6.2 are strips across the 
 
 ## PAGE 7
 
-Four panels. The gamble accepted, the change earned, and the ride up the slope.
+Two panels. The gamble accepted, the change earned, and the ride up the slope.
 
 **7.1** Raza Khan still crouched, studying the half-erased map: deep-green turban, scar on his anatomical left cheek toward us, pointed moustache, white jama. Across from him, Nagoji (rust-red turban, clean-shaven chin, thick curled moustache, cream tunic, red sash), forearms on his knees.
 
@@ -211,33 +211,39 @@ Four panels. The gamble accepted, the change earned, and the ride up the slope.
 
 > NAGOJI: Make them hold.
 
-**7.3** Wide, half the page, generated at its placed aspect ratio. Afternoon, the sun lower, the tide higher. The mixed line (white-turbaned Madurai riders on dark horses, bare-headed Maravar on dun ponies, alternating) wheels together at the water's edge in one clean turn, a single arc of thrown spray behind it. The heavy horses give to the sand instead of fighting it. The riders sit quiet in the saddle. Nobody is hauling on a rein.
+---
+
+## PAGE 8
+
+Two panels, continuing page 7.
+
+**8.1** Wide, half the page, generated at its placed aspect ratio. Afternoon, the sun lower, the tide higher. The mixed line (white-turbaned Madurai riders on dark horses, bare-headed Maravar on dun ponies, alternating) wheels together at the water's edge in one clean turn, a single arc of thrown spray behind it. The heavy horses give to the sand instead of fighting it. The riders sit quiet in the saddle. Nobody is hauling on a rein.
 
 > CAPTION: Men began to trust that their mounts would not vanish under them at every turn.
 
 > CAPTION: Horses began to trust that their riders would not ask for impossible strides.
 
-**7.4** The top of the bluff, at the one-pole awning. Marthanda Varma has risen from his stool and stands at the awning's edge: ONLY the face and moustache from the varma-v1 sheet, NO turban, NO peacock crest, black hair tied in a bun to his left, simple Vaishnavite lines on the forehead, bare-chested, a single cream-and-gold cloth over one shoulder, gold necklaces. Ramayyan (thin, sharp fine features, receding hair, plain white cloth) on his stool, writing a last mark on a palm leaf. Nagoji has just ridden up the slope and is swinging down from the grey: rust-red turban, clean-shaven chin, thick curled moustache, cream tunic, red sash, sweat drying on his skin, wet sand caked on his boots and trouser legs.
+**8.2** The top of the bluff, at the one-pole awning. Marthanda Varma has risen from his stool and stands at the awning's edge: ONLY the face and moustache from the varma-v1 sheet, NO turban, NO peacock crest, black hair tied in a bun to his left, simple Vaishnavite lines on the forehead, bare-chested, a single cream-and-gold cloth over one shoulder, gold necklaces. Ramayyan (thin, sharp fine features, receding hair, plain white cloth) on his stool, writing a last mark on a palm leaf. Nagoji has just ridden up the slope and is swinging down from the grey: rust-red turban, clean-shaven chin, thick curled moustache, cream tunic, red sash, sweat drying on his skin, wet sand caked on his boots and trouser legs.
 
 > VARMA: You make them move like fish. Not like bulls.
 
 ---
 
-## PAGE 8
+## PAGE 9
 
 Five panels. The king's verdict and the king's charge. Two wides break up the faces. Build to the last line.
 
-**8.1** Nagoji, reins in hand, the grey's head at his shoulder, answering the king at a respectful distance. Rust-red turban with curls at the nape below it, clean-shaven chin, thick curled moustache, small gold ear stud, cream tunic, red sash.
+**9.1** Nagoji, reins in hand, the grey's head at his shoulder, answering the king at a respectful distance. Rust-red turban with curls at the nape below it, clean-shaven chin, thick curled moustache, small gold ear stud, cream tunic, red sash.
 
 > NAGOJI: Fish do not charge muskets. But yes.
 
 > NAGOJI: If your enemies expect bulls, better to be something else.
 
-**8.2** High wide shot over Marthanda Varma's shoulder, from behind at three-quarter: bare head with black hair tied in a bun to his left, NO turban, NO peacock crest, a cream-and-gold cloth over one bare shoulder, the edge of a gold necklace. He nods slowly. Below, down the slope, the mixed Madurai and Maravar line regroups on the shining sand, tiny figures in white turbans and bare heads against the bright strip of water.
+**9.2** High wide shot over Marthanda Varma's shoulder, from behind at three-quarter: bare head with black hair tied in a bun to his left, NO turban, NO peacock crest, a cream-and-gold cloth over one bare shoulder, the edge of a gold necklace. He nods slowly. Below, down the slope, the mixed Madurai and Maravar line regroups on the shining sand, tiny figures in white turbans and bare heads against the bright strip of water.
 
 > VARMA: They are not yet ready. But they are less foolish than they were at sunrise.
 
-**8.3** Ramayyan (thin, sharp fine features, receding hair, plain white cloth) looking up from his palm leaves at Nagoji. Nagoji (rust-red turban, clean-shaven chin, thick curled moustache, gold ear stud, cream tunic) turning to him.
+**9.3** Ramayyan (thin, sharp fine features, receding hair, plain white cloth) looking up from his palm leaves at Nagoji. Nagoji (rust-red turban, clean-shaven chin, thick curled moustache, gold ear stud, cream tunic) turning to him.
 
 > RAMAYYAN: They obeyed you. Even when their pride bucked harder than their horses.
 
@@ -245,13 +251,13 @@ Five panels. The king's verdict and the king's charge. Two wides break up the fa
 
 > RAMAYYAN: Voices matter. Especially when the sea is loud.
 
-**8.4** Wide. The open sea from the bluff, a line of darker blue on the horizon marking deep water. No ships. Marthanda Varma small at the awning's edge, in silhouette against the bright sky: the bun of hair to his left and the cloth over one shoulder readable in outline, NO turban, NO crest, the spear in his hand.
+**9.4** Wide. The open sea from the bluff, a line of darker blue on the horizon marking deep water. No ships. Marthanda Varma small at the awning's edge, in silhouette against the bright sky: the bun of hair to his left and the cloth over one shoulder readable in outline, NO turban, NO crest, the spear in his hand.
 
 > VARMA: The Dutch think these sands belong to them.
 
 > VARMA: They think their boots and bayonets make them owners.
 
-**8.5** Tight on Marthanda Varma as he turns his head and looks at Nagoji (off panel) directly. ONLY the face and moustache from the varma-v1 sheet, NO turban, NO peacock crest: black hair tied in a bun to his left, simple Vaishnavite lines on the forehead, gold necklaces at the bottom of the frame. Nothing else in the frame matters.
+**9.5** Tight on Marthanda Varma as he turns his head and looks at Nagoji (off panel) directly. ONLY the face and moustache from the varma-v1 sheet, NO turban, NO peacock crest: black hair tied in a bun to his left, simple Vaishnavite lines on the forehead, gold necklaces at the bottom of the frame. Nothing else in the frame matters.
 
 > VARMA: Show me, Nagoji Sawant, that horses can disagree.
 
@@ -259,31 +265,31 @@ Five panels. The king's verdict and the king's charge. Two wides break up the fa
 
 ---
 
-## PAGE 9
+## PAGE 10
 
 Five panels. The answer, the feeling he has not had since before Goa, and then night falls on the horse lines. Ends on a new horse's eye, which answers the eye on page 1.
 
-**9.1** Nagoji bows his head, once. Rust-red turban with curls at the nape below it, clean-shaven chin, thick curled moustache, small gold ear stud, cream tunic, red sash.
+**10.1** Nagoji bows his head, once. Rust-red turban with curls at the nape below it, clean-shaven chin, thick curled moustache, small gold ear stud, cream tunic, red sash.
 
 > NAGOJI: I will try.
 
-**9.2** Wide. Nagoji on the grey riding back down the slope (rust-red turban, cream tunic, red sash, cream trousers, boots) toward the strip of wet sand, where the Madurai and Maravar riders wait together now, white turbans and bare heads mixed, catching their breath, their horses side by side. The tide is coming in.
+**10.2** Wide. Nagoji on the grey riding back down the slope (rust-red turban, cream tunic, red sash, cream trousers, boots) toward the strip of wet sand, where the Madurai and Maravar riders wait together now, white turbans and bare heads mixed, catching their breath, their horses side by side. The tide is coming in.
 
 > CAPTION: Fear, yes. Responsibility, sharp as any spear point.
 
 > CAPTION: But also something I had not felt since before Goa, before the dungeon, before the storm.
 
-**9.3** Narrow strip. Nagoji's eyes, forward. The strip runs from the lower edge of the rust-red turban down to the top of the thick curled moustache; keep the turban's edge inside the frame. Take the face from the sheet's commander figure, not its bare-headed studies.
+**10.3** Narrow strip. Nagoji's eyes, forward. The strip runs from the lower edge of the rust-red turban down to the top of the thick curled moustache; keep the turban's edge inside the frame. Take the face from the sheet's commander figure, not its bare-headed studies.
 
 > CAPTION (separate, weighted): Anticipation.
 
-**9.4** Wide. Dusk. The picket line under the palms, horses rubbed down, cook fires scattered in the dark beyond. Nagoji walking alone among the mounts: rust-red turban, cream tunic, red sash, cream trousers, boots. Bleeding into the panel's edge like a stain rather than a clean flashback frame, the same device as Chapter 1, panel 6.5: a black mare at full stretch across black Deccan soil, alive, with no rider and no saddle, mane and tail streaming.
+**10.4** Wide. Dusk. The picket line under the palms, horses rubbed down, cook fires scattered in the dark beyond. Nagoji walking alone among the mounts: rust-red turban, cream tunic, red sash, cream trousers, boots. Bleeding into the panel's edge like a stain rather than a clean flashback frame, the same device as Chapter 1, panel 6.5: a black mare at full stretch across black Deccan soil, alive, with no rider and no saddle, mane and tail streaming.
 
 > CAPTION: In the Deccan I had ridden Kanka, a black mare with a temper like monsoon lightning.
 
 > CAPTION: She died at Vasai, a Portuguese ball through her chest. I walked the last miles to Goa too stunned to mourn properly.
 
-**9.5** At the far end of the picket line, apart from the others: Kayal, a bay mare, ochre red-brown body with BLACK mane, tail and lower legs, no white markings on face or legs, fine head, compact frame, a little taller than the Maravar ponies and clearly smaller than the Madurai horses. No other red-bay horse near her. Ears forward, head a little high. She is watching him come.
+**10.5** At the far end of the picket line, apart from the others: Kayal, a bay mare, ochre red-brown body with BLACK mane, tail and lower legs, no white markings on face or legs, fine head, compact frame, a little taller than the Maravar ponies and clearly smaller than the Madurai horses. No other red-bay horse near her. Ears forward, head a little high. She is watching him come.
 
 > CAPTION: Neither Madurai nor Maravar. Something in between.
 
@@ -291,27 +297,27 @@ Five panels. The answer, the feeling he has not had since before Goa, and then n
 
 ---
 
-## PAGE 10
+## PAGE 11
 
-Five panels. The one quiet scene in the chapter. Let the art carry it. Ends on the care line; the belonging line opens page 11.
+Five panels. The one quiet scene in the chapter. Let the art carry it. Ends on the care line; the belonging line opens page 12.
 
-**10.1** Nagoji walking toward her down the line (rust-red turban, cream tunic, red sash, boots), past small rough-coated Maravar ponies in dun and dark brown with watchful eyes, and taller, elegant Madurai horses in dark bay, dark brown and black, shifting uneasily in the damp. At the end of the line, Kayal: bay, ochre red-brown coat, black mane, tail and lower legs, no white markings. No other red-bay horse near her.
+**11.1** Nagoji walking toward her down the line (rust-red turban, cream tunic, red sash, boots), past small rough-coated Maravar ponies in dun and dark brown with watchful eyes, and taller, elegant Madurai horses in dark bay, dark brown and black, shifting uneasily in the damp. At the end of the line, Kayal: bay, ochre red-brown coat, black mane, tail and lower legs, no white markings. No other red-bay horse near her.
 
 > CAPTION: Every war horse on this coast was an import, and every one cost more than a soldier's yearly wage.
 
 > CAPTION: But the Maravar ponies knew the monsoon in their bones.
 
-**10.2** Nagoji holding out his hand, palm up and low: rust-red turban with curls at the nape below it, clean-shaven chin, thick curled moustache, gold ear stud. Kayal (bay, ochre red-brown coat, black mane, no white markings) stretches her neck toward his hand, nostrils flared, taking his scent.
+**11.2** Nagoji holding out his hand, palm up and low: rust-red turban with curls at the nape below it, clean-shaven chin, thick curled moustache, gold ear stud. Kayal (bay, ochre red-brown coat, black mane, no white markings) stretches her neck toward his hand, nostrils flared, taking his scent.
 
 > NAGOJI: You do not belong to any of them either. Do you?
 
-**10.3** Kayal pushes her nose into Nagoji's chest. His hand has come to rest on her neck, under the black mane. His eyes are closed. Nagoji: rust-red turban, curls at the nape, clean-shaven chin, thick curled moustache, cream tunic.
+**11.3** Kayal pushes her nose into Nagoji's chest. His hand has come to rest on her neck, under the black mane. His eyes are closed. Nagoji: rust-red turban, curls at the nape, clean-shaven chin, thick curled moustache, cream tunic.
 
 > CAPTION: It was not Kanka's smell. It never would be.
 
 > CAPTION: But it was honest.
 
-**10.4** Close two-shot, his forehead near her face, the last light on her ochre red-brown coat and black forelock. Nagoji: rust-red turban edge in frame, curls at the nape, clean-shaven chin, thick curled moustache, small gold ear stud; take the face from the sheet's commander figure, not its bare-headed studies. Kayal: no white markings on her face.
+**11.4** Close two-shot, his forehead near her face, the last light on her ochre red-brown coat and black forelock. Nagoji: rust-red turban edge in frame, curls at the nape, clean-shaven chin, thick curled moustache, small gold ear stud; take the face from the sheet's commander figure, not its bare-headed studies. Kayal: no white markings on her face.
 
 > NAGOJI: Kayal.
 
@@ -319,7 +325,7 @@ Five panels. The one quiet scene in the chapter. Let the art carry it. Ends on t
 
 > NAGOJI: You will learn the sand with me. And when the Dutch come, we will show them what a backwater horse can do.
 
-**10.5** Kayal tosses her head, black mane flying, as if agreeing to terms she has not yet heard. Nagoji almost smiles: rust-red turban, clean-shaven chin, thick curled moustache, cream tunic, red sash.
+**11.5** Kayal tosses her head, black mane flying, as if agreeing to terms she has not yet heard. Nagoji almost smiles: rust-red turban, clean-shaven chin, thick curled moustache, cream tunic, red sash.
 
 > CAPTION: It was the first time since Vasai that I had named a horse.
 
@@ -327,23 +333,23 @@ Five panels. The one quiet scene in the chapter. Let the art carry it. Ends on t
 
 ---
 
-## PAGE 11
+## PAGE 12
 
 Five panels. The Kayal scene closes on belonging, then Ibrahim and the gods of the coast. Ends on Ibrahim turning to his own faith.
 
-**11.1** Wide, full page width. The last light going blue over the picket line, the palms, and the sea beyond. Small in a large, quiet frame, Nagoji stands alone with Kayal at the end of the line, his hand on her neck. Nagoji: rust-red turban, cream tunic, red sash, cream trousers, boots. Kayal: bay, ochre red-brown coat, black mane, tail and lower legs.
+**12.1** Wide, full page width. The last light going blue over the picket line, the palms, and the sea beyond. Small in a large, quiet frame, Nagoji stands alone with Kayal at the end of the line, his hand on her neck. Nagoji: rust-red turban, cream tunic, red sash, cream trousers, boots. Kayal: bay, ochre red-brown coat, black mane, tail and lower legs.
 
 > CAPTION: Kayal would carry me through Colachel and beyond.
 
 > CAPTION: But that night, all I knew was the strange comfort of belonging, even a little, to this unfamiliar land.
 
-**11.2** Evening shadow. Ibrahim Marakkar leaning against a palm trunk nearby: shorter than Nagoji but broader, white turban, short grey-flecked beard, short coat over a vest with bulging pockets, white mundu; no green, no hawk nose. His right side is in shadow and his anatomical LEFT side is lit, so the scar from his left ear to the corner of his jaw reads. Nagoji (rust-red turban, clean-shaven chin, thick curled moustache, cream tunic) with his hand still on Kayal's neck.
+**12.2** Evening shadow. Ibrahim Marakkar leaning against a palm trunk nearby: shorter than Nagoji but broader, white turban, short grey-flecked beard, short coat over a vest with bulging pockets, white mundu; no green, no hawk nose. His right side is in shadow and his anatomical LEFT side is lit, so the scar from his left ear to the corner of his jaw reads. Nagoji (rust-red turban, clean-shaven chin, thick curled moustache, cream tunic) with his hand still on Kayal's neck.
 
 > IBRAHIM: You talk to horses. I have seen men talk to worse.
 
 > NAGOJI: Horses do not argue. They simply refuse, or they follow. It is simpler than men.
 
-**11.3** Ibrahim, arms folded, studying him: white turban, short grey-flecked beard, the scar from his LEFT ear to his jaw lit, short coat over a vest with bulging pockets.
+**12.3** Ibrahim, arms folded, studying him: white turban, short grey-flecked beard, the scar from his LEFT ear to his jaw lit, short coat over a vest with bulging pockets.
 
 > IBRAHIM: You are Hindu.
 
@@ -351,39 +357,39 @@ Five panels. The Kayal scene closes on belonging, then Ibrahim and the gods of t
 
 > IBRAHIM: And yet I have seen you bow your head in their churches.
 
-**11.4** Nagoji with a half-shrug, one hand still on Kayal's black mane: rust-red turban with curls at the nape, clean-shaven chin, thick curled moustache, small gold ear stud, cream tunic, red sash.
+**12.4** Nagoji with a half-shrug, one hand still on Kayal's black mane: rust-red turban with curls at the nape, clean-shaven chin, thick curled moustache, small gold ear stud, cream tunic, red sash.
 
 > NAGOJI: I pray to whatever is listening. If the gods are as numerous as men say, surely one of them has time for a cavalryman with sand in his boots.
 
-**11.5** Ibrahim, quiet for a moment, his eyes going past Nagoji toward the dark water. White turban, short grey-flecked beard, his anatomical left side lit so the scar reads, short coat over the vest.
+**12.5** Ibrahim, quiet for a moment, his eyes going past Nagoji toward the dark water. White turban, short grey-flecked beard, his anatomical left side lit so the scar reads, short coat over the vest.
 
 > IBRAHIM: I am Muslim. My fathers came from the coast of Arabia, traders who married local women and stayed.
 
 ---
 
-## PAGE 12
+## PAGE 13
 
 Five panels. Three faiths, one warning, and the chapter's last line.
 
-**12.1** Ibrahim half turned toward the sea, one hand flat on the palm trunk: white turban, short grey-flecked beard, scar from his LEFT ear to his jaw, short coat over a vest with bulging pockets. Nagoji (rust-red turban, clean-shaven chin, thick curled moustache, cream tunic) listening beside Kayal (bay, black mane).
+**13.1** Ibrahim half turned toward the sea, one hand flat on the palm trunk: white turban, short grey-flecked beard, scar from his LEFT ear to his jaw, short coat over a vest with bulging pockets. Nagoji (rust-red turban, clean-shaven chin, thick curled moustache, cream tunic) listening beside Kayal (bay, black mane).
 
 > IBRAHIM: We built mosques. We kept the faith. But we also lit lamps at Hindu shrines when our ships sailed, and we asked Christian priests to bless our cargo when the winds were wrong.
 
-**12.2** Wide. Dusk beyond the palms: the sea and the mouth of a backwater channel meeting, pale salt surf folding into dark, still channel water. Ibrahim (white turban), Nagoji (rust-red turban) and Kayal small at the edge of the frame.
+**13.2** Wide. Dusk beyond the palms: the sea and the mouth of a backwater channel meeting, pale salt surf folding into dark, still channel water. Ibrahim (white turban), Nagoji (rust-red turban) and Kayal small at the edge of the frame.
 
 > IBRAHIM: On this coast, the gods mix like the waters of the backwaters, salt and fresh, never quite one thing. A man who insists on purity drowns faster than one who learns to float in both.
 
-**12.3** Ibrahim pushing off from the palm, facing Nagoji: white turban, short grey-flecked beard, his anatomical left side toward us so the scar reads, short coat over a vest with bulging pockets. Nagoji's rust-red turban and shoulder at the edge of frame.
+**13.3** Ibrahim pushing off from the palm, facing Nagoji: white turban, short grey-flecked beard, his anatomical left side toward us so the scar reads, short coat over a vest with bulging pockets. Nagoji's rust-red turban and shoulder at the edge of frame.
 
 > IBRAHIM: You are useful too, Sawant. That is why you are still alive.
 
 > IBRAHIM: The king does not keep men for their faith. He keeps them for what they can do.
 
-**12.4** Full width. Ibrahim walking away into the gathering dark, speaking over his shoulder, his white turban catching the last light. In the foreground, Nagoji (rust-red turban, cream tunic, red sash) and Kayal watching him go.
+**13.4** Full width. Ibrahim walking away into the gathering dark, speaking over his shoulder, his white turban catching the last light. In the foreground, Nagoji (rust-red turban, cream tunic, red sash) and Kayal watching him go.
 
 > IBRAHIM: Remember that, when you wonder why a Muslim sailor and a Hindu horseman and a Christian merchant all sit in the same war hall.
 
-**12.5** Full width, bottom, the largest panel on the page, generated at its placed aspect ratio. Night. Nagoji alone with Kayal at the edge of the wet sand, the sea a pale line behind them. Nagoji: rust-red turban, cream tunic, red sash, cream trousers, boots. Kayal: bay, black mane and tail, no white markings. At their feet, the day's hoofprints are filling with water.
+**13.5** Full width, bottom, the largest panel on the page, generated at its placed aspect ratio. Night. Nagoji alone with Kayal at the edge of the wet sand, the sea a pale line behind them. Nagoji: rust-red turban, cream tunic, red sash, cream trousers, boots. Kayal: bay, black mane and tail, no white markings. At their feet, the day's hoofprints are filling with water.
 
 > CAPTION: On Deccan soil, I had thought I knew the limits of what a horse could do against a gun. Here, those limits shifted.
 
@@ -395,12 +401,12 @@ Five panels. Three faiths, one warning, and the chapter's last line.
 
 ## Adaptation notes
 
-- **Horse economics compressed to two captions (10.1).** The novel's paragraphs on pagoda prices, Arab horses failing in the damp, mixed-cavalry doctrine and Ramayyan's stable accounts are exposition. The comic keeps the one fact that matters for Kayal, that every war horse here is a costly import and the local ponies suit the monsoon. The mixed-cavalry idea is shown instead of told, in the mixed line of 5.4 and 7.3.
+- **Horse economics compressed to two captions (11.1).** The novel's paragraphs on pagoda prices, Arab horses failing in the damp, mixed-cavalry doctrine and Ramayyan's stable accounts are exposition. The comic keeps the one fact that matters for Kayal, that every war horse here is a costly import and the local ponies suit the monsoon. The mixed-cavalry idea is shown instead of told, in the mixed line of 5.4 and 8.1.
 - **The "Watch him" beat cut.** Nagoji pointing a Madurai rider to a calm Maravar youth repeats what 5.4 already shows, so it gave its panel to the water pause.
-- **Ibrahim's scene runs a page and a half (11.2 to 12.4).** Kept: the Portuguese line, the churches exchange and "I pray to whatever is listening" (Nagoji's own view of the gods, which matters again at his adoption), all three faiths with "We kept the faith", the backwaters image (tied to Kayal's name), "You are useful too" and the war-hall line. Cut: the mosque-wall clause, the "And the king?" exchange, and the closing "gods and usefulness" reflection.
-- **Line trims.** "Ponnan to his riders" (2.1) is added so the reader can link Ponnam Pandya Deven to the PONNAN balloons. "The King's coin" is lower-cased to match the rest of the script. 11.1 elides "the warmth of her breath and the red-brown of her coat", which the art shows. 3.2 compresses "He did not want to be seen arguing with the stranger Marthanda Varma had set over him" to its one unseen fact. Everything else marked as the novel's is verbatim.
-- **Shown, not captioned.** Raza Khan's shame after the stumble (5.3), the king rising and Ramayyan's final marks (7.4), and the mare's head toss (10.5) are in the art only.
-- **Deliberate echoes.** The riders' unspoken "Deccan man" (1.3) is said aloud by Ponnan (4.3). The belonging thread runs from 1.3 through "You do not belong to any of them either" (10.2) to the belonging line (11.1). Kanka bleeds into 9.4 with the same device as Chapter 1, 6.5. The rolling eye of 1.3 is answered by Kayal's steady look in 9.5. The last caption echoes Chapter 1's closing line.
+- **Ibrahim's scene runs a page and a half (12.2 to 13.4).** Kept: the Portuguese line, the churches exchange and "I pray to whatever is listening" (Nagoji's own view of the gods, which matters again at his adoption), all three faiths with "We kept the faith", the backwaters image (tied to Kayal's name), "You are useful too" and the war-hall line. Cut: the mosque-wall clause, the "And the king?" exchange, and the closing "gods and usefulness" reflection.
+- **Line trims.** "Ponnan to his riders" (2.1) is added so the reader can link Ponnam Pandya Deven to the PONNAN balloons. "The King's coin" is lower-cased to match the rest of the script. 12.1 elides "the warmth of her breath and the red-brown of her coat", which the art shows. 3.2 compresses "He did not want to be seen arguing with the stranger Marthanda Varma had set over him" to its one unseen fact. Everything else marked as the novel's is verbatim.
+- **Shown, not captioned.** Raza Khan's shame after the stumble (5.3), the king rising and Ramayyan's final marks (8.2), and the mare's head toss (11.5) are in the art only.
+- **Deliberate echoes.** The riders' unspoken "Deccan man" (1.3) is said aloud by Ponnan (4.3). The belonging thread runs from 1.3 through "You do not belong to any of them either" (11.2) to the belonging line (12.1). Kanka bleeds into 10.4 with the same device as Chapter 1, 6.5. The rolling eye of 1.3 is answered by Kayal's steady look in 10.5. The last caption echoes Chapter 1's closing line.
 - **Continuity.** Nagoji's daytime mount is a plain grey, which the novel does not specify, so that Kayal cannot be confused with it. Kanka's death (a ball at Vasai) agrees with João's "we shot it" in Chapter 1. The Madurai rank and file wear white turbans only, so Raza Khan's green is unique, as Chapter 12 also requires. The brand matches the revised Chapter 4 (3.2): inner left forearm, a hand's width above the wrist, ridges blurred past reading, no cross.
 - **Bible proposals for the CONTINUITY.md owner (not edited here, because the pipeline copies the bible into every prompt and says it overrides the script).**
   1. Varma's headwear follows the author's occasion rule of 2026-09-27: turban and crest at formal audiences and on campaign, bare-headed side knot elsewhere.
@@ -414,15 +420,15 @@ Five panels. Three faiths, one warning, and the chapter's last line.
 
 - 1.3: restored the riders' unspoken contempt before the italic line.
 - Madurai troop, Maravar, Ponnan, Raza Khan, Varma, Nagoji, Ibrahim and Kayal are spelled out in every panel they appear in, with horse colours fixed (no greys except Nagoji's; no other red-bay near Kayal).
-- 2.2, 3.2, 7.4, 8.x, 9.2: the awning stands on the shoulder of the bluff; Nagoji rides up to it and back down.
-- 2.3, 5.3, 9.4: verbatim restored ("the memory of chains", "You must ride", "mourn properly"). 2.3 fixes the hand and the brand.
+- 2.2, 3.2, 8.2, 8.x, 10.2: the awning stands on the shoulder of the bluff; Nagoji rides up to it and back down.
+- 2.3, 5.3, 10.4: verbatim restored ("the memory of chains", "You must ride", "mourn properly"). 2.3 fixes the hand and the brand.
 - 2.4: left-to-right order and marks for the three riders.
 - 3.1 and 3.2: the Dutch-square line moves to 3.2, off panel, and the 3.2 caption is cut to one fact.
 - Page 4: now three panels. 4.1 is half the page and holds the Maravar pony, which slips and recovers instead of pivoting cleanly.
 - 5.2: Raza Khan stays mounted.
 - Page 6: the insets are placed in 6.5's upper band, with no marks but grooves; the second bait line moves to 6.5.
-- 7.4 and page 8: 8.2 becomes a high wide over Varma's shoulder, and 8.4 a wide of the sea with Varma in silhouette.
-- 9.4: Kanka runs riderless. 9.5: "Neither Madurai nor Maravar" added.
-- 10.1: economics trimmed from 39 to 29 words. 10.5: the care line restored.
-- New page 11 and 12: the belonging line (11.1), the churches exchange, all three faiths, "You are useful too", the war-hall line, and the Deccan-soil bridge before the last caption.
+- 8.2 and page 9: 9.2 becomes a high wide over Varma's shoulder, and 9.4 a wide of the sea with Varma in silhouette.
+- 10.4: Kanka runs riderless. 10.5: "Neither Madurai nor Maravar" added.
+- 11.1: economics trimmed from 39 to 29 words. 11.5: the care line restored.
+- New page 12 and 13: the belonging line (12.1), the churches exchange, all three faiths, "You are useful too", the war-hall line, and the Deccan-soil bridge before the last caption.
 - Chapter grows from 11 pages and 52 panels to 12 pages and 56 panels, inside the 8 to 12 range.

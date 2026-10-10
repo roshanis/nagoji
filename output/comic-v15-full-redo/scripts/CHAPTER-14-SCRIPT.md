@@ -2,11 +2,11 @@
 
 ## Chapter 14: The Siege of Colachel
 
-Source: `book1_horse_servant/book3_chapter14_charge_at_colachel.md`, 2,645 words, adapted as 12 pages, 50 panels.
+Source: `book1_horse_servant/book3_chapter14_charge_at_colachel.md`, 2,645 words, adapted as 13 pages, 50 panels.
 
 ### Art locks for this chapter
 
-- **Start this chapter on a right-hand page.** Page turns then fall after pages 1, 4, 7, 9 and 11. The 5-to-6 turn hides the explosion until the gun has fired, and the 7-to-8 turn lands the charge after "The square had a seam."
+- **Start this chapter on a right-hand page.** Page turns then fall after pages 1, 4, 7, 10 and 12. The 5-to-6 turn hides the explosion until the gun has fired, and the 7-to-8 turn lands the charge after "The square had a seam."
 - **Reference sheets.** Attach `nagoji-v2.png` to every frame that shows Nagoji and `varma-v1.png` to every frame that shows Varma.
 - **Nagoji** (commander look, CONTINUITY ch7-16): rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud. No stubble and no beard, even under mud, smoke and night. He rides Kayal, a bay mare with a coat the ochre red-brown of earth after rain.
 - **Dhanaji**: stockier and a little shorter than Nagoji, short black beard, white turban, indigo-dyed tunic, no sash, talwar, brown horse. Never a rust-red turban or a red sash.
@@ -174,7 +174,7 @@ Three panels, continuing page 5.
 
 ## PAGE 7
 
-Five panels. The 10th of August. Slow heat, a memory, an order, a gun. Build the stillness so the turn can break it.
+Two panels. The 10th of August. Slow heat, a memory, an order, a gun. Build the stillness so the turn can break it.
 
 **7.1** Wide. Sun blazing on wet sand, the air shimmering. At our main battery nearest the beach, gunners slump in the heat, one asleep against a wheel. The Dutch stockade beyond, quiet.
 
@@ -186,17 +186,23 @@ Five panels. The 10th of August. Slow heat, a memory, an order, a gun. Build the
 
 > CAPTION: I thought of Karl August's charcoal on Ramayyan's leaf, where powder and rice lay too close together.
 
-**7.3** Nagoji on Kayal in the commander look (rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble), reining up beside a Nair captain at the battery: young, muscular, forward-tied topknot, bare chest, short white mundu, round shield slung on his back, no turban.
+---
+
+## PAGE 8
+
+Three panels, continuing page 7.
+
+**8.1** Nagoji on Kayal in the commander look (rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble), reining up beside a Nair captain at the battery: young, muscular, forward-tied topknot, bare chest, short white mundu, round shield slung on his back, no turban.
 
 > NAGOJI: Wake them up.
 
 > NAGOJI: If the Dutch think we are sleeping, they might try a sortie.
 
-**7.4** The gun crew at work: one sponges the bore, one rams the charge home, a third squints along the barrel against the glare, hand on the elevation wedge. The barrel points at the heart of the Dutch fort.
+**8.2** The gun crew at work: one sponges the bore, one rams the charge home, a third squints along the barrel against the glare, hand on the elevation wedge. The barrel points at the heart of the Dutch fort.
 
 > CAPTION: By habit, toward where Ramayyan had quietly told them the enemy kept its teeth.
 
-**7.5** Full width, bottom. The gun fires. A puff of white smoke, the barrel kicking back. Nagoji watching, still.
+**8.3** Full width, bottom. The gun fires. A puff of white smoke, the barrel kicking back. Nagoji watching, still.
 
 > CAPTION: I do not believe in luck. I believe in preparation meeting opportunity.
 
@@ -206,29 +212,29 @@ Five panels. The 10th of August. Slow heat, a memory, an order, a gun. Build the
 
 ---
 
-## PAGE 8
+## PAGE 9
 
-Five panels on four bands. 8.2 is an inset overlapping the sky of 8.1, not a band of its own. 8.3 takes about 45% of the page, so 8.4 and 8.5 each keep a readable strip. The explosion. Let the art carry it; 8.3 takes no text at all.
+Five panels on four bands. 9.2 is an inset overlapping the sky of 9.1, not a band of its own. 9.3 takes about 45% of the page, so 9.4 and 9.5 each keep a readable strip. The explosion. Let the art carry it; 9.3 takes no text at all.
 
-**8.1** Wide and bright. The ball, a dark speck against a hard blue sky, arcing over the Dutch outer wall and a row of tents where the sick lie. Leave the upper corner of sky for the 8.2 inset.
+**9.1** Wide and bright. The ball, a dark speck against a hard blue sky, arcing over the Dutch outer wall and a row of tents where the sick lie. Leave the upper corner of sky for the 9.2 inset.
 
 > CAPTION: It dropped with the precision of a hawk.
 
-**8.2** Inset over the sky of 8.1, tight. The moment after impact, at the heart of the Dutch camp: a small stone church used as a storehouse, a fresh ragged hole in its roof, dust sifting down onto the powder barrels stacked in its doorway beside sacks of rice. A single Dutch soldier in a blue coat stares up at the hole.
+**9.2** Inset over the sky of 9.1, tight. The moment after impact, at the heart of the Dutch camp: a small stone church used as a storehouse, a fresh ragged hole in its roof, dust sifting down onto the powder barrels stacked in its doorway beside sacks of rice. A single Dutch soldier in a blue coat stares up at the hole.
 
 > CAPTION: For a heartbeat, nothing happened.
 
-**8.3** Large, about 45% of the page. Blinding glare at the centre of the blast, bleaching toward the edges; the foreground figures stay legible. A pillar of flame and boiling black smoke stands over the Dutch camp, debris spinning in its heart. In the foreground our forward trench, men flung flat by the blast. Kayal rearing, Nagoji hauling on the reins, the loose end of his red sash whipping back. Nagoji in the commander look: compact rust-red turban, cream tunic, broad red sash, boots; thick curled moustache, clean-shaven chin, small gold ear stud.
+**9.3** Large, about 45% of the page. Blinding glare at the centre of the blast, bleaching toward the edges; the foreground figures stay legible. A pillar of flame and boiling black smoke stands over the Dutch camp, debris spinning in its heart. In the foreground our forward trench, men flung flat by the blast. Kayal rearing, Nagoji hauling on the reins, the loose end of his red sash whipping back. Nagoji in the commander look: compact rust-red turban, cream tunic, broad red sash, boots; thick curled moustache, clean-shaven chin, small gold ear stud.
 
 > *No text. Hold the silence.*
 
-**8.4** Dhanaji (white turban, indigo-dyed tunic, short black beard) at Nagoji's stirrup, shouting up at him, face streaked with dust. Letter his balloon with a thin, wavering border: Nagoji hears him through ringing ears.
+**9.4** Dhanaji (white turban, indigo-dyed tunic, short black beard) at Nagoji's stirrup, shouting up at him, face streaked with dust. Letter his balloon with a thin, wavering border: Nagoji hears him through ringing ears.
 
 > DHANAJI: The magazine! They hit the powder room!
 
 > CAPTION: The church, Karl August had said. Stone walls keep damp out better than canvas.
 
-**8.5** Full width, bottom. Fire sweeping through the stockade on the wind, secondary explosions blooming along its length. Tiny distant figures running between burning huts. Keep them small and far.
+**9.5** Full width, bottom. Fire sweeping through the stockade on the wind, secondary explosions blooming along its length. Tiny distant figures running between burning huts. Keep them small and far.
 
 > CAPTION: I thought the explosion would break them.
 
@@ -236,29 +242,29 @@ Five panels on four bands. 8.2 is an inset overlapping the sky of 8.1, not a ban
 
 ---
 
-## PAGE 9
+## PAGE 10
 
 Five panels. The sortie. The Dutch come out fighting, the centre holds, and Nagoji sees the seam.
 
-**9.1** Wide. Through smoke and flame, Dutch East India Company soldiers in blue coats and grey coats step out of the burning gaps in their wall. Not scattering: forming ranks, bayonets fixed, muskets levelled. Dhanaji's shout comes from the palm grove, off panel.
+**10.1** Wide. Through smoke and flame, Dutch East India Company soldiers in blue coats and grey coats step out of the burning gaps in their wall. Not scattering: forming ranks, bayonets fixed, muskets levelled. Dhanaji's shout comes from the palm grove, off panel.
 
 > DHANAJI (off): They're coming out!
 
-**9.2** The first Dutch volley. A long bank of musket smoke along their line; our forward trench, men ducking and falling back from the parapet. Staging and distance only.
+**10.2** The first Dutch volley. A long bank of musket smoke along their line; our forward trench, men ducking and falling back from the parapet. Staging and distance only.
 
 > CAPTION: They fired and reloaded like men who had drilled until the motions lived in their bones.
 
-**9.3** Our centre. Nair infantry (young, muscular, forward-tied topknots, bare chests, short white mundus, round shields) brace shields, swords and spears into a wall against the oncoming bayonets. At the centre of the line, set apart by age and build, Ramayyan: older, thin, receding hair, bare-headed, no shield, mud-splattered white dhoti, a curved Nair sword raised.
+**10.3** Our centre. Nair infantry (young, muscular, forward-tied topknots, bare chests, short white mundus, round shields) brace shields, swords and spears into a wall against the oncoming bayonets. At the centre of the line, set apart by age and build, Ramayyan: older, thin, receding hair, bare-headed, no shield, mud-splattered white dhoti, a curved Nair sword raised.
 
 > RAMAYYAN: Hold!
 
 > RAMAYYAN: Hold the centre!
 
-**9.4** The left flank, a grove of palms in deep shade. Nagoji on Kayal, the taller bay mare, among Maravar, Madurai and Deccan riders. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble. Dhanaji (white turban, indigo-dyed tunic) mounted at his shoulder. Ponnan beside them: bare-headed, curly hair uncovered, red shoulder cloth, white mundu hitched above bare knees, short jacket, on a smaller, lighter Maravar horse, a head lower than Nagoji. Nagoji leaning forward in the saddle, staring through the smoke.
+**10.4** The left flank, a grove of palms in deep shade. Nagoji on Kayal, the taller bay mare, among Maravar, Madurai and Deccan riders. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble. Dhanaji (white turban, indigo-dyed tunic) mounted at his shoulder. Ponnan beside them: bare-headed, curly hair uncovered, red shoulder cloth, white mundu hitched above bare knees, short jacket, on a smaller, lighter Maravar horse, a head lower than Nagoji. Nagoji leaning forward in the saddle, staring through the smoke.
 
 > CAPTION: They were not running to the sea. They were cutting their way out.
 
-**9.5** Full width, bottom. Nagoji's view from a slight rise at the palm line, looking down and across at the Dutch square through thinning smoke. Its front ranks are packed tight against the Nair line; its rear ranks are packed and facing the burning fort. Between them, the flank that faces the scrubland has thinned to a single ragged file with daylight showing through the gaps, and an officer's arm drags men out of that file toward the front.
+**10.5** Full width, bottom. Nagoji's view from a slight rise at the palm line, looking down and across at the Dutch square through thinning smoke. Its front ranks are packed tight against the Nair line; its rear ranks are packed and facing the burning fort. Between them, the flank that faces the scrubland has thinned to a single ragged file with daylight showing through the gaps, and an officer's arm drags men out of that file toward the front.
 
 > CAPTION: From the palms I saw what Ramayyan might have missed in the smoke.
 
@@ -268,43 +274,43 @@ Five panels. The sortie. The Dutch come out fighting, the centre holds, and Nago
 
 ---
 
-## PAGE 10
+## PAGE 11
 
 Five panels. The charge. Speed, then impact, then the square coming apart. No blood; the violence is in the staging.
 
-**10.1** Nagoji drives Kayal out of the palms at a gallop, talwar drawn. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble. Behind him the Maravar, Madurai and Deccan riders burst from the grove in a single wave, Dhanaji's white turban among the first.
+**11.1** Nagoji drives Kayal out of the palms at a gallop, talwar drawn. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble. Behind him the Maravar, Madurai and Deccan riders burst from the grove in a single wave, Dhanaji's white turban among the first.
 
 > CAPTION: I did not wait for an order. I did not signal.
 
 > CAPTION: My riders followed like water through a broken dam.
 
-**10.2** Rider's-eye view at speed, the horse's ears in the foreground. Dutch faces turning, eyes widening. A sergeant with his mouth open, arm out, trying to wheel his men. Bayonets catching sunlight at angles that will never meet a horse.
+**11.2** Rider's-eye view at speed, the horse's ears in the foreground. Dutch faces turning, eyes widening. A sergeant with his mouth open, arm out, trying to wheel his men. Bayonets catching sunlight at angles that will never meet a horse.
 
 > CAPTION: The last hundred yards stretched like hours.
 
-**10.3** Wide. Impact. Our horse slams into the side of the square: horses rearing, steel flashing, men going down in dust and smoke. The ordered block of blue coats buckles.
+**11.3** Wide. Impact. Our horse slams into the side of the square: horses rearing, steel flashing, men going down in dust and smoke. The ordered block of blue coats buckles.
 
 > CAPTION: A square that turns is no longer a square. It is a crowd.
 
-**10.4** Inside the break, one instant. Dhanaji (white turban, indigo-dyed tunic) surges past Nagoji's shoulder into the gap, half a length ahead of him, sword raised; Deccan riders close behind. Beyond, in silhouette through the dust, a few Dutch soldiers fighting back to back.
+**11.4** Inside the break, one instant. Dhanaji (white turban, indigo-dyed tunic) surges past Nagoji's shoulder into the gap, half a length ahead of him, sword raised; Deccan riders close behind. Beyond, in silhouette through the dust, a few Dutch soldiers fighting back to back.
 
 > CAPTION: Too close for their muskets. Too fast for their bayonets.
 
-**10.5** Full width, bottom strip. Low and quiet. A Dutch musket drops into the trampled sand. Beyond it, out of focus, hands going up.
+**11.5** Full width, bottom strip. Low and quiet. A Dutch musket drops into the trampled sand. Beyond it, out of focus, hands going up.
 
 > CAPTION: And then, as suddenly as it had begun, it was over.
 
 ---
 
-## PAGE 11
+## PAGE 12
 
 Five panels. Sunset, surrender, and a stranger who asks to be useful.
 
-**11.1** Wide. Sunset in lurid purples and reds through the smoke. The stockade burned down to glowing embers. The Dutch survivors huddled on the beach, some kneeling, some standing hollow-eyed with hands raised, their blue coats stained with ash.
+**12.1** Wide. Sunset in lurid purples and reds through the smoke. The stockade burned down to glowing embers. The Dutch survivors huddled on the beach, some kneeling, some standing hollow-eyed with hands raised, their blue coats stained with ash.
 
 > CAPTION: They had not surrendered meekly.
 
-**11.2** Through the haze, a tall, pale-haired man in a torn, soot-stained blue coat walks out from the Dutch lines toward ours, hands open at his sides. Behind him, Rijtel and two other surviving officers watch, hollow-eyed: shorter, dark-haired, officers' sashes, one with a bandaged arm.
+**12.2** Through the haze, a tall, pale-haired man in a torn, soot-stained blue coat walks out from the Dutch lines toward ours, hands open at his sides. Behind him, Rijtel and two other surviving officers watch, hollow-eyed: shorter, dark-haired, officers' sashes, one with a bandaged arm.
 
 > CAPTION: He called to us in Portuguese.
 
@@ -312,19 +318,19 @@ Five panels. Sunset, surrender, and a stranger who asks to be useful.
 
 > DE LANNOY: I speak for the garrison.
 
-**11.3** Ramayyan steps forward to meet him, sword still in hand, dhoti splattered with mud and soot. In the background, a little apart, Varma mounted among his staff (varma-v1 face; cream-and-gold cloth, cream turban, gold necklaces), watching De Lannoy. No dialogue for the king.
+**12.3** Ramayyan steps forward to meet him, sword still in hand, dhoti splattered with mud and soot. In the background, a little apart, Varma mounted among his staff (varma-v1 face; cream-and-gold cloth, cream turban, gold necklaces), watching De Lannoy. No dialogue for the king.
 
 > RAMAYYAN: You speak for men who burned our temples and took our people as slaves.
 
 > RAMAYYAN: Why should we listen?
 
-**11.4** De Lannoy, close. He does not flinch.
+**12.4** De Lannoy, close. He does not flinch.
 
 > DE LANNOY: Because dead men cannot teach you how to build what we just lost.
 
 > DE LANNOY: And I would rather build than rot.
 
-**11.5** Full width, bottom. Nagoji on Kayal some distance back from the parley, apart from the group, watching De Lannoy with narrowed eyes, the smoke of the ruined fort behind them both. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble.
+**12.5** Full width, bottom. Nagoji on Kayal some distance back from the parley, apart from the group, watching De Lannoy with narrowed eyes, the smoke of the ruined fort behind them both. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble.
 
 > CAPTION: It was the first time I heard those words from his own mouth. Later, I would learn what they meant.
 
@@ -334,11 +340,11 @@ Five panels. Sunset, surrender, and a stranger who asks to be useful.
 
 ---
 
-## PAGE 12
+## PAGE 13
 
 Five panels. The Diwan's sword, the king's mercy, and the turn from noise to words.
 
-**12.1** Wide, twilight. Nagoji rides up to where Ramayyan stands. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble. Ramayyan (older, thin, receding hair, bare-headed, mud-and-soot-splattered white dhoti) slides the curved Nair sword home into its sheath, the piece of silk he wiped it with still in his other hand, the motion as careful as calligraphy.
+**13.1** Wide, twilight. Nagoji rides up to where Ramayyan stands. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud; no stubble. Ramayyan (older, thin, receding hair, bare-headed, mud-and-soot-splattered white dhoti) slides the curved Nair sword home into its sheath, the piece of silk he wiped it with still in his other hand, the motion as careful as calligraphy.
 
 > CAPTION: A general who cannot count is a butcher. Ramayyan could count, and he could kill.
 
@@ -346,23 +352,23 @@ Five panels. The Diwan's sword, the king's mercy, and the turn from noise to wor
 
 > RAMAYYAN: Yes. They are done.
 
-**12.2** Ramayyan turns to look at the king. Varma (varma-v1 face; cream-and-gold cloth, cream turban, gold necklaces) on horseback, looking past them at the miserable huddle on the sand and, far out, the Dutch ships turning away in the deepening twilight. A Nair captain at his stirrup: young, forward-tied topknot, bare chest, short white mundu, round shield, no turban. Ramayyan in the foreground: bare-headed, receding hair, mud-and-soot-splattered white dhoti, no jewellery, sword sheathed.
+**13.2** Ramayyan turns to look at the king. Varma (varma-v1 face; cream-and-gold cloth, cream turban, gold necklaces) on horseback, looking past them at the miserable huddle on the sand and, far out, the Dutch ships turning away in the deepening twilight. A Nair captain at his stirrup: young, forward-tied topknot, bare chest, short white mundu, round shield, no turban. Ramayyan in the foreground: bare-headed, receding hair, mud-and-soot-splattered white dhoti, no jewellery, sword sheathed.
 
 > CAPTAIN: Shall we finish them?
 
-**12.3** Varma, close. Still, unhurried, the embers red on one side of his face.
+**13.3** Varma, close. Still, unhurried, the embers red on one side of his face.
 
 > VARMA: No.
 
 > VARMA: Dead men cannot sign treaties. And they cannot teach us how to build what they just lost.
 
-**12.4** Varma turning his horse away from the beach, speaking over his shoulder. Nagoji and Ramayyan watch him go.
+**13.4** Varma turning his horse away from the beach, speaking over his shoulder. Nagoji and Ramayyan watch him go.
 
 > VARMA: Let them simmer tonight. Let them taste the ash.
 
 > VARMA: Tomorrow, we will see what remains.
 
-**12.5** Full width, bottom. The smoking ruin of the fort under a last red sky. Prisoners walking in file along the beach, hands free or wrists bound in front, no ropes at the neck, guarded by Nair spearmen. Nagoji on Kayal in silhouette, small against it, the compact turban and the sash end readable in outline.
+**13.5** Full width, bottom. The smoking ruin of the fort under a last red sky. Prisoners walking in file along the beach, hands free or wrists bound in front, no ropes at the neck, guarded by Nair spearmen. Nagoji on Kayal in silhouette, small against it, the compact turban and the sash end readable in outline.
 
 > CAPTION: The explosion had wounded them. The cavalry had finished it.
 
@@ -380,13 +386,13 @@ Five panels. The Diwan's sword, the king's mercy, and the turn from noise to wor
 - **Cavalry as gaolers** compressed to one panel (3.4). The Madurai and Maratha riders on the wider tracks, and cutting the inland water, are implied by the forager with water skins rather than stated.
 - **"The Dutch were trapped in a box where the walls were fire and the floor was water"** is cut: Antony's closing line on page 4 lands the same idea in a character's voice. Ibrahim's line ("At sea, Ibrahim's divers and boatmen bled their supplies and nerves") is kept on 5.2, which holds the thread from chapter 13 to Ibrahim's arrival in chapter 15.
 - **Tiruvattar** is an inset in 5.1 rather than a scene, to plant the temple for the return visit in chapter 16.
-- **The tall figure pacing the perimeter** (6.1) is kept unnamed, as in the novel. The art gives only height, pale hair and a blue coat, and every other Dutch officer is drawn short and dark, so De Lannoy's walk-out on page 11 can land as recognition without the script asserting it.
-- **"Then the world turned white"** becomes the wordless large panel 8.3. As a caption it would only describe the art.
+- **The tall figure pacing the perimeter** (6.1) is kept unnamed, as in the novel. The art gives only height, pale hair and a blue coat, and every other Dutch officer is drawn short and dark, so De Lannoy's walk-out on page 12 can land as recognition without the script asserting it.
+- **"Then the world turned white"** becomes the wordless large panel 9.3. As a caption it would only describe the art.
 - **"I was already riding when I saw it"** is dropped. In a caption it would contradict the seam-spotting panel that comes before the charge; the order on the page is see, then ride.
-- **The charge is kept at full length** (pages 9 and 10) because it is the chapter's reason for existing and its title. Dhanaji's bloody sword and "the wet crunch of bodies falling" are removed under the no-gore rule; impact is staged through horses, dust and a buckling block of coats. The novel places only Maravar and Madurai horse in the grove but then has Deccan riders pour through the gap; the script puts all three, and Dhanaji, in the grove from 9.4.
+- **The charge is kept at full length** (pages 10 and 11) because it is the chapter's reason for existing and its title. Dhanaji's bloody sword and "the wet crunch of bodies falling" are removed under the no-gore rule; impact is staged through horses, dust and a buckling block of coats. The novel places only Maravar and Madurai horse in the grove but then has Deccan riders pour through the gap; the script puts all three, and Dhanaji, in the grove from 10.4.
 - **The sergeant's shout** is wordless; the novel does not give his words.
-- **Ramayyan's history** (Kollam, the Desinganadu campaigns, the supply and grain routes) is cut to the verbatim "A general who cannot count is a butcher. Ramayyan could count, and he could kill." The reader has already watched him lead the centre in 9.3.
-- **Varma is present at the parley** (11.3, background) so that his "they cannot teach us how to build what they just lost" (12.3) reads as the king taking up the prisoner's words.
+- **Ramayyan's history** (Kollam, the Desinganadu campaigns, the supply and grain routes) is cut to the verbatim "A general who cannot count is a butcher. Ramayyan could count, and he could kill." The reader has already watched him lead the centre in 10.3.
+- **Varma is present at the parley** (12.3, background) so that his "they cannot teach us how to build what they just lost" (13.3) reads as the king taking up the prisoner's words.
 - **Verbatim lines kept:** Dhanaji's and Ramayyan's "They are stubborn," Antony's anchor and ocean lines, Ibrahim's divers, Ramayyan on merchants and the price of pepper, "I do not believe in luck," "A square that turns is no longer a square," De Lannoy's "I would rather build than rot," Varma's "Dead men cannot sign treaties" (which deliberately echoes De Lannoy), "I knew the silence to come would be more dangerous than the noise," and the chapter's last line.
 - **Page count** is 10 against a target of 9, inside the 7 to 11 range. The extra page goes to the explosion, sortie and charge sequence, paid for by compressing the opening exposition to a single page.
 - **Continuity follow-up for CONTINUITY.md:** Dhanaji's look was locked by the author on 2026-09-26: white pagdi, indigo quilted tunic, short black beard, no sash. He also appears in chapters 11, 12, 13, 15, 16 and 20, so the bible should carry the same entry.
@@ -394,15 +400,15 @@ Five panels. The Diwan's sword, the king's mercy, and the turn from noise to wor
 ### Review changes
 
 - Page 1: named the Elayadathu line at Kottarakkara, the grievance and the cheap pepper (1.2); restored the allied houses' verb and made the second caption interiority (2.1); put the three flashback panels in time order under one sepia, ragged-frame treatment; aged the sealing hand; replaced the company initials with "Dutch East India Company" and fixed plain tricolours with no lettering.
-- Page turns: the chapter now starts on a right-hand page, with turns after pages 1, 4, 7, 9 and 11. The old markers after pages 3 and 8 are removed. 3.5 and 4.1 now read as a cut across the spread.
+- Page turns: the chapter now starts on a right-hand page, with turns after pages 1, 4, 7, 10 and 12. The old markers after pages 3 and 9 are removed. 3.5 and 4.1 now read as a cut across the spread.
 - Removed the novel's hanging-rope simile for the trench line from 3.1 and the page 3 note, under the standing art rule; 3.1 now reads "a closing ring of earthworks".
 - Locked contrasting looks for Dhanaji, Ponnan, Ramayyan, Varma and the Nair infantry and captains in a header block, and restated them in each panel they appear in. Nagoji's V13 face lock is restated at his first appearance on every page, and the header tells the artist to attach the reference sheets.
 - Antony's scars moved to his forearms and eyebrow, with a wooden cross, so he cannot borrow Ibrahim's jaw scar (4.3).
-- Captions that described the art are trimmed: 5.1 ("ordered the trenches pushed closer"), 5.2 (the inventory of sick men and barrels), 7.2 ("the little shaded square"), 7.4 ("laid it toward the heart of the fort"), 11.1 (the recap of the charge), 12.1 (the recap of the centre).
-- Added Ibrahim's divers to 5.2 and gave Rijtel a small figure there. De Lannoy wears the blue coat in 6.1, and the officers behind him in 11.2 are drawn short and dark.
-- Page 8: 8.2 becomes an inset over the sky of 8.1, showing the moment after impact. 8.3 is capped at about 45% of the page, with the glare kept off the foreground and the sash end (not a turban tail) whipping back.
-- Page 9: Deccan riders and Dhanaji are placed in the grove (9.4). The seam in 9.5 is redrawn from a raised angle, with daylight in the thinned file.
-- Page 10: 10.4 is reduced to one instant.
-- Page 11: Varma is placed in the background of 11.3, and Nagoji is set apart from the parley in 11.5.
-- Page 12: 12.1 and 12.2 are merged into one panel (five panels now). The prisoners in 12.5 have no ropes at the neck. "I knew the silence to come would be more dangerous than the noise" is restored.
-- Small prop and costume fixes: the whetstone is shown from 6.2, the forager and the 8.2 soldier wear blue coats, and Varma at Tiruvattar is kept off the temple-priest face.
+- Captions that described the art are trimmed: 5.1 ("ordered the trenches pushed closer"), 5.2 (the inventory of sick men and barrels), 7.2 ("the little shaded square"), 8.2 ("laid it toward the heart of the fort"), 12.1 (the recap of the charge), 13.1 (the recap of the centre).
+- Added Ibrahim's divers to 5.2 and gave Rijtel a small figure there. De Lannoy wears the blue coat in 6.1, and the officers behind him in 12.2 are drawn short and dark.
+- Page 9: 9.2 becomes an inset over the sky of 9.1, showing the moment after impact. 9.3 is capped at about 45% of the page, with the glare kept off the foreground and the sash end (not a turban tail) whipping back.
+- Page 10: Deccan riders and Dhanaji are placed in the grove (10.4). The seam in 10.5 is redrawn from a raised angle, with daylight in the thinned file.
+- Page 11: 11.4 is reduced to one instant.
+- Page 12: Varma is placed in the background of 12.3, and Nagoji is set apart from the parley in 12.5.
+- Page 13: 13.1 and 13.2 are merged into one panel (five panels now). The prisoners in 13.5 have no ropes at the neck. "I knew the silence to come would be more dangerous than the noise" is restored.
+- Small prop and costume fixes: the whetstone is shown from 6.2, the forager and the 9.2 soldier wear blue coats, and Varma at Tiruvattar is kept off the temple-priest face.

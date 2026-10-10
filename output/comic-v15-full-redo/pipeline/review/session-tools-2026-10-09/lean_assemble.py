@@ -108,7 +108,7 @@ def main():
     keep_map = {}
     if a.keep_file:
         for k in json.loads(a.keep_file.read_text())['panels']:
-            keep_map[(k['id'], k['version'])] = [{key: z[key] for key in ('x0', 'y0', 'x1', 'y1', 'role') if key in z} for z in k['keep']]   # role 'inscribe': a write zone
+            keep_map[(k['id'], k['version'])] = [{key: z[key] for key in ('x0', 'y0', 'x1', 'y1', 'role', 'copy_index') if key in z} for z in k['keep']]   # role 'inscribe': a write zone, copy_index: for that line only
     carry = {}
     if a.carry_from:
         sources = json.loads(a.carry_sources.read_text()) if a.carry_sources else {}

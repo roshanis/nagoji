@@ -65,9 +65,20 @@ def _lettering_changes(before,after):
             for (panel,old),(_,new) in zip(before,after) for i,(a,b) in enumerate(zip(old,new)) if a!=b]
 
 
+def _delivery_changes(before,after):
+    """Speakers whose delivery tag alone changed ("JOAO" to "JOAO (voice-over)"), as [{panel, chunk, before, after}], or []
+    when there are none or anything else about the panels, balloons or speakers' names differs (that is never a delivery change)."""
+    name=lambda speaker:speaker.split(' (',1)[0].strip()
+    if [(panel,[name(sp) for sp,_ in copy]) for panel,copy in before]!=[(panel,[name(sp) for sp,_ in copy]) for panel,copy in after]:
+        return []
+    return [{'panel':panel,'chunk':i,'before':a[0],'after':b[0]}
+            for (panel,old),(_,new) in zip(before,after) for i,(a,b) in enumerate(zip(old,new)) if a[0]!=b[0]]
+
+
 def accept_script_revision(args,out):
     """Accept the package's script as revised by the author: directions may change, and with --allow-lettering the
-    text of existing balloons and captions, never the panels, the balloons or their speakers.
+    text of existing balloons and captions, and with --allow-delivery a speaker's delivery tag ("(off)" to "(voice-over)"),
+    never the panels, the balloons or who speaks them.
 
     The package must hold SCRIPT-SOURCE.md, a copy of the script it was prepared from (frozen before the edit); the
     live script must parse to the same panels with the same speakers (and, without --allow-lettering, the same text).
@@ -81,7 +92,12 @@ def accept_script_revision(args,out):
     if c.sha256(source)!=item['sha256']:raise ValueError(f'{SCRIPT_SOURCE} does not match the script the package was prepared from')
     live=Path(item['path'])
     before,after=_lettering(s.parse_script(source)),_lettering(s.parse_script(live))
-    changes=[]
+    changes,delivery=[],_delivery_changes(before,after)
+    if delivery:
+        if not getattr(args,'allow_delivery',False):
+            raise ValueError('the revised script changes how a speaker is lettered ('+', '.join(sorted({d['panel'] for d in delivery}))
+                             +'); pass --allow-delivery to accept a changed delivery tag such as "(off)" to "(voice-over)"')
+        before=[(panel,[(b,text) for (_,text),(b,_) in zip(copy,new)]) for (panel,copy),(_,new) in zip(before,after)]
     if before!=after:
         changed=', '.join(sorted({panel for panel,_ in before}.symmetric_difference({panel for panel,_ in after})
                                  |{a[0] for a,b in zip(before,after) if a!=b}) or ['panel order'])
@@ -99,6 +115,7 @@ def accept_script_revision(args,out):
     entry={'source':item['path'],'sha256':c.sha256(live),'reason':args.reason,
            'accepted_at':datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}
     if changes:entry['lettering_changes']=changes
+    if delivery:entry['delivery_changes']=delivery
     entries.append(entry)
     if revisions.is_file():
         # An append-only log: every earlier entry is kept, and the file is replaced in one step.
@@ -223,6 +240,13 @@ def _recorded_script(job,out):
         script=s.parse_script(source)
         panels={panel['id']:panel for page in script['pages'].values() for panel in page['panels']}
         for entry in entries:
+            # A changed delivery tag ("(off)" to "(voice-over)") comes first: the same entry's text changes name the new tag.
+            for change in entry.get('delivery_changes',[]):
+                panel=panels.get(change['panel']);index=change['chunk']
+                if (panel is None or type(index) is not int or not 0<=index<len(panel['copy'])
+                        or panel['copy'][index]['speaker'].split(' (',1)[0].strip()!=change['after'].split(' (',1)[0].strip()):
+                    raise ValueError(f'Invalid recorded delivery change: {change["panel"]} chunk {index}')
+                panel['copy'][index]['speaker']=change['after']
             # accept_script_revision records text changes against the frozen original,
             # so later entries replace earlier text, even when their "before" is the original.
             for change in entry.get('lettering_changes',[]):
@@ -365,7 +389,8 @@ def parse_keep(raw,width,height):
 
 
 def parse_write_zones(raw,width,height):
-    """Entries with role inscribe, validated like keep zones, in source pixels."""
+    """Entries with role inscribe, validated like keep zones, in source pixels: [x0, y0, x1, y1], with a fifth item, the
+    chunk's copy index, for a zone that holds that one chunk only (its "copy_index")."""
     return _parse_zones(raw,width,height,True)
 
 
@@ -381,7 +406,13 @@ def _parse_zones(raw,width,height,write):
         if not(0<=entry['x0']<entry['x1']<=1 and 0<=entry['y0']<entry['y1']<=1):
             raise AutoGeometryError(f'keep zone {index}: fractions must be between 0 and 1, with x0 below x1 and y0 below y1')
         if (entry.get('role')=='inscribe')==write:
-            zones.append([entry['x0']*width,entry['y0']*height,entry['x1']*width,entry['y1']*height])
+            zone=[entry['x0']*width,entry['y0']*height,entry['x1']*width,entry['y1']*height]
+            if write and 'copy_index' in entry:     # a write zone for one chunk only, e.g. the LEAF line, not the LEDGER line
+                chunk=entry['copy_index']
+                if not(isinstance(chunk,int) and not isinstance(chunk,bool) and chunk>=0):
+                    raise AutoGeometryError(f'write zone {index}: copy_index must be a chunk index, 0 or more')
+                zone.append(chunk)
+            zones.append(zone)
     return zones
 
 
@@ -565,9 +596,12 @@ def drawn_geometry(frame,copy,slot,tails,faces=None,styles=None,keep=None,unpain
     from math import ceil
     styles=[style if style is not None else ('inscribed' if _inscribed(chunk['speaker']) else None)
             for chunk,style in zip(copy,styles if styles is not None else [None]*len(copy))]
-    crop_zones=list(keep or [])+list(write or [])
-    inside=[write if _inscribed(chunk['speaker']) or style=='inscribed' else None
-            for chunk,style in zip(copy,styles)] if write else None
+    rects=[list(zone[:4]) for zone in write or []]          # a fifth item names the one chunk a zone holds (parse_write_zones)
+    crop_zones=list(keep or [])+rects
+    inside=[[list(zone[:4]) for zone in write if len(zone)<5 or zone[4]==index]
+            if _inscribed(chunk['speaker']) or style=='inscribed' else None
+            for index,(chunk,style) in enumerate(zip(copy,styles))] if write else None
+    write=rects
     unpainted=UNPAINTED if unpainted is None else unpainted
     aspect=slot['rect_pt'][2]/slot['rect_pt'][3]
     if not copy:
@@ -803,7 +837,7 @@ def _fit_keep(inputs):
         if frame.get('write'):
             keep[panel_id]=list(keep.get(panel_id,[]))+[
                 [x0/frame['width'],y0/frame['height'],x1/frame['width'],y1/frame['height']]
-                for x0,y0,x1,y1 in frame['write']]
+                for x0,y0,x1,y1,*_ in frame['write']]
     return keep
 
 
@@ -1087,6 +1121,8 @@ def main(argv=None):
     p.add_argument('--reason',help='accept-script-revision: why the author changed the script')
     p.add_argument('--allow-lettering',action='store_true',
                    help='accept-script-revision: also accept text-only changes to existing balloons and captions')
+    p.add_argument('--allow-delivery',action='store_true',
+                   help='accept-script-revision: also accept a changed delivery tag on a speaker, e.g. "(off)" to "(voice-over)"')
     p.add_argument('--chapter',type=int,required=True)
     p.add_argument('--cast-overrides',type=Path)
     p.add_argument('--art-direction',type=Path,help='prepare: v2 art-direction sidecar JSON')
@@ -1133,6 +1169,8 @@ def main(argv=None):
     if args.allow_draft and args.command!='prepare':p.error('--allow-draft applies only to prepare')
     if args.allow_lettering and args.command!='accept-script-revision':
         p.error('--allow-lettering applies only to accept-script-revision')
+    if args.allow_delivery and args.command!='accept-script-revision':
+        p.error('--allow-delivery applies only to accept-script-revision')
     if args.geometry_out is not None and args.command!='auto-geometry':p.error('--geometry-out applies only to auto-geometry')
     if args.inset is not None and args.command!='auto-geometry':p.error('--inset applies only to auto-geometry')
     if args.draw and args.command!='auto-geometry':p.error('--draw applies only to auto-geometry')

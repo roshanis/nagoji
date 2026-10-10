@@ -281,7 +281,7 @@ Five panels. Padmini's verdict, Ramayyan's ledger, and the decision. Back on the
 
 **9.2** Inset, soft-edged: Revathi's telling of a recent scene, within the last two months. Padmini's yard under the jackfruit tree. Padmini, stick planted, jabbing a finger at Revathi, who stands with her arms folded. Revathi exactly as she is in this chapter, NOT younger: indigo sari, flat-coin necklace, the same few grey threads, no tali.
 
-> REVATHI (off): She said, "If you must refuse him, do it with a full stomach, not an empty bed."
+> REVATHI (voice-over): She said, "If you must refuse him, do it with a full stomach, not an empty bed."
 
 **9.3** Nagoji laughing, head back. Revathi startled by the sound.
 

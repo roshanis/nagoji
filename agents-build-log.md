@@ -11834,3 +11834,19 @@ No review, selection or build performed.
 - 18 crossing tails remain, each with no other layout in its panel (listed in the report). Tests: 627 pass.
 ### Recommendations / Next steps:
 Author: the decisions listed in V15-FINAL-REPORT-2026-10-09.html ("(off)" narration tags, spreads, forced crossings, ch21 inscription look).
+
+## [AGENT: Claude] [2026-10-10T18:37Z]
+### Action: Author's 2026-10-10 answers applied: voice-over tags, page turns and spreads (book plan with blank pages, five extra page breaks), ch21 13.2 fix; disk audit; final builds at the planned folios
+### Files changed:
+- scripts/CHAPTER-{16,20,25}-SCRIPT.md: "(off)" to "(voice-over)" for 16 6.3, 20 9.2, 25 11.1 (backups .backup-pre-voiceover-2026-10-10; packages accepted via accept-script-revision --allow-delivery)
+- scripts/CHAPTER-{07,14,16,24,25}-*: one extra page break each (24: three) for the marked page turns (backups .backup-pre-<pkg>-2026-10-10); ch7 5:4 alternative tried as ch07-turn2 and rejected (backups .backup-turn54-2026-10-10); CONTINUITY.md ch24 anchors @1-16.1 to @1-17.1, @16.2- to @17.2- (backup pipeline/review/CONTINUITY-pre-anchors-ch24-turns-2026-10-10.md)
+- pipeline/run_chapter.py: --allow-delivery for accept-script-revision; recorded delivery changes carried into import-frame; write zones with copy_index (backups .backup-pre-delivery/-zonechunk/-importdelivery-2026-10-10); tests in test_run_chapter.py (633 pass)
+- New packages ch07-turn, ch14-split2, ch16-split3, ch24-split2, ch25-split3 (final); ch16-split2 and ch07-turn2 unused (SUPERSEDED.txt); new rounds ch21-split2 split-r2 (13.2 zones per line), ch20-split2 split-r4 (15.2 face zone)
+- pipeline/review/V15-IMPOSITION-2026-10-10.json, V15-FINAL-SOURCES/BUILDS-2026-10-10.json, V15-FINAL-REPORT-2026-10-10.{md,html,json}, PAGE-TURN-SPLIT-PICKS-2026-10-10.json, DISK-CLEANUP-2026-10-10.{md,html}, DISK-CLEANUP-AUDIT-2026-10-10.json, TRASHED-2026-10-10.json; tools imposition.py, final_folio_builds.py, score_split.py, turn_audit.py
+- 18 superseded chapter PDFs moved to the Trash with the author's approval (15.9 GB)
+### Diff summary:
+- 422 story pages + 9 blank left-hand pages (folios 16, 33, 56, 113, 138, 150, 243, 319, 394) = folio 431; 43 of 44 marked page turns land, verified on the printed folios (ch1 after page 4 left as approved); minimum 300.6 PPI; every chapter matches its script.
+- Final review of re-lettered chapters: two short tails (ch7 11.4 accepted, ch20 15.2 fixed); new breaks read naturally except ch7 page 8 gaps (accepted after the 5:4 alternative proved worse).
+- Disk audit: about 194 GB safe to delete (108 GB git tmp_pack leftovers, 35 GB LTX trial weights, 40 GB superseded builds, smaller duplicates); nothing deleted beyond the 18 approved PDFs.
+### Recommendations / Next steps:
+Author: decide on the disk cleanup list; optionally exclude output/ from git (.git/info/exclude) to stop tmp_pack buildup.
