@@ -1,0 +1,32 @@
+# Kindle edition of the V15 graphic novel: items for the panel
+
+Author's request (2026-10-22): "end of this week i need to send the graphic book for publication to Amazon Kindle... I think the version 15 is nearly ready, so can you help me fix it?" and "yes this is a hard deadline". The 2e sync is parked until after launch, by the author's choice. V15 ships as it is, including its 1e De Lannoy staging. Do not review the V15 art or lettering, and do not reopen that choice.
+
+Base: the panel-approved digital edition (`/mnt/project-files/review/graphic_novel_digital_panel.md`; its EPUB text files are in `/mnt/project-files/graphic-novel-digital/review/epub-text/`). The Kindle build changes only what is listed below. Build script: `/mnt/project-files/graphic-novel-kindle/tools/make_kindle_epub.py`. EPUBCheck 5.1.0 on the Kindle build: 0 errors, 0 warnings.
+
+KDP facts used (sources: KDP help pages "Prepare Comic and Kids' eBooks with Kindle Create", "Creating Fixed-Layout Books with Image Pop-Ups or Virtual Panels", content guidelines G200672390; Kindlepreneur on delivery fees): KDP accepts fixed-layout EPUB; upload limit 650 MB; ideal cover 1600 x 2560 JPEG; `book-type` comic required for graphic novels; when orientation is not locked, every left-spread page needs a matching right-spread page; AI-generated text, images or translations must be declared, AI-assisted content need not be; the 70% royalty plan charges $0.15 per MB per US sale, the 35% plan has no delivery fee.
+
+## Items
+
+1. **Cover.** A new 1600 x 2560 cover replaces the 1600 x 2311 placeholder. Three drafts, all from finished V15 frames with the same type (Cinzel Bold: "BLOOD AND THRONES · BOOK ONE", "HORSE OF THE", "SERVANT", "RV MENON"; EB Garamond italic "A Graphic Novel"): A, the ch 14 p11.4 charge at Colachel (Nagoji and Dhanaji riding into the Dutch square), B, the ch 11 p21.1 ridge at sunset with Dutch ships, C, the ch 15 p1.3 frame, Nagoji on horseback by the burnt stockade. Recommended: A. Files: `/mnt/project-files/graphic-novel-kindle/cover-drafts/A-charge.jpg`, `B-ridge.jpg`, `C-beach.jpg`. In the EPUB the cover page has its own 1600 x 2560 viewport and stands alone (`rendition:page-spread-center`).
+2. **"Digital edition, reading proof." removed** from the copyright page. All other copyright and credit text unchanged, and still waiting for the author's confirmation.
+3. **Nine blank pages added** where two right-hand or two left-hand pages met (the nine blank print pages the digital edition dropped: after ch 2 p6, ch 4 p6, ch 6 p12, ch 10 p13, ch 11 p24, ch 12 p11, ch 17 p16, ch 22 p15, ch 25 p15). They make every Kindle two-page spread pair as in print, as KDP asks. Blank pages are cream, with no text, and no page-list entry. Spine now 434 items with no side clashes.
+4. **Phone reading.** The edition keeps `book-type` comic and `original-resolution`, which turns on Kindle's automatic Virtual Panels (tap to step through a page in zoomed sections). Exact per-panel zoom (Region Magnification) is not in this build: automatic panel detection got about three in four pages right and the rest need checking by hand, so it is held for an update after launch.
+5. **KDP upload pack** `/mnt/project-files/graphic-novel-kindle/KDP-UPLOAD-PACK.md`: form answers, retail description, seven keywords, categories, audience, AI disclosure guidance, royalty and price advice.
+
+## What to check
+
+Does each change serve a reader buying and reading this on Kindle (phone, tablet, e-ink)? Is the cover right for the book and legible as a store thumbnail? Is the description accurate to the V15 comic as it stands and to history, and free of em dashes and the author's banned phrases ("bubbles" in any form; anything moving across a face)? Is the KDP guidance correct and complete? What could get the book rejected or misrepresented on Amazon?
+- Kindle build text (no images): /mnt/project-files/graphic-novel-kindle/epub-text/
+
+## Round 2 revisions (after the five verdicts in verdicts/)
+
+Round 1: no BLOCK. REVISE on item 1 (design: cover type contrast) and item 5 (UX, editing, story, history: "It ends at Colachel"; design: series name; editing: audience field, AI text disclosure, arithmetic, updates).
+
+- **Item 1, cover:** C dropped (story: it shows the burnt camp after the capitulation, a spoiler; design and UX: the cut-off rider). A re-rendered with design's fixes: bottom shade starts at H-900 and ramps to 245; "A Graphic Novel" 88 px in light gold (238, 206, 150) with a 3 px dark stroke; "RV MENON" 120 px at H-310 with the stroke; series line 58 px. Crop moved from cx 0.36 to 0.42: both riders and the charge in frame (Nagoji's lowered talwar and Dhanaji's horse's head run off the edges, which reads as motion), Dhanaji's turban inside the edge, less of the Dutch back in the lower left (design's suggested 0.53 to 0.56 would have cut Nagoji at the left edge). B re-rendered with the same type. Files replaced in cover-drafts/; C moved to cover-drafts/dropped/.
+- **Item 1, EPUB cover page:** cover.xhtml's html element now has class="cover", and book.css gives html.cover and body.cover a height of 2560 px.
+- **Item 5, series (design):** one name everywhere: KDP series "Blood and Thrones Graphic Novels" number 1; OPF belongs-to-collection now "Blood and Thrones Graphic Novels"; the description ends "It is the first graphic novel of Blood and Thrones."; the cover keeps "BLOOD AND THRONES · BOOK ONE".
+- **Item 5, description:** opening now the book's own first beat ("In a Portuguese cellar under Goa, the first thing they take is his name. A shrug, and an entry in a book."); "household horse" for household cavalry; "Captured by the Portuguese" for the unverified "at the edge of victory"; "ambitious king" for "young king"; the Colachel line now reads "At Colachel in 1741, on a beach where an Indian kingdom met a European company, that war comes. What follows is harder: old houses with long knives, letters from the north calling him home, and a choice about whose man he is." Paste as plain paragraphs.
+- **Item 5, form:** audience as KDP asks it (sexually explicit: No; minimum reading age 18+); AI text disclosure stated plainly to match the copyright page; categories note that KDP's labels may differ; royalty sums corrected ($46; 70% plan capped at $9.99); updates reach existing owners only on request to KDP support; previewer checks added (cover not shown twice, ch 14 spread, phone panel order on ch 15 p1, e-reader view).
+
+Rebuilt; EPUBCheck 5.1.0: 0 errors, 0 warnings. epub-text/ refreshed.
