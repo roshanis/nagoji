@@ -1,0 +1,305 @@
+<title>Horse of the Servant</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=EB+Garamond:ital@0;1&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+<style>
+/* Layout: a lamp-lit reading desk. One slim bar on top, the page (or a two-page spread on wide screens) filling the rest, a lettering drawer that slides in from the side. Deliberately one dark look so the cream pages glow. */
+:root {
+  --night: #15100c;      /* teak at night */
+  --desk: #1f1812;       /* bar and drawer */
+  --rule: #3a2d22;
+  --lamp: #d9ad6a;       /* brass lamp light, the accent */
+  --paper: #f3e7cf;      /* text on dark, echoes the page cream */
+  --muted: #a8977f;
+  --display: "Cinzel", "Trajan Pro", Georgia, serif;
+  --ui: "Alegreya Sans", "Gill Sans", "Segoe UI", system-ui, sans-serif;
+  color-scheme: dark;
+}
+html, body { height: 100%; }
+body {
+  background: var(--night); color: var(--paper); font-family: var(--ui); font-size: 16px;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--desk); }
+button, select, input { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--lamp); outline-offset: 2px; }
+
+.bar {
+  flex: none; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  background: var(--desk); border-bottom: 1px solid var(--rule);
+  padding-block: 8px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.brand { font-family: var(--display); font-weight: 700; letter-spacing: .08em; font-size: 15px; color: var(--lamp); white-space: nowrap; }
+.brand small { display: block; font-family: var(--ui); font-weight: 400; letter-spacing: .04em; font-size: 12px; color: var(--muted); }
+.grow { flex: 1 1 auto; }
+select {
+  background: var(--night); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 8px;
+  max-width: min(320px, 60vw); min-width: 0;
+}
+.btn {
+  background: transparent; border: 1px solid var(--rule); border-radius: 6px; padding: 6px 12px; cursor: pointer; white-space: nowrap;
+}
+.btn:hover { border-color: var(--lamp); }
+.btn[aria-pressed="true"] { background: var(--lamp); color: var(--night); border-color: var(--lamp); }
+.where { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; white-space: nowrap; }
+
+.main { flex: 1 1 auto; position: relative; min-height: 0; display: flex; }
+.pagearea { flex: 1 1 auto; min-width: 0; position: relative; display: flex; }
+.stage {
+  flex: 1 1 auto; min-width: 0; display: flex; align-items: center; justify-content: center; gap: 0;
+  padding-block: 14px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  touch-action: pan-y pinch-zoom; user-select: none; -webkit-user-select: none;
+}
+.leaf { height: 100%; max-width: 100%; display: flex; align-items: center; justify-content: center; min-width: 0; }
+.spread .leaf { max-width: 50%; }
+.leaf img {
+  display: block; max-height: 100%; max-width: 100%; width: auto; height: auto;
+  box-shadow: 0 18px 50px rgba(0,0,0,.55); background: var(--paper);
+}
+.spread .leaf.l { justify-content: flex-end; }
+.spread .leaf.r { justify-content: flex-start; }
+.spread .leaf.l img { box-shadow: -12px 18px 50px rgba(0,0,0,.55); }
+.leaf.blank { visibility: hidden; }
+.nav {
+  position: absolute; top: 0; bottom: 0; width: 22%; border: 0; background: transparent; cursor: pointer; z-index: 2;
+  display: flex; align-items: center; color: var(--lamp); font-size: 34px; opacity: .35; transition: opacity .2s;
+}
+.nav:hover, .nav:focus-visible { opacity: .9; }
+.nav.prev { left: 0; justify-content: flex-start; padding-left: max(10px, env(safe-area-inset-left, 0px)); }
+.nav.next { right: 0; justify-content: flex-end; padding-right: max(10px, env(safe-area-inset-right, 0px)); }
+.nav span { background: rgba(21,16,12,.75); border-radius: 50%; width: 48px; height: 48px; display: grid; place-items: center; }
+
+.drawer {
+  flex: none; width: min(380px, 100%); background: var(--desk); border-left: 1px solid var(--rule);
+  overflow-y: auto; padding-block: 18px 32px;
+  padding-left: 20px; padding-right: max(20px, env(safe-area-inset-right, 0px));
+}
+.drawer h2 { font-family: var(--display); font-size: 17px; letter-spacing: .06em; color: var(--lamp); margin: 0 0 4px; text-wrap: balance; }
+.drawer .pg { font-size: 13px; color: var(--muted); margin: 18px 0 8px; text-transform: uppercase; letter-spacing: .1em; }
+.drawer p { margin: 0 0 10px; line-height: 1.5; max-width: 60ch; }
+.drawer p.cap { font-style: italic; color: var(--paper); }
+.drawer b { color: var(--lamp); font-weight: 700; }
+.drawer .note { font-size: 13px; color: var(--muted); margin-top: 22px; }
+.drawer .turns { display: none; gap: 10px; margin-top: 22px; }
+.drawer .turns .btn { flex: 1 1 0; }
+.cwrap { position: relative; max-height: 100%; max-width: 100%; display: flex; }
+.cwrap img { box-shadow: 0 18px 50px rgba(0,0,0,.55); }
+.credits { position: absolute; inset: 0; color: #2a1d12;
+  display: flex; flex-direction: column; justify-content: center; gap: 14px; padding: 8% 9%; box-sizing: border-box; overflow: auto;
+  font-family: "EB Garamond", Georgia, serif; font-size: clamp(11px, 1.6vh, 16px); line-height: 1.45; }
+.credits h2 { font-family: var(--display); font-size: 1.6em; letter-spacing: .06em; margin: 0 0 .4em; text-align: center; text-wrap: balance; }
+.credits p { margin: 0; }
+@media (max-width: 760px) {
+  .drawer .turns { display: flex; }
+  .drawer { position: absolute; inset: 0; width: auto; z-index: 3; border-left: 0; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  .brand small { display: none; }
+}
+@media (max-width: 900px) {
+  #spreadBtn { display: none; }
+  .bar { row-gap: 8px; }
+  .brand { flex: 1 1 auto; }
+  .bar .grow { display: none; }
+  select { order: 3; flex: 1 1 100%; max-width: none; }
+}
+
+.foot {
+  flex: none; display: flex; align-items: center; gap: 12px; background: var(--desk); border-top: 1px solid var(--rule);
+  padding-block: 8px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.foot input[type=range] { flex: 1 1 auto; min-width: 0; accent-color: var(--lamp); }
+@media (prefers-reduced-motion: reduce) { .nav { transition: none; } }
+</style>
+
+<header class="bar">
+  <div class="brand">Horse of the Servant<small>A Graphic Novel · RV Menon</small></div>
+  <div class="grow"></div>
+  <label for="chapter" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Chapter</label>
+  <select id="chapter"></select>
+  <button class="btn" id="spreadBtn" type="button" aria-pressed="false" title="Show two pages side by side">Two pages</button>
+  <button class="btn" id="textBtn" type="button" aria-pressed="false" title="Show the captions and dialogue as text">Text</button>
+</header>
+
+<div class="main">
+  <div class="pagearea">
+    <div class="stage" id="stage" aria-live="polite"></div>
+    <button class="nav prev" id="prev" type="button" aria-label="Previous page"><span>‹</span></button>
+    <button class="nav next" id="next" type="button" aria-label="Next page"><span>›</span></button>
+  </div>
+  <aside class="drawer" id="drawer" hidden aria-label="Lettering on this page"><div id="drawerText" aria-live="polite"></div><div class="turns"><button class="btn" id="dPrev" type="button">Previous page</button><button class="btn" id="dNext" type="button">Next page</button></div></aside>
+</div>
+
+<template id="creditsTpl"><div class="credits" role="document" aria-label="Credits">
+<h2>Horse of the Servant</h2>
+<p style="text-align:center"><i>A Graphic Novel</i> · RV Menon</p>
+<p>Original novel copyright © 2025 RV Menon. Graphic novel edition copyright © 2026 RV Menon.</p>
+<p>All rights reserved in the copyrightable human-authored portions of this work. Except as permitted by applicable law, no copyright-protected portion may be reproduced, distributed or adapted without the copyright holder’s written permission. No claim is made to material generated solely by artificial intelligence.</p>
+<p>This is a work of historical fiction. Some characters, timelines and scenes are invented or compressed.</p>
+<p>Based on the novel by RV Menon. Comic adaptation, dialogue revision, illustrations and lettering were developed with generative AI tools under the author’s direction.</p>
+<p>Digital edition, reading proof.</p>
+</div></template>
+
+<footer class="foot">
+  <span class="where" id="where"></span>
+  <label for="scrub" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Page</label>
+  <input type="range" id="scrub" min="0" value="0">
+  <span class="where" id="total"></span>
+</footer>
+
+<script>
+/*BOOK*/
+(function () {
+  // Flatten the book: cover first (a right-hand page), then every comic page with its print side.
+  var pages = [{ img: "pages/cover.jpg", side: "r", ch: 0, n: 0, title: "Cover", text: [] },
+               { credits: true, side: "l", ch: 0, n: 0, title: "Credits", text: [] }];
+  window.BOOK.forEach(function (c) {
+    c.pages.forEach(function (p, k) {
+      pages.push({ img: "pages/" + p.i, side: p.s, ch: c.n, n: k + 1, of: c.pages.length, title: c.title, text: p.t });
+    });
+  });
+  var SIZER = "data:image/svg+xml," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2311"><rect width="1600" height="2311" fill="#f3e7cf"/></svg>');
+  var comicPages = 0; window.BOOK.forEach(function (c) { comicPages += c.pages.length; });
+  var firstOf = {};
+  pages.forEach(function (p, i) { if (p.ch && p.n === 1) firstOf[p.ch] = i; });
+
+  // Spreads follow the print book: a left page pairs with the right page after it;
+  // a right page with no left page before it sits alone, as after a blank verso.
+  var spreads = [], spreadOf = [];
+  for (var i = 0; i < pages.length; i++) {
+    var p = pages[i], q = pages[i + 1];
+    if (p.side === "l" && q && q.side === "r") { spreads.push([i, i + 1]); spreadOf[i] = spreadOf[i + 1] = spreads.length - 1; i++; }
+    else if (p.side === "l") { spreads.push([i, null]); spreadOf[i] = spreads.length - 1; }
+    else { spreads.push([null, i]); spreadOf[i] = spreads.length - 1; }
+  }
+
+  var $ = function (id) { return document.getElementById(id); };
+  var stage = $("stage"), drawer = $("drawer"), sel = $("chapter"), scrub = $("scrub");
+  var cur = 0, spreadPref = null, textOn = false;
+
+  function store(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function load(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+
+  window.BOOK.forEach(function (c) {
+    var o = document.createElement("option"); o.value = c.n; o.textContent = c.n + ". " + c.title; sel.appendChild(o);
+  });
+  var o0 = document.createElement("option"); o0.value = 0; o0.textContent = "Cover"; sel.insertBefore(o0, sel.firstChild);
+  scrub.max = pages.length - 1;
+  $("total").textContent = comicPages + " pages";
+
+  function wide() { return window.innerWidth > 900 && window.innerWidth > window.innerHeight * 1.15; }
+  function spreadMode() { return spreadPref === null ? wide() : spreadPref; }
+
+  function visible() {
+    if (!spreadMode()) return [cur];
+    return spreads[spreadOf[cur]].filter(function (x) { return x !== null; });
+  }
+
+  function leaf(i, cls) {
+    var d = document.createElement("div"); d.className = "leaf " + cls;
+    if (i === null) { d.className += " blank"; return d; }
+    var p = pages[i];
+    if (p.credits) {
+      var w = document.createElement("div"); w.className = "cwrap";
+      var sz = document.createElement("img"); sz.alt = ""; sz.src = SIZER; w.appendChild(sz);
+      w.appendChild(document.getElementById("creditsTpl").content.cloneNode(true));
+      d.appendChild(w); return d;
+    }
+    var img = document.createElement("img");
+    img.src = p.img; img.decoding = "async";
+    img.alt = p.ch ? "Chapter " + p.ch + ", " + p.title + ", page " + p.n + " of " + p.of + "." : "Cover of Horse of the Servant, a graphic novel by RV Menon.";
+    d.appendChild(img); return d;
+  }
+
+  function render() {
+    var sp = spreadMode();
+    stage.className = "stage" + (sp ? " spread" : "");
+    stage.textContent = "";
+    if (sp) { var s = spreads[spreadOf[cur]]; stage.appendChild(leaf(s[0], "l")); stage.appendChild(leaf(s[1], "r")); }
+    else stage.appendChild(leaf(cur, "one"));
+    var vis = visible();
+    // label the view by its comic page when a spread pairs one with the credits
+    var shown = vis.filter(function (i) { return pages[i].ch; });
+    var p = pages[pages[cur].ch ? cur : (shown.length ? shown[0] : cur)];
+    sel.value = p.ch;
+    scrub.value = cur;
+    var mixed = shown.length > 1 && pages[shown[0]].ch !== pages[shown[1]].ch;
+    $("where").textContent = !p.ch ? p.title : mixed
+      ? shown.map(function (i) { return "Ch " + pages[i].ch + " p " + pages[i].n; }).join(" and ")
+      : "Ch " + p.ch + " · p " + shown.map(function (i) { return pages[i].n; }).join(" and ") + " of " + p.of;
+    stage.setAttribute("aria-live", textOn ? "off" : "polite");
+    $("spreadBtn").setAttribute("aria-pressed", sp ? "true" : "false");
+    renderText(vis);
+    // warm the next few images
+    for (var k = 1; k <= 3; k++) { var nx = pages[vis[vis.length - 1] + k]; if (nx) { var im = new Image(); im.src = nx.img; } }
+    store("hots-page", String(cur));
+  }
+
+  function renderText(vis) {
+    if (!textOn) return;
+    var box = $("drawerText");
+    box.textContent = "";
+    var withCh = vis.filter(function (i) { return pages[i].ch; });
+    var p = pages[withCh.length ? withCh[0] : vis[0]];
+    var lastCh = null;
+    if (!p.ch) { var h0 = document.createElement("h2"); h0.textContent = "Horse of the Servant"; box.appendChild(h0); }
+    vis.forEach(function (i) {
+      var q = pages[i]; if (!q.ch) return;
+      if (q.ch !== lastCh) { var h = document.createElement("h2"); h.textContent = "Chapter " + q.ch + ": " + q.title; box.appendChild(h); lastCh = q.ch; }
+      var t = document.createElement("div"); t.className = "pg"; t.textContent = "Page " + q.n; box.appendChild(t);
+      q.text.forEach(function (line) {
+        var para = document.createElement("p");
+        if (line[0]) { var b = document.createElement("b"); b.textContent = line[0] + ": "; para.appendChild(b); }
+        else para.className = "cap";
+        // the scripts mark italics with *asterisks*
+        line[1].split(/(\*[^*]+\*)/).forEach(function (part) {
+          if (/^\*[^*]+\*$/.test(part)) { var i = document.createElement("i"); i.textContent = part.slice(1, -1); para.appendChild(i); }
+          else if (part) para.appendChild(document.createTextNode(part));
+        });
+        box.appendChild(para);
+      });
+    });
+    if (!p.ch) { var n = document.createElement("p"); n.className = "note"; n.textContent = "Turn the page to begin. Captions are in italics; dialogue and written messages carry a label."; box.appendChild(n); }
+  }
+
+  function go(i) { cur = Math.max(0, Math.min(pages.length - 1, i)); render(); }
+  function step(dir) {
+    if (!spreadMode()) return go(cur + dir);
+    var s = spreadOf[cur] + dir; if (s < 0 || s >= spreads.length) return;
+    var pair = spreads[s]; go(pair[0] !== null ? pair[0] : pair[1]);
+  }
+
+  $("prev").onclick = function () { step(-1); };
+  $("next").onclick = function () { step(1); };
+  $("dPrev").onclick = function () { step(-1); };
+  $("dNext").onclick = function () { step(1); };
+  sel.onchange = function () { var c = +sel.value; go(c ? firstOf[c] : 0); };
+  scrub.oninput = function () { go(+scrub.value); };
+  $("spreadBtn").onclick = function () { spreadPref = !spreadMode(); render(); };
+  $("textBtn").onclick = function () {
+    textOn = !textOn; drawer.hidden = !textOn; $("textBtn").setAttribute("aria-pressed", textOn ? "true" : "false"); render();
+  };
+  document.addEventListener("keydown", function (e) {
+    if (e.target === sel || e.target === scrub || (e.target.tagName === "BUTTON" && (e.key === " " || e.key === "Enter"))) return;
+    if (e.key === "ArrowRight" || e.key === "PageDown" || e.key === " ") { e.preventDefault(); step(1); }
+    else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); step(-1); }
+    else if (e.key === "Home") go(0); else if (e.key === "End") go(pages.length - 1);
+  });
+  var x0 = null, y0 = 0;
+  [stage, drawer].forEach(function (el) {
+  el.addEventListener("touchstart", function (e) { if (e.touches.length === 1) { x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; } else x0 = null; }, { passive: true });
+  el.addEventListener("touchend", function (e) {
+    if (x0 === null) return; var t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0; x0 = null;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) step(dx < 0 ? 1 : -1);
+  });
+  });
+  window.addEventListener("resize", function () { if (spreadPref === null) render(); });
+
+  var m = /^#ch(\d+)$/.exec(location.hash);
+  if (m && firstOf[+m[1]] !== undefined) cur = firstOf[+m[1]];
+  else { var saved = parseInt(load("hots-page"), 10); if (saved >= 0 && saved < pages.length) cur = saved; }
+  render();
+})();
+</script>
