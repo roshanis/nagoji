@@ -1,0 +1,28 @@
+V15 graphic novel panel page-01-panel-04 for chapter 7. Medium. The troop has arrived. At its head, Raza Khan: lean, hawk nose, pointed moustache, a puckered scar on his ANATOMICAL LEFT cheek (our right as he faces us), deep-green high-wrapped turban, the only green turban on the beach, white jama, on a tall, heavy dark-bay horse. He salutes with his spear butt to his chest. Behind him the Madurai riders sit straight in white jamas and white turbans, bamboo lances gleaming with no pennons, their dark horses tossing their heads.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+madurai_troop: - **The Madurai troop** (ch7, ch8, ch13): Carnatic cavalry of the 1740s in knee-length white jama tunics, plain cloth waistbands, loose trousers, high-wrapped white or off-white turbans, never green, red or rust; quilted Indian saddles; long bamboo lances with no pennons; tall, heavy horses in dark bay, dark brown and black, no greys. Raza Khan alone rides in a deep green turban.
+raza: - **Raza Khan**: lean, hawk nose, pointed moustache, scar on his ANATOMICAL LEFT cheek, green high-wrapped turban. Madurai lancer from ch7.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art, and no painted balloons, caption boxes or frames: leave clear, low-detail space where the lettering will go. The letterer draws every balloon and caption over the finished art.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+No text of any kind in generated art. Do not render the following exact copy; it is composited later:
+CAPTION: His Hindustani carried the singsong of the Carnatic.
+RAZA KHAN: Raza Khan, at your service. The Nayak of Madurai sends his horse as promised.
+RAZA KHAN: We have fought for Madurai and for your king before.
+Leave clear, low-detail space (sky, wall, floor or shadow) for exactly 3 lettering area(s), one per copy chunk, preferably in the upper part of the frame, with enough room for the exact characters above. Draw NO balloons, boxes, frames, outlines, banners or text of any kind in those areas or anywhere else; the lettering is added afterwards. This replaces any earlier mention of blank balloon or caption reserves. Keep faces, hands, and important action outside those areas.
+No invented lettering, pseudo-writing, logos, watermark, gore, or anachronistic costume.
+
+PRE-GENERATION NOTE (appended after a prompt audit): Keep the upper third of the frame as open pale dawn sky above every head, crossed at most by a few thin lance shafts, for the three lettering areas. No rider but Raza Khan wears any green: no green turban, sash or shoulder cloth on any other rider.
+
+REVIEW CORRECTION (the first image of this panel was rejected): CORRECTION: This is an open, empty Malabar beach at dawn and nothing else: shining low-tide wet sand, the sea and surf on one side, and a low laterite bluff crowned with coconut palms on the other. Put NO ships or sails on the sea, NO fort, castle, walls, stone buildings or town on the shore, NO European soldiers, helmets or breastplates, and NO barrels, crates, rope or bystanders in the foreground. The only people in the frame are Raza Khan and his Madurai riders. Keep what worked: Raza Khan in the centre on his dark-bay horse, with his olive-green high-wrapped turban, the green drape over his white jama, goatee and pointed moustache, and the scar on his anatomical left cheek (our right). Behind him, the riders in white jamas and high-wrapped white turbans hold bamboo lances without pennons on dark horses, with open pale sky across the upper third. Raza Khan salutes: the lance held upright in his right fist with the shaft drawn in against his chest, his eyes level toward the camera, which stands where Nagoji waits.
+
+SETTING ANCHOR: Chapter 7 happens entirely on the Malabar coast of Travancore in 1740: an open beach of wet low-tide sand and surf, a low laterite bluff crowned with coconut palms, the king's one-pole cloth awning on the bluff, and the army's picket line under the palms with cook fires. There are NO European forts, castles, bastions, walls, churches, towers, lighthouses, towns, harbours, quays, ships, sails, soldiers, helmets, barrels or crates anywhere in the frame unless this prompt names them. Every Madurai rider wears a white or off-white turban; Raza Khan alone wears green. Draw it in the inked graphic-novel style of the book (clean ink line, painted colour), never photorealistic.

@@ -1,0 +1,22 @@
+V15 graphic novel panel page-03-panel-03 for chapter 7. Raza Khan (deep-green turban, white jama) wheeling his dark-bay horse away, calling back over his shoulder. Inset, upper corner: Ponnan (bare-headed, short curly hair, red cloth over his right shoulder, dark-brown jacket), a faint smile at the corner of his mouth, lifting one hand to signal his Maravar on the bluff.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+ponnan: - **Ponnan (Ponnam Pandya Deven)**: broad-shouldered Maravar, curly hair, thick moustache, clean chin, red shoulder cloth, white mundu hitched, short jacket, bare knees; rides a smaller Maravar horse, a head lower than Nagoji's mount.
+raza: - **Raza Khan**: lean, hawk nose, pointed moustache, scar on his ANATOMICAL LEFT cheek, green high-wrapped turban. Madurai lancer from ch7.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art, and no painted balloons, caption boxes or frames: leave clear, low-detail space where the lettering will go. The letterer draws every balloon and caption over the finished art.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+No text of any kind in generated art. Do not render the following exact copy; it is composited later:
+RAZA KHAN: One pass. To show you there is no magic in sand.
+Leave clear, low-detail space (sky, wall, floor or shadow) for exactly 1 lettering area(s), one per copy chunk, preferably in the upper part of the frame, with enough room for the exact characters above. Draw NO balloons, boxes, frames, outlines, banners or text of any kind in those areas or anywhere else; the lettering is added afterwards. This replaces any earlier mention of blank balloon or caption reserves. Keep faces, hands, and important action outside those areas.
+No invented lettering, pseudo-writing, logos, watermark, gore, or anachronistic costume.
+
+PRE-GENERATION NOTE (appended after a prompt audit): The Ponnan inset is a separate small picture, about a quarter of the frame, in the upper LEFT corner, enclosed by a clean white border with a thin black outline (the one frame line allowed in this panel), with nothing of the main scene showing inside or behind it. Raza Khan rides away from the camera toward the upper right, his back to us, and twists to look back over his LEFT shoulder (the shoulder on the left of the frame), so his face shows in three-quarter view with the scarred left cheek nearest the camera. Keep the upper right area plain sky for his balloon. In the inset Ponnan wears a plain short dark-brown jacket and one narrow plain red cloth on his right shoulder, with no red tunic and no gold borders. Raza Khan's saddle is a quilted Indian cloth saddle with no Western saddle horn.

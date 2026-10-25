@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "character": "Kayal",
+  "project": "Horse of the Servant",
+  "edition": "V15",
+  "status": "pass",
+  "author_approval": "pending",
+  "source_reference": {
+    "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/19-kanka-v15.png",
+    "sha256": "ad7ef9ce9481cedbca01195dcffaec122f8df8414b35756ed5086d6e6183996a",
+    "width": 1536,
+    "height": 1024
+  },
+  "continuity_source": {
+    "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/CONTINUITY.md",
+    "section": "Horses"
+  },
+  "output": {
+    "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/20-kayal-v15.png",
+    "sha256": "e7ff2430145349e8a05472e17e0a487a7202daf61264778abd9c97e5203f1882",
+    "width": 1536,
+    "height": 1024,
+    "format": "PNG"
+  },
+  "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/prompts/20-kayal-v15.txt",
+  "prompt_sha256": "bbc8479e6fc395ef78f5ed6da5961458a79a67c3813b9a21e590a477dc04ac6a",
+  "tool": "built-in imagegen",
+  "attempt_count": 1,
+  "maximum_attempts": 3,
+  "selected_attempt": 1,
+  "attempts": [
+    {
+      "attempt": 1,
+      "reason": "Initial generation using the Kanka sheet as the attached layout and style reference.",
+      "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/prompts/20-kayal-v15.txt",
+      "prompt_sha256": "bbc8479e6fc395ef78f5ed6da5961458a79a67c3813b9a21e590a477dc04ac6a",
+      "reference_paths": [
+        "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/19-kanka-v15.png"
+      ],
+      "transparent_background": false,
+      "native_tool_output_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ea72-4300-7e52-b237-049d0c1e2e84/exec-aa7bec1e-2fbe-49a3-b18b-17a92a98ccb4.png",
+      "output_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/20-kayal-v15.png",
+      "output_sha256": "e7ff2430145349e8a05472e17e0a487a7202daf61264778abd9c97e5203f1882",
+      "status": "pass",
+      "selected": true,
+      "checks": {
+        "mare_anatomy": {
+          "status": "pass",
+          "evidence": "All five full-body views have coherent equine anatomy and a female-compatible underside with no visible male sheath or testicles."
+        },
+        "medium_working_cavalry_build": {
+          "status": "pass",
+          "evidence": "Lean, sturdy medium working mare proportions; neither a massive charger nor a small pony. Relative size is conveyed by proportions, without a separate scale figure."
+        },
+        "ochre_red_brown_bay_coat": {
+          "status": "pass",
+          "evidence": "Warm ochre red-brown face, neck, chest and body remain consistent in the main view, turnarounds, expressions and relevant details."
+        },
+        "black_mane": {
+          "status": "pass",
+          "evidence": "Black forelock and mane in all views and the BLACK MANE close-up."
+        },
+        "black_tail": {
+          "status": "pass",
+          "evidence": "Black tail visible in the main view and turnarounds."
+        },
+        "black_lower_legs": {
+          "status": "pass",
+          "evidence": "All four lower legs have black points ending in dark hooves; detail panel confirms black hair."
+        },
+        "zero_white_markings": {
+          "status": "pass",
+          "evidence": "No white star, blaze, snip, socks, stockings, body patches or white mane or tail hair seen. Small eye catchlights and shaded hoof reflections are not coat markings."
+        },
+        "distinct_from_black_and_grey_horses": {
+          "status": "pass",
+          "evidence": "Bay body colour is clearly different from the black Kanka reference and from a grey horse."
+        },
+        "simple_leather_bridle": {
+          "status": "pass",
+          "evidence": "Simple brown leather straps and restrained brass fittings remain consistent across the sheet."
+        },
+        "quilted_indian_saddle_pad": {
+          "status": "pass",
+          "evidence": "Soft ochre pad with diamond quilting is visible in the main view, profiles and its dedicated close-up, secured with a leather girth."
+        },
+        "no_european_saddle": {
+          "status": "pass",
+          "evidence": "No rigid European saddle, raised pommel, cantle or saddle horn."
+        },
+        "period_tack": {
+          "status": "pass",
+          "evidence": "Tack visually follows the requested 1740s Malabar working cavalry brief; no modern sporting tack is visible. This is visual brief compliance, not a separate historical equipment study."
+        },
+        "layout_match": {
+          "status": "pass",
+          "evidence": "Matches the reference page architecture: large left 3/4 front view, bottom-left five-circle palette, four top-right turnarounds, six middle-right expressions, five bottom-right details."
+        },
+        "turnarounds": {
+          "status": "pass",
+          "evidence": "FRONT, RIGHT PROFILE, BACK, LEFT PROFILE are complete and correctly oriented. Front and back compartments are narrow and side-profile compartments are wide, as in Kanka."
+        },
+        "expressions": {
+          "status": "pass",
+          "evidence": "Exactly six recognisable Kayal head portraits labelled RELAXED, ALERT, CURIOUS, UNEASY, TIRED, SPIRITED."
+        },
+        "detail_closeups": {
+          "status": "pass",
+          "evidence": "Exactly five correctly captioned details: EYE, BRIDLE, BLACK MANE, BLACK LOWER LEGS, SADDLE PAD."
+        },
+        "drawing_style_match": {
+          "status": "pass",
+          "evidence": "Fine hair and contour linework, realistic modelled anatomy, smooth painterly coat shading, warm cream ground, thin brown rules and small grounding shadows closely match Kanka."
+        },
+        "lettering_style_match": {
+          "status": "pass",
+          "evidence": "Dark brown serif headings and captions preserve the reference hierarchy and placement."
+        },
+        "palette_treatment_match": {
+          "status": "pass",
+          "evidence": "Five circular swatches in the lower-left ruled box, with BAY COAT, BLACK POINTS, OCHRE PAD, BROWN LEATHER and BRASS labels matching the depicted materials."
+        },
+        "header_text": {
+          "status": "pass",
+          "evidence": "KAYAL and Nagoji's bay mare are readable and correct; the rendered subtitle uses the reference's typographic apostrophe."
+        },
+        "all_text_readable_and_correct": {
+          "status": "pass",
+          "evidence": "Root and independent reviewer manually read all visible headers, captions and palette labels. No garbled text or incorrect labels found."
+        },
+        "no_em_or_en_dashes_in_image": {
+          "status": "pass",
+          "evidence": "No em or en dashes are visible in the image lettering."
+        }
+      },
+      "regeneration_required": false,
+      "regeneration_reason": "None. All visual checks passed on the first attempt."
+    }
+  ],
+  "checks": {
+    "mare_anatomy": {
+      "status": "pass",
+      "evidence": "All five full-body views have coherent equine anatomy and a female-compatible underside with no visible male sheath or testicles."
+    },
+    "medium_working_cavalry_build": {
+      "status": "pass",
+      "evidence": "Lean, sturdy medium working mare proportions; neither a massive charger nor a small pony. Relative size is conveyed by proportions, without a separate scale figure."
+    },
+    "ochre_red_brown_bay_coat": {
+      "status": "pass",
+      "evidence": "Warm ochre red-brown face, neck, chest and body remain consistent in the main view, turnarounds, expressions and relevant details."
+    },
+    "black_mane": {
+      "status": "pass",
+      "evidence": "Black forelock and mane in all views and the BLACK MANE close-up."
+    },
+    "black_tail": {
+      "status": "pass",
+      "evidence": "Black tail visible in the main view and turnarounds."
+    },
+    "black_lower_legs": {
+      "status": "pass",
+      "evidence": "All four lower legs have black points ending in dark hooves; detail panel confirms black hair."
+    },
+    "zero_white_markings": {
+      "status": "pass",
+      "evidence": "No white star, blaze, snip, socks, stockings, body patches or white mane or tail hair seen. Small eye catchlights and shaded hoof reflections are not coat markings."
+    },
+    "distinct_from_black_and_grey_horses": {
+      "status": "pass",
+      "evidence": "Bay body colour is clearly different from the black Kanka reference and from a grey horse."
+    },
+    "simple_leather_bridle": {
+      "status": "pass",
+      "evidence": "Simple brown leather straps and restrained brass fittings remain consistent across the sheet."
+    },
+    "quilted_indian_saddle_pad": {
+      "status": "pass",
+      "evidence": "Soft ochre pad with diamond quilting is visible in the main view, profiles and its dedicated close-up, secured with a leather girth."
+    },
+    "no_european_saddle": {
+      "status": "pass",
+      "evidence": "No rigid European saddle, raised pommel, cantle or saddle horn."
+    },
+    "period_tack": {
+      "status": "pass",
+      "evidence": "Tack visually follows the requested 1740s Malabar working cavalry brief; no modern sporting tack is visible. This is visual brief compliance, not a separate historical equipment study."
+    },
+    "layout_match": {
+      "status": "pass",
+      "evidence": "Matches the reference page architecture: large left 3/4 front view, bottom-left five-circle palette, four top-right turnarounds, six middle-right expressions, five bottom-right details."
+    },
+    "turnarounds": {
+      "status": "pass",
+      "evidence": "FRONT, RIGHT PROFILE, BACK, LEFT PROFILE are complete and correctly oriented. Front and back compartments are narrow and side-profile compartments are wide, as in Kanka."
+    },
+    "expressions": {
+      "status": "pass",
+      "evidence": "Exactly six recognisable Kayal head portraits labelled RELAXED, ALERT, CURIOUS, UNEASY, TIRED, SPIRITED."
+    },
+    "detail_closeups": {
+      "status": "pass",
+      "evidence": "Exactly five correctly captioned details: EYE, BRIDLE, BLACK MANE, BLACK LOWER LEGS, SADDLE PAD."
+    },
+    "drawing_style_match": {
+      "status": "pass",
+      "evidence": "Fine hair and contour linework, realistic modelled anatomy, smooth painterly coat shading, warm cream ground, thin brown rules and small grounding shadows closely match Kanka."
+    },
+    "lettering_style_match": {
+      "status": "pass",
+      "evidence": "Dark brown serif headings and captions preserve the reference hierarchy and placement."
+    },
+    "palette_treatment_match": {
+      "status": "pass",
+      "evidence": "Five circular swatches in the lower-left ruled box, with BAY COAT, BLACK POINTS, OCHRE PAD, BROWN LEATHER and BRASS labels matching the depicted materials."
+    },
+    "header_text": {
+      "status": "pass",
+      "evidence": "KAYAL and Nagoji's bay mare are readable and correct; the rendered subtitle uses the reference's typographic apostrophe."
+    },
+    "all_text_readable_and_correct": {
+      "status": "pass",
+      "evidence": "Root and independent reviewer manually read all visible headers, captions and palette labels. No garbled text or incorrect labels found."
+    },
+    "no_em_or_en_dashes_in_image": {
+      "status": "pass",
+      "evidence": "No em or en dashes are visible in the image lettering."
+    }
+  },
+  "review_method": "Root inspected the saved output with view_image and compared it with the Kanka sheet; an independent read-only reviewer also inspected both images.",
+  "independent_review": {
+    "reviewer": "kayal_review",
+    "requested_model": "gpt-5.6-luna",
+    "status": "pass",
+    "method": "Read-only visual review of the generated candidate and Kanka reference using view_image.",
+    "findings": "All requested visual checks passed; no disagreements with root review.",
+    "files_written": 0
+  },
+  "integrity_checks": {
+    "png_structure_and_scanlines": {
+      "status": "pass",
+      "evidence": "PNG signature, every chunk CRC, compressed scanline data, scanline lengths and filter types validated with Python standard library; native image viewed."
+    },
+    "source_dimensions_match": {
+      "status": "pass",
+      "evidence": "Source and output are both 1536 by 1024 pixels."
+    },
+    "exact_prompt_saved": {
+      "status": "pass",
+      "evidence": "Saved prompt was created before generation and compared byte-for-byte as UTF-8 text with the prompt passed to imagegen."
+    },
+    "source_and_existing_concepts_unchanged": {
+      "status": "pass",
+      "evidence": "All 92 pre-existing files under concepts match the baseline aggregate SHA256.",
+      "baseline": {
+        "count": 92,
+        "sha256": "fb8e148f948a5fd82a5a41ae99c6fe3ba972a78f5734b6bcf60f1f9aa6f44f7a"
+      }
+    },
+    "protected_files_unchanged": {
+      "status": "pass",
+      "evidence": "All 384 files in the baseline covering CONTINUITY.md, pipeline and chapters retain their contents.",
+      "baseline": {
+        "count": 384,
+        "sha256": "20a72759e4a1494678d993c52da78396530f79683b2476b19194f58eb55db3db"
+      }
+    },
+    "no_em_or_en_dashes_in_text_artifacts": {
+      "status": "pass",
+      "evidence": "Prompt, this JSON and the new log entry were scanned for Unicode U+2013 and U+2014 before saving."
+    },
+    "no_overwrite": {
+      "status": "pass",
+      "evidence": "The PNG, prompt and review record are created with exclusive file creation. Existing source files remain in place."
+    }
+  },
+  "unmet_requirements": [],
+  "notes": [
+    "Visual matching is assessed against the supplied reference, not asserted as pixel identity between different characters.",
+    "Medium size is conveyed through working mare proportions; the sheet contains no separate breed comparison scale.",
+    "The built-in imagegen tool creates a native cached output. The PNG was copied byte-for-byte into the requested concepts directory and the native cached file was left in place.",
+    "No new author approval is implied by passing visual QA. APPROVED-SHEETS.json remains unchanged."
+  ],
+  "reviewed_at_utc": "2026-09-29T00:02:29Z",
+  "log_entry_timestamp_utc": "2026-09-29T00:02:29Z"
+}

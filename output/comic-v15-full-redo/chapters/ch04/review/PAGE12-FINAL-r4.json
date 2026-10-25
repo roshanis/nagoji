@@ -1,0 +1,135 @@
+{
+  "status": "reviewed_proposed_page_geometry",
+  "created_utc": "2026-09-30T15:18:00Z",
+  "scope": "Chapter 4 pages 1 and 2, nine frames",
+  "geometry_source": "review/ROOT-NINE-PREFLIGHT-r1.json rows and proposed page geometry",
+  "proposed_page_rows_pt": {
+    "1": [165, 165, 105, 82.5],
+    "2": [102, [140, 140], 180, 95.5]
+  },
+  "native_lettering_min_pt": 8.5,
+  "rows": [
+    {
+      "id": "page-01-panel-01",
+      "candidate": "page-01-panel-01-v02",
+      "path": "chapters/ch04/frames/page-01-panel-01-v02.png",
+      "sha256": "59299c105704a1e8baa7be89d65f13f19ecf44efc2d26e748d39d539fb0e9f2a",
+      "width": 1905,
+      "height": 825,
+      "visible_rect": [0, 0, 1905, 825],
+      "reserves": [{"kind": "caption", "rect": [38, 44, 899, 118], "copy_indices": [0]}],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-01-panel-02",
+      "candidate": "page-01-panel-02-v02",
+      "path": "chapters/ch04/frames/page-01-panel-02-v02.png",
+      "sha256": "20be5bcdbb2de5e0f112be2a30d1f27919cd0d4131ee80857c0c3b003739969d",
+      "width": 1875,
+      "height": 839,
+      "visible_rect": [0, 0, 1875, 839],
+      "reserves": [{"kind": "caption", "rect": [959, 14, 1854, 126], "copy_indices": [0]}],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-01-panel-03",
+      "candidate": "page-01-panel-03-v02",
+      "path": "chapters/ch04/frames/page-01-panel-03-v02.png",
+      "sha256": "f7312f6d85d41617a2bdcb1b3173c803d3a2db818c1018760c23736d662609fc",
+      "width": 2076,
+      "height": 757,
+      "visible_rect": [0, 0, 2076, 757],
+      "reserves": [{"kind": "caption", "rect": [35, 29, 980, 205], "copy_indices": [0]}],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-01-panel-04",
+      "candidate": "page-01-panel-04-v04",
+      "path": "chapters/ch04/frames/page-01-panel-04-v04.png",
+      "sha256": "9eeae71fdd100db25b283f261da90e7ecad56e141c62f1a8938cb85bc58a0551",
+      "width": 1875,
+      "height": 839,
+      "visible_rect": [0, 0, 1875, 839],
+      "reserves": [
+        {"kind": "caption", "rect": [25, 18, 384, 120], "copy_indices": [0]},
+        {"kind": "speech", "rect": [450, 15, 695, 170], "copy_indices": [1]},
+        {"kind": "speech", "rect": [730, 15, 1040, 170], "copy_indices": [2]},
+        {"kind": "speech", "rect": [1070, 15, 1285, 170], "copy_indices": [3]}
+      ],
+      "review_status": "native_review_pass_pending_root_confirmation"
+    },
+    {
+      "id": "page-02-panel-01",
+      "candidate": "page-02-panel-01-v01",
+      "path": "chapters/ch04/frames/page-02-panel-01-v01.png",
+      "sha256": "3d2856275d7dcaaa9494faec64dca29112ce98ffbd9251dbbc827eac737b173e",
+      "width": 2135,
+      "height": 736,
+      "visible_rect": [0, 0, 2135, 736],
+      "reserves": [{"kind": "caption", "rect": [740, 557, 1385, 678], "copy_indices": [0]}],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-02-panel-02",
+      "candidate": "page-02-panel-02-v02",
+      "path": "chapters/ch04/frames/page-02-panel-02-v02.png",
+      "sha256": "2c2e0d106054169493dc3da586917eaba4f202ab9a4f2f299df7ef868d54b269",
+      "width": 1435,
+      "height": 1096,
+      "visible_rect": [4, 4, 1431, 1092],
+      "reserves": [
+        {"kind": "speech", "rect": [80, 30, 560, 190], "copy_indices": [0]},
+        {"kind": "caption", "rect": [35, 915, 1400, 1060], "copy_indices": [1]}
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-02-panel-03",
+      "candidate": "page-02-panel-03-v02",
+      "path": "chapters/ch04/frames/page-02-panel-03-v02.png",
+      "sha256": "6618509eeb42d4b9faec1d261fbccfa245a39f2653ee20937b6bf34591e84bcb",
+      "width": 1435,
+      "height": 1096,
+      "visible_rect": [4, 4, 1431, 1092],
+      "reserves": [
+        {"kind": "speech", "rect": [85, 35, 410, 122], "copy_indices": [0]},
+        {"kind": "caption", "rect": [40, 948, 1395, 1045], "copy_indices": [1]}
+      ],
+      "review_status": "root_native_review_pass"
+    },
+    {
+      "id": "page-02-panel-04",
+      "candidate": "page-02-panel-04-v03",
+      "path": "chapters/ch04/frames/page-02-panel-04-v03.png",
+      "sha256": "65447301e67011e42481042659b4c4f50772552e4dd8571e334f70bc257b19be",
+      "width": 1794,
+      "height": 877,
+      "visible_rect": [2, 2, 1792, 875],
+      "reserves": [{"kind": "caption", "rect": [22, 22, 612, 113], "copy_indices": [0]}],
+      "review_status": "native_review_pass"
+    },
+    {
+      "id": "page-02-panel-05",
+      "candidate": "page-02-panel-05-v02",
+      "path": "chapters/ch04/frames/page-02-panel-05-v02.png",
+      "sha256": "2e601e7ba2366816271d3516c1d72667ac35aeeabe5ed61dfbb5ad6512aea06c",
+      "width": 1933,
+      "height": 814,
+      "visible_rect": [0, 0, 1933, 500],
+      "reserves": [
+        {"kind": "caption", "rect": [75, 34, 887, 110], "copy_indices": [0]},
+        {"kind": "caption", "rect": [921, 34, 1863, 110], "copy_indices": [1]}
+      ],
+      "review_status": "root_native_review_pass_with_narrow_crop"
+    }
+  ],
+  "pixel_audit": {
+    "method": "source dimensions, visible rectangles, reserve rectangles and sha256 rechecked; compositor geometry_for_script still required by root before build",
+    "frame_count": 9,
+    "all_lines_present": true,
+    "all_reserves_recorded": true,
+    "panel_01_04_regenerated": "v04, grounded feet and legs continue through image boundaries",
+    "panel_02_04": "v03, one tiny circular stud, sand-caked forearm and hand wraps preserved",
+    "panel_02_05": "narrow crop [0,0,1933,500]"
+  }
+}

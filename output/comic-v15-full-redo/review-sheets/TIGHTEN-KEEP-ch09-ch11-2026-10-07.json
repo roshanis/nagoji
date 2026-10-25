@@ -1,0 +1,1476 @@
+{
+  "summary": "Shrink keep zones to the essential scripted action on ch9 and ch11 dense pages",
+  "agentCount": 25,
+  "logs": [],
+  "result": [
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-02-panel-01",
+      "version": "v02",
+      "before": 0.207,
+      "keep": [
+        {
+          "x0": 0.79,
+          "y0": 0.29,
+          "x1": 0.9,
+          "y1": 0.46,
+          "what": "Guard's bowed head, eyes sliding toward the riders"
+        },
+        {
+          "x0": 0.34,
+          "y0": 0.13,
+          "x1": 0.45,
+          "y1": 0.26,
+          "what": "Padmini's face (speaker)"
+        },
+        {
+          "x0": 0.1,
+          "y0": 0.09,
+          "x1": 0.2,
+          "y1": 0.26,
+          "what": "Nagoji's face and turban, the stranger being eyed"
+        },
+        {
+          "x0": 0.2,
+          "y0": 0.73,
+          "x1": 0.26,
+          "y1": 0.92,
+          "what": "Nagoji's boot in stirrup (scripted detail)"
+        }
+      ],
+      "dropped": [
+        "Old zone 0 (guard whole body, spear, shield): shrunk to his head. The bow and the sideways glance read from the head; the spear and shield are not scripted.",
+        "Old zone 1 (Padmini torso and hands, y 0.26-0.60): it was misplaced and missed her face, which sits at y 0.13-0.26. Replaced with a face zone. The hands on the reins are not a scripted action.",
+        "Old zone 2 (Nagoji torso, y 0.28-0.58): it was misplaced and missed his face, which sits at y 0.09-0.26. Replaced with a face zone plus a small zone for the scripted boots."
+      ],
+      "note": "Total drops from 21% to about 6%. The sky at top center-right (x 0.46-0.78, y 0.0-0.28) and the courtyard ground (x 0.58-0.80, y 0.78-1.0) are left free for the three balloons."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-02-panel-02",
+      "version": "v02",
+      "before": 0.258,
+      "keep": [
+        {
+          "x0": 0.445,
+          "y0": 0.27,
+          "x1": 0.545,
+          "y1": 0.415,
+          "what": "Padmini's face (speaker)"
+        },
+        {
+          "x0": 0.535,
+          "y0": 0.55,
+          "x1": 0.62,
+          "y1": 0.74,
+          "what": "Padmini's right hand gripping the walking stick, knob to grip"
+        },
+        {
+          "x0": 0.36,
+          "y0": 0.51,
+          "x1": 0.41,
+          "y1": 0.555,
+          "what": "Padmini's left hand on the saddle (dismounting)"
+        },
+        {
+          "x0": 0.83,
+          "y0": 0.45,
+          "x1": 0.98,
+          "y1": 0.64,
+          "what": "Clerk face, palm-leaf bundle and stylus; Nair swordsman face and sword hilt"
+        },
+        {
+          "x0": 0.205,
+          "y0": 0.08,
+          "x1": 0.28,
+          "y1": 0.22,
+          "what": "Nagoji's face (the newcomer being watched)"
+        }
+      ],
+      "dropped": [
+        "Old zone 0 [0.36,0.5,0.62,0.98] Padmini's whole body down to the ground: replaced with tight zones on her face (missing before even though she speaks), the hand on the stick, and the hand on the saddle. The saree and the lower stick are not needed.",
+        "Old zone 1 [0.81,0.45,0.995,0.73] clerk and Nair man: shrunk to their faces, the palm-leaf bundle, the stylus and the sword hilt. Their lower bodies and the shrubs are dropped.",
+        "Old zone 2 [0.12,0.45,0.3,0.9] Nagoji's body, boot and stirrup: the beat never mentions his dismount. Only his face is kept, as the newcomer the men are looking at."
+      ],
+      "note": "I cut the keep zones from 26% to about 7.2% of the frame. The roof and sky across the top (x 0.30-0.95, y 0-0.25) and the steps and ground on the right are now free for Padmini's two balloons."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-02-panel-04",
+      "version": "v02",
+      "before": 0.164,
+      "keep": [
+        {
+          "x0": 0.35,
+          "y0": 0.15,
+          "x1": 0.45,
+          "y1": 0.33,
+          "what": "Nagoji's face and turban"
+        },
+        {
+          "x0": 0.62,
+          "y0": 0.22,
+          "x1": 0.71,
+          "y1": 0.37,
+          "what": "Padmini's face (speaker)"
+        },
+        {
+          "x0": 0.29,
+          "y0": 0.38,
+          "x1": 0.4,
+          "y1": 0.47,
+          "what": "Nagoji's hand holding the brass tumbler"
+        },
+        {
+          "x0": 0.025,
+          "y0": 0.645,
+          "x1": 0.155,
+          "y1": 0.8,
+          "what": "Boots set side by side on the step"
+        },
+        {
+          "x0": 0.85,
+          "y0": 0.17,
+          "x1": 0.97,
+          "y1": 0.4,
+          "what": "Drummers' shadows in lamplit doorway"
+        }
+      ],
+      "dropped": [
+        "Zone 1 (feet, mat, tumbler, banana leaf, stick): a 70%-wide strip of mat and bodies. The acting tumbler is now protected at Nagoji's raised hand. The leaf parcel, the second tumbler and the stick sit low on the mat and are unlikely to be covered by lettering, so they do not need a zone.",
+        "Zone 0 boots: kept as the key story detail, trimmed to the boots only.",
+        "Zone 2 doorway: trimmed from the whole doorway to the drummer silhouettes. The lamps and door frame are scenery."
+      ],
+      "note": "The new zones total about 8.9% (was 16%) and now cover both faces, which the old zones missed. Open space for lettering: the white wall at top centre (Padmini's balloon), the sky at top left, and the stone step at the bottom (caption)."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-02-panel-05",
+      "version": "v01",
+      "before": 0.099,
+      "keep": [
+        {
+          "x0": 0.24,
+          "y0": 0.56,
+          "x1": 0.46,
+          "y1": 0.85,
+          "what": "bare feet, gold anklet, indigo-gold sari hem on stone"
+        },
+        {
+          "x0": 0.725,
+          "y0": 0.18,
+          "x1": 0.85,
+          "y1": 0.355,
+          "what": "Nagoji's face with tumbler and hand at mouth"
+        }
+      ],
+      "dropped": [
+        "Old zone 0 trimmed: the upper sari folds and the strip to the right of the hem (x>0.46) are drapery, not the step; the floor below the heel (y>0.85) is left open for lettering",
+        "Old zone 1 moved and grown: it covered only the hand and tumbler and cut off Nagoji's face, which carries the reaction. The new zone holds the face, the tumbler and the hand together",
+        "Nagoji's body, red sash, mat, brass vessels, pillars, courtyard and sky are left unprotected because the beat does not depend on them"
+      ],
+      "note": "Total protected area is about 8.6% of the frame. The floor strip (y 0.86-1.0), the open floor at lower right and the sky at upper left and centre are all free for the two captions."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-03-panel-01",
+      "version": "v01",
+      "before": 0.416,
+      "keep": [
+        {
+          "x0": 0.225,
+          "y0": 0.075,
+          "x1": 0.39,
+          "y1": 0.5,
+          "what": "Revathi face, jasmine braid, coin necklace, armlets, clasped hands"
+        },
+        {
+          "x0": 0.24,
+          "y0": 0.89,
+          "x1": 0.33,
+          "y1": 0.96,
+          "what": "Revathi's feet and gold anklet"
+        },
+        {
+          "x0": 0.7,
+          "y0": 0.07,
+          "x1": 0.77,
+          "y1": 0.21,
+          "what": "Nagoji's face in profile"
+        }
+      ],
+      "dropped": [
+        "Zone 0 (full figure head to anklet): a whole-body zone; replaced by a tight upper-body zone (face, jasmine, necklace, armlets, hands) plus a small anklet zone. The plain sari drape between waist and feet can take a partial balloon overlap.",
+        "Zone 2 (head to knees): duplicates zone 0; merged into the upper-body zone.",
+        "Zone 1 (Nagoji, turban to waist): his back and torso are not in the beat; shrunk to just his face so no balloon lands on it."
+      ],
+      "note": "I cut the keep zones from 42% to about 8.6% of the frame. Open space for lettering is left over the interior doorway, the pillars and roof, and the floor."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-03-panel-02",
+      "version": "v01",
+      "before": 0.132,
+      "keep": [
+        {
+          "x0": 0.185,
+          "y0": 0.07,
+          "x1": 0.33,
+          "y1": 0.25,
+          "what": "Padmini's inclined head and face"
+        },
+        {
+          "x0": 0.285,
+          "y0": 0.35,
+          "x1": 0.335,
+          "y1": 0.5,
+          "what": "Padmini's hand gripping walking stick"
+        },
+        {
+          "x0": 0.64,
+          "y0": 0.1,
+          "x1": 0.79,
+          "y1": 0.27,
+          "what": "Revathi's bowed head, face and jasmine braid"
+        }
+      ],
+      "dropped": [
+        "Padmini's shoulders and the gap between her head and hand (zone 0 split in two): the bow reads from the head tilt, and the torso is not part of the beat",
+        "Revathi's shoulders and most of the coin necklace (zone 1 shrunk): costume detail the beat does not depend on; the bow reads from the head and face"
+      ],
+      "note": "Total keep area fell from 13% to about 6%. That leaves the top-left sky (x 0-0.18, y 0-0.3) and the upper-centre sky (x 0.44-0.6, y 0-0.2) clear for the two Padmini balloons."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-07-panel-01",
+      "version": "v01",
+      "before": 0.108,
+      "keep": [
+        {
+          "x0": 0.34,
+          "y0": 0.56,
+          "x1": 0.455,
+          "y1": 0.8,
+          "what": "Revathi's pointing hand and fingertip on the stone"
+        },
+        {
+          "x0": 0.35,
+          "y0": 0.08,
+          "x1": 0.445,
+          "y1": 0.25,
+          "what": "Revathi's face (speaker)"
+        }
+      ],
+      "dropped": [
+        "Zone 1 (pointing forearm and hand): overlapped zone 0, and the upper forearm and shoulder are not needed for the action. Kept only the hand, merged into the hand zone.",
+        "Zone 2 (verandah stone where her finger points): merged into the hand zone, which now runs just past the fingertip. The rest of the stone is open ground that can take lettering."
+      ],
+      "note": "Two zones now cover about 4.4% of the frame. I merged the hand and stone zones into one tight box and added Revathi's face, because she speaks. Lettering can go on the red earth and step at the bottom, the roof at top right, or the sky at top left."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-07-panel-02",
+      "version": "v01",
+      "before": 0.116,
+      "keep": [
+        {
+          "x0": 0.27,
+          "y0": 0.22,
+          "x1": 0.43,
+          "y1": 0.5,
+          "what": "Revathi's head in profile and shoulders, turned south"
+        },
+        {
+          "x0": 0.65,
+          "y0": 0.36,
+          "x1": 0.84,
+          "y1": 0.44,
+          "what": "distant hill ridge where land curves away"
+        }
+      ],
+      "dropped": [
+        "Zone 0 lower part (y 0.5-0.6) and left margin: back/saree torso below shoulders is body, not needed for the turn",
+        "Zone 1 foreground trees and wall (y 0.44-0.5, x 0.6-0.65 and 0.84-0.88): scenery; only the curving ridge carries the beat"
+      ],
+      "note": "I cut the keep zones from 12% to about 6% of the frame: Revathi's head and shoulders, plus the hill ridge she looks toward, which stays small. The sky above y 0.35 and the floor at lower right are now open for the three balloons."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-07-panel-03",
+      "version": "v01",
+      "before": 0.23,
+      "keep": [
+        {
+          "x0": 0.06,
+          "y0": 0.14,
+          "x1": 0.34,
+          "y1": 0.42,
+          "what": "Nagoji's turban and profile"
+        },
+        {
+          "x0": 0.6,
+          "y0": 0.29,
+          "x1": 0.81,
+          "y1": 0.45,
+          "what": "Revathi's face looking back over her shoulder"
+        }
+      ],
+      "dropped": [
+        "Nagoji's shoulder and back below the neck (y 0.42-0.48): the white tunic is the main open area for stacking balloons, and the over-shoulder framing still reads from the head alone",
+        "Revathi's lower turned torso, braid and sari (y 0.45-0.70, x 0.81-0.88): only her face is needed to show she has turned back to face him; the jasmine and braid edge are decoration",
+        "Far-left turban and hair edge (x 0.03-0.06): not needed to recognise Nagoji"
+      ],
+      "note": "The zones now cover 11.2% of the frame, down from 23%, and protect only the two heads. Balloons can stack down the left over Nagoji's white back, or down the upper-right sky, roof and wall."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-07-panel-05",
+      "version": "v01",
+      "before": 0.062,
+      "keep": [
+        {
+          "x0": 0.27,
+          "y0": 0.725,
+          "x1": 0.815,
+          "y1": 0.82,
+          "what": "both barely touched plates and cups with the empty stone gap between the mats"
+        },
+        {
+          "x0": 0.18,
+          "y0": 0.21,
+          "x1": 0.255,
+          "y1": 0.325,
+          "what": "man's face looking away"
+        },
+        {
+          "x0": 0.795,
+          "y0": 0.2,
+          "x1": 0.865,
+          "y1": 0.335,
+          "what": "woman's face looking away"
+        }
+      ],
+      "dropped": [],
+      "note": "There is no lettering on this panel, so the plates-and-gap zone barely needed trimming; I added two small face zones for the averted expressions that carry the silence, and the total is about 7 percent."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-11-panel-01",
+      "version": "v01",
+      "before": 0.194,
+      "keep": [
+        {
+          "x0": 0.25,
+          "y0": 0.025,
+          "x1": 0.35,
+          "y1": 0.16,
+          "what": "Padmini's face"
+        },
+        {
+          "x0": 0.18,
+          "y0": 0.22,
+          "x1": 0.235,
+          "y1": 0.345,
+          "what": "Padmini's hand gripping walking stick"
+        },
+        {
+          "x0": 0.58,
+          "y0": 0.2,
+          "x1": 0.68,
+          "y1": 0.36,
+          "what": "Nagoji's face"
+        },
+        {
+          "x0": 0.555,
+          "y0": 0.83,
+          "x1": 0.82,
+          "y1": 0.955,
+          "what": "Nagoji's bare feet on the mat"
+        }
+      ],
+      "dropped": [
+        "Padmini full-body zone [0.17,0.23,0.41,0.85]: replaced by tight face and stick-hand zones; the old box missed her face (head is above y 0.23) and protected her whole sari and body",
+        "Nagoji seated-body area: only his face and bare feet on the weave kept; the feet zone was trimmed to the feet alone"
+      ],
+      "note": "Total down from 19% to about 7%; the open sky top-center/right (x 0.48-0.82, y 0-0.19) and the wall left of Padmini's head are free for both balloons."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-11-panel-02",
+      "version": "v01",
+      "before": 0.081,
+      "keep": [
+        {
+          "x0": 0.32,
+          "y0": 0.11,
+          "x1": 0.42,
+          "y1": 0.26,
+          "what": "Padmini's face, sideways glance toward the door"
+        },
+        {
+          "x0": 0.84,
+          "y0": 0.36,
+          "x1": 0.93,
+          "y1": 0.72,
+          "what": "lit doorway interior with lamp (where Revathi went)"
+        }
+      ],
+      "dropped": [
+        "Upper part of the doorway zone (y 0.10-0.36): only dark door frame and lintel. The lit lower opening is enough to show the empty doorway, so the top can take a balloon if needed.",
+        "Padmini's body, staff and sword: the beat needs only her gaze, not the whole figure.",
+        "Scenery (pillars, courtyard, sky, window, mat, potted plant): the beat does not depend on it, and the sky at upper left is left open for the two PADMINI balloons."
+      ],
+      "note": "Added the missing zone for Padmini's face and trimmed the doorway to its lit interior. Total keep area is now about 4.7% of the frame, down from 8%."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-11-panel-03",
+      "version": "v01",
+      "before": 0.733,
+      "keep": [
+        {
+          "x0": 0.612,
+          "y0": 0.612,
+          "x1": 1,
+          "y1": 1,
+          "what": "inset: Nagoji's bare feet, boots on verandah step (whole)"
+        },
+        {
+          "x0": 0.16,
+          "y0": 0.06,
+          "x1": 0.25,
+          "y1": 0.2,
+          "what": "Nagoji face"
+        },
+        {
+          "x0": 0.42,
+          "y0": 0.13,
+          "x1": 0.52,
+          "y1": 0.25,
+          "what": "Padmini face"
+        },
+        {
+          "x0": 0.73,
+          "y0": 0.2,
+          "x1": 0.83,
+          "y1": 0.4,
+          "what": "lead drummer, stick raised mid-beat"
+        }
+      ],
+      "dropped": [
+        "zone 3 (lower-right inset duplicate): merged into zone 0 (inset kept whole, border included)",
+        "zone 2 (whole bodies of Nagoji and Padmini plus courtyard): shrunk to their two faces; bare feet are carried by the inset",
+        "zone 1 (wide drummer block): shrunk to the lead drummer's head, raised stick and drum top; other drummers, lamps and pillars are scenery"
+      ],
+      "note": "Total is about 19.5%, mostly from the inset the script calls for (15%); captions can go in the open sky or tree top-left, the top-center sky or the roof at top right."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-11-panel-04",
+      "version": "v01",
+      "before": 0.174,
+      "keep": [
+        {
+          "x0": 0.34,
+          "y0": 0.58,
+          "x1": 0.47,
+          "y1": 0.815,
+          "what": "Nagoji, small full figure, face up, bare feet"
+        }
+      ],
+      "dropped": [
+        "1: open laterite gate behind him. This is scenery, and it is large and low in the frame, so the sky lettering will not touch it. Protecting it only uses up budget.",
+        "2: the hall ahead of him. This is scenery that fills the right side below the roofline. It is not a face, a hand or a prop, and the captions in the sky will not reach it.",
+        "3: open sky above Nagoji. This is the empty space meant for the four captions, and space for lettering must never be a keep zone."
+      ],
+      "note": "One tight zone around the small figure, from turban to bare feet, sword included, covers about 3 percent of the frame. The sky above (y below about 0.45) is now clear for all four captions."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-11-panel-05",
+      "version": "v01",
+      "before": 0.361,
+      "keep": [
+        {
+          "x0": 0.213,
+          "y0": 0.1,
+          "x1": 0.323,
+          "y1": 0.28,
+          "what": "servant's face and cupped whispering hand"
+        },
+        {
+          "x0": 0.355,
+          "y0": 0.033,
+          "x1": 0.452,
+          "y1": 0.196,
+          "what": "Nagoji's face and red turban"
+        },
+        {
+          "x0": 0.702,
+          "y0": 0.072,
+          "x1": 0.776,
+          "y1": 0.188,
+          "what": "Padmini's face in the lit doorway"
+        },
+        {
+          "x0": 0.31,
+          "y0": 0.85,
+          "x1": 0.54,
+          "y1": 0.94,
+          "what": "Nagoji's bare feet on the steps"
+        }
+      ],
+      "dropped": [
+        "Zone 0 (whole servant figure 0.09-0.5 x 0.1-0.5): whole-body zone; replaced by the tight face+cupped-hand zone (old zone 3), which carries the whisper action",
+        "Zone 2 (Padmini with stick and elders in doorway 0.63-0.95 x 0.15-0.58): whole bodies, background elders and doorway scenery; shrunk to Padmini's face only, since the elders are a background crowd the reader does not need protected",
+        "Zone 3 (servant face/hand): merged and kept with tightened bounds",
+        "Zone 4 (Nagoji face/turban): kept, trimmed slightly to the head",
+        "Zone 1 (bare feet): kept as the scripted barefoot detail, tightened to the two feet"
+      ],
+      "note": "Total down from about 36% to about 6.3% of the frame. Top-left night sky (x 0-0.2, y 0-0.1) and the dark door frame (x 0.47-0.65, y 0-0.12) are now open for the servant's balloon and the caption."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-12-panel-04",
+      "version": "v01",
+      "before": 0.312,
+      "keep": [
+        {
+          "x0": 0.43,
+          "y0": 0.34,
+          "x1": 0.585,
+          "y1": 0.53,
+          "what": "Revathi's pointing hand and hovering fingertip"
+        },
+        {
+          "x0": 0.57,
+          "y0": 0.45,
+          "x1": 0.76,
+          "y1": 0.64,
+          "what": "fingertip gap, brand, lower scar"
+        },
+        {
+          "x0": 0.74,
+          "y0": 0.27,
+          "x1": 0.87,
+          "y1": 0.46,
+          "what": "upper scar on inner forearm"
+        }
+      ],
+      "dropped": [
+        "zone 2 [0.54,0.26,0.87,0.71]: duplicate of zone 1 (forearm, brand, gap); merged into the tightened brand/scar zones",
+        "zone 1 [0.56,0.26,0.86,0.66]: oversized box over bare forearm skin and dark stair background; replaced by two tight rectangles along the diagonal scar (lower one also covers brand and gap)",
+        "zone 0 [0.41,0.33,0.6,0.56]: shrunk to the hand back and index finger; curled lower fingers and background trimmed",
+        "his open palm and cupped hand (0.27-0.6 x, 0.58-0.92 y): not part of the beat, left unprotected",
+        "temple sky/doorway top center and lamplit stairs bottom right: open space reserved for the two REVATHI balloons"
+      ],
+      "note": "Three tight zones (about 9 percent of the frame) cover the fingertip, the gap, the brand and the scar, which leaves the dark temple area at top center and the stairs at bottom right free for the two balloons."
+    },
+    {
+      "chapter": 9,
+      "package": "ch09-split",
+      "id": "page-12-panel-05",
+      "version": "v01",
+      "before": 0.231,
+      "keep": [
+        {
+          "x0": 0.195,
+          "y0": 0.05,
+          "x1": 0.25,
+          "y1": 0.25,
+          "what": "Revathi's face (speaker)"
+        },
+        {
+          "x0": 0.28,
+          "y0": 0.8,
+          "x1": 0.318,
+          "y1": 0.94,
+          "what": "Revathi's dropped hand"
+        },
+        {
+          "x0": 0.505,
+          "y0": 0.03,
+          "x1": 0.56,
+          "y1": 0.26,
+          "what": "Nagoji's face turning away"
+        },
+        {
+          "x0": 0.69,
+          "y0": 0.07,
+          "x1": 0.745,
+          "y1": 0.37,
+          "what": "Padmini's face and hand on walking stick"
+        }
+      ],
+      "dropped": [
+        "Zone 1 Nagoji's full body: whole-body zone, shrunk to his face only (the turn reads from his head and glance)",
+        "Zone 2 Padmini full figure: whole body, shrunk to her face plus the hand gripping the stick (the key prop)",
+        "Zone 3 old women in the hall: background crowd, not needed to be fully protected",
+        "Zone 0 Revathi's hand: kept but tightened to the hand itself"
+      ],
+      "note": "Total down from 23% to about 4.2%; open lettering space stays at top-left night sky (x 0-0.17), the dark gap between Revathi and Nagoji (x 0.27-0.48, y 0-0.3), and the lower steps at right (x 0.6-0.95, y 0.8-1.0)."
+    },
+    {
+      "chapter": 11,
+      "package": "ch11",
+      "id": "page-10-panel-01",
+      "version": "v02",
+      "before": 0.077,
+      "keep": [
+        {
+          "x0": 0.38,
+          "y0": 0.25,
+          "x1": 0.45,
+          "y1": 0.38,
+          "what": "lead envoy's face and sidelong eyes"
+        },
+        {
+          "x0": 0.29,
+          "y0": 0.43,
+          "x1": 0.35,
+          "y1": 0.53,
+          "what": "envoy's raised open right hand"
+        },
+        {
+          "x0": 0.51,
+          "y0": 0.47,
+          "x1": 0.58,
+          "y1": 0.55,
+          "what": "envoy's spread open left hand"
+        },
+        {
+          "x0": 0.84,
+          "y0": 0.31,
+          "x1": 0.95,
+          "y1": 0.48,
+          "what": "Velinadu women's faces, his eye-line target"
+        }
+      ],
+      "dropped": [
+        "Old zone 0 (single hands box, 0.28-0.58 wide) split into two tight hand boxes. The coat and chest between the hands are not needed.",
+        "Old zone 1 (back of the foreground woman's head with jasmine, 0.74-0.92 x 0.35-0.56): it shows no face or expression. It was replaced by a tight box on the two visible women's faces that his look lands on."
+      ],
+      "note": "About 3.9 percent total. The envoy's face was unprotected before and is now covered. The open sky at 0.45-0.62 x 0.08-0.30 and 0.65-0.90 x 0.08-0.22 is free for the ENVOY balloon and the caption."
+    },
+    {
+      "chapter": 11,
+      "package": "ch11",
+      "id": "page-10-panel-02",
+      "version": "v02",
+      "before": 0.066,
+      "keep": [
+        {
+          "x0": 0.465,
+          "y0": 0.225,
+          "x1": 0.555,
+          "y1": 0.365,
+          "what": "Revathi's speaking face, chin lifted"
+        },
+        {
+          "x0": 0.4,
+          "y0": 0.45,
+          "x1": 0.46,
+          "y1": 0.55,
+          "what": "Revathi's raised speaking hand"
+        },
+        {
+          "x0": 0.165,
+          "y0": 0.33,
+          "x1": 0.29,
+          "y1": 0.47,
+          "what": "two left listeners' faces turning to her"
+        },
+        {
+          "x0": 0.755,
+          "y0": 0.29,
+          "x1": 0.82,
+          "y1": 0.425,
+          "what": "right listener's face turned to her"
+        }
+      ],
+      "dropped": [
+        "Old zone 1 [0.09,0.31,0.30,0.50]: shrunk to the two prominent turning faces; the partly cropped far-left woman and the shoulders and hair are crowd, not needed",
+        "Old zone 2 [0.75,0.28,0.86,0.44]: narrowed to the face only; the jasmine and hair to its right are not needed",
+        "Old zone 0 [0.39,0.43,0.47,0.54]: shifted and tightened to the actual hand (fingers to bangles)",
+        "Added a zone for Revathi's face: the beat is her speaking with chin lifted, and no current zone protected it"
+      ],
+      "note": "Total about 4.5 percent; the canopy band (y<0.17) and the sky between Revathi and the right listener (x 0.57-0.74, y 0.18-0.35) stay open for the caption and balloon."
+    },
+    {
+      "chapter": 11,
+      "package": "ch11",
+      "id": "page-10-panel-03",
+      "version": "v01",
+      "before": 0.106,
+      "keep": [
+        {
+          "x0": 0.345,
+          "y0": 0.155,
+          "x1": 0.446,
+          "y1": 0.48,
+          "what": "lead envoy's bowed head and hand on chest"
+        }
+      ],
+      "dropped": [
+        "Rest of the envoy's body (coat, waistcoat, legs): the bow reads from the inclined head and hand on chest, so the full body does not need protecting",
+        "Hat held low (x~0.28-0.38, y~0.49-0.63): a minor costume detail that the beat does not depend on"
+      ],
+      "note": "Shrank the zone to the envoy's inclined head and hand-on-chest bow gesture (about 3.3% of the frame); the roof and side areas are free for the ENVOY balloon."
+    },
+    {
+      "chapter": 11,
+      "package": "ch11",
+      "id": "page-10-panel-04",
+      "version": "v01",
+      "before": 0.261,
+      "keep": [
+        {
+          "x0": 0.07,
+          "y0": 0.16,
+          "x1": 0.18,
+          "y1": 0.55,
+          "what": "Revathi's jasmine braid"
+        },
+        {
+          "x0": 0.57,
+          "y0": 0.17,
+          "x1": 0.66,
+          "y1": 0.32,
+          "what": "lead envoy face"
+        },
+        {
+          "x0": 0.72,
+          "y0": 0.02,
+          "x1": 0.79,
+          "y1": 0.15,
+          "what": "young clerk face"
+        }
+      ],
+      "dropped": [
+        "Zone 0 lower braid and sari (y 0.55-0.73): the jasmine cluster's top part identifies Revathi, and the sari is a large foreground mass that is not at risk",
+        "Zone 1 envoy torso, lap and hands holding hat: whole body, not scripted action; only his face needs protecting",
+        "Zone 2 clerk coat and legs: whole body; his face alone carries the uneasy clerk read"
+      ],
+      "note": "Total about 6.5 percent; open lettering space remains in the roof band (x 0.33-0.70, y 0-0.10) and the floor mat at lower right (x 0.46-0.95, y 0.72-0.98)."
+    },
+    {
+      "chapter": 11,
+      "package": "ch11",
+      "id": "page-10-panel-05",
+      "version": "v01",
+      "before": 0.138,
+      "keep": [
+        {
+          "x0": 0.37,
+          "y0": 0.13,
+          "x1": 0.54,
+          "y1": 0.35,
+          "what": "Revathi's face (listening expression, earrings)"
+        }
+      ],
+      "dropped": [
+        "Zone 0 [0,0,0.32,0.19]: an envoy balloon area. Balloon areas are never keep zones, and the space is needed for the off-panel lettering.",
+        "Zone 1 [0.59,0.02,0.94,0.24]: Revathi's reply balloon area. Balloon areas are never keep zones, and the space is needed for her lettering."
+      ],
+      "note": "Both old zones were balloon areas, so I dropped them. The only keep zone left is a tight box around Revathi's face (about 3.7% of the frame), which leaves the top-left and top-right free for the two balloons."
+    },
+    {
+      "chapter": 11,
+      "package": "ch11",
+      "id": "page-11-panel-02",
+      "version": "v01",
+      "before": 0.084,
+      "keep": [
+        {
+          "x0": 0.16,
+          "y0": 0.2,
+          "x1": 0.29,
+          "y1": 0.41,
+          "what": "hair-stick chief: carved hair stick and face"
+        },
+        {
+          "x0": 0.455,
+          "y0": 0.24,
+          "x1": 0.57,
+          "y1": 0.64,
+          "what": "gold-chain chief: face and layered gold chains"
+        },
+        {
+          "x0": 0.77,
+          "y0": 0.25,
+          "x1": 0.87,
+          "y1": 0.4,
+          "what": "chief in white: face"
+        },
+        {
+          "x0": 0.8,
+          "y0": 0.67,
+          "x1": 0.975,
+          "y1": 0.8,
+          "what": "chief in white: hands still on knees"
+        }
+      ],
+      "dropped": [
+        "Zone 2 (chief in white torso, shoulder cloth and mundu, 0.73-0.93 x 0.40-0.62): a garment and body area. It was replaced by tight zones on his face and on his hands resting on his knees, which carry the scripted stillness.",
+        "Zone 0 (hair stick only) and zone 1 (chains only) were not dropped outright. Each was merged with its chief's face into one tight rectangle, so there are no duplicate or overlapping zones.",
+        "Nothing protected on the roof band (y 0-0.19, full width), the evening-sky gaps between heads (x 0.29-0.45 and x 0.57-0.77, y 0.2-0.37), the background crowd, the lamps or the floor mats. That space stays free for lettering."
+      ],
+      "note": "Total about 11 percent: three chief faces plus the hair stick, the gold chains and the white chief's hands on his knees. The roof band (y 0-0.19) and the sky gaps have no zones, so the 50-character caption and the 125-character off-panel VARMA balloon can go there."
+    },
+    {
+      "chapter": 11,
+      "package": "ch11",
+      "id": "page-11-panel-04",
+      "version": "v01",
+      "before": 0.164,
+      "keep": [
+        {
+          "x0": 0.22,
+          "y0": 0.15,
+          "x1": 0.335,
+          "y1": 0.34,
+          "what": "Ramayyan's face, eyes lowered (speaker)"
+        },
+        {
+          "x0": 0.19,
+          "y0": 0.49,
+          "x1": 0.37,
+          "y1": 0.66,
+          "what": "stylus hand on palm-leaf bundle"
+        },
+        {
+          "x0": 0.64,
+          "y0": 0.61,
+          "x1": 0.99,
+          "y1": 0.97,
+          "what": "wordless inset: chief's glance toward Ibrahim, whole"
+        }
+      ],
+      "dropped": [
+        "No zone covered Ramayyan's face, so I added one because he is the speaker. Nothing was removed outright.",
+        "Zone 0: trimmed the right end of the palm-leaf bundle. The zone now covers only the stylus hand, the stylus tip and the holding hand.",
+        "Zone 1: matched the zone to the real inset border. The inset runs to x 0.99, not 0.98, and starts at y 0.61. It stays protected whole.",
+        "The main-frame Ibrahim at the pillar, the chief's back, the crowd, the sea, the oil lamps and the canopy all stay unprotected. The beat does not depend on them."
+      ],
+      "note": "Total is about 17.6 percent, above the 12 percent target, because the whole inset alone takes about 12.6 percent; the canopy and top band (y 0 to 0.14) and the open background around x 0.36 to 0.55 above y 0.45 are free for both Ramayyan balloons."
+    },
+    {
+      "chapter": 11,
+      "package": "ch11",
+      "id": "page-11-panel-05",
+      "version": "v01",
+      "before": 0.171,
+      "keep": [
+        {
+          "x0": 0.25,
+          "y0": 0.16,
+          "x1": 0.33,
+          "y1": 0.33,
+          "what": "chief's speaking profile (face, moustache)"
+        },
+        {
+          "x0": 0.09,
+          "y0": 0.29,
+          "x1": 0.28,
+          "y1": 0.48,
+          "what": "gold chains catching lamplight"
+        },
+        {
+          "x0": 0.5,
+          "y0": 0.47,
+          "x1": 0.63,
+          "y1": 0.68,
+          "what": "chief's open speaking hand with gold bangle"
+        },
+        {
+          "x0": 0.71,
+          "y0": 0.26,
+          "x1": 0.82,
+          "y1": 0.4,
+          "what": "Padmini Amma's face, head not turned"
+        }
+      ],
+      "dropped": [
+        "Zone 2 (Padmini whole seated body, staff and sari, [0.62,0.25,0.96,0.58]): shrunk to her face only, since the beat depends on her head and expression, not her body or the staff",
+        "Chief's hair bun, back, shoulder and drapery: whole-body area, not in any zone",
+        "Background crowd, pillars, lamps, sea view and roof: scenery the script does not depend on; the roof and upper band stay free for balloons"
+      ],
+      "note": "I cut the keep zones from 17% to about 9% of the frame. They now cover only the chief's profile, his chains, his speaking hand with the bangle (widened slightly so the bangle fits) and Padmini's face, leaving the top band (y 0 to 0.15) free for both balloons."
+    }
+  ],
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Tighten"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "tighten ch9 page-02-panel-01",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a3a8ccee5ab61788a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927095,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total drops from 21% to about 6%. The sky at top center-rig…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-02-panel-01-v02.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379970522,
+      "tokens": 62220,
+      "toolCalls": 7,
+      "durationMs": 43417,
+      "resultPreview": "{\"keep\":[{\"x0\":0.79,\"y0\":0.29,\"x1\":0.9,\"y1\":0.46,\"what\":\"Guard's bowed head, eyes sliding toward the riders\"},{\"x0\":0.34,\"y0\":0.13,\"x1\":0.45,\"y1\":0.26,\"what\":\"Padmini's face (speaker)\"},{\"x0\":0.1,\"y0\":0.09,\"x1\":0.2,\"y1\":0.26,\"what\":\"Nagoji's face and turban, the stranger being eyed\"},{\"x0\":0.2,\"y0\":0.73,\"x1\":0.26,\"y1\":0.92,\"what\":\"Nagoji's boot in stirrup (scripted detail)\"}],\"dropped\":[\"Old zone …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "tighten ch9 page-02-panel-02",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a474f4ec678184bb9",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927095,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "I cut the keep zones from 26% to about 7.2% of the frame. T…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-02-panel-02-v02.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791380010276,
+      "tokens": 67654,
+      "toolCalls": 8,
+      "durationMs": 80055,
+      "resultPreview": "{\"keep\":[{\"x0\":0.445,\"y0\":0.27,\"x1\":0.545,\"y1\":0.415,\"what\":\"Padmini's face (speaker)\"},{\"x0\":0.535,\"y0\":0.55,\"x1\":0.62,\"y1\":0.74,\"what\":\"Padmini's right hand gripping the walking stick, knob to grip\"},{\"x0\":0.36,\"y0\":0.51,\"x1\":0.41,\"y1\":0.555,\"what\":\"Padmini's left hand on the saddle (dismounting)\"},{\"x0\":0.83,\"y0\":0.45,\"x1\":0.98,\"y1\":0.64,\"what\":\"Clerk face, palm-leaf bundle and stylus; Nair swo…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "tighten ch9 page-02-panel-04",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a6c3a6e4dec113ada",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927096,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "The new zones total about 8.9% (was 16%) and now cover both…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-02-panel-04-v02.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791380001934,
+      "tokens": 68567,
+      "toolCalls": 6,
+      "durationMs": 71713,
+      "resultPreview": "{\"keep\":[{\"x0\":0.35,\"y0\":0.15,\"x1\":0.45,\"y1\":0.33,\"what\":\"Nagoji's face and turban\"},{\"x0\":0.62,\"y0\":0.22,\"x1\":0.71,\"y1\":0.37,\"what\":\"Padmini's face (speaker)\"},{\"x0\":0.29,\"y0\":0.38,\"x1\":0.4,\"y1\":0.47,\"what\":\"Nagoji's hand holding the brass tumbler\"},{\"x0\":0.025,\"y0\":0.645,\"x1\":0.155,\"y1\":0.8,\"what\":\"Boots set side by side on the step\"},{\"x0\":0.85,\"y0\":0.17,\"x1\":0.97,\"y1\":0.4,\"what\":\"Drummers' sha…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "tighten ch9 page-02-panel-05",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a35e0a08c9f8f0849",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927097,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total protected area is about 8.6% of the frame. The floor …",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-02-panel-05-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379971508,
+      "tokens": 62435,
+      "toolCalls": 8,
+      "durationMs": 41287,
+      "resultPreview": "{\"keep\":[{\"x0\":0.24,\"y0\":0.56,\"x1\":0.46,\"y1\":0.85,\"what\":\"bare feet, gold anklet, indigo-gold sari hem on stone\"},{\"x0\":0.725,\"y0\":0.18,\"x1\":0.85,\"y1\":0.355,\"what\":\"Nagoji's face with tumbler and hand at mouth\"}],\"dropped\":[\"Old zone 0 trimmed: the upper sari folds and the strip to the right of the hem (x>0.46) are drapery, not the step; the floor below the heel (y>0.85) is left open for lettering…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "tighten ch9 page-03-panel-01",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a1755eaf6d7c96cd0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927097,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "I cut the keep zones from 42% to about 8.6% of the frame. O…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-03-panel-01-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379977608,
+      "tokens": 61162,
+      "toolCalls": 4,
+      "durationMs": 47387,
+      "resultPreview": "{\"keep\":[{\"x0\":0.225,\"y0\":0.075,\"x1\":0.39,\"y1\":0.5,\"what\":\"Revathi face, jasmine braid, coin necklace, armlets, clasped hands\"},{\"x0\":0.24,\"y0\":0.89,\"x1\":0.33,\"y1\":0.96,\"what\":\"Revathi's feet and gold anklet\"},{\"x0\":0.7,\"y0\":0.07,\"x1\":0.77,\"y1\":0.21,\"what\":\"Nagoji's face in profile\"}],\"dropped\":[\"Zone 0 (full figure head to anklet): a whole-body zone; replaced by a tight upper-body zone (face, jas…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "tighten ch9 page-03-panel-02",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a437932b04189b260",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927098,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total keep area fell from 13% to about 6%. That leaves the …",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-03-panel-02-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379979077,
+      "tokens": 63976,
+      "toolCalls": 10,
+      "durationMs": 48855,
+      "resultPreview": "{\"keep\":[{\"x0\":0.185,\"y0\":0.07,\"x1\":0.33,\"y1\":0.25,\"what\":\"Padmini's inclined head and face\"},{\"x0\":0.285,\"y0\":0.35,\"x1\":0.335,\"y1\":0.5,\"what\":\"Padmini's hand gripping walking stick\"},{\"x0\":0.64,\"y0\":0.1,\"x1\":0.79,\"y1\":0.27,\"what\":\"Revathi's bowed head, face and jasmine braid\"}],\"dropped\":[\"Padmini's shoulders and the gap between her head and hand (zone 0 split in two): the bow reads from the head…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "tighten ch9 page-07-panel-01",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a242e5bbee020dff9",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927099,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Two zones now cover about 4.4% of the frame. I merged the h…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-07-panel-01-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379963906,
+      "tokens": 60538,
+      "toolCalls": 5,
+      "durationMs": 33684,
+      "resultPreview": "{\"keep\":[{\"x0\":0.34,\"y0\":0.56,\"x1\":0.455,\"y1\":0.8,\"what\":\"Revathi's pointing hand and fingertip on the stone\"},{\"x0\":0.35,\"y0\":0.08,\"x1\":0.445,\"y1\":0.25,\"what\":\"Revathi's face (speaker)\"}],\"dropped\":[\"Zone 1 (pointing forearm and hand): overlapped zone 0, and the upper forearm and shoulder are not needed for the action. Kept only the hand, merged into the hand zone.\",\"Zone 2 (verandah stone where …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "tighten ch9 page-07-panel-02",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a95fb2740a2f8d631",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927099,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "I cut the keep zones from 12% to about 6% of the frame: Rev…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-07-panel-02-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379963415,
+      "tokens": 60872,
+      "toolCalls": 5,
+      "durationMs": 33193,
+      "resultPreview": "{\"keep\":[{\"x0\":0.27,\"y0\":0.22,\"x1\":0.43,\"y1\":0.5,\"what\":\"Revathi's head in profile and shoulders, turned south\"},{\"x0\":0.65,\"y0\":0.36,\"x1\":0.84,\"y1\":0.44,\"what\":\"distant hill ridge where land curves away\"}],\"dropped\":[\"Zone 0 lower part (y 0.5-0.6) and left margin: back/saree torso below shoulders is body, not needed for the turn\",\"Zone 1 foreground trees and wall (y 0.44-0.5, x 0.6-0.65 and 0.84-…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "tighten ch9 page-07-panel-03",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a8300be4514736ff6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927100,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "The zones now cover 11.2% of the frame, down from 23%, and …",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-07-panel-03-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379971281,
+      "tokens": 61035,
+      "toolCalls": 5,
+      "durationMs": 41059,
+      "resultPreview": "{\"keep\":[{\"x0\":0.06,\"y0\":0.14,\"x1\":0.34,\"y1\":0.42,\"what\":\"Nagoji's turban and profile\"},{\"x0\":0.6,\"y0\":0.29,\"x1\":0.81,\"y1\":0.45,\"what\":\"Revathi's face looking back over her shoulder\"}],\"dropped\":[\"Nagoji's shoulder and back below the neck (y 0.42-0.48): the white tunic is the main open area for stacking balloons, and the over-shoulder framing still reads from the head alone\",\"Revathi's lower turne…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "tighten ch9 page-07-panel-05",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a95b367315fadcb31",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927101,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "There is no lettering on this panel, so the plates-and-gap …",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-07-panel-05-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379963552,
+      "tokens": 61220,
+      "toolCalls": 9,
+      "durationMs": 33330,
+      "resultPreview": "{\"keep\":[{\"x0\":0.27,\"y0\":0.725,\"x1\":0.815,\"y1\":0.82,\"what\":\"both barely touched plates and cups with the empty stone gap between the mats\"},{\"x0\":0.18,\"y0\":0.21,\"x1\":0.255,\"y1\":0.325,\"what\":\"man's face looking away\"},{\"x0\":0.795,\"y0\":0.2,\"x1\":0.865,\"y1\":0.335,\"what\":\"woman's face looking away\"}],\"dropped\":[],\"note\":\"There is no lettering on this panel, so the plates-and-gap zone barely needed trim…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "tighten ch9 page-11-panel-01",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "ac5866eb688c11e2e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927101,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total down from 19% to about 7%; the open sky top-center/ri…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-11-panel-01-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379966362,
+      "tokens": 62545,
+      "toolCalls": 6,
+      "durationMs": 36140,
+      "resultPreview": "{\"keep\":[{\"x0\":0.25,\"y0\":0.025,\"x1\":0.35,\"y1\":0.16,\"what\":\"Padmini's face\"},{\"x0\":0.18,\"y0\":0.22,\"x1\":0.235,\"y1\":0.345,\"what\":\"Padmini's hand gripping walking stick\"},{\"x0\":0.58,\"y0\":0.2,\"x1\":0.68,\"y1\":0.36,\"what\":\"Nagoji's face\"},{\"x0\":0.555,\"y0\":0.83,\"x1\":0.82,\"y1\":0.955,\"what\":\"Nagoji's bare feet on the mat\"}],\"dropped\":[\"Padmini full-body zone [0.17,0.23,0.41,0.85]: replaced by tight face and …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "tighten ch9 page-11-panel-02",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "aad49dbd857ef8e04",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927102,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Added the missing zone for Padmini's face and trimmed the d…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-11-panel-02-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379967728,
+      "tokens": 61322,
+      "toolCalls": 9,
+      "durationMs": 37506,
+      "resultPreview": "{\"keep\":[{\"x0\":0.32,\"y0\":0.11,\"x1\":0.42,\"y1\":0.26,\"what\":\"Padmini's face, sideways glance toward the door\"},{\"x0\":0.84,\"y0\":0.36,\"x1\":0.93,\"y1\":0.72,\"what\":\"lit doorway interior with lamp (where Revathi went)\"}],\"dropped\":[\"Upper part of the doorway zone (y 0.10-0.36): only dark door frame and lintel. The lit lower opening is enough to show the empty doorway, so the top can take a balloon if neede…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "tighten ch9 page-11-panel-03",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a813487bde93ae154",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927103,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total is about 19.5%, mostly from the inset the script call…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-11-panel-03-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379987105,
+      "tokens": 66036,
+      "toolCalls": 11,
+      "durationMs": 56883,
+      "resultPreview": "{\"keep\":[{\"x0\":0.612,\"y0\":0.612,\"x1\":1,\"y1\":1,\"what\":\"inset: Nagoji's bare feet, boots on verandah step (whole)\"},{\"x0\":0.16,\"y0\":0.06,\"x1\":0.25,\"y1\":0.2,\"what\":\"Nagoji face\"},{\"x0\":0.42,\"y0\":0.13,\"x1\":0.52,\"y1\":0.25,\"what\":\"Padmini face\"},{\"x0\":0.73,\"y0\":0.2,\"x1\":0.83,\"y1\":0.4,\"what\":\"lead drummer, stick raised mid-beat\"}],\"dropped\":[\"zone 3 (lower-right inset duplicate): merged into zone 0 (inse…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "tighten ch9 page-11-panel-04",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "acc67ea949c6a078b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927103,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "One tight zone around the small figure, from turban to bare…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-11-panel-04-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379967674,
+      "tokens": 61090,
+      "toolCalls": 6,
+      "durationMs": 37452,
+      "resultPreview": "{\"keep\":[{\"x0\":0.34,\"y0\":0.58,\"x1\":0.47,\"y1\":0.815,\"what\":\"Nagoji, small full figure, face up, bare feet\"}],\"dropped\":[\"1: open laterite gate behind him. This is scenery, and it is large and low in the frame, so the sky lettering will not touch it. Protecting it only uses up budget.\",\"2: the hall ahead of him. This is scenery that fills the right side below the roofline. It is not a face, a hand o…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "tighten ch9 page-11-panel-05",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a70f0e9f174ddfb7d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927104,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total down from about 36% to about 6.3% of the frame. Top-l…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-11-panel-05-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379984252,
+      "tokens": 63425,
+      "toolCalls": 9,
+      "durationMs": 54030,
+      "resultPreview": "{\"keep\":[{\"x0\":0.213,\"y0\":0.1,\"x1\":0.323,\"y1\":0.28,\"what\":\"servant's face and cupped whispering hand\"},{\"x0\":0.355,\"y0\":0.033,\"x1\":0.452,\"y1\":0.196,\"what\":\"Nagoji's face and red turban\"},{\"x0\":0.702,\"y0\":0.072,\"x1\":0.776,\"y1\":0.188,\"what\":\"Padmini's face in the lit doorway\"},{\"x0\":0.31,\"y0\":0.85,\"x1\":0.54,\"y1\":0.94,\"what\":\"Nagoji's bare feet on the steps\"}],\"dropped\":[\"Zone 0 (whole servant figure…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "tighten ch9 page-12-panel-04",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "ae44c0d3549ae0b9b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379927105,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Three tight zones (about 9 percent of the frame) cover the …",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-12-panel-04-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379994737,
+      "tokens": 63926,
+      "toolCalls": 8,
+      "durationMs": 64515,
+      "resultPreview": "{\"keep\":[{\"x0\":0.43,\"y0\":0.34,\"x1\":0.585,\"y1\":0.53,\"what\":\"Revathi's pointing hand and hovering fingertip\"},{\"x0\":0.57,\"y0\":0.45,\"x1\":0.76,\"y1\":0.64,\"what\":\"fingertip gap, brand, lower scar\"},{\"x0\":0.74,\"y0\":0.27,\"x1\":0.87,\"y1\":0.46,\"what\":\"upper scar on inner forearm\"}],\"dropped\":[\"zone 2 [0.54,0.26,0.87,0.71]: duplicate of zone 1 (forearm, brand, gap); merged into the tightened brand/scar zones\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "tighten ch9 page-12-panel-05",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a5bcc4d7283c78403",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379963417,
+      "queuedAt": 1791379927082,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total down from 23% to about 4.2%; open lettering space sta…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch09-split/frames/page-12-panel-05-v01.png (Read it). To zoom, use Bash…",
+      "promptFramed": true,
+      "lastProgressAt": 1791379995067,
+      "tokens": 63327,
+      "toolCalls": 7,
+      "durationMs": 31650,
+      "resultPreview": "{\"keep\":[{\"x0\":0.195,\"y0\":0.05,\"x1\":0.25,\"y1\":0.25,\"what\":\"Revathi's face (speaker)\"},{\"x0\":0.28,\"y0\":0.8,\"x1\":0.318,\"y1\":0.94,\"what\":\"Revathi's dropped hand\"},{\"x0\":0.505,\"y0\":0.03,\"x1\":0.56,\"y1\":0.26,\"what\":\"Nagoji's face turning away\"},{\"x0\":0.69,\"y0\":0.07,\"x1\":0.745,\"y1\":0.37,\"what\":\"Padmini's face and hand on walking stick\"}],\"dropped\":[\"Zone 1 Nagoji's full body: whole-body zone, shrunk to h…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "tighten ch11 page-10-panel-01",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "ae8fbc7c1f14b43a5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379963553,
+      "queuedAt": 1791379927083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "About 3.9 percent total. The envoy's face was unprotected b…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11/frames/page-10-panel-01-v02.png (Read it). To zoom, use Bash with …",
+      "promptFramed": true,
+      "lastProgressAt": 1791380007026,
+      "tokens": 61391,
+      "toolCalls": 6,
+      "durationMs": 43473,
+      "resultPreview": "{\"keep\":[{\"x0\":0.38,\"y0\":0.25,\"x1\":0.45,\"y1\":0.38,\"what\":\"lead envoy's face and sidelong eyes\"},{\"x0\":0.29,\"y0\":0.43,\"x1\":0.35,\"y1\":0.53,\"what\":\"envoy's raised open right hand\"},{\"x0\":0.51,\"y0\":0.47,\"x1\":0.58,\"y1\":0.55,\"what\":\"envoy's spread open left hand\"},{\"x0\":0.84,\"y0\":0.31,\"x1\":0.95,\"y1\":0.48,\"what\":\"Velinadu women's faces, his eye-line target\"}],\"dropped\":[\"Old zone 0 (single hands box, 0.2…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "tighten ch11 page-10-panel-02",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "af9087863872c1f76",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379963907,
+      "queuedAt": 1791379927083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total about 4.5 percent; the canopy band (y<0.17) and the s…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11/frames/page-10-panel-02-v02.png (Read it). To zoom, use Bash with …",
+      "promptFramed": true,
+      "lastProgressAt": 1791380005246,
+      "tokens": 63930,
+      "toolCalls": 9,
+      "durationMs": 41339,
+      "resultPreview": "{\"keep\":[{\"x0\":0.465,\"y0\":0.225,\"x1\":0.555,\"y1\":0.365,\"what\":\"Revathi's speaking face, chin lifted\"},{\"x0\":0.4,\"y0\":0.45,\"x1\":0.46,\"y1\":0.55,\"what\":\"Revathi's raised speaking hand\"},{\"x0\":0.165,\"y0\":0.33,\"x1\":0.29,\"y1\":0.47,\"what\":\"two left listeners' faces turning to her\"},{\"x0\":0.755,\"y0\":0.29,\"x1\":0.82,\"y1\":0.425,\"what\":\"right listener's face turned to her\"}],\"dropped\":[\"Old zone 1 [0.09,0.31,0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "tighten ch11 page-10-panel-03",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a5e666512294762ab",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379966363,
+      "queuedAt": 1791379927083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Shrank the zone to the envoy's inclined head and hand-on-ch…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11/frames/page-10-panel-03-v01.png (Read it). To zoom, use Bash with …",
+      "promptFramed": true,
+      "lastProgressAt": 1791379988952,
+      "tokens": 60080,
+      "toolCalls": 4,
+      "durationMs": 22589,
+      "resultPreview": "{\"keep\":[{\"x0\":0.345,\"y0\":0.155,\"x1\":0.446,\"y1\":0.48,\"what\":\"lead envoy's bowed head and hand on chest\"}],\"dropped\":[\"Rest of the envoy's body (coat, waistcoat, legs): the bow reads from the inclined head and hand on chest, so the full body does not need protecting\",\"Hat held low (x~0.28-0.38, y~0.49-0.63): a minor costume detail that the beat does not depend on\"],\"note\":\"Shrank the zone to the en…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "tighten ch11 page-10-panel-04",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a1ebd0bd951f7dac1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379967675,
+      "queuedAt": 1791379927083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total about 6.5 percent; open lettering space remains in th…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11/frames/page-10-panel-04-v01.png (Read it). To zoom, use Bash with …",
+      "promptFramed": true,
+      "lastProgressAt": 1791379998242,
+      "tokens": 63627,
+      "toolCalls": 7,
+      "durationMs": 30567,
+      "resultPreview": "{\"keep\":[{\"x0\":0.07,\"y0\":0.16,\"x1\":0.18,\"y1\":0.55,\"what\":\"Revathi's jasmine braid\"},{\"x0\":0.57,\"y0\":0.17,\"x1\":0.66,\"y1\":0.32,\"what\":\"lead envoy face\"},{\"x0\":0.72,\"y0\":0.02,\"x1\":0.79,\"y1\":0.15,\"what\":\"young clerk face\"}],\"dropped\":[\"Zone 0 lower braid and sari (y 0.55-0.73): the jasmine cluster's top part identifies Revathi, and the sari is a large foreground mass that is not at risk\",\"Zone 1 envoy…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "tighten ch11 page-10-panel-05",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "aae97d5df276ed31d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379967728,
+      "queuedAt": 1791379927083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Both old zones were balloon areas, so I dropped them. The o…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11/frames/page-10-panel-05-v01.png (Read it). To zoom, use Bash with …",
+      "promptFramed": true,
+      "lastProgressAt": 1791379985214,
+      "tokens": 60179,
+      "toolCalls": 4,
+      "durationMs": 17485,
+      "resultPreview": "{\"keep\":[{\"x0\":0.37,\"y0\":0.13,\"x1\":0.54,\"y1\":0.35,\"what\":\"Revathi's face (listening expression, earrings)\"}],\"dropped\":[\"Zone 0 [0,0,0.32,0.19]: an envoy balloon area. Balloon areas are never keep zones, and the space is needed for the off-panel lettering.\",\"Zone 1 [0.59,0.02,0.94,0.24]: Revathi's reply balloon area. Balloon areas are never keep zones, and the space is needed for her lettering.\"],…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "tighten ch11 page-11-panel-02",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a187ca5e402711bb5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379970523,
+      "queuedAt": 1791379927083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total about 11 percent: three chief faces plus the hair sti…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11/frames/page-11-panel-02-v01.png (Read it). To zoom, use Bash with …",
+      "promptFramed": true,
+      "lastProgressAt": 1791380056751,
+      "tokens": 70464,
+      "toolCalls": 10,
+      "durationMs": 86228,
+      "resultPreview": "{\"keep\":[{\"x0\":0.16,\"y0\":0.2,\"x1\":0.29,\"y1\":0.41,\"what\":\"hair-stick chief: carved hair stick and face\"},{\"x0\":0.455,\"y0\":0.24,\"x1\":0.57,\"y1\":0.64,\"what\":\"gold-chain chief: face and layered gold chains\"},{\"x0\":0.77,\"y0\":0.25,\"x1\":0.87,\"y1\":0.4,\"what\":\"chief in white: face\"},{\"x0\":0.8,\"y0\":0.67,\"x1\":0.975,\"y1\":0.8,\"what\":\"chief in white: hands still on knees\"}],\"dropped\":[\"Zone 2 (chief in white tor…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "tighten ch11 page-11-panel-04",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "aaeefe593afab58f4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379971282,
+      "queuedAt": 1791379927083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Total is about 17.6 percent, above the 12 percent target, b…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11/frames/page-11-panel-04-v01.png (Read it). To zoom, use Bash with …",
+      "promptFramed": true,
+      "lastProgressAt": 1791380006163,
+      "tokens": 61310,
+      "toolCalls": 7,
+      "durationMs": 34881,
+      "resultPreview": "{\"keep\":[{\"x0\":0.22,\"y0\":0.15,\"x1\":0.335,\"y1\":0.34,\"what\":\"Ramayyan's face, eyes lowered (speaker)\"},{\"x0\":0.19,\"y0\":0.49,\"x1\":0.37,\"y1\":0.66,\"what\":\"stylus hand on palm-leaf bundle\"},{\"x0\":0.64,\"y0\":0.61,\"x1\":0.99,\"y1\":0.97,\"what\":\"wordless inset: chief's glance toward Ibrahim, whole\"}],\"dropped\":[\"No zone covered Ramayyan's face, so I added one because he is the speaker. Nothing was removed outr…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "tighten ch11 page-11-panel-05",
+      "phaseIndex": 1,
+      "phaseTitle": "Tighten",
+      "agentId": "a0dae4da564eeb819",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791379971510,
+      "queuedAt": 1791379927083,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "I cut the keep zones from 17% to about 9% of the frame. The…",
+      "promptPreview": "You tighten the protected \"keep zones\" on one comic frame. Lettering balloons may cover at most a third of any keep zone, and the zones are now so large (or wrongly placed) that the page's lettering cannot be placed. Do not edit any file.\nFrame: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11/frames/page-11-panel-05-v01.png (Read it). To zoom, use Bash with …",
+      "promptFramed": true,
+      "lastProgressAt": 1791380009821,
+      "tokens": 62147,
+      "toolCalls": 7,
+      "durationMs": 38311,
+      "resultPreview": "{\"keep\":[{\"x0\":0.25,\"y0\":0.16,\"x1\":0.33,\"y1\":0.33,\"what\":\"chief's speaking profile (face, moustache)\"},{\"x0\":0.09,\"y0\":0.29,\"x1\":0.28,\"y1\":0.48,\"what\":\"gold chains catching lamplight\"},{\"x0\":0.5,\"y0\":0.47,\"x1\":0.63,\"y1\":0.68,\"what\":\"chief's open speaking hand with gold bangle\"},{\"x0\":0.71,\"y0\":0.26,\"x1\":0.82,\"y1\":0.4,\"what\":\"Padmini Amma's face, head not turned\"}],\"dropped\":[\"Zone 2 (Padmini whole…"
+    }
+  ],
+  "totalTokens": 1574478,
+  "totalToolCalls": 177
+}

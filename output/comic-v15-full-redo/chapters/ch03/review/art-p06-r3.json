@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "scope": ["page-06"],
+  "status": "ready_for_independent_selection_review",
+  "selection_done": false,
+  "final_candidates": {
+    "page-06-panel-01": "v05",
+    "page-06-panel-02": "v07",
+    "page-06-panel-03": "v03",
+    "page-06-panel-04": "v07",
+    "page-06-panel-05": "v02"
+  },
+  "copy_fit_preflight": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 18,
+    "method": "compositor.copy_fit_measurements plus run_chapter.audit_reserve_pixels"
+  },
+  "native_review": {
+    "page-06-panel-01": {
+      "status": "pass_pending_root_review",
+      "notes": "Nagoji is left and Keshavrao right with other prisoners present. Nagoji image-right forearm is covered elbow to wrist, hand backs wrapped with fingers free, and ear has one tiny flush gold dot. Flooded hold and ordered blank reserves preserved."
+    },
+    "page-06-panel-02": {
+      "status": "pass_pending_root_review",
+      "notes": "Nagoji image-right forearm is continuously covered elbow to wrist and both hand backs are wrapped. Flooded hold, collars, wrist irons, and blank reserves preserved."
+    },
+    "page-06-panel-03": {
+      "status": "pass_pending_root_review",
+      "notes": "Previously reviewed flintlock priming pan and flooded hold candidate retained."
+    },
+    "page-06-panel-04": {
+      "status": "pass_pending_root_review",
+      "notes": "Wide horizontal flooded-hold composition at 2017 by 780 source pixels. Nagoji image-right forearm and both hand backs are visibly wrapped, collar is empty, and stud is a tiny flush dot."
+    },
+    "page-06-panel-05": {
+      "status": "pass_pending_root_review",
+      "notes": "Previously reviewed silhouette candidate retained with red sleeves removed."
+    }
+  },
+  "regenerations": [
+    {"frame_id":"page-06-panel-01","from":"v03","to":"v05","reason":"cover Nagoji image-right forearm elbow to wrist, wrap hand backs, keep flush stud, and order Others before Quickly reserves."},
+    {"frame_id":"page-06-panel-02","from":"v05","to":"v07","reason":"cover Nagoji image-right forearm elbow to wrist and wrap hand backs while preserving the flooded hold and restraints."},
+    {"frame_id":"page-06-panel-04","from":"v05","to":"v07","reason":"replace narrow source with wide full-width composition and restore continuous forearm and hand wrapping while preserving flooded below-deck staging."}
+  ],
+  "remaining_deviations": "None identified in this native review. Root must perform independent immutable selection review. No selection ledger was written."
+}

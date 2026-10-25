@@ -1,0 +1,31 @@
+== ch22-split first pass s1-a
+ "selected": 59,
+ "regenerate": 8,
+== ch22-split solve 15 pages
+layout ok; fills {'1': 0.98, '2': 0.98, '3': 0.98, '4': 0.98, '5': 0.98, '6': 0.98, '7': 0.98, '8': 0.98, '9': 0.98, '10': 0.85, '11': 0.7, '12': 0.85, '13': 0.75, '14': 0.98, '15': 0.98}
+== ch22-split assemble s1-b
+ "selected": 67,
+ "regenerate": 0,
+== ch22-split build r1
+{
+  "pdf": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch22-split/pdf/Horse-of-the-Servant-V15-Chapter-22-r1.pdf",
+  "sha256": "d312c3e5e3f6a97639220343179e3386da4883f0ff45dc0d936a1c82b9462485",
+  "minimum_ppi": 310.1827518061178,
+  "median_ppi": 562.1654593976363,
+  "script_chunks": 104
+}
+6 keep-zone overlaps >= 10%
+   ('page-03-panel-03-v01', 1, 0, 0.23)
+   ('page-03-panel-03-v01', 2, 0, 0.31)
+   ('page-10-panel-04-v01', 0, 2, 0.2)
+   ('page-11-panel-03-v01', 0, 1, 0.27)
+   ('page-11-panel-05-v01', 3, 1, 0.32)
+   ('page-12-panel-01-v01', 2, 2, 0.21)
+page 11 page-11-panel-01: art fills 70% of the slot, narrower than its slot
+page 11 page-11-panel-05: art fills 70% of the slot, narrower than its slot
+page 13 page-13-panel-01: art fills 77% of the slot, narrower than its slot
+page 10 page-10-panel-05: art fills 88% of the slot, narrower than its slot
+page 12 page-12-panel-01: art fills 89% of the slot, narrower than its slot
+page 12 page-12-panel-04: art fills 90% of the slot, narrower than its slot
+6 panels with bars
+== ch22-split done

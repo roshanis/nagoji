@@ -1,0 +1,1984 @@
+{
+ "schema_version": 2,
+ "chapter": 2,
+ "status": "lean_selection",
+ "tag": "d6-b",
+ "frames": [
+  {
+   "id": "page-01-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-01-panel-01-v03.png",
+   "sha256": "ac1c3321558a8d9d5d4c1b0ea547c02bfcc5cdffa6cd2a23e17d1e86506c830a",
+   "width": 2071,
+   "height": 759,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-01-erase-r1.txt",
+   "prompt_sha256": "02ebb15ddf35e215191f546b04ea86ba54798e9caedeeecfec6dd0fd6833a2be",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/11-joao-v15.png",
+     "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-eedfe6da-6cc9-401e-8118-eb61749fffb1.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-01.txt",
+   "base_prompt_sha256": "e7f2ef5a85814be21b9a667c18b41a42ac71b29e055c3d1afae979bf52784558",
+   "visible_rect": [
+    0,
+    0,
+    2071,
+    536
+   ],
+   "art_rect": [
+    0,
+    0,
+    2071,
+    759
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1424,
+      0,
+      2068,
+      134
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      525,
+      135,
+      959,
+      259
+     ],
+     "copy_indices": [
+      1
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1188,
+      308,
+      1877,
+      490
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      1174,
+      91
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v03 (the newest edit) with v02. v03 is clean, with no painted shapes left. Joao matches his sheet: bearded, ruddy, brown jerkin over a cream shirt, wide belt and key ring. The three guards wear morions or a broad black hat. Nagoji is in the foreground in three-quarter back view with his head lifted, and has the moustache, clean chin with light stubble, gold ear stud, collar with side ring, bandaged wrists and hobbled ankles. The prisoners vary as scripted. There is clear stone wall at the top left for both captions and at the top right for Joao's balloon. The slit window is a little brighter than 'barely paler', which is minor. v02 has the same scene, but its painted boxes sit right against Joao's hair, so it is only the backup."
+  },
+  {
+   "id": "page-01-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-01-panel-02-v02.png",
+   "sha256": "f4f6fa480700613e44bcf61b191b0e39e97bbf5db2f8ec27a6c11c49f3f23448",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-02-erase-r1.txt",
+   "prompt_sha256": "bf94b59d9faeb00d8a3479c1d60b0c972c6c44e7c907539853bed3de74e47024",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/11-joao-v15.png",
+     "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-04db31ef-0cbb-409a-9ab8-2b9fae901736.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-02.txt",
+   "base_prompt_sha256": "9ebae5174c92c8314d92bfbb701f5296e26f3a7c7662c5fbfae6edfbe73c8512",
+   "visible_rect": [
+    0,
+    160,
+    1536,
+    722
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      644,
+      160,
+      1240,
+      278
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v02 (the newest edit) with v01. v02 is clean and Joao matches his sheet. The leather strip has notches only and no letters. Joao's lips are pursed, his eyes half-closed and his head tipped, so the humming reads. Minor departures in v02: he rouses the sleeper with a palm on the shoulder rather than a backhand cuff, and holds the strip up rather than tapping. The room is a vaulted arcade with an arched barred window, not the curved cellar wall and slit window of 1.1, but it echoes the tall barred window in 1.4. A small, blurred background guard wears a cocked hat rather than a morion or broad hat. None of this is serious enough to reject it. The upper-right stone pillar or the upper-left vault can take the caption. v01 is not acceptable as a backup because its painted caption box covers the top of Joao's head."
+  },
+  {
+   "id": "page-01-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-01-panel-03-v05.png",
+   "sha256": "82cd747451596b98cec619db91e2fe6c3f345c086bb52180b48355a30d660db1",
+   "width": 1424,
+   "height": 1105,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-03-erase-r1.txt",
+   "prompt_sha256": "56b295015749b93d8c51ffd9f02b2ef93c5f7584d9eaf5890fcbfe59dce4d8da",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/11-joao-v15.png",
+     "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-4d5c6b4b-93ef-40bd-ab91-5088b67726ff.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-03.txt",
+   "base_prompt_sha256": "4360ea202c322bab9246c070b3f8a2c177afe0afd9debb5f857fa686dbee30fc",
+   "visible_rect": [
+    0,
+    265,
+    1424,
+    1017
+   ],
+   "art_rect": [
+    0,
+    0,
+    1424,
+    1105
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      494,
+      265,
+      1063,
+      422
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      160,
+      625,
+      481,
+      1008
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      300,
+      345
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v05 (the newest edit) with v04. v05 keeps v04's composition exactly, with the painted boxes replaced by plain stone wall. Joao stands over Nagoji in front of the wall that carries the tally scratches, which are plain vertical strokes with no letters. Nagoji's face is correct: moustache, clean chin, gold stud, collar with side ring and bandaged wrists. A crouching guard in a morion works the long bar at the end of the row while Nagoji's own cuffs stay on, joined by a short hobble chain. The guard's hands are sound. A large empty wall above the figures takes the caption and Joao's balloon. Joao's back is beside the tally marks rather than squarely to them, which is minor."
+  },
+  {
+   "id": "page-01-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-01-panel-04-v04.png",
+   "sha256": "9d2bb0f4ace8e0099f24f96aa64bcbe28c6cf0971ad8579c69cf27e6d527d840",
+   "width": 1983,
+   "height": 793,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-04-erase-r1.txt",
+   "prompt_sha256": "c9607b1e2de33473f95a7eb860f0f97b1f7d45acb07ed95c0ff869c84a453a13",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/11-joao-v15.png",
+     "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-f1daa437-582f-4454-bb60-e1c57c69470b.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-04.txt",
+   "base_prompt_sha256": "8a5eac46e9c0518965444d900cdf8be5f313274631253d335e34faea7390ebc8",
+   "visible_rect": [
+    0,
+    103,
+    1983,
+    754
+   ],
+   "art_rect": [
+    0,
+    0,
+    1983,
+    793
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      494,
+      103,
+      1270,
+      255
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      475,
+      426,
+      1059,
+      578
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v04 (the newest edit) with v03. v04 is the same image with the painted boxes removed, and it is clean. Nagoji is half-risen with knees bent, bandaged hands braced on the wall (one flat, one fisted; the wrist chain keeps them together), a furrowed brow and a set jaw. He has the moustache, clean chin, ear stud and collar, and the hobble chain hangs between his bare ankles. Joao is walking away to the left. Hands and anatomy are sound. The dark upper wall, top centre and top left, takes both captions. There is a small reddish tie at Nagoji's waist that is not on the sheet, which is minor."
+  },
+  {
+   "id": "page-01-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-01-panel-05-v06.png",
+   "sha256": "a2d1942163d3eace1bcfd3e0c39f5e97fd033f80d8dfaa04b6dd1d6509601772",
+   "width": 2022,
+   "height": 778,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-05-erase-r1.txt",
+   "prompt_sha256": "2a62c6604093d0a0518c5e2bb04535a03adc0804e0256f4a4e789f2ad9ad2489",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-0604fa20-1426-4030-a9c0-3454e226230c.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-01-panel-05.txt",
+   "base_prompt_sha256": "49d30fcf7b85a48d8c9dcfa4bca1a8ba054195878364a3028b53a6333312fc47",
+   "visible_rect": [
+    0,
+    77,
+    2022,
+    514
+   ],
+   "art_rect": [
+    0,
+    0,
+    2022,
+    778
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      90,
+      257,
+      612,
+      384
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1444,
+      267,
+      1634,
+      426
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1601,
+      192
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v06 (the newest edit) with v05. v06 is clean, with the same composition as v05. Six prisoners are on one collar-to-collar chain at the foot of the stair, each with hinged collars, wrist manacles and hobbled ankles. Nagoji is at the right in three-quarter back view with his face in profile, and has the moustache, clean chin and ear stud. Keshavrao matches his ch2 lock (young, faint moustache, hacked short hair, grey-brown tunic, no stud) and is two men ahead, with his right hand curled at his hip around an absent grip. The guard has a morion, buff jerkin, club and dark breeches, with nothing red. Departures from the script: Keshavrao faces the camera instead of being seen from behind, and his head is turned forward (left), not a few degrees toward Nagoji. The guard walks in the gap between the grey-bearded man and Keshavrao, not between Keshavrao and Nagoji. Nagoji's wrist chain is hidden behind his body. The beat still reads, so I accepted it. The stone wall at the top left takes the caption, and the area at the top right beside the torch takes the small 'Rao.' whisper balloon. The older candidates v01 to v04 were not in this list; v02 and v03 also put the guard in red breeches."
+  },
+  {
+   "id": "page-02-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-02-panel-01-v09.png",
+   "sha256": "84cb277d19a23a3c20b9955eb4b23681f2c245e05cd4fbf4b9f70d731073999b",
+   "width": 2172,
+   "height": 724,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-01-fix-f1.txt",
+   "prompt_sha256": "bc9f02ae0538c77434ace721750af6640b8eb3ca8ed64f57f0f86023db97a7c2",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8df-2790-7363-ba08-6d2ac5d4aa4e/exec-dcb506f3-80a3-43ba-abdd-cffa033f3087.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-01.txt",
+   "base_prompt_sha256": "b8f9c9712bf17a306debfe4232cabef8f90c27c9d7fcfa0015d358851600f893",
+   "visible_rect": [
+    0,
+    0,
+    2048,
+    724
+   ],
+   "art_rect": [
+    0,
+    0,
+    2172,
+    724
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1071,
+      42,
+      1874,
+      217
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1736,
+      224,
+      2038,
+      337
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed: the five chained men now wear different torn, dirty, sleeveless rags (grey, dirty off-white, earth brown, grey-green, dun) with rips, holes and frayed hems, no sashes or matching tunics. Collars, the single collar-to-collar chain, manacles, ankle irons, bare feet, poses, the turning stair, the light and the arch with church and palms are unchanged from v08. All figures are seen from behind, so there are no readable faces. Minor: at high zoom the dark stone wall at upper left has squiggly mottled texture that reads as stone, not lettering; v08 has the same texture, and the captions will sit there anyway. Plain upper wall above the chain (x 0 to 0.6, y 0 to 0.33) gives room for both captions. Minor neighbour note: these varied rags are darker than the uniform cream cloth in 2.2, but the fix asked for this."
+  },
+  {
+   "id": "page-02-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-02-panel-02-v03.png",
+   "sha256": "f0091c857df649993a054967461edce4720c3ae9732e04ac025328bf2f2a33fd",
+   "width": 2092,
+   "height": 752,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-02-fix-f1.txt",
+   "prompt_sha256": "b0f0fb71f0e7a02e33684b773c029384e908719dda86d2d484bc6d926a2bae67",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+     "sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8df-2790-7363-ba08-6d2ac5d4aa4e/exec-32ab4829-707c-4f92-92b6-31b82fff15ab.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-02.txt",
+   "base_prompt_sha256": "298a23a7ad140b99dde4301a057403734d93070460eece3069ee90b41b3888a1",
+   "visible_rect": [
+    0,
+    80,
+    2092,
+    686
+   ],
+   "art_rect": [
+    0,
+    0,
+    2092,
+    752
+   ],
+   "reserves": [],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed: every front-row prisoner now wears a hinged dark iron collar, including the long-haired man raising his arm, and one heavy chain runs collar to collar across the row, from the man at far left, through the long-haired man, to the bald man, then the next two men and on to the man at far right. Wrist manacles, poses, rags, the guards, the white walls, the gate and the glare are unchanged from v02, and nothing new looks wrong. Duarte is tiny and alone in the gateway: black cassock with a standing collar, small cross, no white tab, broad round hat, matching his sheet at this scale. The musketeers wear plumed broad hats and buff leather with matchlocks and coiled matchcords, so they read as Portuguese, not British or Dutch. No painted text, gore or anachronism. The panel has no lettering."
+  },
+  {
+   "id": "page-02-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-02-panel-03-v04.png",
+   "sha256": "90a53717b63aed45c21269089ebed680c5a6b6dc05baedb3b6fa01457dbc3b0f",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-03-fix-f2.txt",
+   "prompt_sha256": "6381aa9419099f754db0cc12df4ccdd8faa166a81d957231358eb22edf8703d3",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+     "sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f91d-5809-7801-85b4-b13233313d70/exec-f4f032e3-ffaf-4db1-9170-05c0355bff9a.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-03.txt",
+   "base_prompt_sha256": "dd7d1e70f9e42a08a2d8b19799f4b09871ccaf5a9bf01dee3e4f86f9d6a36fd5",
+   "visible_rect": [
+    276,
+    0,
+    1536,
+    1024
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      378,
+      748,
+      919,
+      1024
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      926,
+      700,
+      1420,
+      905
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed. In v04 Duarte's hat is now crisp, solid black with a flat crown, stiff level brim and a plain black band. It matches the hat in 2.4 (v02/v03) and the hat carried in 2.5, and the grey and brown mottling from v03 is gone. A pixel diff against v03 shows the changes are confined to the hat. Elsewhere there is only negligible re-render noise (satchel texture, hand stains), and nothing got worse: same face, grey curls, cassock with standing collar and no tab, cross, satchel, gate, guards and Goa skyline. Nagoji matches his bible row: thick curled moustache, clean-shaven chin with light stubble, small gold ear stud, iron collar and chain, torn ochre tunic. His left arm is not shown. There is no painted text, noose, gore or anachronism. Minor issues carried over from v03: the ink stains on Duarte's right hand are heavy blotches, and the 'chain shuffling past the gate' shows only as Nagoji's collar chain, with no other prisoners. For the two captions, the clearest space is the top band: the top-right sky and grille, and the top of Nagoji's hair at top left, both clear of faces."
+  },
+  {
+   "id": "page-02-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-02-panel-04-v03.png",
+   "sha256": "7726dfbf52d61caffeb7ba5bbf007ec21fa86d6d623ffcd398b6e371741de2f0",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-04-erase-r1.txt",
+   "prompt_sha256": "abbc24e3d2dbb981703f9e1cb7ccbf3eb31a7e2694152958a92fa0dfb1ed91ce",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+     "sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-78f844ec-85fe-45b9-aeea-155f5905f4c0.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-04.txt",
+   "base_prompt_sha256": "1c740b509d025275cf2932a164f16b6b13ee7ddd39e96a7c83daf79a157dad54",
+   "visible_rect": [
+    216,
+    0,
+    1453,
+    1024
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      216,
+      0,
+      724,
+      213
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v03 (edited) with v02. The art is the same, and v03 fills the painted box area with clear sky. Tight on Duarte, eyes lowered, jaw set. His ink-stained right hand is raised at his chest with two fingers extended, midway through a small blessing. The hand anatomy is sound. Standing collar with no white tab: the small sliver at the collar gap is skin-toned, not a white tab. Small cross on a chain. Captions fit in the clear blue sky at upper left. No text. Minor continuity issues: (1) The background is a honey-coloured laterite gate with wooden doors, not the dark grilled gate of 2.3. (2) The hat is a clean black hat with a band, while 2.3 shows a weathered brown-black one."
+  },
+  {
+   "id": "page-02-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-02-panel-05-v03.png",
+   "sha256": "0238a163c2e8430b5f09bc8e95d10990fa763f00c0a182153add740f6ddb46cf",
+   "width": 2146,
+   "height": 733,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-02-panel-05.txt",
+   "prompt_sha256": "c1515a8ce6cf540567a10fbac54ece53f1c5353f797fb4909ad940afcaa4ea9f",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+     "sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f287-284d-7291-b8fd-a978f6d9494b/exec-154e0478-60c7-4fd4-b929-c56bc9a087ba.png",
+   "visible_rect": [
+    21,
+    6,
+    2139,
+    727
+   ],
+   "art_rect": [
+    7,
+    6,
+    2139,
+    727
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      21,
+      16,
+      871,
+      197
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      21,
+      598,
+      1065,
+      719
+     ],
+     "copy_indices": [
+      1
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1081,
+      596,
+      2128,
+      721
+     ],
+     "copy_indices": [
+      2
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v04 (edited) with v03. Face, door and Duarte are identical, but v04 is not acceptable. Removing the bottom boxes revealed Nagoji seated with knees drawn up and forearms resting on them. This contradicts the script beat ('the collar chain pulling him on') and his standing pose in 2.3. It also shows bandaged wrists with no iron manacles, which the chapter 2 bible row requires. In v03 the painted bottom boxes hide the knees and wrists, and the letterer's drawn captions will cover them. Those boxes cover only floor and lower forearms, no face or key action. Visible art in v03 is clean. Nagoji's profile is right: thick moustache, clean-shaven chin with light stubble, small gold ear stud, ochre rags, hinged collar with taut chain. Duarte's back goes through a half-open side door, with satchel and hat slung behind. The three captions should sit where the painted boxes are: the sky at top left and the bottom band. Caveat: the bottom-right caption must stay where it is painted so the seated knees and bare wrists stay hidden."
+  },
+  {
+   "id": "page-03-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-03-panel-01-v07.png",
+   "sha256": "b24dbe78008e8b9b0da6504e75b9e1be365a9d07d477ef66c12c018a970fb66e",
+   "width": 2172,
+   "height": 724,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-01-erase-r1.txt",
+   "prompt_sha256": "0d9483ecf0fc9cee218510ca9a49aef10dd35d150468248e457c3413e573ffc1",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-849a9695-be84-4198-bd5e-3b2218b557b3.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-01.txt",
+   "base_prompt_sha256": "0884d53b5e12c2f5f31bcd9420ef9ebdcac6909c147be856b55ee89575c43449",
+   "visible_rect": [
+    0,
+    0,
+    2172,
+    667
+   ],
+   "art_rect": [
+    0,
+    0,
+    2172,
+    724
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      0,
+      576,
+      130
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      384,
+      144,
+      1200,
+      274
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v07 (newest) with v06. v07 keeps v06's composition exactly and replaces the two painted caption boxes with wall, balconies and a lantern. It matches the script beat: a narrow lime-washed street with red tile roofs and wooden balconies. Two Hindu merchants in white turbans, white angarkhas and gold earrings stand blank-faced in separate doorways. Goan Catholics in European coats, tricornes and white veils cover their mouths, and the man on the right holds a rosary with a cross. The prisoners appear only as chained wrists and rag-clad backs, with no faces. There is no text and no gore, and the hands are sound. Minor points: one tiny background figure in a blue coat and tricorne could be read as a soldier, but he is too small to read as a VOC blue-coat. The wall lantern is fine in a Portuguese setting. Both captions can sit top-left on the yellow wall and doorway lintel (x 0.0 to 0.27, y 0.0 to 0.18) and top-right on the wall and balconies (x 0.65 to 0.85, y 0.0 to 0.2) without covering any face."
+  },
+  {
+   "id": "page-03-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-03-panel-02-v06.png",
+   "sha256": "8e9cf14147a3c632fc5093c708539fe8900ed5dbd62bddce39994dfadf5d7577",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-02-erase-r1.txt",
+   "prompt_sha256": "0005b44eaf26eb3009e9b7c0cbe381dd26f2c9fcc8a97fab3218549694682b3d",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-81e32c09-cc10-4bf3-9e06-0932c2ba63d6.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-02.txt",
+   "base_prompt_sha256": "253a92c0444d51ba279e35ca652d2b629271ebfcc7d9563c617e5e6fa9481b4a",
+   "visible_rect": [
+    0,
+    150,
+    1536,
+    936
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      75,
+      150,
+      358,
+      275
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      75,
+      588
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      336,
+      444,
+      939,
+      613
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      258,
+      535
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      0,
+      660,
+      631,
+      785
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      258,
+      535
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v06 (newest) with v05. v06 is the same composition with the three painted balloons and the long tail removed, and the sky refilled with clouds, gulls and pennants. Nagoji matches his sheet and the chapter 2 row. At zoom he has a thick curled moustache, a clean chin with light stubble at most, the gold ear stud, loose curly hair, the ochre tunic and cream dhoti, an iron collar with chain, and bandaged wrists in manacles. The ship has a black hull and a carved stern with painted saints, plain white pennants, no national flag and no lettering. The clerk wears a brown coat and a pale grey broad-brimmed hat, holds his ledger with the cover toward the viewer and is not a priest. The guards in morions with buff and white do not read as redcoats. Minor departures: Nagoji is large in the foreground rather than shown only by a small chain (true of every candidate), and the clerk has a sword hilt at his hip. The open sky top-left (x 0.0 to 0.38, y 0.0 to 0.22) holds all three balloons clear of faces. Speaker for line 0, 'behind': the head-clothed prisoner far left. Lines 1 and 2: the grey-bearded old prisoner beside Nagoji. v05 is the backup. Its painted tails point at the correct speakers (one off the left edge, one at the old prisoner), so it is acceptable, but the long painted tail would need covering."
+  },
+  {
+   "id": "page-03-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-03-panel-03-v06.png",
+   "sha256": "1e4b499cfeb7021a2b15725156b108730eea7250a57e59a8f8f74d6198f23843",
+   "width": 2172,
+   "height": 724,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-03-fix-e1.txt",
+   "prompt_sha256": "35de72acfa5970060ccefdc8c5210f56ff1d9d49fa98a03793c5ba5f8a9bb39a",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/11-joao-v15.png",
+     "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f824-d202-7eb1-8fb1-106c5ce4109c/exec-7a1cd8e3-7507-47af-bec3-90abbce70377.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-03.txt",
+   "base_prompt_sha256": "85382901918551d6a80a2a909216f792a8e8bfaa6c12c26efe4d125f4e841b45",
+   "visible_rect": [
+    0,
+    0,
+    2172,
+    724
+   ],
+   "art_rect": [
+    0,
+    0,
+    2172,
+    724
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      725,
+      174,
+      1387,
+      412
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      502,
+      282
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1520,
+      288,
+      1963,
+      418
+     ],
+     "copy_indices": [
+      1
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      555,
+      480,
+      1001,
+      600
+     ],
+     "copy_indices": [
+      2
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "The border fix worked. The lower-right inset now reads as a separate small panel. Its top edge is a dark line, an even white band about 7 px deep and an inner dark line, running from x 1243 to the right frame edge. Its left edge is built the same way and runs down to the bottom of the frame. No main-picture art shows under the band. No painted balloons or caption boxes remain anywhere. Apart from the removed boxes, v06 matches v04. Jo\u00e3o matches his sheet (curly hair, full beard, brown leather jerkin, cream shirt, belt with iron keys) and stands side-on at the foot of the gangplank, hauling the chain with both fists. Nagoji is on the plank in his ochre tunic and cream dhoti, with the iron collar, a bandaged right wrist with manacle, a thick moustache, a clean-shaven chin and the gold ear stud; his left arm is turned away. The other prisoners show only their backs. The ship's hand at the rail, in a shirt and red head cloth, takes the chain. The inset's feet, ankle cuffs, hobble chain, wet plank and glint of water are unchanged. One small flaw remains: a dim strip about 10 px high runs along the bottom of the inset under its left two-thirds. The letterer's border should cover it or make it read as a slightly thicker bottom rule. Lettering space: Jo\u00e3o's balloon fits in the open sky at upper left, above and left of his head. The inset's upper-right and lower-right areas (plain planks and some water, x about 0.83 to 0.99, y about 0.53 to 0.70 and 0.78 to 0.97) take the two short captions without covering the feet or cuffs."
+  },
+  {
+   "id": "page-03-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-03-panel-04-v06.png",
+   "sha256": "43692be9c447cfe82bff07b99dada3361502fd928dad67f86fc0640a386357b5",
+   "width": 2035,
+   "height": 773,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-04-erase-r1.txt",
+   "prompt_sha256": "1d18907d319348fce73387abd7cd57fb9f45ecd4fdc41f3e33d5724e9c7d17fd",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-64c3a9a5-37a6-4c83-a189-a88212a06217.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-03-panel-04.txt",
+   "base_prompt_sha256": "cb85121579d4fc5bcac557239e5476d7b743ff83c205df60fddbe67dfdb44490",
+   "visible_rect": [
+    0,
+    231,
+    2035,
+    773
+   ],
+   "art_rect": [
+    0,
+    0,
+    2035,
+    773
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1218,
+      399,
+      1959,
+      573
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v06 (newest) with v05. v06 is the same composition with the painted top caption box replaced by the canvas awning and open sky. Nagoji crouches at the lip of the open black hatch, looking back over his shoulder. At zoom: thick curled moustache, clean chin with light stubble at most, gold ear stud, hinged collar with a ring at the side, bandaged wrist in a manacle, ochre tunic, cream dhoti, left arm turned away. A Portuguese guard in a morion, buff leather jerkin and red sash drives the chain with a gloved fist. Two free lascars in shirts and head cloths haul a line, with no irons. Canvas is overhead, and beyond the rail are the small white town, the fortress and the hills. There is no flag and no lettering. The small distant ship shows no visible colours. The hands are sound. The single caption fits on the plain canvas top-left (x 0.0 to 0.45, y 0.0 to 0.14) or the open sky top-right (x 0.62 to 0.95, y 0.02 to 0.2), clear of faces. v05 is an acceptable backup: its painted box covers only the canvas."
+  },
+  {
+   "id": "page-04-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-04-panel-01-v02.png",
+   "sha256": "459028cfa786f92c791a8c39625c395463018461fdd3669f791a5f6962a78af4",
+   "width": 2170,
+   "height": 725,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-01.txt",
+   "prompt_sha256": "5f8aa1d79ef097c90cf9a5ab73376bcdf026410267f63e7eeccaca91ea0cc239",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f27c-7d1e-7841-ba2a-34c1b498a0b9/exec-557a74cc-9c6c-4854-8fe4-8ae618e4d4bb.png",
+   "visible_rect": [
+    0,
+    42,
+    2170,
+    494
+   ],
+   "art_rect": [
+    0,
+    12,
+    2170,
+    712
+   ],
+   "reserves": [],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Only v02 was offered (v01 is near-identical). It shows the beat: pens on both sides of the hold, collared and manacled prisoners in grey and brown rags, and a guard in a morion and buff jerkin carrying the lantern up the ladder toward a small square of daylight. No chain hangs taut and vertical above a head, and there is no text, gore or noose. Minor: (1) there is a white letterbox strip about 11 px deep along the top and bottom edges. Trim it when placing the image, or let the panel border cover it. (2) The collar chains run down to the manacles, and the overhead chains run from ring to ring, so no chain clearly goes from a collar up to a ring. This loosely misses the script's chain routing but breaks no hard rule. Nagoji is not individually identifiable, since no figure wears the ochre tunic, which is fine for this silent establishing shot."
+  },
+  {
+   "id": "page-04-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-04-panel-02-v07.png",
+   "sha256": "4428fe4111b567ad5edc608e76112730adc0815b68c9e64909768a828bfe4bca",
+   "width": 2066,
+   "height": 761,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-02-erase-r1.txt",
+   "prompt_sha256": "71696823c32f148bf543c1a2c7a86d2cc80d92b9f6b61075133dd8f2e8af1ff5",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-fba088e7-711d-43dc-baa2-bf7babf252be.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-02.txt",
+   "base_prompt_sha256": "378f5c1e82ba497416813af9964e9f280a7fae724c04b19822fd9624605af225",
+   "visible_rect": [
+    0,
+    57,
+    2066,
+    590
+   ],
+   "art_rect": [
+    0,
+    0,
+    2066,
+    761
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1455,
+      57,
+      2063,
+      181
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1276,
+      189,
+      2057,
+      366
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v07 with v06. v07 is v06 with the two painted caption boxes removed. The only changes are in the two box areas, and there is no ghost rectangle or seam. It is a tight insert of the plank, with rough gouged crosses, diamond strokes and small circles, and no letter-like marks. A right hand (so the brand question does not arise) has the index and middle fingertips bandaged and rests on the marks. The wrist is bandaged under a chained iron manacle, and the anatomy reads correctly. The open wood on the left and upper right leaves room for both captions. The wood has a slightly blocky upscale texture, which is cosmetic."
+  },
+  {
+   "id": "page-04-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-04-panel-03-v06.png",
+   "sha256": "54f08dbaef24b3b4e4ac3058bd82dd3e6adb092c72c92219c9cd500f8bbb2051",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-03-erase-r1.txt",
+   "prompt_sha256": "4cff9aec9210b4c019bb9c9bb9c6ce1e3ab3f77aa185ff8175ddb357a813da6b",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-a51cbbe9-b9a4-48d0-bfcc-d0695c57b4fb.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-03.txt",
+   "base_prompt_sha256": "4c09c90833d3ba06416b6ef616c20f8a04760ab7d20bd8f3c79f8e608d9c15dd",
+   "visible_rect": [
+    311,
+    0,
+    1225,
+    1024
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      804,
+      51,
+      993,
+      189
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      919,
+      340
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      807,
+      527,
+      1168,
+      779
+     ],
+     "copy_indices": [
+      1
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      710,
+      798,
+      1090,
+      955
+     ],
+     "copy_indices": [
+      2
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v06 with v05. Faces, upper bodies, chain and setting are pixel-identical. v06 removes the painted balloon and redraws the lower third, where v05 had a painted caption box, as more dhoti. The new dhoti gives a large low-detail area at the bottom for the two captions, with beam space at upper right for the 'Sahib.' balloon. Both men match their sheets. Nagoji is on the left with a thick curled moustache, clean chin with light stubble, gold ear stud, long curly hair and ochre tunic. His left forearm is fully bandaged, so the brand is hidden. Keshavrao is on the right with short ragged hair, a faint moustache and a grey-brown tunic, and his head is turned to Nagoji. One slack chain links both collars to the ring on the right post. Minor: (1) a lit glass lantern hangs at the left, and the scene is warmly lit rather than 'in the dark' just after 4.1's lantern left. All candidates share this, and it is plausible for a Portuguese hold. (2) Keshavrao's wrists show no manacles here, though 4.4 shows his chained fists. (3) A small fragment of a fist peeks out between Keshavrao's knees at the bottom edge (about x 0.78, y 0.98). It is inherited from v05, and the bottom caption will likely cover it."
+  },
+  {
+   "id": "page-04-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-04-panel-04-v08.png",
+   "sha256": "ab7a919d3f5ebb6358f7f347adfdff1cba857c5698c81bc9da04f8a4b104c09e",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-04-fix-f1.txt",
+   "prompt_sha256": "fa86834ab51c26a25b935647ba2940fa4f3ac208c8a84f198bb361d003a414fa",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8df-2790-7363-ba08-6d2ac5d4aa4e/exec-8cca83a9-684c-4814-9cef-08e9d9ca288b.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-04.txt",
+   "base_prompt_sha256": "b63ca565b1591ace1a69a5906b473c0863caf1deafc12b85fd0c2dafdf75a178",
+   "visible_rect": [
+    478,
+    4,
+    1383,
+    1018
+   ],
+   "art_rect": [
+    6,
+    4,
+    1530,
+    1018
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      648,
+      293,
+      1048,
+      429
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      570,
+      369
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      869,
+      497,
+      1088,
+      633
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1217,
+      466
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "The 4.4 chain fix worked in v08. One gently sagging chain now runs from Nagoji's collar to Keshavrao's collar. It continues from behind Keshavrao's neck up to the iron ring on the post at the right, which matches the chain in panel 4.3. The ring and chain at the top-left are gone, and so is the straight chain that ran from the front of Nagoji's collar down to his manacles. A pixel diff against v07 shows the edit only touched the chains. Faces, poses, bandages, wrist and ankle irons, barrels, the hold and the light are all unchanged. Nagoji still matches his sheet: thick curled moustache, clean-shaven chin, small gold ear stud, loose curly hair, ochre rags. Keshavrao still has short ragged hair, a faint moustache and the grey-brown tunic, and he is bent over with his chained fists at his mouth in the laugh-cough. There is no painted text, balloon, noose or gore. Hands are sound. The beamed ceiling above both heads has room for both balloons. Small notes: the chain joins Nagoji's collar at the side rather than at the front ring shown in 4.3. It also hangs a little tauter than \"slack\", but it does sag visibly. v07 is kept as the backup only. It still has the old chains: chains rising to the top corners, a chain from Nagoji's collar down to his manacles, and no chain linking the two men."
+  },
+  {
+   "id": "page-04-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-04-panel-05-v05.png",
+   "sha256": "6bad4a4d9c2e4d7d73f174305b974078b984324710b0e7a961db3c07f3d49b4e",
+   "width": 1942,
+   "height": 809,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-05-erase-r1.txt",
+   "prompt_sha256": "e751f8a271c16c1f190b9f46549e68316e69a099a8026ff218dbed25328f86ff",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-8e4e4750-13c1-4a6a-ad7e-ee67c9250508.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-04-panel-05.txt",
+   "base_prompt_sha256": "a467a7c2ea3dc15de3f63b5c068b55d3a26dcb1fd7470fbf1e2d3733acd28082",
+   "visible_rect": [
+    0,
+    71,
+    1942,
+    809
+   ],
+   "art_rect": [
+    0,
+    0,
+    1942,
+    809
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      756,
+      281,
+      1223,
+      397
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1311,
+      527,
+      1901,
+      685
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1359,
+      809
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v05 with v04. v05 removes the painted caption box at top left and the balloon at bottom right, and both areas are cleanly repainted as beam and plank with no remnant shapes. The rest is unchanged. It is a straight-up view through the open hatch to blue sky crossed by shrouds, ratlines and the mast, with one white gull. There are no figures and no text. The top-left beam and sky corner hold the caption, and the plain planking along the bottom holds Keshavrao's off-panel balloon, whose tail goes to the bottom edge. Minor: the hatch reads as close overhead rather than 'far above', and the sky is brighter than the pale daylight square in 4.1. Both are acceptable."
+  },
+  {
+   "id": "page-05-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-05-panel-01-v11.png",
+   "sha256": "1736a07b6d02c98baba3d094aa1206030af61651ae311c76d848a228ad93964e",
+   "width": 2169,
+   "height": 725,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-01-erase-r1.txt",
+   "prompt_sha256": "b4cffb7529f453538c898beefc7bec8c296235fdb26969a845992a2d02f10b16",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-00a42255-54bd-4119-a2e9-9ecd4b24fc74.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-01.txt",
+   "base_prompt_sha256": "04ea7723c5a98bef7feb162eec6a59f749fddfcdf33ab43b67895b9c21521f97",
+   "visible_rect": [
+    0,
+    152,
+    2169,
+    576
+   ],
+   "art_rect": [
+    0,
+    0,
+    2169,
+    725
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      720,
+      152,
+      1277,
+      314
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      623,
+      295
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1640,
+      152,
+      2140,
+      480
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1542,
+      397
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      840,
+      412,
+      1470,
+      574
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      1542,
+      397
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v11 (newest) with v10. v11 is the same art as v10 with the three painted balloons replaced by a coherent ceiling of beams; faces, costume, chains and lighting are unchanged, so v11 is picked. Nagoji matches the sheet: thick curled moustache, clean chin, gold stud, ochre tunic, bandaged hands and wrists, collar, manacles, ankle irons. Keshavrao matches his: short ragged hair, faint moustache, grey-brown tunic, no stud, eyes down. The ceiling band above both heads (about y 0 to 0.24) is free for the three balloons. Minor points: (1) the barrel band at the far right edge (about x 0.93 to 0.97, y 0.55 to 0.66) has ornament that looks a little like letters when zoomed in. It cannot be read at print size, but a retouch to plain hoops would be safer. (2) The collar chain droops to a ring on the centre post between the two men, not off to one side as the script says. It is slack and not above a head."
+  },
+  {
+   "id": "page-05-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-05-panel-02-v11.png",
+   "sha256": "a38705be3bc164fc3d83f42fa7c7a1e04d9488801c297e3ce503cf2753c7ea4c",
+   "width": 2167,
+   "height": 726,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-02-erase-r1.txt",
+   "prompt_sha256": "13015ab3c915915b0e472d052903bcfc014bf96a321766a1401487f95acea714",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-4c065381-b3c7-4859-861e-d208d511d413.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-02.txt",
+   "base_prompt_sha256": "6bd5446d7c25eaacb2136b39651852bb53c8e7b5c1dcb99ca3e60cf443853e26",
+   "visible_rect": [
+    0,
+    123,
+    2167,
+    668
+   ],
+   "art_rect": [
+    0,
+    0,
+    2167,
+    726
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      672,
+      291,
+      1314,
+      630
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1344,
+      251,
+      2119,
+      511
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v11 (newest) with v10. v11 removes v10's two painted boxes, extends the memory inset's edge and fills the gap with hold timber and barrels. Present-day Keshavrao, the memory rider, the bay horse and the sheathed sword at the hip are unchanged, so v11 is picked. Keshavrao (short ragged hair, faint moustache, grey-brown tunic, collar, manacles, head down, knees drawn up) matches his sheet. The memory shows long loose hair, a white angarkha with a sash, a sheathed sword, a bay horse, mouth open in song, and musket smoke. The dark hold between the figure and the inset (about x 0.30 to 0.48, y 0 to 0.35) and the inset sky are clear for the two captions. Minor deviations kept from r1, all rated minor or refuted in the five-lens review: the inset takes about half the panel and has a fiery orange edge rather than a soft stained one; a fort, ships and a church appear behind the smoke; and a lit, paned opening shows in the hold background (about x 0.44, y 0.5)."
+  },
+  {
+   "id": "page-05-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-05-panel-03-v09.png",
+   "sha256": "28f80561004375b795a2813d4ff146377dc528247aac0268fca473a8769dd861",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-03-fix-r2.txt",
+   "prompt_sha256": "788f8237e2cb992341e40998ce295212ec2c5aac54b7935f82d15d84f6021e9f",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-fd0cdd9c-e525-4aaa-a2cf-1c7ddc4718b5.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-03.txt",
+   "base_prompt_sha256": "e66c67603a0c0c6e6639380babc33a0163c147a00bb35422f439722be291df03",
+   "visible_rect": [
+    0,
+    180,
+    1536,
+    642
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      46,
+      180,
+      416,
+      626
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      565,
+      357
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1140,
+      180,
+      1514,
+      489
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1051,
+      438
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      580,
+      480,
+      963,
+      640
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      565,
+      357
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v09 (newest), v08 and v07. v08 has the right faces but sets them in a stone dungeon with a barred window, which is wrong for the ship's hold. v09 keeps v08's two-shot and moves it into a timber hold with berths, a post with a ring, a lantern and a hatch grating. That matches 5.1 and 5.4, so v09 is picked. Nagoji (left) has the curled moustache, a clean chin with light stubble, a gold stud, ochre tunic, collar and chained manacles, and is steady. Keshavrao (right) has short hair, a faint moustache, grey-brown tunic, no stud, and a tired half smile. Hands are sound, nothing reads as text, and the post chain hangs beside the heads, not above them. Notes: (1) Nagoji's hands are bare with only wrists and forearms bandaged; 5.1 and 5.4 show wrapped hands (minor continuity). (2) v09 is 1536x1024 (3:2) while LAYOUT.json gives 5.3 an 85 pt strip row, so the row must be refitted to the frame. (3) Room for lettering is tighter than in the strip versions. Suggested placement: NAGOJI 1 top-left over the background berths (only dim extras covered), KESHAVRAO above his head (about x 0.64 to 0.90, y 0 to 0.2), and NAGOJI 3 lower on the dark post between the heads (about x 0.45 to 0.62, y 0.3 to 0.5), with the tail pointing left. No backup: v08's setting is wrong, and in v07 the painted tail of the third balloon runs through the middle balloon and ends on Nagoji's forehead, the connector fault confirmed in the r1 review, and that line would stay visible after lettering."
+  },
+  {
+   "id": "page-05-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-05-panel-04-v09.png",
+   "sha256": "fe25990a12a10588e95a3e288bfdf08b9e4e9e7d13f515d9dfab5d22c02674e5",
+   "width": 2172,
+   "height": 724,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-04-erase-r1.txt",
+   "prompt_sha256": "8c13e03fc933d9e5e5be846408034ea4b3f400ac3246ef96e10ec022e6f095ba",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-9d649c1c-d8ec-4aa2-bcf9-5f29e2884009.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-04.txt",
+   "base_prompt_sha256": "71d7cb2e1d57deb3f9ae5577fa1f725a4804d5af1165b01272a57057f4a7ec62",
+   "visible_rect": [
+    5,
+    43,
+    2172,
+    710
+   ],
+   "art_rect": [
+    5,
+    0,
+    2172,
+    724
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      396,
+      230,
+      1218,
+      367
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      599,
+      439,
+      1491,
+      705
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1412,
+      43
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Compared v09 (newest) with v08. The art is identical, except that v09 replaces v08's painted caption box (top-left) and speech balloon (top-right) with berths of prisoners. Nagoji, Keshavrao, the trough, the casks, the grating and the light are unchanged, so v09 is picked. The beat is all there: grey light through the hatch grating, a trough of rice and dried fish, casks, coughing men slumped on the berths, and the pair in the middle distance (Nagoji left, Keshavrao right) in collars, manacles and hobbled ankles. Nagoji has a clean chin, curled moustache and gold stud. Keshavrao keeps his young face and faint moustache. Lettering: the caption fits top-left over background berths or the ceiling (about x 0.35 to 0.5, y 0 to 0.12). The SAILOR balloon fits by the grating (about x 0.52 to 0.75, y 0 to 0.28), with its tail running up through the grating to the top edge, clear of Keshavrao's face. Minor: a few background prisoners on the upper berths wear blue cloth (the script asks for grey, brown and off-white); the posts and beams have scribbly, glyph-like grain that cannot be read at print size; the hanging chain loops on a post (no noose shape)."
+  },
+  {
+   "id": "page-05-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-05-panel-05-v10.png",
+   "sha256": "60eb829d8689eec9711a4bef81d908a237554a2db3f999faa78e6e52dd89f946",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-05-fix-e1.txt",
+   "prompt_sha256": "7af8c7acd091160bb7cdcf2e2d8949cb0d7b1b06f179aefa432e28857b3f3d83",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f895-a4b9-7691-8685-d1e135528d96/exec-a8fa1bbd-a4a7-4b46-b2c1-5ac0240844e4.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-05-panel-05.txt",
+   "base_prompt_sha256": "4a71b41fc1242ae60daadee52bc5f6ef6406a8a320dcb444a7e64932afc90368",
+   "visible_rect": [
+    0,
+    0,
+    1536,
+    793
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      572,
+      0,
+      953,
+      179
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      598,
+      297
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1258,
+      0,
+      1534,
+      323
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1029,
+      166
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      368,
+      579,
+      500
+     ],
+     "copy_indices": [
+      2
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1035,
+      345,
+      1522,
+      470
+     ],
+     "copy_indices": [
+      3
+     ],
+     "tail": [
+      1029,
+      166
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "The fix worked. v10 is the same image as v09 except at the top right. The sailor in the red headscarf is gone, and the sky, clouds and rigging lines now continue cleanly behind the hatch coaming. I see no smear, ghost or seam there. A pixel diff shows that only that area changed in any real way. Everything else differs by small scattered noise from re-encoding. The officer in the tricorn, the laughing sailor at top left (red headscarf), SAILOR 2 (yellow headscarf), Nagoji and the prisoners are all unchanged. Nagoji matches the chapter 2 bible: thick curled moustache, chin clean-shaven apart from light captivity stubble, long curly hair, iron collar with a side ring, bandaged wrists, chained manacles, torn ochre tunic and cream dhoti. Two minor points carry over from v09, and neither is grounds for rejection. First, his ear-lobe stud is small and reads as skin-coloured rather than clearly gold. Second, the rust-brown marks on the dhoti read as grime, not blood. The setting is an up-angle through the open hatch at a bright sky, as the script asks. There is no painted text. Lettering space: open sky between SAILOR 2 and the officer (about x 0.38 to 0.64, y 0 to 0.24) for SAILOR 2's line and the officer's first line. The sky to the right of the officer (about x 0.73 to 0.85, y 0.05 to 0.25) is newly cleared for his second line. The caption fits on the dark hatch beam or in the top-left corner."
+  },
+  {
+   "id": "page-06-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-06-panel-01-v08.png",
+   "sha256": "cd8a756bea97cc9db6a6130bcbe007eee58f630e12a601b3d497132027492f52",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-01-moderated-r1.txt",
+   "prompt_sha256": "b286ad5cd6002d728c933c3bcc1a9d7ca88951ea90a09699d21d2e73d1f41a84",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4ff-2736-71c3-8129-694da8d6917d/exec-2df693ac-70ee-43f6-ab36-6b34498c9760.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-01.txt",
+   "base_prompt_sha256": "17fa7a53d7bcf015322f718f4ac5624abb83aff00cd0c005b976d0b76bc37cd2",
+   "moderated_rewrite": true,
+   "visible_rect": [
+    303,
+    0,
+    1536,
+    1024
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      688,
+      0,
+      1256,
+      287
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      895,
+      400
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      303,
+      460,
+      771,
+      834
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      585,
+      292
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only. Nagoji's extended leg at the bottom-left frame edge shows the ankle with no visible iron (the foot is cropped by the frame, and the hobble chain runs from Keshavrao's ankles under Nagoji's dhoti). The hold reads dim amber with bright plank-seam slits rather than truly near dark. Otherwise clean: Nagoji has a curled moustache, a clean chin with light stubble and the gold ear stud. Keshavrao has short ragged hair, a faint moustache, a grey-brown tunic and no stud; he shivers with his knees drawn up. One slack chain runs from the beam ring to Nagoji's collar and on to Keshavrao's collar. The frame is canted, the dipper hangs off true from its peg and the trough sits at the right. There is no painted text. The top band of ceiling beams is clear for both balloons (Nagoji's above his head at upper left-centre, Keshavrao's at upper right, clear of the dipper). v07 is the identical image with painted balloons whose tails point at the correct speakers."
+  },
+  {
+   "id": "page-06-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-06-panel-02-v08.png",
+   "sha256": "9b1e51564a250f1797e698abb2a9a1130c13e1aa38730e73ed90fedaff18e235",
+   "width": 1492,
+   "height": 1054,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-02-fix-d1.txt",
+   "prompt_sha256": "6d999c6bfa2ba1d66b5da987823936b67e535b23dff4e10d5e5182b9bd71910e",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f505-9e67-7ed2-a1f9-5be948ab36d9/exec-54e005b7-44f3-4b80-9d41-d658ebbf1178.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-02.txt",
+   "base_prompt_sha256": "d7ab207c7ce164a1760f96af6fbc0b545078ab82f5b01f844b94cff2ffec0608",
+   "visible_rect": [
+    0,
+    0,
+    1269,
+    1054
+   ],
+   "art_rect": [
+    0,
+    0,
+    1492,
+    1054
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      624,
+      336,
+      1269,
+      721
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      574,
+      267
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean. The collar chain now leaves the collar ring below the chin and droops slack to a ring on the hull planks. Keshavrao has a faint moustache, short ragged hair and no ear stud, his face turned toward the hull. His manacled right hand is half-curled at his hip and his left hand rests on his knee, with the wrist chain slack across his lap. The ankle cuffs have a hobble chain and the hands are sound. The large plank wall at right gives clear space for the balloon. Minor: the left hand lies on the knee rather than right beside the right hand, and the wrist chain is a little longer than a forearm. v07 is not usable as a backup because its collar chain runs through his mouth and chin."
+  },
+  {
+   "id": "page-06-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-06-panel-03-v06.png",
+   "sha256": "a092a3e5b01470ae2e07da649683b4c1b32ff20a6d756698a4367d7c0a99782c",
+   "width": 1491,
+   "height": 1055,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-03-erase-r1.txt",
+   "prompt_sha256": "9af1d43d9e9ba8c341fb195ac763b97bf07d020bfcd365f063eb4a96776c9b55",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-6fd066ea-e278-48aa-9ef8-f03fe9cb34b2.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-03.txt",
+   "base_prompt_sha256": "466b66ced7184318eed2197a63883a1e6e74d4bacf41dd9d22af9b14840d27b1",
+   "visible_rect": [
+    0,
+    218,
+    1491,
+    696
+   ],
+   "art_rect": [
+    0,
+    0,
+    1491,
+    1055
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      70,
+      218,
+      603,
+      301
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      100,
+      308,
+      565,
+      391
+     ],
+     "copy_indices": [
+      1
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      16,
+      410,
+      531,
+      538
+     ],
+     "copy_indices": [
+      2
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v06 (newest) with v05. In v06 the three painted caption boxes are cleanly replaced by plain dark hull planks; a contrast-stretched check shows no leftover box edges. The pixel difference shows the right half, with the face, is unchanged from v05. Nagoji matches his sheet: thick curled moustache, clean chin with light stubble, small gold ear stud, loose curly hair, iron collar with its chain off to the side, torn ochre tunic. The expression is still and heavy, as the script asks. The left 40 percent of the frame is low-detail wall for the three captions. No text, noose or gore."
+  },
+  {
+   "id": "page-06-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-06-panel-04-v06.png",
+   "sha256": "40d903df7d7cbd5a35ecbdf0784e43b258ea4231e48f4cf13a3bb906d5d92815",
+   "width": 2167,
+   "height": 726,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-04-erase-r1.txt",
+   "prompt_sha256": "309585ae9fe6d39205a82b1dd837401b71fc118e924255ec447ea9ec70029105",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-b9a13c5f-ea36-40dc-a73b-25bc26ccf679.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-04.txt",
+   "base_prompt_sha256": "9e4f2663f9d8ee6c9787f85079458d78abf49db9f3a7c0babdba61f3130b64cf",
+   "visible_rect": [
+    0,
+    190,
+    2167,
+    615
+   ],
+   "art_rect": [
+    0,
+    0,
+    2167,
+    726
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      0,
+      253,
+      742,
+      428
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      520,
+      190
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1357,
+      213,
+      2164,
+      398
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v06 (newest) with v05. v06 removes the painted balloon and box and fills the top band with the two torsos and the lit slats behind, with no painted shapes left. The rest of the composition, costume and hands match v05. The beat reads: Nagoji's bandaged hand comes from the left, and Keshavrao's thin, unbandaged fingers close over it at his knee and forearm. Manacles and short chains are on both pairs of wrists, the left forearm is fully bandaged so no brand shows, and both hands have the right finger count. Minor: Nagoji's hand rests nearer Keshavrao's knee than his forearm. No faces appear in the panel. Lettering goes in the top band: the caption over the low-detail lit slats at the top centre, and Nagoji's balloon at the top left over his tunic, with its tail running off the top edge toward his head, which is outside the frame. No text, noose or gore."
+  },
+  {
+   "id": "page-06-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/frames/page-06-panel-05-v08.png",
+   "sha256": "0b30b1d0f40b070c8dcb8c4a6c49677da84108a21dbbceaea06dcd59a93dddbb",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-05-fix-r2.txt",
+   "prompt_sha256": "c002b4581c9bf8e821d81ec0d97d247c6347adfc48767f490f0cc616d77fef83",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+     "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f4cf-37d0-7430-84f2-cf977bd6ddd8/exec-aea3cea8-5f1b-4a71-9de6-236ccd67aa39.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch02/prompts/page-06-panel-05.txt",
+   "base_prompt_sha256": "7c2c32dba476eb91a09639892ec8020a27fe25ac5c192c4d556813264d7e3ca4",
+   "visible_rect": [
+    0,
+    0,
+    1536,
+    729
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      560,
+      0,
+      1160,
+      132
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "I compared v08 (newest) with v07 and v06. v08 removes v07's painted caption box at the top left, which leaves clear ceiling beams for the caption. It also fixes two of v07's faults: Keshavrao's fingers now close over Nagoji's bandaged hand, and a slack chain now links the collars to a ring on the beam, matching 6.1. The faces are unchanged. v06 and the other wide versions show rain falling past an open grating, which breaks the rule that the storm is only heard. v08 stays inside the hold. The frame is canted clearly more than 6.1, and a spare chain swings off true from a beam ring with no one attached. Grey light at the hatch is broken by shadows of running feet, with no sky and no rain falling, only water sloshing on the deck and dripping from the chain. A prisoner at the far right prays with his eyes shut. Nagoji (left) has a curled moustache, clean chin and gold ear drops, with his left forearm bandaged. Keshavrao (right) has short hair, a faint moustache and the grey-brown tunic. Minor: no trough is visible. Nagoji wears small drop earrings in both ears rather than a single stud. At 1536x1024 the frame is narrower in proportion than the earlier wide strips and needs the planned 2x upscale to reach 300 PPI full width. No text, noose or gore."
+  }
+ ],
+ "missing": []
+}

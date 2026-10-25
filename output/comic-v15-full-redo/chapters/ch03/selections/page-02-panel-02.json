@@ -1,0 +1,63 @@
+{
+  "id": "page-02-panel-02",
+  "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-02-panel-02-v05.png",
+  "sha256": "dac03f5feb952acb26a38f582f0e722caaefd0c5cdc25038fd79dff438779594",
+  "width": 2043,
+  "height": 770,
+  "generation_tool": "built-in imagegen",
+  "origin": "generated",
+  "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/prompts/page-02-panel-02-root-letterbox-r1.txt",
+  "prompt_sha256": "0d0d2e4c2164223343f5c4a146ca9eba93f0ab8bde96a9a4120fd824d58a45ed",
+  "references": [
+    {
+      "sha256": "7819bd9e33fc2599393e89ec464236e5c4829496b76fabb427464f38ef26bcaa",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-02-panel-02-v04.png"
+    }
+  ],
+  "visual_review": "pass",
+  "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f2c4-43dc-76f0-a15b-075a215f7ba4/exec-c373f42b-bde1-4e25-bb53-f808d3260f20.png",
+  "root_ready": {
+    "source_candidate": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-02-panel-02-v05.json",
+    "source_provenance": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-02-panel-02-v05-provenance.json",
+    "actual_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/prompts/page-02-panel-02-root-letterbox-r1.txt",
+    "actual_prompt_sha256": "0d0d2e4c2164223343f5c4a146ca9eba93f0ab8bde96a9a4120fd824d58a45ed",
+    "actual_reference_paths": [
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-02-panel-02-v04.png"
+    ],
+    "reference_hashes_verified": true
+  },
+  "visible_rect": [
+    0,
+    195,
+    2043,
+    577
+  ],
+  "reserves": [
+    {
+      "kind": "caption",
+      "rect": [
+        84,
+        211,
+        875,
+        443
+      ],
+      "copy_indices": [
+        0
+      ]
+    },
+    {
+      "kind": "caption",
+      "rect": [
+        1400,
+        230,
+        1960,
+        430
+      ],
+      "copy_indices": [
+        1
+      ]
+    }
+  ],
+  "reviewer": "Codex root with independent native review",
+  "review_note": "Identity, action, period setting, covered brand, irons, hands and blank reserves reviewed at native resolution. Copy fit and native light support pass current pipeline."
+}

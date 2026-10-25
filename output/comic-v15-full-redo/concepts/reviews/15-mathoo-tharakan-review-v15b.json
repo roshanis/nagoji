@@ -1,0 +1,41 @@
+{
+  "character": "Mathoo Tharakan",
+  "source_sheet": "output/character-model-sheets-v1/15-mathoo-tharakan.png",
+  "source_sha256": "af1532497eb73edd2884f0c460e48a628045130dd8e26ff135c71b3611657271",
+  "prior_output": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15.png",
+  "prompt_path": "output/comic-v15-full-redo/concepts/prompts/15-mathoo-tharakan-v15b.txt",
+  "final_output": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15c.png",
+  "final_output_sha256": "8f123bf8f21d7d7b98f40889aa61c77bba87cfebf859aa50949f6b79d0b02ebf",
+  "checks": {
+    "dimensions_1536x1024": "pass",
+    "thin_fine_grey_moustache_main_and_all_expressions": "pass",
+    "mostly_grey_receding_hair": "pass",
+    "plain_white_or_ivory_base_costume": "pass",
+    "single_small_gold_cross_and_no_heavy_chains": "pass",
+    "correct_detail_captions": "pass",
+    "layout_face_and_identity_preserved": "pass",
+    "readable_text": "pass",
+    "no_forbidden_elements": "pass"
+  },
+  "attempts": [
+    {
+      "path": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15b.png",
+      "sha256": "4f728cf36da9515d449ba1a5589619cffa7a7b8fdfb89573f8d2238dd112d0df",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/15-mathoo-tharakan-v15b.txt",
+      "checks": {
+        "thin_fine_grey_moustache": "pass",
+        "correct_detail_captions": "fail",
+        "layout_and_identity": "pass"
+      },
+      "reason": "moustache correction passed, but three detail captions regressed to SILVER HAIR, CROSS NECKLACE and IVORY CLOTH"
+    },
+    {
+      "path": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15c.png",
+      "sha256": "8f123bf8f21d7d7b98f40889aa61c77bba87cfebf859aa50949f6b79d0b02ebf",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/15-mathoo-tharakan-v15c.txt",
+      "checks": "pass",
+      "reason": "restored exact V15 captions while retaining the thinner grey moustache"
+    }
+  ],
+  "notes": "Final author-review candidate is v15c. The original v15 remains preserved and was not overwritten. Raza profile recheck: anatomical RIGHT profile, nose facing right, has no visible scar; anatomical LEFT profile, nose facing left, carries the scar, consistent with the anatomical-left requirement."
+}

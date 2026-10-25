@@ -1,0 +1,399 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 8,
+  "logs": [
+    "chapter 27: 2 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 27: keep regions for 2 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 27: face zones for 2 frames, 6 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 27,
+        "decisions": [
+          {
+            "id": "page-01-panel-02",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.465,
+                "y": 0.275,
+                "r": 0.095
+              },
+              {
+                "x": 0.7,
+                "y": 0.3,
+                "r": 0.093
+              },
+              {
+                "x": 0.098,
+                "y": 0.345,
+                "r": 0.055
+              },
+              {
+                "x": 0.195,
+                "y": 0.345,
+                "r": 0.065
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Nagoji matches the sheet and the ch27 row: Kerala topknot, grey streak at the temple, thick curled moustache, clean-shaven chin, small flush gold ear stud, bare-chested in a plain borderless white mundu, with no chain, sacred thread or forehead marks. His left forearm hangs with no brand showing. His shoulder cloth is draped over the left shoulder rather than knotted at the waist, as on his sheet. The third bearer's face is hidden behind the bier and only his grey beard shows, so he reads as an elder. The priest matches the V13 face, with ash bands, a red dot, the sacred thread and a gold-bordered angavastram, but his lips are closed rather than visibly moving. The shroud covers the body completely. The courtyard has the ring of floor stones, the jackfruit tree, the wood pyre, the walking stick leaning alone and brass open-wick lamps, so it fits panels 1.1 and 1.5. There is no text, noose, gore or anachronism, and the hands are sound. The long caption can sit in the clear pale sky at top centre and left (about x 0.28 to 0.75, y 0.0 to 0.17), clear of every face.",
+            "correction": ""
+          },
+          {
+            "id": "page-02-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.327,
+                "y": 0.427
+              },
+              {
+                "copy_index": 1,
+                "x": 0.744,
+                "y": 0.207
+              },
+              {
+                "copy_index": 2,
+                "x": 0.327,
+                "y": 0.427
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.273,
+                "y": 0.376,
+                "r": 0.1
+              },
+              {
+                "x": 0.788,
+                "y": 0.137,
+                "r": 0.12
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: Varma's knot sits high and behind his left ear rather than directly above it, and his hair falls in loose curls instead of the sleek dressed hair on his sheet. His pearl ear drops are also missing. The same hair appears in the neighbouring panels 2.2 and 2.5, so the page stays consistent. Otherwise clean: Varma is bare-headed and bare-chested in cream and gold with his necklaces, looking up at Nagoji with an open hand on the unlabelled map. Nagoji has his topknot, grey temples, thick curled moustache, clean chin and gold stud, and wears the white coat, red waistcoat, brass buttons and silver chain, with the forearm scar on his left arm. The map has no writing, the hands are sound, and the war hall matches 2.2. The roof and rafters across the top give room for the balloons.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 27,
+        "result": {
+          "chapter": 27,
+          "panels": [
+            {
+              "id": "page-01-panel-02",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.1165,
+                  "y": 0.3643,
+                  "r": 0.027,
+                  "who": "grey-bearded bearer at far left, three-quarter"
+                },
+                {
+                  "x": 0.2025,
+                  "y": 0.3789,
+                  "r": 0.031,
+                  "who": "grey-bearded bearer second from left, three-quarter"
+                },
+                {
+                  "x": 0.484,
+                  "y": 0.291,
+                  "r": 0.034,
+                  "who": "moustached bearer with topknot, centre, three-quarter"
+                },
+                {
+                  "x": 0.7195,
+                  "y": 0.3135,
+                  "r": 0.037,
+                  "who": "young man with tilak, bell and censer, right, three-quarter"
+                }
+              ]
+            },
+            {
+              "id": "page-02-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.316,
+                  "y": 0.41,
+                  "r": 0.037,
+                  "who": "seated bare-chested man with topknot and moustache, three-quarter profile, left"
+                },
+                {
+                  "x": 0.749,
+                  "y": 0.189,
+                  "r": 0.05,
+                  "who": "standing man in white coat with grey-streaked hair and moustache, profile, right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 27,
+        "result": {
+          "chapter": 27,
+          "panels": [
+            {
+              "id": "1.2",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.09,
+                  "x1": 0.57,
+                  "y0": 0.25,
+                  "y1": 0.43,
+                  "what": "white-shrouded body on bamboo bier, shouldered by the bearers, including Nagoji's front grip on the pole"
+                },
+                {
+                  "x0": 0.58,
+                  "x1": 0.85,
+                  "y0": 0.38,
+                  "y1": 0.66,
+                  "what": "funeral priest walking ahead: sacred thread, bell and incense lamp"
+                },
+                {
+                  "x0": 0.25,
+                  "x1": 0.62,
+                  "y0": 0.84,
+                  "y1": 0.96,
+                  "what": "ring of old stones set into the courtyard floor under the bearers' feet"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "2.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.45,
+                  "y0": 0.66,
+                  "x1": 0.57,
+                  "y1": 0.79,
+                  "what": "Varma's open hand (gold bracelet) passing palm-down over the inked map"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch27 p1",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a105460e769ba379f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510304708,
+      "queuedAt": 1791510304701,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 1 of Chapter 27 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch27/page-01.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791510353869,
+      "tokens": 82733,
+      "toolCalls": 16,
+      "durationMs": 49161,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-01-panel-02\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.465,\"y\":0.275,\"r\":0.095},{\"x\":0.7,\"y\":0.3,\"r\":0.093},{\"x\":0.098,\"y\":0.345,\"r\":0.055},{\"x\":0.195,\"y\":0.345,\"r\":0.065}],\"backup_faces\":[],\"issues\":\"Minor only. Nagoji matches the sheet and the ch27 row: Kerala topknot, grey streak at the temple, thick curled moustache, clean-shaven chin, sm…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch27 p2",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a4458b4eb33d08490",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510304708,
+      "queuedAt": 1791510304701,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 2 of Chapter 27 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch27/page-02.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791510360151,
+      "tokens": 79281,
+      "toolCalls": 18,
+      "durationMs": 55443,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-02-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.327,\"y\":0.427},{\"copy_index\":1,\"x\":0.744,\"y\":0.207},{\"copy_index\":2,\"x\":0.327,\"y\":0.427}],\"backup_tails\":[],\"faces\":[{\"x\":0.273,\"y\":0.376,\"r\":0.1},{\"x\":0.788,\"y\":0.137,\"r\":0.12}],\"backup_faces\":[],\"issues\":\"Minor only: Varma's knot sits high and behind his left ear rather than directly above it, and hi…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "mark ch27 p1",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a2f623a49f9a4f88e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510360164,
+      "queuedAt": 1791510360159,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510402472,
+      "tokens": 66348,
+      "toolCalls": 11,
+      "durationMs": 42308,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-01-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.1185,\"y\":0.3633,\"r\":0.027,\"who\":\"grey-bearded bearer at far left, three-quarter\"},{\"x\":0.2058,\"y\":0.3779,\"r\":0.03,\"who\":\"grey-bearded bearer second from left, three-quarter\"},{\"x\":0.4818,\"y\":0.293,\"r\":0.034,\"who\":\"moustached bearer with topknot, centre, three-quarter\"},{\"x\":0.7174,\"y\":0.3135,\"r\":0.037,\"who\":\"young man with tilak, …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "mark ch27 p2",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a1d9cacb76438d540",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510360164,
+      "queuedAt": 1791510360159,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510398437,
+      "tokens": 73559,
+      "toolCalls": 15,
+      "durationMs": 38273,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.316,\"y\":0.409,\"r\":0.039,\"who\":\"seated bare-chested man with topknot and moustache, three-quarter profile, left\"},{\"x\":0.749,\"y\":0.189,\"r\":0.051,\"who\":\"standing man in white coat with grey-streaked hair and moustache, profile, right\"}]}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "keep ch27 p1",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a1334486ac1e8c128",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510360178,
+      "queuedAt": 1791510360171,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 1 of chapter 27 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-27-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510391980,
+      "tokens": 62959,
+      "toolCalls": 7,
+      "durationMs": 31802,
+      "resultPreview": "{\"panels\":[{\"id\":\"1.2\",\"version\":\"v03\",\"keep\":[{\"x0\":0.09,\"x1\":0.57,\"y0\":0.25,\"y1\":0.43,\"what\":\"white-shrouded body on bamboo bier, shouldered by the bearers, including Nagoji's front grip on the pole\"},{\"x0\":0.58,\"x1\":0.85,\"y0\":0.38,\"y1\":0.66,\"what\":\"funeral priest walking ahead: sacred thread, bell and incense lamp\"},{\"x0\":0.25,\"x1\":0.62,\"y0\":0.84,\"y1\":0.96,\"what\":\"ring of old stones set into th…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "keep ch27 p2",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a131665a09b8089f4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510360178,
+      "queuedAt": 1791510360171,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 2 of chapter 27 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-27-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510374973,
+      "tokens": 61895,
+      "toolCalls": 6,
+      "durationMs": 14795,
+      "resultPreview": "{\"panels\":[{\"id\":\"2.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.45,\"y0\":0.66,\"x1\":0.57,\"y1\":0.79,\"what\":\"Varma's open hand (gold bracelet) passing palm-down over the inked map\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "check ch27 p2",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "abbd4a140dab7add9",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510398440,
+      "queuedAt": 1791510398438,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510420154,
+      "tokens": 63628,
+      "toolCalls": 7,
+      "durationMs": 21714,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.316,\"y\":0.41,\"r\":0.037,\"who\":\"seated bare-chested man with topknot and moustache, three-quarter profile, left\"},{\"x\":0.749,\"y\":0.189,\"r\":0.05,\"who\":\"standing man in white coat with grey-streaked hair and moustache, profile, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "check ch27 p1",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a9a0216f56c4c0e4f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510402474,
+      "queuedAt": 1791510402473,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510436849,
+      "tokens": 65448,
+      "toolCalls": 10,
+      "durationMs": 34375,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-01-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.1165,\"y\":0.3643,\"r\":0.027,\"who\":\"grey-bearded bearer at far left, three-quarter\"},{\"x\":0.2025,\"y\":0.3789,\"r\":0.031,\"who\":\"grey-bearded bearer second from left, three-quarter\"},{\"x\":0.484,\"y\":0.291,\"r\":0.034,\"who\":\"moustached bearer with topknot, centre, three-quarter\"},{\"x\":0.7195,\"y\":0.3135,\"r\":0.037,\"who\":\"young man with tilak, …"
+    }
+  ],
+  "totalTokens": 555851,
+  "totalToolCalls": 90
+}

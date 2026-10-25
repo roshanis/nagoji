@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "chapter": 1,
+  "revision": "r6",
+  "baseline_revision": "r5",
+  "status": "pass",
+  "generation": {
+    "tool": "built-in imagegen",
+    "calls": 1,
+    "regenerated_candidate": false,
+    "prompt": "Use case: illustration-story\nAsset: one finished, wordless frame for Horse of the Servant, V15 Chapter 1, page 8 panel 8.1.\nReference images: Image 1 is page-08-panel-02, the primary identity, framing, setting and lighting reference. Image 2 is page-02-panel-02, supporting Father Duarte identity and costume only. Image 3 is page-06-panel-01, supporting Father Duarte identity and costume only. Ignore all other people, caption boxes and balloons in the supporting references.\nDraw exactly the same Father Duarte as Image 1 and the central priest in Image 2: a thin, gaunt, lined Portuguese Jesuit in his fifties, narrow cheeks, long narrow nose, a slender jaw and chin, swept-back grey hair with loose curls at the sides, tired grey eyes, clean-shaven face. Preserve his specific facial proportions and age. He must not look younger, broad-jawed, muscular or rugged.\nThis frame is the moment immediately BEFORE Image 1. Keep its dark vaulted stone cell, warm torchlight from the left, painterly comic rendering, subdued brown and black palette, and similar head-and-shoulders composition with Duarte left of centre and stone wall to the right. His head is more level and upright here, with his eyes visible and looking slightly down and to the right. His lips are pressed together and his slender jaw is visibly working, as if chewing words he cannot swallow. A restrained, troubled hesitation, before the small weary nod already shown in Image 1.\nHe wears the same plain black cassock with a completely black plain standing collar and a small cross on a thin chain. Absolutely NO white Roman collar tab, white insert or white fabric at the neckline.\nOutput one full-bleed wide landscape image, 2820 x 1000 pixels, matching the 183.5 x 65 point panel aspect, and no smaller than 2105 x 747 pixels. Preserve the head, shoulders and visible cross within the frame. No panel dividers, no border, no white reserves. Only Duarte is present. No Nagoji, no other person, no text, no letters, no lettering, no speech balloons, no caption boxes, no signature and no watermark.",
+    "reference_paths": [
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-08-panel-02-v15-r1.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-02-panel-02-v15-r1.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-06-panel-01-v15-r1.png"
+    ],
+    "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0e01b-f331-7220-8663-8d0407336ec1/exec-b2fb939d-81f9-4436-a182-48b67d1a5377.png",
+    "frame_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-08-panel-01-v01.png",
+    "frame_sha256": "eff1c466b691aab170b4d5044c9510e637542747e25d48486c1e24bdebafcb8d",
+    "pixels": [
+      2105,
+      747
+    ],
+    "capture": "run_chapter.main capture succeeded with a new versioned frame and candidate. Original prepared job validated before replacing only this job generation metadata in memory with the actual prompt and attached references. No source or existing job file edits.",
+    "selection": "run_chapter.py select succeeded with full-frame visible_rect [0,0,2105,747] and no reserves."
+  },
+  "visual_review": {
+    "status": "pass",
+    "reviewer": "Codex",
+    "frame_viewed": true,
+    "rendered_page_viewed": "renders/r6/page-08.png",
+    "notes": "Same gaunt lined Portuguese Jesuit as 8.2 and 2.2, swept-back grey hair with loose side curls, tired grey eyes under warm torchlight, narrow jaw with compressed lips, more level head before nod. Plain black standing collar, small cross on thin chain, same dark vaulted cell. No white collar tab, Nagoji, other figure, text, letters, balloons or watermark in the new art.",
+    "independent_review": "Independent reviewer directly inspected candidate and r6 page 8, reran verification and pixel comparison, and passed."
+  },
+  "build": {
+    "selection_input": "SELECTION-INPUT-r6.json",
+    "manifest": "SELECTION-MANIFEST-r6.json",
+    "changed_frame_ids": [
+      "page-08-panel-01"
+    ],
+    "pdf_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/pdf/Horse-of-the-Servant-V15-Chapter-01-r6.pdf",
+    "pdf_sha256": "1e2cff05693b62926ae96d7a8c25ffea93f7e281f14f59cdf7e30bd1633dab1c",
+    "verify_pdf_status": "pass",
+    "embedded_fonts": [
+      "/AAAAAA+DINCondensed-Bold",
+      "/AAAAAA+Georgia",
+      "/AAAAAA+Georgia-Bold",
+      "/AAAAAA+Georgia-Italic"
+    ],
+    "unembedded_fonts": 0,
+    "page_count": 9,
+    "script_chunks_verified": 58,
+    "canonical_report_preservation": "Only the exact canonical DPI-REPORT.json write was redirected in memory to new review/DPI-REPORT-DELIVERY-r6.json. Existing canonical file and all source files retained their original bytes."
+  },
+  "new_frame_ppi": {
+    "minimum": 825.9400204519358,
+    "median": 825.9400204519358,
+    "placement": {
+      "frame_id": "page-08-panel-01",
+      "page": 8,
+      "xref": 40,
+      "pixels": [
+        2105,
+        747
+      ],
+      "placed_inches": [
+        2.548611111111111,
+        0.9044240277777779
+      ],
+      "ppi_x": 825.9400544959128,
+      "ppi_y": 825.9400204519358,
+      "effective_ppi": 825.9400204519358,
+      "clip_xywh_pt": [
+        36,
+        514.75,
+        183.5,
+        65
+      ],
+      "source_sha256": "eff1c466b691aab170b4d5044c9510e637542747e25d48486c1e24bdebafcb8d"
+    }
+  },
+  "pixel_comparison": {
+    "status": "pass",
+    "baseline_revision": "r5",
+    "new_revision": "r6",
+    "slot_rect_pt": [
+      36,
+      514.75,
+      183.5,
+      65
+    ],
+    "slot_pixel_bounds_half_open": [
+      150,
+      359,
+      915,
+      631
+    ],
+    "changed_frame_ids": [
+      "page-08-panel-01"
+    ],
+    "pages": [
+      {
+        "page": 1,
+        "changed_pixels": 0,
+        "identical": true,
+        "changed_bbox_half_open": null,
+        "outside_8_1_slot_pixels": 0
+      },
+      {
+        "page": 2,
+        "changed_pixels": 0,
+        "identical": true,
+        "changed_bbox_half_open": null,
+        "outside_8_1_slot_pixels": 0
+      },
+      {
+        "page": 3,
+        "changed_pixels": 0,
+        "identical": true,
+        "changed_bbox_half_open": null,
+        "outside_8_1_slot_pixels": 0
+      },
+      {
+        "page": 4,
+        "changed_pixels": 0,
+        "identical": true,
+        "changed_bbox_half_open": null,
+        "outside_8_1_slot_pixels": 0
+      },
+      {
+        "page": 5,
+        "changed_pixels": 0,
+        "identical": true,
+        "changed_bbox_half_open": null,
+        "outside_8_1_slot_pixels": 0
+      },
+      {
+        "page": 6,
+        "changed_pixels": 0,
+        "identical": true,
+        "changed_bbox_half_open": null,
+        "outside_8_1_slot_pixels": 0
+      },
+      {
+        "page": 7,
+        "changed_pixels": 0,
+        "identical": true,
+        "changed_bbox_half_open": null,
+        "outside_8_1_slot_pixels": 0
+      },
+      {
+        "page": 8,
+        "changed_pixels": 203322,
+        "identical": false,
+        "changed_bbox_half_open": [
+          152,
+          361,
+          913,
+          629
+        ],
+        "outside_8_1_slot_pixels": 0
+      },
+      {
+        "page": 9,
+        "changed_pixels": 0,
+        "identical": true,
+        "changed_bbox_half_open": null,
+        "outside_8_1_slot_pixels": 0
+      }
+    ]
+  },
+  "preservation": {
+    "status": "pass",
+    "unchanged_existing_files": 269,
+    "existing_log_prefix_preserved": true,
+    "new_files": [
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/SELECTION-INPUT-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/SELECTION-MANIFEST-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/candidates/page-08-panel-01-v01.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/frames/page-08-panel-01-v01.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/pdf/Horse-of-the-Servant-V15-Chapter-01-r6.pdf",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/prompts/page-08-panel-01-duarte-match-v01.txt",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-01.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-02.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-03.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-04.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-05.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-06.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-07.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-08.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/renders/r6/page-09.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/review/COMPOSITION-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/review/DPI-REPORT-DELIVERY-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/review/DPI-REPORT-before-r6-1db6496a8b2e.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/review/DPI-REPORT-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/review/RENDERS-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/review/RESERVE-PIXELS-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/review/TEXT-CHECK-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/review/page-08-panel-01-GEOMETRY-r6.json",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01/selections/page-08-panel-01.json"
+    ]
+  },
+  "completed_at_utc": "2026-09-26T23:53:48Z"
+}

@@ -1,0 +1,48 @@
+{
+  "chapter": 3,
+  "page": 2,
+  "records": [
+    {
+      "candidate": "candidates/page-02-panel-01-v04.json",
+      "frame": "frames/page-02-panel-01-v04.png",
+      "actual_prompt": "prompts/page-02-panel-01-generation-v05.txt",
+      "actual_prompt_sha256": "f388c525d306040bf41abf9851c6375c56b396e5a8b583ecf74b283fd3df4046",
+      "prior_frame": "frames/page-02-panel-01-v02.png",
+      "prior_frame_sha256": "1bbdbbd23016dce20bb54ba3ee3108ebe148a40abd825a5c52e56545c090c936",
+      "references": ["concepts/07-keshavrao-v15c.png", "../comic-v13-reference-redesign-v1/concepts/nagoji-v2.png"],
+      "status": "visual_copy_fit_native_support_pass"
+    },
+    {
+      "candidate": "candidates/page-02-panel-02-v03.json",
+      "frame": "frames/page-02-panel-02-v03.png",
+      "actual_prompt": "prompts/page-02-panel-02-generation-v04.txt",
+      "actual_prompt_sha256": "576d8e893c56e75d7a6df3c4098c109566907e148e09de0612c24736a116fe40",
+      "prior_frame": "frames/page-02-panel-02-v01.png",
+      "prior_frame_sha256": "14a1a3235489d808b3d3a7ca1227e56b1633107a54c031418a7df1d8047257bf",
+      "references": [],
+      "status": "visual_copy_fit_native_support_pass"
+    },
+    {
+      "candidate": "candidates/page-02-panel-03-v04.json",
+      "frame": "frames/page-02-panel-03-v04.png",
+      "actual_prompt": "prompts/page-02-panel-03-generation-v05.txt",
+      "actual_prompt_sha256": "74523ff0d64f848891eb8579b61bccb28258d1109c4ab31c9e2123d3f56eaedd",
+      "prior_frame": "frames/page-02-panel-03-v03.png",
+      "prior_frame_sha256": "3d8f55870b94dd2ecfc77ab211823a9fa2f2fdc50a98d17bb12e813a5e75cf1c",
+      "references": ["concepts/07-keshavrao-v15c.png", "../comic-v13-reference-redesign-v1/concepts/nagoji-v2.png"],
+      "status": "visual_copy_fit_native_support_pass"
+    },
+    {
+      "candidate": "candidates/page-02-panel-04-v03.json",
+      "frame": "frames/page-02-panel-04-v03.png",
+      "actual_prompt": "prompts/page-02-panel-04-generation-v03.txt",
+      "actual_prompt_sha256": "aedf663846ddd7d31fe80343669b49e4ac3091b9c921c251735de04418b40826",
+      "prior_frame": "frames/page-02-panel-04-v01.png",
+      "prior_frame_sha256": "99189d4bd9ca1f44484fd4e45f8e3130d4137e733ef2db9a76fad7ecbdb51c1e",
+      "references": [],
+      "status": "visual_copy_fit_native_support_pass"
+    }
+  ],
+  "preflight": {"copy_fit": "pass", "native_support_minimum_light_fraction": 0.9995804195804195},
+  "selection_written": false
+}

@@ -1,0 +1,1744 @@
+{
+ "chapter": 2,
+ "round": "drawn-merged-d5",
+ "sources": [
+  "LEAN-SELECTION-drawn-r1.json",
+  "LEAN-SELECTION-drawn-r2.json"
+ ],
+ "decisions": [
+  {
+   "id": "page-03-panel-01",
+   "pick": "v07",
+   "backup": "v06",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.076,
+     "y": 0.297,
+     "r": 0.09
+    },
+    {
+     "x": 0.19,
+     "y": 0.453,
+     "r": 0.07
+    },
+    {
+     "x": 0.889,
+     "y": 0.32,
+     "r": 0.095
+    },
+    {
+     "x": 0.965,
+     "y": 0.394,
+     "r": 0.09
+    },
+    {
+     "x": 0.806,
+     "y": 0.508,
+     "r": 0.08
+    },
+    {
+     "x": 0.746,
+     "y": 0.628,
+     "r": 0.065
+    },
+    {
+     "x": 0.709,
+     "y": 0.69,
+     "r": 0.055
+    },
+    {
+     "x": 0.537,
+     "y": 0.684,
+     "r": 0.035
+    },
+    {
+     "x": 0.562,
+     "y": 0.677,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.076,
+     "y": 0.297,
+     "r": 0.09
+    },
+    {
+     "x": 0.19,
+     "y": 0.453,
+     "r": 0.07
+    },
+    {
+     "x": 0.889,
+     "y": 0.32,
+     "r": 0.095
+    },
+    {
+     "x": 0.965,
+     "y": 0.394,
+     "r": 0.09
+    },
+    {
+     "x": 0.806,
+     "y": 0.508,
+     "r": 0.08
+    },
+    {
+     "x": 0.746,
+     "y": 0.628,
+     "r": 0.065
+    },
+    {
+     "x": 0.709,
+     "y": 0.69,
+     "r": 0.055
+    },
+    {
+     "x": 0.537,
+     "y": 0.684,
+     "r": 0.035
+    },
+    {
+     "x": 0.562,
+     "y": 0.677,
+     "r": 0.03
+    }
+   ],
+   "issues": "Compared v07 (newest) with v06. v07 keeps v06's composition exactly and replaces the two painted caption boxes with wall, balconies and a lantern. It matches the script beat: a narrow lime-washed street with red tile roofs and wooden balconies. Two Hindu merchants in white turbans, white angarkhas and gold earrings stand blank-faced in separate doorways. Goan Catholics in European coats, tricornes and white veils cover their mouths, and the man on the right holds a rosary with a cross. The prisoners appear only as chained wrists and rag-clad backs, with no faces. There is no text and no gore, and the hands are sound. Minor points: one tiny background figure in a blue coat and tricorne could be read as a soldier, but he is too small to read as a VOC blue-coat. The wall lantern is fine in a Portuguese setting. Both captions can sit top-left on the yellow wall and doorway lintel (x 0.0 to 0.27, y 0.0 to 0.18) and top-right on the wall and balconies (x 0.65 to 0.85, y 0.0 to 0.2) without covering any face.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-02",
+   "pick": "v06",
+   "backup": "v05",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.049,
+     "y": 0.574
+    },
+    {
+     "copy_index": 1,
+     "x": 0.168,
+     "y": 0.522
+    },
+    {
+     "copy_index": 2,
+     "x": 0.168,
+     "y": 0.522
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.049,
+     "y": 0.574
+    },
+    {
+     "copy_index": 1,
+     "x": 0.168,
+     "y": 0.522
+    },
+    {
+     "copy_index": 2,
+     "x": 0.168,
+     "y": 0.522
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.326,
+     "y": 0.347,
+     "r": 0.125
+    },
+    {
+     "x": 0.049,
+     "y": 0.542,
+     "r": 0.06
+    },
+    {
+     "x": 0.166,
+     "y": 0.493,
+     "r": 0.075
+    },
+    {
+     "x": 0.674,
+     "y": 0.527,
+     "r": 0.07
+    },
+    {
+     "x": 0.941,
+     "y": 0.6,
+     "r": 0.055
+    },
+    {
+     "x": 0.573,
+     "y": 0.566,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.326,
+     "y": 0.347,
+     "r": 0.125
+    },
+    {
+     "x": 0.049,
+     "y": 0.542,
+     "r": 0.06
+    },
+    {
+     "x": 0.166,
+     "y": 0.493,
+     "r": 0.075
+    },
+    {
+     "x": 0.674,
+     "y": 0.527,
+     "r": 0.07
+    },
+    {
+     "x": 0.941,
+     "y": 0.6,
+     "r": 0.055
+    },
+    {
+     "x": 0.573,
+     "y": 0.566,
+     "r": 0.03
+    }
+   ],
+   "issues": "Compared v06 (newest) with v05. v06 is the same composition with the three painted balloons and the long tail removed, and the sky refilled with clouds, gulls and pennants. Nagoji matches his sheet and the chapter 2 row. At zoom he has a thick curled moustache, a clean chin with light stubble at most, the gold ear stud, loose curly hair, the ochre tunic and cream dhoti, an iron collar with chain, and bandaged wrists in manacles. The ship has a black hull and a carved stern with painted saints, plain white pennants, no national flag and no lettering. The clerk wears a brown coat and a pale grey broad-brimmed hat, holds his ledger with the cover toward the viewer and is not a priest. The guards in morions with buff and white do not read as redcoats. Minor departures: Nagoji is large in the foreground rather than shown only by a small chain (true of every candidate), and the clerk has a sword hilt at his hip. The open sky top-left (x 0.0 to 0.38, y 0.0 to 0.22) holds all three balloons clear of faces. Speaker for line 0, 'behind': the head-clothed prisoner far left. Lines 1 and 2: the grey-bearded old prisoner beside Nagoji. v05 is the backup. Its painted tails point at the correct speakers (one off the left edge, one at the old prisoner), so it is acceptable, but the long painted tail would need covering.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-03",
+   "pick": "v06",
+   "backup": "v04",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.231,
+     "y": 0.39
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.231,
+     "y": 0.39
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.222,
+     "y": 0.352,
+     "r": 0.13
+    },
+    {
+     "x": 0.495,
+     "y": 0.155,
+     "r": 0.11
+    },
+    {
+     "x": 0.7,
+     "y": 0.065,
+     "r": 0.075
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.222,
+     "y": 0.352,
+     "r": 0.13
+    },
+    {
+     "x": 0.495,
+     "y": 0.155,
+     "r": 0.11
+    },
+    {
+     "x": 0.7,
+     "y": 0.065,
+     "r": 0.075
+    }
+   ],
+   "issues": "The border fix worked. The lower-right inset now reads as a separate small panel. Its top edge is a dark line, an even white band about 7 px deep and an inner dark line, running from x 1243 to the right frame edge. Its left edge is built the same way and runs down to the bottom of the frame. No main-picture art shows under the band. No painted balloons or caption boxes remain anywhere. Apart from the removed boxes, v06 matches v04. Jo\u00e3o matches his sheet (curly hair, full beard, brown leather jerkin, cream shirt, belt with iron keys) and stands side-on at the foot of the gangplank, hauling the chain with both fists. Nagoji is on the plank in his ochre tunic and cream dhoti, with the iron collar, a bandaged right wrist with manacle, a thick moustache, a clean-shaven chin and the gold ear stud; his left arm is turned away. The other prisoners show only their backs. The ship's hand at the rail, in a shirt and red head cloth, takes the chain. The inset's feet, ankle cuffs, hobble chain, wet plank and glint of water are unchanged. One small flaw remains: a dim strip about 10 px high runs along the bottom of the inset under its left two-thirds. The letterer's border should cover it or make it read as a slightly thicker bottom rule. Lettering space: Jo\u00e3o's balloon fits in the open sky at upper left, above and left of his head. The inset's upper-right and lower-right areas (plain planks and some water, x about 0.83 to 0.99, y about 0.53 to 0.70 and 0.78 to 0.97) take the two short captions without covering the feet or cuffs.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-04",
+   "pick": "v06",
+   "backup": "v05",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.547,
+     "y": 0.382,
+     "r": 0.18
+    },
+    {
+     "x": 0.198,
+     "y": 0.303,
+     "r": 0.15
+    },
+    {
+     "x": 0.274,
+     "y": 0.454,
+     "r": 0.06
+    },
+    {
+     "x": 0.376,
+     "y": 0.435,
+     "r": 0.055
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.547,
+     "y": 0.382,
+     "r": 0.18
+    },
+    {
+     "x": 0.198,
+     "y": 0.303,
+     "r": 0.15
+    },
+    {
+     "x": 0.274,
+     "y": 0.454,
+     "r": 0.06
+    },
+    {
+     "x": 0.376,
+     "y": 0.435,
+     "r": 0.055
+    }
+   ],
+   "issues": "Compared v06 (newest) with v05. v06 is the same composition with the painted top caption box replaced by the canvas awning and open sky. Nagoji crouches at the lip of the open black hatch, looking back over his shoulder. At zoom: thick curled moustache, clean chin with light stubble at most, gold ear stud, hinged collar with a ring at the side, bandaged wrist in a manacle, ochre tunic, cream dhoti, left arm turned away. A Portuguese guard in a morion, buff leather jerkin and red sash drives the chain with a gloved fist. Two free lascars in shirts and head cloths haul a line, with no irons. Canvas is overhead, and beyond the rail are the small white town, the fortress and the hills. There is no flag and no lettering. The small distant ship shows no visible colours. The hands are sound. The single caption fits on the plain canvas top-left (x 0.0 to 0.45, y 0.0 to 0.14) or the open sky top-right (x 0.62 to 0.95, y 0.02 to 0.2), clear of faces. v05 is an acceptable backup: its painted box covers only the canvas.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-01",
+   "pick": "v09",
+   "backup": "v08",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Fix landed: the five chained men now wear different torn, dirty, sleeveless rags (grey, dirty off-white, earth brown, grey-green, dun) with rips, holes and frayed hems, no sashes or matching tunics. Collars, the single collar-to-collar chain, manacles, ankle irons, bare feet, poses, the turning stair, the light and the arch with church and palms are unchanged from v08. All figures are seen from behind, so there are no readable faces. Minor: at high zoom the dark stone wall at upper left has squiggly mottled texture that reads as stone, not lettering; v08 has the same texture, and the captions will sit there anyway. Plain upper wall above the chain (x 0 to 0.6, y 0 to 0.33) gives room for both captions. Minor neighbour note: these varied rags are darker than the uniform cream cloth in 2.2, but the fix asked for this.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-02",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.075,
+     "y": 0.115,
+     "r": 0.15
+    },
+    {
+     "x": 0.164,
+     "y": 0.369,
+     "r": 0.083
+    },
+    {
+     "x": 0.2075,
+     "y": 0.54,
+     "r": 0.03
+    },
+    {
+     "x": 0.9425,
+     "y": 0.146,
+     "r": 0.167
+    },
+    {
+     "x": 0.859,
+     "y": 0.438,
+     "r": 0.065
+    },
+    {
+     "x": 0.58,
+     "y": 0.556,
+     "r": 0.025
+    },
+    {
+     "x": 0.4825,
+     "y": 0.57,
+     "r": 0.025
+    },
+    {
+     "x": 0.685,
+     "y": 0.556,
+     "r": 0.025
+    },
+    {
+     "x": 0.7625,
+     "y": 0.55,
+     "r": 0.025
+    },
+    {
+     "x": 0.828,
+     "y": 0.522,
+     "r": 0.025
+    },
+    {
+     "x": 0.05,
+     "y": 0.654,
+     "r": 0.14
+    },
+    {
+     "x": 0.92,
+     "y": 0.765,
+     "r": 0.14
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.075,
+     "y": 0.115,
+     "r": 0.15
+    },
+    {
+     "x": 0.164,
+     "y": 0.369,
+     "r": 0.083
+    },
+    {
+     "x": 0.2075,
+     "y": 0.54,
+     "r": 0.03
+    },
+    {
+     "x": 0.9425,
+     "y": 0.146,
+     "r": 0.167
+    },
+    {
+     "x": 0.859,
+     "y": 0.438,
+     "r": 0.065
+    },
+    {
+     "x": 0.58,
+     "y": 0.556,
+     "r": 0.025
+    },
+    {
+     "x": 0.4825,
+     "y": 0.57,
+     "r": 0.025
+    },
+    {
+     "x": 0.685,
+     "y": 0.556,
+     "r": 0.025
+    },
+    {
+     "x": 0.7625,
+     "y": 0.55,
+     "r": 0.025
+    },
+    {
+     "x": 0.828,
+     "y": 0.522,
+     "r": 0.025
+    },
+    {
+     "x": 0.05,
+     "y": 0.654,
+     "r": 0.14
+    },
+    {
+     "x": 0.92,
+     "y": 0.765,
+     "r": 0.14
+    }
+   ],
+   "issues": "Fix landed: every front-row prisoner now wears a hinged dark iron collar, including the long-haired man raising his arm, and one heavy chain runs collar to collar across the row, from the man at far left, through the long-haired man, to the bald man, then the next two men and on to the man at far right. Wrist manacles, poses, rags, the guards, the white walls, the gate and the glare are unchanged from v02, and nothing new looks wrong. Duarte is tiny and alone in the gateway: black cassock with a standing collar, small cross, no white tab, broad round hat, matching his sheet at this scale. The musketeers wear plumed broad hats and buff leather with matchlocks and coiled matchcords, so they read as Portuguese, not British or Dutch. No painted text, gore or anachronism. The panel has no lettering.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-03",
+   "pick": "v04",
+   "backup": "v03",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.2,
+     "y": 0.27,
+     "r": 0.32
+    },
+    {
+     "x": 0.63,
+     "y": 0.27,
+     "r": 0.24
+    },
+    {
+     "x": 0.407,
+     "y": 0.51,
+     "r": 0.06
+    },
+    {
+     "x": 0.983,
+     "y": 0.47,
+     "r": 0.06
+    },
+    {
+     "x": 0.885,
+     "y": 0.54,
+     "r": 0.04
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.2,
+     "y": 0.27,
+     "r": 0.32
+    },
+    {
+     "x": 0.63,
+     "y": 0.27,
+     "r": 0.24
+    },
+    {
+     "x": 0.407,
+     "y": 0.51,
+     "r": 0.06
+    },
+    {
+     "x": 0.983,
+     "y": 0.47,
+     "r": 0.06
+    },
+    {
+     "x": 0.885,
+     "y": 0.54,
+     "r": 0.04
+    }
+   ],
+   "issues": "Fix landed. In v04 Duarte's hat is now crisp, solid black with a flat crown, stiff level brim and a plain black band. It matches the hat in 2.4 (v02/v03) and the hat carried in 2.5, and the grey and brown mottling from v03 is gone. A pixel diff against v03 shows the changes are confined to the hat. Elsewhere there is only negligible re-render noise (satchel texture, hand stains), and nothing got worse: same face, grey curls, cassock with standing collar and no tab, cross, satchel, gate, guards and Goa skyline. Nagoji matches his bible row: thick curled moustache, clean-shaven chin with light stubble, small gold ear stud, iron collar and chain, torn ochre tunic. His left arm is not shown. There is no painted text, noose, gore or anachronism. Minor issues carried over from v03: the ink stains on Duarte's right hand are heavy blotches, and the 'chain shuffling past the gate' shows only as Nagoji's collar chain, with no other prisoners. For the two captions, the clearest space is the top band: the top-right sky and grille, and the top of Nagoji's hair at top left, both clear of faces.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-04",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.609,
+     "y": 0.225,
+     "r": 0.4
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.609,
+     "y": 0.225,
+     "r": 0.4
+    }
+   ],
+   "issues": "Compared v03 (edited) with v02. The art is the same, and v03 fills the painted box area with clear sky. Tight on Duarte, eyes lowered, jaw set. His ink-stained right hand is raised at his chest with two fingers extended, midway through a small blessing. The hand anatomy is sound. Standing collar with no white tab: the small sliver at the collar gap is skin-toned, not a white tab. Small cross on a chain. Captions fit in the clear blue sky at upper left. No text. Minor continuity issues: (1) The background is a honey-coloured laterite gate with wooden doors, not the dark grilled gate of 2.3. (2) The hat is a clean black hat with a band, while 2.3 shows a weathered brown-black one.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-05",
+   "pick": "v03",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.77,
+     "y": 0.271,
+     "r": 0.36
+    },
+    {
+     "x": 0.478,
+     "y": 0.124,
+     "r": 0.066
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Compared v04 (edited) with v03. Face, door and Duarte are identical, but v04 is not acceptable. Removing the bottom boxes revealed Nagoji seated with knees drawn up and forearms resting on them. This contradicts the script beat ('the collar chain pulling him on') and his standing pose in 2.3. It also shows bandaged wrists with no iron manacles, which the chapter 2 bible row requires. In v03 the painted bottom boxes hide the knees and wrists, and the letterer's drawn captions will cover them. Those boxes cover only floor and lower forearms, no face or key action. Visible art in v03 is clean. Nagoji's profile is right: thick moustache, clean-shaven chin with light stubble, small gold ear stud, ochre rags, hinged collar with taut chain. Duarte's back goes through a half-open side door, with satchel and hat slung behind. The three captions should sit where the painted boxes are: the sky at top left and the bottom band. Caveat: the bottom-right caption must stay where it is painted so the seated knees and bare wrists stay hidden.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-01",
+   "pick": "v02",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.06,
+     "y": 0.29,
+     "r": 0.138
+    },
+    {
+     "x": 0.159,
+     "y": 0.407,
+     "r": 0.117
+    },
+    {
+     "x": 0.233,
+     "y": 0.421,
+     "r": 0.083
+    },
+    {
+     "x": 0.306,
+     "y": 0.476,
+     "r": 0.076
+    },
+    {
+     "x": 0.37,
+     "y": 0.494,
+     "r": 0.055
+    },
+    {
+     "x": 0.956,
+     "y": 0.276,
+     "r": 0.145
+    },
+    {
+     "x": 0.869,
+     "y": 0.372,
+     "r": 0.11
+    },
+    {
+     "x": 0.742,
+     "y": 0.462,
+     "r": 0.069
+    },
+    {
+     "x": 0.705,
+     "y": 0.5,
+     "r": 0.055
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Only v02 was offered (v01 is near-identical). It shows the beat: pens on both sides of the hold, collared and manacled prisoners in grey and brown rags, and a guard in a morion and buff jerkin carrying the lantern up the ladder toward a small square of daylight. No chain hangs taut and vertical above a head, and there is no text, gore or noose. Minor: (1) there is a white letterbox strip about 11 px deep along the top and bottom edges. Trim it when placing the image, or let the panel border cover it. (2) The collar chains run down to the manacles, and the overhead chains run from ring to ring, so no chain clearly goes from a collar up to a ring. This loosely misses the script's chain routing but breaks no hard rule. Nagoji is not individually identifiable, since no figure wears the ochre tunic, which is fine for this silent establishing shot.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-02",
+   "pick": "v07",
+   "backup": "v06",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "I compared v07 with v06. v07 is v06 with the two painted caption boxes removed. The only changes are in the two box areas, and there is no ghost rectangle or seam. It is a tight insert of the plank, with rough gouged crosses, diamond strokes and small circles, and no letter-like marks. A right hand (so the brand question does not arise) has the index and middle fingertips bandaged and rests on the marks. The wrist is bandaged under a chained iron manacle, and the anatomy reads correctly. The open wood on the left and upper right leaves room for both captions. The wood has a slightly blocky upscale texture, which is cosmetic.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-03",
+   "pick": "v06",
+   "backup": "v05",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.598,
+     "y": 0.332
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.598,
+     "y": 0.332
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.436,
+     "y": 0.234,
+     "r": 0.18
+    },
+    {
+     "x": 0.651,
+     "y": 0.259,
+     "r": 0.135
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.436,
+     "y": 0.234,
+     "r": 0.18
+    },
+    {
+     "x": 0.651,
+     "y": 0.259,
+     "r": 0.135
+    }
+   ],
+   "issues": "I compared v06 with v05. Faces, upper bodies, chain and setting are pixel-identical. v06 removes the painted balloon and redraws the lower third, where v05 had a painted caption box, as more dhoti. The new dhoti gives a large low-detail area at the bottom for the two captions, with beam space at upper right for the 'Sahib.' balloon. Both men match their sheets. Nagoji is on the left with a thick curled moustache, clean chin with light stubble, gold ear stud, long curly hair and ochre tunic. His left forearm is fully bandaged, so the brand is hidden. Keshavrao is on the right with short ragged hair, a faint moustache and a grey-brown tunic, and his head is turned to Nagoji. One slack chain links both collars to the ring on the right post. Minor: (1) a lit glass lantern hangs at the left, and the scene is warmly lit rather than 'in the dark' just after 4.1's lantern left. All candidates share this, and it is plausible for a Portuguese hold. (2) Keshavrao's wrists show no manacles here, though 4.4 shows his chained fists. (3) A small fragment of a fist peeks out between Keshavrao's knees at the bottom edge (about x 0.78, y 0.98). It is inherited from v05, and the bottom caption will likely cover it.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-04",
+   "pick": "v08",
+   "backup": "v07",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.371,
+     "y": 0.36
+    },
+    {
+     "copy_index": 1,
+     "x": 0.792,
+     "y": 0.455
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.371,
+     "y": 0.36
+    },
+    {
+     "copy_index": 1,
+     "x": 0.792,
+     "y": 0.455
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.319,
+     "y": 0.3,
+     "r": 0.15
+    },
+    {
+     "x": 0.807,
+     "y": 0.36,
+     "r": 0.135
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.319,
+     "y": 0.3,
+     "r": 0.15
+    },
+    {
+     "x": 0.807,
+     "y": 0.36,
+     "r": 0.135
+    }
+   ],
+   "issues": "The 4.4 chain fix worked in v08. One gently sagging chain now runs from Nagoji's collar to Keshavrao's collar. It continues from behind Keshavrao's neck up to the iron ring on the post at the right, which matches the chain in panel 4.3. The ring and chain at the top-left are gone, and so is the straight chain that ran from the front of Nagoji's collar down to his manacles. A pixel diff against v07 shows the edit only touched the chains. Faces, poses, bandages, wrist and ankle irons, barrels, the hold and the light are all unchanged. Nagoji still matches his sheet: thick curled moustache, clean-shaven chin, small gold ear stud, loose curly hair, ochre rags. Keshavrao still has short ragged hair, a faint moustache and the grey-brown tunic, and he is bent over with his chained fists at his mouth in the laugh-cough. There is no painted text, balloon, noose or gore. Hands are sound. The beamed ceiling above both heads has room for both balloons. Small notes: the chain joins Nagoji's collar at the side rather than at the front ring shown in 4.3. It also hangs a little tauter than \"slack\", but it does sag visibly. v07 is kept as the backup only. It still has the old chains: chains rising to the top corners, a chain from Nagoji's collar down to his manacles, and no chain linking the two men.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-05",
+   "pick": "v05",
+   "backup": "v04",
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.7,
+     "y": 1
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 1,
+     "x": 0.7,
+     "y": 1
+    }
+   ],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "I compared v05 with v04. v05 removes the painted caption box at top left and the balloon at bottom right, and both areas are cleanly repainted as beam and plank with no remnant shapes. The rest is unchanged. It is a straight-up view through the open hatch to blue sky crossed by shrouds, ratlines and the mast, with one white gull. There are no figures and no text. The top-left beam and sky corner hold the caption, and the plain planking along the bottom holds Keshavrao's off-panel balloon, whose tail goes to the bottom edge. Minor: the hatch reads as close overhead rather than 'far above', and the sky is brighter than the pale daylight square in 4.1. Both are acceptable.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-01",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [
+    {
+     "copy_index": 2,
+     "x": 0.567,
+     "y": 0.12
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 2,
+     "x": 0.592,
+     "y": 0.108
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.566,
+     "y": 0.085,
+     "r": 0.065
+    },
+    {
+     "x": 0.812,
+     "y": 0.314,
+     "r": 0.12
+    },
+    {
+     "x": 0.523,
+     "y": 0.225,
+     "r": 0.045
+    },
+    {
+     "x": 0.653,
+     "y": 0.191,
+     "r": 0.045
+    },
+    {
+     "x": 0.693,
+     "y": 0.232,
+     "r": 0.045
+    },
+    {
+     "x": 0.083,
+     "y": 0.321,
+     "r": 0.08
+    },
+    {
+     "x": 0.223,
+     "y": 0.382,
+     "r": 0.08
+    },
+    {
+     "x": 0.318,
+     "y": 0.539,
+     "r": 0.07
+    },
+    {
+     "x": 0.94,
+     "y": 0.559,
+     "r": 0.07
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.591,
+     "y": 0.079,
+     "r": 0.065
+    },
+    {
+     "x": 0.812,
+     "y": 0.284,
+     "r": 0.12
+    },
+    {
+     "x": 0.519,
+     "y": 0.179,
+     "r": 0.045
+    },
+    {
+     "x": 0.653,
+     "y": 0.157,
+     "r": 0.045
+    },
+    {
+     "x": 0.691,
+     "y": 0.209,
+     "r": 0.045
+    },
+    {
+     "x": 0.07,
+     "y": 0.275,
+     "r": 0.08
+    },
+    {
+     "x": 0.226,
+     "y": 0.37,
+     "r": 0.08
+    },
+    {
+     "x": 0.328,
+     "y": 0.553,
+     "r": 0.07
+    },
+    {
+     "x": 0.946,
+     "y": 0.597,
+     "r": 0.07
+    }
+   ],
+   "issues": "I compared v03 (the newest edit) with v02. v03 is clean, with no painted shapes left. Joao matches his sheet: bearded, ruddy, brown jerkin over a cream shirt, wide belt and key ring. The three guards wear morions or a broad black hat. Nagoji is in the foreground in three-quarter back view with his head lifted, and has the moustache, clean chin with light stubble, gold ear stud, collar with side ring, bandaged wrists and hobbled ankles. The prisoners vary as scripted. There is clear stone wall at the top left for both captions and at the top right for Joao's balloon. The slit window is a little brighter than 'barely paler', which is minor. v02 has the same scene, but its painted boxes sit right against Joao's hair, so it is only the backup.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-02",
+   "pick": "v02",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.35,
+     "y": 0.181,
+     "r": 0.1
+    },
+    {
+     "x": 0.762,
+     "y": 0.566,
+     "r": 0.09
+    },
+    {
+     "x": 0.498,
+     "y": 0.586,
+     "r": 0.07
+    },
+    {
+     "x": 0.176,
+     "y": 0.6,
+     "r": 0.055
+    },
+    {
+     "x": 0.957,
+     "y": 0.596,
+     "r": 0.1
+    }
+   ],
+   "backup_faces": [],
+   "issues": "I compared v02 (the newest edit) with v01. v02 is clean and Joao matches his sheet. The leather strip has notches only and no letters. Joao's lips are pursed, his eyes half-closed and his head tipped, so the humming reads. Minor departures in v02: he rouses the sleeper with a palm on the shoulder rather than a backhand cuff, and holds the strip up rather than tapping. The room is a vaulted arcade with an arched barred window, not the curved cellar wall and slit window of 1.1, but it echoes the tall barred window in 1.4. A small, blurred background guard wears a cocked hat rather than a morion or broad hat. None of this is serious enough to reject it. The upper-right stone pillar or the upper-left vault can take the caption. v01 is not acceptable as a backup because its painted caption box covers the top of Joao's head.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-03",
+   "pick": "v05",
+   "backup": "v04",
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.211,
+     "y": 0.312
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 1,
+     "x": 0.211,
+     "y": 0.312
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.2,
+     "y": 0.281,
+     "r": 0.07
+    },
+    {
+     "x": 0.53,
+     "y": 0.52,
+     "r": 0.09
+    },
+    {
+     "x": 0.787,
+     "y": 0.593,
+     "r": 0.075
+    },
+    {
+     "x": 0.021,
+     "y": 0.633,
+     "r": 0.05
+    },
+    {
+     "x": 0.362,
+     "y": 0.638,
+     "r": 0.045
+    },
+    {
+     "x": 0.695,
+     "y": 0.633,
+     "r": 0.045
+    },
+    {
+     "x": 0.987,
+     "y": 0.588,
+     "r": 0.05
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.2,
+     "y": 0.281,
+     "r": 0.07
+    },
+    {
+     "x": 0.53,
+     "y": 0.52,
+     "r": 0.09
+    },
+    {
+     "x": 0.787,
+     "y": 0.593,
+     "r": 0.075
+    },
+    {
+     "x": 0.021,
+     "y": 0.633,
+     "r": 0.05
+    },
+    {
+     "x": 0.362,
+     "y": 0.638,
+     "r": 0.045
+    },
+    {
+     "x": 0.695,
+     "y": 0.633,
+     "r": 0.045
+    },
+    {
+     "x": 0.987,
+     "y": 0.588,
+     "r": 0.05
+    }
+   ],
+   "issues": "I compared v05 (the newest edit) with v04. v05 keeps v04's composition exactly, with the painted boxes replaced by plain stone wall. Joao stands over Nagoji in front of the wall that carries the tally scratches, which are plain vertical strokes with no letters. Nagoji's face is correct: moustache, clean chin, gold stud, collar with side ring and bandaged wrists. A crouching guard in a morion works the long bar at the end of the row while Nagoji's own cuffs stay on, joined by a short hobble chain. The guard's hands are sound. A large empty wall above the figures takes the caption and Joao's balloon. Joao's back is beside the tally marks rather than squarely to them, which is minor.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-04",
+   "pick": "v04",
+   "backup": "v03",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.108,
+     "y": 0.189,
+     "r": 0.07
+    },
+    {
+     "x": 0.693,
+     "y": 0.233,
+     "r": 0.12
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.108,
+     "y": 0.189,
+     "r": 0.07
+    },
+    {
+     "x": 0.693,
+     "y": 0.233,
+     "r": 0.12
+    }
+   ],
+   "issues": "I compared v04 (the newest edit) with v03. v04 is the same image with the painted boxes removed, and it is clean. Nagoji is half-risen with knees bent, bandaged hands braced on the wall (one flat, one fisted; the wrist chain keeps them together), a furrowed brow and a set jaw. He has the moustache, clean chin, ear stud and collar, and the hobble chain hangs between his bare ankles. Joao is walking away to the left. Hands and anatomy are sound. The dark upper wall, top centre and top left, takes both captions. There is a small reddish tie at Nagoji's waist that is not on the sheet, which is minor.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-05",
+   "pick": "v06",
+   "backup": "v05",
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.792,
+     "y": 0.247
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 1,
+     "x": 0.79,
+     "y": 0.26
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.08,
+     "y": 0.214,
+     "r": 0.08
+    },
+    {
+     "x": 0.2,
+     "y": 0.234,
+     "r": 0.08
+    },
+    {
+     "x": 0.32,
+     "y": 0.24,
+     "r": 0.08
+    },
+    {
+     "x": 0.448,
+     "y": 0.182,
+     "r": 0.085
+    },
+    {
+     "x": 0.573,
+     "y": 0.182,
+     "r": 0.08
+    },
+    {
+     "x": 0.71,
+     "y": 0.234,
+     "r": 0.08
+    },
+    {
+     "x": 0.828,
+     "y": 0.201,
+     "r": 0.11
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.08,
+     "y": 0.23,
+     "r": 0.08
+    },
+    {
+     "x": 0.2,
+     "y": 0.25,
+     "r": 0.08
+    },
+    {
+     "x": 0.32,
+     "y": 0.255,
+     "r": 0.08
+    },
+    {
+     "x": 0.448,
+     "y": 0.2,
+     "r": 0.085
+    },
+    {
+     "x": 0.573,
+     "y": 0.2,
+     "r": 0.08
+    },
+    {
+     "x": 0.71,
+     "y": 0.25,
+     "r": 0.08
+    },
+    {
+     "x": 0.815,
+     "y": 0.217,
+     "r": 0.11
+    }
+   ],
+   "issues": "I compared v06 (the newest edit) with v05. v06 is clean, with the same composition as v05. Six prisoners are on one collar-to-collar chain at the foot of the stair, each with hinged collars, wrist manacles and hobbled ankles. Nagoji is at the right in three-quarter back view with his face in profile, and has the moustache, clean chin and ear stud. Keshavrao matches his ch2 lock (young, faint moustache, hacked short hair, grey-brown tunic, no stud) and is two men ahead, with his right hand curled at his hip around an absent grip. The guard has a morion, buff jerkin, club and dark breeches, with nothing red. Departures from the script: Keshavrao faces the camera instead of being seen from behind, and his head is turned forward (left), not a few degrees toward Nagoji. The guard walks in the gap between the grey-bearded man and Keshavrao, not between Keshavrao and Nagoji. Nagoji's wrist chain is hidden behind his body. The beat still reads, so I accepted it. The stone wall at the top left takes the caption, and the area at the top right beside the torch takes the small 'Rao.' whisper balloon. The older candidates v01 to v04 were not in this list; v02 and v03 also put the guard in red breeches.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-01",
+   "pick": "v08",
+   "backup": "v07",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.583,
+     "y": 0.391
+    },
+    {
+     "copy_index": 1,
+     "x": 0.381,
+     "y": 0.285
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.583,
+     "y": 0.391
+    },
+    {
+     "copy_index": 1,
+     "x": 0.381,
+     "y": 0.285
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.332,
+     "y": 0.244,
+     "r": 0.15
+    },
+    {
+     "x": 0.618,
+     "y": 0.312,
+     "r": 0.12
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.332,
+     "y": 0.244,
+     "r": 0.15
+    },
+    {
+     "x": 0.618,
+     "y": 0.312,
+     "r": 0.12
+    }
+   ],
+   "issues": "Minor only. Nagoji's extended leg at the bottom-left frame edge shows the ankle with no visible iron (the foot is cropped by the frame, and the hobble chain runs from Keshavrao's ankles under Nagoji's dhoti). The hold reads dim amber with bright plank-seam slits rather than truly near dark. Otherwise clean: Nagoji has a curled moustache, a clean chin with light stubble and the gold ear stud. Keshavrao has short ragged hair, a faint moustache, a grey-brown tunic and no stud; he shivers with his knees drawn up. One slack chain runs from the beam ring to Nagoji's collar and on to Keshavrao's collar. The frame is canted, the dipper hangs off true from its peg and the trough sits at the right. There is no painted text. The top band of ceiling beams is clear for both balloons (Nagoji's above his head at upper left-centre, Keshavrao's at upper right, clear of the dipper). v07 is the identical image with painted balloons whose tails point at the correct speakers.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-02",
+   "pick": "v08",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.385,
+     "y": 0.253
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.355,
+     "y": 0.18,
+     "r": 0.13
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Clean. The collar chain now leaves the collar ring below the chin and droops slack to a ring on the hull planks. Keshavrao has a faint moustache, short ragged hair and no ear stud, his face turned toward the hull. His manacled right hand is half-curled at his hip and his left hand rests on his knee, with the wrist chain slack across his lap. The ankle cuffs have a hobble chain and the hands are sound. The large plank wall at right gives clear space for the balloon. Minor: the left hand lies on the knee rather than right beside the right hand, and the wrist chain is a little longer than a forearm. v07 is not usable as a backup because its collar chain runs through his mouth and chin.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-03",
+   "pick": "v06",
+   "backup": "v05",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.645,
+     "y": 0.4,
+     "r": 0.42
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.645,
+     "y": 0.4,
+     "r": 0.42
+    }
+   ],
+   "issues": "I compared v06 (newest) with v05. In v06 the three painted caption boxes are cleanly replaced by plain dark hull planks; a contrast-stretched check shows no leftover box edges. The pixel difference shows the right half, with the face, is unchanged from v05. Nagoji matches his sheet: thick curled moustache, clean chin with light stubble, small gold ear stud, loose curly hair, iron collar with its chain off to the side, torn ochre tunic. The expression is still and heavy, as the script asks. The left 40 percent of the frame is low-detail wall for the three captions. No text, noose or gore.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-04",
+   "pick": "v06",
+   "backup": "v05",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.24,
+     "y": 0
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.22,
+     "y": 0
+    }
+   ],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "I compared v06 (newest) with v05. v06 removes the painted balloon and box and fills the top band with the two torsos and the lit slats behind, with no painted shapes left. The rest of the composition, costume and hands match v05. The beat reads: Nagoji's bandaged hand comes from the left, and Keshavrao's thin, unbandaged fingers close over it at his knee and forearm. Manacles and short chains are on both pairs of wrists, the left forearm is fully bandaged so no brand shows, and both hands have the right finger count. Minor: Nagoji's hand rests nearer Keshavrao's knee than his forearm. No faces appear in the panel. Lettering goes in the top band: the caption over the low-detail lit slats at the top centre, and Nagoji's balloon at the top left over his tunic, with its tail running off the top edge toward his head, which is outside the frame. No text, noose or gore.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-05",
+   "pick": "v08",
+   "backup": "v07",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.286,
+     "y": 0.235,
+     "r": 0.14
+    },
+    {
+     "x": 0.544,
+     "y": 0.371,
+     "r": 0.105
+    },
+    {
+     "x": 0.971,
+     "y": 0.588,
+     "r": 0.045
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.286,
+     "y": 0.235,
+     "r": 0.14
+    },
+    {
+     "x": 0.511,
+     "y": 0.361,
+     "r": 0.105
+    },
+    {
+     "x": 0.964,
+     "y": 0.586,
+     "r": 0.045
+    }
+   ],
+   "issues": "I compared v08 (newest) with v07 and v06. v08 removes v07's painted caption box at the top left, which leaves clear ceiling beams for the caption. It also fixes two of v07's faults: Keshavrao's fingers now close over Nagoji's bandaged hand, and a slack chain now links the collars to a ring on the beam, matching 6.1. The faces are unchanged. v06 and the other wide versions show rain falling past an open grating, which breaks the rule that the storm is only heard. v08 stays inside the hold. The frame is canted clearly more than 6.1, and a spare chain swings off true from a beam ring with no one attached. Grey light at the hatch is broken by shadows of running feet, with no sky and no rain falling, only water sloshing on the deck and dripping from the chain. A prisoner at the far right prays with his eyes shut. Nagoji (left) has a curled moustache, clean chin and gold ear drops, with his left forearm bandaged. Keshavrao (right) has short hair, a faint moustache and the grey-brown tunic. Minor: no trough is visible. Nagoji wears small drop earrings in both ears rather than a single stud. At 1536x1024 the frame is narrower in proportion than the earlier wide strips and needs the planned 2x upscale to reach 300 PPI full width. No text, noose or gore.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-01",
+   "pick": "v11",
+   "backup": "v10",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.287,
+     "y": 0.407
+    },
+    {
+     "copy_index": 1,
+     "x": 0.711,
+     "y": 0.547
+    },
+    {
+     "copy_index": 2,
+     "x": 0.711,
+     "y": 0.547
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.287,
+     "y": 0.407
+    },
+    {
+     "copy_index": 1,
+     "x": 0.711,
+     "y": 0.547
+    },
+    {
+     "copy_index": 2,
+     "x": 0.711,
+     "y": 0.547
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.307,
+     "y": 0.352,
+     "r": 0.147
+    },
+    {
+     "x": 0.717,
+     "y": 0.462,
+     "r": 0.12
+    },
+    {
+     "x": 0.083,
+     "y": 0.621,
+     "r": 0.05
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.307,
+     "y": 0.352,
+     "r": 0.147
+    },
+    {
+     "x": 0.717,
+     "y": 0.462,
+     "r": 0.12
+    },
+    {
+     "x": 0.083,
+     "y": 0.621,
+     "r": 0.05
+    }
+   ],
+   "issues": "Compared v11 (newest) with v10. v11 is the same art as v10 with the three painted balloons replaced by a coherent ceiling of beams; faces, costume, chains and lighting are unchanged, so v11 is picked. Nagoji matches the sheet: thick curled moustache, clean chin, gold stud, ochre tunic, bandaged hands and wrists, collar, manacles, ankle irons. Keshavrao matches his: short ragged hair, faint moustache, grey-brown tunic, no stud, eyes down. The ceiling band above both heads (about y 0 to 0.24) is free for the three balloons. Minor points: (1) the barrel band at the far right edge (about x 0.93 to 0.97, y 0.55 to 0.66) has ornament that looks a little like letters when zoomed in. It cannot be read at print size, but a retouch to plain hoops would be safer. (2) The collar chain droops to a ring on the centre post between the two men, not off to one side as the script says. It is slack and not above a head.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-02",
+   "pick": "v11",
+   "backup": "v10",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.236,
+     "y": 0.262,
+     "r": 0.125
+    },
+    {
+     "x": 0.737,
+     "y": 0.241,
+     "r": 0.134
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.236,
+     "y": 0.262,
+     "r": 0.125
+    },
+    {
+     "x": 0.737,
+     "y": 0.241,
+     "r": 0.134
+    }
+   ],
+   "issues": "Compared v11 (newest) with v10. v11 removes v10's two painted boxes, extends the memory inset's edge and fills the gap with hold timber and barrels. Present-day Keshavrao, the memory rider, the bay horse and the sheathed sword at the hip are unchanged, so v11 is picked. Keshavrao (short ragged hair, faint moustache, grey-brown tunic, collar, manacles, head down, knees drawn up) matches his sheet. The memory shows long loose hair, a white angarkha with a sash, a sheathed sword, a bay horse, mouth open in song, and musket smoke. The dark hold between the figure and the inset (about x 0.30 to 0.48, y 0 to 0.35) and the inset sky are clear for the two captions. Minor deviations kept from r1, all rated minor or refuted in the five-lens review: the inset takes about half the panel and has a fiery orange edge rather than a soft stained one; a fort, ships and a church appear behind the smoke; and a lit, paned opening shows in the hold background (about x 0.44, y 0.5).",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-03",
+   "pick": "v09",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.368,
+     "y": 0.349
+    },
+    {
+     "copy_index": 1,
+     "x": 0.684,
+     "y": 0.428
+    },
+    {
+     "copy_index": 2,
+     "x": 0.368,
+     "y": 0.349
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.305,
+     "y": 0.278,
+     "r": 0.178
+    },
+    {
+     "x": 0.734,
+     "y": 0.332,
+     "r": 0.125
+    },
+    {
+     "x": 0.049,
+     "y": 0.098,
+     "r": 0.045
+    },
+    {
+     "x": 0.163,
+     "y": 0.156,
+     "r": 0.045
+    },
+    {
+     "x": 0.632,
+     "y": 0.249,
+     "r": 0.03
+    },
+    {
+     "x": 0.827,
+     "y": 0.278,
+     "r": 0.03
+    },
+    {
+     "x": 0.898,
+     "y": 0.322,
+     "r": 0.03
+    },
+    {
+     "x": 0.02,
+     "y": 0.39,
+     "r": 0.04
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Compared v09 (newest), v08 and v07. v08 has the right faces but sets them in a stone dungeon with a barred window, which is wrong for the ship's hold. v09 keeps v08's two-shot and moves it into a timber hold with berths, a post with a ring, a lantern and a hatch grating. That matches 5.1 and 5.4, so v09 is picked. Nagoji (left) has the curled moustache, a clean chin with light stubble, a gold stud, ochre tunic, collar and chained manacles, and is steady. Keshavrao (right) has short hair, a faint moustache, grey-brown tunic, no stud, and a tired half smile. Hands are sound, nothing reads as text, and the post chain hangs beside the heads, not above them. Notes: (1) Nagoji's hands are bare with only wrists and forearms bandaged; 5.1 and 5.4 show wrapped hands (minor continuity). (2) v09 is 1536x1024 (3:2) while LAYOUT.json gives 5.3 an 85 pt strip row, so the row must be refitted to the frame. (3) Room for lettering is tighter than in the strip versions. Suggested placement: NAGOJI 1 top-left over the background berths (only dim extras covered), KESHAVRAO above his head (about x 0.64 to 0.90, y 0 to 0.2), and NAGOJI 3 lower on the dark post between the heads (about x 0.45 to 0.62, y 0.3 to 0.5), with the tail pointing left. No backup: v08's setting is wrong, and in v07 the painted tail of the third balloon runs through the middle balloon and ends on Nagoji's forehead, the connector fault confirmed in the r1 review, and that line would stay visible after lettering.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-04",
+   "pick": "v09",
+   "backup": "v08",
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.65,
+     "y": 0
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 1,
+     "x": 0.65,
+     "y": 0
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.294,
+     "y": 0.251,
+     "r": 0.138
+    },
+    {
+     "x": 0.6,
+     "y": 0.412,
+     "r": 0.095
+    },
+    {
+     "x": 0.114,
+     "y": 0.101,
+     "r": 0.04
+    },
+    {
+     "x": 0.03,
+     "y": 0.376,
+     "r": 0.05
+    },
+    {
+     "x": 0.128,
+     "y": 0.376,
+     "r": 0.05
+    },
+    {
+     "x": 0.075,
+     "y": 0.494,
+     "r": 0.05
+    },
+    {
+     "x": 0.453,
+     "y": 0.51,
+     "r": 0.05
+    },
+    {
+     "x": 0.822,
+     "y": 0.494,
+     "r": 0.05
+    },
+    {
+     "x": 0.9,
+     "y": 0.503,
+     "r": 0.05
+    },
+    {
+     "x": 0.967,
+     "y": 0.435,
+     "r": 0.05
+    },
+    {
+     "x": 0.895,
+     "y": 0.394,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.294,
+     "y": 0.251,
+     "r": 0.138
+    },
+    {
+     "x": 0.6,
+     "y": 0.412,
+     "r": 0.095
+    },
+    {
+     "x": 0.03,
+     "y": 0.376,
+     "r": 0.05
+    },
+    {
+     "x": 0.128,
+     "y": 0.376,
+     "r": 0.05
+    },
+    {
+     "x": 0.075,
+     "y": 0.494,
+     "r": 0.05
+    },
+    {
+     "x": 0.453,
+     "y": 0.51,
+     "r": 0.05
+    },
+    {
+     "x": 0.822,
+     "y": 0.494,
+     "r": 0.05
+    },
+    {
+     "x": 0.9,
+     "y": 0.503,
+     "r": 0.05
+    },
+    {
+     "x": 0.967,
+     "y": 0.435,
+     "r": 0.05
+    }
+   ],
+   "issues": "Compared v09 (newest) with v08. The art is identical, except that v09 replaces v08's painted caption box (top-left) and speech balloon (top-right) with berths of prisoners. Nagoji, Keshavrao, the trough, the casks, the grating and the light are unchanged, so v09 is picked. The beat is all there: grey light through the hatch grating, a trough of rice and dried fish, casks, coughing men slumped on the berths, and the pair in the middle distance (Nagoji left, Keshavrao right) in collars, manacles and hobbled ankles. Nagoji has a clean chin, curled moustache and gold stud. Keshavrao keeps his young face and faint moustache. Lettering: the caption fits top-left over background berths or the ceiling (about x 0.35 to 0.5, y 0 to 0.12). The SAILOR balloon fits by the grating (about x 0.52 to 0.75, y 0 to 0.28), with its tail running up through the grating to the top edge, clear of Keshavrao's face. Minor: a few background prisoners on the upper berths wear blue cloth (the script asks for grey, brown and off-white); the posts and beams have scribbly, glyph-like grain that cannot be read at print size; the hanging chain loops on a post (no noose shape).",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-05",
+   "pick": "v10",
+   "backup": "v09",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.389,
+     "y": 0.29
+    },
+    {
+     "copy_index": 1,
+     "x": 0.67,
+     "y": 0.162
+    },
+    {
+     "copy_index": 3,
+     "x": 0.67,
+     "y": 0.162
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.389,
+     "y": 0.29
+    },
+    {
+     "copy_index": 1,
+     "x": 0.67,
+     "y": 0.162
+    },
+    {
+     "copy_index": 3,
+     "x": 0.67,
+     "y": 0.162
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.41,
+     "y": 0.567,
+     "r": 0.13
+    },
+    {
+     "x": 0.3,
+     "y": 0.148,
+     "r": 0.075
+    },
+    {
+     "x": 0.388,
+     "y": 0.275,
+     "r": 0.058
+    },
+    {
+     "x": 0.69,
+     "y": 0.145,
+     "r": 0.09
+    },
+    {
+     "x": 0.062,
+     "y": 0.55,
+     "r": 0.11
+    },
+    {
+     "x": 0.166,
+     "y": 0.6,
+     "r": 0.07
+    },
+    {
+     "x": 0.628,
+     "y": 0.665,
+     "r": 0.085
+    },
+    {
+     "x": 0.8,
+     "y": 0.69,
+     "r": 0.05
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.41,
+     "y": 0.567,
+     "r": 0.13
+    },
+    {
+     "x": 0.3,
+     "y": 0.148,
+     "r": 0.075
+    },
+    {
+     "x": 0.388,
+     "y": 0.275,
+     "r": 0.058
+    },
+    {
+     "x": 0.69,
+     "y": 0.145,
+     "r": 0.09
+    },
+    {
+     "x": 0.869,
+     "y": 0.16,
+     "r": 0.06
+    },
+    {
+     "x": 0.062,
+     "y": 0.55,
+     "r": 0.11
+    },
+    {
+     "x": 0.166,
+     "y": 0.6,
+     "r": 0.07
+    },
+    {
+     "x": 0.628,
+     "y": 0.665,
+     "r": 0.085
+    },
+    {
+     "x": 0.8,
+     "y": 0.69,
+     "r": 0.05
+    }
+   ],
+   "issues": "The fix worked. v10 is the same image as v09 except at the top right. The sailor in the red headscarf is gone, and the sky, clouds and rigging lines now continue cleanly behind the hatch coaming. I see no smear, ghost or seam there. A pixel diff shows that only that area changed in any real way. Everything else differs by small scattered noise from re-encoding. The officer in the tricorn, the laughing sailor at top left (red headscarf), SAILOR 2 (yellow headscarf), Nagoji and the prisoners are all unchanged. Nagoji matches the chapter 2 bible: thick curled moustache, chin clean-shaven apart from light captivity stubble, long curly hair, iron collar with a side ring, bandaged wrists, chained manacles, torn ochre tunic and cream dhoti. Two minor points carry over from v09, and neither is grounds for rejection. First, his ear-lobe stud is small and reads as skin-coloured rather than clearly gold. Second, the rust-brown marks on the dhoti read as grime, not blood. The setting is an up-angle through the open hatch at a bright sky, as the script asks. There is no painted text. Lettering space: open sky between SAILOR 2 and the officer (about x 0.38 to 0.64, y 0 to 0.24) for SAILOR 2's line and the officer's first line. The sky to the right of the officer (about x 0.73 to 0.85, y 0.05 to 0.25) is newly cleared for his second line. The caption fits on the dark hatch beam or in the top-left corner.",
+   "correction": ""
+  }
+ ],
+ "missing": [],
+ "note": "d2 plus 5.5 v10 (top-right sailor removed so the officer has sky)."
+}

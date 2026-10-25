@@ -1,0 +1,66 @@
+{
+  "chapter": 4,
+  "round": "drawn-r4",
+  "decisions": [
+    {
+      "id": "page-06-panel-04",
+      "pick": "v07",
+      "backup": null,
+      "tails": [],
+      "backup_tails": [],
+      "faces": [
+        {
+          "x": 0.232,
+          "y": 0.245,
+          "r": 0.135
+        },
+        {
+          "x": 0.529,
+          "y": 0.252,
+          "r": 0.058
+        },
+        {
+          "x": 0.752,
+          "y": 0.305,
+          "r": 0.056
+        }
+      ],
+      "backup_faces": [],
+      "issues": "Acceptable, with minor drift only. It fixes all three r4 failures of v05. Nagoji is bare-chested, as in 5.5, 6.1 and 6.3. Clean linen bandages cover his hands and wrists, and the cream dhoti is only salt-stained, with no rust or red blotches. The beat reads. Nagoji sits on the mat, eyes closed, with warm hearth light on his face. His face matches the sheet: thick curled moustache, clean-shaven chin with light stubble, small gold ear stud and loose curly hair. The rope burns show on his chest, and he wears no irons. In soft focus behind him, the Fisherman (grizzled, cream vest, white shoulder cloth, red lungi) and the Young Fisherman (headband, blue vest, indigo lungi) turn their heads toward the doorway at right. A broad shadow of an unseen figure falls across the floor toward the mat. The hands are sound, and there is no text, noose or gore. Minor issues: (1) The narrow doorway strip at the right edge shows faint rain streaks, wet ground and grey surf beyond the palms. 6.5 v08 shows the same palms and sea but dry, with no rain, and 6.2 shows a dry village outside. The strip is small and soft at the frame edge, and a retouch to plain grey overcast would tidy it. (2) The brand sits on the upper side of the left forearm just above the bandage, nearer mid-forearm than a hand's width above the wrist. It is a patch of worm-like raised ridges, unreadable, with no numerals or cross. (3) The bandages run up to mid-forearm, longer than the wrist wraps in 6.1 and 6.3. (4) The out-of-focus Fisherman's cloth hangs over his right shoulder; 6.3 puts it on his left. (5) The frame is 3:2, but LAYOUT.json gives 6.4 a 100 pt row. Re-fit the row (fit-layout) rather than crop to a strip, which would lose the floor shadow and his hands; the script asks for a full-width tier, not a narrow strip. Lettering: the plain dark upper wall between Nagoji's head and the doorway (top 18 percent, x 30 to 85 percent) holds both captions clear of every face.",
+      "correction": ""
+    },
+    {
+      "id": "page-06-panel-05",
+      "pick": "v08",
+      "backup": null,
+      "tails": [],
+      "backup_tails": [],
+      "faces": [
+        {
+          "x": 0.25,
+          "y": 0.385,
+          "r": 0.12
+        },
+        {
+          "x": 0.585,
+          "y": 0.108,
+          "r": 0.09
+        },
+        {
+          "x": 0.773,
+          "y": 0.155,
+          "r": 0.058
+        },
+        {
+          "x": 0.873,
+          "y": 0.22,
+          "r": 0.056
+        }
+      ],
+      "backup_faces": [],
+      "issues": "Acceptable, with minor drift. It fixes the earlier handedness failure. Nagoji half-reclines against rolled mats in the left foreground, chest toward camera, and looks straight up at the kapitan. His LEFT forearm, on the image-right side of his body, lies extended toward the kapitan, inner side up, with the bandaged hand palm up and five digits. The brand is on the inner forearm with no letters, numerals or cross. Nagoji matches his sheet and the bible row: thick curled moustache, clean-shaven chin, gold ear stud, loose curly hair, bare chest with rope burns, cream dhoti, bandaged hands and no irons. The kapitan has stepped well inside. He matches his sheet: white turban, short grey-flecked beard, a pale buttoned vest with pockets over a white shirt and white mundu, the blue-striped shawl, and no coat. He turns down toward image left, so his own left cheek faces the camera, and the thin scar runs from his left ear down into the beard. The Young Fisherman (headband, blue vest, indigo checked lungi) and the Fisherman (grey beard, cream vest, white shoulder cloth, red lungi) stand back behind him. The camera is low at mat level, looking up under the rafters. There is no text, noose or gore, and the hands are sound. Minor issues: (1) The doorway shows grey sea, beach and palms, while 6.2 shows a dry village outside. It does match 6.4 v07's doorway, apart from 6.4's rain. (2) The brand reads as a band of parallel horizontal ridges, closer to welts than to blurred burned letters. (3) Because the kapitan stands nearer the camera, 'shorter than the fishermen' does not read, though he is clearly broader. (4) His face is lit neutral-warm rather than strongly by the hearth. (5) Nagoji's thigh under the dhoti reads a little long against the shin of his extended leg, but the foot and ankle are sound. Lettering: the plain wall above and left of Nagoji (x 0 to 48 percent, y 0 to 24 percent, plus the wall at far left) and the plain woven floor band along the bottom (y 87 to 100 percent) hold all three captions clear of faces, hands and the brand.",
+      "correction": ""
+    }
+  ],
+  "missing": []
+}

@@ -1,0 +1,19 @@
+V15 graphic novel panel page-04-panel-01 for chapter 1. Guards hauling Nagoji upright. His joints lock after weeks folded under him. His face shows nothing.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+nagoji: Constant identity: strong cheekbones, straight nose, thick curled moustache, CLEAN-SHAVEN CHIN (light stubble at most, captivity only), long curly black hair, small gold ear stud, lean cavalryman build. No forehead marks, no sacred thread, no royal jewellery. No facial scar.; Captivity sheet: torn ochre sleeveless tunic, cream dhoti, bandaged hands and wrists, ankle irons, barefoot, hair loose. No turban. Keep his left arm covered or turned from camera, so the brand stays hidden.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art: blank balloon and caption reserves only, lettering composited later.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+
+R7 CORRECTION, overrides conflicting earlier staging and reserve instructions:
+Keep the two guards hauling Nagoji upright, his stiff joints, expressionless face, bandaged hands. Replace BOTH escort guards historical dress to match the attached 9.2 gate guards: black tricornes, plain cream coats and brown waistcoats/belts, knee breeches, stockings, buckled shoes, 1730s Portuguese garrison. NO metal helmets, morions, cabassets, armour or red jerkin. Nagoji has torn ochre sleeveless tunic, cream dhoti, loose hair, bare feet, TWO ankle cuffs with a short ankle hobble chain, bandaged wrists, no wrist or neck iron. Keep left inner forearm hidden and no sash. Preserve caption blank upper left, same approximately 2.75:1 panel shape.
+Input 1 is the prior panel, for staging, blank reserves and painted ink style. Remaining images are binding character or guard references. Use the character sheet ONLY for identity, never copy its typography. No text of any kind, no lettering, no watermarks, no blood or gore. Render one panel only. Preserve unmentioned correct composition. Small gold studs must be flush dots with no dangling jewellery. Output full resolution.

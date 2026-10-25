@@ -1,0 +1,254 @@
+{
+  "prompt_profile": "v2",
+  "chapter": 18,
+  "status": "draft",
+  "settings": {
+    "bastion_works": {
+      "label": "New bastion on the Travancore coast",
+      "scopes": [
+        "kerala",
+        "coast"
+      ],
+      "anchor": "A new red laterite bastion rising above a pale Travancore beach, bamboo scaffolding lashed along its face and an earth ramp where bare-chested labourers haul cut blocks; on the finished parapet stand bare-chested Nair musketeers in hitched white mundu, hair in topknots, flintlocks on their shoulders. Coconut palms line the shore beyond, and a flat bright sea runs empty to the horizon.",
+      "absent": "No red coats, blue coats or hats on any soldier, no stone castle or foreign flag on the bastion, and no sail, ship or boat anywhere on the sea.",
+      "time": "bright daylight and sea glare"
+    },
+    "landing_beach": {
+      "label": "Beach below the new Travancore bastion",
+      "scopes": [
+        "kerala",
+        "coast"
+      ],
+      "anchor": "The pale beach below the new red laterite bastion, its bamboo scaffolding still lashed to the face, with a single longboat run up on the sand, oars shipped and a plain pennant at the stern. The landing party wades out of shallow, bright surf with their hats in their hands and bundles of paper held high.",
+      "absent": "No drums, muskets or soldiers of any kind with the landing party, no blue or red coats, no warship close inshore, and no hat worn on anyone's head.",
+      "time": "bright daylight and sea glare"
+    },
+    "pepper_market": {
+      "label": "Travancore pepper market",
+      "scopes": [
+        "kerala",
+        "coast"
+      ],
+      "anchor": "A Travancore pepper market under palm-thatch awnings: open sacks of black pepper slumped on the ground, a brass hanging scale with coins in one pan, and a trader's low table piled with cloth facing a busy street.",
+      "absent": "No chairs, glass or foreign goods, no foreign fort beyond the awnings, and the trader never takes Ibrahim's turban, scar or face.",
+      "time": "daylight in the shade of the awnings"
+    },
+    "temple_mandapam": {
+      "label": "Travancore temple mandapam",
+      "scopes": [
+        "kerala"
+      ],
+      "anchor": "The open pillared mandapam of a Travancore temple: stone pillars on a laterite plinth under a sloping tiled roof, a tall tiered brass lamp stand with open wicks, and a brass offering tray on the floor before the priest.",
+      "absent": "No tall stone gateway tower, church, chairs, glass lamps or footwear inside the precinct; the coin carries no legible marks.",
+      "time": "dusk, the brass lamps newly lit"
+    },
+    "ramayyan_room": {
+      "label": "Ramayyan's writing room",
+      "scopes": [
+        "kerala",
+        "court"
+      ],
+      "anchor": "Ramayyan's writing room in the Travancore palace compound: limewashed laterite walls, a wooden lattice window, a doorway onto a verandah, woven floor mats and stacks of cord-tied palm-leaf bundles, with a low wooden stool for a visitor. Ramayyan sits cross-legged on the mat with his iron stylus and leaf.",
+      "absent": "No desk, chair, bound books, bookshelves, paper ledgers or glass lantern; every leaf shows only faint incised marks too fine to read.",
+      "time": "night, one clay or brass open-wick lamp"
+    },
+    "coastal_hall": {
+      "label": "Travancore coastal audience hall",
+      "scopes": [
+        "kerala",
+        "court",
+        "coast"
+      ],
+      "anchor": "The Travancore coastal hall: timber pillars carved with vines and tigers on laterite bases, a sloping tiled roof on dark rafters, the long side open toward the sea, woven mats on the floor and tall brass lamp stands with open wicks. Whenever a view takes them in, the places are fixed: Varma on his low platform at the far end with his spear in reach, Nagoji the only man standing beside it at the king's right, Ramayyan seated low at its foot, Padmini and Revathi seated on the left, bareheaded ministers in white seated on mats in the mid-ground, and Lannoy at a pillar at the hall's edge, kept to screen right; closer views show only the panel's own people.",
+      "absent": "No throne, chairs, benches, tables or glass lamps, no soldier in a blue or red coat, and the only guards are bare-chested Nairs with sword and round shield. The visitors hold their tricornes in hand and nobody wears a hat indoors; every paper and leaf shows only faint marks with no legible writing.",
+      "time": "daytime, bright glare at the doorway and open side, brass lamps lit along the pillars",
+      "allow_terms": [
+        "dutch"
+      ]
+    },
+    "hall_verandah": {
+      "label": "Verandah of the coastal hall above the sea",
+      "scopes": [
+        "kerala",
+        "court",
+        "coast"
+      ],
+      "anchor": "The long verandah outside the Travancore coastal hall: carved timber posts under deep tiled eaves, a plank floor and a low wooden rail, with coconut palms and then the open sea beyond. The speakers stand at or near the rail with the sea behind them.",
+      "absent": "No stone balustrade, glass windows, chairs or benches, no ship close inshore, and no envoys, scribes or guards left on the verandah.",
+      "time": "late afternoon, a low gold sun over the sea"
+    },
+    "nagoji_room": {
+      "label": "Nagoji's room at night",
+      "scopes": [
+        "kerala",
+        "court"
+      ],
+      "anchor": "Nagoji's small room in the Travancore palace compound: limewashed laterite walls, a woven mat with a low wooden writing board, a reed pen and a small brass ink pot, a clay open-wick oil lamp, a doorway in a plain timber frame and a wooden-shuttered window that opens inland toward dark hills.",
+      "absent": "No chair, desk, bed frame, candle, glass lantern or quill; the few sheets of paper are angled away and show only faint strokes.",
+      "time": "night, a single clay lamp throwing large shadows"
+    }
+  },
+  "pages": {
+    "1": "bastion_works",
+    "2": "coastal_hall",
+    "3": "coastal_hall",
+    "4": "coastal_hall",
+    "5": "coastal_hall",
+    "6": "coastal_hall",
+    "7": "coastal_hall",
+    "8": "hall_verandah",
+    "9": "hall_verandah",
+    "10": "ramayyan_room"
+  },
+  "panels": {
+    "page-01-panel-01": {
+      "frame": "strip",
+      "distant": true,
+      "lettering_space": "Leave the upper sky above the bastion clear for two captions, away from the parapet and the musketeers."
+    },
+    "page-01-panel-02": {
+      "setting": "pepper_market"
+    },
+    "page-01-panel-03": {
+      "setting": "temple_mandapam"
+    },
+    "page-01-panel-04": {
+      "setting": "ramayyan_room",
+      "time": "morning light through the wooden lattice"
+    },
+    "page-01-panel-05": {
+      "setting": "landing_beach",
+      "frame": "strip"
+    },
+    "page-02-panel-01": {
+      "frame": "strip"
+    },
+    "page-02-panel-02": {
+      "sheets": false
+    },
+    "page-04-panel-02": {
+      "lettering_space": "Keep the dark rafters clear for the long caption and two speeches, away from Revathi's profile and the unfolded paper."
+    },
+    "page-05-panel-05": {
+      "frame": "strip",
+      "bleed": "The register leaf is a soft-edged remembered inset beside his face, cooler and dimmer than the warm lamplight of the present hall, never a second scene and with no figure in it.",
+      "lettering_space": "Use the lamp-dark space on the side away from the leaf inset for three captions, clear of Nagoji's face."
+    },
+    "page-06-panel-01": {
+      "lettering_space": "Use the dark rafters above the king for three speeches, and keep the lower-left inset of Revathi's hand clear."
+    },
+    "page-06-panel-05": {
+      "frame": "strip"
+    },
+    "page-07-panel-03": {
+      "lettering_space": "Reserve generous quiet wall above and beside Ramayyan for three speeches, the last one long, clear of his face, writing hand and the pinned paper."
+    },
+    "page-07-panel-04": {
+      "time": "later in the day, lower light as the hall empties"
+    },
+    "page-07-panel-05": {
+      "time": "later in the day, lower light as the hall empties"
+    },
+    "page-08-panel-05": {
+      "sheets": false
+    },
+    "page-09-panel-03": {
+      "lettering_space": "Reserve generous open sky and sea above Revathi for two long speeches, clear of her face and the soft shoulder in the foreground."
+    },
+    "page-09-panel-04": {
+      "setting": "nagoji_room",
+      "lettering_space": "Use the dark upper wall beside his large shadow for two captions, leaving his face, the lamp and the paper clear."
+    },
+    "page-09-panel-05": {
+      "setting": "nagoji_room"
+    },
+    "page-10-panel-02": {
+      "lettering_space": "Quiet lamp-shadowed wall above Ibrahim for three long speeches, clear of his face and the lit scar."
+    },
+    "page-10-panel-03": {
+      "lettering_space": "Reserve generous dark wall and the night beyond the open door for three speeches, the last two long, clear of Ibrahim's face and the lamp."
+    },
+    "page-10-panel-04": {
+      "lettering_space": "Quiet wall above the empty doorway for three speeches, keeping the lower-corner inset of the writing hand clear."
+    },
+    "page-10-panel-05": {
+      "setting": "nagoji_room",
+      "frame": "strip",
+      "time": "night under stars, a dry wind blowing in from the inland hills",
+      "lettering_space": "Keep the starry sky above the dark hill line clear for three captions, away from his head and the lamp flame."
+    }
+  },
+  "character_notes": {
+    "nagoji": "Thick curled moustache, clean-shaven chin and jaw with no beard or facial scar, and a tiny flush gold ear stud on the lobe with nothing hanging from it. BLACK hair in a high Kerala topknot with only a first touch of grey at the temples, never the grey or turbaned figures on his sheet, and the silver chain of office on his chest everywhere except the morning doorway of Ramayyan's writing room, where he wears none yet.",
+    "varma": "Face, moustache and build from his sheet, with black hair, never the grey of the sheet's later figure. Throughout this formal audience he wears the cream-and-gold turban with the jewelled peacock-feather crest, bare-chested in cream and gold cloth with gold necklaces, his spear within reach; never a crown.",
+    "ramayyan": "Thin sharp features and receding hair, plain unbordered white cloth, no forehead marks or sacred thread, with his palm-leaf bundles and iron stylus; never the temple priest's face.",
+    "padmini": "In her fifties, thick hair still mostly black with a few threads of grey, coiled at the nape; a cream sari with a narrow gold border in the old Kerala drape with no stitched blouse, simple gold and a long walking stick.",
+    "revathi": "Deep indigo sari with gold, jasmine in her braid, a necklace of flat gold coins rather than the round beads on her sheet, gold armlets and bangles. The sandalwood line at the hairline is her only forehead mark: no red dot, no sindoor and no tali, as she is still a widow.",
+    "eustachius": "Tall, his own pale wavy hair tied back with a black ribbon, no wig and no hat, in the plain white cotton tunic-coat, white ankle-length mundu and sandals of his sheet, never a blue coat. A straight sword hangs at his hip with its hilt wrapped in local cloth, and in the hall he keeps to his pillar at the screen-right edge.",
+    "dutch_envoys": "The senior envoy is in his fifties and heavy-lidded, in a grey powdered wig and a charcoal coat with only a thin lace trim at the cuff, his black tricorne held to his chest; the younger is in his twenties and thin, his own brown hair tied back with no wig, in a brown coat with his tricorne in hand. The scribes are bareheaded pale-skinned clerks in plain grey coats and the interpreter is a younger local man, empty-handed, in a coloured-border shoulder cloth; nobody in the party wears the blue company soldier's coat.",
+    "ibrahim": "Shorter than the fishermen but broader, white turban, short grey-flecked beard and a thin pale scar from the anatomical LEFT ear to the jaw, nothing on the forehead. A dark short coat over a pale vest with bulging pockets and a white mundu.",
+    "yusuf": "Tall and lean, white skullcap, neatly trimmed dark beard, a sea captain's short coat over a white tunic, no vest, no turban and no facial scar; never Ibrahim's face.",
+    "temple_priest": "The temple-priest face belongs only to the officiating Hindu priest at the lamp stand; the plump merchant bowing before him has his own unrelated face."
+  },
+  "not_shown": {
+    "page-01-panel-02": [
+      "ibrahim",
+      "dutch_envoys"
+    ],
+    "page-01-panel-05": [
+      "nagoji"
+    ],
+    "page-02-panel-02": [
+      "padmini"
+    ],
+    "page-03-panel-02": [
+      "ramayyan"
+    ],
+    "page-03-panel-04": [
+      "ramayyan"
+    ],
+    "page-04-panel-02": [
+      "nagoji"
+    ],
+    "page-05-panel-01": [
+      "padmini",
+      "nagoji"
+    ],
+    "page-05-panel-02": [
+      "varma"
+    ],
+    "page-05-panel-05": [
+      "ramayyan"
+    ],
+    "page-06-panel-01": [
+      "padmini"
+    ],
+    "page-06-panel-04": [
+      "eustachius"
+    ],
+    "page-06-panel-05": [
+      "varma"
+    ],
+    "page-08-panel-02": [
+      "nagoji"
+    ],
+    "page-08-panel-03": [
+      "nagoji"
+    ],
+    "page-09-panel-01": [
+      "nagoji"
+    ],
+    "page-09-panel-04": [
+      "ramayyan"
+    ],
+    "page-09-panel-05": [
+      "ramayyan"
+    ],
+    "page-10-panel-03": [
+      "nagoji"
+    ],
+    "page-10-panel-04": [
+      "ibrahim"
+    ]
+  }
+}

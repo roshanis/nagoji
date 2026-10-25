@@ -1,0 +1,20 @@
+{
+  "status": "blocked_tool_failure_not_accepted",
+  "created_utc": "2026-09-30T14:41:09.977585+00:00",
+  "frame_id": "page-05-panel-03",
+  "attempted_version": "v02",
+  "tool": "built-in imagegen",
+  "http_status": 400,
+  "error_code": "moderation_blocked",
+  "moderation_stage": "output",
+  "categories": [
+    "other"
+  ],
+  "request_id": "d78e8567-a19b-4ec9-86b7-42299a357b14",
+  "error_message": "Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID d78e8567-a19b-4ec9-86b7-42299a357b14.",
+  "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/prompts/resume-page-05-panel-03-v02.txt",
+  "prompt_sha256": "8ca46a33ddab8cbd7b67444524f606e108b9c51cdb1c37c1bc682493680f36f6",
+  "output_image_returned": false,
+  "action": "No retry, no alternative model, no pipeline edits. Stop generation under pipeline README step 3. Preserve completed concurrent candidates as pending review.",
+  "pdf_built": false
+}

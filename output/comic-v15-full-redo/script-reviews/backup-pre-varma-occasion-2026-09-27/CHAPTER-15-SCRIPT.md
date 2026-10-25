@@ -1,0 +1,544 @@
+# Horse of the Servant, graphic novel V15
+
+## Chapter 15: Prisoners of a New King
+
+Source: `book1_horse_servant/book3_chapter15_prisoners_of_a_new_king.md`, 3,957 words; scripted at 14 pages, 69 panels plus one inset.
+
+### Art locks for this chapter
+
+- **Reference sheets.** Attach `nagoji-v2.png` to every frame that shows Nagoji and `varma-v1.png` to every frame that shows Varma.
+- **Nagoji** (commander look, CONTINUITY ch7-16): rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud. No stubble, no beard, no grey yet. When his sleeves are pushed up, the Portuguese brand shows on his left forearm: a pale puckered patch of raised ridges blurred past reading, no letters. He rides Kayal, his bay mare, coat the ochre red-brown of earth after rain, no white markings.
+- **Dhanaji** (as locked in ch14): stockier and a little shorter than Nagoji, short black beard, white turban, indigo-dyed tunic, no sash, talwar, brown horse. Never a rust-red turban or a red sash.
+- **Varma**: varma-v1 face; cream and gold, peacock crest, gold necklaces, often a spear.
+- **Ramayyan**: older, thin, sharp fine features, receding hair, bare-headed, plain white cloth, no jewellery, palm-leaf bundles and stylus.
+- **Mathoo Tharakan** (new court look from ch15): older and heavier-set than Ramayyan, grey receding hair, fine grey moustache, clean chin; a dark maroon silk tunic under heavy gold chains; on one chain a small gold St Thomas (Nasrani) cross with flared, budded arms, not a crucifix. A layman and court noble: no robes, no clerical headgear.
+- **Nair infantry, guards and matchlock men**: young, muscular, forward-tied topknot (kudumi), bare chest, short white mundu hitched to the knee, small round shield, spear or short curved Nair sword. No coats, no uniforms, no hats, no turbans.
+- **The Dutch**: Dutch East India Company soldiers in stained blue coats, breeches and tricorn hats. No monogram or lettering anywhere, on hilts, buttons, drums, flags or coats; any Company mark is an engraved interlaced shape worn smooth, with no legible letters.
+- **Eustachius De Lannoy**: a head taller than the other officers, pale hair, a linen bandage round his left hand and wrist. Torn, soot-stained blue coat and boots until 13.2. After that: a plain white ankle-length cloth wrapped at the waist and tucked, Kerala style (the mundu), a plain white cotton tunic-coat, sandals, bare-headed. He is the only tall, pale-haired Dutchman.
+- **Joseph Donnadi**: shorter and stockier than De Lannoy, weathered, dark hair tied back, blue officer's coat with a sash, brass-hilted sword.
+- **The drummer boy**: about fourteen, thin, in a blue coat too large for him, drum on a shoulder strap.
+- **Ibrahim Marakkar**: shorter than his boatmen but broader, white turban, short grey-flecked beard, a scar from the LEFT ear to the jaw (turn his left side to camera), short coat over a vest with bulging pockets.
+
+---
+
+## PAGE 1
+
+Five panels. The Dutch march out under their own drums. Everyone on the beach except the Dutch knows how this ends.
+
+**1.1** Wide, full page width. Colachel beach at mid-morning, the day after the capitulation was signed. The charred stockade and the burnt-out Dutch camp, ash grey on the sand, the smoke gone. A Dutch column forms ranks inside the burnt gap of its own stockade: torn, soot-stained blue coats, tricorn hats, muskets shouldered, drums slung, officers with swords at their hips. Beaten men standing as straight as they can. Along the camp perimeter, the Nair pickets who have guarded it for two days (bare-chested, forward-tied topknots, short white mundus, spears) step back to open the way. Far out, Dutch ships riding small and distant.
+
+> CAPTION: Colachel. The thirteenth of August, 1741.
+
+> CAPTION: The end came with a lie, or perhaps just a misunderstanding of what honour meant on this coast.
+
+**1.2** Medium, inside the column. De Lannoy: a head taller than the men around him, pale hair, a linen bandage round his left hand and wrist, his blue coat as torn and soot-stained as the rest, sword sheathed. His eyes are not on the road ahead but on the silent Nair lines along it.
+
+> CAPTION: For two days De Lannoy had carried terms between our lines and their camp.
+
+> CAPTION: Yesterday, they signed. They would give up the fort and march with their arms to Kanyakumari.
+
+**1.3** At the edge of the dunes, two riders side by side. Frame-left, Dhanaji: stockier and a little shorter, short black beard, white turban, indigo-dyed tunic, no sash, talwar, on a brown horse. Frame-right, Nagoji on Kayal, his bay mare, coat the ochre red-brown of earth after rain, no white markings. Nagoji in the commander look: rust-red turban, cream tunic, broad red sash, cream trousers, boots, talwar; thick curled moustache, clean-shaven chin, small gold ear stud. Behind them, half hidden in a hollow of the dunes, a glimpse of waiting riders and the muzzle of a matchlock. Place Dhanaji's balloons on the left, tails to him.
+
+> DHANAJI: They look relieved.
+
+> DHANAJI: They think they are going for a long walk and then a boat home.
+
+**1.4** Close on Nagoji (rust-red turban, thick curled moustache, clean-shaven chin, gold ear stud), eyes on the column.
+
+> NAGOJI: The King does not let tigers walk away because they promise not to bite.
+
+**1.5** Wide, low angle up the rise where the main battery stood. Marthanda Varma (varma-v1 face; cream and gold, peacock crest, gold necklaces) waiting there, spear upright. Below him Nair infantry line both sides of the Dutch path, silent and impassive: bare-chested, forward-tied topknots, short white mundus, small round shields, spears. No coats, no uniforms, no hats. At Varma's side a Nair holds a white conch shell at his hip, not yet raised.
+
+> *No text.*
+
+---
+
+## PAGE 2
+
+Five panels. The trap closes. Ramayyan rides out alone.
+
+**2.1** Tight. The conch lifted to the Nair's lips, cheeks full. Behind him, soft focus and far below, the last Dutch soldier stepping clear of a charred stockade post.
+
+> *No text.*
+
+**2.2** Wide, full width, high angle. Everything moves at once. The Nair lines thicken and their spears come down in a ripple. Matchlocks rise from the hollows of the dunes, bare-chested Nair gunners in short white mundus, Nagoji's riders mounted among them. A line of small round Nair shields and levelled spears locks across the road south to Kanyakumari. The Dutch column is small in the middle of it all.
+
+> *No text.*
+
+**2.3** The Dutch column halted, confusion rippling down its ranks. Joseph Donnadi, the senior surviving officer, shouting and pointing his sword at the blocked road: stocky, weathered, dark hair tied back, blue officer's coat with a sash, brass-hilted sword. Beside him, a head taller, De Lannoy (pale hair, bandaged left hand, torn soot-stained blue coat, sword sheathed) stands still and does not shout.
+
+> CAPTION: Joseph Donnadi. Their senior surviving officer.
+
+**2.4** Ramayyan riding forward alone into the open sand between the two forces: older, thin, sharp-featured, receding hair, bare-headed, plain white cloth, no jewellery, no weapon drawn. The sea wind pulling at his cloth.
+
+> RAMAYYAN: The road is closed.
+
+> RAMAYYAN: You are prisoners of the State of Travancore.
+
+**2.5** Donnadi (stocky, dark hair tied back, sashed blue coat), face dark with rage, sword still raised.
+
+> DONNADI: We have terms!
+
+> DONNADI: You agreed to let us march to Kanyakumari with our arms!
+
+---
+
+## PAGE 3
+
+Five panels. Ramayyan's answer, De Lannoy's counsel, and the moment the column could still choose to fight.
+
+**3.1** Ramayyan on his horse (thin, receding hair, bare-headed, plain white cloth), unmoved, hands easy on the reins.
+
+> RAMAYYAN: Terms change when kings have time to think.
+
+> RAMAYYAN: You burned our temples. You took our people as slaves. Did you think we would simply wave goodbye?
+
+**3.2** Two-shot. De Lannoy, the taller pale-haired man with the bandaged left hand, leans down to Donnadi's ear from frame-left. Donnadi, shorter and stocky, dark hair tied back, sashed blue coat, stares ahead at the ring of bare-chested Nair spearmen. Lettering: dotted whisper balloon; translated Dutch is shown in angle brackets.
+
+> DE LANNOY (in Dutch): <Joseph. Look around you. This is not a battle we can win.>
+
+> DE LANNOY (in Dutch): <The alternative is worse than surrender.>
+
+**3.3** Ramayyan, still in the saddle, lowers one open hand toward the sand at the Dutch feet, palm down: a small, unhurried gesture.
+
+> RAMAYYAN: You have marched out.
+
+> RAMAYYAN: Now you will drop the arms.
+
+**3.4** Close, a row of Dutch hands in blue cuffs tightening on musket stocks. In the middle of them, Donnadi's knuckles white on his brass sword hilt.
+
+> CAPTION: For a moment, I thought they would fight.
+
+> CAPTION: Twenty to one, starving and shocked. But they were soldiers.
+
+**3.5** Nagoji on Kayal (bay mare, ochre red-brown coat), a brass spyglass to his eye. Commander look: rust-red turban, red sash, thick curled moustache, clean-shaven chin.
+
+> CAPTION: I had seen that expression before. On Keshavrao's face in the storm. On my own in the Goan dungeon.
+
+*Page turn.*
+
+---
+
+## PAGE 4
+
+Five panels. Donnadi's decision, slowly, in the order the novel gives it: the sky, the boy, De Lannoy, the oath, the belt.
+
+**4.1** Circular spyglass view, a round vignette in a black surround. Donnadi's face filling it (weathered, dark hair tied back), looking up at the sky, lips moving without sound.
+
+> CAPTION: The moment when a man realizes that every road leads to the same wall.
+
+**4.2** Beside Donnadi, the drummer boy, no more than fourteen, thin, in a blue coat too large for him, his hands shaking on his drumsticks. Donnadi's hand resting on the boy's shoulder. Draw only the steadying: the boy's chin lifting, lips pressed together, eyes wet.
+
+> CAPTION: Something passed between them. Permission, perhaps, or apology.
+
+**4.3** Donnadi looks past his hollow-eyed, swaying men, and past the ring of Nair spears beyond them, to De Lannoy at his shoulder: the taller, pale-haired man with the bandaged left hand. De Lannoy holds his gaze and does not look away.
+
+> DONNADI (a short, sharp oath): Verdomme.
+
+**4.4** Tight. Donnadi's hands holding his unbuckled sword belt. His thumb traces an engraved interlaced monogram on the brass of the hilt, worn smooth: shapes only, no legible letters. The metal catches the sun.
+
+> CAPTION: That monogram had been his identity since he was a boy in the Low Countries, dreaming of foreign shores.
+
+**4.5** Full width, sand-level. The sword and belt lying in the sand, grains still settling around them. Donnadi's boots above; the column behind him, waiting.
+
+> CAPTION: A soft thud, not a clatter. A quiet death for a quiet surrender.
+
+> DONNADI (off, cracked balloon): Down.
+
+---
+
+## PAGE 5
+
+Four panels. The arms go down, and the prisoners go inland, not south.
+
+**5.1** Large, about half the page. The whole column letting its muskets fall onto the beach at once: blue coats, tricorn hats. Some men weeping, others rigid, staring at nothing. The drummer boy's drum set down on the sand. In the foreground a sergeant on his knees, forehead pressed to his fallen musket like a man saying goodbye to an old friend.
+
+> CAPTION: It sounded like a heavy rain.
+
+**5.2** Varma (varma-v1 face; cream and gold, peacock crest, gold necklaces) on the rise, spear grounded. He does not raise his voice.
+
+> VARMA: Take them.
+
+**5.3** The disarmed prisoners marched inland along a red earth road between palms, hands free, no ropes. Nair guards on both flanks: bare-chested, forward-tied topknots, short white mundus, small round shields, spears. No coats, no uniforms, no hats. The sea is behind them now.
+
+> CAPTION: Twenty-four European officers. Hundreds of men.
+
+> CAPTION: We did not march them to Kanyakumari.
+
+**5.4** Wide, bottom. In the foreground, a profile medium of De Lannoy (a head taller, pale hair, bandaged left hand, torn blue coat), head tilted up, the only upright head among the bowed prisoners around him. Behind and above, filling the background, the granite walls and bastions of Udayagiri Fort rising against green hills.
+
+> CAPTION: De Lannoy looked at those walls as if he were already measuring them for improvement.
+
+---
+
+## PAGE 6
+
+Five panels. Ibrahim Marakkar comes in with the surf. A friend who is not quite one.
+
+**6.1** Wide. Morning on the beach. A small boat sliding in through the breakers, a second behind it loaded with crates and bundles in oiled cloth. Ibrahim Marakkar stepping barefoot onto the sand, his LEFT side toward us: shorter than his boatmen but broader, white turban, short grey-flecked beard, a scar from his LEFT ear to his jaw, short coat over a vest with bulging pockets. Nagoji (commander look: rust-red turban, cream tunic, red sash, thick curled moustache, clean-shaven chin) comes down off the dune to meet him. Ibrahim's eyes go past him to the wrecked Dutch camp, a merchant appraising goods at auction.
+
+> CAPTION: The next morning, before the prisoners were even counted, Ibrahim Marakkar came.
+
+> NAGOJI: You move quickly.
+
+> IBRAHIM: The sea moves quickly. I merely follow its currents.
+
+**6.2** Ibrahim's open hand sweeping across the burned stockade and the scattered rope, metal and canvas.
+
+> IBRAHIM: There will be salvage. Things that have no flag now.
+
+> NAGOJI: Those belong to the king.
+
+> IBRAHIM: Some do.
+
+**6.3** His crew unloading the second boat: sacks of rice, bundles of dried fish, jars of coconut oil. Nagoji looking at the sacks, not at Ibrahim.
+
+> IBRAHIM: For the prisoners. Marthanda Varma will remember who fed his new recruits.
+
+> IBRAHIM: A man who is remembered kindly by both sides is a man who survives.
+
+> NAGOJI: Is that all you care about? Surviving?
+
+**6.4** Medium two-shot, face to face at the waterline. Ibrahim looks straight at Nagoji, and for once the merchant's mask has slipped: no smile. He taps his chest with two fingers.
+
+> IBRAHIM: I care about this coast. We have seen the Portuguese come and fade. Now the Dutch fade. But the Marakkars remain.
+
+> IBRAHIM: The sea belongs to no one. It only lends itself to those clever enough to use it.
+
+**6.5** Full width, at least a third of the page. Ibrahim wading back out toward his boats, calling over his shoulder, the merchant's grin back in place. Nagoji on the sand in the foreground, his back to us. Leave open sky above the boats for the caption.
+
+> IBRAHIM: Tell Ramayyan I will have the full inventory of Dutch salvage on his table by nightfall. For the usual consideration, of course.
+
+> CAPTION: Which was more dangerous: an enemy you could see, or a friend you could never quite trust?
+
+---
+
+## PAGE 7
+
+Five panels. No rest. Blue coats out of Kanyakumari, and a lesson in where not to chase them.
+
+**7.1** The edge of the dunes. Varma (varma-v1 face; cream and gold, peacock crest, gold necklaces, spear) with his eyes on the sea, Nagoji at his side in the commander look (rust-red turban, red sash, clean-shaven chin). Behind them a runner, still panting, hands a palm-leaf message to Ramayyan (thin, receding hair, bare-headed, plain white cloth).
+
+> CAPTION: The victory did not give us the luxury of rest. Fresh blue coats had slipped in under the headlands at Kanyakumari.
+
+> VARMA: I will not let the company write a second ending to this battle while my men are drinking water.
+
+**7.2** Varma pointing south, down the coast to where the land narrows and the sea presses close. Behind Nagoji, Dhanaji (white turban, indigo-dyed tunic, no sash, short black beard) is already swinging into the saddle of his brown horse.
+
+> VARMA: Ride. Find what has come out of Kanyakumari and break its teeth. But do not chase it into stone.
+
+> DHANAJI: If you are going to ride into trouble, I will be close enough to drag you out.
+
+**7.3** Wide, pure speed. The gallop south along the beach track, coconut palms blurred into a green wall. Nagoji leading on Kayal (bay mare, ochre red-brown coat), rust-red turban and red sash, jaw clenched, one hand pressed for a moment to his bruised ribs. Dhanaji beside him on his brown horse, white turban, indigo tunic. Maravar scouts and Madurai lancers strung out behind.
+
+> CAPTION: Pain was a tax you paid for staying alive.
+
+**7.4** The clash where the siege trenches and palm-log barricades bend around a shallow stream. A handful of Dutch East India Company soldiers in blue coats and tricorn hats, bayonets fixed, caught on wet sand as the horsemen hit them, their own volley smoke blowing back into their faces. Nagoji on Kayal (rust-red turban, red sash) wheeling left at the last moment; Dhanaji (white turban, indigo tunic, brown horse) driving in from the right with the Maravar scouts. Staging and motion only, no wounds shown.
+
+> CAPTION: They tried to lock into the comfort of drill.
+
+> CAPTION: But drill is a luxury when hooves are already inside your breath.
+
+**7.5** Wide, bottom. The Dutch in blue coats and tricorn hats falling back south into the haze, bayonets still fixed, an officer limping between two of his men. In the foreground a runner at Nagoji's stirrup with a palm-leaf message; Nagoji on Kayal, reined in, holding his sword across his chest: the signal to halt.
+
+> CAPTION: My horse wanted to follow. So did my blood.
+
+> RUNNER: Order from the Dalawa. Do not pursue. Not into their guns.
+
+> NAGOJI: Let them carry the story back.
+
+> NAGOJI: Today they learned that even the road home has teeth.
+
+---
+
+## PAGE 8
+
+Five panels. Udayagiri. A small room, a new kind of court, and the first exchange.
+
+**8.1** Wide establishing. A small hall for private audiences inside Udayagiri: stone walls, no throne, a low platform and simple mats, one window onto green hills. Varma (varma-v1 face; cream and gold, gold necklaces) seated on the platform, his spear leaning within reach. To one side on the mats, Ramayyan: thin, bare-headed, receding hair, plain white cloth, no jewellery, stylus and palm-leaf bundles in his lap. Beside him, a heavier presence, Mathoo Tharakan: grey receding hair, fine grey moustache, a dark maroon silk tunic under heavy gold chains. Nagoji (rust-red turban, red sash) standing by the door.
+
+> CAPTION: Udayagiri. Two days later.
+
+**8.2** Tharakan, close. An older layman and court noble: grey receding hair, a fine grey moustache, clean chin, heavy gold chains over a dark maroon silk tunic; on one chain a small gold St Thomas (Nasrani) cross with flared, budded arms, not a crucifix. No robes, no clerical headgear.
+
+> CAPTION: Mathoo Tharakan, now Sarvadhi Karyakkar. A Syrian Christian at the heart of the durbar.
+
+> CAPTION: It was a statement as loud as any cannon.
+
+**8.3** De Lannoy brought in between two bare-chested Nair guards with spears (forward-tied topknots, short white mundus). Tall and pale-haired, washed, the linen bandage fresh on his left hand, but still in the same stained blue coat. He does not bow.
+
+> DE LANNOY: You have a strange way of keeping treaties.
+
+**8.4** From behind De Lannoy's shoulder (pale hair and blue coat in the near foreground): Varma on the low platform, one forearm resting on his knee, looking up at the standing prisoner without hurry.
+
+> VARMA: I keep the treaties that benefit my people.
+
+> VARMA: Allowing an enemy army to march to another fort so they can attack me again next year does not benefit anyone but you.
+
+**8.5** Two-shot in profile across the room: De Lannoy standing, mouth open to answer; Varma seated, one hand lifted a little. Place Varma's balloon so its tail overlaps and cuts across De Lannoy's.
+
+> DE LANNOY: Honour...
+
+> VARMA: Honour is eating well and sleeping without fear. Dead men have no honour.
+
+> VARMA: You are alive. That is the only term that matters.
+
+---
+
+## PAGE 9
+
+Five panels. The Company's ledger, read back to its own captain.
+
+**9.1** Varma leaning forward, his hand resting on the shaft of the spear that leans within reach.
+
+> VARMA: You know guns. You know drill. You know how to build forts that do not burn when a lucky shot hits them.
+
+> DE LANNOY (off): I am a Captain of the Dutch East India Company.
+
+**9.2** Two-shot, Varma and Tharakan (maroon silk, gold chains, the small gold St Thomas cross), the old merchant's voice soft.
+
+> VARMA: The Company is a ledger.
+
+> THARAKAN: And books with too much red ink are burned.
+
+**9.3** Over De Lannoy's shoulder: Varma nods toward Tharakan with his eyes still on De Lannoy, the gold chains on Tharakan's chest catching the window light.
+
+> VARMA: It has already written you off.
+
+> VARMA: They will count the cost, shake their heads, and hire a new captain.
+
+**9.4** Insert, tight. Ramayyan's thin fingers laying a water-stained letter on the mat, its seal broken. The Dutch script is unreadable lines only.
+
+> CAPTION: From the wrecked camp. The Governor at Kochi, in his own careful hand:
+
+> CAPTION (letter style): "...successful at first, but for want of men and other necessaries had to leave him master of the field."
+
+**9.5** De Lannoy, close. A small flinch, and it betrays him.
+
+> DE LANNOY: What do you want?
+
+---
+
+## PAGE 10
+
+Five panels. The offer, the threat, and a question for Nagoji. Five beats in one small room: every panel gets its own camera and one physical beat.
+
+**10.1** Low angle past De Lannoy's bandaged left hand, hanging at his side in the near foreground. Beyond it, Varma seated on the platform, framed against the window; through the window, below, bare-chested Nair spearmen with forward-tied topknots drilling in the yard, and the green hills beyond.
+
+> VARMA: I want you to build me an army that fights like yours. But better.
+
+> VARMA: Because it will fight for its own land, not for pepper prices.
+
+**10.2** Over Varma's shoulder (cream and gold, gold necklaces) onto De Lannoy standing in his stained blue coat. His right hand closes on his own lapel.
+
+> DE LANNOY: You want me to turn my coat.
+
+> VARMA: I want you to change your master. Serve me. Train my men. Cast cannon for us. Build walls that stand.
+
+**10.3** Tight insert. Ramayyan's stylus scoring a palm leaf in his lap, thin fingers steady; incised lines only, nothing legible. He does not look up.
+
+> DE LANNOY (off): And if I refuse?
+
+> RAMAYYAN: Then you remain in Udayagiri. Not as a guest, but as a prisoner.
+
+> RAMAYYAN: You will rot here while the world forgets your name.
+
+**10.4** De Lannoy at the window, half turned from us, the green hills of Travancore rising against the sky beyond it. Leave the sky open for the caption at the foot of the panel.
+
+> DE LANNOY: And if I accept?
+
+> VARMA (off): You keep your sword. You keep your rank. You become the Valiya Kappittan, the Great Captain of my forces.
+
+> CAPTION: It was a staggering offer. To go from a prisoner in a dungeon to the commander of the army that had defeated him.
+
+**10.5** From Nagoji's position at the door: the doorframe and the edge of his red sash in the near foreground. De Lannoy has turned from the window and faces us full on, looking straight at Nagoji; the King small and seated behind him.
+
+> DE LANNOY: You were a mercenary once. Before you were a courtier.
+
+> NAGOJI: I am still a mercenary. I just found a paymaster who offers more than coin.
+
+> DE LANNOY: And does he keep his word?
+
+---
+
+## PAGE 11
+
+Five panels. The answer, the men, the one condition, and the yes.
+
+**11.1** Reverse angle across the room, over De Lannoy's shoulder (pale hair, blue coat edge): Nagoji framed in the doorway, one hand resting on the doorframe. Commander look: rust-red turban, cream tunic, red sash, thick curled moustache, clean-shaven chin.
+
+> NAGOJI: He kept me alive when others would have hanged me.
+
+> NAGOJI: And he let you live when he could have let the Nair boys spear you on the beach.
+
+**11.2** Tight. De Lannoy's two open hands in the foreground, palms up, the linen bandage round the left; his face above them, looking down at them. Beyond, out of focus, the King on his platform.
+
+> DE LANNOY: I have men. Donnadi. The others.
+
+> VARMA: They can serve too. Or they can wait. The choice is theirs. But the offer starts with you.
+
+> CAPTION: Loyalty to a distant flag, warring with stone walls and an indifferent master.
+
+**11.3** Two-shot. De Lannoy in profile frame-left, head lifted now to face the King; Varma seated frame-right, a smile touching his lips.
+
+> DE LANNOY: I will not fight against the Dutch.
+
+> VARMA: I do not need you to fight them. I need you to make sure I do not have to fight them again.
+
+> VARMA: Or if I do, that they lose even faster.
+
+**11.4** Wide. De Lannoy's slow nod. Varma does not rise; he only nods to Ramayyan, whose stylus is already moving.
+
+> DE LANNOY: Then, I accept.
+
+> VARMA: Good. Ram will draw up the papers. You start tomorrow.
+
+**11.5** De Lannoy's back in the doorway as two bare-chested Nair guards with spears escort him out; Nagoji stands aside to let them pass. Ramayyan looking up from his leaf; Varma watching the empty door.
+
+> RAMAYYAN: He will be useful.
+
+> VARMA: He will be a weapon. And like any weapon, we must make sure he points away from us.
+
+---
+
+## PAGE 12
+
+Five panels. The shield, the seed, and, the next morning, a coat.
+
+**12.1** Varma turns on the platform to Nagoji at the door, one finger lifted toward him.
+
+> VARMA: That will be part of your task, Nagoji. You speak his language. You know his kind.
+
+> VARMA: Watch him. Be his friend holding the shield.
+
+**12.2** Varma rising, reaching for his spear. Nagoji (rust-red turban, red sash) at his shoulder.
+
+> NAGOJI: Friendship with a man who walked away from his own flag is a complicated thing.
+
+> VARMA: Life is complicated. That includes surviving it. The simple things usually end in funerals.
+
+**12.3** Wide, full width. The courtyard of Udayagiri at high sun. In the lower yard, Dutch prisoners in stained blue coats or shirtsleeves and breeches sit in rows eating rice from leaves; Nair guards (bare-chested, forward-tied topknots, short white mundus, spears) at the edges. They look up as Varma and Nagoji pass along the upper walk, fear mixed with curiosity.
+
+> CAPTION: The Dutch prisoners. No. The Dutch recruits.
+
+> CAPTION: They did not know it yet, but they had just become the seed of the Travancore Nair Brigade.
+
+**12.4** The same courtyard before dawn, blue-grey light. Outside De Lannoy's door, a stone bench. De Lannoy (tall, pale hair, bandaged left hand), still in his stained blue coat and boots, stands over a small pile left by the door: a folded white mundu, a plain white cotton tunic-coat, a pair of sandals. Nagoji arriving across the flagstones in the commander look (rust-red turban, red sash) with his sleeves pushed up; on his left forearm the old Portuguese brand, a pale puckered patch of raised ridges blurred past reading, no letters.
+
+> CAPTION: His first morning as a Travancore officer.
+
+> DE LANNOY: They expect me to dress as one of them.
+
+> NAGOJI: They expect you to stop dressing as their enemy.
+
+> NAGOJI: Men who lost brothers at Colachel will not take orders from a man who wears the uniform that killed them.
+
+**12.5** Tight. De Lannoy's right thumb running along the plain brass buttons of his coat, each stamped with an interlaced mark worn smooth: shapes only, no legible letters.
+
+> DE LANNOY: I have worn this since I was seventeen. My mother sewed the lining herself before I left Arras for the sea.
+
+---
+
+## PAGE 13
+
+Five panels and one inset. The coat comes off, and the cloth goes on.
+
+**13.1** Two-shot. Nagoji a step nearer, sleeves still pushed up, nodding past De Lannoy toward the green hills showing grey beyond the courtyard wall.
+
+> NAGOJI: Your mother is in Arras. You are in Travancore.
+
+> NAGOJI: The coat cannot follow you where you are going.
+
+**13.2** Wide, a long still panel. De Lannoy undoing the brass buttons one by one. The courtyard quiet, first light on the walls. Hold it.
+
+> *No text.*
+
+**13.3** The coat folded with the care of a man folding a shroud, laid on the stone bench in the foreground, his boots set beside it. Behind it De Lannoy, barefoot, in a sweat-stained shirt open at the throat, his chest pale where the sun has never reached, the bandage on his left hand, holding up the white mundu as if it were a map of an unknown country.
+
+> DE LANNOY: Show me.
+
+**13.4** Inset, upper left, read first: tight on De Lannoy's waist. Nagoji's hands, his branded left forearm in frame, guiding the tuck of the white cloth while the end slips loose from De Lannoy's fingers. Main panel: De Lannoy straightening in the white mundu (a plain white ankle-length cloth wrapped at the waist and tucked, Kerala style) and the plain white cotton tunic-coat, sandals on his feet, the tuck holding at last. He stands as if the cloth might fall at any moment: a tall, bare-headed, pale-haired European in cloth he does not yet know how to wear. Nagoji, in rust-red turban and red sash, stepping back to look at him. The folded blue coat on the bench behind them.
+
+> DE LANNOY (inset, a short hot oath in Flemish, lettered untranslated): Nondedju.
+
+> DE LANNOY: Do I look ridiculous?
+
+> NAGOJI: You look like a man who has not yet learned to stand in his new clothes. That will change.
+
+**13.5** Over De Lannoy's shoulder (pale hair, white tunic-coat): Nagoji, serious now, nods past him toward the lower yard, where the first Nair squad (bare-chested, forward-tied topknots, short white mundus, spears) is gathering for drill in the early light, a Nair captain at its head.
+
+> NAGOJI: The cloth is easy.
+
+> NAGOJI: The hard part is when you give your first order and a Nair captain looks at your pale face and wonders why he should obey.
+
+> DE LANNOY: What do I do then?
+
+---
+
+## PAGE 14
+
+Five panels. Same sun, same rice, and the coat he keeps.
+
+**14.1** Two-shot in the growing light. Nagoji (rust-red turban, red sash) speaking plainly; De Lannoy (white mundu and tunic-coat, bandaged left hand) listening.
+
+> NAGOJI: You show him something he respects. Not your old rank. Not your old flag.
+
+> NAGOJI: Competence. Fairness. The willingness to stand in the same sun and eat the same rice.
+
+**14.2** De Lannoy, dry. He does not smile, but something in his face has shifted: the first crack in the wall.
+
+> DE LANNOY: The rice is going to take some getting used to.
+
+> NAGOJI: So is everything else. Welcome to Travancore, Kappittan.
+
+**14.3** Evening. De Lannoy, small and alone, in white, walking the ramparts of Udayagiri against an amber sky. No coat anywhere in the frame.
+
+> CAPTION: The Dutch coat was still folded on his bench, untouched.
+
+> CAPTION: He had not thrown it away. Perhaps he never would.
+
+> CAPTION: But he was not wearing it.
+
+**14.4** Dusk. Nagoji (rust-red turban, red sash, thick curled moustache, clean-shaven chin) on the wall walk, his palm flat on the granite of the parapet. Far along the same rampart, small, De Lannoy's white figure.
+
+> CAPTION: History is strange. It turns on a lucky shot, a broken promise, and a conversation in a stone room.
+
+> CAPTION: The walls were strong. But with De Lannoy's help, I knew they would become stronger.
+
+**14.5** Wide, full width, the last panel of the chapter. The walls of Udayagiri at dusk, and beyond them the narrow green country running down from the mountains to the sea.
+
+> CAPTION: And Travancore, this slip of land between the mountains and the sea, would become something no one, not even the great Companies of Europe, could swallow.
+
+---
+
+## Adaptation notes
+
+- **Page count.** 14 pages, 69 panels plus one inset, against a target of 13 (range 10 to 16). The extra page goes to the two scenes that carry the chapter: the surrender (pages 1 to 5) and De Lannoy's turning, in the audience and the coat scene (pages 8 to 14).
+- **Negotiation.** The two days of carrying terms are compressed into 1.2, which also states the terms (give up the fort, march with arms to Kanyakumari) before the trap, so the reader knows what is about to be broken.
+- **Hand-off from ch14.** Ch14 ends (10.5) on prisoners led along the beach at dusk, as the novel does. Here 1.1 shows the column forming up inside its own burnt stockade while Nair pickets step back from the perimeter, so the Dutch read as held in their camp under guard for two days before they march out.
+- **Donnadi's decision.** In the novel he looks at the sky, his boots, the drummer boy, his men, the Nair ring, the sea and De Lannoy. The script keeps the sky, the boy and De Lannoy, with the men and the Nair ring behind him in 4.3. The ships-as-spectators simile is cut, but the ships stay visible in 1.1. "Verdomme" gives a word to the novel's "He swore" and falls before the belt, in the novel's order. The drummer's drum on the sand (5.1) is a small visual addition.
+- **Ibrahim.** Cut: his grandfather and the history of wreck salvage, the "safe distance" exchange, "Generous / Practical", "three hundred years", "Tomorrow it will be someone else", and the message about the prisoners not starving. Kept: his arrival from the sea, the currents line, "no flag", feeding the "new recruits", "remembered kindly by both sides", the Portuguese and the Dutch fading while the Marakkars remain, "the sea belongs to no one", and the salvage inventory "for the usual consideration", which puts the mask back on before Nagoji's closing doubt.
+- **Kanyakumari sortie.** Compressed to one page. Cut: the tactical detail, the point-blank miss, taking a man with the flat of the blade for questioning, the casualty count, "Let them run", and Nagoji's reasoning about fighting under their stone. Kept: the order ("break its teeth", "do not chase it into stone"), Dhanaji's promise, the pain-as-tax line, the drill line, "My horse wanted to follow. So did my blood.", the runner's order and "even the road home has teeth".
+- **Tharakan.** The passage about the Syrian Christian houses and the kalari is cut down to one name caption and "loud as any cannon". His silk and heavy gold chains follow CONTINUITY.md for ch15. The script adds a dark maroon tunic and a small St Thomas cross so he reads as a lay noble, not a cleric, and never merges with Ramayyan.
+- **Audience.** Cut: "You are Eustachius De Lannoy", the "fever or old age" threat, "You rise as high as your skill takes you", and the "Tomorrow? / The war isn't over" exchange. Kept, in the novel's order and mostly word for word: "It was a staggering offer" (10.4), which echoes Nagoji's own road from the Goan dungeon and sends De Lannoy's question to him in 10.5; and "I have men. Donnadi. The others." with Varma's reply (11.2), which tells us what becomes of Donnadi and plants the recruits of 12.3. "I could see the calculation in his eyes" is cut because the panel shows his face; the rest of that sentence stays as the 11.2 caption.
+- **Coat scene.** Cut: "the first thing I bought with my own wages", "The coat is a problem", and the "ghost of himself" image, which is now art direction in 13.4. The dressing is shown: the 13.4 inset has Nagoji's hands guiding the tuck while the cloth slips, with De Lannoy's uncaptioned Flemish oath, and the main panel has the tuck holding. The novel's three attempts become one fumble. "He did not smile" is art direction (14.2). Nagoji's brand shows in 12.4 and in the 13.4 inset, so he too carries the mark of a flag he left. This is a visual echo only and is not captioned.
+- **Close.** The coat is kept out of 14.3, so its captions carry what the art does not show. The walls line comes back on 14.4, with Nagoji's palm on the granite, and pays off De Lannoy measuring the walls in 5.4. The final caption stands alone over the vista in 14.5. The novel's "Lannoy's help" is lettered "De Lannoy's help" to match the name used everywhere else in this chapter.
+- **POV.** In the novel Nagoji hears De Lannoy's quiet Dutch in 3.2 although he is watching from a distance. The script keeps the line as a whisper balloon, because the book establishes that Nagoji knows the language (12.1).
+- **Continuity follow-up for CONTINUITY.md.** These are flagged here and not edited into the bible, which is shared across parallel chapter revisions. Dhanaji's look, locked by the author on 2026-09-26 (white pagdi, indigo quilted tunic, short black beard, no sash, brown horse). Kayal as a bay mare, ochre red-brown with no white markings, through ch15. Donnadi (stocky, weathered, dark hair tied back, sashed blue coat, brass-hilted sword) if he returns in ch16. De Lannoy's ch15 linen bandage on the left hand and wrist, and his change into a white ankle-length mundu, a plain white cotton tunic-coat and sandals. Tharakan's maroon silk and St Thomas cross. Ibrahim's white turban and short grey-flecked beard, carried from ch4.
+
+### Review changes
+
+- Art locks added as a header block (Nagoji, Kayal, Dhanaji, Varma, Ramayyan, Tharakan, the Nairs, the Dutch, De Lannoy, Donnadi, the drummer boy, Ibrahim), and restated at each character's first appearance on every page. Dhanaji matches the ch14 lock and is placed frame-left of Nagoji in 1.3.
+- Page 1: 1.1 forms the column inside its burnt stockade with Nair pickets stepping back. 1.2 states the terms before the trap, and its first caption is trimmed. De Lannoy's bandage is fixed on the left hand and wrist.
+- Page 2: the "My riders had waited" caption is cut, so 2.1 and 2.2 run silent. 2.2 has small round Nair shields and levelled spears. De Lannoy is restated in 2.3.
+- Page 3: De Lannoy and Donnadi are placed in the 3.2 whisper, and Ramayyan gets a gesture in 3.3.
+- Page 4: now five panels. 4.2 draws only the boy steadying. A new 4.3 has Donnadi's last look at De Lannoy and carries "Verdomme". The hilt monogram in 4.4 is shapes only, with no letters.
+- Page 5: 5.4 restaged as a foreground profile of De Lannoy against the walls, and its caption anchored with his name.
+- Page 6: arrival and the currents exchange merged into 6.1. Ibrahim has his white turban and grey-flecked beard. 6.4 is face to face, with "the Marakkars remain". The new 6.5 is at least a third of the page and carries the salvage inventory line and the closing question.
+- Page 7: Kayal named. The Dutch are in blue coats and tricorn hats. "My horse wanted to follow. So did my blood." restored in 7.5, and "Let them run" dropped.
+- Pages 8 and 9: Ramayyan and Tharakan separated by costume and position, and Tharakan made a lay noble with a St Thomas cross. Every panel gets a prop or a move (8.4, 8.5, 9.1, 9.3). The 9.4 caption no longer narrates the insert.
+- Page 10: restaged with a camera and a physical beat per panel. "It was a staggering offer" restored at the foot of 10.4.
+- Page 11: "I have men. Donnadi. The others." and Varma's reply restored in 11.2, which is now one moment. The calculation sentence is cut, and "I will not fight against the Dutch" opens 11.3. The Nair guards are described.
+- Page 12: "Men who lost brothers" moved up into 12.4, which now sets up the stone bench and the brand as a pale ridged patch, not a cross. The 12.5 buttons carry no legible letters.
+- Page 13: the dressing is shown in an inset on 13.4, with the Flemish oath, and the mundu and tunic-coat are described for the model. 13.5 splits Nagoji's balloon and stages the Nair squad in the yard.
+- Page 14: now five panels. The coat is out of the 14.3 frame. The walls line is restored on 14.4, and the final caption stands alone on the vista in 14.5.

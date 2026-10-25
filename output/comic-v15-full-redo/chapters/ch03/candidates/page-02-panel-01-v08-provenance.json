@@ -1,0 +1,15 @@
+{
+  "id":"page-02-panel-01",
+  "candidate":"page-02-panel-01-v08",
+  "image":"frames/page-02-panel-01-v08.png",
+  "generation_tool":"built-in imagegen",
+  "prompt_path":"prompts/page-02-panel-01-generation-v08.txt",
+  "prompt_sha256":"91812f9cb88bd5a31b5a146e41817e030a47480e4d84c300a9ee68ff1e1904b8",
+  "references":[
+    {"role":"prior_candidate","path":"frames/page-02-panel-01-v07.png","sha256":"b30546fda60b77eb9c93edb99dcd3ef674297b210a428c0326f0b6ce7f89092f"},
+    {"role":"character_sheet","path":"../../concepts/07-keshavrao-v15c.png","sha256":"1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"},
+    {"role":"character_sheet","path":"../../../../comic-v13-reference-redesign-v1/concepts/nagoji-v2.png","sha256":"bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"}
+  ],
+  "reason":"v07 retained a dangling gold hook and bead at Nagoji's ear and left too much bare hand beyond the wrist wraps. v08 replaces the ornament with a single flush pinhead stud and extends the hand bandages over the backs and palms while leaving fingers exposed.",
+  "review_status":"pending_native_review"
+}

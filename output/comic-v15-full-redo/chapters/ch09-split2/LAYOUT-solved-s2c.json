@@ -1,0 +1,133 @@
+{
+ "page_rows": {
+  "1": [
+   83.7,
+   132.8,
+   148,
+   91,
+   60.0
+  ],
+  "2": [
+   187.1,
+   191.1,
+   141.3
+  ],
+  "3": [
+   249.1,
+   272.4
+  ],
+  "4": [
+   223.2,
+   152.3,
+   144.0
+  ],
+  "5": [
+   150.2,
+   150.2,
+   219.1
+  ],
+  "6": [
+   253.1,
+   268.4
+  ],
+  "7": [
+   [
+    226.4,
+    226.4
+   ],
+   107,
+   90,
+   94.1
+  ],
+  "8": [
+   160.4,
+   131.3,
+   227.8
+  ],
+  "9": [
+   267.5,
+   254.0
+  ],
+  "10": [
+   108.5,
+   155.5,
+   [
+    145.5,
+    145.5
+   ],
+   108.0
+  ],
+  "11": [
+   [
+    171.0,
+    171.0
+   ],
+   [
+    145.0,
+    145.0
+   ],
+   203.5
+  ],
+  "12": [
+   [
+    142,
+    142
+   ],
+   248,
+   [
+    129.5,
+    129.5
+   ]
+  ],
+  "13": [
+   [
+    140.0,
+    140.0
+   ],
+   222.1,
+   [
+    157.4,
+    157.4
+   ]
+  ],
+  "14": [
+   339.2,
+   182.3
+  ],
+  "15": [
+   301.0,
+   108.5,
+   110.0
+  ]
+ },
+ "fitted_from": {
+  "solver": "scratchpad solve_bars.py (2026-10-07): every grouping into rows of one or two, planner-verified at the final heights with keep_max 0.34, and each slot kept inside the shapes its cover crop can reach (worst-panel fill per page in page_fill)",
+  "package": "chapters/ch09-split2",
+  "manifest": "chapters/ch09-split2/SELECTION-INPUT-s1-a.json",
+  "decisions": "chapters/ch09-split2/review/LEAN-SELECTION-drawn-split-r1.json",
+  "keep_max": 0.34,
+  "step_pt": 5,
+  "page_fill": {
+   "1": 0.75,
+   "2": 0.9,
+   "3": 0.98,
+   "4": 0.98,
+   "5": 0.98,
+   "6": 0.98,
+   "7": 0.85,
+   "8": 0.9,
+   "9": 0.98,
+   "10": 0.98,
+   "11": 0.98,
+   "12": 0.98,
+   "13": 0.95,
+   "14": 0.98,
+   "15": 0.98
+  },
+  "cue_relaxed": {
+   "1": "none",
+   "12": "size floors and solo"
+  },
+  "cue_resolve": "2026-10-07: pages [1, 12] re-solved with the script layout cues (layout_fit.layout_cues: solo panels alone in their row, size cues floor their row); size floors were left unmet where honouring them dropped the worst fill below 0.75 (ch6 p10, ch7 p6 and p7, ch9 p4)"
+ }
+}

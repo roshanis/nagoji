@@ -1,0 +1,36 @@
+{
+  "default_outputs_identical": [
+    "ratio",
+    "probe",
+    "structures"
+  ],
+  "files_changed": [
+    "run_chapter.py",
+    "test_run_chapter.py",
+    "README.md"
+  ],
+  "new_tests": [
+    "test_draw_reports_keep_coverage_for_each_zone",
+    "test_keep_coverage_partial_overlap",
+    "test_keep_coverage_sums_boxes_inside_the_visible_part",
+    "test_keep_coverage_zones_without_a_visible_part_are_zero",
+    "test_slot_probe_rejects_excess_keep_coverage_only_when_enabled",
+    "test_keep_max_requires_fit_layout_with_probe",
+    "test_keep_max_refuses_values_outside_zero_to_one",
+    "test_keep_max_is_used_and_recorded_by_both_probe_modes",
+    "test_keep_max_omitted_preserves_default_reports",
+    "test_structures_keep_max_parallel_matches_serial_and_rejects_coverage"
+  ],
+  "new_test_count": 10,
+  "added_text_checks": "No forbidden dashes or trailing whitespace; Python parses.",
+  "suite": {
+    "run": 549,
+    "passed": 547,
+    "skipped": 2,
+    "failures": 0,
+    "errors": 0,
+    "elapsed_seconds": 140.236,
+    "execution": "permitted executor; no sandbox escalation"
+  },
+  "review": "Luna plan and implementation review approved"
+}

@@ -1,0 +1,226 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 4,
+  "logs": [
+    "chapter 14: 1 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 14: keep regions for 1 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 14: face zones for 1 frames, 2 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 14,
+        "decisions": [
+          {
+            "id": "page-04-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.272,
+                "y": 0.395
+              },
+              {
+                "copy_index": 1,
+                "x": 0.272,
+                "y": 0.395
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.267,
+                "y": 0.228,
+                "r": 0.27
+              },
+              {
+                "x": 0.834,
+                "y": 0.196,
+                "r": 0.14
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Varma's forehead mark is a single red tilak rather than the white namam with a red centre line, and his hair at the nape is slightly wavy. Both match the court figure on his sheet, and the turban, peacock crest, pearl drops, thin upturned moustache and necklaces are consistent with 4.4. Ramayyan matches his sheet: receding curly hair, thin sharp face, plain white cloth, no jewellery. He is close and lit warm from the low brass lamp. Behind him, Varma's hand rests still with the knife on the whetstone. Hands are sound, and there is no painted text, balloon or anachronism. The pale awning across the top and the dark sky between the poles (x about 0.35 to 0.75, upper half) give clear space for both Ramayyan balloons, away from faces and hands.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 14,
+        "result": {
+          "chapter": 14,
+          "panels": [
+            {
+              "id": "page-04-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.284,
+                  "y": 0.333,
+                  "r": 0.126,
+                  "who": "balding curly-haired scribe in white, three-quarter, left reading palm-leaf bundle"
+                },
+                {
+                  "x": 0.822,
+                  "y": 0.29,
+                  "r": 0.066,
+                  "who": "turbaned moustached noble with peacock feather, seated at right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 14,
+        "result": {
+          "chapter": 14,
+          "panels": [
+            {
+              "id": "4.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.765,
+                  "x1": 0.93,
+                  "y0": 0.63,
+                  "y1": 0.83,
+                  "what": "Varma's hand holding the knife, gone still on the whetstone across his knee"
+                },
+                {
+                  "x0": 0,
+                  "x1": 0.14,
+                  "y0": 0.64,
+                  "y1": 0.87,
+                  "what": "brass oil lamp and flame lighting Ramayyan from below"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch14 p4",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a433350649b00f130",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510288202,
+      "queuedAt": 1791510288196,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 4 of Chapter 14 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch14/page-04.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791510327821,
+      "tokens": 76486,
+      "toolCalls": 16,
+      "durationMs": 39619,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-04-panel-05\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.272,\"y\":0.395},{\"copy_index\":1,\"x\":0.272,\"y\":0.395}],\"backup_tails\":[],\"faces\":[{\"x\":0.267,\"y\":0.228,\"r\":0.27},{\"x\":0.834,\"y\":0.196,\"r\":0.14}],\"backup_faces\":[],\"issues\":\"Minor only. Varma's forehead mark is a single red tilak rather than the white namam with a red centre line, and his hair at the nape…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "mark ch14 p4",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ab9854fd4231e42a7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510327834,
+      "queuedAt": 1791510327830,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510353910,
+      "tokens": 63524,
+      "toolCalls": 9,
+      "durationMs": 26076,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.284,\"y\":0.333,\"r\":0.126,\"who\":\"balding curly-haired scribe in white, three-quarter, left reading palm-leaf bundle\"},{\"x\":0.822,\"y\":0.29,\"r\":0.066,\"who\":\"turbaned moustached noble with peacock feather, seated at right\"}]}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "keep ch14 p4",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ad3a47adbc585b6d1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510327844,
+      "queuedAt": 1791510327839,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 4 of chapter 14 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-14-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510344612,
+      "tokens": 61563,
+      "toolCalls": 5,
+      "durationMs": 16768,
+      "resultPreview": "{\"panels\":[{\"id\":\"4.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0.765,\"x1\":0.93,\"y0\":0.63,\"y1\":0.83,\"what\":\"Varma's hand holding the knife, gone still on the whetstone across his knee\"},{\"x0\":0,\"x1\":0.14,\"y0\":0.64,\"y1\":0.87,\"what\":\"brass oil lamp and flame lighting Ramayyan from below\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "check ch14 p4",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a351d2df7e37dc9a9",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510353911,
+      "queuedAt": 1791510353910,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510379121,
+      "tokens": 60930,
+      "toolCalls": 6,
+      "durationMs": 25210,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.284,\"y\":0.333,\"r\":0.126,\"who\":\"balding curly-haired scribe in white, three-quarter, left reading palm-leaf bundle\"},{\"x\":0.822,\"y\":0.29,\"r\":0.066,\"who\":\"turbaned moustached noble with peacock feather, seated at right\"}]}]}"
+    }
+  ],
+  "totalTokens": 262503,
+  "totalToolCalls": 36
+}

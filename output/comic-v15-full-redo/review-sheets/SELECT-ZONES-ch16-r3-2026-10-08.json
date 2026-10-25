@@ -1,0 +1,1532 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 28,
+  "logs": [
+    "chapter 16: 10 picked, 3 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 16: keep regions for 10 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 16: face zones for 10 frames, 39 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 16,
+        "decisions": [
+          {
+            "id": "page-07-panel-03",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 (the only listed candidate) gives Nagoji two right arms coming off one near shoulder. One is bent, its forearm folded up so the hand closes on Revathi's wrist, with the elbow at the left edge of the rib bandage. The other runs straight down past it to a fist planted on the mat. No upper arm crosses his chest, so the gripping arm cannot be his left, which stays hidden under the shoulder cloth on the far side. At native size this reads plainly as an extra limb. Everything else works: her hand on his bare right shoulder above the bandage, the shoulder cloth slipped, his face (curled moustache, clean chin, gold stud, no grey), Revathi's widow costume with no red dot, the barred window and door, the night palette, and clear dark wall above them for the balloon.",
+            "correction": "Nagoji must have exactly two arms, each joined to its own shoulder, and both shown clearly. Draw him half-reclining on the mat, propped on his far LEFT elbow (that arm and hand partly under the slipped white shoulder cloth on the side away from Revathi), so no arm props him on the near side. His near RIGHT arm bends at the elbow, the elbow resting on the mat or against his side, and his right hand rises to close around Revathi's wrist at his bare right shoulder, where her fingers have just traced up past the edge of the rib bandage. On that near side there is NO second arm, no fist or hand planted on the mat beside her, and no forearm coming out from behind his upper arm. Keep everything else from the previous attempt: the same small limewashed room with the barred window on night palms and the timber door, the dark night palette, Revathi kneeling at his side in the indigo-and-gold sari with jasmine braid, coin necklace, armlets and only the sandalwood line on her forehead, his rib bandage, thick curled moustache, clean-shaven chin, tiny gold ear stud and no grey hair, and the plain dark wall above their heads for the balloon."
+          },
+          {
+            "id": "page-07-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.692,
+                "y": 0.282
+              },
+              {
+                "copy_index": 1,
+                "x": 0.692,
+                "y": 0.282
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.245,
+                "y": 0.17,
+                "r": 0.18
+              },
+              {
+                "x": 0.768,
+                "y": 0.25,
+                "r": 0.15
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Small issues only. Nagoji now sits up cross-legged, where in 7.3 he was reclining, and they sit about an arm's length apart. The beat still reads: his right hand holds her wrist and her hand hangs relaxed, so she has not pulled away. Both hands and both of his arms are sound. He has a thick curled moustache, clean chin, gold stud, rib bandage, slipped shoulder cloth and no grey. Revathi wears the indigo sari with jasmine, coin necklace and armlets, and her only forehead mark is the sandalwood line. It is the same barred-window room. The open dark wall between his head and the window takes both of Revathi's balloons.",
+            "correction": ""
+          },
+          {
+            "id": "page-07-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.28,
+                "y": 0.3
+              },
+              {
+                "copy_index": 1,
+                "x": 0.535,
+                "y": 0.343
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.566,
+                "y": 0.31,
+                "r": 0.13
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Small issues only. The framing is a medium shot rather than a true close-up. Between Revathi's brows there is a dark speck of 1 to 2 pixels: it is not red and cannot be seen at reading size. Nagoji's lobe ornament is a slightly oval gold bead, but it sits flush with nothing hanging from it. His dark bare shoulder and long curly hair fill the foreground and he has no turban. She lifts her chin, defiant, in the same room as 7.4 (window at left, door at right). There is clear dark wall above her face for both speeches. The bottom-right floor holds the separate lower caption, overlapping at most the sari hem. Nagoji is seen from behind, so his tail points to where his hidden mouth would be.",
+            "correction": ""
+          },
+          {
+            "id": "page-08-panel-01",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.337,
+                "y": 0.122,
+                "r": 0.1
+              },
+              {
+                "x": 0.643,
+                "y": 0.133,
+                "r": 0.1
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. There is a small muted rust-brown stain on Nagoji's rib binding at his side. It reads as a dried old dressing (aftermath, not gore), in line with earlier chapters' precedent, but the bandages in 8.3 and 8.4 are clean. The brand on his left forearm is a pale puckered patch with faint radial ridges, sitting mid-forearm, with a faint thin line toward the elbow; it is not legible and not a cross. Otherwise clean. Revathi walks a half step ahead and leads him by the hand, glancing back. He holds his bound side. Both are barefoot. He is in dhoti, rib binding and cream shoulder cloth, with no turban and no grey, plus the thick curled moustache, clean chin and small gold stud. She has indigo sari with gold, jasmine braid, flat-coin necklace, armlets, sandalwood line and no tali. The dark granary has clay vessels taller than the waist, sacks, beams and the plank door at right. No text and no lettering needed.",
+            "correction": ""
+          },
+          {
+            "id": "page-08-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.27,
+                "y": 0.18,
+                "r": 0.16
+              },
+              {
+                "x": 0.745,
+                "y": 0.254,
+                "r": 0.142
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Revathi has a tiny dark (not red) tick between her brows below the sandalwood line, barely visible at print size. The lamp is a tall brass stand lamp, matching 8.6 rather than the small lamp of 8.3 and 8.4. The brand and white scar sit toward the elbow, consistent with the 8.4 pick. Otherwise clean. Revathi sits on the mat with both arms raised, unpinning her hair, which falls in long dark waves past her shoulders. She is fully dressed in the indigo sari with the pallu over her shoulder, with jasmine, flat-coin necklace and armlets. Nagoji is bare-chested with rib binding, cream shoulder cloth and dhoti, no grey, his 3/4 face watching her: thick curled moustache, clean chin, small flush gold stud. The cellar has an earth wall, beams, a mat and a plank door, with no text. The caption fits on the plain earth wall at top centre between her raised elbow and his hair (about x 0.46 to 0.64, y 0.03 to 0.25), clear of both faces and her hands.",
+            "correction": ""
+          },
+          {
+            "id": "page-10-panel-01",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.246,
+                "y": 0.156,
+                "r": 0.083
+              },
+              {
+                "x": 0.446,
+                "y": 0.151,
+                "r": 0.073
+              },
+              {
+                "x": 0.119,
+                "y": 0.156,
+                "r": 0.044
+              },
+              {
+                "x": 0.171,
+                "y": 0.195,
+                "r": 0.025
+              },
+              {
+                "x": 0.345,
+                "y": 0.244,
+                "r": 0.039
+              },
+              {
+                "x": 0.615,
+                "y": 0.562,
+                "r": 0.022
+              },
+              {
+                "x": 0.539,
+                "y": 0.478,
+                "r": 0.015
+              },
+              {
+                "x": 0.866,
+                "y": 0.625,
+                "r": 0.012
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. The round-2 correction landed. Varma has jet-black hair in a knot, no grey, no earring and no jewels, and wears a plain white cloth over his left shoulder, so any dressing is hidden. He has a namam and a curled moustache and no longer reads as Nagoji. Nagoji matches his sheet and the 10.4 costume: barefoot, rust-red turban, cream tunic with sleeves pushed up, red sash, thick curled moustache, clean chin, no grey, a pale patch on the inner left forearm, and no boots or talwar. Small deviations: Nagoji's gold stud has a tiny second bead under it, which reads as a stud at panel size. There is a faint pale highlight at the centre of his forehead. Varma's knot carries a thin gold-beaded band. The scene matches the script: wet mossy steps, clear river over stone, brass ghee lamps along the granite wall, tiled roofs and morning light, with no gopuram and no text. The open sky at upper right holds both captions clear of faces.",
+            "correction": ""
+          },
+          {
+            "id": "page-10-panel-03",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.287,
+                "y": 0.118,
+                "r": 0.115
+              },
+              {
+                "x": 0.778,
+                "y": 0.43,
+                "r": 0.115
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. The round-2 correction landed. Varma wears no necklaces, his face is mature with a curled moustache and the red-and-white Vaishnavite mark, and the sword is a long straight blade with a plain gilt hilt (round pommel, short straight guard, dark grip) that matches 10.4. The priest matches the V13 sheet: curly hair in a knot, white forehead lines with a red dot, sacred thread, and a gold-bordered white cloth. He carries the sword on both palms, grip in one hand and blade on the other, into Varma's cupped hands. The hands are sound. Small deviations: Varma's hair is loose curls in a low bun, not the sleek side knot of the sheet, but it sits between 10.2 (low knot) and 10.4 (curls with a topknot). He has a pin-sized ear stud and light stubble. The left-shoulder dressing is not visible because his near left shoulder is under the white cloth, which reads as half hidden. The sanctum glow shows a tiered lamp-stand, not a deity, and there is no text. The dark ceiling band at top centre (about x 0.37 to 0.74, y 0 to 0.09) and the dark stone at upper left hold the medium caption clear of faces and of the hand-over.",
+            "correction": ""
+          },
+          {
+            "id": "page-12-panel-02",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.523,
+                "y": 0.205
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.505,
+                "y": 0.178,
+                "r": 0.075
+              },
+              {
+                "x": 0.083,
+                "y": 0.376,
+                "r": 0.04
+              },
+              {
+                "x": 0.749,
+                "y": 0.44,
+                "r": 0.03
+              },
+              {
+                "x": 0.274,
+                "y": 0.43,
+                "r": 0.028
+              },
+              {
+                "x": 0.165,
+                "y": 0.468,
+                "r": 0.02
+              },
+              {
+                "x": 0.382,
+                "y": 0.459,
+                "r": 0.02
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Accepted with one minor fault logged. Nagoji's ear ornament is a single gold bead about 4 to 5 px across, sitting right at the bottom edge of the lobe (around x 765, y 207 at native size). The r2 v02 had a stud with a separate drop hanging below it. v03 has one bead and no second piece, so the r2 ear correction mostly worked. The bead still sits just under the lobe line rather than flush on it, which matches the r2 plan to accept the ear after one more try, as was done in ch9 and ch11. Everything else is clean. Nagoji has a thick curled moustache, a clean chin and jaw, black hair with no grey (page 12), a rust-red turban, a cream tunic with sleeves to the wrists, a red sash, cream trousers and boots, and a talwar raised in his right hand while his left hand holds the reins. Megha is a dappled grey with a black mane and tail at full gallop, and her anatomy is sound. The troop of Travancore horse wheels around him with raised talwars. The bearded riders in turbans and sashes match the neighbouring panels and r2. The setting fits 12.1 and 12.3: laterite fort wall, timber dais, palms, a thin band of sea and one tiny ship at anchor. There is no painted text, blood or anachronism. The wide upper-right sky leaves clear space for both the Nagoji balloon and the caption.",
+            "correction": ""
+          },
+          {
+            "id": "page-13-panel-03",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.811,
+                "y": 0.196
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.156,
+                "y": 0.112,
+                "r": 0.085
+              },
+              {
+                "x": 0.319,
+                "y": 0.148,
+                "r": 0.08
+              },
+              {
+                "x": 0.775,
+                "y": 0.178,
+                "r": 0.08
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only. Varma's blue bundle has rich gold borders, so it reads as a finer cloth than the rough blue drill coats of 13.4. Varma wears sandals, and his knot sits high at the back of his head rather than plainly above the left ear. Everything else fits: all three principals match their sheets. Nagoji has a clean chin, a flush gold stud, no grey and arms folded. De Lannoy is in his white coat, mundu and sandals. Varma is bare-chested and bare-headed in a cream mundu with gold necklaces and black hair. Dutch hulls are small on the horizon, there is no painted text, the hands are sound, and the open sky in the upper right takes Varma's balloon.",
+            "correction": ""
+          },
+          {
+            "id": "page-13-panel-05",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03, the only listed candidate, gives Nagoji three arms. One hand cups his mouth at De Lannoy's ear and another rests by the talwar hilt. A third cream sleeve also hangs down between the two men and ends in a brown hand at his hip, around x 0.40, y 0.85. Everything else works: likenesses, clean chin, ear stud, no grey, De Lannoy in white with his hands behind his back, the drill-ground setting and open sky for both balloons.",
+            "correction": "Nagoji has exactly two arms and two hands. The arm nearest De Lannoy is raised, its hand cupped beside his mouth at De Lannoy's ear. Its single sleeve runs unbroken from that hand down to the elbow and back up to his shoulder. His other hand rests on the talwar hilt at his broad red sash. Do not draw a third hand, or any extra sleeve hanging at his side in the gap between the two men. De Lannoy's hands stay clasped out of sight behind his back. Keep everything else as it was: De Lannoy on the left in his white tunic-coat over the white mundu, with pale hair tied back with a dark ribbon. Nagoji is on the right in his rust-red turban, leaning in to whisper, with a clean-shaven chin, a tiny flush gold ear stud and no grey. Behind them keep the canopied timber dais on the left and the side-on firing line with the thin sea band on the right. Keep the open sky in the upper right clear for the two balloons."
+          },
+          {
+            "id": "page-14-panel-03",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.171,
+                "y": 0.14,
+                "r": 0.09
+              },
+              {
+                "x": 0.716,
+                "y": 0.2,
+                "r": 0.075
+              },
+              {
+                "x": 0.928,
+                "y": 0.23,
+                "r": 0.07
+              },
+              {
+                "x": 0.479,
+                "y": 0.513,
+                "r": 0.075
+              },
+              {
+                "x": 0.726,
+                "y": 0.542,
+                "r": 0.065
+              },
+              {
+                "x": 0.944,
+                "y": 0.566,
+                "r": 0.065
+              },
+              {
+                "x": 0.977,
+                "y": 0.46,
+                "r": 0.04
+              },
+              {
+                "x": 0.407,
+                "y": 0.342,
+                "r": 0.03
+              },
+              {
+                "x": 0.524,
+                "y": 0.391,
+                "r": 0.03
+              }
+            ],
+            "backup_faces": [],
+            "issues": "v03 fixes what failed in r1 and r2. Nagoji's temples are fully black with no grey. His sleeves are down, so no brand shows. The men's hats are the same tall, plumed, dark blue hats with brass badges as in panel 14.2, now held in hands or pushed back, and there are no tricornes. Nagoji matches the commander sheet: rust-red turban, thick curled moustache, clean-shaven chin, red sash, cream trousers, boots and talwar, with the blue drill coat open over his clothes. The fall-out beat reads clearly: coats open over bare chests, dhotis loosened, men grinning up at him. The setting (drill ground, laterite wall, palms, thin band of sea) and the daylight match panel 14.2. There is no text and no gore, and the hands are sound. Open sky across the top centre (x 0.25 to 0.6, y 0 to 0.2) gives the caption room without touching any face. Minor issues: at high zoom the ear ornament looks like a stud with a tiny second bead just below the lobe, but at reading size it reads as a small gold stud. The seated soldier at left centre has long curly black hair and a curled moustache, but he has no turban, no ear stud and no grey, and he sits among the men, so he reads as a soldier, not a second Nagoji. Several standing men look up at the sky rather than at Nagoji, but the seated men's eyelines carry the beat.",
+            "correction": ""
+          },
+          {
+            "id": "page-19-panel-03",
+            "pick": null,
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 fixes the round 1 and 2 failure: Nagoji's sleeves are down to the wrists and his forearms show no scar or mark. The rest is strong. Ramayyan matches his sheet: receding hair, plain white cloth, palm leaves and stylus, seated on the mat by the stone ledge. Lannoy stands apart in the white coat, mundu and sandals with his pale hair ribboned, turning the chipped stone in sound hands. Nagoji is by the door: rust-red turban, thick curled moustache, clean chin, grey at the temples, red sash, talwar with an Indian hilt. The room is a granite guardroom lit by a clay oil lamp with an open wick, and there is no painted text. The upper wall above the lamp leaves clear space for all three balloons. The one remaining failure is Nagoji's ear ornament. Zoomed in, a small gold stud sits on the lobe and a separate bright gold bead hangs just below it, against the neck (about x 0.165, y 0.163). Together they read as a short drop earring. The bible and the author's 2026-10-02 decision require a tiny flush stud with nothing hanging from it, enforced at selection.",
+            "correction": "Keep this exact v03 image unchanged: the same guardroom, the lamplight, the composition and all three figures. Ramayyan stays seated with his palm-leaf bundles and stylus. Lannoy stays apart in his white coat and mundu, turning the chipped parapet stone. Nagoji stays by the door with arms folded, his cream sleeves down to the wrists and no forearm skin, scar, brand or mark showing. Change ONLY Nagoji's ear ornament. On his visible earlobe there is ONE tiny round gold stud set flush on the lobe itself, and NOTHING hangs below it: no bead, drop, pendant, ring, chain or second gold dot under the lobe, on the jaw or on the neck. The skin below the earlobe is plain, with no gold highlight. Keep his rust-red turban, faint grey at the temples, thick curled moustache, clean-shaven chin, broad red sash and talwar exactly as they are."
+          },
+          {
+            "id": "page-19-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.404,
+                "y": 0.112,
+                "r": 0.09
+              },
+              {
+                "x": 0.622,
+                "y": 0.105,
+                "r": 0.08
+              },
+              {
+                "x": 0.127,
+                "y": 0.227,
+                "r": 0.06
+              },
+              {
+                "x": 0.256,
+                "y": 0.28,
+                "r": 0.056
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Clean. v03 fixes the round 1 and 2 guard failure. Both Nair guards are bare-chested in plain white mundus with no sash. They are barefoot, with topknots and moustaches, each holding a curved sword point-down and a round black shield with brass bosses. There are no spears and no sacred thread, and they walk a few paces behind. Nagoji has the rust-red turban, thick curled moustache, clean-shaven chin and a tiny flush gold stud with nothing hanging. His cream tunic sleeves are down and his talwar has a knob pommel with no tsuba disc. Lannoy wears the white coat, mundu and sandals and has his pale ribboned hair. The setting is the same hall as 19.4: carved timber pillars on laterite bases, brass lamps, the polished dark floor and the courtyard open to one side in morning light. There is no painted text. Minor: Nagoji's grey at the temples is a visible silver streak, a little stronger than 'faint', but it matches 19.3. Captions fit over the plain upper-left wall and ceiling area above the guards' heads, and along the top rafter band.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 16,
+        "result": {
+          "chapter": 16,
+          "panels": [
+            {
+              "id": "page-07-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.321,
+                  "y": 0.208,
+                  "r": 0.067,
+                  "who": "moustached man, profile facing right, left"
+                },
+                {
+                  "x": 0.708,
+                  "y": 0.262,
+                  "r": 0.06,
+                  "who": "woman in blue sari, three-quarter facing left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-07-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.548,
+                  "y": 0.33,
+                  "r": 0.058,
+                  "who": "woman in blue sari, looking up, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-01",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.3585,
+                  "y": 0.1533,
+                  "r": 0.0406,
+                  "who": "Nagoji, moustached, three-quarter view, left of centre"
+                },
+                {
+                  "x": 0.6528,
+                  "y": 0.1533,
+                  "r": 0.0406,
+                  "who": "woman in blue sari, three-quarter view looking right, right of centre"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.3288,
+                  "y": 0.2637,
+                  "r": 0.049,
+                  "who": "woman in blue sari, eyes lowered, arms raised to hair, left"
+                },
+                {
+                  "x": 0.7129,
+                  "y": 0.289,
+                  "r": 0.057,
+                  "who": "Nagoji, moustached, seated, three-quarter view, right"
+                }
+              ]
+            },
+            {
+              "id": "page-10-panel-01",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.4635,
+                  "y": 0.177,
+                  "r": 0.029,
+                  "who": "bare-chested man with topknot and moustache, three-quarter, centre"
+                },
+                {
+                  "x": 0.2617,
+                  "y": 0.167,
+                  "r": 0.029,
+                  "who": "man in red turban with moustache, three-quarter, centre-left"
+                },
+                {
+                  "x": 0.1237,
+                  "y": 0.161,
+                  "r": 0.022,
+                  "who": "umbrella bearer with tilak, at left"
+                },
+                {
+                  "x": 0.1725,
+                  "y": 0.204,
+                  "r": 0.015,
+                  "who": "attendant partly hidden behind turbaned man, left"
+                },
+                {
+                  "x": 0.3457,
+                  "y": 0.251,
+                  "r": 0.022,
+                  "who": "bearded attendant with tilak, behind, between the two leads"
+                },
+                {
+                  "x": 0.6263,
+                  "y": 0.564,
+                  "r": 0.012,
+                  "who": "grey-haired man bending at the steps with a pot, profile, mid-right"
+                },
+                {
+                  "x": 0.5436,
+                  "y": 0.4854,
+                  "r": 0.011,
+                  "who": "bearded man in white standing on the steps, profile, mid-right behind the topknot man"
+                }
+              ]
+            },
+            {
+              "id": "page-10-panel-03",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.329,
+                  "y": 0.188,
+                  "r": 0.045,
+                  "who": "young priest with tilak offering the sword, looking down, left"
+                },
+                {
+                  "x": 0.7227,
+                  "y": 0.463,
+                  "r": 0.058,
+                  "who": "kneeling moustached man receiving the sword, profile, right"
+                }
+              ]
+            },
+            {
+              "id": "page-12-panel-02",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.526,
+                  "y": 0.1885,
+                  "r": 0.028,
+                  "who": "Nagoji on grey horse, three-quarter, centre"
+                },
+                {
+                  "x": 0.095,
+                  "y": 0.392,
+                  "r": 0.016,
+                  "who": "bearded turbaned rider at far left, profile from behind"
+                },
+                {
+                  "x": 0.7415,
+                  "y": 0.446,
+                  "r": 0.013,
+                  "who": "bearded turbaned rider at right of centre, three-quarter"
+                },
+                {
+                  "x": 0.2845,
+                  "y": 0.4455,
+                  "r": 0.011,
+                  "who": "bearded turbaned rider at left-centre, profile from behind"
+                }
+              ]
+            },
+            {
+              "id": "page-13-panel-03",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.184,
+                  "y": 0.131,
+                  "r": 0.034,
+                  "who": "blond European in white coat, profile right, left"
+                },
+                {
+                  "x": 0.344,
+                  "y": 0.176,
+                  "r": 0.032,
+                  "who": "red-turbaned moustached man, arms crossed, centre-left"
+                },
+                {
+                  "x": 0.802,
+                  "y": 0.188,
+                  "r": 0.032,
+                  "who": "Nagoji, bare-chested, profile right, right"
+                },
+                {
+                  "x": 0.03,
+                  "y": 0.266,
+                  "r": 0.013,
+                  "who": "turbaned sepoy on platform at far left"
+                }
+              ]
+            },
+            {
+              "id": "page-14-panel-03",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.196,
+                  "y": 0.1416,
+                  "r": 0.0332,
+                  "who": "turbaned officer, three-quarter, left"
+                },
+                {
+                  "x": 0.6706,
+                  "y": 0.2344,
+                  "r": 0.033,
+                  "who": "standing sepoy with plumed shako, centre"
+                },
+                {
+                  "x": 0.9017,
+                  "y": 0.2595,
+                  "r": 0.027,
+                  "who": "standing sepoy with shako, right"
+                },
+                {
+                  "x": 0.4674,
+                  "y": 0.5059,
+                  "r": 0.0361,
+                  "who": "seated curly-haired sepoy, centre-left"
+                },
+                {
+                  "x": 0.6934,
+                  "y": 0.5435,
+                  "r": 0.035,
+                  "who": "seated topknot sepoy, profile, centre-right"
+                },
+                {
+                  "x": 0.918,
+                  "y": 0.5855,
+                  "r": 0.035,
+                  "who": "seated sepoy, three-quarter, right"
+                },
+                {
+                  "x": 0.9845,
+                  "y": 0.4785,
+                  "r": 0.022,
+                  "who": "sepoy at right edge, head bowed, cut by frame"
+                },
+                {
+                  "x": 0.4167,
+                  "y": 0.3613,
+                  "r": 0.0151,
+                  "who": "background sepoy with bun, profile"
+                },
+                {
+                  "x": 0.4733,
+                  "y": 0.4209,
+                  "r": 0.0161,
+                  "who": "background sepoy, head bowed, profile"
+                },
+                {
+                  "x": 0.5202,
+                  "y": 0.4043,
+                  "r": 0.0235,
+                  "who": "background seated sepoy laughing"
+                },
+                {
+                  "x": 0.8197,
+                  "y": 0.2842,
+                  "r": 0.0135,
+                  "who": "background sepoy with bun, lost profile, right"
+                }
+              ]
+            },
+            {
+              "id": "page-19-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.4195,
+                  "y": 0.1235,
+                  "r": 0.03,
+                  "who": "red-turbaned moustached man, three-quarter, centre-left"
+                },
+                {
+                  "x": 0.637,
+                  "y": 0.122,
+                  "r": 0.032,
+                  "who": "blond European in white coat, three-quarter, centre-right"
+                },
+                {
+                  "x": 0.1348,
+                  "y": 0.246,
+                  "r": 0.023,
+                  "who": "bare-chested guard with shield, far left"
+                },
+                {
+                  "x": 0.2617,
+                  "y": 0.294,
+                  "r": 0.02,
+                  "who": "second bare-chested guard, behind, left of centre"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 16,
+        "result": {
+          "chapter": 16,
+          "panels": [
+            {
+              "id": "7.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.37,
+                  "y0": 0.56,
+                  "x1": 0.49,
+                  "y1": 0.74,
+                  "what": "Nagoji's hand closed on Revathi's wrist (her arm still extended, not pulled away), with her hand hanging below the grip"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "7.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.08,
+                  "y0": 0.3,
+                  "x1": 0.28,
+                  "y1": 0.5,
+                  "what": "Nagoji's dark bare shoulder in the foreground"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-08-panel-01",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.3,
+                  "y0": 0.29,
+                  "x1": 0.38,
+                  "y1": 0.42,
+                  "what": "Nagoji's hand pressed to his bound side (holds his side)"
+                },
+                {
+                  "x0": 0.43,
+                  "y0": 0.42,
+                  "x1": 0.5,
+                  "y1": 0.54,
+                  "what": "clasped hands: Revathi leading Nagoji by the hand"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "page-08-panel-05",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.15,
+                  "y0": 0.03,
+                  "x1": 0.31,
+                  "y1": 0.15,
+                  "what": "Revathi's hands raised in her hair, unpinning it"
+                },
+                {
+                  "x0": 0.1,
+                  "y0": 0.28,
+                  "x1": 0.21,
+                  "y1": 0.58,
+                  "what": "loose hair falling past her shoulders"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "10.1",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.13,
+                  "y0": 0.2,
+                  "x1": 0.55,
+                  "y1": 0.93,
+                  "what": "Varma in plain white cloth leading the party and Nagoji in commander dress (red sash, cream tunic) beside him, both barefoot on the wet river steps"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "10.3",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.21,
+                  "y0": 0.49,
+                  "x1": 0.71,
+                  "y1": 0.68,
+                  "what": "Long sword laid across the priest's palms, pommel to tip, being passed into Varma's upturned hands"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "12.2",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.22,
+                  "y0": 0.22,
+                  "x1": 0.68,
+                  "y1": 0.78,
+                  "what": "Nagoji in red sash riding Megha, the dappled grey with the black mane (head, mane, body)"
+                },
+                {
+                  "x0": 0.14,
+                  "y0": 0.41,
+                  "x1": 0.31,
+                  "y1": 0.68,
+                  "what": "Travancore horse troop wheeling on the sand behind him"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "13.3",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.77,
+                  "y0": 0.38,
+                  "x1": 0.9,
+                  "y1": 0.68,
+                  "what": "Varma's hand gripping the bundle of blue cloth over his arm"
+                },
+                {
+                  "x0": 0.67,
+                  "y0": 0.34,
+                  "x1": 0.99,
+                  "y1": 0.42,
+                  "what": "Dutch hulls at anchor on the distant sea, the direction of Varma's glance"
+                },
+                {
+                  "x0": 0.035,
+                  "y0": 0.15,
+                  "x1": 0.43,
+                  "y1": 0.55,
+                  "what": "Lannoy (white coat) and Nagoji (red sash, arms folded) watching Varma arrive"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "14.3",
+              "version": "v03",
+              "keep": [
+                {
+                  "what": "Nagoji's blue drill coat and red sash: the foreign cloth the men are grinning at",
+                  "x0": 0.05,
+                  "x1": 0.3,
+                  "y0": 0.2,
+                  "y1": 0.58
+                },
+                {
+                  "what": "Seated men falling out: coats shrugged open over bare chests, hats off in hand, dhotis loose, grinning up toward Nagoji",
+                  "x0": 0.33,
+                  "x1": 0.72,
+                  "y0": 0.48,
+                  "y1": 0.88
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "19.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.035,
+                  "y0": 0.17,
+                  "x1": 0.315,
+                  "y1": 0.78,
+                  "what": "the two Nair guards following behind: topknots, white mundus, drawn swords and round shields"
+                },
+                {
+                  "x0": 0.3,
+                  "y0": 0.1,
+                  "x1": 0.69,
+                  "y1": 0.6,
+                  "what": "Nagoji and Lannoy walking out a few paces ahead of the guards"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch16 p7",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a8f99d006568c9e49",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791507883450,
+      "queuedAt": 1791507883440,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 7 of Chapter 16 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch16/page-07.txt: it lists the character sheets for this page and the 3 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508122231,
+      "tokens": 110744,
+      "toolCalls": 38,
+      "durationMs": 238781,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-07-panel-03\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v03 (the only listed candidate) gives Nagoji two right arms coming off one near shoulder. One is bent, its forearm folded up so the hand closes on Revathi's wrist, with the elbow at the left edge of the rib bandage. The other runs straight down past it to a fist plan…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch16 p8",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a9d302d70cec52f8c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791507883450,
+      "queuedAt": 1791507883440,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 8 of Chapter 16 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch16/page-08.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508068064,
+      "tokens": 117971,
+      "toolCalls": 35,
+      "durationMs": 184614,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-08-panel-01\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.337,\"y\":0.122,\"r\":0.1},{\"x\":0.643,\"y\":0.133,\"r\":0.1}],\"backup_faces\":[],\"issues\":\"Minor only. There is a small muted rust-brown stain on Nagoji's rib binding at his side. It reads as a dried old dressing (aftermath, not gore), in line with earlier chapters' precedent, but the bandages in …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "select ch16 p10",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "af16fd1100cc2118a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791507883450,
+      "queuedAt": 1791507883440,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 10 of Chapter 16 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch16/page-10.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508044027,
+      "tokens": 114511,
+      "toolCalls": 37,
+      "durationMs": 160577,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-10-panel-01\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.246,\"y\":0.156,\"r\":0.083},{\"x\":0.446,\"y\":0.151,\"r\":0.073},{\"x\":0.119,\"y\":0.156,\"r\":0.044},{\"x\":0.171,\"y\":0.195,\"r\":0.025},{\"x\":0.345,\"y\":0.244,\"r\":0.039},{\"x\":0.615,\"y\":0.562,\"r\":0.022},{\"x\":0.539,\"y\":0.478,\"r\":0.015},{\"x\":0.866,\"y\":0.625,\"r\":0.012}],\"backup_faces\":[],\"issues\":\"Minor only.…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "select ch16 p12",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a66df773276d0ce69",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791507883450,
+      "queuedAt": 1791507883440,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 12 of Chapter 16 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch16/page-12.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791507977615,
+      "tokens": 93392,
+      "toolCalls": 30,
+      "durationMs": 94165,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-12-panel-02\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.523,\"y\":0.205}],\"backup_tails\":[],\"faces\":[{\"x\":0.505,\"y\":0.178,\"r\":0.075},{\"x\":0.083,\"y\":0.376,\"r\":0.04},{\"x\":0.749,\"y\":0.44,\"r\":0.03},{\"x\":0.274,\"y\":0.43,\"r\":0.028},{\"x\":0.165,\"y\":0.468,\"r\":0.02},{\"x\":0.382,\"y\":0.459,\"r\":0.02}],\"backup_faces\":[],\"issues\":\"Accepted with one minor fault logged. Nagoji'…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "select ch16 p13",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "aa92d889a9d33d9ca",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791507883450,
+      "queuedAt": 1791507883440,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 13 of Chapter 16 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch16/page-13.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791507993883,
+      "tokens": 94429,
+      "toolCalls": 21,
+      "durationMs": 110433,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-13-panel-03\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.811,\"y\":0.196}],\"backup_tails\":[],\"faces\":[{\"x\":0.156,\"y\":0.112,\"r\":0.085},{\"x\":0.319,\"y\":0.148,\"r\":0.08},{\"x\":0.775,\"y\":0.178,\"r\":0.08}],\"backup_faces\":[],\"issues\":\"Minor only. Varma's blue bundle has rich gold borders, so it reads as a finer cloth than the rough blue drill coats of 13.4. Varma wears …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "select ch16 p14",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a940a77be6feaffb6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791507883450,
+      "queuedAt": 1791507883440,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 14 of Chapter 16 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch16/page-14.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791507955456,
+      "tokens": 86153,
+      "toolCalls": 21,
+      "durationMs": 72006,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-14-panel-03\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.171,\"y\":0.14,\"r\":0.09},{\"x\":0.716,\"y\":0.2,\"r\":0.075},{\"x\":0.928,\"y\":0.23,\"r\":0.07},{\"x\":0.479,\"y\":0.513,\"r\":0.075},{\"x\":0.726,\"y\":0.542,\"r\":0.065},{\"x\":0.944,\"y\":0.566,\"r\":0.065},{\"x\":0.977,\"y\":0.46,\"r\":0.04},{\"x\":0.407,\"y\":0.342,\"r\":0.03},{\"x\":0.524,\"y\":0.391,\"r\":0.03}],\"backup_faces\":[]…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "select ch16 p19",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a8d94ae2a54bdd75d",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791507883450,
+      "queuedAt": 1791507883440,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 19 of Chapter 16 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch16/page-19.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508010764,
+      "tokens": 113573,
+      "toolCalls": 34,
+      "durationMs": 127314,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-19-panel-03\",\"pick\":null,\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v03 fixes the round 1 and 2 failure: Nagoji's sleeves are down to the wrists and his forearms show no scar or mark. The rest is strong. Ramayyan matches his sheet: receding hair, plain white cloth, palm leaves and stylus, seated on the mat by the stone ledge. Lannoy …"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "mark ch16 p7",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a536147d13452a4f2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122248,
+      "queuedAt": 1791508122239,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508211307,
+      "tokens": 76889,
+      "toolCalls": 17,
+      "durationMs": 89059,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.321,\"y\":0.208,\"r\":0.067,\"who\":\"moustached man, profile facing right, left\"},{\"x\":0.708,\"y\":0.262,\"r\":0.06,\"who\":\"woman in blue sari, three-quarter facing left, right\"}]},{\"id\":\"page-07-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.548,\"y\":0.328,\"r\":0.058,\"who\":\"woman in blue sari, looking up, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "mark ch16 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a6d6e3f60d2b776c8",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122248,
+      "queuedAt": 1791508122240,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508187160,
+      "tokens": 69609,
+      "toolCalls": 12,
+      "durationMs": 63980,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-01\",\"version\":\"v03\",\"faces\":[{\"x\":0.3585,\"y\":0.1533,\"r\":0.0406,\"who\":\"Nagoji, moustached, three-quarter view, left of centre\"},{\"x\":0.6528,\"y\":0.1533,\"r\":0.0406,\"who\":\"woman in blue sari, three-quarter view looking right, right of centre\"}]},{\"id\":\"page-08-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.3288,\"y\":0.2637,\"r\":0.049,\"who\":\"woman in blue sari, eyes lowered, ar…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "mark ch16 p10",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a5f03bb2c3e898d6c",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122248,
+      "queuedAt": 1791508122240,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508263174,
+      "tokens": 76179,
+      "toolCalls": 23,
+      "durationMs": 139994,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-01\",\"version\":\"v03\",\"faces\":[{\"x\":0.4635,\"y\":0.177,\"r\":0.029,\"who\":\"bare-chested man with topknot and moustache, three-quarter, centre\"},{\"x\":0.2617,\"y\":0.167,\"r\":0.029,\"who\":\"man in red turban with moustache, three-quarter, centre-left\"},{\"x\":0.1237,\"y\":0.161,\"r\":0.022,\"who\":\"umbrella bearer with tilak, at left\"},{\"x\":0.1725,\"y\":0.204,\"r\":0.015,\"who\":\"attendant par…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "mark ch16 p12",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ad86682c5bd518e99",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122248,
+      "queuedAt": 1791508122240,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508217872,
+      "tokens": 77506,
+      "toolCalls": 25,
+      "durationMs": 94692,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-12-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.526,\"y\":0.1885,\"r\":0.028,\"who\":\"Nagoji on grey horse, three-quarter, centre\"},{\"x\":0.095,\"y\":0.392,\"r\":0.016,\"who\":\"turbaned rider at far left, lost profile from behind\"},{\"x\":0.7415,\"y\":0.446,\"r\":0.013,\"who\":\"bearded turbaned rider at right of centre, three-quarter\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "mark ch16 p13",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a0d86727441b708e5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122248,
+      "queuedAt": 1791508122240,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508208100,
+      "tokens": 72087,
+      "toolCalls": 20,
+      "durationMs": 84920,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-13-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.1855,\"y\":0.13,\"r\":0.036,\"who\":\"blond European in white coat, profile right, left\"},{\"x\":0.344,\"y\":0.176,\"r\":0.032,\"who\":\"red-turbaned moustached man, arms crossed, centre-left\"},{\"x\":0.802,\"y\":0.188,\"r\":0.032,\"who\":\"Nagoji, bare-chested, profile right, right\"},{\"x\":0.03,\"y\":0.266,\"r\":0.013,\"who\":\"turbaned sepoy on platform at far …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "mark ch16 p14",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "afa6499b36934065a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122248,
+      "queuedAt": 1791508122240,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508235342,
+      "tokens": 74457,
+      "toolCalls": 26,
+      "durationMs": 112162,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-14-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.196,\"y\":0.1426,\"r\":0.0332,\"who\":\"turbaned officer, three-quarter, left\"},{\"x\":0.6706,\"y\":0.2344,\"r\":0.0312,\"who\":\"standing sepoy with plumed shako, centre\"},{\"x\":0.9017,\"y\":0.2559,\"r\":0.0264,\"who\":\"standing sepoy with shako, right\"},{\"x\":0.4674,\"y\":0.5059,\"r\":0.0361,\"who\":\"seated curly-haired sepoy, centre-left\"},{\"x\":0.6934,\"y\":0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "mark ch16 p19",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a89e50104b63a3365",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122248,
+      "queuedAt": 1791508122240,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508174491,
+      "tokens": 64935,
+      "toolCalls": 11,
+      "durationMs": 51311,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-19-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.4185,\"y\":0.122,\"r\":0.032,\"who\":\"red-turbaned moustached man, three-quarter, centre-left\"},{\"x\":0.633,\"y\":0.122,\"r\":0.035,\"who\":\"blond European in white coat, three-quarter, centre-right\"},{\"x\":0.1348,\"y\":0.246,\"r\":0.024,\"who\":\"bare-chested guard with shield, far left\"},{\"x\":0.2617,\"y\":0.295,\"r\":0.021,\"who\":\"second bare-chested gua…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "keep ch16 p7",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a08da8d4db0bf64c5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122262,
+      "queuedAt": 1791508122253,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 7 of chapter 16 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-16-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508157895,
+      "tokens": 63544,
+      "toolCalls": 7,
+      "durationMs": 35633,
+      "resultPreview": "{\"panels\":[{\"id\":\"7.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.37,\"y0\":0.56,\"x1\":0.49,\"y1\":0.74,\"what\":\"Nagoji's hand closed on Revathi's wrist (her arm still extended, not pulled away), with her hand hanging below the grip\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"7.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0.08,\"y0\":0.3,\"x1\":0.28,\"y1\":0.5,\"what\":\"Nagoji's dark bare shoulder in the foreground\"}],\"beat_present\":…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "keep ch16 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ac6f750d9f1760c0a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122262,
+      "queuedAt": 1791508122253,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 8 of chapter 16 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-16-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508163061,
+      "tokens": 64627,
+      "toolCalls": 7,
+      "durationMs": 40057,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-01\",\"version\":\"v03\",\"keep\":[{\"x0\":0.3,\"y0\":0.29,\"x1\":0.38,\"y1\":0.42,\"what\":\"Nagoji's hand pressed to his bound side (holds his side)\"},{\"x0\":0.43,\"y0\":0.42,\"x1\":0.5,\"y1\":0.54,\"what\":\"clasped hands: Revathi leading Nagoji by the hand\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"page-08-panel-05\",\"version\":\"v03\",\"keep\":[{\"x0\":0.15,\"y0\":0.03,\"x1\":0.31,\"y1\":0.15,\"what\":\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "keep ch16 p10",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a9dd907a16cb49f0b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122262,
+      "queuedAt": 1791508122253,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 10 of chapter 16 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-16-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508157154,
+      "tokens": 64452,
+      "toolCalls": 6,
+      "durationMs": 34149,
+      "resultPreview": "{\"panels\":[{\"id\":\"10.1\",\"version\":\"v03\",\"keep\":[{\"x0\":0.13,\"y0\":0.2,\"x1\":0.55,\"y1\":0.93,\"what\":\"Varma in plain white cloth leading the party and Nagoji in commander dress (red sash, cream tunic) beside him, both barefoot on the wet river steps\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"10.3\",\"version\":\"v03\",\"keep\":[{\"x0\":0.21,\"y0\":0.49,\"x1\":0.71,\"y1\":0.68,\"what\":\"Long sword laid across the priest…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "keep ch16 p12",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ac2cc58a8d656ca7f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122262,
+      "queuedAt": 1791508122253,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 12 of chapter 16 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-16-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508140927,
+      "tokens": 60989,
+      "toolCalls": 3,
+      "durationMs": 17922,
+      "resultPreview": "{\"panels\":[{\"id\":\"12.2\",\"version\":\"v03\",\"keep\":[{\"x0\":0.22,\"y0\":0.22,\"x1\":0.68,\"y1\":0.78,\"what\":\"Nagoji in red sash riding Megha, the dappled grey with the black mane (head, mane, body)\"},{\"x0\":0.14,\"y0\":0.41,\"x1\":0.31,\"y1\":0.68,\"what\":\"Travancore horse troop wheeling on the sand behind him\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "keep ch16 p13",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a21994e08145c6949",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122262,
+      "queuedAt": 1791508122253,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 13 of chapter 16 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-16-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508165175,
+      "tokens": 64301,
+      "toolCalls": 8,
+      "durationMs": 42170,
+      "resultPreview": "{\"panels\":[{\"id\":\"13.3\",\"version\":\"v03\",\"keep\":[{\"x0\":0.77,\"y0\":0.38,\"x1\":0.9,\"y1\":0.68,\"what\":\"Varma's hand gripping the bundle of blue cloth over his arm\"},{\"x0\":0.67,\"y0\":0.34,\"x1\":0.99,\"y1\":0.42,\"what\":\"Dutch hulls at anchor on the distant sea, the direction of Varma's glance\"},{\"x0\":0.035,\"y0\":0.15,\"x1\":0.43,\"y1\":0.55,\"what\":\"Lannoy (white coat) and Nagoji (red sash, arms folded) watching Var…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "keep ch16 p14",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a4a031320703b40d3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122262,
+      "queuedAt": 1791508122253,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 14 of chapter 16 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-16-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508138893,
+      "tokens": 61039,
+      "toolCalls": 3,
+      "durationMs": 15888,
+      "resultPreview": "{\"panels\":[{\"id\":\"14.3\",\"version\":\"v03\",\"keep\":[{\"what\":\"Nagoji's blue drill coat and red sash: the foreign cloth the men are grinning at\",\"x0\":0.05,\"x1\":0.3,\"y0\":0.2,\"y1\":0.58},{\"what\":\"Seated men falling out: coats shrugged open over bare chests, hats off in hand, dhotis loose, grinning up toward Nagoji\",\"x0\":0.33,\"x1\":0.72,\"y0\":0.48,\"y1\":0.88}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "keep ch16 p19",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a5c48cf2ad0653c87",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508122262,
+      "queuedAt": 1791508122253,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 19 of chapter 16 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-16-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791508137916,
+      "tokens": 60340,
+      "toolCalls": 3,
+      "durationMs": 14911,
+      "resultPreview": "{\"panels\":[{\"id\":\"19.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0.035,\"y0\":0.17,\"x1\":0.315,\"y1\":0.78,\"what\":\"the two Nair guards following behind: topknots, white mundus, drawn swords and round shields\"},{\"x0\":0.3,\"y0\":0.1,\"x1\":0.69,\"y1\":0.6,\"what\":\"Nagoji and Lannoy walking out a few paces ahead of the guards\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "check ch16 p19",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "abc0a77a6d507e131",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508174492,
+      "queuedAt": 1791508174491,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508217230,
+      "tokens": 63995,
+      "toolCalls": 8,
+      "durationMs": 42738,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-19-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.4195,\"y\":0.1235,\"r\":0.03,\"who\":\"red-turbaned moustached man, three-quarter, centre-left\"},{\"x\":0.637,\"y\":0.122,\"r\":0.032,\"who\":\"blond European in white coat, three-quarter, centre-right\"},{\"x\":0.1348,\"y\":0.246,\"r\":0.023,\"who\":\"bare-chested guard with shield, far left\"},{\"x\":0.2617,\"y\":0.294,\"r\":0.02,\"who\":\"second bare-chested guar…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "check ch16 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a9a2fe6c07f8b76f6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508187162,
+      "queuedAt": 1791508187161,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508230729,
+      "tokens": 65069,
+      "toolCalls": 7,
+      "durationMs": 43567,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-01\",\"version\":\"v03\",\"faces\":[{\"x\":0.3585,\"y\":0.1533,\"r\":0.0406,\"who\":\"Nagoji, moustached, three-quarter view, left of centre\"},{\"x\":0.6528,\"y\":0.1533,\"r\":0.0406,\"who\":\"woman in blue sari, three-quarter view looking right, right of centre\"}]},{\"id\":\"page-08-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.3288,\"y\":0.2637,\"r\":0.049,\"who\":\"woman in blue sari, eyes lowered, ar…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "check ch16 p13",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a386d75681e309b05",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508208102,
+      "queuedAt": 1791508208101,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508249932,
+      "tokens": 64063,
+      "toolCalls": 11,
+      "durationMs": 41830,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-13-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.184,\"y\":0.131,\"r\":0.034,\"who\":\"blond European in white coat, profile right, left\"},{\"x\":0.344,\"y\":0.176,\"r\":0.032,\"who\":\"red-turbaned moustached man, arms crossed, centre-left\"},{\"x\":0.802,\"y\":0.188,\"r\":0.032,\"who\":\"Nagoji, bare-chested, profile right, right\"},{\"x\":0.03,\"y\":0.266,\"r\":0.013,\"who\":\"turbaned sepoy on platform at far …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "check ch16 p7",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a7387be381855eae3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508211308,
+      "queuedAt": 1791508211307,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508250444,
+      "tokens": 64000,
+      "toolCalls": 7,
+      "durationMs": 39136,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-07-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.321,\"y\":0.208,\"r\":0.067,\"who\":\"moustached man, profile facing right, left\"},{\"x\":0.708,\"y\":0.262,\"r\":0.06,\"who\":\"woman in blue sari, three-quarter facing left, right\"}]},{\"id\":\"page-07-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.548,\"y\":0.33,\"r\":0.058,\"who\":\"woman in blue sari, looking up, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 26,
+      "label": "check ch16 p12",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ae26bcc116bd4003e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508217873,
+      "queuedAt": 1791508217872,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508300870,
+      "tokens": 71283,
+      "toolCalls": 18,
+      "durationMs": 82997,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-12-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.526,\"y\":0.1885,\"r\":0.028,\"who\":\"Nagoji on grey horse, three-quarter, centre\"},{\"x\":0.095,\"y\":0.392,\"r\":0.016,\"who\":\"bearded turbaned rider at far left, profile from behind\"},{\"x\":0.7415,\"y\":0.446,\"r\":0.013,\"who\":\"bearded turbaned rider at right of centre, three-quarter\"},{\"x\":0.2845,\"y\":0.4455,\"r\":0.011,\"who\":\"bearded turbaned rid…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 27,
+      "label": "check ch16 p14",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a9c020a7b55ec58e6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508235344,
+      "queuedAt": 1791508235343,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508376954,
+      "tokens": 82839,
+      "toolCalls": 25,
+      "durationMs": 141610,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-14-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.196,\"y\":0.1416,\"r\":0.0332,\"who\":\"turbaned officer, three-quarter, left\"},{\"x\":0.6706,\"y\":0.2344,\"r\":0.033,\"who\":\"standing sepoy with plumed shako, centre\"},{\"x\":0.9017,\"y\":0.2595,\"r\":0.027,\"who\":\"standing sepoy with shako, right\"},{\"x\":0.4674,\"y\":0.5059,\"r\":0.0361,\"who\":\"seated curly-haired sepoy, centre-left\"},{\"x\":0.6934,\"y\":0.5…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 28,
+      "label": "check ch16 p10",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aebb710379beec968",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791508263177,
+      "queuedAt": 1791508263176,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791508365894,
+      "tokens": 78761,
+      "toolCalls": 19,
+      "durationMs": 102717,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-01\",\"version\":\"v03\",\"faces\":[{\"x\":0.4635,\"y\":0.177,\"r\":0.029,\"who\":\"bare-chested man with topknot and moustache, three-quarter, centre\"},{\"x\":0.2617,\"y\":0.167,\"r\":0.029,\"who\":\"man in red turban with moustache, three-quarter, centre-left\"},{\"x\":0.1237,\"y\":0.161,\"r\":0.022,\"who\":\"umbrella bearer with tilak, at left\"},{\"x\":0.1725,\"y\":0.204,\"r\":0.015,\"who\":\"attendant par…"
+    }
+  ],
+  "totalTokens": 2171737,
+  "totalToolCalls": 482
+}

@@ -1,0 +1,39 @@
+== ch07-turn2 first pass s1-a
+ "selected": 51,
+ "regenerate": 5,
+== ch07-turn2 solve 13 pages
+layout ok; fills {'1': 0.98, '2': 0.98, '3': 0.8, '4': 0.9, '5': 0.98, '6': 0.98, '7': 0.5, '8': 0.4, '9': 0.98, '10': 0.98, '11': 0.98, '12': 0.98, '13': 0.75}
+== ch07-turn2 assemble s1-b
+ "selected": 56,
+ "regenerate": 0,
+== ch07-turn2 build r1
+{
+  "pdf": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch07-turn2/pdf/Horse-of-the-Servant-V15-Chapter-07-r1.pdf",
+  "sha256": "5f27fc82f231edab3a0d53842a8b7043c37dc3cf6c544bfbba027acd5e9c10db",
+  "minimum_ppi": 304.7804486950048,
+  "median_ppi": 513.2462097902097,
+  "script_chunks": 96
+}
+8 keep-zone overlaps >= 10%
+   ('page-08-panel-01-v01', 0, 1, 0.28)
+   ('page-08-panel-04-v01', 1, 0, 0.26)
+   ('page-08-panel-04-v01', 2, 0, 0.84)
+   ('page-09-panel-02-v01', 1, 0, 0.31)
+   ('page-11-panel-01-v01', 2, 0, 0.25)
+   ('page-11-panel-04-v01', 0, 2, 0.15)
+   ('page-13-panel-02-v01', 1, 0, 0.16)
+   ('page-13-panel-02-v01', 2, 0, 0.15)
+page 8 page-08-panel-04: art fills 42% of the slot, narrower than its slot
+page 8 page-08-panel-02: art fills 48% of the slot, narrower than its slot
+page 7 page-07-panel-02: art fills 51% of the slot, narrower than its slot
+page 8 page-08-panel-01: art fills 65% of the slot, narrower than its slot
+page 7 page-07-panel-04: art fills 69% of the slot, narrower than its slot
+page 8 page-08-panel-03: art fills 74% of the slot, shorter than its slot
+page 13 page-13-panel-03: art fills 75% of the slot, narrower than its slot
+page 3 page-03-panel-03: art fills 81% of the slot, narrower than its slot
+page 13 page-13-panel-05: art fills 88% of the slot, shorter than its slot
+page 3 page-03-panel-04: art fills 89% of the slot, shorter than its slot
+page 7 page-07-panel-03: art fills 90% of the slot, narrower than its slot
+11 panels with bars
+== ch07-turn2 done
+ch07-turn2 exit 0

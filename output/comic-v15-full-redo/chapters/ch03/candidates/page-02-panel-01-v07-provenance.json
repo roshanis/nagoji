@@ -1,0 +1,27 @@
+{
+  "id": "page-02-panel-01",
+  "candidate": "page-02-panel-01-v07",
+  "image": "frames/page-02-panel-01-v07.png",
+  "generation_tool": "built-in imagegen",
+  "prompt_path": "prompts/page-02-panel-01-generation-v07.txt",
+  "prompt_sha256": "72b836d6e661aade19fa68541313182a57a27ae80f61179919bff4a3a38e8b5f",
+  "references": [
+    {
+      "role": "prior_candidate",
+      "path": "frames/page-02-panel-01-v05.png",
+      "sha256": "8a510b42299a05adeb62a2984cfce0a8788b878a5a161d35cb3b9a28efd062a8"
+    },
+    {
+      "role": "character_sheet",
+      "path": "../../concepts/07-keshavrao-v15c.png",
+      "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+      "role": "character_sheet",
+      "path": "../../../../comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+      "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+  ],
+  "reason": "v05 composition passed, but both caption reserves were too shallow for the scripted copy. v07 enlarges both reserves while preserving the hold staging and continuity constraints.",
+  "review_status": "pending_native_review"
+}

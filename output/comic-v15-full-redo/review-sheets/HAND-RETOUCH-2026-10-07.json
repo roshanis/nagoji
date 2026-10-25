@@ -1,0 +1,47 @@
+{
+ "date": "2026-10-07",
+ "by": "Claude (scripted pixel retouch, no image generator involved)",
+ "about": "These frames were captured with run_chapter.py capture, whose candidate record always says origin \"generated\" and generation_tool \"built-in imagegen\". For the frames below that record is wrong: each is a hand retouch of the named source version, made with numpy and Pillow (smooth fill or copying neighbouring pixels of the same image). The prompt recorded with each is the region-edit prompt whose fault the retouch addresses.",
+ "frames": [
+  {
+   "package": "ch10-split2",
+   "id": "page-09-panel-02",
+   "version": "v03",
+   "source": "v02",
+   "what": "Sky above the treeline: the edit left a visible seam; rows 296 to 368 colour-matched to the surrounding sky and edge columns smoothed. No new content drawn.",
+   "sha256": "b6ec151e57f5aef6932008ddd26a928536f8c1dcc59a3562f7287d55dacafe61"
+  },
+  {
+   "package": "ch11-split2",
+   "id": "page-11-panel-02",
+   "version": "v03",
+   "source": "v01 (right balloon area rebuilt by hand; left balloon area taken from the v02 edit inside the old balloon outline)",
+   "what": "Empty painted balloons removed. Right balloon: roof, carved eave band and screen continued from the bands beside it along their slope, pillar continued up to the beam, leftover tail tip filled. Left balloon: the v02 edit kept only inside the old balloon outline (feathered), smear at the left edge blended.",
+   "sha256": "c04abe757680b43f4b01781bd34e2874672f50e24f5497af230bcbe1abc93385"
+  },
+  {
+   "package": "ch11-split2",
+   "id": "page-17-panel-05",
+   "version": "v03",
+   "source": "v02",
+   "what": "Forehead dot the v02 edit failed to remove: about 60 pixels smoothly filled from the surrounding skin.",
+   "sha256": "38bc5c9cb11b61aa9ab3d28df9c29a77be350064c10cc752e1226f713505e20e"
+  },
+  {
+   "package": "ch11-split2",
+   "id": "page-18-panel-03",
+   "version": "v03",
+   "source": "v01",
+   "what": "Forehead dot removed from the original (the v02 edit added a background patch, so it was not used): about 50 pixels smoothly filled from the surrounding skin.",
+   "sha256": "3c038e6bf553c1517ab82ac4edfa56d83d8b587cd8835c9a4755e06606e6c6cf"
+  },
+  {
+   "package": "ch11-split2",
+   "id": "page-19-panel-01",
+   "version": "v03",
+   "source": "v01",
+   "what": "Forehead dot removed from the original (the v02 edit added a background patch, so it was not used): about 35 pixels smoothly filled from the surrounding skin.",
+   "sha256": "9b75aff695d7e26e864da5f2cc07fea8c2e5ce544ae0111e0c0c2a17c62acb4c"
+  }
+ ]
+}

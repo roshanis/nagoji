@@ -1,0 +1,334 @@
+{
+  "summary": "Select candidates and mark face and keep zones for a sibling package with an explicit frames path",
+  "agentCount": 4,
+  "logs": [
+    "▸ running dynamic workflow v15-select-drawn",
+    "[v15-select-drawn] chapter 9: 1 picked, 0 need regeneration, 0 without a decision",
+    "▸ v15-select-drawn done",
+    "▸ running dynamic workflow v15-keep",
+    "▸ running dynamic workflow v15-faces2",
+    "[v15-keep] chapter 9: keep regions for 1 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 9: face zones for 1 frames, 7 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 9,
+        "decisions": [
+          {
+            "id": "page-01-panel-02",
+            "pick": "v04",
+            "backup": "v03",
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.404,
+                "y": 0.214,
+                "r": 0.038
+              },
+              {
+                "x": 0.267,
+                "y": 0.256,
+                "r": 0.036
+              },
+              {
+                "x": 0.549,
+                "y": 0.229,
+                "r": 0.036
+              },
+              {
+                "x": 0.139,
+                "y": 0.379,
+                "r": 0.018
+              },
+              {
+                "x": 0.186,
+                "y": 0.361,
+                "r": 0.022
+              },
+              {
+                "x": 0.116,
+                "y": 0.509,
+                "r": 0.036
+              },
+              {
+                "x": 0.232,
+                "y": 0.552,
+                "r": 0.047
+              },
+              {
+                "x": 0.757,
+                "y": 0.433,
+                "r": 0.016
+              },
+              {
+                "x": 0.809,
+                "y": 0.437,
+                "r": 0.016
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.404,
+                "y": 0.214,
+                "r": 0.038
+              },
+              {
+                "x": 0.267,
+                "y": 0.256,
+                "r": 0.036
+              },
+              {
+                "x": 0.549,
+                "y": 0.229,
+                "r": 0.036
+              },
+              {
+                "x": 0.139,
+                "y": 0.379,
+                "r": 0.018
+              },
+              {
+                "x": 0.186,
+                "y": 0.361,
+                "r": 0.022
+              },
+              {
+                "x": 0.116,
+                "y": 0.509,
+                "r": 0.036
+              },
+              {
+                "x": 0.232,
+                "y": 0.552,
+                "r": 0.047
+              },
+              {
+                "x": 0.757,
+                "y": 0.433,
+                "r": 0.016
+              },
+              {
+                "x": 0.809,
+                "y": 0.437,
+                "r": 0.016
+              }
+            ],
+            "issues": "v04 is clean. In v03 the bay horse had a white stripe down its forehead. In v04 it is gone, and the head now reads as solid ochre red-brown bay with a black mane, a dark muzzle and no white markings. At 5x zoom I found no seam, smear or tonal patch. A pixel diff shows the edit re-rendered a feathered rectangle of about x 442-788, y 299-647 (the horse, Nagoji's legs and sword, part of Padmini's walking stick, the hind legs of Ibrahim's horse). Outside the stripe, the changes are only tiny texture and tone differences (low-frequency shift of 12/255 or less). At 3x zoom there is no visible structural change and no hard edge at the boundary. Nagoji's face (x 580-680, y 180-300) is pixel-identical, with his curled moustache, clean-shaven chin and gold ear stud. The contact sheet at /tmp/claude-501/ch9rv2-sheets/page-01-panel-02.png did not exist, so I compared the two frame files directly. The single CAPTION fits in the misty sky at the top centre or top left.",
+            "correction": ""
+          }
+        ],
+        "missing": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 9,
+        "result": {
+          "chapter": 9,
+          "panels": [
+            {
+              "id": "page-01-panel-02",
+              "version": "v04",
+              "faces": [
+                {
+                  "x": 0.2754,
+                  "y": 0.2676,
+                  "r": 0.0165,
+                  "who": "grey-bearded man in white turban and teal coat, on white horse, left-centre"
+                },
+                {
+                  "x": 0.4142,
+                  "y": 0.2236,
+                  "r": 0.0132,
+                  "who": "moustached man in red turban, red sash, centre rider"
+                },
+                {
+                  "x": 0.5612,
+                  "y": 0.2412,
+                  "r": 0.0135,
+                  "who": "woman in cream and gold sari, three-quarter right, right rider"
+                },
+                {
+                  "x": 0.1855,
+                  "y": 0.3721,
+                  "r": 0.0098,
+                  "who": "bearded bare-chested rider, background left (nearer)"
+                },
+                {
+                  "x": 0.1393,
+                  "y": 0.3877,
+                  "r": 0.008,
+                  "who": "bearded bare-chested rider with topknot, background far left"
+                },
+                {
+                  "x": 0.1185,
+                  "y": 0.5273,
+                  "r": 0.0156,
+                  "who": "smiling running boy, left"
+                },
+                {
+                  "x": 0.237,
+                  "y": 0.582,
+                  "r": 0.0186,
+                  "who": "smiling running boy, foreground left-centre"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 9,
+        "result": {
+          "chapter": 9,
+          "panels": [
+            {
+              "id": "1.2",
+              "version": "v04",
+              "keep": [
+                {
+                  "x0": 0.05,
+                  "y0": 0.46,
+                  "x1": 0.31,
+                  "y1": 0.89,
+                  "what": "two children racing barefoot along the narrow bund between flooded channels, feet on the ridge (the caption's beat)"
+                },
+                {
+                  "x0": 0.33,
+                  "y0": 0.17,
+                  "x1": 0.62,
+                  "y1": 0.66,
+                  "what": "Nagoji and Padmini mounted at the head of the riding party, the 'me' the caption contrasts with the children"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-select-drawn",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch9 p1",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a229b4bb826b13881",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791217511286,
+      "queuedAt": 1791217511277,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 1 of Chapter 9 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runt…",
+      "promptFramed": true,
+      "lastProgressAt": 1791217608479,
+      "tokens": 80207,
+      "toolCalls": 22,
+      "durationMs": 97193,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-01-panel-02\",\"pick\":\"v04\",\"backup\":\"v03\",\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.404,\"y\":0.214,\"r\":0.038},{\"x\":0.267,\"y\":0.256,\"r\":0.036},{\"x\":0.549,\"y\":0.229,\"r\":0.036},{\"x\":0.139,\"y\":0.379,\"r\":0.018},{\"x\":0.186,\"y\":0.361,\"r\":0.022},{\"x\":0.116,\"y\":0.509,\"r\":0.036},{\"x\":0.232,\"y\":0.552,\"r\":0.047},{\"x\":0.757,\"y\":0.433,\"r\":0.016},{\"x\":0.809,\"y\":0.437,\"r\":0.016}],\"backu…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "keep ch9 p1",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a2b0802fc694aa9ff",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791217608502,
+      "queuedAt": 1791217608493,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 1 of chapter 9 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-09-SCRIPT.md (…",
+      "promptFramed": true,
+      "lastProgressAt": 1791217638108,
+      "tokens": 66987,
+      "toolCalls": 6,
+      "durationMs": 29606,
+      "resultPreview": "{\"panels\":[{\"id\":\"1.2\",\"version\":\"v04\",\"keep\":[{\"x0\":0.05,\"y0\":0.46,\"x1\":0.31,\"y1\":0.89,\"what\":\"two children racing barefoot along the narrow bund between flooded channels, feet on the ridge (the caption's beat)\"},{\"x0\":0.33,\"y0\":0.17,\"x1\":0.62,\"y1\":0.66,\"what\":\"Nagoji and Padmini mounted at the head of the riding party, the 'me' the caption contrasts with the children\"}],\"beat_present\":true,\"miss…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 5,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "mark ch9 p1",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ada4476d3e3a5a49a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791217608517,
+      "queuedAt": 1791217608509,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791217684321,
+      "tokens": 74906,
+      "toolCalls": 25,
+      "durationMs": 75804,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-01-panel-02\",\"version\":\"v04\",\"faces\":[{\"x\":0.2754,\"y\":0.2676,\"r\":0.018,\"who\":\"grey-bearded man in white turban and teal coat, on white horse, left-centre\"},{\"x\":0.4147,\"y\":0.2236,\"r\":0.0146,\"who\":\"moustached man in red turban, red sash, centre rider\"},{\"x\":0.5612,\"y\":0.2393,\"r\":0.014,\"who\":\"woman in cream and gold sari, three-quarter right, right rider\"},{\"x\":0.1855,\"y\":0.37…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "check ch9 p1",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a08f2445336bd8f01",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791217684326,
+      "queuedAt": 1791217684324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791217734109,
+      "tokens": 70613,
+      "toolCalls": 13,
+      "durationMs": 49782,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-01-panel-02\",\"version\":\"v04\",\"faces\":[{\"x\":0.2754,\"y\":0.2676,\"r\":0.0165,\"who\":\"grey-bearded man in white turban and teal coat, on white horse, left-centre\"},{\"x\":0.4142,\"y\":0.2236,\"r\":0.0132,\"who\":\"moustached man in red turban, red sash, centre rider\"},{\"x\":0.5612,\"y\":0.2412,\"r\":0.0135,\"who\":\"woman in cream and gold sari, three-quarter right, right rider\"},{\"x\":0.1855,\"y\":0.…"
+    }
+  ],
+  "totalTokens": 292713,
+  "totalToolCalls": 66
+}

@@ -1,0 +1,32 @@
+== ch14-split2 first pass s1-a
+ "selected": 47,
+ "regenerate": 3,
+== ch14-split2 solve 13 pages
+layout ok; fills {'1': 0.98, '2': 0.85, '3': 0.9, '4': 0.98, '5': 0.98, '6': 0.98, '7': 0.98, '8': 0.98, '9': 0.85, '10': 0.98, '11': 0.98, '12': 0.75, '13': 0.85}
+== ch14-split2 assemble s1-b
+ "selected": 50,
+ "regenerate": 0,
+== ch14-split2 build r1
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/compositor.py", line 860, in compose
+    c.save()
+  File "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/reportlab/pdfgen/canvas.py", line 1302, in save
+    self._doc.SaveToFile(self._filename, self)
+  File "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/site-packages/reportlab/pdfbase/pdfdoc.py", line 215, in SaveToFile
+    f.write(data)
+OSError: [Errno 28] No space left on device
+4 keep-zone overlaps >= 10%
+   ('page-03-panel-01-v01', 0, 1, 0.2)
+   ('page-10-panel-05-v01', 1, 0, 0.2)
+   ('page-12-panel-02-v01', 0, 1, 0.2)
+   ('page-12-panel-05-v01', 0, 1, 0.11)
+page 12 page-12-panel-04: art fills 75% of the slot, narrower than its slot
+page 12 page-12-panel-01: art fills 77% of the slot, shorter than its slot
+page 2 page-02-panel-01: art fills 85% of the slot, shorter than its slot
+page 2 page-02-panel-02: art fills 85% of the slot, shorter than its slot
+page 9 page-09-panel-02: art fills 86% of the slot, narrower than its slot
+page 9 page-09-panel-04: art fills 86% of the slot, narrower than its slot
+page 13 page-13-panel-04: art fills 87% of the slot, narrower than its slot
+page 13 page-13-panel-02: art fills 90% of the slot, shorter than its slot
+8 panels with bars
+== ch14-split2 done

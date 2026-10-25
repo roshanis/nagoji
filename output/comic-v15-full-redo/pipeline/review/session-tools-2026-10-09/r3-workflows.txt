@@ -1,0 +1,20 @@
+w6ugh74rb ch13 r3 | w373zxtbc ch14 r3 | wwolyqqb8 ch18 r3 | wpl1wa4ng ch19 r3 | w9j2r6g9l ch21 r3
+w0m7kvcf1 ch25 r3 | we6uge5gt ch26 r3 | w9s42lay1 ch27 r3 | w1wv29qow ch20 r3 | wz3zdygg4 ch23 r3
+wvihwxmmf ch15 r2
+wwotmxmxn ch17 r2 | w0j5kqhxm ch24 r2 | wdiyufsdn ch28 r2 | wtusrz3a7 idverify-1 (161 162 167 171 176)
+w6thkrl6p ch23 r5 (6.1 v04 retouch) -> save_merge.sh w6thkrl6p 23 5
+NOTE: ch24 r2 selection (w0j5kqhxm) must merge as ROUND 3 (identity took r2): bash save_merge.sh w0j5kqhxm 24 3
+wtsihxk19 idverify-2 (156 164 165 168 172 177 183) args idverify-args-2.json
+wbl9tu3k3 ch22 r3 (152) | wrd4fmyj6 ch24 r4 (148) | w2g8y6g3c ch17 r3 (182) | waf68x9zk ch27 r4 (181)  -- merge each with save_merge.sh ID CH R, but CHECK latest round first (identity may have advanced it)
+NOTE: ch24 retouch took r4 -> ch24 r4 selection (wrd4fmyj6) must merge as ROUND 5: save_merge.sh wrd4fmyj6 24 5
+wp7do8cjc ch16 r6 forced (7.3 13.5 19.3 v04) -> save_merge.sh wp7do8cjc 16 6 (check latest)
+wao396ast ch22 r4 FORCED (7 panels) -> save_merge.sh wao396ast 22 4 (check latest)
+wiqoy5dcc idverify-3 (154 157 158 159 160 163 169 174 175 178) args idverify-args-3.json | wifi8wiie ch07 r6 sel (merge via merge_round from merged-r5) | wnvk2r1r3 ch08-split r6 sel (merge from split-r1)
+wy4433e7r ch17 r5b FORCED (3.4 7.2 9.1 9.5) -> merge_latest.py wy4433e7r ch17 r5 | batch 190 (ch07 7.4 9.2 edits) -> needs ch07 selection | retouch-mix3: ch08 14.1 (v03 not pick -> select), ch23 11.1 (v01 pick -> apply_retouch), ch05 4.5 (v01 pick -> apply_retouch)
+PENDING: ch09-split2 15.2 v02 (accepted regen) needs selection zones | ch08-split 14.1 retouch (mix3) needs selection | ch05 1.3 keep v01 + ear retouch (r4a item 2) | retouch r4a/r4b/r4c -> apply_retouch (sources = current picks listed) | ch23 11.1 + ch05 4.5 in mix3 -> apply_retouch
+wf7h115by ch08-split r7 (14.1 v04 forced) -> merge_latest.py wf7h115by ch08-split r7 | wspdia1ya ch09-split2 r5 (15.2 v02) -> merge_latest.py wspdia1ya ch09-split2 r5
+wrkr4w2fn ch15 rG forced | w5cmhwx3d ch24 rG forced | w4s946fmg ch28 rG forced | w2m7pp874 ch07 rG forced -> merge_latest.py ID PKG rG
+weo2vi8or idverify-4 (155 166 170 173 179 180) args idverify-args-4.json
+ch07 rG merged; TODO retouch ch07 7.4 v03 ear bead at ~(1143,404) and optional wrist bracelet
+2026-10-09: wr42rtdu2 retouch-verify r5 (ch07 7.4, ch16 1.1/12.3, ch19 6.1/6.2/7.3, ch22 2.3/4.2) | queues bw: b6gd66c8e (A: 13 15 17 21 24 27), b008jmys8 (B: 14 18 23 26 28), brs780au4 (ch20-split, ch25-split2) | bnsvxrl38 ch06 r9 rebuild | w67vizsnz ch16 r8 sel (10.4 v02) -> merge_latest.py w67vizsnz ch16 r8 | splits applied: ch20-split (6:3), ch25-split2 (10:3); ch25-split is a FAILED empty attempt (unused) | CONTINUITY ch20 anchors @1-10.2/@10.3- should become @1-11.2/@11.3- (needs author approval)
+2026-10-09 later: splits applied: ch14-split (1:4 4:3) built r2; ch20-split2 (from ch20-split 11:3; FACES-s2 and KEEP-s2 relax 15.4) built r1 tag s2; ch25-split2 built r1; ch13-split (3:3 4:3 6:4 7:4 8:5 11:3) solving. Pipeline fixes (TDD, 601 tests OK): compositor.verify_page_chunks nested chunks; run_chapter voice-over/memory tailless. ch20 CONTINUITY anchors now @1-11.2 / @12.1- after both splits (pending approval).

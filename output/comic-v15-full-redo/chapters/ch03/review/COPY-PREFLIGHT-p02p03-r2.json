@@ -1,0 +1,130 @@
+{
+  "measurements": [
+    {
+      "frame_id": "page-02-panel-03",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        293.12897077509535,
+        247.62420584498096,
+        97.58068614993647,
+        22.447268106734384
+      ],
+      "lines": [
+        "Sahib, if the ship breaks..."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 27.03068614993647,
+        "top": 7.303634053367192,
+        "bottom": 7.303634053367192
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          68.55,
+          6.1
+        ]
+      ],
+      "baselines_pt": [
+        9.043634053367192
+      ]
+    },
+    {
+      "frame_id": "page-02-panel-03",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        153.62198221092757,
+        215.15914866581957,
+        83.85260482846252,
+        22.44726810673444
+      ],
+      "lines": [
+        "If the ship breaks, no musket",
+        "will save them."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 5.112604828462523,
+        "top": 2.5686340533672194,
+        "bottom": 2.568634053367221
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          76.74,
+          6.05
+        ],
+        [
+          0.0,
+          -0.05,
+          39.53,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        13.828634053367221,
+        4.308634053367221
+      ]
+    }
+  ],
+  "pixels": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 3,
+    "lines": [
+      {
+        "frame_id": "page-02-panel-03",
+        "text": "Sahib, if the ship breaks...",
+        "source_pixel_rect": [
+          1401,
+          75,
+          1770,
+          118
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-03",
+        "text": "If the ship breaks, no musket",
+        "source_pixel_rect": [
+          649,
+          225,
+          1062,
+          267
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-02-panel-03",
+        "text": "will save them.",
+        "source_pixel_rect": [
+          649,
+          276,
+          862,
+          309
+        ],
+        "light_fraction": 1.0
+      }
+    ]
+  }
+}

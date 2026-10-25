@@ -1,0 +1,237 @@
+{
+  "copy_fit": [
+    {
+      "frame_id": "page-06-panel-03",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        225.08412322274881,
+        432.7831753554502,
+        68.26540284360186,
+        28.58767772511851
+      ],
+      "lines": [
+        "The words settled over",
+        "me heavier than iron."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 6.52540284360186,
+        "top": 6.483838862559253,
+        "bottom": 6.483838862559257
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          -0.02,
+          -0.05,
+          59.72,
+          6.05
+        ],
+        [
+          0.0,
+          -0.05,
+          56.1,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        16.053838862559257,
+        6.533838862559257
+      ]
+    },
+    {
+      "frame_id": "page-06-panel-03",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        225.08412322274881,
+        395.3234597156398,
+        68.26540284360186,
+        28.46445497630333
+      ],
+      "lines": [
+        "I had never meant to",
+        "collect followers."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 12.225402843601863,
+        "top": 6.4222274881516626,
+        "bottom": 6.422227488151667
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.05,
+          54.04,
+          6.05
+        ],
+        [
+          0.0,
+          -0.05,
+          45.07,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        15.992227488151666,
+        6.472227488151667
+      ]
+    },
+    {
+      "frame_id": "page-06-panel-03",
+      "copy_indices": [
+        2
+      ],
+      "rect_pt": [
+        224.59123222748815,
+        356.5082938388626,
+        69.49763033175356,
+        29.819905213270147
+      ],
+      "lines": [
+        "One boy's loyalty",
+        "wrapped itself like a",
+        "rope around my chest."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 8.257630331753553,
+        "top": 1.4699526066350757,
+        "bottom": 1.4699526066350705
+      },
+      "tight_margin": true,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          44.43,
+          6.1
+        ],
+        [
+          0.0,
+          -1.74,
+          53.57,
+          6.05
+        ],
+        [
+          0.0,
+          -1.74,
+          59.24,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        22.24995260663507,
+        12.72995260663507,
+        3.2099526066350705
+      ]
+    }
+  ],
+  "reserve_pixels": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 7,
+    "lines": [
+      {
+        "frame_id": "page-06-panel-03",
+        "text": "The words settled over",
+        "source_pixel_rect": [
+          46,
+          121,
+          531,
+          170
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-06-panel-03",
+        "text": "me heavier than iron.",
+        "source_pixel_rect": [
+          46,
+          198,
+          502,
+          247
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-06-panel-03",
+        "text": "I had never meant to",
+        "source_pixel_rect": [
+          46,
+          425,
+          485,
+          475
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-06-panel-03",
+        "text": "collect followers.",
+        "source_pixel_rect": [
+          46,
+          502,
+          412,
+          552
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-06-panel-03",
+        "text": "One boy's loyalty",
+        "source_pixel_rect": [
+          42,
+          689,
+          403,
+          753
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-06-panel-03",
+        "text": "wrapped itself like a",
+        "source_pixel_rect": [
+          42,
+          767,
+          477,
+          830
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-06-panel-03",
+        "text": "rope around my chest.",
+        "source_pixel_rect": [
+          42,
+          844,
+          523,
+          907
+        ],
+        "light_fraction": 1.0
+      }
+    ]
+  }
+}

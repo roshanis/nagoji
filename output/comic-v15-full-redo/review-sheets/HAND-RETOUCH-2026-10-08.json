@@ -1,0 +1,490 @@
+{
+ "date": "2026-10-08",
+ "by": "Claude (scripted pixel retouch, no image generator involved)",
+ "about": "Same convention as HAND-RETOUCH-2026-10-07.json: the frame below was captured with run_chapter.py capture, whose candidate record says origin \"generated\" and generation_tool \"built-in imagegen\". That is wrong for this frame: it is a hand retouch of the named source version, made with numpy and Pillow. The prompt recorded with it is the first correction prompt for the panel.",
+ "frames": [
+  {
+   "package": "ch13",
+   "id": "page-02-panel-05",
+   "version": "v04",
+   "source": "v02",
+   "what": "Pseudo-text on the palm leaf: about 1700 pixels of faint script-like squiggles inside the leaf replaced by a median and Gaussian smoothed copy of the same leaf. No new content drawn. The leaf keeps its short, broad tag shape and pale cord (listed for the author).",
+   "sha256": "47ab3e5fe95130f057d450823ae4e8a86cfaecb8ac94c3bc3c3a51c26084513a",
+   "why": "v01 to v03 were all rejected; v02 alone had Padmini alone in the anteroom as scripted, and its only hard fault was the pseudo-text. Past the two-correction stopping rule."
+  },
+  {
+   "package": "ch23",
+   "id": "page-06-panel-01",
+   "version": "v04",
+   "source": "v03",
+   "what": "Hanging gold bead below Nagoji's earlobe removed (about 70 pixels filled from the neck skin, x 283 to 290, y 135 to 144) and the pearl-white lobe stud tinted dull gold (about 17 pixels). No new content drawn.",
+   "sha256": "8d40d52d39414d382877ddc0e47496f68fa48b11953de3c87374b0977e169d0c",
+   "why": "r3 rejected v03 only for the hanging bead; past the two-correction stopping rule. Retouch done by a Sonnet helper, checked by Claude on before and after crops."
+  },
+  {
+   "package": "ch23",
+   "id": "page-05-panel-04",
+   "version": "v04",
+   "source": "v03",
+   "what": "Tiny gold bead hanging below Nagoji's lobe stud removed (61 pixels, x 496 to 502, y 100 to 108), filled from the neck. Stud untouched. A faint soft shadow remains under the lobe.",
+   "sha256": "76a2dfb7023c7ba35e68d8d8ca33f8864c3c1ef537075d8b2dbceee684cff402",
+   "why": "r3 picked v03 and listed the bead as minor; the author's ear-is-a-stud rule makes it worth removing."
+  },
+  {
+   "package": "ch16",
+   "id": "page-20-panel-02",
+   "version": "v03",
+   "source": "v02",
+   "what": "Small gold bar hanging below Nagoji's right earlobe removed (about 32 pixels, x 461 to 464, y 226 to 233), filled from hair and neck; the lobe stud kept.",
+   "sha256": "6c1eb94d806a7da09a8ca606554197b6381a87dcd6bd06b56f8b8c595ea9c858"
+  },
+  {
+   "package": "ch20",
+   "id": "page-07-panel-05",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold teardrop hanging below Nagoji's earlobe removed (about 53 pixels, x 1255 to 1262, y 261 to 268), filled from black curls; the stud kept.",
+   "sha256": "92a0f83b9915cf073b5cc5c2b067f029e65b89aafee7aed5ac3074ba8dc1839f"
+  },
+  {
+   "package": "ch20",
+   "id": "page-09-panel-05",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold cup and link below Nagoji's lobe removed and the pearl-white lobe stone tinted dull gold (about 53 pixels, x 1203 to 1210, y 290 to 299).",
+   "sha256": "e6cef2e0032c860d516a7fb447fcbb47a6a103b40e3fcafc3ee5c3906ba89b55"
+  },
+  {
+   "package": "ch24",
+   "id": "page-01-panel-05",
+   "version": "v03",
+   "source": "v02",
+   "what": "Round gold-cream bead and link hanging below Nagoji's right earlobe removed (about 111 pixels, x 917 to 927, y 268 to 278); lobe left bare.",
+   "sha256": "55df3e91bda2db01886bc9404b186cc0b178f179562c3c6d05152fec1e011a7b"
+  },
+  {
+   "package": "ch24",
+   "id": "page-26-panel-05",
+   "version": "v03",
+   "source": "v02",
+   "what": "Round gold ball hanging below Nagoji's left earlobe removed (about 36 pixels, x 351 to 356, y 105 to 111); lobe left bare.",
+   "sha256": "7a7c45a9148260e83140fc500676da5ac087da513ce42d70c70bc85c31fba08f"
+  },
+  {
+   "package": "ch16",
+   "id": "page-19-panel-03",
+   "version": "v04",
+   "source": "v03",
+   "what": "Hanging gold bead below Nagoji's earlobe removed (about 72 pixels, x 249 to 256, y 163 to 171), filled from neck and hair; lobe stud kept.",
+   "sha256": "0aa538796976cf60c41ed37d9a8f3b27145e1b8da53689c0787c5b6d52562274"
+  },
+  {
+   "package": "ch16",
+   "id": "page-13-panel-05",
+   "version": "v04",
+   "source": "v01",
+   "what": "Long white scar lines on Nagoji's near RIGHT forearm smoothed into plain skin (about 4130 pixels inside the arm, x 145 to 192, y 623 to 794). Forced pick past the stopping rule: v02 had grey, stubble and a right-forearm brand; v03 had a third arm.",
+   "sha256": "b32ea41c59fc792a159cbee8041bb8404f7822ff3246c066cf30672d88639f37"
+  },
+  {
+   "package": "ch16",
+   "id": "page-07-panel-03",
+   "version": "v04",
+   "source": "v01",
+   "what": "Rust-brown stains on the rib bandage recoloured to the clean cloth (about 7900 pixels) and the scar and brand on Nagoji's near RIGHT forearm smoothed into plain skin (about 8350 pixels); overall x 651 to 1030, y 645 to 933. Forced pick past the stopping rule: v02 and v03 had a detached or extra arm. Remaining fault for the author: an ambiguous hand grips his forearm instead of his hand closing on Revathi's wrist.",
+   "sha256": "1a4433bc5b1fb42cc338d17aec1ab0076c370f63ffe82c351e6958d663e63350"
+  },
+  {
+   "package": "ch07",
+   "id": "page-01-panel-05",
+   "version": "v04",
+   "source": "v03",
+   "what": "Gold bead under the lobe stud and a gold sliver at the far jaw edge removed (133 pixels; ear 563-570 x 207-215, jaw 650-655 x 205-217).",
+   "sha256": "0b31790952cc632a12297ebca29ae3faa434fa4a122d3c73a6cab443effb8e3e"
+  },
+  {
+   "package": "ch07",
+   "id": "page-02-panel-04",
+   "version": "v04",
+   "source": "v03",
+   "what": "Gold balls hanging below both earlobes removed (89 pixels at about (742,229) and (821,237)).",
+   "sha256": "e217f9637b6181ef98947f000e9496fa36c2c2c4cd36c27861e32c3e577d6008"
+  },
+  {
+   "package": "ch07",
+   "id": "page-04-panel-02",
+   "version": "v04",
+   "source": "v03",
+   "what": "Short gold hoop below the visible left earlobe removed (82 pixels, x 758 to 769, y 247 to 254); lobe outline kept.",
+   "sha256": "e5e68067745a249358a31aa3dc148cc87a5bc23f5680f0416b8bf2381bb0e1bd"
+  },
+  {
+   "package": "ch07",
+   "id": "page-05-panel-01",
+   "version": "v04",
+   "source": "v03",
+   "what": "Gold sliver at the far ear beyond the moustache tip removed (95 pixels, x 505 to 511, y 178 to 196), curls continued.",
+   "sha256": "7f21fd6b40fb551fdff6503eff0f2a595ac3417ae20acbb146de75f2da7cae8e"
+  },
+  {
+   "package": "ch07",
+   "id": "page-06-panel-05",
+   "version": "v04",
+   "source": "v02",
+   "what": "Large hanging gold drop, its link and cast shadow removed from the audited frame (331 pixels, x 523 to 539, y 299 to 323); tiny stud on the lobe kept. The identity edit v03 changed the framing and was not used.",
+   "sha256": "0d72621552fefd37059494964764f2a25a0f0537e3b30348b501ea0e6308a5b2"
+  },
+  {
+   "package": "ch07",
+   "id": "page-10-panel-05",
+   "version": "v04",
+   "source": "v03",
+   "what": "Faded gold bead on the neck below the lobe stud removed (109 pixels, x 944 to 953, y 453 to 464).",
+   "sha256": "2479834adac98d07574fcb5a60e14f42fefdc1466e1976b1c3d164e6be055181"
+  },
+  {
+   "package": "ch14",
+   "id": "page-04-panel-04",
+   "version": "v03",
+   "source": "v02",
+   "what": "Orange-gold bead hanging below Nagoji's lobe stud removed (117 pixels, x 227 to 239, y 137 to 146).",
+   "sha256": "c9e934a86f44f8ec40830b68fda369d8c921d4c9df5f566e59c366bc79598155"
+  },
+  {
+   "package": "ch14",
+   "id": "page-05-panel-03",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold bead hanging below the lobe stud removed (102 pixels, x 427 to 437, y 163 to 172).",
+   "sha256": "57693791859da02f62a47901154ccc89dab347ea3441384116f6e88eb6b2cb86"
+  },
+  {
+   "package": "ch14",
+   "id": "page-08-panel-01",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold bead hanging below the lobe stud removed (108 pixels, x 922 to 932, y 227 to 236).",
+   "sha256": "9659300995b4e6250d052933d76c2ffbdcb9bd8be2877352a846fbfdadbba012"
+  },
+  {
+   "package": "ch14",
+   "id": "page-10-panel-01",
+   "version": "v03",
+   "source": "v02",
+   "what": "Second gold bead hanging below the lobe stud removed (86 pixels, x 454 to 464, y 140 to 147).",
+   "sha256": "df99197812b26033f94a55718db382dbc6ae35e30f1a372de818e015a40f2772"
+  },
+  {
+   "package": "ch17",
+   "id": "page-10-panel-01",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold bead hanging below the small lobe stud removed (115 pixels, x 410 to 420, y 156 to 166).",
+   "sha256": "1bbd0461f7d836821c18d8ed3849ae5d361ff267cea7fddb0586ac6bd768cca1"
+  },
+  {
+   "package": "ch17",
+   "id": "page-12-panel-05",
+   "version": "v03",
+   "source": "v02",
+   "what": "Sunburst-and-crescent brand on Nagoji's forearm blurred into a soft pale scar patch with no rays (1775 pixels, x 1007 to 1063, y 673 to 717).",
+   "sha256": "e648bb4df9803c2b70bf111e8caf350bd141de6c9733cb1f83b77b6492c3ceff"
+  },
+  {
+   "package": "ch21",
+   "id": "page-04-panel-02",
+   "version": "v03",
+   "source": "v02",
+   "what": "Faded wheel emblem (circle and spokes) on Nagoji's left forearm blurred into a faint pale patch (1043 pixels, x 624 to 663, y 737 to 771); the white scar untouched.",
+   "sha256": "4efe0cf011081bc4b63da91ff085f1cd4c8eb380dc7b2fcca5ea0ce6f1c4fcb2"
+  },
+  {
+   "package": "ch21",
+   "id": "page-07-panel-04",
+   "version": "v04",
+   "source": "v02",
+   "what": "Gold ball and link below the near earlobe and a gold bead at the far ear removed (169 pixels; x 246 to 260, y 195 to 205 and x 337 to 343, y 187 to 192). The identity edit v03 did not take and was not used.",
+   "sha256": "99a052b2de8ec9a9e21cee91d91d4be5c99868243c3b22dca66729ba5c34f11a"
+  },
+  {
+   "package": "ch17",
+   "id": "page-09-panel-01",
+   "version": "v03",
+   "source": "v02",
+   "what": "Pale scar patch (a copy of Nagoji's brand) removed from King Marthanda Varma's inner left forearm above the bangle (1423 pixels, x 1364 to 1408, y 448 to 496); the King carries no brand. v02 is the identity regeneration.",
+   "sha256": "1a3b3c094a37ddeec6a0b8d6e814ca96c3c7cfa386832ba4c884a0add41bf5d9"
+  },
+  {
+   "package": "ch13",
+   "id": "page-04-panel-01",
+   "version": "v04",
+   "source": "v03",
+   "what": "Orange-gold teardrop below Nagoji's left earlobe removed (98 pixels, x 1203 to 1212, y 234 to 244).",
+   "sha256": "ed703f6d21f2b82aa1edd08fa0cdcfbb4e7157d630c46e90011771b291487254"
+  },
+  {
+   "package": "ch13",
+   "id": "page-11-panel-05",
+   "version": "v03",
+   "source": "v01",
+   "what": "Gold ball hanging below the lobe bead removed (152 pixels, x 593 to 604, y 131 to 144); the small bead on the lobe kept. The identity edit v02 did not change the ear and was not used.",
+   "sha256": "87d4fa9cbd0799ac727b18a6d9873b1eaf800d5885d0d8289d9306c4b61dff3c"
+  },
+  {
+   "package": "ch13",
+   "id": "page-15-panel-04",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold ball below the earlobe removed (132 pixels, x 502 to 512, y 314 to 325); lobe bare.",
+   "sha256": "857eb7469da3bcab0cd6669e5bb10ddf171fe98b6cccc5affacbe9c65add8c39"
+  },
+  {
+   "package": "ch18",
+   "id": "page-01-panel-04",
+   "version": "v03",
+   "source": "v02",
+   "what": "Hanging bead under the lobe stud removed (81 pixels, x 283 to 292, y 143 to 151) and the dotted-ring rosette brand on the left forearm blurred into a soft pale patch (487 pixels, x 397 to 420, y 467 to 493).",
+   "sha256": "7b874d65d0df731340559dff6dbc1deea4e3e02735f2e7c9b7622d653ba35e1a"
+  },
+  {
+   "package": "ch26",
+   "id": "page-06-panel-01",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold ball hanging below Nagoji's earlobe removed (142 pixels, x 595 to 606, y 108 to 120); lobe bare.",
+   "sha256": "0ee3039ed66db8c7beeb66d66bdeae897480a2cc5a9ad480183a9f6492ee9446"
+  },
+  {
+   "package": "ch26",
+   "id": "page-06-panel-02",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold ball below Nagoji's earlobe removed (142 pixels, x 727 to 738, y 416 to 427).",
+   "sha256": "46daab9c967d1b6ce7f827e90d8d2006030734427f908c3766df0678ba5712e8"
+  },
+  {
+   "package": "ch05-split2",
+   "id": "page-04-panel-05",
+   "version": "v03",
+   "source": "v01",
+   "what": "Round gold bead, its outline, stem and drop shadow hanging below Nagoji's earlobe removed (about 867 pixels, x 327 to 355, y 363 to 404); lobe left bare. The identity edit was generated but not captured (prompt mismatch), so the retouch replaces it.",
+   "sha256": "c82161e1c341540cdc3d9107ceb36d6ca6c3d7e621d1339bf6db342314b6387a"
+  },
+  {
+   "package": "ch23",
+   "id": "page-11-panel-01",
+   "version": "v02",
+   "source": "v01",
+   "what": "Black ink-outlined ring with a hook on Nagoji's left forearm removed and left as a faint pale patch (about 1008 pixels, x 731 to 767, y 761 to 794); the long white scar untouched. The identity edit was refused by the image moderation filter, so the retouch replaces it.",
+   "sha256": "62899fc36a2ea8e5453413959039c41023137e85d57ef31e01a8390e9d20ce92"
+  },
+  {
+   "package": "ch22",
+   "id": "page-05-panel-05",
+   "version": "v04",
+   "source": "v03",
+   "what": "Forced pick retouch: the chaver's moustache painted out (222 pixels, x 792 to 812, y 221 to 243) and the duplicate brand texture on Nagoji's upper (right) forearm smoothed into skin (1859 pixels, x 1070 to 1158, y 267 to 320). Remaining faults listed for the author: the chaver's shaved head and Nagoji gripping the free arm.",
+   "sha256": "78a3b5d640a1cee103cc23d5cc8f18bbe04370cb5cc2289f5eb3dc05325c6485"
+  },
+  {
+   "package": "ch22",
+   "id": "page-06-panel-01",
+   "version": "v04",
+   "source": "v03",
+   "what": "Forced pick retouch: the duplicate circular brand and pale scar on Nagoji's outstretched (right) forearm painted out as skin (5017 pixels, x 906 to 1069, y 585 to 656); the brand on the lowered left forearm kept. Remaining faults listed: wrong gripping hand, tangle of hands on the dagger arm.",
+   "sha256": "c474adcdb122e9c561ec1ff17d8002bd5bd96d2c4ecf54f7d55ec1d0fd9f72ce"
+  },
+  {
+   "package": "ch22",
+   "id": "page-09-panel-03",
+   "version": "v04",
+   "source": "v03",
+   "what": "Forced pick retouch: white scar lines and raised brand marks on Nagoji's RIGHT forearm painted out as plain skin (3228 pixels, x 933 to 978, y 481 to 650); the left-forearm brand kept.",
+   "sha256": "adc8133c5d0edbf3601d5c43392c731b7c1d4ecddbb3cfbb98524d5cac6f947a"
+  },
+  {
+   "package": "ch08-split",
+   "id": "page-14-panel-01",
+   "version": "v04",
+   "source": "v03",
+   "what": "Gold ball and loop hanging below Nagoji's earlobe removed (231 pixels, x 1253 to 1268, y 340 to 357). v03 is the edit that fixed Padmini's grey hair; light chin stubble remains (listed for the author).",
+   "sha256": "ef4de9f699f17e67045df247366aa56d713588be9b7583e48aec8c062e99d5ed"
+  },
+  {
+   "package": "ch05-split2",
+   "id": "page-01-panel-02",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold disc and link hanging below Nagoji's earlobe removed (267 pixels, x 332 to 347, y 329 to 354); lobe bare.",
+   "sha256": "efc09d1ed6f82668d2c550258ac735c80d6c5b7ac866d429752ff28662992cd2"
+  },
+  {
+   "package": "ch05-split2",
+   "id": "page-01-panel-03",
+   "version": "v03",
+   "source": "v01",
+   "what": "Gold drop and stem below the earlobe removed from the audited frame (883 pixels, x 1110 to 1138, y 257 to 305). The identity regeneration moved the scene outdoors and changed Ibrahim, so it was not used.",
+   "sha256": "14a50f7e012faeff0b5e9b979db020b40a7f1e39fa063dccbeccd05b50be0df4"
+  },
+  {
+   "package": "ch05-split2",
+   "id": "page-02-panel-05",
+   "version": "v03",
+   "source": "v01",
+   "what": "Gold ball and ring below the earlobe removed (193 pixels, x 447 to 459, y 323 to 345). The identity edit only resampled the frame and was not used.",
+   "sha256": "521e992c598378ed802d8befb5888306101b401591527898017a0718a0eb9508"
+  },
+  {
+   "package": "ch05-split2",
+   "id": "page-03-panel-03",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold ball and wire at the bottom of the earlobe removed (272 pixels, x 456 to 473, y 355 to 372).",
+   "sha256": "4dfe534669316d396a9a64995d5f8e415143abc419be83600849b43c7cd6113b"
+  },
+  {
+   "package": "ch05-split2",
+   "id": "page-10-panel-01",
+   "version": "v04",
+   "source": "v01",
+   "what": "Shiny gold ball below the earlobe removed (117 pixels, x 481 to 491, y 201 to 212). The identity edit left the ball and was not used.",
+   "sha256": "2eddad1f92a260dac634d3bcc72ca11c93a27432b58c2e3f4547eaaee2c28306"
+  },
+  {
+   "package": "ch07",
+   "id": "page-12-panel-03",
+   "version": "v04",
+   "source": "v03",
+   "what": "Large gold disc on the lobe reduced to a small stud about 5 pixels across (489 pixels, x 174 to 197, y 318 to 344).",
+   "sha256": "6ad8c1f69a4a1d9e33a4278692beb71205f2c66332f0cb89b16510da35412279"
+  },
+  {
+   "package": "ch07",
+   "id": "page-12-panel-04",
+   "version": "v05",
+   "source": "v04",
+   "what": "Gold bead hanging from the lobe tip removed (143 pixels, x 558 to 569, y 306 to 318).",
+   "sha256": "b0cdaad7b6ac39884d1e04534feed8aefd4d8efaf6a3873563479e9b4ed8e388"
+  },
+  {
+   "package": "ch23",
+   "id": "page-04-panel-02",
+   "version": "v04",
+   "source": "v03",
+   "what": "Gold bead hanging below Nagoji's earlobe removed (38 pixels, x 873 to 880, y 196 to 204); lobe bare.",
+   "sha256": "76ad7eaf2934e2a05bfa7d4c5934d04d0665e33752240bcc09ecd1371c00790a"
+  },
+  {
+   "package": "ch23",
+   "id": "page-08-panel-03",
+   "version": "v04",
+   "source": "v03",
+   "what": "Gold drop below the earlobe removed with its dark ring (66 pixels, x 297 to 308, y 135 to 143); lobe bare.",
+   "sha256": "69d3b79703e5ca6e2f5bebf0541a1b480cb463eddad5bbce78b3b3c2488162a0"
+  },
+  {
+   "package": "ch23",
+   "id": "page-13-panel-01",
+   "version": "v03",
+   "source": "v02",
+   "what": "Outlined swirl-patch brand on the left forearm blurred into a faint pale patch (1581 pixels, x 312 to 356, y 686 to 733); white scar line kept.",
+   "sha256": "2f74727457a24f2cc31f68137fe8347e38377517bb48146cba1205d18834d054"
+  },
+  {
+   "package": "ch23",
+   "id": "page-14-panel-01",
+   "version": "v03",
+   "source": "v02",
+   "what": "Faded concentric-ring wheel near the left elbow blurred into a soft pale patch (931 pixels, x 761 to 800, y 570 to 604); scar line kept.",
+   "sha256": "cc48caa3dec7ce5e2e6b6e501ce6b525be4e79cf0c0140ec0e7cf43d3092d7b8"
+  },
+  {
+   "package": "ch23",
+   "id": "page-14-panel-05",
+   "version": "v03",
+   "source": "v02",
+   "what": "Pale square-edged brand with an inner square on the inner left wrist blurred into a soft patch (2917 pixels, x 654 to 712, y 509 to 588); scar line kept.",
+   "sha256": "1197ddf4bf8788cc3b0c667478c98327d8b6b4e5f1e193c4daed78a10cdafd7c"
+  },
+  {
+   "package": "ch23",
+   "id": "page-15-panel-01",
+   "version": "v04",
+   "source": "v03",
+   "what": "Crosshatched lattice on Nagoji's left forearm blurred into a faint patch (5294 pixels, x 456 to 505, y 548 to 716) and the small red dot between his brows removed (31 pixels, x 370 to 377, y 286 to 294). Varma untouched.",
+   "sha256": "a723e8610eca7a2e4f9a234c546e1c7fb0cf1335fd6ab3b3e33915ba6b9794c3"
+  },
+  {
+   "package": "ch23",
+   "id": "page-17-panel-04",
+   "version": "v03",
+   "source": "v02",
+   "what": "Pale oval cartouche with squiggle strokes on the inner left forearm blurred into a faint patch (1315 pixels, x 1205 to 1260, y 501 to 545); scar line kept.",
+   "sha256": "a183f63dadf3e48c8b6b5dcf629fddce361358cd192d3414e3832de86fb89cfa"
+  },
+  {
+   "package": "ch07",
+   "id": "page-07-panel-04",
+   "version": "v04",
+   "source": "v03",
+   "what": "Hanging gold bead on Nagoji's earlobe removed; tiny stud kept. (146 pixels, x 1137 to 1149, y 399 to 410 (1536x1024 frame)). Checked by an independent skeptic.",
+   "sha256": "2edfb2a40bb4ac905af6edead591bc65483f3497fd6d21564648407b637e9235"
+  },
+  {
+   "package": "ch16",
+   "id": "page-01-panel-01",
+   "version": "v04",
+   "source": "v03",
+   "what": "Second gold bead hanging below the lobe stud removed; stud kept. (110 pixels, x 371 to 383, y 263 to 271 (1536x1024 frame)). Checked by an independent skeptic.",
+   "sha256": "4da0047f3d55f5e4bbf717224d908d86e0d83c76d738149d5aff71bd7909f1a5"
+  },
+  {
+   "package": "ch16",
+   "id": "page-12-panel-03",
+   "version": "v03",
+   "source": "v02",
+   "what": "Small gold bead below the earlobe removed. (62 pixels, x 336 to 344, y 118 to 124 (1536x1024 frame)). Checked by an independent skeptic.",
+   "sha256": "a5b14a7c9d9963b6dcedcccbd04a61673b70ff22bbb48cecb4bb1aa4133adf28"
+  },
+  {
+   "package": "ch19",
+   "id": "page-06-panel-01",
+   "version": "v03",
+   "source": "v02",
+   "what": "Rayed disc brand on the raised left forearm blurred into a soft pale patch; scar line kept. (2890 pixels, x 917-983, y 404-464 (inclusive, frame 1536x1024)). Checked by an independent skeptic.",
+   "sha256": "8a4dc568fc8058ee6354251a71b387bd55036effd0965b1e42b9344dc7902e51"
+  },
+  {
+   "package": "ch19",
+   "id": "page-06-panel-02",
+   "version": "v04",
+   "source": "v03",
+   "what": "Spiked flower-like brand near the elbow blurred into a soft pale patch; scar line kept. (1664 pixels, x 1229-1282, y 852-898 (inclusive, frame 1536x1024)). Checked by an independent skeptic.",
+   "sha256": "301e6cdbc364a7e199982b5fa7d82e1127c04b22ae5c3c039d2641f88ffd3bfd"
+  },
+  {
+   "package": "ch19",
+   "id": "page-07-panel-03",
+   "version": "v04",
+   "source": "v03",
+   "what": "Gold bead below the earlobe removed; lobe bare. (44 pixels, x 927-933, y 308-314 (inclusive, frame 1774x887)). Checked by an independent skeptic.",
+   "sha256": "de09d90b9d33de87bdd325de02243fc7431330744a58d100ce660ccc40250693"
+  },
+  {
+   "package": "ch22",
+   "id": "page-02-panel-03",
+   "version": "v03",
+   "source": "v02",
+   "what": "Gold bead hanging below Nagoji's lobe stud removed; Varma untouched. (66 pixels, x 251..259, y 362..369 (x0=251, y0=362, x1=259, y1=369 inclusive)). Checked by an independent skeptic.",
+   "sha256": "8bd6beb2cf340aa890ebf2decc6c45699c95e37695980a6b746af5e000a3b785"
+  },
+  {
+   "package": "ch22",
+   "id": "page-04-panel-02",
+   "version": "v03",
+   "source": "v02",
+   "what": "Two curly hair tufts behind Varma's neck removed (filled from the wall and neck); pearl drops, ears and jaw kept. (573 pixels, x 788..887, y 229..270 (x0=788, y0=229, x1=887, y1=270 inclusive)). Checked by an independent skeptic.",
+   "sha256": "48217b3340ceb6b2731080b1d4a0e9567e7e97a4b756483e53f1572374145098"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+# Lettering-only rebuild of ch1-12 with head-aware tails (approved "Go, rebuild 1 to 12").
+# Inputs verified 2026-10-08 against each last build's geometry dir (verify_inputs.py: 0 mismatches).
+# Same layout as last build; new b-pass tag "<old>t"; new revision; old PDFs kept.
+# runb CH PKG TAG LAYOUT FOLIO REV DECISIONS FACES KEEP EXTRA   (source run-b-only.sh; TMPDIR=/tmp/claude-501)
+# ch1-4: no --unpainted (as built). ch5-12: "--unpainted --no-backup".
+# ch5-12 decisions/faces/keep get replaced by the post-identity-fix round files before rebuilding.
+1  ch01-v2     d9t-b   chapters/ch01-v2/LAYOUT-fitted-d9.json      1   r15  LEAN-SELECTION-drawn-merged-d4.json  FACES-v4.json  KEEP-c4.json  ""
+2  ch02        d6t-b   chapters/ch02/LAYOUT-fitted-d6.json         10  r5   LEAN-SELECTION-drawn-merged-d5.json  FACES-v7.json  KEEP-c8.json  ""
+3  ch03        s12t-b  chapters/ch03/LAYOUT-fitted-s12.json        16  r11  LEAN-SELECTION-drawn-merged-r16.json FACES-v2f.json KEEP-c11.json ""
+4  ch04        s13t-b  chapters/ch04/LAYOUT-fitted-s13.json        26  r15  LEAN-SELECTION-drawn-merged-r15.json FACES-v2h.json KEEP-c14.json "--style=page-06-panel-02:0=unreadable"
+5  ch05-split2 s2t-b   chapters/ch05-split2/LAYOUT-solved-s1.json  32  r5   LEAN-SELECTION-drawn-split-r2.json   FACES-s2.json  KEEP-s2.json  "--unpainted --no-backup"
+6  ch06-split  s2t-b   chapters/ch06-split/LAYOUT-solved-s1.json   42  r9   LEAN-SELECTION-drawn-split-r2.json   FACES-s2.json  KEEP-s2.json  "--unpainted --no-backup"
+7  ch07        s5t-b   chapters/ch07/LAYOUT-solved-s5c.json        54  r6   LEAN-SELECTION-drawn-merged-r3.json  FACES-v4.json  KEEP-c5.json  "--unpainted --no-backup"
+8  ch08-split  s1t-b   chapters/ch08-split/LAYOUT-solved-s1c.json  66  r6   LEAN-SELECTION-drawn-split-r1.json   FACES-s1.json  KEEP-s1.json  "--unpainted --no-backup"
+9  ch09-split2 s3t-b   chapters/ch09-split2/LAYOUT-solved-s2c.json 81  r4   LEAN-SELECTION-drawn-split-r2.json   FACES-s2.json  KEEP-s2.json  "--unpainted --no-backup"
+10 ch10-split2 s2t-b   chapters/ch10-split2/LAYOUT-solved-s1c.json 96  r3   LEAN-SELECTION-drawn-split-r2.json   FACES-s2.json  KEEP-s2.json  "--unpainted --no-backup"
+11 ch11-split2 s2t-b   chapters/ch11-split2/LAYOUT-solved-s1c.json 109 r4   LEAN-SELECTION-drawn-split-r2.json   FACES-s2.json  KEEP-s2.json  "--unpainted --no-backup"
+12 ch12-split2 s3t-b   chapters/ch12-split2/LAYOUT-solved-s2c.json 133 r7   LEAN-SELECTION-drawn-split-r3.json   FACES-s3.json  KEEP-s3.json  "--unpainted --no-backup"
+# ch13 first folio 144.

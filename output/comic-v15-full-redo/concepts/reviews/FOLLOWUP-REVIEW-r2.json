@@ -1,0 +1,428 @@
+{
+  "revision": "r2",
+  "created_at_utc": "2026-09-27T15:21:03.839225+00:00",
+  "method": "Built-in image_gen edits from the exact user-selected existing sheets; no programmatic sheet retouching. Root and independent reviewer inspected inputs and outputs.",
+  "attempts": [
+    {
+      "number": 4,
+      "character": "Padmini Amma",
+      "edit_input": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15c.png",
+      "edit_input_sha256": "96a73de4a4ea96ccf1c43178e767a4fd6d327e977de2b08b6c8c9be6a9aee1ce",
+      "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15d.png",
+      "output_sha256": "f43457565bbadb7dd81d7bc27d9e469b55968449d9919667a6c595017aba6142",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15d.txt",
+      "prompt_sha256": "396ed4521e2e054c7797b33d7b39fa5b7504304cb0fb8cd3dff5ca28051ae0ce",
+      "prompt_saved_before_generation": true,
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+        },
+        "hair_and_pose_preserved": {
+          "status": "pass",
+          "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No new anatomy, costume, identity or layout defect observed."
+        },
+        "no_em_or_en_dashes": {
+          "status": "pass",
+          "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+        },
+        "cotton_caption": {
+          "status": "pass",
+          "notes": "Third palette caption reads COTTON; original ivory swatch retained."
+        },
+        "black_hair_detail": {
+          "status": "pass",
+          "notes": "Second detail shows thick black hair coiled at the nape and reads BLACK HAIR. The silver-temple inset is gone."
+        },
+        "black_nape_coil": {
+          "status": "pass",
+          "notes": "Black nape hair remains consistent in figures, portraits and replacement detail; highlights read as black hair sheen."
+        },
+        "cotton_hitched_sari": {
+          "status": "pass",
+          "notes": "Hitched sari and cotton caption are consistent."
+        },
+        "no_blouse": {
+          "status": "pass",
+          "notes": "No stitched blouse; original drape preserved."
+        },
+        "simple_gold_and_stick": {
+          "status": "pass",
+          "notes": "Existing simple gold jewellery and long walking stick retained."
+        },
+        "face_age": {
+          "status": "pass",
+          "notes": "Mature source face retained."
+        },
+        "only_requested_changes": {
+          "status": "pass",
+          "notes": "Only requested palette text and second detail inset/caption changed materially on visual comparison."
+        }
+      },
+      "reason": "Selected: both requested corrections pass with source face, costume and layout preserved.",
+      "review_status": "pass",
+      "reviewers": [
+        "Codex root",
+        "independent followup_review"
+      ],
+      "author_approval": "pending"
+    },
+    {
+      "number": 5,
+      "character": "Revathi Bayi",
+      "edit_input": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+      "edit_input_sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+      "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15e.png",
+      "output_sha256": "b485fca3a0ef36342d513ac6950a5dc333c304c7be0f6bb82813f99c9160d768",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15e.txt",
+      "prompt_sha256": "52af17342e466a132371102d985acb224926efb7d2a77eb4d571461db33c06b2",
+      "prompt_saved_before_generation": true,
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+        },
+        "hair_and_pose_preserved": {
+          "status": "pass",
+          "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No new anatomy, costume, identity or layout defect observed."
+        },
+        "no_em_or_en_dashes": {
+          "status": "pass",
+          "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+        },
+        "deep_blue_caption": {
+          "status": "pass",
+          "notes": "Third palette caption reads DEEP BLUE; other labels remain unchanged."
+        },
+        "pale_palette_swatch_preserved": {
+          "status": "fail",
+          "notes": "Third swatch changed from pale ivory to blue."
+        },
+        "sandalwood_hairline": {
+          "status": "pass",
+          "notes": "Thin pale sandalwood stroke clearly visible at the hairline in the large 3/4 view and all six expressions."
+        },
+        "hairline_3_4_view": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_neutral": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_happy": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_surprised": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_worried": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_sad": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_determined": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "detail_insets_preserved": {
+          "status": "fail",
+          "notes": "EYES & BROW gained an unrequested sandalwood stripe."
+        },
+        "deep_blue_gold": {
+          "status": "pass",
+          "notes": "Deep blue sari and gold borders preserved."
+        },
+        "jasmine_braid": {
+          "status": "pass",
+          "notes": "Black braid and jasmine preserved."
+        },
+        "flat_coin_necklace": {
+          "status": "pass",
+          "notes": "Flat coins preserved; no tali."
+        },
+        "gold_armlets": {
+          "status": "pass",
+          "notes": "Separate gold upper-arm ornaments and fifth detail preserved."
+        },
+        "only_requested_changes": {
+          "status": "fail",
+          "notes": "Palette swatch colour and second detail changed outside the requested regions."
+        }
+      },
+      "reason": "Rejected: requested edits present, but swatch colour and EYES & BROW changed outside scope. One retry authorized and used.",
+      "review_status": "hold",
+      "reviewers": [
+        "Codex root",
+        "independent followup_review"
+      ],
+      "author_approval": "pending"
+    },
+    {
+      "number": 5,
+      "character": "Revathi Bayi",
+      "edit_input": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+      "edit_input_sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+      "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15f.png",
+      "output_sha256": "f6676adafc6cc5c8c977ac0c2c7b55236e681cee1c9ae328dae73171ab9a3e3b",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15f.txt",
+      "prompt_sha256": "6dc251920b087902875329530cfadc837b6b5b61a152578d9585106939cacf0c",
+      "prompt_saved_before_generation": true,
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+        },
+        "hair_and_pose_preserved": {
+          "status": "pass",
+          "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No new anatomy, costume, identity or layout defect observed."
+        },
+        "no_em_or_en_dashes": {
+          "status": "pass",
+          "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+        },
+        "deep_blue_caption": {
+          "status": "pass",
+          "notes": "Third palette caption reads DEEP BLUE; other labels remain unchanged."
+        },
+        "pale_palette_swatch_preserved": {
+          "status": "pass",
+          "notes": "The original pale ivory third swatch is retained, as required by the caption-only instruction."
+        },
+        "sandalwood_hairline": {
+          "status": "pass",
+          "notes": "Thin pale sandalwood stroke clearly visible at the hairline in the large 3/4 view and all six expressions."
+        },
+        "hairline_3_4_view": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_neutral": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_happy": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_surprised": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_worried": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_sad": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "hairline_determined": {
+          "status": "pass",
+          "notes": "Visible narrow pale line touching black hairline."
+        },
+        "detail_insets_preserved": {
+          "status": "pass",
+          "notes": "All five detail insets preserved; EYES & BROW has no added stripe."
+        },
+        "deep_blue_gold": {
+          "status": "pass",
+          "notes": "Deep blue sari and gold borders preserved."
+        },
+        "jasmine_braid": {
+          "status": "pass",
+          "notes": "Black braid and jasmine preserved."
+        },
+        "flat_coin_necklace": {
+          "status": "pass",
+          "notes": "Flat coins preserved; no tali."
+        },
+        "gold_armlets": {
+          "status": "pass",
+          "notes": "Separate gold upper-arm ornaments and fifth detail preserved."
+        },
+        "only_requested_changes": {
+          "status": "pass",
+          "notes": "Only palette caption and seven requested hairline marks changed materially on visual comparison."
+        }
+      },
+      "reason": "Selected after one retry: both scope deviations corrected and requested seven hairlines visible.",
+      "review_status": "pass",
+      "reviewers": [
+        "Codex root",
+        "independent followup_review"
+      ],
+      "author_approval": "pending"
+    },
+    {
+      "number": 18,
+      "character": "Savitri of Kottarakkara",
+      "edit_input": "output/comic-v15-full-redo/concepts/18-savitri-v15.png",
+      "edit_input_sha256": "cd002c389ba33272054e73a592b8be84931bf3ab89b5dfa573d47857633c8df4",
+      "output": "output/comic-v15-full-redo/concepts/18-savitri-v15b.png",
+      "output_sha256": "4d29b5bee873d09bcbfd8b745dd0b6dc7dabcc02a6ae0edea43d7202b0c4a8bd",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/18-savitri-v15b.txt",
+      "prompt_sha256": "fb7237c9a424780cc20a0731628e9c1d9c2f12cdb3998ebabe2eb37c172e1fbe",
+      "prompt_saved_before_generation": true,
+      "checks": {
+        "face_identity": {
+          "status": "pass",
+          "notes": "Compared with the user-selected edit input; face identity and age are visually preserved."
+        },
+        "hair_and_pose_preserved": {
+          "status": "pass",
+          "notes": "Hairstyle, pose, proportions and expression identities are visually preserved."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "1536x1024 landscape sheet retains the large 3/4 figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text_readable_and_current": {
+          "status": "pass",
+          "notes": "Name header, view labels, six expression labels, five detail captions and palette captions visually read at native size; no garbled text observed."
+        },
+        "no_new_visual_defects": {
+          "status": "pass",
+          "notes": "No new anatomy, costume, identity or layout defect observed."
+        },
+        "no_em_or_en_dashes": {
+          "status": "pass",
+          "notes": "No em dash or en dash observed in sheet lettering; exact prompt text checked programmatically."
+        },
+        "bindi_removed_3_4_view": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_turnarounds": {
+          "status": "pass",
+          "notes": "All visible turnaround foreheads unmarked."
+        },
+        "bindi_removed_neutral": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_happy": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_surprised": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_worried": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_sad": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_determined": {
+          "status": "pass",
+          "notes": "Forehead unmarked."
+        },
+        "bindi_removed_details": {
+          "status": "pass",
+          "notes": "Visible face detail forehead unmarked; replacement cloth detail has no face."
+        },
+        "no_earrings": {
+          "status": "pass",
+          "notes": "No earrings in the main figure, turnarounds, expressions, FACE PROFILE or GATHERED HAIR details."
+        },
+        "no_chain": {
+          "status": "pass",
+          "notes": "No chain or necklace in any view or detail."
+        },
+        "no_other_jewellery": {
+          "status": "pass",
+          "notes": "Bangles removed from main figure and turnarounds; ears, necks and wrists unadorned."
+        },
+        "plain_white_detail": {
+          "status": "pass",
+          "notes": "Fifth detail replaced with plain white shoulder cloth, captioned PLAIN WHITE."
+        },
+        "palette_current": {
+          "status": "pass",
+          "notes": "Obsolete MUTED GOLD swatch replaced with neutral CLOTH SHADOW under the standing stale-caption rule."
+        },
+        "older_careworn_face": {
+          "status": "pass",
+          "notes": "Careworn facial features retained."
+        },
+        "white_mourning": {
+          "status": "pass",
+          "notes": "Plain white mourning sari and blouse retained, with no coloured trim or jewellery."
+        },
+        "only_requested_changes": {
+          "status": "pass",
+          "notes": "Mourning marks and ornaments removed; obsolete jewellery detail and associated gold palette cue replaced. Face, hair, pose and white clothing preserved."
+        }
+      },
+      "reason": "Selected: all bindi and jewellery removed, PLAIN WHITE detail and cloth-shadow palette cue current.",
+      "review_status": "pass",
+      "reviewers": [
+        "Codex root",
+        "independent followup_review"
+      ],
+      "author_approval": "pending"
+    }
+  ],
+  "summary": {
+    "requested_sheets": 3,
+    "tool_attempts": 4,
+    "generated_images": 4,
+    "selected_visual_pass": 3,
+    "selected_visual_hold": 0,
+    "retry_counts": {
+      "Padmini Amma": 0,
+      "Revathi Bayi": 1,
+      "Savitri of Kottarakkara": 0
+    },
+    "revathi_attempt_cap": 2,
+    "revathi_cap_met": true,
+    "all_author_approval": "pending"
+  },
+  "review_agreement": "Root and independent reviewer agree on all three selected results and the rejected Revathi scope deviations.",
+  "limitations": "Preservation is a visual assessment, not a claim of pixel-identical reconstruction."
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "frame_id": "page-09-panel-03",
+  "candidate_version": "v01",
+  "candidate_json": "output/comic-v15-full-redo/chapters/ch03/candidates/page-09-panel-03-v01.json",
+  "actual_prompt_path": "output/comic-v15-full-redo/chapters/ch03/prompts/page-09-panel-03-generation-v01.txt",
+  "actual_prompt_sha256": "f8d7ee963a1e875171cced0452688cd68f91e0d512d522489d37a50fffdc55ad",
+  "reference_images": [
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+      "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de"
+    },
+    {
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+      "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+  ],
+  "source_dimensions": [
+    1536,
+    1024
+  ],
+  "base_capture_sha256": "00841043d073667a148127119e8324d19e608cea828e6430d9fc51b6fd70a4d1",
+  "visual_review": "review",
+  "review_note": [
+    "Nagoji forearm is exposed despite covered-left-arm rule; hands and action otherwise clear"
+  ]
+}

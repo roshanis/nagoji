@@ -1,0 +1,19 @@
+V15 graphic novel panel page-03-panel-04 for chapter 1. João laughing, delighted, hands on his belt.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+joao: - **Joao**: broad, heavy, ruddy Portuguese gaoler; brown leather jerkin over a cream shirt; wide belt; iron key ring. NOT a priest, no cassock, no collar. Ch1-2 only.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art: blank balloon and caption reserves only, lettering composited later.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+
+R7 CORRECTION, overrides conflicting earlier staging and reserve instructions:
+Joao alone laughing with delight, hands resting on wide belt and keys. Use full dark beard on cheeks, jaw and chin and face from Joao sheet. No moustache-only or goatee-only. Preserve crop of broad belly and shoulders and blank speech balloon fully inside the right part of frame. Make the actual thin bordered horizontal art strip at target ratio 369:89.5, centred within a 3:1 landscape canvas with plain white letterbox above and below. No other figures.
+Input 1 is the prior panel, for staging, blank reserves and painted ink style. Remaining images are binding character or guard references. Use the character sheet ONLY for identity, never copy its typography. No text of any kind, no lettering, no watermarks, no blood or gore. Render one panel only. Preserve unmentioned correct composition. Small gold studs must be flush dots with no dangling jewellery. Output full resolution.

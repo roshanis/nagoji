@@ -1,0 +1,40 @@
+{
+  "frame_id": "page-05-panel-03",
+  "candidate": "../candidates/page-05-panel-03-v05.json",
+  "geometry": "../geometry/page-05-panel-03-v05-r1.json",
+  "status": "pass",
+  "native_visual_review": {
+    "status": "pass",
+    "checks": [
+      "ear has exactly one tiny flush gold pinhead dot with bare skin below, no hook or dangling bead",
+      "both hand backs and palms have thin off-white wraps with fingers free",
+      "enclosed storm-dark wooden ship hold",
+      "waist-deep flooding",
+      "thick curled moustache and clean-shaven chin",
+      "covered left forearm",
+      "pre-5.5 slack pen chain present",
+      "visible prisoners wear collars and wrist irons",
+      "blank balloon",
+      "no text, no gore, no nooses"
+    ]
+  },
+  "copy_fit": {
+    "fits": true,
+    "tight_margin": false,
+    "minimum_clearance_pt": 1.0,
+    "ink_margins_pt": {
+      "left": 2.0,
+      "right": 15.128587570621512,
+      "top": 2.3035028248587395,
+      "bottom": 2.3035028248587412
+    },
+    "lines": ["Quiet! You want", "them to hear?"]
+  },
+  "reserve_pixel_audit": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 2,
+    "source_pixel_rects": [[1424, 61, 1706, 104], [1423, 126, 1674, 168]]
+  },
+  "note": "New additive correction candidate. No selection written."
+}

@@ -1,0 +1,2291 @@
+{
+ "schema_version": 2,
+ "chapter": 5,
+ "status": "lean_selection",
+ "tag": "s3-a",
+ "frames": [
+  {
+   "id": "page-01-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-01-panel-01-v01.png",
+   "sha256": "fbfaa052c33cb06deed1c38ea31615b57c6bd985bedcfb2503cfc68420975cc8",
+   "width": 1774,
+   "height": 887,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-01-gen-r1.txt",
+   "prompt_sha256": "f249658f3c59064d5284eb0c0736d98fced5441d6c9cb4a76ddc0534ab5d8fd2",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f83c-fa5b-7f11-b267-0b6dc91966a2/exec-4634ab59-2fd2-4037-8c8b-b3484d64b6b8.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-01-panel-01-v01.json",
+    "record_sha256": "5c8b76b64023abda13b75d192603bfb0dab4ec4130732cdf4a74797cfd7ab7ed",
+    "frame_id": "page-01-panel-01"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-01.txt",
+   "base_prompt_sha256": "bb67a20aa78e8ed2a8961676c2bab8b091985e57968033337d3dc16c5fe031ab",
+   "visible_rect": [
+    0,
+    35,
+    1774,
+    808
+   ],
+   "art_rect": [
+    0,
+    0,
+    1774,
+    887
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      377,
+      669,
+      685
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      912,
+      301,
+      1649,
+      609
+     ],
+     "copy_indices": [
+      1
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only: Nagoji's pale ridged brand sits nearer the elbow than a hand's width above the wrist (small, not letters, acceptable at this distance); a thin dark teal strip shows under Ibrahim's shoulder cloth beside the vest (reads as cloth lining, not a coat); Ibrahim is front-lit rather than backlit in the doorway; his scar has a faint pink tint but reads pale. Otherwise clean: hut interior with hearth smoke, slatted window, mat and gruel bowl; healer with grey-streaked low knot and undyed cloth over both shoulders, no blouse or gold; Ibrahim in cream pocketed vest, white shirt, striped shoulder cloth, white mundu, no coat, bare forehead; Nagoji bare-chested, moustache, clean chin, gold stud, rope burns, linen only on hands, ankle chafe; no fishermen, no text. Plain mud wall between the window and the door post above Nagoji holds both captions."
+  },
+  {
+   "id": "page-01-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-01-panel-02-v01.png",
+   "sha256": "a70d0f5328a64c4710ff30d9db40d53e168cd26df5f6898d4cf6ca7a9d584029",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-02-fix-r3.txt",
+   "prompt_sha256": "f3464509fdf838b6c8b8cf40817826f39f57745df7a69a4eda4f1d1ad814b712",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8d2-8b47-79f3-af3f-06aa388bca6b/exec-4668131f-2e75-48f9-a332-e9fac93a37ae.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-01-panel-02-v03.json",
+    "record_sha256": "c9465d2c8db42e080987f3ba00038ddfbf7e5b079e1dbfa706af555d42622baa",
+    "frame_id": "page-01-panel-02"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-02.txt",
+   "base_prompt_sha256": "2c0492865366f5ef8386e0cfb3d50b00db014402fa4988bcc8f8b1ad18b1938e",
+   "visible_rect": [
+    0,
+    192,
+    1536,
+    728
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1080,
+      192,
+      1532,
+      482
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      945,
+      266
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      162,
+      462,
+      816,
+      685
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      456,
+      330
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Both parts of the round-3 fix landed. (1) The dark cursive signature scrawl in the bottom-right corner of v02 is gone, and that corner is now plain packed-earth floor. (2) The healer at the hearth is back on model: grey-streaked hair in a low knot at the nape, plain undyed cream cotton over both shoulders and upper arms, no bare back, no blouse, no gold. She is small and dim, mostly turned away, and working at the fire. Nothing else got worse: the composition, the hut interior (mud wall, thatch, slatted window, hearth), the light and both men's poses, faces and costumes match v02, apart from a slight overall warm shift. Ibrahim crouches on his heels with his forearms on his knees, wearing the white turban, grey-flecked beard, cream pocketed vest over a white shirt, striped shoulder cloth and white mundu. He has no teal coat, no ash, and his scar is on the LEFT cheek facing camera. Nagoji is bare-chested with his hair loose, thick curled moustache and clean chin, and his wrists are wrapped in linen. Hands and anatomy are sound. There is no text, no Goa element and no glass lantern. The clear mud wall in the upper left, above and beside Nagoji's head, has room for both balloons. Notes only, not grounds for rejection: (a) Nagoji's ear ornament is a small hanging gold drop rather than a stud; the author has not decided this. (b) Ibrahim's scar is a thin pinkish line with small tick marks. This matches his sheet and accepted panel 1.3, but it is pinker than the newly pale scar in 1.4. (c) The thin reddish rope-burn lines on Nagoji's chest and arm are welts, not gore. (d) The linen covers his wrists and lower forearms rather than his whole hands. v02 is not a usable backup because it still has the painted signature scrawl."
+  },
+  {
+   "id": "page-01-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-01-panel-03-v01.png",
+   "sha256": "4e2446f17d581ad79387c80afba056d036586b629532e684652094d454c18cbd",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-03-gen-r2.txt",
+   "prompt_sha256": "055389d17707607a208528938c5c3b521404c6b506af8e151a9fcf7c9e42ea4d",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-f298a00a-ecd7-4838-b55a-b935a53e2f05.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-01-panel-03-v02.json",
+    "record_sha256": "ee1428e92349c08d39ca9539c220629e6c651b5231461e8eb5b500f29faaac63",
+    "frame_id": "page-01-panel-03"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-03.txt",
+   "base_prompt_sha256": "e6de0520c18a023ad64874121e72558d100a138d20123fe07f0138e4f464ddfe",
+   "visible_rect": [
+    0,
+    171,
+    1536,
+    820
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      21,
+      171,
+      438,
+      344
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      533,
+      275
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      903,
+      423,
+      1108,
+      596
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1051,
+      345
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      621,
+      608,
+      1040,
+      796
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      533,
+      275
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1134,
+      570,
+      1339,
+      743
+     ],
+     "copy_indices": [
+      3
+     ],
+     "tail": [
+      1051,
+      345
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Acceptable, minor notes only. (1) The brand is a pale, crackled patch of raised ridges a hand's width above the linen-wrapped wrist, with no letters, numerals or cross, and it is not red. But because the bandaged hand rests on the knee, the surface we see reads more like the top of the forearm than its inner side. (2) Long faint pinkish healed scar lines cross Nagoji's back and upper arm; the script lists rope burns on the chest only. This is not gore. (3) Ibrahim's scar is a thin pinkish-red line on his LEFT cheek, matching his approved sheet rather than the script's 'bare pale line'. (4) Nagoji's ear ornament is a small hanging gold ball, not a stud (author undecided, not a reason to reject). Clean otherwise: correct hut interior (mud wall, thatch, barred window, clay pots, open clay lamp, no fort or harbour). It is an over-the-LEFT-shoulder shot with the wrapped hand on his knee at the frame edge. Ibrahim wears the cream pocketed vest, white shirt, striped shoulder cloth and white turban, with a grey-flecked beard, no coat and a bare forehead, and his eyes are on the forearm. No text anywhere. Lettering space: plain mud wall between Ibrahim's turban and Nagoji's hair (x 0.47-0.66, y 0.03-0.45) and the upper-left wall beside the window (x 0.08-0.28, y 0.03-0.28). v01 is still the outdoor fort quay with an iron ring and rope, so it is rejected."
+  },
+  {
+   "id": "page-01-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-01-panel-04-v01.png",
+   "sha256": "079ac0190965d0a7a3de9720b250c7c3e1f91a966eaaf6e0a42cea37a4b7a5d0",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-04-fix-r3.txt",
+   "prompt_sha256": "ced1630e3b16d7b4a9bd3e3518276606d792e8ddbdfeab4bc7673e6f6e561a45",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8d2-8b47-79f3-af3f-06aa388bca6b/exec-22b9b4a7-26ab-4961-a64e-e164a6ee547a.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-01-panel-04-v03.json",
+    "record_sha256": "9a5c39bda092d606524f7d1d9638c18603650fb01359e14af60e0aea6107365e",
+    "frame_id": "page-01-panel-04"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-04.txt",
+   "base_prompt_sha256": "1b3e43d7cb9a3137b92813faddd654fdd1fb38d282603c4af44f52fc133d80c7",
+   "visible_rect": [
+    0,
+    275,
+    1536,
+    737
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      0,
+      326,
+      581,
+      468
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      48,
+      491,
+      567,
+      684
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      736,
+      520
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1008,
+      443,
+      1533,
+      635
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      736,
+      520
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "The round-3 fix landed. The scar on Ibrahim's LEFT cheek is no longer the glossy orange-red line with bright highlights that made v02 read as a fresh cut. It is now a thin, matte, pale grey line that runs as a narrow parting through the grey-flecked beard, from below the left ear to the jaw, and reads as an old healed scar. Nothing else changed in a meaningful way (the differences from v02 are small and confined to the face). The composition, the hut interior with the beach doorway, the open brass bowl oil lamp (no glass), the white turban, the cream vest over a white shirt (no teal coat) and the bare forehead (no ash) are all kept. His LEFT hand rises from his left side, with the thumb resting just under the left ear at the top of the scar, so the gesture flows into 1.5. The hand is anatomically sound. There is no text, no European element and no noose. The plain wall at the top left and the large plain wall at the upper right give clear space for the caption and both balloons. Notes only: (a) The healed scar now has a slight grey-mauve tone and is paler than the pinkish scar in panels 1.2 and 1.3. That is acceptable, but a later pass could even the scar tone across the page. (b) The boat in the doorway is a blurred single-masted local craft on the beach, not a European ship. (c) His beard reads a little fuller than 'short'. v02 is not a usable backup because its red, glossy scar reads as a fresh wound."
+  },
+  {
+   "id": "page-01-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-01-panel-05-v01.png",
+   "sha256": "fe5566e393d4ad4e6adb539ed564d1e951e9b37136ab21c783c139803d4597e9",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-05-gen-r2.txt",
+   "prompt_sha256": "1e56275f50e0610868a0bafbc7f70f58769676ee1818afc0b960f2b611a947dd",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-54c45271-549f-4cf5-88e8-92f06ac1bfa9.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-01-panel-05-v02.json",
+    "record_sha256": "6237a4ec943be405e899029ba1cffd2636d4b0317def07d316ce6d746ae432d9",
+    "frame_id": "page-01-panel-05"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-01-panel-05.txt",
+   "base_prompt_sha256": "c9be49353ed0b26f4f26f023b070dc505097d96eb92364e21ab5ed3bf17f1198",
+   "visible_rect": [
+    0,
+    157,
+    1536,
+    618
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      460,
+      157,
+      880,
+      341
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      464,
+      349,
+      775,
+      483
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      355,
+      470
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Acceptable, with these notes. (1) Hand continuity: his thumb rests on the scar, but it is his RIGHT hand crossing his chest, while panel 1.4 (and the round-1 correction for this panel) use the LEFT hand from the near side. The gesture therefore switches hands between consecutive panels; the script beat ('thumb has stopped on the scar') still reads. (2) His eyes drift up and toward screen right, away from Nagoji, rather than toward a doorway beyond the left edge. The 'somewhere else' beat still lands. (3) He looks seated rather than crouched on his heels as in 1.2 and 2.1. (4) Nagoji's soft-focus head and back fill the left ~40%, so Ibrahim's face is the focal point but not literally the largest thing. (5) There are long reddish healed rope-burn lines on Nagoji's back (not gore). (6) Nagoji's ear ornament is a hanging gold ball (author undecided, not a reason to reject). Clean otherwise: hut interior with mud wall, thatch and an open brass oil lamp, and no stone, ring, rope, fort or ships. The scar is a pale healed line on Ibrahim's LEFT cheek. He wears the vest, white shirt and striped shoulder cloth, with no coat and a bare forehead. Nagoji is bare-shouldered, in lost profile with the moustache tip. No text. Both lettering lines fit on Nagoji's side, on the plain mud wall at x 0.25-0.6, y 0.02-0.45, clear of Ibrahim's face. v01 is still the stone room opening onto a harbour with a European tower and galleons, so it is rejected."
+  },
+  {
+   "id": "page-02-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-02-panel-01-v01.png",
+   "sha256": "1a96fa7bd411629b79843f47a2ddb6c8d1a452cca6b754b401d8fff17242f293",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-02-panel-01-gen-r1.txt",
+   "prompt_sha256": "8186962b20e69d4e2af170131dfb1188b51f102c8c54804b65262cd23397e385",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f83c-fa5b-7f11-b267-0b6dc91966a2/exec-20811671-5c09-4fe2-aa32-925bfc77899b.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-02-panel-01-v01.json",
+    "record_sha256": "b5883444a57ab0a803718c4405d0382f7e4f3985778709ae4306f9b4b7d255cc",
+    "frame_id": "page-02-panel-01"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-02-panel-01.txt",
+   "base_prompt_sha256": "2cac61663188a03b3e49427e9537412fe960f84858a1170c0c0817be9532ad8c",
+   "visible_rect": [
+    0,
+    168,
+    1536,
+    953
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      800,
+      168,
+      1521,
+      494
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      614,
+      268
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      0,
+      428,
+      793,
+      950
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      614,
+      268
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only. Ibrahim is still crouched at the mat's edge in a dim hut interior (plaster wall, wooden posts, woven mat, open-flame brass lamp, no glass). His costume is right: cream pocketed vest over a white shirt, white mundu, white turban, grey-flecked beard, blue-striped shoulder cloth, no teal coat and no ash. The scar is on his anatomical LEFT, since he faces screen left. Nagoji appears only as a soft, faceless bare shoulder at the left edge, as the audit allowed. The scar is drawn reddish like the sheet, not pale. His expression is more a sceptical frown than a suppressed smile. He wears sandals indoors. The upper-left wall (x 0.05-0.35, y 0.02-0.28) and the upper-right wall (x 0.57-0.86, y 0.02-0.38) are clear for both balloons."
+  },
+  {
+   "id": "page-02-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-02-panel-02-v01.png",
+   "sha256": "6e89d582bbf5718e33775557feb73ff368e41b68c3f8ccfba416120906c0e0fc",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-02-panel-02-gen-r2.txt",
+   "prompt_sha256": "3348eace861d6383bc8466b1e998ac98b9a5087905aaea6a4a0b32afab86c99a",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-852422ce-42c8-40c2-87bb-7af802c63c36.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-02-panel-02-v02.json",
+    "record_sha256": "512e19f3efa6821c4217447e2f553a4a7de22fe9a6f152baf811a83d75efd1fa",
+    "frame_id": "page-02-panel-02"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-02-panel-02.txt",
+   "base_prompt_sha256": "dcb937d572254f8bfb9b76859efebf58ced4a5dc2a69f2cc9db5fe391fbb7fd4",
+   "visible_rect": [
+    0,
+    61,
+    1536,
+    635
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      760,
+      61,
+      1146,
+      215
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1150,
+      387
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      38,
+      213,
+      597,
+      523
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      287,
+      156
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 is clean. It fixes the setting: an indoor thatched mud hut with a slatted window, clay pots and hearth smoke. The healer is at screen left, heavy-set, with a grey-streaked low knot, undyed cotton over both shoulders, no blouse, no gold, hands on hips and a betel tint on her lips only. Nagoji sits on the mat in the centre. Ibrahim crouches at screen right with his LEFT cheek to camera and the scar on that side. He has no coat, a cream vest over a white shirt and no ash. Minor notes: Ibrahim's scar is drawn reddish rather than pale, but it matches his sheet. There are faint skin highlights on his forehead that do not read as ash. His gaze is horizontal toward Nagoji and the healer together, so the 'without looking at her' beat is only implied. Nagoji's ear ornament is a small hanging gold drop, not a stud (noted only, as the author asked). v01 is still unacceptable: stone masonry, a post with an iron ring, rope, barrels and a painted border."
+  },
+  {
+   "id": "page-02-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-02-panel-03-v01.png",
+   "sha256": "c3a841d583bd4676a574c3b0e4b33795a7c9082a715e4cd0de2bc2704106ff12",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-02-panel-03-gen-r2.txt",
+   "prompt_sha256": "79f84252d28b233a6ef0d01732309322fa3bb5d3d86c7c10c31816c9453a5142",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-335fd5c3-50d5-44c4-9706-ec8b663ef2a9.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-02-panel-03-v02.json",
+    "record_sha256": "fa4ca126b6552d6c92a33246441185a40114895137979dae968368c8d438cc89",
+    "frame_id": "page-02-panel-03"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-02-panel-03.txt",
+   "base_prompt_sha256": "46a26bf58fb5008f594c76f0ac3de4e562dcf6c24741281c54d59db70f3c959a",
+   "visible_rect": [
+    0,
+    51,
+    1536,
+    820
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      459,
+      102,
+      952,
+      517
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1120,
+      207
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      988,
+      363,
+      1533,
+      779
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1120,
+      207
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 is acceptable. It is the same thatched mud hut with a wooden slatted window and clay pots, and only Ibrahim and Nagoji are in frame. Ibrahim is half risen with one hand on his knee and turns toward Nagoji, his LEFT cheek and scar to camera. He has no coat, the cream pocketed vest, the blue-striped shoulder cloth and no ash. Nagoji is bare-chested in the captivity dhoti, with a clean chin, a moustache and linen-wrapped hands, and his inner left forearm turned down. Hands are sound. The plain mud wall in the upper centre has clear room for both balloons. Minor notes: the hut's right side opens under the eave onto a grove with palms and a fence, like a verandah, which is acceptable for a Kerala hut but less enclosed than 2.2. Ibrahim's expression is more wary than mild. Nagoji's ear ornament is a hanging gold drop (noted only). v01 is still unacceptable: a Portuguese soldier with a morion and pike, stone walls, an iron ring with rope, and a painted border."
+  },
+  {
+   "id": "page-02-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-02-panel-04-v01.png",
+   "sha256": "f80ee9c978b9a7e79e401626c3197198d43bcaa0004ec3b3ace3f41ac7790415",
+   "width": 2172,
+   "height": 724,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-02-panel-04-gen-r1.txt",
+   "prompt_sha256": "1f50df94b323dbb927d6c2345d360bcfb6e1f76098bb81228cf83b6b6ab5bdcd",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/19-kanka-v15.png",
+     "sha256": "ad7ef9ce9481cedbca01195dcffaec122f8df8414b35756ed5086d6e6183996a"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f83c-fa5b-7f11-b267-0b6dc91966a2/exec-eefa9d05-bd08-41f6-adbf-196ea3da6050.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-02-panel-04-v01.json",
+    "record_sha256": "5d66d3822cc5b0f27eeb8031dcb1a9289f2b415bf5be84dcc2f1e5625f94712f",
+    "frame_id": "page-02-panel-04"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-02-panel-04.txt",
+   "base_prompt_sha256": "51d2c704da3894680c6c1222ac0a8eeb57ecb1cbe8a6a36908f3d754ff87eead",
+   "visible_rect": [
+    0,
+    0,
+    2172,
+    607
+   ],
+   "art_rect": [
+    0,
+    0,
+    2172,
+    724
+   ],
+   "reserves": [],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only. This is a strong echo of Chapter 1, 6.5: the black mare's head, neck and wind-tossed mane in misty dawn light over water at screen left. It dissolves into ragged ink splatter with no border. Nagoji's still face sits at centre-right: bare-shouldered, hair loose, thick curled moustache, clean chin with light stubble. The cracked hut wall and wooden-slatted window behind him fit the house. There is no text. The ear ornament is a tiny two-bead drop rather than a flush stud, but it reads as a small stud at panel size. The mare has a small pale forehead mark, which matches the front view on her sheet. The healing marks on his shoulder are faint, not gore."
+  },
+  {
+   "id": "page-03-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-03-panel-01-v01.png",
+   "sha256": "dd5d7c5d9b236ef2d3c1182d1dbcdc04ed8f1a2e61857e1b4651c0cb41bf406b",
+   "width": 1774,
+   "height": 887,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-01-gen-r1.txt",
+   "prompt_sha256": "7dfc48019435d9fcf57fe4652a268eddad50fa3f8bba335cbe7acc7c9e2567ea",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f83c-fa5b-7f11-b267-0b6dc91966a2/exec-8e127edd-8c5e-4349-938f-de426feec8df.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-03-panel-01-v01.json",
+    "record_sha256": "a654683014e7fe27e5e6e1380185f6d230507c40da678f68841533222df0bebb",
+    "frame_id": "page-03-panel-01"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-01.txt",
+   "base_prompt_sha256": "c94b400fb9705c7ceac9c45818284bf9e233a34d462c1e070fb49c7d7591be2b",
+   "visible_rect": [
+    0,
+    137,
+    1774,
+    633
+   ],
+   "art_rect": [
+    0,
+    0,
+    1774,
+    887
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1064,
+      137,
+      1749,
+      289
+     ],
+     "copy_indices": [
+      0
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only. Nagoji's collarless tunic shows two tiny buttons at the neck slit (script says no buttons). Ibrahim walks beside Nagoji rather than clearly leading. Ibrahim's LEFT-cheek scar is not readable at this size. The net-mender looks toward the travellers rather than down the path to the sea. Otherwise clean: Nagoji has the moustache, clean chin, gold stud, tied-back hair, bare feet and linen-wrapped wrists. Ibrahim wears the pocketed vest, white mundu and turban with no teal coat and no ash. The well, children and net-menders are present, there is no text, and clear sky at top centre (x 0.42-0.68, y 0-0.12) holds the caption."
+  },
+  {
+   "id": "page-03-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-03-panel-02-v01.png",
+   "sha256": "fc626bb7a9b83c5d9557b5fd7c3cfc67766a81c447cc48b9e1c3d48c067b7f15",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-02-gen-r2.txt",
+   "prompt_sha256": "fa316dac66cdbd9a4b7364174c4723fbbf554c4e59800c437a3aaa0243c02bfb",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-7fcaf071-3875-437b-8092-e00c4f493f4a.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-03-panel-02-v02.json",
+    "record_sha256": "4794d7480f4e53fccc3b682a58fe9464c1207aa412059ed445683a36a6bb75eb",
+    "frame_id": "page-03-panel-02"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-02.txt",
+   "base_prompt_sha256": "6ef8caebb3840c9ad92abe1c5b307ba8633e15accfe6c845b093a314856f2737",
+   "visible_rect": [
+    0,
+    300,
+    1536,
+    761
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      304,
+      300,
+      494,
+      434
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      599,
+      493
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      704,
+      300,
+      1216,
+      434
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      599,
+      493
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 is acceptable. It is the corrected wide shot: both men are small on a raised bund between flooded paddy, Ibrahim leads and Nagoji walks behind with his head turned aside. Nagoji is barefoot with linen-wrapped wrists, a moustache, a clean chin and his hair tied back. Ibrahim wears a white turban, a grey-flecked beard, the cream pocketed vest over a white shirt and a white mundu, with no coat and no forehead marks. There are thatched or tiled Kerala houses in the background and no European elements. The whole upper half is clear sky for both balloons. Minor points: Nagoji's tunic shows a short buttoned placket, though at this scale it reads like the 3.1 tunic. The low sun disc on the horizon makes this a sunset ('darkening sky', as the script asks), a lighting jump from the daylight 3.3 and 3.4 frames. v01 is not a backup: the figures are large, not small in frame, and Nagoji wears sandals."
+  },
+  {
+   "id": "page-03-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-03-panel-03-v01.png",
+   "sha256": "9f86701191bf645322636e34867924b727386a101ed3ed1e4e61e191d82e05c1",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-03-fix-f5.txt",
+   "prompt_sha256": "80c3f7aaa446dc9be2a13b78acc4939d025c92b2015ac51f1accdb8287e491c9",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0fcc4-35bc-78a1-92c7-157746e069bd/exec-964a3fa3-2bf6-4325-8587-f3fa3ee77ceb.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-03-panel-03-v02.json",
+    "record_sha256": "1385e4daf931a086b95090fae2f7241e83066c9eb5b937382d72add8abc01699",
+    "frame_id": "page-03-panel-03"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-03.txt",
+   "base_prompt_sha256": "591ac3fbbfbb0b5a31aab836dd6bd3292b568603ae9dc45c0b462d373219887b",
+   "visible_rect": [
+    0,
+    122,
+    1536,
+    738
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      690,
+      122,
+      1288,
+      368
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      750,
+      377,
+      1221,
+      499
+     ],
+     "copy_indices": [
+      1
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      880,
+      518,
+      1374,
+      697
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      1536,
+      123
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed. The crenellated castle and the whitewashed red-roofed villas are gone. In their place is a low wooded hill with coconut palms and a few low clay-tiled Kerala houses in the trees. The panel is relit as warm late afternoon: low golden sun at right, peach and amber sky, gold-edged clouds, no flat midday blue. Nagoji's face, pose, bandages, the pepper vines on the support tree and the paddy are unchanged from v01, so nothing got worse. Nagoji matches his sheet: thick curled moustache, chin clean apart from light stubble (allowed so soon after captivity), and a small gold ball ear stud (note only). Minor carry-overs from v01, not grounds to reject: (1) his hair hangs loose here but is tied in a bun in 3.4; (2) his sleeves are pushed up to mid-forearm, though no brand is visible; (3) he is seated and his eyes are fully closed rather than half closed. Lettering: the two captions fit in the open sky at top left, above the hills and clear of his hair. Ibrahim's off-panel balloon fits in the sky at top centre-right, with its tail running to the right edge, where he stands in 3.4. v01 is not acceptable as a backup because of the European castle on the hill."
+  },
+  {
+   "id": "page-03-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-03-panel-04-v01.png",
+   "sha256": "0c6ded7611cb29af6b9d5064759ff63205b053f17aff7a8b7feecb33bebe0542",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-04-fix-f5.txt",
+   "prompt_sha256": "340d38f6c97b5291dca924e6821647e856d307f0514da5d59a389aee5a775cf7",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0fcc4-35bc-78a1-92c7-157746e069bd/exec-8c356b18-d4b1-45e7-a2f0-ea9b729e1399.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-03-panel-04-v02.json",
+    "record_sha256": "8d81e2bb24e165a67ee7c24cc80553a07c3789c314d263341aedd984c8e85d55",
+    "frame_id": "page-03-panel-04"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-04.txt",
+   "base_prompt_sha256": "55aafd97867041ffa2d3b4b985b1b04830af840f0c97b87f5828df2a7b4fd098",
+   "visible_rect": [
+    0,
+    106,
+    1536,
+    676
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      0,
+      338,
+      678,
+      575
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      605,
+      280
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      760,
+      306,
+      1359,
+      471
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      605,
+      280
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed. The panel is now warm late afternoon: low golden sun at right above the hills, amber and peach sky with clouds turning gold, warm side light and longer shadows. Ibrahim, the cart, the sacks (one open on dried black berries, his hand in it), the bullocks, the carter, the road and the composition are unchanged, so nothing got worse. The light now matches the revised 3.3 and the late light called for in 3.5. Ibrahim: white turban, grey-flecked beard, pale pocketed vest over a white mundu, striped shoulder cloth. He has no coat; the narrow blue strip at his chest is the shoulder cloth's border. His left-cheek scar is faint, and he has no ash, which is correct for page 3 because the ash starts at 5.3. Nagoji sits at the left edge in the cream tunic, hair tied in a bun, with the thick moustache, a clean chin and a gold drop ear stud (note only). His sleeve is rolled up on the arm facing the camera and his left arm is hidden, so no brand shows. Flags carried over from v01: (1) on the waterfront in the distance (about x 0.69 to 0.74, y 0.35 to 0.38) is a whitewashed church-like building with a bell tower and red tile roof, plus a small white domed structure further right. It is tiny and hazy, and not a fort, castle, harbour or ship, but it could read as Goa. Painting it out into low thatched Kerala houses in a later targeted edit would match the 3.3 fix. (2) The carter has a faint thin moustache, but the script wants him clean-shaven. Lettering: both Ibrahim balloons fit in the open sky at top centre and right, clear of every face, with tails down to his mouth. v01 is an acceptable backup, but its flat midday blue light clashes with 3.3 and 3.5."
+  },
+  {
+   "id": "page-03-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-03-panel-05-v01.png",
+   "sha256": "291b5a6fcdff0360bf18b67017891371ebcb740db3c0edef63e0fbc8d4e7bf98",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-05-fix-r3.txt",
+   "prompt_sha256": "1d43f9e32c1cac0ecea67d97ec7233b669e66361ad9f804307e1bd8b48856b21",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8d2-8b47-79f3-af3f-06aa388bca6b/exec-05df332d-e124-42ac-9539-24d8f64d9d49.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-03-panel-05-v03.json",
+    "record_sha256": "5df2e6cf56213cf2afd8e7b951355111028db6640e28e1ff63fdfee49c878ae2",
+    "frame_id": "page-03-panel-05"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-03-panel-05.txt",
+   "base_prompt_sha256": "df0445012cca0adcedba1908a7c4f83396adbbd04b2105e249a9caac9c0aa2c5",
+   "visible_rect": [
+    0,
+    20,
+    1536,
+    615
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      357,
+      314,
+      830,
+      487
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      452,
+      236
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Accepted fault for the author list: Ibrahim still shows a faint diagonal scar mark on his RIGHT cheek (the image-left side of his face, in front of his visible ear). The v03 edit made it lighter than in v02, but it was not removed, and the LEFT-side scar is not shown. Everything else is clean. The setting is right: an inland red-earth clearing with palms and hills, no harbour or ships. Ibrahim wears the cream pocketed vest over a white shirt with a white mundu and white turban, has his short grey-flecked beard, and his forehead is bare, which is correct before 5.3. The open spoked cart and the two pale bullocks are there. The v03 edit fixed the carter: he is now clean-shaven and holds a goad stick, so v03 is clearly better than v02. There is no text or gore and the hands are sound. Minor notes, none of them grounds for rejection: Nagoji is seen from behind in lost profile, so only his moustache tip, ear and a small gold drop earring show and the chin cannot be checked; his linen wraps cover the wrists rather than the whole hands. There is clear sky at upper centre-right, between the tree canopy and the palms, for his one balloon. At 1536x1024 the frame will need the 2x upscale for print."
+  },
+  {
+   "id": "page-04-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-04-panel-01-v01.png",
+   "sha256": "7e3e9b6683db617f2993c2b09b39b17c4d0d437aa45647836c5cd734744b8708",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-04-panel-01-fix-r3.txt",
+   "prompt_sha256": "cb4e41e6f73e206206baaa5f2a0ca48908b1066ac82fc13499f647301f1b0551",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8d2-8b47-79f3-af3f-06aa388bca6b/exec-f954dbab-9b76-4a9b-8353-a8318a9e1c48.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-04-panel-01-v03.json",
+    "record_sha256": "9f3d549488098480c80c8c73b46656797eb9788b73d7501d8b0afb4fccdbfa08",
+    "frame_id": "page-04-panel-01"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-04-panel-01.txt",
+   "base_prompt_sha256": "94347e59b7c24be718d22f304ad49ff212ab8099c94d417e14b2a523fb178102",
+   "visible_rect": [
+    0,
+    192,
+    1536,
+    676
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      800,
+      192,
+      1482,
+      515
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      650,
+      265
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      125,
+      442,
+      723,
+      643
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      650,
+      265
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed: the pink line on Ibrahim's near (RIGHT) cheek in v02 is gone; v03's near cheek and beard are plain, unmarked skin. His far LEFT cheek is hidden by the turn of his head, so no scar shows, which the edit allowed. Nothing else got worse. On model: white turban, short grey-flecked beard, cream pocketed vest over a white shirt, white mundu and a striped shoulder cloth. There is no teal coat and no ash on his bare forehead. He does the careful shrug with a sidelong glance to screen left, toward Nagoji off-panel. The setting is a late-afternoon Kerala clearing by the cart, with sacks, a white bullock, paddy and thatched houses. There is no European element. Both open hands are anatomically sound. The edit moved the figure slightly left of where v02 had him. That leaves a wide, clear golden sky at upper right and centre for both lettering lines. There is no text, pseudo-text or painted balloon. v02 stays rejected for the right-cheek scar, so there is no backup."
+  },
+  {
+   "id": "page-04-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-04-panel-02-v01.png",
+   "sha256": "7685c8aee56e0f824d3a306950db8626687c93fc6d546e259e55a46343f02cab",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-04-panel-02-gen-r2.txt",
+   "prompt_sha256": "cfe6a2fc3110d99fdb95615d89e3ff3ebe25f8e32a46e3b9fc85e71b4da46614",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-e1750a69-6fd3-47da-95b9-197471af4374.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-04-panel-02-v02.json",
+    "record_sha256": "fd330cf46952ffa30f1b9aee12041f156f9b24a7baa7c068b4201f7925401df8",
+    "frame_id": "page-04-panel-02"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-04-panel-02.txt",
+   "base_prompt_sha256": "ddc18711e62dddc9fa84e1d5a061f79164d87a21ef4b47e7cbd5929f3901d1ad",
+   "visible_rect": [
+    11,
+    107,
+    1526,
+    765
+   ],
+   "art_rect": [
+    11,
+    10,
+    1526,
+    1014
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      297,
+      107,
+      865,
+      283
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      957,
+      180
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      333,
+      291,
+      1018,
+      481
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      957,
+      180
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Acceptable. The setting is now correct: palms, paddy and open late-afternoon sky. There is no fort, church, soldier or building. Ibrahim is up on the open spoked cart with plain sacks: white turban, grey-flecked beard, cream pocketed vest over a white shirt, white mundu, no coat, bare forehead. The scar is on his LEFT cheek, by the ear at screen right. Nagoji is in the foreground, seen from behind and below: his RIGHT arm in the cream sleeve down to the linen wrap, curly hair gathered at the nape, thick moustache, light stubble, no brand. Upper-left sky is clear for both lines. Minor notes: (1) The scar is pinkish with a small crossing tick rather than fully pale. It matches the reddish scar on the character sheet. (2) Ibrahim's fist closes around Nagoji's fully wrapped hand, so Nagoji's fingers are hidden. It reads as a helping clasp, but it is not quite 'Nagoji's hand closing on it'. (3) Nagoji's ear ornament is a round gold stud with a slight drop; the author has not yet decided between stud and drop. (4) A thin painted black border runs around the frame; the panel border will cover it. v01 is still rejected: a Portuguese fort, church and helmeted soldiers."
+  },
+  {
+   "id": "page-04-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-04-panel-03-v01.png",
+   "sha256": "ef6bc5f1c85d295869eb37fcefa57f5b27bf6fb649a0f0ec87dc217de4e30f87",
+   "width": 1774,
+   "height": 887,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-04-panel-03-fix-r3.txt",
+   "prompt_sha256": "3c4b35c81ba98df30911254320d52ca0dc3dad876aac74e1898a419ca8a18032",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8d2-8b47-79f3-af3f-06aa388bca6b/exec-01d42823-7700-4cd5-8c47-25c35dfdfdd6.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-04-panel-03-v03.json",
+    "record_sha256": "12420139d5db30cc221100f25dfdfd6a0304e0f306255f90e1366f3f217d8996",
+    "frame_id": "page-04-panel-03"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-04-panel-03.txt",
+   "base_prompt_sha256": "41dd586e8f8c6904a208351f6a4fd6de79d717d41fb50b7ca339c1e62542cace",
+   "visible_rect": [
+    0,
+    212,
+    1774,
+    781
+   ],
+   "art_rect": [
+    0,
+    0,
+    1774,
+    887
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      899,
+      473,
+      1655,
+      710
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      655,
+      391
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fixes landed. The white horizontal stripes on Ibrahim's forehead in v02 are fully painted out, leaving bare brown skin under the turban. His far eye keeps a small pale highlight, which reads at panel scale as a sideways glance, not a blank eye (minor). The carter's droopy moustache is removed; only a faint mouth-corner shadow remains, and his upper lip reads as clean-shaven at panel size. The composition, sky, temple, deepastambham, fireflies, cart and bullocks are unchanged from v02, so nothing got worse. On model: Nagoji has the thick curled moustache, a clean chin and the collarless cream tunic, with his wrists still bandaged. His hair is swept back to the nape and reads as tied back, though not crisply. His ear ornament is too small to see at this scale (note only). Ibrahim wears the white turban, grey-flecked beard and cream vest over a white shirt and white mundu, with no teal coat and no scar on his visible right cheek. The setting is Kerala: a dusk paddy road, open spoked cart with sacks, two pale humped bullocks, a bare-chested carter with a topknot and goad, and a low tiered tiled-roof temple with a brass lamp pillar and no tower. Nothing is European and there are no glass lanterns. The deep blue upper sky is clear for the small Ibrahim balloon. There is no text and no painted balloon. v02 stays rejected for the forehead stripes, so there is no backup."
+  },
+  {
+   "id": "page-05-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-05-panel-01-v01.png",
+   "sha256": "92f73d453f230859ce736eb81cb47defee6cd7cad222226ebdba48f35b054a13",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-05-panel-01-gen-r2.txt",
+   "prompt_sha256": "bdafa2481e79748702fc332f967b5db857d79e213f7716b2c9ff681e0e6300af",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-19c84702-a277-4ada-8523-43004e9bf7dc.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-05-panel-01-v02.json",
+    "record_sha256": "11f42a9d13d8849d0e634ca87b0b07dd251297ef3b6b301e9a3f9f2ffb33ba96",
+    "frame_id": "page-05-panel-01"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-05-panel-01.txt",
+   "base_prompt_sha256": "2f043416b0cbddc0cdc169ef3953ee5b8042632f27952fc1cabd04ddc320f9a7",
+   "visible_rect": [
+    0,
+    66,
+    1536,
+    528
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      165,
+      66,
+      697,
+      190
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      773,
+      289
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only. The scar from the LEFT ear to the jaw is a thin reddish line rather than a pale one, but it matches the reddish scar on the sheet and is on the correct cheek. A thin blue stripe runs along the edge of his mundu. With the bullock's horn at the lower left, the lamp hangs from a rear or side rail behind him rather than the front rail. None of this matters at panel size. The correction worked: the harbour, ships and fort are gone. He now sits up on the grain sacks over wet paddy fields, with a red-earth track, coconut palms and low hills against the last deep blue sky and a thin orange horizon. He is in profile facing screen left with the scar toward the camera, wearing the white turban, the grey-flecked beard and the cream pocketed vest over a white shirt, with no coat and a bare forehead. The lamp is the open brass bowl on chains with a lit wick. The hands are sound and there is no text. v01 still shows the harbour and fort, so it stays rejected. The upper-left sky is empty and low-detail for the balloon."
+  },
+  {
+   "id": "page-05-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-05-panel-02-v01.png",
+   "sha256": "7da69e19464885558bcf3cbd3ff538b09910fb60dc62a2ecf36fb58df4b65053",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-05-panel-02-gen-r1.txt",
+   "prompt_sha256": "cbf672da5ae235d6ae40143b294e622685059d3fe2a14bc144b6bead1631b966",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f83c-fa5b-7f11-b267-0b6dc91966a2/exec-99ca6b12-d37c-4a5a-b485-c07fe4c7af13.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-05-panel-02-v01.json",
+    "record_sha256": "263ff61a4e9d67fa8cf17895e71facb5f39a1772aa4beb13197d842089a562a8",
+    "frame_id": "page-05-panel-02"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-05-panel-02.txt",
+   "base_prompt_sha256": "7809861f7d370228985b680159353181b18f5fbcda336da42c6ecee190285979",
+   "visible_rect": [
+    0,
+    122,
+    1536,
+    748
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      105,
+      185,
+      473,
+      353
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      284,
+      542
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      416,
+      410,
+      1097,
+      670
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      598,
+      318
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Minor only. Nagoji's hair looks mostly loose behind his shoulders rather than clearly tied back. One woman in the far-left doorway seems to wear a red fitted upper garment under her white wrap. A distant lit silhouette at the centre horizon could read as a towered temple. Everything required is right: open clay lamps in the doorways; the cart lamp is an open brass bowl on chains; bare-chested boys in loincloths, with the pointing boy's face visible and his arm aimed at the men on the sacks; Nagoji has the moustache, clean chin, gold stud, cream tunic-shirt and bandaged wrists; Ibrahim has no coat and no ash and calls back over his shoulder; the carter is right. The sky in the upper left and centre has room for both balloons."
+  },
+  {
+   "id": "page-05-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-05-panel-03-v02.png",
+   "sha256": "36eee03085422c0a16c726880afbf0289291bcdb0556a2d1a5ceab19e8bc6990",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/prompts/page-05-panel-03-fix-s1.txt",
+   "prompt_sha256": "f4946ebd5587f927f0d0f7d901b8d9e40ef8ceac412f6f4f3c1e1aebbddda76c",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0ff07-1ea1-7a92-8b64-ed118941e7de/exec-455c2de3-a800-40be-8e17-b68836121a4e.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/prompts/page-05-panel-03.txt",
+   "base_prompt_sha256": "46d22562064f14965453661fa8e197f884d11c32ba2d9da878f39c499cd32db6",
+   "visible_rect": [
+    0,
+    112,
+    1536,
+    840
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      490,
+      497,
+      1188,
+      783
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      429,
+      457
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 does the job it was edited for and nothing else changed. Her pupils now sit high and to the right, so she looks up over Ibrahim's bowed, turbaned head toward the cart instead of at the forehead she is marking. Her head did not turn, only her eyes moved, but the beat still reads. The edit also removed the small red dot that was on her forehead in v01, which is harmless. Everything else is the same as v01: the shrine, the cart and the light. Problems carried over from v01: (1) Nagoji's small gold ear stud is missing; his right ear is visible and the lobe is bare. He is a small background figure in a small panel, so this is barely noticeable, but the stud could be painted in during retouch. The earlier selection rounds noted the same problem and accepted it. (2) Ibrahim's left ear-to-jaw scar is drawn as a thin reddish line, which is the known fault on his reference sheet. It is subtle. (3) Nagoji's curls look loose rather than clearly tied back. That is minor. Still correct: the cloth strips and bangles on the tree, the open-flame lamp at the stone image, the woman's plain white wrap, the ash on Ibrahim's forehead, the coin in his hand, his pale vest with no coat, the open brass lamp hanging over Nagoji, and Nagoji's cream shirt and bandaged wrists, all matching 5.2 and 5.4. There is no text or pseudo-text, the hands are sound, and nothing is anachronistic. Lettering: the dusk sky across the top (about x 0.30 to 0.78, y 0 to 0.25, partly over leaves) holds three balloons. Put the old woman's on the left and Ibrahim's two to the right, above his turban, and keep them clear of Nagoji's head at the upper right."
+  },
+  {
+   "id": "page-05-panel-04",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-05-panel-04-v01.png",
+   "sha256": "117c321150f781ba20dd712f245fccf587fed7761a03ca636c58a42c67cb8ab6",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-05-panel-04-fix-f6.txt",
+   "prompt_sha256": "63fc4805eec1965f18f5c6f0882b13fcf7c187f49d6b15914d3578b910bc6dce",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0fcdb-1269-7c41-aa87-b9e4da6633da/exec-71ac21d2-d297-464a-9680-8fafe1fdb997.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-05-panel-04-v04.json",
+    "record_sha256": "75c52f01a37021ab9c06ed0dcd1d6d371d49884c8720fda73708506440e72288",
+    "frame_id": "page-05-panel-04"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-05-panel-04.txt",
+   "base_prompt_sha256": "437ce7d92880537a33cd446f486694a1f7b6a3ab24b79db6bf1c2b5479354d25",
+   "visible_rect": [
+    0,
+    168,
+    1536,
+    758
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      315,
+      336,
+      992,
+      507
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      949,
+      268
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1014,
+      363,
+      1533,
+      682
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      949,
+      268
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed. In v04 Nagoji's cream tunic-shirt now has a plain round collarless pullover neck. The placket, slit and button opening seen in v03 are gone. Colour, fit, sleeves, face, pose, setting and light are unchanged; the pixel difference is limited to the shirt plus minor regeneration noise on edges. Nagoji still matches his sheet: thick curled moustache, clean-shaven chin, one eyebrow raised. His ear ornament is a small gold drop rather than a strict stud; noted only, not rejected. Ibrahim matches: white turban, grey-flecked beard, pale vest over white mundu, no teal coat, faint ash smear on the forehead. His scar runs ear to jaw on his LEFT cheek but reads as a reddish line rather than pale; this is the same as v03 and not a regression. The setting is consistent with 5.3 (shrine tree with cloth strips, open-wick brass oil lamp, small shrine, paddy and palms) with no European elements and no painted text. Hands are sound. The open twilight sky upper right gives clear space for both Ibrahim lines."
+  },
+  {
+   "id": "page-06-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-06-panel-01-v01.png",
+   "sha256": "847952ec14a3a9bba6b5edba2cd386d8998e8fb7b3f81f036b600dace17f5156",
+   "width": 1774,
+   "height": 887,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-06-panel-01-fix-f5.txt",
+   "prompt_sha256": "0ce74e3f27935785d65420cbfdb17e420c7ae6b03ffb079310a264a372db0826",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0fcc4-35bc-78a1-92c7-157746e069bd/exec-062a3ce4-f118-4830-9e91-2ca50b2a7b63.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-06-panel-01-v02.json",
+    "record_sha256": "c60e5dec3e1bbd59e6e17a471a467907ed2b2b5685db558dd1841ba688df9c8c",
+    "frame_id": "page-06-panel-01"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-06-panel-01.txt",
+   "base_prompt_sha256": "d723422b77cef7e5897f1e4b865f688bc3d96b3ccedd47c4a9ae707d23d32489",
+   "visible_rect": [
+    0,
+    138,
+    1774,
+    634
+   ],
+   "art_rect": [
+    0,
+    0,
+    1774,
+    887
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1044,
+      138,
+      1494,
+      282
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1128,
+      362
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      0,
+      480,
+      644,
+      624
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      397,
+      241
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "v02 is the f5 edit of v01. Half of the fix landed. (2) The ash fix landed: v02 has a faint grey-white smear in the centre of Ibrahim's forehead, just under the turban edge. v01 has none, so v01 breaks the bible row (ash from 5.3 onward). (1) The lamp fix did NOT land: the left-gatepost niche lamp is the same in both. When zoomed, it still reads as a brass bowl inside a translucent rectangular glass case with a rim near the top, not an open lamp in a bare stone niche like the right-gatepost lamp. It is small (about 40 px wide at 1774 px) and reads as a lamp in a niche at panel size, but it still conflicts with the 'no glass chimneys in Kerala' rule. A later edit could target only that element: replace the glass case with a plain recessed stone niche and a free-standing flame. Nothing else got worse. Ibrahim is in a pale vest, shirt, striped shoulder cloth and white mundu (no teal coat), grey-flecked beard, white turban, seen from his right side so the left-cheek scar is out of view. Nagoji has a thick curled moustache, clean chin, hair tied back, cream tunic and bandaged wrists. His ear ornament is a tiny gold ring (noted only). Nair guards are correct (short white jackets, hitched mundus, dark sashes, topknots, spears, round shields, no turbans). The carter is at the yoke, and the hanging stall and cart lamps are open brass. No painted text, no balloons, no Goa or European elements. There is ample dark-blue evening sky across the top centre and top right for both balloons."
+  },
+  {
+   "id": "page-06-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-06-panel-02-v01.png",
+   "sha256": "31966fe5ac9330e9557f2e1a8461ef219abe2ed901c4dc94f6a88d9319d60490",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-06-panel-02-gen-r2.txt",
+   "prompt_sha256": "07c957a8b8853862e5219afc015a9c4f88fa2225ea479f4d4f2ed71c5f9112ab",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-3c6719a6-9006-4fb5-b6bd-c3788ef47dd0.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-06-panel-02-v02.json",
+    "record_sha256": "27f415a30c2456cc684348d3742dbb049a5e4869d0984d0f73f8c026c2585841",
+    "frame_id": "page-06-panel-02"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-06-panel-02.txt",
+   "base_prompt_sha256": "1c49f885847f9af53cdb3c8430e6d724e9ae69daadcf98059a8faa28b057f2d6",
+   "visible_rect": [
+    0,
+    125,
+    1536,
+    587
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      855,
+      215,
+      1394,
+      339
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1091,
+      430
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      288,
+      341,
+      699,
+      533
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      230,
+      440
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1176,
+      365,
+      1523,
+      558
+     ],
+     "copy_indices": [
+      2
+     ],
+     "tail": [
+      1091,
+      430
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "The fix landed on Nagoji in v03: his tunic now has a plain round neck with no placket, band or buttons. But the edit also changed Ibrahim. His buttoned pale vest with a flap pocket over a collared shirt became a buttonless, round-neck, smock-like front with a plain patch pocket, and his shirt collar is gone. A pixel diff shows changes across his whole torso. That no longer matches his sheet or his buttoned vest in 6.1 and 6.3 on the same page, so something else got worse, and I am keeping v02 as the pick, with v03 as backup. Remaining defect in v02: Nagoji's tunic still has the narrow neck band and the three-button front placket that the fix targets. Suggested re-run of the f6 edit on v02: add 'Do not touch Ibrahim at all: keep his buttoned pale vest with its brown buttons and flap pocket, and the collared white shirt under it, exactly as they are.' Everything else is fine in both: Kerala red-laterite compound and gate at dusk, Nair guard looking up at the seated, bandaged Nagoji, Ibrahim by the wheel thumbing toward him. His LEFT-cheek ear-to-jaw scar is faint but present, he has a light ash smear on his forehead, and there is no teal coat. Clear sky band across the top for all three lines. Notes only: Nagoji wears a small gold drop/ball ear stud. The brass lamp hanging on the cart has a faint bell-shaped outline above the open-wick dish that could be read as a glass chimney (identical in both candidates)."
+  },
+  {
+   "id": "page-06-panel-05",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-06-panel-05-v01.png",
+   "sha256": "8eeac80ff6fa302d2495286b9d15b4a511b6d1c05f71f2bd5eab673f544a8b46",
+   "width": 1024,
+   "height": 1536,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-06-panel-05-gen-r2.txt",
+   "prompt_sha256": "fc0ba2db9c6f1f3e31ecfd814e6d8b7bc581c89c6fcc43a4bcac7bb94c5d769a",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f88f-0138-7340-bc86-3a327baf8800/exec-d87abc82-dddf-43d2-a4d8-548725688fa9.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-06-panel-05-v02.json",
+    "record_sha256": "efa5da13d2b18475290e1eb43bf09c4a58939f631b1a4422cf0c51963d7d864b",
+    "frame_id": "page-06-panel-05"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-06-panel-05.txt",
+   "base_prompt_sha256": "9f98587f5d94126a6ff952876103682a308eaf7f1769fc0b85fd1d8aec930861",
+   "visible_rect": [
+    0,
+    340,
+    1024,
+    1091
+   ],
+   "art_rect": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      150,
+      340,
+      502,
+      541
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      614,
+      467
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean pick; the correction worked. It is drawn in the inked, coloured graphic-novel style of 6.3 and 6.4, not photorealistic. It is the same night hall: dark wooden pillars, open brass oil lamps on chains and a brass standing lamp, with no daylight, palms or doorway. The official sits cross-legged on his low platform on a woven mat, with no chair or desk. He has a heavy round face, a grey Kerala topknot, a greying moustache, a clean chin, a bare torso and a plain white shoulder cloth. There is no forehead mark, chain or thread, and he matches 6.4 v02. A thin iron stylus works a single blank palm-leaf strip with a string hole, with no pen, ink or paper. His eyes look up toward the viewer's left, where the stranger stands. The stranger is only an out-of-focus edge of cream cloth at the left, with no face or beard. The single background guard is bare-headed with a topknot. Minor notes: (1) The frame is portrait (1024x1536), unlike the landscape v01. The layout crops toward the slot and keeps the face zones. (2) The stylus tip rests on the leaf rather than hovering just above it. Lettering: the plain dark wall upper right, between the two hanging lamps and above his head, takes the one small balloon."
+  },
+  {
+   "id": "page-07-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-07-panel-01-v01.png",
+   "sha256": "0e1ebcf7bbbb8acdc78ab7971862bbf000922a7ebf095cb33f1733270fcd05ae",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-07-panel-01-fix-f6.txt",
+   "prompt_sha256": "aa10892dad6e978d065251e24b2e482246ae23c07a81a3fd936088ab983873b9",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0fcdb-1269-7c41-aa87-b9e4da6633da/exec-3c74632a-f415-4ab6-adb1-213680c9e608.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-07-panel-01-v04.json",
+    "record_sha256": "4fe894454d288e3ce741db1147aca210804e0561931e882c93e17a0380c6597a",
+    "frame_id": "page-07-panel-01"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-07-panel-01.txt",
+   "base_prompt_sha256": "dd35c04af5cf3af738ac362451e9c1236ed26feba551d1a087c899ec3549f1c6",
+   "visible_rect": [
+    0,
+    124,
+    1536,
+    637
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      798,
+      124,
+      1361,
+      282
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      684,
+      286,
+      989,
+      435
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      644,
+      183
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed: v04 tunic is now a plain round-neck pullover with no band collar, placket or buttons (v03 had a stand band and buttoned placket). Difference map shows nothing else changed beyond edge re-rendering; the room, light, seated Nair men, the official's hand on the platform at right and both figures are the same. Nagoji: curled moustache, clean chin, bandaged hands sound; his ear ornament is a small gold drop rather than a stud (note only). Ibrahim: white turban, grey-flecked beard, ash smear on the forehead, pale vest over shirt, no teal coat; his left cheek is turned away, and two tiny pale flecks on his right cheek read as ash or skin texture, not a scar (same as v03). Minor: Ibrahim wears sandals here but is barefoot in 7.4 (unchanged from the earlier picks). No painted text. Large clear wall area upper right and centre for the caption and Nagoji's balloon."
+  },
+  {
+   "id": "page-07-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-07-panel-02-v01.png",
+   "sha256": "e769742c86b2c263bbf6653b0209f0cbcc1a29e301f1ccee142a63a877291c9a",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-07-panel-02-fix-f5.txt",
+   "prompt_sha256": "f84f6d51dc4014bd29248960a03c14c0b16fc4c080403df84b1255162c61f1b5",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0fcc4-35bc-78a1-92c7-157746e069bd/exec-a1460f67-7651-43f6-a905-219503584e7f.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-07-panel-02-v02.json",
+    "record_sha256": "676d575567a617adde543822d66e81977fa877a70b360933ad0f7289af50181a",
+    "frame_id": "page-07-panel-02"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-07-panel-02.txt",
+   "base_prompt_sha256": "b80872e763aa78824d016497d7a173c9f158e3a874b2e851a9aec4949255baea",
+   "visible_rect": [
+    0,
+    307,
+    1536,
+    768
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      1245,
+      457,
+      1490,
+      581
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1536,
+      307
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      48,
+      571,
+      699,
+      763
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      0,
+      307
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed: in v02 the iron stylus tip now touches the palm leaf at the end of a fresh row of short diagonal incised strokes. They read as scratches or tally marks, not letters, which is better than v01, where the tip hovers over a few hook-shaped marks. Nothing else changed: the open brass lamp, the leaf bundle on its cord, both weathered hands (sound anatomy) and the framing are the same. The plaster wall across the top (about x 0.2 to 0.8, y 0 to 0.25) is clear for both off-panel balloons. Minor, shared by both candidates: the leaf rests on a dark wooden surface beside a small lidded brass pot. In this tight insert it reads as the dais top and a lime or betel box, but it could hint at an inkwell, which 7.4 and 7.5 removed. No painted text."
+  },
+  {
+   "id": "page-08-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-08-panel-02-v01.png",
+   "sha256": "c95a733666e9b400f69cad9fa78e4051ea7406e02952253df285e969d59a5bba",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-08-panel-02-fix-r3.txt",
+   "prompt_sha256": "8ec5b5ebf41628b964b73f78e0e49910ae94a87f266568a55670966a864d917f",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f8d2-8b47-79f3-af3f-06aa388bca6b/exec-e8d8d26c-b3bf-41b4-8a63-b5b2877dd178.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-08-panel-02-v03.json",
+    "record_sha256": "945122e8a1ec0b82aad089ef419d3e13d510557f0de8ab92b8abdd40ff40ff6e",
+    "frame_id": "page-08-panel-02"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-08-panel-02.txt",
+   "base_prompt_sha256": "d4a3883dc2c999ad9ae252384b9de1b3d4e3840ceec3d54c73b0d10b0e194292",
+   "visible_rect": [
+    0,
+    123,
+    1536,
+    845
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      841,
+      123,
+      1511,
+      356
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      645,
+      522
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean pick; both parts of the r3 fix landed and nothing got worse. (1) The plain round neckline of the collarless cream homespun tunic now shows along the bottom edge and covers both shoulders, with no collar or buttons, so no bare shoulder or chest is visible. (2) The hair is swept back behind the ears and gathered into a low bunch of curls at the nape that ends above the neckline. A few curls fall at the temple and forehead, and nothing hangs loose to the shoulders. The light is warmer amber. Identity matches the sheet: strong cheekbones, straight nose, thick curled moustache, clean chin with light stubble at most, and a small flush gold stud (not a drop). The background is the same hall: an out-of-focus dark carved pillar, a plain wall and an open brass oil lamp on a chain, with no glass, sky or fort. The expression is steady and level, with a slight upward gaze toward the platform; it reads as flat and certain. Minor: the framing is a head-and-neck close-up rather than a tight crop on the eyes, which is acceptable. There is no text. The plain wall at upper right (x 0.62 to 0.86, y 0.04 to 0.42), clear of the lamp, takes the one balloon."
+  },
+  {
+   "id": "page-08-panel-03",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-08-panel-03-v01.png",
+   "sha256": "9e17d8fea6be8e717a094451c438620ea3d3b1ac0e73b25c370876d6180aee76",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-08-panel-03-fix-f5.txt",
+   "prompt_sha256": "fb32a19dca0ec516d10b5fdb9f7abedba163b6db0253f6e95e9a7d4e822d35a3",
+   "references": [],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0fcc4-35bc-78a1-92c7-157746e069bd/exec-5d70d6f8-5c15-41d2-9e7c-670b3e701e7b.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-08-panel-03-v04.json",
+    "record_sha256": "cd54f84d944e98da36465d7dc377e21b93e0e85ddf78eaf35d6f1c5cd1315ce1",
+    "frame_id": "page-08-panel-03"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-08-panel-03.txt",
+   "base_prompt_sha256": "9a2fce58b2b3f7d6f63e791b2247ce6155d924665ec6efa710f3eb3fc2bbd293",
+   "visible_rect": [
+    0,
+    135,
+    1536,
+    857
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Fix landed. In v04 the chair, caned back, finial post, writing desk, inkwell and flat paper sheet are all gone. The official now sits cross-legged on a low carved wooden dais with a red patterned cushion. A tied palm-leaf bundle rests in his lap, and he holds a thin iron stylus just lifted off it, with the slight smile starting. Nothing else got worse: the closed evening hall, open brass hanging and standing lamps, warm light and the four motionless seated men are the same as in v03. The hands are sound and there is no painted text. Minor notes: the official's mundu and shoulder cloth are plain white here, but gold-bordered in 8.4 v04. The 8.1 pick still shows him in a carved chair at a desk with an ink pot, which now disagrees with the dais in 8.3 and 8.4 (8.1 was outside this fix set). The frame is 3:2 rather than the script's 'narrow', the same as v03. The panel has no lettering."
+  },
+  {
+   "id": "page-09-panel-01",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-09-panel-01-v01.png",
+   "sha256": "cde911875056e4dd524a8601abe64941e3398c47ca7fe799947e326cd746db1b",
+   "width": 1536,
+   "height": 1024,
+   "generation_tool": "built-in imagegen",
+   "origin": "imported",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-08-panel-04-fix-f6.txt",
+   "prompt_sha256": "72a99aa792f8cc08c54c1b70398460400ebc0040bf8fa134eb5f404eef9b2a78",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/09-ibrahim-marakkar-v15.png",
+     "sha256": "20bf1a3a6baf18a66686c847243b4417df4b5dea5ebe1e8b9210ce9b82188470"
+    },
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0fcdb-1269-7c41-aa87-b9e4da6633da/exec-2a1fbacb-8a7e-4429-9dca-31485af2ee3f.png",
+   "imported_from": {
+    "package": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05",
+    "record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/candidates/page-08-panel-04-v05.json",
+    "record_sha256": "89d931480f41b3307fcfbd8e93d7c19bf1eafc41281f4145e4533f6ed976dcbf",
+    "frame_id": "page-08-panel-04"
+   },
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05/prompts/page-08-panel-04.txt",
+   "base_prompt_sha256": "9a3b2fc9b5559847e422ce5550798d2c9d2e661896bdc9b3b1d4b6cfe089ad09",
+   "visible_rect": [
+    0,
+    0,
+    1460,
+    1024
+   ],
+   "art_rect": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "reserves": [
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      840,
+      0,
+      1454,
+      168
+     ],
+     "copy_indices": [
+      0
+     ],
+     "tail": [
+      1286,
+      360
+     ]
+    },
+    {
+     "kind": "speech",
+     "draw": "speech",
+     "rect": [
+      594,
+      216,
+      1142,
+      436
+     ],
+     "copy_indices": [
+      1
+     ],
+     "tail": [
+      1286,
+      360
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      840,
+      440,
+      1149,
+      527
+     ],
+     "copy_indices": [
+      2
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      855,
+      825,
+      1413,
+      950
+     ],
+     "copy_indices": [
+      3
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "The fix landed. v05 replaces v04's stand collar and front opening with a plain round pullover neck, with no placket or buttons. A pixel diff against v04 shows only small, local changes at the neckline, and nothing else got worse. Nagoji matches his sheet: thick curled moustache, clean chin, gold ear stud visible, hair tied back, sleeves down to the wrists with the bandage over the near forearm, and a measured, not deep, bow. The official is cross-legged on the low carved dais with palm-leaf bundle and stylus, smiling, with no chair, desk or inkwell. Minor points carried over from v04: Ibrahim's forehead ash reads as a small patch of three short stripes rather than one soft smear. He faces right, so his left-cheek scar is correctly out of view, and there is no teal coat. No painted text, balloons, European elements or glass lamps. The plain wall high beside the official holds his two balloons, and the plain wall right of Nagoji's lowered head (left of the pillar) holds the two captions."
+  },
+  {
+   "id": "page-09-panel-02",
+   "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/frames/page-09-panel-02-v04.png",
+   "sha256": "198af36fa37a7bc80983740421c744b936edc764aa89e2c0741dda5ab6df4450",
+   "width": 2172,
+   "height": 1276,
+   "generation_tool": "built-in imagegen",
+   "origin": "generated",
+   "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/prompts/page-09-panel-02-retouch-s2.txt",
+   "prompt_sha256": "f8bbc528ecb8191c798f040c094ad83884b432e8a98ea6b280e802841550902e",
+   "references": [
+    {
+     "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png",
+     "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"
+    }
+   ],
+   "visual_review": "pass",
+   "original_generated_path": "/tmp/claude-501/ch05-fix-s1/page-09-panel-02-retouch3.png",
+   "base_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch05-split/prompts/page-09-panel-02.txt",
+   "base_prompt_sha256": "53f854616a8908a9acb53125d57347f66ba7bb06adc4a05b02922da4f7981829",
+   "visible_rect": [
+    235,
+    0,
+    2041,
+    1276
+   ],
+   "art_rect": [
+    0,
+    0,
+    2172,
+    1276
+   ],
+   "reserves": [
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1261,
+      0,
+      1952,
+      155
+     ],
+     "copy_indices": [
+      0
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1299,
+      171,
+      1989,
+      326
+     ],
+     "copy_indices": [
+      1
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1627,
+      336,
+      1982,
+      436
+     ],
+     "copy_indices": [
+      2
+     ]
+    },
+    {
+     "kind": "caption",
+     "draw": "caption",
+     "rect": [
+      1135,
+      450,
+      1851,
+      652
+     ],
+     "copy_indices": [
+      3
+     ]
+    }
+   ],
+   "reviewer": "Claude selection workflow, auto-geometry drawn",
+   "review_note": "Clean, with minor notes. Night under moonlight only, with no lamps and no glass. Nagoji sleeps on a woven mat by the veranda post under the eaves, in the cream tunic-shirt and dhoti, with a thick curled moustache, a clean chin with only light stubble and a small gold ear stud. The bandaged near hand lies loosely curled on the mat. Beyond him are the red laterite wall, pepper vines on their support trees and the pale road running away into the dark. There is no text or pseudo-text, and the anatomy is sound. Minor: his hair is spread behind his head on the pillow rather than clearly tied back, which is natural for sleep. The caption sky is a band across the top, partly broken by the pepper-tree tops. The captions can overlap the low-detail dark foliage, and the separate weighted caption can sit on the empty stone floor at lower right, so no face or the curled hand is covered. The face sits inside the middle half of the height. A saddle and tack hang at the far left, which is period-appropriate. | split-r3: v04 = v01 outpainted upward for the larger closing panel, retouched (duplicate moon, eave ghost); geometry mapped from v01 (y = (600 + 724 y) / 1276)."
+  }
+ ],
+ "missing": [
+  "page-02-panel-05",
+  "page-04-panel-04",
+  "page-04-panel-05",
+  "page-05-panel-05",
+  "page-06-panel-03",
+  "page-06-panel-04",
+  "page-07-panel-03",
+  "page-07-panel-04",
+  "page-07-panel-05",
+  "page-08-panel-01"
+ ]
+}

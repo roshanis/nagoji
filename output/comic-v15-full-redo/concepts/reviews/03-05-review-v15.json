@@ -1,0 +1,127 @@
+{
+  "edition": "V15",
+  "sheets": [
+    {
+      "character": "03 Ramayyan Dalawa",
+      "source_sheet": "output/character-model-sheets-v1/03-ramayyan-dalawa.png",
+      "source_sha256": "839c76fc71ebcf60cb4304c8ff7ee5312348c761836e0dce010f3105dc7ab3ff",
+      "output": "output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+      "output_sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/03-ramayyan-dalawa-v15.txt",
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/03-ramayyan-dalawa-v15.png",
+          "sha256": "dfe997c99e4cea0384f5e695fbe0174609fb18973b535a5e8b603c9e53d7ea19",
+          "checks": {
+            "face_identity_preserved": {"status": "pass", "notes": "Same thin middle-aged face and receding hair identity retained."},
+            "costume_matches_bible": {"status": "pass", "notes": "Plain white cloth with no coloured garment or jewellery."},
+            "props_present": {"status": "pass", "notes": "Palm-leaf bundle and stylus are visible in the main figure and detail panels."},
+            "layout_and_views": {"status": "pass", "notes": "Large figure, four turnarounds, six expressions, five details, and palette retained."},
+            "text_readable_and_current": {"status": "pass", "notes": "Name and captions are readable and no outdated costume caption remains."},
+            "period_and_negative_constraints": {"status": "pass", "notes": "No watermark, extra characters, em dash, en dash, or anachronistic ornament observed."}
+          },
+          "reason": "Accepted on first attempt."
+        }
+      ],
+      "final_checks": {
+        "face_identity_preserved": "pass",
+        "costume_matches_bible": "pass",
+        "props_present": "pass",
+        "layout_and_views": "pass",
+        "text_readable_and_current": "pass",
+        "period_and_negative_constraints": "pass"
+      }
+    },
+    {
+      "character": "04 Padmini Amma",
+      "source_sheet": "output/character-model-sheets-v1/04-padmini-amma.png",
+      "source_sha256": "a710838b584575acc731d8fea2032419b8fd93837b147be2c5e0bf2734b198d6",
+      "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15c.png",
+      "output_sha256": "96a73de4a4ea96ccf1c43178e767a4fd6d327e977de2b08b6c8c9be6a9aee1ce",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15c.txt",
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15.png",
+          "sha256": "9135863aa798f9c5f92a768b6ac370da1df06201328dabfa57d131f365cafdab",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15.txt",
+          "checks": {
+            "face_identity_preserved": "pass",
+            "no_stitched_blouse": "pass",
+            "nape_coil_and_walking_stick": "pass",
+            "caption_accuracy": {"status": "fail", "notes": "Detail caption LOW BUN was wrong and prompted regeneration."}
+          },
+          "reason": "Regenerated because LOW BUN was an incorrect caption for the nape coil."
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15b.png",
+          "sha256": "e81c5574cf5fd9fa2881a2f3ae0d28f491f75e264f97572d9a4d2a509f9b14b9",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15b.txt",
+          "checks": {
+            "face_identity_preserved": "pass",
+            "no_stitched_blouse": {"status": "fail", "notes": "The retry reintroduced a stitched rust blouse."},
+            "nape_coil_and_walking_stick": "pass",
+            "caption_accuracy": "pass"
+          },
+          "reason": "Rejected because a stitched blouse returned despite the correction prompt."
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/04-padmini-amma-v15c.png",
+          "sha256": "96a73de4a4ea96ccf1c43178e767a4fd6d327e977de2b08b6c8c9be6a9aee1ce",
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/04-padmini-amma-v15c.txt",
+          "checks": {
+            "face_identity_preserved": {"status": "pass", "notes": "Old face and mature identity retained."},
+            "no_stitched_blouse": {"status": "pass", "notes": "Bare shoulders and draped sari cloth show no stitched blouse in all views."},
+            "nape_coil_and_walking_stick": {"status": "pass", "notes": "Nape coil and long stick are visible, including detail panels."},
+            "simple_gold": {"status": "pass", "notes": "Simple necklace and earrings retained."},
+            "layout_and_views": {"status": "pass", "notes": "Full model-sheet layout and all views are present."},
+            "caption_accuracy": {"status": "fail", "notes": "Nape and detail captions are corrected, but palette still reads IVORY SILK, GOLD BORDER, and WOOD instead of the requested WHITE COTTON, SIMPLE GOLD, and INK labels."},
+            "period_and_negative_constraints": {"status": "pass", "notes": "No watermark, extra characters, em dash, en dash, or flowers observed."}
+          },
+          "reason": "Best of three attempts for costume compliance. Caption mismatch remains for author review."
+        }
+      ],
+      "final_checks": {
+        "face_identity_preserved": "pass",
+        "no_stitched_blouse": "pass",
+        "nape_coil_and_walking_stick": "pass",
+        "simple_gold": "pass",
+        "layout_and_views": "pass",
+        "caption_accuracy": "fail",
+        "period_and_negative_constraints": "pass"
+      }
+    },
+    {
+      "character": "05 Revathi Bayi",
+      "source_sheet": "output/character-model-sheets-v1/05-revathi-bayi.png",
+      "source_sha256": "de9716e933d3b78052755cade1a5cf76ce893352474f5334e43dc2c2d5bc0b02",
+      "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15.png",
+      "output_sha256": "f00f750b37f56f96d9ec210412a914c92d62e512deac25c2119fac843492afda",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15.txt",
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15.png",
+          "sha256": "f00f750b37f56f96d9ec210412a914c92d62e512deac25c2119fac843492afda",
+          "checks": {
+            "face_identity_preserved": {"status": "pass", "notes": "Same young adult tapered oval face retained."},
+            "indigo_or_deep_blue_sari": {"status": "pass", "notes": "Purple is replaced by saturated deep blue and indigo with gold."},
+            "jasmine_braid": {"status": "pass", "notes": "Long braid with jasmine is consistent across views and detail."},
+            "jewellery_and_forehead": {"status": "pass", "notes": "Flat-coin necklace, gold armlets, and sandalwood line are visible."},
+            "no_tali": {"status": "pass", "notes": "No tali or marriage pendant appears in the sheet."},
+            "layout_and_text": {"status": "pass", "notes": "All views are present, labels are readable, and PURPLE GOLD ZARI is corrected to INDIGO GOLD ZARI."},
+            "period_and_negative_constraints": {"status": "pass", "notes": "No watermark, extra characters, em dash, en dash, crown, or later ageing observed."}
+          },
+          "reason": "Accepted on first attempt."
+        }
+      ],
+      "final_checks": {
+        "face_identity_preserved": "pass",
+        "indigo_or_deep_blue_sari": "pass",
+        "jasmine_braid": "pass",
+        "jewellery_and_forehead": "pass",
+        "no_tali": "pass",
+        "layout_and_text": "pass",
+        "period_and_negative_constraints": "pass"
+      }
+    }
+  ]
+}

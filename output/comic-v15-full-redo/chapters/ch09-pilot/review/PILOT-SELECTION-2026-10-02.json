@@ -1,0 +1,215 @@
+{
+ "chapter": 9,
+ "decisions": [
+  {
+   "id": "page-01-panel-05",
+   "pick": null,
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "v01 (only candidate) rejected on BEAT. The foreground riders, the largest figures in the panel, are three bare-chested Nair men with topknots, riding barefoot. The lead rider nearest the gate is one of them. The party should be Padmini (leading, side-saddle, in a sari), Nagoji (turban, tunic, boots), Ibrahim (short coat) and only two Nair relatives. As drawn, the wrong group arrives, and 2.1 then puts Padmini and Nagoji at the gate with no lead-in. The panel's cast was [], so the generator invented these riders. Everything else works: a low laterite ring wall about head height, a wide open plank gate between laterite pillars, two Nair guards with spears and round shields, tiled-roof verandahs, a big shade tree and a clear sky top left and centre for the caption. Checks: SETTING pass (Kerala noble house: laterite ring wall, tiled roofs, verandah, courtyard, trees; no fort, bastions, ships or European buildings). SHEET BACKDROP pass. EAR not visible (Nagoji not drawn). CHIN n/a (Nagoji not drawn). PADMINI HAIR n/a (Padmini absent; this is part of the BEAT failure). FEET n/a for Nagoji (the riders drawn are barefoot Nair men). SLEEVES n/a. TEXT pass (no letters or pseudo-text). PERIOD pass (terracotta pots, plank gates, brass lamp; nothing anachronistic). BEAT fail: the arriving party is three Nair men instead of Padmini's party. Minor: the guards' mundu falls to mid-shin rather than hitched to the knee, and their hair is knotted on the crown rather than high at the front.",
+   "correction": "Make this the arriving riders' point of view: draw NO riders, horses or people on horseback anywhere in the frame (at most the tips of one horse's ears and a strand of mane at the very bottom edge). Do not add any bare-chested riders. The camera sits at a rider's eye height on the open dirt road, looking straight at the gate. The two Nair guards (bare-chested, white mundu hitched to the knee, hair knotted high at the front, no turbans, spears and small round shields) stand at the gate posts looking directly toward the viewer, watching the party come. Keep everything else from the previous render: the low red laterite ring wall about head height, the wide wooden plank gate standing open between laterite pillars, the tiled-roof verandahs, the courtyard and the big shade tree inside, the coconut palms, the warm morning light, and the clear pale sky across the top left for the caption."
+  },
+  {
+   "id": "page-02-panel-02",
+   "pick": null,
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "v01 fails one hard check: the ear. Nagoji wears a small gold teardrop hanging below the earlobe, copied from the sheet, not the flush stud. The author decided on 2026-10-02 to enforce the stud at selection. Everything else is close to usable. Checks: SETTING pass (inner courtyard of a Kerala noble house: tiled roofs, red laterite steps up to a pillared hall, verandahs, brass nilavilakku lamps; same sunny light and red earth as 1.5; no fort, ships or European buildings). SHEET BACKDROP pass (no fort or rocky hill). EAR fail (a visible hanging gold drop of about 5x10 px at about x0.167 y0.245, not a tiny flush stud). CHIN pass (clean-shaven, faint jaw shading only). PADMINI HAIR pass (thick and black; silvery sheen highlights, no grey strands; worn as a loose mass rather than a tight coil at the nape). FEET pass (Nagoji in brown boots). SLEEVES pass (both sleeves down to the wrists). TEXT pass (the banners and the palm-leaf bundle are blank). PERIOD pass, minor note (palm-leaf bundle with wooden covers, brass lamps; one background woman at far right wears a stitched short-sleeved green blouse, which is regionally wrong for Kerala then). BEAT mostly pass (wide shot, ground rising to a tiled hall, banners hanging still, women along the verandahs with heads uncovered, a round-faced clerk with a greying moustache holding a palm-leaf bundle and stylus, and a man with a sword. Weak points: both principals are already off their horses, and Padmini already holds the stick instead of drawing it from the saddle. The two men look up and to the left, not clearly at a doorway. They wear upper cloths and ankle-length mundus, with hair knotted at the back rather than the Nair front knot. Padmini's sword is not visible). Hands and anatomy are sound. Lettering space: open sky at top centre (x 0.30 to 0.58, y 0.02 to 0.20) easily holds both PADMINI balloons. If the author accepts the drop as a known deviation, v01 can be used as is: Padmini's mouth for the tails of lines 0 and 1 is at about (0.462, 0.360). Faces: Nagoji (0.184, 0.21, r 0.10), Padmini (0.43, 0.33, r 0.085), clerk (0.87, 0.465, r 0.04), sword man (0.938, 0.415, r 0.045), plus small verandah faces along y 0.22 to 0.43.",
+   "correction": "Keep this composition, setting and light exactly: the sunny inner courtyard of Velinadu Kovilakam, red laterite steps rising to a tiled-roof pillared hall, plain cream banners hanging still, women along the verandahs, the round-faced clerk with a greying moustache, palm-leaf bundle and stylus, the sword-bearer at right, Nagoji at left beside a brown horse in boots with sleeves to the wrists, Padmini at centre beside a grey horse, and open sky at top centre. FIX NAGOJI'S EAR: his only ear ornament is one tiny round gold STUD set flush against the front of the earlobe, no bigger than a lentil, with NOTHING hanging below the lobe. No teardrop, no pendant, no bead on a hook, no hoop, no dangling drop of any kind, even though the reference sheet shows a hanging drop; ignore the sheet's earring. Also keep Padmini's hair solid glossy black coiled at the nape with no grey or silver strands, show her just pulling her long walking stick from its strap on the saddle, and have the clerk and the sword-bearer turn their heads toward the empty dark doorway at the top of the steps."
+  },
+  {
+   "id": "page-03-panel-01",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.39,
+     "y": 0.16
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.37,
+     "y": 0.15,
+     "r": 0.09
+    },
+    {
+     "x": 0.7,
+     "y": 0.1,
+     "r": 0.11
+    }
+   ],
+   "backup_faces": [],
+   "issues": "SETTING pass: a stone verandah of a Kerala house with dark granite pillars, a red-earth courtyard, tiled roofs, white walls and coconut palms. There is no fort, ship or European building. SHEET BACKDROP pass: nothing from the sheets' backgrounds (no hill fort, no white sheet ground). EAR pass, borderline: a tiny gold ball sits right at the lobe. It reads as a stud at print size, with no ring and no long drop. CHIN pass: clean-shaven, faint shading only, thick curled moustache. PADMINI HAIR: not applicable, Padmini is not in this panel. FEET pass: Nagoji is barefoot and Revathi is barefoot with a gold anklet. SLEEVES pass: both of Nagoji's sleeves reach the wrists. TEXT pass: no letters, pseudo-text or painted balloons. PERIOD pass: brass nilavilakku lamps with open wicks, a brass pot, a carved wooden door and a red rug inside. There is no glass lantern and no cane chair. BEAT pass: Revathi is the bright focal point, full figure, with morning light through the pillars behind her. She wears an indigo and gold sari with the end over her left shoulder and her right shoulder bare. Armlets, coin necklace, jasmine braid, sandalwood line and kohl are all present, with no tali. Her eyes are on Nagoji, who stands risen and barefoot at frame right in a three-quarter back view. Minor points, not disqualifying: (1) Nagoji is big in frame, in the right third rather than tight at the edge, but he works as an over-the-shoulder device. (2) His talwar is tucked diagonally across his lower back, hilt near the spine, not at the left hip. (3) The 2.4 mat and tumbler are not shown and Padmini is off-frame. Lettering space: the caption can sit over the roof and sky at top left (x 0 to 0.30, y 0 to 0.12) or on the open floor at bottom centre. Revathi's balloon fits over the pillar tops and sky at top centre (x 0.44 to 0.64, y 0 to 0.09), clear of both faces.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-02",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 1,
+     "y": 0.45
+    },
+    {
+     "copy_index": 1,
+     "x": 0.12,
+     "y": 0
+    },
+    {
+     "copy_index": 2,
+     "x": 1,
+     "y": 0.45
+    }
+   ],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Clean pick. SETTING pass: stone verandah with granite pillars, brass nilavilakku in the doorway, red-earth courtyard, tiled roof and palms beyond. Matches 2.4 and 5.4. SHEET BACKDROP pass: nothing copied from the sheet. EAR not visible (insert). CHIN not visible. PADMINI HAIR n/a. FEET not visible. SLEEVES pass: the left sleeve is rolled up to the elbow as 5.2 requires. The right cuff rides a few inches up the forearm as it reaches across, which is natural and allowed in 5.2. TEXT pass: the brand is a puckered patch of raised ridges with no letters, numerals or cross. PERIOD pass. BEAT pass: tight insert of the LEFT forearm (palm-up left hand, thumb on the correct side) as his right hand pushes the cream sleeve up. Brand on the inner forearm about a hand's width above the wrist. Thin white scar runs from wrist toward elbow. Red sash and cream tunic match the commander look. Hands are sound: a cupped palm-up left hand and a gripping right hand. Nails are clean with only faint ridging, a minor point. Lettering space: stone floor at lower middle, the pillar and roof area at upper right, and the dark doorway around the lamp. All three off-panel lines can sit there without covering the brand or scar. Tails: Nagoji is off the top edge above his torso at frame left. Revathi is placed off the right edge, opposite him, following the 4.3/4.4 blocking.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-04",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.382,
+     "y": 0.285
+    },
+    {
+     "copy_index": 1,
+     "x": 0.382,
+     "y": 0.285
+    },
+    {
+     "copy_index": 2,
+     "x": 0.382,
+     "y": 0.285
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.355,
+     "y": 0.22,
+     "r": 0.24
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Clean pick. SETTING pass: Kerala verandah with granite pillars, cream walls, a brass hanging chain lamp, a carved wooden door, a stone compound wall with tiled coping, palms and red earth. Consistent with 5.2. The flashback is a Portuguese cellar, as scripted. SHEET BACKDROP pass: no sheet fort or hills. EAR pass: a tiny flush gold stud, not a drop. CHIN pass: clean-shaven, thick curled moustache, long curly black hair, rust-red turban; matches the nagoji-v2 face. PADMINI HAIR n/a. FEET not visible (waist-up). SLEEVES pass: both cream sleeves are down; the left arm at frame right is fully covered. TEXT pass: the ledger shows only a faint ruled grid and grey smudges, with no letters or numerals. PERIOD pass: oil lamps, quill, barrels; no glass lanterns or European furniture on the verandah. BEAT pass: full-width hard-faced Nagoji, and the cellar (clerk's hand with quill over an open ledger, slit-window light, damp stone) bleeds into the right edge like a smoky stain rather than a clean frame. The clerk's hand anatomy is sound. Minor, not disqualifying: the brass sword hilt has a rounded cap pommel rather than a clear talwar disc pommel. Lettering space: the plain granite pillar left of his head, the cream wall between his head and the cellar bleed, and the dark upper cellar wall at top right. All three NAGOJI lines fit there without covering his face or the ledger.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-05",
+   "pick": null,
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "v01 rejected. SETTING: pass (Kerala noble house with pillared verandah, white walls, tiled roof and palms beyond, inner doorway; no fort, cell, ships or European building). SHEET BACKDROP: pass (no Deccan fort or sheet scenery copied). EAR: pass (tiny flush gold stud on the visible ear). CHIN: pass (clean-shaven, thick curled moustache). PADMINI HAIR: pass (thick black, coiled at the nape, no grey; cream gold-bordered sari and walking stick match her sheet). FEET: fail/unverifiable (Nagoji's feet are cut off by the bottom edge; he sits on a wooden bench with his legs down instead of cross-legged and barefoot on the stone). SLEEVES: pass (down to the wrists). TEXT: pass (no letters or pseudo-text; the framed picture on the inner wall is blank imagery). PERIOD: FAIL (Revathi sits in a European-style turned-wood armchair with a woven cane back panel and ball finials, exactly the cane-chair anachronism; Nagoji's legged bench is also wrong for this scene). BEAT: partial (the over-the-shoulder angle from behind Revathi is right: jasmine braid, bare right shoulder, armlet, coin necklace, onto Nagoji; Padmini with her stick is in the inner doorway, listening. But the furniture contradicts the whole verandah sequence, where both sit on mats on the verandah stone with the brass plate between them (5.1, 6.1, 6.5, 8.1 cross-legged, 9.3 'still seated on his mat'). Padmini is also brighter, larger and closer than 'a small figure half in shadow, deep in the house'). Lettering space in the upper third (plain wall left of the doorway and right of Nagoji's turban) is adequate.",
+   "correction": "Remove all furniture: no chairs, no armchair, no cane or rattan or woven-back seat, no bench, no stool. Revathi and Nagoji both sit directly on woven grass mats laid on the flat stone floor of the open verandah, a short space apart, with a brass plate of plantain and a brass tumbler on the stone between them. Keep the camera low at seated eye level, just behind and to the left of Revathi, looking over her shoulder at Nagoji: Revathi seen from behind, sitting on the mat with her deep indigo and gold sari end over her LEFT shoulder, her RIGHT shoulder bare, the long braid threaded with jasmine, flat gold coin necklace and gold armlet, exactly as in the current version. Nagoji faces her across the plate, sitting cross-legged on his mat with both bare feet visible (no boots, no sandals), in his rust-red turban, cream tunic with sleeves down to the wrists, broad red sash, cream trousers and talwar laid beside him, thick curled moustache, clean-shaven chin, tiny flush gold ear stud, the same wary sideways look. Through the inner doorway behind him, set further back and deeper in the house than now, Padmini is a small figure half in shadow, partly behind the door frame, holding her walking stick, black hair coiled at the nape, in her cream gold-bordered sari, listening. Keep the brass oil lamps with open wicks, the lattice window and the plain white wall areas in the upper third clear and low in detail for lettering, with both faces below them."
+  },
+  {
+   "id": "page-09-panel-01",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.479,
+     "y": 0.322
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.39,
+     "y": 0.26,
+     "r": 0.125
+    }
+   ],
+   "backup_faces": [],
+   "issues": "SETTING pass: a stone verandah with granite pillars, a tiled-roof outbuilding, a red-earth courtyard, a coconut palm and an inner doorway with a brass nilavilakku. No fort, ships or European buildings. SHEET BACKDROP pass: nothing copied from the plain sheet background. EAR not applicable (no Nagoji). CHIN not applicable. PADMINI HAIR not applicable. FEET not applicable. SLEEVES not applicable. TEXT pass: no letters or pseudo-text. PERIOD pass: brass oil lamp with open wicks and a stone planter, nothing anachronistic. BEAT mostly pass: Revathi is alone and seated on the verandah step (consistent with rising in 9.3). The sari end sits over her LEFT shoulder and covers her chest, her RIGHT shoulder is bare and prominent, and her eyes are fixed off-panel toward image right, where Nagoji sits in 8.5. Minor issues: the framing is a waist-up medium rather than tight, and the shrug barely reads because the shoulder is not visibly raised. Her hard frown carries 'Not from mine' well. Costume matches the sheet and bible: indigo and gold sari, jasmine braid, flat gold coin necklace, armlets on both upper arms, sandalwood line at the hairline, kohl, no tali. The anklet is out of frame. Nitpick: a thin orange highlight along her hair parting could be misread as sindoor, though it is small at print size. Lettering: clear sky in the upper right (about x 0.62 to 0.98, y 0 to 0.17) holds the short balloon, with a tail down-left to her mouth that covers no face or hands.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-02",
+   "pick": null,
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "v01 rejected. BEAT fail: Nagoji stands by a pillar with his hands behind his back, looking away to the upper right. The script has him seated cross-legged on his mat in 8.1 and 'still seated on his mat' in 9.3, so a standing 9.2 breaks continuity. He also looks away from where Revathi sits (she is to his image left in 8.5 and looks toward image right in 9.1). CHIN fail: noticeable grey stubble shading on the chin and jaw, where the commander look must be cleanly shaved. SETTING pass: a Kerala stone verandah with tiled roofs, a red-earth courtyard, whitewashed walls, an inner doorway and brass lamps. SHEET BACKDROP pass: no hill fort or stone cell. EAR pass: a tiny flush gold stud. FEET not visible (cropped at the knees). SLEEVES pass: down to the wrists. TEXT pass: none. PERIOD pass: hanging brass lamp and standing brass lamp with open wicks, a wooden bench with a woven top. Lettering space would have been fine (sky upper left, white wall right).",
+   "correction": "Nagoji is SEATED, not standing: he sits cross-legged on a woven grass mat laid on the stone verandah floor, exactly as in the panels before and after this one. He is barefoot, with both bare feet tucked and visible at the bottom of the frame, and his hands rest still on his knees. Show him in a medium shot from the waist or knees up, turned three-quarters toward the LEFT edge of the frame, eyes level and steady on Revathi, who sits just outside the frame on the left. His face is completely still and unreadable: no frown, no raised brow, no smile. Chin and jaw are smoothly and cleanly shaved with no stubble shading or grey dots. Keep everything else that worked: rust-red turban, long curly black hair, thick curled moustache, tiny flush gold stud on the earlobe, cream tunic with sleeves down to the wrists, broad red sash, talwar laid at his side, granite verandah pillars, red-earth courtyard and tiled roofs beyond, the open inner doorway with brass oil lamps. Keep the upper third of the frame as plain open sky or a whitewashed wall, especially along the upper LEFT, for one caption and two speech balloons from off panel to the left."
+  },
+  {
+   "id": "page-10-panel-04",
+   "pick": null,
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "v01 rejected on EAR. At zoom, Nagoji's ear has a round gold ball hanging on a short stem below the lobe. That is the sheet's hanging drop, not the flush stud the author locked on 2026-10-02, and at about 10 px it is visible at panel size. Secondary BEAT miss: Nagoji fills about 55% of the frame height, so he is not 'small in a big frame'. The gate is only foreground leaves at both edges, not clearly behind him, and he looks up and away from the hall rather than toward it. Checks: SETTING pass (red-earth courtyard, laterite walls and gateposts, tiled roofs, pillared hall with granite steps; no fort, ships or European buildings). SHEET BACKDROP pass (no hill fort). EAR fail (hanging gold drop below the lobe). CHIN pass (clean-shaven, light shading only). PADMINI HAIR n/a (not in panel). FEET pass (barefoot, sound toes). SLEEVES pass (down to the wrists). TEXT pass (none). PERIOD pass (brass oil lamps, brass urn; no glass lanterns or cane chairs). BEAT partial fail (figure too large, gate and hall relationship weak; the open sky in the top ~40% is excellent caption space). Hands and anatomy are sound.",
+   "correction": "Keep everything else that worked: late-afternoon warm light, wide open sky filling the top 40% of the frame (clear for four captions), the red-earth courtyard, low laterite walls, tiled roofs, broad trees, the pillared hall verandah with granite steps and brass oil lamps, and Nagoji's costume (rust-red turban, cream tunic with sleeves to the wrists, broad red sash, cream trousers, talwar, barefoot). Change two things. First, make Nagoji truly small in a big frame. His whole figure, turban to feet, should be no more than one third of the panel height, standing in the middle distance of the courtyard. Behind him in the lower left is the tiled gatehouse with its open wooden gate leaves. Ahead of him in the lower right are the verandah steps of the hall. He stands between them in three-quarter view, facing the hall. Second, his ear ornament must be a tiny gold stud pressed flat against the earlobe, with no ball, bead, drop or ring hanging below the lobe. Do not copy the hanging drop on the reference sheet. If in doubt, let his long curls cover the near ear completely."
+  },
+  {
+   "id": "page-10-panel-05",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.298,
+     "y": 0.228
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.368,
+     "y": 0.098,
+     "r": 0.085
+    },
+    {
+     "x": 0.264,
+     "y": 0.19,
+     "r": 0.065
+    },
+    {
+     "x": 0.672,
+     "y": 0.125,
+     "r": 0.06
+    },
+    {
+     "x": 0.768,
+     "y": 0.33,
+     "r": 0.045
+    },
+    {
+     "x": 0.812,
+     "y": 0.37,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 acceptable. Checks: SETTING pass (night, outer granite steps of the hall, brass oil lamps on the plinths, palms against the dark sky, lit pillared hall through the doorway; no fort, ships or European buildings). The dark stone steps and wall block show no tiled roof or laterite in view, and the interior's gilded carved pillars are a little grand, but it reads as the Kovilakam hall and stays consistent with the granite steps and brass lamps of 10.4. SHEET BACKDROP pass. EAR pass (a tiny gold stud on the lobe; a 2 px speck under it, reads as a flush stud at panel size). CHIN pass (clean-shaven). PADMINI HAIR pass (thick black, coiled at the nape, no grey). FEET pass (Nagoji barefoot on the steps; the servant is barefoot too). SLEEVES pass (down to the wrists, hands clasped behind his back). TEXT pass (none). PERIOD pass (open-wick brass lamps; no glass lanterns or cane chairs). BEAT pass: the servant in a plain white mundu with shoulder cloth leans in and whispers to Nagoji, and through the lit doorway Padmini (cream gold-bordered sari matching her sheet, walking stick, short sword at her side) stands with seated white-haired house elders. Minor notes, none disqualifying. The servant wears a white head cloth and an ankle-length mundu. The chapter's Nair-men rule says bare-headed with the mundu hitched to the knee, but the script does not call him a Nair, and a servant's head cloth is period-plausible. Padmini is turned toward the elders rather than visibly mid-speech. She clutches her sheathed short sword at the hip. Lettering: put 'That night.' in the top-left night sky (x 0.02-0.25, y 0.02-0.10). The SERVANT balloon fits just below it, in the dark sky and foliage left of and above the servant's head (x 0.0-0.22, y 0.10-0.32), with a short tail to his mouth behind his cupped hand. Hands and anatomy are sound (servant's cupped hand reads correctly).",
+   "correction": ""
+  }
+ ],
+ "missing": []
+}

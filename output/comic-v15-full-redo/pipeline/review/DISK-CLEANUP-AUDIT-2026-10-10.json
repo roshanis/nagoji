@@ -1,0 +1,492 @@
+[
+ {
+  "category": "Whole superseded chapter packages in output/comic-v15-full-redo/chapters. There are 37 non-final package folders: ch01, ch05, ch05-split, ch06, ch07, ch08, ch09, ch09-pilot, ch09-split, ch10, ch10-split, ch11, ch11-split, ch12, ch12-split, ch13, ch14, ch14-split, ch15, ch16, ch16-split, ch16-split2, ch17, ch18, ch20, ch20-split, ch21, ch21-split, ch22, ch23, ch24, ch24-split, ch25, ch25-split, ch25-split2, ch26 and ch28. They use 24.55 GB in total (du blocks). ch02-pilot does not exist.",
+  "safe": [
+   {
+    "what": "Superseded chapter PDFs whose chapter already has a newer final build on disk: ch05 (2 files), ch05-split (2), ch06 (5), ch09-split (1), ch12 (2), ch12-split (1), ch21-split (2) and ch25-split2 (3). ch25-split3 r1 is built and passes: 15 pages, 123/123 text chunks, minimum 305.98 ppi. No final package or build path reads these files. The only links to them are in superseded reports such as V15-FINAL-REPORT-2026-10-09.html.",
+    "gb": 6.761,
+    "how_to_select": "List file /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/supersededpkg-audit/SAFE_pdf.txt (18 paths). Equivalent pattern: output/comic-v15-full-redo/chapters/{ch05,ch05-split,ch06,ch09-split,ch12,ch12-split,ch21-split,ch25-split2}/pdf/*.pdf"
+   },
+   {
+    "what": "300 dpi page renders of the same 8 packages. They can be rebuilt and no final package reads them.",
+    "gb": 0.826,
+    "how_to_select": "List file .../scratchpad/supersededpkg-audit/SAFE_renders.txt (185 paths). Pattern: output/comic-v15-full-redo/chapters/{ch05,ch05-split,ch06,ch09-split,ch12,ch12-split,ch21-split,ch25-split2}/renders/**"
+   },
+   {
+    "what": "2x upscales (frames/*-2x.png) in superseded packages, excluding ch01 and the 15 cache files listed under CAUTION. compositor.dpi_gate only writes and reads <final package>/frames/<stem>-2x.png, so no final build can read these. Of the 193 files, 120 are byte-identical to a 2x file already in a final package, 48 have a different 2x of their own in the final package, and 28 belong to frames the final package does not select.",
+    "gb": 1.748,
+    "how_to_select": "List file .../scratchpad/supersededpkg-audit/SAFE_2x.txt (193 paths). Per package: ch05, ch05-split, ch06, ch07, ch09-split, ch12, ch12-split, ch14-split, ch16-split, ch21-split, ch24-split, ch25-split2"
+   },
+   {
+    "what": "Frames of ch16-split2, which is marked SUPERSEDED.txt and was never used. All 120 frames are byte-identical (sha256) to frames in the final ch16-split3. Nothing outside ch16-split2 references this package. It has no 2x files, renders or PDFs. Its 1 MB of records could also go, but there is no need.",
+    "gb": 0.343,
+    "how_to_select": "List file .../scratchpad/supersededpkg-audit/SAFE_ch16-split2_frames_identical_in_ch16-split3.txt. Pattern: output/comic-v15-full-redo/chapters/ch16-split2/frames/*.png"
+   }
+  ],
+  "caution": [
+   {
+    "what": "Renders and PDFs of the packages being replaced by builds that are running right now: ch07 (r4-r6 PDFs 1.377 GB, renders 0.175 GB), ch14-split (r1-r3 PDFs 1.219 GB, renders 0.124 GB), ch16-split renders (0.223 GB) and ch24-split renders (0.316 GB). The ch07-turn and ch14-split2 r1 PDFs are 0 bytes because they failed when the disk filled. The r2 builds were being written at 12:57-12:58. ch16-split3 and ch24-split2 have no PDF yet and are upscaling now. The ch16-split and ch24-split PDFs were already moved to the Trash (TRASHED-2026-10-10.json), so these renders are the only built pages of chapters 16 and 24 still on disk. These files become SAFE once the new PDF for each chapter exists and its review/DPI-REPORT and TEXT-CHECK files say pass.",
+    "gb": 3.433,
+    "why": "Until the replacement builds are verified, these are the last complete builds of chapters 7, 14, 16 and 24."
+   },
+   {
+    "what": "ch01 pilot renders and PDFs r1-r6 (51 files).",
+    "gb": 1.239,
+    "why": "These are the delivered v15 pilot. ch01-v2/review/BASELINE-r7.json and the five-lens reviews cite them as the baseline. They were built with an older compositor (several .backup-pre-* versions exist), so a rebuild may not reproduce them exactly. They cannot be rebuilt at all unless ch01 is kept whole."
+   },
+   {
+    "what": "15 superseded 2x upscales whose source bytes are picked in a final package that has no 2x of its own for that frame: ch16-split (6) and ch24-split (3) for builds that have not finished, plus ch05 (2) and ch07 (4).",
+    "gb": 0.136,
+    "why": "They could be copied under the new stem to save about a minute of upscaling per frame. They become SAFE once the ch16-split3 and ch24-split2 builds finish, because those builds are making their own 2x files now."
+   },
+   {
+    "what": "Superseded frames whose exact bytes exist in a final package. I hashed all 6,281 non-2x frames, and 2,470 superseded frames match a final frame (ch01 and ch16-split2 excluded). Every entry in all 32 IMPORT-MAP files is byte-identical. All 1,640 imported_from candidate records in the final packages trace back to a byte-identical source. An independent rehash of 25 random pairs matched 25/25. Each package's latest pick and backup set is fully present in its final package.",
+    "gb": 6.992,
+    "why": "No final build depends on these files, because validate_selection requires every frame to be inside the final package. Deleting them would still break the old packages' own records (candidates/*.json and review sheets would point at missing files) and would stop import-frame from being run again from those packages. The images themselves would not be lost."
+   },
+   {
+    "what": "Superseded frames that are not in any final package (917 files outside ch01). 829 are rejected attempts that were never picked (about 2.38 GB). About 88 were picks, backups or selected frames in older rounds or older selection tags that later decisions replaced. By package, ch23 0.222, ch16 0.209, ch07 0.190, ch22 0.175, ch24 0.167, ch08 0.147 and ch11 0.145 GB are the largest.",
+    "gb": 2.665,
+    "why": "They exist only in these package folders. For 898 of them a byte-identical original is still in ~/.codex/generated_images, so if that folder is cleaned as well they become the only copy. 13 are copies of the uncaptured-fix images in ch09/review. 6 exist nowhere else at all, because their /tmp composite sources are gone: ch05-split page-09-panel-02-v02 and -v03, ch09 page-10-panel-05-v03, ch10 page-01-panel-02-v02, and ch12 page-05-panel-03-v03 and page-08-panel-05-v02. List file: .../supersededpkg-audit/CAUTION_frames_not_in_any_final(rejected_or_superseded_picks).txt"
+   }
+  ],
+  "keep": [
+   {
+    "what": "prompts/ folders of every superseded package (3,779 text files).",
+    "gb": 0.022,
+    "why": "These are needed to build the finals. About 1,370 frame rows in the final SELECTION-INPUT tags have their prompt_path inside these folders (for example ch24/prompts 145 rows, ch16 103, ch23 88 and ch11 87), covering every split chapter. compositor.validate_selection (compositor.py:720) hashes each prompt_path and refuses the build on a mismatch or a missing file. It runs twice per build, before and after dpi_gate. The builds running now for ch07-turn, ch14-split2, ch16-split3 and ch24-split2 read ch07, ch14, ch16, ch16-split and ch24 prompts."
+   },
+   {
+    "what": "The whole ch01 frames folder (55 frames and 3 2x files).",
+    "gb": 0.13,
+    "why": "Every ch01-v2 SELECTION-INPUT tag, including the final d9t-b, lists ch01/frames page-02-panel-02-v15-r1, page-06-panel-01-v15-r1 and page-08-panel-02-v15-r1 as reference images, and validate_selection hashes those (compositor.py:722). concepts/FACE-REFERENCES-v15.json and SOURCE-INTEGRITY-v15.json point to 5 ch01 frames. 38 pilot frames have no candidate record, and 35 of their bytes exist nowhere else. Older ch01-v2 manifests and selections point to ch01 2x files."
+   },
+   {
+    "what": "All JSON, Markdown and text records in superseded packages: candidates, review, top-level SELECTION-INPUT, MANIFEST, IMAGEGEN-JOBS, LEAN-SELECTION and IMPORT-MAP files, CONTINUITY-SNAPSHOT.md, and the ch09/review/uncaptured-fix-r1 images (0.046 GB, the only originals of 13 ch09 frames).",
+    "gb": 0.254,
+    "why": "This is the provenance chain: imported_from.record and record_sha256 in 1,640 final candidates, and pick and backup history. pipeline/test_script_pipeline.py:1208 reads chapters/ch05/CONTINUITY-SNAPSHOT.md, so deleting it fails a test. The records are small."
+   }
+  ],
+  "findings": "The folder is completely untracked: git ls-files on output/comic-v15-full-redo returns 0 files, and the folder is not ignored. No git copy exists, so anything deleted is gone for good unless it goes to the Trash.\n\nBuilds are running now. At 12:57-12:58 ch07-turn wrote its r2 PDF (429 MB) and an updated DPI-REPORT, ch14-split2 wrote SELECTION-MANIFEST-r2, and ch16-split3 and ch24-split2 were writing 2x upscales. Do not delete anything until these finish.\n\nThe deletion plan must change: whole packages cannot go. Every split final reads prompts from its superseded parent at build time (compositor.py:720, hash-checked). ch01-v2 also reads 3 ch01 frames as hash-checked reference images (compositor.py:722-724). Removing whole package folders would break the builds of chapters 1, 5-18 and 20-28.\n\nOther references into superseded packages are not needed for builds. They are provenance:\n- imported_from.package and record in the final candidates and manifests.\n- the review-sheets/LEAN-BATCH and GENERATION-LOG files (about 6,700 frame paths).\n- concepts/SHEET-REVIEW*.json.\n- V15-FINAL-REPORT-2026-10-09.html and .json, which link to ch07 r6, ch14-split r3 and ch25-split2 r3.\n- ch01-v2/review/BASELINE-r7.json, which links to ch01 PDFs and renders.\npipeline/test_run_chapter.py names ch09-pilot only as a path with prepare mocked, so it does not need the folder.\n\nHash checks:\n- All 6,281 non-2x frames across all packages were sha256-hashed.\n- All 32 IMPORT-MAP files: every entry is byte-identical, with 0 mismatches.\n- 1,640 of 1,640 imported candidate records in the finals have byte-identical sources.\n- 25 of 25 independent re-hash samples matched.\n- Every recorded pick, backup and selection frame is still on disk.\n- No hard links were found. Imports write real byte copies (run_chapter.import_frame), so deleting frees real space.\n\nSurprises:\n1. ch07-turn and ch14-split2 have 0-byte r1 PDFs from the build that failed when the disk filled.\n2. Chapters 16 and 24 currently have no complete PDF anywhere on disk. Their earlier PDFs are listed in TRASHED-2026-10-10.json (18 PDFs, 15.87 GB) and were not found in ~/.Trash, either because it was emptied or because the sandbox cannot read it. The disk now shows 27 GB free.\n3. ch25-split holds only prompts and records (1 MB, 0 frames).\n4. ch09-pilot has 10 unique rejected frames (0.028 GB); they are included in the CAUTION rejected-frames figure.\n5. A stray chapters/.claude folder is empty.\n\nTotals for the 24.55 GB: SAFE 9.678 GB now, CAUTION 14.465 GB, KEEP 0.407 GB. About 3.4 GB of the CAUTION (ch07, ch14-split, ch16-split and ch24-split renders and PDFs) plus the 0.136 GB of 2x caches become SAFE once ch07-turn r2, ch14-split2 r2, ch16-split3 and ch24-split2 are built and verified. 6.99 GB more (frames whose bytes exist in a final package) can go if the user accepts dangling paths in the old packages' own records.\n\nPath lists are in /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/supersededpkg-audit/, one .txt per bucket: SAFE_pdf, SAFE_renders, SAFE_2x, SAFE_ch16-split2_frames_identical_in_ch16-split3, CAUTION_*, KEEP_*. That folder sits in a scratchpad other agents also write to; I found my earlier hashes.json and hashall.py overwritten and redid that work in this private subfolder."
+ },
+ {
+  "category": "Superseded build outputs: comic-v15-full-redo/chapters/*/renders/rN and */pdf/*-rN.pdf (every revision except the final one per chapter), plus partial outputs of failed builds",
+  "safe": [
+   {
+    "what": "Superseded chapter PDFs (89 files) in final and non-final packages. None is a final revision or a gate, and nothing outside their own build records (DPI-REPORT/TEXT-CHECK/COMPOSITION) and the SUPERSEDED list cites them. All 161 revision manifests still resolve to frames on disk, so they can be rebuilt (not byte-identical, see findings).",
+    "gb": 32.26,
+    "how_to_select": "The pdf/ lines of /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/audit/list-SAFE.txt (grep '/pdf/' on that file). Absolute paths, one per line."
+   },
+   {
+    "what": "Superseded 300 dpi render folders (107 directories of page-NN.png). Same basis as the PDFs above.",
+    "gb": 6.46,
+    "how_to_select": "The /renders/rN lines of .../scratchpad/audit/list-SAFE.txt (grep '/renders/r'). These are directories, so remove them recursively. ch03/renders/r1 and ch04/renders/r2 each hold an empty .claude/.cc-writes dir that the sandbox will not let a sandboxed rm touch."
+   },
+   {
+    "what": "Partial outputs of failed builds: ch01 r1, ch14-split r1 and ch26-split r1 (complete-size PDFs with no RENDERS/DPI-REPORT/TEXT-CHECK records, so verify failed), plus 0-byte PDFs from the 12:41 disk-full failures: ch07-turn r1 and ch14-split2 r1. The last two are not on the SUPERSEDED list. compose() raises FileExistsError on an existing PDF, so they block any rebuild that reuses --revision r1. Both packages have since been built as r2.",
+    "gb": 1.09,
+    "how_to_select": ".../scratchpad/audit/list-SAFE-partial.txt (5 PDF paths)"
+   }
+  ],
+  "caution": [
+   {
+    "what": "The 10-09 delivered set: 19 superseded PDFs that V15-FINAL-REPORT-2026-10-09 (.md/.json/.html) lists as each chapter's PDF (ch03 r11, ch04 r15, ch05-split2 r6, ch06-split r10, ch07 r6, ch08-split r7, ch09-split2 r4, ch10-split2 r4, ch12-split2 r8, ch14-split r3, ch17-split r1, ch18-split r2, ch19 r2, ch20-split2 r3, ch21-split2 r1, ch22-split r4, ch26-split r3, ch27 r3, ch28-split r4). Each one is superseded by a verified 10-10 build at the imposition folios. Precedent: the author already approved trashing six PDFs from this same set (ch11 r5, ch13 r2, ch15 r3, ch16 r2, ch23 r4, ch24 r2). ch07 r6 and ch14-split r3 lost their gate during this audit, because ch07-turn r2 (12:57, 13 pp, folio 57) and ch14-split2 r2 (13:00, 13 pp, folio 172) both completed with TEXT-CHECK pass.",
+    "gb": 8.84,
+    "why": "Provenance only: these are the PDFs the 10-09 book report names. They can be rebuilt, but not byte-identically, because compositor.py and run_chapter.py changed on 10-09 and 10-10."
+   },
+   {
+    "what": "Superseded renders and PDFs that review records cite as evidence: FIVE-LENS-REVIEW-*, VISUAL-REVIEW, FINAL-(PAGE-)VISUAL-REVIEW, DELIVERY*, BASELINE-r7, DUARTE-CORRECTION-VERIFICATION-r6, REVIEW-r*, review-sheets/REVIEW-ch07-r5, REVIEW-ch06-split-r7, REVIEW-ch11-split2-r1, IDENTITY-AUDIT-2026-10-08 (ch05-split2 r4, ch06-split r8, ch08-split r5). That is 22 render dirs and 5 PDFs: ch01 r5/r6, ch01-v2 r7, ch02 r1, ch03 r8. ch01-v2/review/BASELINE-r7.json also cites ch01 r1-r4.",
+    "gb": 1.98,
+    "why": "Provenance only. The review verdicts point at these exact page images. They are rebuildable but not byte-identical."
+   },
+   {
+    "what": "Gate: chapters/ch25-split2/pdf/Horse-of-the-Servant-V15-Chapter-25-r3.pdf, the old package's newest PDF. ch25-split3 r1 exists (15 pp, TEXT-CHECK pass, s1-b plus LAYOUT-solved-s1), but it was built at first folio 365, and V15-IMPOSITION-2026-10-10 says 379 (ch24 grew to 37 pages: 342+37). A folio rebuild of ch25-split3 is still pending.",
+    "gb": 0.49,
+    "why": "The rule says to keep the old package's newest PDF until the new package's final build exists. The new content exists, but at the wrong folio."
+   },
+   {
+    "what": "Gate: chapters/ch16-split/renders/r2 and chapters/ch24-split/renders/r2. ch16 and ch24 currently have no PDF on disk: the old newest PDFs were trashed, and ch16-split3 and ch24-split2 were still building (PIDs 7853 and 5126, upscaler active at 12:52-13:01). These folders are the only on-disk image of those chapters.",
+    "gb": 0.27,
+    "why": "Delete them only after ch16-split3/review/RENDERS-r1.json and ch24-split2/review/RENDERS-r1.json exist. Do not empty the Trash copies of ch16-split r2 and ch24-split r2 before then either."
+   }
+  ],
+  "keep": [
+   {
+    "what": "Final revision of each chapter: renders dir and PDF of the newest RENDERS-rN.json in the final package. ch01-v2 r15, ch02 r5, ch03 r12, ch04 r16, ch05-split2 r7, ch06-split r11, ch07-turn r2, ch08-split r8, ch09-split2 r5, ch10-split2 r5, ch11-split2 r6, ch12-split2 r9, ch13-split r3, ch14-split2 r2, ch15-split r4, ch17-split r2, ch18-split r3, ch19 r3, ch20-split2 r5, ch21-split2 r3, ch22-split r5, ch23-split r5, ch25-split3 r1 (pending folio rebuild), ch26-split r4, ch27 r4, ch28-split r5. That is 26 PDFs (13.16 GB) and 26 render dirs (1.71 GB).",
+    "gb": 14.87,
+    "why": "These are the deliverables. Each was verified: its manifest matches the final b-tag selection, its geometry matches the final layout, and its page count and first folio match V15-IMPOSITION-2026-10-10 (except ch25). Sampled PDF and page hashes match their records."
+   },
+   {
+    "what": "chapters/ch01/renders/r6. It is on the SUPERSEDED list but should be removed from it.",
+    "gb": 0.04,
+    "why": "pipeline/review/session-tools-2026-10-04/v15-chapter-review.js hard-codes chapters/ch01/renders/r6/page-01.png as the approved lettering standard in its review prompt. DUARTE-CORRECTION-VERIFICATION-r6 and FIVE-LENS reviews also cite it."
+   },
+   {
+    "what": "Everything in chapters/ch16-split3 and chapters/ch24-split2",
+    "gb": 0,
+    "why": "Live builds were running at audit time (run_chapter.py build --revision r1, writing frames/*-2x.png). Do not touch these packages until RENDERS-r1.json appears."
+   }
+  ],
+  "findings": "Bottom line: 39.8 GB can go now with no loss: the SAFE plus SAFE-partial lists. Another 8.8 GB (the 10-09 delivered PDFs) can go if the author OKs it, and that set already has precedent. 2.0 GB of review-evidence renders and PDFs and 0.76 GB of gated items can follow. In total, 51.4 GB of 66.3 GB on disk in this category is removable. Units are decimal GB of allocated blocks; allocated equals size, and nothing is hard-linked or symlinked.\n\n1. SUPERSEDED-OUTPUTS-2026-10-10.json checks out. It has 267 items: 249 on disk (51.43 GB) plus 18 already trashed (15.87 GB, matching TRASHED-2026-10-10.json), which gives its 67.3 GB total. Every trashed item is absent from disk. Corrections to the list:\n   (a) Keep chapters/ch01/renders/r6. It is the lettering standard hard-coded in v15-chapter-review.js.\n   (b) It lists the old-package newest PDFs (ch07 r6, ch14-split r3, ch25-split2 r3). By the time of this audit, ch07 and ch14 were safe to drop: ch07-turn r2 and ch14-split2 r2 completed at 12:57 and 13:00, both verified. ch25 is still gated.\n   (c) It misses the two 0-byte PDFs, ch07-turn r1 and ch14-split2 r1, left by the 12:41 failed builds. Their SELECTION-MANIFEST-r1.json files are orphans too, but those are outside this category.\n\n2. Things that changed after the task text was written:\n   (a) ch25-split3 r1 was built at 12:45, but at folio 365. The imposition says 379. It needs a folio rebuild; until then keep ch25-split3 r1 and treat ch25-split2 r3 as CAUTION.\n   (b) ch16 and ch24 have no PDF anywhere on disk. The old newest PDFs, ch16-split r2 and ch24-split r2, were trashed despite the keep-until-built rule. ~/.Trash is unreadable here (TCC blocks it even unsandboxed), and Spotlight finds nothing, so they may already be gone. They can still be rebuilt from the ch16-split and ch24-split r2 manifests: all frames, including the -2x upscales, exist.\n   (c) Free space is now 26 GiB (28 GB) per df at 12:59 and 13:01, not under 1 GB.\n\n3. Verification done:\n   (a) For each package, I matched every SELECTION-MANIFEST-rN to its SELECTION-INPUT tag (frame id to path, with -2x normalized) and to its layout (geometry rows against page_rows). The newest RENDERS revision of every final package uses the final tag and layout.\n   (b) I read page count and first folio from all newest PDFs with pypdf and compared them to V15-IMPOSITION-2026-10-10. All match except ch25-split3 r1, plus the old ch07 r6, ch14-split r3 and ch25-split2 r3, which are now superseded.\n   (c) 14 random render pages match the sha256 in their RENDERS json.\n   (d) The PDFs ch03 r12, ch03 r11, ch07-turn r2 and ch28-split r5 match the pdf_sha256 in their TEXT-CHECK.\n   (e) No render folder is short of pages; each matches its manifest's page_count.\n   (f) Every frame in all 161 revision manifests still exists on disk (0 missing).\n   (g) No symlinks into the v15 folder, and no external scripts outside comic-v15-full-redo reference it.\n\n4. Pipeline safety:\n   (a) run_chapter.py build never reads old renders or PDFs. It refuses an existing PDF (compose) and existing render pages (render_pdf).\n   (b) final_folio_builds.py picks the next revision from RENDERS json, PDFs, manifests and render dirs. Because the review JSONs and manifests stay, deleting renders and PDFs cannot cause revision-number reuse.\n   (c) tail_sheets.py and author_report.py read renders/{rev} only for the revision you pass them, which will be a final one.\n\n5. Risks:\n   (a) output/comic-v15-full-redo is entirely untracked by git (0 tracked files), so rm is unrecoverable. The global CLAUDE.md requires explicit approval plus a backup; moving files to the Trash matches the earlier author-approved method.\n   (b) Superseded revisions are not byte-reproducible. compositor.py and run_chapter.py changed on 10-08, 10-09 and 10-10, and only partial .backup copies exist, so these outputs are provenance only.\n   (c) If another category deletes the -2x upscales of non-final frames, rebuilding any superseded revision costs about a minute per frame.\n   (d) Builds are live, so re-run the inventory before acting: python3 audit/inv.py && python3 audit/final_classify.py in the scratchpad.\n\n6. List files are in /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/audit/: list-SAFE.txt (196), list-SAFE-partial.txt (5), list-CAUTION.txt (3 gates), list-CAUTION-report.txt (19), list-CAUTION-evidence.txt (27), list-KEEP.txt (53). Per-item reasons are in final_classified.json.\n\n7. Largest SAFE contributors by package: ch03 3.35 GB, ch04 2.96, ch01-v2 2.23, ch10-split2 2.09, ch22-split 2.02, ch12-split2 2.01, ch08-split 1.86, ch09-split2 1.85, ch06 1.83, ch28-split 1.77."
+ },
+ {
+  "category": "(1) Codex worktree /Users/roshanvenugopal/Documents/github/nagoji-comic-codex-worktree; (2) stale git worktree metadata; (3) session temp /private/tmp/claude-501",
+  "safe": [
+   {
+    "what": "Session scratchpad review-crop and contact-sheet image folders from Oct 9 (crops, tails-test, ch2728, z, ch21, tc1618, ch26check, ch24a, c2025, ch1112agent, tailcheck). Nothing references them: no v15 record and no scratchpad script. None of the 330 temp PNGs is byte-identical to a package frame, and none has frame dimensions (frames are 1536x1024 and similar; these are crops about 1520 px wide).",
+    "gb": 0.217,
+    "how_to_select": "S=/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad; ls -d \"$S\"/{crops,tails-test,ch2728,z,ch21,tc1618,ch26check,ch24a,c2025,ch1112agent,tailcheck}"
+   },
+   {
+    "what": "Session scratchpad root-level PNGs (51 review crops such as c5_p0103.png, c6_p0203b.png, varma_court.png, s14.png and z14..z20b.png). Unreferenced and not frames.",
+    "gb": 0.03,
+    "how_to_select": "find \"$S\" -maxdepth 1 -type f -name '*.png'   (S as above; do NOT include *.py/*.sh/*.js/*.json)"
+   },
+   {
+    "what": "Loose review PNGs in the temp root (c19, c21v2, c22, c27, c28v, ch21-leaf, ch21-leaf2, ch21-p2p5, fill-a/b, folio14, g21-best, leaf, leafzones, proto13, t2003, varma-ab, varma5, varma8, varma8b). A grep of the v15 tree finds no reference to any of them.",
+    "gb": 0.029,
+    "how_to_select": "find /private/tmp/claude-501 -maxdepth 1 -type f -name '*.png'"
+   },
+   {
+    "what": "Leftover Python TemporaryDirectory folders from Oct 9 (pale.png, q.png, CHAPTER-05-SCRIPT.md copies) plus the t2003 geometry test folder. No pipeline process is running (checked with ps).",
+    "gb": 0.02,
+    "how_to_select": "ls -d /private/tmp/claude-501/{tmp0ux29xe4,tmpavphv485,tmphprki4xs,tmphsx_pvkg,tmpyu79vddr,tmpz35jqkk1,tmpz9iqmlcp,t2003}"
+   },
+   {
+    "what": "Solve caches for superseded tags and packages (18 dirs). The final packages' caches are kept separately, and solve_build.sh does mkdir -p on the cache, so a missing cache only means a slower re-solve.",
+    "gb": 0.003,
+    "how_to_select": "cd /private/tmp/claude-501 && ls -d cache-ch16split2-s1 cache-ch17-s2 cache-ch19-s2 cache-ch21-s2 cache-ch21-s3 cache-ch21-s3f cache-ch21split-s1 cache-ch21split-s2 cache-ch21split-s3 cache-ch21split2-s1 cache-ch22-s2 cache-ch22-s3 cache-ch23-s2 cache-ch24-s2 cache-ch24split-s1 cache-ch26-s2 cache-ch27-s1 cache-ch28-s1"
+   },
+   {
+    "what": "/private/tmp/claude-501/branch-log.md. All 1699 of its entries are present in both the main repo agents-build-log.md and the committed HEAD:agents-build-log.md on claude/v15-comic-ch1-8.",
+    "gb": 0.002,
+    "how_to_select": "/private/tmp/claude-501/branch-log.md"
+   },
+   {
+    "what": "Tracked checkout files inside the Codex worktree. Everything is committed at 819b98b6, which is an ancestor of main, and git status shows no modified tracked files. This only matters if the whole worktree goes.",
+    "gb": 0.012,
+    "how_to_select": "git -C /Users/roshanvenugopal/Documents/github/nagoji-comic-codex-worktree ls-files"
+   },
+   {
+    "what": "Stale git worktree metadata for 8 folders that no longer exist (book2-full, print-v7, print-v7-r3, v10-copyedit, v12-character-style, v13-reference-redesign, v14-chapter-quality, nagoji-v15-claude-worktree). Every commit in their HEAD reflogs is on an existing branch. Pruning does not delete the branches codex/print-edition-v7, codex/print-proof-v7-r3 or claude/v15-comic-ch1-8. REPORT ONLY: not pruned.",
+    "gb": 0.005,
+    "how_to_select": "git -C /Users/roshanvenugopal/Documents/github/nagoji worktree prune --dry-run --verbose   (entries under .git/worktrees/: nagoji-book2-full-codex-worktree nagoji-print-v7-codex-worktree nagoji-print-v7-r3-codex-worktree nagoji-v10-copyedit-codex-worktree nagoji-v12-character-style-codex-worktree nagoji-v13-reference-redesign-codex-worktree nagoji-v14-chapter-quality-codex-worktree nagoji-v15-claude-worktree)"
+   }
+  ],
+  "caution": [
+   {
+    "what": "Codex worktree, three superseded full-book PDFs (Complete-Comic-160-pages, Chapter-Corrected-v2, Marthanda-Varma-Edition-v3). These files exist nowhere else and nothing in the main repo or v15 references them. 12/12 sampled page images are pixel-identical to PNGs in the worktree's illustrations/book1_full_comic_v1 and v3, so their image content survives if the PNGs are kept. The PDF wrappers (bookmarks and links) cannot be rebuilt with the current pipeline: v4 was made by cloning the v3 PDF and swapping its image payloads.",
+    "gb": 1.7,
+    "why": "Unique files, superseded three times over (by v4, then v6/v7, then v15). Their content is redundant only while the PNGs are kept. Lowest-regret large deletion in this category if the author does not need the old PDF editions."
+   },
+   {
+    "what": "Codex worktree Natural-Dialogue-Edition-v4.pdf, the last edition of the pre-v6 line. 4/4 sampled page images are pixel-identical to the v1/v2 PNGs. Its own README records that all 158 payloads match the selected PNGs.",
+    "gb": 0.446,
+    "why": "Unique and unreferenced. It is the only assembled copy of that edition. Its content can be recovered from the PNGs, but the assembly tool is not in the repo."
+   },
+   {
+    "what": "Codex worktree illustrations/book1_full_comic_v1..v4 page and reference art (430 PNG and 2 JPG files). 425 of the worktree's 436 media files have no byte-identical copy anywhere under ~/Documents/github.",
+    "gb": 1.268,
+    "why": "These are the only copy of the pre-v15 v1-v4 comic art. AI-generated, so it cannot be regenerated. V15 never references it (0 hits), but about 200 main-repo records cite it as source or baseline provenance: illustrations/book1_full_comic_v6 (175 files), book1_full_comic_v7 (12), output/comic-lettering-v1 (13), comic-ramayyan-v1, comic-opening-applied-v1, comic-page50-v1 and movie-pilot. Deleting it is irreversible, so archive it to external storage rather than delete it."
+   },
+   {
+    "what": "Codex worktree output/pdf/qa, qa-v2, qa-v3 and qa-v4: PDF page renders used for QA.",
+    "gb": 0.054,
+    "why": "Derived from the PDFs. Provenance only (review evidence for the v1-v4 PDF checks). They cannot be re-rendered if the PDFs are also deleted."
+   },
+   {
+    "what": "/private/tmp/claude-501/rsync-dry.txt and rsync-files.txt: the Oct 9 file lists used to sync main into the commit worktree.",
+    "gb": 0.009,
+    "why": "The final commit will probably regenerate these, but they are the only record of exactly what went into commit 378a03c1's sync. Small, so keep them until the final commit is done."
+   }
+  ],
+  "keep": [
+   {
+    "what": "Commit worktree /private/tmp/claude-501/nagoji-v15-commit-wt on branch claude/v15-comic-ch1-8 at 378a03c1. It is clean (0 modified, 0 untracked) and level with its upstream (as of the last fetch).",
+    "gb": 0.498,
+    "why": "Needed for the final commit. Nothing is lost if it disappears, because it could be recreated with git worktree add from the pushed branch, but that would rewrite the same 0.5 GB at commit time."
+   },
+   {
+    "what": "Active session scratchpad scripts and data (all non-image files: *.py, *.sh, *.js, *.json, turn-ch*/, split-ch*/, proto/, audit/) at /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad, plus that session's tasks/ folder.",
+    "gb": 0.006,
+    "why": "PIPELINE DEPENDENCY: the in-repo pipeline/review/session-tools-2026-10-04/run-b-only.sh and the scratchpad solve_build.sh hardcode S=<this scratchpad> and run $S/lean_assemble.py. apply_split.py, apply_identity.py, merge_latest.py and others in session-tools-2026-10-09 also hardcode it. The remaining ch07, ch14, ch16, ch24 and ch25 builds will fail without it. 99 of 107 scripts have byte-identical copies in pipeline/review/session-tools-2026-10-09. Eight exist only here: final_report.py, turn_audit.py, an2x.py, an2x_b.py, det.py, det2.py, refs.py and sizes.py. So do varma-changes-*.json, varma2-changes-*.json, final_used.json, critlist.json and all2x.json, and some files were being written at 12:54 today."
+   },
+   {
+    "what": "The /private/tmp/claude-501 directory itself, the solve caches of the final tags (cache-ch07turn-s1, ch14split2-s1, ch16split3-s1, ch24split2-s1, ch25split3-s1, ch21split2-s2, ch19-s3, ch27-s2, ch17split-s1, ch26split-s1, ch28split-s1, ch22split-s1, ch23split-s1, ch15split-s1), probe-* dirs, the loose run JSON and .sh files, and today's audit lists (gen_files.txt, refs_*.txt, ref_docs.txt, sup_items.txt, superseded-outputs.json, trash-pick.json, folders.txt, f2.txt).",
+    "gb": 0.01,
+    "why": "TMPDIR=/tmp/claude-501 is hardcoded in solve_build.sh, run scripts and final_folio_builds.py, and outputs are redirected to $TMPDIR/<pkg>-<tag>.json, so removing the directory breaks builds. The caches speed up re-solves of the five new packages. The audit lists are being written now. bash-edit-diff is harness-internal and unreadable under the sandbox, so it is excluded."
+   },
+   {
+    "what": "Codex worktree text records: agents-build-log.md, review-new-052-062-pass1.md, and the *.md, *.json and *.txt files under illustrations/book1_full_comic_v1..v4 (READMEs, HANDOFFs, reviews, final-page-selection.json, prompts).",
+    "gb": 0.009,
+    "why": "agents-build-log.md holds 55 Codex entries (2026-09-10) that are not in the main repo log. The other files are the only design and provenance record for v1-v4. Copy them into the main repo, or merge the log, before any worktree removal."
+   },
+   {
+    "what": "Git metadata entry .git/worktrees/nagoji-comic-codex-worktree (40 KB).",
+    "gb": 0,
+    "why": "Must stay while the folder exists. If the folder is ever removed, use git worktree remove --force (it has untracked files), or prune afterwards."
+   }
+  ],
+  "findings": "Units: GB figures are GiB (du -h units, matching the brief's \"3.5 GB\" and \"0.8 GB\"). Everything was read-only; nothing was written, pruned or deleted.\n\n(1) Codex worktree (3.49 GiB, i.e. 3.75 decimal GB). Detached HEAD at 819b98b6 (Dec 25 2025), which is an ancestor of main and contained in every local branch, so there are no unpushed commits and no modified tracked files. git status --short shows only 4 untracked items: agents-build-log.md, review-new-052-062-pass1.md, illustrations/ and output/. These hold 3.73 GB, essentially the whole folder:\n- 4 full-book PDFs: 2.15 GiB.\n- book1_full_comic_v1..v4 art: 1.27 GiB.\n- QA renders: 0.054 GiB.\n- Text: 9 MB.\nTracked files come to about 12 MB. Last write was Sep 10, nothing newer, and the Codex config does not point at it.\n\nHash checks: 425 of the 436 media files have no byte-identical copy anywhere under ~/Documents/github. The v4 PDFs are not in git LFS either; the LFS commit fe263cfe holds V13/V14 proofs only. Pixel-hash sample: 16/16 PDF page images, 4 from each PDF, match worktree PNGs exactly. So the PDFs are image-redundant with the PNGs, but the PNGs themselves are the only copy.\n\nV15 dependency: grep of output/comic-v15-full-redo for the worktree path or book1_full_comic_v1-4 returns 0 hits. Older main-repo lines cite it as provenance: v6 (175 files), v7 (12), comic-lettering-v1 (13), ramayyan, opening-applied, page50 and movie-pilot. v6 and v7 final selections use their own pages (0 worktree refs).\n\nRecommendation: copy out the text and log first (KEEP). Then deleting the three superseded PDFs (1.70) is lowest regret. The v4 PDF (0.45) and the art (1.27) are irreversible history and should be archived off-disk rather than deleted.\n\n(2) git worktree list shows 8 prunable entries (folders gone), about 5.2 MB of metadata, 4.9 MB of it the v15-claude-worktree index. All reflog commits are on branches. Safe to prune with the user's approval; that changes no branches. Side note: main is ahead of origin/main by 2 unpushed commits (add2314e, d0bce9f5). That is not this category, but it is unpushed work.\n\n(3) /private/tmp/claude-501 is 835 MB:\n- Commit worktree: 510 MiB. Clean and level with its upstream (as of the last fetch).\n- Active session scratchpad 5c3fc8e7: 255 MiB, of which about 252 MiB is review-crop PNGs and 5.5 MiB is scripts and data.\n- Loose PNGs: 29.5 MiB.\n- Python tempdirs: 20.6 MiB.\n- rsync lists: 9.7 MiB.\n- branch-log.md: 1.9 MiB.\n- Solve caches: 6.3 MiB total (tiny).\n- Other session dirs: 0 bytes.\n\nAll v15 references into tmp are already dangling: 895 original_generated_path, 66 review_note and 25 issues/reason strings point at retouch-*, selpages, ch10-fix-r1 and similar paths that no longer exist. So they are provenance only, and every final package's in-package frame exists: 1709/1709 SELECTION-INPUT frames resolve inside their package, 0 outside, 0 missing. All 28 final layout files exist, including the 5 new packages.\n\nKEY RISK: pipeline/review/session-tools-2026-10-04/run-b-only.sh (in the repo) and solve_build.sh hardcode S=/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad and run $S/lean_assemble.py. They also set TMPDIR=/tmp/claude-501. Deleting the scratchpad scripts or the temp root would break the remaining ch07/14/16/24/25 builds, even though byte-identical copies sit in pipeline/review/session-tools-2026-10-09. Before final cleanup, point S at that repo copy.\n\nSafely deletable now: about 0.31 GiB in tmp (crops 0.217, scratchpad PNGs 0.030, tmp PNGs 0.029, tempdirs 0.020, branch-log 0.002, old caches 0.003), plus 0.005 of git metadata. Caution: 3.47 GiB in the Codex worktree (PDFs 2.15, art 1.27, QA 0.054) and 0.009 of rsync lists in tmp."
+ },
+ {
+  "category": "2x upscale caches (chapters/*/frames/*-2x*.png): final packages and superseded packages",
+  "safe": [
+   {
+    "what": "Superseded-package 2x files that are byte-identical copies of a 2x in a final package. All 118 are separate files on disk: none are APFS clones (checked with F_LOG2PHYS_EXT) and none are hard links. No final package's SELECTION-INPUT, candidate record or build reads them.",
+    "gb": 1.068,
+    "how_to_select": "/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/SAFE_superseded_byte_identical_in_final.txt (118 absolute paths)"
+   },
+   {
+    "what": "The other superseded-package 2x files (no identical copy in a final package). Per package: ch16-split 26, ch07 15, ch25-split2 15, ch14-split 13, ch05 11, ch24-split 4, ch06 3, ch05-split 1, ch09-split 1, ch12 1. Each one's SHA-256 matches the output_sha256 recorded when it was made, so none was edited by hand. Each source frame is still on disk, so each can be rebuilt from its own package's source frame. No final build reads them.",
+    "gb": 0.816,
+    "how_to_select": "/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/SAFE_superseded_unique_recreatable.txt (90 paths). Both SAFE lists together equal SAFE_superseded.txt (208 files, 1.884 GB = 1.755 GiB), which is the same as: find /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/{ch05,ch05-split,ch06,ch07,ch09-split,ch12,ch12-split,ch14-split,ch16-split,ch21-split,ch24-split,ch25-split2}/frames -name '*-2x*.png' (ch01 excluded on purpose)"
+   }
+  ],
+  "caution": [
+   {
+    "what": "ch01 (superseded) 2x files that final package ch01-v2 still points at by path: page-03-panel-05-v15-r1-2x, page-03-panel-05-v15-r2-2x and page-05-panel-01-v15-r1-2x. The references are in ch01-v2/candidates/page-05-panel-01-r7-a01.json (its 'path' field IS ch01/frames/page-05-panel-01-v15-r1-2x.png), SELECTION-MANIFEST-r7, review/BASELINE-r7 and DPI-REPORT-before-r8. None of them is in the final d9t-b selection. They are plain upscales (mean difference from source 2.4 to 3.6).",
+    "gb": 0.014,
+    "why": "Provenance only. Deleting them leaves dangling paths in ch01-v2's r7-era records. The gain is tiny, so leaving them is better.",
+    "how_to_select": "/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/CAUTION_superseded_ch01_xref.txt"
+   },
+   {
+    "what": "Final-package 2x of frames that are NOT in the final SELECTION-INPUT tag. They are left over from older revisions of the same package: ch01-v2, ch02, ch03, ch04, ch05-split2, ch06-split, ch08-split, ch09-split2, ch10-split2, ch11-split2, ch12-split2, ch28-split.",
+    "gb": 0.625,
+    "why": "The final build never reads them, because dpi_gate only reads or writes frames/<selected stem>-2x.png. Older SELECTION-MANIFEST-rN.json files in the same package (for example ch04 r1 to r10) record them as row paths. After deletion, 'run_chapter.py verify --revision rOld' and any rebuild that passes SELECTION-MANIFEST-rOld as --manifest would raise FileNotFoundError. The pixels are still embedded losslessly in the older PDFs, as long as those PDFs are kept. This is provenance-only, almost SAFE.",
+    "how_to_select": "/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/CAUTION_final_orphan_not_selected.txt (70 files)"
+   },
+   {
+    "what": "Final-package 2x of frames that ARE in the final selection but are not needed under the final layout. These are not in the upscales list of the latest manifest, and that manifest was confirmed to use both the final frames and the final layout geometry. 22 of them appear in no manifest at all: they were carried in by copy_2x.py (ch06-split 8, ch12-split2 6, ch05-split2 4, ch09-split2 3, ch01-v2 1).",
+    "gb": 0.275,
+    "why": "The current final build does not read them. They would be reused only if a future re-layout shrinks those panels below 300 PPI. The cost is about 31 re-upscales, plus the same verify break for old revisions described above.",
+    "how_to_select": "/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/CAUTION_final_selected_not_needed_at_final_layout.txt (31 files)"
+   },
+   {
+    "what": "Final-package 2x that the final build actually places: the upscales in the latest manifest for the 23 final chapters already built (all except the 5 new packages). Per chapter: ch11-split2 40, ch13-split 34, ch10-split2 26, ch18-split 26, ch23-split 26, ch15-split 24, ch17-split 23, ch21-split2 22, ch08-split 20, ch09-split2 20, ch12-split2 19, ch20-split2 18, ch22-split 17, ch26-split 17, ch28-split 15, ch05-split2 14, ch06-split 12, ch19 11, ch01-v2 9, ch27 8, ch03 7, ch02 4, ch04 4.",
+    "gb": 3.825,
+    "why": "Rebuildable but costly, and the provenance breaks. (1) Any rebuild has to re-upscale 416 frames. With the GPU idle, mtimes show about 5 s per frame (the 10-09 builds of ch13-split, ch16-split and ch18-split), about 35 min in total. With parallel builds (most builds, including today's) it is 40 to 115 s per frame, median about 60 s, about 7 hours in total. (2) 'run_chapter.py verify' on the delivered final PDFs fails, because validate_selection hashes every 2x row path. Rebuilding from the recorded SELECTION-MANIFEST-rN also fails. Only a rebuild from SELECTION-INPUT-<tag> plus the layout works. (3) Re-upscaling is not byte-deterministic. Of 88 inputs upscaled independently in two packages, 28 gave different bytes (ch14-split vs ch14-split2, ch25-split2 vs ch25-split3), off by 1 level in about 0.02% of pixels. A rebuilt PDF would therefore not match the pdf_sha256 and manifest hashes recorded in DPI-REPORT and TEXT-CHECK. Visually it is the same, and the final PDFs embed these exact pixels.",
+    "how_to_select": "/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/CAUTION_final_needed.txt (416 files)"
+   }
+  ],
+  "keep": [
+   {
+    "what": "All 2x files in the five new final packages: ch07-turn, ch14-split2, ch16-split3, ch24-split2 and ch25-split3 (snapshot of 120 files; the number is still growing).",
+    "gb": 1.089,
+    "why": "Builds are running right now (seen in ps at 12:53 to 13:00): run_chapter.py build for ch24-split2 and ch16-split3, with upscale2x.py writing into their frames/, and a new ch25-split3 build. The build hashes the 2x again after dpi_gate, then compose and verify_pdf open it, so deleting mid-build crashes the build. The case for keeping them is already proven: ch07-turn r1 and ch14-split2 r1 wrote 0-byte PDFs when the disk was full, and their r2 retries finished in minutes only because they reused all 13 and 17 of the 2x files the failed run left behind (reused_existing_output true). Move these to CAUTION once no run_chapter.py process is running and their final PDFs are verified.",
+    "how_to_select": "/private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/KEEP_new_pkgs_live_or_just_built.txt (snapshot), or find .../chapters/{ch07-turn,ch14-split2,ch16-split3,ch24-split2,ch25-split3}/frames -name '*-2x*.png'"
+   }
+  ],
+  "findings": "Totals: 848 2x files, 7.713 GB (at snapshot; still growing). Split: superseded 211 files, 1.898 GB; final 637 files, 5.815 GB.\n\nHow 2x files are made and reused (compositor.py dpi_gate, lines 744-790):\n- dest is always <the package being built>/frames/<source stem>-2x.png.\n- If dest exists, it is reused only when it is an exact 2x RGB image whose mean difference from the source is 12 levels or less.\n- Otherwise ~/AI/upscalers/upscale2x.py runs (Real-ESRGAN x2plus on MPS).\n- A second pass can produce -2x-2x. One exists: ch26-split/frames/page-08-panel-01-v01-2x-2x.png.\n- validate_selection requires every row path to sit inside the package being built.\n\nSo no final build can read another package's 2x. No final SELECTION-INPUT row is itself a 2x file.\n\nChecks behind the SAFE call:\n- Hashed all 2x files and their sources. 753 of 753 recorded files match the output_sha256 in their manifests, with 0 mismatches. The 84 unrecorded ones are in live builds or were carried in by copy_2x.py.\n- Every 2x has its source frame on disk.\n- No 2x is stale against its source: each recorded input_sha256 equals the current source hash.\n- Reuse diffs range from 2.0 to 6.2, so there is no sign of hand edits to any 2x.\n- No 2x is a hard link. The 118 byte-identical pairs are not APFS clones, so deleting them frees real space.\n- The only reference from a final package to a superseded 2x is ch01-v2 to ch01 (3 files, r7-era provenance), so those are CAUTION.\n- Outside the packages, 2x paths appear only as prose in review JSON files (review-sheets/IDENTITY-AUDIT-2026-10-08, IDVERIFY-3, REVIEW-ch05-split2-r3; pipeline/review/TAIL-IDENTITY-REVIEW-2026-10-09 cites ch10-split2/frames/page-12-panel-05-v01-2x.png) and in tool code. Nothing in output/comic-v15-full-redo is tracked in git, so a deletion cannot be undone from git.\n\nSkeptic notes:\n(a) Builds are running as I write. In ps: ch24-split2 and ch16-split3 since about 12:06 and 12:31, and a new ch25-split3 build. The ch07-turn and ch14-split2 r1 PDFs are 0 bytes (failed on the full disk). Their r2 builds completed at 12:57 and 12:59 by reusing all their 2x. The new packages must not be touched until no run_chapter.py process remains.\n(b) A rebuild from a recorded SELECTION-MANIFEST-rN.json breaks once its 2x are gone, because its row paths ARE the 2x files. Rebuilds after deletion must use SELECTION-INPUT-<tag>.json plus the layout.\n(c) The upscaler is not byte-deterministic (28 of 88 cross-package re-upscales differed, max 1 level, about 0.02% of pixels), so re-upscaled PDFs will not reproduce the recorded hashes.\n(d) verify_pdf compares the embedded RGB with the 2x file exactly, so every placed 2x survives losslessly inside its PDF. If another category deletes old PDFs as well as these 2x files, the exact pixels of those revisions are gone. They could only be re-created approximately.\n(e) Upscale time: about 5 s per frame with the GPU idle (10-09 builds), 40 to 115 s per frame (median about 60 s) when builds run in parallel. Today's 5 parallel builds ran at 65 to 99 s per frame. Re-creating all 416 final-needed 2x files would take about 35 min idle, about 7 hours at today's rate.\n(f) Side observation: the running ch24-split2 build is re-upscaling frames whose byte-identical 2x already exist in ch24-split. pipeline/review/session-tools-2026-10-09/copy_2x.py was not run for it. The superseded 2x of frames that live builds have not reached yet (ch16-split page-22/23, ch24-split page-34) would only help if someone runs copy_2x.py before the build gets there. To be extra cautious, delete the ch16-split and ch24-split 2x (63 files, 0.574 GB, part of SAFE) after those builds finish.\n(g) df now shows about 26 GiB free, not under 1 GB.\n\nRecommended now: SAFE 1.884 GB. Add the orphan and not-needed CAUTION sets for 0.900 GB more with low risk (provenance and old-revision verify only).\n\nHousekeeping: everything I wrote is in the scratchpad (analysis scripts and the list files named above). I deleted one list file I had created myself in the scratchpad (KEEP_live_build.txt), superseded by KEEP_new_pkgs_live_or_just_built.txt. Lower-case list files from my first pass (safe_superseded.txt, caution_*.txt, keep_live_or_retry.txt) are stale; use the capitalised ones. Nothing in the project was written or deleted."
+ },
+ {
+  "category": "git garbage in /Users/roshanvenugopal/Documents/github/nagoji/.git/objects/pack (tmp_pack_* files), plus the cruft pack and .git/lfs",
+  "safe": [
+   {
+    "what": "All 21 tmp_pack_* files in .git/objects/pack (2026-09-15 to 2026-09-25). These are abandoned, unindexed bulk-checkin packs. Git never reads them: none appear in multi-pack-index, any .idx, or objects/info/packs, and `git count-objects -vH` classes them as garbage. Every object in them was inflated and hashed. They hold 14 distinct complete blobs, each byte-identical (same git blob sha1) to an untracked V10-era PDF still in the working tree. Those PDFs are in output/comic-v10-copyedit-v1/ (background-v1, native-preview-v1..v6) and output/comic-v10-user-corrections-v1/review/ (art-composite-snapshot-v1/v2/v3, native-geometry-v4-preview1/2/4, native-new-art-geometry-v3-preview1). The remaining data is truncated fragments, each verified as an exact prefix of one of those PDFs or of native-new-art-geometry-v3.pdf. No frame, render, or tracked file is in them. They contain nothing unique.",
+    "gb": 108.25,
+    "how_to_select": "find /Users/roshanvenugopal/Documents/github/nagoji/.git/objects/pack -maxdepth 1 -type f -name 'tmp_pack_*' ! -newermt '2026-09-26 00:00'   (verified: exactly 21 files, 108,251,779,938 bytes = 100.82 GiB). Names: tmp_pack_oP8rfS cBop1I LelgvA I5bHtG TaSS0b vSJJeT oXFdsr oGOhE0 vKowqD pjZ7x3 kV2PqR mMGhTz 5PewrX E1oW6X wtHSRq 4O8vQS CxahD4 s8AtQq EPcVqD xHmCtw OCWSoi. A plain rm of these names is safe. Alternatively, `git prune --expire=now` removes tmp_* files in objects/ and objects/pack (there are 0 loose objects, so it removes nothing else). Re-check `ps` for git first, and delete only these 21 names so any new in-progress tmp_pack is left alone."
+   },
+   {
+    "what": "Stray loose temp object .git/objects/cf/tmp_obj_JmuZ9m (interrupted write on 2026-09-13; git counts it as garbage)",
+    "gb": 3e-05,
+    "how_to_select": "/Users/roshanvenugopal/Documents/github/nagoji/.git/objects/cf/tmp_obj_JmuZ9m (32,768 bytes); `git prune --expire=now` also removes it"
+   },
+   {
+    "what": "Empty directory .git/objects/pack/.claude/.cc-writes. The Claude harness created it at 12:52 today because this audit's working directory was the pack dir. Git flags it as garbage; harmless.",
+    "gb": 0,
+    "how_to_select": "/Users/roshanvenugopal/Documents/github/nagoji/.git/objects/pack/.claude (empty dir tree; rmdir after the audit session ends)"
+   }
+  ],
+  "caution": [
+   {
+    "what": "Cruft pack pack-71a0b3c28acffe3d3c81c4e55345ad6d89e61ff4.{pack,idx,rev,mtimes}. It holds 15,001 objects (14,930 blobs, 71 trees, 0 commits), all unreachable from every ref, reflog, and worktree index (`git rev-list --objects --all --reflog --indexed-objects` reaches none of them). Object mtimes are 2026-09-26, consistent with a whole-tree `git add` into a throwaway index (31 orphan repo-root trees) that was never committed. 14,799 of the 14,930 blobs are byte-identical to files in today's working tree (mainly output/book2-graphic-full-v1, comic-v14-chapter-quality-v1, chapter-13-verbatim-video-v1, comic-lettering-v1, comic-v13-reference-redesign-v1). The other 131 blobs (24.8 MB raw, about 2 MB packed) exist nowhere else and are provenance only: 74 older snapshots of agents-build-log.md (49 are not contained in the current log), 13 older versions of small docs and scripts (V15 pipeline README, a V8 proof build script, production ledgers, status JSON, LTX logs), and 44 Python .pyc caches. None are images or frames.",
+    "gb": 14.23,
+    "why": "Not an rm target: the pack is listed in multi-pack-index, so deleting it by hand would leave the MIDX pointing at a missing pack. Reclaim it only through git, e.g. `git gc --prune=now` (or `git repack -a -d --cruft --cruft-expiration=now`), run when no agent is using git. That needs about 3 GB of temporary space to rewrite the 2.8 GiB reachable pack. It loses the 131 provenance-only blobs; export the 62 text ones with `git cat-file blob <id>` first if wanted. Cross-dependency: if another category deletes those output/ folders, this pack becomes their only remaining copy (13.25 GiB)."
+   }
+  ],
+  "keep": [
+   {
+    "what": "Reachable packs pack-ba4d3438... (2.98 GB, 9,922 objects), pack-7f53f5f7... (28.9 MB, 15,599 objects), pack-b77517cb... (4.6 MB, 2,919 objects), plus multi-pack-index, objects/info/commit-graph and objects/info/packs",
+    "gb": 3.02,
+    "why": "100% of their objects are reachable from refs, reflogs and worktree indexes. This is the repository history."
+   },
+   {
+    "what": ".git/lfs/objects: 14 LFS objects (V14 chapter 06-17 frame PDFs, V13 reference redesign PDF, Dutchman's Son reading proof v2)",
+    "gb": 2.74,
+    "why": "`git lfs ls-files` (HEAD) and `--all` list the same 14 oids. Every stored object is referenced by the current checkout, which git lfs prune never removes, so prune would reclaim 0 GB (prune not run, as instructed). Remote push status was not checked (no network)."
+   },
+   {
+    "what": ".git/worktrees metadata (11 worktrees, 7 marked prunable)",
+    "gb": 0.02,
+    "why": "Tiny. Their indexes and HEADs feed reachability. The live /private/tmp/claude-501/nagoji-v15-commit-wt and nagoji-comic-codex-worktree entries must stay. Pruning the stale ones is a separate, negligible cleanup."
+   }
+  ],
+  "findings": "Disk now shows 27 GiB available, not under 1 GB. No git process is running: `ps` (run outside the sandbox, read-only) shows only two solve_build.sh builds (ch16-split3, ch24-split2) and their upscale2x.py children. `git count-objects -vH` reports 23 garbage items, 100.81 GiB, made up of the 21 tmp_packs, cf/tmp_obj_JmuZ9m, and the harness-created .claude dir. Packs: 4, 16.05 GiB. The multi-pack-index (PNAM) and objects/info/packs list only the four pack-* files. Nothing references any tmp_pack.\n\nHow the tmp_packs were checked. Every header says 1 object, which is git's bulk-checkin path: `git add` of a file larger than core.bigFileThreshold (default 512 MiB) streams into tmp_pack_XXXX, and the header and trailer only get fixed if the run finishes. I walked every object in all 21 files with zlib and hashed each one, about 3 minutes total. Each file is a run that died mid-object: there is no valid trailer, and the last object is truncated. Contents:\n- 14 distinct complete blobs, each matching an untracked PDF in output/ by `git hash-object --no-filters` (which does not write).\n- Truncated fragments, all verified as exact prefixes of those PDFs or of native-new-art-geometry-v3.pdf.\n- None of these blob ids exist in the real object store (`cat-file --batch-check`: missing).\n- The six 9,262,839,632-byte files have identical object sequences and all stop at the same byte (536,786,321 of 536,936,571) of native-new-art-geometry-v3.pdf. Something deterministic killed the run there, probably a timeout.\n\nWhy they piled up and will come back. .gitignore contains only `.DS_Store`, so output/ (hundreds of GB of untracked PDFs) gets swept into any whole-tree add or snapshot. One such run was right before the commit \"Add accepted final reading proofs via Git LFS\" (09-23 14:51, one minute after tmp_pack_s8AtQq). Git 2.54 uses cruft packs by default (gc.cruftPacks is unset, so true). In that mode `git gc` skips `git prune`, and prune is the only command that deletes tmp_* files, so auto-gc will never clear them. Excluding output/ (or at least the large PDFs) in .gitignore or .git/info/exclude would stop this; that is a config change that needs author approval.\n\nLFS: 2.55 GiB across 14 objects, all referenced by HEAD, so git lfs prune reclaims 0.\n\nBottom line:\n- SAFE: 108.25 GB (100.82 GiB) of tmp_pack_* plus 32 KB of tmp_obj.\n- CAUTION: 14.23 GB (13.25 GiB) cruft pack, reclaimable only via `git gc --prune=now` and never by rm. Besides duplicates of working-tree files, it holds 131 small provenance-only blobs, none of them frames.\n- KEEP: about 3.0 GB of reachable packs and 2.74 GB of LFS.\n\nNothing was modified. The only side effect is the harness-created empty dir .git/objects/pack/.claude/.cc-writes."
+ },
+ {
+  "category": "~/.codex/generated_images (7,283 PNGs in 462 Codex session folders, 19.875 GB decimal / 19 GiB per du)",
+  "safe": [
+   {
+    "what": "SAFE-A: Codex originals whose byte-identical copy is a PICKED frame in a FINAL v15 package (frames/ referenced by SELECTION-INPUT-<final tag>.json from V15-FINAL-SOURCES-2026-10-10.json). Nothing in the v15 pipeline reads original_generated_path. Deleting these is safe only while those final-package frames are kept, which the build needs anyway.",
+    "gb": 4.495,
+    "how_to_select": "1,601 absolute paths in /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/codex-genimg-lists/SAFE_A_final_picked_copy.txt. The companion SAFE_A_final_picked_copy.verify.tsv (sha256, original, final_package_copy) lets the deleter re-check each pair just before removing it."
+   },
+   {
+    "what": "SAFE-B: Codex originals whose byte copy is a frame in a FINAL package listed in one of that package's other SELECTION-INPUT files (the a-pass or an older tag), i.e. backup or alternate picks still referenced by the final package.",
+    "gb": 0.6,
+    "how_to_select": "221 paths in .../scratchpad/codex-genimg-lists/SAFE_B_final_selection_input_copy.txt (plus .verify.tsv)"
+   },
+   {
+    "what": "SAFE-C (conditional): Codex originals whose byte copy is an UNPICKED candidate in a FINAL package's frames/ (referenced only by that package's candidates/*.json). This is safe ONLY IF nobody also prunes unpicked candidate frames from the final packages. If the frames auditor marks those for deletion, move this line to CAUTION, because the rejected candidates would then exist nowhere except the Codex rollouts.",
+    "gb": 1.853,
+    "how_to_select": "672 paths in .../scratchpad/codex-genimg-lists/SAFE_C_final_unpicked_candidate_copy.txt (plus .verify.tsv). Whole-folder shortcut: 32 session folders consist entirely of SAFE-A/B files (0.371 GB, WHOLE_FOLDERS_SAFE_AB.txt), and 72 folders consist entirely of SAFE-A/B/C files (1.853 GB, WHOLE_FOLDERS_SAFE_ABC.txt). All other folders mix tiers and must be deleted file by file from the lists."
+   }
+  ],
+  "caution": [
+   {
+    "what": "Originals whose ONLY repo copy is in a SUPERSEDED (non-final) v15 package. Examples are rejected or superseded candidates in ch16, ch23, ch07, ch24, ch22, ch08, ch11, ch05, ch20, ch06, ch15, ch13, etc. (75 folders). These are redundant only while those packages' frames/ survive. If the v15-packages auditor deletes superseded packages, these originals become the last copy.",
+    "gb": 2.619,
+    "why": "Copy-dependency on another deletion category. The originals are provenance only (no final build uses them), so deleting both loses unrecoverable candidates, unless they are re-extracted from the ~/.codex/sessions rollouts."
+   },
+   {
+    "what": "Originals whose only repo copy is in OLDER output projects or illustrations. By holder: comic-v14-chapter-quality-v1 3.774 GB, comic-v13-reference-redesign-v1 0.751, comic-v10-user-corrections-v1 0.536, comic-v8-revisions-v1 0.405, comic-v14-chapter-01-rebuild-v1 0.183, book2-graphic-full-v1 (non-build files) 0.154, comic-ramayyan-v1 0.13, illustrations/book1_full_comic_v6 0.076, plus small amounts in v9, v11, v12, comic-lettering-v1, character-model-sheets-v1, book2-graphic-v1, pages/ and others. 2,539 files in 227 folders.",
+    "gb": 6.435,
+    "why": "Byte copies exist (verified by sha256) but are untracked by git (only 2 PNGs in the whole repo are tracked). This tier is safe only if the auditors of those older output projects keep them. Delete it only after the older-projects decision is final."
+   },
+   {
+    "what": "Originals referenced by a repo record but with NO byte copy anywhere in the repo, excluding Book 2 build inputs. They include raw region-edit outputs (raw_generated_path in review-sheets/GENERATION-LOG-LEAN-BATCH-111/112/117/118/119.json) that were composited before capture, one failed-capture generation (LEAN-BATCH-194, 2026-10-09, regenerated in LEAN-BATCH-195), outpaint and fix sources named in agents-build-log.md, KAYAL-SHEET-REVIEW-v15b concept alternates, v8 prompts, and v9, v14 and ramayyan records. 49 files in 21 folders.",
+    "gb": 0.127,
+    "why": "Provenance-only, and these are the only on-disk PNG copies. The final composites exist in the packages, so no build needs these files, but deleting them makes the edit history unreproducible. The only remaining copies would be the base64 blobs in the ~/.codex/sessions rollouts."
+   }
+  ],
+  "keep": [
+   {
+    "what": "Book 2 (The Dutchman's Son, output/book2-graphic-full-v1) BUILD INPUTS: 188 originals named in chapters/*/*-art.json ('original' and 'references' fields), in 16 folders. 180 have copies only in book2 art/, and 8 have no copy anywhere.",
+    "gb": 0.593,
+    "why": "tools/book2_layout.py collect_art_inputs() and validate_hashes() require these exact files under ~/.codex/generated_images and raise 'Missing protected input' or 'Stale protected input'. Deleting them breaks any Book 2 chapter recompose, and the README lists 'generator originals' as part of the production package. List: .../codex-genimg-lists/KEEP_book2_build_input.txt"
+   },
+   {
+    "what": "57 session folders NOT referenced anywhere in this repo (586 files). By Codex session cwd: 48 folders from nagoji sessions (515 files, 1.357 GB) and 9 from OTHER projects (71 files, 0.166 GB): ~/Documents/ChatGPT/shivtandavstotra, ~/Documents/ChatGPT/Himeinsurance, ~/Documents/ChatGPT/2027ACA, ~/Documents/github/jeeves, ~/Documents/github/mapencroach, ~/Documents/github/Gharaurdesh, and the home directory.",
+    "gb": 1.523,
+    "why": "These are unknown or other work, so per the rules they are never SAFE. For information only: 475 of the 586 files happen to have byte copies in this repo (v15 171, illustrations/book1_full_comic_v6 155, comic-v9-character-continuity-v1 81, v14-ch01-rebuild 34, others), but no record links them. List: KEEP_unreferenced_folder.txt"
+   },
+   {
+    "what": "Unreferenced, never-captured originals inside folders this project does reference: 524 files in 43 folders. 424 of them (1.343 GB) are in legacy session 01a08999-45be-7e83-8eac-9f5ba014a26b (2026-09-09 to 09-11, book1_full_comic_v6 era), and the rest are scattered rejects.",
+    "gb": 1.63,
+    "why": "No byte copy exists anywhere in the repo and no record names them, so they are unique images that cannot be regenerated. They are likely rejects or old-version raw outputs, but that is the author's call. List: KEEP_unreferenced_no_copy_unique.txt"
+   }
+  ],
+  "findings": "METHOD: I hashed all 7,283 originals (sha256). I size-matched them against all 27,928 PNGs in the repo (76 GB) and hashed the 9,500 same-size candidates. I grepped the whole repo (rg -uu, .git excluded) for generated_images/<uuid>/exec-<uuid>.png and got 5,950 distinct referenced files across 11,718 documents and 405 of the 462 folders. Everything was read-only. The only process I stopped was a background grep of my own, through TaskStop; my own pkill attempt was denied and was not retried.\n\nCAPTURED COPY = BYTE-IDENTICAL, NOT CONVERTED: I checked every v15 candidate record whose original_generated_path points into ~/.codex (5,859 records across all 68 packages), not just a sample. All 5,859 have an existing captured frame that is byte-identical to the original: 5,849 through 'path', and 10 through a relative path or a provenance workspace_path. That is 0 mismatches and 0 originals missing from disk. I also ran an independent cmp + sha256 on 56 picked frames (2 from each of the 28 final packages) and on 80 more spread across the SAFE-A/B/C and superseded tiers: all identical. The reason is in the code: run_chapter.py 'capture' uses shutil.copy2(args.generated, frame), and 'import-frame' writes the same bytes. Of the 1,709 picked frames in the final packages, 1,603 byte-match a Codex original. The other 106 are composites or edits that exist only in the packages, which is fine.\n\nPIPELINE DEPENDENCY: The v15 pipeline never reads original_generated_path. run_chapter.py only writes the field (lines 309 and 1246), and no compositor, reserves, review_sheets or imagegen_driver code touches ~/.codex. The single pipeline that does read originals is output/book2-graphic-full-v1/tools/book2_layout.py, which hard-fails on missing or changed originals. Those 188 files are KEEP.\n\nSPACE IS REALLY FREED: No original has a hard link. An APFS clone check (fcntl F_LOG2PHYS_EXT physical offsets on 300 random originals against their 424 repo copies) found 0 shared blocks, so the copies are real duplicates and deletion frees the space. There are no local Time Machine snapshots on the Data volume. The newest original is from 2026-10-09 and none were written today, so no in-flight generation is waiting to be captured.\n\nNOT IN GIT: Repo copies are almost all untracked (git ls-files shows 2 PNGs total). git history is no fallback for either side.\n\nSURPRISES:\n(1) ~/.codex/sessions is 123 GB, and the rollout .jsonl files embed every generated image as base64. In 9 sampled sessions, including the 5.27 GB rollout of 01a08999, all 530 of 530 originals were found byte-identical inside the rollouts. So generated_images is itself a second copy of rollout data, and even the KEEP and CAUTION tiers can be recovered from the rollouts, but only while ~/.codex/sessions is kept. Whoever audits ~/.codex/sessions must know that deleting rollouts makes 2.3 GB of these images truly unique (KEEP-unique 1.63, CAUTION no-copy 0.127, and the 8 no-copy Book 2 inputs). Deleting both directories would also make the superseded and older-project tiers depend solely on those package copies.\n(2) df now reports 27 GiB free, not under 1 GB, so something may already have been freed.\n(3) Some captured frames are byte-identical across chapters (for example, ch02 v05 is also ch03 page-04-panel-01-v04). That is harmless here.\n\nTOTALS (decimal GB, the tiers add up to 19.875):\n- SAFE A+B: 5.095. Adding conditional SAFE-C gives 6.948.\n- CAUTION: 9.181 (superseded v15 2.619, older projects 6.435, referenced with no copy 0.127).\n- KEEP: 3.746 (Book 2 build inputs 0.593, unreferenced folders 1.523, unique unreferenced 1.63).\n\nIf the older-project and superseded-package auditors decide to KEEP those folders, the 9.054 GB of copy-backed CAUTION becomes SAFE too, bringing the maximum to about 16.0 GB.\n\nList files are in /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/codex-genimg-lists/, one .txt per tier plus .verify.tsv files for the SAFE tiers. This scratchpad is session-specific, so copy the lists out before the session ends. The analysis scripts are in the same scratchpad: analyze.py, records.py, final.py, tiers.py, clonecheck.py and rollcheck.py."
+ },
+ {
+  "category": "Older project output folders: /Users/roshanvenugopal/Documents/github/nagoji/output/* except comic-v15-full-redo (19 folders over 100 MB, 98.7 GB in total; GB here means GiB, as du reports)",
+  "safe": [
+   {
+    "what": "ltx-local-test-v1 model weights, runtime and uv cache. This was a scratch LTX 2.3 video test that finished on 2026-09-12; the later ltx v2/v3/v4 tests also finished, and no LTX or ArcReel process is running. The weights are public Hugging Face downloads (dgrauet/ltx-2.3-mlx-q8 at revision 6671a75, plus gemma-3-12b-it-4bit), with sizes and SHA256 values recorded in PLAN-v1.json. runtime/ is an unmodified clone of github.com/dgrauet/ltx-2-mlx at 91e6f6c (git status is clean). V15 never mentions it outside a backup of the build log. Keep the roughly 4 MB of notes, qa/ and renders/ (the test mp4). No other copy exists (the HF cache is empty), so running LTX again would mean downloading 36.8 GB again.",
+    "gb": 34.96,
+    "how_to_select": "/Users/roshanvenugopal/Documents/github/nagoji/output/ltx-local-test-v1/{models,runtime,uv-cache} (first 3 lines of the list file /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/old-output-SAFE-paths.txt)"
+   },
+   {
+    "what": "arcreel-trial-v1 dependency installs and the frontend build. The app is a clean clone of public ArcReel v0.30.0 (7fb395c), the trial generated no footage, and nothing references these folders. All of it can be rebuilt with uv/npm.",
+    "gb": 1.68,
+    "how_to_select": "/Users/roshanvenugopal/Documents/github/nagoji/output/arcreel-trial-v1/native-app/{.venv,frontend/node_modules,frontend/dist}"
+   },
+   {
+    "what": "Byte-identical duplicate PDFs inside output/pdf (full sha256 match; none are hardlinks). V8-Reading-Proof-r2 is a copy of V8-Reading-Proof-r2-final, V9-Reading-Proof is a copy of V8-Reading-Proof-r3, V9-Opening-Review-r3 is a copy of r2, V9-Review-Pages is a copy of V8-Review-Pages-r3, and Ramayyan-Review-Pages-v2 is a copy of v1. Old README and HANDOFF files in comic-v8/v9/ramayyan link to these filenames, so those links would break even though the content survives under the other name. An APFS clone (cp -c keeper dup) frees the same space and keeps the names.",
+    "gb": 0.58,
+    "how_to_select": "the 5 output/pdf/*.pdf lines in scratchpad/old-output-SAFE-paths.txt"
+   },
+   {
+    "what": "Byte-identical copies of output/pdf proofs kept inside other folders. comic-v10-copyedit-v1/native-preview-v6.pdf is identical to pdf/Horse-of-the-Servant-V10-Copyedited-r1.pdf. comic-ramayyan-v1/backups/pre-V8/Horse-of-the-Servant-Ramayyan-Command-Reading-Proof-v2.pdf is identical to pdf/Horse-of-the-Servant-V8-Reading-Proof.pdf. Safe as long as the pdf/ copies stay.",
+    "gb": 0.8,
+    "how_to_select": "the last 2 lines of scratchpad/old-output-SAFE-paths.txt"
+   }
+  ],
+  "caution": [
+   {
+    "what": "comic-v14-chapter-quality-v1, everything except complete-book-r2/, production-notes/ and the 12 chapter PDFs tracked in git LFS. This is the build working set of the superseded V14 edition: per-chapter frames, review renders, ImageGen response JSON, provenance, and complete-book-r1 (3.10 GB, which DELIVERY-NOTES calls 'diagnostic and superseded'). It is untracked, and no V15 code, prompt or package uses it. The only mention is V15 README line 51: 'V14 ... is read-only reference for pipeline and style'. Inside it are 2.12 GB of exact duplicates (listed in the scratchpad tsv) that could be deduped if the folder is kept.",
+    "gb": 17.78,
+    "why": "Unique ImageGen art and provenance of a superseded, author-accepted edition. Deleting it cannot be undone, and V15's README names it as a reference."
+   },
+   {
+    "what": "comic-v14-chapter-quality-v1/complete-book-r2: the accepted V14 complete digital reading proof r2. The PDF sha256 is 2e37677a…, which I verified matches the acceptance notes. This is the only copy: it is not in output/pdf, not in git, and has no duplicate anywhere in output/.",
+    "gb": 2.68,
+    "why": "An author-accepted past deliverable that exists only here. I lean toward keeping it."
+   },
+   {
+    "what": "The 12 V14 chapter PDFs tracked in git LFS (chapter-06 to chapter-17 */pdf/*). The working copies are separate files from .git/lfs/objects; I verified chapter-14 r2 by sha256 against its LFS oid. Deleting them frees space, but git status then shows 12 deletions until git lfs checkout restores them.",
+    "gb": 1.19,
+    "why": "Tracked in git, so the author decides."
+   },
+   {
+    "what": "comic-v10-user-corrections-v1, a superseded V10 corrections workspace. review/ (7.79 GB) is intermediate preview, snapshot and geometry PDFs plus render PNGs. art/ (0.5 GB) holds unique corrected ImageGen art. Its deliverables (V10-Reading-Proof-r1 and V10-Corrections-Review-r1) are kept in output/pdf, but they are not byte-identical to anything in review/. It is untracked and nothing in V15 references it.",
+    "gb": 8.3,
+    "why": "A superseded working folder whose deliverable survives elsewhere. Its own art and provenance are the only copies."
+   },
+   {
+    "what": "comic-v10-copyedit-v1, excluding the native-preview-v6.pdf counted as SAFE above. It holds the superseded preview PDFs native-preview-v1 to v5 and background-v1 (0.54 GB each) and render folders. Its final output is identical to pdf/V10-Copyedited-r1.pdf. Untracked and unreferenced.",
+    "gb": 5.22,
+    "why": "Superseded intermediates of a past deliverable. Not provably rebuildable."
+   },
+   {
+    "what": "comic-v13-reference-redesign-v1, everything except concepts/ and CHARACTER-LOCK-v1.json. That is review/ 0.85, art/ 0.71, sources/ 0.41 (partly duplicated in comic-v12 sources), and its scripts. Its deliverable, pdf/Horse-of-the-Servant-V13-Reference-Redesign-r1.pdf, is in git LFS. The only V15 reference to these files is a list of hashes in chapters/ch01/provenance/PROTECTED-INPUTS.json, a guard file for the superseded ch01 pilot that no code reads.",
+    "gb": 1.94,
+    "why": "Working files of a past deliverable that V15 keeps only as provenance."
+   },
+   {
+    "what": "Other superseded edition workspaces, all untracked, not referenced by V15 or by any code, each with its deliverable PDF in output/pdf: comic-lettering-v1 1.32, comic-v8-revisions-v1 0.94, comic-v11-user-corrections-v1 0.85, comic-v12-character-style-v1 0.66, comic-v9-character-continuity-v1 0.62, comic-ramayyan-v1 0.32 (after the SAFE backup PDF), comic-all-chapters-plan-v1 0.27.",
+    "gb": 4.98,
+    "why": "Unique art, prompts and review evidence of superseded editions. Provenance only."
+   },
+   {
+    "what": "output/pdf after removing the 5 SAFE duplicates. This is the archive of the v7 to V13 reading proofs plus Book 2. Untracked except 2 files in git LFS (V13-Reference-Redesign-r1 and The-Dutchmans-Son-Complete-Reading-Proof-v2, 1.36 GB in all). I confirmed by sha256 that the V13 working copy is identical to its .git/lfs object. The lowest-risk files are clearly superseded intermediates such as Consistent-Lettering-Candidate-v1 to v3, the V8 and V9 r-series, and Dutchmans-Son v1, which its README calls a 'held revision'.",
+    "gb": 10.59,
+    "why": "Past deliverables, and two are tracked in git. The author decides."
+   },
+   {
+    "what": "book2-graphic-full-v1, the only source of the Book 2 (The Dutchman's Son) comic art: chapters/ 4.25 and renders/ 1.40. The renders are page rasters that could be regenerated from the chapter PDFs. Its accepted PDF is in git LFS. It also holds 1.0 GB of duplicates inside itself.",
+    "gb": 5.74,
+    "why": "Without this folder Book 2's comic cannot be revised. It is a past deliverable's only source."
+   },
+   {
+    "what": "Past video deliverables: chapter-13-verbatim-video-v1 (delivery renders-v3 mp4 and the full narration WAV in voice-v1), movie-production-v4 (a 4-minute review cut) and chapter-13-movie-v1 (motion comic). All untracked and unreferenced.",
+    "gb": 1.31,
+    "why": "Past deliverables."
+   },
+   {
+    "what": "The rest of arcreel-trial-v1: the cloned source tree, inputs/, review/ notes, and native-app/runtime/. runtime/ (4 MB) holds LOGIN.txt and auth.env, which are app credentials (I did not open them), along with the imported project database.",
+    "gb": 0.09,
+    "why": "Scratch-trial notes and credentials. Deleting runtime/ is a hygiene choice for the user."
+   }
+  ],
+  "keep": [
+   {
+    "what": "comic-v13-reference-redesign-v1/concepts/ (nagoji-v2, varma-v1, temple-priest-v1, nagoji-v1, court-sample-v1) and CHARACTER-LOCK-v1.json",
+    "gb": 0.013,
+    "why": "Every V15 build checks these hashes. In compositor.py, every final frame's references[] is sha256-checked ('Reference drift'), and the 28 final SELECTION-INPUTs use nagoji-v2, varma-v1 and temple-priest-v1 824 times. In run_chapter.load_job, all 28 final IMAGEGEN-JOBS.json name the v13 CHARACTER-LOCK-v1.json as character_lock and check its hash, and jobs list v13 concepts in reference_image_sha256. script_pipeline.py hard-codes CONCEPT_ROOT and LOCK_PATH to this folder."
+   },
+   {
+    "what": "comic-v14-chapter-01-rebuild-v1",
+    "gb": 0.85,
+    "why": "Referenced by the final ch01-v2 SELECTION-INPUT-d9t-b.json as source_path and selection_ledger for page-08-panel-02 and page-09-panel-02. Those frames were regenerated from v14 frames, and I confirmed by hash that they are not byte copies. pipeline/import_pilot.py also uses it as LEGACY, and ch01 PROTECTED-INPUTS lists it. Builds do not read it, but it is the provenance of a final package."
+   },
+   {
+    "what": "character-model-sheets-v1 (under 100 MB)",
+    "gb": 0.047,
+    "why": "Source of the V15 concept sheets (concepts/SOURCE-INTEGRITY-v15.json, SHEET-REVIEW, concept prompts)."
+   },
+   {
+    "what": "model-comparison-v1 (under 100 MB)",
+    "gb": 0.075,
+    "why": "V15 README cites it as the blind-test evidence for choosing Codex."
+   },
+   {
+    "what": "ltx-local-test-v1 notes, qa/, renders/ and logs",
+    "gb": 0.004,
+    "why": "The tiny record of the completed test. It holds the PLAN-v1.json hashes needed to re-download the weights."
+   }
+  ],
+  "findings": "Totals (GiB, as du reports): SAFE 38.0, CAUTION 59.8 (17.8 + 2.7 + 1.2 for V14, then 8.3, 5.2, 1.9, 5.0, 10.6, 5.7, 1.3, 0.1), KEEP 1.0. Folders under 100 MB that I did not classify individually come to about 0.6 GB.\n\nHow references were checked:\n- A recursive grep over all 77k non-image files in comic-v15-full-redo, plus a JSON walk of the 28 final packages' SELECTION-INPUT-<tag>.json and IMAGEGEN-JOBS.json.\n- The only paths outside V15 that a build checks are .codex originals (original_generated_path, which is not checked), comic-v13 concepts/ with CHARACTER-LOCK-v1.json (both checked), and comic-v14-chapter-01-rebuild-v1 (provenance only).\n- All other old folders appear in V15 only in pipeline/review/*.backup-* copies of the build log or README. The exception is V15 README line 51, which names V14 as a 'read-only reference'.\n- compositor.py refuses any selected frame outside its chapter folder, so no final frame lives in an old folder. All 28 final inputs resolve to frames inside V15, and I checked the ch01-v2 frame hashes.\n- Outside output/, the repo mentions these folders only in old logs and review files. Nothing executable uses them.\n\nGit:\n- Every old folder is untracked except 14 LFS PDFs: 12 in V14 chapter-06 to chapter-17/pdf and 2 in output/pdf.\n- Each LFS working copy is a separate file (nlink 1) from its .git/lfs/objects copy, so deleting it does free space. Hash verified for V13 r1 and V14 ch14 r2.\n- Commit fe263cfe, which added the LFS proofs, is on origin/main. I could not confirm that the LFS objects themselves reached the server.\n- Because everything else is untracked, deleting it cannot be recovered from git.\n\nHash checks:\n- A full-sha256 duplicate scan of every file of 1 MB or more under output/ (excluding the LTX models) is the basis of the SAFE duplicate lines and of scratchpad/old-output-intra-folder-duplicates.tsv (2,350 rows of duplicate and keeper, hardlinks excluded, keeper in the same folder).\n- V14 accepted r2 PDF sha256 is 2e37677a…, matching its notes, and it is unique.\n- pdf/V10-Reading-Proof-r1 is not byte-identical to v10 native-geometry-v4-preview4, and V11-Corrections-Review is not identical to V11-Native-Preview-v2, although the sizes match.\n\nSurprises (outside this category but large):\n- (1) git count-objects reports garbage of 100.81 GiB: 22 tmp_pack_* files plus .git/objects/cf/tmp_obj_* in /Users/roshanvenugopal/Documents/github/nagoji/.git/objects/pack, likely left by interrupted git operations. This is probably the single biggest saving and needs its own review. There is also a stray '.claude' entry in that pack folder.\n- (2) df now shows 27 GiB free, not under 1 GB, so something was freed during or before this audit.\n- (3) Linked worktrees exist at /private/tmp/claude-501/nagoji-v15-commit-wt (branch claude/v15-comic-ch1-8) and /private/tmp/nagoji-print-v7-*.\n- (4) arcreel-trial-v1/native-app/runtime contains LOGIN.txt and auth.env credential files.\n\nFiles I wrote (all outside the project):\n- Scratch analysis files in $TMPDIR (/tmp/claude-501): dups.tsv, dupex.json, folders.txt and scan scripts.\n- /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/old-output-SAFE-paths.txt (13 paths, 38.03 GiB)\n- /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/old-output-intra-folder-duplicates.tsv\n\nNothing in the repository was modified."
+ }
+]

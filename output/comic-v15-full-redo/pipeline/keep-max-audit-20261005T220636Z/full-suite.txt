@@ -1,0 +1,30 @@
+...................................................................................................................................................................................................................................................................................................ss....usage: python -m unittest [-h] [--reason REASON] [--allow-lettering] --chapter
+                          CHAPTER [--cast-overrides CAST_OVERRIDES]
+                          [--art-direction ART_DIRECTION] [--allow-draft]
+                          [--frame-id FRAME_ID] [--generated GENERATED]
+                          [--from-package FROM_PACKAGE] [--source SOURCE]
+                          [--candidate CANDIDATE] [--geometry GEOMETRY]
+                          [--reviewer REVIEWER] [--review-note REVIEW_NOTE]
+                          [--manifest MANIFEST] [--layout LAYOUT]
+                          [--revision REVISION] [--first-folio FIRST_FOLIO]
+                          [--upscale-python UPSCALE_PYTHON]
+                          [--upscale-script UPSCALE_SCRIPT]
+                          [--package-dir PACKAGE_DIR]
+                          [--geometry-out GEOMETRY_OUT] [--prompt PROMPT]
+                          [--moderated] [--inset INSET] [--draw]
+                          [--tails TAILS] [--styles STYLES] [--faces FACES]
+                          [--keep KEEP] [--layout-out LAYOUT_OUT]
+                          [--decisions DECISIONS] [--faces-dir FACES_DIR]
+                          [--face-scale FACE_SCALE] [--margin MARGIN]
+                          [--probe] [--keep-max KEEP_MAX] [--unpainted]
+                          [--structures] [--jobs JOBS]
+                          {prepare,next-job,capture,import-frame,select,build,verify,auto-geometry,fit-layout,accept-script-revision}
+python -m unittest: error: --allow-lettering applies only to accept-script-revision
+............................................................................................................................................................................................................................................................
+----------------------------------------------------------------------
+Ran 549 tests in 140.236s
+
+OK (skipped=2)
+
+reserve detection agreement: 90/90 = 100.0% over 57 selections
+  skipped 5 provisional selections with placeholder reserves: ch02/page-05-panel-01, ch02/page-05-panel-02, ch02/page-05-panel-03, ch02/page-05-panel-04, ch02/page-05-panel-05

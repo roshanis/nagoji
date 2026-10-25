@@ -1,0 +1,431 @@
+{
+ "chapter": 4,
+ "confirmed": [
+  {
+   "page": 5,
+   "panel": "5.1, 5.2 (also 2.4, 4.1, 4.2, 6.5)",
+   "severity": "major",
+   "description": "The Fisherman (the leader) is drawn as two different men. One version keeps the face set up in 2.1, with salt-and-pepper hair and a short grizzled grey beard. The other has jet-black curly hair, a thick black curled moustache and only grey stubble on the chin. Seen right beside Nagoji, that second version reads as a Nagoji look-alike.",
+   "evidence": "Set up in 2.1, and held in 3.1, 3.4, 3.5, 4.4, 5.3, 5.5 and 6.3: grey-streaked hair and a full grizzled grey beard. In 2.4, 4.1, 5.1 and 5.2: black curly hair, a heavy black upturned moustache and only grey stubble on the chin. In 5.1 and 5.2 he is placed directly against Nagoji's curly black hair and curled moustache. In 4.2 and 6.5 he has black hair with a darker, fuller beard. The script says to establish the three faces in 2.1 and hold them for the chapter.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "The drift is real, but it is smaller than the reviewer says. In 2.1 (and in 3.4, 3.5, 4.4, 5.3, 5.5 and 6.3) the Fisherman has a full grizzled grey beard and grey-streaked hair. In 2.4, 4.1, 5.1 and 5.2 he has black curly hair, a heavy black upturned moustache and only short grey stubble on the chin. The change is easiest to see between neighbouring panels: 2.1 against 2.4, and 5.2 against 5.3. In 6.5 his beard is darker and fuller. Even so, he does not become a different man or a Nagoji look-alike. Every version keeps a visibly grey chin, an older, heavier face, shorter hair than Nagoji, and the same red lungi with the white cloth over his left shoulder. In 5.1 and 5.2 he stands right next to Nagoji, but Nagoji is the one being carried, with shoulder-length hair and a clean chin, so readers cannot mix them up. The stubble version also still fits the script's \"short grizzled beard\", since the moustache is dark in most panels anyway. In 2.4, 4.1, 5.1, 5.2 and 6.5 his face prints at about 0.3 to 0.5 inch, so the difference in beard length is subtle at print size. This is face-holding polish (for example, matching the 5.1 and 5.2 beard to 5.3), not a localized costume or identity error, so it is minor, not major."
+   }
+  },
+  {
+   "page": 5,
+   "panel": "5.2",
+   "severity": "major",
+   "description": "The tail on the girl's whisper \"<Portuguese.>\" points to the wrong child. It goes to the listening child, who has her back to us, and not to the girl on the left who is whispering behind her cupped hand. The script says the speaker is the girl whispering to the child beside her. Because the whisperer's mouth is hidden, the tail is the only cue, and it names the wrong child.",
+   "evidence": "Crop of page 5 at x 165-600, y 640-865: the tail tip ends on the back of the second child's head at about (330, 750). The girl actually whispering, with the gold earring and her hand at her mouth, is further left at x 200-260. The balloon is also a plain solid balloon with no whisper treatment.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I'm confirming the tail problem but downgrading it from major to minor. The whisper-treatment part does not hold up.\n\nWhat I checked: crops of page 5, panel 5.2, roughly x 230-840, y 860-1200 in the original 1838x2775 image. The tail tip does end inside the hair at the back of the second child's head, at about (460, 1000) in the original. That is the child facing away from us. The girl who is actually whispering, with the gold earring and her hand cupped at her mouth, sits just to the left. Her hand and mouth are at about x 395-410. So the tail stops about 60 px short of her, which is about 5 mm at print size. Strictly, the tail points at the wrong child.\n\nWhy it is only minor:\n- The two children are an unnamed pair huddled together. The balloon clearly belongs to that pair.\n- The whisperer's cupped hand at the other child's ear is an unmistakable whisper gesture. It tells the reader who is speaking even though the tail stops short.\n- The story beat survives either way: a village child calls him \"Portuguese\" and the Young Fisherman rebukes it in 5.3. No named character is misidentified.\n- The fix is small: extend the tail about 60 px past the second child's head so it ends at the whisperer's hand or mouth. No redraw is needed.\n\nWhy the whisper-treatment complaint is refuted: the script line is a plain \"GIRL: <Portuguese.>\" and asks for no whisper balloon. The compositor also has no whisper style. pipeline/README.md says the only explicit style it accepts is \"unreadable\". A plain solid balloon is the house convention, not an error."
+   }
+  },
+  {
+   "page": 4,
+   "panel": "4.1",
+   "severity": "major",
+   "description": "The script calls for a wide shot that resets the geography with every figure at full scale. It is placed as a small floating inset only about 56 percent of the page width, with large empty cream margins on both sides, so it is the smallest panel on the page and the top tier looks unfinished. Inside it the figures are small, the Young Fisherman's head is cut off by the top border, and Nagoji's balloon fills the middle of the frame between the figures, covering the Young Fisherman's lungi.",
+   "evidence": "Page 4, panel 4.1 spans display x about 348-975, y 258-505. The tiers below run the full x 108-1217. In the crop the Young Fisherman's hair is cut at the top border (crop y 15). The balloon \"Yes. On the Deccan roads. Near their forts.\" covers x 650-930, y 335-455.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 4, panel 4.1. The top tier spans only about x 483-1353 of the full-resolution page, while the other tiers run x 148-1688, so it covers about 56% of the width. On its own the narrow width is weak evidence, because page 3 also uses narrower centred panels (3.2 and 3.6). The real problem is that the compositor wrecked a clean frame. The source frame, frames/page-04-panel-01-v08.png (1793x877), shows the Young Fisherman whole, with his headband and indigo lungi, and the Wary Fisherman's off-white lungi in full. The r8 placement hides all three in two ways. (1) Its visible_rect starts at y=98, which crops off the top of the Young Fisherman's head and almost all of his headband; only a sliver of the knot is left at the top border. (2) The speech box was placed at frame rect [860,313,1663,661], in the middle of the frame, not in the \"open grey sky at top centre\" that the manifest's own review note says it should use. The balloon \"Yes. On the Deccan roads. Near their forts.\" covers the Young Fisherman's whole lower body, including his indigo lungi, and most of the Wary Fisherman's off-white lungi. So the panel the script calls \"Wide, resetting the geography with every figure at full scale\" shows its figures at reduced size, partly cropped and partly covered, and the Young Fisherman loses both of his scripted identity tags. He can still be identified by his blue shoulder cloth, and the Wary Fisherman by his net. The lettering is legible and the tail points correctly to Nagoji, and all four figures and the wreck are present, so the beat survives. This is a localized layout and lettering fault, not a blocker. Fix it by recomposing from v08 with no redraw: move the balloon into the top-centre sky, drop the top crop, and widen the tier toward full width."
+   }
+  }
+ ],
+ "refuted": [
+  {
+   "page": 6,
+   "panel": "6.5",
+   "lens": "identity",
+   "description": "Ibrahim Marakkar (the kapitan) is drawn as the tallest man in the room. The bible's base line says he is shorter than the fishermen but broader, and the script says the Young Fisherman stands just behind him, half a head taller. The render reverses this.",
+   "reason": "Ibrahim looks tallest in panel 6.5 because he is nearer the camera, not because he is drawn taller. The reviewer's evidence does not hold up on a zoomed crop of page 6 (original 1838x2775).\n(1) Ibrahim stands in front. His arm and shawl overlap the Young Fisherman's lungi.\n(2) His head is drawn about 1.3 to 1.4 times the size of the Young Fisherman's, judged by face width (cheek to ear) and the brow-to-chin span. That scale only makes sense if he is closer.\n(3) His feet are not level with theirs. His mundu hem meets the panel's bottom border at about y 2535, so his feet sit below the frame. The Young Fisherman's feet show at about y 2530.\n(4) The sea horizon through the doorway is at about y 2440, which puts the camera only a little above the floor, as the script asks (\"camera low, from beside Nagoji's mat, looking up\"). With a camera that low, feet that are even 20 to 30 px lower mean a large step toward the camera.\nCorrecting for the 1.3x scale: Ibrahim measures about 775 px from crown to feet, which becomes about 590 px. The Young Fisherman measures about 710 px. That makes the Young Fisherman the taller man in the scene. Ibrahim is also clearly broader (vest and bulk), so he still matches the base line \"shorter than the fishermen but broader\".\nThe scripted low camera makes him loom, so this is not a costume or identity error worth redrawing. At most a reader might find the size difference less obvious than the script hoped, which is too slight to flag."
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "lens": "continuity",
+   "description": "Ibrahim reads taller than the fishermen. The bible defines him as 'shorter than the fishermen but broader', and the script says the Young Fisherman stands just behind him, half a head taller.",
+   "reason": "I'm rejecting this as a major. The reviewer's measurements are right, but what they show is perspective, not height. On page 6, panel 6.5, Ibrahim's turban is the highest point and the Young Fisherman's head sits near Ibrahim's brow. But the script asks for a low camera beside Nagoji's mat, looking up, with the kapitan a pace inside the room and closer to the camera than the fishermen. Low camera plus nearer figure will always put his head highest. The art draws that depth clearly. The sea horizon in the doorway sits at about the fishermen's knees (crop y\u2248705), which confirms the low camera. Both fishermen stand at the same depth: their feet are visible on one line at the bottom edge (y\u2248795). Ibrahim's mundu runs off the bottom of the frame with no feet showing, so he stands nearer the camera, and he overlaps the Young Fisherman's lungi. He is also drawn about 1.3 to 1.45 times their scale: his hands are about 85 px wrist to fingertip against about 55 to 60 px for theirs, and his face and forearms are bigger to match. Correcting for that (feet at horizon + scale \u00d7 90 px \u2248 y 822 to 831), Ibrahim is about 0.8 to 0.9 of the fishermen's height with the turban, and shorter again without it. So the drawing is consistent with \"shorter than the fishermen but broader\". The trait is not reversed, and \"broader\" reads strongly. The only real gap is that the script's specific cue, the Young Fisherman standing half a head taller in the frame, does not show up as a visible difference. A reader sees a figure looming in the foreground of a low-angle shot, which is the effect the script asked for. At most that is a minor polish note, not a major identity or continuity error."
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "lens": "rules",
+   "description": "Anachronistic costume on the kapitan. Under a fully buttoned waistcoat with two flap pockets he wears a long-sleeved collared shirt with the sleeves rolled up. Together they read as a 20th-century Indian sadri over a shirt, not 1753 Kerala dress. The script asks only for a pale vest over a white mundu, with no coat and no shirt. This is his first appearance, and the look carries into chapters 5 and 6, so it needs fixing now.",
+   "reason": "The costume follows Ibrahim's approved character sheet, so it is not a mistake. APPROVED-SHEETS.json lists concepts/09-ibrahim-marakkar-v15.png as the approved Ibrahim sheet. That sheet shows the same outfit: a cream waistcoat with a vertical row of buttons and flap pockets (it has a detail inset labelled \"BULGING VEST POCKETS\"), over a cream long-sleeved shirt with a small standing collar and rolled sleeves, a white mundu, and a striped shoulder cloth. On the sheet a teal short coat goes over all of this. Page 6, panel 6.5 leaves the coat off, which is exactly what the script asks (\"pale vest over a white mundu. No coat (the coat arrives in chapter 6)\"). The script never says \"no shirt\", so that part of the report is wrong. The chapter 6 script also describes the coat going \"over a pale vest\", which matches the sheet's layering. At high zoom (page-06.png, original px x 1050-1280, y 1840-2060) the collar is a short standing band, like the sheet's, not a modern turned-down shirt collar. The panel faithfully copies the approved design. Whether that design is right for the period is a question for the sheet itself, not a drawing error on this page."
+  },
+  {
+   "page": 4,
+   "panel": "4.5",
+   "lens": "lettering",
+   "description": "The tail on the Fisherman's balloon \"Come, bhau. Before the crabs claim you.\" lands on Nagoji's head instead of the Fisherman's mouth. The line can read as Nagoji's, which makes no sense. The balloon is also squeezed into a thin column with one or two words per line across seven lines (Come, / bhau. / Before / the / crabs / claim / you.), which reads badly.",
+   "reason": "Refuted as a major problem. I zoomed into page 4, panel 4.5 (original pixels about x 460-720, y 1850-2030). The tail tip does not land on Nagoji's head. It stops in open sky just right of the Fisherman's beard and chin, a little above the top of Nagoji's hair. Its upper edge runs almost level toward the Fisherman's lower face. Several other cues also make the Fisherman the speaker. He grins with his mouth open, as the script asks. Nagoji's eyes are half closed and his mouth is shut. The tails of both balloons in the panel meet on the Fisherman. The script gives both lines to the FISHERMAN, and an injured man being carried would not say \"Before the crabs claim you\" to himself. So the speaker is not mixed up, and the line does not read as Nagoji's. The narrow-column point is accurate: the balloon is about 150 px wide in the original and stacks Come, / bhau. / Before / the / crabs / claim / you. on seven lines. The text is still clear and in the right order. The balloon covers mostly sky and only the edge of Nagoji's white lungi, and it hides none of the carrying action. Reshaping it into a wider 3- or 4-line oval, and aiming the tail a little higher at the Fisherman's mouth, would be minor polish. Neither needs a redraw."
+  },
+  {
+   "page": 4,
+   "panel": "4.2",
+   "lens": "lettering",
+   "description": "The reading order of the Fisherman's three balloons is ambiguous. The script order is (1) \"Our king to the south...\", (2) \"He sharpens his teeth for them.\", (3) \"A man who has seen Portuguese dungeons... may be useful.\" Balloons 2 and 3 sit side by side at the same height. Balloon 3, on the right, starts slightly higher and sits directly under balloon 1, so the eye drops from 1 to 3 and only then goes back left to 2. Read that way, the logic breaks: \"them\" would follow \"may be useful\".",
+   "reason": "I cropped panel 4.2 at full resolution and again at about print size. The layout is a standard Z pattern. Balloon 1 sits alone at the top. Balloons 2 and 3 form a second row at the same height. Their top edges differ by only about 11 px at 300 DPI, roughly 1 mm in print. The single text line of \"He sharpens his teeth for them.\" sits on the same baseline as the first line of \"A man who has seen...\", at about y 275 vs 272 in the crop. When balloons sit side by side on one row, Western reading order puts the left one first, so the eye goes 1, 2, 3. Two things support that order. Balloon 1's tail points back left to the Fisherman's mouth. Balloon 2's tail rises from just under that same face, so the eye moves 1 to 2 naturally after balloon 1. At print size the two lower balloons clearly read as one left-to-right row, not as a column under balloon 1. Even if someone read 1, 3, 2, the logic would still hold: \"He sharpens his teeth for them\" would still mean the king and the foreigners. So the claim that the meaning breaks is overstated. At most this is a polish note (raising balloon 2 slightly would make the order certain). It is not a major error."
+  },
+  {
+   "page": 1,
+   "panel": "1.2",
+   "lens": "fidelity",
+   "description": "The script calls for a tight, ground-level insert of his hands dug into the grit. The art is a medium shot of Nagoji up on all fours, pushing himself off the sand with straight, powerful arms. His face is cut off at the nose, showing the moustache, ear stud and a calm, almost smiling mouth. This shows a recovered man before the 1.3 face reveal and the 'man made of lead' caption. In 1.3 he is flat on the sand again, so the sequence reads backwards.",
+   "reason": "I zoomed into panel 1.2 on page 1. The framing is wider than the script's \"ground level, tight\" note: it is a low medium shot that runs from the hands up to the lower face. But the beat the script asks for is all there, and the hands are the focus. The two bandaged hands dug into coarse wet grit fill the lower third of the panel. The heels of the palms are bare and raw. The wrist wraps are sodden and slipping. His left forearm (screen right) is crusted with sand and shows no readable mark. The rope loops sit across his chest, well clear of the neck, and the free end trails into the foam. He wears the torn ochre tunic and cream dhoti, with surf behind him. There are no irons, no chain and no collar.\n\nCropping the face at the nose is a standard way to hold back the face for the 1.3 reveal. It is not an awkward crop that hides the action. The mouth is closed and neutral. It is not smiling, and at print size the expression barely registers.\n\nThe \"reads backwards\" claim does not hold. 1.1 face down, then 1.2 on hands and knees heaving for breath, then 1.3 collapsed with his cheek on the sand reads as a near-drowned man pushing up and then giving out. That is a normal struggle-then-collapse beat, and it fits both \"Breathing was a battle\" and \"a man made of lead\". The bible and script do not forbid him rising to all fours. The only thing left is that the shot is less tight than written, which is polish at most and not a major error."
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "lens": "fidelity",
+   "description": "The kapitan's costume reads as tailored and modern, not as the scripted 'pale vest over a white mundu, no coat'. He wears a long-sleeved shirt with rolled cuffs and a stand collar under a button-front waistcoat with flap pockets. Together they read as a jacket or modern utility vest, which is close to the coat the script holds back for chapter 6.",
+   "reason": "I cropped page 6, panel 6.5 and compared it with the approved sheet, concepts/09-ibrahim-marakkar-v15.png. The kapitan's clothes match the approved design minus the coat, which is what the script and bible ask for: CONTINUITY.md says \"Pale vest over a white mundu, no coat\" for chapters 4 to 5, and \"Short coat over a vest with bulging pockets\" from chapter 6 on.\n\nThe approved sheet draws the same cream button-front vest with two flap patch pockets (\"BULGING VEST POCKETS\" in its details strip). It also shows a cream stand collar and rolled cream cuffs under a muted teal short coat. The panel draws that vest and shirt with no teal coat, plus the striped shoulder cloth, white turban, grey-flecked beard and white mundu.\n\nIt does not read as a jacket. The vest is plainly sleeveless, and the long sleeves are the same loose, soft cream cloth as the collar, so they read as a shirt underneath, not a coat body. The chapter 6 coat is a separate teal garment, so nothing from chapter 6 has crept in.\n\nIt is not a modern look either. A many-buttoned waistcoat with flap pockets is a normal 18th-century garment, and nothing like zips, a ribbed knit or a modern cut appears. The script only requires a pale vest over a white mundu with no coat, and it does not forbid an undershirt. The panel meets every requirement."
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "lens": "fidelity",
+   "description": "Scale and camera do not follow the script or the bible. Ibrahim should be shorter than the fishermen but broader, with the Young Fisherman half a head taller, shot from a low camera beside the mat looking up. Instead the camera sits at roughly standing eye level, and the kapitan is the tallest figure in the frame, his turban well above both fishermen's heads. The scripted beat of a short, broad man is lost.",
+   "reason": "Refuted. I checked this on 1:1 and 2x crops of panel 6.5 at the native 1838x2775 size. Coordinates below are in original pixels.\n\n(1) The camera is low, not at standing eye level. The sea horizon in the right doorway sits at about y 2445. That is mid-shin on the Fisherman (red lungi), whose feet are at y 2530, with the horizon only about 85 px above them on a figure about 640 px tall. A horizon at shin height puts the camera roughly 25 to 35 cm off the floor, which matches the script's \"Camera low, from beside Nagoji's mat\". The rafters and roof underside fill the top of the panel, and the figures loom over the reclining Nagoji. The reviewer's statement that the horizon and floor show no upward angle is contradicted by the art.\n\n(2) The kapitan looks tallest only because he is nearer the camera. He stands in front of both fishermen and overlaps them. Their feet are visible at y 2530, while his feet are below the panel's bottom edge (about y 2545). His head is drawn about 1.2 times the size of the Young Fisherman's.\n\nUsing the horizon as a measuring line (it crosses every standing figure at the same real height), his feet are at least 100 px below the horizon against their 85 px, so he is drawn at a scale of at least 1.18 times theirs. Correcting for that:\n- His head height above the horizon (about 655 px, turban excluded) works out to no more than about 0.89 of the Young Fisherman's real height.\n- So in the scene's own geometry, the Young Fisherman is about half a head or more taller, as the script asks.\n\nOn the page, his bare head is only about 25 to 35 px above the Young Fisherman's hair, roughly 2 to 3 mm at print size. The 45 px (display scale) gap the reviewer measured comes mostly from the turban.\n\n(3) The \"broader\" half of the beat is clearly drawn: he is a thick, stocky figure in a vest and mundu next to two slimmer fishermen.\n\nAt most, a reader glancing at the page may not register at once that he is shorter. But the scale follows correct low-camera perspective, and the camera claim is wrong, so this does not rise to a major error."
+  },
+  {
+   "page": 4,
+   "panel": "4.5",
+   "lens": "fidelity",
+   "description": "The tail of 'Come, bhau. Before the crabs claim you.' ends on the crown of Nagoji's head, not at the Fisherman's mouth, so it can read as Nagoji calling the fisherman 'bhau'. The balloon is also squeezed into a tall, narrow column with one or two words per line.",
+   "reason": "I'm refuting the speaker-tail claim. I cropped and zoomed the page 4, panel 4.5 area of r8/page-04.png (about x 440 to 700, y 1840 to 2000 in the 1838 px render). The tip of the \"Come, bhau\" tail is at about (586, 1932). That is open grey sky, a few pixels above the outer wisps of Nagoji's hair, not in his hair. The tail is a wedge that runs almost level from the balloon toward the left. Its line leads straight into the Fisherman's grinning mouth and beard, at about (530, 1920), roughly 55 px or 0.19 in away. It does not point down toward Nagoji's face, which sits well below and to the right with his mouth closed and eyes slack. At print size (I checked a downscaled copy of the panel), both balloons clearly come from the Fisherman's head. The context points the same way: Nagoji is the one being carried, and \"Before the crabs claim you\" is said to the man on the sand, matching the script's two FISHERMAN lines. The second complaint is real but only polish. The balloon is about 0.6 in wide and breaks the text into seven lines of one or two words (Come, / bhau. / Before / the / crabs / claim / you.). That is awkward lettering but fully readable at print size, and the wording and italic \"bhau\" match the script. Suggested fix: widen the balloon into the empty sky to its right so it sets in 3 lines."
+  }
+ ],
+ "minors": [
+  {
+   "page": 4,
+   "panel": "4.5 (Young Fisherman); also 6.4 (Fisherman)",
+   "severity": "minor",
+   "description": "Two of the fishermen wear a small gold ear stud. That is Nagoji's signature marker, and nothing in the fishermen's costume tags calls for it.",
+   "evidence": "4.5: the Young Fisherman (headband, indigo lungi, carrying the legs) has a small gold stud under his right ear. 6.4: the out-of-focus Fisherman behind Nagoji has a gold drop earring. Nagoji, in the same frame, wears the same kind of stud.",
+   "lens": "identity"
+  },
+  {
+   "page": 4,
+   "panel": "4.5 (also 5.1)",
+   "severity": "minor",
+   "description": "The Wary Fisherman's body and hair drift from his established look. The script makes him older and gaunt, with a long grey-streaked beard.",
+   "evidence": "2.1, 3.3 and 3.4: a gaunt older man with long, straggly grey-streaked hair and a long grey beard. 4.5: a heavily muscled torso with defined abs, short voluminous curly grey hair and a trimmed beard. 5.1 (front right): mostly black hair over the grey beard, with a broader face.",
+   "lens": "identity"
+  },
+  {
+   "page": 5,
+   "panel": "5.4 (vs 5.5, 6.1)",
+   "severity": "minor",
+   "description": "The Woman's face and build change between her first panel and the interior panels. The script asks for a heavy-set woman in her fifties with her hair in a low knot heavily streaked with grey.",
+   "evidence": "5.4: a soft round face, lighter skin, near-white grey hair swept back and loose, a heavier frame. 5.5: darker hair heavily streaked with grey in a bun, a sharper profile. 6.1: a leaner face with defined cheekbones and a slimmer build. She reads as recognisably older and grey in every panel, but as a different woman in 5.4.",
+   "lens": "identity"
+  },
+  {
+   "page": 4,
+   "panel": "4.4 (also 5.5)",
+   "severity": "minor",
+   "description": "The Fisherman's white shoulder cloth sits on his RIGHT shoulder in these panels. His tag puts it on his LEFT shoulder, and 6.3 calls back to it there.",
+   "evidence": "4.4: he faces right in three-quarter view and the cloth hangs from the near shoulder at image left, which is his right. 5.5 has the same orientation, with the cloth on the image-left shoulder. 2.4, 4.1, 4.2, 5.4, 6.3 and 6.5 correctly show it on his left shoulder.",
+   "lens": "identity"
+  },
+  {
+   "page": 4,
+   "panel": "4.3",
+   "severity": "minor",
+   "description": "A rust-red waist cloth shows under Nagoji's tunic. The ch4 bible row is torn ochre tunic and cream dhoti only. A red sash belongs to the ch7+ commander look.",
+   "evidence": "A folded dark-red band sits at the waist between the ochre tunic hem and the cream dhoti, bottom centre of the panel. The same red cloth shows at his waist in 3.4, between his bandaged wrists.",
+   "lens": "continuity"
+  },
+  {
+   "page": 3,
+   "panel": "3.1, 3.4, 3.5 (also 4.4)",
+   "severity": "minor",
+   "description": "The Fisherman's face and hair drift. The script fixes his look in 2.1 ('hold them for the chapter'): black curly hair with a short grizzled beard.",
+   "evidence": "In 2.1, 2.4, 4.2, 4.5 and 5.2 the Fisherman has black curly hair. On page 3 (3.1, 3.4, 3.5) and in 4.4 his hair is heavily salt-and-pepper or grey, with a receding hairline in 4.4. In 5.3 his face is rounder and darker. Only the red lungi and white cloth keep him identifiable.",
+   "lens": "continuity"
+  },
+  {
+   "page": 4,
+   "panel": "4.4",
+   "severity": "minor",
+   "description": "The Fisherman's white cloth is on his RIGHT shoulder. The script sets it on his LEFT in 2.1 and 2.4, and 6.3 calls back to it.",
+   "evidence": "He faces right toward Nagoji in three-quarter view, and the white cloth hangs from his near, image-left shoulder, which is his right. The same flip appears in 3.5 and 5.5. It is correct (left) in 2.4, 4.1, 4.2, 5.4, 6.3 and 6.5.",
+   "lens": "continuity"
+  },
+  {
+   "page": 4,
+   "panel": "4.5",
+   "severity": "minor",
+   "description": "The wreck does not match the ch3 ship or its other ch4 panels. The script calls for the same black, high-sided ship with a carved stern castle and a snapped mainmast.",
+   "evidence": "In 4.5 the wreck is a weathered brown three-master with two masts still standing and carrying tattered sails. In 2.4 it is a brown hull with the mainmast still standing in its rigging. In 3.5 only skeletal ribs stand just offshore. In 4.1 it is a low hull with stumps. Ch3 (8.1, 10.5) established a black hull with a snapped mainmast.",
+   "lens": "continuity"
+  },
+  {
+   "page": 4,
+   "panel": "4.5",
+   "severity": "minor",
+   "description": "The setting jumps: a fishing settlement appears directly on the landing beach. This contradicts the empty beach of 2.4 and 5.1 and the inland village beyond the palms in 5.2.",
+   "evidence": "The left background behind the Fisherman shows thatched huts on stilts, beached blue-painted boats, piled nets and a small figure among them. In 5.1 the same beach seen from the palms is empty except for one boat.",
+   "lens": "continuity"
+  },
+  {
+   "page": 5,
+   "panel": "5.1",
+   "severity": "minor",
+   "description": "The ship's boat is intact here, though 2.4 established it as a broken carcass with planks scattered.",
+   "evidence": "In 5.1 a whole small rowing boat lies on the empty sand. In 2.4 the ship's boat lies smashed open at the right, with planks strewn across the beach.",
+   "lens": "continuity"
+  },
+  {
+   "page": 1,
+   "panel": "1.4",
+   "severity": "minor",
+   "description": "The lighting breaks continuity. 1.4 is a golden sunburst, while 2.1 opens on a 'lowering grey sky' and every later beach panel is flat storm grey.",
+   "evidence": "In 1.4 sunrays pour through broken cloud and the wet sand reflects gold. Panels 2.1 to 4.5 are uniformly overcast grey with no sun.",
+   "lens": "continuity"
+  },
+  {
+   "page": 2,
+   "panel": "2.3",
+   "severity": "minor",
+   "description": "The chest rope vanishes one panel early. The script keeps the rope loops on Nagoji through 2.2 and cuts them on camera in 2.4.",
+   "evidence": "In 2.2 a rope coil is still at his chest. In 2.3 his open tunic shows only red rope burns on the chest, with no rope. In 2.4 the cut loops lie on the sand.",
+   "lens": "continuity"
+  },
+  {
+   "page": 3,
+   "panel": "3.4",
+   "severity": "minor",
+   "description": "The hand bandaging is inconsistent. The script specifies bandaged fingers with the heels of the palms bare. Here Nagoji's right fingers are bare, and a second bandage band covers the left forearm where the brand sits.",
+   "evidence": "The right hand's bandage wraps the back of the hand and wrist, leaving all four fingers bare. In 3.1 the same hand has only white fingertip caps, and in 1.2 and 2.4 the fingers are fully wrapped. The left forearm carries two bands, one at the wrist and one higher up, though 3.1, 4.3 and 4.5 show a single wrist bandage with the brand exposed above it.",
+   "lens": "continuity"
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "severity": "minor",
+   "description": "The brand's design is not held across the chapter. It changes from panel to panel, though it stays ridged and never forms a cross.",
+   "evidence": "3.2 shows a raw pink, roughly rectangular puckered patch. 4.3 shows a horizontal row of pink letter-like ridges near the wrist. 5.4 shows a pale white blotch near the elbow. 6.5 shows three thin parallel diagonal scratches above the wrist bandage.",
+   "lens": "continuity"
+  },
+  {
+   "page": 2,
+   "panel": "2.4",
+   "severity": "minor",
+   "description": "A pale marking shows on the exposed upper side of the left forearm before the brand's reveal. The script has this forearm 'inner side down' with no mark readable until 3.2.",
+   "evidence": "Zoomed, the forearm lying on the sand carries a whitish lace-like pattern on its upper surface. It reads as a tattoo, or as the brand on the outer side of the arm.",
+   "lens": "continuity"
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "severity": "minor",
+   "description": "The Fisherman's plain white shoulder cloth has picked up blue-striped fringed ends that copy Ibrahim's cloth.",
+   "evidence": "The Fisherman (red lungi, right) wears a cloth with pale-blue bands and fringe at the hem, matching Ibrahim's sheet cloth beside him. In every earlier panel (2.4, 4.2, 6.3) his cloth is plain white.",
+   "lens": "continuity"
+  },
+  {
+   "page": 5,
+   "panel": "5.2",
+   "severity": "minor",
+   "description": "Two background houses have terracotta clay-tile roofs, which is wrong for an 18th-century Kerala fishing village. The script calls for palm-thatch roofs. In this period commoners' houses were thatched, as they are in 5.3 and 5.4, so the tiles also break continuity with the next panel.",
+   "evidence": "Zoomed crop of page-05.png, display x 800-1160, y 620-865 (original px x 1110-1610, y 860-1200). Two houses behind the women with water pots show overlapping red clay-tile roofs.",
+   "lens": "rules"
+  },
+  {
+   "page": 5,
+   "panel": "5.2",
+   "severity": "minor",
+   "description": "Some villagers wear stitched, fitted garments, which is anachronistic for 1740s Kerala and against the script's direction of mundu with an upper cloth and no fitted blouses. The whispering girl in the foreground wears a red short-sleeved fitted top. The woman in the left doorway wears a white blouse with puffed sleeves.",
+   "evidence": "Zoomed crop of page-05.png, display x 165-420, y 620-865 (original px x 230-580, y 860-1200). The red sleeve of the foreground girl's top is visible at bottom left, and the doorway woman's white puff sleeves are visible behind her.",
+   "lens": "rules"
+  },
+  {
+   "page": 4,
+   "panel": "4.3",
+   "severity": "minor",
+   "description": "The brand reads as pseudo-text. On the left forearm at the panel's right edge, the raised ridges make a row of looped strokes that look like a line of cursive handwriting, not the crude ridges 'blurred past reading' that the script asks for and that 3.2 and 6.5 show.",
+   "evidence": "Crop of page-04.png, display x 560-665, y 1180-1280 (original px x 777-922, y 1637-1775), enlarged 3x. The pale ridged scar forms connected loops like cursive letters running along the forearm.",
+   "lens": "rules"
+  },
+  {
+   "page": 4,
+   "panel": "4.5",
+   "severity": "minor",
+   "description": "Possible blood. Between the wraps of the bandage on Nagoji's dangling left wrist, wet red patches show that read as blood seeping through, not as healed rope burn or chafe.",
+   "evidence": "Crop of page-04.png, display x 290-370, y 1500-1680 (original px x 402-513, y 2080-2330), enlarged 4x. Bright red patches show between the bandage wraps just below the branded forearm, beside the Fisherman's red lungi.",
+   "lens": "rules"
+  },
+  {
+   "page": 6,
+   "panel": "6.1 / 6.2",
+   "severity": "minor",
+   "description": "The two panels in the top tier do not line up. Panel 6.2 starts about 17 px lower and ends about 17 px higher than 6.1. This leaves a ragged top edge and a gutter under 6.2 three times wider than the one under 6.1.",
+   "evidence": "Pixel scan of page-06.png at full resolution: panel 6.1 covers y 358-920 and panel 6.2 covers y 375-903. Panel 6.3 starts at y 927, so the gutter is 7 px under 6.1 and 24 px under 6.2.",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.2",
+   "severity": "minor",
+   "description": "The script asks for a rush of unreadable speech in broken wavy strokes, with only \"kapitan\" in clear type. Instead the boy's balloon has a few typographic tilde pairs (\"~~ kapitan ~~ / kapitan ~~\"). It reads as tilde characters, not as fast, breathless foreign speech.",
+   "evidence": "Page 6, panel 6.2, balloon at display x 715-955, y 480-605: two lines of text with four small tilde pairs and a lot of empty balloon around them.",
+   "lens": "lettering"
+  },
+  {
+   "page": 5,
+   "panel": "5.3",
+   "severity": "minor",
+   "description": "The page edges are ragged. Every tier except 5.3 is inset to about x 167-1157. Tier 5.3 alone runs the full width of x 108-1217 and sticks out about 60 px on each side, so the page looks misaligned rather than deliberately inset (Chapter 1 insets single tiers, but it does not leave one tier sticking out).",
+   "evidence": "Page 5: tiers 5.1, 5.2, 5.4 and 5.5 have left and right borders at about display x 167 and 1157. Tier 5.3 has its borders at x 108 and 1217.",
+   "lens": "lettering"
+  },
+  {
+   "page": 2,
+   "panel": "2.2 / 2.3",
+   "severity": "minor",
+   "description": "The middle tier is wider than the tiers above and below it by about 15 px on each side, so the page's left and right edges jog in and out. Separately, the 2.3 caption \"The first swallow burned. The second soothed.\" is squeezed into a narrow column of five short lines and its bottom edge sits almost on the panel border.",
+   "evidence": "Page 2: tiers 2.1, 2.4 and 2.5 have their left border at about display x 122 and right border at 1202. The 2.2/2.3 tier spans x 108-1217. The 2.3 caption box is at x 1054-1190, y 963-1135, and the panel bottom is at about y 1138.",
+   "lens": "lettering"
+  },
+  {
+   "page": 3,
+   "panel": "3.5",
+   "severity": "minor",
+   "description": "The Fisherman's head is boxed in by three balloons. \"<What? He is half dead.>\" sits on top of his hair, and the top-right corner of \"<Half is still half.>\" runs into his beard and the hand at his chin. The tier is also narrower than the 3.3 and 3.4 tiers above it (x 200-1123 against 108-1217), which leaves the bottom of the page ragged.",
+   "evidence": "Crop of page 3 at x 190-1135, y 1545-1840: \"<Half is still half.>\" spans crop x 145-470, y 170-280, and his beard and fingers are at about x 440-540, y 150-260. The balloons stack in the left half while the right half is open sky.",
+   "lens": "lettering"
+  },
+  {
+   "page": 3,
+   "panel": "3.1 / 3.3",
+   "severity": "minor",
+   "description": "Balloons sit flush against the panel borders. In 3.1, \"<He has soldier's calluses...>\" is jammed into the top-left corner and its outline merges with the border. In 3.3, \"<Kill him...>\" touches the left border. The 3.1 strip is also so thin that the Young Fisherman's headband and the Fisherman's hair are cut off by the top border.",
+   "evidence": "Page 3, zoomed crop at x 100-520, y 250-400: the top edge of the balloon coincides with the panel's top border and its left edge sits at the left border. In 3.3 the left edge of the balloon is at display x about 110, against a border at 108.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.2",
+   "severity": "minor",
+   "description": "The top border cuts Nagoji's face across the bridge of the nose, so the panel opens on a half face with no eyes above the hands. A tighter crop that loses the face entirely, or one that keeps the eyes, would read more cleanly, because 1.3 is the face close-up.",
+   "evidence": "Page 1, panel 1.2: the top border is at display y about 562. Only the nose, moustache and mouth show at x 430-650, and the eyes are cut off.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.4",
+   "severity": "minor",
+   "description": "The off-panel voice \"See the brand on his arm.\" has a long tail that stops on the wet sand between the feet instead of rising off-panel toward the speakers, as \"Look at his hands...\" does. The balloon is also crammed into the bottom-right corner, almost touching the right and bottom borders.",
+   "evidence": "Crop of page 1 at x 100-1225, y 1480-1840: the tail tip is at about (1380, 250) in the crop, on the sand. The balloon's right edge is about 5 px from the panel border and its bottom edge about 8 px from it.",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.5",
+   "severity": "minor",
+   "description": "The third caption, \"In that silence, I was being weighed.\", sits across Nagoji's chest and shoulder. That is where the kapitan's appraising look falls (the script lists the brand, the hands, the shoulders), so the caption hides part of what he is weighing. The upper-left wall area or the space by the hearth would have been clear.",
+   "evidence": "Page 6, panel 6.5: the caption is at display x 205-535, y 1648-1712, over Nagoji's right shoulder and chest, just below his face.",
+   "lens": "lettering"
+  },
+  {
+   "page": 5,
+   "panel": "5.5",
+   "severity": "minor",
+   "description": "The interior strip is cropped so tightly at the top that Nagoji's forehead and the Fisherman's head are cut off by the border. Both balloons then sit low over their bodies, so the panel feels crushed against its top edge.",
+   "evidence": "Page 5, panel 5.5 (display y 1552-1830): Nagoji's hairline and forehead are cut at the top border near x 490-610, and the Fisherman's hair is cut at x 290-400.",
+   "lens": "lettering"
+  },
+  {
+   "page": 4,
+   "panel": "4.1",
+   "severity": "minor",
+   "description": "The script asks for a wide panel that resets the geography with every figure at full scale. The panel is shrunk to a narrow box centred on the tier, about 57% of the page width. The Young Fisherman is clipped at the top border, and Nagoji's balloon covers the space between Nagoji and the Wary Fisherman, so the reset does not land.",
+   "evidence": "Page 4 top panel spans roughly x 348 to 975 of the 1110 px live width. The Young Fisherman's head touches the top frame line. The 'Yes. On the Deccan roads.' balloon fills the centre right.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 4,
+   "panel": "4.5",
+   "severity": "minor",
+   "description": "The Wary Fisherman should be already walking ahead, scanning the shore. He is at the rear of the group, striding right toward the wreck, away from the carry party. Thatched huts and beached boats also appear on the shore at the left edge. That contradicts the empty beach of pages 1 to 3 and the village set inland up the slope in 5.1.",
+   "evidence": "Page 4 bottom panel: the Wary Fisherman's feet and body point right toward the wrecked ship, and he stands behind the Young Fisherman. A hut village and boats fill the far left background.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.1",
+   "severity": "minor",
+   "description": "The script puts the Wary Fisherman leading the climb toward camera. He is lower on the slope and to one side, behind the carriers.",
+   "evidence": "Page 5 top panel: the Fisherman and Young Fisherman with Nagoji are higher up the slope at left centre. The Wary Fisherman, with his net, is at right, lower down and farther from camera.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.2 / 5.3",
+   "severity": "minor",
+   "description": "The '<Portuguese.>' tail points to the child with her back to us, not to the girl cupping her hand to whisper. In 5.3 the girl the Young Fisherman rounds on is a different child: small, in a red skirt, standing in a far doorway. The link from the whisper to the rebuke, and the girl 'shrinking back', is weak.",
+   "evidence": "Page 5 panel 2: the tail tip lands on the back of the second child's head, while the whispering girl in the red top is to her left. Page 5 panel 3: the girl stands in the doorway at the far left.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.4",
+   "severity": "minor",
+   "description": "The script freezes the moment as the Woman steps out of the doorway with Nagoji held between the carriers. In the art Nagoji sits or reclines on the ground, propped beside the crouching Young Fisherman, and the Woman stands at his side. She is not emerging from the door, and her gaze is aimed at his chest, not plainly at the small brand on his forearm.",
+   "evidence": "Page 5 panel 4: Nagoji is seated low in the centre with no one carrying him. The Woman stands in front of the dark doorway, looking down. The brand is a small mark at the lower right of his forearm.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 2,
+   "panel": "2.3",
+   "severity": "minor",
+   "description": "The rope loops are already gone from his chest, but the script has them cut away on camera in 2.4, where they lie on the sand.",
+   "evidence": "Page 2 panel 3: the open tunic shows a bare chest with no rope. In 2.2 the rope is still implied, and in 2.4 the cut loops lie on the sand.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 4,
+   "panel": "4.2",
+   "severity": "minor",
+   "description": "The Fisherman stands at full height, but he is crouched at Nagoji's side in 4.1 and 4.4, which gives a continuity jump inside one exchange. The 'nods once, jerks chin south' beat becomes a standing arm gesture.",
+   "evidence": "Page 4 panel 2: the Fisherman is upright, with his lungi at the waist and his arm out behind him. Panels 4.1 and 4.4 show him crouched or leaning low.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.2",
+   "severity": "minor",
+   "description": "The Fisherman and the Young Fisherman should exchange a look across the room. Both turn to stare at the boy, so their knowing exchange is lost.",
+   "evidence": "Page 6 top-right panel: both men's heads and eyes are turned left toward the boy in the doorway.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.4",
+   "severity": "minor",
+   "description": "Nagoji sits bolt upright, cross-legged, with both hands still fully bandaged, then is reclining on cushions in 6.5 moments later. The bandage the Woman unwound in 5.5 is back on.",
+   "evidence": "Page 6 panel 4: upright seated pose, eyes closed, both hands wrapped. Page 6 panel 5: reclined on woven bolsters.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "3.5",
+   "severity": "minor",
+   "description": "The background changes the established wreck: a skeletal hull of bare ribs sits right at the tide line, and a stone masonry wall stands at the left. Elsewhere the wreck is the high-sided ship heeled over on an offshore reef (2.4, 3.3, 4.5) on an empty beach.",
+   "evidence": "Page 3 bottom panel: upright broken ribs fill the right background close inshore, and a dressed-stone wall with a rope coil fills the left edge.",
+   "lens": "fidelity"
+  }
+ ]
+}

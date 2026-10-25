@@ -1,0 +1,122 @@
+{
+  "review_scope": "12-15 corrected V15 character reference sheets",
+  "reviewed_at_utc": "2026-09-27T14:31:00Z",
+  "sheets": [
+    {
+      "character": "Karl August",
+      "source_sheet": "output/character-model-sheets-v1/12-karl-august.png",
+      "source_sha256": "8516bca3c60c75c152f9b6ee232939f2434cc83d2b7aed8890cbbd1d83c912df",
+      "output": "output/comic-v15-full-redo/concepts/12-karl-august-v15.png",
+      "output_sha256": "7062897d657b57ea60096f3ce4a4fbc4d818efff70e261a72b0b7741dbbfae4a",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/12-karl-august-v15.txt",
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "layout_preserved": "pass",
+        "face_identity_preserved": "pass",
+        "pale_sickly_yellow_cast": "pass",
+        "cropped_greying_hair": "pass",
+        "rough_cotton_shirt_and_no_alternate_costume": "pass",
+        "turnarounds_expressions_details_complete": "pass",
+        "readable_correct_text": "pass",
+        "no_anachronistic_or_forbidden_elements": "pass"
+      },
+      "notes": "One built-in image edit. All views show the corrected pale, sickly-yellow, cropped-greying-haired Karl in rough cotton clothing. No regeneration required.",
+      "attempts": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/12-karl-august-v15.png",
+          "sha256": "7062897d657b57ea60096f3ce4a4fbc4d818efff70e261a72b0b7741dbbfae4a",
+          "checks": "pass",
+          "reason": "initial edit passed visual review"
+        }
+      ]
+    },
+    {
+      "character": "Raza Khan",
+      "source_sheet": "output/character-model-sheets-v1/13-raza-khan-v2.png",
+      "source_sha256": "c919eef236b5f8a01493b839fc2d519e8bcaf245647cef827d92983583f26e04",
+      "output": "output/comic-v15-full-redo/concepts/13-raza-khan-v15.png",
+      "output_sha256": "0f9dd5d1036950a3db8db1cf2bc7c81ed06cc8533ba0aaeed51675db5cad4a83",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/13-raza-khan-v15.txt",
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "layout_preserved": "pass",
+        "v2_base_used": "pass",
+        "face_hawk_nose_pointed_moustache_preserved": "pass",
+        "lean_madurai_lancer_costume": "pass",
+        "green_high_wrapped_turban": "pass",
+        "anatomical_left_scar_viewer_right_in_front_views": "pass",
+        "no_duplicated_spear": "pass",
+        "turnarounds_expressions_details_complete": "pass",
+        "readable_correct_text": "pass",
+        "no_anachronistic_or_forbidden_elements": "pass"
+      },
+      "notes": "One built-in image edit from the v2 base only. Scar placement and spear consistency were visually checked across front-facing views, profiles, back view and detail panel. No regeneration required.",
+      "attempts": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/13-raza-khan-v15.png",
+          "sha256": "0f9dd5d1036950a3db8db1cf2bc7c81ed06cc8533ba0aaeed51675db5cad4a83",
+          "checks": "pass",
+          "reason": "initial edit passed visual review"
+        }
+      ]
+    },
+    {
+      "character": "Ponnan (Ponnam Pandya Deven)",
+      "source_sheet": "output/character-model-sheets-v1/14-ponnam-pandya-deven-v2.png",
+      "source_sha256": "b0c341f8a257f4d515506983057c5ed2887e78ba2cd2ec78f97a68d045c7b23c",
+      "output": "output/comic-v15-full-redo/concepts/14-ponnan-v15.png",
+      "output_sha256": "c46334bd0276c0043b1f8064d5cda6ce60551b25ed65a99f016a290b4ad76872",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/14-ponnan-v15.txt",
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "layout_preserved": "pass",
+        "v2_base_used": "pass",
+        "broad_shouldered_maravar_identity": "pass",
+        "curly_hair_thick_moustache_clean_chin": "pass",
+        "red_shoulder_cloth_and_short_red_sleeves_all_turnarounds": "pass",
+        "white_mundu_hitched_to_bare_knees": "pass",
+        "turnarounds_expressions_details_complete": "pass",
+        "readable_correct_text": "pass",
+        "no_anachronistic_or_forbidden_elements": "pass"
+      },
+      "notes": "One built-in image edit from the v2 base only. Matching red short sleeves and gold trim are present on side profiles and back, with identity and layout retained. No regeneration required.",
+      "attempts": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/14-ponnan-v15.png",
+          "sha256": "c46334bd0276c0043b1f8064d5cda6ce60551b25ed65a99f016a290b4ad76872",
+          "checks": "pass",
+          "reason": "initial edit passed visual review"
+        }
+      ]
+    },
+    {
+      "character": "Mathoo Tharakan",
+      "source_sheet": "output/character-model-sheets-v1/15-mathoo-tharakan.png",
+      "source_sha256": "af1532497eb73edd2884f0c460e48a628045130dd8e26ff135c71b3611657271",
+      "output": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15.png",
+      "output_sha256": "7f58cfea43728ac0838119fec3e71df96e1204648149a452646cd7131a16bd0b",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/15-mathoo-tharakan-v15.txt",
+      "checks": {
+        "dimensions_1536x1024": "pass",
+        "layout_preserved": "pass",
+        "face_identity_preserved": "pass",
+        "older_grey_receding_hair_fine_grey_moustache_no_beard": "pass",
+        "plain_white_or_ivory_cloth_base_look": "pass",
+        "single_small_gold_cross": "pass",
+        "maroon_tunic_and_heavy_chains_removed": "pass",
+        "turnarounds_expressions_details_complete": "pass",
+        "readable_correct_text": "pass",
+        "no_anachronistic_or_forbidden_elements": "pass"
+      },
+      "notes": "One built-in image edit. Later maroon tunic and heavy chains are absent; all views use the requested white or ivory base look with one small gold cross. No regeneration required.",
+      "attempts": [
+        {
+          "path": "output/comic-v15-full-redo/concepts/15-mathoo-tharakan-v15.png",
+          "sha256": "7f58cfea43728ac0838119fec3e71df96e1204648149a452646cd7131a16bd0b",
+          "checks": "pass",
+          "reason": "initial edit passed visual review"
+        }
+      ]
+    }
+  ]
+}

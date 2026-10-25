@@ -1,0 +1,350 @@
+{
+  "reviewed_at": "2026-09-27T14:41:24.705041+00:00",
+  "sheets": [
+    {
+      "character": "Father Duarte",
+      "source_sheet": "output/character-model-sheets-v1/10-father-duarte.png",
+      "source_sha256": "84230ef3899102121ef3e9d604d4031408618914c3f355219b4bca77335adec8",
+      "output": "output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+      "output_sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/10-father-duarte-v15.txt",
+      "prompt_sha256": "08d93265712d1ab3fc0c859b6703377cdf095e0f6741038036483317252536e8",
+      "checks": {
+        "face_from_approved_chapter1": {
+          "status": "pass",
+          "notes": "Gaunt long lined face, long nose, hollow cheeks and swept grey side curls match selected Chapter 1 close portraits."
+        },
+        "age_build_hair_eyes": {
+          "status": "pass",
+          "notes": "Man in his fifties, thin stooped build, grey tired eyes and swept grey hair without bald crown."
+        },
+        "black_cassock_plain_standing_collar": {
+          "status": "pass",
+          "notes": "Black collar across large view, four turnarounds, six expressions and collar detail. No white tab or edging."
+        },
+        "small_cross_thin_chain": {
+          "status": "pass",
+          "notes": "Small plain cross on thin chain present wherever chest is visible."
+        },
+        "hands": {
+          "status": "pass",
+          "notes": "Ink-stained right hand rendered in main pose and dedicated detail. Callused texture visible."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Large full body, four opposite-direction turnarounds, six expressions, five details and palette preserved."
+        },
+        "text": {
+          "status": "pass",
+          "notes": "Header and all captions readable. Swept hair and black collar replace obsolete captions."
+        },
+        "no_new_defects": {
+          "status": "pass",
+          "notes": "No extra limbs, unrelated characters or visible anachronistic collar."
+        }
+      },
+      "attempts": [
+        {
+          "number": 1,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/10-father-duarte-v15.txt",
+          "prompt_sha256": "08d93265712d1ab3fc0c859b6703377cdf095e0f6741038036483317252536e8",
+          "output": "output/comic-v15-full-redo/concepts/10-father-duarte-v15.png",
+          "sha256": "9fab5675e7d53f13e72cae14192e702fc10082bca9febda76dd3b7831b537453",
+          "status": "visual_review_pass",
+          "checks": {
+            "face_from_approved_chapter1": {
+              "status": "pass",
+              "notes": "Gaunt long lined face, long nose, hollow cheeks and swept grey side curls match selected Chapter 1 close portraits."
+            },
+            "age_build_hair_eyes": {
+              "status": "pass",
+              "notes": "Man in his fifties, thin stooped build, grey tired eyes and swept grey hair without bald crown."
+            },
+            "black_cassock_plain_standing_collar": {
+              "status": "pass",
+              "notes": "Black collar across large view, four turnarounds, six expressions and collar detail. No white tab or edging."
+            },
+            "small_cross_thin_chain": {
+              "status": "pass",
+              "notes": "Small plain cross on thin chain present wherever chest is visible."
+            },
+            "hands": {
+              "status": "pass",
+              "notes": "Ink-stained right hand rendered in main pose and dedicated detail. Callused texture visible."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Large full body, four opposite-direction turnarounds, six expressions, five details and palette preserved."
+            },
+            "text": {
+              "status": "pass",
+              "notes": "Header and all captions readable. Swept hair and black collar replace obsolete captions."
+            },
+            "no_new_defects": {
+              "status": "pass",
+              "notes": "No extra limbs, unrelated characters or visible anachronistic collar."
+            }
+          }
+        }
+      ],
+      "author_approval": "pending"
+    },
+    {
+      "character": "Joao",
+      "source_sheet": "output/character-model-sheets-v1/11-joao.png",
+      "source_sha256": "7a2f0d2db9e54560cd4dfad2800ed5006ac053da4900707abe481e3b62268983",
+      "output": "output/comic-v15-full-redo/concepts/11-joao-v15.png",
+      "output_sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/11-joao-v15.txt",
+      "prompt_sha256": "025ac376fe9c06c09c4bdf7de51701f08ddb21148c5fa0fe14b92944337267b5",
+      "checks": {
+        "face_from_approved_chapter1": {
+          "status": "pass",
+          "notes": "Heavy ruddy Portuguese face with full short dark beard, moustache, high forehead and swept dark curls, distinct from priest."
+        },
+        "build": {
+          "status": "pass",
+          "notes": "Broad shoulders, thick torso and heavy-set stature retained."
+        },
+        "costume": {
+          "status": "pass",
+          "notes": "Worn brown leather jerkin over cream shirt; diamond quilting removed. Wide belt."
+        },
+        "iron_keys": {
+          "status": "pass",
+          "notes": "Dark metal key ring and iron keys with highlights shown on belt and detail."
+        },
+        "not_a_priest": {
+          "status": "pass",
+          "notes": "No cassock, clerical collar or cross."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Source layout retains complete figure, four turnarounds, six expressions, five details and palette."
+        },
+        "text": {
+          "status": "pass",
+          "notes": "JOAO and material labels readable, leather and iron captions correct."
+        },
+        "no_new_defects": {
+          "status": "pass",
+          "notes": "Source lantern retained in Goa setting, anatomy coherent."
+        }
+      },
+      "attempts": [
+        {
+          "number": 1,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/11-joao-v15.txt",
+          "prompt_sha256": "025ac376fe9c06c09c4bdf7de51701f08ddb21148c5fa0fe14b92944337267b5",
+          "output": "output/comic-v15-full-redo/concepts/11-joao-v15.png",
+          "sha256": "804188a2e193e076902331db9fea0007a25b7d7d8ff47ad9a7c7252a4846325a",
+          "status": "visual_review_pass",
+          "checks": {
+            "face_from_approved_chapter1": {
+              "status": "pass",
+              "notes": "Heavy ruddy Portuguese face with full short dark beard, moustache, high forehead and swept dark curls, distinct from priest."
+            },
+            "build": {
+              "status": "pass",
+              "notes": "Broad shoulders, thick torso and heavy-set stature retained."
+            },
+            "costume": {
+              "status": "pass",
+              "notes": "Worn brown leather jerkin over cream shirt; diamond quilting removed. Wide belt."
+            },
+            "iron_keys": {
+              "status": "pass",
+              "notes": "Dark metal key ring and iron keys with highlights shown on belt and detail."
+            },
+            "not_a_priest": {
+              "status": "pass",
+              "notes": "No cassock, clerical collar or cross."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Source layout retains complete figure, four turnarounds, six expressions, five details and palette."
+            },
+            "text": {
+              "status": "pass",
+              "notes": "JOAO and material labels readable, leather and iron captions correct."
+            },
+            "no_new_defects": {
+              "status": "pass",
+              "notes": "Source lantern retained in Goa setting, anatomy coherent."
+            }
+          }
+        }
+      ],
+      "author_approval": "pending"
+    },
+    {
+      "character": "The Senior Rani of Attingal",
+      "source_sheet": "output/character-model-sheets-v1/16-senior-rani.png",
+      "source_sha256": "53afe41945c859431aebc141d8b20ae19d1854e51e517b09fc9e25a637750f2b",
+      "output": "output/comic-v15-full-redo/concepts/16-senior-rani-v15.png",
+      "output_sha256": "118a5ae795f9c653ea870a9e0167d4ef521c1e6a65a506fc7f6782a2a9297bc8",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/16-senior-rani-v15.txt",
+      "prompt_sha256": "8424b5d2a657915f83b564350a602767cc9a718c2e1d1f0d4c827b5426d99911",
+      "checks": {
+        "face_and_age": {
+          "status": "pass",
+          "notes": "Smooth adult face at Varma's court-age range, angular brow, nose and cheekbones plausibly express sibling likeness."
+        },
+        "posture": {
+          "status": "pass",
+          "notes": "Tall elongated figure, upright shoulders and cool expression."
+        },
+        "hair": {
+          "status": "pass",
+          "notes": "Black hair severely pulled back into bun in all views; no flowers or silver temple inset."
+        },
+        "costume": {
+          "status": "pass",
+          "notes": "White drape with narrow gold border, small ear ornaments, no heavy necklace."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Existing five body views, six expressions, five details and palette retained."
+        },
+        "text": {
+          "status": "pass",
+          "notes": "Full correct name THE SENIOR RANI OF ATTINGAL, accurate role and updated detail captions."
+        },
+        "no_new_defects": {
+          "status": "pass",
+          "notes": "No regalia borrowed from Varma, no elderly face."
+        }
+      },
+      "attempts": [
+        {
+          "number": 1,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/16-senior-rani-v15.txt",
+          "prompt_sha256": "8424b5d2a657915f83b564350a602767cc9a718c2e1d1f0d4c827b5426d99911",
+          "output": "output/comic-v15-full-redo/concepts/16-senior-rani-v15.png",
+          "sha256": "118a5ae795f9c653ea870a9e0167d4ef521c1e6a65a506fc7f6782a2a9297bc8",
+          "status": "visual_review_pass",
+          "checks": {
+            "face_and_age": {
+              "status": "pass",
+              "notes": "Smooth adult face at Varma's court-age range, angular brow, nose and cheekbones plausibly express sibling likeness."
+            },
+            "posture": {
+              "status": "pass",
+              "notes": "Tall elongated figure, upright shoulders and cool expression."
+            },
+            "hair": {
+              "status": "pass",
+              "notes": "Black hair severely pulled back into bun in all views; no flowers or silver temple inset."
+            },
+            "costume": {
+              "status": "pass",
+              "notes": "White drape with narrow gold border, small ear ornaments, no heavy necklace."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Existing five body views, six expressions, five details and palette retained."
+            },
+            "text": {
+              "status": "pass",
+              "notes": "Full correct name THE SENIOR RANI OF ATTINGAL, accurate role and updated detail captions."
+            },
+            "no_new_defects": {
+              "status": "pass",
+              "notes": "No regalia borrowed from Varma, no elderly face."
+            }
+          }
+        }
+      ],
+      "author_approval": "pending"
+    },
+    {
+      "character": "The Young Heir",
+      "source_sheet": "output/character-model-sheets-v1/17-young-heir.png",
+      "source_sha256": "ff3a41094088faaa02f5b1b84242b72d0ddb296c244f765facaf91b64d7acd0e",
+      "output": "output/comic-v15-full-redo/concepts/17-young-heir-v15b.png",
+      "output_sha256": "d1ab47bbe6f0720434ca1d6304441b355d59c213bda38f16b3436186cbecb346",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/17-young-heir-v15b.txt",
+      "prompt_sha256": "ba0c8e59358c0ed90750db117328001f360cf421a61a1135cbacab50a5654488",
+      "checks": {
+        "face_and_age": {
+          "status": "pass",
+          "notes": "Recognisable old child face, about ten, wide watchful eyes, high cheekbones with subtle family resemblance. Child proportions."
+        },
+        "topknot": {
+          "status": "pass",
+          "notes": "Small neat black topknot throughout full figures and expressions. Head detail shows knot rather than loose curls."
+        },
+        "costume": {
+          "status": "pass",
+          "notes": "Bare chest, plain clean white mundu without gold edging or shoulder cloth, thin gold chain, barefoot."
+        },
+        "layout": {
+          "status": "pass",
+          "notes": "Complete source sheet layout with four turnarounds, six expressions and five details."
+        },
+        "text": {
+          "status": "pass",
+          "notes": "Correct name and current role Varma's nephew. Readable updated captions."
+        },
+        "no_new_defects": {
+          "status": "pass",
+          "notes": "Source fine pale forehead mark retained. No weapons, adult regalia or facial hair."
+        }
+      },
+      "attempts": [
+        {
+          "number": 1,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/17-young-heir-v15.txt",
+          "prompt_sha256": "5827f58cdf32d7056102e596763faff2588fd168939f5755c2f4f362016a8447",
+          "output": null,
+          "status": "tool_rejected",
+          "error": {
+            "code": "moderation_blocked",
+            "stage": "output",
+            "category": "other",
+            "request_id": "c4614eaa-0835-459a-9869-8765ebebd9de"
+          },
+          "checks": {
+            "generation_completed": "fail"
+          },
+          "reason": "No image produced by first tool call."
+        },
+        {
+          "number": 2,
+          "prompt_path": "output/comic-v15-full-redo/concepts/prompts/17-young-heir-v15b.txt",
+          "prompt_sha256": "ba0c8e59358c0ed90750db117328001f360cf421a61a1135cbacab50a5654488",
+          "output": "output/comic-v15-full-redo/concepts/17-young-heir-v15b.png",
+          "sha256": "d1ab47bbe6f0720434ca1d6304441b355d59c213bda38f16b3436186cbecb346",
+          "status": "visual_review_pass",
+          "checks": {
+            "face_and_age": {
+              "status": "pass",
+              "notes": "Recognisable old child face, about ten, wide watchful eyes, high cheekbones with subtle family resemblance. Child proportions."
+            },
+            "topknot": {
+              "status": "pass",
+              "notes": "Small neat black topknot throughout full figures and expressions. Head detail shows knot rather than loose curls."
+            },
+            "costume": {
+              "status": "pass",
+              "notes": "Bare chest, plain clean white mundu without gold edging or shoulder cloth, thin gold chain, barefoot."
+            },
+            "layout": {
+              "status": "pass",
+              "notes": "Complete source sheet layout with four turnarounds, six expressions and five details."
+            },
+            "text": {
+              "status": "pass",
+              "notes": "Correct name and current role Varma's nephew. Readable updated captions."
+            },
+            "no_new_defects": {
+              "status": "pass",
+              "notes": "Source fine pale forehead mark retained. No weapons, adult regalia or facial hair."
+            }
+          }
+        }
+      ],
+      "author_approval": "pending"
+    }
+  ]
+}

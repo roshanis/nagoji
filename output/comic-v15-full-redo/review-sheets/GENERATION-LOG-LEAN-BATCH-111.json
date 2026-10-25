@@ -1,0 +1,588 @@
+[
+  {
+    "chapter": 10,
+    "package": "output/comic-v15-full-redo/chapters/ch10-split2",
+    "id": "page-02-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "output/comic-v15-full-redo/chapters/ch10-split2/candidates/page-02-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch10/page-02-panel-02-composite.png",
+    "region_crops": [
+      [
+        500,
+        98,
+        1044,
+        312
+      ]
+    ],
+    "notes": {
+      "version": "v02",
+      "source": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/frames/page-02-panel-02-v01.png",
+      "source_sha256": "b20b147cbbdd2dd1504bc762c415ec49ea812424279eeb78a823cd2aabf1b958",
+      "prompt": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/prompts/page-02-panel-02-fix-rv1.txt",
+      "prompt_sha256": "a89eba6cad8bdfbf863d14b6dff9f7cb1b55c03599344766a31fb5c9b53a8923",
+      "prompt_used_verbatim": true,
+      "attached_images": [
+        "/private/tmp/claude-501/fixrv1-ch10/page-02-panel-02-crop-1024.png"
+      ],
+      "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11845-6080-7ed0-bf02-67074f55484d/exec-d5f842b3-0774-4e4e-87d2-e4e22340d894.png",
+      "returned_full_scene": true,
+      "output_region_crop": [
+        810,
+        54,
+        1435,
+        350
+      ],
+      "feather": "Solid centre; cosine feather over approximately 10 percent of the shorter crop dimension.",
+      "feather_px": 21,
+      "protected_source_polygons": [
+        [
+          [
+            552,
+            98
+          ],
+          [
+            634,
+            98
+          ],
+          [
+            615,
+            137
+          ],
+          [
+            584,
+            134
+          ]
+        ],
+        [
+          [
+            743,
+            98
+          ],
+          [
+            787,
+            98
+          ],
+          [
+            779,
+            123
+          ],
+          [
+            756,
+            123
+          ]
+        ],
+        [
+          [
+            873,
+            98
+          ],
+          [
+            925,
+            98
+          ],
+          [
+            916,
+            132
+          ],
+          [
+            890,
+            133
+          ]
+        ]
+      ],
+      "max_pixel_difference_outside_crop": 0,
+      "max_pixel_difference_outside_crop_captured_frame": 0,
+      "artifact_check": "Full-scene output contained three women rather than the source four. Recovered region leaves visible neck/shoulder discontinuities and ghosted boundaries against preserved heads. No regeneration or repair. Faces crossing the top crop edge were protected with local mask cutouts.",
+      "imagegen_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "capture_retries": 0,
+      "visual_review": "pending",
+      "input_crop_size": [
+        1024,
+        403
+      ],
+      "raw_generated_size": [
+        1999,
+        787
+      ],
+      "protected_source_max_difference": 0
+    }
+  },
+  {
+    "chapter": 10,
+    "package": "output/comic-v15-full-redo/chapters/ch10-split2",
+    "id": "page-03-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "output/comic-v15-full-redo/chapters/ch10-split2/candidates/page-03-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch10/page-03-panel-02-composite.png",
+    "region_crops": [
+      [
+        428,
+        350,
+        932,
+        704
+      ]
+    ],
+    "notes": {
+      "version": "v02",
+      "source": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/frames/page-03-panel-02-v01.png",
+      "source_sha256": "714a5cd2afda7625b8618e7cfb70f268683bd2cc0bc5beaa807138279f9b2b09",
+      "prompt": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/prompts/page-03-panel-02-fix-rv1.txt",
+      "prompt_sha256": "c86f82b02727bf4b45e035abcd2adcadbd7a6ca12bc35632c7f46ec8dd0799ac",
+      "prompt_used_verbatim": true,
+      "attached_images": [
+        "/private/tmp/claude-501/fixrv1-ch10/page-03-panel-02-crop-1024.png"
+      ],
+      "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11845-6080-7ed0-bf02-67074f55484d/exec-55ec9929-a5be-41b4-be61-c60da5bb7c56.png",
+      "returned_full_scene": true,
+      "output_region_crop": [
+        0,
+        20,
+        920,
+        730
+      ],
+      "feather": "Solid centre; cosine feather over approximately 10 percent of the shorter crop dimension.",
+      "feather_px": 35,
+      "protected_source_polygons": [
+        [
+          [
+            574,
+            356
+          ],
+          [
+            662,
+            356
+          ],
+          [
+            680,
+            415
+          ],
+          [
+            641,
+            450
+          ],
+          [
+            578,
+            429
+          ]
+        ],
+        [
+          [
+            772,
+            430
+          ],
+          [
+            834,
+            429
+          ],
+          [
+            852,
+            474
+          ],
+          [
+            816,
+            501
+          ],
+          [
+            771,
+            494
+          ]
+        ],
+        [
+          [
+            850,
+            436
+          ],
+          [
+            915,
+            436
+          ],
+          [
+            928,
+            479
+          ],
+          [
+            897,
+            506
+          ],
+          [
+            850,
+            500
+          ]
+        ]
+      ],
+      "max_pixel_difference_outside_crop": 0,
+      "max_pixel_difference_outside_crop_captured_frame": 0,
+      "artifact_check": "Full-scene output recovered to source crop. Protected the source women's faces with mask cutouts. Visible duplicated/offset head and neck fragments around the attendants, doubled hair outline behind the lead woman, and lamp-wall/cloth seam discontinuities. No regeneration or repair.",
+      "imagegen_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "capture_retries": 0,
+      "visual_review": "pending",
+      "input_crop_size": [
+        1024,
+        719
+      ],
+      "raw_generated_size": [
+        1496,
+        1051
+      ],
+      "protected_source_max_difference": 0
+    }
+  },
+  {
+    "chapter": 10,
+    "package": "output/comic-v15-full-redo/chapters/ch10-split2",
+    "id": "page-04-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "output/comic-v15-full-redo/chapters/ch10-split2/candidates/page-04-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch10/page-04-panel-02-composite.png",
+    "region_crops": [
+      [
+        20,
+        210,
+        307,
+        515
+      ]
+    ],
+    "notes": {
+      "version": "v02",
+      "source": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/frames/page-04-panel-02-v01.png",
+      "source_sha256": "92cd376bd2e48d7424588e27f03d597509cc17fe7e91421900cedad2b2619afd",
+      "prompt": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/prompts/page-04-panel-02-fix-rv1.txt",
+      "prompt_sha256": "2521c1c52aa36d5fc17e2ee0f4f72b89a2c587a955eff786811adb7ba9fd174a",
+      "prompt_used_verbatim": true,
+      "attached_images": [
+        "/private/tmp/claude-501/fixrv1-ch10/page-04-panel-02-crop-1024.png"
+      ],
+      "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11845-6080-7ed0-bf02-67074f55484d/exec-d45f34e4-c579-44c1-99c3-1f75e91d7dac.png",
+      "returned_full_scene": true,
+      "output_region_crop": [
+        0,
+        140,
+        480,
+        904
+      ],
+      "feather": "Solid centre; cosine feather over approximately 10 percent of the shorter crop dimension.",
+      "feather_px": 29,
+      "protected_source_polygons": [],
+      "max_pixel_difference_outside_crop": 0,
+      "max_pixel_difference_outside_crop_captured_frame": 0,
+      "artifact_check": "Full-scene output recovered to the male cloth merchant. No stray duplicated limbs or extra figures seen. A soft texture/cloth boundary mismatch remains near the lower edge of the pasted region. No regeneration or repair.",
+      "imagegen_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "capture_retries": 0,
+      "visual_review": "pending",
+      "input_crop_size": [
+        964,
+        1024
+      ],
+      "raw_generated_size": [
+        1217,
+        1293
+      ],
+      "protected_source_max_difference": 0
+    }
+  },
+  {
+    "chapter": 10,
+    "package": "output/comic-v15-full-redo/chapters/ch10-split2",
+    "id": "page-05-panel-01",
+    "mode": "edit",
+    "status": "captured",
+    "candidate_record": "output/comic-v15-full-redo/chapters/ch10-split2/candidates/page-05-panel-01-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch10/page-05-panel-01-composite.png",
+    "region_crops": [
+      [
+        207,
+        205,
+        381,
+        386
+      ]
+    ],
+    "notes": {
+      "version": "v02",
+      "source": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/frames/page-05-panel-01-v01.png",
+      "source_sha256": "906d8edf3f152a9a41eadedbbd10d37d776117094956f0a92c1d7dc76b586cf9",
+      "prompt": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/prompts/page-05-panel-01-fix-rv1.txt",
+      "prompt_sha256": "914fc3eac6b8b949a0f594a46ccbe9058a25951c265e49ffb583b32ff09f33f2",
+      "prompt_used_verbatim": true,
+      "attached_images": [
+        "/private/tmp/claude-501/fixrv1-ch10/page-05-panel-01-crop-1024.png"
+      ],
+      "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11845-6080-7ed0-bf02-67074f55484d/exec-74a2c9ad-0d80-4d64-9049-9e05ddc625e0.png",
+      "returned_full_scene": false,
+      "output_region_crop": null,
+      "feather": "Solid centre; cosine feather over approximately 10 percent of the shorter crop dimension.",
+      "feather_px": 17,
+      "protected_source_polygons": [
+        [
+          [
+            324,
+            205
+          ],
+          [
+            381,
+            205
+          ],
+          [
+            381,
+            245
+          ],
+          [
+            369,
+            257
+          ],
+          [
+            346,
+            257
+          ],
+          [
+            328,
+            241
+          ]
+        ]
+      ],
+      "max_pixel_difference_outside_crop": 0,
+      "max_pixel_difference_outside_crop_captured_frame": 0,
+      "artifact_check": "Tool returned the crop directly. Source face pixels within the crop were protected with a local mask cutout. No stray duplicated limbs, extra figures or obvious seams seen in the requested artifact check.",
+      "imagegen_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "capture_retries": 0,
+      "visual_review": "pending",
+      "input_crop_size": [
+        984,
+        1024
+      ],
+      "raw_generated_size": [
+        1229,
+        1280
+      ],
+      "protected_source_max_difference": 0
+    }
+  },
+  {
+    "chapter": 10,
+    "package": "output/comic-v15-full-redo/chapters/ch10-split2",
+    "id": "page-05-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "output/comic-v15-full-redo/chapters/ch10-split2/candidates/page-05-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch10/page-05-panel-02-composite.png",
+    "region_crops": [
+      [
+        418,
+        96,
+        680,
+        375
+      ]
+    ],
+    "notes": {
+      "version": "v02",
+      "source": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/frames/page-05-panel-02-v01.png",
+      "source_sha256": "188f8472d6930a7769f268378d0d35ba99d422dd626e7bc0631885cd6cc3f798",
+      "prompt": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/prompts/page-05-panel-02-fix-rv1.txt",
+      "prompt_sha256": "1a213f31cefdad85718fd680ea2b3eebef3119df4d995dd0057076af8f8d9bf7",
+      "prompt_used_verbatim": true,
+      "attached_images": [
+        "/private/tmp/claude-501/fixrv1-ch10/page-05-panel-02-crop-1024.png"
+      ],
+      "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11845-6080-7ed0-bf02-67074f55484d/exec-27597f72-668b-4d19-a0cd-1c877e73daed.png",
+      "returned_full_scene": true,
+      "output_region_crop": [
+        32,
+        32,
+        437,
+        334
+      ],
+      "feather": "Solid centre; cosine feather over approximately 10 percent of the shorter crop dimension.",
+      "feather_px": 26,
+      "protected_source_polygons": [
+        [
+          [
+            418,
+            305
+          ],
+          [
+            439,
+            282
+          ],
+          [
+            464,
+            264
+          ],
+          [
+            500,
+            258
+          ],
+          [
+            541,
+            269
+          ],
+          [
+            572,
+            287
+          ],
+          [
+            590,
+            309
+          ],
+          [
+            605,
+            344
+          ],
+          [
+            613,
+            375
+          ],
+          [
+            418,
+            375
+          ]
+        ]
+      ],
+      "max_pixel_difference_outside_crop": 0,
+      "max_pixel_difference_outside_crop_captured_frame": 0,
+      "artifact_check": "Full-scene output recovered to the porter. Ramayyan's overlapping face and hair were protected by a local mask cutout. No added figures or duplicated limbs seen. A small maroon clothing remnant remains immediately behind his protected hairline, with a visible awning/sack seam at the crop boundary. No regeneration or repair.",
+      "imagegen_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "capture_retries": 0,
+      "visual_review": "pending",
+      "input_crop_size": [
+        962,
+        1024
+      ],
+      "raw_generated_size": [
+        1216,
+        1294
+      ],
+      "protected_source_max_difference": 0
+    }
+  },
+  {
+    "chapter": 10,
+    "package": "output/comic-v15-full-redo/chapters/ch10-split2",
+    "id": "page-09-panel-02",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "output/comic-v15-full-redo/chapters/ch10-split2/candidates/page-09-panel-02-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch10/page-09-panel-02-composite.png",
+    "region_crops": [
+      [
+        492,
+        316,
+        658,
+        457
+      ]
+    ],
+    "notes": {
+      "version": "v02",
+      "source": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/frames/page-09-panel-02-v01.png",
+      "source_sha256": "6f88e41abc0a046b9c30d2b007e4fed9c2d0467b84ced6160d290dbddf49afb9",
+      "prompt": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/prompts/page-09-panel-02-fix-rv1.txt",
+      "prompt_sha256": "6d2eb16929e1e7b612f6f0d3b80d035601f021324beb68f0d92da5627ffbcca7",
+      "prompt_used_verbatim": true,
+      "attached_images": [
+        "/private/tmp/claude-501/fixrv1-ch10/page-09-panel-02-crop-1024.png"
+      ],
+      "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11845-6080-7ed0-bf02-67074f55484d/exec-9c962a01-868c-456a-af7e-10ee0578f0c9.png",
+      "returned_full_scene": true,
+      "output_region_crop": [
+        390,
+        189,
+        805,
+        691
+      ],
+      "feather": "Solid centre; cosine feather over approximately 10 percent of the shorter crop dimension.",
+      "feather_px": 14,
+      "protected_source_polygons": [],
+      "max_pixel_difference_outside_crop": 0,
+      "max_pixel_difference_outside_crop_captured_frame": 0,
+      "artifact_check": "Full-scene output recovered to the temple and resized so its horizon aligns with the source horizon. No added figures or duplicated limbs seen. Visible rectangular colour/texture transition in the sky and foliage within the feathered crop boundary. No regeneration or repair.",
+      "imagegen_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "capture_retries": 0,
+      "visual_review": "pending",
+      "input_crop_size": [
+        1024,
+        870
+      ],
+      "raw_generated_size": [
+        1360,
+        1156
+      ],
+      "protected_source_max_difference": 0
+    }
+  },
+  {
+    "chapter": 10,
+    "package": "output/comic-v15-full-redo/chapters/ch10-split2",
+    "id": "page-13-panel-03",
+    "mode": "edit",
+    "status": "captured_with_issues",
+    "candidate_record": "output/comic-v15-full-redo/chapters/ch10-split2/candidates/page-13-panel-03-v02.json",
+    "error": null,
+    "generated_path": "/private/tmp/claude-501/fixrv1-ch10/page-13-panel-03-composite.png",
+    "region_crops": [
+      [
+        1240,
+        173,
+        1429,
+        300
+      ]
+    ],
+    "notes": {
+      "version": "v02",
+      "source": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/frames/page-13-panel-03-v01.png",
+      "source_sha256": "6c598b9831645223fae3e84ffddfe1e92175ca6fdb17505ecfef993570f66b8b",
+      "prompt": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch10-split2/prompts/page-13-panel-03-fix-rv1.txt",
+      "prompt_sha256": "bec3f46a196751d07be4d359247c2d0a5dd13c6f41f88919a7d2e82321d9918e",
+      "prompt_used_verbatim": true,
+      "attached_images": [
+        "/private/tmp/claude-501/fixrv1-ch10/page-13-panel-03-crop-1024.png"
+      ],
+      "raw_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a11845-6080-7ed0-bf02-67074f55484d/exec-7ae885ca-5e46-45fa-9cf4-eef0ff2b4e26.png",
+      "returned_full_scene": true,
+      "output_region_crop": [
+        880,
+        284,
+        1450,
+        582
+      ],
+      "feather": "Solid centre; cosine feather over approximately 10 percent of the shorter crop dimension.",
+      "feather_px": 13,
+      "protected_source_polygons": [],
+      "max_pixel_difference_outside_crop": 0,
+      "max_pixel_difference_outside_crop_captured_frame": 0,
+      "artifact_check": "Full-scene output recovered to the lit hill temple. No stray duplicated limbs or extra figures seen. A faint darker rectangular sky transition and foliage seam remain within the crop boundary. No regeneration or repair.",
+      "imagegen_calls": 1,
+      "rate_limit_retries": 0,
+      "moderation_retries": 0,
+      "capture_retries": 0,
+      "visual_review": "pending",
+      "input_crop_size": [
+        1024,
+        688
+      ],
+      "raw_generated_size": [
+        1530,
+        1028
+      ],
+      "protected_source_max_difference": 0
+    }
+  }
+]

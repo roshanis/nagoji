@@ -1,0 +1,62 @@
+{
+  "schema_version": "r3",
+  "scope": ["page-09", "page-10"],
+  "selection_performed": false,
+  "native_review_complete": true,
+  "latest_candidate_recommendations": {
+    "page-09-panel-01": "v03",
+    "page-09-panel-02": "v02",
+    "page-09-panel-03": "v02",
+    "page-09-panel-04": "v02",
+    "page-09-panel-05": "v03",
+    "page-10-panel-01": "v02",
+    "page-10-panel-02": "v03",
+    "page-10-panel-03": "v03",
+    "page-10-panel-04": "v02",
+    "page-10-panel-05": "v02"
+  },
+  "decisions": {
+    "page-09-panel-01": "review",
+    "page-09-panel-02": "reject",
+    "page-09-panel-03": "review",
+    "page-09-panel-04": "review",
+    "page-09-panel-05": "pass-native",
+    "page-10-panel-01": "pass-native",
+    "page-10-panel-02": "review",
+    "page-10-panel-03": "pass-native",
+    "page-10-panel-04": "pass-native",
+    "page-10-panel-05": "pass-native"
+  },
+  "native_review_notes": [
+    "p09.1 v03 is a new 2087x754 ultra-wide strip with clean Keshavrao hairline, hand-only Nagoji inset, two blank reserves, no lettering, no gore and no noose.",
+    "p09.1 v01 and v02 retain faint red-like hairline marks. Two further correction attempts were blocked by built-in imagegen safety moderation with sexual violation output.",
+    "p09.2 v03 is ultra-wide and stages the rope throw well, but both Nagoji forearms remain exposed, so it is rejected under the covered-left-forearm rule.",
+    "p09.3 v02 is ultra-wide with clear rope action and young distinct Keshavrao. The visible Nagoji arm area requires root confirmation against the covered-left-forearm rule.",
+    "p09.4 v02 is ultra-wide and keeps hands and rope action clear with no extra people.",
+    "p09.5 v03 is ultra-wide with clean warm palms, pale frayed bandages and no blood-like staining.",
+    "p10.1 v02 is ultra-wide with empty hatch, distant Nagoji and no extra people.",
+    "p10.2 v03 is ultra-wide with one visible round gold stud and no dangling ornament; root must decide whether its apparent size meets tiny flush stud.",
+    "p10.3 v03 is ultra-wide, has no unrequested guards, three blank reserves, and rope staged across the chest.",
+    "p10.4 v02 is ultra-wide, has no guards, and shows the rope trailing from the chest during the leap.",
+    "p10.5 v02 is ultra-wide, dark storm-lit, with a loose rope end near the spar and no visible knot attachment."
+  ],
+  "copy_fit_audit": {
+    "status": "blocked",
+    "method": "copy_fit_measurements plus audit_reserve_pixels against current LAYOUT.json",
+    "failure": "The prior narrow p09.1 candidate produced an actual clipped rect of 134.25x115 pt inside the full-width slot and fits false due to insufficient reserve height or width; audit_reserve_pixels then raised Glyph lies outside visible art.",
+    "new_wide_candidates_not_yet_audited": ["page-09-panel-01-v03", "page-09-panel-02-v03", "page-09-panel-03-v02"]
+  },
+  "geometry_files": [
+    "review-page-09-panel-01-v03-geometry.json",
+    "review-page-09-panel-02-v03-geometry.json",
+    "review-page-09-panel-03-v02-geometry.json",
+    "review-page-09-panel-04-v02-geometry.json",
+    "review-page-09-panel-05-v03-geometry.json",
+    "review-page-10-panel-01-v02-geometry.json",
+    "review-page-10-panel-02-v03-geometry.json",
+    "review-page-10-panel-03-v03-geometry.json",
+    "review-page-10-panel-04-v02-geometry.json",
+    "review-page-10-panel-05-v02-geometry.json"
+  ],
+  "selection_note": "No select command was run. Root review and layout ownership remain with parent task."
+}

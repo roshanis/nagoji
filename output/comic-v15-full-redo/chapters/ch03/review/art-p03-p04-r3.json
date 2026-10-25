@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "chapter": 3,
+  "pages": [3, 4],
+  "status": "p3_2_p3_4_passed",
+  "passed_candidates": {
+    "page-03-panel-02": "v06",
+    "page-03-panel-04": "v05"
+  },
+  "native_review": {
+    "page-03-panel-02-v06": "Enclosed below-deck hold, corrected Nagoji identity and restraints, character-left forearm covered beneath ochre flap, enlarged reserves.",
+    "page-03-panel-04-v05": "Enclosed below-deck hold, two wide pure-white rectangular reserves, Nagoji character-left forearm covered, bandaged other wrist, collars and pen chain visible."
+  },
+  "copy_fit": {
+    "status": "pass",
+    "geometry": {
+      "page-03-panel-02": "geometry/page-03-panel-02-v06-qa3.json",
+      "page-03-panel-04": "geometry/page-03-panel-04-v05.json"
+    },
+    "minimum_light_fraction": 1.0,
+    "line_count": 10
+  },
+  "provenance": "Actual prompt provenance siblings added; all earlier rejected generations remain preserved."
+}

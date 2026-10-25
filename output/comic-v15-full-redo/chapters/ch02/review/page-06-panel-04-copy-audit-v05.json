@@ -1,0 +1,162 @@
+{
+  "copy_fit": [
+    {
+      "frame_id": "page-06-panel-04",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        71.57692307692307,
+        318.8269230769231,
+        122.15384615384616,
+        16.923076923076906
+      ],
+      "lines": [
+        "If there is a chance, I will not leave you."
+      ],
+      "adaptation": {
+        "planned_rect_pt": [
+          36.0,
+          227.75,
+          369.0,
+          110
+        ],
+        "actual_clip_rect_pt": [
+          54.96153846153845,
+          227.75,
+          331.0769230769231,
+          110
+        ],
+        "visible_aspect": 3.00979020979021,
+        "planned_aspect": 3.3545454545454545,
+        "policy": "contain_visible_viewport_centered_inside_planned_slot"
+      },
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 15.833846153846167,
+        "top": 4.566538461538453,
+        "bottom": 4.566538461538452
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          104.32,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        6.3065384615384525
+      ]
+    },
+    {
+      "frame_id": "page-06-panel-04",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        207.5769230769231,
+        314.21153846153845,
+        175.38461538461542,
+        21.538461538461547
+      ],
+      "lines": [
+        "Neither of us mentioned that promises made in chains are the",
+        "easiest to break."
+      ],
+      "adaptation": {
+        "planned_rect_pt": [
+          36.0,
+          227.75,
+          369.0,
+          110
+        ],
+        "actual_clip_rect_pt": [
+          54.96153846153845,
+          227.75,
+          331.0769230769231,
+          110
+        ],
+        "visible_aspect": 3.00979020979021,
+        "planned_aspect": 3.3545454545454545,
+        "policy": "contain_visible_viewport_centered_inside_planned_slot"
+      },
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 11.124615384615424,
+        "top": 2.1142307692307725,
+        "bottom": 2.1142307692307742
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          162.26,
+          6.05
+        ],
+        [
+          0.0,
+          -0.05,
+          43.63,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        13.374230769230774,
+        3.8542307692307745
+      ]
+    }
+  ],
+  "reserve_pixels": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 3,
+    "lines": [
+      {
+        "frame_id": "page-06-panel-04",
+        "text": "If there is a chance, I will not leave you.",
+        "source_pixel_rect": [
+          129,
+          48,
+          807,
+          98
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-06-panel-04",
+        "text": "Neither of us mentioned that promises made in chains are the",
+        "source_pixel_rect": [
+          1013,
+          32,
+          2068,
+          82
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-06-panel-04",
+        "text": "easiest to break.",
+        "source_pixel_rect": [
+          1013,
+          94,
+          1297,
+          133
+        ],
+        "light_fraction": 1.0
+      }
+    ]
+  }
+}

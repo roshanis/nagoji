@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "status": "candidate_review_complete",
+  "generation_tool": "built-in imagegen",
+  "prompts_rewritten": [
+    "resume-page-04-panel-01-v04.txt",
+    "resume-page-04-panel-02-v04.txt",
+    "resume-page-04-panel-03-v02.txt",
+    "resume-page-04-panel-04-v03.txt",
+    "resume-page-04-panel-05-v03.txt"
+  ],
+  "panels": [
+    {
+      "id": "page-04-panel-01",
+      "candidate": "candidates/page-04-panel-01-v04.json",
+      "frame": "frames/page-04-panel-01-v04.png",
+      "native_resolution": [1795, 876],
+      "visible_rect": [15, 15, 1780, 861],
+      "reserves": [{"kind":"speech","rect":[600,50,1740,200],"copy_indices":[0]}],
+      "copy_fit": "pass",
+      "pixel_audit": "fail: light fraction 0.663 for copy index 0"
+    },
+    {
+      "id": "page-04-panel-02",
+      "candidate": "candidates/page-04-panel-02-v04.json",
+      "frame": "frames/page-04-panel-02-v04.png",
+      "native_resolution": [2135, 736],
+      "visible_rect": [15, 15, 2120, 721],
+      "reserves": [
+        {"kind":"speech","rect":[900,15,2120,180],"copy_indices":[0]},
+        {"kind":"speech","rect":[900,180,2120,350],"copy_indices":[1]},
+        {"kind":"speech","rect":[900,350,2120,520],"copy_indices":[2]}
+      ],
+      "copy_fit": "pass",
+      "pixel_audit": "fail: light fraction 0.492 for copy index 0"
+    },
+    {
+      "id": "page-04-panel-03",
+      "candidate": "candidates/page-04-panel-03-v02.json",
+      "frame": "frames/page-04-panel-03-v02.png",
+      "native_resolution": [1536, 1024],
+      "visible_rect": [15, 15, 1521, 1009],
+      "reserves": [
+        {"kind":"speech","rect":[100,400,1515,680],"copy_indices":[0]},
+        {"kind":"speech","rect":[800,680,1515,850],"copy_indices":[1]}
+      ],
+      "copy_fit": "pass",
+      "pixel_audit": "fail: light fraction 0.288 for copy index 0"
+    },
+    {
+      "id": "page-04-panel-04",
+      "candidate": "candidates/page-04-panel-04-v03.json",
+      "frame": "frames/page-04-panel-04-v03.png",
+      "native_resolution": [1536, 1024],
+      "visible_rect": [15, 15, 1521, 1009],
+      "reserves": [
+        {"kind":"speech","rect":[200,180,1515,380],"copy_indices":[0]},
+        {"kind":"speech","rect":[200,380,1515,580],"copy_indices":[1]},
+        {"kind":"speech","rect":[200,580,1515,780],"copy_indices":[2]}
+      ],
+      "copy_fit": "pass",
+      "pixel_audit": "fail: light fraction 0.275 for copy index 0"
+    },
+    {
+      "id": "page-04-panel-05",
+      "candidate": "candidates/page-04-panel-05-v03.json",
+      "frame": "frames/page-04-panel-05-v03.png",
+      "native_resolution": [2135, 736],
+      "visible_rect": [15, 15, 2120, 721],
+      "reserves": [
+        {"kind":"speech","rect":[900,150,2120,300],"copy_indices":[0]},
+        {"kind":"speech","rect":[900,300,2120,500],"copy_indices":[1]}
+      ],
+      "copy_fit": "pass",
+      "pixel_audit": "fail: light fraction 0.484 for copy index 0"
+    }
+  ],
+  "visual_review": {
+    "page-04-panel-01": "beach geography restored; all fishermen wear sleeveless vests; Nagoji clean chin and plain stud; upper sky is usable but not uniformly light",
+    "page-04-panel-02": "southward gesture and coast restored; leader sleeveless vest and white shoulder cloth; clean sky and sea reserve",
+    "page-04-panel-03": "dungeon removed; close beach portrait; clean chin and plain stud; pale background reserve",
+    "page-04-panel-04": "beach two-shot restored; leader and Nagoji staging readable; clean chin and plain stud",
+    "page-04-panel-05": "correct shoulder and legs carry, inland village path, vested fishermen, plain stud; broad upper reserve"
+  },
+  "deviations": [
+    "Built-in imagegen outputs do not provide uniformly light native pixels for the proposed lettering reserves, so audit_reserve_pixels fails all five panels despite copy_fit_measurements passing.",
+    "No panel was selected or accepted by this worker."
+  ]
+}

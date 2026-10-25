@@ -1,0 +1,256 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 4,
+  "logs": [
+    "chapter 8: 1 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 8: keep regions for 1 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 8: face zones for 1 frames, 5 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 8,
+        "decisions": [
+          {
+            "id": "page-14-panel-01",
+            "pick": "v04",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.552,
+                "y": 0.442
+              },
+              {
+                "copy_index": 1,
+                "x": 0.372,
+                "y": 0.148
+              },
+              {
+                "copy_index": 2,
+                "x": 0.372,
+                "y": 0.148
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.345,
+                "y": 0.094,
+                "r": 0.12
+              },
+              {
+                "x": 0.581,
+                "y": 0.403,
+                "r": 0.115
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Forced pick (hand retouch, ear drop removed). Remaining faults: (1) Nagoji's left ear is visible but now shows no gold stud at all; the retouch took out the stud along with the drop, so the bible's 'small gold ear stud' is missing. (2) Nagoji's chin has a faint stubble shadow. The bible allows 'light stubble at most, captivity only', and chapter 8 is after captivity. (3) He is barefoot with no boots, and his talwar leans against the tree. That suits sitting on the platform but differs from the commander sheet. (4) Padmini reads as perched on the platform edge with her weight on the stick, not clearly rising, so the 'getting to her feet' beat is weak. (5) Her head sits near the top edge, above the middle half of the frame. The open sky in the upper middle and right (x about 0.45 to 0.95, y 0.05 to 0.35, broken only by palm crowns) gives room for all three lettering lines. Nagoji's line can go above him in the sky, and Padmini's two lines to the right of her head, clear of the faces. No painted text, balloons, gore or anachronisms. Hands and anatomy are sound. Padmini's black hair, gold jewellery and cream gold-border sari with no blouse match her bible row.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 8,
+        "result": {
+          "chapter": 8,
+          "panels": [
+            {
+              "id": "page-14-panel-01",
+              "version": "v04",
+              "faces": [
+                {
+                  "x": 0.368,
+                  "y": 0.13,
+                  "r": 0.048,
+                  "who": "woman in white-and-gold sari, three-quarter view, upper left"
+                },
+                {
+                  "x": 0.561,
+                  "y": 0.442,
+                  "r": 0.05,
+                  "who": "Nagoji in red turban, three-quarter view looking up, centre"
+                },
+                {
+                  "x": 0.694,
+                  "y": 0.588,
+                  "r": 0.014,
+                  "who": "background stick fighter in profile, left of yard"
+                },
+                {
+                  "x": 0.833,
+                  "y": 0.64,
+                  "r": 0.0125,
+                  "who": "small background fighter facing viewer behind the wall"
+                },
+                {
+                  "x": 0.98,
+                  "y": 0.594,
+                  "r": 0.014,
+                  "who": "background stick fighter in profile at right edge"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 8,
+        "result": {
+          "chapter": 8,
+          "panels": [
+            {
+              "id": "14.1",
+              "version": "v04",
+              "keep": [
+                {
+                  "x0": 0.24,
+                  "x1": 0.28,
+                  "y0": 0.18,
+                  "y1": 0.42,
+                  "what": "Padmini Amma's hand gripping the stick as she rises; the stick shown as a symbol, not a support"
+                },
+                {
+                  "x0": 0.47,
+                  "x1": 0.68,
+                  "y0": 0.62,
+                  "y1": 0.92,
+                  "what": "Nagoji's cross-legged seated posture on the platform, showing he is still seated"
+                },
+                {
+                  "x0": 0.755,
+                  "x1": 0.85,
+                  "y0": 0.27,
+                  "y1": 0.6,
+                  "what": "kalari youth caught mid-leap with a raised stick beyond the low wall"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch8 p14",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a6193ad2a68414db4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514037509,
+      "queuedAt": 1791514037499,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 14 of Chapter 8 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r7-ch08-split/page-14.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514083241,
+      "tokens": 67937,
+      "toolCalls": 10,
+      "durationMs": 45731,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-14-panel-01\",\"pick\":\"v04\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.552,\"y\":0.442},{\"copy_index\":1,\"x\":0.372,\"y\":0.148},{\"copy_index\":2,\"x\":0.372,\"y\":0.148}],\"backup_tails\":[],\"faces\":[{\"x\":0.345,\"y\":0.094,\"r\":0.12},{\"x\":0.581,\"y\":0.403,\"r\":0.115}],\"backup_faces\":[],\"issues\":\"Forced pick (hand retouch, ear drop removed). Remaining faults: (1) Nagoji's left ear is visib…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "mark ch8 p14",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a61ee1177209ee77a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514083254,
+      "queuedAt": 1791514083248,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514158275,
+      "tokens": 68528,
+      "toolCalls": 18,
+      "durationMs": 75021,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-14-panel-01\",\"version\":\"v04\",\"faces\":[{\"x\":0.368,\"y\":0.13,\"r\":0.048,\"who\":\"woman in white-and-gold sari, three-quarter view, upper left\"},{\"x\":0.561,\"y\":0.442,\"r\":0.05,\"who\":\"Nagoji in red turban, three-quarter view looking up, centre\"},{\"x\":0.694,\"y\":0.588,\"r\":0.014,\"who\":\"background stick fighter in profile, left of yard\"},{\"x\":0.833,\"y\":0.64,\"r\":0.0125,\"who\":\"small backgr…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "keep ch8 p14",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "afde972003e45fb4b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514083265,
+      "queuedAt": 1791514083259,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 14 of chapter 8 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-08-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514107840,
+      "tokens": 59611,
+      "toolCalls": 3,
+      "durationMs": 24575,
+      "resultPreview": "{\"panels\":[{\"id\":\"14.1\",\"version\":\"v04\",\"keep\":[{\"x0\":0.24,\"x1\":0.28,\"y0\":0.18,\"y1\":0.42,\"what\":\"Padmini Amma's hand gripping the stick as she rises; the stick shown as a symbol, not a support\"},{\"x0\":0.47,\"x1\":0.68,\"y0\":0.62,\"y1\":0.92,\"what\":\"Nagoji's cross-legged seated posture on the platform, showing he is still seated\"},{\"x0\":0.755,\"x1\":0.85,\"y0\":0.27,\"y1\":0.6,\"what\":\"kalari youth caught mid-…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "check ch8 p14",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a8e058b5934980659",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514158277,
+      "queuedAt": 1791514158276,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514217039,
+      "tokens": 67740,
+      "toolCalls": 11,
+      "durationMs": 58762,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-14-panel-01\",\"version\":\"v04\",\"faces\":[{\"x\":0.368,\"y\":0.13,\"r\":0.048,\"who\":\"woman in white-and-gold sari, three-quarter view, upper left\"},{\"x\":0.561,\"y\":0.442,\"r\":0.05,\"who\":\"Nagoji in red turban, three-quarter view looking up, centre\"},{\"x\":0.694,\"y\":0.588,\"r\":0.014,\"who\":\"background stick fighter in profile, left of yard\"},{\"x\":0.833,\"y\":0.64,\"r\":0.0125,\"who\":\"small backgr…"
+    }
+  ],
+  "totalTokens": 263816,
+  "totalToolCalls": 42
+}

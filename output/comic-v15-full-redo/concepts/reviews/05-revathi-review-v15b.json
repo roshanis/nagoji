@@ -1,0 +1,58 @@
+{
+  "character": "05 Revathi Bayi",
+  "source_sheet": "output/character-model-sheets-v1/05-revathi-bayi.png",
+  "source_sha256": "de9716e933d3b78052755cade1a5cf76ce893352474f5334e43dc2c2d5bc0b02",
+  "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+  "output_sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+  "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15d.txt",
+  "tool_call_count": 4,
+  "attempts": [
+    {
+      "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15.png",
+      "sha256": "f00f750b37f56f96d9ec210412a914c92d62e512deac25c2119fac843492afda",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15.txt",
+      "checks": {"armlets": {"status": "fail", "notes": "No distinct upper-arm armlets, only sleeve borders and wrist bangles."}, "blue_sari": "pass", "no_tali": "pass", "layout": "pass"},
+      "reason": "Reviewer found missing separate upper-arm armlets."
+    },
+    {
+      "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15b.png",
+      "sha256": "4a356ebfc2c12c2840fa906c0b4fd1fc67fee71062192004653b86ff75c496ec",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15b.txt",
+      "checks": {"armlets": {"status": "pass", "notes": "Distinct armlet shapes appear."}, "blue_sari": {"status": "fail", "notes": "The edit reverted the sari to purple and restored an outdated purple palette."}, "no_tali": {"status": "pass", "notes": "No tali visible."}, "detail_tile_count": {"status": "fail", "notes": "Six detail tiles appear instead of the requested five."}},
+      "reason": "Rejected because the successful blue correction was lost and the detail row expanded."
+    },
+    {
+      "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15c.png",
+      "sha256": "12afac9e340ec4c4c2eb7c52b88e13fa27f3f273cb563d63a7915c94827a7164",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15c.txt",
+      "checks": {"armlets": "pass", "blue_sari": "pass", "no_tali": "pass", "detail_tile_count": {"status": "fail", "notes": "Six detail tiles appear, including both JHUMKA EARRINGS and GOLD ARMLET."}},
+      "reason": "Rejected because the image kept six detail tiles despite the five tile instruction."
+    },
+    {
+      "output": "output/comic-v15-full-redo/concepts/05-revathi-bayi-v15d.png",
+      "sha256": "f1589eecd58ab6332c640c452da7af92e1f42ab3a9ad70f5b99ca48cacea8b0d",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/05-revathi-bayi-v15d.txt",
+      "checks": {
+        "face_identity_preserved": {"status": "pass", "notes": "Original face identity retained."},
+        "armlets": {"status": "pass", "notes": "Separate rigid gold armlets are unmistakable on both upper arms and in the detail tile."},
+        "blue_sari": {"status": "pass", "notes": "Sari is deep cobalt blue or indigo in all views."},
+        "jasmine_flat_coins_sandalwood": {"status": "pass", "notes": "Jasmine braid, coin necklace, and sandalwood line remain visible."},
+        "no_tali": {"status": "pass", "notes": "No tali, marriage pendant, or red bindi observed."},
+        "detail_tile_count": {"status": "pass", "notes": "Exactly five detail tiles, with GOLD ARMLET fifth."},
+        "text_accuracy": {"status": "fail", "notes": "Palette labels remain WHITE SILK, INDIGO SILK, and GOLD ZARI instead of the requested current labels DEEP INDIGO, GOLD, and SANDALWOOD."},
+        "layout_and_negative_constraints": {"status": "pass", "notes": "All bodies, expressions, profiles, and five details are present; no watermark or extra character."}
+      },
+      "reason": "Selected for armlet and five tile compliance, with palette caption mismatch recorded for author review."
+    }
+  ],
+  "final_checks": {
+    "face_identity_preserved": "pass",
+    "armlets": "pass",
+    "blue_sari": "pass",
+    "jasmine_flat_coins_sandalwood": "pass",
+    "no_tali": "pass",
+    "detail_tile_count": "pass",
+    "text_accuracy": "fail",
+    "layout_and_negative_constraints": "pass"
+  }
+}

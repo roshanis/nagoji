@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "output/comic-v15-full-redo/pipeline/run_chapter.py",
+    "build",
+    "--chapter",
+    "1",
+    "--package-dir",
+    "output/comic-v15-full-redo/chapters/ch01-v2",
+    "--layout",
+    "output/comic-v15-full-redo/chapters/ch01-v2/LAYOUT.json",
+    "--first-folio",
+    "1",
+    "--revision",
+    "r7",
+    "--manifest",
+    "output/comic-v15-full-redo/chapters/ch01-v2/review/SELECTION-INPUT-r7.json"
+  ],
+  "returncode": 0,
+  "stdout": "((1288, 1221), (2576, 2442))\n{\n  \"pdf\": \"/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch01-v2/pdf/Horse-of-the-Servant-V15-Chapter-01-r7.pdf\",\n  \"sha256\": \"258902a0bc996d7c9290f634dd03e1198004269574693c3d7e8d7343e4307779\",\n  \"minimum_ppi\": 357.46339956957706,\n  \"median_ppi\": 416.78049892977873,\n  \"script_chunks\": 58\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,142 @@
+[
+ {
+  "chapter": 5,
+  "id": "page-01-panel-01",
+  "flag": "(a) The page 1 cast block says Ibrahim has no concept sheet, but the pipeline attaches concepts/09-ibrahim-marakkar-v15.png. That sheet shows his ch6+ teal coat and a blue-striped shoulder cloth. The selected Ch4 6.5 frame (v10) also has a long-sleeved shirt under the vest plus that shoulder cloth. Decide whether the sleeves and shoulder cloth belong to his ch4-5 look; the addenda only remove the coat. (b) The pipeline injects the 'ash from 5.3' row and both of Nagoji's chapter 5 rows (bare-chested pages 1-2, tunic from page 3) into every panel. A page-aware row selector would make the per-panel costume addenda unnecessary. (c) The script says the healer is carried over from Chapter 4, but 'plain cotton sari, grey-streaked hair' does not match the Ch4 lock (heavy-set, low grey knot, coarse undyed cotton over both shoulders, no fitted blouse, betel-stained lips)."
+ },
+ {
+  "chapter": 5,
+  "id": "page-02-panel-04",
+  "flag": "The selected Chapter 1 6.5 frame (ch01-v2 v01) also shows the rider, Nagoji in the rust-red turban, with his cheek against the mare's mane, and a palm-lined river at dawn. This panel's script names only the mare's neck and mane, while the adaptation notes say it repeats 6.5 exactly. Confirm whether the rider belongs in the echo."
+ },
+ {
+  "chapter": 5,
+  "id": "page-05-panel-01",
+  "flag": "The script calls the cart light a 'lantern' (5.1, 5.2, 5.3, 5.5, 6.1), which works against the bible's rule of no glass lanterns in Kerala. Rewording it to 'hanging brass oil lamp' in the script would remove the need for addenda."
+ },
+ {
+  "chapter": 5,
+  "id": "page-06-panel-05",
+  "flag": "The official has no sheet, and the page 6 cast block is not injected into prompts. As a result 6.5, 7.4, 7.5, 8.3 and 8.4 carry no description of him at all. Give him a short appearance tag in every panel description (as Ibrahim has), or add an unnamed-character injection to the pipeline."
+ },
+ {
+  "chapter": 5,
+  "id": "page-08-panel-05",
+  "flag": "The script makes 8.5 the tallest tier on page 8, but the pipeline's FRAME SHAPE line asks for a 3:1 strip with the action in the middle half of the height. With four captions in the sky and a sleeper in the lower foreground, a taller tier (about 2:1) fits the script better. Decide before generation."
+ },
+ {
+  "chapter": 6,
+  "id": "page-01-panel-01",
+  "flag": "Neither the script nor CONTINUITY.md gives a coat colour for the coastal horse (1.1, 1.2, 1.5) or for Ibrahim's pony (1.1, 1.2). The addenda choose a dark liver-chestnut with a flaxen mane and a dark brown pony, to stay clear of Kanka (black), Kayal (red bay with black points) and the grey gelding. Please confirm or substitute, and consider adding both to the Horses section."
+ },
+ {
+  "chapter": 6,
+  "id": "page-01-panel-02",
+  "flag": "Three gaps between the sheets and the text recur through the chapter and are only patched panel by panel here. (1) The Nagoji sheet's ear ornament is a hanging drop, but the bible says a small stud. (2) The bible's chapter 6 row ('simple cream shirt') leaves out the chapter 5 lock (collarless, long sleeves, no buttons, barefoot, hair tied back), so no prompt inherits it. (3) The Ibrahim sheet draws the scar red and stitched and the coat muted teal with the pockets on the vest. The script says 'dark short coat with bulging pockets', and chapter 5 calls the scar a bare pale line. Consider writing all three into CONTINUITY.md."
+ },
+ {
+  "chapter": 6,
+  "id": "page-01-panel-03",
+  "flag": "The line 'IBRAHIM (small, soft)' has no speaker in frame and is not marked (off). The letterer will need an off-panel edge tail."
+ },
+ {
+  "chapter": 6,
+  "id": "page-02-panel-01",
+  "flag": "Neither the script nor the bible describes how the courtiers dress. The addenda use bare-chested Kerala court dress (white mundu, topknot, no turban). Please confirm."
+ },
+ {
+  "chapter": 6,
+  "id": "page-03-panel-04",
+  "flag": "'Wide and flat' is not one of the pipeline's layout cues (full width, strip, tier, splash), so the prompt got no FRAME SHAPE line. If 3.4 should take a full-width row, write 'full width' in the script line."
+ },
+ {
+  "chapter": 6,
+  "id": "page-03-panel-05",
+  "flag": "'NAGOJI: They tried.' is spoken by a figure whose face is out of frame, but it is not marked (off). The letterer will need an edge tail."
+ },
+ {
+  "chapter": 6,
+  "id": "page-04-panel-05",
+  "flag": "Ramayyan's question comes from a figure who is not in the main frame (only his hand shows, in the inset), and it is not marked (off). If the generated inset still fails, consider generating it as a separate frame and compositing it in."
+ },
+ {
+  "chapter": 6,
+  "id": "page-08-panel-03",
+  "flag": "'Narrow' is not a layout cue, so the frame shape is left undetermined. Write 'narrow strip' or 'full width' in the script line if that is the intent."
+ },
+ {
+  "chapter": 6,
+  "id": "page-08-panel-05",
+  "flag": "Ramayyan is not in the 8.5 cast, although the hall plan seats him at the king's left. If he should appear in this wide view, name him in the script line so his sheet is attached."
+ },
+ {
+  "chapter": 6,
+  "id": "page-09-panel-04",
+  "flag": "RAMAYYAN speaks the long line about the shore, but he is not in the frame or the cast, and the line is not marked (off)."
+ },
+ {
+  "chapter": 7,
+  "id": "page-01-panel-03",
+  "flag": "The second caption's italic is asked for only in the speaker label 'CAPTION (italic, the words no rider spoke)'. script_pipeline.py keeps that label as plain text, and the compositor italicises only text wrapped in *markers* (compositor._lettering_runs). The line will probably letter in roman unless the script wraps the copy itself in *...*. The '(separate, weighted)' labels in 9.3 and 12.5 have the same problem."
+ },
+ {
+  "chapter": 7,
+  "id": "page-01-panel-04",
+  "flag": "The approved Raza Khan sheet gives him a grey-flecked goatee and an olive-green shoulder drape. Neither CONTINUITY.md nor the script mentions them, so close-ups will copy them and wides may drop them. Decide whether they belong to his look, so reviewers do not reject a panel for having them or for leaving them out."
+ },
+ {
+  "chapter": 7,
+  "id": "page-02-panel-01",
+  "flag": "The approved Ponnan sheet (14-ponnan-v15.png) shows a red gold-trimmed tunic, a broad red drape and a gold-bordered dhoti. The script, and its bible proposal 4, gives him a short dark-brown jacket and a narrow red cloth over the right shoulder, and CONTINUITY.md still says only 'short jacket'. Every Ponnan panel (2.1, 2.4, 3.3, 4.3, 5.1) will fight its attached sheet. Align the sheet or the bible entry before generating, or accept per-panel overrides."
+ },
+ {
+  "chapter": 7,
+  "id": "page-03-panel-04",
+  "flag": "'Wide, half the page' gives layout_fit a 0.5 size floor but not a solo row: only 'full width' or strip/tier/splash words do that. The fitter may therefore pair 3.4 with another panel in a half-width slot (4.1 and 7.3 have the same wording). Adding 'full width' to the script is not a fix either, because the pipeline would then ask for a 3:1 strip, the problem described for 6.5. If these must span the column at half height, the layout has to be pinned. The script's 'generated at its placed aspect ratio' is not carried into the image_gen args, which have no aspect parameter, so these go at the default 3:2. That suits a full-width half page."
+ },
+ {
+  "chapter": 7,
+  "id": "page-06-panel-03",
+  "flag": "The compositor has no inset overlay: layout_fit treats inset panels as ordinary row panels. 6.3 and 6.4 will therefore be laid out as their own row slots, not inside 6.5's upper band. See 6.5."
+ },
+ {
+  "chapter": 7,
+  "id": "page-06-panel-05",
+  "flag": "Two layout problems the prompt cannot fix. (1) The pipeline has no inset overlay: layout_fit treats 'Inset' panels as ordinary row panels, so 6.3 and 6.4 will not sit in 6.5's upper band. The open upper third of 6.5 will just be sky, which is still usable for its three balloons. (2) 'Full width' makes the pipeline add a 3:1 FRAME SHAPE, while the script sizes 6.5 at the lower half of the page: about 1.4:1, with the row floored at 45 percent of the story height. The fitter will crop roughly half the width away (MIN_KEEP 0.45 permits it), and the print will need the 2x upscale. The script's 'generated at its placed aspect ratio' is not implemented, because the image_gen args carry no aspect parameter."
+ },
+ {
+  "chapter": 7,
+  "id": "page-11-panel-03",
+  "flag": "The middle line is lettered 'NAGOJI:' although Nagoji is not in this panel, whereas the chapter labels other unseen speakers '(off)' (3.2, 5.2, 5.3, 6.2 to 6.4). Mark it 'NAGOJI (off)' for consistency."
+ },
+ {
+  "chapter": 8,
+  "id": "page-01-panel-03",
+  "flag": "Script 1.3 says 'Madurai lancers in bright high-wrapped turbans', but CONTINUITY.md fixes them as white or off-white. Consider changing 'bright' to 'white' in the script."
+ },
+ {
+  "chapter": 8,
+  "id": "page-04-panel-04",
+  "flag": "Script 4.4 and its adaptation note place the brand 'just above the wrist', while CONTINUITY.md (chapters 7-8 row) says 'a hand's width above the wrist'. Align the script wording so chapters 9 and 10 do not inherit the drift."
+ },
+ {
+  "chapter": 8,
+  "id": "page-04-panel-05",
+  "flag": "The letterer's note sits inside the 4.5 panel description, so the pipeline copies it into the image prompt. Move it out of the description, for example onto a separate letterer line, so it is never sent to the generator."
+ },
+ {
+  "chapter": 8,
+  "id": "page-05-panel-01",
+  "flag": "The nagoji-v2 sheet draws a small gold bead hanging below the lobe, while CONTINUITY.md says 'small gold ear stud', and Chapter 4 reviews rejected dangling ear ornaments. Confirm which is canonical. Until then, every Nagoji close-up needs the stud spelled out."
+ },
+ {
+  "chapter": 8,
+  "id": "page-09-panel-02",
+  "flag": "In 9.2, Padmini has two lines without '(off)', while the cast correctly leaves out her sheet for this staging. Mark the lines (off), or add her to the cast, so the letterer and the generator agree."
+ },
+ {
+  "chapter": 8,
+  "id": "page-11-panel-01",
+  "flag": "Varma's CONTINUITY.md entry puts 'war hall' scenes bare-headed, while the Chapter 6 coastal hall recalled here is turbaned. A | 8 | row, or a note naming the coastal hall a formal audience, would remove the conflict for later memory panels."
+ }
+]

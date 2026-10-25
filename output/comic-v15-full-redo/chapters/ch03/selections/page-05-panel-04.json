@@ -1,0 +1,78 @@
+{
+  "id": "page-05-panel-04",
+  "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-05-panel-04-v09.png",
+  "sha256": "2b812430a04aaa51dd6c903bd4d0dc2b4133c2040a5f2857628099ca39386aac",
+  "width": 1965,
+  "height": 800,
+  "generation_tool": "built-in imagegen",
+  "origin": "generated",
+  "prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/prompts/page-05-panel-04-generation-v09.txt",
+  "prompt_sha256": "3b1d8cd64beefa402a4ed8c825d37312b97ae6827c16fe622726fc5d9746dccf",
+  "references": [
+    {
+      "sha256": "317afcca033558169647570b38a6fd0caa170afc60498cf78a46f74304176101",
+      "role": "prior-candidate-for-correction",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-05-panel-04-v08.png"
+    },
+    {
+      "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de",
+      "role": "approved-keshavrao-sheet",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png"
+    },
+    {
+      "sha256": "bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0",
+      "role": "approved-nagoji-sheet",
+      "path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png"
+    }
+  ],
+  "visual_review": "pass",
+  "original_generated_path": "/Users/roshanvenugopal/.codex/generated_images/01a0f2bd-1cb1-7642-92d8-18e3476e30ff/exec-9ac7781d-acff-4db1-a423-5a413d4752bd.png",
+  "root_ready": {
+    "source_candidate": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-05-panel-04-v09.json",
+    "source_provenance": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-05-panel-04-v09-provenance.json",
+    "actual_prompt_path": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/prompts/page-05-panel-04-generation-v09.txt",
+    "actual_prompt_sha256": "3b1d8cd64beefa402a4ed8c825d37312b97ae6827c16fe622726fc5d9746dccf",
+    "actual_reference_paths": [
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-05-panel-04-v08.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+      "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v13-reference-redesign-v1/concepts/nagoji-v2.png"
+    ],
+    "reference_hashes_verified": true
+  },
+  "candidate": "page-05-panel-04-v09.json",
+  "visible_rect": [
+    8,
+    5,
+    1957,
+    792
+  ],
+  "reserves": [
+    {
+      "kind": "dialogue",
+      "rect": [
+        1400,
+        12,
+        1948,
+        330
+      ],
+      "copy_indices": [
+        0
+      ]
+    },
+    {
+      "kind": "dialogue",
+      "rect": [
+        18,
+        12,
+        500,
+        310
+      ],
+      "copy_indices": [
+        1
+      ]
+    }
+  ],
+  "measurement_method": "native visual review at source resolution; right reserve inset to the clean balloon interior for the long first copy; left reserve holds the short second copy; one tail per balloon; no lettering rendered",
+  "reviewer": "Codex root with independent native review",
+  "review_note": "Identity, action, period setting, covered brand, irons, hands and blank reserves reviewed at native resolution. Copy fit and native light support pass current pipeline."
+}

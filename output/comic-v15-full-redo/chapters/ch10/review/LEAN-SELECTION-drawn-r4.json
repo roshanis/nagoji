@@ -1,0 +1,1948 @@
+{
+ "chapter": 10,
+ "decisions": [
+  {
+   "id": "page-01-panel-01",
+   "pick": "v01",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Minor only: the tiny background riders at the gate wear ochre-orange turbans, not white or cream, but with white tunics and no red sash they cannot be mistaken for Nagoji. Otherwise clean: a Deccan hill fort on black rock, a thick bastion with cannon ports, lime-washed walls, hard sun, saffron swallow-tailed pennants, no figure close enough to identify, no text. There is plenty of open sky at the top left for both captions.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-02",
+   "pick": "v03",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.368,
+     "y": 0.12,
+     "r": 0.085
+    },
+    {
+     "x": 0.636,
+     "y": 0.217,
+     "r": 0.07
+    }
+   ],
+   "backup_faces": [],
+   "issues": "The contact sheet was missing at /tmp/claude-501/ch10-fix2-sheets, so I judged the three frames directly. They are pixel-identical except for a 35-pixel ear region. v01 has a hanging gold drop earring. v02 is worse: a stud with a drop still hanging below it, inside a smeared patch. v03 now has a tiny flush gold stud with nothing hanging, which passes. Its one remaining flaw is a faint flat skin-toned patch around the lobe and jaw left by the region edit. You can see it at 4x zoom, but it is barely visible at 2x and should not show at print size. Everything else is clean. The chin is clean-shaven, with only light jaw shading that matches the sheet. There is no forehead mark; the small dot is a cheek mole beside the eye. Both sleeves reach the wrists, and the hands gripping the sash are sound. The commander costume, boots and talwar are all correct, and Ramayyan matches his sheet. The setting is right: laterite walls, a dripping tiled roof, palms and an open-wick brass lamp, with no text. There are two small departures from the script. Ramayyan walks beside Nagoji instead of waiting on the path. He also holds the palm-leaf bundle and a stylus in his hand, not under his arm. The sky at upper right is clear enough for both captions.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-03",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.693,
+     "y": 0.256
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.335,
+     "y": 0.137,
+     "r": 0.095
+    },
+    {
+     "x": 0.672,
+     "y": 0.205,
+     "r": 0.103
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Minor: Ramayyan holds a second stylus with his palm-leaf bundle as well as the one in his right hand. The house front (wooden veranda pillars, plastered wall) differs from 1.2's laterite doorway, but 1.2 needs regeneration anyway. Passes: a flush gold ball stud on the lobe with nothing hanging, clean-shaven chin, sleeves down to the wrists, boots, talwar at the left hip, Ramayyan turned to go with Nagoji a step behind, sound hands, no text. Open sky at the top centre and top right gives room for the speech balloon and the caption.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-04",
+   "pick": "v02",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.446,
+     "y": 0.2,
+     "r": 0.085
+    },
+    {
+     "x": 0.648,
+     "y": 0.288,
+     "r": 0.055
+    },
+    {
+     "x": 0.031,
+     "y": 0.471,
+     "r": 0.06
+    },
+    {
+     "x": 0.143,
+     "y": 0.539,
+     "r": 0.055
+    },
+    {
+     "x": 0.819,
+     "y": 0.405,
+     "r": 0.06
+    },
+    {
+     "x": 0.911,
+     "y": 0.415,
+     "r": 0.042
+    },
+    {
+     "x": 0.956,
+     "y": 0.359,
+     "r": 0.06
+    },
+    {
+     "x": 0.871,
+     "y": 0.576,
+     "r": 0.065
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 fails: Nagoji wears a hanging gold drop earring, and village women wear stitched blouses, which is anachronistic against the bible's old Kerala drape. v02 passes the hard checks. Nagoji's ear has a tiny flush gold stud with nothing hanging, and his chin is clean-shaven. He wears the commander dress with sleeves to the wrists and is barefoot, as is Ramayyan. The boots stand side by side at the foot of the steps with the talwar laid across them. The gateway is a modest Kerala one: a two-tiered tiled roof on wooden posts over a laterite and stone base, with no tower. The temple sits on a hill above tiled houses and palms. Villagers in period cloth with no stitched blouses stand aside with joined palms, and Ramayyan gives them a small smiling nod. There is no text. Minor, not a fail: Nagoji climbs a couple of steps ahead of Ramayyan, though 1.3 has him following; the 1.4 script does not fix the order. Large open sky at upper left holds both captions.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-05",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.677,
+     "y": 0.245
+    },
+    {
+     "copy_index": 1,
+     "x": 0.336,
+     "y": 0.15
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.293,
+     "y": 0.122,
+     "r": 0.115
+    },
+    {
+     "x": 0.698,
+     "y": 0.213,
+     "r": 0.068
+    },
+    {
+     "x": 0.566,
+     "y": 0.277,
+     "r": 0.034
+    },
+    {
+     "x": 0.98,
+     "y": 0.451,
+     "r": 0.035
+    },
+    {
+     "x": 0.887,
+     "y": 0.465,
+     "r": 0.035
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 fails on a hanging gold drop earring. v02 passes: the region edit leaves one tiny flush gold stud on the lobe with nothing hanging. Moustache and chin are correct. Both men are barefoot; Nagoji carries no talwar, wears the commander dress and has his sleeves to the wrists. Ramayyan has turned back to face Nagoji, with receding hair, plain white cloth and no forehead marks. The courtyard has lamps, bells on chains, incense, Brahmins at ritual in the background, and the priest (thread, gold-bordered mundu, hair knot) holding a lamp tray in the sanctum doorway. Minor notes, not fails: the left door jamb of the sanctum carries a small dark carved band whose lower part has glyph-like marks; at panel size it reads as ornament, not lettering. The lobe edge where the drop was removed is slightly soft. Lettering space: Nagoji's balloon fits over the sky and hills at top left, and Ramayyan's over the dark roof beam and door lintel at top centre.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-01",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.645,
+     "y": 0.383
+    },
+    {
+     "copy_index": 1,
+     "x": 0.645,
+     "y": 0.383
+    },
+    {
+     "copy_index": 2,
+     "x": 0.353,
+     "y": 0.266
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.309,
+     "y": 0.22,
+     "r": 0.13
+    },
+    {
+     "x": 0.607,
+     "y": 0.352,
+     "r": 0.1
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v02 passes every hard check. Nagoji has a tiny flush gold stud with nothing hanging, a clean-shaven chin, the rust-red turban, a cream tunic with sleeves to the wrist, the red sash and no talwar. His hands are sound and loosely clasped in front of the sash. Ramayyan matches his sheet, carries the palm-leaf bundle and stylus, and has the faint smile. The pillar lamps are now open brass bowls on brackets with bare flames, the standing lamp is brass with open wicks, and there is no glass anywhere. The frame cuts both men at the shin, so their feet do not show; no boots are visible, so the barefoot rule is not contradicted. There is no text and no chair. The bright courtyard is behind them at left and the lit sanctum ahead at right. Lettering space: the sky at top left and the dark stone wall at top right. v01 is rejected: enclosed glass box-lanterns on the pillars break the Kerala open-lamp rule, and Nagoji's hands are joined in prayer, which the script does not ask for.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-02",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 1,
+     "y": 0.5
+    },
+    {
+     "copy_index": 1,
+     "x": 0.355,
+     "y": 0.591
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.25,
+     "y": 0.51,
+     "r": 0.21
+    },
+    {
+     "x": 0.065,
+     "y": 0.05,
+     "r": 0.035
+    },
+    {
+     "x": 0.115,
+     "y": 0.125,
+     "r": 0.035
+    },
+    {
+     "x": 0.275,
+     "y": 0.125,
+     "r": 0.035
+    },
+    {
+     "x": 0.375,
+     "y": 0.09,
+     "r": 0.035
+    },
+    {
+     "x": 0.507,
+     "y": 0.095,
+     "r": 0.035
+    },
+    {
+     "x": 0.59,
+     "y": 0.095,
+     "r": 0.033
+    },
+    {
+     "x": 0.645,
+     "y": 0.07,
+     "r": 0.033
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Passes all hard checks. Nagoji has a tiny flush gold stud with nothing hanging and a clean-shaven chin, with the hand at his jaw kept below the lip line. His sleeves reach the wrists, he carries no talwar, and there is no text. The three insets (kalari boys with sticks, women sorting pepper on mats, a bullock cart of paddy sacks) sit along the top inside the frame. A clear sky band between the insets and his head takes both balloons. Minor, non-blocking: (1) the pepper-sorting women wear stitched short-sleeved blouses, which are doubtful for 1740s Kerala; earlier chapters treated this as non-blocking. (2) His head is in three-quarter view, close to but not a strict profile. (3) He stands at the bright edge of the courtyard rather than in the mandapa shade, but the temple matches 2.1. Feet are out of frame. Ramayyan speaks from off panel to the right, where he stood in 2.1.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-03",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.4375,
+     "y": 0.303
+    },
+    {
+     "copy_index": 1,
+     "x": 0,
+     "y": 0.3
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.387,
+     "y": 0.262,
+     "r": 0.103
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v02 is acceptable. Ramayyan is in right profile facing the lamp-lit, garlanded sanctum, with receding hair, plain unbordered white cloth and no forehead marks. He has exactly two hands, and his right index finger counts against the raised left hand. One digit of the left hand reads as folded down, which fits counting. He holds no stylus, and the palm-leaf bundle is clamped under his near (right) upper arm with no extra hand under it. An old dark water stain is on the stone ceiling, just above and ahead of him. The hanging lamp is open brass on a chain, and the niche lamps are open. There is no text, chair or anachronism. Minor point (not a failure): his near shoulder and arm are bare under the drape, while 2.1, 2.4 and 1.5 show a short-sleeved under-tunic. Lettering space: the sky at top left and the plain ceiling to the right of the stain. Nagoji is off panel to the left, behind Ramayyan. v01 is rejected: a third hand is drawn under the palm-leaf bundle while both hands also count, and he holds a stylus.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-04",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.38,
+     "y": 0.41
+    },
+    {
+     "copy_index": 1,
+     "x": 0.38,
+     "y": 0.41
+    },
+    {
+     "copy_index": 2,
+     "x": 0.38,
+     "y": 0.41
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.355,
+     "y": 0.3,
+     "r": 0.25
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Passes the hard checks. Ramayyan matches his sheet: thin sharp features, receding hair with curly black hair behind, plain unbordered white cloth, no forehead marks or sacred thread. Both hands are sound, one holding the stylus and one holding the palm-leaf bundle. No text is written on the leaves, every lamp has an open brass wick, and the setting matches the temple on this page. Minor: this is a chest-up medium close-up rather than a tight close-up. He looks down at the leaves as he writes, and the lamplight shows only as catchlights in his eyes and the brass lamp beside him. The writing fits his ledger line. The sky between his head and the temple roof, the roof tiles at top right and the plain wall to the right of his face give room for three balloons without covering his face or hands.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-05",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.19,
+     "y": 0.27
+    },
+    {
+     "copy_index": 1,
+     "x": 0.19,
+     "y": 0.27
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.062,
+     "y": 0.146,
+     "r": 0.095
+    },
+    {
+     "x": 0.158,
+     "y": 0.232,
+     "r": 0.068
+    },
+    {
+     "x": 0.405,
+     "y": 0.393,
+     "r": 0.045
+    },
+    {
+     "x": 0.527,
+     "y": 0.455,
+     "r": 0.036
+    },
+    {
+     "x": 0.576,
+     "y": 0.455,
+     "r": 0.036
+    },
+    {
+     "x": 0.632,
+     "y": 0.41,
+     "r": 0.045
+    },
+    {
+     "x": 0.8,
+     "y": 0.4,
+     "r": 0.032
+    },
+    {
+     "x": 0.882,
+     "y": 0.468,
+     "r": 0.032
+    },
+    {
+     "x": 0.949,
+     "y": 0.462,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Passes the hard checks. Nagoji has a tiny flush gold stud, a clean-shaven chin, sleeves down and no talwar. Ramayyan matches his sheet and holds the palm-leaf bundle. The wall of lit niches has open-wick lamps throughout. A landed woman lights a niche with her two attendants, and an older man stands in a white mundu. Through the open gateway, a fisherman with a net and a labourer stay outside and hand a brass oil pot to a temple servant on the threshold. There is no text and no glass. Minor, non-blocking: (1) the landed woman and her attendants wear stitched short-sleeved blouses, which are doubtful for 1740s Kerala; earlier chapters let the same thing pass. (2) Nagoji and Ramayyan are larger than 'small' at the left edge, though in shadow, and their feet are cropped so barefoot is not visible. (3) The script marks both lines as off-panel, but Ramayyan is drawn in frame, so the tails point to his mouth. The sky and wooded hill above the niche wall give a clear upper band for the two long balloons.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-01",
+   "pick": "v03",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.814,
+     "y": 0.278,
+     "r": 0.062
+    },
+    {
+     "x": 0.703,
+     "y": 0.327,
+     "r": 0.05
+    },
+    {
+     "x": 0.14,
+     "y": 0.19,
+     "r": 0.06
+    },
+    {
+     "x": 0.314,
+     "y": 0.186,
+     "r": 0.048
+    },
+    {
+     "x": 0.465,
+     "y": 0.386,
+     "r": 0.043
+    },
+    {
+     "x": 0.531,
+     "y": 0.288,
+     "r": 0.033
+    },
+    {
+     "x": 0.156,
+     "y": 0.532,
+     "r": 0.07
+    },
+    {
+     "x": 0.319,
+     "y": 0.552,
+     "r": 0.056
+    },
+    {
+     "x": 0.365,
+     "y": 0.532,
+     "r": 0.07
+    },
+    {
+     "x": 0.459,
+     "y": 0.596,
+     "r": 0.077
+    },
+    {
+     "x": 0.012,
+     "y": 0.513,
+     "r": 0.045
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v03 passes all the hard checks. The ear fix worked: Nagoji now has a small flush gold stud with nothing hanging. His chin is clean-shaven, he has no forehead mark, his sleeves reach his wrists, and he wears boots and the talwar. Every script element is there: the Arab merchant weighing coins on a brass scale, the servant at the pepper sacks, the young clean-shaven Syrian Christian scribe with a wooden cross writing beside the cloth stall with a stack of papers, the Marakkar men bargaining over pepper and cardamom, the path down to the water, and Ramayyan and Nagoji entering at the right edge. No text appears in the art, the papers are blank, and the clear sky at upper right can take both captions. The woman with the baby at the cloth stall wears plain white cloth with no jasmine, which matches the stallholder in 3.4. Minor points, not blocking: Ramayyan wears sandals where his sheet shows him barefoot, and two seated, bearded Marakkar men have terracotta turbans close to Nagoji's colour. There is no backup because v01 and v02 both show a hanging drop earring on Nagoji, and v01's stallholder also wears jasmine and a red saree.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-02",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.682,
+     "y": 0.259
+    },
+    {
+     "copy_index": 1,
+     "x": 0.406,
+     "y": 0.157
+    },
+    {
+     "copy_index": 2,
+     "x": 0.682,
+     "y": 0.259
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.387,
+     "y": 0.122,
+     "r": 0.095
+    },
+    {
+     "x": 0.654,
+     "y": 0.217,
+     "r": 0.075
+    },
+    {
+     "x": 0.088,
+     "y": 0.278,
+     "r": 0.055
+    },
+    {
+     "x": 0.146,
+     "y": 0.36,
+     "r": 0.045
+    },
+    {
+     "x": 0.264,
+     "y": 0.373,
+     "r": 0.045
+    },
+    {
+     "x": 0.293,
+     "y": 0.262,
+     "r": 0.03
+    },
+    {
+     "x": 0.586,
+     "y": 0.28,
+     "r": 0.03
+    },
+    {
+     "x": 0.963,
+     "y": 0.42,
+     "r": 0.04
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 fails the ear check: a gold drop hangs below Nagoji's lobe. v02 (ear region edit) passes every hard check: a tiny flush gold stud with nothing hanging, clean-shaven chin, thick curled moustache, rust-red turban, cream tunic with sleeves down to the wrists, red sash, boots and talwar. Ramayyan matches his sheet (receding curly hair, white cloth, palm-leaf bundle and stylus) and looks off down the row of stalls while Nagoji looks unimpressed, so the beat reads. No text, no anachronism. Open sky top right and awning top left give room for all three balloons. Soft continuity notes, not failures: the background stallholder at the left wears a maroon stitched blouse with a gold necklace and earrings, and the background scribe wears a sleeveless white vest with no cross. In 3.3 v02 she is in plain undyed cotton with no gold, as script 3.4 asks, and the scribe is in white cloth with a cross. Ramayyan wears sandals (barefoot on his sheet), which is fine for the market.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-03",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.464,
+     "y": 0.246
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.495,
+     "y": 0.2,
+     "r": 0.095
+    },
+    {
+     "x": 0.192,
+     "y": 0.273,
+     "r": 0.07
+    },
+    {
+     "x": 0.111,
+     "y": 0.383,
+     "r": 0.05
+    },
+    {
+     "x": 0.42,
+     "y": 0.385,
+     "r": 0.06
+    },
+    {
+     "x": 0.469,
+     "y": 0.342,
+     "r": 0.03
+    },
+    {
+     "x": 0.492,
+     "y": 0.388,
+     "r": 0.025
+    },
+    {
+     "x": 0.739,
+     "y": 0.413,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 fails. Yusuf wears a long navy coat (not a short one) and carries a sword, the scribe has a beard although the script makes him clean-shaven, and the stallholder wears a stitched blouse and gold, which contradicts the plain no-gold look of 3.4. v02 is acceptable. Yusuf is tall and lean with a white skullcap, a neatly trimmed dark beard, no scar, no turban, and a short brown coat over a white tunic, leaning across the cloth table toward the stallholder, so he does not read as Ibrahim. Pepper sacks are stacked behind the stall. The clean-shaven young scribe in white cloth with a wooden cross writes on paper at the back of the table. The stallholder wears plain undyed cotton with no gold, her hair in a simple knot, and holds the baby on her hip, which matches 3.4. Both of Yusuf's hands are braced on the cloth, the far hand above the near one. They are slightly crowded but anatomically sound. No text, no anachronism. A large open sky at the upper right holds the caption and Yusuf's balloon. One soft note: the stallholder's costume differs from her background appearance in 3.2 v02 (maroon blouse and gold there).",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-04",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.241,
+     "y": 0.2295
+    },
+    {
+     "copy_index": 2,
+     "x": 0.241,
+     "y": 0.2295
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.2057,
+     "y": 0.1982,
+     "r": 0.07
+    },
+    {
+     "x": 0.2773,
+     "y": 0.2656,
+     "r": 0.041
+    },
+    {
+     "x": 0.5065,
+     "y": 0.3955,
+     "r": 0.044
+    },
+    {
+     "x": 0.6445,
+     "y": 0.4443,
+     "r": 0.049
+    },
+    {
+     "x": 0.7747,
+     "y": 0.4414,
+     "r": 0.039
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Passes the hard checks. The stallholder is in her late twenties, with the baby on her hip, arms folded, plain undyed cotton mundu with a shoulder cloth, hair in a simple knot, no jasmine, an immovable look. The stall matches 3.3 (cloth stacks, pepper sacks, hanging brass lamp). No text, sound anatomy, and the hanging grey cloth behind her plus the open sky at right leave room for the caption and balloons. Minor: she wears a tiny gold ear drop (the script says no gold). The figure writing at the next table is a bare-shouldered young man with a topknot rather than the Syrian Christian scribe. Framing is medium-wide rather than close. Note: 3.3 v01 and 3.5 v01 dress her in a maroon blouse with gold, which conflicts with this script-correct panel.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-05",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.3743,
+     "y": 0.4004
+    },
+    {
+     "copy_index": 1,
+     "x": 0.3743,
+     "y": 0.4004
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.14,
+     "y": 0.1611,
+     "r": 0.146
+    },
+    {
+     "x": 0.332,
+     "y": 0.3467,
+     "r": 0.098
+    },
+    {
+     "x": 0.6771,
+     "y": 0.293,
+     "r": 0.103
+    },
+    {
+     "x": 0.3288,
+     "y": 0.168,
+     "r": 0.059
+    },
+    {
+     "x": 0.3874,
+     "y": 0.2393,
+     "r": 0.034
+    },
+    {
+     "x": 0.9017,
+     "y": 0.3271,
+     "r": 0.054
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Passes the hard checks. Nagoji has a flush gold ear stud with nothing hanging, a clean-shaven chin (light texture only), a thick moustache, sleeves to the wrists and the talwar at his sash. Ramayyan and Nagoji in the foreground watch Yusuf. Yusuf is mid-laugh with his eyes cut sideways toward the pale Dutch factor, who sits small in the mid-background in a 1740s dark long-skirted coat, knee breeches, stockings, buckled shoes and a black tricorne (not a blue-coated soldier). The inset of the scribe's pen sits inside the frame, and its mark is too small to read. No text. Minor: the background woman with the baby (the stallholder) wears a maroon stitched blouse with a gold necklace and earrings, which conflicts with 3.4's plain undyed cotton. The inset shows a cord-bound wooden tablet rather than paper. Yusuf's coat is dark brown here but navy in 3.3 v01 (3.3 is being regenerated to match). Lettering space is a narrow top band of awning cloth and sky: keep Ramayyan's two balloons in it and off the background woman's face.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-01",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.417,
+     "y": 0.233
+    },
+    {
+     "copy_index": 1,
+     "x": 0.417,
+     "y": 0.233
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.6,
+     "y": 0.145,
+     "r": 0.086
+    },
+    {
+     "x": 0.397,
+     "y": 0.19,
+     "r": 0.072
+    },
+    {
+     "x": 0.122,
+     "y": 0.266,
+     "r": 0.042
+    },
+    {
+     "x": 0.156,
+     "y": 0.332,
+     "r": 0.033
+    },
+    {
+     "x": 0.031,
+     "y": 0.43,
+     "r": 0.065
+    },
+    {
+     "x": 0.264,
+     "y": 0.412,
+     "r": 0.04
+    },
+    {
+     "x": 0.758,
+     "y": 0.43,
+     "r": 0.03
+    },
+    {
+     "x": 0.819,
+     "y": 0.488,
+     "r": 0.015
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v02 passes every hard check. The region edit fixed the ear: Nagoji now wears a small gold stud sitting on the front of the lobe with nothing hanging below it. It is a slightly elongated oval rather than a round dot, but there is no loop or drop, and the edit leaves no seam. Clean-shaven chin with thick curled moustache, rust-red turban, sleeves down to the wrists, red sash, talwar, boots. Ramayyan matches his sheet (thin, receding curly hair, plain white cloth, palm-leaf bundle and stylus). The red laterite fort has sloping tiled gatehouse roofs and no flag. No text, sound hands, and open sky upper right plus the plain canvas awning upper centre for the two balloons. v01 FAILS the ear check (a gold ball hangs from a loop below the lobe). Minor, not blocking: the background woman with the baby at the cloth stall wears a green stitched blouse, a red sari, a gold necklace, bangles and earrings. That conflicts with the plain undyed cotton stallholder of 3.4, and a stitched blouse is doubtful for 1740s Kerala. Ramayyan wears sandals (his sheet and 4.3 v02 show him barefoot). The pair still walk alongside the last stalls toward camera, with the fort off to the right, not out on the track with the fort ahead.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-02",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.716,
+     "y": 0.334
+    },
+    {
+     "copy_index": 2,
+     "x": 0.438,
+     "y": 0.337
+    },
+    {
+     "copy_index": 3,
+     "x": 0.716,
+     "y": 0.334
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.188,
+     "y": 0.163,
+     "r": 0.12
+    },
+    {
+     "x": 0.41,
+     "y": 0.31,
+     "r": 0.08
+    },
+    {
+     "x": 0.771,
+     "y": 0.293,
+     "r": 0.1
+    },
+    {
+     "x": 0.022,
+     "y": 0.42,
+     "r": 0.04
+    },
+    {
+     "x": 0.28,
+     "y": 0.44,
+     "r": 0.03
+    },
+    {
+     "x": 0.515,
+     "y": 0.435,
+     "r": 0.03
+    },
+    {
+     "x": 0.578,
+     "y": 0.46,
+     "r": 0.03
+    },
+    {
+     "x": 0.625,
+     "y": 0.468,
+     "r": 0.025
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Hard checks pass: Nagoji's ear is a small flush gold stud with nothing hanging; chin clean-shaven with thick curled moustache; sleeves down; talwar; feet out of frame, so boots cannot be checked. Ramayyan matches his sheet. The drill master matches the script: stained, faded brown long-skirted coat with deep cuffs, bare-headed, grizzled hair tied back, stubble, soft belly, scowl, turned toward the pair. Men in white with white turbans stand in lines; no text; hands are sound. Minor: a plain cream flag flies on the fort tower at top right (the script asks for no European flag; a plain white flag could read as French colours or a truce flag). It sits in the sky where the drill master's balloon will likely cover it. The drill master is not noticeably short. The long guns show no clear matchlock detail.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-03",
+   "pick": "v03",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.073,
+     "y": 0.222,
+     "r": 0.064
+    },
+    {
+     "x": 0.147,
+     "y": 0.268,
+     "r": 0.052
+    },
+    {
+     "x": 0.332,
+     "y": 0.222,
+     "r": 0.07
+    },
+    {
+     "x": 0.479,
+     "y": 0.293,
+     "r": 0.06
+    },
+    {
+     "x": 0.546,
+     "y": 0.322,
+     "r": 0.045
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Last attempt, accepted with one fault: Nagoji's earring in v03 is still a tiny gold oval hanging just below the lobe, not a flush stud. At print size it is only a few pixels and barely visible. Everything else passes. His chin is clean-shaven and his forehead is clear. He wears the rust-red turban, red sash, boots and talwar, his sleeves are down, and his right hand is tucked behind his back. Ramayyan matches his sheet: balding with curly sides, white cloth, palm-leaf bundle and stylus, barefoot. The stocky European drill master in the faded brown coat gives the command with his arm flung down and his mouth open, standing clear of the muzzles. The front rank in white turbans fires side-on toward the right, with flashes and rolling smoke. Ramayyan and Nagoji stand at the left edge behind the line. The laterite fort with tiled roofs matches 4.2 and 4.4. There is no text, gore or anachronism. The muskets are flintlocks rather than the matchlocks the script names, which is plausible for European-drilled troops in the 1740s. The open sky at top right takes the caption. Rejected versions: in v01 Nagoji gives the command and there is no drill master. v02 has a larger hanging drop earring, stubble-like grey shading on the chin, and a bare forearm behind his back with the sleeve pushed up.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-04",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.723,
+     "y": 0.415
+    },
+    {
+     "copy_index": 1,
+     "x": 0.303,
+     "y": 0.254
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.26,
+     "y": 0.19,
+     "r": 0.15
+    },
+    {
+     "x": 0.749,
+     "y": 0.354,
+     "r": 0.11
+    },
+    {
+     "x": 0.464,
+     "y": 0.473,
+     "r": 0.025
+    },
+    {
+     "x": 0.531,
+     "y": 0.471,
+     "r": 0.025
+    },
+    {
+     "x": 0.624,
+     "y": 0.476,
+     "r": 0.025
+    },
+    {
+     "x": 0.861,
+     "y": 0.48,
+     "r": 0.025
+    },
+    {
+     "x": 0.968,
+     "y": 0.48,
+     "r": 0.025
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Hard checks pass: Nagoji's ear is a tiny flush gold stud; chin clean-shaven with thick curled moustache; sleeves down; talwar; feet out of frame. His eyes cut sidelong toward Ramayyan, as the script asks. Ramayyan matches his sheet, with a composed, unmoved face and palm-leaf bundle and stylus. Smoke is thinning over the line; no text; hands are sound; plenty of sky at the top for both short balloons. Minor: the background soldiers wear dark turbans and are still aiming, unlike the white turbans in 4.2 and 4.5. A plain white marker flag on a pole stands at top left of the drill ground; the letterer can cover it with Nagoji's balloon. Ramayyan is also glancing sideways at Nagoji.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-05",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.658,
+     "y": 0.363
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.249,
+     "y": 0.195,
+     "r": 0.14
+    },
+    {
+     "x": 0.713,
+     "y": 0.288,
+     "r": 0.117
+    },
+    {
+     "x": 0.049,
+     "y": 0.298,
+     "r": 0.06
+    },
+    {
+     "x": 0.464,
+     "y": 0.337,
+     "r": 0.065
+    },
+    {
+     "x": 0.581,
+     "y": 0.39,
+     "r": 0.045
+    },
+    {
+     "x": 0.828,
+     "y": 0.4,
+     "r": 0.05
+    },
+    {
+     "x": 0.898,
+     "y": 0.41,
+     "r": 0.04
+    },
+    {
+     "x": 0.944,
+     "y": 0.415,
+     "r": 0.04
+    },
+    {
+     "x": 0.983,
+     "y": 0.44,
+     "r": 0.035
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Hard checks pass: Nagoji's ear is a tiny flush gold stud; chin clean-shaven with thick curled moustache; sleeves down; talwar; feet out of frame. Ramayyan turns to Nagoji and speaks, matching his sheet. The line behind them reloads (muskets upright, hands raised to the muzzles), in white with white turbans like 4.2. Same red laterite fort with tiled gatehouse roof; no flag; no text; hands are sound; open sky at top centre for the balloon. Minor: the soldiers wear red waist sashes that the men in 4.2 lacked, and the ramrods are not clearly drawn.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-01",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.36,
+     "y": 0.2
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.348,
+     "y": 0.171,
+     "r": 0.077
+    },
+    {
+     "x": 0.719,
+     "y": 0.337,
+     "r": 0.064
+    },
+    {
+     "x": 0.114,
+     "y": 0.324,
+     "r": 0.026
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Minor only. The tiny flag on the distant white fort is orange-white-orange, not the plain red, white and blue banded Dutch flag shown in 5.3. Ibrahim's scar does not read because his far (left) cheek is turned away in this wide shot. Everything else passes: Ibrahim matches his sheet (white turban, grey-flecked beard, teal short coat over the pocketed vest, mundu, sandals). He is shouting at a boatman heaving a barrel into a loaded boat, with poled boats on a backwater. No text, sound hands. Clear sky top-centre for the caption and balloon.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-02",
+   "pick": "v03",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.745,
+     "y": 0.27
+    },
+    {
+     "copy_index": 1,
+     "x": 0.369,
+     "y": 0.189
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.117,
+     "y": 0.215,
+     "r": 0.093
+    },
+    {
+     "x": 0.332,
+     "y": 0.146,
+     "r": 0.103
+    },
+    {
+     "x": 0.781,
+     "y": 0.225,
+     "r": 0.107
+    },
+    {
+     "x": 0.544,
+     "y": 0.395,
+     "r": 0.03
+    },
+    {
+     "x": 0.652,
+     "y": 0.468,
+     "r": 0.025
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v03 is clean on the hard checks. Nagoji has a small round gold stud flush on the lobe with nothing hanging, a clean-shaven chin (only light jaw hatching), no forehead mark, sleeves to the wrists, boots and talwar, and the rust-red turban and sash. Ibrahim (right) touches his forehead with his right hand, three-quarter with his anatomical left cheek to camera, and the ear-to-jaw scar reads as on his sheet. Ramayyan matches his sheet, with stylus and palm-leaf bundle. There is no text and no flag on the distant fort. Layout matches 5.4 and 5.5 (Ramayyan left, Ibrahim right). Minor points: Ibrahim's greeting is a flat-hand salute at the brow rather than a fingertip touch, and his scar is slightly reddish, as on his sheet. Rejected: v02 has a hanging gold drop earring on Nagoji. v01 misses the beat: Ibrahim's palms are pressed together, not touching his forehead, and his scarred left cheek is turned away. Lettering space: open sky top centre (x 0.42 to 0.70, y 0 to 0.15) and top left above Ramayyan.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-03",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.285,
+     "y": 0.3
+    },
+    {
+     "copy_index": 1,
+     "x": 0.285,
+     "y": 0.3
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.3125,
+     "y": 0.244,
+     "r": 0.142
+    }
+   ],
+   "backup_faces": [],
+   "issues": "",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-04",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.327,
+     "y": 0.302
+    },
+    {
+     "copy_index": 1,
+     "x": 0.594,
+     "y": 0.303
+    },
+    {
+     "copy_index": 2,
+     "x": 0.327,
+     "y": 0.302
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.332,
+     "y": 0.242,
+     "r": 0.1
+    },
+    {
+     "x": 0.625,
+     "y": 0.242,
+     "r": 0.1
+    },
+    {
+     "x": 0.788,
+     "y": 0.457,
+     "r": 0.02
+    },
+    {
+     "x": 0.96,
+     "y": 0.488,
+     "r": 0.025
+    },
+    {
+     "x": 0.124,
+     "y": 0.44,
+     "r": 0.015
+    }
+   ],
+   "backup_faces": [],
+   "issues": "",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-05",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.664,
+     "y": 0.306
+    },
+    {
+     "copy_index": 1,
+     "x": 0.664,
+     "y": 0.306
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.684,
+     "y": 0.264,
+     "r": 0.13
+    },
+    {
+     "x": 0.214,
+     "y": 0.229,
+     "r": 0.115
+    },
+    {
+     "x": 0.498,
+     "y": 0.485,
+     "r": 0.02
+    },
+    {
+     "x": 0.897,
+     "y": 0.408,
+     "r": 0.022
+    },
+    {
+     "x": 0.927,
+     "y": 0.389,
+     "r": 0.02
+    },
+    {
+     "x": 0.982,
+     "y": 0.383,
+     "r": 0.035
+    }
+   ],
+   "backup_faces": [],
+   "issues": "",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-01",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.319,
+     "y": 0.257
+    },
+    {
+     "copy_index": 1,
+     "x": 0.319,
+     "y": 0.257
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.298,
+     "y": 0.221,
+     "r": 0.06
+    },
+    {
+     "x": 0.5,
+     "y": 0.19,
+     "r": 0.078
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 fails the ear check: the gold piece sits at the bottom edge of the lobe and reads as a small hanging drop. v02 passes every hard check. The ear is now a small flush gold stud with nothing hanging. Chin is clean-shaven (light stipple only). He wears boots, sleeves are down, no brand shows, and he carries the talwar, rust-red turban and red sash. The setting is the bund between paddy and backwater in late gold light, with no text or anachronism, and the upper-right sky is clear for both Ramayyan lines. Minor issues, not failures: Ramayyan glances sideways toward Nagoji while gesturing, but the script says he talks without looking at him. Ramayyan wears sandals, while his sheet and the 6.5 pick show him barefoot. The region edit left a faint soft smudge on the jaw just below the ear, which is barely visible at print size.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-02",
+   "pick": "v02",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.168,
+     "y": 0.391,
+     "r": 0.05
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 fails the ear check: a gold drop hangs below the lobe. v02 (a regeneration) passes. Nagoji is seen from behind in lost profile, and his ear shows a tiny flush gold stud. He wears boots, sleeves are down, and he carries the talwar, sash and rust-red turban. The wide high view takes in the hill temple, market awnings, a drill ground with small white-clad troops (no redcoats), backwaters and the westering sun. Only the red laterite fort wall cuts in at the top-left edge. There is no text, and a large clear sky across the top holds both captions. Minor issues, not failures: the fort wall comes down the left edge further than \"only the edge cutting into the top of the frame\". One small whitewashed building with blue shutters near the drill ground looks faintly European.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-03",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.639,
+     "y": 0.3699
+    },
+    {
+     "copy_index": 1,
+     "x": 0.488,
+     "y": 0.4461
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.458,
+     "y": 0.4225,
+     "r": 0.0533
+    },
+    {
+     "x": 0.652,
+     "y": 0.3349,
+     "r": 0.0503
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 fails the ear check: two stacked gold beads hang from the lobe. v02 passes the hard checks. The ear is now a single small gold stud on the lobe. Chin is clean-shaven, he wears boots, sleeves are down, and he carries the talwar. The sea line shows beyond the inlet, Ramayyan stands a step higher on the path and has turned back, there is no text, and the upper-left sky is clear for both lines. Minor issues, not failures: a faint pale skin-tone dot from the removed lower bead remains just below the stud (2 to 3 px, it does not read as gold). Nagoji looks over his shoulder toward Ramayyan rather than back down at the country. Ramayyan shows a tiny pale stud in his left earlobe that is not on his sheet. Ramayyan wears sandals, as in 6.1. The laterite fort wall stands close beside the path rather than only high above. | keep-max round (2026-10-05): v03 is v02 outpainted upward by 320 px (original pixels unchanged) so the lettering can sit above the action; zones and tails carried over with y shifted.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-04",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.348,
+     "y": 0.262
+    },
+    {
+     "copy_index": 1,
+     "x": 0.348,
+     "y": 0.262
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.301,
+     "y": 0.203,
+     "r": 0.122
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Acceptable; only minor issues. Ramayyan glances up and to the right, while the fort sits above and behind him at upper left. The fort flies a plain saffron streamer, single-tailed rather than swallow-tailed and unlettered, where 6.5 shows red pennants. A whitewashed house with European-looking windows stands on the fort wall. The palace behind the bowman in inset 1 has somewhat European or Indo-Islamic detailing, but it is dark and desaturated. Passing: Ramayyan matches his sheet; the three dark insets run along the bottom inside the panel (a bowman crouched on a roof, a hand tipping a vial into a brass lamp with an open wick, a dagger half drawn in a festival crowd); no victims, blood, text or noose; hands sound; clear sky at upper right for both balloons.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-05",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.475,
+     "y": 0.239
+    },
+    {
+     "copy_index": 1,
+     "x": 0.475,
+     "y": 0.239
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.27,
+     "y": 0.127,
+     "r": 0.078
+    },
+    {
+     "x": 0.5,
+     "y": 0.202,
+     "r": 0.064
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 fails the ear check: a large gold drop hangs below the lobe. v01 also shows a lighthouse-like tower in the harbour, which may be an anachronism. v02 (a regeneration) passes. The ear is a small flush gold stud, the chin is clean-shaven, he wears boots, sleeves are down, and he carries the talwar. Ramayyan taps the palm-leaf bundle with one finger. The fort wall rises high above them with plain unlettered red pennants, and dusk comes in over the sea with lateen-sailed boats. Hands are sound and there is no text. The upper-right sky is clear for both Ramayyan lines. Minor issue: Ramayyan is barefoot here, which matches his sheet but not the sandals he wears in 6.1 and 6.3.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-01",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.601,
+     "y": 0.286
+    },
+    {
+     "copy_index": 1,
+     "x": 0.601,
+     "y": 0.286
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.29,
+     "y": 0.117,
+     "r": 0.11
+    },
+    {
+     "x": 0.645,
+     "y": 0.248,
+     "r": 0.09
+    },
+    {
+     "x": 0.443,
+     "y": 0.405,
+     "r": 0.02
+    },
+    {
+     "x": 0.495,
+     "y": 0.413,
+     "r": 0.02
+    },
+    {
+     "x": 0.472,
+     "y": 0.457,
+     "r": 0.022
+    },
+    {
+     "x": 0.798,
+     "y": 0.432,
+     "r": 0.022
+    },
+    {
+     "x": 0.772,
+     "y": 0.469,
+     "r": 0.022
+    },
+    {
+     "x": 0.817,
+     "y": 0.464,
+     "r": 0.022
+    },
+    {
+     "x": 0.853,
+     "y": 0.437,
+     "r": 0.02
+    },
+    {
+     "x": 0.873,
+     "y": 0.442,
+     "r": 0.02
+    },
+    {
+     "x": 0.902,
+     "y": 0.445,
+     "r": 0.02
+    },
+    {
+     "x": 0.941,
+     "y": 0.462,
+     "r": 0.022
+    }
+   ],
+   "backup_faces": [],
+   "issues": "All hard checks pass. Nagoji has a flush gold stud on the lobe with nothing hanging, a thick curled moustache, a clean chin, sleeves down to the wrists, the rust-red turban, red sash and talwar. His feet are out of frame, so the boots cannot be seen. Ramayyan matches his sheet (receding hair, white cloth, palm-leaf bundle and stylus). He stands on the threshold and looks back at Nagoji, with the lamplit hall open behind them. The lamps are brass with open wicks. There is no text, no chair and no anachronism. Soft notes: (1) the seated men have brass cups and banana leaves with flowers, not palm-leaf manuscripts; (2) a tiny lamp flame peeks out just behind the crown of Ramayyan's head and reads as background. Lettering space is the roof-beam area at top centre and the dusk sky at top right, above Ramayyan.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-02",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.339,
+     "y": 0.127
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.315,
+     "y": 0.107,
+     "r": 0.085
+    },
+    {
+     "x": 0.15,
+     "y": 0.532,
+     "r": 0.025
+    },
+    {
+     "x": 0.208,
+     "y": 0.566,
+     "r": 0.025
+    },
+    {
+     "x": 0.41,
+     "y": 0.532,
+     "r": 0.022
+    },
+    {
+     "x": 0.443,
+     "y": 0.542,
+     "r": 0.025
+    },
+    {
+     "x": 0.472,
+     "y": 0.557,
+     "r": 0.022
+    },
+    {
+     "x": 0.557,
+     "y": 0.547,
+     "r": 0.025
+    },
+    {
+     "x": 0.632,
+     "y": 0.527,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [],
+   "issues": "All hard checks pass. The ear ornament is a tiny flush stud on the lobe with nothing hanging. He has the thick curled moustache, a clean chin (faint shading only), sleeves to the wrists, boots, rust-red turban, red sash and cream trousers. His left hand rests on the talwar hilt at his hip, and the anatomy is sound. It is the same hall as 7.1 and 7.3: tiger-carved doorjambs, brass lamps with open wicks, men seated with brass vessels. There is no text and no chair. Soft notes: (1) the sky is a warm orange sunset with the sun on the horizon, while 7.1 and 7.3 show a violet dusk, a small lighting shift; (2) the shot is full figure rather than close. Open sky at upper right holds Nagoji's balloon.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-03",
+   "pick": "v01",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.404,
+     "y": 0.229
+    },
+    {
+     "copy_index": 1,
+     "x": 0.404,
+     "y": 0.229
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.394,
+     "y": 0.176,
+     "r": 0.09
+    },
+    {
+     "x": 0.599,
+     "y": 0.425,
+     "r": 0.02
+    },
+    {
+     "x": 0.694,
+     "y": 0.44,
+     "r": 0.022
+    },
+    {
+     "x": 0.736,
+     "y": 0.444,
+     "r": 0.022
+    },
+    {
+     "x": 0.755,
+     "y": 0.425,
+     "r": 0.02
+    },
+    {
+     "x": 0.807,
+     "y": 0.44,
+     "r": 0.02
+    },
+    {
+     "x": 0.872,
+     "y": 0.43,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Clean on the hard checks. Ramayyan matches his sheet and is alone in the panel. He stands half turned toward the lamplit hall and gives a measuring sideways look. The hall has the same tiger-carved jambs and dusk sea as 7.1. Hanging and standing lamps are brass with open wicks. There is no text, no chair and no anachronism, and the hands with stylus and bundle are sound. Soft notes: (1) one background man, seated with his back to camera, wears a rust-red turban. His bare arm, maroon shoulder cloth and mundu do not match Nagoji's costume, so he should not read as Nagoji, but the author may want to know; (2) Ramayyan's eyes go to frame right, while in 7.1 Nagoji stood to his left, a mild screen-direction shift. Lettering space: the sky and eave at top centre-left for the two balloons, and the plain stone steps at the bottom for the caption.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-04",
+   "pick": "v02",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.143,
+     "y": 0.239,
+     "r": 0.07
+    },
+    {
+     "x": 0.495,
+     "y": 0.152,
+     "r": 0.062
+    },
+    {
+     "x": 0.853,
+     "y": 0.284,
+     "r": 0.066
+    },
+    {
+     "x": 0.052,
+     "y": 0.317,
+     "r": 0.035
+    },
+    {
+     "x": 0.293,
+     "y": 0.366,
+     "r": 0.025
+    },
+    {
+     "x": 0.591,
+     "y": 0.244,
+     "r": 0.025
+    },
+    {
+     "x": 0.605,
+     "y": 0.308,
+     "r": 0.028
+    },
+    {
+     "x": 0.716,
+     "y": 0.327,
+     "r": 0.03
+    },
+    {
+     "x": 0.938,
+     "y": 0.29,
+     "r": 0.025
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v02 passes every hard check. All three Nagojis wear a tiny flush gold stud with nothing hanging (checked at high zoom), have clean-shaven chins, and wear the commander outfit with sleeves down, boots and a talwar. Each band shows a bay with a black mane, tail and lower legs and no white markings. All three beats are there: a river ford in driving rain, a dusty pass under a hard sun, and monsoon mud. There is no text or anachronism, the hands are sound, and the sky at the top centre and the rainy sky at the top left are clear for both captions. Minor: in the mud band only a background rider is clearly hauling at the bridle. v01 fails because every Nagoji ear has a hanging gold drop.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-05",
+   "pick": "v02",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.184,
+     "y": 0.176,
+     "r": 0.075
+    },
+    {
+     "x": 0.41,
+     "y": 0.249,
+     "r": 0.066
+    },
+    {
+     "x": 0.791,
+     "y": 0.107,
+     "r": 0.09
+    },
+    {
+     "x": 0.078,
+     "y": 0.254,
+     "r": 0.035
+    },
+    {
+     "x": 0.039,
+     "y": 0.283,
+     "r": 0.025
+    },
+    {
+     "x": 0.319,
+     "y": 0.283,
+     "r": 0.03
+    },
+    {
+     "x": 0.277,
+     "y": 0.303,
+     "r": 0.025
+    },
+    {
+     "x": 0.357,
+     "y": 0.303,
+     "r": 0.02
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v02 passes every hard check. Nagoji's ear has a flush round gold stud with nothing hanging; it is a little larger than on the sheet but still a stud. His chin is clean-shaven and he wears the commander outfit with sleeves down, boots and a talwar. Padmini wears a cotton sari with a gold border in the old drape with no blouse. Her black hair is coiled at the nape, with simple gold and her walking stick. The heavy-set Nair chieftain stands on his threshold in red-bordered cloth with gold ear rings. An empty bullock cart and a column of lancers with lances upright are present. There are no European chairs, no text and no anachronism, and the hands are sound. The sky at the top centre and the plain dirt road at the bottom left hold the three captions. Minor deviations: Nagoji stands in the road rather than right at a gatepost, the lancers wear white turbans, and their mounts are full-sized horses, some with white blazes, rather than small ponies; Nagoji is not mounted, so the blazes do not matter for Kayal. v01 fails because Nagoji's ear has a hanging gold drop.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-01",
+   "pick": "v01",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.865,
+     "y": 0.29,
+     "r": 0.03
+    }
+   ],
+   "backup_faces": [],
+   "issues": "",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-02",
+   "pick": "v03",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.41,
+     "y": 0.2,
+     "r": 0.08
+    },
+    {
+     "x": 0.179,
+     "y": 0.395,
+     "r": 0.045
+    },
+    {
+     "x": 0.249,
+     "y": 0.479,
+     "r": 0.03
+    },
+    {
+     "x": 0.643,
+     "y": 0.454,
+     "r": 0.045
+    },
+    {
+     "x": 0.803,
+     "y": 0.522,
+     "r": 0.035
+    },
+    {
+     "x": 0.57,
+     "y": 0.475,
+     "r": 0.025
+    },
+    {
+     "x": 0.716,
+     "y": 0.56,
+     "r": 0.02
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Remaining fault, accepted as least flawed: Nagoji's ear shows a tiny gold hoop hanging just below the lobe, not a flush stud. It is about 6 px in the 1536 px frame and barely visible at print size. Everything else is clean. Clean-shaven chin, no forehead mark, sleeves down to the wrists, boots, talwar drawn, Kayal a bay with black points and no white. The Maravar riders wear white turbans and brown tunics. The inset palm leaf shows lines and dots only, and both inset hands are sound. There is open dawn sky at the top centre and top right for the two captions. v02 is rejected: the ear has a stud with a hanging drop bead, and the inset's left hand has fingers both above and below the leaf (extra fingers or a third hand). v01 is rejected: the riders wear Nagoji's rust-red turbans and sashes, and the inset map has house symbols.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-03",
+   "pick": "v01",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Minor issues, still acceptable. The camera is near eye level and slightly raised, not the high angle the script asks for, though the shot is still wide and distant. The light is bright low morning sun, not 8.1's blue dawn mist; this reads as later in the morning. A small figure stands silhouetted in the doorway of the burning outbuilding, ambiguous but not a body, with no blood or gore. Hard checks pass: the gate matches 8.1 (laterite pillars with ball finials, broken wooden doors), riders are inside the walls, spears and shields are thrown down, smoke rises, there is no text, and open sky at top left and centre leaves room for the caption.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-04",
+   "pick": "v03",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.229,
+     "y": 0.19,
+     "r": 0.075
+    },
+    {
+     "x": 0.404,
+     "y": 0.137,
+     "r": 0.09
+    },
+    {
+     "x": 0.723,
+     "y": 0.226,
+     "r": 0.065
+    }
+   ],
+   "backup_faces": [],
+   "issues": "",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-05",
+   "pick": "v04",
+   "backup": "v03",
+   "tails": [
+    {
+     "copy_index": 1,
+     "x": 0.65,
+     "y": 0.421
+    },
+    {
+     "copy_index": 2,
+     "x": 0.65,
+     "y": 0.421
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.339,
+     "y": 0.376,
+     "r": 0.0655
+    },
+    {
+     "x": 0.672,
+     "y": 0.3661,
+     "r": 0.08
+    },
+    {
+     "x": 0.514,
+     "y": 0.5413,
+     "r": 0.0267
+    },
+    {
+     "x": 0.477,
+     "y": 0.5604,
+     "r": 0.019
+    },
+    {
+     "x": 0.555,
+     "y": 0.5581,
+     "r": 0.0152
+    },
+    {
+     "x": 0.781,
+     "y": 0.5505,
+     "r": 0.019
+    },
+    {
+     "x": 0.817,
+     "y": 0.5619,
+     "r": 0.0152
+    },
+    {
+     "x": 0.863,
+     "y": 0.5352,
+     "r": 0.0267
+    },
+    {
+     "x": 0.938,
+     "y": 0.5543,
+     "r": 0.0229
+    }
+   ],
+   "backup_faces": [],
+   "issues": " | keep-max round (2026-10-05): v04 is v03 outpainted upward by 320 px (original pixels unchanged) so the lettering can sit above the action; zones and tails carried over with y shifted.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-01",
+   "pick": "v02",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.415,
+     "y": 0.33,
+     "r": 0.11
+    },
+    {
+     "x": 0.685,
+     "y": 0.36,
+     "r": 0.1
+    },
+    {
+     "x": 0.04,
+     "y": 0.37,
+     "r": 0.11
+    },
+    {
+     "x": 0.97,
+     "y": 0.4,
+     "r": 0.1
+    },
+    {
+     "x": 0.3,
+     "y": 0.4,
+     "r": 0.05
+    },
+    {
+     "x": 0.535,
+     "y": 0.355,
+     "r": 0.06
+    },
+    {
+     "x": 0.61,
+     "y": 0.36,
+     "r": 0.045
+    },
+    {
+     "x": 0.79,
+     "y": 0.37,
+     "r": 0.05
+    },
+    {
+     "x": 0.88,
+     "y": 0.36,
+     "r": 0.05
+    },
+    {
+     "x": 0.75,
+     "y": 0.165,
+     "r": 0.045
+    },
+    {
+     "x": 0.94,
+     "y": 0.175,
+     "r": 0.035
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v02 passes every hard check. The ear is a round gold stud flush on the lobe with nothing hanging. Chin is clean-shaven and he is barefoot on the mat with sleeves to the wrists. His is the only red turban in the room, the boots sit in a row by the door, and the bare-chested soldier beside him laughs. He eats rice from the plantain leaf with his right hand. No chairs and no text. The top band of laterite wall and ceiling (y 0 to 20%) is clear for both captions. v01 fails: a hanging drop earring, and a second diner in a maroon turban and red vest who reads as a double of Nagoji. Minor points in v02: the stud is a slightly large bead but flush. His left hand rests on his knee with the fingertips near the leaf edge, not in the food. The small dusk-dark sentry outside the door wears a knee-length coat with crossed belts and a cap; it reads as an Indian jama, not a redcoat. No talwar is visible.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-02",
+   "pick": "v01",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.442,
+     "y": 0.205,
+     "r": 0.2
+    }
+   ],
+   "backup_faces": [],
+   "issues": "No hard check fails. Minor points: the strip is framed as a medium shot rather than really tight, and the musket looks a little short, with the lock at hip height while the muzzle is at chest height. A young Nair recruit (topknot, bare chest, white mundu) rams with the ramrod mid-stroke at dusk. His hands are sound, and there is no text and no anachronism. The sky at upper centre and right is clear space for the caption.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-03",
+   "pick": "v02",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.22,
+     "y": 0.2,
+     "r": 0.11
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v02 passes every hard check. The ear edit worked: the near lobe now has one tiny gold stud sitting flush with nothing hanging (v01 had a hanging drop, which fails). Chin is clean-shaven, he wears brown laced boots and his sleeves are down, as the 9.2-9.3 row requires. He sits alone among the jackfruit roots at night, with the lit kalari and figures across the yard and the temple lit on its hill. No text. Hands are sound. There is plenty of empty night sky upper right for both captions. Minor points: faint stubble-like shading on the chin and jaw that reads as shadow at print size. A small warm sliver at the far jaw edge where the hidden far earlobe sits reads as rim-lit skin, not jewellery. No talwar is visible.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-04",
+   "pick": "v03",
+   "backup": "v01",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.28,
+     "y": 0.12,
+     "r": 0.23
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.325,
+     "y": 0.15,
+     "r": 0.23
+    }
+   ],
+   "issues": "Minor only: the RIGHT sleeve sits a little above the right wrist, so a short strip of bare right forearm shows. This is not the branded arm, and the commander sheet itself shows rolled sleeves. Framing is medium rather than a tight close, but the branded forearm is still the focal point. Everything else checks out. Ear: tiny flush gold stud, nothing hanging. Chin clean-shaven, no forehead mark. LEFT sleeve pushed back with the forearm resting palm up over the knee. Brand: pale puckered ridged patch with no letters or numerals, long white scar beside it, wrist bare. Five digits, nails healed. Brown laced boots and a brass-pommel sword, both matching the sheet. Jackfruit tree roots, the lamplit kalari, and a lit Hindu gopuram on the hill, all matching panel 9.3. No church, no text. Clear sky for caption 0 at top right (about x 0.45-0.98, y 0.02-0.15). Low-detail courtyard ground or roots for caption 1 at right (about x 0.68-0.98, y 0.62-0.72 or 0.85-0.97). Backup v01 is also clean on ear, chin, brand and five digits. It ranks lower because its boots are black riding boots and its sword is a stirrup-hilt sabre, neither matching the sheet, and its right sleeve is rolled further up. v02 is unusable: a sixth digit on the open hand, and a white church-like building on the hill.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-05",
+   "pick": "v01",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "No hard check fails. Minor points: the hill temple has a tall tower rather than Kerala tiered roofs, though it matches the temple in 9.3. The single lit hall sits toward the right near the coast-ward fields rather than clearly far inland. The ship's lantern is a tiny dot on the horizon and may need checking at print size. The panel shows the rise at night with the lit hill temple, the laterite fort, the market lights, the backwaters, the palace, the apart hall, the pale roads and the black sea with one lantern. There are no figures and no text. The broad dark sky across the top and the dark foreground at bottom left give room for both captions.",
+   "correction": ""
+  }
+ ],
+ "missing": [],
+ "round": "drawn-r4"
+}

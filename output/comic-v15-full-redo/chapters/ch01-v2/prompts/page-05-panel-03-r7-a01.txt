@@ -1,0 +1,22 @@
+V15 graphic novel panel page-05-panel-03 for chapter 1. Narrow strip. Nagoji being seated on a stool, wrists bound to its legs. João checking the knot. Duarte standing back, hands tucked into his sleeves, fingers worrying at the cloth.
+
+AUTHORITATIVE CONTINUITY, which overrides the script on appearance:
+duarte: - **Father Duarte**: thin, gaunt Portuguese Jesuit in his fifties, lined face, grey hair swept back with loose curls at the sides, scholar's stoop, grey tired eyes, ink-stained fingers, callused right hand, plain black cassock with a plain standing collar and a small cross on a thin chain. NO white Roman collar tab (a 19th-century anachronism).
+joao: - **Joao**: broad, heavy, ruddy Portuguese gaoler; brown leather jerkin over a cream shirt; wide belt; iron key ring. NOT a priest, no cassock, no collar. Ch1-2 only.
+nagoji: Constant identity: strong cheekbones, straight nose, thick curled moustache, CLEAN-SHAVEN CHIN (light stubble at most, captivity only), long curly black hair, small gold ear stud, lean cavalryman build. No forehead marks, no sacred thread, no royal jewellery. No facial scar.; Captivity sheet: torn ochre sleeveless tunic, cream dhoti, bandaged hands and wrists, ankle irons, barefoot, hair loose. No turban. Keep his left arm covered or turned from camera, so the brand stays hidden.
+
+STANDING CONTINUITY RULES:
+- No text of any kind in the art: blank balloon and caption reserves only, lettering composited later.
+- No nooses. Interrogation ropes hang from an iron ring for binding wrists, never tied as hanging nooses.
+- Portuguese guards must not read as British redcoats or as Dutch blue-coats. The Dutch VOC soldiers are the blue coats.
+- No blood or gore. Violence is shown through staging, distance and aftermath.
+- Period: 1738-1753 Malabar coast, Travancore and Portuguese Goa. No anachronisms.
+- Print: every placed image must reach at least 300 effective PPI at its printed size. Below that, upscale 2x with `~/AI/upscalers/upscale2x.py` (Real-ESRGAN x2plus, BSD-3-Clause) before placement, or regenerate.
+- Flags and banners: the Travancore standard is a silver conch on red, never lettered, and its regular troops wear white mundu with crossed leather belts under it. The Maratha flag seen in memory and vision panels only is a saffron swallow-tailed pennant, and background Maratha riders in those panels wear white or cream angarkhas and pagdis, never Nagoji's rust-red turban and sash. Raiders' and rivals' banners are plain, unlettered cloth. Indian troops, like the Portuguese and the Dutch, must not read as British redcoats.
+- In Kerala and Travancore settings, oil lamps are clay or brass with open wicks; no glass chimneys and no glass lanterns. European lanterns belong only to Portuguese and Dutch settings.
+
+
+R7 CORRECTION, overrides conflicting earlier staging and reserve instructions:
+Preserve Nagoji seated at centre, Joao crouching at right checking rope knot and Duarte standing back. Correct all three faces and costumes to sheets. Joao FULL dark beard, Duarte gaunt grey swept hair and plain standing collar. Replace window/daylight with canonical windowless wall and floor brazier. Nagoji has both wrists in cloth bandages bound with ROPE to stool legs, TWO ankle cuffs linked together, bare feet. No wrist metal, no sash. His LEFT inner forearm is wrapped or turned from view. Caption white rectangle upper left. Actual strip ratio 369:91.5 inside 3:1 canvas.
+Last input is BINDING SET REFERENCE: same single windowless low barrel-vaulted stone chamber, plain stool, plain wood tool table behind stool, one floor brazier far side, iron ceiling ring and straight ropes, one wall torch, closed heavy wooden door at right. No arches opening outdoors, windows, daylight, chapel, altar, religious decor, freestanding pillars, nooses, duplicate braziers. Match stone texture and warm dark light, allowing camera-angle changes; do not force every prop into close-ups.
+Input 1 is prior composition/style, remaining inputs are binding identity sheets and optional final set reference. Sheet typography must never appear. No text, letters, numbers, watermark, logos, gore or blood. Blank white lettering reserves only, no pseudo-writing. All visible characters must match sheets and chapter1 costume; no wrist manacles or metal above Nagoji ankles. Preserve correct staging unless correction explicitly changes it. One panel only, not collage or sheet. Full native resolution.

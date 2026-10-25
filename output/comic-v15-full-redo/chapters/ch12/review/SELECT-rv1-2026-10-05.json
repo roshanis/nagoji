@@ -1,0 +1,984 @@
+{
+  "summary": "Select candidates and mark face and keep zones for a sibling package with an explicit frames path",
+  "agentCount": 16,
+  "logs": [
+    "▸ running dynamic workflow v15-select-drawn",
+    "[v15-select-drawn] chapter 12: 5 picked, 0 need regeneration, 0 without a decision",
+    "▸ v15-select-drawn done",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 12: keep regions for 5 frames; beat missing from the art in 1: 8.5",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 12: face zones for 5 frames, 29 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 12,
+        "decisions": [
+          {
+            "id": "page-02-panel-02",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.284,
+                "y": 0.336
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.287,
+                "y": 0.2,
+                "r": 0.21
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The correction worked and broke nothing. v01, the current pick, gave Ramayyan a clear moustache, chin stubble and straight hair combed back, which doesn't match his sheet. v02 removes the moustache and stubble. It also gives him a bald, shining crown with a short ring of tight black curls, matching the sheet's hairline. His thin, sharp features and the long fingers turning the small dark stone are kept. A faint stipple on the upper lip remains, but it reads as skin shading, not a moustache. The hands are unchanged from v01 and anatomically sound. The setting matches 2.1: laterite shrine steps at sunset among coconut palms, with lamps, and the palm-leaf bundle and stylus beside him. There is no painted text and no anachronism. The single lettering line can sit in the sunset sky and palm area at the top right, clear of his face and hands. v01 is not kept as backup because it has the moustache fault.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-05",
+            "pick": "v02",
+            "backup": "v01",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.285,
+                "y": 0.184
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.285,
+                "y": 0.184
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.267,
+                "y": 0.122,
+                "r": 0.085
+              },
+              {
+                "x": 0.846,
+                "y": 0.337,
+                "r": 0.1
+              },
+              {
+                "x": 0.033,
+                "y": 0.522,
+                "r": 0.05
+              },
+              {
+                "x": 0.008,
+                "y": 0.432,
+                "r": 0.03
+              },
+              {
+                "x": 0.14,
+                "y": 0.508,
+                "r": 0.035
+              },
+              {
+                "x": 0.381,
+                "y": 0.532,
+                "r": 0.05
+              },
+              {
+                "x": 0.379,
+                "y": 0.469,
+                "r": 0.025
+              },
+              {
+                "x": 0.55,
+                "y": 0.388,
+                "r": 0.03
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.267,
+                "y": 0.122,
+                "r": 0.085
+              },
+              {
+                "x": 0.846,
+                "y": 0.337,
+                "r": 0.1
+              },
+              {
+                "x": 0.033,
+                "y": 0.522,
+                "r": 0.05
+              },
+              {
+                "x": 0.008,
+                "y": 0.432,
+                "r": 0.03
+              },
+              {
+                "x": 0.14,
+                "y": 0.508,
+                "r": 0.035
+              },
+              {
+                "x": 0.381,
+                "y": 0.532,
+                "r": 0.05
+              },
+              {
+                "x": 0.379,
+                "y": 0.469,
+                "r": 0.025
+              },
+              {
+                "x": 0.55,
+                "y": 0.388,
+                "r": 0.03
+              }
+            ],
+            "issues": "Correction FIXED the target: in v02 the stylus and the bound bundle are gone. Ramayyan now holds one opened leaf in both hands at waist height while his head turns toward Varma. His hands are sound, and the rest of the frame matches v01. Ramayyan still matches his sheet: clean-shaven, bald crown, ring of curls. Varma has the bare head and the knot behind his LEFT ear, gold necklaces, cream mundu and his spear at the right edge. Minor new points, neither a reason to reject: (1) the leaf carries faint, blurred horizontal strokes that suggest incised writing, with no letterforms, and at page size they read as texture; (2) the leaf is a little broad and paper-like for a palm leaf. Carried over from v01: Varma sits in a carved cushioned chair on the dais instead of on the bare dais; the standing guard has loose hair, not a front topknot; one seated chief has a beard. The sky and sea between the pillars (roughly x 0.36-0.57, y 0.15-0.33) give clear space for the RAMAYYAN balloon. The backup, v01, still has the stylus and bundle fault this round was meant to fix. Use it only if v02 is rejected for the leaf strokes.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-03",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.288,
+                "y": 0.093,
+                "r": 0.06
+              },
+              {
+                "x": 0.596,
+                "y": 0.223,
+                "r": 0.07
+              },
+              {
+                "x": 0.869,
+                "y": 0.083,
+                "r": 0.065
+              },
+              {
+                "x": 0.06,
+                "y": 0.537,
+                "r": 0.09
+              },
+              {
+                "x": 0.931,
+                "y": 0.586,
+                "r": 0.093
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Kept the current pick v03 because the regeneration v04 BROKE the story beat. What v04 fixed: Nagoji now stands apart at the back by a far pillar, Varma sits on a low dais against a bolster, and his spear is at his right hand. What v04 broke: Ramayyan holds a stylus and a thick bound palm-leaf bundle and appears to be writing. He is not breaking the wax on the single sealed ola from 5.2. This is the same stylus and bundle fault that the 5.5 correction removed, so it would clash with 5.4 and 5.5. v04 also has smaller faults: Varma's hair is a big loose mane with the bun on the back of the crown, not a side knot above his left ear, and Nagoji's ear has a small gold drop hanging from it. v03 itself shows the beat correctly: Ramayyan, clean-shaven and matching his sheet, cracks a red wax seal on the ola. Varma's knot sits on his left side, the chiefs wear topknots and gold earrings, and there is no text or anachronism. v03 still has the problem the reviewer flagged: Nagoji stands at the right side about level with the king, not apart at the back, and Varma sits in a carved cushioned chair on a raised dais. Nagoji's ear is a tiny gold hoop rather than a flush stud, barely visible at page size. If another regeneration is wanted, start from the v04 composition and add: 'Ramayyan holds NO stylus and NO bound bundle: in both hands he holds one long narrow palm-leaf ola tied with cord, his thumbs cracking the red wax seal on it. Varma's hair is tied in a neat knot on the LEFT side of his head above his left ear, not a bun on the crown. Nagoji's ear has only a tiny flush gold stud on the lobe with nothing hanging from it.'",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-04",
+            "pick": "v02",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.335,
+                "y": 0.465
+              },
+              {
+                "copy_index": 1,
+                "x": 0.741,
+                "y": 0.327
+              },
+              {
+                "copy_index": 2,
+                "x": 0.741,
+                "y": 0.327
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.28,
+                "y": 0.39,
+                "r": 0.14
+              },
+              {
+                "x": 0.728,
+                "y": 0.31,
+                "r": 0.06
+              },
+              {
+                "x": 0.042,
+                "y": 0.24,
+                "r": 0.04
+              },
+              {
+                "x": 0.057,
+                "y": 0.415,
+                "r": 0.055
+              },
+              {
+                "x": 0.156,
+                "y": 0.425,
+                "r": 0.045
+              },
+              {
+                "x": 0.449,
+                "y": 0.41,
+                "r": 0.05
+              },
+              {
+                "x": 0.975,
+                "y": 0.225,
+                "r": 0.04
+              },
+              {
+                "x": 0.982,
+                "y": 0.47,
+                "r": 0.05
+              }
+            ],
+            "backup_faces": [],
+            "issues": "The correction works. In v02 Varma has jet-black hair with no grey and a side knot above his LEFT ear. He sits cross-legged on the low dais holding the ola, with his spear leaning at his right hand, and he looks away from the chief. That matches the chapter 12 @5- row and panels 6.1, 6.3 and 6.5. The grey-haired Nair chief in the foreground is unchanged: grey topknot, heavy gold earring and a sound hand on his chest. The edit left no artifacts where the standing figure was removed; the dais steps and mat are clean. No new faults. Two minor points: Varma holds a folded stack of several leaves rather than the single strip seen in 6.3, and the map sheet on the table has faint scribble marks. These are carried over unchanged from v01, read as map lines and are not legible. The hall's open sea side matches the neighbouring panels. There is space for lettering in the sky between the pillars at top centre (CHIEF) and in the sky above Varma at top right (VARMA x2). v01 is rejected as a backup because Varma there has greying hair and stands instead of sitting on the dais, the very faults this correction fixed.",
+            "correction": ""
+          },
+          {
+            "id": "page-08-panel-05",
+            "pick": "v02",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.285,
+                "y": 0.11,
+                "r": 0.1
+              }
+            ],
+            "backup_faces": [],
+            "issues": "I kept v02. The v03 regeneration fixes the staging but breaks the ear hard check, so it cannot replace v02.\n\nWhat v03 fixes: Nagoji is seen from behind, walking off the rise toward the camp fires and tents at the left. The long, pale, empty beach and the moonlit black sea now run open across the right half of the frame, and the whole upper-middle and right sky is clear for the caption. The commander sheet is correct: rust-red turban, cream tunic with sleeves to the wrists, broad red sash, cream trousers, laced boots and a talwar at the left hip. Hands are sound and there is no text.\n\nWhat v03 breaks: a small gold drop hangs below the stud on his right earlobe. Zoom at about (720,167) for the stud and (721,174) for the drop in the 2172x724 frame, with a gold link between them. This is the same hanging-drop fault that failed v01. v03 also adds two new red-orange pennants on poles over the camp tents, at about x 0.16 to 0.23 and y 0.29 to 0.39. They read like the saffron Maratha pennant, which the script allows only in memory and vision panels (2.5, 4.4, 8.3). Panel 8.1's camp flies a plain white flag.\n\nState of v02: the ear passes, with a tiny flush stud and nothing hanging. The chin is clean-shaven under a thick curled moustache, and the costume is right. Its known weaknesses remain. He faces the camera as he walks past the fires instead of being seen from behind. The men at the camp wear turbans and tunics rather than the bare-headed Nairs of 8.1. The beach curve sits in the lower-middle and right, so the caption must be lettered wide and shallow in the upper-middle sky (about x 0.35 to 0.95, top 40%) to keep the sand visible.\n\nRecommendation: v03 is the better composition. An ear-region edit to a flush stud with nothing hanging, as was done for v01 to v02, plus removing the two red-orange pennants or recolouring them to the plain white of 8.1, would likely make it the pick on re-review.",
+            "correction": ""
+          }
+        ],
+        "missing": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 12,
+        "result": {
+          "chapter": 12,
+          "panels": [
+            {
+              "id": "page-02-panel-02",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.322,
+                  "y": 0.284,
+                  "r": 0.108,
+                  "who": "bald man with curly side hair, three-quarter view looking down at stone, left"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-05",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.283,
+                  "y": 0.164,
+                  "r": 0.037,
+                  "who": "Ramayyan, three-quarter, standing left-centre"
+                },
+                {
+                  "x": 0.8,
+                  "y": 0.36,
+                  "r": 0.043,
+                  "who": "Marthanda Varma, profile facing left, on dais at right"
+                },
+                {
+                  "x": 0.544,
+                  "y": 0.397,
+                  "r": 0.018,
+                  "who": "spearman standing in background, centre"
+                },
+                {
+                  "x": 0.382,
+                  "y": 0.537,
+                  "r": 0.026,
+                  "who": "moustached seated chieftain, centre"
+                },
+                {
+                  "x": 0.382,
+                  "y": 0.478,
+                  "r": 0.014,
+                  "who": "seated man partly hidden behind centre chieftain"
+                },
+                {
+                  "x": 0.04,
+                  "y": 0.53,
+                  "r": 0.029,
+                  "who": "bearded seated chieftain at far left"
+                },
+                {
+                  "x": 0.008,
+                  "y": 0.443,
+                  "r": 0.015,
+                  "who": "background man cut by left edge"
+                },
+                {
+                  "x": 0.141,
+                  "y": 0.509,
+                  "r": 0.017,
+                  "who": "seated man beside pillar, left background"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-03",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.294,
+                  "y": 0.122,
+                  "r": 0.025,
+                  "who": "Ramayyan, looking down, standing left"
+                },
+                {
+                  "x": 0.592,
+                  "y": 0.241,
+                  "r": 0.03,
+                  "who": "Marthanda Varma, frontal, on dais centre"
+                },
+                {
+                  "x": 0.877,
+                  "y": 0.094,
+                  "r": 0.024,
+                  "who": "Nagoji, turbaned, standing right"
+                },
+                {
+                  "x": 0.106,
+                  "y": 0.565,
+                  "r": 0.034,
+                  "who": "Nair chieftain, profile facing right, foreground left"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-04",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.321,
+                  "y": 0.447,
+                  "r": 0.069,
+                  "who": "grey-haired elder with topknot and moustache, three-quarter right, foreground centre-left"
+                },
+                {
+                  "x": 0.068,
+                  "y": 0.441,
+                  "r": 0.042,
+                  "who": "bearded seated man at left"
+                },
+                {
+                  "x": 0.166,
+                  "y": 0.43,
+                  "r": 0.032,
+                  "who": "bearded seated man behind elder, left of centre"
+                },
+                {
+                  "x": 0.051,
+                  "y": 0.247,
+                  "r": 0.017,
+                  "who": "standing spear guard, top left"
+                },
+                {
+                  "x": 0.458,
+                  "y": 0.428,
+                  "r": 0.031,
+                  "who": "moustached seated man, centre background"
+                },
+                {
+                  "x": 0.737,
+                  "y": 0.317,
+                  "r": 0.025,
+                  "who": "man seated cross-legged on dais holding palm-leaf, three-quarter right"
+                },
+                {
+                  "x": 0.971,
+                  "y": 0.229,
+                  "r": 0.018,
+                  "who": "standing spear guard, top right"
+                },
+                {
+                  "x": 0.984,
+                  "y": 0.466,
+                  "r": 0.047,
+                  "who": "bearded man in profile cut by right edge"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-05",
+              "version": "v02",
+              "faces": [
+                {
+                  "x": 0.2947,
+                  "y": 0.125,
+                  "r": 0.04,
+                  "who": "Nagoji, red turban, three-quarter right, centre-left foreground"
+                },
+                {
+                  "x": 0.0276,
+                  "y": 0.3425,
+                  "r": 0.0124,
+                  "who": "bearded soldier in profile at far left by tent"
+                },
+                {
+                  "x": 0.0506,
+                  "y": 0.3177,
+                  "r": 0.0138,
+                  "who": "standing spearman in profile at left"
+                },
+                {
+                  "x": 0.0824,
+                  "y": 0.4157,
+                  "r": 0.0124,
+                  "who": "seated soldier in profile at left"
+                },
+                {
+                  "x": 0.111,
+                  "y": 0.4213,
+                  "r": 0.011,
+                  "who": "seated man facing viewer by fire"
+                },
+                {
+                  "x": 0.1464,
+                  "y": 0.3798,
+                  "r": 0.011,
+                  "who": "smiling standing man with spear in camp"
+                },
+                {
+                  "x": 0.1961,
+                  "y": 0.4309,
+                  "r": 0.011,
+                  "who": "standing soldier in camp near Nagoji's arm"
+                },
+                {
+                  "x": 0.1533,
+                  "y": 0.4705,
+                  "r": 0.0105,
+                  "who": "seated man by fire in profile facing left, centre of camp"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 12,
+        "result": {
+          "chapter": 12,
+          "panels": [
+            {
+              "id": "2.2",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.25,
+                  "x1": 0.56,
+                  "y0": 0.54,
+                  "y1": 0.85,
+                  "what": "Ramayyan's long fingers of both hands turning the small dark stone"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "5.5",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.19,
+                  "y0": 0.37,
+                  "x1": 0.37,
+                  "y1": 0.49,
+                  "what": "Ramayyan's hands holding the lowered leaf"
+                },
+                {
+                  "x0": 0.66,
+                  "y0": 0.24,
+                  "x1": 0.93,
+                  "y1": 0.62,
+                  "what": "Varma seated on the dais at frame edge, the man Ramayyan turns to"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "5.3",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.24,
+                  "y0": 0.2,
+                  "x1": 0.35,
+                  "y1": 0.3,
+                  "what": "Ramayyan's hands breaking the red wax seal on the palm-leaf ola"
+                },
+                {
+                  "x0": 0.49,
+                  "y0": 0.13,
+                  "x1": 0.76,
+                  "y1": 0.48,
+                  "what": "Varma seated on the dais, spear leaning at his right hand"
+                },
+                {
+                  "x0": 0.81,
+                  "y0": 0.02,
+                  "x1": 0.95,
+                  "y1": 0.5,
+                  "what": "Nagoji standing apart by the pillar, the only turban in the hall"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "6.4",
+              "version": "v02",
+              "keep": [
+                {
+                  "x0": 0.19,
+                  "y0": 0.25,
+                  "x1": 0.4,
+                  "y1": 0.55,
+                  "what": "foreground older Nair chieftain (grey topknot, heavy gold earring, shoulder cloth) turned sideways, muttering"
+                },
+                {
+                  "x0": 0.62,
+                  "y0": 0.26,
+                  "x1": 0.81,
+                  "y1": 0.59,
+                  "what": "Varma seated on the dais in the background holding the leaf, looking away and not troubling to look at the chief"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "8.5",
+              "version": "v02",
+              "keep": [
+                {
+                  "what": "Nagoji walking on the rise, full figure from turban to boots",
+                  "x0": 0.21,
+                  "y0": 0.02,
+                  "x1": 0.35,
+                  "y1": 0.99
+                },
+                {
+                  "what": "camp cookfires, tents and soldiers that he should be walking toward",
+                  "x0": 0,
+                  "y0": 0.25,
+                  "x1": 0.41,
+                  "y1": 0.6
+                },
+                {
+                  "what": "long pale empty beach running away into the dark below the rise",
+                  "x0": 0.53,
+                  "y0": 0.48,
+                  "x1": 0.95,
+                  "y1": 0.9
+                }
+              ],
+              "beat_present": false,
+              "missing": "Nagoji walks toward the viewer with every camp fire behind him, and his head is turned to look out at the sea, so he has not turned from the sea and is not walking back toward the fires. The script needs him facing away from the sea and heading into the firelight, for example seen from behind or in profile walking toward the camp, so the panel carries 'I turned back toward the camp.'"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-select-drawn",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch12 p2",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a11a8c8b7772e70e9",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216386707,
+      "queuedAt": 1791216386696,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 2 of Chapter 12 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216421834,
+      "tokens": 72820,
+      "toolCalls": 12,
+      "durationMs": 35123,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-02-panel-02\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.284,\"y\":0.336}],\"backup_tails\":[],\"faces\":[{\"x\":0.287,\"y\":0.2,\"r\":0.21}],\"backup_faces\":[],\"issues\":\"The correction worked and broke nothing. v01, the current pick, gave Ramayyan a clear moustache, chin stubble and straight hair combed back, which doesn't match his sheet. v02 removes the moustache and …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch12 p5",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "a7a716684ec94e375",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216386709,
+      "queuedAt": 1791216386696,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 5 of Chapter 12 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216563267,
+      "tokens": 99988,
+      "toolCalls": 32,
+      "durationMs": 176556,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-05-panel-05\",\"pick\":\"v02\",\"backup\":\"v01\",\"tails\":[{\"copy_index\":0,\"x\":0.285,\"y\":0.184}],\"backup_tails\":[{\"copy_index\":0,\"x\":0.285,\"y\":0.184}],\"faces\":[{\"x\":0.267,\"y\":0.122,\"r\":0.085},{\"x\":0.846,\"y\":0.337,\"r\":0.1},{\"x\":0.033,\"y\":0.522,\"r\":0.05},{\"x\":0.008,\"y\":0.432,\"r\":0.03},{\"x\":0.14,\"y\":0.508,\"r\":0.035},{\"x\":0.381,\"y\":0.532,\"r\":0.05},{\"x\":0.379,\"y\":0.469,\"r\":0.025},{\"x\":…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "select ch12 p6",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "af44b54ed88f6432a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216386710,
+      "queuedAt": 1791216386696,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 6 of Chapter 12 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216469516,
+      "tokens": 92147,
+      "toolCalls": 20,
+      "durationMs": 82805,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-06-panel-04\",\"pick\":\"v02\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.335,\"y\":0.465},{\"copy_index\":1,\"x\":0.741,\"y\":0.327},{\"copy_index\":2,\"x\":0.741,\"y\":0.327}],\"backup_tails\":[],\"faces\":[{\"x\":0.28,\"y\":0.39,\"r\":0.14},{\"x\":0.728,\"y\":0.31,\"r\":0.06},{\"x\":0.042,\"y\":0.24,\"r\":0.04},{\"x\":0.057,\"y\":0.415,\"r\":0.055},{\"x\":0.156,\"y\":0.425,\"r\":0.045},{\"x\":0.449,\"y\":0.41,\"r\":0.05},{\"x…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "select ch12 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-select-drawn",
+      "agentId": "aa7c409b42c14dbac",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216386710,
+      "queuedAt": 1791216386696,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 8 of Chapter 12 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). For each panel below, Read its contact sheet (every candidate the image generator produced, labelled v01, v02, ...) and pick the best ACCEPTABLE candidate. Zoom with crops if needed (Python with Pillow: /Users/roshanvenugopal/.cache/codex-runtimes/codex-primary-run…",
+      "promptFramed": true,
+      "lastProgressAt": 1791216486734,
+      "tokens": 95385,
+      "toolCalls": 24,
+      "durationMs": 100023,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-08-panel-05\",\"pick\":\"v02\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.285,\"y\":0.11,\"r\":0.1}],\"backup_faces\":[],\"issues\":\"I kept v02. The v03 regeneration fixes the staging but breaks the ear hard check, so it cannot replace v02.\\n\\nWhat v03 fixes: Nagoji is seen from behind, walking off the rise toward the camp fires and tents at the left. The long, pale, e…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "mark ch12 p2",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a0bc2c3bfdd7ab4b5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216563294,
+      "queuedAt": 1791216563281,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216585252,
+      "tokens": 65275,
+      "toolCalls": 9,
+      "durationMs": 21956,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-02\",\"version\":\"v02\",\"faces\":[{\"x\":0.308,\"y\":0.29,\"r\":0.11,\"who\":\"bald man with curly side hair, three-quarter view looking down at stone, left\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "mark ch12 p5",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "afbbe68d63997abdf",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216563294,
+      "queuedAt": 1791216563281,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216703967,
+      "tokens": 91230,
+      "toolCalls": 39,
+      "durationMs": 139865,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-05\",\"version\":\"v02\",\"faces\":[{\"x\":0.283,\"y\":0.164,\"r\":0.039,\"who\":\"Ramayyan, three-quarter, standing left-centre\"},{\"x\":0.804,\"y\":0.36,\"r\":0.043,\"who\":\"Marthanda Varma, profile facing left, on dais at right\"},{\"x\":0.544,\"y\":0.397,\"r\":0.018,\"who\":\"spearman standing in background, centre\"},{\"x\":0.382,\"y\":0.537,\"r\":0.027,\"who\":\"moustached seated chieftain, centre\"},{\"x…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "mark ch12 p6",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ad750b3a88c3b72d6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216563295,
+      "queuedAt": 1791216563281,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216653832,
+      "tokens": 80237,
+      "toolCalls": 25,
+      "durationMs": 89729,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-04\",\"version\":\"v02\",\"faces\":[{\"x\":0.321,\"y\":0.447,\"r\":0.069,\"who\":\"grey-haired elder with topknot and moustache, three-quarter right, foreground centre-left\"},{\"x\":0.068,\"y\":0.441,\"r\":0.042,\"who\":\"bearded seated man at left\"},{\"x\":0.166,\"y\":0.43,\"r\":0.032,\"who\":\"bearded seated man behind elder, left of centre\"},{\"x\":0.051,\"y\":0.247,\"r\":0.017,\"who\":\"standing spear gu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "mark ch12 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a0c9048ac62f40cda",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216563296,
+      "queuedAt": 1791216563281,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216622900,
+      "tokens": 71015,
+      "toolCalls": 13,
+      "durationMs": 58797,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-05\",\"version\":\"v02\",\"faces\":[{\"x\":0.2947,\"y\":0.125,\"r\":0.04,\"who\":\"Nagoji, red turban, three-quarter right, centre-left foreground\"},{\"x\":0.0276,\"y\":0.3425,\"r\":0.0124,\"who\":\"bearded soldier in profile at far left by tent\"},{\"x\":0.0506,\"y\":0.3177,\"r\":0.0138,\"who\":\"standing spearman in profile at left\"},{\"x\":0.0824,\"y\":0.4157,\"r\":0.0124,\"who\":\"seated soldier in profil…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 5,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "keep ch12 p2",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ad12f16ee926a9520",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216563311,
+      "queuedAt": 1791216563303,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 2 of chapter 12 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-12-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216579871,
+      "tokens": 62788,
+      "toolCalls": 7,
+      "durationMs": 16558,
+      "resultPreview": "{\"panels\":[{\"id\":\"2.2\",\"version\":\"v02\",\"keep\":[{\"x0\":0.25,\"x1\":0.56,\"y0\":0.54,\"y1\":0.85,\"what\":\"Ramayyan's long fingers of both hands turning the small dark stone\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "keep ch12 p5",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ac1ebcf2f9be061b3",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216563311,
+      "queuedAt": 1791216563304,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 5 of chapter 12 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-12-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216607496,
+      "tokens": 70664,
+      "toolCalls": 8,
+      "durationMs": 43432,
+      "resultPreview": "{\"panels\":[{\"id\":\"5.5\",\"version\":\"v02\",\"keep\":[{\"x0\":0.19,\"y0\":0.37,\"x1\":0.37,\"y1\":0.49,\"what\":\"Ramayyan's hands holding the lowered leaf\"},{\"x0\":0.66,\"y0\":0.24,\"x1\":0.93,\"y1\":0.62,\"what\":\"Varma seated on the dais at frame edge, the man Ramayyan turns to\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"5.3\",\"version\":\"v03\",\"keep\":[{\"x0\":0.24,\"y0\":0.2,\"x1\":0.35,\"y1\":0.3,\"what\":\"Ramayyan's hands breaking…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "keep ch12 p6",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a25aa85e95c27f694",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216563312,
+      "queuedAt": 1791216563304,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 6 of chapter 12 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-12-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216582790,
+      "tokens": 62413,
+      "toolCalls": 6,
+      "durationMs": 18726,
+      "resultPreview": "{\"panels\":[{\"id\":\"6.4\",\"version\":\"v02\",\"keep\":[{\"x0\":0.19,\"y0\":0.25,\"x1\":0.4,\"y1\":0.55,\"what\":\"foreground older Nair chieftain (grey topknot, heavy gold earring, shoulder cloth) turned sideways, muttering\"},{\"x0\":0.62,\"y0\":0.26,\"x1\":0.81,\"y1\":0.59,\"what\":\"Varma seated on the dais in the background holding the leaf, looking away and not troubling to look at the chief\"}],\"beat_present\":true,\"missing…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "keep ch12 p8",
+      "phaseIndex": 5,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a63b92b95cb0e40e1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216563313,
+      "queuedAt": 1791216563304,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 8 of chapter 12 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-12-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216594280,
+      "tokens": 65875,
+      "toolCalls": 6,
+      "durationMs": 30216,
+      "resultPreview": "{\"panels\":[{\"id\":\"8.5\",\"version\":\"v02\",\"keep\":[{\"what\":\"Nagoji walking on the rise, full figure from turban to boots\",\"x0\":0.21,\"y0\":0.02,\"x1\":0.35,\"y1\":0.99},{\"what\":\"camp cookfires, tents and soldiers that he should be walking toward\",\"x0\":0,\"y0\":0.25,\"x1\":0.41,\"y1\":0.6},{\"what\":\"long pale empty beach running away into the dark below the rise\",\"x0\":0.53,\"y0\":0.48,\"x1\":0.95,\"y1\":0.9}],\"beat_prese…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "check ch12 p2",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aa9d8c1f256c0b638",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216585253,
+      "queuedAt": 1791216585253,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216607535,
+      "tokens": 61995,
+      "toolCalls": 7,
+      "durationMs": 22281,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-02-panel-02\",\"version\":\"v02\",\"faces\":[{\"x\":0.322,\"y\":0.284,\"r\":0.108,\"who\":\"bald man with curly side hair, three-quarter view looking down at stone, left\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "check ch12 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a2fba8f2f9fb85953",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216622903,
+      "queuedAt": 1791216622901,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216675207,
+      "tokens": 74148,
+      "toolCalls": 14,
+      "durationMs": 52304,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-05\",\"version\":\"v02\",\"faces\":[{\"x\":0.2947,\"y\":0.125,\"r\":0.04,\"who\":\"Nagoji, red turban, three-quarter right, centre-left foreground\"},{\"x\":0.0276,\"y\":0.3425,\"r\":0.0124,\"who\":\"bearded soldier in profile at far left by tent\"},{\"x\":0.0506,\"y\":0.3177,\"r\":0.0138,\"who\":\"standing spearman in profile at left\"},{\"x\":0.0824,\"y\":0.4157,\"r\":0.0124,\"who\":\"seated soldier in profil…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "check ch12 p6",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aab43e340f7e168d2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216653833,
+      "queuedAt": 1791216653833,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216693145,
+      "tokens": 68265,
+      "toolCalls": 10,
+      "durationMs": 39311,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-04\",\"version\":\"v02\",\"faces\":[{\"x\":0.321,\"y\":0.447,\"r\":0.069,\"who\":\"grey-haired elder with topknot and moustache, three-quarter right, foreground centre-left\"},{\"x\":0.068,\"y\":0.441,\"r\":0.042,\"who\":\"bearded seated man at left\"},{\"x\":0.166,\"y\":0.43,\"r\":0.032,\"who\":\"bearded seated man behind elder, left of centre\"},{\"x\":0.051,\"y\":0.247,\"r\":0.017,\"who\":\"standing spear gu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "check ch12 p5",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "af738a47eaaa9c1fc",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791216703969,
+      "queuedAt": 1791216703968,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791216812721,
+      "tokens": 86938,
+      "toolCalls": 26,
+      "durationMs": 108751,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-05\",\"version\":\"v02\",\"faces\":[{\"x\":0.283,\"y\":0.164,\"r\":0.037,\"who\":\"Ramayyan, three-quarter, standing left-centre\"},{\"x\":0.8,\"y\":0.36,\"r\":0.043,\"who\":\"Marthanda Varma, profile facing left, on dais at right\"},{\"x\":0.544,\"y\":0.397,\"r\":0.018,\"who\":\"spearman standing in background, centre\"},{\"x\":0.382,\"y\":0.537,\"r\":0.026,\"who\":\"moustached seated chieftain, centre\"},{\"x\":…"
+    }
+  ],
+  "totalTokens": 1221183,
+  "totalToolCalls": 258
+}

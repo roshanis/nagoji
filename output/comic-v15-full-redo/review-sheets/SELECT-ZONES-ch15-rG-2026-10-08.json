@@ -1,0 +1,2008 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 36,
+  "logs": [
+    "chapter 15: 12 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-keep",
+    "▸ running dynamic workflow v15-faces2",
+    "[v15-keep] chapter 15: keep regions for 12 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 15: face zones for 12 frames, 31 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 15,
+        "decisions": [
+          {
+            "id": "page-03-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.225,
+                "y": 0.167,
+                "r": 0.105
+              }
+            ],
+            "backup_faces": [],
+            "issues": "v03 is clean. Nagoji matches the commander sheet: rust-red turban, cream tunic with full-length sleeves (so no brand shows, which is correct for this panel), broad red sash, cream trousers, boots, brass-hilted sword, thick curled moustache, clean-shaven chin and a small flush gold ear stud. Kayal is a bay with a black mane and no white markings, and her lower legs are cropped out of frame. The setting is right for the beat: the burnt stockade on the sand, the sandy battery rise with a cannon and bare-chested Nair spearmen in white mundus, palms, and Dutch ships small on the sea under clear morning light. There is no painted text, no gore and no anachronism, and the hands are sound. The upper-right sky is wide and empty, with room for the medium caption. One small nitpick: one or two of the tiny background workers at bottom right may have a dark head-cloth, which can't be read at print size. v02 and v01 both paint the brand on Nagoji's raised forearm. That is his far arm, the RIGHT one, not the left, and the brand shows even though the script does not push his sleeves up. Neither is a valid backup.",
+            "correction": ""
+          },
+          {
+            "id": "page-05-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.697,
+                "y": 0.235,
+                "r": 0.1
+              },
+              {
+                "x": 0.379,
+                "y": 0.5,
+                "r": 0.07
+              },
+              {
+                "x": 0.571,
+                "y": 0.52,
+                "r": 0.065
+              },
+              {
+                "x": 0.814,
+                "y": 0.54,
+                "r": 0.06
+              },
+              {
+                "x": 0.301,
+                "y": 0.571,
+                "r": 0.045
+              },
+              {
+                "x": 0.258,
+                "y": 0.596,
+                "r": 0.035
+              }
+            ],
+            "backup_faces": [],
+            "issues": "v03 is the newest version and it is acceptable. De Lannoy matches his sheet: pale curly hair tied with a black ribbon, face in profile tilted up, the only upright head. He wears the torn, soot-stained blue coat, and the linen bandage is on his LEFT hand and wrist (the near hand, on screen right). The prisoners around him are dark-haired Europeans with bowed heads, and Nair guards (topknots, white mundus, round shields, spears) walk on both flanks. Udayagiri's granite walls and bastions fill the background behind and above him. No painted text, noose, blood or anachronism, and the hands are sound. Clear sky for the caption sits top right, above his head (about x 0.46 to 0.94, y 0.01 to 0.13). Small faults for the author: (1) the prisoners wear knee boots, but in 5.3 they walk barefoot or in sandals; (2) several bowed prisoners share the same bearded face; (3) his body is turned three-quarters toward the viewer, so only his head is a strict profile. Why the others lost: v02 has two more blond, pale-haired prisoners, which breaks 'the only tall, pale-haired Dutchman'. v01 shows Indian-looking prisoners in turbans and dhotis and no Nair guards, which does not match 5.3.",
+            "correction": ""
+          },
+          {
+            "id": "page-06-panel-03",
+            "pick": "v03",
+            "backup": "v02",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.265,
+                "y": 0.28
+              },
+              {
+                "copy_index": 1,
+                "x": 0.265,
+                "y": 0.28
+              },
+              {
+                "copy_index": 2,
+                "x": 0.658,
+                "y": 0.212
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.265,
+                "y": 0.28
+              },
+              {
+                "copy_index": 1,
+                "x": 0.265,
+                "y": 0.28
+              },
+              {
+                "copy_index": 2,
+                "x": 0.658,
+                "y": 0.212
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.215,
+                "y": 0.239,
+                "r": 0.1
+              },
+              {
+                "x": 0.677,
+                "y": 0.146,
+                "r": 0.115
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.215,
+                "y": 0.239,
+                "r": 0.1
+              },
+              {
+                "x": 0.677,
+                "y": 0.146,
+                "r": 0.115
+              }
+            ],
+            "issues": "v03 is a light re-pass of v02 (same composition, mean pixel difference small), and it is clean enough for print. Ibrahim matches his sheet: white turban, short grey-flecked beard, teal short coat over a cream vest with pocket flaps. He gestures toward the goods, and his crew unloads the second boat behind him. Nagoji matches the commander sheet: rust-red turban, cream tunic, broad red waist sash, thick curled moustache, clean-shaven chin, tiny gold stud. His hand is in the open rice sack and his eyes look down and to his right, toward the sacks. The setting matches 6.1 and 6.2: Colachel surf, small open boats, the charred stockade and debris up the beach, morning light. There is no painted text, gore or noose, and the hands are sound. There is open sky top-left (x 0 to 0.55, y 0 to 0.14) for Ibrahim's two balloons and sky top-centre or top-right for Nagoji's short one. Minor faults: (1) Nagoji's sleeves are rolled to the elbow although the script does not ask for it, so his brand and the long white scar show. They sit on the upper or outer face of the LEFT forearm rather than the inner face. The brand reads as a slightly lace-like ridged patch, with no letters and no cross. (2) Nagoji's downward glance could also read as falling on Ibrahim's lower hand, but most readers will take it as the sacks. (3) The scarred side of Ibrahim's face is turned away, which is consistent, but the scar cannot be seen here.",
+            "correction": "No retouch is needed for acceptance. Optionally, soften the lace-like pattern of the brand on Nagoji's left forearm into a blurred, puckered pale patch, at roughly x 0.80 to 0.87, y 0.40 to 0.52 of the v03 frame."
+          },
+          {
+            "id": "page-08-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.65,
+                "y": 0.441
+              },
+              {
+                "copy_index": 1,
+                "x": 0.65,
+                "y": 0.441
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.658,
+                "y": 0.391,
+                "r": 0.09
+              },
+              {
+                "x": 0.3125,
+                "y": 0.098,
+                "r": 0.12
+              }
+            ],
+            "backup_faces": [],
+            "issues": "v03 is nearly clean. The framing is right: we look past De Lannoy's back (pale curled hair with a black ribbon, torn and soot-stained blue coat, bandage on his LEFT hand) at Varma seated on the low platform. Varma rests one forearm on his knee and looks up. He is bare-headed with the knot above his left ear, wears his pearl earrings and gold beads, and his spear leans within reach. The window shows green hills and Nair spearmen drilling. There is no painted text. The upper wall between the spear and the door, above Varma's head, gives plenty of room for both balloons. Minor: the room is mirrored against 8.5 (window left and door right here; door left and window right in 8.5). It reads as a reverse angle and does not need a fix. Rejected alternatives: v02 has the bandage on De Lannoy's RIGHT hand (seen from behind). v01 gives Varma loose wavy hair with no side knot.",
+            "correction": ""
+          },
+          {
+            "id": "page-08-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.199,
+                "y": 0.117
+              },
+              {
+                "copy_index": 1,
+                "x": 0.78,
+                "y": 0.359
+              },
+              {
+                "copy_index": 2,
+                "x": 0.78,
+                "y": 0.359
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.173,
+                "y": 0.078,
+                "r": 0.085
+              },
+              {
+                "x": 0.817,
+                "y": 0.324,
+                "r": 0.09
+              }
+            ],
+            "backup_faces": [],
+            "issues": "v03 matches the beat: a two-shot across the room. De Lannoy stands with his mouth open, in the torn blue coat, breeches and boots, his bandaged LEFT hand held out. Varma sits in left profile with one hand lifted, bare-headed with the knot above his left ear, his earring and gold beads showing, and his spear leaning beside him. There is no painted text. A large blank granite wall between and above the two heads leaves room for Varma's balloon to overlap De Lannoy's. Remaining faults: (1) A long hanging object at De Lannoy's belt (about x 0.15 to 0.18, y 0.40 to 0.58) reads as a sheathed dagger or empty scabbard. That is odd on a disarmed prisoner, though small at print size. (2) The room is mirrored against 8.4 (door left and window right here). (3) A few distant drillers in the window wear white headbands instead of forward topknots, too small to matter. (4) A bolster on the platform is fine (not a carpet or throne). Rejected alternatives: v02 has the bandage on De Lannoy's RIGHT (near, hanging) hand. v01 dresses De Lannoy in the white tunic-coat and mundu, which is the wrong costume before 13.4.",
+            "correction": "Optional local retouch: paint out the narrow brown hanging scabbard or dagger shape below De Lannoy's belt on his left hip (roughly x 0.15 to 0.18, y 0.40 to 0.58 of the frame). Replace it with the dark grey breeches and the blue coat edge so he reads as unarmed. Nothing else needs changing."
+          },
+          {
+            "id": "page-09-panel-03",
+            "pick": "v03",
+            "backup": "v02",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.521,
+                "y": 0.347
+              },
+              {
+                "copy_index": 1,
+                "x": 0.521,
+                "y": 0.347
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.521,
+                "y": 0.342
+              },
+              {
+                "copy_index": 1,
+                "x": 0.521,
+                "y": 0.342
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.528,
+                "y": 0.312,
+                "r": 0.085
+              },
+              {
+                "x": 0.85,
+                "y": 0.415,
+                "r": 0.083
+              },
+              {
+                "x": 0.044,
+                "y": 0.176,
+                "r": 0.06
+              },
+              {
+                "x": 0.225,
+                "y": 0.117,
+                "r": 0.125
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.525,
+                "y": 0.303,
+                "r": 0.085
+              },
+              {
+                "x": 0.85,
+                "y": 0.405,
+                "r": 0.083
+              },
+              {
+                "x": 0.044,
+                "y": 0.171,
+                "r": 0.06
+              },
+              {
+                "x": 0.225,
+                "y": 0.112,
+                "r": 0.125
+              }
+            ],
+            "issues": "v03 is clean on the hard checks and matches the beat. The shot is over De Lannoy's shoulder (pale hair with the black ribbon, torn soot-stained blue coat, linen bandage on his LEFT hand, standing). Varma is bare-headed with the side knot above his left ear, namam, pearl drops and thin waxed moustache, and his eyes are on De Lannoy. Tharakan sits at right in the maroon tunic with lit gold chains and a cross. The open window shows green hills and spearmen drilling in the yard. The lamp is brass with an open wick. No text, and the upper stone wall between De Lannoy's head and the window (about x 0.40 to 0.80, y 0.02 to 0.25) is clear for both Varma balloons. Minor remaining points for the author: (1) An extra, unscripted bare-chested guard stands by the door at far left. He has a thick curled moustache, a gold ear stud and loose curly hair with no topknot, so a reader could take him for Nagoji without his rust-red turban and sash. (2) Tharakan's cross is a plain Latin cross with only slightly flared ends, not clearly the budded St Thomas form. It is not a crucifix. (3) Varma's nod toward Tharakan is barely visible: his head is almost upright, though his gaze reads correctly. Backup v02 is the same composition, but Varma wears a small gold cross pendant on his lower necklace, which is a hard identity fault.",
+            "correction": "No retouch is needed for the pick. Optional local retouch: if the door guard at far left (about x 0.00 to 0.09, y 0.10 to 0.65 of v03) reads as Nagoji, paint his loose curls into a forward-tied Nair topknot and remove the gold ear stud at about x 0.067, y 0.24. Alternatively, paint him out entirely, filling with the dark doorway and the timber door frame."
+          },
+          {
+            "id": "page-10-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.39,
+                "y": 0.197
+              },
+              {
+                "copy_index": 1,
+                "x": 0,
+                "y": 0.7
+              }
+            ],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.345,
+                "y": 0.161,
+                "r": 0.12
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Clean on the hard criteria. De Lannoy matches his sheet and the bible row: pale curled hair tied with a black ribbon, a torn, soot-stained blue coat, dark breeches and boots, and the linen bandage on his LEFT hand. He stands at the window half turned from us. The hills rise beyond, and bare-chested Nair spearmen with topknots drill in the yard. The upper sky is open for the two speeches, and the plain stone sill along the lower right gives a quiet band for the caption. Minor continuity notes: this window opening is much wider than the window in 10.5, the yard shows a tiled shelter and palisade that 10.5 does not, and the door sits on the wall right beside the window. Rejected alternatives: v01 bandages the RIGHT hand (the one on the sill). v02 puts a long white mundu under the coat, which belongs after page 13 panel 4.",
+            "correction": ""
+          },
+          {
+            "id": "page-10-panel-05",
+            "pick": "v03",
+            "backup": "v02",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.505,
+                "y": 0.148
+              },
+              {
+                "copy_index": 1,
+                "x": 0.26,
+                "y": 0.25
+              },
+              {
+                "copy_index": 2,
+                "x": 0.505,
+                "y": 0.148
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.505,
+                "y": 0.148
+              },
+              {
+                "copy_index": 1,
+                "x": 0.26,
+                "y": 0.25
+              },
+              {
+                "copy_index": 2,
+                "x": 0.505,
+                "y": 0.148
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.498,
+                "y": 0.112,
+                "r": 0.09
+              },
+              {
+                "x": 0.708,
+                "y": 0.384,
+                "r": 0.05
+              },
+              {
+                "x": 0.172,
+                "y": 0.171,
+                "r": 0.17
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.498,
+                "y": 0.112,
+                "r": 0.09
+              },
+              {
+                "x": 0.708,
+                "y": 0.384,
+                "r": 0.05
+              },
+              {
+                "x": 0.172,
+                "y": 0.171,
+                "r": 0.17
+              },
+              {
+                "x": 0.885,
+                "y": 0.542,
+                "r": 0.05
+              },
+              {
+                "x": 0.932,
+                "y": 0.576,
+                "r": 0.05
+              }
+            ],
+            "issues": "This is the newest version and it is acceptable. De Lannoy faces us full on in the torn blue coat, breeches and boots, with the bandage on his LEFT hand, looking toward the door. Varma sits on the platform behind him with his spear in reach: bare-headed, side knot above his LEFT ear, bare-chested, cream mundu with a gold border, gold necklaces, no turban or crest. Nagoji is seen from behind in the doorway: rust-red turban, long curly black hair, cream tunic, red sash, talwar hilt. The tip of his moustache shows, with no beard on the visible cheek, and his gold ear ornament is a flush round stud, not a drop. Remaining faults for the author: (1) The script asks for only the doorframe and the edge of Nagoji's red sash in the near foreground. Instead his whole back, turban and head fill the left third as an over-the-shoulder shot. All three versions do this. It still reads as his point of view and sets up the reverse angle in 11.1. (2) The ear stud is a slightly large round bead. (3) Varma is only moderately small, not 'small' behind De Lannoy. (4) The window here is a modest opening in the far wall, and the yard behind it differs from the wide window and tiled shelter in 10.4. There is low-detail stone wall for the three balloons: upper centre-left between Nagoji's head and De Lannoy, above De Lannoy's head, and upper right of De Lannoy above Varma. Backup v02 has the same composition but adds two unscripted seated men (lower right) and shows the yard spearmen clothed with shields.",
+            "correction": "No retouch is needed to use v03. Optional: shrink Nagoji's gold ear bead to a tiny flush stud on the lobe, at about x 0.243, y 0.223 of the frame. The framing fault (Nagoji drawn large instead of just the sash edge) cannot be fixed by a local retouch."
+          },
+          {
+            "id": "page-11-panel-04",
+            "pick": "v03",
+            "backup": "v02",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.211,
+                "y": 0.169
+              },
+              {
+                "copy_index": 1,
+                "x": 0.789,
+                "y": 0.31
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.214,
+                "y": 0.17
+              },
+              {
+                "copy_index": 1,
+                "x": 0.798,
+                "y": 0.335
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.192,
+                "y": 0.118,
+                "r": 0.095
+              },
+              {
+                "x": 0.526,
+                "y": 0.502,
+                "r": 0.085
+              },
+              {
+                "x": 0.826,
+                "y": 0.307,
+                "r": 0.09
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.195,
+                "y": 0.118,
+                "r": 0.095
+              },
+              {
+                "x": 0.527,
+                "y": 0.497,
+                "r": 0.085
+              },
+              {
+                "x": 0.829,
+                "y": 0.3,
+                "r": 0.09
+              }
+            ],
+            "issues": "Clean apart from one small staging point: Varma looks up and to the left toward De Lannoy, not down at Ramayyan, so the nod to Ramayyan reads only loosely. Everything else checks out. De Lannoy has the torn, soot-stained blue coat, boots and pale hair, his head is bowed in the nod, and the linen bandage is correctly on his LEFT wrist (v02 has it on the right). Ramayyan sits on the mat with his stylus moving on the palm leaf. Varma is bare-headed with the knot above and behind the left ear, the namam, pearl drops and a thin moustache, his spear is within reach and the lamp is brass. There is no painted text. Lettering space: the bare upper wall between the window and Varma (about x 0.53 to 0.80, y 0 to 0.25) and the window sky. v01 is rejected because De Lannoy wears a white mundu and sandals under the coat.",
+            "correction": ""
+          },
+          {
+            "id": "page-11-panel-05",
+            "pick": "v03",
+            "backup": "v02",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.605,
+                "y": 0.51
+              },
+              {
+                "copy_index": 1,
+                "x": 0.837,
+                "y": 0.359
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.605,
+                "y": 0.51
+              },
+              {
+                "copy_index": 1,
+                "x": 0.837,
+                "y": 0.359
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.413,
+                "y": 0.171,
+                "r": 0.075
+              },
+              {
+                "x": 0.633,
+                "y": 0.48,
+                "r": 0.065
+              },
+              {
+                "x": 0.872,
+                "y": 0.33,
+                "r": 0.07
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.413,
+                "y": 0.171,
+                "r": 0.075
+              },
+              {
+                "x": 0.633,
+                "y": 0.48,
+                "r": 0.065
+              },
+              {
+                "x": 0.872,
+                "y": 0.33,
+                "r": 0.07
+              }
+            ],
+            "issues": "Forced pick, with three faults left. (1) De Lannoy is seen from behind and the linen bandage is on his RIGHT wrist (viewer's right, by the guard's back). The bible puts it on the LEFT, and his bare left hand is visible at the viewer's left of the coat. v02 has the same fault. (2) Nagoji's ear ornament is a small gold bead sitting slightly below the lobe, not a flush stud. It is smaller than v02's clear stud-plus-drop, which is why v03 wins on this point. (3) Ramayyan wears a tiny gold ear stud, and he should have no jewellery. The rest matches the script beat. De Lannoy's back, in the torn blue coat with boots and pale hair, goes out the door between two bare-chested Nair spearmen. Nagoji stands aside by the wall: rust-red turban, cream tunic with sleeves down, red sash, talwar, boots, thick curled moustache and a clean-shaven chin. Ramayyan looks up from his leaf, and Varma, bare-headed with the side knot, namam and pearls and with his spear beside him, watches the door. There is no painted text. Lettering space: the bare upper granite wall between Nagoji and the window (about x 0.47 to 0.71, y 0 to 0.27) and the window sky. v01 is rejected: Varma has loose curly greying hair, Nagoji's sleeves are rolled up showing the brand, and De Lannoy wears a white skirt.",
+            "correction": "A small local pixel retouch would fix all three faults. (a) Paint the white linen wrap off De Lannoy's RIGHT wrist and hand (about x 0.21 to 0.235, y 0.425 to 0.50), continuing the blue coat cuff and the skin of his hand. Then paint a matching narrow linen bandage round his bare LEFT wrist and hand (about x 0.09 to 0.12, y 0.47 to 0.52). (b) Shrink Nagoji's gold ear bead (about x 0.425, y 0.195) to a tiny flat stud flush on the lobe, with nothing below it. (c) Paint out the small gold stud on Ramayyan's earlobe (about x 0.64, y 0.518) in skin tone."
+          },
+          {
+            "id": "page-12-panel-02",
+            "pick": "v03",
+            "backup": "v02",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.277,
+                "y": 0.176
+              },
+              {
+                "copy_index": 1,
+                "x": 0.547,
+                "y": 0.293
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.277,
+                "y": 0.176
+              },
+              {
+                "copy_index": 1,
+                "x": 0.547,
+                "y": 0.293
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.244,
+                "y": 0.142,
+                "r": 0.12
+              },
+              {
+                "x": 0.527,
+                "y": 0.244,
+                "r": 0.105
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.244,
+                "y": 0.142,
+                "r": 0.12
+              },
+              {
+                "x": 0.527,
+                "y": 0.244,
+                "r": 0.105
+              }
+            ],
+            "issues": "v03 is essentially clean and keeps the room from 12.1: same timber door on the left, barred window onto green hills and drilling Nair spearmen, mats on the stone platform, brass lamps. Nagoji matches the commander sheet: rust-red turban, red sash, curled moustache, clean-shaven chin, tiny flush gold stud, boots, talwar. Varma is bare-headed with the side knot above his LEFT ear, plus namam, pearl drops, gold necklaces and the cream-and-gold mundu. He is half-risen with his hand closed on the spear. Minor points for the author: (1) Varma's moustache is a little thicker and more curled than the thin waxed points on his sheet, though it is the same as in v02 and close to 12.1. (2) Nagoji's left forearm and hand are hidden behind Varma's arm, and Varma's lowered right hand sits right beside Nagoji's scabbard tip, so it can read as almost touching the sword. (3) A brass lamp is lit in daylight, which is allowed. There is no painted text, balloon, blood or anachronism. Lettering space is clear on the plain granite wall: above and to the right of Nagoji's turban (x 0.32-0.50, y 0.02-0.18) for NAGOJI, and between Varma's head and the window (x 0.58-0.78, y 0.02-0.24) for VARMA. Backup v02 is the same composition, but it paints the brand patch on Nagoji's RIGHT forearm (visible at lower left), which is the wrong arm, and the script does not call for it here.",
+            "correction": ""
+          },
+          {
+            "id": "page-13-panel-04",
+            "pick": "v03",
+            "backup": "v02",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.19,
+                "y": 0.012
+              },
+              {
+                "copy_index": 1,
+                "x": 0.464,
+                "y": 0.13
+              },
+              {
+                "copy_index": 2,
+                "x": 0.783,
+                "y": 0.19
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.19,
+                "y": 0.012
+              },
+              {
+                "copy_index": 1,
+                "x": 0.464,
+                "y": 0.13
+              },
+              {
+                "copy_index": 2,
+                "x": 0.783,
+                "y": 0.19
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.449,
+                "y": 0.107,
+                "r": 0.085
+              },
+              {
+                "x": 0.797,
+                "y": 0.166,
+                "r": 0.093
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.449,
+                "y": 0.107,
+                "r": 0.085
+              },
+              {
+                "x": 0.797,
+                "y": 0.166,
+                "r": 0.093
+              }
+            ],
+            "issues": "v03 is the newest version and is nearly clean. Both men match their sheets. De Lannoy has pale hair tied with a black ribbon, the white tunic-coat over an ankle-length white mundu, sandals, and the bandage on his LEFT hand in both the inset and the main image. Nagoji has a thick curled moustache, a clean chin, a small gold stud on the lobe, the rust-red turban, the red waist sash with no shoulder cloth, sleeves pushed up and the talwar on his left hip. The upper-left inset is a faceless crop of the tuck: Nagoji's hands guide the cloth, a single brand shows on his forearm, and the cloth end hangs from De Lannoy's bandaged hand. The folded blue coat lies on the stone bench, and the courtyard matches 13.3. Remaining faults: (1) In the main image the pale brand patch and the white scar are drawn on Nagoji's outstretched RIGHT forearm, the arm on the viewer's left, palm up. The bible puts them on the inner LEFT forearm only, and this main image does not need them at all. They are small but visible at print size. (2) His boots from 13.3 are missing beside the coat on the bench, a minor continuity slip. (3) There is little room for lettering. The sky band is narrow, so both main speeches (\"Do I look ridiculous?\" and Nagoji's medium reply) have to share the sky and the plain grey wall between the two heads (about x 0.50 to 0.76, y 0.00 to 0.32). The oath goes just below the inset over the roof tiles (about x 0.01 to 0.15, y 0.29 to 0.37). It is workable without covering faces or hands. (4) The tuck itself is hidden under the tunic-coat in the main image; only De Lannoy's hand at the waist suggests it. Backup v02 has the same composition but the same right-forearm brand, two brands on Nagoji's two inset forearms, and a weaker grip on the sword hilt.",
+            "correction": "A small local retouch fixes the worst fault. In the main image, paint out the pale rosette brand and the thin white scar on Nagoji's outstretched forearm (the palm-up arm reaching toward De Lannoy). They sit at roughly x 1025 to 1095 px, y 395 to 470 px of the 1536 x 1024 frame (fractions x 0.67 to 0.71, y 0.39 to 0.46). Fill that area with the surrounding forearm skin tone and shading. Leave the single brand in the upper-left inset unchanged."
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 15,
+        "result": {
+          "chapter": 15,
+          "panels": [
+            {
+              "id": "page-03-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.272,
+                  "y": 0.185,
+                  "r": 0.039,
+                  "who": "Nagoji, profile facing right with spyglass, upper left"
+                }
+              ]
+            },
+            {
+              "id": "page-05-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.659,
+                  "y": 0.246,
+                  "r": 0.039,
+                  "who": "blond officer in blue coat, profile looking up, right of centre"
+                },
+                {
+                  "x": 0.378,
+                  "y": 0.533,
+                  "r": 0.034,
+                  "who": "bearded prisoner, head bowed, centre-left foreground"
+                },
+                {
+                  "x": 0.572,
+                  "y": 0.548,
+                  "r": 0.032,
+                  "who": "bearded prisoner, head bowed, centre"
+                },
+                {
+                  "x": 0.809,
+                  "y": 0.571,
+                  "r": 0.021,
+                  "who": "bearded prisoner, head bowed, right"
+                },
+                {
+                  "x": 0.3,
+                  "y": 0.591,
+                  "r": 0.02,
+                  "who": "bearded prisoner in profile, head bowed, left-centre"
+                },
+                {
+                  "x": 0.253,
+                  "y": 0.604,
+                  "r": 0.015,
+                  "who": "small prisoner, head bowed, left midground"
+                },
+                {
+                  "x": 0.882,
+                  "y": 0.597,
+                  "r": 0.013,
+                  "who": "prisoner half hidden behind shoulder, far right midground"
+                }
+              ]
+            },
+            {
+              "id": "page-06-panel-03",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.2539,
+                  "y": 0.2813,
+                  "r": 0.047,
+                  "who": "grey-bearded merchant in white turban and blue jacket, three-quarter profile, left"
+                },
+                {
+                  "x": 0.6523,
+                  "y": 0.1924,
+                  "r": 0.04,
+                  "who": "Nagoji, red turban, three-quarter view, right"
+                },
+                {
+                  "x": 0.4505,
+                  "y": 0.2852,
+                  "r": 0.013,
+                  "who": "bearded porter in white turban, profile, background centre"
+                },
+                {
+                  "x": 0.5352,
+                  "y": 0.2915,
+                  "r": 0.011,
+                  "who": "bearded porter in red turban, profile, background centre-right"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.653,
+                  "y": 0.423,
+                  "r": 0.04,
+                  "who": "seated Indian noble with tilak and moustache, right of centre, looking up"
+                }
+              ]
+            },
+            {
+              "id": "page-08-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.2005,
+                  "y": 0.105,
+                  "r": 0.037,
+                  "who": "De Lannoy, blond, profile facing right, upper left"
+                },
+                {
+                  "x": 0.789,
+                  "y": 0.344,
+                  "r": 0.04,
+                  "who": "seated Indian noble with tilak and moustache, profile facing left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-09-panel-03",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.0501,
+                  "y": 0.18,
+                  "r": 0.026,
+                  "who": "moustached spear guard in doorway, upper left"
+                },
+                {
+                  "x": 0.526,
+                  "y": 0.332,
+                  "r": 0.039,
+                  "who": "seated bare-chested noble with tilak, three-quarter, centre"
+                },
+                {
+                  "x": 0.831,
+                  "y": 0.4375,
+                  "r": 0.041,
+                  "who": "grey-haired older man in maroon robe with cross, right"
+                }
+              ]
+            },
+            {
+              "id": "page-10-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.39,
+                  "y": 0.185,
+                  "r": 0.042,
+                  "who": "De Lannoy, profile facing right, upper left at window"
+                }
+              ]
+            },
+            {
+              "id": "page-10-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.506,
+                  "y": 0.138,
+                  "r": 0.035,
+                  "who": "De Lannoy, frontal, standing centre"
+                },
+                {
+                  "x": 0.706,
+                  "y": 0.402,
+                  "r": 0.026,
+                  "who": "seated moustached Nair with caste mark, centre right"
+                }
+              ]
+            },
+            {
+              "id": "page-11-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.2182,
+                  "y": 0.1443,
+                  "r": 0.032,
+                  "who": "blond European in blue coat, three-quarter, looking down, left"
+                },
+                {
+                  "x": 0.5282,
+                  "y": 0.539,
+                  "r": 0.034,
+                  "who": "balding scribe writing, head bowed, centre"
+                },
+                {
+                  "x": 0.8005,
+                  "y": 0.3236,
+                  "r": 0.036,
+                  "who": "seated bare-chested man with topknot and moustache, profile facing left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-11-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.3984,
+                  "y": 0.1807,
+                  "r": 0.029,
+                  "who": "red-turbaned man with moustache, three-quarter, centre-left"
+                },
+                {
+                  "x": 0.6087,
+                  "y": 0.502,
+                  "r": 0.033,
+                  "who": "balding scribe looking up-left, three-quarter, centre-right"
+                },
+                {
+                  "x": 0.8444,
+                  "y": 0.3574,
+                  "r": 0.033,
+                  "who": "seated bare-chested man with topknot and moustache, profile facing left, right"
+                }
+              ]
+            },
+            {
+              "id": "page-12-panel-02",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.272,
+                  "y": 0.168,
+                  "r": 0.045,
+                  "who": "turbaned man with moustache, three-quarter, left"
+                },
+                {
+                  "x": 0.54,
+                  "y": 0.278,
+                  "r": 0.052,
+                  "who": "bare-chested man with namam and moustache, three-quarter, centre"
+                }
+              ]
+            },
+            {
+              "id": "page-13-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.4622,
+                  "y": 0.12,
+                  "r": 0.036,
+                  "who": "blond man in white coat, three-quarter right, centre"
+                },
+                {
+                  "x": 0.788,
+                  "y": 0.182,
+                  "r": 0.034,
+                  "who": "red-turbaned moustached man, three-quarter left, right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 15,
+        "result": {
+          "chapter": 15,
+          "panels": [
+            {
+              "id": "3.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.28,
+                  "x1": 0.44,
+                  "y0": 0.13,
+                  "y1": 0.21,
+                  "what": "brass spyglass held to Nagoji's eye, gripping hand"
+                },
+                {
+                  "x0": 0.39,
+                  "x1": 0.52,
+                  "y0": 0.34,
+                  "y1": 0.7,
+                  "what": "Kayal's head and bridle (bay mare he rides)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "5.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0,
+                  "y0": 0.02,
+                  "x1": 0.66,
+                  "y1": 0.35,
+                  "what": "granite walls and bastions of Udayagiri Fort on the hill, the walls De Lannoy is looking at"
+                },
+                {
+                  "x0": 0.33,
+                  "y0": 0.43,
+                  "x1": 0.62,
+                  "y1": 0.57,
+                  "what": "bowed heads of the prisoners beside De Lannoy, the contrast with his upright head"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "6.3",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.4,
+                  "x1": 0.58,
+                  "y0": 0.25,
+                  "y1": 0.5,
+                  "what": "crew hauling a sack off the second boat (the unloading action)"
+                },
+                {
+                  "x0": 0.42,
+                  "x1": 0.63,
+                  "y0": 0.6,
+                  "y1": 0.73,
+                  "what": "open rice sack with Nagoji's hand resting in it (the sacks he looks at)"
+                },
+                {
+                  "x0": 0.1,
+                  "x1": 0.36,
+                  "y0": 0.72,
+                  "y1": 0.9,
+                  "what": "bundles of dried fish"
+                },
+                {
+                  "x0": 0.38,
+                  "x1": 0.57,
+                  "y0": 0.8,
+                  "y1": 0.97,
+                  "what": "brass jars of coconut oil"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "8.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "what": "De Lannoy's pale hair and blue-coat shoulder in near foreground (the over-the-shoulder framing)",
+                  "x0": 0.14,
+                  "y0": 0,
+                  "x1": 0.47,
+                  "y1": 0.42
+                },
+                {
+                  "what": "Varma on the low platform, forearm resting on his raised knee",
+                  "x0": 0.51,
+                  "y0": 0.47,
+                  "x1": 0.68,
+                  "y1": 0.74
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "8.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "what": "De Lannoy standing in stained blue coat, upper body (the answering figure)",
+                  "x0": 0.06,
+                  "y0": 0.08,
+                  "x1": 0.27,
+                  "y1": 0.45
+                },
+                {
+                  "what": "Varma's hand lifted a little",
+                  "x0": 0.59,
+                  "y0": 0.42,
+                  "x1": 0.66,
+                  "y1": 0.54
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "9.3",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.8,
+                  "y0": 0.46,
+                  "x1": 0.88,
+                  "y1": 0.64,
+                  "what": "Gold chains and small gold cross on Tharakan's maroon chest, lit from the window behind him"
+                },
+                {
+                  "x0": 0.17,
+                  "y0": 0.02,
+                  "x1": 0.34,
+                  "y1": 0.36,
+                  "what": "Back of De Lannoy's head and right shoulder in blue coat, the over-the-shoulder foreground figure"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "10.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.16,
+                  "y0": 0.06,
+                  "x1": 0.56,
+                  "y1": 0.7,
+                  "what": "De Lannoy half turned at the window, hand resting on the sill"
+                },
+                {
+                  "x0": 0.4,
+                  "y0": 0.2,
+                  "x1": 0.75,
+                  "y1": 0.4,
+                  "what": "green hills of Travancore beyond the window"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "10.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0,
+                  "y0": 0.7,
+                  "x1": 0.3,
+                  "y1": 0.87,
+                  "what": "Nagoji's red sash and the doorframe edge in the near foreground"
+                },
+                {
+                  "x0": 0.37,
+                  "y0": 0.1,
+                  "x1": 0.61,
+                  "y1": 0.72,
+                  "what": "De Lannoy turned from the window, standing full on toward Nagoji"
+                },
+                {
+                  "x0": 0.59,
+                  "y0": 0.4,
+                  "x1": 0.82,
+                  "y1": 0.7,
+                  "what": "the King small and seated behind him"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "11.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.47,
+                  "y0": 0.65,
+                  "x1": 0.59,
+                  "y1": 0.79,
+                  "what": "Ramayyan's stylus moving on the palm-leaf bundle"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "11.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0,
+                  "y0": 0.13,
+                  "x1": 0.34,
+                  "y1": 0.62,
+                  "what": "De Lannoy's back in the doorway flanked by two bare-chested Nair guards with spears escorting him out"
+                },
+                {
+                  "x0": 0.57,
+                  "y0": 0.65,
+                  "x1": 0.69,
+                  "y1": 0.77,
+                  "what": "Ramayyan's palm leaf and stylus as he looks up from it"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "12.2",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.74,
+                  "y0": 0.44,
+                  "x1": 0.83,
+                  "y1": 0.56,
+                  "what": "Varma's hand closing on the spear shaft as he rises (the reach for the spear)"
+                },
+                {
+                  "x0": 0.12,
+                  "y0": 0.42,
+                  "x1": 0.27,
+                  "y1": 0.53,
+                  "what": "Nagoji's red sash at Varma's shoulder (identifies him in the commander look)"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "13.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.01,
+                  "y0": 0.01,
+                  "x1": 0.352,
+                  "y1": 0.278,
+                  "what": "drawn inset (read first): Nagoji's hands and branded forearm guiding the mundu tuck, end of cloth slipping from De Lannoy's bandaged hand"
+                },
+                {
+                  "x0": 0.33,
+                  "y0": 0.4,
+                  "x1": 0.56,
+                  "y1": 0.93,
+                  "what": "De Lannoy's waist tuck and ankle-length white mundu down to sandaled feet"
+                },
+                {
+                  "x0": 0.075,
+                  "y0": 0.625,
+                  "x1": 0.255,
+                  "y1": 0.705,
+                  "what": "folded blue coat on the stone bench behind them"
+                },
+                {
+                  "x0": 0.62,
+                  "y0": 0.3,
+                  "x1": 0.91,
+                  "y1": 0.62,
+                  "what": "Nagoji in red sash, standing back, open hand gesturing toward De Lannoy"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch15 p3",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a2ee9388f6565cd96",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439379,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 3 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-03.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514489028,
+      "tokens": 76769,
+      "toolCalls": 13,
+      "durationMs": 49648,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-03-panel-05\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.225,\"y\":0.167,\"r\":0.105}],\"backup_faces\":[],\"issues\":\"v03 is clean. Nagoji matches the commander sheet: rust-red turban, cream tunic with full-length sleeves (so no brand shows, which is correct for this panel), broad red sash, cream trousers, boots, brass-hilted sword, thick curled moust…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch15 p5",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a58193e565415143e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439379,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 5 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-05.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514544243,
+      "tokens": 86792,
+      "toolCalls": 24,
+      "durationMs": 104104,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-05-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.697,\"y\":0.235,\"r\":0.1},{\"x\":0.379,\"y\":0.5,\"r\":0.07},{\"x\":0.571,\"y\":0.52,\"r\":0.065},{\"x\":0.814,\"y\":0.54,\"r\":0.06},{\"x\":0.301,\"y\":0.571,\"r\":0.045},{\"x\":0.258,\"y\":0.596,\"r\":0.035}],\"backup_faces\":[],\"issues\":\"v03 is the newest version and it is acceptable. De Lannoy matches his sheet: pale c…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "select ch15 p6",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a078e090fcbea37f2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439379,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 6 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-06.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514575391,
+      "tokens": 93201,
+      "toolCalls": 28,
+      "durationMs": 135252,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-06-panel-03\",\"pick\":\"v03\",\"backup\":\"v02\",\"tails\":[{\"copy_index\":0,\"x\":0.265,\"y\":0.28},{\"copy_index\":1,\"x\":0.265,\"y\":0.28},{\"copy_index\":2,\"x\":0.658,\"y\":0.212}],\"backup_tails\":[{\"copy_index\":0,\"x\":0.265,\"y\":0.28},{\"copy_index\":1,\"x\":0.265,\"y\":0.28},{\"copy_index\":2,\"x\":0.658,\"y\":0.212}],\"faces\":[{\"x\":0.215,\"y\":0.239,\"r\":0.1},{\"x\":0.677,\"y\":0.146,\"r\":0.115}],\"backup_faces\":[…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "select ch15 p8",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ab2b9bfa20ea414d8",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439379,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 8 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-08.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514545754,
+      "tokens": 86306,
+      "toolCalls": 19,
+      "durationMs": 105615,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-08-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.65,\"y\":0.441},{\"copy_index\":1,\"x\":0.65,\"y\":0.441}],\"backup_tails\":[],\"faces\":[{\"x\":0.658,\"y\":0.391,\"r\":0.09},{\"x\":0.3125,\"y\":0.098,\"r\":0.12}],\"backup_faces\":[],\"issues\":\"v03 is nearly clean. The framing is right: we look past De Lannoy's back (pale curled hair with a black ribbon, torn and soot-stained…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "select ch15 p9",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ae198069acf29990b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439379,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 9 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-09.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514551182,
+      "tokens": 88838,
+      "toolCalls": 25,
+      "durationMs": 111043,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-09-panel-03\",\"pick\":\"v03\",\"backup\":\"v02\",\"tails\":[{\"copy_index\":0,\"x\":0.521,\"y\":0.347},{\"copy_index\":1,\"x\":0.521,\"y\":0.347}],\"backup_tails\":[{\"copy_index\":0,\"x\":0.521,\"y\":0.342},{\"copy_index\":1,\"x\":0.521,\"y\":0.342}],\"faces\":[{\"x\":0.528,\"y\":0.312,\"r\":0.085},{\"x\":0.85,\"y\":0.415,\"r\":0.083},{\"x\":0.044,\"y\":0.176,\"r\":0.06},{\"x\":0.225,\"y\":0.117,\"r\":0.125}],\"backup_faces\":[{\"x\":0…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "select ch15 p10",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ae2b7dcfe686e59f4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439380,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 10 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-10.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514590548,
+      "tokens": 91284,
+      "toolCalls": 21,
+      "durationMs": 150409,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-10-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[{\"copy_index\":0,\"x\":0.39,\"y\":0.197},{\"copy_index\":1,\"x\":0,\"y\":0.7}],\"backup_tails\":[],\"faces\":[{\"x\":0.345,\"y\":0.161,\"r\":0.12}],\"backup_faces\":[],\"issues\":\"Clean on the hard criteria. De Lannoy matches his sheet and the bible row: pale curled hair tied with a black ribbon, a torn, soot-stained blue coat, dark breeches and bo…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "select ch15 p11",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a91eef903e12ecb3e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439380,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 11 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-11.txt: it lists the character sheets for this page and the 2 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514596894,
+      "tokens": 106601,
+      "toolCalls": 28,
+      "durationMs": 156755,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-11-panel-04\",\"pick\":\"v03\",\"backup\":\"v02\",\"tails\":[{\"copy_index\":0,\"x\":0.211,\"y\":0.169},{\"copy_index\":1,\"x\":0.789,\"y\":0.31}],\"backup_tails\":[{\"copy_index\":0,\"x\":0.214,\"y\":0.17},{\"copy_index\":1,\"x\":0.798,\"y\":0.335}],\"faces\":[{\"x\":0.192,\"y\":0.118,\"r\":0.095},{\"x\":0.526,\"y\":0.502,\"r\":0.085},{\"x\":0.826,\"y\":0.307,\"r\":0.09}],\"backup_faces\":[{\"x\":0.195,\"y\":0.118,\"r\":0.095},{\"x\":0.…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "select ch15 p12",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "aafbdc2861271d1a5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439380,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 12 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-12.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514510903,
+      "tokens": 81657,
+      "toolCalls": 15,
+      "durationMs": 70764,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-12-panel-02\",\"pick\":\"v03\",\"backup\":\"v02\",\"tails\":[{\"copy_index\":0,\"x\":0.277,\"y\":0.176},{\"copy_index\":1,\"x\":0.547,\"y\":0.293}],\"backup_tails\":[{\"copy_index\":0,\"x\":0.277,\"y\":0.176},{\"copy_index\":1,\"x\":0.547,\"y\":0.293}],\"faces\":[{\"x\":0.244,\"y\":0.142,\"r\":0.12},{\"x\":0.527,\"y\":0.244,\"r\":0.105}],\"backup_faces\":[{\"x\":0.244,\"y\":0.142,\"r\":0.12},{\"x\":0.527,\"y\":0.244,\"r\":0.105}],\"issu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "select ch15 p13",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "af4ab4270522c7ddf",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514439380,
+      "queuedAt": 1791514439364,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 13 of Chapter 15 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch15/page-13.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514567169,
+      "tokens": 93112,
+      "toolCalls": 20,
+      "durationMs": 127030,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-13-panel-04\",\"pick\":\"v03\",\"backup\":\"v02\",\"tails\":[{\"copy_index\":0,\"x\":0.19,\"y\":0.012},{\"copy_index\":1,\"x\":0.464,\"y\":0.13},{\"copy_index\":2,\"x\":0.783,\"y\":0.19}],\"backup_tails\":[{\"copy_index\":0,\"x\":0.19,\"y\":0.012},{\"copy_index\":1,\"x\":0.464,\"y\":0.13},{\"copy_index\":2,\"x\":0.783,\"y\":0.19}],\"faces\":[{\"x\":0.449,\"y\":0.107,\"r\":0.085},{\"x\":0.797,\"y\":0.166,\"r\":0.093}],\"backup_faces\":[…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "keep ch15 p3",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ab01f2b4a8453abab",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596916,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 3 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514614997,
+      "tokens": 60257,
+      "toolCalls": 3,
+      "durationMs": 18072,
+      "resultPreview": "{\"panels\":[{\"id\":\"3.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0.28,\"x1\":0.44,\"y0\":0.13,\"y1\":0.21,\"what\":\"brass spyglass held to Nagoji's eye, gripping hand\"},{\"x0\":0.39,\"x1\":0.52,\"y0\":0.34,\"y1\":0.7,\"what\":\"Kayal's head and bridle (bay mare he rides)\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "keep ch15 p5",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ad322884ef3bfd3c4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596917,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 5 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514626127,
+      "tokens": 60444,
+      "toolCalls": 4,
+      "durationMs": 29202,
+      "resultPreview": "{\"panels\":[{\"id\":\"5.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0,\"y0\":0.02,\"x1\":0.66,\"y1\":0.35,\"what\":\"granite walls and bastions of Udayagiri Fort on the hill, the walls De Lannoy is looking at\"},{\"x0\":0.33,\"y0\":0.43,\"x1\":0.62,\"y1\":0.57,\"what\":\"bowed heads of the prisoners beside De Lannoy, the contrast with his upright head\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "keep ch15 p6",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a97bd364196a9121a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596917,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 6 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514628372,
+      "tokens": 62955,
+      "toolCalls": 7,
+      "durationMs": 31447,
+      "resultPreview": "{\"panels\":[{\"id\":\"6.3\",\"version\":\"v03\",\"keep\":[{\"x0\":0.4,\"x1\":0.58,\"y0\":0.25,\"y1\":0.5,\"what\":\"crew hauling a sack off the second boat (the unloading action)\"},{\"x0\":0.42,\"x1\":0.63,\"y0\":0.6,\"y1\":0.73,\"what\":\"open rice sack with Nagoji's hand resting in it (the sacks he looks at)\"},{\"x0\":0.1,\"x1\":0.36,\"y0\":0.72,\"y1\":0.9,\"what\":\"bundles of dried fish\"},{\"x0\":0.38,\"x1\":0.57,\"y0\":0.8,\"y1\":0.97,\"what\":\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 13,
+      "label": "keep ch15 p8",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a5269361b870f1087",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596917,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 8 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514625581,
+      "tokens": 65545,
+      "toolCalls": 6,
+      "durationMs": 28656,
+      "resultPreview": "{\"panels\":[{\"id\":\"8.4\",\"version\":\"v03\",\"keep\":[{\"what\":\"De Lannoy's pale hair and blue-coat shoulder in near foreground (the over-the-shoulder framing)\",\"x0\":0.14,\"y0\":0,\"x1\":0.47,\"y1\":0.42},{\"what\":\"Varma on the low platform, forearm resting on his raised knee\",\"x0\":0.51,\"y0\":0.47,\"x1\":0.68,\"y1\":0.74}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"8.5\",\"version\":\"v03\",\"keep\":[{\"what\":\"De Lannoy standi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 14,
+      "label": "keep ch15 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a50abbf05bad06056",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596917,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 9 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514638209,
+      "tokens": 64750,
+      "toolCalls": 9,
+      "durationMs": 41284,
+      "resultPreview": "{\"panels\":[{\"id\":\"9.3\",\"version\":\"v03\",\"keep\":[{\"x0\":0.8,\"y0\":0.46,\"x1\":0.88,\"y1\":0.64,\"what\":\"Gold chains and small gold cross on Tharakan's maroon chest, lit from the window behind him\"},{\"x0\":0.17,\"y0\":0.02,\"x1\":0.34,\"y1\":0.36,\"what\":\"Back of De Lannoy's head and right shoulder in blue coat, the over-the-shoulder foreground figure\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 15,
+      "label": "keep ch15 p10",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a71655f1fbb6d563a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596917,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 10 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514635593,
+      "tokens": 65860,
+      "toolCalls": 6,
+      "durationMs": 38668,
+      "resultPreview": "{\"panels\":[{\"id\":\"10.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.16,\"y0\":0.06,\"x1\":0.56,\"y1\":0.7,\"what\":\"De Lannoy half turned at the window, hand resting on the sill\"},{\"x0\":0.4,\"y0\":0.2,\"x1\":0.75,\"y1\":0.4,\"what\":\"green hills of Travancore beyond the window\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"10.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0,\"y0\":0.7,\"x1\":0.3,\"y1\":0.87,\"what\":\"Nagoji's red sash and the doorfr…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 16,
+      "label": "keep ch15 p11",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ae0a66501da95c71e",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596917,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 11 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514619369,
+      "tokens": 63115,
+      "toolCalls": 4,
+      "durationMs": 22442,
+      "resultPreview": "{\"panels\":[{\"id\":\"11.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.47,\"y0\":0.65,\"x1\":0.59,\"y1\":0.79,\"what\":\"Ramayyan's stylus moving on the palm-leaf bundle\"}],\"beat_present\":true,\"missing\":\"\"},{\"id\":\"11.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0,\"y0\":0.13,\"x1\":0.34,\"y1\":0.62,\"what\":\"De Lannoy's back in the doorway flanked by two bare-chested Nair guards with spears escorting him out\"},{\"x0\":0.57,\"y0\":0.65,\"x1\":0.69…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 17,
+      "label": "keep ch15 p12",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ad80aa9d75343c9ae",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596917,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 12 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514634384,
+      "tokens": 62782,
+      "toolCalls": 6,
+      "durationMs": 37458,
+      "resultPreview": "{\"panels\":[{\"id\":\"12.2\",\"version\":\"v03\",\"keep\":[{\"x0\":0.74,\"y0\":0.44,\"x1\":0.83,\"y1\":0.56,\"what\":\"Varma's hand closing on the spear shaft as he rises (the reach for the spear)\"},{\"x0\":0.12,\"y0\":0.42,\"x1\":0.27,\"y1\":0.53,\"what\":\"Nagoji's red sash at Varma's shoulder (identifies him in the commander look)\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 18,
+      "label": "keep ch15 p13",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a589bd7dc3d5853da",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596925,
+      "queuedAt": 1791514596917,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 13 of chapter 15 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-15-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514630576,
+      "tokens": 62835,
+      "toolCalls": 6,
+      "durationMs": 33649,
+      "resultPreview": "{\"panels\":[{\"id\":\"13.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.01,\"y0\":0.01,\"x1\":0.352,\"y1\":0.278,\"what\":\"drawn inset (read first): Nagoji's hands and branded forearm guiding the mundu tuck, end of cloth slipping from De Lannoy's bandaged hand\"},{\"x0\":0.33,\"y0\":0.4,\"x1\":0.56,\"y1\":0.93,\"what\":\"De Lannoy's waist tuck and ankle-length white mundu down to sandaled feet\"},{\"x0\":0.075,\"y0\":0.625,\"x1\":0.255,\"y1…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 19,
+      "label": "mark ch15 p3",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ac23061c49d48dd4a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596985,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514656584,
+      "tokens": 69441,
+      "toolCalls": 17,
+      "durationMs": 59599,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.272,\"y\":0.185,\"r\":0.039,\"who\":\"Nagoji, profile facing right with spyglass, upper left\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 20,
+      "label": "mark ch15 p5",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a55a06401b05f9ed8",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596985,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514702768,
+      "tokens": 80491,
+      "toolCalls": 27,
+      "durationMs": 105782,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.661,\"y\":0.245,\"r\":0.042,\"who\":\"blond officer in blue coat, profile looking up, right of centre\"},{\"x\":0.378,\"y\":0.533,\"r\":0.034,\"who\":\"bearded prisoner, head bowed, centre-left foreground\"},{\"x\":0.572,\"y\":0.548,\"r\":0.032,\"who\":\"bearded prisoner, head bowed, centre\"},{\"x\":0.809,\"y\":0.571,\"r\":0.021,\"who\":\"bearded prisoner, head bowe…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 21,
+      "label": "mark ch15 p6",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a438bc02cb9f57129",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596985,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514689526,
+      "tokens": 77948,
+      "toolCalls": 25,
+      "durationMs": 92540,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.2526,\"y\":0.2783,\"r\":0.047,\"who\":\"grey-bearded merchant in white turban and blue jacket, three-quarter profile, left\"},{\"x\":0.6523,\"y\":0.1924,\"r\":0.041,\"who\":\"Nagoji, red turban, three-quarter view, right\"},{\"x\":0.4499,\"y\":0.2861,\"r\":0.017,\"who\":\"bearded porter in white turban, profile, background centre\"},{\"x\":0.5365,\"y\":0.292,\"r\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 22,
+      "label": "mark ch15 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aa24612357ef1b6b1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596985,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514656087,
+      "tokens": 71299,
+      "toolCalls": 15,
+      "durationMs": 59101,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.653,\"y\":0.423,\"r\":0.04,\"who\":\"seated Indian noble with tilak and moustache, right of centre, looking up\"}]},{\"id\":\"page-08-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.2005,\"y\":0.105,\"r\":0.037,\"who\":\"De Lannoy, blond, profile facing right, upper left\"},{\"x\":0.789,\"y\":0.344,\"r\":0.04,\"who\":\"seated Indian noble with tilak and moustache,…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 23,
+      "label": "mark ch15 p9",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a32ecd9e3cf2b61d0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596985,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514652572,
+      "tokens": 71267,
+      "toolCalls": 20,
+      "durationMs": 55586,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.0501,\"y\":0.18,\"r\":0.026,\"who\":\"moustached spear guard in doorway, upper left\"},{\"x\":0.526,\"y\":0.332,\"r\":0.039,\"who\":\"seated bare-chested noble with tilak, three-quarter, centre\"},{\"x\":0.828,\"y\":0.4375,\"r\":0.041,\"who\":\"grey-haired older man in maroon robe with cross, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 24,
+      "label": "mark ch15 p10",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a89b8fab317b1a800",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596985,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514674653,
+      "tokens": 76075,
+      "toolCalls": 22,
+      "durationMs": 77667,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.388,\"y\":0.185,\"r\":0.046,\"who\":\"De Lannoy, profile facing right, upper left at window\"}]},{\"id\":\"page-10-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.505,\"y\":0.137,\"r\":0.039,\"who\":\"De Lannoy, frontal, standing centre\"},{\"x\":0.705,\"y\":0.401,\"r\":0.029,\"who\":\"seated moustached Nair with caste mark, centre right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 25,
+      "label": "mark ch15 p11",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a338cd902fe9cdd27",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514596985,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514675134,
+      "tokens": 76307,
+      "toolCalls": 21,
+      "durationMs": 78148,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-11-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.2182,\"y\":0.1443,\"r\":0.032,\"who\":\"blond European in blue coat, three-quarter, looking down, left\"},{\"x\":0.5282,\"y\":0.539,\"r\":0.034,\"who\":\"balding scribe writing, head bowed, centre\"},{\"x\":0.8005,\"y\":0.3236,\"r\":0.035,\"who\":\"seated bare-chested man with topknot and moustache, profile facing left, right\"}]},{\"id\":\"page-11-panel-05\",\"v…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 26,
+      "label": "mark ch15 p12",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a79130825be67b4b7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514614999,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514635953,
+      "tokens": 62165,
+      "toolCalls": 4,
+      "durationMs": 20954,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-12-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.272,\"y\":0.168,\"r\":0.045,\"who\":\"turbaned man with moustache, three-quarter, left\"},{\"x\":0.54,\"y\":0.278,\"r\":0.052,\"who\":\"bare-chested man with namam and moustache, three-quarter, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 27,
+      "label": "mark ch15 p13",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a3b86c4f555edb51a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514619370,
+      "queuedAt": 1791514596973,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514665310,
+      "tokens": 65193,
+      "toolCalls": 13,
+      "durationMs": 45940,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-13-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.4622,\"y\":0.118,\"r\":0.038,\"who\":\"blond man in white coat, three-quarter right, centre\"},{\"x\":0.788,\"y\":0.18,\"r\":0.034,\"who\":\"red-turbaned moustached man, three-quarter left, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 28,
+      "label": "check ch15 p12",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a48955f74d5c809cc",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514635955,
+      "queuedAt": 1791514635954,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514655524,
+      "tokens": 61416,
+      "toolCalls": 6,
+      "durationMs": 19569,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-12-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.272,\"y\":0.168,\"r\":0.045,\"who\":\"turbaned man with moustache, three-quarter, left\"},{\"x\":0.54,\"y\":0.278,\"r\":0.052,\"who\":\"bare-chested man with namam and moustache, three-quarter, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 29,
+      "label": "check ch15 p9",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a0a94dfd1816cdfa1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514652573,
+      "queuedAt": 1791514652572,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514680108,
+      "tokens": 62317,
+      "toolCalls": 8,
+      "durationMs": 27535,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.0501,\"y\":0.18,\"r\":0.026,\"who\":\"moustached spear guard in doorway, upper left\"},{\"x\":0.526,\"y\":0.332,\"r\":0.039,\"who\":\"seated bare-chested noble with tilak, three-quarter, centre\"},{\"x\":0.831,\"y\":0.4375,\"r\":0.041,\"who\":\"grey-haired older man in maroon robe with cross, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 30,
+      "label": "check ch15 p8",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a06ebae3a7609be76",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514656090,
+      "queuedAt": 1791514656088,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514688882,
+      "tokens": 66760,
+      "toolCalls": 11,
+      "durationMs": 32792,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-08-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.653,\"y\":0.423,\"r\":0.04,\"who\":\"seated Indian noble with tilak and moustache, right of centre, looking up\"}]},{\"id\":\"page-08-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.2005,\"y\":0.105,\"r\":0.037,\"who\":\"De Lannoy, blond, profile facing right, upper left\"},{\"x\":0.789,\"y\":0.344,\"r\":0.04,\"who\":\"seated Indian noble with tilak and moustache,…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 31,
+      "label": "check ch15 p3",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a38eda34df5c261c0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514656585,
+      "queuedAt": 1791514656584,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514678205,
+      "tokens": 62477,
+      "toolCalls": 7,
+      "durationMs": 21620,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.272,\"y\":0.185,\"r\":0.039,\"who\":\"Nagoji, profile facing right with spyglass, upper left\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 32,
+      "label": "check ch15 p13",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ad12033b8b00766e9",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514665311,
+      "queuedAt": 1791514665310,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514691389,
+      "tokens": 63258,
+      "toolCalls": 7,
+      "durationMs": 26078,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-13-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.4622,\"y\":0.12,\"r\":0.036,\"who\":\"blond man in white coat, three-quarter right, centre\"},{\"x\":0.788,\"y\":0.182,\"r\":0.034,\"who\":\"red-turbaned moustached man, three-quarter left, right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 33,
+      "label": "check ch15 p10",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a1aa6cd2b1e5d42ec",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514674654,
+      "queuedAt": 1791514674653,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514710500,
+      "tokens": 65813,
+      "toolCalls": 9,
+      "durationMs": 35846,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-10-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.39,\"y\":0.185,\"r\":0.042,\"who\":\"De Lannoy, profile facing right, upper left at window\"}]},{\"id\":\"page-10-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.506,\"y\":0.138,\"r\":0.035,\"who\":\"De Lannoy, frontal, standing centre\"},{\"x\":0.706,\"y\":0.402,\"r\":0.026,\"who\":\"seated moustached Nair with caste mark, centre right\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 34,
+      "label": "check ch15 p11",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "aec2aea20fe6fe3be",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514675136,
+      "queuedAt": 1791514675135,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514724235,
+      "tokens": 67195,
+      "toolCalls": 10,
+      "durationMs": 49099,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-11-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.2182,\"y\":0.1443,\"r\":0.032,\"who\":\"blond European in blue coat, three-quarter, looking down, left\"},{\"x\":0.5282,\"y\":0.539,\"r\":0.034,\"who\":\"balding scribe writing, head bowed, centre\"},{\"x\":0.8005,\"y\":0.3236,\"r\":0.036,\"who\":\"seated bare-chested man with topknot and moustache, profile facing left, right\"}]},{\"id\":\"page-11-panel-05\",\"v…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 35,
+      "label": "check ch15 p6",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "afa3b1f14ab14eb35",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514689528,
+      "queuedAt": 1791514689527,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514749326,
+      "tokens": 71032,
+      "toolCalls": 15,
+      "durationMs": 59798,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-06-panel-03\",\"version\":\"v03\",\"faces\":[{\"x\":0.2539,\"y\":0.2813,\"r\":0.047,\"who\":\"grey-bearded merchant in white turban and blue jacket, three-quarter profile, left\"},{\"x\":0.6523,\"y\":0.1924,\"r\":0.04,\"who\":\"Nagoji, red turban, three-quarter view, right\"},{\"x\":0.4505,\"y\":0.2852,\"r\":0.013,\"who\":\"bearded porter in white turban, profile, background centre\"},{\"x\":0.5352,\"y\":0.2915,\"r\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 36,
+      "label": "check ch15 p5",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a832530f3dd6962ad",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514702770,
+      "queuedAt": 1791514702769,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514763770,
+      "tokens": 70662,
+      "toolCalls": 16,
+      "durationMs": 61000,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-05-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.659,\"y\":0.246,\"r\":0.039,\"who\":\"blond officer in blue coat, profile looking up, right of centre\"},{\"x\":0.378,\"y\":0.533,\"r\":0.034,\"who\":\"bearded prisoner, head bowed, centre-left foreground\"},{\"x\":0.572,\"y\":0.548,\"r\":0.032,\"who\":\"bearded prisoner, head bowed, centre\"},{\"x\":0.809,\"y\":0.571,\"r\":0.021,\"who\":\"bearded prisoner, head bowe…"
+    }
+  ],
+  "totalTokens": 2614219,
+  "totalToolCalls": 497
+}

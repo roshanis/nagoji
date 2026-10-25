@@ -1,0 +1,1507 @@
+{
+ "chapter": 1,
+ "round": "drawn-merged-d3",
+ "sources": [
+  "LEAN-SELECTION-drawn-r1.json",
+  "LEAN-SELECTION-drawn-r2.json"
+ ],
+ "decisions": [
+  {
+   "id": "page-05-panel-01",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Compared v02 (newest) with v01: a pixel diff shows v02 changes only the top-left corner, where the painted white caption box was removed. The room, lighting and table are otherwise identical. v02 matches the script's room reveal: vaulted stone, ropes hanging from an iron ring in the ceiling (the ends are knotted tassels, so there are no nooses), a brazier glowing on the far wall and a neatly laid table with pliers, hammers and tapered wedges. The stool in the foreground sets up 5.3. The panel is empty of people, as the script requires (the task's cast list says nagoji, but script 5.1 shows only the room). There is no text, no blood and no anachronism. The upper-left vault and wall give plenty of low-detail space for the long caption. Minor: the heat shimmer above the brazier is barely visible.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-02",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Compared v02 (newest) with v01: v02 only removes the painted white caption box from the upper-left wall. The rest of the image has nothing beyond minor resampling noise. Tight insert on the table: five pliers, wooden mallets and evenly spaced wooden blocks, all laid out with care, with the brazier behind. Minor deviations: (1) the 'wedges' are drawn as square-cut rectangular bars rather than tapered wedges; (2) the table carries extra items (iron collars, a coiled rope that is not a noose, folded cloth, a box of linen, a bowl, a copper jug and screw clamps) and more tools than the wide view in 5.1 shows, so the two table layouts do not match exactly. The jug suits the 'Wine and old fear' caption. The image has white letterbox bands top and bottom outside its drawn border (v01 has them too), so the layout should crop to the inner border. There is no text, no blood and no anachronism. The upper-left stone wall is a clear area for the short caption.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-03",
+   "pick": "v05",
+   "backup": "v04",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.47,
+     "y": 0.315,
+     "r": 0.11
+    },
+    {
+     "x": 0.582,
+     "y": 0.192,
+     "r": 0.06
+    },
+    {
+     "x": 0.642,
+     "y": 0.396,
+     "r": 0.085
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.47,
+     "y": 0.315,
+     "r": 0.11
+    },
+    {
+     "x": 0.582,
+     "y": 0.192,
+     "r": 0.06
+    },
+    {
+     "x": 0.642,
+     "y": 0.396,
+     "r": 0.085
+    }
+   ],
+   "issues": "Compared v05 (newest) with v04: a pixel diff shows v05 changes only the top-left area. The painted box is gone and the wall torch it covered is restored. All three figures are unchanged. Nagoji matches the sheet and the ch1 row: thick curled moustache, clean-shaven chin, gold ear stud, loose curly hair, torn ochre sleeveless tunic, cream dhoti, bandaged wrists, ankle irons with chain, barefoot. His left forearm is turned away from camera, so no brand shows. Duarte matches: gaunt and grey with swept hair, a black cassock with a plain standing collar and no white tab, a small cross on a chain. He stands back with his hands folded into his sleeves. Jo\u00e3o matches: heavy and bearded, brown leather jerkin over a cream shirt, wide belt, iron key ring. He crouches and works the knot at Nagoji's wrist. Room, torch, ring of ropes, background table, brazier and door all agree with 5.1. Minor: where Jo\u00e3o ties the knot, Nagoji's left hand half-merges with Jo\u00e3o's two hands. It reads acceptably at strip size. The script wants the wrists bound to the stool's legs, but here the ropes run from his wrists down the stool's sides, which is close enough. There is no text, no blood and no noose. The upper-left wall between the torch and the hanging ropes is clear for the caption.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-01",
+   "pick": "v01",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.39,
+     "y": 0.28,
+     "r": 0.27
+    }
+   ],
+   "backup_faces": [],
+   "issues": "There was only one candidate. The contact sheet says '0 candidates', so I read frame v01 directly. Duarte matches his sheet: gaunt, grey hair swept back with curls, black cassock with a standing collar, cross on a thin chain, no white tab. He has his head down, mouth pressed and jaw tight, which fits the 'chewing words' beat. The setting is the torchlit vault. There is no text and no painted shapes. No lettering is needed.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-02",
+   "pick": "v15-r1",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.41,
+     "y": 0.28,
+     "r": 0.29
+    }
+   ],
+   "backup_faces": [],
+   "issues": "There was only one candidate, and the contact sheet says '0 candidates', so I read the frame directly. It shows the same vault, torch and costume as 8.1. His head is lowered further with his eyes closed, which reads as the small, weary nod. Duarte matches his sheet. There is no text and no painted shapes. No lettering is needed.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-03",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.473,
+     "y": 0.52,
+     "r": 0.06
+    },
+    {
+     "x": 0.518,
+     "y": 0.496,
+     "r": 0.05
+    },
+    {
+     "x": 0.6,
+     "y": 0.311,
+     "r": 0.045
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.473,
+     "y": 0.52,
+     "r": 0.06
+    },
+    {
+     "x": 0.518,
+     "y": 0.496,
+     "r": 0.05
+    },
+    {
+     "x": 0.6,
+     "y": 0.311,
+     "r": 0.045
+    }
+   ],
+   "issues": "I compared v02 (newest) with v01. They are identical except that v02 removes the painted caption box at top left, so I picked v02. The high wide view from the vault shows the stool, Joao working on Nagoji's hand, Duarte standing by, the brazier, the iron ring with ropes (whipped ends, no nooses) and the tool table. Nagoji has a moustache, a clean chin, the ochre tunic, cream dhoti, bandaged hand, ankle irons and bare feet; the ear stud is too small to see at this scale. Joao and Duarte match their sheets. The vault wall at top left has room for both captions. Minor: there is a tiny orange speck on Nagoji's dhoti just below his bandaged hand, in both versions. At panel size it reads as reflected ember light. A retouch to neutral cloth tone would remove any chance it reads as a drop of blood in print.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-04",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "I compared v03 (newest) with v02. They are the same art, and v03 removes the painted caption box, so I picked v03. The view up at the wet stone vault shows the iron ring on a chain with rope ends hanging from it (coiled whipping, no loops, no nooses) and a torch. This matches the 'tight and strange' ceiling beat. The vault on the left half has room for the long caption. Layout note: the art sits inside a drawn black border with wide white margins above and below. The art runs from y 138 to y 674 of 809 px, about 0.17 to 0.83 of the height. The compositor should crop to the inner border, or the panel will show white bands.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-05",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.04,
+     "y": 0.0
+    },
+    {
+     "copy_index": 1,
+     "x": 0.001,
+     "y": 0.5
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.04,
+     "y": 0.02
+    },
+    {
+     "copy_index": 1,
+     "x": 0.04,
+     "y": 0.02
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.797,
+     "y": 0.186,
+     "r": 0.09
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.801,
+     "y": 0.181,
+     "r": 0.09
+    }
+   ],
+   "issues": "I compared v02 (newest) with v01. v02 removes the painted balloon and otherwise keeps the composition. Unlike v01 it has no drawn black border. Joao's hand reaches for the brazier and Duarte's ink-stained hand closes on his wrist. Both hands are in frame and their anatomy is sound. Joao has the jerkin, cream shirt, belt and keys; Duarte has the cassock and cross, with his head off the top of the frame. Nagoji sits soft-focus in the background with a moustache, a clean chin (light shadow at most), the ochre tunic, bandaged wrists and ankle irons. There is no blood. Minor: Nagoji's blurred face shows a faint smile, a little stronger than in v01. That is acceptable at this blur and distance. The black cassock at top left has room for both Duarte lines, with tails toward the top-left edge where Duarte's head is off-panel. Tail override (r11 review): the second Duarte line aims at his cassock on the left edge, so its balloon sits on his side, not across Nagoji.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-06",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.452,
+     "y": 0.547
+    },
+    {
+     "copy_index": 1,
+     "x": 1,
+     "y": 0.3
+    },
+    {
+     "copy_index": 2,
+     "x": 0.452,
+     "y": 0.547
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.452,
+     "y": 0.547
+    },
+    {
+     "copy_index": 1,
+     "x": 1,
+     "y": 0.3
+    },
+    {
+     "copy_index": 2,
+     "x": 0.452,
+     "y": 0.547
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.465,
+     "y": 0.315,
+     "r": 0.34
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.465,
+     "y": 0.315,
+     "r": 0.34
+    }
+   ],
+   "issues": "I compared v02 (newest) with v01. They are identical except that v02 removes the three painted balloons, so I picked v02. The wide strip shows Duarte's face turned down and to the side, looking at nothing. It is the same vault as the rest of the page: torch, iron ring with whipped rope ends (no nooses), brazier and door. Duarte matches his sheet. The stone walls on the left and upper right leave room for all three lines. Joao (off) is placed at the right edge, where v01's painted tail pointed, behind the direction Duarte has turned away from.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-01",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.548,
+     "y": 0.19,
+     "r": 0.125
+    },
+    {
+     "x": 0.41,
+     "y": 0.075,
+     "r": 0.13
+    },
+    {
+     "x": 0.68,
+     "y": 0.08,
+     "r": 0.14
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.548,
+     "y": 0.19,
+     "r": 0.125
+    },
+    {
+     "x": 0.41,
+     "y": 0.075,
+     "r": 0.13
+    },
+    {
+     "x": 0.68,
+     "y": 0.08,
+     "r": 0.14
+    }
+   ],
+   "issues": "I compared v02 (newest) with v01. v02 is the same image with the painted top-left box removed. The face, costume and composition are unchanged, and the edit left nothing behind. Nagoji matches the sheet: thick curled moustache, clean chin, gold ear stud, torn ochre tunic, cream dhoti, bandaged wrists, ankle irons and bare feet. His left inner forearm is not shown. Minor points: his expression reads as a scowl rather than 'shows nothing', and the guards' hip holsters look slightly modern, but the tricornes and brown jerkins are period and do not read as redcoats. The CAPTION can sit top-left on the vaulted wall above the lantern, clear of faces.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-02",
+   "pick": "v04",
+   "backup": "v02",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.384,
+     "y": 0.229,
+     "r": 0.085
+    },
+    {
+     "x": 0.21,
+     "y": 0.278,
+     "r": 0.066
+    },
+    {
+     "x": 0.713,
+     "y": 0.137,
+     "r": 0.098
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.4,
+     "y": 0.194,
+     "r": 0.1
+    },
+    {
+     "x": 0.245,
+     "y": 0.12,
+     "r": 0.085
+    },
+    {
+     "x": 0.6,
+     "y": 0.087,
+     "r": 0.09
+    }
+   ],
+   "issues": "I compared v04 (newest), v03 and v02. v04 is v03 with the painted top-left box removed and the wrist chain dropped, so Nagoji now has bandaged, unchained wrists and ankle irons, which matches the chapter 1 bible row. v03 still has a wrist chain the bible does not call for. Duarte matches his sheet: grey swept hair, plain black cassock with a standing collar, small cross, ink-stained left hand, torch. Joao matches his: brown jerkin, cream shirt, key ring, stockings and shoes. Both match panel 4.4. In v02 Duarte has a shoulder cape and Joao wears boots, which does not match 4.4. Small departures in v04: Joao walks beside and slightly behind Nagoji rather than fully behind him, and Nagoji's shins cross a little under the dhoti. Note that v04 is 1536x1024 (3:2), while the page-4 layout rows are wide (about 2.65:1, as v02 is). If the slot is not reflowed, a crop will be tight on heads and feet. The long CAPTION fits on the vault ceiling top-left above Joao's head, or upper-centre between Nagoji and Duarte.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-03",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "I compared v03 (newest) with v02. v03 is v02 with the painted top-right box replaced by corridor pillars and torches. The feet, cuffs, dhoti and floor are unchanged. Anatomy is sound: five toes on the front right foot, and the big toes sit on the correct sides. Both ankle cuffs are joined by a short chain. Small flaws: the chain hangs between the cuffs rather than visibly dragging on the stone, and the edit put two torch sconces one above the other on the far-right pillar. Neither is disqualifying. The setting continues 4.2's torchlit corridor. The CAPTION can sit top-right over the dark pillars.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-04",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.408,
+     "y": 0.137,
+     "r": 0.096
+    },
+    {
+     "x": 0.268,
+     "y": 0.13,
+     "r": 0.096
+    },
+    {
+     "x": 0.585,
+     "y": 0.158,
+     "r": 0.082
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.408,
+     "y": 0.137,
+     "r": 0.096
+    },
+    {
+     "x": 0.268,
+     "y": 0.13,
+     "r": 0.096
+    },
+    {
+     "x": 0.585,
+     "y": 0.158,
+     "r": 0.082
+    }
+   ],
+   "issues": "I compared v02 (newest) with v01. v02 is v01 with the painted top-left box removed. The faces, costumes and composition are unchanged. The red-glowing doorway is ahead, the room is withheld, and Nagoji is in profile with a moustache, a clean chin and a small stud at the ear lobe. His wrists are bandaged and unchained, and his ankle cuffs are joined. Duarte (plain cassock, grey hair) and Joao (jerkin, keys, stockings) match their sheets and panel 4.2. Departure from the script: it asks for Nagoji's face in profile lit by the glow, but this is a wider escort shot, and the red light falls mostly on the floor and doorway rather than strongly on his face. The beat still reads, so I accepted it. The CAPTION fits on the large dark stone wall top-right, beside the doorway.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-01",
+   "pick": "v04",
+   "backup": "v03",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.384,
+     "y": 0.273,
+     "r": 0.14
+    },
+    {
+     "x": 0.04,
+     "y": 0.234,
+     "r": 0.1
+    },
+    {
+     "x": 0.749,
+     "y": 0.371,
+     "r": 0.1
+    },
+    {
+     "x": 0.905,
+     "y": 0.42,
+     "r": 0.06
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.384,
+     "y": 0.273,
+     "r": 0.14
+    },
+    {
+     "x": 0.04,
+     "y": 0.234,
+     "r": 0.1
+    },
+    {
+     "x": 0.749,
+     "y": 0.371,
+     "r": 0.1
+    },
+    {
+     "x": 0.905,
+     "y": 0.42,
+     "r": 0.06
+    }
+   ],
+   "issues": "Compared v04, v03 and v02. v04 is the v03 composition with the painted top-left box erased. Face, costume and setting are unchanged and the erase is clean. Nagoji matches his sheet: eyes closed, thick curled moustache, clean chin with light stubble, gold ear stud, torn ochre tunic, cream dhoti, ankle irons, barefoot. He is chained to a wall ring and the inner left forearm is not shown. The bandages have muted rust-brown stains: aftermath, not gore. His torch-lit vault with a chained line of prisoners matches 9.3. v02 is an older, smaller wide-strip version with a painted box. Caption space: upper wall right of his head (x 0.50-0.85, y 0.02-0.16) or above the left prisoner (x 0.0-0.20, y 0.0-0.12). Layout note: v03/v04 are 3:2 (1536x1024), but the old 9.1 slot was a roughly 3:1 strip (v02 is 2157x729). If the slot stays a strip, crop from about y 0.12 to 0.68 so both face and bandaged hands survive.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-02",
+   "pick": "v15-r1",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Compared v01 and v15-r1. v01 removes the painted full-width caption strip from v15-r1 and runs the four insets full height. Content is otherwise unchanged. The insets show the script beat: tricorne guards in brown garrison dress at the door, the key ring, boots on the stair, the bucket. There is no text and no gore, and a European lantern fits the Portuguese setting. Minor: a fragment of red cloth with a white stripe at the right edge of the key-ring inset (probably a sash). It is too partial to read as a British redcoat and was in the previously accepted v15-r1. Caption space for the long caption: top of inset 4 over the stone wall (x 0.74-0.99, y 0.0-0.35), or top of inset 2 over the brown coat (x 0.27-0.48, y 0.0-0.10). Pick override (r9 review, 2026-10-01): back to the r6-approved v15-r1, whose painted full-width strip the drawn caption covers exactly; with the insets run full height (v01) the four-line caption could only sit across insets 2 and 3.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-03",
+   "pick": "v01",
+   "backup": "v15-r2",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.422,
+     "y": 0.41
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.422,
+     "y": 0.41
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.16,
+     "y": 0.342,
+     "r": 0.12
+    },
+    {
+     "x": 0.237,
+     "y": 0.375,
+     "r": 0.1
+    },
+    {
+     "x": 0.361,
+     "y": 0.368,
+     "r": 0.13
+    },
+    {
+     "x": 0.445,
+     "y": 0.355,
+     "r": 0.12
+    },
+    {
+     "x": 0.634,
+     "y": 0.466,
+     "r": 0.11
+    },
+    {
+     "x": 0.905,
+     "y": 0.519,
+     "r": 0.09
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.16,
+     "y": 0.342,
+     "r": 0.12
+    },
+    {
+     "x": 0.237,
+     "y": 0.375,
+     "r": 0.1
+    },
+    {
+     "x": 0.361,
+     "y": 0.368,
+     "r": 0.13
+    },
+    {
+     "x": 0.445,
+     "y": 0.355,
+     "r": 0.12
+    },
+    {
+     "x": 0.634,
+     "y": 0.466,
+     "r": 0.11
+    },
+    {
+     "x": 0.905,
+     "y": 0.519,
+     "r": 0.09
+    }
+   ],
+   "issues": "Compared v01 and v15-r2. v01 removes the painted balloon and restores the stone wall cleanly; all figures are identical. The beat reads well: a bandana'd prisoner cups his hand to whisper at Nagoji along a chained line. Nagoji matches his sheet: thick moustache, clean-shaven chin, gold ear stud, ochre tunic, bandaged wrists, ankle irons. There is no text or gore, and the torch-lit cellar matches 9.1 v04. Both frames carry white margins above and below a drawn border; the manifest's visible_rect (about [12,120,2057,637]) already handles this. Balloon space: the upper wall right of the whisperer (x 0.55-0.90, y 0.18-0.40), the same area the old painted balloon used. The tail points to the whisperer's mouth behind his cupped hand.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-04",
+   "pick": "v01",
+   "backup": "v15-r2",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.464,
+     "y": 0.452,
+     "r": 0.5
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.464,
+     "y": 0.452,
+     "r": 0.5
+    }
+   ],
+   "issues": "Compared v01 and v15-r2. v01 removes the four painted caption boxes and the drawn border, filling the wall, cloth and floor cleanly; the face and composition are unchanged. Full-width close-up of Nagoji's eyes opening in the dark, with curly hair, the curled moustache tip and the gold ear stud. His chin is hidden behind the rough cloth in the foreground, so the clean-shaven chin cannot be checked, but no beard shows. The rope at the right edge hangs from an iron ring into a barrel: a bucket rope, not a noose. There is no text or gore. Minor: the generator left a glossy crackle texture on skin and stone, present in both versions. The cold stair-and-window background is darker than 9.1's torchlight, which suits 'in the dark'. Caption space: four captions fit on the upper-left wall (x 0.02-0.26, y 0.08-0.55), the bottom-left cloth (x 0.02-0.35, y 0.80-0.95) and the bottom-right floor (x 0.65-0.98, y 0.80-0.95). Put the weighted 'Storms do not ask permission.' bottom right.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-01",
+   "pick": "v01",
+   "backup": "v15-r1",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Compared v01 (newest, balloon removed) with v15-r1. They are the same image; v01 only replaces the painted caption box at top left with clean wet wall and torchlight. There are no fill artifacts, and the face, costume and composition are unchanged. The script beat works: the priest goes down first holding his cassock hem clear, and the broad gaoler (leather jerkin, cream shirt, wide belt, iron keys, torch) follows. Both are seen from behind, so no faces show. The upper-left wall and the right wall have room for the caption. Minor faults, shared by both versions and not disqualifying at panel scale: (1) Duarte's small gold cross hangs on the BACK of his cassock, which is physically wrong for a man walking away; a touch-up could remove the cross and chain from his back. (2) He wears a short shoulder cape that is not on the sheet, though it matches his costume in panel 2.2. (3) A hairline pale edge shows at the back of his standing collar. It is not a Roman tab. (4) A few tiny light specks sit on his crown. v15-r1 is the backup; its painted box covers only wall and would sit under the drawn caption.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-02",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.4715,
+     "y": 0.158,
+     "r": 0.16
+    },
+    {
+     "x": 0.72,
+     "y": 0.18,
+     "r": 0.095
+    },
+    {
+     "x": 0.152,
+     "y": 0.51,
+     "r": 0.13
+    },
+    {
+     "x": 0.283,
+     "y": 0.536,
+     "r": 0.09
+    },
+    {
+     "x": 0.362,
+     "y": 0.527,
+     "r": 0.07
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.4715,
+     "y": 0.158,
+     "r": 0.16
+    },
+    {
+     "x": 0.72,
+     "y": 0.18,
+     "r": 0.095
+    },
+    {
+     "x": 0.152,
+     "y": 0.51,
+     "r": 0.13
+    },
+    {
+     "x": 0.283,
+     "y": 0.536,
+     "r": 0.09
+    },
+    {
+     "x": 0.362,
+     "y": 0.527,
+     "r": 0.07
+    }
+   ],
+   "issues": "Compared v02 (newest, balloons removed) with v01. v02 replaces the two painted boxes with mossy wall (top left) and a vaulted arch with a barred gate (top right). The fill is clean and consistent with the corridor, and no face or costume changed. Duarte matches his sheet: grey swept hair, lined, gaunt face, grey tired eyes, plain black standing collar with no white tab, small cross on a thin chain, ink-stained fingers. His extended right palm shows ink and worn pads, and he looks down at the prisoners unhappily, which fits the beat. Joao matches his sheet. Nagoji, drawn in the background, matches his chapter 1 row: thick curled moustache, clean chin, gold ear stud, torn ochre tunic, cream dhoti, bandaged wrists. The short shoulder cape on Duarte is not on his sheet but matches panel 2.1. The top-left wall and the top-right arch can take the two captions. v01 is the backup; its painted boxes cover only wall.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-03",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.345,
+     "y": 0.122
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.345,
+     "y": 0.122
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.309,
+     "y": 0.098,
+     "r": 0.09
+    },
+    {
+     "x": 0.653,
+     "y": 0.41,
+     "r": 0.1
+    },
+    {
+     "x": 0.853,
+     "y": 0.467,
+     "r": 0.085
+    },
+    {
+     "x": 0.983,
+     "y": 0.47,
+     "r": 0.075
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.309,
+     "y": 0.098,
+     "r": 0.09
+    },
+    {
+     "x": 0.688,
+     "y": 0.405,
+     "r": 0.1
+    },
+    {
+     "x": 0.062,
+     "y": 0.27,
+     "r": 0.06
+    },
+    {
+     "x": 0.13,
+     "y": 0.405,
+     "r": 0.045
+    }
+   ],
+   "issues": "Compared v03 (newest), v02 and v01. v03 is an edit of v02: the painted balloon and the two background guards are removed, and Nagoji's ankle irons now join the shared iron bar from page 1.1, with fellow prisoners chained alongside. That improves continuity. Joao, smiling and humming with small music notes at his lips, taps Nagoji's right shoulder with his boot. Joao matches his sheet (curly hair, beard, quilted leather jerkin, cream shirt, wide belt, keys, stockings and buckle shoes). Nagoji matches his sheet and the chapter 1 row: thick curled moustache, clean chin, gold ear stud, torn ochre tunic, cream dhoti, bandaged wrists, ankle irons; the inner left forearm is hidden. The corridor, barred gate and torch match panel 2.2. Hands and anatomy are sound. The large wet stone wall at upper right gives clear room for Joao's balloon. Backup v02: same Joao pose with a correctly aimed painted balloon tail. However, Nagoji is chained to a wall ring rather than the bar, and there are two extra guards in morion helmets that are not in the script. v01 has no music notes and Joao wears tall cavalier boots instead of the sheet's stockings and shoes, so it was rejected.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-04",
+   "pick": "v01",
+   "backup": "v15-r3",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.35,
+     "y": 0.3,
+     "r": 0.38
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.35,
+     "y": 0.3,
+     "r": 0.38
+    }
+   ],
+   "issues": "Compared v01 (newest, boxes removed) with v15-r3. v01 removes the three painted caption boxes at right and repaints the barred window with the torch behind it. The fill is clean with no stray shapes, and the face, costume and composition are unchanged. Nagoji matches his sheet and the chapter 1 row: thick curled moustache, clean-shaven chin with light captivity stubble, small gold ear stud, loose curly hair, torn ochre tunic, bandaged wrists. He looks off to the side with a closed, guarded expression, which fits 'flat and unreadable'. The brow is slightly furrowed. The right half (stone wall and window bars) gives clear room for the three captions without touching the face. The rendering is a little more photographic than panel 2.3, a small style mismatch. v15-r3 is the backup; its painted boxes sit over the wall and window only.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-01",
+   "pick": "v01",
+   "backup": "v15-r1",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.03,
+     "y": 0.474,
+     "r": 0.024
+    },
+    {
+     "x": 0.06,
+     "y": 0.459,
+     "r": 0.024
+    },
+    {
+     "x": 0.082,
+     "y": 0.459,
+     "r": 0.024
+    },
+    {
+     "x": 0.112,
+     "y": 0.462,
+     "r": 0.026
+    },
+    {
+     "x": 0.133,
+     "y": 0.459,
+     "r": 0.024
+    },
+    {
+     "x": 0.161,
+     "y": 0.462,
+     "r": 0.026
+    },
+    {
+     "x": 0.185,
+     "y": 0.465,
+     "r": 0.028
+    },
+    {
+     "x": 0.21,
+     "y": 0.453,
+     "r": 0.031
+    },
+    {
+     "x": 0.244,
+     "y": 0.433,
+     "r": 0.033
+    },
+    {
+     "x": 0.27,
+     "y": 0.442,
+     "r": 0.033
+    },
+    {
+     "x": 0.316,
+     "y": 0.436,
+     "r": 0.035
+    },
+    {
+     "x": 0.359,
+     "y": 0.426,
+     "r": 0.038
+    },
+    {
+     "x": 0.424,
+     "y": 0.412,
+     "r": 0.045
+    },
+    {
+     "x": 0.494,
+     "y": 0.389,
+     "r": 0.057
+    },
+    {
+     "x": 0.845,
+     "y": 0.33,
+     "r": 0.13
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.03,
+     "y": 0.474,
+     "r": 0.024
+    },
+    {
+     "x": 0.06,
+     "y": 0.459,
+     "r": 0.024
+    },
+    {
+     "x": 0.082,
+     "y": 0.459,
+     "r": 0.024
+    },
+    {
+     "x": 0.112,
+     "y": 0.462,
+     "r": 0.026
+    },
+    {
+     "x": 0.133,
+     "y": 0.459,
+     "r": 0.024
+    },
+    {
+     "x": 0.161,
+     "y": 0.462,
+     "r": 0.026
+    },
+    {
+     "x": 0.185,
+     "y": 0.465,
+     "r": 0.028
+    },
+    {
+     "x": 0.21,
+     "y": 0.453,
+     "r": 0.031
+    },
+    {
+     "x": 0.244,
+     "y": 0.433,
+     "r": 0.033
+    },
+    {
+     "x": 0.27,
+     "y": 0.442,
+     "r": 0.033
+    },
+    {
+     "x": 0.316,
+     "y": 0.436,
+     "r": 0.035
+    },
+    {
+     "x": 0.359,
+     "y": 0.426,
+     "r": 0.038
+    },
+    {
+     "x": 0.424,
+     "y": 0.412,
+     "r": 0.045
+    },
+    {
+     "x": 0.494,
+     "y": 0.389,
+     "r": 0.057
+    },
+    {
+     "x": 0.845,
+     "y": 0.33,
+     "r": 0.13
+    }
+   ],
+   "issues": "Compared v01 (newest, balloons erased) with v15-r1. The edit only removed the two painted caption boxes and continued the vault and wall cleanly. Face, costume, chains, window and composition are unchanged. Nagoji matches the sheet: thick curled moustache, clean chin, small gold stud, torn ochre tunic, cream dhoti, ankle iron, bandaged forearm. Only his right arm shows. Minor points: the row holds about 16 men, not 15. The prisoner at about x 0.42 also has curly hair, a curled moustache and a gold stud, so he is a faint Nagoji look-alike, but his white cloth and distance keep him distinct. Nagoji sits side-on with his head turned back rather than in a strict three-quarter back view. The upper vault and wall leave clear, low-detail space for both captions. The face list leaves out the man at x 0.62 because his face is buried in his arms.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-02",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Fix landed: in v03 the brass ferrule and metal nib from v02 are gone. The white feather shaft now runs straight down to a dark, ink-stained tapered point. The point is a little conical, and at full zoom it reads faintly like a brush tip because no slit is visible. At panel size it reads as a dipped goose quill, with no metal visible. Both ledger pages stay blank, with ruled margins only. Nothing else got worse: the hand anatomy, lace cuff, red embroidered sleeve, lantern, inkwell, map (no pseudo-text) and harbour window match v02. The large blank ledger pages and the upper-left wall give clear room for the caption, away from the hand and quill.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-03",
+   "pick": "v01",
+   "backup": "v15-r2",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.423,
+     "y": 0.44,
+     "r": 0.28
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.423,
+     "y": 0.44,
+     "r": 0.28
+    }
+   ],
+   "issues": "Compared v01 (newest, box erased) with v15-r2. The edit only replaced the top-left caption box with matching stone wall. Face, light, window, ring and costume are identical. Nagoji matches the sheet: curled moustache, chin clean apart from light captivity stubble, small gold stud, loose curly hair, torn ochre tunic. His eyes are open and watchful, lit from the high window. The upper-left wall gives clear space for the caption. The iron ring and chain on the wall is not a noose. Minor: the window here is barred, where panel 1.1 shows a narrow slit, but it reads as the same high light source.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-04",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Compared v02 (newest, box erased), v01 and v15-reused. v02 is identical to v01 except that the top-left caption box is gone and the stone wall and grille continue naturally. Joao matches his sheet: cream shirt with rolled sleeves, brown leather jerkin, wide belt with a brass buckle, iron key ring, brown breeches, cream stockings and a low buckled shoe. The framing is a low floor-level view of his shoe stepping down off the bottom stair, carrying the bucket. Both hands are anatomically sound. The upper-left wall and grille area gives room for the caption. v15-reused is rejected because Joao wears tall cuffed boots, which contradicts the sheet and the earlier correction.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-05",
+   "pick": "v01",
+   "backup": "v15-reused",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [],
+   "backup_faces": [],
+   "issues": "Compared v01 (newest, boxes erased) with v15-reused. The edit only removed the two painted caption boxes and continued the vault stones. The drip, the black pool, the ripples and the dark band position (rows 171-590, columns 42-2024) are unchanged, so the manifest visible_rect [44,174,2024,588] and sound_origin still line up. No bells are drawn as objects, which fits 'sound, not object', because the compositor draws the sound marks natively. The upper-left and upper-right stone corners are dark and leave room for both captions. As before, the white margins outside the painted frame line fall outside visible_rect.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-01",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.397,
+     "y": 0.244
+    },
+    {
+     "copy_index": 1,
+     "x": 1,
+     "y": 0.28
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.397,
+     "y": 0.145,
+     "r": 0.15
+    },
+    {
+     "x": 0.553,
+     "y": 0.238,
+     "r": 0.15
+    }
+   ],
+   "backup_faces": [],
+   "issues": "The fix landed in v02. The gaoler in the leather jerkin is gone, and the stone wall, the arched barred window and a matching wall torch continue cleanly behind Nagoji with no ghosting or seams. Only Duarte and Nagoji are left, which fits JO\u00c3O (off). Nothing else got worse: the composition, lighting and both figures are the same as v01. Duarte matches his sheet (gaunt, grey swept curls, plain black cassock with a standing collar, gold cross, no white tab). He crouches with his eyes on the bandaged hands, a pained downcast wince, and his hands tucked into his sleeves. Nagoji matches the chapter 1 row: thick curled moustache, clean-shaven chin, gold ear stud, loose curly hair, torn ochre sleeveless tunic, cream dhoti, bandaged hands, ankle irons, barefoot, and no brand visible. Small carried-over nits, all also in v01: the cross is a bit larger than 'small', the bandages have faint rust-red stains (they read as grime, not gore), and two thin ring-like lines on Nagoji's fingers. For lettering, there is open dark stone wall at upper right (x 0.82 to 1.0) and arch and wall space at upper left. v01 is not a backup because it still shows Jo\u00e3o standing in the panel, which goes against the off-panel line and the duarte/nagoji cast.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-02",
+   "pick": "v01",
+   "backup": "v15-r1",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.995,
+     "y": 0.33
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.995,
+     "y": 0.33
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.44,
+     "y": 0.345,
+     "r": 0.19
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.44,
+     "y": 0.345,
+     "r": 0.19
+    }
+   ],
+   "issues": "Compared v01 (newest, balloon removed) with v15-r1. v01 is the same art with the painted balloon cleanly removed; the barred gate and wall on the right are restored with no leftover shapes. Nagoji matches the sheet: curled moustache, clean-shaven chin, gold stud on his right ear, torn ochre tunic, bandaged wrists, a level and faintly defiant look. Minor continuity point: he looks screen-right, while Duarte sat to his left in 3.1 (a screen-direction flip shared by both candidates). The DUARTE (off) tail is therefore set on the right frame edge at eye level, where his gaze points. The frame has wide white margins above and below the art (art spans about y 0.18 to 0.80), as in the other panels on this page. Lettering space: the plain stone wall top-left, or above the gate top-right. Tail override (r9 review, 2026-10-01): Duarte sits screen-left in 3.1, so his off-panel tail exits the LEFT edge. Reverted (r10 review): a left-edge tail had to cross Nagoji's head; the short right-edge tail is cleaner.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-03",
+   "pick": "v02",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.57,
+     "y": 0.31
+    },
+    {
+     "copy_index": 1,
+     "x": 0.57,
+     "y": 0.31
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.607,
+     "y": 0.15,
+     "r": 0.9
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v02 is clean and is the preferred edit. It shows the 3.3 beat as an extreme close-up of Nagoji's mouth with dry, cracked, rust-dark lips. It has the thick curled moustache and a clean-shaven chin with at most light stubble. Small gold ball studs sit correctly on both earlobes. He wears the rough ochre captivity cloth. The cell matches 3.2: a stone wall with an iron ring and chain on the left, a barred window on the right. There is no painted text, blood or anachronism. The window glow is warmer and more orange than the cool window light in 3.2, which is acceptable as torchlight. Both NAGOJI lines can be lettered on the low-detail stone wall at upper left (about x 0.02 to 0.30), stacked, with tails to the mouth. v01 is rejected as a backup because it has no gold ear stud even though both ears are visible.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-04",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.435,
+     "y": 0.342
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.435,
+     "y": 0.342
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.417,
+     "y": 0.319,
+     "r": 0.12
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.417,
+     "y": 0.319,
+     "r": 0.12
+    }
+   ],
+   "issues": "Compared v02 (newest, balloon removed) with v01. v02 is the same art with the painted balloon cleanly replaced by the dark vaulted ceiling, with no leftover shapes. Jo\u00e3o matches his sheet (curly dark hair, full beard, ruddy face, brown leather jerkin over a cream shirt, wide belt with brass buckle, iron key ring). He is laughing with his head thrown back and both hands on his belt, so the beat is exact. Hands are sound. The torch-lit vaulted dungeon is consistent with the rest of the page. As on the other panels, the art strip has wide white margins above and below. Lettering space: the large, low-detail dark vault to his right (about x 0.50 to 0.80).",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-05",
+   "pick": "v01",
+   "backup": "v15-r2",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.764,
+     "y": 0.397
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.764,
+     "y": 0.397
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.754,
+     "y": 0.366,
+     "r": 0.06
+    },
+    {
+     "x": 0.185,
+     "y": 0.417,
+     "r": 0.045
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.754,
+     "y": 0.366,
+     "r": 0.06
+    },
+    {
+     "x": 0.185,
+     "y": 0.417,
+     "r": 0.045
+    }
+   ],
+   "issues": "Compared v01 (newest, balloon removed) with v15-r2. v01 is the same art with the painted balloon cleanly inpainted (stone wall and torch, no leftover shapes). Duarte matches his sheet (grey swept hair, gaunt lined profile, black cassock with standing collar and the same shoulder cape as 3.1, gold cross). He is upright and walking away to the right with his head down, not looking at Nagoji, so the beat is exact. Nagoji, small at far left, is consistent with ch1: moustache, clean chin, ochre tunic, cream dhoti, bandaged wrists, ankle irons, barefoot. Minor: Nagoji now sits on a stone ledge rather than the floor as in 3.1. The art strip is thin, with wide white margins. Lettering space: the dim wall and arches between the stair opening and Duarte (about x 0.55 to 0.70, upper half of the strip).",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-01",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.566,
+     "y": 0.236
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.565,
+     "y": 0.235
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.556,
+     "y": 0.193,
+     "r": 0.11
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.556,
+     "y": 0.19,
+     "r": 0.11
+    }
+   ],
+   "issues": "Compared v02 (newest, balloon removed) with v01. v02 keeps the same face, costume, room and composition, and the border is gone. Nagoji is on sheet: curled moustache, clean-shaven chin, gold ear stud, torn ochre tunic, bandaged wrists, ankle irons. The hanging ropes have tassels and are not nooses. The open stone wall on the left and upper centre gives room for the balloon. No text and nothing wrong with the anatomy. v01 is still acceptable as a backup: its painted balloon tail points to Nagoji's mouth, and the white border is excluded as letterbox.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-02",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.344,
+     "y": 0.538
+    },
+    {
+     "copy_index": 1,
+     "x": 0.344,
+     "y": 0.538
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.344,
+     "y": 0.538
+    },
+    {
+     "copy_index": 1,
+     "x": 0.344,
+     "y": 0.538
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.324,
+     "y": 0.325,
+     "r": 0.274
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.324,
+     "y": 0.325,
+     "r": 0.274
+    }
+   ],
+   "issues": "Compared v02 (newest, balloon removed) with v01. The art is identical, and v02 fills the old balloon area with matching wall, ropes and door. Duarte is on sheet: gaunt lined face, swept grey curls, black cassock with a standing collar, small cross on a chain, ink-stained fingers. He leans in with a quieting hand raised. The hand is sound (four fingers, thumb hidden behind the palm). Both versions still have a thin painted white margin and black frame line, which art_bounds excludes as letterbox ([15,27,1992,753]). There is clear wall on the right half for both balloons.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-03",
+   "pick": "v01",
+   "backup": "v15-r2",
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.207,
+     "y": 0.44,
+     "r": 0.57
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.207,
+     "y": 0.44,
+     "r": 0.57
+    }
+   ],
+   "issues": "Compared v01 (newest, caption box and frame removed) with v15-r2. The face is identical in both, and v01 extends the hair to the top edge. v01 leaves a blank white strip across the bottom quarter. art_bounds excludes it as letterbox (visible art [0,0,2079,574]), so it should not show on the page. Nagoji is on sheet: curled moustache, flush gold ear stud, curly hair. The chin is out of frame. The smoky wall on the right is clear space for the caption. Minor points, present in both: (1) a small grey stone-textured block under the jaw at bottom-left reads as masonry but could be taken for an iron collar, which belongs to ch2 only; (2) the eyes read more as a narrowed sidelong look than unfocused. Neither is enough to reject.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-04",
+   "pick": "v04",
+   "backup": null,
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.563,
+     "y": 0.513
+    },
+    {
+     "copy_index": 1,
+     "x": 0.563,
+     "y": 0.513
+    },
+    {
+     "copy_index": 2,
+     "x": 0.563,
+     "y": 0.513
+    }
+   ],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.628,
+     "y": 0.332,
+     "r": 0.37
+    }
+   ],
+   "backup_faces": [],
+   "issues": "Compared v04 (newest fix), v03 and v02. v04 is acceptable. It is a head-and-shoulders close-up in the torch-lit windowless stone room that matches the neighbouring panels. Nagoji is on sheet: thick curled moustache, clean chin with light stubble, gold ear stud, loose curls, torn ochre tunic. He looks left toward Duarte with lips parted, there are no hands in frame and the left arm is hidden. A dark out-of-focus shape at bottom-left reads as Duarte's shoulder in the foreground. The open wall on the left and upper left can take the three balloons, though they will need to stack tightly on the left third once the frame is cropped to the slot. No backup: v03 has a barred window and daylight shafts, which is the wrong room. v02 is a wide shot like 7.1, not the beat's return to his face.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-05",
+   "pick": "v04",
+   "backup": "v03",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.994,
+     "y": 0.49
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.994,
+     "y": 0.49
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.345,
+     "y": 0.465,
+     "r": 0.6
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.345,
+     "y": 0.465,
+     "r": 0.6
+    }
+   ],
+   "issues": "Compared v04 (newest, balloon removed) with v03. The face, collar, torch and wall are identical, and v04 fills the old balloon area cleanly with blurred stone arches. Duarte is on sheet: gaunt lined face, grey swept curls, plain standing collar. He shows the faint tight twitch of a smile the beat asks for. The white letterbox margins top and bottom are excluded by art_bounds ([13,108,2160,605]). There is clear dark wall on the right for Jo\u00e3o's off-panel balloon. The tail goes to the right art edge, toward the tool table where Jo\u00e3o stands.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-01",
+   "pick": "v03",
+   "backup": "v02",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.71,
+     "y": 0.34
+    },
+    {
+     "copy_index": 1,
+     "x": 0.71,
+     "y": 0.34
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.71,
+     "y": 0.34
+    },
+    {
+     "copy_index": 1,
+     "x": 0.71,
+     "y": 0.34
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.7,
+     "y": 0.24,
+     "r": 0.16
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.7,
+     "y": 0.24,
+     "r": 0.16
+    }
+   ],
+   "issues": "I compared v03 with v02 (and v01). v03 is v02 with the painted balloon cleanly removed. A pixel diff shows the changes are limited to the left half (wall, arches, torch), and Duarte, the table, the rope ring and the door are unchanged. Duarte matches his sheet: gaunt, lined face, swept grey hair with curls, plain black standing collar with no white tab, cross on a thin chain and ink-stained fingers. The papers are blank and the hanging ropes end in whipped knots, not nooses. There is no second stool, and the room is the canonical windowless torchlit vault. Minor, and the same in every candidate (already accepted in r7): he wears a short shoulder cape over the cassock that the sheet lacks, and the cross is somewhat larger than 'small'. There is plenty of clear wall for both lines across the upper left and centre (x 0.15 to 0.42, y 0.05 to 0.55).",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-02",
+   "pick": "v04",
+   "backup": "v03",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.598,
+     "y": 0.328
+    },
+    {
+     "copy_index": 1,
+     "x": 0.598,
+     "y": 0.328
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.598,
+     "y": 0.328
+    },
+    {
+     "copy_index": 1,
+     "x": 0.598,
+     "y": 0.328
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.586,
+     "y": 0.303,
+     "r": 0.09
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.586,
+     "y": 0.303,
+     "r": 0.09
+    }
+   ],
+   "issues": "I compared v04 with v03 (and v01 and v02). v04 is v03 with the painted balloon removed and the vault wall repainted. The figure and setting are unchanged, apart from a faint half-smirk in v04 that suits 'entirely unimpressed'. Nagoji is on model: thick curled moustache, clean chin, small gold stud, loose curly hair, torn ochre tunic and cream dhoti. His bandaged wrists have rope wraps, the stool legs are roped, the ankle irons are linked and his feet are bare. His left arm shows only its outer side, so no brand is visible. The room is the same canonical vault as 6.1, with no second stool. The ceiling ropes end in knots, not nooses. There is no text or painted shape. Clear wall for both lines across the upper left and centre (x 0.08 to 0.45, y 0.05 to 0.50).",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-03",
+   "pick": "v02",
+   "backup": "v01",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.59,
+     "y": 0.79
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.59,
+     "y": 0.79
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.64,
+     "y": 0.5,
+     "r": 1.04
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.64,
+     "y": 0.5,
+     "r": 1.04
+    }
+   ],
+   "issues": "I compared v02 with v01. v02 is v01 with the painted balloon removed and the stone wall continued; the eyes, hair and both small gold ear studs are unchanged. It is a tight eyes shot as scripted: the curled moustache tips are just visible at the lower edge, there is no text, and the canonical torchlit wall sits at the left. The mouth is just below the art's lower border (art spans y 0.167 to 0.81 inside white margins), so the tail point sits on that border under the moustache. The r7 viewport cropped at y 0.747; if it is reused, aim the tail at the bottom edge at x 0.59. Clear wall for the line at x 0.07 to 0.28, y 0.22 to 0.75.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-04",
+   "pick": "v06",
+   "backup": "v04",
+   "tails": [
+    {
+     "copy_index": 0,
+     "x": 0.861,
+     "y": 0.339
+    },
+    {
+     "copy_index": 1,
+     "x": 0.861,
+     "y": 0.339
+    }
+   ],
+   "backup_tails": [
+    {
+     "copy_index": 0,
+     "x": 0.79,
+     "y": 0.324
+    },
+    {
+     "copy_index": 1,
+     "x": 0.79,
+     "y": 0.324
+    }
+   ],
+   "faces": [
+    {
+     "x": 0.279,
+     "y": 0.207,
+     "r": 0.1
+    },
+    {
+     "x": 0.857,
+     "y": 0.313,
+     "r": 0.06
+    }
+   ],
+   "backup_faces": [
+    {
+     "x": 0.229,
+     "y": 0.196,
+     "r": 0.11
+    },
+    {
+     "x": 0.78,
+     "y": 0.293,
+     "r": 0.065
+    }
+   ],
+   "issues": "I compared v06, v05 and v04. v06 fixes v05's faults. The room is windowless and lit only by torch and brazier: wall torch at left, brazier at centre, arched iron-studded door at right. Nothing is painted in. Joao is small in the right background at the tool table beside the door, head bowed, eyes on the iron tongs he is lifting, not looking up. Nagoji is large in the left foreground. Joao matches his sheet: curly dark hair, full beard, brown leather jerkin, cream shirt, wide belt, key ring, breeches, stockings and buckled shoes. Nagoji has a thick moustache, light captivity stubble on the chin and the gold stud. His bandaged wrists have rope-over-bandage ties to the seat posts, with no chest rope. The ankle irons are linked and his feet are bare. His left forearm shows only its outer side. The wall rope is a coil on an iron ring, not a noose. Hands and anatomy are sound. There is clear wall for both lines in the upper middle (x 0.36 to 0.78, y 0.03 to 0.28), away from both faces. Caveats: (1) The frame is 3:2 (1536x1024), but the page-6 row 4 slot was a wide strip of about 3.3:1. A full-width crop at about y 0.10 to 0.56 keeps both heads, Nagoji's roped wrists, Joao's tongs and the lettering space, but drops the ankle irons. (2) The room is the same kind but not the identical layout of 6.1 and 6.2: the door sits in a back alcove, the brazier is a cauldron, the ropes hang from a wall ring rather than the ceiling ring, wall chains are added, and the stone is greyer and the rendering grittier. (3) His seat has tall front posts and reads more like a chair than 6.2's low stool. (4) A stray empty stool sits at the bottom right; earlier rounds removed duplicate stools, and the suggested crop drops it. Nagoji's moustache curl is slight compared with the sheet but reads correctly at panel size. Backup v04 is wide and in the exact room of 6.1 and 6.2; its painted balloon would be covered. Its fault: rope wrapped across his chest and upper arms, which contradicts the wrists-only binding of 5.3 and 6.2. That fault is why v05 and v06 were generated. v05 is rejected: barred window with daylight shafts, and Joao large in the left foreground instead of the background.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-05",
+   "pick": "v01",
+   "backup": null,
+   "tails": [],
+   "backup_tails": [],
+   "faces": [
+    {
+     "x": 0.528,
+     "y": 0.436,
+     "r": 0.38
+    },
+    {
+     "x": 0.235,
+     "y": 0.39,
+     "r": 0.13
+    }
+   ],
+   "backup_faces": [],
+   "issues": "v01 is the only candidate. The present-day Nagoji is a full-width, frontal, still face: thick curled moustache, gold ear stud, loose curly hair, torn ochre tunic. He has moderate dark stubble on the chin and jaw, within the bible's 'light stubble, captivity' allowance. Behind him the canonical chamber (knotted ceiling ropes, brazier, arched door) is on the right. The memory on the left bleeds into the frame as ink splatter rather than a clean inset: Nagoji in rust-red turban, cream tunic and red sash, cheek pressed to the mane of the black mare Kanka. Kanka matches her sheet: black coat, brown bridle with brass. The sky is a misty dawn over water with palms and a fort; there is no explicit winter cue, which is acceptable for the Konkan coast. There is no text, no noose and no anachronism. Watch item: where the red sash dissolves into the splatter at the memory's lower edge (around x 0.25 to 0.36, y 0.6 to 0.8) there are small red flecks. At print size they read as sash pigment continuous with the cloth, not blood, but a cautious editor may want them greyed. No lettering is needed (silent panel).",
+   "correction": ""
+  }
+ ],
+ "missing": [],
+ "note": "d2 plus 1.2 v03 (cut quill) and 3.1 v02 (background gaoler removed), r11 review."
+}

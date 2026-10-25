@@ -1,0 +1,688 @@
+{
+ "chapter": 6,
+ "confirmed": [
+  {
+   "page": 7,
+   "panel": "7.1",
+   "severity": "major",
+   "description": "Nagoji is wearing a rust-red sash wrapped around his waist over the cream shirt. This is the red sash from the commander sheet leaking into his chapter 6 look. The bible's chapter 6 row says village cotton dhoti and simple cream shirt only, the script says he wears no sash, and none of his other chapter 6 panels show one. Readers may take it as a costume change or a return to rank.",
+   "evidence": "Seated meditating figure with eyes closed. A bright rust-red cloth band crosses his waist below the shirt hem, at roughly x 300-420, y 760-790 in the 1838x2775 render. Nagoji's waist shows no red sash in 5.2, 6.1, 7.4, 8.3, 10.1, 11.5 or 12.1.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 7, panel 7.1 (render page-07.png, 1838x2775). I cropped the panel at about x 150-920, y 360-930. Nagoji sits cross-legged with his eyes closed. A broad rust-red cloth band is wrapped around his waist over the cream shirt, just below its hem, at roughly x 300-420, y 760-790. It is a saturated, clearly drawn sash, not shading or a dhoti border, and it stays easy to see at print size.\n\nNeither the bible nor the script allows it. The bible's chapter 6 row for Nagoji says only \"Village cotton dhoti and simple cream shirt, bare-headed, hair loose or tied back, hands still bandaged\". The red sash belongs to the commander sheet (chapters 7 onward) and to pre-capture memory panels only. Script 1.2 says \"no sword, no sash, no turban\", and 12.4 and 12.5 repeat NO sash.\n\nThe panel also breaks continuity with the panels next to it. In 7.2 and 7.4 (same scene, same mat, same reverse angle) his waist shows only the cream shirt and dhoti with no red. Thumbnails of pages 5, 6, 8 and 12 show no sash on him anywhere else in the chapter.\n\nThe sash is the same red as the background Travancore guards' waist cloths, so a reader could take it as a costume change or an early return to his commander rank. His identity is correct (face, hair, ear stud, bandaged hands), so this is a localized costume error. Severity is major, not blocker: 7.1 needs its waist redrawn without the sash."
+   }
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "major",
+   "description": "Ibrahim's LEFT ear-to-jaw scar cannot be seen. The panel's whole staging exists so that sea light falls on this scar (the adaptation notes put the open side on the king's right for this reason). His left cheek and jaw are either covered by a balloon tail or the scar was not drawn.",
+   "evidence": "Ibrahim's face sits at roughly x 470-560, y 400-470. The 'Beyond that, trust is for priests.' balloon tail comes in from screen right and sits on his left cheek and jaw, and the visible part of his face shows no scar line. Compare 1.2 and 2.3, where the scar does show.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "The finding is accurate, but it is minor, not major. On page 9, panel 9.1, Ibrahim is in three-quarter view facing the platform, so his left cheek is on screen right. The tip of the 'Beyond that, trust is for priests.' balloon tail comes in from screen right and stops on that cheek at about x 510, y 450 (full-resolution pixels). It covers his left ear and the back of the cheek, which is where the ear-to-jaw scar should start. In the parts of that cheek and the jaw-line beard that are still visible, there is no scar line. By contrast, the scar is a clear red line through the beard in 2.3 and is also visible in 1.2. So the scar is not visible in 9.1, and the script's note about sea light catching it is not met.\n\nWhy it is minor: Ibrahim's face is only about 50 to 60 px wide at 300 DPI, roughly 4 to 5 mm in print. At that size the scar would be a hairline even if fully drawn. He is shown at a similar size in 1.4, and no scar shows there either. The white turban, grey-flecked beard, teal short coat, pale vest with bulging pockets and striped shoulder cloth make him unmistakable, so his identity is not in doubt. No caption or dialogue in this panel mentions the scar, so no story beat is lost. The fix is cheap and also good lettering practice: move the tail tip off his cheek toward his mouth or the open air beside his head, so the left ear and jaw are clear."
+   }
+  },
+  {
+   "page": 7,
+   "panel": "1",
+   "severity": "major",
+   "description": "Nagoji wears a broad red waist sash. That is the commander-sheet costume leaking in. The ch6 bible row allows only the village cotton dhoti and cream shirt, and the script says 'no sword, no sash'. The sash also breaks continuity on this page, because Nagoji has no sash in 7.2 and 7.4.",
+   "evidence": "7.1: a crimson sash is knotted at his waist over the cream shirt, above his crossed legs and bandaged hands on the mat. 7.2, 7.4 and every other present-day Nagoji panel show a plain shirt and dhoti.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I could not refute this. A zoomed crop of page 7, panel 1 (/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch06-split/renders/r7/page-07.png) shows present-day Nagoji with a broad rust-red cloth sash wrapped and knotted at his waist over the cream shirt. He is seated on the mat with bandaged hands, so this is not a memory panel. Only the background (ships, burning quay, horse) is the memory image, and the script's 7.1 does not dress him in his old Maratha clothes. The sash is a solid colour band across the middle of a top-tier panel, so it will show clearly in print.\n\nNothing in the source files allows it:\n- CONTINUITY.md, Nagoji's chapter 6 row: \"Village cotton dhoti and simple cream shirt, bare-headed, hair loose or tied back, hands still bandaged.\" No sash.\n- The red sash belongs to the commander-sheet rows (chapters 7 to 8 onward) and to pre-capture memory panels (ch6 8.2 and 10.2) only.\n- The script states \"no sword, no sash, no turban\" at 1.2. At 12.4 and 12.5 it makes a bare hip (\"NO sash, NO belt\") the closing image of the chapter, so a sash on page 7 also weakens that payoff.\n\nIt also breaks continuity on the page itself. In 7.4 the same seated Nagoji wears a plain cream shirt falling over the white dhoti with no red at the waist. In 7.2 the waist is mostly hidden by balloons, but nothing red shows.\n\nThis is a localized costume error from the commander sheet, not an identity error, so it is major rather than a blocker. Panel 7.1 needs the red sash painted out, leaving the plain shirt hem over the dhoti."
+   }
+  },
+  {
+   "page": 11,
+   "panel": "5",
+   "severity": "major",
+   "description": "Varma sits on a high-backed carved throne-chair at the top of a red-carpeted stair, and Ramayyan sits on a second carved chair with no low table. Everywhere else Varma sits cross-legged on a mat on the low wooden platform (2.2, 2.5, 4.1, 8.1, 10.5, 12.2), and the very next page says 'He has spent too many lives to sit on that mat' over him on the mat. Ramayyan also jumps around within page 11: at his low table in 11.1, standing beside the king in 11.2, and in a chair in 11.5.",
+   "evidence": "11.5, right third: an ornate dark carved armchair behind Varma and a matching chair under Ramayyan, with red-carpeted steps below. In 12.2 the king is back on a mat on the wooden platform.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I'm confirming this one. In the zoomed crop of page 11, panel 5 (right third), Varma sits in a tall, dark, carved armchair with a red cushion. A red-carpeted stair with gold edging runs up to it. Ramayyan sits in a matching red-cushioned carved chair beside him, holding his palm-leaf bundle, and there is no low table. The script for 11.5 says only \"on the platform above him\", and the fixed hall plan (script line 43 and the notes at 374) puts the king on a slightly raised wooden platform, with Ramayyan's low table at his left hand. Every other hall panel I checked follows that plan. Varma sits cross-legged on a mat on the low wooden platform in 2.2, 4.1, 8.1, 10.5 and 12.2, and Ramayyan sits at his low table or on the platform beside him in 2.4, 4.1 and 8.1. Page 12, panel 2 then letters \"He has spent too many lives to sit on that mat\" over the king, who is back on a mat, so the throne directly contradicts the next page's dialogue. Nothing in the script or the bible allows a throne. At full panel width it reads clearly at print size. It is limited to one panel: identity, costume and lettering are correct, and no beat is missing. So it should be redrawn, but it is major, not a blocker. The secondary point is real but smaller. In 11.2 Ramayyan stands beside the king instead of sitting at his table, which adds to the inconsistency on the page."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "1",
+   "severity": "major",
+   "description": "The hall set changes between pages. Page 2 (and pages 7, 8, 10 and 12) establish a dark wooden pavilion: carved wooden pillars, mat floor, a low wooden platform, and the map lying on the mat. Pages 3 to 5 instead show a different room: white or grey plastered walls, stone columns, a polished marble floor, a red-carpeted stair up to a dais, and Varma seated behind a raised map table. The script fixes one hall for the whole chapter. Props drift as well: the map is on the mat in 2.2, on a table in 3.1, gone in 4.1 (his spear is gone too), and on a table again in 6.3 and 7.3.",
+   "evidence": "3.1: white back wall, red carpet runner and steps, marble floor, map on a low table. 3.3: grey stone pillars and grey wall. 4.1 and 4.2: grey plaster wall and stone floor. 5.2: stone columns and tiled marble floor. Compare 2.1, 2.5, 8.1 and 8.4: carved dark wood pillars and mat floors.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I'm confirming this as major. I checked a zoomed crop of page 3, panel 1 against pages 2, 6, 7 and 8. The script fixes one hall plan for every hall panel (page 2 intro and the \"Hall plan\" note). Page 2.1 shows that hall as carved dark-wood pillars, dark rafters and mat floors, with the sea through the open side on the left, and 2.2 has Varma on a low wooden platform with the map on the mat. Page 3.1 shows a different room: a bare cream plaster back wall, plain columns, a polished stone or marble floor, a red-carpeted flight of steps up to a dais, the map on a raised table, and Ramayyan standing instead of sitting at his low table. Through the open side on the left there is a hilltop fort and palms, not the sea. The rest of pages 3 to 5 stays in that second room. 3.3 has grey stone columns, a grey wall and a hill fort where the sea should be. 4.1 and 4.2 show a grey plaster wall over a polished stone floor. 5.1 has plaster, an arcade and marble, and 5.2 has stone pillars, a tiled floor and a hill fort instead of the sea. By page 8 the art is back in the carved-wood hall with mats and the sea. At print size a reader would think the audience had moved rooms, against a script that fixes one hall. The prop sub-claims are weaker. The script asks for the map on the mat only in 2.2, and does not require a map or spear in 4.1. So the missing map and spear in 4.1, and the table in 7.3, are slight drift rather than errors. This is not a blocker: identity, lettering and story beats are all intact. The fault is a localized set and background error across pages 3 to 5, and fixing it means redrawing those backgrounds."
+   }
+  },
+  {
+   "page": 4,
+   "panel": "4.2",
+   "severity": "major",
+   "description": "Visible compositing seam down the middle of the full-page panel. The carved frieze band on the back wall stops at a hard vertical edge and does not line up with the band to its right, and the wall shading jumps at the same line. (Outside the standing-rules lens, but a clear render defect.)",
+   "evidence": "Page 4, panel 2: at about x=850 of the 1325-wide view (about x=1180 at full resolution), y about 1100 to 1190, the upper frieze ends at a straight cut and starts again offset. Confirmed in a zoomed crop.",
+   "lens": "rules",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed this on page 4, panel 4.2. There is a straight vertical seam at about x=1180 of the 1838-wide file. To its left, the wall has a grainy, sharp texture and the upper carved frieze (about y=1520 to 1650) is crisp, with hard black border lines. Those lines stop dead at the seam. To its right, the wall is soft and blurred, and the frieze carries on blurred, with its border lines and floral pattern out of line with the left half. The texture change can be traced up the wall above the frieze too. The seam shows even at full-page view, in the middle of the panel's empty wall between Varma's hand and Nagoji's sleeve, so it is visible at print size. The script and the continuity bible say nothing that allows it. It is a background-only render defect: identities, costumes, lettering and the story beat are fine. So the severity is major (clearly wrong but localized), not blocker. Fix it by redrawing or inpainting the wall and frieze in panel 4.2."
+   }
+  },
+  {
+   "page": 11,
+   "panel": "11.5",
+   "severity": "major",
+   "description": "Varma and Ramayyan both sit in carved, high-backed, red-upholstered throne chairs. Everywhere else in the hall the king sits cross-legged on a mat on the platform and Ramayyan sits at a low table. That breaks the fixed hall plan and works against Ramayyan's line at 12.2, \"too many lives to sit on that mat\". (Outside the standing-rules lens.)",
+   "evidence": "Page 11, bottom panel, right side: Varma sits in a dark carved armchair with a red cushioned back, and Ramayyan sits in a matching chair with armrests in front of the conch banner. There is no mat and no low table.",
+   "lens": "rules",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "The finding is confirmed. I zoomed into page 11, panel 11.5 (bottom-right of the full-width panel). Varma sits upright in a dark carved armchair with a high back and red upholstery. Ramayyan sits next to him at screen right in a second chair with armrests, a red cushion and a gilt finial, in front of the conch banner. Both are on a stepped dais with a red carpet. There is no floor mat and no low table. The chairs are easy to see at print size, so this is not too slight to matter. Nothing in the script or bible allows it. The fixed HALL PLAN in the script (page 2 intro and the end notes) gives Ramayyan a low table, and 2.2 puts the map \"on the mat before him\" for Varma. Every other hall panel draws exactly that. In 2.1, 2.2 and 2.5, Varma sits cross-legged on a mat on a low wooden platform and Ramayyan sits on the floor at a low table. On the very next page, in 12.2, Varma is cross-legged on a mat again, and Ramayyan says the king has \"spent too many lives to sit on that mat\". So 11.5 breaks the set continuity between two neighbouring panels and works against the dialogue. The rating is major, not blocker: identities, costumes, the beat and the lettering are all correct, and the error is limited to the seating and dais in one panel, so redrawing that panel fixes it."
+   }
+  },
+  {
+   "page": 6,
+   "panel": "6.2",
+   "severity": "major",
+   "description": "Both of Nagoji's balloons have tails that point into the hearsay stain at the padre, not at Nagoji, so the padre seems to say 'Our clerks said their padres walk ahead...' and 'We heard of rajas...'. The two balloons also cover most of the musketeer column behind him, leaving only one musketeer readable.",
+   "evidence": "In the original pixels, tail 1's tip is at about (930,1350), on the padre's shoulder and the musket. Tail 2's tip is at about (912,1575), on the padre's hand. Nagoji is seated at the lower left, around (445,1740), and neither tail goes toward him. The right-hand balloons (x 1020-1685, y 1160-1650) cover the column marching behind the first musketeer.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed this on the zoomed crop of panel 6.2. Both tails start on the left edge of the right-hand balloons and point down-left into the hearsay stain, not at Nagoji. Tail 1 ends in the dust between the padre's head and the musketeer's musket muzzle, at about (930,1350) in the original pixels. Tail 2 ends on the padre's black sleeve and hand, at about (912,1575). Nagoji sits at the lower left, around (445,1740), and neither tail angles toward him. The script gives both lines to Nagoji (\"NAGOJI: Our clerks said...\", \"NAGOJI: We heard of rajas...\"). Nothing in the script or bible says these balloons should be tailless or hang from the vision, so the art makes the padre the apparent speaker. The words \"Our clerks\" and \"We heard\" help the reader a little, but a tail pointing at the wrong figure is a clear speaker error under the rubric. It is localized and can be fixed by re-lettering, without redrawing the art, so it is major, not a blocker. The second claim is overstated. The balloons do cover the upper part of the column, but the marching column still reads below them as a file of hatted figures with muskets fading into the dust, at about x 1050-1450, y 1650-1770. That part alone would be minor at most."
+   }
+  },
+  {
+   "page": 6,
+   "panel": "6.3",
+   "severity": "major",
+   "description": "Nagoji's off-panel line ('And their infantry...') is meant to sit with the inset. Instead its balloon sits over the inset's right border, and its long tail runs down through the map to the panel's bottom border beside Varma's pointing finger. Ramayyan's balloon covers the bottom of the inset. Together they half-bury the stylus inset, and the tail makes the speaker unclear.",
+   "evidence": "The Nagoji balloon spans about x 395-940, y 2075-2245, which overlaps the inset (about x 160-555, y 2055-2250). Its tail tip is at about (688,2530) on the bottom border, next to Varma's finger at about (900,2490). Ramayyan's balloon (x 150-650, y 2250-2490) covers the inset's lower edge.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "The overlap is real but the harm is smaller than claimed, so I am downgrading this from major to minor. I checked page 6, panel 6.3 at full resolution, with zooms on the inset and on the tail tip.\n\nWhat the art shows:\n- **Nagoji's balloon** covers about the right third of the inset (roughly x 390-555), over the end of the writing board and the cloth.\n- **Nagoji's tail** is a straight line about 300 px long (about 1 inch at print size). It runs between Ramayyan's balloon and Varma's arm and stops on a small island on the map, about 7 px above the bottom border. It does not quite cross the border.\n- **Varma's finger** is about 230 px to the right of the tail tip (about (915, 2480)).\n\nWhy the claimed harm is overstated:\n1. **The inset is not half-buried.** The key action is fully visible: Ramayyan's hand, the stylus and its tip touching the board.\n2. **Ramayyan's balloon does not cover the inset.** Its top edge sits just below the inset's bottom border. Its tail reaches up into the inset to the stylus tip, which is the correct way to tag the speaker, since the inset shows Ramayyan's hand.\n3. **The speaker is not really unclear.** The tail points at no visible character, and Varma has his own \"[in Malayalam]\" balloon. The line also continues Nagoji's speech from 6.1 and 6.2. Pointing down toward the bottom border reads as the usual signal for an off-panel speaker.\n4. **The script allows this placement.** It only asks that the line sit with the inset, and a balloon overlapping an inset border is normal practice.\n\nWhat is left is a polish fix:\n- The tail is long, runs through the art, and stops on the map instead of crossing the border.\n- The balloon covers part of the inset's right side.\n- Fix: move Nagoji's balloon closer to the inset, and shorten the tail so it crosses the bottom border directly."
+   }
+  },
+  {
+   "page": 10,
+   "panel": "all rows",
+   "severity": "major",
+   "description": "The page grid is ragged. Each of the five rows is inset to a different width, and none fills the live area. The page has a stepped, pyramid outline unlike the approved Chapter 1 pages, which keep a full-width grid with at most one inset row.",
+   "evidence": "Measured row extents in px: 10.1 x 201-1636, 10.2 x 236-1600, 10.3 x 341-1495, 10.4 x 272-1565, 10.5 x 341-1495. The standard on ch01 r6 page 1 and on the other Chapter 6 pages is x 148-1688.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed. I measured r7/page-10.png (1838x2775) by scanning for the outermost non-cream pixels in each row band. The five rows come out at x 200-1630, 230-1600, 340-1490, 270-1560 and 340-1490, which matches the reviewer's figures. Every other Chapter 6 page in r7 has full-width rows at x 140-1680, with two exceptions: page 11 has one inset row (300-1530), and page 8 has three. Page 10 is the only page where no row fills the live area. Rows 10.3 and 10.5 lose about 386 px (about 1.3 in at print size), and the stepped, pyramid outline is plain at reading size. Nothing in the script allows it. The script asks for 10.2 to be 'Large, full width' and 10.5 to be 'Full width, bottom', and both are inset (by about 200 px for 10.2 and 386 px for 10.5). The layout solver's own data in chapters/ch06-split/LAYOUT-solved-s1.json records page_fill 0.75 for page 10. That is the lowest in the chapter (most pages are 0.98), so this is a compromise forced by the art's crop limits, not a deliberate design choice. The project has treated this as a defect before: the agents-build-log lists 'page 5 ragged widths' among the confirmed issues in the Chapter 1 r7 review. One small correction to the claim: page 8 also has inset rows, so 'the other Chapter 6 pages' is a slight overstatement. That does not change the finding for page 10. The severity is major, not blocker, because it is a layout problem confined to one page. Identity, lettering and story beats are not affected."
+   }
+  },
+  {
+   "page": 8,
+   "panel": "8.2-8.4",
+   "severity": "major",
+   "description": "Below a full-width 8.1, each of the next three rows is inset to a different width, so the page's left and right edges zig-zag. This does not match the Chapter 1 standard.",
+   "evidence": "Row extents in px: 8.1 x 148-1688, 8.2 x 241-1596, 8.3 x 217-1619, 8.4 x 265-1571.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "Confirmed, but I rate it minor, not major. I measured page-08.png at 300 DPI and the numbers match exactly. 8.1 spans x 148-1688, the full column. The next three rows are each centred but inset by a different amount: 8.2 spans 241-1596 (93 px, about 7.9 mm each side), 8.3 spans 217-1619 (69 px, about 5.8 mm) and 8.4 spans 265-1571 (117 px, about 9.9 mm). A crop of the left edge shows the borders stepping in, then out, then in again, about 2 mm and then 4 mm apart, across gutters only about 5 px wide. That is visible at print size.\n\nNothing allows this layout. The page 8 script has no width cue for these panels. The layout solver records only 0.85 fill for page 8, and its own notes treat panels narrower than the column as a fitting shortfall, not a style choice. The current Chapter 1 standard (ch01-v2/renders/r14) runs every row on all nine pages at the full 148-1688 width. Insets of this kind existed in the older ch01 r6 render and were removed in the rebuild.\n\nWhy minor: no art, lettering, identity or story beat is hidden or wrong. It is a page-geometry polish issue that a re-fit or re-crop fixes without redrawing. The same pattern appears on Chapter 6 pages 2, 10 (the worst, with insets up to 341 px) and 11, so the cause is the Chapter 6 layout fit, not this page alone."
+   }
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "major",
+   "description": "Ibrahim's first balloon ('As far as one can trust a man who owes you his life and hates the same enemies.') is squeezed into a narrow column of 10 lines with one to three words each. It is jammed against the left border and touches the top and bottom borders. This is hard to read and does not look like a speech balloon.",
+   "evidence": "The balloon is at about x 150-372, y 364-855, with lines such as 'As far as / one can / trust a / man who / owes you / his life / and / hates the / same / enemies.'",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I confirmed the problem but rate it minor, not major. In the original render (1838x2775), page 9, panel 9.1 has Ibrahim's first balloon (\"As far as one can trust a man who owes you his life and hates the same enemies.\") set as a tall, narrow pill of 10 lines with 1 to 3 words each. It bleeds off the panel's left, top and bottom borders, and its right edge nearly touches his raised left hand. That breaks the sentence into a choppy read and looks cramped next to the wide two-line balloon beside it. It is not a blocker or a major issue. The text matches the script's 9.1 line exactly, the type size and face match the other balloons and read clearly at print size, the tail points to Ibrahim's mouth, and the reading order works (left balloon, then \"Beyond that, trust is for priests.\"). It is still clearly a speech balloon; bleeding a balloon off the panel edge is a normal comics technique. The fix is polish: reflow the text into a wider, shorter balloon of about 4 to 5 lines in the upper left so it clears the borders."
+   }
+  },
+  {
+   "page": 12,
+   "panel": "12.2",
+   "severity": "major",
+   "description": "Ramayyan's second balloon ('He has spent too many lives to sit on that mat...') is a tall column of 9 lines with two or three words each. It runs to the right border and the bottom of the panel and covers Ramayyan's whole body below the chest.",
+   "evidence": "The balloon is at about x 1376-1685, y 771-1341, with lines such as 'He has spent / too many lives / to sit on that / mat. He does / ... / the gods / demand it.'",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I confirmed the problem from a crop of page 12 (original pixels 920-1695 by 355-1355). Panel 12.2 shows what the reviewer described. Ramayyan's second balloon is a narrow column of 9 lines with 2 to 4 words each, running from \"He has spent\" down to \"demand it.\" It sits at about x 1376-1685, y 771-1341, which leaves only about 5 to 15 px between it and the right and bottom panel borders. It covers Ramayyan from mid-chest down, including his lap, his hands and the edge of his low table. The script does not allow for this. The adaptation notes say pages 3 and 4 were split so that their lettering would not cover the art, so the author cares about this kind of overlap. At print size the balloon is about 1 inch wide and 1.9 inches tall, so it is easy to see. I rate it minor rather than major. Every word is legible and correct, and the tail points clearly at Ramayyan. Nothing the script asks for is hidden: his face, his look toward the man below and his white cloth at the shoulders are all visible, and the beat is spoken dialogue, not an action. The fix is to reflow the balloon wider and shorter, about 5 lines, and move it lower over the front of the platform, away from the panel border."
+   }
+  },
+  {
+   "page": 4,
+   "panel": "4.2",
+   "severity": "major",
+   "description": "The background of this large panel has a visible vertical stitching seam. The carved wall frieze is sharp to the left of the seam and blurred and offset to the right, with hard black edge lines where it breaks.",
+   "evidence": "The seam is at about x 1180, across the frieze bands at about y 1530-1660 and y 1880-1975. Two-thirds of the page shows mostly empty wall, so the break is easy to see.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 4, panel 4.2 (the large bottom panel). I zoomed in on the source PNG (1838x2775) and found a hard vertical compositing seam at about x 1180. In the upper carved frieze band (about y 1530-1660), the scrollwork left of the seam is crisp and high-contrast. Its thin black top and bottom border lines stop dead at x 1180. Right of the seam, the same frieze turns soft and blurred and does not line up with the pattern on the left. The plain wall above also changes texture at the same x: grainy noise on the left, smoother on the right. The lower frieze (about y 1880-1975) is blurred on both sides, so the break there is much harder to see, and the reviewer overstates that part. The upper-band break is still obvious, even at the downscaled full-page view, which is roughly print size (6.1 in wide at 300 DPI). The panel is mostly empty wall between the pointing hand and Nagoji's sleeve, which makes it stand out more. Nothing in the script or bible explains it; it is a render artifact, not a design choice. It does not touch identity, lettering or the story beats, and only a small background area needs fixing (redraw or blend the background behind the upper frieze). That makes it major, not a blocker."
+   }
+  },
+  {
+   "page": 1,
+   "panel": "1.2",
+   "severity": "major",
+   "description": "Both of Ibrahim's tails stab into his face: the first ends on his eye and the second on his cheek. The second balloon's body covers his ear, which is where the scar the panel is framed to show begins.",
+   "evidence": "Tail 1's tip is at about (1068,940), on Ibrahim's left eye. Tail 2's tip is at about (1083,970), on his cheek beside the scar. The balloon edge covers his ear and turban at about x 1150-1240.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "The claim holds up after zooming into page 1, panel 1.2 (crop of the area around x 980-1200, y 860-1060). Tail 1, from the \"Gifts. Information costs, bhau\" balloon, crosses Ibrahim's turban and brow and ends at about (1065,942), right on the inner corner of his near eye. That is his LEFT eye, since his head is turned to screen left. Tail 2, from \"When we reach the hall\", is a wide white wedge across his cheek with its tip at about (1080,969), near the corner of his moustache and just above where the scar becomes visible. The body of balloon 2 hides his ear and the side of his turban; only a small piece of earlobe shows below its edge. The script asks for the scar to \"read\" from his LEFT ear to the jaw. Only the lower part shows, as a faint thin line across the beard, so its start at the ear is covered. Both tails are noticeable even at full-page size, and the white wedge on the cheek looks like a cut in the face. The tails point to the right speaker, and the problem is limited to this one panel. Re-lettering fixes it with no redraw: end both tails in the open space above or beside the turban and move balloon 2 up or right, clear of the ear. That makes it major, not a blocker."
+   }
+  },
+  {
+   "page": 2,
+   "panel": "2.3",
+   "severity": "major",
+   "description": "Wrong speaker tails: both of Ibrahim's lines point at Nagoji, so Nagoji appears to name the king and the diwan and to remind himself about gifts.",
+   "evidence": "The tail of 'Marthanda Varma. And his diwan.' ends on the back of Nagoji's head, by his ear. The tail of 'Remember what I said about gifts.' rises from below and ends on Nagoji's shoulder and chest. Ibrahim's mouth, to the right behind Nagoji, gets neither tail.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed. I cropped page 2, panel 2.3 at full resolution (source pixels about 922-1688 x 987-1488) and the art shows the problem. The tail of \"Marthanda Varma. And his diwan.\" runs down and to the right and ends in the curls at the back and top of Nagoji's head, above his ear. It stops well short of Ibrahim, whose mouth is further right, behind the beard under the turban. The tail of \"Remember what I said about gifts.\" rises from the lower balloon and ends on Nagoji's neck and shoulder, at his collar. It also stops short of Ibrahim's beard and mouth. Both balloons sit on the left over Nagoji's profile, and nothing points at Ibrahim. At print size a reader takes both lines as Nagoji's. Neither the script nor the bible allows this. Both lines are scripted for IBRAHIM at 2.3, and the script's notes call 2.3 the place where Ibrahim names the king and the diwan. As lettered, Nagoji names the court he has never seen and reminds himself about gifts. The rubric lists a wrong speaker tail as major, so this is major and not a blocker. It needs a lettering fix only: extend or redirect both tails past Nagoji's head to Ibrahim's mouth, or move the balloons to the upper right above Ibrahim's turban. The art can stay as it is."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.1",
+   "severity": "major",
+   "description": "Wrong speaker tail: Ibrahim's second line is pinned to the bowing Nagoji, so Nagoji seems to introduce himself in the third person.",
+   "evidence": "The tail of 'He comes from Portuguese chains and storm water, and he carries knowledge of both.' points up at Nagoji's hip and bandaged left hand. Ibrahim stands at the far left with his hand out. Only the first balloon ('Your Majesty...') points at Ibrahim's mouth.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "Downgraded from major to minor. This is a lettering fix, not a misattribution. On page 3, panel 3.1 the tail of the second balloon (\"He comes from Portuguese chains...\") is short and stops at the screen-left edge of Nagoji's shirt-tail. That is at hip height, beside his hand, so the tip does sit on the wrong man. The claim fails on direction. I extended the tail's line upward: it runs past Ibrahim's gesturing hand and lands about 40px in front of his mouth, next to the first balloon's tail. So the tail leans up-left toward Ibrahim, not straight up at Nagoji. Nagoji is bowing with his back to the reader and his head far above the tip, so nothing ties the tail to his mouth. Three other things identify the speaker: the line is in the third person (\"He comes...\"), it follows Ibrahim's \"Your Majesty\" balloon, and Ibrahim's open hand presents Nagoji. A reader is unlikely to think Nagoji is introducing himself, and the script gives both lines to Ibrahim, which the page does. The fix is polish: lengthen the tail toward Ibrahim's mouth, or link the two balloons with a connector, so the tip no longer touches Nagoji at print size."
+   }
+  },
+  {
+   "page": 6,
+   "panel": "6.2",
+   "severity": "major",
+   "description": "Wrong speaker tails: both of Nagoji's hearsay lines point at figures inside the stain, so the padre and the musketeer appear to speak them. Nagoji, at the lower left, gets no tail.",
+   "evidence": "The tail of 'Our clerks said their padres walk ahead...' ends at the musketeer's hat and matchlock. The tail of 'We heard of rajas who signed...' ends at the padre's hand and hip. Nagoji sits at the bottom left, gesturing, with no balloon attached to him.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I could not refute this. On page 6, panel 6.2 (r7 render, area around x 1000-1300, y 1250-1650 at full size), both balloon tails are short wedges that end inside the stain. The tail of \"Our clerks said...\" ends in the haze just left of the musketeer's matchlock muzzle, above his hat. The tail of \"We heard of rajas...\" ends right at the padre's lowered right hand by his hip. Nagoji sits at the lower left, gesturing, and no tail reaches him. The script gives both lines to NAGOJI, and the cast for this panel is only nagoji and varma, so the padre and musketeer are silent hearsay figures. The tails do angle down-left, and extended they would roughly reach Nagoji's head. But they stop on the padre and the musketeer, and the padre is the panel's centred focal figure, so a reader's first reading is that he speaks the lines. The text works against that reading: a padre saying \"their padres\" is odd. The tails are large and plain at print size. The balloon layout is fine; only the two tails are wrong and need to be extended down to Nagoji. So this is a localized major problem (wrong speaker tail), not a blocker."
+   }
+  },
+  {
+   "page": 8,
+   "panel": "8.4",
+   "severity": "major",
+   "description": "Ramayyan's translation 'He says, perhaps.' points at Varma. This breaks the chapter rule that Varma's only lettered word is 'Ram.' and reads as the king speaking Konkani.",
+   "evidence": "The tail of 'He says, perhaps.' runs right and ends on Varma's shoulder and upper arm, not on Ramayyan, who sits further right. The next balloon, 'And he asks Ibrahim if he trusts you.', correctly points at Ramayyan.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I confirmed the flaw, but it is minor rather than major. On page 8, panel 8.4, the tail of \"He says, perhaps.\" runs right across Varma's upper arm and armlet. It stops on the red curtain just past his arm, roughly 80 px at 300 DPI (about 7 mm) short of Ramayyan's shoulder. At reduced print size the tip sits beside Varma's arm, not on Ramayyan, so the tail does fail to reach its speaker. I did not accept the claim that the king appears to speak Konkani or that the \"Ram.\" rule is broken. The line is in the third person (\"He says\"), which marks it as a translation. The panel opens with a separate \"[in Malayalam]\" balloon tailed to Varma, as the script's chapter convention requires (script line 73, with the 8.4 tag at lines 221-223). Panel 8.2 already sets up Ramayyan as the voice saying \"He says...\". The tail is also angled toward Ramayyan, and the next balloon in the same panel is tailed clearly to him. A reader is unlikely to give the line to Varma. The fix is a lettering tweak: extend the tail past Varma's arm so it ends on Ramayyan."
+   }
+  },
+  {
+   "page": 7,
+   "panel": "7.1",
+   "severity": "major",
+   "description": "Costume error: Nagoji wears a red waist sash. The script locks his look as bare-headed and unarmed with no sash (1.2, 12.4, 12.5 and the Visual locks).",
+   "evidence": "Nagoji sits cross-legged with his eyes closed, and a red-orange sash is wound around the waist of his cream shirt. It is clearly visible above his bandaged hands. No other present-day panel in the chapter shows it.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed. Page 7, panel 7.1 (/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch06-split/renders/r7/page-07.png) shows Nagoji seated cross-legged with a broad rust-red sash wound around the waist of his cream shirt, just above his bandaged hands. It is the brightest colour in the lower half of the panel, so it shows clearly at print size.\n\nNothing in the bible or the script allows it:\n- CONTINUITY.md, Nagoji's chapter 6 row: \"Village cotton dhoti and simple cream shirt, bare-headed, hair loose or tied back, hands still bandaged.\" No sash.\n- The script says \"no sash\" outright at 1.2, and \"NO sash\" at 12.4 and 12.5.\n- The script reserves the red sash for the 10.2 memory rider in Maratha cavalry dress, so that rider \"cannot be confused with the present-day figure in the same frame.\"\n\nThat last point matters here, because 7.1 also shows a memory scene behind Nagoji. Putting the commander's red sash on the present-day figure in that panel blurs exactly the distinction the script was protecting.\n\nIt also breaks continuity with the panels on either side. In 6.2 and 7.4 the same seated Nagoji wears his shirt loose over the dhoti with no sash. This is a localized costume error, so major rather than blocker: his face and identity are correct, and the panel's beat (eyes closed, the memory behind him) still reads."
+   }
+  }
+ ],
+ "refuted": [
+  {
+   "page": 3,
+   "panel": "3.1",
+   "lens": "lettering",
+   "description": "The tail of Ibrahim's second balloon ('He comes from Portuguese chains and storm water...') points up at Nagoji's bowing back, not at Ibrahim. Readers will take it as Nagoji introducing himself in the third person.",
+   "reason": "The tip measures where the reviewer said, at about (643,850) in original pixels, and it does touch the left edge of Nagoji's shirt hem and forearm. But it does not read as Nagoji speaking. (1) The tail slants up and to the left, away from Nagoji's head at about (850,590), which is up and to the right. Extending its centre line from the base at about (688,952) through the tip passes through Ibrahim's outstretched forearm at about (577,700) and comes within about 35 px of his mouth at about (500,600). (2) The text says \"He comes from...\", which names Nagoji in the third person. It also follows straight on from Ibrahim's first balloon, whose tail clearly reaches Ibrahim's mouth. (3) Ibrahim's mouth is open and his palm is held out toward Nagoji. Nagoji is bowed, head down, with his back to the reader. Seen at about one third of full size, roughly how the printed page reads, the tail looks like it points into the gap between the two men, leaning toward Ibrahim. The balloon does cover Nagoji's lower legs, but the bow still reads from his bent torso, so no beat is lost. What remains is a small fix: lengthen or angle the tail so the tip clears Nagoji's arm and stops nearer Ibrahim. That is not a major speaker-tail error."
+  },
+  {
+   "page": 2,
+   "panel": "2.3",
+   "lens": "lettering",
+   "description": "Both of Ibrahim's balloons ('Marthanda Varma. And his diwan.' and 'Remember what I said about gifts.') have tails that end on Nagoji, the listener, not on Ibrahim, who is whispering. The first balloon also breaks its line badly: 'Marthanda Varma. And / his diwan.'",
+   "reason": "I'm refuting this. I cropped panel 2.3 at full 300 DPI resolution (page crop 920,985 to 1690,1490, and a 2x zoom of 1200,1050 to 1560,1360). The coordinates in the report are about right. Tail 1 ends at about (1367,1135) on the back of Nagoji's head. Tail 2 ends at about (1400,1230) on the hair and collar at the back of his neck. The conclusion that the tails 'end on the listener' does not hold up, for four reasons. (1) Both tails point straight at Ibrahim's mouth and beard, at about (1435,1195). Extend either one and it hits him. Each tip stops only about 32 to 35 px short of Ibrahim's turban or beard, which is under 3 mm at print size, right at the seam between the two heads. (2) Both tips land on the back of Nagoji's head and neck. Nagoji is in strict profile facing screen left, with his mouth at about (1295,1200), on the opposite side of his head from both tips. Readers attribute a tail to the mouth it points at, not to the back of a head. (3) This is the whisper staging the script asks for ('Ibrahim at Nagoji's ear, lips barely moving'). Ibrahim's mouth sits directly behind Nagoji's head, and both balloons are on the left so that Ibrahim's face stays clear and the reading order works. So any tail reaching his mouth has to cross Nagoji, and the letterer's tips are about as close as this layout allows. Nagoji is visibly listening and Ibrahim is visibly leaning in to speak, so the attribution to Ibrahim is clear at print size. (4) The break 'Marthanda Varma. And / his diwan.' is awkward but fully readable. A break at the sentence boundary ('Marthanda Varma. / And his diwan.') would be nicer, but that is optional polish, not a lettering error. Nothing here is a major problem."
+  },
+  {
+   "page": 8,
+   "panel": "8.4",
+   "lens": "lettering",
+   "description": "The tail of Ramayyan's 'He says, perhaps.' ends on Varma's torso, so it reads as the king speaking it in Konkani. That breaks the chapter's rule that Varma only speaks in [in Malayalam] tags.",
+   "reason": "I cropped and zoomed page 8, panel 8.4. The tail of \"He says, perhaps.\" does not end on Varma's torso or chest. It is a long horizontal wedge pointing right, toward Ramayyan. Its tip is at about (1262,2315), on the red curtain just past the outer edge of Varma's upper arm and gold armlet, roughly level with Ramayyan's neck and shoulder. Ramayyan's body begins at about x 1340, so the tip stops about 78 px short of him. That is about 6.6 mm at 300 DPI. The tail points away from Varma's head, not toward it, and readers link a tail to the head it aims at, not to an arm it passes. Varma's own \"[in Malayalam]\" balloon has a tail running down to his mouth, which is the intended split. The words \"He says, perhaps.\" are third-person translator speech that the king could not be saying about himself. The next balloon, \"And he asks Ibrahim...\", has its tail clearly on Ramayyan, so the pair reads as his translation. Nothing in the art reads as Varma speaking in Konkani, so the major claim fails. At most this is a polish note: extending the tail about 80 px to touch Ramayyan's shoulder would remove any slight doubt."
+  },
+  {
+   "page": 10,
+   "panel": "10.2",
+   "lens": "lettering",
+   "description": "The tail of Nagoji's second balloon ('Someone who has watched their neat formations falter...') stops in the surf and horse legs, well short of the present-day Nagoji, so the memory rider could be taken as the speaker. The balloon also covers the lower right, where the Portuguese line is shown breaking, which is the key action. The tail of the first balloon stabs into Nagoji's forehead.",
+   "reason": "I'm refuting this as a major problem, but a minor polish issue remains. (1) The tail of balloon 2 does stop in the surf at about (869,1327). But it runs flat to the left at the height of present-day Nagoji's head, so a reader following it ends up on his face and chest. It doesn't point up toward the memory rider, who sits far above at about y 870. The first balloon has just tied the speech to present-day Nagoji. Also, the script makes the memory rider Nagoji himself before his capture, so even a misreading gives the line to the right character. That makes the speaker ambiguity cosmetic, not a misattribution. (2) Balloon 2 does not hide the key action. Directly above it you can still clearly see the Portuguese line breaking as the script asks: a musketeer in a broad hat recoiling with his matchlock, one fallen face-down, and others scattered out of order (crop x 950-1605, y 950-1190). The balloon covers mostly surf, the mare's lower legs and sand. (3) What remains is minor polish. The tip of balloon 1's tail does run into Nagoji's forehead, ending at his brow line (confirmed by zoom). Balloon 2's tail could also be longer so it reaches nearer his head. Neither affects who reads as the speaker or the beat, so neither needs a redraw before publication."
+  },
+  {
+   "page": 7,
+   "panel": "7.2",
+   "lens": "lettering",
+   "description": "Nagoji's two balloons overlap each other, and together they cover everything below his chin, including his hands. The right balloon runs to the panel's right border.",
+   "reason": "I zoomed in on page 7, panel 7.2 at full resolution, and the main claims of the finding are not true. First, the two balloons do not overlap. Their outlines only touch, with a hairline gap at about x 1345-1350 / y 700-800 on the original, and every line of text in both balloons is clear. Second, the balloons do not hide his hands. Nagoji's hands, gripping the cloth in his lap, show in the wedge below and between the two balloons (about x 1290-1400, y 770-900). His head, face, open eyes and shoulders are all visible, and his neck and the top of his chest show above the balloons. So the script beat for 7.2 ('Nagoji opening his eyes, answering the king directly') reads fully. Each tail points to his mouth and the reading order is clear (left balloon, then right). What is left is polish only. The two balloons are large and cover most of his torso. The right balloon's outer edge runs into the panel's right frame line (about x 1690). They also touch each other without the usual small gap. Making the balloons a little smaller, or nudging the right one in from the border, would help, but this is a minor issue, not a major one."
+  }
+ ],
+ "minors": [
+  {
+   "page": 8,
+   "panel": "8.4",
+   "severity": "minor",
+   "description": "Ibrahim faces almost straight at camera, so his left cheek should be visible, but no scar is drawn. The bible requires the scar.",
+   "evidence": "Small standing figure at screen left, face at roughly x 420-500, y 2230-2300. White turban, grey-flecked beard and teal coat are correct, but there is no mark from his left ear to his jaw.",
+   "lens": "identity"
+  },
+  {
+   "page": 6,
+   "panel": "6.2",
+   "severity": "minor",
+   "description": "A reddish-brown band, either a belt or a sash, shows at Nagoji's waist under his shirt hem. In chapter 6 he is unarmed and wears no sash, and the script spells out 'NO sash, NO belt' for his hip in 12.4.",
+   "evidence": "Seated Nagoji at lower left. A rust-brown strap runs across his lap between the shirt hem and the dhoti, at roughly x 520-620, y 1985-2010.",
+   "lens": "identity"
+  },
+  {
+   "page": 11,
+   "panel": "11.1",
+   "severity": "minor",
+   "description": "This is Ramayyan's only solo medium shot on the page, and the panel's top edge cuts his head off at the brow. That removes the receding hairline, which is his main identifying feature on the sheet. With a balloon on each side of his face, he reads as a generic thin man in white.",
+   "evidence": "The top border crosses his head at roughly y 360-400 (x 700-880). Only curly hair at the temples is left, and the bald crown is not shown.",
+   "lens": "identity"
+  },
+  {
+   "page": 12,
+   "panel": "12.2",
+   "severity": "minor",
+   "description": "Varma's turban is a pink or salmon colour here instead of the cream-and-gold of his sheet and every other panel in this chapter.",
+   "evidence": "Turban at roughly x 985-1180, y 440-600 has rose-tinted wraps. Compare the cream-and-gold turban in 11.4 and 9.4.",
+   "lens": "identity"
+  },
+  {
+   "page": 10,
+   "panel": "10.5",
+   "severity": "minor",
+   "description": "The top panel border cuts off Varma's turban, so the jewelled peacock-feather crest, which is a visual lock for every Varma panel in this audience, is out of frame.",
+   "evidence": "Small seated Varma at roughly x 750-830, y 2280-2330. Only a sliver of cream turban shows above his face before the border, and there is no crest or feather.",
+   "lens": "identity"
+  },
+  {
+   "page": 3,
+   "panel": "1",
+   "severity": "minor",
+   "description": "Ramayyan's position and props change within page 3. In 3.1 he stands behind the king's left shoulder holding a palm-leaf ledger, with no table. In 3.3, a beat later, he sits cross-legged on the floor beside the king, still with no table. His low table, established in 2.2 and 2.4 and back in 4.1, is missing from both panels.",
+   "evidence": "3.1: Ramayyan standing at upper right with stylus and ledger. 3.3: Ramayyan seated cross-legged at screen right beside Varma.",
+   "lens": "continuity"
+  },
+  {
+   "page": 2,
+   "panel": "5",
+   "severity": "minor",
+   "description": "Ramayyan and his low table are missing from the platform end of the hall. 2.1, drawn from the same entrance-end angle on the same page, shows him seated at his table at the king's left (screen right).",
+   "evidence": "2.5: only Varma, seated, and two standing guards are on the platform. 2.1: Ramayyan is visible at a small table at the screen right of the platform.",
+   "lens": "continuity"
+  },
+  {
+   "page": 8,
+   "panel": "4",
+   "severity": "minor",
+   "description": "Hall guards change uniform from panel to panel. On this page, the guards behind Ibrahim wear red turbans with red sashes, while in 8.1 the guard at the same open-side balustrade is bare-headed. Across the chapter the guards appear bare-headed with topknots (1.4, 7.1, 7.2, 7.4, 8.1, 12.1), in white turbans (3.1, 9.3, 11.5), in red turbans (6.3 attendant, 7.5, 8.4), and in white turbans with red crowns that read as Santa caps (11.2). Red turbans on background Indian men also blur the rust-red-turban cue reserved for Nagoji.",
+   "evidence": "8.4 left background: three guards in red turbans with crossed belts. 8.1: a bare-headed guard with crossed belts by the balustrade. 11.2 background: red-topped white caps.",
+   "lens": "continuity"
+  },
+  {
+   "page": 6,
+   "panel": "1",
+   "severity": "minor",
+   "description": "The Portuguese gunners on the Chaul bastion wear 16th-century kettle or morion helmets. That is an anachronism for the 1740s, and it contradicts the broad-hat, buff-coat Portuguese drawn in 6.2 on the same page and in 10.2.",
+   "evidence": "6.1 top left of the stain: four gunners in rounded combed steel helmets beside the cannon. 6.2: musketeer in a plumed broad hat and buff coat.",
+   "lens": "continuity"
+  },
+  {
+   "page": 11,
+   "panel": "2",
+   "severity": "minor",
+   "description": "The view through the open side shows a European colonial town, with a church bell tower and arcaded whitewashed villas under red tile roofs. It reads as Goa, not the Travancore inlet with its red laterite outer wall established in 1.3 and 9.3.",
+   "evidence": "11.2, left edge behind the 'He says I always see' balloon: a domed bell tower and colonnaded white houses among palms.",
+   "lens": "continuity"
+  },
+  {
+   "page": 9,
+   "panel": "1",
+   "severity": "minor",
+   "description": "Ibrahim's LEFT ear-to-jaw scar does not read. The script stages this panel so that light from the open side catches it, but the tail of the 'Beyond that, trust is for priests' balloon lands on his left cheek and hides it. He is also very small in frame.",
+   "evidence": "9.1: the balloon tail touches his face at the left jaw. No scar is visible on the uncovered part of his cheek.",
+   "lens": "continuity"
+  },
+  {
+   "page": 6,
+   "panel": "2",
+   "severity": "minor",
+   "description": "Varma's wrist jewellery changes between the hand-only shots, where it is the only thing identifying him. 4.2 shows a single broad engraved gold bangle. 6.2 shows a multi-strand gold-bead bracelet. 6.3 and 7.3 show plain gold bangles. 4.2 also leaves out the edge of his cream-and-gold cloth that the script asks for, so that hand could belong to anyone.",
+   "evidence": "6.2 right edge: beaded gold bracelet on the hand gripping the spear shaft. 4.2: a wide chased bangle on a bare arm with no cloth in frame.",
+   "lens": "continuity"
+  },
+  {
+   "page": 2,
+   "panel": "2",
+   "severity": "minor",
+   "description": "The sword beside Varma is a short, bright, brass-hilted blade with a gilt chape on the bare tip. It reads as a polished European hanger rather than a Kerala sword whose 'hilt [is] worn smooth by use rather than polished for show'.",
+   "evidence": "2.2: a gleaming gold grip and guard, and a brass chape on the unsheathed blade, lying on the red cushion beside the map.",
+   "lens": "continuity"
+  },
+  {
+   "page": 12,
+   "panel": "4",
+   "severity": "minor",
+   "description": "Nagoji's bandaged hand rests on the shirt over his hip, not on the plain knot of his dhoti below the shirt hem as the script specifies (the 12.5 hand is also on the shirt). The hip is correctly free of any weapon or sash.",
+   "evidence": "12.4: his fingers are spread on the cream shirt fabric at the waist. No dhoti knot is visible under the hand.",
+   "lens": "continuity"
+  },
+  {
+   "page": 11,
+   "panel": "11.2",
+   "severity": "minor",
+   "description": "The view through the open side shows a European-looking church belfry and whitewashed villas with red tiled roofs. Seen from the Travancore king's hall in the 1740s, this reads as a Portuguese or Goan colonial town.",
+   "evidence": "Page 11, panel 2, left edge, below the sky: a white bell tower with a small domed spire beside cream two-storey houses with orange tiled roofs and arcades.",
+   "lens": "rules"
+  },
+  {
+   "page": 12,
+   "panel": "12.3",
+   "severity": "minor",
+   "description": "Behind Nagoji the coast shows a Mediterranean-style town of whitewashed houses with red tiled roofs next to a European bastion. It reads as Goa or a Portuguese settlement, not a Travancore fort town. The same kind of white villas with red roofs also appears behind the fort wall at 9.3 and behind Ibrahim at the gate at 1.4.",
+   "evidence": "Page 12, panel 3, right half of the background: a cluster of white houses with orange tiled roofs among palms, above a squared stone bastion at the shore. Page 9, panel 3: two white houses with red roofs above the laterite wall. Page 1, panel 4: a white two-storey building with a red roof behind Ibrahim.",
+   "lens": "rules"
+  },
+  {
+   "page": 2,
+   "panel": "2.2",
+   "severity": "minor",
+   "description": "Through the open side, the background shows a European-style bastioned fort with a domed sentry turret (a garita). It reads as a Portuguese fort rather than the red laterite outer wall of the Travancore fort.",
+   "evidence": "Page 2, panel 2, left background between the pillars: a pale stone fort with a white cylindrical domed turret at the waterline, with European square-rigged ships beyond.",
+   "lens": "rules"
+  },
+  {
+   "page": 12,
+   "panel": "12.5",
+   "severity": "minor",
+   "description": "On the far headland there is a thin, tall, cylindrical tower that reads as an industrial chimney or a lighthouse, both anachronistic on the 1740s Travancore coast.",
+   "evidence": "Page 12, bottom panel, top right, just below and right of the caption box: a slim reddish stack standing well above the ruined buildings on the clifftop. It is clear when zoomed.",
+   "lens": "rules"
+  },
+  {
+   "page": 8,
+   "panel": "8.4",
+   "severity": "minor",
+   "description": "Behind the brass standing lamp there is a translucent glass vessel or chimney with a flame at its base. It reads as a glass lamp or lantern in a Kerala hall, which the standing rules forbid.",
+   "evidence": "Page 8, bottom panel, right of centre (about x=480 to 520, y=1730 to 1800 of the 1325-wide view): a clear, bottle-shaped glass cylinder on the lamp stand behind the brass nilavilakku, with a small flame at its foot.",
+   "lens": "rules"
+  },
+  {
+   "page": 8,
+   "panel": "8.4",
+   "severity": "minor",
+   "description": "The Travancore guards behind Ibrahim wear red turbans, white tunics, red crossed shoulder belts and red waist sashes. Together these read as a later uniformed sepoy look, not the script's \"white cotton with dark sashes\". They do not read as Portuguese, but the drift toward uniform is noticeable. Guards with similar red turbans and red sashes appear in the backgrounds of 7.4, 7.5 and 11.2.",
+   "evidence": "Page 8, panel 4: three spearmen at left and centre background in matching red turbans with red X-belts over white tunics. Compare page 1, panel 4, where the guards are bare-headed with dark sashes.",
+   "lens": "rules"
+  },
+  {
+   "page": 10,
+   "panel": "10.5",
+   "severity": "minor",
+   "description": "The top panel border cuts off Varma's turban, so the jewelled peacock-feather crest that the script requires in every audience panel does not show. Only the lower band of the turban is visible. (Outside the standing-rules lens, polish.)",
+   "evidence": "Page 10, bottom strip: Varma's head touches the top border, and the crest and feather are cropped out.",
+   "lens": "rules"
+  },
+  {
+   "page": 3,
+   "panel": "3.3 (and 6.3, 7.3, 8.1, 8.4, 9.3, 11.2, 11.4, 12.2)",
+   "severity": "minor",
+   "description": "The chapter's lettering convention calls for a small balloon holding only an italic tag. Every [in Malayalam] tag is instead set in upright roman type in a full-size balloon, so it looks like ordinary dialogue.",
+   "evidence": "In the 3.3 balloon at about x 1155-1405, y 1920-2045, the bracketed text is upright, the same weight and size as Ramayyan's lines. Every other [in Malayalam] balloon in the chapter is set the same way.",
+   "lens": "lettering"
+  },
+  {
+   "page": 7,
+   "panel": "7.3",
+   "severity": "minor",
+   "description": "VARMA (sharp) is lettered in a plain, smooth oval. This beat exists to show the king reacting before any translation, so it needs a jagged or burst balloon, or at least emphasis.",
+   "evidence": "The [in Malayalam] balloon at about x 860-1110, y 1025-1150 has the same shape as every calm Varma line.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.3",
+   "severity": "minor",
+   "description": "IBRAHIM (small, soft) is set as a large, full-size balloon that fills the lower left of the panel. It needs small or whisper lettering to match the stage direction.",
+   "evidence": "The balloon is at about x 45-580, y 1835-2165, which is far larger than the 'Gifts' balloons in 1.2, and its tail runs off the bottom border.",
+   "lens": "lettering"
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "severity": "minor",
+   "description": "The reading order is inverted. The caption 'I caught none of the words. Only the weight.' sits at the top left, so it is read before the king's [in Malayalam] balloon at the top right. The script order is Varma first, then the caption.",
+   "evidence": "The caption is at about x 225-770, y 480-575. The Varma balloon is at about x 945-1200, y 362-485, on the far right.",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.5",
+   "severity": "minor",
+   "description": "The second caption ('Somewhere farther still, Dutch hulls...') is set as a full-height column of 8 lines, flush against the panel's top, right and bottom borders. It reads as a white sidebar panel rather than a caption over open sky.",
+   "evidence": "The caption spans about x 1395-1688, y 2170-2525, which is the whole panel height.",
+   "lens": "lettering"
+  },
+  {
+   "page": 9,
+   "panel": "9.3",
+   "severity": "minor",
+   "description": "The [in Malayalam] tail points into empty sky by the pillar, well short of Varma. Ramayyan's first balloon cuts off the tip of Varma's peacock-feather crest. Ramayyan's face is pinched between two tails, one in his forehead and one in his chin.",
+   "evidence": "The Malayalam tail tip is at about (528,973). Varma's face is at about (900,1080). The first Ramayyan balloon's left edge (about x 1020, y 870-1060) overlaps the feather at about x 1000-1040.",
+   "lens": "lettering"
+  },
+  {
+   "page": 11,
+   "panel": "11.1",
+   "severity": "minor",
+   "description": "The top border cuts off the top of Ramayyan's head. His face is boxed in between two balloons, and the left balloon cuts into the side of his face. The tail of 'You could help shape that.' ends in empty space near the boats, not on him.",
+   "evidence": "The left balloon's right edge at about x 725 reaches Ramayyan's cheek and ear (face at about x 710-870, y 360-500). The third tail's tip is at about (980,650).",
+   "lens": "lettering"
+  },
+  {
+   "page": 2,
+   "panel": "2.1, 2.4 rows",
+   "severity": "minor",
+   "description": "Rows alternate between inset and full width, so the left and right page edges are ragged. Chapter 1 uses at most one inset row per page.",
+   "evidence": "Row extents in px: 2.1 x 178-1659, 2.2/2.3 x 148-1688, 2.4 x 174-1663, 2.5 x 148-1688.",
+   "lens": "lettering"
+  },
+  {
+   "page": 7,
+   "panel": "7.5",
+   "severity": "minor",
+   "description": "The panel's left border cuts Varma's face in half, and the 'Ram.' balloon sits on his mouth. The mouth-twitch beat is cramped against the edge.",
+   "evidence": "Varma's face starts at the border, at about x 925. The 'Ram.' balloon is at about x 1035-1180, y 1930-2045.",
+   "lens": "lettering"
+  },
+  {
+   "page": 4,
+   "panel": "4.1",
+   "severity": "minor",
+   "description": "The two 'I did.' balloons are stacked almost touching. The second one sits on Nagoji's chest and arm, and its tail stabs into his chin.",
+   "evidence": "The second 'I did.' balloon is at about x 1510-1660, y 560-675, over Nagoji's torso. Its tail tip is at about (1572,515).",
+   "lens": "lettering"
+  },
+  {
+   "page": 8,
+   "panel": "8.2",
+   "severity": "minor",
+   "description": "The tail of the first balloon ends in Ramayyan's eye. The second balloon covers almost all of Varma's body and his spear hand behind Ramayyan.",
+   "evidence": "Tail 1's tip is at about (1185,1285), at the corner of Ramayyan's eye. Balloon 2 is at about x 660-1205, y 1430-1610.",
+   "lens": "lettering"
+  },
+  {
+   "page": 5,
+   "panel": "5.1",
+   "severity": "minor",
+   "description": "The script calls this panel 'Small', but the close-up of Varma takes more than half of the page. This makes a passing glance the dominant image and flattens the page's rhythm.",
+   "evidence": "Panel 5.1 spans y 358-1466, which is 1108 of the 2167 px of live area.",
+   "lens": "lettering"
+  },
+  {
+   "page": 2,
+   "panel": "2.2",
+   "severity": "minor",
+   "description": "The silent reveal of the king is scripted as 'Large' but is drawn as a half-width tier the same size as the whisper panel next to it, which weakens the chapter's key reveal.",
+   "evidence": "Panels 2.2 and 2.3 share one row at equal widths. Panel 2.1 above is the largest panel on the page.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.3",
+   "severity": "minor",
+   "description": "The script asks for 'the largest panel on the page' to establish the fort. It is drawn as a half-width box, much smaller than 1.2. Ibrahim's '(small, soft)' line is set in a full-size standard balloon.",
+   "evidence": "Panel 1.2 (the riders) fills a full-width tier about 520 px tall. Panel 1.3 shares a row with 1.4 at half width. The 'This is only one claw...' balloon is a large normal balloon, with its tail pointing off panel to the lower left.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 3,
+   "panel": "3.3",
+   "severity": "minor",
+   "description": "Lettering convention: '[in Malayalam]' is meant to be a small balloon holding an italic tag. It is set in roman type in a normal balloon here and at every later instance (6.3, 7.3, 8.1, 8.4, 9.3, 11.2, 11.4, 12.2).",
+   "evidence": "Zoomed, the 3.3 tag '[in Malayalam]' is upright, not slanted. Compare the clearly italic vow captions at 12.4. The 7.3 '(sharp)' line also uses a plain smooth balloon.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.1",
+   "severity": "minor",
+   "description": "Panel 5.1 is scripted as 'Small' but fills the top half of the page, which squeezes 5.2, the action beat (Ramayyan points with his stylus as Nagoji sits).",
+   "evidence": "The Varma close-up runs from y\u2248260 to 1055 in the 2000 px display, about half the page. 5.2 takes the rest.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "minor",
+   "description": "The planned scar beat is lost. The script builds the hall plan so that sea light 'catches the scar along his LEFT jaw', but no scar reads. The shot is also a small full-figure long shot, not the scripted medium.",
+   "evidence": "Zoomed, Ibrahim's face shows no scar. The tail of 'Beyond that, trust is for priests.' lands on his left cheek and jaw, where the scar should be. He is drawn head to sandals, small in the frame.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 8,
+   "panel": "8.2",
+   "severity": "minor",
+   "description": "The scripted 'low angle from floor level ... looking up past [the platform's] edge' is drawn at roughly eye level. A balloon covers most of Varma, the second figure the script asks for.",
+   "evidence": "No platform edge appears in the foreground. The balloon 'Yet your own masters failed to keep you from their dungeons.' covers Varma's torso and the hand holding the upright spear. Only his face shows above it.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 8,
+   "panel": "8.3",
+   "severity": "minor",
+   "description": "An awkward crop: the top border cuts through Nagoji's brow, so the scripted beat 'he does not drop his eyes' sits right on the panel edge.",
+   "evidence": "Zoomed, the panel's top line crosses just above Nagoji's eyes. The top of his head and his forehead are out of frame, while the lower half of the panel is mostly balloons and lap.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 10,
+   "panel": "10.5",
+   "severity": "minor",
+   "description": "Crop: Varma's turban is cut by the top border, so the jewelled peacock-feather crest that the script repeats in every Varma panel is out of frame.",
+   "evidence": "In the narrow bottom strip, only the lower band of the turban shows above Varma's brow. The feather and jewel are cropped away. The spear taps, the motion ticks and the bird on the parapet are all present.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 10,
+   "panel": "10.4",
+   "severity": "minor",
+   "description": "The script asks for 'Dark rafters and open hall space above him for the balloons'. Instead, Nagoji's head touches the top border and a balloon overlaps the back of his head.",
+   "evidence": "The top of Nagoji's hair is cut by the panel's top line. The right balloon 'I can show your riders...' overlaps his ear and the back of his head. There is no rafter space above him.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 11,
+   "panel": "11.4",
+   "severity": "minor",
+   "description": "Panel 11.4 is scripted 'Full width' to plant the Chapter 7 shore clearly, but it is drawn as an inset narrower than the page's other tiers.",
+   "evidence": "The panel spans x\u2248220 to 1105, against 108 to 1217 for the full-width tiers 11.1 and 11.5 above and below it.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 11,
+   "panel": "11.5",
+   "severity": "minor",
+   "description": "The scripted 'high' shot from the entrance end is drawn at eye level. Varma sits on a carved high-backed chair rather than on the platform mat, which works against 12.2's 'too many lives to sit on that mat'.",
+   "evidence": "The camera is level with the seated men. Behind Varma is an ornate dark wooden throne-chair back with armrest. In every other hall panel he sits cross-legged on a mat.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 12,
+   "panel": "12.4",
+   "severity": "minor",
+   "description": "The hand placement differs from the script, which puts the bandaged hand on the plain knot of the cotton dhoti, below the hem of the cream shirt.",
+   "evidence": "The hand rests on the shirt fabric at the waist and hip. The shirt hangs well below the hand, and no dhoti knot is visible. The hip is correctly free of any weapon or sash.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.3",
+   "severity": "minor",
+   "description": "Nagoji's off-panel line was meant to sit 'in the inset'. Instead, its long tail drops down into the map near Varma's pointing hand, which muddles who speaks.",
+   "evidence": "'And their infantry do not know what to do with sudden horse on the flank.' sits beside the inset, and its tail runs down to the bottom border on the map's coastline, just left of Varma's finger.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 10,
+   "panel": "10.2",
+   "severity": "minor",
+   "description": "The second line of Nagoji's speech points into the memory scene rather than at the present-day Nagoji.",
+   "evidence": "The tail of 'Someone who has watched their neat formations falter...' ends in the splash at Kanka's hooves. Present-day Nagoji sits at the lower left, so a reader could take the memory rider as the speaker.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.2",
+   "severity": "minor",
+   "description": "Ibrahim's balloon tails stab into his face. One lands in his eye, and the other's tip sits on the cheek where his scripted LEFT-jaw scar should read.",
+   "evidence": "Zoomed, the tail of 'Gifts. Information costs...' ends at Ibrahim's right eye. The tail of 'When we reach the hall...' ends on his left cheek, just above the faint scar line.",
+   "lens": "fidelity"
+  }
+ ]
+}

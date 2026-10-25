@@ -1,0 +1,61 @@
+{
+  "measurements": [
+    {
+      "frame_id": "page-02-panel-04",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        43.36082474226803,
+        109.31701030927836,
+        196.19845360824746,
+        14.387886597938135
+      ],
+      "lines": [
+        "Too far to reach. Too close to ignore."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 98.53845360824747,
+        "top": 3.2739432989690673,
+        "bottom": 3.2739432989690673
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          -0.02,
+          -1.79,
+          95.64,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        5.063943298969067
+      ]
+    }
+  ],
+  "pixels": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 1,
+    "lines": [
+      {
+        "frame_id": "page-02-panel-04",
+        "text": "Too far to reach. Too close to ignore.",
+        "source_pixel_rect": [
+          51,
+          232,
+          563,
+          273
+        ],
+        "light_fraction": 1.0
+      }
+    ]
+  }
+}

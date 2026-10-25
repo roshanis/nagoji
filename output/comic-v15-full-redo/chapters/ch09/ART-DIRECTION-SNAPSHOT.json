@@ -1,0 +1,144 @@
+{
+  "status": "draft",
+  "prompt_profile": "v2",
+  "chapter": 9,
+  "settings": {
+    "estate_road": {
+      "label": "Padmini's estate road and Velinadu approach",
+      "scopes": ["kerala", "coast"],
+      "anchor": "Padmini Amma's estate road and gate, low green hills, flooded channels and pepper gardens.",
+      "absent": "No foreign fort, bastions, ships or European buildings.",
+      "time": "pre-dawn to morning light"
+    },
+    "velinadu": {
+      "label": "Velinadu Kovilakam",
+      "scopes": ["kerala", "court"],
+      "anchor": "Velinadu Kovilakam inside its low red laterite and earth ring, with tiled roofs, broad trees and verandahs. Any banners are plain cloth with no emblem.",
+      "absent": "No towering walls, no bastions, no foreign fort, ships or European buildings.",
+      "time": "morning light"
+    },
+    "verandah": {
+      "label": "Velinadu side verandah",
+      "scopes": ["kerala", "court"],
+      "anchor": "the stone side verandah of Velinadu Kovilakam, pillars, red-earth courtyard beyond the step and an inner doorway. Anyone seated here sits on a woven grass mat on the stone floor.",
+      "absent": "No chairs, benches or stools. No foreign fort, bastions, ships or European buildings.",
+      "time": "morning light"
+    },
+    "verandah_cellar_bleed": {
+      "label": "Velinadu verandah with cellar memory bleed",
+      "scopes": ["kerala", "court"],
+      "anchor": "the stone side verandah of Velinadu Kovilakam, pillars, red-earth courtyard beyond the step and an inner doorway. Anyone seated here sits on a woven grass mat on the stone floor.",
+      "absent": "No chairs, benches or stools. Outside the specified memory bleed, no foreign fort, ships or European buildings.",
+      "time": "morning light"
+    },
+    "verandah_deccan_bleed": {
+      "label": "Velinadu verandah with Deccan memory bleed",
+      "scopes": ["kerala", "court"],
+      "anchor": "the stone side verandah of Velinadu Kovilakam, pillars, red-earth courtyard beyond the step and an inner doorway. Anyone seated here sits on a woven grass mat on the stone floor.",
+      "absent": "No chairs, benches or stools. Outside the specified memory bleed, no coast, palace, foreign fort, ships or European buildings.",
+      "time": "morning light"
+    },
+    "cellar_memory": {
+      "label": "Goa cellar memory bleed",
+      "scopes": ["portuguese"],
+      "anchor": "a damp stone cellar in Portuguese Goa, with a slit window and an open ledger.",
+      "absent": "No banners, crowd, open courtyard or modern writing.",
+      "time": "dim slit-window light"
+    },
+    "deccan_memory": {
+      "label": "Deccan memory bleed",
+      "scopes": ["deccan"],
+      "anchor": "dry Deccan black-soil fields of green jowar below flat-topped basalt hills.",
+      "absent": "No coast, palace, foreign fort, ships or European buildings.",
+      "time": "desaturated memory light"
+    },
+    "hall_night": {
+      "label": "Velinadu hall after dark",
+      "scopes": ["kerala", "court"],
+      "anchor": "the outer steps and lit doorway of the Velinadu hall, with the dark courtyard beyond.",
+      "absent": "No daylight, foreign fort, ships or European buildings.",
+      "time": "night, open clay and brass oil lamps"
+    }
+  },
+  "pages": {
+    "1": "estate_road",
+    "2": "velinadu",
+    "3": "verandah",
+    "4": "verandah",
+    "5": "verandah",
+    "6": "verandah",
+    "7": "verandah",
+    "8": "verandah",
+    "9": "verandah",
+    "10": "verandah",
+    "11": "hall_night"
+  },
+  "panels": {
+    "page-01-panel-01": {"time": "pre-dawn, grey sky"},
+    "page-01-panel-02": {"time": "morning mist lifting", "distant": true},
+    "page-01-panel-03": {"time": "morning light"},
+    "page-01-panel-04": {"time": "morning light"},
+    "page-01-panel-05": {"setting": "velinadu", "time": "morning light"},
+    "page-02-panel-01": {"time": "morning light"},
+    "page-02-panel-02": {"time": "morning light"},
+    "page-02-panel-03": {"time": "morning light"},
+    "page-02-panel-04": {"setting": "verandah", "time": "morning light"},
+    "page-02-panel-05": {"setting": "verandah", "time": "morning light"},
+    "page-03-panel-01": {"time": "morning light"},
+    "page-03-panel-02": {"time": "morning light"},
+    "page-03-panel-03": {"time": "morning light"},
+    "page-04-panel-01": {"time": "morning light"},
+    "page-04-panel-02": {"time": "morning light"},
+    "page-04-panel-03": {"time": "morning light"},
+    "page-04-panel-04": {"time": "morning light"},
+    "page-04-panel-05": {"time": "morning light"},
+    "page-05-panel-01": {"time": "morning light"},
+    "page-05-panel-02": {"setting": "verandah", "time": "morning light", "sheets": false, "lettering_space": "Keep the tight forearm insert cropped to the arm and leave only a small clear edge for off-panel lettering."},
+    "page-05-panel-03": {"time": "morning light"},
+    "page-05-panel-04": {"setting": "verandah_cellar_bleed", "bleed": "Memory bleed only: a damp Portuguese Goa cellar with the clerk's hand and ledger enters softly at the panel edge. Keep the present verandah and Nagoji's face dominant.", "time": "morning light"},
+    "page-05-panel-05": {"time": "morning light"},
+    "page-06-panel-01": {"time": "morning light"},
+    "page-06-panel-02": {"time": "morning light"},
+    "page-06-panel-03": {"time": "morning light", "frame": "tall", "lettering_space": "Stack the lettering areas down one side while keeping both heads clear."},
+    "page-06-panel-04": {"time": "morning light"},
+    "page-06-panel-05": {"time": "morning light"},
+    "page-07-panel-01": {"time": "morning light"},
+    "page-07-panel-02": {"time": "morning light"},
+    "page-07-panel-03": {"time": "morning light"},
+    "page-07-panel-04": {"time": "morning light"},
+    "page-07-panel-05": {"setting": "verandah_deccan_bleed", "bleed": "Memory bleed only: a desaturated, grey-washed, soft-edged Deccan field and distant smoke column enters behind Nagoji. Keep it visibly different from a clean flashback frame.", "time": "morning light"},
+    "page-08-panel-01": {"time": "morning light"},
+    "page-08-panel-02": {"time": "morning light", "sheets": false},
+    "page-08-panel-03": {"time": "morning light"},
+    "page-08-panel-04": {"time": "morning light"},
+    "page-08-panel-05": {"time": "morning light", "lettering_space": "Leave the upper third clear for lettering and keep all faces below it."},
+    "page-09-panel-01": {"time": "morning light"},
+    "page-09-panel-02": {"time": "morning light"},
+    "page-09-panel-03": {"time": "morning light"},
+    "page-09-panel-04": {"time": "morning light"},
+    "page-09-panel-05": {"time": "morning light", "frame": "strip"},
+    "page-10-panel-01": {"time": "morning light"},
+    "page-10-panel-02": {"time": "morning light"},
+    "page-10-panel-03": {"setting": "velinadu", "time": "late afternoon, low warm light", "bleed": "Inset only: Nagoji's bare feet on red earth and his boots on the verandah step remain part of the Velinadu compound, with no separate location."},
+    "page-10-panel-04": {"setting": "velinadu", "time": "late afternoon, low warm light", "frame": "tall", "lettering_space": "Leave the open sky above Nagoji clear for lettering."},
+    "page-10-panel-05": {"setting": "hall_night", "time": "night, oil lamps"},
+    "page-11-panel-01": {"setting": "hall_night", "time": "night, oil lamps"},
+    "page-11-panel-02": {"setting": "hall_night", "time": "night, oil lamps"},
+    "page-11-panel-03": {"setting": "hall_night", "time": "night, oil lamps"},
+    "page-11-panel-04": {"setting": "hall_night", "time": "night, oil lamps"},
+    "page-11-panel-05": {"setting": "hall_night", "time": "night, oil lamps", "lettering_space": "Keep the foreground figure clear for Revathi's lettering tail."}
+  },
+  "character_notes": {
+    "nagoji": "Chin and jaw cleanly shaved, smooth skin, no beard. On the earlobe a tiny flush gold stud with nothing hanging from it.",
+    "padmini": "Her hair is thick and BLACK with no grey at all. Muted earth-toned silk sari, the old Kerala drape with no stitched blouse; a sword with a worn leather-wrapped hilt at her right side.",
+    "revathi": "Deep indigo sari shot with gold, the end over her LEFT shoulder covering the chest, her RIGHT shoulder bare; braid looped with jasmine; a necklace of flat gold coins; gold armlets; a gold anklet; a thin sandalwood line at the hairline; kohl; no tali.",
+    "ibrahim": "His scar runs from the LEFT ear to the jaw, a thin pale line. Nothing on his forehead."
+  },
+  "not_shown": {
+    "page-02-panel-02": ["ramayyan"],
+    "page-06-panel-04": ["nagoji"],
+    "page-08-panel-02": ["nagoji"],
+    "page-09-panel-01": ["nagoji"],
+    "page-10-panel-02": ["revathi"]
+  }
+}

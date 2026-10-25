@@ -1,0 +1,312 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 8,
+  "logs": [
+    "chapter 19: 2 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-faces2",
+    "▸ running dynamic workflow v15-keep",
+    "[v15-keep] chapter 19: keep regions for 2 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 19: face zones for 2 frames, 1 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 19,
+        "decisions": [
+          {
+            "id": "page-03-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "Minor only. The thumb presses flat on a folded sheaf held in the fist on his white-mundu lap, not on paper laid flat, but the script beat reads clearly: the ridged nail catches the light and the setting matches the courtyard (dappled shade on the stone platform, white mundu, consistent with 3.1 and 4.1). The knuckle is only slightly pale. The ink marks on the paper are soft, blurred smears with no legible glyphs, which fits the 'smeared, seen through tears' treatment in 3.1. The forearm shown is the outer side, so the inner-left scar is correctly out of view. Both captions can go in the top band of dappled stone platform and the upper right above the paper, clear of the thumb and nail. v01 (full face, a second man, kalari background, wide framing) and v02 (legible pseudo-script on the paper) are not listed as candidates and were not considered.",
+            "correction": ""
+          },
+          {
+            "id": "page-09-panel-05",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [
+              {
+                "x": 0.643,
+                "y": 0.195,
+                "r": 0.13
+              }
+            ],
+            "backup_faces": [],
+            "issues": "Minor only: the grey at the temple is a fairly broad streak, and there is light tonal shading along the jaw, but the chin reads clean-shaven with no beard. The brand on the inner left forearm cannot be seen because the raised left arm shows its outer side, which is fine at this framing. Everything else matches: thick curled moustache, small gold ear stud, high Kerala topknot with no turban, plain white mundu and shoulder cloth, silver chain, and the ivory conch-handled knife at the waist. He is standing on the laterite-plinth verandah under tiled eaves, with his fingers at the wick of a brass lamp in the wall niche beside the door. The flame lights his face warmly and there is a low moon over palms and glinting channels. The art has no text. The open night sky at upper left gives plenty of space for both captions.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 19,
+        "result": {
+          "chapter": 19,
+          "panels": [
+            {
+              "id": "page-03-panel-04",
+              "version": "v03",
+              "faces": []
+            },
+            {
+              "id": "page-09-panel-05",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.679,
+                  "y": 0.212,
+                  "r": 0.06,
+                  "who": "moustached man lighting lamp, three-quarter profile facing right, centre-right"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 19,
+        "result": {
+          "chapter": 19,
+          "panels": [
+            {
+              "id": "3.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.4,
+                  "y0": 0.38,
+                  "x1": 0.7,
+                  "y1": 0.65,
+                  "what": "Nagoji's thumb pressed flat on the letter paper, knuckle and ridged nail catching the light"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "9.5",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.85,
+                  "y0": 0.11,
+                  "x1": 0.975,
+                  "y1": 0.31,
+                  "what": "Nagoji's hand turning up the wick of the small brass lamp in the wall niche, flame rising"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch19 p3",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a89f6ad82592412f4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510293503,
+      "queuedAt": 1791510293496,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 3 of Chapter 19 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch19/page-03.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791510319290,
+      "tokens": 68201,
+      "toolCalls": 8,
+      "durationMs": 25787,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-03-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"Minor only. The thumb presses flat on a folded sheaf held in the fist on his white-mundu lap, not on paper laid flat, but the script beat reads clearly: the ridged nail catches the light and the setting matches the courtyard (dappled shade on the stone platform, whi…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch19 p9",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ac88cc91a0431665f",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510293503,
+      "queuedAt": 1791510293496,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 9 of Chapter 19 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-r3-ch19/page-09.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791510332309,
+      "tokens": 71881,
+      "toolCalls": 15,
+      "durationMs": 38806,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-09-panel-05\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[{\"x\":0.643,\"y\":0.195,\"r\":0.13}],\"backup_faces\":[],\"issues\":\"Minor only: the grey at the temple is a fairly broad streak, and there is light tonal shading along the jaw, but the chin reads clean-shaven with no beard. The brand on the inner left forearm cannot be seen because the raised left arm s…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "mark ch19 p3",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "abaeadfd8b74b24ec",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510332320,
+      "queuedAt": 1791510332315,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510335583,
+      "tokens": 59328,
+      "toolCalls": 2,
+      "durationMs": 3263,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-04\",\"version\":\"v03\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "mark ch19 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ac1cb88383285dcb5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510332320,
+      "queuedAt": 1791510332315,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510349509,
+      "tokens": 61542,
+      "toolCalls": 6,
+      "durationMs": 16547,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.684,\"y\":0.213,\"r\":0.057,\"who\":\"moustached man lighting lamp, three-quarter profile facing right, centre-right\"}]}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "keep ch19 p3",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "afdf1268b0214f908",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510332329,
+      "queuedAt": 1791510332324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 3 of chapter 19 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-19-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510339310,
+      "tokens": 60448,
+      "toolCalls": 3,
+      "durationMs": 6981,
+      "resultPreview": "{\"panels\":[{\"id\":\"3.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.4,\"y0\":0.38,\"x1\":0.7,\"y1\":0.65,\"what\":\"Nagoji's thumb pressed flat on the letter paper, knuckle and ridged nail catching the light\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "keep ch19 p9",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "ae09753e8922f5c05",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510332329,
+      "queuedAt": 1791510332324,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 9 of chapter 19 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-19-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510348982,
+      "tokens": 61854,
+      "toolCalls": 6,
+      "durationMs": 15899,
+      "resultPreview": "{\"panels\":[{\"id\":\"9.5\",\"version\":\"v03\",\"keep\":[{\"x0\":0.85,\"y0\":0.11,\"x1\":0.975,\"y1\":0.31,\"what\":\"Nagoji's hand turning up the wick of the small brass lamp in the wall niche, flame rising\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "check ch19 p3",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a5aa58462b68a6aac",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510335584,
+      "queuedAt": 1791510335583,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510338863,
+      "tokens": 59408,
+      "toolCalls": 2,
+      "durationMs": 3279,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-03-panel-04\",\"version\":\"v03\",\"faces\":[]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "check ch19 p9",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a4e5c25229d41975b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791510349510,
+      "queuedAt": 1791510349510,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791510367213,
+      "tokens": 60746,
+      "toolCalls": 5,
+      "durationMs": 17703,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-09-panel-05\",\"version\":\"v03\",\"faces\":[{\"x\":0.679,\"y\":0.212,\"r\":0.06,\"who\":\"moustached man lighting lamp, three-quarter profile facing right, centre-right\"}]}]}"
+    }
+  ],
+  "totalTokens": 503408,
+  "totalToolCalls": 47
+}

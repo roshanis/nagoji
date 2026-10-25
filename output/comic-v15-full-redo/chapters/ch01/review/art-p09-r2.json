@@ -1,0 +1,32 @@
+{
+  "chapter": "01",
+  "page": 9,
+  "base_review": "art-p09.json",
+  "frames": [
+    {
+      "id": "page-09-panel-04",
+      "source_id": "page-09-panel-04",
+      "source_path": "../frames/page-09-panel-04-v15-r1.png",
+      "source_sha256": "bd81d5da7477a465815c4bd5a0d799a1bc2509a7f15c708c00c16a4b5d359e40",
+      "path": "../frames/page-09-panel-04-v15-r2.png",
+      "sha256": "bb67a383f7c9bc658ddfd4b809b9d5bb11f9ae4e4de6aca70b6484ef9fe6a217",
+      "width": 1873,
+      "height": 840,
+      "visible_rect": [16,12,1865,816],
+      "reserves": [
+        {"kind":"caption","rect":[50,100,488,285],"copy_indices":[0]},
+        {"kind":"caption","rect":[50,330,488,445],"copy_indices":[1]},
+        {"kind":"caption","rect":[50,682,650,780],"copy_indices":[2]},
+        {"kind":"caption","rect":[1220,682,1820,780],"copy_indices":[3]}
+      ],
+      "prompt_path": "../prompts/page-09-panel-04-v15-r2.txt",
+      "origin": "regenerated",
+      "correction": "Replaced dangling gold ornaments with one tiny flush gold ear stud, preserving every other panel element and the actual blank caption boxes.",
+      "references_sha256": ["bc270c0540427de10c753c9a8a6cc3eaa293c0aaba5e4d6e468c2b99134e2be0"]
+    }
+  ],
+  "inspection": {
+    "other_page_9_nagoji_frames": "9.1 and 9.3 inspected; no clear dangling jewelry requiring regeneration.",
+    "blank_reserves": "Preserved at the generated 1873 x 840 coordinates above."
+  }
+}

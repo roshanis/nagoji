@@ -1,0 +1,335 @@
+{
+ "chapter": 3,
+ "decisions": [
+  {
+   "id": "page-01-panel-01",
+   "pick": null,
+   "backup": null,
+   "issues": "All four candidates are the same composition, and all four fail. (1) Setting: the right third of every frame opens the hold to the storm. There is a lit lattice or grating overhead with daylight, waves are breaking and spray is pouring in over barrels and the lower pens. This beat has the storm felt only through the ship's motion, and the hold must be closed. (2) Anatomy: an extra unbandaged, manacled hand comes out from under Nagoji's right knee at the lower left, where his right foot should be. It reads as a third hand, and it belongs to no visible body. (3) In v01 and v02 Nagoji's left forearm is bare between elbow and bandage. v03 and v04 correctly drape the torn tunic flap over it. (4) The rags on the man at far left (and some dhoti spots) carry red-brown blotches that read as bloodstains. What works: Nagoji's face, moustache, clean chin, gold stud, collar, bandaged wrists, the pen chain rising at a slant to the overhead ring, and the two blank caption boxes top-left and top-right in reading order.",
+   "correction": "Keep the composition, the hard tilt, the warm lantern lighting, Nagoji's crouched pose, face, moustache, gold ear stud, collar and bandaged manacled wrists, the torn ochre tunic flap draped over his left forearm (as in v03), the pen chain rising at a slant to the ring on the overhead beam, and the two blank caption boxes at top-left and top-right. Fix these: the hold is a fully enclosed space below decks, so the right-hand background must show only more plank-shelf pens of chained prisoners, curved hull ribs and planking, and a dim hanging lantern receding into darkness. There is no grating, window, hatch or opening to sky or sea anywhere, no daylight, no waves, no spray and no water pouring in. The storm is felt only through the tilt of the image and the bodies sliding against each other. At the lower left beside Nagoji's right knee draw his bare right foot with an iron ankle cuff and its short hobble chain resting on the plank, and draw no hand there. Nagoji has exactly two hands, both bandaged at the wrists under the manacles, and every other hand in the frame clearly belongs to a visible prisoner. All stains on rags and dhotis are grey-brown grime and soot, never red or blood-coloured."
+  },
+  {
+   "id": "page-01-panel-02",
+   "pick": "v03",
+   "backup": "v02",
+   "issues": "v03 is acceptable with minor notes. The balloon tail aims at Keshavrao's head near his ear rather than squarely at his mouth, but it plainly belongs to him and nowhere near Nagoji. The ragged tunic reads as having torn sleeves on both of Nagoji's arms, though this does keep his left forearm covered as the bible requires. The pen chain runs fairly straight across at chest height, but it does sag slackly between the two collar rings. v02 is the same shot but has no pen chain linking the collars (the rings are empty), and Nagoji's left forearm is partly bare above the bandage. v01 is rejected: it is set on the open deck in the rain with two guards, not in the pen in the hold.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-03",
+   "pick": "v02",
+   "backup": "v03",
+   "issues": "Minor: the two jagged balloons sit side by side rather than overlapping as the script suggests. They read correctly left then right, and their tails point toward the running boot shadows on the planks (speakers above). Grey light in the seams and the drips match the beat. v03 is the same art with oversized balloons that cover most of the deck underside. v01 is rejected: the plank gaps are wide open to the sky and show sailors' legs, boots and rigging, so the closed hold is open to the deck.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-04",
+   "pick": "v01",
+   "backup": "v02",
+   "issues": "Minor: the guard's raised hand grips the edge of the canvas awning rather than the hatch frame, which reads as him dragging the awning across. The script allows this, since the awning is dragged across at this moment. The steel helmet is a brimmed cabasset-style morion. Otherwise the guard matches: lean, dark-bearded, soaked buff leather jerkin, cross-belt over a shirt, flintlock musket, no red or blue coat. Both tails aim at his mouth, and the balloons run in order: the upper-left one for the short first line, the lower-right one for the long second line. v02 has the same art, but its first balloon is badly oversized for an eight-word line and covers more of the ladder and musket.",
+   "correction": ""
+  },
+  {
+   "id": "page-01-panel-05",
+   "pick": "v01",
+   "backup": null,
+   "issues": "Minor: the flintlock's lock detail is slightly soft. The beat is correct. It keeps the same angle, hatch, awning and ladder as 1.4. Only a flung five-fingered hand and a boot sole show at the rim, no guard is in the hold, and the musket tumbles down the ladder toward camera. The single caption box at top-left is clear of the hand, the boot and the musket.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-01",
+   "pick": "v09",
+   "backup": "v08",
+   "issues": "v09 is clean. Nagoji matches the sheet: curled moustache, clean chin, gold ear stud, ochre tunic, cream dhoti, bandaged wrists, and his left forearm is under the tunic flap. Keshavrao matches too: short hacked hair, faint moustache, grey-brown tunic, no stud. Both are in collars, with the pen chain running collar to collar through the side rings. It keeps the warm lamp-lit hold look of page 1, and it is the only candidate where Nagoji and Keshavrao both look at the musket, as the beat asks. The two blank captions sit top-left then top-right, clear of the faces. Minor gaps: no ladder is drawn, and the musket lies in front of the right-hand post rather than against it. v05, v07 and v08 are the same scene, but Nagoji looks up and away from the musket. v08 is the backup for that reason only. v01 is rejected: Nagoji's collar has no pen chain through it, and a chain hangs vertically from an overhead ring. v02 and v04 are rejected: Nagoji wears an ochre lower garment and has no visible collar. v03 has no musket, and v06 is set on an open deck in daylight, so both are rejected.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-02",
+   "pick": "v05",
+   "backup": "v03",
+   "issues": "All of v01, v03, v04 and v05 use the same art: the second guard's morion and shoulders against the rain at the hatch, back turned, shouting to the deck and never looking down. None has text. v05 has the best balloons: two outlined blanks, left then right, in reading order, both tails reaching into the hatch opening and pointing at the guard's head. His mouth is hidden because he faces away, so the head is the right target. v05 has black letterbox bars, but its recorded visible_rect [0,195,2043,577] trims them, and the compositor fits that strip into the shallow row. Backup v03: its first tail stops at the hatch frame and its second balloon is oversized, but the order and the size of each balloon suit the lines. v01's small right balloon is probably too small for the longer second line. v04's balloons are oversized for their lines. v02 is a daylight quayside scene and is rejected.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-03",
+   "pick": "v06",
+   "backup": null,
+   "issues": "v06 is the only candidate whose balloons run in script order. Keshavrao's balloon is higher, at top right, with its tail to his mouth. Nagoji's balloon is lower, between the two men, with its tail to his mouth. Both are clear of faces. Identities, collars, pen chain, bandaged wrists, hobble chains and bare feet are all correct, and Nagoji's left forearm is covered. Nagoji looks up toward the hatch. Keshavrao looks down toward the foot of the ladder, where the musket lies. Weaknesses that stop short of rejection: it is a medium full-figure two-shot, not a true close shot, and the two sit well apart instead of shoulder to shoulder as in 2.1. The seawater threading past their feet shows only as a wet sheen, with no distinct rivulets. The background timber is a little synthetic. v01, v03, v04 and v05 all put Nagoji's balloon left and level with Keshavrao's, so his line would be read first, which is the wrong order. v01, v03 and v04 are also 1.5:1 in a slot of about 2.5:1, and their collar chains drop to the wrists instead of running collar to collar. v02 is rejected: an armed guard in boots stands in the hold.",
+   "correction": ""
+  },
+  {
+   "id": "page-02-panel-04",
+   "pick": "v05",
+   "backup": "v04",
+   "issues": "v05 is clean. The musket lies on the floor against the beam, stock left and barrel right, the same orientation as 2.1. A small curl of water wraps its stock. The companionway ladder rises beyond it to grey storm light, matching the ladder in the chosen 2.3. It has one outlined blank caption at top left, clear of the musket, and no text. Its visible_rect [0,187,1976,575] trims the black letterbox to about 5.1:1, which matches the narrow bottom strip exactly. The water reads as a shallow sheet rather than a 'thin current', but that is acceptable. Backup v04 is the same art without the crop. At about 2.4:1 it would be pillarboxed in the strip. v03 is similar, with an oversized caption. v01 is acceptable in content, but the musket rests on a raised block and the view up the stair opens onto masts and rigging. v02 is a different scene, with a brand and letters on an arm, and is rejected.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-01",
+   "pick": null,
+   "backup": null,
+   "issues": "v01: wrong aspect (1536x1024 for a 3:1 strip); the hatch is open to the storm with water pouring down the ladder; hatted sailors at the top and a guard wading inside the hold (1.5 says no guard enters). v02: the caption box (about 360x80 px) is far too small for the 55-character caption; the hold is flooded chest-deep with floating barrels, not knee-deep; no collars; mid-shot with large foreground figures, not a distant wide. v03: same as v04, and it also lacks the collar fix. v04: the best of the set but still not acceptable. On the right a breaking wall of sea water as tall as the ceiling fills several bays with no hull planking behind it, so the hull reads as breached or open to the sea (the plank only bows at 4.1). The water is not a knee-deep surge. Large, detailed foreground figures instead of a distant wide shot. No pens or plank shelves. All prisoners but one lack the iron collar, and chains run to wrists and waists rather than collar to collar.",
+   "correction": "Keep the warm lantern-lit hold of v04 (heavy timber posts, overhead beams, hanging lanterns, barrels lashed along the sides, the same palette as page 2), the men thrown off balance, and the chains whipping sideways. Pull the camera far back to a true distant wide shot from one end of the hold, looking down the length of the rows. Show plank shelves along both hull sides, split into pens by upright boards, with four or five men in each pen. Every figure is small in frame, with no foreground figure and no face larger than a thumbnail. Tilt the whole image hard as the ship heels. Both hull sides are intact, closed planking, with no opening to the sea or sky and the hatch closed. Every prisoner wears a rigid iron collar, and each pen chain runs collar to collar through the side rings, snapping sideways along the rows and never upward. Men are lifted off the planks mid-slide. Shallow seawater, knee-deep at most, sheets sideways across the floor between the pens as a low surge with spray, never a wall of water and no floating barrels. No guards or sailors anywhere. Reserve exactly one blank outlined caption box in the top-left corner, large enough for a 55-character two-line caption (about 40% of the panel width) and clear of all heads."
+  },
+  {
+   "id": "page-03-panel-02",
+   "pick": null,
+   "backup": null,
+   "issues": "v02 has the right beat: Nagoji's forearms are hooked over the overhead timber with his manacled wrists together, he is shouting, the ochre flap covers his left forearm, and the men beside him copy the grip. But the second balloon's tail points down at the young man (Keshavrao) to his right, not at Nagoji's mouth. The balloons are square boxes where page 2 uses ovals. The neighbour's wrists are bandaged, though Keshavrao's hands are bare. The ear stud is dark and barely visible. v03: the second tail points at the neighbour's hands; Nagoji's hands grip the timber far apart instead of forearms hooked with wrists together; a bright window of storm light at the right. v06: Nagoji is not shouting (mouth closed), his hands are far apart pushing the beam, and both tails point at his raised hands, not his mouth. v04, v05, v07, v08: the timber is at chest height, not above his head. v04 and v05 put a white under-tunic on Nagoji, v07 and v08 do not show him shouting, and v08 has tail-less boxes. v01: outdoors before a fort wall with sky and guards.",
+   "correction": "Keep v02's composition exactly: the lantern-lit hold; Nagoji left of centre with both forearms hooked over the overhead timber and his manacled wrists together with the short wrist chain between them; mouth open, shouting down the line to his right; the ragged ochre tunic flap covering his left forearm; clean-shaven chin, thick curled moustache, and a small gold ear stud clearly visible on his earlobe. Keep the three men to his right copying the grip. Draw his collar chain drooping slack from the ring at the side of his collar toward his neighbour, not hanging down his chest. Give the young grey-tunic man beside him bare, unbandaged wrists under his manacles, with his mouth closed. Replace the two square boxes with exactly two blank oval speech balloons, both on the left side of the panel, both tails ending at Nagoji's open mouth. Balloon 1 sits in the top-left corner. Balloon 2 sits just below and slightly right of it, still left of Nagoji's face. No balloon or tail over or near the men to his right, and both balloons clear of every face and of the hands on the timber."
+  },
+  {
+   "id": "page-03-panel-03",
+   "pick": "v05",
+   "backup": null,
+   "issues": "Minor only. A thin black frame border is painted inside the image (crop it off at placement). Nagoji's wrist chain runs longer than a forearm and tangles with his collar chain where it meets Keshavrao's cuff. A small pale window-like patch of light at the extreme top-left edge. Otherwise sound: the lantern-lit hold matches page 2; Nagoji on the left has a gold stud, clean chin and bandaged hand clamped on Keshavrao's forearm, with his left forearm covered by bandage; Keshavrao on the right is in grey-brown rags with a faint moustache, a collar with side chain and bare hands, reaching for a barrel as he slides; the chain clangs against his cuff; no text areas, as the script calls for. Rejected: v02 and v03 show Keshavrao without his iron collar, and v03 also has a bright storm window; v04 puts Nagoji in a white tunic with a red sash; v01 is set on the open deck with guards.",
+   "correction": ""
+  },
+  {
+   "id": "page-03-panel-04",
+   "pick": null,
+   "backup": null,
+   "issues": "Both lines belong to Nagoji. In v04, v06 and v01 the second balloon's tail points to Keshavrao. v01 is also set against a stone wall with a barred window onto the sea, not the ship's hold. v05 uses tail-less caption boxes for speech, and its figures hold the overhead beam instead of sitting in a tight two-shot. v02/v03 (one image) is a wide shot with three boxes and no tails. v06 (the closest) has the heads far apart, no water streaming down them, and a dry setting. v04 has the arms up on the beam rather than faces close.",
+   "correction": "Keep v06's setting and costumes: the warm lantern-lit hold with timber posts and barrels; Nagoji in ochre rags with a gold ear stud, clean-shaven chin and thick curled moustache; Keshavrao in grey-brown rags with a faint moustache; both in iron collars joined by the pen chain between their side rings. Reframe as a tight two-shot from mid-chest up, heads a hand's width apart. Nagoji on the left leans in and speaks low toward Keshavrao's ear, lips slightly parted. Keshavrao on the right listens with his mouth closed. Seawater streams down both faces and through their hair, dripping from the beams. Keep Nagoji's left forearm covered by the torn tunic flap or out of frame. Place exactly two blank oval speech balloons on the LEFT half of the panel only, clear of both faces. Balloon 1 goes in the top-left corner and balloon 2 just below and slightly right of it. Both tails end at Nagoji's mouth. No balloon, and no tail, above or near Keshavrao."
+  },
+  {
+   "id": "page-03-panel-05",
+   "pick": null,
+   "backup": null,
+   "issues": "This is the only candidate. It has the right face, framing and three balloons in reading order, but: (1) the lightning shows through a wide open slot in the wall with sky, cloud, a drawn bolt and rain spray, so the closed hold reads as open to the sky, where the script asks for flicker through the hatch seams. (2) The lightning does not light half his face; the face is evenly lit in warm tones. (3) The collar ring hangs at the front centre with no pen chain; the bible calls for a side ring with the chain through it. (4) Nagoji's off-panel balloon points off the right edge, but Nagoji sits to Keshavrao's left in 3.3 and 3.4, so screen direction flips. (5) A painted frame border inside the image.",
+   "correction": "Keep v01's close framing of Keshavrao alone, with his face, short ragged hair, faint moustache, wide frightened eyes, grey-brown torn tunic and the dark gloomy hold planking behind him. Remove the open slot, the sky, the drawn lightning bolt and the rain. Instead, show thin blue-white lines of light cutting through the narrow seams between the closed hatch planks overhead, and let that cold flash light exactly one half of his face (the side toward frame right) while the other half stays in deep shadow. Draw his hinged iron collar with its ring at the SIDE of his neck and the pen chain drooping from that ring out of frame to the left, with no ring hanging at the front. Nagoji sits off-panel to Keshavrao's left, as in the previous panel, so place Keshavrao's head right of centre with his eyes turned toward frame left. Use exactly three blank oval speech balloons, clear of his face, in this order. Balloon 1: top-left, tail to Keshavrao's mouth. Balloon 2: middle of the left side, tail running off the LEFT frame edge. Balloon 3: lower right, tail to Keshavrao's mouth. No painted frame border."
+  },
+  {
+   "id": "page-04-panel-01",
+   "pick": null,
+   "backup": null,
+   "issues": "None of the 10 candidates is acceptable. v01 is framed well over the shoulder, but the background is open to the sky, with rigging and open sea, so it reads as the deck rather than the closed hold. It also shows studs in both ears, and Keshavrao has no collar. v02 and v03 are side-by-side two-shots, not over the shoulder. v02 is also the wrong aspect for this half-width slot. In both, one balloon tail points to Keshavrao, but he does not speak in this panel (both lines are Nagoji's). v05, v08 and v09 have the right framing, but the upper-left balloon's tail points down to the back of Keshavrao's head (wrong speaker), and Nagoji shows studs in both ears. v10, v11, v12 and v13 have only ONE blank balloon for two lettering lines. None of the candidates clearly shows the plank at the end of the pen bowing inward.",
+   "correction": "Keep the v13 composition exactly: over Keshavrao's shoulder, with the back of his short ragged head, his iron collar with its side ring and his grey-brown torn tunic in the left foreground. Nagoji crouches in the centre of the CLOSED timber hold, jaw set, eyes level on Keshavrao, one bandaged manacled fist wrapped round the drooping pen chain. Seawater bursts through the plank seams, the left forearm stays covered by the ragged ochre sleeve, the chin is clean-shaven, the moustache thick and curled, and only ONE small gold ear stud shows (the other ear hidden by his curls). Change the lettering reserves to exactly TWO blank white oval speech balloons, both spoken by Nagoji, with nothing painted inside them. Balloon 1 is small, in the upper centre, above Nagoji's head and to the right of Keshavrao's head, with its tail running down to Nagoji's mouth. Balloon 2 is about twice the size, at the right edge and lower than balloon 1, with its tail pointing left to Nagoji's mouth. No balloon sits over Keshavrao or has a tail toward his head, because Keshavrao is silent. Behind Nagoji, the upright plank at the end of the pen visibly bows inward under the sea's pressure, with spray bursting from its seams over both men. No sky, no open hatch, no rigging."
+  },
+  {
+   "id": "page-04-panel-02",
+   "pick": "v01",
+   "backup": null,
+   "issues": "Acceptable with minor notes. Keshavrao matches his sheet: short ragged wet hair, faint moustache, soft young face, grey-brown torn tunic, iron collar, no stud. He is wet and has the ghost of a smile. There is one blank balloon at upper right, clear of his face, and no text. Minor points: (1) The tail tip stops beside his ear, but it points along a line into his face and mouth, and he is the only figure in the panel. The letterer can lengthen it toward the mouth. (2) The background is a warmer, brighter plank wall than the storm-dark hold in 4.1. That is tolerable and close to the warm palette of 4.4 and 4.5. (3) The collar ring is at the front rather than the side, with a chain hanging down from it. (4) There is a faint tuft under the lower lip. (5) The frame has a painted black border line near the image edges. The crop to the roughly 1.16:1 half-width slot (about x 312 to 1500 at native size) keeps the face and the whole balloon and should drop most of that border.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-03",
+   "pick": null,
+   "backup": null,
+   "issues": "v01 shows the hatch wide open to a stormy sky, with lightning and rain pouring straight into the hold. The script calls for lightning only through the gaps around a closed hatch cover, and a closed hold is never open to the sky. v02 and v03 have good staging (a grated hatch cover flashing overhead, men clinging to posts with the whites of their eyes showing, one blank caption box at top right). But both put a woman in a head wrap and a young girl among the prisoners. The script and the novel have only chained men in the pens (\"men clinging to beams and to each other\"; \"six men to a length of iron\"). Most figures also lack the hinged collars and the collar-to-collar pen chains that are fixed for this chapter, and the hold has no plank shelves or pens.",
+   "correction": "Keep the v03 composition and lighting exactly: a wide, low view of the cramped timber hold under the deck beams, and one blank outlined caption box at top right with nothing painted inside it. The hatch cover stays CLOSED. A single harsh white-blue lightning flash shows only as thin bright lines through the cracks around the hatch cover and the plank seams: no visible sky, no open hatch, no rain falling into the hold. Figures are adult men prisoners only (no women, no children), mostly South Asian men of varied age and build in grey, brown and off-white rags, packed onto plank shelves along the hull that are divided into pens by upright boards. Every man wears a rigid hinged iron collar with a ring at the side, wrist manacles on a short chain, and ankle cuffs on a short hobble chain. One slack pen chain runs collar to collar through the side rings along each shelf; no chain hangs vertically above a head. Freeze them like a portrait: men clinging to the beams, posts and each other, mouths open, the whites of their eyes catching the flash. Do not draw Nagoji or Keshavrao recognisably."
+  },
+  {
+   "id": "page-04-panel-04",
+   "pick": "v02",
+   "backup": null,
+   "issues": "Acceptable. The camera looks straight up at the underside of the deck. The planks bow downward under the blow, water and grit pour through the seams, the beams and hull timbers stay whole, and there are no figures, text or sky. Two blank jagged shout balloons follow the script order: the first at upper left (before the impact) and the second at lower right (after it). Both are tailless because the sailors are off panel above, which is correct since there is no on-panel mouth to point to. Notes: both balloons bleed off the frame edges (the first off the top and left, the second off the right and bottom). The frame is 2.96:1 against the slot's roughly 3.45:1, so trim the height evenly, about 50 px from top and bottom, and confirm that both lines still fit. v01 is rejected because both balloon tails point at prisoners in the hold, not at off-panel sailors, and bright gaps in the ceiling read as openings.",
+   "correction": ""
+  },
+  {
+   "id": "page-04-panel-05",
+   "pick": null,
+   "backup": null,
+   "issues": "None of the 4 candidates is acceptable. The first line belongs to a PRISONER behind them, but v01 and v02 point the first balloon's tail at Nagoji. v03 and v04 point it off panel to the left, and no prisoner is drawn at all in v02, v03 or v04. v01 has a gasping prisoner, but its stone masonry walls and barred window read as a dungeon, not a ship's hold. v02 leaves Nagoji's hands unbandaged. v03 bandages Keshavrao's hand, but his lock has thin unbandaged hands. In all four, Keshavrao points with a raised arm, which strains his short wrist chain, where the script has his chin jerked upward. In v02, v03 and v04 the iron ring hangs empty, with no pen chain rising to it, so \"The ring\" loses its meaning before page 5. v04 is otherwise closest: correct hold, waist-deep water, Nagoji's look, Keshavrao shouting into his ear.",
+   "correction": "Keep the v04 composition, palette and characters exactly. The wooden hold is under low deck beams, with water waist-deep and pouring through a hull seam at right, and chains dragging heavy through the water. Nagoji is on the LEFT: bandaged hands, clean-shaven chin, thick curled moustache, one small gold stud, iron collar, left forearm covered. Keshavrao is on the RIGHT with unbandaged thin hands, shouting into Nagoji's ear. Make four changes. (1) Add one clearly visible gasping prisoner, an adult man in rags with a hinged iron collar and manacles, chest-deep in the water just behind and between the two men, left of centre, mouth wide open. (2) The first blank balloon, upper left, has its tail pointing to that prisoner's open mouth, not to Nagoji and not off panel. The second blank balloon, upper right, has its tail pointing to Keshavrao's mouth. Both stay blank, clear of the faces and of the ring. (3) Keshavrao does NOT raise an arm or point. His manacled hands stay low near the water on the short wrist chain, and he jerks his chin sharply upward toward the ring. (4) The iron ring is bolted into a beam overhead, off to one side at upper right, and the pen chain rises to it at a slant out of the water, not hanging vertically above any head. Show dark cracks in the wood around its bolts. No stone walls, no barred windows, no sky."
+  },
+  {
+   "id": "page-05-panel-01",
+   "pick": "v02",
+   "backup": null,
+   "issues": "v02: minor points only. The bolts have hex-head nuts, which look slightly modern (1730s nuts were usually square) but read at a glance as period ironwork. The off-panel NAGOJI line has a tailless rectangular reserve, which is acceptable for off-panel speech. The 3:2 frame crops to the 1.77:1 half-width slot from the bottom without touching the reserve or the ring. v01 is rejected because palm trees, daylight and a fence show behind the beam, so the closed ship's hold is open to the outdoors.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-02",
+   "pick": null,
+   "backup": null,
+   "issues": "No candidate is acceptable. v01 is set outside the ship on open sea under sky, with guards on deck. v02 has a photoreal style that clashes with the page, chains running from wrists up to the overhead ring above the prisoners' heads, no collars, and a bearded lead figure. v03 comes closest, but the 'ring' is an open J-hook with no chain attached, so the chain already looks free (this breaks 5.4 and 5.5, where the ring still holds the chain on its last bolt), and the right side reads as the sea surging through a breached hull. v04 has the ring's chain taut on a diagonal from overhead down to Keshavrao's collar, which is an upward neck pull, and it does not sag into the water. v05 shows the hull smashed open to a rainy sky, with a near-vertical chain from the ring to the last prisoner's collar. v06 has the right intact hold, but the ring's chain drops steeply from overhead onto the bald prisoner's collar above his head, which reads like a noose and is taut, not sagging.",
+   "correction": "Keep v06's lantern-lit closed hold, with whole hull planking and water coming in only through the deck seams. Keep the row of five collared, manacled prisoners in waist-deep water, Nagoji first on the left and Keshavrao second, all jerked sideways toward the right, and keep the wide blank caption box at upper left. Fix the ring and chain. The ring is a closed round iron ring, not a hook, fixed under the beam at the far right edge of the frame, beyond and to the right of the last prisoner and not above anyone's head. It has torn half out of the cracked, splintered wood in a spray of splinters and now hangs askew from one remaining bolt. The pen chain is still attached to the ring. From the ring it falls slack straight down into the water at the right edge, clear of every head, then sags in a low curve along the water's surface and runs level through the side rings of the prisoners' collars at shoulder height. No chain may rise from any collar, wrist or head toward the ceiling, and no chain may run taut or diagonally above any prisoner. The right side of the hold shows no smashed hull, no open sea and no sky."
+  },
+  {
+   "id": "page-05-panel-03",
+   "pick": "v05",
+   "backup": "v04",
+   "issues": "v05 is clean: the flooded, lantern-lit hold matches 4.5 and 5.4. Nagoji has a thick curled moustache, a clean chin, a tiny gold stud, bared teeth, a collar with side ring, bandaged and manacled wrists, and his left forearm covered. The prisoners cry out in hope, and the single balloon's tail points to his mouth. One small note: rain shows through a gap in the timbers at the upper-left background, which is acceptable after the mast strike in 4.4. v04 is the same shot but gives him a dangling gold drop rather than a small stud, and his right hand is less bandaged. v01 and v02 are rejected: a stone dungeon with a barred window onto palms and daylight, plus a guard in the room. v03 has a dry floor and bright windows, which does not match the flooded hold of 4.5.",
+   "correction": ""
+  },
+  {
+   "id": "page-05-panel-04",
+   "pick": null,
+   "backup": null,
+   "issues": "No candidate is acceptable. v01 is outdoors, with guards and a fort. In v02 and v03 the second balloon's tail points to Keshavrao, but both lines are Nagoji's, and the ring sits on a low block in the foreground instead of a deck beam. v05's second balloon has no tail and sits over Keshavrao. v06, v07 and v08 have only one balloon for two lines. v06 through v09 all hang a V of chain from the overhead ring down to both collars, an upward pull on their necks that the script forbids. v04 has the right cast, poses and balloons (two stacked, both tailed to Nagoji), but its ring is intact on a clean bracket (not torn and hanging on its last bolt, as 5.2 sets up), and a separate chain dangles from that ring straight down beside Nagoji's head, unconnected to the chain they are hauling. So the beat, the ring at the far end of the chain they pull, is not shown.",
+   "correction": "Keep v04's composition: a low camera at water level, Nagoji seated on the left and Keshavrao on the right in the lantern-lit flooded hold, both leaning back with heels braced against a plank of the pen, their manacled fists round the heavy pen chain. Keep the two stacked blank balloons at upper left, both tails pointing to Nagoji's mouth. Fix the ring and chain. Remove the intact ring behind them and the chain hanging from it beside Nagoji's head. The chain in their fists must be the one that leads to the ring. It runs level from their fists toward the camera, then rises at a shallow slant to the upper foreground edge of the frame. There the same round iron ring from panels 5.1 and 5.2 hangs askew from a deck beam, torn half out of cracked, splintered wood and held by a single last bolt. Behind their fists, the slack end of the chain passes loosely through the side rings of both collars and sags down into the water between them, never rising above collar height. No chain runs above either man's head or pulls up on a neck, and all the strain shows in their fists, forearms and shoulders."
+  },
+  {
+   "id": "page-05-panel-05",
+   "pick": "v03",
+   "backup": "v02",
+   "issues": "v03 is acceptable and fits the wide 2.47:1 row. Nagoji (curled moustache, clean chin, gold stud) is on the left and Keshavrao on the right. Both have empty collars with side rings, manacled wrists and hobbled ankles. The loose chain slides into the water between them with a splash, both stare upward, and there are no text reserves (a silent panel). Minor points: Keshavrao's hands are bandaged and his moustache is a little fuller than the faint one on his sheet, and the hold recedes deeper than in neighbouring panels. v02 is equally clean in content, but its 3:2 frame cannot be cropped to the 2.47:1 row without losing heads or feet. v04 and v05 hide the ankle hobbles underwater. v01 is rejected: four blank caption boxes in a no-text panel.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-01",
+   "pick": null,
+   "backup": null,
+   "issues": "No candidate is acceptable. v03, v04 and v05 put Nagoji on the left and Keshavrao on the right, with one balloon over each at the same height. Read left first, the first balloon goes to Nagoji, but the first line is Keshavrao's \"Others.\" The script also asks for both balloons at the left. v06 stacks both balloons at the upper left in the right order, but the top balloon's long tail runs behind Nagoji's head: its first segment seems to point at him, and it ends on Keshavrao's shoulder, not his mouth. v01 and v02 have the correct balloon order, but they show no other prisoners, so the beat about the others (one section's chain dropping free, the next ring holding fast while its men stare) is missing. They also show a merely wet deck instead of the flooded hold of 5.4 and 6.2. None of the six shows a chain dropping free or men staring after the pair. All six move the rings onto a waist-high log in place of the overhead beam used on page 5.",
+   "correction": "Keep the lamp-lit, flooded hold and the chained background prisoners from v05/v06, with the water knee- to thigh-deep. Keep both men in empty hinged collars, with bandaged hands on Nagoji, wrist chains and short hobble chains. For this panel only, put Keshavrao in the LEFT foreground and Nagoji just to his right, both at the left end of the beam as they start along it. The iron rings are bolted into the same overhead beam as on page 5, with pen chains rising to them at a slant; the two men reach up to wrench at a ring and kick at the upright pen boards. In the right half of the frame, one neighbouring pen's chain has just dropped free and splashes into the water as its men rise. In the next pen the ring holds fast in sound timber, and those men strain and stare after the pair. Put exactly two blank oval speech balloons in the upper LEFT quarter. Balloon 1 is highest and leftmost, with a short tail ending at Keshavrao's mouth. Balloon 2 sits slightly lower and to the right of balloon 1, still in the left half, with a short tail ending at Nagoji's mouth. Neither tail may cross or pass behind any figure. Along the bottom, over the water, put two blank rectangular caption boxes with no tails, the first bottom-left and the second bottom-right. Keep every box clear of faces, hands and the freed chain."
+  },
+  {
+   "id": "page-06-panel-02",
+   "pick": null,
+   "backup": null,
+   "issues": "No candidate is acceptable. In every version the third balloon (Nagoji: \"If we stay, we may drown before they can load\") sits at the bottom centre. Its tail points up into the water between the two men, far from Nagoji's mouth, so it could be read as either man's line. v01 and v02 also leave Keshavrao without his collar and manacles. From v04 onward, blue daylight sky and clouds show through the hatch, which does not fit the night storm and awning of 1.4 or the lightning of 6.5. In v05 to v07 the musket reads as a segmented rod lying at the surface in the foreground rather than a dark shape on the floor under thigh-deep water. v06 and v07 are byte-identical files.",
+   "correction": "Keep v07's composition: Nagoji on the left at the foot of the steep wooden ladder, looking up at the hatch, and Keshavrao on the right looking at him. Keep the thigh-deep flooded hold, both men's hinged collars, wrist manacles and chains, Nagoji's bandaged hands and covered left forearm, and his clean-shaven chin, curled moustache and small gold stud. Put exactly three blank speech balloons. Balloon 1 goes top-left, with a short tail ending at Nagoji's mouth. Balloon 2 goes top-right, with a short tail ending at Keshavrao's mouth. Balloon 3 goes on the LEFT side, directly below balloon 1 at Nagoji's shoulder height and above the waterline, with a short tail ending at Nagoji's mouth. Do not put any balloon at the bottom centre, and do not let any tail point into the gap between the men. Show the hatch at the top of the ladder as a closed dark square under the storm canvas, with thin grey storm light leaking at its edges: no blue sky, no clouds, no daylight. Show the musket as a clearly gun-shaped dark silhouette (stock, lock and barrel) lying on the floor well under the water surface near the foot of the ladder. It must not float at the surface."
+  },
+  {
+   "id": "page-06-panel-03",
+   "pick": "v03",
+   "backup": null,
+   "issues": "Minor. The water lies in front of a wooden rim, so it can read as a trough rather than the thigh-deep flooded floor of 6.2; in a tight insert it can pass as a submerged pen plank. The butt end still dips in the water, and it is drawn as a round cylinder rather than a flared stock. The action is clear: both bandaged, manacled hands on the gun, the frizzen standing open, and an empty pan. Nagoji's left forearm is covered by bandage and the tunic flap. The two blank caption boxes run top then bottom and stay clear of the gun and hands, and there is no text. Rejected: v01 shows Nagoji crouched dry on a plank beside the water, with a bare forearm. v02's pan is a large rectangular breech-like box.",
+   "correction": ""
+  },
+  {
+   "id": "page-06-panel-04",
+   "pick": null,
+   "backup": null,
+   "issues": "No candidate is acceptable. All seven are HIGH-angle shots looking down from the hatch, the reverse of the script's \"low angle up the ladder\" that sets up the POV in 6.5. v01, v02 and v03 place the caption box top-left and the balloon top-right, so the caption would be read before \"Stay behind me.\" In v04 to v07 the balloon is correctly first. However, it sits above Keshavrao, and its tail aims at Nagoji's shoulder or hair rather than his mouth, so it risks being read as Keshavrao's line. In every version Keshavrao stands in only ankle- to shin-deep water, against the thigh-deep water of 6.2. v01 shows a dry floor. v06 and v07 crop off Nagoji's hobble chain. The ladder is drawn with round rungs, unlike the companion ladder with flat treads in 1.4 and 6.5.",
+   "correction": "Use a true LOW angle. The camera sits just above the water at the foot of the ladder, looking UP the same steep wooden companion ladder with flat treads and side rails as in 1.4 and 6.5, toward the closed hatch rimmed with grey storm light. In the near foreground at the bottom of the frame, Keshavrao waits thigh-deep in the flood at the foot of the ladder, seen from behind or in three-quarter back view, looking up. He wears his hinged collar and wrist manacles, has short hacked hair, and wears the grey-brown tunic. Above him, seen from below, Nagoji climbs with both bandaged, manacled hands gripping a tread overhead. The flintlock musket is clamped under one arm, its stock knocking against the treads. His bare soles and ankle cuffs are on a lower tread, the short hobble chain pulled taut between them to show the stunted step. His left forearm stays covered in bandage. He turns his head to look back down over his shoulder at Keshavrao, so his face and mouth are visible: clean-shaven chin, thick curled moustache, small gold ear stud, long curly hair, collar. Put exactly two blank text areas. First, one speech balloon at the upper left beside Nagoji's head, with a short tail ending at his mouth. Second, one rectangular caption box with no tail, at the upper right or right edge and lower than the balloon's top. Keep both clear of faces, hands and the musket."
+  },
+  {
+   "id": "page-06-panel-05",
+   "pick": "v02",
+   "backup": null,
+   "issues": "Minor. The rendering is more photographic than the inked look of 6.1 to 6.4, though close to the chapter's selected 1.4 and 1.5. The guard is mostly dark, but his sleeves, cross-belt and boots show some detail, so he is not a pure silhouette. The face is unreadable, while the morion's brim and crest read clearly against the lightning. The burst balloon runs off the top-right corner of the frame, but its blank area is ample, its tail aims at the guard's face, and it stays clear of the figure and muzzle. The beat reads: a low POV up the flat-tread ladder, the guard on the top step, one hand on the rail, the barrel swung down at the camera. There is no text and no redcoat look. Rejected: v01's red sleeves risk a British redcoat reading.",
+   "correction": ""
+  },
+  {
+   "id": "page-07-panel-01",
+   "pick": null,
+   "backup": null,
+   "issues": "None of the 10 candidates shows the beat. In v01 to v06 the musket butt hits the guard's hip or buttock, not his wrist. In v07 to v10 the guard's lower hand grips the end of the musket, so it reads as a tug-of-war rather than a strike to the wrist, and only one of Nagoji's hands is on the musket, not two. In every candidate Nagoji stands on a dry plank floor at the foot of the ladder with at most one foot on the bottom rung. The script puts both men on the ladder, and 6.2 and 6.4 show the ladder foot flooded shin to thigh deep. All ten are low-angle heroic shots, not side-on and distant. v01 and v02 put the guard in a steel cuirass with red sleeves, sash or breeches, which reads as a redcoat. v02 to v05 show Nagoji's bare near (left) forearm. v06 to v10 have a heavy mosaic, embossed texture artifact over the pillars, barrels and walls.",
+   "correction": "Compose a true side-on view from a distance across the dark, FLOODED wooden hold, with both men small in the frame. Black, rippling water at least knee to thigh deep covers the whole floor, matching page 6; no dry planks are visible anywhere. The narrow rope-lashed ladder rises diagonally from the water to the open hatch, where lightning and rain show through (keep the hatch, lightning, ladder and wrist chain from v05). Nagoji is partway UP the ladder, both bare feet on rungs well above the water, the ankle irons' hobble chain hanging between them. He holds the musket reversed in BOTH bandaged, manacled hands, one on the barrel and one near the lock, with the short wrist chain swinging between them. His left forearm is turned away from the camera or hidden behind the stock. The guard is just above him near the hatch: soaked buff leather jerkin over a cream shirt, a simple cross-belt, a steel morion, no cuirass and nothing red. As the ship lurches, his upper hand has come off the rail and one boot slips off a rung. His lower arm hangs down, and the wooden butt-plate strikes that bare wrist from below, so his open hand is knocked outward. He must NOT be gripping Nagoji's musket. The guard's own musket spins away into the dark. No injury is visible. Render cleanly in the painterly ink-and-colour style of page 6, with no mosaic, pixelated or embossed texture. Keep exactly two blank outlined caption boxes: caption 1 large at top-left, caption 2 at lower-right, both clear of the figures, the musket and the hatch."
+  },
+  {
+   "id": "page-07-panel-02",
+   "pick": null,
+   "backup": null,
+   "issues": "v01 is set in a daylit stone shaft with a barred window, not the ship's hold at night. The guard wears a red vest, and Nagoji is looking at him. v02 has the guard in a steel cuirass with red-and-white sleeves (reads as a redcoat). v02 and v03 share one broken composition: Nagoji stands inside the ladder frame with rungs passing both behind his torso and in front of his legs, which is impossible. He leans back, calm, instead of pressing flat. The guard is a fully lit foreground figure with a screaming face, not a dark shape falling past between the rungs. None shows the flooded hold from page 6.",
+   "correction": "Keep the dark wooden Portuguese hold and warm lamp glow from v03, lit from above by stormlight through the open hatch. Put the camera close, slightly to one side of the ladder at Nagoji's height. Nagoji is on the FRONT face of the ladder, facing the rungs. His chest, belly and one cheek are pressed flat against them, and his eyes are squeezed shut with his face turned away from the fall. Both bandaged, manacled hands grip the same rung with the short wrist chain between them, and his forearms are pressed to the wood so their inner sides are hidden. Both bare feet are on lower rungs, the hobble chain hanging. All rungs are between his body and the far side of the ladder; he is never threaded through it. Past him, seen through the gaps between the rungs, the guard falls as a DARK, backlit silhouette lit only by the lightning above. His arms are flung out, grasping nothing. Only the outline of his morion and jerkin is readable: no face detail and nothing red. Far below, black flood water glints. No text, and no balloons or caption boxes, since this panel has no lettering."
+  },
+  {
+   "id": "page-07-panel-03",
+   "pick": null,
+   "backup": null,
+   "issues": "In v01 to v03 the face-down body is a bare-backed prisoner in a dhoti, not the fallen Portuguese guard. v04 and v05 get the beat right (the guard face-down in jerkin and boots, his morion beside him, prisoners pressed back, one clear caption box, no blood). But the floor is nearly dry planks under a thin film, so the prisoners sit on dry deck and nothing is moved by a current. That breaks the thigh-deep flood at the ladder foot in 6.2 and 6.4 and the script's current rolling the body. At magnification, v05's floor also has swirly embossed texture artifacts.",
+   "correction": "Keep v05's high view down the ladder: the foreground rungs, the brass lamp at left, the lashed bales and barrels, the prisoners' placement and the single blank caption box at top-left clear of every face. The hold is still FLOODED, as on page 6: dark, moving water knee to thigh deep covers the whole floor, the lowest ladder rungs dip into it, and the floor planks are not visible as a dry surface. At the foot of the ladder the fallen guard floats face-down and half submerged, in a buff leather jerkin, cream shirt and boots, face hidden in the water, arms slack. His morion bobs upside down beside him. The current pushes him against the bulkhead planks like loose cargo. The collared prisoners stand or crouch in the water to their thighs and waists, pressing their backs against the bales and the hull, away from him. No blood, and no embossed or filigree texture on any surface."
+  },
+  {
+   "id": "page-07-panel-04",
+   "pick": "v03",
+   "backup": null,
+   "issues": "Minor, acceptable: small background deck figures, including one in an odd green wide-brimmed hat and a crewman in a brimmed hat facing away, and the ear stud reads tiny and pale. Otherwise sound. Nagoji has the thick curled moustache, a clean chin with only light captivity stubble, the collar, a bandaged hand in a manacle with chain, and his left arm hidden behind his body. He is at the hatch rim in the rain, twisted round to shout down. The one speech balloon sits top-right, clear of his face, with its tail on his mouth. The hold is wooden and the open hatch shows rigging and rain. v01 was rejected because the hatch shaft is drawn as stone masonry. v02 was rejected because a morion-wearing Portuguese guard stands on deck beside Nagoji, which the script does not have (8.1 has only crew, none looking at him).",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-01",
+   "pick": "v03",
+   "backup": "v04",
+   "issues": "Minor only. The stern castle is drawn as a very ornate, palace-like structure with many lit arched windows (v02 to v06 share this base). Wet highlights on the rail at far right form faint gold squiggles that read as bokeh, not letters. A thin short chain hangs from the collar ring. The collar reads as empty, with nothing tethering it. Nagoji matches the sheet: thick curled moustache, clean chin, gold ear stud, collar, bandaged right wrist with a cuff and chain trailing to the hidden left hand, ankle cuffs with a hobble chain, rope coil at his bare feet. His left arm is turned away from the camera. No sailor looks at him. There are two blank captions, top-left and top-right, clear of his face. Why the others lose: v01 shows both wrists far apart with no chain joining them (a doubled cuff on one wrist) and gold stern carving that looks like lettering. v02 runs a heavy chain from the collar to the wrist, so the collar is not empty. v05 and v06 have smoother, less faithful faces. v07 to v09 show Nagoji mid-deck hauling a rope like one of the crew, not thrown against the rail, and v07 has no caption areas.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-02",
+   "pick": "v02",
+   "backup": null,
+   "issues": "The single balloon is a burst shape at top right, clear of the face. Its tail is only the longest lower-left spike of the burst, aimed down-left toward his head and mouth. It reads, but only just. His wrists are spread wider than a forearm-length chain would allow, and the chain is seen hanging from one cuff only. The shaft is lit by warm lamplight from the hold, not by lightning. Otherwise the beat is right: high angle from the hatch rim, face turned up, eyes huge, manacled hands at the top, bare ankles hobbled together on a rung. He has the iron collar with a side ring, the faint moustache, short ragged hair and the grey-brown tunic. v01 is the same image without the iron collar, which fails the script's 'empty iron collar'.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-03",
+   "pick": "v08",
+   "backup": "v07",
+   "issues": "Minor. The crew at the left wear dark waistcoats and one wears a tricorne-style hat. That is period-plausible but dressier than the loose-shirted, head-clothed crew of 8.1. The sail here is intact, which is fine as long as it reads as the foremast, since 8.1 showed a snapped mainmast. The right caption sits over the upper spray and sky, clear of the wave's curl and of Nagoji. Otherwise it matches the beat. Nagoji is small, seen from behind, braced at the rail, with long curly hair and the collar, and his cuffed, bandaged right hand has a chain trailing to the hidden left. The wave rears above the ship, silver in lightning. Two insets run along the bottom: Keshavrao's manacled hands clamped on the hatch rim with the chain between them (hands sound), and a shattered spar in the water. There are exactly two blank captions, top-left then top-right. v07 is near-identical but loses the wrist bandage. v01 has three text boxes. v02 to v05 draw Nagoji large rather than small in the foreground. v06 has no caption areas.",
+   "correction": ""
+  },
+  {
+   "id": "page-08-panel-04",
+   "pick": null,
+   "backup": null,
+   "issues": "The only candidate, v01, is lit as a grey overcast daytime sea: a pale cloudy sky, no rain, no lightning, overall much brighter than 8.1 to 8.3, which are night-storm panels with driving rain. The rail is a light-brown open balustrade with gaps between posts, not the heavy dark solid bulwark of the previous panels. The water hits the rail from the side rather than the crest curling down from above, and the frame is a 3:2 rectangle, not composed as a narrow strip. No text and no people, which is correct.",
+   "correction": "Set this at NIGHT in the same storm as the panels before it: a near-black blue-grey sky, driving rain slanting through the frame, and the water lit cold silver-white by a single lightning flash, with deep navy shadows. No daylight, no pale overcast sky, no calm grey clouds. The rail must be the same ship's heavy, solid, dark wet timber bulwark with a thick rope run along its top, as seen in the previous panels, never a light-brown open balustrade with gaps between posts. Compose it as a wide, narrow strip of about 2.2 to 1. The crest of the wave curls over from ABOVE and crashes down onto the rail and deck, as if about to fall on the viewer, with the curl and the impact kept in the middle horizontal band so the frame can be cropped to a strip without losing the action. Keep the dense spray and the water filling most of the panel. No people, no text, no text areas."
+  },
+  {
+   "id": "page-09-panel-01",
+   "pick": null,
+   "backup": null,
+   "issues": "None is acceptable. v01/v02 are 1536x1024 (3:2) frames for a 369x115pt full-width strip. They would either be pillarboxed at about half width or cropped so that the balloon or Keshavrao's hands on the hatch are lost. v01 has both hands clamped on the rim, so the sword-reach beat is missing, and its hairline graze is painted red and reads as blood. v02 mirrors the hands (right hand on the rim, left hanging). v03/v04 (identical) have no iron collar on Keshavrao. They also show a panel border drawn inside the art with bands of rain above and below it, and the dialogue reserve is a tailless rectangle. v05 has no collar and no manacles on Keshavrao, shows sailors in tricornes and has a tailless dialogue box. v06 has no collar and no manacles, and its tailless dialogue box sits at the bottom. v07-v10 add the collar but keep the drawn inner panel border with rain bands top and bottom (the inset breaks through it). Keshavrao's line is still a tailless rectangle, so nothing ties it to him. His right hand reaches out flat onto the deck instead of twitching at his side, and his mouth is closed.",
+   "correction": "Keep the v07/v10 composition: a wide strip, Keshavrao in the grey-brown tunic, the hinged iron collar with its side ring, wrist manacles, drenched and half out of a rectangular deck hatch, and the upper-left inset of Nagoji's bandaged, manacled fingers clawed into the rope coil, with the caption box inside the inset. The art must fill the whole canvas edge to edge: no drawn panel border inside the image and no bands of rain or sea above or below it. Draw Keshavrao's line as a white oval speech balloon, not a rectangle, in the upper right, clear of his face, with a clear tapering tail ending at his open, shouting mouth. His LEFT hand (the viewer's right) stays clamped on the hatch rim. His RIGHT hand (the viewer's left) is pulled in close to his right hip, fingers half-closed on nothing as if grabbing for a sword hilt that is not there, with the slack of a short wrist chain running between his two wrists. Show a small pale rain-washed graze at his hairline with no red. Exactly two blank reserves: the caption box in the inset first, then the speech balloon."
+  },
+  {
+   "id": "page-09-panel-02",
+   "pick": null,
+   "backup": null,
+   "issues": "None is acceptable. In v01/v02 the burst balloon's tail points at Keshavrao, but the line is Nagoji's. Keshavrao also comes out of a vertical doorway in a cabin wall rather than a deck hatch, and Nagoji is hauling the rope, not throwing it. Both are 3:2 frames that don't suit the full-width strip. v03 has a panel border drawn inside the art with rain bands, and both reserves are tailless rectangles. v04 shows Nagoji only as arms, with no face. v05/v06 have the best art (Nagoji correct with moustache, clean chin, ear stud, collar, manacles and hobble chain; Keshavrao lunging from the hatch), but Nagoji's line is a tailless rectangle at the bottom right under Keshavrao. It would read as a caption or as his line.",
+   "correction": "Keep the v05 composition and costumes: Nagoji kneeling at left on the wet deck (torn ochre sleeveless tunic, cream dhoti, collar with side ring, bandaged manacled wrists, ankle irons with hobble chain, thick curled moustache, clean chin, small gold ear stud), and Keshavrao across the deck at right lunging up out of a rectangular deck hatch with his legs still in it. Show the throw: Nagoji's arms follow through after flinging the rope end toward the hatch, his face tight with effort and his mouth open shouting. The rope has landed short halfway across, and its loose coils slide toward the scuppers as the deck visibly tilts. Exactly two blank reserves, both at the top: a rectangular caption box in the upper-left corner first, then a white oval speech balloon at top centre, above and to the right of Nagoji's head and clear of both faces. Its tapering tail ends at Nagoji's open mouth, never toward Keshavrao. No text box at the bottom of the frame and no drawn panel border inside the art."
+  },
+  {
+   "id": "page-09-panel-03",
+   "pick": "v04",
+   "backup": null,
+   "issues": "Minor issues only. Nagoji's ochre cloth drapes over his forearms like sleeves, and his manacle chain hangs as a loop from the cuffs. v01 and v03 have no collar on Keshavrao. v02 has a panel border drawn inside the art, with dark bands above and below.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-04",
+   "pick": "v08",
+   "backup": "v07",
+   "issues": "Minor issues only. It is framed as a medium shot of Nagoji rather than a true wide, and the plunging bow is implied by grey-white water filling the background rather than drawn. His shin and knee rest over the coil rather than pressing squarely on it. Identity checks out: thick curled moustache, clean chin with light stubble, gold ear stud, collar, bandaged manacled hands and hobble chain. Both caption reserves are blank and in reading order. v07 is the same image, except for an extra chain running from the collar ring down to the manacles.",
+   "correction": ""
+  },
+  {
+   "id": "page-09-panel-05",
+   "pick": "v08",
+   "backup": null,
+   "issues": "Minor issues only. The bandages are stripped into trailing strips but not visibly scorched, and the redness of the palms is mild. His knee is covered by the ochre tunic hem here, while in 9.4 the cream dhoti shows over it. The staging matches the script: the rope has parted at a frayed end on the coil side of his hands, the tail slides through his open palms toward the rail and over the side, and his knee pins the coil. The other candidates break the rope between his two hands (v01-v07), and v04-v06 also lack the knee and coil.",
+   "correction": ""
+  },
+  {
+   "id": "page-10-panel-01",
+   "pick": "v04",
+   "backup": null,
+   "issues": "Minor only. The ladder in the hatch sits askew and half under water but does not clearly read as broken. Nagoji fills most of the frame height rather than standing small. The collar ring sits toward the front rather than at the side. Everything else holds: the hatch is empty with water pouring into the hold, his reddened palms are open at his sides with shredded bandage strips, the frayed rope end lies at his feet, the empty collar, wrist chain and hobble chain are all present, and his face matches the sheet (curled moustache, clean chin, one small gold stud). v04 is also the only candidate whose left forearm is covered by the ragged ochre tunic cloth. v01, v02 and v03 all show a bare inner left forearm with no brand, which breaks the continuity rule, so none of them is an acceptable backup. The single caption box sits top right, clear of his face and the hatch.",
+   "correction": ""
+  },
+  {
+   "id": "page-10-panel-02",
+   "pick": "v07",
+   "backup": "v03",
+   "issues": "v07 matches the beat: a tight, rain-wet face on the right, a clean-shaven chin with light stubble, a thick curled moustache, one gold stud, and the collar with its side ring. His eyes are cast down toward the deck and hatch. In the sepia memory on the left, riders ride on past a comrade lying still beside a standing riderless horse, with no faces shown and no blood. The two blank caption boxes sit over the stain in top-then-bottom order, clear of his face. Caveats: (1) the frame has black letterbox bars top and bottom, so it must be placed through the visible_rect crop [8,56,2040,712] in geometry/page-10-panel-02-v07-r1.json. (2) The riders read as brown hooded cloaks and round caps, not the cream angarkhas and pagdis the standing rule asks for, and they walk rather than gallop. (3) The face is rendered more photo-real than the inked panels 10.1 and 10.4. Backup v03 has the correct cream-clad Maratha riders and saffron pennant. But its horse lies dead beside the comrade instead of standing riderless, the riders' faces are partly visible, the stubble is heavier, and his gaze goes up and sideways rather than to the hatch. v04, v05 and v06 fail the tight-on-face framing, and v01 and v02 show a second ear stud.",
+   "correction": ""
+  },
+  {
+   "id": "page-10-panel-03",
+   "pick": null,
+   "backup": null,
+   "issues": "No candidate has a speech balloon for NAGOJI: \"Forgive me.\" v02 to v07 give only rectangular caption boxes; v02 has just one box in total. v01 is the only one with a balloon, and its tail does reach his mouth, but the balloon sits second in reading order ahead of the second caption. v01 also adds Portuguese guards in morions standing behind him on the deck. v04, v06 and v07 also miss the action: he hauls a rope over the rail, or kneels on the deck with the spar lashed against the ship. v03 has the best staging (profile at the rail, two chest turns, knot pulled tight, frayed free end trailing, tunic flap over the far forearm, barnacled and splintered spar in the foam below) but no balloon. It also faces right, while the chosen 10.4 (v07) leaps to the left with the ship on the right.",
+   "correction": "Lettering and continuity fix: reserve exactly three blank outlined areas, in this reading order and no others. First, a plain rectangular caption box with no tail across the top-left corner. Second, a plain rectangular caption box with no tail across the top-right corner, level with the first. Third, a blank white oval speech balloon, not a rectangle, placed lower than both caption boxes in the open storm sky just in front of Nagoji's face. Give it a short pointed tail that ends visibly at his mouth, and keep it clear of his face, hands, the knot and the spar. Stage Nagoji in strict profile facing the LEFT edge of the panel, standing upright at the starboard rail with the ship's wet deck and rigging behind him on the right. The sea and the floating spar are below and close on the left, so the next panel's leap to the left follows on. Keep what worked: two turns of rope round his chest, knotted and pulled tight by bandaged fingers trailing shredded strips, and the frayed free end hanging loose, not tied to anything. Keep the empty hinged collar with its side ring, wrist manacles on a short forearm-long chain, the hobble chain, and the ragged ochre tunic flap covering his left forearm. The spar rides the foam, splintered at one end, with barnacles on its underside, floating free in the water, not on the deck and not lashed with rope. No guards, sailors or other figures anywhere in the panel. Clean-shaven chin, thick curled moustache, one small gold ear stud."
+  },
+  {
+   "id": "page-10-panel-04",
+   "pick": "v07",
+   "backup": null,
+   "issues": "v07 is the only candidate whose irons are correct. The wrist manacles stay joined by a short chain with both bandaged hands reaching forward together, and the ankle cuffs are joined by the hobble chain. v01 to v05 all spread the arms wide, with a chain dangling from each wrist separately, so the wrist chain reads as broken. v01 also adds guards at the rail, and v02 drops the chest turns. v06 draws a large hoop earring and leaves one wrist without a manacle. Minor issues in v07: the collar's side ring is not visible; the ear stud reads small and dark rather than gold; a short loose chain end dangles from the upper ankle cuff. The sky is storm-dark, split by lightning, rather than white. He leaps toward the left with the ship falling away on the right, and panel 10.3 must be redone to face left to match. The rope turns, frayed trailing end and ragged cloth over the near (left) forearm are correct. The two captions sit top left and bottom right, in order and clear of his face.",
+   "correction": ""
+  },
+  {
+   "id": "page-10-panel-05",
+   "pick": "v04",
+   "backup": null,
+   "issues": "Minor only. The ship above the surface still shows intact masts and sails, although the mainmast snapped in 8.1; they are small and at the top edge. v04 matches the beat: underwater looking up past him, manacled fists joined by a short chain at the bottom edge, rope knotted round his chest, and the free end snaking up toward the barnacled underside of the floating spar without attaching to it. The entry foam is bright, and the dark hull heels away on the right, consistent with 10.4 v07. He keeps the empty collar with its side ring, a clean chin, a curled moustache and one gold stud, and his left forearm is wrapped. The single caption sits top left, clear of the action. Rejected: v01 and v02 tie the rope round the spar; v03 runs the rope into the spar and draws two inconsistent hulls; v05 has no collar and puts the whole hull looming underwater with no bright entry tear.",
+   "correction": ""
+  }
+ ],
+ "missing": []
+}

@@ -1,0 +1,824 @@
+{
+ "chapter": 11,
+ "confirmed": [
+  {
+   "page": 11,
+   "panel": "2",
+   "severity": "blocker",
+   "description": "Outside the identity lens, but it blocks publication. There is an empty speech balloon at the top right, with its tail pointing down at Revathi's head. A second, stray balloon outline also shows behind the top edge of the envoy's 'Those events belonged to another time' balloon.",
+   "evidence": "Page 11, lower panel: a large white balloon at the upper right holds no text, and its tail ends near Revathi's left temple. Directly above the envoy's balloon at the upper left, a second balloon's curved outline sticks out from behind it. The script has only two balloons in this panel: ENVOY (off) and REVATHI.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "blocker",
+    "reason": "I could not refute it. The 300 DPI crop of page 11, panel 2 (the top band, roughly x 140-1700 and y 1410-1720 in the original) shows both defects. (1) The upper right holds a large white speech balloon with no text in it. Its tail runs down and left and stops beside Revathi's head, on the right side of the image, so it reads as an unlettered line from her. (2) Above the top edge of the envoy's balloon (\"Those events belonged to another time. Another management.\"), a second balloon's curved white outline sticks out from behind it. It is clearly visible. Script 11.2 calls for exactly two balloons: ENVOY (off), tailing in from off panel, and REVATHI (\"Our memories do not change...\"). Both are present and placed correctly. The empty balloon and the stray outline are leftovers from the drawn art; neither is a beat in the script, and the bible does not allow for them. The empty balloon covers about a third of the panel's width at the top right, so it would be obvious at print size. Readers would take it as missing dialogue, which is a lettering error and falls under blocker. Fixing it means repainting the background behind both shapes (the roof beams and the pillar at upper right, the wall at upper left), not just changing the lettering."
+   }
+  },
+  {
+   "page": 13,
+   "panel": "1 (inset) and 2",
+   "severity": "major",
+   "description": "The gold-chain chief, whose look is locked for this chapter in 12.2, is a different man on page 13. On page 12 he is fleshy and balding, with a curly fringe at the back, a thick moustache and heavy gold chains with a pendant. On page 13 he has a full head of thick black hair coiled in a bun with a gold hair pin, and gold bead strands instead of the heavy chains. Readers will not connect the 13.2 speaker 'CHIEF IN GOLD CHAINS' with the man introduced on page 12.",
+   "evidence": "In 12.2 (centre) and 12.3 (laughing at left), the crown is bald with curly hair only at the sides and back. In 13.1, both the large back-of-head figure at the right and the inset close-up show dense black hair in a bun with a gold pin. In 13.2 the foreground speaker seen from behind has the same full hair bun with a gold pin, a red-and-gold shoulder cloth and double strands of gold beads.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I'm confirming this one. The zoomed crops show the problem clearly.\n\n**Page 12 (panels 2 and 3):** The gold-chain chief is fleshy, with a soft belly. His crown is bald, with curly hair only at the sides and back. He has a thick moustache, several heavy gold chains with pendants, rings on his fingers, and a white shoulder cloth with a red border.\n\n**Page 13 (panel 1, both the back-of-head figure and the inset; panel 2, the speaker in the foreground):** He has a full head of thick black hair. In the inset it comes down to his forehead. The hair is coiled in a bun with a gold pin. He wears strands of round gold beads instead of the heavy chains with pendants, and an ornate red-and-gold shoulder cloth. In 13.2 his back is broad and muscular, not fleshy.\n\n**Why it matters:**\n- The script says the three chiefs' designs in 12.2 are \"locked for this chapter\".\n- It also asks for 13.2 to show \"his chains catching the lamplight\".\n- The 12.2 caption (\"The gold chains looked more like debt than wealth\") sets up the chains as the sign of a chief in debt. That is the link to his line defending the company's \"fair weight\" and to his glance at Ibrahim in the 13.1 inset.\n- The speaker label isn't lettered on the page, so readers can only identify him by how he looks. As drawn, he reads as a new, fourth chief, which breaks that thread.\n\n**Nothing excuses it.** The bible has no entry for this chief, and the script doesn't allow any change. The differences are big and easy to see at print size: bald versus full hair in a bun, chains with pendants versus bead strands, fleshy versus muscular.\n\n**Severity: major.** It is a wrong identity, but for a chief who only appears in this chapter, not a lead. The fix is limited to redrawing 13.1 (main figure and inset) and 13.2, and the dialogue still reads.\n\nPages checked:\n- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/renders/r1/page-12.png\n- /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch11-split2/renders/r1/page-13.png\n\nScript lines checked: 349 and 365 to 373 of /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-11-SCRIPT.md"
+   }
+  },
+  {
+   "page": 14,
+   "panel": "1 and 5",
+   "severity": "major",
+   "description": "The chief in white is drawn as a different, younger man from the one locked in 12.2. This undermines the Kottarakkara beat, where the reader has to recognise who asked the question.",
+   "evidence": "In 12.2 (right), the chief in white is visibly older, with grey-streaked receding hair swept back and a lined face. In 14.1 the full-panel speaker has glossy full black hair, a smooth younger face and a strong build. In 14.5 the man lowering his eyes also has thick black hair and a youthful face.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed at zoom. In 12.2 (right figure), the chief in white has grey-streaked, receding hair combed back and a lined face. He looks about 55. In 14.1, the full-width close-up shows a smooth-faced man of about 35 with glossy, full black hair. In 14.5, the man lowering his eyes also has thick black hair and a young face. His costume does carry over: white mundu, shoulder cloth, no ornaments, lean build. But almost every man in the hall wears white, so the face and hair are what identify him, and they change between two pages. The script says the three chiefs' \"designs locked for this chapter\" (12.2), and the 14.5 caption (\"He had asked a question...\") depends on the reader recognising him. Two things make this worse. First, the script describes the 19.1 betel-box chief as \"older and heavier, grey-streaked hair\", which implies the chief in white was not meant to be grey. Second, 12.2's grey-haired version is already close to that betel-box chief. So 12.2 is probably the panel that drifted, though either version could be the one to change. No approved sheet exists for this one-chapter character, and the change is confined to a few panels, so this is major, not a blocker. Suggested fix: redraw the small chief-in-white figure in 12.2 to match 14.1 and 14.5 (black hair, younger). That also keeps him clearly different from the 19.1 chief. Alternatively, redraw 14.1 and 14.5 with the grey, receding look."
+   }
+  },
+  {
+   "page": 18,
+   "panel": "2 (middle inset)",
+   "severity": "major",
+   "description": "In the 'Revathi's nostrils flaring' inset, Revathi looks clearly older and heavier, a woman in her forties with a fleshy jaw and loose short curls, not the young face on her sheet and in the surrounding panels. At this size she can be read as Padmini.",
+   "evidence": "The middle inset of the three-strip shows a green sari edge, jasmine at the left and the sandalwood line, but the face has a heavy jaw, deep nasolabial lines and an older cast. Compare 18.3 and 18.5 on the same page, and the 05-revathi-bayi-v15f sheet, where she is young with a narrow chin.",
+   "lens": "identity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 18, panel 2, middle inset (\"Revathi's nostrils flaring\"). I cropped it and enlarged it 3x. The face is off-model for Revathi and leans toward Padmini's sheet. It has a heavy fleshy jaw with the start of a double chin, deep nasolabial folds and an older cast, so she reads as forty-plus. Her hair is loose short curls framing the face, where her sheet and 18.3 and 18.5 show hair drawn back into the long jasmine braid. Two pieces of jewellery come from Padmini's sheet (the round gold ball earring and the gold bead necklace on her Details crop). Revathi's sheet and 18.3 and 18.5 on this same page show bell jhumkas and the flat-coin necklace, and the bible's chapter 11 row requires that necklace. Compared with 18.3 (narrow chin, smooth young face, bell jhumka, coin necklace) and 18.5, she does not look like the same woman. The first inset is Padmini's hand on her stick, so a reader can easily take this face for Padmini's reaction. Neither the script nor the bible allows the older look: the script says only \"Revathi's nostrils flaring\" and the bible says Revathi is \"a little younger than Nagoji.\" Revathi markers do survive: jasmine at the left edge, the green sari with gold zari at the bottom and the sandalwood line, so the beat can still be worked out. Severity is major, not blocker: it is a small (about 0.8 inch wide at print), localized reaction inset where her costume still identifies her, but the face and jewellery need redrawing to her sheet."
+   }
+  },
+  {
+   "page": 11,
+   "panel": "11.2",
+   "severity": "blocker",
+   "description": "An empty speech balloon with a tail sits in the top-right of the panel, and a second balloon shape sticks out above the envoy's 'Those events belonged to another time' balloon. These look like balloons painted into the art (the art rules forbid them) that were never covered or lettered.",
+   "evidence": "Top-right of 11.2: a large white outlined balloon with a tail pointing at Revathi, holding no text. Top-left: a white arc of another balloon shows above and behind the lettered envoy balloon.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "blocker",
+    "reason": "I confirmed this from crops of page 11, panel 11.2 at full resolution. Top right: a large white balloon with a black outline (about 550x220 px at 300 DPI, roughly 1.8 x 0.7 in printed) sits over the rafters and pillar. It has a tail pointing down and left toward Revathi's head and holds no text. Top left: a second white balloon shape shows as an arc above and behind the lettered envoy balloon (\"Those events belonged to another time. Another management.\"). The lettered balloon covers most of it, but its rim clearly shows between the panel border and the top of the lettered balloon. Both shapes are painted into the art, not drawn by the compositor. CONTINUITY.md line 185 says there must be \"no painted balloons, caption boxes or frames\" in the art. The 2026-09-30 author decision says painted balloons are to be erased from frames. The script for 11.2 calls for only two balloons: the envoy's from off panel, and Revathi's, which is already lettered lower down. Neither the script nor the bible allows a third, empty one. The blank balloon is large, sits in a top corner where the eye lands first, and is plainly visible at print size. Its tail also points at Revathi, so it reads as a missing or extra line of hers. This is forbidden content plus a lettering defect, so the panel art has to be fixed before publication, either by repainting it or by inpainting both painted balloon shapes out of the rafters and pillar."
+   }
+  },
+  {
+   "page": 13,
+   "panel": "13.1 inset, 13.2",
+   "severity": "major",
+   "description": "The gold-chain chief is a different man from the one on page 12. The script locks his design for this chapter. On page 12 he is fleshy and balding, with a fringe of curly hair and layers of heavy gold chains. On page 13 he has a full head of black hair in a bun with a gold hairpin, gold hoop earrings and a red-and-gold shawl, and his chains are strings of beads rather than heavy chains.",
+   "evidence": "12.2 (centre) and 12.3 (left): bald crown, curly side hair, heavy chains. 13.1 inset and the close figure on the right: thick black hair, no bald crown. 13.2 foreground: black hair in a bun with a gold pin, hoop earring, bead strings, red brocade shawl.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I could not refute it. The zoomed crops show a different man on page 13. On page 12 (panel 12.2 centre and 12.3 left), the gold-chain chief is fleshy with a bald crown, curly hair only at the sides, a small round ear stud, bare shoulders and layered heavy gold chains with pendants. That matches the script, which locks the three chiefs' designs for the chapter. On page 13 he is drawn differently. In 13.1, the figure on the right and the inset (the wordless glance toward Ibrahim) have a full, thick head of black hair with no bald crown, a gold pin in a bun, a large gold disc earring, a red-and-gold brocade shawl and a single twisted chain. In 13.2, the foreground speaker has a black bun with a gold pin, a gold hoop earring, a red brocade shawl and strings of round gold beads instead of the heavy pendant chains. The script calls for the gold-chain chief in both the 13.1 inset and 13.2, and nothing in the bible or the cast overrides allows a change of design. Bald versus a full head of hair is obvious at print size. A reader would take the 13.2 speaker for a new, fourth chief. The inset glance at Ibrahim, which plants this chief's two-sided dealings, loses its link to the man from 12.2. The problem is limited to one page and to an unnamed walk-on chief, so it is major rather than a blocker. The 13.1 right-hand figure, the 13.1 inset and the 13.2 foreground all need redrawing to the page 12 design."
+   }
+  },
+  {
+   "page": 14,
+   "panel": "14.1, 14.5",
+   "severity": "major",
+   "description": "The chief in white is a different man from the one on page 12. On 12.2 he is older and lean, with grey hair swept back. On 14.1 and 14.5 he is a younger man with black hair, and 14.1 and 14.5 do not match each other either. Readers will not know the Kottarakkara question comes from the same chief.",
+   "evidence": "12.2 (right): grey-haired, lined older face. 14.1: smooth-faced younger man with slicked black hair. 14.5 (right): yet another face, black hair, looking down.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed this from zoomed crops. On 12.2 (right figure) the chief in white is an older man. His face is lined, his hairline is receding, and his hair is swept back and streaked with grey. On 14.1 he is a much younger man with a smooth face and thick black hair, slicked back with no grey at all. 14.5 (right) doesn't match either one: the face is fuller and rounder, the brows are heavier, and the black hair is wavy and fuller. The costume is right in all three panels: plain white mundu and shoulder cloth, no ornaments. Only the face and age change. Neither the script nor the bible allows this. Script 12.2 says the three chiefs' \"designs [are] locked for this chapter\". Adaptation notes and the 19.1 description also depend on the chief in white staying recognisable. The cause shows in the generation prompts in IMAGEGEN-JOBS.json. The prompts for 14.1 and 14.5 describe him only as \"lean, upright, no ornaments\", with no age, hair or reference image. They also say \"no principal characters\", so his look drifted. The selection notes then checked 14.1 and 14.5 against page 11 panel 2 and each other, not against 12.2. The gap is easy to see at print size because 14.1 is a full-tier close-up. Readers are likely to see a new, younger man raising Kottarakkara, not the grey older chief they met on 12.2. That weakens the setup (12.2) and payoff (14.1) the script builds. He is a minor, non-principal character and the problem is limited to one figure's face and hair across two panels, so this is major, not a blocker. Fix: regenerate 14.1 and 14.5 using the 12.2 crop as a reference, or the reverse, so all three panels show the same man."
+   }
+  },
+  {
+   "page": 12,
+   "panel": "12.1-12.3 vs 14.1, 15.1, 16.1, 18.1",
+   "severity": "major",
+   "description": "Time of day jumps around during the court scene. Pages 9 to 13 are at sunset or dusk, with pink skies and lamps lit (12.2 is deep dusk). Pages 14 to 16 then return to bright midday with blue skies. 18.1 is set in the 'rest of the afternoon', and 19.4 is evening again. The audience seems to run back and forth in time.",
+   "evidence": "12.1 and 12.3: deep blue dusk with lamps lit. 12.2: pink sunset clouds. 14.1, 15.1, 16.1: full daylight and blue sky. 17.4: sunset. 18.1: daylight 'afternoon'. 19.1: sunset.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed. The time of day in the court scene goes from day to dusk, back to day, then to dusk again. The script gives one order: the hall in daytime (8.1, lamps lit only \"against the shaded interior\"), \"slanting afternoon light\" at 18.1, and evening only at 19.4. The continuity bible has no lighting rule that permits anything else.\n\nWhat the pages show:\n- Page 8: clear midday.\n- 9.5: a full orange and pink sunset over the sea.\n- Pages 10, 11 and 13.2: purple and pink dusk skies.\n- Page 12: 12.1 has a twilight sky with a pink band at the horizon (zoomed crop). 12.2 has pink sunset clouds over a darkening sea (zoomed crop). 12.3 is a deeper evening blue.\n- Turning to page 14: 14.1 has a pale daylight sky (mean RGB about 220,222,224). 15.1 shows a bright day with white surf and cumulus clouds. 16.1 has a blue daytime sky.\n- 18.1 is warm afternoon, labelled \"the rest of the afternoon\", and page 19 is sunset again.\n\nAt print size the difference between the pink sunset on 9.5 and 12.2 and the bright day on 15.1 is plain. A reader turning from page 13 to page 14 will see the scene go back in time. This is not a blocker: identity, lettering and story beats are all correct. It is a clear continuity error, but the fix is limited to lighting. Recolour or re-render the skies on pages 9.5 to 13 as midday or early afternoon, matching page 8 and pages 14 to 16, and keep sunset tones for 19.4 onward."
+   }
+  },
+  {
+   "page": 22,
+   "panel": "22.5 (also 22.1)",
+   "severity": "major",
+   "description": "The squadron's ship count is wrong. The chapter fixes it at four company ships (three large, one smaller), the 'probing squadron, not yet the war fleet'. 22.5 shows seven ships on the horizon and 22.1 shows five, so the probe now looks like the war fleet.",
+   "evidence": "22.5 horizon: a large ship at left, a small one, a mid-size one, two ships at centre, one at right and one at far right, seven in all, several flying the tricolour. 22.1: five ships across the top. Pages 1.3, 1.5, 17.3, 21.1 and 24.1 all correctly show four.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on zoomed crops of page 22. In 22.1 the horizon shows five ships: a small one at far left by the sun, a large one flying the tricolour, two large ones at centre (both flagged) and a small one at right near the headland. In 22.5 I count seven: a large flagged ship at left, a small one, a mid-size flagged one, two at centre (both flagged), one at right (flagged) and a small one at far right. These hulls are clear and flagged, so the error shows at print size. The chapter fixes the squadron at four: the boy on 1.2 says 'No, four', the 1.5 description reads 'three large East Indiamen and one smaller', Nagoji on page 3 says 'Four company ships. Three large, one smaller', and 24.5 shows 'four clusters of light on the sea'. The script text for 22.1 and 22.5 sets no other number, so nothing allows the extra ships. Seven ships in 22.5 contradicts the 'probing squadron, not yet the war fleet' premise from the 1.1 caption. It is a localized background error that needs a fix or inpaint in two panels, not a missing beat or a wrong identity, so major."
+   }
+  },
+  {
+   "page": 12,
+   "panel": "12.1",
+   "severity": "major",
+   "description": "A courtier seen from behind in the right foreground has a rust-red turban, curly black hair and a gold ear stud, which are exactly Nagoji's markers. He reads as Nagoji seated among the chiefs, but Nagoji is not in this panel and should be at his pillar. Other courtiers and guards also wear red or rust turbans (10.3 guards, 17.4 centre crowd, 18.3 and 19.2 backgrounds), which weakens the rust-red turban as his signature.",
+   "evidence": "12.1 right foreground: back view of a rust-red wrapped turban over curly black hair with a gold stud at the ear. 10.3: guards at the far left and far right in red turbans with red waist cloths.",
+   "lens": "continuity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "I'm confirming the 12.1 part of this, but at minor severity, not major. The claim that the other red turbans weaken his look is refuted.\n\nPanel 12.1, right foreground (about x1150-1410, y750-1030 at full size): the art does show a man from behind in a rust-maroon wrapped turban over curly black hair, with a round gold ear stud and a cream collar. That matches Nagoji's markers in the bible: rust-red turban, curly black hair, small gold ear stud, cream tunic. This chapter already shows Nagoji twice in this exact over-the-shoulder shot: 8.2 and 16.2 each show a rust-red turban and curly hair from behind. So readers will likely take the 12.1 figure as Nagoji. The cast file puts only Varma in 12.1, though. This figure also sits on the mat among the audience, while 8.1, 14.5 and 16.2 have Nagoji standing at his pillar. The figure is about 0.85 inch wide at print size, so the resemblance is easy to see.\n\nWhy only minor: nothing in the bible or script reserves the rust-red turban for Nagoji in the court scenes. Pages 5-6 say only Nagoji wears it, but that applies just to the Deccan riders in the flashback. The bible's ban on rust or red turbans covers only Maratha riders and the Madurai troop. Nagoji really is in this hall, so reading him as watching Varma breaks no story beat. The only effect is a small mix-up about where he is (seated rather than at his pillar). Recoloring that one turban to off-white or ochre fixes it.\n\nThe red turbans on the 10.3 guards (far left and far right) and in the 14.3 crowd are refuted as a problem. They are Travancore guards and courtiers, nothing in the bible forbids them, and they are small figures that cannot be confused with Nagoji's turban, cream tunic and red sash."
+   }
+  },
+  {
+   "page": 11,
+   "panel": "2",
+   "severity": "blocker",
+   "description": "Speech balloons are painted into the art. In the upper right there is a large empty white balloon, and its tail points at Revathi's head. A second painted balloon also sits behind the lettered ENVOY (off) balloon in the upper left: its curved outline shows above the top edge of the real balloon. The standing rule bans painted balloons in the art. As it stands, readers see a blank speech balloon for Revathi next to her real lettered line, 'Our memories do not change when your clerk's handwriting does.'",
+   "evidence": "page-11.png, lower panel: a blank white oval with a black outline and tail at roughly x 1215-1690, y 1445-1690 in the 1838x2775 original. A duplicate balloon edge is visible above the 'Those events belonged to another time' balloon at roughly x 320-600, y 1430. Crops: /tmp/claude-501/ch11std.iAbkGA/p11_tr.png and p11_tl.png.",
+   "lens": "rules",
+   "verdict": {
+    "refuted": false,
+    "severity": "blocker",
+    "reason": "I confirmed this on page-11.png at full resolution (crops at /tmp/claude-501/p11_tr2.png and /tmp/claude-501/p11_tl2.png). In panel 11.2 there is a large blank white speech balloon painted into the art, at roughly x 1210-1700, y 1440-1690 in the 1838x2775 original. Its tail points down-left toward Revathi's head, so readers see an empty balloon for her right beside her real lettered line, \"Our memories do not change when your clerk's handwriting does.\" A second painted balloon also sits behind the lettered ENVOY (off) balloon, \"Those events belonged to another time. Another management.\" Its curved outline rises above the real balloon's top edge at roughly x 320-600, y 1428, and an extra white tail wedge shows under the lettered tail at the left panel edge. Neither the script nor the bible allows this. The script has only two lettered balloons in 11.2, and CONTINUITY.md line 185 bans painted balloons: \"No text of any kind in the art, and no painted balloons, caption boxes or frames\". The author also decided on 2026-09-30 that all chapters use balloons drawn by the compositor and that painted ones are erased from the frames. The blank balloon is large and obvious at print size and reads as a missing line of dialogue, so this is forbidden content that affects the lettering. Both painted balloons need to be erased or the art redone before publication."
+   }
+  },
+  {
+   "page": 11,
+   "panel": "11.2",
+   "severity": "blocker",
+   "description": "A drawn speech balloon is left empty. The top-right balloon carries no text, and its tail points at Revathi. Next to it, the envoy's lettered balloon sits over a second drawn balloon, so a doubled outline and a stray tail show.",
+   "evidence": "Page 11, panel 2: a blank white balloon at about x1214-1685, y1450-1665 (original px) with a tail toward Revathi's face. The source frame page-11-panel-02-v01.png has two drawn balloons. The renderer put the ENVOY line in a new balloon at top left, put Revathi's line in a new balloon lower down, and left the right-hand drawn balloon empty. Above the top-left 'Those events belonged...' balloon, the arc of the underlying drawn balloon still shows, and a second tail line runs off the left edge.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "blocker",
+    "reason": "I'm confirming this one. I cropped page 11, panel 2 at full resolution (1838x2775), and the art shows both problems. (1) In the top right there is a large white balloon with no text, at about x1210-1700, y1445-1665. Its tail points down and left toward Revathi's head, so readers will take it as a blank line from her. (2) The top-left balloon carries the envoy's off-panel line, 'Those events belonged to another time. Another management.' It is laid over an older drawn balloon. The top arc of that older balloon shows above the lettered one, with its own outline. On the left edge, the two balloons give a doubled tail: two thin white wedges with separate outlines running to the panel border. The script for 11.2 has only two lines, the envoy's off-panel line and Revathi's line. Both are lettered elsewhere in the panel, so the right-hand drawn balloon has nothing to hold. The script and the bible don't allow an empty balloon. At print size it is a large white shape that catches the eye, not a slight flaw. An empty speech balloon pointing at the main character counts as wrong lettering, so this is a blocker. The fix is to clean the extra drawn balloon shapes out of the art and re-letter the panel."
+   }
+  },
+  {
+   "page": 24,
+   "panel": "24.5",
+   "severity": "major",
+   "description": "The script calls the closing panel 'Full width, pulling far back'. The layout puts it in a half-width slot next to 24.4. The crop cuts out the long dark coast, and the caption covers one of the four light clusters, so only three are visible.",
+   "evidence": "LAYOUT-solved-s1.json page 24 row 3 is [84.4, 84.4], two half-width panels. The source frame page-24-panel-05-v01.png shows the coast on the left and four light clusters. In the render, panel 24.5 (x921-1688) starts at the bluff. The caption 'The horizon had begun to move nearer...' (about x922-1248, y2191-2358) covers the horizon where the fourth cluster falls, and only three clusters show to its right.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed this on the render. LAYOUT-solved-s1.json gives page 24 the rows [197.9, [237.2, 237.2], [84.4, 84.4]], so 24.5 sits in a half-width slot next to 24.4. The script asks for \"Full width, pulling far back\" with \"the long dark coast, and four clusters of light\". The source frame (frames/page-24-panel-05-v01.png) is a wide panorama: the coast runs off to the left of the figure, and there are four light clusters. In the render (renders/r1/page-24.png, panel at about x921-1688, y2170-2540), the crop starts at the bluff with the tiny figure at the far left. The long coastline is gone and only a little open sea is left. Zoomed in, only three clusters show, at about x1395, x1580 and x1660. Mapping the source onto the render puts the fourth cluster at about (1221, 2346). That is under the caption \"The horizon had begun to move nearer...\", whose box runs to about x1250, y2360. Nothing in the bible or script allows three: the chapter sets the count at four (1.2 \"Three ships. No, four\", 1.5 \"Four hulls\", 3.x Nagoji \"Four company ships\"), and 24.1 on this same page shows four. This is more than polish. The closing image loses its scripted scale (no long coast) and shows the squadron one ship short. It is not a blocker, because the beat still reads: a small figure on the bluff, ship lights at sea, and the closing caption. It is a major, localized fix: make 24.5 full width (or move the caption off the horizon) so the coast and all four clusters show."
+   }
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "severity": "major",
+   "description": "The chapter's opening establishing shot is specified as 'Wide, full page width' but is placed in a half-width slot. Its two captions, one of them a 9-line narrow column, cover about 40% of the small panel, and the sandy headland and palms the script asks for are not visible.",
+   "evidence": "Page 1, row 1 holds two half-width panels: 1.1 at x148-915, y358-902 and 1.2 beside it. The caption 'Not yet the war fleet...' runs 2 to 3 words per line down the left third. 'Late in 1739, the horizon changed.' sits at top center-right, staggered only slightly above it, so which caption to read first is unclear.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I'm confirming this as major. The layout broke the script, and the source art proves it. Script 1.1 calls for \"Wide, full page width\": a sandy headland, palms leaning inland, and white specks on the horizon. LAYOUT-solved-s1.json puts page 1, row 1 as two equal half-width slots (130.1 / 130.1), so 1.1 renders at about x148-915, y358-902 of 1838 px, roughly 2.5 in wide in print. The generated frame (frames/page-01-panel-01-v01.png, 2169x725) is a 3:1 panorama that does contain the palm-lined headland, sandy path, beach curve and lookout tower. The half-width crop keeps only the right-hand open-sea part, so the render shows sea, sky, glare and a few rocks. The headland and palms the script asks for are gone. The two captions cover about a third of the panel (pixel estimate about 32%; the 40% claim is slightly high). The 9-line left caption (about x152-397, y484-889) also hides the leftmost of the four ships, so only three show beside it. The reading-order part of the claim is weak: 'Late in 1739, the horizon changed.' sits wholly above the left caption, so it reads first by convention. This is major, not a blocker. Full-width 1.3 below shows the coast, palms and fleet again, so no story beat is missing. The fix is a relayout, not a redraw: give 1.1 a full-width row using the existing panorama and put the long caption over open sky or sea."
+   }
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "severity": "major",
+   "description": "The envoy's second line is attached to the interpreter. The balloon sits under the interpreter and its tail ends on his shoulder.",
+   "evidence": "'The seas are not as peaceful as we would like.' is an ENVOY line in the script. Its balloon is at the right, under the interpreter, and the tail tip is on the interpreter's left shoulder at about (610, 596) original px. The envoy's face is about 130 px further left.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed this on page 9, panel 9.1 by cropping and zooming the art. The script and the selection manifest both give \"The seas are not as peaceful as we would like.\" to the ENVOY. On the page, that balloon sits at the right of the panel, directly under the interpreter. Its tail runs up and to the left, but the tip stops at about (602, 592) original px. That point is in the gap between the two men: on a seated background figure, just above the interpreter's left shoulder and close to his collar. The envoy's face is roughly 100 to 130 px further left and up (about 10 mm at print size), and the tail's line does not reach it. The interpreter is also drawn with his mouth open, as if speaking, and the panel's beat is him about to translate. So a reader will most likely give this line to the interpreter, or at least be unsure who says it. The envoy's first balloon is clearly tailed to his cravat, which makes the second one read even more as someone else's. The tail's leftward angle softens this a little, but not enough to refute it. It is a wrong speaker tail, confined to one balloon, and does not lose a story beat, so it is major rather than a blocker. Fix: re-aim the tail to the envoy's mouth, or join the two balloons as one envoy balloon pair."
+   }
+  },
+  {
+   "page": 9,
+   "panel": "9.4",
+   "severity": "major",
+   "description": "The split eye-strip panel does not fill its slot. An empty cream band runs across the bottom inside the panel border, and the strips stop at Varma's moustache.",
+   "evidence": "In panel 9.4 the art ends at about y1286, but the border continues to y1344, leaving a blank paper band about 58 px tall across the full panel width (x921-1688). Panel 9.3 beside it fills to y1344.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed it on page 9, panel 9.4. Pixel samples at x=1100, 1310, 1500 and 1650 show the art in both strips ending at about y1287. Below that, an empty off-white band (RGB about 246,244,237) runs to about y1350 across the full panel width, inside the black border. Panel 9.3 next to it has art down to about y1343. The band is about 60 px tall at 300 DPI, roughly 5 mm in print and about 15% of the panel's height, so it is clearly visible. It reads as an unfinished panel and cuts both strips off at Varma's moustache and Padmini's smile. The script (9.4 asks for 'two thin, tight strips side by side') does not call for a blank band, and nothing in the bible does either. It is a localized layout and render defect, not an identity or story problem, so major is the right severity. The fix is to recrop or scale the strips to fill the panel, or tighten the panel border."
+   }
+  },
+  {
+   "page": 23,
+   "panel": "23.5",
+   "severity": "major",
+   "description": "Speakers' balloons are on the wrong sides and their tails cross. Ramayyan's long answer sits over Nagoji on the left, and Nagoji's 'You trust him?' sits beside Ramayyan, with the two tails forming an X between them.",
+   "evidence": "'A Company doctor there lent us coin...' (RAMAYYAN) covers Nagoji's torso at about x150-930, y2125-2310 original px, and its tail runs right. 'You trust him?' (NAGOJI) is at the center next to Ramayyan's hand, and its tail runs up-left to Nagoji's elbow. The two tails cross at about (900-970, 2140-2190).",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 23, panel 23.5. I zoomed in on the original at x820-1020, y2120-2280. Ramayyan's long balloon, 'A Company doctor there lent us coin against Chanda Sahib...', sits over Nagoji's torso on the left. Its tail runs right and stops in empty space near the lamp stand at about x925, y2185, well short of Ramayyan, whose body starts around x1250. Nagoji's 'You trust him?' balloon sits in the center, right next to Ramayyan's raised hand. Its tail runs up-left to Nagoji's elbow at about x860, y2160. The two tail wedges visibly overlap in an X at about x900-960, y2170-2200, and the X is easy to see even at full-page size. Both tails point the right general way, and the reading order (English, Company doctor, trust him, trust his fear) and the script text are correct. The wording also gives it away: 'lent us' marks the line as Ramayyan's. So a reader can work out who is speaking, which is why this is not a blocker. Still, putting each man's balloon over the other man with crossing tails is a clear lettering error, not a small polish issue. The fix is local: swap the two middle balloons so 'You trust him?' sits on Nagoji's side and the Company doctor line sits by Ramayyan, or re-route the tails so they don't cross. That makes it major."
+   }
+  },
+  {
+   "page": 5,
+   "panel": "5.1-5.4 (and page 6)",
+   "severity": "major",
+   "description": "The flashback treatment is missing from the borders. The script asks for thin rounded panel borders on pages 5 and 6, but both pages use the same heavy square-cornered borders as the present-day pages, so nothing in the layout marks the jump to February.",
+   "evidence": "Script, page 5 header: 'Pages 5 and 6 take a flashback treatment: a warmer, slightly faded palette and thin rounded panel borders.' Every panel on pages 5 and 6 has the standard black square-cornered frame, the same as pages 4 and 7.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "Confirmed, but it is minor, not major. I zoomed in on the corners and measured the borders at 300 DPI. Every panel on pages 5 and 6 has the same frame as pages 4 and 7: about 3 to 4 px of solid black with sharp square corners. The corner crops of p5 panel 5.1, p5 panel 5.4 and p6 panel 6.1 match p4 panel 4.1 exactly. The script's page 5 header (line 149) calls for \"thin rounded panel borders\" and \"a warmer, slightly faded palette\", and the render has neither. The pages are vivid night scenes, not faded. Nothing in CONTINUITY or the other chapters overrides this. Ch11 is the only script that asks for rounded borders, so the book has no rounded-border convention for this to break. It still matters less than the reviewer says, because the reader does not miss the time jump. The 5.1 caption says \"February. Eight months before.\" The art switches from daytime laterite-hall interiors on page 4 to torchlit night on the beach at pages 5 and 6. The 7.1 caption brings the reader back with \"Now, eight months later.\" The reviewer's line that \"nothing in the layout marks the jump\" is too strong. The caption and the day-to-night change both mark it. No beat or identity is affected, and the fix is a border-style change in the page layout, not a redraw of the art. Severity: minor."
+   }
+  },
+  {
+   "page": 3,
+   "panel": "3.1 / 3.3",
+   "severity": "major",
+   "description": "The page grid is ragged. Panel 3.1 is shorter than 3.2 beside it, so the top row has misaligned top and bottom edges, and the 3.3 insert row is indented well inside the page margins. The page does not have the clean, aligned grid of the approved Chapter 1 pages.",
+   "evidence": "Detected frames: 3.1 at y389-953 against 3.2 at y358-985, about 31 px off at both top and bottom. 3.3 at x256-1581 against the page margins of x148-1688, about 108 px indent each side. LAYOUT page_fill for page 3 is 0.85.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "Confirmed on the 300 DPI render, at lower severity than reported. I measured the frame lines on page-03.png myself. Panel 3.1 runs y389-953 and panel 3.2 runs y358-985 in the same row, so their tops and bottoms are 31 px (about 2.6 mm) apart. The gutter below 3.2 is the house 6 px, but the gutter below 3.1 is 38 px. The step is easy to see in a zoomed crop and in a thumbnail of the whole chapter. Every page of the approved Chapter 1 renders (r14) has an even, full-width grid. The cause is in LAYOUT-solved-s1.json: it gives page 3 rows of 150/150 pt, 95.5 pt and 274/274 pt with page_fill 0.85. The 3.1 art (about 1.35:1) could not be cropped to fill its slot (about 1.22:1), so it sits letterboxed inside it. Panel 3.3 really is indented, at x256-1581 against margins of x148-1688 (about 108 px each side). That part is defensible: the script calls 3.3 an \"Insert, tight\", and the pipeline README lists \"insert\" as a cue with no width constraint. So the real defect is the staggered top row. It is localized and no story beat, identity or lettering is affected. It can be fixed by re-solving the layout (for example, matching the row height to 3.1's art or re-cropping it) with no redraw. That makes it polish (minor), not a major error."
+   }
+  },
+  {
+   "page": 18,
+   "panel": "18.2",
+   "severity": "major",
+   "description": "Panel 18.2 does not fill its slot. It floats with paper gaps above and below and is visibly shorter than 18.1 in the same row.",
+   "evidence": "Detected frames: 18.1 at y358-997, 18.2 at y421-934, a gap of about 63 px at top and bottom. LAYOUT page_fill for page 18 is 0.80, the lowest in the chapter.",
+   "lens": "lettering",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on page 18, panel 18.2. A border scan of the 1838x2775 render shows 18.1 runs from y358 to about y1006, while the 18.2 frame (the wide hall shot plus its three insets) runs only from y421 to about y934. That leaves about 63 px of bare paper above 18.2 and about 72 px below it, against the normal gutter of about 8 px. At 300 DPI that is 5 to 6 mm on each side of a panel only about 43 mm tall. A crop of the top tier shows it clearly: the top and bottom edges of 18.2 line up with neither 18.1 nor the 18.3 tier below, so the panel looks pasted onto the page rather than set into the grid. Neither the script nor the bible calls for an inset or floating panel here, and the script's 18.2 has no text. The solver's own LAYOUT-solved-s1.json gives page 18 a page_fill of 0.80, the lowest in the chapter (every other page is 0.85 to 0.98). That means the art's crop could not reach the slot shape, so this is a solver fallback, not a design choice. The defect is plainly visible at print size and breaks the top tier's alignment, but it is a layout fault, not an art fault. No identity or beat is lost, and it can be fixed by re-solving the row heights or re-cropping or regenerating 18.2 at the slot's aspect ratio, with no redraw. That makes it major, not blocker."
+   }
+  },
+  {
+   "page": 11,
+   "panel": "11.2",
+   "severity": "blocker",
+   "description": "An empty speech balloon with no text sits in the top-right of the panel, and its tail points at Revathi's face. A second stray balloon edge also pokes out above the top of the envoy's balloon at top-left. The script has only two lettered lines here (ENVOY off and REVATHI), so these are leftover lettering artifacts.",
+   "evidence": "Page 11, lower panel: a large blank white balloon at the right edge (about x 1210-1690, y 1450-1660 in the 1838px render), with its tail ending near Revathi's right eye. Above the 'Those events belonged to another time' balloon, a second white balloon outline shows behind it at the top-left.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "blocker",
+    "reason": "I confirmed this from a zoomed crop of page 11, panel 11.2. There is a large white speech balloon with nothing in it at the top right of the panel, roughly x 1210-1700, y 1440-1670 in the 1838px render. It is clearly drawn, and its tail ends just left of Revathi's face, so readers will take it as a line she speaks with no words. The script gives this panel only two lines, the ENVOY's line from off panel (\"Those events belonged to another time...\") and Revathi's line (\"Our memories do not change...\"). Both are lettered in their own balloons, so nothing in the script or bible accounts for the empty one. A second, smaller leftover is also real: a white balloon outline sticks out above the top edge of the envoy's balloon at the top left (crop around x 200-600, y 1425-1450). The empty balloon is big and obvious at print size, and an empty balloon aimed at a character counts as wrong lettering, so it must be fixed before publication. Removing both leftover balloons from the lettering layer should fix it, with no need to redraw the art."
+   }
+  },
+  {
+   "page": 23,
+   "panel": "23.5",
+   "severity": "major",
+   "description": "Ramayyan's long line, 'A Company doctor there lent us coin against Chanda Sahib...', sits on top of Nagoji, and its tail stops on Nagoji's sleeve. It crosses the tail of Nagoji's 'You trust him?', so readers will give Ramayyan's answer to Nagoji.",
+   "evidence": "Page 23, bottom panel: the big left balloon covers Nagoji's torso. Its tail points right and ends at about x 930, y 2190, on Nagoji's upper arm, short of Ramayyan. The 'You trust him?' tail crosses it from the other side.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed this on page 23, panel 23.5 by zooming in at full resolution and checking it again at print scale. The big left balloon (\"A Company doctor there lent us coin against Chanda Sahib...\") covers Nagoji's torso. Its tail leaves the right edge and ends at about x 924, y 2189. That point is only about 36 px past the edge of Nagoji's sleeve and about 100 px short of Ramayyan's shoulder (around x 1030), so the tail stops in the gap, much closer to Nagoji. The tail of \"You trust him?\" runs up and to the left to Nagoji's upper arm (about x 863, y 2160) and crosses Ramayyan's tail, making a clear X. The X is still easy to see at print size. Both tails end on almost the same spot on Nagoji's arm, so the scan points to him for both lines. The script gives this line to Ramayyan, and nothing in the bible or script allows the crossing. Two things soften it. The tail does point toward Ramayyan's side, and the wording (\"lent us\", answering Nagoji's question) points to him as speaker, so a careful reader will probably work it out. That is why this is major, not a blocker. It is a localized lettering fix and needs no redraw. Extend Ramayyan's tail so it reaches him without crossing, or point the \"You trust him?\" tail at Nagoji's head instead of his arm."
+   }
+  },
+  {
+   "page": 21,
+   "panel": "21.3",
+   "severity": "major",
+   "description": "The point of view is wrong. The script asks for Nagoji's distant look through Ibrahim's spyglass ('Through the glass, closer'), framed as a circular vignette like 21.2. The art is a full-colour shot from on board the ship, behind the officer on the quarterdeck, with no glass framing. The 'man seen from the ridge' beat becomes an omniscient shipboard view.",
+   "evidence": "Page 21, large middle panel: the camera is placed among the ship's own shrouds and rigging, looking at the officer's back at the stern rail, with a second ship behind him. There is no circular vignette, unlike 21.2 directly above.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I confirmed the problem by cropping the panel at full resolution. Page 21, panel 21.3 (the large middle panel) is shot from on board the ship. The left foreground is filled with the ship's own shrouds, deadeyes and lanyards, and with its hull planking. The camera sits in the waist and looks up at the stern balustrade, the carved quarter gallery, a stern lantern and the ensign. A second Indiaman is visible behind. The panel has no circular vignette, no dark spyglass surround and no sense of distance. The script asks for the opposite: \"Through the glass, closer ... Distant. No clear features.\" It follows 21.2, which is a vignette, and 21.4 has Nagoji \"lowering the glass\". As drawn, the beat stops being the man Nagoji sees from the ridge and becomes an all-seeing shipboard shot. That breaks the first-person narration (\"I had seen that stillness\") and the setup from 21.1 (\"where their glass could find me\"). Because 21.2, directly above, uses the vignette, the inconsistency is plain at print size. This is not a blocker: the content the beat needs is still there. The officer is tall, in a Dutch blue coat with gold trim, hands clasped behind his back, black tricorne, pale hair at the collar, and his face is hidden. The fix is local to this one panel: redraw it as a circular glass view from shore, or frame it that way. Small extra point: his feet look close together rather than \"planted apart against the roll\"."
+   }
+  },
+  {
+   "page": 5,
+   "panel": "5.1-5.4 (and page 6)",
+   "severity": "major",
+   "description": "The script's flashback treatment for pages 5 and 6 (a warmer, slightly faded palette and thin rounded panel borders) is not applied. The borders are the same heavy square black frames as the present-day pages, and the palette is fully saturated. Only the caption tells the reader this is a flashback.",
+   "evidence": "A zoom on the page 5 panel corners shows square corners and the same thick black border as page 3. Page 6 panels have the same square borders and saturated night colours.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed. Script line 149 (CHAPTER-11-SCRIPT.md, Page 5) asks for a flashback treatment on pages 5 and 6: \"a warmer, slightly faded palette and thin rounded panel borders\". Page 6 says the treatment continues. Nothing in CONTINUITY.md, the adaptation notes or the author-decision memory removes it, and chapters 13, 14, 17 and 21 use their own flashback treatments, so this is a book-wide convention. What the renders show: (1) Borders. I zoomed 8x on the top-left corner of p5 panel 1, the bottom-right of p5 panel 2, the top-left of p6 panel 1 and a corner of p6 panel 3, and compared them with p3 panel 1. Every corner is square, and the black frame looks the same thickness as on present-day page 3. None of the borders on pages 5 and 6 is rounded or differently weighted. (2) Palette. I measured mean HSV saturation over the same interior panel area on each page: p5 105, p6 104, compared with p3 79, p4 84, p7 91 and p8 74. The red-minus-blue warmth offset is about the same on every page (p5 40, p6 39, p3 43, p4 41). The 2nd-percentile luminance is 0 on all pages, so the blacks are not lifted. The flashback pages are therefore more saturated than the present day, not faded, and no warmer. The image prompts did ask for \"a warmer, slightly faded flashback palette\", but the images do not carry it out. At print size the reader can tell this is a flashback only from the \"February. Eight months before.\" caption and the switch from day to night. The treatment the script asks for is missing. It is localized to two pages, and the border fix belongs in compositing, so it does not need a full redraw. Because the night setting and the caption still carry the time shift, this is not a blocker. Severity: major."
+   }
+  },
+  {
+   "page": 13,
+   "panel": "13.1 inset, 13.2",
+   "severity": "major",
+   "description": "The gold-chain chief's locked design is not kept. On 12.2 and 12.3 he is fleshy and balding, with sparse curly side hair. The man who speaks 'The company pays fair weight' on 13.2, and the chief in the 13.1 inset, has a full head of black hair in a bun with a gold pin and a red-and-gold shoulder cloth. He reads as a different chief.",
+   "evidence": "Page 12, middle panel: the centre chief is bald on top with heavy chains. Page 13, bottom panel: the speaker, seen from behind, has a thick black bun with a gold hairpin. The page 13 top inset shows the same bun-haired man glancing back at Ibrahim.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed after zooming in. Script 12.2 says the three chiefs' \"designs [are] locked for this chapter\". On page 12, panels 12.2 and 12.3, the gold-chain chief is fleshy, bald on top, has sparse curly hair at the sides and a heavy moustache, wears several heavy gold chains with pendants, and has rings and a red-striped shoulder cloth. On page 13 the same chief looks like a different man. In the 13.1 main panel (back of head, right) and in the 13.1 inset (glance toward Ibrahim), he has a full head of thick black hair in a bun with a curved gold pin, gold stud earrings and a red-and-gold brocade shoulder cloth. In 13.2 the speaker of \"The company pays fair weight\" also has a thick black bun with a gold-beaded pin and gold hoop earrings. He wears strands of round gold beads rather than heavy chains with pendants, a large red-and-gold brocade shoulder cloth, and his back is muscular, not fleshy. The change from bald to a full bun is an identity change that is easy to see at print size, not slight. It also weakens the plant: the 12.2 caption ties debt to the bald chief, and 13.1 links Ibrahim to that same chief. Neither the bible nor the cast overrides allow the change; neither has a 13.1 or 13.2 entry. I rate it major rather than blocker. The dialogue still works, the speaker still wears gold, the character appears only in this chapter, and the fix stays on one page: redraw the 13.1 back-of-head figure and inset and the 13.2 foreground chief as the bald, fleshy man from 12.2 with heavy chains."
+   }
+  },
+  {
+   "page": 14,
+   "panel": "14.1, 14.5",
+   "severity": "major",
+   "description": "The chief in white is not the man from 12.2. On 12.2 he is lean and older, with grey swept-back hair and a lined face. On 14.1 he is a smooth-faced younger man with slicked black hair, and on 14.5 he has curly black hair. The Kottarakkara question therefore comes from someone the reader has not met.",
+   "evidence": "Page 12, middle panel, right: grey-haired older man in white. Page 14, top panel: young clean-faced man with black hair. Page 14, bottom-right panel: curly black-haired man lowering his eyes.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "I zoomed in on all three panels and the problem is real. On 12.2 (right figure), the chief in white is an older man. He has grey-streaked hair receding at the temples, deep forehead and cheek lines, and a gaunt face. On 14.1 (the big top panel), he is clearly a younger man in his thirties, with a smooth unlined face and thick, glossy, all-black slicked-back hair. On 14.5 (bottom right, eyes lowered), he has thick, wavy black hair and yet another face shape, with no grey and no lines. The script (12.2) says the designs of the three chiefs are \"locked for this chapter\". Page 14's notes describe him as \"lean, upright, no ornaments\", so the 12.2 look is the reference. CONTINUITY.md and the cast overrides have no entry that would allow a different look. The only links back to 12.2 are the plain white mundu, the shoulder cloth and the lack of ornaments. That is not enough, because 14.1 is a full-width close-up where the age and hair change is obvious at print size. Readers will take the man asking \"What of Kottarakkara?\" for someone new, and that weakens the chapter's key beat. This is a wrong-identity error on a minor, chapter-only character, confined to two panels, so I rate it major rather than blocker. 14.1 and 14.5 should be redrawn to match the older, grey-haired chief from 12.2."
+   }
+  },
+  {
+   "page": 18,
+   "panel": "18.3 (also 17.5, 19.1)",
+   "severity": "major",
+   "description": "Revathi wears a dot mark between her brows. The script says she is a widow and 'the sandalwood line at her hairline is her only forehead mark.' The parting of her hair is also tinted orange on several panels (9.5, 11.2, 18.3), which can read as sindoor.",
+   "evidence": "Zoomed crops show a small dark-red vertical mark between the brows on 18.3 (Revathi beside Nagoji at the pillar), and a dark dot on 17.5 (split tier, left) and 19.1. An orange streak runs along the hair parting on 11.2 and 18.3.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "The claim holds. I zoomed in on each panel. 18.3: Revathi has a dark red vertical mark between her brows, below the sandalwood line, and an orange-red streak runs down her hair parting. The brow mark is visible at full-page size. 19.1: a clear dark dot between her brows, also visible on the unzoomed page. 17.5 (left tier): a dark dot between her brows. 11.2: an orange streak runs along the parting above the sandalwood line. 18.5 shows the same orange tint in the parting but no dot. 19.3 is clean. The script rules this out in two places. 8.1 says she is a widow with \"no tali, no sindoor in the parting; the sandalwood line at her hairline is her only forehead mark\", and 9.5 repeats it. The notes add \"Revathi is still a widow: no tali, no sindoor.\" CONTINUITY.md gives her the sandalwood line only, with no dot. The likely source is the approved sheet, 05-revathi-bayi-v15f.png, which has a tiny dark dot between the brows and a faint orange tint at the parting. That makes it a known sheet fault that needs a prompt caveat, not something the bible allows. At print size, the red mark on 18.3 together with the tinted parting reads as a married woman's markings on a character the script makes a widow, so it changes what the reader understands about her. It is localized, though: three faces need the dot retouched and three or four partings need the tint removed (11.2, 18.3, 18.5). Nothing needs a full redraw, so major, not blocker. Separate from this claim: 11.2 also has an extra, empty speech balloon at top right with a tail pointing into the art, which is a lettering defect."
+   }
+  },
+  {
+   "page": 19,
+   "panel": "19.1, 19.3",
+   "severity": "major",
+   "description": "The staging breaks the pillar conversation. On 18.3 to 18.5 Revathi stands beside Nagoji at his pillar. On 19.1 and 19.3 she is suddenly seated on the floor in the crowd, and the betel-box chief she mocks sits right next to her instead of 'across the hall in a different cluster'. Her aside about his debt now plays as if said within his earshot.",
+   "evidence": "Page 19, top panel: Revathi sits on the mat about a metre from the grey-haired chief with the brass betel box, with no pillar or Nagoji present. Page 19, middle-right panel: she is seated among the Velinadu women. Page 18, middle panel: she was standing at the pillar.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "major",
+    "reason": "Confirmed on zoomed crops of page 19. On 19.1 Revathi sits cross-legged on the mat inside the betel-box chief's own circle. She is within arm's reach of him, with seated men in the foreground on both sides. There is no pillar and no Nagoji in the panel. She gives the chief a side-glance while he talks, so her two lines about his Dutch debt read as said within his earshot. The script asks for something else on 19.1: \"a chief across the hall, seated in a different cluster\", and 18.3 sets her standing beside Nagoji at his pillar. On 19.3 she is seated on the mat again, with Velinadu women behind her, and again no pillar and no Nagoji. On 19.2, between those panels, Nagoji is still standing at his pillar. So the private aside of 18.3 to 19.3 (spoken in Konkani so that few could follow) is broken in space across two panels. Nothing in the script, the cast overrides or the bible allows a seated or close-up staging. The cast list for 19.1 is just Revathi, but the script text clearly puts the chief across the hall. The problem is easy to see at print size. Severity is major, not blocker: identities, costumes, lettering and the dialogue beat are all intact. The error is limited to how 19.1 and 19.3 are staged, and both should be redrawn with Revathi standing at the pillar, with the chief small and distant in 19.1."
+   }
+  },
+  {
+   "page": 17,
+   "panel": "17.1-17.2",
+   "severity": "major",
+   "description": "'And our sand' is not given room. The script says 'Give the answer room', with 17.2 'Tighter. His eyes.' Both panels are thin strips at the top of the page, and 17.2 is framed almost the same as 17.1 (turban to chest), so the key line of the court scene does not build to the eye close-up.",
+   "evidence": "Page 17, top tier: two short strips (about 180px tall at display size). The 17.2 shot is only slightly tighter than 17.1 and shows the full turban and moustache, not an eye close-up.",
+   "lens": "fidelity",
+   "verdict": {
+    "refuted": false,
+    "severity": "minor",
+    "reason": "This is partly confirmed, but it is minor, not major. On page 17 the top tier is about 253 px tall in the 1838x2775 render at 300 DPI, roughly 0.84 in at print. Panels 17.1 and 17.2 sit side by side in that one strip, the thinnest tier on the page. Panel 17.2 is not the eye close-up the script asks for (\"Tighter. His eyes.\"). It is a head-and-shoulders shot with the turban, moustache, pearl earring and bead necklaces all in frame. The reviewer overstates one point: 17.2 is clearly tighter than 17.1, not \"almost the same.\" Varma's head is about 1.4 to 1.6 times larger, the top of the turban is cut off, and his frowning eyes are easy to read. Nothing is missing. Both lines are lettered and readable, each in its own panel with the tail on the speaker, and the push-in works as a staccato build. The big memory-flicker panel 17.3 then gives \"And our sand\" its room as a payoff. The script's page note supports that reading. Wrong identity, illegible lettering or a lost beat would make this major or a blocker, and none of those is here. A taller top tier with an eye close-up in 17.2 would be better, which makes this a polish note."
+   }
+  }
+ ],
+ "refuted": [
+  {
+   "page": 24,
+   "panel": "3",
+   "lens": "identity",
+   "description": "The bible-required brand beat is missing. The drawn hand is Nagoji's RIGHT hand, seen palm down with the back of the hand and the outer forearm to camera. Neither the edge of the brand nor the ridged nails are visible. CONTINUITY 11 @24.3 calls for the LEFT palm on the rock, the forearm turned so the edge of the pale puckered brand shows on the INNER left forearm a hand's width above the wrist, and ridged nails.",
+   "reason": "I zoomed in on page 24, panel 3, and the art does not show the reported problem. 1) It is the LEFT hand. We see the back of the hand, with the nails showing and the fingertips pointing down toward the reader. The thumb is on the image-left side. For the back of a hand with the fingers pointing down, that combination is a left hand, not a right one. The body agrees: Nagoji's head is turned in profile toward image-left, which puts his LEFT side toward the camera, so the arm reaching down to the near rock is his left arm. The reviewer had both rules of thumb backwards. 2) The edge of the brand is there. On the image-left edge of the bare forearm (the thumb side, where the inner forearm rolls into view), about 50 to 220 px above the wrist crease at 300 DPI, which is roughly a hand's width, there is a pale, glossy, hairless strip with small raised beads. It is clearly different from the hairy skin around it. That matches the bible's 11 @24.3 note: only the edge of the brand shows, on the inner forearm, never on the back of the hand. The script's 24.3 note, 'just visible', also fits. The sleeve is pushed back as the bible asks, and the long white scar is covered, as allowed. 3) Ridged nails: the nails show faint lengthwise striations at high zoom, but ridging is too small to read at print size whatever is drawn. That is polish at most, not a missing beat. The panel follows the continuity bible and the script."
+  },
+  {
+   "page": 21,
+   "panel": "3",
+   "lens": "identity",
+   "description": "De Lannoy's hair is wrong for his sheet. Below the tricorne it is drawn as grey-white curls at the nape, which reads as an elderly officer or a powdered wig. The approved sheet has young, pale blond wavy hair tied with a black ribbon. Together with the gold-braided navy coat, the figure echoes Van Imhoff's powdered-wig look from pages 5 and 6, so readers may take the man on the quarterdeck for the governor.",
+   "reason": "Refuted. On page 21, panel 3, if you zoom in, the hair at the officer's nape does look like grey-white curls rather than the ash-blond queue on the 06-eustachius-de-lannoy-v15b sheet. But the bible and script allow what is drawn, and the difference is too small to matter at print size.\n\n- **What the bible and script require:** CONTINUITY.md gives De Lannoy only \"tall, pale hair\". Its chapter 11 row says just \"a distant figure in a Dutch blue coat and black tricorne\". Script 21.3 asks for \"pale hair escaping at the collar. Distant. No clear features.\" The adaptation notes say he \"stays a faceless distant figure\". The text around him calls him \"the one with the pale hair\" (2.2) and \"the pale-haired officer\" (page 23). Pale, nearly white hair under a black tricorne meets all of this.\n- **At print size:** the figure is about 1 inch tall on the page, and the hair is a small light patch under the tricorne. Ash-blond and grey-white look almost the same there, especially in back light against a copper sky. No black ribbon is called for or visible in this view.\n- **Van Imhoff confusion is unlikely:** on page 5, panel 4, Van Imhoff is heavy-set and wears a large white full-bottomed wig, inside a dated night-time flashback. The figure on page 21 is tall and slim, with only a small patch of hair at the nape. The caption \"The boy had not exaggerated\" ties him straight to the boy's pale-haired captain on page 2, not to the governor.\n\nAt most this is a minor polish note: warming the nape hair toward the sheet's ash-blond would help continuity with chapters 14 and 15. It is not a major identity error."
+  },
+  {
+   "page": 8,
+   "panel": "1",
+   "lens": "identity",
+   "description": "Revathi's widow markers drift. The script (8.1 and 9.5) says the sandalwood line at her hairline is her only forehead mark, with no sindoor. Several panels add a red kumkum dot between her brows and others leave it out, so she is not consistent from panel to panel. In the large close-ups the hair parting is also drawn as a saturated orange-red line, which can read as sindoor.",
+   "reason": "I measured the pixels at 300 DPI, and they don't support the claim.\n\n(1) The dots are not red kumkum. Their cores are near-black or dark brown: 8.1 is (101,66,45), 17.5 is (46,15,5), 18.3 is (12,10,4), 19.1 is (18,9,1) and 10.2 is (17,3,4). They measure 2x2 to 4x4 px, which is 0.2 to 0.35 mm at print. The largest is about the size of a printed full stop.\n\n(2) The anchor panel is effectively clean. On page 8, panel 1, Revathi's face is about 100 px wide. The \"dot\" is a 2 to 3 px brown speck between the brows, invisible at print size. The two sandalwood strokes at her hairline read clearly.\n\n(3) The approved sheet has the same mark. concepts/05-revathi-bayi-v15f.png shows the same small dark dot in the 3/4 front view and the neutral expression, but not in the other expressions. So the panel-to-panel variation copies the approved reference. CONTINUITY.md (base line and ch11 row) asks only for a sandalwood line at the hairline and does not forbid a dark dot. Neither the bible nor the script asks for kumkum.\n\n(4) The parting line is not sindoor. In 9.5, 11.2, 18.3 and 18.5 it scans as an amber or ochre scalp highlight: hue 26 to 34 degrees, for example (150,67,0) in 9.5 and (230,138,50) in 11.2. It is 1 to 3 px wide in 9.5 and 18.3 and about 5 px in 11.2. It matches the warm rim light on her hair strands, and the approved sheet shows the same thin warm line in its parting. It is not a vermilion stripe.\n\nThe only point left is that a period-sized dark dot, inherited from the sheet, appears on 17.5, 18.3 and 19.1, while the script calls the sandalwood line her \"only forehead mark\". That is too slight to matter at print and is not a widow-marker violation.\n\nOut of scope, but seen while checking: page 11, panel 2 has an empty speech balloon at top right, with a tail and no text, plus a partial stray balloon behind the envoy's balloon at top left. That empty balloon is a lettering blocker and needs its own finding."
+  },
+  {
+   "page": 24,
+   "panel": "24.3",
+   "lens": "continuity",
+   "description": "The brand beat is missing. The script and the bible row for 11 @24.3 call for the left sleeve eased back and the edge of the pale puckered brand just visible on the inner left forearm, a hand's width above the wrist. The forearm is drawn bare, with only hair and skin, and shows no brand at all.",
+   "reason": "I'm rejecting this one: the brand edge is there. Panel 24.3 (middle row, right) shows the LEFT hand. It is palm down with the fingers toward the viewer and the thumb on the viewer's left, and the sleeve is pushed back. I zoomed to about 4x on the original-resolution crop (x 1340-1520, y 1660-1940). Along the thumb-side edge of the forearm, the side that turns to the inner forearm, there is a separate pale, mottled patch. Its puckered, glossy texture with white flecks differs from the plain hairy skin on the rest of the arm. It runs from just above the wrist crease to about a hand's width up. The bible row for 11 @24.3 asks for exactly this: the forearm turned slightly outward so \"only the edge\" of the brand shows on the INNER forearm, \"just visible\". The script says the same (\"the edge of the brand ... just visible\"). It is subtle, but subtle is what the brief asks for. It has no letters and no cross, it is not on the back of the hand or the outer forearm, and the long white scar stays mostly hidden. The reviewer's claim that the forearm shows \"only hair and skin\" does not hold up at full resolution."
+  },
+  {
+   "page": 17,
+   "panel": "17.5 (also 9.5, 18.3, 19.1, 11.2)",
+   "lens": "continuity",
+   "description": "Revathi's widow markers are broken. The script says the sandalwood line at her hairline is her only forehead mark, with no sindoor in the parting. She is drawn with a red kumkum bindi between her brows, and in the close-ups the parting shows a bright orange line that reads as sindoor. The approved v15f sheet also carries a small red dot, so the sheet and the script disagree and the author should decide.",
+   "reason": "Refuted. Zooming in and sampling the pixels shows the reviewer misread both marks. (1) There is no red kumkum bindi. The small mark between the brows is near-black or dark brown: about (46,15,5) on 17.5 and (12,10,4) on 18.3. On 19.1 it is a round black dot, and on 9.5 a dark-brown tick. Each is roughly 3 to 5 px at 300 DPI, about 0.3 to 0.4 mm in print. A tiny black mark is not a marriage marker. The approved v15f sheet carries the same dark dot (3/4 view and every expression head), so the art matches the reference the author approved. CONTINUITY.md's Revathi base line only asks for a sandalwood line at the hairline and forbids no dot. (2) There is no sindoor in the parting. The streak in 11.2 samples at about (231,131,18), a hue near 32 degrees. The forehead skin next to it is about (233,145,77), near 26 degrees, so the streak is warm golden scalp in lamplight, not vermilion (about 5 to 10 degrees). The 18.3 parting is a thin brown-amber line, about (198,102,30). The approved sheet draws the parting the same way. On every Revathi panel the real widow markers hold: no tali, no red in the parting, and a sandalwood hairline line. The only gap left is that the script line 'the sandalwood line at her hairline is her only forehead mark' does not mention the sheet's speck-sized black dot. That is an optional note for the author, not a defect. A separate problem, outside this claim, turned up on page 11, panel 11.2: there is a blank painted speech balloon in the top right, its tail pointing into the hall, and a second painted balloon outline behind the envoy's balloon at top left. Both go against the drawn-balloons-only decision and should be raised as their own finding."
+  },
+  {
+   "page": 8,
+   "panel": "8.4",
+   "lens": "lettering",
+   "description": "The envoy's balloon tail points to the interpreter, not the envoy.",
+   "reason": "I refute this. The tail tip on page 8, panel 8.4 is at about (805, 2029) original px. That spot is where the two heads meet: it touches the edge of the interpreter's hair, but the bowing envoy's brow is only about 20 px to the left (about 1.7 mm at 300 DPI). The tail runs down and to the left, so its line carries on straight into the envoy's face, not down onto the interpreter's. At print size (checked with a quarter-scale preview) the tip reads as dropping between the two men, not clearly onto the interpreter. Everything else in the panel names the envoy as the speaker. He is the large foreground figure caught in the act of bowing toward Varma. The interpreter faces the viewer, mouth closed and hands clasped, a passive bystander. Even if a reader does give the line to the interpreter, no beat or identity is lost. The script places the interpreter \"at his elbow\" and has him translating on the next page (9.1, \"blinking before he translates\"), and page 9 panel 1 itself routes an ENVOY line through the interpreter. So the Company's greeting coming out of the interpreter's mouth makes sense in the story. Optional polish: shorten the tail or move its tip about 30 px left, onto the envoy's forehead, to remove any doubt. This is not a major problem."
+  },
+  {
+   "page": 17,
+   "panel": "17.5",
+   "lens": "lettering",
+   "description": "Both balloons in the split tier straddle the gutter. Most of Ramayyan's balloon sits over Revathi's panel, which defeats the split meant to keep each speaker in their own panel.",
+   "reason": "The measurements are right, but the problem doesn't hold up. In the full-resolution crop of page 17's bottom tier, the gutter sits at about x918. Revathi's balloon runs from about x615 to x1040. Ramayyan's balloon runs from about x635 to x1255, so roughly 46% of it lies on Revathi's side. The reviewer assumed the split exists to keep each speaker's balloon in their own panel. The script says otherwise: CHAPTER-11-SCRIPT.md line 745 gives the reason as \"17.5: split tier so Revathi and Ramayyan keep their seats.\" The split is about where they sit. Line 469 asks only for two side-by-side panels, and I found no rule in CONTINUITY.md or the script that keeps balloons from crossing a gutter. The lettering itself works. Revathi's balloon is top-left, so it reads first, and its tail points left to her mouth. Ramayyan's balloon sits below it and its wedge tail points right at his face, so the speakers and reading order are clear. Neither balloon covers a face or key action: Revathi's face, Ramayyan's face, and his stylus and palm leaf are all clear. The overlap only covers background women and the gutter. Balloons bridging a split tier are normal lettering practice and hard to misread at print size. At most this is a matter of taste, not a major error."
+  },
+  {
+   "page": 9,
+   "panel": "9.1",
+   "lens": "fidelity",
+   "description": "Wrong speaker tail. The script gives both lines to the lead ENVOY, but the tail of 'The seas are not as peaceful as we would like.' points to the interpreter in the white shirt, so the line reads as his.",
+   "reason": "Refuted. I cropped and zoomed page 9, panel 9.1 (the tail runs from about (666-704, 643) to its tip at about (601, 591) in page pixels). The reviewer described the art wrongly. The tip of the \"The seas are not as peaceful as we would like.\" tail does not touch the interpreter's chin, hand or face. It ends on the back and neck of a seated background figure in white, in the gap between the envoy and the interpreter, roughly 110 px left of the interpreter's face and well clear of his hand at his chin. The tail leans up and to the left, away from the interpreter. When I extended its line past the tip, it ran straight into the lead envoy's face (cheek and eye area, brown coat, grey-streaked queue). Comics readers follow a tail's direction, and this one points at the envoy, as the script requires for both ENVOY lines. Both balloons read left to right, and both tails angle toward the envoy, so the two lines read as his. The only weakness is that the balloon sits under the interpreter and the tail stops short of the envoy. That leaves slight ambiguity, which is optional polish: lengthen the tail toward the envoy's mouth, or join the two balloons with a connector. It is not a wrong speaker tail and does not warrant a major finding."
+  },
+  {
+   "page": 24,
+   "panel": "24.3",
+   "lens": "fidelity",
+   "description": "The planned brand reveal is missing. The script and the CONTINUITY row for 11 @24.3 ask for ridged nails and the edge of the pale puckered brand just showing on the inner LEFT forearm, a hand's width above the wrist. The art shows a bare forearm and a clean hand with no brand, so the quiet threat 'Come closer...' loses its visual anchor.",
+   "reason": "I'm refuting the claim. On page 24, panel 24.3 (middle right), the hand on the rock is Nagoji's LEFT: palm down, fingers toward the camera, thumb on the image-left. The sleeve is pushed back. A 4x crop of the thumb-side edge of the forearm (original pixels about x 1370-1410, y 1810-1880) shows a pale, puckered patch with raised ridges. It sits roughly a hand's width above the wrist crease and is clearly a different texture from the hairy skin around it. It has no letters or numerals and is not a cross. This is what CONTINUITY row 11 @24.3 asks for: forearm turned slightly outward, \"only the edge of the old pale puckered brand shows on the INNER forearm\", with the long white scar mostly covered. The script asks for the same thing, \"just visible\". So the reviewer's statement that the forearm skin is unmarked is wrong; the brand edge is drawn where the bible puts it, and it is meant to be quiet. The nails look fairly smooth rather than ridged when zoomed in. That detail is too small to matter at print size, and the row repeats it on every Nagoji line, so it is not a missing beat. Optional minor polish: at full-page size the brand edge could pass for a wet highlight, so a slightly stronger pale ridge would read better. This does not justify a redraw."
+  },
+  {
+   "page": 22,
+   "panel": "22.5",
+   "lens": "fidelity",
+   "description": "Ibrahim's exit is missing. The script has him already kicking his horse into motion along the ridge with a parting hand thrown over his shoulder, leaving Nagoji behind. The art shows him stationary, facing the camera with a hand pressed to his chest, and Nagoji sits beside him on his own horse.",
+   "reason": "I zoomed into page 22, panel 22.5, and the art does not match the reviewer's description. Ibrahim's right hand is not pressed to his chest. It reaches across to his left shoulder, the side nearest Nagoji, which is a literal reading of the script's \"one hand spread over his shoulder.\" His horse is not shown standing toward the camera either. The breastplate and chest point to frame-left and the tail hangs toward Nagoji at frame-right, so the horse is turned away from Nagoji. Ibrahim's torso twists back and his eyes cut sideways toward Nagoji, which reads as a parting glance while he moves off. Nagoji is not in the same plane. He is drawn about half Ibrahim's scale, higher in the frame and set against the sunset sea, so he reads as left behind against the copper sea as scripted. The only fair point is that the departure feels calm rather than kinetic: no dust, no gait, no sign of a kick. At most that is a polish note, not a missing beat or a localized major error."
+  }
+ ],
+ "minors": [
+  {
+   "page": 10,
+   "panel": "2",
+   "severity": "minor",
+   "description": "Look-alike: the woman on the right in the red sari is drawn as Revathi's twin. She has the same face, the same sandalwood line at the hairline, jasmine in her hair and bell earrings. This blurs the beat where heads turn toward Revathi as she speaks.",
+   "evidence": "Page 10, middle panel: the right-hand woman in a rust-red sari has a face nearly identical to the speaker in green, with the same pale sandalwood stripe at the hairline, a jasmine cluster behind the ear and gold jhumkas.",
+   "lens": "identity"
+  },
+  {
+   "page": 22,
+   "panel": "4",
+   "severity": "minor",
+   "description": "Ibrahim's scar is on the correct side (his LEFT ear to the jaw) but is drawn very faintly, and the balloon tail is aimed straight at his left jaw, covering the lower end of the scar. The script asks for the scar to be 'clear in the low light' in this panel.",
+   "evidence": "Page 22, bottom-left panel: a thin, faint pinkish line runs from the ear visible on the image-right side of his face down toward the beard. The tail of the 'I sell to whoever...' balloon comes in from the right and ends on that jawline.",
+   "lens": "identity"
+  },
+  {
+   "page": 24,
+   "panel": "2",
+   "severity": "minor",
+   "description": "Nagoji's chin and jaw show visible stubble in the close-up. The bible allows light stubble on a clean-shaven chin only in captivity. The same stubble texture appears more lightly in 6.3.",
+   "evidence": "Page 24, middle-left close-up: dense dotted stubble across the chin, upper lip edge and jaw under the thick moustache. In 6.3 the lamplit close-up has similar stubble shading on the chin.",
+   "lens": "identity"
+  },
+  {
+   "page": 5,
+   "panel": "5.4",
+   "severity": "minor",
+   "description": "Dhanaji switches sides around Nagoji. The script puts him on Nagoji's right throughout. 5.3 places him there, but in 5.4 he stands on Nagoji's left at the far side of the seated king. Nagoji's sideways mutter therefore crosses the king instead of going to the man beside him.",
+   "evidence": "5.3: Dhanaji (indigo quilted tunic) at image-left of a front-facing Nagoji, which is Nagoji's right. 5.4: Dhanaji at the far right of the frame beyond Varma, which is Nagoji's left.",
+   "lens": "continuity"
+  },
+  {
+   "page": 5,
+   "panel": "pages 5-6, all panels",
+   "severity": "minor",
+   "description": "The flashback treatment the script asks for is missing. Pages 5 and 6 should have thin rounded panel borders and a warmer, slightly faded palette. They use the same square black borders as the present-day pages, so the jump to February only reads through the caption.",
+   "evidence": "All panels on pages 5 and 6 have the standard hard square black frames used on pages 4 and 7.",
+   "lens": "continuity"
+  },
+  {
+   "page": 1,
+   "panel": "1.4 (also 2.5 vs 1.2, 1.3, 2.1, 2.4)",
+   "severity": "minor",
+   "description": "The palm lookout changes design between panels. In some panels it is an open rope-lashed platform with rails or a ladder; in others it has a thatched roof or is a round thatched hut.",
+   "evidence": "1.2, 1.3, 2.1 and 2.4: open platform with no roof. 1.4: the same lookout with a thatched roof. 2.5: a round basket-style platform with a thatched cap.",
+   "lens": "continuity"
+  },
+  {
+   "page": 2,
+   "panel": "2.2",
+   "severity": "minor",
+   "description": "Nagoji is on foot here but mounted in the panels before and after. He rides up in 1.3 and 1.4 and is 'turning his horse' in 2.4.",
+   "evidence": "2.2: Nagoji stands on the ground beside the bay's head, shading his eyes. 1.3, 1.4, 2.4 and 2.5: he is in the saddle.",
+   "lens": "continuity"
+  },
+  {
+   "page": 7,
+   "panel": "7.5",
+   "severity": "minor",
+   "description": "The 'single white shell' token changes shape. It is a cowrie on pages 3 and 4 and a spiral conch on the overhead map in 7.5.",
+   "evidence": "3.3, 3.4 and 4.4: a small white cowrie beside the charcoal headland mark. 7.5: a large spiral conch-type shell at the centre of the rings.",
+   "lens": "continuity"
+  },
+  {
+   "page": 24,
+   "panel": "24.2",
+   "severity": "minor",
+   "description": "Nagoji has heavy stubble across his chin and jaw in the close-up. The bible allows a clean-shaven chin with light stubble at most, and only in captivity.",
+   "evidence": "24.2 crop: dense stubble on the chin, jaw and upper lip below the moustache.",
+   "lens": "continuity"
+  },
+  {
+   "page": 17,
+   "panel": "17.1-17.2 (also 12.1)",
+   "severity": "minor",
+   "description": "Varma's coastal-audience look (bible 11 @8-) calls for a string of rudraksha beads among the gold necklaces. They appear on 8.4 and 16.2 but are missing here, where he wears only gold bead necklaces.",
+   "evidence": "8.4 and 16.2: brown rudraksha strand clearly visible. 17.1, 17.2 and 12.1: only gold beads and chains at the neck.",
+   "lens": "continuity"
+  },
+  {
+   "page": 15,
+   "panel": "15.1 (also 8.1, 18.2)",
+   "severity": "minor",
+   "description": "Revathi's seat moves around. The script places her 'farther back, among the older women of Velinadu', and 9.5, 10.2 and 17.5 do. In 8.1, 15.1 and 18.2 she sits right beside Padmini in the front row.",
+   "evidence": "15.1: Revathi in green directly beside Padmini at the front right. 8.1: seated at Padmini's shoulder near the front. 9.5 and 17.5: among the women further back.",
+   "lens": "continuity"
+  },
+  {
+   "page": 15,
+   "panel": "15.1 (also 9.3)",
+   "severity": "minor",
+   "description": "Padmini's hair is drawn loose to the shoulders instead of the locked thick black coil at the nape. 8.1, 13.2, 14.2 and 18.2 show it correctly coiled.",
+   "evidence": "15.1: Padmini's curly hair hangs loose around her face and neck with no coil. 8.1 and 18.2: a clear bun at the nape.",
+   "lens": "continuity"
+  },
+  {
+   "page": 14,
+   "panel": "14.3",
+   "severity": "minor",
+   "description": "The court hall's layout changes in the wide silent shot. Elsewhere the hall is open on the sea side with the king's low platform at the side and people sitting in clusters. Here it is a long symmetrical aisle with ranks of seated people on both sides and the king at the far end, like a throne room. The script specifies clusters rather than ranks.",
+   "evidence": "14.3: a central mat aisle runs to Varma at the far end, with orderly rows on both sides. Compare 8.1 and 15.1, where the platform sits at the side with the Dutch in a cleared space to his left.",
+   "lens": "continuity"
+  },
+  {
+   "page": 21,
+   "panel": "21.5",
+   "severity": "minor",
+   "description": "Ibrahim's horse changes colour on this page. In 21.4 it is dark brown. In 21.5 it is a red-brown bay with a black mane, close to Kayal's colouring, which invites confusion with Nagoji's mare. In 22.3 and 22.5 it is dark brown to black again.",
+   "evidence": "21.4: Ibrahim's mount is dark brown. 21.5: the close-up horse has a warm ochre-red coat and black mane. 22.3: Ibrahim's horse is near-black.",
+   "lens": "continuity"
+  },
+  {
+   "page": 9,
+   "panel": "9.4",
+   "severity": "minor",
+   "description": "The split eye strips do not fill their slot. A blank white band runs across the bottom of both strips.",
+   "evidence": "9.4: below Varma's and Padmini's eye strips, a white strip of about 40px at display scale crosses the full panel width above the border.",
+   "lens": "continuity"
+  },
+  {
+   "page": 4,
+   "panel": "1",
+   "severity": "minor",
+   "description": "The ghosted Pune-court background behind Nagoji includes a seated scribe with an open book. Its pages carry rows of faint scribble that read as pseudo-handwriting painted into the art. The rule is no text of any kind in the art. The marks are faint and cannot be read, so this is polish: soften or blank the pages.",
+   "evidence": "page-04.png, right half of panel 1: the scribe at the lower right of the ghosted court, at roughly x 1380-1480, y 700-800 in the original. The open book shows lines of wavy script-like marks. Crop: /tmp/claude-501/ch11std.iAbkGA/p4_1papers.png.",
+   "lens": "rules"
+  },
+  {
+   "page": 24,
+   "panel": "24.4",
+   "severity": "minor",
+   "description": "Three captions crowd a small panel, and the hazy ship-light cluster (the beat of the panel) is squeezed into a gap between them. The script's '(separate, weighted)' caption 'Ship smoke. Dutch smoke.' is set in the same size and weight as the others.",
+   "evidence": "The panel is about 354 px tall, and the three caption boxes cover roughly 40% of it. The top edge of the 'Ship smoke' box clips the right-hand light cluster on the horizon. No size, weight or color difference distinguishes the 'weighted' caption.",
+   "lens": "lettering"
+  },
+  {
+   "page": 3,
+   "panel": "3.4",
+   "severity": "minor",
+   "description": "Ibrahim's second balloon is a very narrow column of 1 to 2 words per line, 12 lines tall, which reads poorly next to the wide balloons used elsewhere.",
+   "evidence": "'Gifts for those who fear you more than the company. Promises written in thick ink and broken in thin whispers.' is set as 'Gifts for / those who / fear you / more than / the / company...'. The words 'the' and 'thin' stand alone on their lines.",
+   "lens": "lettering"
+  },
+  {
+   "page": 20,
+   "panel": "20.2 / 20.3",
+   "severity": "minor",
+   "description": "Panel 20.2's balloon is a 12-line column of 1 to 2 words per line. In 20.3, the long off-panel tail of 'They keep them in their little church...' runs over Karl August's drawing hand, and the panel is indented from the page margins.",
+   "evidence": "20.2: 'I fought / for the / Dutch. / They did / not pay...' runs down the left side. 20.3: the white tail runs vertically from about y1435 to y1055 across the back of the hand that holds the charcoal. The frame is at x166-1671 against the page margins of x148-1688.",
+   "lens": "lettering"
+  },
+  {
+   "page": 23,
+   "panel": "23.2 / 23.4",
+   "severity": "minor",
+   "description": "Two of Ramayyan's balloons are tall single-word columns, 11 and 9 lines. The off-panel tail of Nagoji's 'Why not his own kind?' runs almost the full panel height across Ramayyan's robe.",
+   "evidence": "23.2: 'They / grumble. / Houses like / Elayadathu...' has 11 lines. 23.4: 'We can farm / the pepper...' has 9 lines. The 23.2 Nagoji tail runs from about y1060 up to y570 along the left side, over Ramayyan's arm.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.3",
+   "severity": "minor",
+   "description": "The guard's and the boy's tails both stop in the same patch of empty sky, well short of either speaker, so the exchange reads loosely.",
+   "evidence": "The tail of 'The banded flag?' (GUARD) and the tail of 'Red, white, blue.' (BOY from above) end within about 60 px of each other, near (1180-1240, 1130-1150) original px. The guard's head is about 200 px lower right, and the boy on the platform is about 250 px up right.",
+   "lens": "lettering"
+  },
+  {
+   "page": 5,
+   "panel": "5.2",
+   "severity": "minor",
+   "description": "Ramayyan's lines are marked (whisper) in the script but are lettered in standard solid balloons at full size, with no whisper convention.",
+   "evidence": "Both balloons, 'Let Van Imhoff wonder...' and 'A question he cannot answer...', use the same solid outline and type as normal speech.",
+   "lens": "lettering"
+  },
+  {
+   "page": 6,
+   "panel": "6.1 / 6.4 / 6.5",
+   "severity": "minor",
+   "description": "Panel widths are inconsistent, so the page edges are ragged.",
+   "evidence": "Detected frames: 6.1 at x171-1666, 6.4 at x934-1676, and 6.5 at x180-1656, against the standard x148-1688 margins used by 6.2 and 6.3.",
+   "lens": "lettering"
+  },
+  {
+   "page": 12,
+   "panel": "12.2",
+   "severity": "minor",
+   "description": "Varma's off-panel balloon tail ends on an oil-lamp flame inside the panel instead of breaking the border. The balloon also covers the chest and arms of the chief in white.",
+   "evidence": "The tail of 'You owe tax to my throne...' ends at about (1672, 1205) original px, just inside the right border, on the lamp. The balloon spans the lower right, over the chief in white's torso.",
+   "lens": "lettering"
+  },
+  {
+   "page": 13,
+   "panel": "13.1",
+   "severity": "minor",
+   "description": "In the main panel, the 'Rope breaks...' balloon covers the face of the rear figure in Ibrahim's look. His glance is planted only in the inset, but the main-panel figure reads as a cropped face.",
+   "evidence": "The figure in the white turban and teal coat at about x1020-1150, y550-780 original px has its eyes and mouth hidden behind the 'Rope breaks when it is worn or rotten.' balloon. Only the turban shows above it.",
+   "lens": "lettering"
+  },
+  {
+   "page": 14,
+   "panel": "14.2",
+   "severity": "minor",
+   "description": "The first caption crosses the internal border between the Revathi and Varma strips, and the second caption covers the lower half of the Ramayyan and Revathi strips.",
+   "evidence": "'The name dropped into the hall like a stone into still water.' spans about x527-845 original px, across the Revathi/Varma divider. 'I watched the ripples.' sits over Ramayyan's lap and Revathi's lower strip.",
+   "lens": "lettering"
+  },
+  {
+   "page": 18,
+   "panel": "18.1",
+   "severity": "minor",
+   "description": "The two captions are staggered, so their reading order is ambiguous. 'I listened, and I watched.' sits at bottom left, and the first-in-script caption is to its right and higher.",
+   "evidence": "'The rest of the afternoon passed in Portuguese...' is at about x585-911, y700-955 original px. 'I listened, and I watched.' is at about x245-578, y908-993. Read left to right, 'I listened' comes first.",
+   "lens": "lettering"
+  },
+  {
+   "page": 19,
+   "panel": "19.1",
+   "severity": "minor",
+   "description": "Revathi's second balloon sits directly under the betel-box chief, who is drawn mouth-open mid-speech, and its tail stops at Revathi's knee, not her head. This invites a reader to give the line to the chief.",
+   "evidence": "The tail of 'Today he speaks loudly about loyalty...' ends at about (890, 830) original px, on the edge of Revathi's sari. Her face is at about (650, 400). The balloon body covers the chief's chest under his open mouth.",
+   "lens": "lettering"
+  },
+  {
+   "page": 22,
+   "panel": "22.3",
+   "severity": "minor",
+   "description": "The 'Both sides?' balloon runs into the right panel border and is clipped flat.",
+   "evidence": "The balloon's right side meets the border at x1688 original px, so its rounded edge is cut off.",
+   "lens": "lettering"
+  },
+  {
+   "page": 8,
+   "panel": "8.3",
+   "severity": "minor",
+   "description": "The caption is a tall 10-line column of 1 to 3 words per line, flush against the top border.",
+   "evidence": "'They came / with the / heavy / formality / of men told...' fills the right fifth of the panel at about x1332-1512 original px, from the top border down to y1868.",
+   "lens": "lettering"
+  },
+  {
+   "page": 7,
+   "panel": "7.1",
+   "severity": "minor",
+   "description": "A caption and two narrow balloons cover more than half of a half-width panel, squeezing the map and Varma's tracing finger into a small gap.",
+   "evidence": "The caption at top left, 'Take a small party...' (6 lines, left third), and 'Let their glass see...' (4 lines, center right) leave only a strip around the finger at about (513, 797) original px. Most of the coastline on the map is hidden.",
+   "lens": "lettering"
+  },
+  {
+   "page": 1,
+   "panel": "1.1",
+   "severity": "minor",
+   "description": "The script asks for a wide, full-page-width establishing shot of the sandy headland, with palms leaning inland and specks on the horizon. It is drawn as a half-width panel, and the tall caption covers its left third. There is no headland or palms, and the ships are already readable as flagged vessels rather than white specks.",
+   "evidence": "Page 1, top-left panel, half the page width: open sea with three flagged ships and a few rocks at the bottom. The probing-squadron caption box takes up the left side.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 1,
+   "panel": "1.3",
+   "severity": "minor",
+   "description": "The two balloon tails ('The banded flag?' from the guard and 'Red, white, blue.' from the boy above) both end in empty sky between the figures. Neither clearly reaches the guard or the platform.",
+   "evidence": "Page 1, middle panel: both tails end at about display x 850-895, y 820, well left of the guard (x about 1050) and below the boy's platform.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.4",
+   "severity": "minor",
+   "description": "Dhanaji switches sides. The script and 5.3 place him on Nagoji's right, but on 5.4 he stands on Nagoji's left (viewer's right), so Nagoji's sideways mutter is aimed at a man on the opposite side from the previous panel.",
+   "evidence": "Page 5, 5.3 (bottom-left): Dhanaji in the indigo tunic is at the viewer's left of Nagoji. In 5.4 (bottom-right), the indigo-tunic Dhanaji is at the far right.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 6,
+   "panel": "6.1",
+   "severity": "minor",
+   "description": "Van Imhoff should be heavy-set and in his thirties. In 6.1 he looks like a slim man in his fifties under the wig.",
+   "evidence": "Page 6, top panel, left: a lined, older face and slim build in a blue coat with gold braid.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 9,
+   "panel": "9.4",
+   "severity": "minor",
+   "description": "The split eye-strip panel does not fill its frame. A blank cream band runs along the bottom of both strips.",
+   "evidence": "Page 9, middle-right panel: below the Varma and Padmini strips, a band about 60px tall at the bottom of the frame is empty.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 11,
+   "panel": "11.1",
+   "severity": "minor",
+   "description": "The script asks for a young Dutch clerk shifting on his feet behind the lead envoy. The standing figure is drawn as the second envoy (charcoal coat, tricorne in hand), and the lead envoy is not small in the middle ground.",
+   "evidence": "Page 11, top panel: the standing man behind the seated lead envoy wears the second envoy's charcoal coat and holds a tricorne.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 15,
+   "panel": "15.2",
+   "severity": "minor",
+   "description": "The clerk's account book is completely blank. The script asks for the page to show only illegible marks, with the quill stopped as the terms land.",
+   "evidence": "Page 15, bottom panel: both pages of the open book are empty and the quill hovers over plain paper.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 10,
+   "panel": "9.5-12.3 vs 14-18",
+   "severity": "minor",
+   "description": "The time of day jumps around inside one continuous court session. Pages 9.5 to 12 show sunset or dusk skies, pages 14 to 16 are in bright midday light, page 18 is afternoon (as the script asks), and page 19 is sunset again. The script moves forward from shaded interior lamplight (8.1) to slanting afternoon (18.1) to low evening (19.4).",
+   "evidence": "Pages 10.2, 11.2, 12.1 and 12.2 have pink and violet dusk skies. Page 14.1 and 15.1 show high noon with blue sky. Page 18.1 is golden afternoon.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 18,
+   "panel": "18.2",
+   "severity": "minor",
+   "description": "The script calls for a strip of three small insets. The panel adds a fourth, establishing image above them (Padmini, Revathi and the envoys), and its top edge sits lower than 18.1.",
+   "evidence": "Page 18, top-right panel: a wide image of Padmini, Revathi and the envoys sits above the three insets, starting about 45px below the top of 18.1.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 21,
+   "panel": "21.1",
+   "severity": "minor",
+   "description": "The script asks for a wide shot with the riders deliberately in silhouette and Nagoji's profile edge-lit. It is a half-width panel, the riders are seen from behind and fully lit, and the caption covers the horses.",
+   "evidence": "Page 21, top-left panel: Ibrahim and Nagoji are lit from the front and seen from the back. The caption box sits over the lower centre.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 22,
+   "panel": "22.4",
+   "severity": "minor",
+   "description": "Ibrahim's scar from the LEFT ear to the jaw should be clear in the low light. It is barely visible, and the balloon tail ends right on it.",
+   "evidence": "Zoomed crop of page 22, bottom-left panel: only a faint line shows near his left ear, under the tip of the 'I sell to whoever...' tail.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 24,
+   "panel": "24.4",
+   "severity": "minor",
+   "description": "The haze smudging one cluster of ship lights is barely visible, and three caption boxes cover most of the panel. The 'Ship smoke. Dutch smoke.' caption is not set apart or weighted as the script asks.",
+   "evidence": "Page 24, bottom-left panel: the light clusters at the horizon are tiny and show no clear smudge. The three caption boxes are the same size and style.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 24,
+   "panel": "24.5",
+   "severity": "minor",
+   "description": "The script asks for the chapter's closing pull-back to be full width, with four clusters of light. It is a half-width panel beside 24.4, and only three light clusters are visible.",
+   "evidence": "Page 24, bottom-right panel: half the page width, with a tiny figure on the bluff and three clusters of light on the water.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 8,
+   "panel": "8.1",
+   "severity": "minor",
+   "description": "Revathi is seated at the very front beside Padmini and next to Nagoji's pillar. The script places her farther back among the older Velinadu women, and 17.5 refers back to her as 'far back'.",
+   "evidence": "Page 8, top panel: Revathi in the green sari sits directly behind Padmini at the front, beside Nagoji.",
+   "lens": "fidelity"
+  },
+  {
+   "page": 5,
+   "panel": "5.2",
+   "severity": "minor",
+   "description": "Ramayyan's whisper is lettered in ordinary solid balloons rather than whisper balloons. His face is almost fully hidden behind Varma's head, so the whisperer is hard to identify.",
+   "evidence": "Page 5, middle panel: both RAMAYYAN (whisper) balloons have the standard solid outline. Only his curly hair and a sliver of profile show behind the king's turban.",
+   "lens": "fidelity"
+  }
+ ]
+}

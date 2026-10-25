@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-09-27",
+  "supersedes": "output/comic-v15-full-redo/concepts/reviews/06-09-review-v15.json",
+  "scope": "Targeted additive retries for De Lannoy hair and plain white trim, and final Keshavrao age and moustache correction.",
+  "sheets": [
+    {
+      "character": "Eustachius De Lannoy",
+      "source_sheet": "output/character-model-sheets-v1/06-eustachius-de-lannoy.png",
+      "source_sha256": "58a7786439189bea48c1c8ea7bf1e65487d95e0109149684c27dbcc6acd8d698",
+      "prior_output": "output/comic-v15-full-redo/concepts/06-eustachius-de-lannoy-v15.png",
+      "output": "output/comic-v15-full-redo/concepts/06-eustachius-de-lannoy-v15b.png",
+      "output_sha256": "5ec2d7f5ba0fa49c593a3964f6af79bb0823e29fca9b9251cd257487013e513c",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/06-eustachius-de-lannoy-v15b.txt",
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/06-eustachius-de-lannoy-v15.png",
+          "sha256": "9a88f047b3c731fb5acdde50d9cc7176c53a95f844802e122b3941600ce1cff9",
+          "checks": {
+            "pale_hair": "fail",
+            "plain_white_mundu_no_gold_border": "fail"
+          },
+          "reason": "Hair remained copper brown and mundu had a gold border."
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/06-eustachius-de-lannoy-v15b.png",
+          "sha256": "5ec2d7f5ba0fa49c593a3964f6af79bb0823e29fca9b9251cd257487013e513c",
+          "checks": {
+            "layout": "pass",
+            "pale_ash_blond_hair_all_views": "pass",
+            "plain_white_mundu_no_gold_border": "pass",
+            "white_tunic_coat": "pass",
+            "sandals": "pass",
+            "captions_readable_and_current": "pass",
+            "four_turnarounds_six_expressions_five_details": "pass",
+            "no_garbled_text_or_extra_people": "pass"
+          },
+          "reason": "Targeted retry corrected hair colour and removed gold mundu border."
+        }
+      ]
+    },
+    {
+      "character": "Keshavrao",
+      "source_sheet": "output/character-model-sheets-v1/07-keshavrao.png",
+      "source_sha256": "67cda96c026a4087014ed379d8d7e9fa7a73d7a9d8848a97ff74fd3697942486",
+      "prior_output": "output/comic-v15-full-redo/concepts/07-keshavrao-v15b.png",
+      "output": "output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+      "output_sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de",
+      "prompt_path": "output/comic-v15-full-redo/concepts/prompts/07-keshavrao-v15c.txt",
+      "attempts": [
+        {
+          "output": "output/comic-v15-full-redo/concepts/07-keshavrao-v15b.png",
+          "sha256": "0451b5309361e732a5920214f9248f29cd9a9b9688b173611f9738e24cda7753",
+          "checks": {
+            "adolescent_face": "fail",
+            "sparse_wispy_moustache": "fail",
+            "palette_tan_cotton_label": "pass",
+            "five_details": "pass"
+          },
+          "reason": "Main portraits and detail moustache read too dense and adult, with deep forehead wrinkles."
+        },
+        {
+          "output": "output/comic-v15-full-redo/concepts/07-keshavrao-v15c.png",
+          "sha256": "1b0b7074f9a12eb2c9f50643c2e02e85516f2c08e98867d060a158f3e3c3a3de",
+          "checks": {
+            "layout": "pass",
+            "adolescent_face": "pass",
+            "narrow_shoulders": "pass",
+            "sparse_wispy_moustache_skin_visible": "pass",
+            "grey_brown_prisoner_tunic": "pass",
+            "no_ear_stud": "pass",
+            "palette_tan_cotton_label": "pass",
+            "five_details": "pass",
+            "captions_readable_and_current": "pass",
+            "no_garbled_text_or_extra_people": "pass"
+          },
+          "reason": "Final authorized retry gives a younger face, sparse moustache with visible skin, correct TAN COTTON label, and exactly five details."
+        }
+      ]
+    }
+  ]
+}

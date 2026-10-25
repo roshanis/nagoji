@@ -1,0 +1,40 @@
+{
+  "schema_version": "r4",
+  "scope": [
+    "page-09"
+  ],
+  "selection_performed": false,
+  "latest_candidates": {
+    "page-09-panel-01": "v06",
+    "page-09-panel-02": "v04",
+    "page-09-panel-03": "v03",
+    "page-09-panel-04": "v05",
+    "page-09-panel-05": "v06"
+  },
+  "root_independent_decisions": {
+    "page-09-panel-01-v06": "reject: missing collar",
+    "page-09-panel-02-v04": "reject: missing collar, missing manacles, missing face, wrong staging",
+    "page-09-panel-03-v03": "reject: missing collar",
+    "page-09-panel-04-v05": "reject: missing knee and rope coil, rope action fails script staging",
+    "page-09-panel-05-v06": "reject: rope breaks between hands and lacks knee and coil staging; script requires behind-hands rope and severed tail to rail"
+  },
+  "copy_fit_light_status": "blocked",
+  "geometry_files": {
+    "page-09-panel-01": "review-page-09-panel-01-v06-geometry-audit2.json",
+    "page-09-panel-02": "review-page-09-panel-02-v04-geometry-audit2.json",
+    "page-09-panel-03": "review-page-09-panel-03-v03-geometry-final-audit.json",
+    "page-09-panel-04": "review-page-09-panel-04-v05-geometry-final-audit.json",
+    "page-09-panel-05": "review-page-09-panel-05-v06-geometry-audit2.json"
+  },
+  "provenance_files": {
+    "page-09-panel-01": "candidates/page-09-panel-01-v06-provenance.json",
+    "page-09-panel-02": "candidates/page-09-panel-02-v04-provenance.json",
+    "page-09-panel-03": "candidates/page-09-panel-03-v03-provenance.json",
+    "page-09-panel-04": "candidates/page-09-panel-04-v05-provenance.json",
+    "page-09-panel-05": "candidates/page-09-panel-05-v06-provenance.json"
+  },
+  "notes": [
+    "Native inspection was completed for every listed candidate. Root found required script deviations, so these are not pass recommendations.",
+    "No selection command was run."
+  ]
+}

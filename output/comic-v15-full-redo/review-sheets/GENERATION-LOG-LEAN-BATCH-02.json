@@ -1,0 +1,114 @@
+[
+  {
+    "chapter": 3,
+    "id": "page-01-panel-03",
+    "status": "error",
+    "candidate_record": null,
+    "error": "Input preparation tool failed: SyntaxError: Unexpected token 'W', \"Warning: t\"... is not valid JSON"
+  },
+  {
+    "chapter": 3,
+    "id": "page-03-panel-02",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-03-panel-02-v09.json",
+    "error": null
+  },
+  {
+    "chapter": 3,
+    "id": "page-04-panel-01",
+    "status": "error",
+    "candidate_record": null,
+    "error": "Error: Traceback (most recent call last):\n  File \"/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py\", line 450, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/pipeline/run_chapter.py\", line 417, in main\n    if frame.exists():raise FileExistsError(frame)\n                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileExistsError: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/frames/page-04-panel-01-v04.png\n\nGenerated image retained at: /Users/roshanvenugopal/.codex/generated_images/01a0f369-4229-7552-818c-8dbbd322ead9/exec-4bbed50d-4c88-41d4-9ff4-cc48de0ab217.png"
+  },
+  {
+    "chapter": 3,
+    "id": "page-04-panel-02",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-04-panel-02-v02.json",
+    "error": null
+  },
+  {
+    "chapter": 3,
+    "id": "page-05-panel-03",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-05-panel-03-v06.json",
+    "error": null
+  },
+  {
+    "chapter": 3,
+    "id": "page-06-panel-02",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-06-panel-02-v08.json",
+    "error": null
+  },
+  {
+    "chapter": 3,
+    "id": "page-07-panel-04",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-07-panel-04-v04.json",
+    "error": null
+  },
+  {
+    "chapter": 3,
+    "id": "page-08-panel-01",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch03/candidates/page-08-panel-01-v10.json",
+    "error": null
+  },
+  {
+    "chapter": 4,
+    "id": "page-02-panel-02",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/candidates/page-02-panel-02-v03.json",
+    "error": null
+  },
+  {
+    "chapter": 4,
+    "id": "page-03-panel-03",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/candidates/page-03-panel-03-v05.json",
+    "error": null
+  },
+  {
+    "chapter": 4,
+    "id": "page-05-panel-01",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/candidates/page-05-panel-01-v08.json",
+    "error": null
+  },
+  {
+    "chapter": 4,
+    "id": "page-05-panel-02",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/candidates/page-05-panel-02-v05.json",
+    "error": null
+  },
+  {
+    "chapter": 4,
+    "id": "page-05-panel-03",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/candidates/page-05-panel-03-v05.json",
+    "error": null
+  },
+  {
+    "chapter": 4,
+    "id": "page-05-panel-05",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/candidates/page-05-panel-05-v05.json",
+    "error": null
+  },
+  {
+    "chapter": 4,
+    "id": "page-06-panel-01",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/candidates/page-06-panel-01-v06.json",
+    "error": null
+  },
+  {
+    "chapter": 4,
+    "id": "page-06-panel-03",
+    "status": "captured",
+    "candidate_record": "/Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/chapters/ch04/candidates/page-06-panel-03-v05.json",
+    "error": null
+  }
+]

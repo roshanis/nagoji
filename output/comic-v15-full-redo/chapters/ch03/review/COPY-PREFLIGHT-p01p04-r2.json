@@ -1,0 +1,149 @@
+{
+  "measurements": [
+    {
+      "frame_id": "page-01-panel-04",
+      "copy_indices": [
+        0
+      ],
+      "rect_pt": [
+        47.70092024539876,
+        238.23926380368096,
+        74.50153374233129,
+        75.1687116564417
+      ],
+      "lines": [
+        "Quiet down there. No",
+        "shouting. No prayers."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 16.261533742331288,
+        "top": 28.879355828220852,
+        "bottom": 28.87935582822085
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -0.16,
+          54.69,
+          6.1
+        ],
+        [
+          0.0,
+          -1.79,
+          56.24,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        40.18935582822085,
+        30.669355828220848
+      ]
+    },
+    {
+      "frame_id": "page-01-panel-04",
+      "copy_indices": [
+        1
+      ],
+      "rect_pt": [
+        236.73466257668713,
+        195.09509202453987,
+        156.34202453987734,
+        54.708588957055184
+      ],
+      "lines": [
+        "If any of you break your chains and try for the deck, we",
+        "put a ball in your gut and throw you over."
+      ],
+      "adaptation": null,
+      "fits": true,
+      "fit_issue": null,
+      "minimum_clearance_pt": 1.0,
+      "target_clearance_pt": 2.0,
+      "ink_margins_pt": {
+        "left": 2.0,
+        "right": 8.582024539877352,
+        "top": 18.674294478527592,
+        "bottom": 18.674294478527592
+      },
+      "tight_margin": false,
+      "leading_pt": 9.52,
+      "actual_line_bounds_pt": [
+        [
+          0.0,
+          -1.74,
+          145.76,
+          6.05
+        ],
+        [
+          0.0,
+          -1.79,
+          107.97,
+          6.05
+        ]
+      ],
+      "baselines_pt": [
+        29.98429447852759,
+        20.46429447852759
+      ]
+    }
+  ],
+  "pixels": {
+    "status": "pass",
+    "minimum_light_fraction": 1.0,
+    "line_count": 4,
+    "lines": [
+      {
+        "frame_id": "page-01-panel-04",
+        "text": "Quiet down there. No",
+        "source_pixel_rect": [
+          62,
+          181,
+          308,
+          209
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-04",
+        "text": "shouting. No prayers.",
+        "source_pixel_rect": [
+          62,
+          224,
+          315,
+          259
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-04",
+        "text": "If any of you break your chains and try for the deck, we",
+        "source_pixel_rect": [
+          912,
+          421,
+          1567,
+          456
+        ],
+        "light_fraction": 1.0
+      },
+      {
+        "frame_id": "page-01-panel-04",
+        "text": "put a ball in your gut and throw you over.",
+        "source_pixel_rect": [
+          912,
+          464,
+          1397,
+          499
+        ],
+        "light_fraction": 1.0
+      }
+    ]
+  }
+}

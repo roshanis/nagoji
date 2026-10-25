@@ -1,0 +1,347 @@
+{
+  "summary": "Select candidates (one reviewer per page, reading that page from a file) then mark face and keep zones for the picks",
+  "agentCount": 8,
+  "logs": [
+    "chapter 28: 2 picked, 0 need regeneration; 0 page reviewers failed",
+    "▸ running dynamic workflow v15-keep",
+    "▸ running dynamic workflow v15-faces2",
+    "[v15-keep] chapter 28: keep regions for 2 frames; beat missing from the art in 0: ",
+    "▸ v15-keep done",
+    "[v15-faces2] chapter 28: face zones for 2 frames, 2 faces",
+    "▸ v15-faces2 done"
+  ],
+  "result": {
+    "selections": [
+      {
+        "chapter": 28,
+        "decisions": [
+          {
+            "id": "page-04-panel-04",
+            "pick": "v03",
+            "backup": null,
+            "tails": [],
+            "backup_tails": [],
+            "faces": [],
+            "backup_faces": [],
+            "issues": "v03 (the newest version) is acceptable. It is a tight handover of a handleless coconut-rib broom bound with coir, with ragged tips, passing from the attendant to Varma in the same lamplit mandapa as 4.3 and 4.5: granite pillars, brass open-wick lamps, rain through the outer doorway on the right. Varma is cropped just below the mouth. Only his chin, neck and a grey low knot at the back show, with bare torso, sacred thread and plain white mundu, and no jewels. All four hands are sound. There is no text, no blood and nothing anachronistic. The panel has no lettering. Minor faults: (1) The inking is flatter and cleaner than the more painterly 4.3 and 4.5. (2) The visible chin has light grey stubble, which hardly shows at inset size. (3) The attendant's mundu is plain white, while in 4.3 it has a thin gold edge. The other versions are worse. v01 shows Varma's whole face with no moustache, which breaks his sheet, and it is wider than the script's 'inset, tight'. v02 is photorealistic, which breaks the style rule.",
+            "correction": ""
+          },
+          {
+            "id": "page-11-panel-02",
+            "pick": "v03",
+            "backup": "v02",
+            "tails": [
+              {
+                "copy_index": 0,
+                "x": 0.538,
+                "y": 0.273
+              },
+              {
+                "copy_index": 1,
+                "x": 0.538,
+                "y": 0.273
+              }
+            ],
+            "backup_tails": [
+              {
+                "copy_index": 0,
+                "x": 0.538,
+                "y": 0.273
+              },
+              {
+                "copy_index": 1,
+                "x": 0.538,
+                "y": 0.273
+              }
+            ],
+            "faces": [
+              {
+                "x": 0.557,
+                "y": 0.175,
+                "r": 0.155
+              }
+            ],
+            "backup_faces": [
+              {
+                "x": 0.557,
+                "y": 0.175,
+                "r": 0.155
+              }
+            ],
+            "issues": "Mostly clean. Duarte matches his sheet: gaunt lined face, swept grey hair with side curls, plain black cassock with a plain standing collar and no white tab, small gold cross on a thin chain. His raised right hand makes a sound two-finger blessing toward screen left (where Nagoji stands off panel) and shows ink stains; the lowered left hand is sound too. No text, noose or gore. Minor points: (1) his hair is steel grey rather than fully white. That matches the sheet but is a shade darker than the 'white-haired' present-scene note. (2) His eyes are cast down and tired rather than looking straight at Nagoji. That still reads as the quiet blessing. Lettering space: the open evening sky at upper left (about x 0 to 0.29, y 0 to 0.22) above the raised hand, plus the plain granite wall above his head (about x 0.29 to 0.46, y 0 to 0.17), can hold both balloons. Keep the lower balloon clear of the fingertips at about y 0.21. The exterior setting (chapel door, fort walls, evening sky) matches 11.4 and 11.5. v02 is almost identical, with slightly heavier ink spots on the hand.",
+            "correction": ""
+          }
+        ],
+        "failedPages": []
+      }
+    ],
+    "zones": [
+      {
+        "kind": "faces",
+        "chapter": 28,
+        "result": {
+          "chapter": 28,
+          "panels": [
+            {
+              "id": "page-04-panel-04",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.65,
+                  "y": 0.005,
+                  "r": 0.05,
+                  "who": "grey-haired elder at right, face cut by top edge (only lips and chin visible)"
+                }
+              ]
+            },
+            {
+              "id": "page-11-panel-02",
+              "version": "v03",
+              "faces": [
+                {
+                  "x": 0.529,
+                  "y": 0.24,
+                  "r": 0.066,
+                  "who": "grey-haired priest in black cassock, three-quarter view, centre"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "kind": "keep",
+        "chapter": 28,
+        "result": {
+          "chapter": 28,
+          "panels": [
+            {
+              "id": "4.4",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.27,
+                  "y0": 0.49,
+                  "x1": 0.73,
+                  "y1": 0.85,
+                  "what": "handleless coconut-rib broom with coir binding and ragged tips, passing from the attendant's hands into the king's hands"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            },
+            {
+              "id": "11.2",
+              "version": "v03",
+              "keep": [
+                {
+                  "x0": 0.225,
+                  "x1": 0.305,
+                  "y0": 0.2,
+                  "y1": 0.43,
+                  "what": "Duarte's raised, ink-stained right hand making the two-finger blessing (the sign of the cross) toward the left, where Nagoji is"
+                }
+              ],
+              "beat_present": true,
+              "missing": ""
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Select"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Zones"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "select ch28 p4",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "ac93700a262542417",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514446663,
+      "queuedAt": 1791514446656,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 4 of Chapter 28 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch28/page-04.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514511213,
+      "tokens": 77680,
+      "toolCalls": 13,
+      "durationMs": 64550,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-04-panel-04\",\"pick\":\"v03\",\"backup\":null,\"tails\":[],\"backup_tails\":[],\"faces\":[],\"backup_faces\":[],\"issues\":\"v03 (the newest version) is acceptable. It is a tight handover of a handleless coconut-rib broom bound with coir, with ragged tips, passing from the attendant to Varma in the same lamplit mandapa as 4.3 and 4.5: granite pillars, brass open-wick lamps, rain through t…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "select ch28 p11",
+      "phaseIndex": 1,
+      "phaseTitle": "Select",
+      "agentId": "a52c5f4ea544f47f0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514446663,
+      "queuedAt": 1791514446656,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are choosing finished art for page 11 of Chapter 28 of the graphic novel \"Horse of the Servant\" (Travancore and Goa, 1738 to 1753). First Read /private/tmp/claude-501/-Users-roshanvenugopal-Documents-github-nagoji/5c3fc8e7-1cfa-40f2-9ebb-05a9d514337c/scratchpad/selpages/sel-rG-ch28/page-11.txt: it lists the character sheets for this page and the 1 panel(s) to decide, each with its script label…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514499845,
+      "tokens": 73695,
+      "toolCalls": 14,
+      "durationMs": 53182,
+      "resultPreview": "{\"decisions\":[{\"id\":\"page-11-panel-02\",\"pick\":\"v03\",\"backup\":\"v02\",\"tails\":[{\"copy_index\":0,\"x\":0.538,\"y\":0.273},{\"copy_index\":1,\"x\":0.538,\"y\":0.273}],\"backup_tails\":[{\"copy_index\":0,\"x\":0.538,\"y\":0.273},{\"copy_index\":1,\"x\":0.538,\"y\":0.273}],\"faces\":[{\"x\":0.557,\"y\":0.175,\"r\":0.155}],\"backup_faces\":[{\"x\":0.557,\"y\":0.175,\"r\":0.155}],\"issues\":\"Mostly clean. Duarte matches his sheet: gaunt lined face,…"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "▸ v15-keep",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "keep ch28 p4",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "aab5ac3cb32e2dea2",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514511227,
+      "queuedAt": 1791514511221,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 4 of chapter 28 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-28-SCRIPT.md …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514532258,
+      "tokens": 61605,
+      "toolCalls": 6,
+      "durationMs": 21030,
+      "resultPreview": "{\"panels\":[{\"id\":\"4.4\",\"version\":\"v03\",\"keep\":[{\"x0\":0.27,\"y0\":0.49,\"x1\":0.73,\"y1\":0.85,\"what\":\"handleless coconut-rib broom with coir binding and ragged tips, passing from the attendant's hands into the king's hands\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "keep ch28 p11",
+      "phaseIndex": 3,
+      "phaseTitle": "▸ v15-keep",
+      "agentId": "a20ab789afdae70e4",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514511228,
+      "queuedAt": 1791514511221,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "These are the chosen full, uncropped frames for page 11 of chapter 28 of a graphic novel. When a frame is printed, the layout crops it toward its panel's shape, keeping only the regions it is told to keep, so anything the panel's story needs must be marked or it may be cut away.\n\nRead the script: /Users/roshanvenugopal/Documents/github/nagoji/output/comic-v15-full-redo/scripts/CHAPTER-28-SCRIPT.md…",
+      "promptFramed": true,
+      "lastProgressAt": 1791514530746,
+      "tokens": 62622,
+      "toolCalls": 5,
+      "durationMs": 18958,
+      "resultPreview": "{\"panels\":[{\"id\":\"11.2\",\"version\":\"v03\",\"keep\":[{\"x0\":0.225,\"x1\":0.305,\"y0\":0.2,\"y1\":0.43,\"what\":\"Duarte's raised, ink-stained right hand making the two-finger blessing (the sign of the cross) toward the left, where Nagoji is\"}],\"beat_present\":true,\"missing\":\"\"}]}"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 4,
+      "title": "▸ v15-faces2",
+      "kind": "child"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "mark ch28 p4",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a2b482b21f28859d6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514511240,
+      "queuedAt": 1791514511234,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514545969,
+      "tokens": 62751,
+      "toolCalls": 8,
+      "durationMs": 34729,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.65,\"y\":0.005,\"r\":0.05,\"who\":\"grey-haired elder at right, face cut by top edge (only lips and chin visible)\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "mark ch28 p11",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "a777a0928405383b5",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514511240,
+      "queuedAt": 1791514511234,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514541889,
+      "tokens": 61574,
+      "toolCalls": 8,
+      "durationMs": 29999,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-11-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.54,\"y\":0.243,\"r\":0.064,\"who\":\"grey-haired priest in black cassock, three-quarter view, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "check ch28 p11",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "acf466d2fbb591ec0",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514541891,
+      "queuedAt": 1791514541890,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514581673,
+      "tokens": 63517,
+      "toolCalls": 9,
+      "durationMs": 39782,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-11-panel-02\",\"version\":\"v03\",\"faces\":[{\"x\":0.529,\"y\":0.24,\"r\":0.066,\"who\":\"grey-haired priest in black cassock, three-quarter view, centre\"}]}]}"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "check ch28 p4",
+      "phaseIndex": 4,
+      "phaseTitle": "▸ v15-faces2",
+      "agentId": "ae4d7b4d4f9f41037",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791514545970,
+      "queuedAt": 1791514545969,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "A FACE ZONE is a circle that covers one person's facial features so that no speech balloon or caption is ever placed over them. Its centre (x, y) is the middle of the features (roughly the bridge of the nose, between the eyes and the mouth), NOT the centre of the head: for a face in profile or three-quarter view, put it on the face, not over the hair or the back of the skull. Its radius r reaches …",
+      "promptFramed": true,
+      "lastProgressAt": 1791514583610,
+      "tokens": 62570,
+      "toolCalls": 8,
+      "durationMs": 37639,
+      "resultPreview": "{\"panels\":[{\"id\":\"page-04-panel-04\",\"version\":\"v03\",\"faces\":[{\"x\":0.65,\"y\":0.005,\"r\":0.05,\"who\":\"grey-haired elder at right, face cut by top edge (only lips and chin visible)\"}]}]}"
+    }
+  ],
+  "totalTokens": 526014,
+  "totalToolCalls": 71
+}

@@ -1,0 +1,15 @@
+test_keep_coverage_partial_overlap (test_run_chapter.KeepCoverageTests.test_keep_coverage_partial_overlap) ... ok
+test_keep_coverage_sums_boxes_inside_the_visible_part (test_run_chapter.KeepCoverageTests.test_keep_coverage_sums_boxes_inside_the_visible_part) ... ok
+test_keep_coverage_zones_without_a_visible_part_are_zero (test_run_chapter.KeepCoverageTests.test_keep_coverage_zones_without_a_visible_part_are_zero) ... ok
+test_draw_reports_keep_coverage_for_each_zone (test_run_chapter.DrawnAutoGeometryTests.test_draw_reports_keep_coverage_for_each_zone) ... ok
+test_slot_probe_rejects_excess_keep_coverage_only_when_enabled (test_run_chapter.FitLayoutCommandTests.test_slot_probe_rejects_excess_keep_coverage_only_when_enabled) ... ok
+test_keep_max_requires_fit_layout_with_probe (test_run_chapter.FitLayoutCommandTests.test_keep_max_requires_fit_layout_with_probe) ... ok
+test_keep_max_refuses_values_outside_zero_to_one (test_run_chapter.FitLayoutCommandTests.test_keep_max_refuses_values_outside_zero_to_one) ... ok
+test_keep_max_is_used_and_recorded_by_both_probe_modes (test_run_chapter.FitLayoutCommandTests.test_keep_max_is_used_and_recorded_by_both_probe_modes) ... ok
+test_keep_max_omitted_preserves_default_reports (test_run_chapter.FitLayoutCommandTests.test_keep_max_omitted_preserves_default_reports) ... ok
+test_structures_keep_max_parallel_matches_serial_and_rejects_coverage (test_run_chapter.FitLayoutCommandTests.test_structures_keep_max_parallel_matches_serial_and_rejects_coverage) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.947s
+
+OK
