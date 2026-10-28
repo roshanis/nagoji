@@ -447,7 +447,7 @@ Three panels, continuing page 16.
 
 **17.3** Full width. Padmini leading Nagoji past raised wooden granaries on stone footings with tiled roofs, toward a thicket of trees looming like a dark island at the edge of the estate. The canopy swallows the few stars.
 
-> PADMINI: This is the Sarpa Kavu.
+> PADMINI: This is the *Sarpa Kavu*.
 
 > PADMINI: The Abode of Snakes.
 
@@ -467,7 +467,7 @@ Five panels. The grove. Give 18.1 half the page. This plants the serpent that na
 
 **18.2** Revathi turning from the lamp, her face lit from below.
 
-> REVATHI: It is a secret place. Only the immediate family of Padmini Amma's tharavadu may walk here freely.
+> REVATHI: It is a secret place. Only the immediate family of Padmini Amma's *tharavadu* may walk here freely.
 
 > REVATHI: To bring a stranger is to ask the Naga Rajas to witness him.
 

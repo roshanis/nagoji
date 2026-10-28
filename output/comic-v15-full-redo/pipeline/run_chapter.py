@@ -75,10 +75,25 @@ def _delivery_changes(before,after):
             for (panel,old),(_,new) in zip(before,after) for i,(a,b) in enumerate(zip(old,new)) if a[0]!=b[0]]
 
 
+def _speaker_name(speaker):
+    """A speaker without the delivery tag: "JOAO (off)" is JOAO."""
+    return speaker.split(' (',1)[0].strip()
+
+
+def _balloon_changes(before,after):
+    """Panels whose balloons themselves changed (one cut, added or given to another person), as
+    [{panel, before, after}] with each side the panel's [speaker, text] list; [] when the panels differ."""
+    if [panel for panel,_ in before]!=[panel for panel,_ in after]:return []
+    return [{'panel':panel,'before':[list(chunk) for chunk in old],'after':[list(chunk) for chunk in new]}
+            for (panel,old),(_,new) in zip(before,after)
+            if [_speaker_name(speaker) for speaker,_ in old]!=[_speaker_name(speaker) for speaker,_ in new]]
+
+
 def accept_script_revision(args,out):
     """Accept the package's script as revised by the author: directions may change, and with --allow-lettering the
     text of existing balloons and captions, and with --allow-delivery a speaker's delivery tag ("(off)" to "(voice-over)"),
-    never the panels, the balloons or who speaks them.
+    and with --allow-balloons balloons cut from or added to a panel (each such panel is logged whole, before and after),
+    never the panels themselves.
 
     The package must hold SCRIPT-SOURCE.md, a copy of the script it was prepared from (frozen before the edit); the
     live script must parse to the same panels with the same speakers (and, without --allow-lettering, the same text).
@@ -92,6 +107,18 @@ def accept_script_revision(args,out):
     if c.sha256(source)!=item['sha256']:raise ValueError(f'{SCRIPT_SOURCE} does not match the script the package was prepared from')
     live=Path(item['path'])
     before,after=_lettering(s.parse_script(source)),_lettering(s.parse_script(live))
+    balloons=_balloon_changes(before,after)
+    if balloons:
+        if not getattr(args,'allow_balloons',False):
+            raise ValueError('the revised script changes the panels, balloons or speakers, not only the lettering ('
+                             +', '.join(b['panel'] for b in balloons)+'); pass --allow-balloons to accept balloons cut or added')
+        for balloon in balloons:
+            for speaker,text in balloon['after']:
+                if chr(0x2014) in text or chr(0x2013) in text:
+                    raise ValueError(f"{balloon['panel']}: the new text has an em or en dash")
+        # The remaining panels go through the usual text and delivery checks.
+        changed={b['panel'] for b in balloons}
+        before=[item for item in before if item[0] not in changed];after=[item for item in after if item[0] not in changed]
     changes,delivery=[],_delivery_changes(before,after)
     if delivery:
         if not getattr(args,'allow_delivery',False):
@@ -116,6 +143,7 @@ def accept_script_revision(args,out):
            'accepted_at':datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}
     if changes:entry['lettering_changes']=changes
     if delivery:entry['delivery_changes']=delivery
+    if balloons:entry['balloon_changes']=balloons
     entries.append(entry)
     if revisions.is_file():
         # An append-only log: every earlier entry is kept, and the file is replaced in one step.
@@ -125,7 +153,8 @@ def accept_script_revision(args,out):
         with partial.open('x',encoding='utf-8') as f:f.write(text)
         os.replace(partial,revisions)
     else:write_json(revisions,entries)
-    return {'accepted':c.sha256(live),'revisions':len(entries),'lettering_changes':len(changes)}
+    return {'accepted':c.sha256(live),'revisions':len(entries),'lettering_changes':len(changes),
+            'balloon_changes':len(balloons)}
 
 
 def load_job(out):
@@ -198,6 +227,99 @@ def audit_reserve_pixels(rows,geometry,measurements):
             'line_count':len(results),'lines':results}
 
 
+def _chunk_map(old,new,override=None):
+    """Map each of a panel's new chunks to the old chunk whose reserve it keeps, as {new index: old index or None}.
+
+    Chunks match on their text (asterisks and spacing ignored); an equal-sized run of reworded chunks between matches
+    maps in order. Any other new chunk is new (None) unless `override` ({new: old}) names its old chunk."""
+    import difflib
+    key=lambda chunk:' '.join(chunk[1].replace('*','').split())
+    mapping={}
+    blocks=difflib.SequenceMatcher(a=[key(x) for x in old],b=[key(x) for x in new],autojunk=False).get_opcodes()
+    for tag,i1,i2,j1,j2 in blocks:
+        if tag=='equal' or (tag=='replace' and i2-i1==j2-j1):
+            mapping.update({j1+k:i1+k for k in range(j2-j1)})
+        else:mapping.update({j:None for j in range(j1,j2)})
+    for new_index,old_index in (override or {}).items():
+        if not (0<=new_index<len(new) and 0<=old_index<len(old)):
+            raise ValueError(f'chunk map {new_index}={old_index} is outside the panel')
+        mapping[new_index]=old_index
+    used=[old_index for old_index in mapping.values() if old_index is not None]
+    if len(used)!=len(set(used)):raise ValueError('two new chunks keep the same old reserve')
+    return mapping
+
+
+def _parse_panel_options(values,what):
+    """["page-01-panel-02=x", ...] as {panel: x}; a panel given twice is refused."""
+    parsed={}
+    for value in values or []:
+        panel,sep,rest=value.partition('=')
+        if not sep or not re.fullmatch(r'page-\d{2}-panel-\d{2}',panel):raise ValueError(f'{what}: expected page-NN-panel-NN=..., got {value!r}')
+        if panel in parsed:raise ValueError(f'{what}: {panel} given twice')
+        parsed[panel]=rest
+    return parsed
+
+
+def reletter(args,out):
+    """Carry a built selection manifest over to the package's revised lettering (accept-script-revision), unchanged art.
+
+    Every frame keeps its art, crop and reviewed reserves. A cut chunk loses its reserve and the remaining copy indices
+    are renumbered; a chunk that is only reworded keeps its reserve (the box is sized from the new text at build). A
+    panel with a new chunk needs a fresh geometry from auto-geometry (--panel-geometry page-NN-panel-NN=path.json),
+    whose visible_rect and reserves replace the row's. --chunk-map page-NN-panel-NN=new:old[,new:old] says which old
+    reserve a new chunk keeps where matching by text cannot (a surviving caption that moves to the cut one's place).
+    Writes --manifest-out with each changed row's old and new copy indices recorded under "relettered".
+    """
+    if args.manifest is None or args.manifest_out is None:raise ValueError('reletter needs --manifest and --manifest-out')
+    job=load_job(out);script=s.parse_script(Path(job['script']['path']))
+    revisions=out/SCRIPT_REVISIONS
+    entries=[entry for entry in (json.loads(revisions.read_text()) if revisions.is_file() else [])
+             if entry.get('source')==job['script']['path'] and entry.get('sha256')==script['sha256']]
+    if not entries:raise ValueError('the live script is not an accepted revision: run accept-script-revision first')
+    befores={change['panel']:change['before'] for change in entries[-1].get('balloon_changes',[])}
+    geometries={panel:Path(path) for panel,path in _parse_panel_options(args.panel_geometry,'--panel-geometry').items()}
+    overrides={}
+    for panel,pairs in _parse_panel_options(args.chunk_map,'--chunk-map').items():
+        try:overrides[panel]={int(n):int(o) for n,o in (pair.split(':') for pair in pairs.split(','))}
+        except ValueError:raise ValueError(f'--chunk-map {panel}: expected new:old[,new:old], got {pairs!r}')
+    payload=json.loads(args.manifest.read_text());rows=copy.deepcopy(payload['frames'])
+    panels={panel['id']:panel for page in script['pages'].values() for panel in page['panels']}
+    if set(overrides)-set(befores):raise ValueError(f'--chunk-map names a panel whose balloons did not change: {sorted(set(overrides)-set(befores))}')
+    if set(geometries)-set(panels):raise ValueError(f'--panel-geometry names an unknown panel: {sorted(set(geometries)-set(panels))}')
+    report=[]
+    for row in rows:
+        panel=row['id']
+        if panel in geometries:
+            geometry=json.loads(geometries[panel].read_text())
+            old={'visible_rect':row.get('visible_rect'),'reserves':row.get('reserves',[])}
+            row['visible_rect']=geometry['visible_rect'];row['reserves']=geometry['reserves']
+            for key in ('art_rect',):
+                if key in geometry:row[key]=geometry[key]
+            row['relettered']={'geometry':str(geometries[panel]),'geometry_sha256':c.sha256(geometries[panel]),'before':old}
+            report.append({'panel':panel,'geometry':str(geometries[panel])})
+            continue
+        if panel not in befores:continue
+        new=[(chunk['speaker'],chunk['text']) for chunk in panels[panel]['copy']]
+        mapping=_chunk_map(befores[panel],new,overrides.get(panel))
+        added=[n for n,o in mapping.items() if o is None]
+        if added:raise ValueError(f'{panel}: new chunk(s) {added} need a reserve: pass --panel-geometry {panel}=<auto-geometry output>')
+        by_old={o:n for n,o in mapping.items()}
+        reserves=[]
+        for reserve in row.get('reserves',[]):
+            kept=[by_old[i] for i in reserve['copy_indices'] if i in by_old]
+            if kept:reserves.append(dict(reserve,copy_indices=sorted(kept)))
+        # A reserve that loses a chunk while it held others keeps its reviewed rect; the build sizes the box to its text.
+        reserves.sort(key=lambda reserve:reserve['copy_indices'][0])
+        row['relettered']={'chunk_map':{str(n):o for n,o in sorted(mapping.items())},'before':row.get('reserves',[])}
+        row['reserves']=reserves
+        report.append({'panel':panel,'chunk_map':{str(n):o for n,o in sorted(mapping.items())},
+                       'cut':sorted(set(range(len(befores[panel])))-set(by_old))})
+    payload=dict(payload,frames=rows,relettered_from={'manifest':str(args.manifest),'sha256':c.sha256(args.manifest),
+                                                      'script_sha256':script['sha256']})
+    write_json(args.manifest_out,payload)
+    return {'manifest_out':str(args.manifest_out),'panels':report}
+
+
 class AutoGeometryError(ValueError):
     """auto-geometry could not produce a geometry that is safe to select."""
 
@@ -256,6 +378,12 @@ def _recorded_script(job,out):
                     raise ValueError(f'Invalid recorded lettering change: {change["panel"]} chunk {index}')
                 s._reject_dashes(change['after'], f'recorded lettering {change["panel"]}')
                 panel['copy'][index]['text']=change['after']
+            # A panel whose balloons changed is logged whole, so its latest "after" is its lettering.
+            for change in entry.get('balloon_changes',[]):
+                panel=panels.get(change['panel'])
+                if panel is None:raise ValueError(f'Invalid recorded balloon change: {change["panel"]}')
+                for _,text in change['after']:s._reject_dashes(text, f'recorded balloons {change["panel"]}')
+                panel['copy']=[dict(speaker=speaker,text=text) for speaker,text in change['after']]
         return script
     live=Path(item['path'])
     accepted={item['sha256']}|{entry['sha256'] for entry in entries}
@@ -1117,12 +1245,17 @@ def build(args,out):
 def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('command',choices=['prepare','next-job','capture','import-frame','select','build','verify','auto-geometry','fit-layout',
-                                      'accept-script-revision'])
+                                      'accept-script-revision','reletter'])
     p.add_argument('--reason',help='accept-script-revision: why the author changed the script')
     p.add_argument('--allow-lettering',action='store_true',
                    help='accept-script-revision: also accept text-only changes to existing balloons and captions')
     p.add_argument('--allow-delivery',action='store_true',
                    help='accept-script-revision: also accept a changed delivery tag on a speaker, e.g. "(off)" to "(voice-over)"')
+    p.add_argument('--manifest-out',type=Path,help='reletter: new selection manifest to write')
+    p.add_argument('--panel-geometry',action='append',help='reletter: page-NN-panel-NN=geometry.json for a panel with a new chunk')
+    p.add_argument('--chunk-map',action='append',help='reletter: page-NN-panel-NN=new:old[,new:old], the old reserve a chunk keeps')
+    p.add_argument('--allow-balloons',action='store_true',
+                   help='accept-script-revision: also accept balloons and captions cut from or added to existing panels')
     p.add_argument('--chapter',type=int,required=True)
     p.add_argument('--cast-overrides',type=Path)
     p.add_argument('--art-direction',type=Path,help='prepare: v2 art-direction sidecar JSON')
@@ -1171,6 +1304,8 @@ def main(argv=None):
         p.error('--allow-lettering applies only to accept-script-revision')
     if args.allow_delivery and args.command!='accept-script-revision':
         p.error('--allow-delivery applies only to accept-script-revision')
+    if args.allow_balloons and args.command!='accept-script-revision':
+        p.error('--allow-balloons applies only to accept-script-revision')
     if args.geometry_out is not None and args.command!='auto-geometry':p.error('--geometry-out applies only to auto-geometry')
     if args.inset is not None and args.command!='auto-geometry':p.error('--inset applies only to auto-geometry')
     if args.draw and args.command!='auto-geometry':p.error('--draw applies only to auto-geometry')
@@ -1192,6 +1327,8 @@ def main(argv=None):
     for flag,value in (('--layout-out',args.layout_out),('--decisions',args.decisions),('--faces-dir',args.faces_dir),
                        ('--face-scale',args.face_scale),('--margin',args.margin)):
         if value is not None and args.command!='fit-layout':p.error(f'{flag} applies only to fit-layout')
+    for flag,value in (('--manifest-out',args.manifest_out),('--panel-geometry',args.panel_geometry),('--chunk-map',args.chunk_map)):
+        if value is not None and args.command!='reletter':p.error(f'{flag} applies only to reletter')
     out=package(args.chapter,args.package_dir)
     if args.command=='prepare':
         result=s.prepare(args.chapter,out,cast_overrides_path=args.cast_overrides,
@@ -1267,6 +1404,10 @@ def main(argv=None):
         try:result=accept_script_revision(args,out)
         except (ValueError,OSError) as error:
             raise SystemExit(f'accept-script-revision failed: {error}')
+    elif args.command=='reletter':
+        try:result=reletter(args,out)
+        except (ValueError,OSError) as error:
+            raise SystemExit(f'reletter failed: {error}')
     else:
         job=load_job(out);script=lettered_script(Path(job['script']['path']))
         manifest=json.loads((out/f'SELECTION-MANIFEST-{args.revision}.json').read_text())

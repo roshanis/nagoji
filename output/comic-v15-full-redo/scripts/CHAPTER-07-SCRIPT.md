@@ -315,8 +315,6 @@ Five panels. The one quiet scene in the chapter. Let the art carry it. Ends on t
 
 > CAPTION: It was not Kanka's smell. It never would be.
 
-> CAPTION: But it was honest.
-
 **11.4** Close two-shot, his forehead near her face, the last light on her ochre red-brown coat and black forelock. Nagoji: rust-red turban edge in frame, curls at the nape, clean-shaven chin, thick curled moustache, small gold ear stud; take the face from the sheet's commander figure, not its bare-headed studies. Kayal: no white markings on her face.
 
 > NAGOJI: Kayal.
@@ -391,11 +389,7 @@ Five panels. Three faiths, one warning, and the chapter's last line.
 
 **13.5** Full width, bottom, the largest panel on the page, generated at its placed aspect ratio. Night. Nagoji alone with Kayal at the edge of the wet sand, the sea a pale line behind them. Nagoji: rust-red turban, cream tunic, red sash, cream trousers, boots. Kayal: bay, black mane and tail, no white markings. At their feet, the day's hoofprints are filling with water.
 
-> CAPTION: On Deccan soil, I had thought I knew the limits of what a horse could do against a gun. Here, those limits shifted.
-
-> CAPTION: Storms did not ask permission.
-
-> CAPTION (separate, weighted): Perhaps horses, taught well, did not either.
+> CAPTION (separate, weighted): On Deccan soil, I had thought I knew the limits of what a horse could do against a gun. Here, those limits shifted.
 
 ---
 

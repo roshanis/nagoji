@@ -260,7 +260,7 @@ Five panels. Revathi is blunter. Then the night.
 
 > REVATHI: Besides, do not let that silver chain weigh you down with too much hope.
 
-> REVATHI: Even if you have a tharavadu now, I am a Princess of Velinadu. We do not marry commoners, Nagoji. Even ones who think they have found a root.
+> REVATHI: Even if you have a *tharavadu* now, I am a Princess of Velinadu. We do not marry commoners, Nagoji. Even ones who think they have found a root.
 
 **8.4** Close on Nagoji's face in the lamplight (topknot greying at the temples, clean-shaven chin, thick moustache, gold ear stud). The half-smile he gave her is still on his mouth, and it has left his eyes.
 
@@ -326,7 +326,7 @@ Four panels. The market, the gold, and the letter he wrote the night before.
 
 > SOWCAR: It is a long road, Karyakkar. Roads have bandits. Bandits have hunger.
 
-> NAGOJI: It travels by your hundi. Your paper is worth more than gold on the road.
+> NAGOJI: It travels by your *hundi*. Your paper is worth more than gold on the road.
 
 > SOWCAR: And this?
 

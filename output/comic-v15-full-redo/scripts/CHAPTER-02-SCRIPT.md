@@ -26,7 +26,7 @@ Five panels. The waking. João, the chain, and a friend who will not look back.
 
 > CAPTION: He knew where I sat. He had spent too many hours standing over me.
 
-> JOÃO: On your feet, marata. The Viceroy has found a use for you.
+> JOÃO: On your feet, *marata*. The Viceroy has found a use for you.
 
 **1.4** Nagoji halfway up from the floor, rising slowly: one bandaged hand braced flat on the wall, knees still bent, a wince held behind a set jaw. The hobble chain hangs between his bare ankles. João already turning away, uninterested.
 
@@ -72,8 +72,6 @@ Five panels. Up into the light, and the priest at the gate. This is Duarte's sec
 
 > CAPTION: Men who hesitate are men who can be used.
 
-> CAPTION: Someday, I thought, that hesitation might matter.
-
 ---
 
 ## PAGE 3
@@ -96,7 +94,7 @@ Four panels, one with an inset. The town and the harbour, compressed to one page
 
 **3.3** Low angle from the wharf, looking up the gangplank, slick with sea and tar, to the ship's rail. João stands on the wharf at the foot of the gangplank, seen side-on, yanking the chain toward it with both fists. The prisoners climb the flexing plank above him, and at the top a ship's hand in a shirt and head cloth takes the chain over. Inset in the lower corner, tight: Nagoji's bare feet with the ankle cuffs and the short hobble chain on a wet, flexing plank, a strip of dark water glinting through the gap below. João's balloon sits in the main frame; both captions sit in the inset.
 
-> JOÃO: Faster. The tide waits for no man. Not even maratas.
+> JOÃO: Faster. The tide waits for no man. Not even *maratas*.
 
 > CAPTION: An old, absurd thought.
 
@@ -204,8 +202,6 @@ Five panels. The promise that Chapter 3 will break. Hold the quiet; the storm ar
 
 **6.3** Nagoji's face, close (clean-shaven chin with light stubble at most, thick curled moustache, small gold ear stud, loose curly hair, no beard). Nothing moves in it, but something heavy has arrived.
 
-> CAPTION: The words settled over me heavier than iron.
-
 > CAPTION: I had never meant to collect followers.
 
 > CAPTION: One boy's loyalty wrapped itself like a rope around my chest.
@@ -213,8 +209,6 @@ Five panels. The promise that Chapter 3 will break. Hold the quiet; the storm ar
 **6.4** Tight on hands. Nagoji's bandaged hand, entering from the left, resting across the narrow gap on Keshavrao's forearm. Keshavrao's thin, unbandaged fingers closed over it. Manacles and their short chains on both pairs of wrists.
 
 > NAGOJI: If there is a chance, I will not leave you.
-
-> CAPTION: Neither of us mentioned that promises made in chains are the easiest to break.
 
 **6.5** Full width, bottom. Still in the hold: the storm is only heard and felt. The whole frame canted about ten degrees, clearly steeper than 6.1. A slack loop of spare chain swings well off true from a beam ring, attached to no one; the trough has slid against the upright. At the far end of the shelves a prisoner sits with his eyes shut and his lips moving in prayer. Grey light at a hatch seam overhead is broken by the shadow of running feet. In the foreground Nagoji (left) and Keshavrao (right) braced in their pen, Keshavrao's fingers still over Nagoji's bandaged hand. No exterior, no lightning, no sky.
 
