@@ -414,6 +414,18 @@ class ImportFrameTests(PackageCase):
         with self.assertRaisesRegex(ValueError, 'Panel lettering differs'):
             self.import_frame()
 
+    def test_import_carries_an_accepted_balloon_change(self):
+        (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
+        old = '> CAPTION: They woke us under cover of bells.\n\n'
+        self.script.write_text(SCRIPT.replace(old, ''), encoding='utf-8')
+        r.accept_script_revision(SimpleNamespace(reason='2e cut', allow_lettering=False, allow_balloons=True),
+                                 self.source_pkg)
+        self.revise_target(old, '')
+        self.assertEqual(self.import_frame()['id'], self.TARGET)
+        self.revise_target('Up!', 'Up!')                                     # the target still letters the caption
+        with self.assertRaisesRegex(ValueError, 'Panel lettering differs'):
+            self.import_frame()
+
     def test_import_refuses_target_with_pre_revision_lettering(self):
         (self.source_pkg / r.SCRIPT_SOURCE).write_bytes(self.script.read_bytes())
         self.accept_source_lettering('Up! Now.')
@@ -593,6 +605,64 @@ class ScriptRevisionTests(PackageCase):
         with self.assertRaises(SystemExit):
             self.run_cli('verify', '--revision', 'r1', '--allow-delivery')
 
+    def test_a_cut_caption_needs_allow_balloons_and_the_panel_is_logged_whole(self):
+        # The 2e text cut end-of-scene captions the comic had lettered (chapter 1 page 5 panel 3 loses its only one).
+        self.freeze()
+        self.script.write_text(self.SCRIPT_TEXT.replace('> CAPTION: They woke us under cover of bells.\n\n', ''),
+                               encoding='utf-8')
+        message = self.fails('accept-script-revision', '--reason', '2e cut', '--allow-lettering')
+        self.assertIn('--allow-balloons', message)
+        self.assertFalse((self.pkg / 'SCRIPT-REVISIONS.json').exists())
+        result = self.run_cli('accept-script-revision', '--reason', '2e cut', '--allow-balloons')
+        self.assertEqual(result['balloon_changes'], 1)
+        entry = json.loads((self.pkg / 'SCRIPT-REVISIONS.json').read_text())[-1]
+        self.assertEqual(entry['balloon_changes'], [{
+            'panel': PANEL,
+            'before': [['CAPTION', 'They woke us under cover of bells.'], ['JOÃO', 'Up! Those marked go to the docks.']],
+            'after': [['JOÃO', 'Up! Those marked go to the docks.']]}])
+        self.assertNotIn('lettering_changes', entry)
+        r.load_job(self.pkg)
+
+    def test_an_added_balloon_and_a_reworded_one_elsewhere_are_logged_apart(self):
+        self.freeze()
+        self.script.write_text(self.SCRIPT_TEXT
+                               .replace('> JOÃO: Up! Those marked go to the docks.',
+                                        '> JOÃO: Up! Those marked go to the docks.\n\n> NAGOJI (off): Which docks?')
+                               .replace('> *No text.*', '> CAPTION: Nobody answered.'), encoding='utf-8')
+        result = self.run_cli('accept-script-revision', '--reason', '2e adds', '--allow-balloons')
+        entry = json.loads((self.pkg / 'SCRIPT-REVISIONS.json').read_text())[-1]
+        self.assertEqual([change['panel'] for change in entry['balloon_changes']], [PANEL, SILENT])
+        self.assertEqual(entry['balloon_changes'][0]['after'][-1], ['NAGOJI (off)', 'Which docks?'])
+        self.assertEqual(entry['balloon_changes'][1], {'panel': SILENT, 'before': [],
+                                                       'after': [['CAPTION', 'Nobody answered.']]})
+        self.assertEqual(result['lettering_changes'], 0)
+
+    def test_allow_balloons_still_checks_text_changes_in_other_panels(self):
+        self.freeze()
+        two = self.SCRIPT_TEXT.replace('> *No text.*', '> CAPTION: Nobody answered.')
+        self.script.write_text(two, encoding='utf-8')
+        self.run_cli('accept-script-revision', '--reason', 'add', '--allow-balloons')
+        self.script.write_text(two.replace('Up! Those marked go to the docks.', 'Up! To the docks.'), encoding='utf-8')
+        self.assertIn('--allow-lettering', self.fails('accept-script-revision', '--reason', 'x', '--allow-balloons'))
+        result = self.run_cli('accept-script-revision', '--reason', 'x', '--allow-balloons', '--allow-lettering')
+        entry = json.loads((self.pkg / 'SCRIPT-REVISIONS.json').read_text())[-1]
+        self.assertEqual(result['lettering_changes'], 1)
+        self.assertEqual([change['panel'] for change in entry['balloon_changes']], [SILENT])
+
+    def test_allow_balloons_refuses_dashes_and_lost_panels(self):
+        self.freeze()
+        self.script.write_text(self.SCRIPT_TEXT.replace('> *No text.*', '> CAPTION: Nobody' + chr(0x2014) + 'nobody.'),
+                               encoding='utf-8')
+        self.assertIn('dash', self.fails('accept-script-revision', '--reason', 'x', '--allow-balloons'))
+        self.script.write_text(self.SCRIPT_TEXT.replace('**1.2** A silent beat.', ''), encoding='utf-8')
+        self.assertIn('panels, balloons or speakers',
+                      self.fails('accept-script-revision', '--reason', 'x', '--allow-balloons', '--allow-lettering'))
+        self.assertFalse((self.pkg / 'SCRIPT-REVISIONS.json').exists())
+
+    def test_allow_balloons_applies_only_to_accept_script_revision(self):
+        with self.assertRaises(SystemExit):
+            self.run_cli('verify', '--revision', 'r1', '--allow-balloons')
+
     def test_it_needs_the_frozen_original_and_a_reason(self):
         self.script.write_text(self.SCRIPT_TEXT.replace('A silent beat.', 'A silent beat, rain.'), encoding='utf-8')
         self.assertIn('SCRIPT-SOURCE.md', self.fails('accept-script-revision', '--reason', 'x'))
@@ -601,6 +671,84 @@ class ScriptRevisionTests(PackageCase):
         self.freeze_from = None
         (self.pkg / 'SCRIPT-SOURCE.md').write_text(self.SCRIPT_TEXT, encoding='utf-8')
         self.assertIn('--reason', self.fails('accept-script-revision'))
+
+
+class ReletterTests(PackageCase):
+    """reletter: a built manifest follows accepted balloon cuts and additions without touching the art."""
+
+    SCRIPT_TEXT = SCRIPT.replace('> JOÃO: Up! Those marked go to the docks.',
+                                 '> JOÃO: Up! Those marked go to the docks.\n\n> CAPTION (separate, weighted): Storms do not ask.')
+
+    def setUp(self):
+        super().setUp()
+        (self.pkg / 'SCRIPT-SOURCE.md').write_text(self.SCRIPT_TEXT, encoding='utf-8')
+        self.manifest = self.root / 'SELECTION-INPUT-a.json'
+        self.manifest.write_text(json.dumps({'tag': 'a', 'frames': [
+            {'id': PANEL, 'visible_rect': [0, 0, 100, 50], 'reserves': [
+                {'kind': 'caption', 'draw': 'caption', 'rect': [0, 0, 10, 10], 'copy_indices': [0]},
+                {'kind': 'speech', 'draw': 'speech', 'rect': [20, 0, 30, 10], 'copy_indices': [1]},
+                {'kind': 'caption', 'draw': 'caption', 'rect': [40, 0, 50, 10], 'copy_indices': [2]}]},
+            {'id': SILENT, 'visible_rect': [0, 0, 100, 50], 'reserves': []}]}), encoding='utf-8')
+        self.out_manifest = self.root / 'SELECTION-INPUT-a-2e.json'
+
+    def revise(self, text, *flags):
+        self.script.write_text(text, encoding='utf-8')
+        return self.run_cli('accept-script-revision', '--reason', '2e', '--allow-balloons', *flags)
+
+    def reletter(self, *extra):
+        return self.run_cli('reletter', '--manifest', str(self.manifest), '--manifest-out', str(self.out_manifest), *extra)
+
+    def rows(self):
+        return {row['id']: row for row in json.loads(self.out_manifest.read_text())['frames']}
+
+    def test_a_cut_caption_drops_its_reserve_and_renumbers_the_rest(self):
+        self.revise(self.SCRIPT_TEXT.replace('> CAPTION: They woke us under cover of bells.\n\n', ''))
+        result = self.reletter()
+        row = self.rows()[PANEL]
+        self.assertEqual([(x['rect'], x['copy_indices']) for x in row['reserves']],
+                         [([20, 0, 30, 10], [0]), ([40, 0, 50, 10], [1])])
+        self.assertEqual(result['panels'], [{'panel': PANEL, 'chunk_map': {'0': 1, '1': 2}, 'cut': [0]}])
+        self.assertEqual(row['visible_rect'], [0, 0, 100, 50])
+        self.assertEqual(self.rows()[SILENT]['reserves'], [])
+
+    def test_a_surviving_caption_can_take_the_cut_one_s_place(self):
+        # Chapter 7 p13.5: the weighted last caption is cut and the first caption takes its setting and place.
+        self.revise(self.SCRIPT_TEXT.replace('> CAPTION: They woke us', '> CAPTION (separate, weighted): They woke us')
+                    .replace('\n\n> CAPTION (separate, weighted): Storms do not ask.', ''))
+        self.reletter('--chunk-map', f'{PANEL}=0:2')
+        self.assertEqual([(x['rect'], x['copy_indices']) for x in self.rows()[PANEL]['reserves']],
+                         [([40, 0, 50, 10], [0]), ([20, 0, 30, 10], [1])])
+
+    def test_a_new_chunk_needs_a_fresh_geometry(self):
+        self.revise(self.SCRIPT_TEXT.replace('> *No text.*', '> CAPTION: Nobody answered.'))
+        self.assertIn('--panel-geometry', self._fails())
+        geometry = self.root / 'silent.json'
+        geometry.write_text(json.dumps({'visible_rect': [1, 1, 99, 49], 'reserves': [
+            {'kind': 'caption', 'draw': 'caption', 'rect': [5, 5, 50, 20], 'copy_indices': [0]}]}), encoding='utf-8')
+        self.reletter('--panel-geometry', f'{SILENT}={geometry}')
+        row = self.rows()[SILENT]
+        self.assertEqual(row['visible_rect'], [1, 1, 99, 49])
+        self.assertEqual(row['reserves'][0]['copy_indices'], [0])
+        self.assertEqual(row['relettered']['geometry_sha256'], sha(geometry))
+
+    def test_it_needs_an_accepted_revision_and_refuses_an_existing_output(self):
+        self.script.write_text(self.SCRIPT_TEXT.replace('A silent beat.', 'A silent beat, rain.'), encoding='utf-8')
+        self.assertIn('Input changed', self._fails())
+        self.script.write_text(self.SCRIPT_TEXT, encoding='utf-8')
+        self.assertIn('accept-script-revision', self._fails())
+        self.revise(self.SCRIPT_TEXT.replace('> CAPTION: They woke us under cover of bells.\n\n', ''))
+        self.reletter()
+        self.assertIn('exists', self._fails())
+
+    def test_reletter_flags_apply_only_to_reletter(self):
+        for flag in ('--manifest-out', '--panel-geometry', '--chunk-map'):
+            with self.subTest(flag=flag), self.assertRaises(SystemExit):
+                self.run_cli('verify', '--revision', 'r1', flag, 'x')
+
+    def _fails(self, *extra):
+        with self.assertRaises(SystemExit) as caught:
+            self.reletter(*extra)
+        return str(caught.exception.code)
 
 
 class RecordedArtDirectionTests(PackageCase):

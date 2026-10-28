@@ -328,7 +328,7 @@ Time and palette: pages 11 to 24 still come before the grave on page 1. They sta
 
 **11.2** Inside. Marthanda Varma (V13 face) barefoot, no crown, no crest, no jewels, only a plain white cloth, with a narrow linen dressing on the left shoulder from Colachel, half hidden by the cloth. He lays gold and bundles of pepper before the inner shrine.
 
-> CAPTION: A kanikka for a victory he believed had been granted as much by Padmanabha as by powder.
+> CAPTION: A *kanikka* for a victory he believed had been granted as much by Padmanabha as by powder.
 
 **11.3** The Chief Priest (V13 temple priest face) carrying a long sword out of the sanctum across both palms and laying it in Varma's hands.
 
@@ -552,7 +552,7 @@ Three panels. Lannoy on the bastion. The question that has waited months.
 
 > LANNOY: Arras. Do you know it?
 
-> LANNOY: A Catholic city in Flanders. Yet I served a Protestant company, under officers who thought my faith one step above devil worship.
+> LANNOY: A Catholic city in Artois. Yet I served a Protestant company, under officers who thought my faith one step above devil worship.
 
 > LANNOY: They tolerated me because I could build walls and aim cannon. They never trusted me.
 
@@ -566,7 +566,7 @@ Two panels, continuing page 18.
 
 > NAGOJI: That alone would not make a man desert.
 
-> LANNOY: No. But seventeen years of watching the Company grind men into numbers does.
+> LANNOY: No. But eight years of watching the Company grind men into numbers does.
 
 **19.2** Memory panel: a VOC garrison yard in Ceylon in fever-grey light. Thin soldiers in faded, patched blue Company coats, some bare-headed, chewing biscuit. A whitewashed Dutch colonial fort wall with red-tiled roofs and palms beyond. In a lit doorway, officers in better blue coats and wigs at their wine. No red coats.
 
@@ -590,7 +590,7 @@ Five panels. What he chose, and why. Two memory panels break up the parapet talk
 
 > LANNOY: I decided I was tired of being a number in someone else's ledger.
 
-> LANNOY: I am forty-three. No wife, no children, no land waiting in Europe.
+> LANNOY: I am twenty-five. No wife, no children, no land waiting in Europe.
 
 **20.3** Memory, in the cold grey light of a northern schoolroom: a pale-haired Flemish boy of about ten at a wooden desk, drawing a star-shaped fortress with ruler and compasses. The drawing is all lines and angles, with no people anywhere in it and no writing on the paper.
 

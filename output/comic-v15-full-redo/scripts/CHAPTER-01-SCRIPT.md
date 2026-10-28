@@ -28,7 +28,7 @@ Five panels. Establish the cellar, the man, and the theft of his name.
 
 **1.2** Insert panel, tight. A clerk's hand, a quill, a ledger page. Visible in the ledger: a number, then the words *prisioneiro marata*. The ink is still wet.
 
-> CAPTION: I was Nagoji Sawant. Twenty-five. Huzurat cavalry, household horse to Chimaji Appa, picked out by sardars who had watched me ride.
+> CAPTION: I was Nagoji Sawant. Twenty-five. *Huzurat* cavalry, household horse to Chimaji Appa, picked out by sardars who had watched me ride.
 
 **1.3** Nagoji's face, close, lit from the high window. Eyes open. Not despairing. Watching.
 
@@ -62,7 +62,7 @@ Four panels. Duarte arrives. The chapter's second man is established by smell an
 
 **2.3** João passing Nagoji. He taps Nagoji's shoulder with his boot, almost companionably. He is humming. Small musical notes at his lips.
 
-> JOÃO: Este. This one is stubborn.
+> JOÃO: *Este*. This one is stubborn.
 
 **2.4** Nagoji's face, flat and unreadable, looking at nothing.
 
@@ -86,7 +86,7 @@ Five panels. The exchange that establishes Nagoji is not cowed. Ends on the orde
 
 **3.2** Nagoji looking back at him, level.
 
-> DUARTE: You understand our language, senhor marata?
+> DUARTE: You understand our language, *senhor marata*?
 
 **3.3** Tight on Nagoji's mouth, cracked and rust-dark.
 
@@ -142,7 +142,7 @@ Three panels. The room. Give it space. This is the reveal the turn was built for
 
 **5.3** Narrow strip. Nagoji being seated on a stool, wrists bound to its legs. João checking the knot. Duarte standing back, hands tucked into his sleeves, fingers worrying at the cloth.
 
-> CAPTION: This was where the Portuguese forged information.
+> *No text.*
 
 ---
 
@@ -152,7 +152,7 @@ Five panels. The interrogation proper. Nagoji wins the exchange. Then Kanka.
 
 **6.1** Duarte, formal now, reciting what they already have. He uses the name deliberately.
 
-> DUARTE: Nagoji Sawant. The Viceroy's spies insist you were huzurat cavalry under Chimaji Appa himself.
+> DUARTE: Nagoji Sawant. The Viceroy's spies insist you were *huzurat* cavalry under Chimaji Appa himself.
 
 > DUARTE: What we do not know is who ordered the attacks, how many men you had, and which forts you meant to strike next.
 
@@ -270,13 +270,7 @@ Four panels.
 
 **9.4** Full width. Nagoji's eyes opening in the dark.
 
-> CAPTION: Ships meant movement. Movement meant chances.
-
-> CAPTION: They had taken my name. They had tried to break my body.
-
-> CAPTION: They had forgotten the simplest lesson of the Deccan monsoon.
-
-> CAPTION (separate, weighted): Storms do not ask permission.
+> *No text.*
 
 ---
 

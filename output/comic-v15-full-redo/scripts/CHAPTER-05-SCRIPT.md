@@ -44,8 +44,6 @@ Cast for pages 1-2. Nagoji (attach `concepts/nagoji-v2.png`), COSTUME OVERRIDE f
 
 **1.5** Ibrahim's thumb has stopped on the scar. His gaze slides off Nagoji toward the bright doorway and the sea beyond it. For one beat he is somewhere else, and his face is the largest thing in the panel. Nagoji in the soft foreground, bare-shouldered, watching him do it. Keep all lettering on Nagoji's side of the frame so the flicker reads without words.
 
-> CAPTION: The fishermen had spoken the name Travancore. I wanted to hear it from this man's mouth.
-
 > NAGOJI: Who is your king?
 
 ---
@@ -315,12 +313,6 @@ Two panels. The bow, and the road pointing south. 10.2 is the tallest tier.
 > CAPTION: but as a man who understands that some battles begin with a lowered gaze and a measured tone.
 
 **10.2** Full width, bottom, the tallest tier, about half the page. Night, moonlight the only light. Camera slightly high inside the compound. In the lower foreground, Nagoji asleep on a mat under the eaves, one bandaged hand lying loosely curled on the mat, as if around reins. Beyond him the red stone wall, and over the top of it, pepper vines on their support trees and the pale road running away south into the dark. The captions sit in the moonlit sky.
-
-> CAPTION: Somewhere to the south a king I had not yet met considered maps covered in salt stains and ink.
-
-> CAPTION: The road that had begun in a Goan dungeon now pointed toward him.
-
-> CAPTION: Horses. Guns. Storms.
 
 > CAPTION (separate, weighted): When sleep came, it carried no dreams of drowning. Only the steady beat of hooves on sand, and a distant roar like the sea.
 

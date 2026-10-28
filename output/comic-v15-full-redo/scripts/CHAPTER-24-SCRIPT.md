@@ -425,7 +425,7 @@ Two panels. Last light. Lannoy's argument, and the challenge that lands. End on 
 
 **13.1** Over their shoulders: De Lannoy moving to stand beside Nagoji, both looking down at the training ground, the last light long across it.
 
-> LANNOY: In Zeeland, where I was born, there is a saying: the shirt does not make the sailor, but it tells you which ship he serves.
+> LANNOY: In Zeeland, where I first took ship, there is a saying: the shirt does not make the sailor, but it tells you which ship he serves.
 
 > LANNOY: I simply chose a different ship.
 
@@ -581,7 +581,7 @@ Five panels. More than a decade, crossed in a few paces.
 
 **19.4** Duarte, full face, afraid. His hands stay low; the right one twitches inside its sleeve.
 
-> DUARTE: Senhor... I... that is...
+> DUARTE: *Senhor*... I... that is...
 
 > NAGOJI (off): Father Duarte. You have come a long way from Goa.
 

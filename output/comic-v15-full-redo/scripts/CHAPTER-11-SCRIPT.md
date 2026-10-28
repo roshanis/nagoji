@@ -60,7 +60,11 @@ Five panels. A boy on a palm tree already knows the enemy commander by his postu
 
 > BOY (off): When he turns, the men move. When he scratches his nose, they move slower.
 
+> NAGOJI (off): He has a name?
+
 **2.4** Nagoji turning his horse, calling up to the boy. The boy already has the glass back at his eye.
+
+> BOY (from above): They shout something. Hard to hear over the wind. Lannoy. Lannu. Something like that.
 
 > NAGOJI: Keep watching. Count how many days they hover. Count how close they dare come.
 
@@ -88,7 +92,7 @@ Five panels. The war hall. The king has come down off his platform and onto the 
 
 > NAGOJI: Four company ships. Three large, one smaller. Moving south.
 
-> NAGOJI: The same tall officer on the quarterdeck. Pale hair, stiff back. He drills them hard.
+> NAGOJI: The watch boy says the same tall officer stands on the quarterdeck. He calls him Lannoy, though the wind may have changed the name.
 
 **3.3** Insert, tight. Ramayyan's thin fingers setting a small white shell beside a charcoal smear that marks a headland.
 
@@ -682,9 +686,7 @@ Five panels. Alone on the bluff at night. Let the page breathe.
 
 **24.1** Wide, night. The bluff above the sea, an older watchman pacing far in the background. Nagoji sits at the rock edge, knees drawn up, arms resting on them (commander sheet, rust-red turban, thick moustache, clean-shaven chin). Out on the black water, only clusters of lights; the masts are invisible.
 
-> CAPTION: Somewhere on the largest hull, the pale-haired officer stood or slept or paced. I did not yet know his name.
-
-> CAPTION: That would come later, when he surrendered at Colachel and chose a different flag.
+> CAPTION: Somewhere out there, on that largest hull, the pale-haired officer, Lannoy, Lannu, whatever his men called him, stood or slept or paced.
 
 **24.2** Close on Nagoji's face (thick moustache, clean-shaven chin), the ship lights in his eyes. Ghosted behind him, bleeding in from the panel edge like a stain: a vaulted stone wall, a brazier's glow, the edge of a plain wooden table with tools laid out. No ropes, no noose, no figures.
 

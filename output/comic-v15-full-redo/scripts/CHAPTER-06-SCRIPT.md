@@ -354,8 +354,6 @@ Five panels. The charge, the exit and the vow. End on the chapter's last line.
 
 > RAMAYYAN: Come. Let us see what a storm can do when given horse instead of chains.
 
-> CAPTION: Storms had tried to kill me. Now I would learn whether I could become one.
-
 **12.4** Medium close on Nagoji's hip and hand: his bandaged hand has gone to his hip and rests on the plain knot of his cotton dhoti, below the hem of his cream shirt. The hip is bare of any weapon: NO sword, NO scabbard, NO sash, NO belt. The stone step and the bright sea beyond are out of focus.
 
 > CAPTION (italic): *I will serve this king. I will harden his riders and break his enemies.*

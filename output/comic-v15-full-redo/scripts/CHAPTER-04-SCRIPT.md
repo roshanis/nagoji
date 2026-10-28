@@ -204,13 +204,9 @@ Five panels. Word goes out, and something comes back. End on the weighing. Insid
 
 > FISHERMAN: He works for men who have long arms.
 
-> CAPTION: Storms on land were different from storms at sea. They did not roar and crash; they crept in on quiet feet, through conversations and calculations.
-
 **6.4** Full-width tier, not a narrow strip. Nagoji's eyes closed, hearth light on his face. Behind him, out of focus, the Fisherman and the Young Fisherman are turning their heads toward the door, straightening, and a broad shadow falls across the swept floor. Nagoji: clean-shaven chin, no beard, thick moustache.
 
-> CAPTION: I had escaped the Portuguese dungeon and the drowning ship by chance and stubbornness.
-
-> CAPTION: If I was to survive whatever came next, I would need more than that.
+> *No text.*
 
 **6.5** Large, about the bottom 40 percent of the page. Camera low, from beside Nagoji's mat, looking up. The *kapitan* has stepped a pace inside so his face is in the room: three-quarter view with HIS OWN (anatomical) left cheek toward camera, lit warm by the hearth; the scar runs from that left ear to the corner of his jaw. Grey daylight from the doorway only rims his shoulders. Shorter than the fishermen but broader: the Young Fisherman (indigo lungi, headband) stands just behind him, half a head taller, drawing back with respect beside the Fisherman (red lungi, shoulder cloth). White turban, short grey-flecked beard, pale vest over a white mundu. No coat (the coat arrives in chapter 6). He says nothing. A slow, appraising look moves over the brand, the hands, the shoulders; Nagoji's left forearm lies on the mat, inner side up, toward him. Nagoji, on the mat in the foreground, has opened his eyes and is looking straight back. Nagoji: clean-shaven chin, no beard, thick moustache; no irons or chains.
 

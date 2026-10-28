@@ -94,9 +94,9 @@ Three panels. The market. The argument is loud; the information is in the eyes.
 
 **4.1** Wide establishing. Awnings of cloth and palm leaves. Traders from the interior haggling over sacks of rice and jars of oil. On a raised platform, an Arab merchant in a flowing white robe sits cross-legged, weighing silver coins on a small brass scale while his servant counts sacks of pepper. Beside a cloth stall, a young Syrian Christian scribe (clean-shaven, black hair, white cloth, small wooden cross) at a low desk, writing, a stack of folded paper bills at his elbow. Marakkar men bargaining over pepper and cardamom, their eyes flicking toward a path that runs down to the water. Ramayyan and Nagoji, boots and talwar back on, entering at the edge.
 
-> CAPTION: Silver chuckrams. Pepper by the candi, the measure by which fortunes were made or lost on this coast.
+> CAPTION: Silver *chuckrams*. Pepper by the *candi*, the measure by which fortunes were made or lost on this coast.
 
-> CAPTION: And hundis, that could turn pepper in Travancore into gold in Muscat without a single coin crossing the sea.
+> CAPTION: And *hundis*, that could turn pepper in Travancore into gold in Muscat without a single coin crossing the sea.
 
 **4.2** Two-shot. Nagoji unimpressed. Ramayyan's eyes already somewhere down the row of stalls.
 
@@ -300,7 +300,7 @@ Five panels. The raid near Attingal. Shoot it from outside and above; the point 
 
 **12.1** Wide. Dawn, blue mist. A madampi's estate: high old walls pressed round by thick groves of bamboo. On the wall, one watchman, yawning.
 
-> CAPTION: A madampi near Attingal refused to send his men for the new army drills. He thought his high walls and thick bamboo would protect him from a young King's decrees.
+> CAPTION: A *madampi* near Attingal refused to send his men for the new army drills. He thought his high walls and thick bamboo would protect him from a young King's decrees.
 
 **12.2** Low and fast, inside the bamboo: Maravar horsemen bursting through the wet stems at a gallop, Nagoji at their head, talwar drawn. Inset, tight, drawn inside this panel's own frame: a palm leaf in Ramayyan's hand, the estate's supply paths scratched into it with a stylus as lines only, no lettering.
 
